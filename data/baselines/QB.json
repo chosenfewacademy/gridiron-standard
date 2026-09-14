@@ -1,0 +1,87 @@
+{
+  "architecture_version": "1.0.0",
+  "methodology_version": "1.0.0",
+  "status": "LOCKED",
+  "mutation_policy": "IMMUTABLE_UNLESS_EXPLICIT_CURRENT_DATA_TOP10_REAUDIT",
+  "historical_cards_policy": "Do not fabricate missing historical full-card attributes.",
+  "position": "QB",
+  "version": "bootstrap-2026-08-30",
+  "top_10": [
+    {
+      "rank": 1,
+      "player": "Matthew Stafford",
+      "ovr": 91
+    },
+    {
+      "rank": 2,
+      "player": "Joe Burrow",
+      "ovr": 90
+    },
+    {
+      "rank": 3,
+      "player": "Josh Allen",
+      "ovr": 90
+    },
+    {
+      "rank": 4,
+      "player": "Drake Maye",
+      "ovr": 88
+    },
+    {
+      "rank": 5,
+      "player": "Jordan Love",
+      "ovr": 88
+    },
+    {
+      "rank": 6,
+      "player": "Dak Prescott",
+      "ovr": 87
+    },
+    {
+      "rank": 7,
+      "player": "Brock Purdy",
+      "ovr": 85
+    },
+    {
+      "rank": 8,
+      "player": "Justin Herbert",
+      "ovr": 84
+    },
+    {
+      "rank": 9,
+      "player": "Trevor Lawrence",
+      "ovr": 84
+    },
+    {
+      "rank": 10,
+      "player": "Sam Darnold",
+      "ovr": 83
+    }
+  ],
+  "last_in": {
+    "player": "Sam Darnold",
+    "ovr": 83
+  },
+  "first_out": {
+    "player": "Patrick Mahomes",
+    "ovr": 83
+  },
+  "external_controls": [
+    {
+      "player": "Patrick Mahomes",
+      "ovr": 83
+    },
+    {
+      "player": "Lamar Jackson",
+      "ovr": 83
+    },
+    {
+      "player": "Jared Goff",
+      "ovr": 82
+    }
+  ],
+  "scarcity": {
+    "status": "LOCKED_HISTORICAL_NOT_FULLY_STRUCTURED"
+  },
+  "full_cards_import_status": "NOT_YET_IMPORTED"
+}

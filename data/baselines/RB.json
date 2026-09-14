@@ -1,0 +1,79 @@
+{
+  "architecture_version": "1.0.0",
+  "methodology_version": "1.0.0",
+  "status": "LOCKED",
+  "mutation_policy": "IMMUTABLE_UNLESS_EXPLICIT_CURRENT_DATA_TOP10_REAUDIT",
+  "historical_cards_policy": "Do not fabricate missing historical full-card attributes.",
+  "position": "RB",
+  "version": "bootstrap-2026-08-30",
+  "top_10": [
+    {
+      "rank": 1,
+      "player": "Bijan Robinson",
+      "ovr": 91
+    },
+    {
+      "rank": 2,
+      "player": "Jahmyr Gibbs",
+      "ovr": 90
+    },
+    {
+      "rank": 3,
+      "player": "De'Von Achane",
+      "ovr": 89
+    },
+    {
+      "rank": 4,
+      "player": "Kenneth Walker III",
+      "ovr": 89
+    },
+    {
+      "rank": 5,
+      "player": "Derrick Henry",
+      "ovr": 88
+    },
+    {
+      "rank": 6,
+      "player": "Christian McCaffrey",
+      "ovr": 87
+    },
+    {
+      "rank": 7,
+      "player": "James Cook",
+      "ovr": 87
+    },
+    {
+      "rank": 8,
+      "player": "Jonathan Taylor",
+      "ovr": 87
+    },
+    {
+      "rank": 9,
+      "player": "Josh Jacobs",
+      "ovr": 85
+    },
+    {
+      "rank": 10,
+      "player": "Kyren Williams",
+      "ovr": 84
+    }
+  ],
+  "last_in": {
+    "player": "Kyren Williams",
+    "ovr": 84
+  },
+  "first_out": {
+    "player": "Breece Hall",
+    "ovr": 84
+  },
+  "external_controls": [
+    {
+      "player": "Breece Hall",
+      "ovr": 84
+    }
+  ],
+  "scarcity": {
+    "status": "LOCKED_HISTORICAL_NOT_FULLY_STRUCTURED"
+  },
+  "full_cards_import_status": "NOT_YET_IMPORTED"
+}

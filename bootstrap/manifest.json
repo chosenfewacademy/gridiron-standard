@@ -1,0 +1,18 @@
+{
+  "import_as_locked": [
+    "QB",
+    "RB",
+    "WR",
+    "TE",
+    "LT"
+  ],
+  "current_position": "LG",
+  "next_task": "LG_PAIR_03",
+  "baseline_import_status": {
+    "QB": "IMPORTED_LOCKED",
+    "RB": "IMPORTED_LOCKED",
+    "WR": "IMPORTED_LOCKED",
+    "TE": "IMPORTED_LOCKED",
+    "LT": "IMPORTED_LOCKED"
+  }
+}

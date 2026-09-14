@@ -1,0 +1,52 @@
+{
+  "audit_id": "6cb4a74b-2218-4ff9-843c-de8a1c8ae1a3",
+  "status": "FAILED_TERMINAL",
+  "attempt_count": 3,
+  "max_attempts": 3,
+  "last_attempt_at": "2026-09-06T00:25:45.797Z",
+  "calendar": null,
+  "history": [
+    {
+      "started_at": "2026-09-02T17:22:12.489Z",
+      "ended_at": "2026-09-02T17:22:42.533Z",
+      "elapsed_ms": 30044,
+      "outcome": "FAILURE",
+      "reason": "AbortError: The operation was aborted"
+    },
+    {
+      "started_at": "2026-09-02T17:22:42.536Z",
+      "ended_at": "2026-09-02T17:23:12.578Z",
+      "elapsed_ms": 30042,
+      "outcome": "FAILURE",
+      "reason": "AbortError: The operation was aborted"
+    },
+    {
+      "started_at": "2026-09-02T17:23:12.582Z",
+      "ended_at": "2026-09-02T17:23:42.629Z",
+      "elapsed_ms": 30047,
+      "outcome": "FAILURE",
+      "reason": "AbortError: The operation was aborted"
+    },
+    {
+      "started_at": "2026-09-06T00:24:18.245Z",
+      "ended_at": "2026-09-06T00:25:03.285Z",
+      "elapsed_ms": 45040,
+      "outcome": "FAILURE",
+      "reason": "AbortError: The operation was aborted"
+    },
+    {
+      "started_at": "2026-09-06T00:25:03.289Z",
+      "ended_at": "2026-09-06T00:25:45.794Z",
+      "elapsed_ms": 42505,
+      "outcome": "FAILURE",
+      "reason": "Error: CALENDAR_BOUNDARIES_INCONSISTENT"
+    },
+    {
+      "started_at": "2026-09-06T00:25:45.797Z",
+      "ended_at": "2026-09-06T00:26:30.826Z",
+      "elapsed_ms": 45029,
+      "outcome": "FAILURE",
+      "reason": "AbortError: The operation was aborted"
+    }
+  ]
+}

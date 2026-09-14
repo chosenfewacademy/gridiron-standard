@@ -1,0 +1,122 @@
+{
+  "architecture_version": "1.0.0",
+  "methodology_version": "1.0.0",
+  "status": "LOCKED",
+  "mutation_policy": "IMMUTABLE_UNLESS_EXPLICIT_CURRENT_DATA_TOP10_REAUDIT",
+  "historical_cards_policy": "Do not fabricate missing historical full-card attributes.",
+  "position": "TE",
+  "version": "bootstrap-2026-08-30",
+  "top_10": [
+    {
+      "rank": 1,
+      "player": "Trey McBride",
+      "ovr": 92
+    },
+    {
+      "rank": 2,
+      "player": "George Kittle",
+      "ovr": 91
+    },
+    {
+      "rank": 3,
+      "player": "Brock Bowers",
+      "ovr": 88
+    },
+    {
+      "rank": 4,
+      "player": "Dalton Kincaid",
+      "ovr": 87
+    },
+    {
+      "rank": 5,
+      "player": "Sam LaPorta",
+      "ovr": 86
+    },
+    {
+      "rank": 6,
+      "player": "Colston Loveland",
+      "ovr": 86
+    },
+    {
+      "rank": 7,
+      "player": "Kyle Pitts",
+      "ovr": 85
+    },
+    {
+      "rank": 8,
+      "player": "Tucker Kraft",
+      "ovr": 85
+    },
+    {
+      "rank": 9,
+      "player": "Hunter Henry",
+      "ovr": 84
+    },
+    {
+      "rank": 10,
+      "player": "Travis Kelce",
+      "ovr": 84
+    }
+  ],
+  "last_in": {
+    "player": "Travis Kelce",
+    "ovr": 84
+  },
+  "first_out": {
+    "player": "Tyler Warren",
+    "ovr": 83
+  },
+  "external_controls": [
+    {
+      "player": "Tyler Warren",
+      "ovr": 83
+    },
+    {
+      "player": "Brenton Strange",
+      "ovr": 83
+    }
+  ],
+  "scarcity": {
+    "95_plus": [
+      {
+        "player": "Trey McBride",
+        "attribute": "CTH",
+        "rating": 96
+      },
+      {
+        "player": "Trey McBride",
+        "attribute": "CIT",
+        "rating": 96
+      },
+      {
+        "player": "Trey McBride",
+        "attribute": "STA",
+        "rating": 96
+      },
+      {
+        "player": "George Kittle",
+        "attribute": "RBK",
+        "rating": 96
+      },
+      {
+        "player": "George Kittle",
+        "attribute": "IBL",
+        "rating": 95
+      },
+      {
+        "player": "Brock Bowers",
+        "attribute": "COD",
+        "rating": 95
+      },
+      {
+        "player": "Tucker Kraft",
+        "attribute": "BTK",
+        "rating": 95
+      }
+    ],
+    "97_plus": [],
+    "98_plus": [],
+    "99": []
+  },
+  "full_cards_import_status": "NOT_YET_IMPORTED"
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Canonical Player Profile",
+  "type": "object",
+  "required": [
+    "player_id",
+    "full_name"
+  ],
+  "properties": {
+    "player_id": {
+      "type": "string"
+    },
+    "full_name": {
+      "type": "string"
+    },
+    "team": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "position": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "height": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "weight": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "age": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "experience": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "injury_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "depth_chart_role": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "current_audit_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "audit_history": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

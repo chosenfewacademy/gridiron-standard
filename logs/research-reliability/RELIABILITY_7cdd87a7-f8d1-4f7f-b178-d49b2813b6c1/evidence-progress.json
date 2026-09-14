@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "RELIABILITY_7cdd87a7-f8d1-4f7f-b178-d49b2813b6c1",
+  "player_id": "non_player_reliability_fixture",
+  "player_name": "NFL league information",
+  "position": "N/A",
+  "task": {
+    "type": "RESEARCH_RELIABILITY_SMOKE",
+    "as_of": "2026-09-02T17:13:13.152Z",
+    "nfl_season": 2026,
+    "instruction": "Current public NFL league calendar, schedule publication, and rules information only; no player research."
+  },
+  "created_at": "2026-09-02T17:13:13.152Z",
+  "updated_at": "2026-09-02T17:14:13.168Z",
+  "max_attempts": 2,
+  "categories": {
+    "league_calendar": {
+      "player_id": "non_player_reliability_fixture",
+      "audit_id": "RELIABILITY_7cdd87a7-f8d1-4f7f-b178-d49b2813b6c1",
+      "evidence_category": "league_calendar",
+      "status": "SATISFIED",
+      "attempt_count": 1,
+      "last_attempt_timestamp": "2026-09-02T17:13:13.163Z",
+      "source_urls": [
+        "https://operations.nfl.com/calendar-events/nfl-important-dates"
+      ],
+      "accepted_evidence": [
+        {
+          "claim": "The 2026 NFL Kickoff Weekend is scheduled for September 9-10 and September 13-14, 2026.",
+          "source_url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+          "retrieved_at": "2026-09-02T13:13:13-04:00",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Week 18 of the 2026 NFL season is scheduled for January 9-10, 2027.",
+          "source_url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+          "retrieved_at": "2026-09-02T13:13:13-04:00",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "The 2026 season postseason is scheduled with Wild Card Weekend on January 16-18, Divisional Playoffs on January 23-24, conference championship games on January 31, and Super Bowl LXI on February 14, 2027.",
+          "source_url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+          "retrieved_at": "2026-09-02T13:13:13-04:00",
+          "season": 2026,
+          "period": "POSTSEASON"
+        }
+      ],
+      "normalized_evidence": {
+        "status": "satisfied",
+        "confidence": "HIGH",
+        "items": [
+          {
+            "claim": "The 2026 NFL Kickoff Weekend is scheduled for September 9-10 and September 13-14, 2026.",
+            "source_url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+            "retrieved_at": "2026-09-02T13:13:13-04:00",
+            "season": 2026,
+            "period": "REGULAR_SEASON"
+          },
+          {
+            "claim": "Week 18 of the 2026 NFL season is scheduled for January 9-10, 2027.",
+            "source_url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+            "retrieved_at": "2026-09-02T13:13:13-04:00",
+            "season": 2026,
+            "period": "REGULAR_SEASON"
+          },
+          {
+            "claim": "The 2026 season postseason is scheduled with Wild Card Weekend on January 16-18, Divisional Playoffs on January 23-24, conference championship games on January 31, and Super Bowl LXI on February 14, 2027.",
+            "source_url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+            "retrieved_at": "2026-09-02T13:13:13-04:00",
+            "season": 2026,
+            "period": "POSTSEASON"
+          }
+        ],
+        "limitations": [
+          "The NFL states that all listed dates are subject to change."
+        ]
+      },
+      "unresolved_conflicts": [],
+      "missing_fields": [],
+      "retry_eligible": false,
+      "failure_reason": null
+    },
+    "schedule_source": {
+      "player_id": "non_player_reliability_fixture",
+      "audit_id": "RELIABILITY_7cdd87a7-f8d1-4f7f-b178-d49b2813b6c1",
+      "evidence_category": "schedule_source",
+      "status": "SATISFIED",
+      "attempt_count": 2,
+      "last_attempt_timestamp": "2026-09-02T17:13:56.157Z",
+      "source_urls": [
+        "https://www.nfl.com/nfl-schedule-release/"
+      ],
+      "accepted_evidence": [
+        {
+          "claim": "The official NFL schedule-release hub publishes the 2026 NFL schedule, including week, date, kickoff time, matchup, broadcaster, and venue information.",
+          "source_url": "https://www.nfl.com/nfl-schedule-release/",
+          "retrieved_at": "2026-09-02T13:13:13.152-04:00",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "normalized_evidence": {
+        "status": "satisfied",
+        "confidence": "HIGH",
+        "items": [
+          {
+            "claim": "The official NFL schedule-release hub publishes the 2026 NFL schedule, including week, date, kickoff time, matchup, broadcaster, and venue information.",
+            "source_url": "https://www.nfl.com/nfl-schedule-release/",
+            "retrieved_at": "2026-09-02T13:13:13.152-04:00",
+            "season": 2026,
+            "period": "CURRENT_CONTEXT"
+          }
+        ],
+        "limitations": []
+      },
+      "unresolved_conflicts": [],
+      "missing_fields": [],
+      "retry_eligible": false,
+      "failure_reason": null
+    },
+    "rules_resource": {
+      "player_id": "non_player_reliability_fixture",
+      "audit_id": "RELIABILITY_7cdd87a7-f8d1-4f7f-b178-d49b2813b6c1",
+      "evidence_category": "rules_resource",
+      "status": "SATISFIED",
+      "attempt_count": 1,
+      "last_attempt_timestamp": "2026-09-02T17:13:41.184Z",
+      "source_urls": [
+        "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook"
+      ],
+      "accepted_evidence": [
+        {
+          "claim": "NFL Football Operations publishes the official 2026 NFL Rulebook, including the complete playing rules and 2026 rule changes.",
+          "source_url": "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook",
+          "retrieved_at": "2026-09-02T13:13:13-04:00",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "normalized_evidence": {
+        "status": "satisfied",
+        "confidence": "HIGH",
+        "items": [
+          {
+            "claim": "NFL Football Operations publishes the official 2026 NFL Rulebook, including the complete playing rules and 2026 rule changes.",
+            "source_url": "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook",
+            "retrieved_at": "2026-09-02T13:13:13-04:00",
+            "season": 2026,
+            "period": "CURRENT_CONTEXT"
+          }
+        ],
+        "limitations": []
+      },
+      "unresolved_conflicts": [],
+      "missing_fields": [],
+      "retry_eligible": false,
+      "failure_reason": null
+    }
+  },
+  "retry_history": [
+    {
+      "batch_id": "SMOKE_LEAGUE_CALENDAR",
+      "categories": [
+        "league_calendar"
+      ],
+      "attempted_at": "2026-09-02T17:13:13.163Z",
+      "outcome": "SUCCESS",
+      "failure_kind": null,
+      "reason": null
+    },
+    {
+      "batch_id": "SMOKE_SCHEDULE_SOURCE",
+      "categories": [
+        "schedule_source"
+      ],
+      "attempted_at": "2026-09-02T17:13:41.179Z",
+      "outcome": "FAILURE",
+      "failure_kind": "NETWORK_TOOL_TIMEOUT",
+      "reason": "Intentional first-attempt harness timeout"
+    },
+    {
+      "batch_id": "SMOKE_RULES_RESOURCE",
+      "categories": [
+        "rules_resource"
+      ],
+      "attempted_at": "2026-09-02T17:13:41.184Z",
+      "outcome": "SUCCESS",
+      "failure_kind": null,
+      "reason": null
+    },
+    {
+      "batch_id": "SMOKE_SCHEDULE_SOURCE",
+      "categories": [
+        "schedule_source"
+      ],
+      "attempted_at": "2026-09-02T17:13:56.157Z",
+      "outcome": "SUCCESS",
+      "failure_kind": null,
+      "reason": null
+    }
+  ],
+  "execution_diagnostics": [
+    {
+      "micro_batch_id": "SMOKE_LEAGUE_CALENDAR",
+      "attempt_number": 1,
+      "started_at": "2026-09-02T17:13:13.166Z",
+      "ended_at": "2026-09-02T17:13:41.175Z",
+      "elapsed_ms": 28009,
+      "thread_id": "01a0631c-4bed-7ac1-aad0-fe8871f9049e",
+      "timeout_stage": null,
+      "outcome": "SUCCESS",
+      "failure_kind": null
+    },
+    {
+      "micro_batch_id": "SMOKE_SCHEDULE_SOURCE",
+      "attempt_number": 1,
+      "started_at": "2026-09-02T17:13:41.181Z",
+      "ended_at": "2026-09-02T17:13:41.181Z",
+      "elapsed_ms": 0,
+      "thread_id": null,
+      "timeout_stage": "THREAD_RUN",
+      "outcome": "FAILURE",
+      "failure_kind": "NETWORK_TOOL_TIMEOUT"
+    },
+    {
+      "micro_batch_id": "SMOKE_RULES_RESOURCE",
+      "attempt_number": 1,
+      "started_at": "2026-09-02T17:13:41.186Z",
+      "ended_at": "2026-09-02T17:13:56.149Z",
+      "elapsed_ms": 14963,
+      "thread_id": "01a0631c-b967-7b93-b9db-ffe279386211",
+      "timeout_stage": null,
+      "outcome": "SUCCESS",
+      "failure_kind": null
+    },
+    {
+      "micro_batch_id": "SMOKE_SCHEDULE_SOURCE",
+      "attempt_number": 2,
+      "started_at": "2026-09-02T17:13:56.162Z",
+      "ended_at": "2026-09-02T17:14:13.167Z",
+      "elapsed_ms": 17005,
+      "thread_id": "01a0631c-f24c-79e0-a313-f0f1299f3727",
+      "timeout_stage": null,
+      "outcome": "SUCCESS",
+      "failure_kind": null
+    }
+  ],
+  "source_provenance": [
+    {
+      "name": "NFL Football Operations — NFL Important Dates",
+      "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+      "retrieved_at": "2026-09-02T13:13:13-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "The 2026 NFL Kickoff Weekend is scheduled for September 9-10 and September 13-14, 2026.",
+        "Week 18 is scheduled for January 9-10, 2027.",
+        "Wild Card Weekend is scheduled for January 16-18, the Divisional Playoffs for January 23-24, the conference championship games for January 31, and Super Bowl LXI for February 14, 2027."
+      ]
+    },
+    {
+      "name": "NFL Football Operations — 2026 NFL Rulebook",
+      "url": "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook",
+      "retrieved_at": "2026-09-02T13:13:13-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "NFL Football Operations publishes the official 2026 NFL Rulebook, including the complete playing rules and 2026 rule changes."
+      ]
+    },
+    {
+      "name": "NFL.com — 2026 NFL Schedule Release",
+      "url": "https://www.nfl.com/nfl-schedule-release/",
+      "retrieved_at": "2026-09-02T13:13:13.152-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "The official NFL schedule-release hub publishes the 2026 NFL schedule, including week, date, kickoff time, matchup, broadcaster, and venue information."
+      ]
+    }
+  ],
+  "minimum_evidence_met": true
+}

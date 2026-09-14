@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Gridiron Standard Evidence Package",
+  "type": "object",
+  "required": [
+    "task_id",
+    "position",
+    "researched_at",
+    "sources",
+    "normalized"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "researched_at": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "authority_tier",
+          "retrieved_at"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "published_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "retrieved_at": {
+            "type": "string"
+          },
+          "authority_tier": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "normalized": {
+      "type": "object"
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "minimum_evidence_met": {
+      "type": "boolean"
+    },
+    "missing_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "audit_type": {
+      "type": "string"
+    },
+    "nfl_season": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "season_phase": {
+      "enum": [
+        "OFFSEASON",
+        "PRESEASON",
+        "REGULAR_SEASON_EARLY",
+        "REGULAR_SEASON_ESTABLISHED",
+        "POSTSEASON",
+        "COMPLETE_SEASON",
+        null
+      ]
+    },
+    "evidence_season": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "sample_size_context": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "required": [
+            "weighting",
+            "established_after_games",
+            "player_sample_limited",
+            "limitations"
+          ],
+          "properties": {
+            "weighting": {
+              "enum": [
+                "COMPLETED_SEASON_PRIMARY_WITH_CURRENT_CONTEXT",
+                "COMPLETED_SEASON_PRIMARY_WITH_SMALL_CURRENT_SAMPLE",
+                "CURRENT_SEASON_PRIMARY_PRIOR_CONTEXT"
+              ]
+            },
+            "established_after_games": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "player_sample_limited": {
+              "type": "boolean"
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "current_season_games_available": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "current_season_games_played": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "prior_season_used_as_primary_baseline": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "audit_type": {
+            "const": "FULL_AUDIT"
+          }
+        },
+        "required": [
+          "audit_type"
+        ]
+      },
+      "then": {
+        "$ref": "full-audit-evidence.schema.json"
+      }
+    }
+  ]
+}

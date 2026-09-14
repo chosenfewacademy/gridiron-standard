@@ -1,0 +1,886 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QB reconstructed full-card contract",
+  "$comment": "Structural export of the canonical Zod contract in src/qb-reconstruction.ts. Runtime validation additionally enforces source linkage, evidence gating, scarcity, immutable constraints and approval authorization.",
+  "$ref": "#/$defs/node1",
+  "$defs": {
+    "node2": {
+      "const": "qb-reconstruction/1"
+    },
+    "node3": {
+      "const": "1.0.0"
+    },
+    "node4": {
+      "const": "1.0.0"
+    },
+    "node6": {
+      "type": "string",
+      "minLength": 1
+    },
+    "node7": {
+      "const": "QB"
+    },
+    "node5": {
+      "type": "object",
+      "properties": {
+        "player_id": {
+          "$ref": "#/$defs/node6"
+        },
+        "player_name": {
+          "$ref": "#/$defs/node6"
+        },
+        "team": {
+          "$ref": "#/$defs/node6"
+        },
+        "position": {
+          "$ref": "#/$defs/node7"
+        }
+      },
+      "required": [
+        "player_id",
+        "player_name",
+        "team",
+        "position"
+      ],
+      "additionalProperties": false
+    },
+    "node8": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 99
+    },
+    "node9": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/node8"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "node10": {
+      "type": "object",
+      "properties": {
+        "THP": {
+          "$ref": "#/$defs/node8"
+        },
+        "SAC": {
+          "$ref": "#/$defs/node8"
+        },
+        "MAC": {
+          "$ref": "#/$defs/node8"
+        },
+        "DAC": {
+          "$ref": "#/$defs/node8"
+        },
+        "RUN": {
+          "$ref": "#/$defs/node8"
+        },
+        "TUP": {
+          "$ref": "#/$defs/node8"
+        },
+        "PAC": {
+          "$ref": "#/$defs/node8"
+        },
+        "BSK": {
+          "$ref": "#/$defs/node8"
+        },
+        "AWR": {
+          "$ref": "#/$defs/node8"
+        },
+        "SPD": {
+          "$ref": "#/$defs/node8"
+        },
+        "ACC": {
+          "$ref": "#/$defs/node8"
+        },
+        "AGI": {
+          "$ref": "#/$defs/node8"
+        },
+        "COD": {
+          "$ref": "#/$defs/node8"
+        },
+        "STR": {
+          "$ref": "#/$defs/node8"
+        },
+        "CAR": {
+          "$ref": "#/$defs/node8"
+        },
+        "JMP": {
+          "$ref": "#/$defs/node8"
+        },
+        "INJ": {
+          "$ref": "#/$defs/node8"
+        },
+        "STA": {
+          "$ref": "#/$defs/node8"
+        },
+        "TGH": {
+          "$ref": "#/$defs/node8"
+        }
+      },
+      "required": [
+        "THP",
+        "SAC",
+        "MAC",
+        "DAC",
+        "RUN",
+        "TUP",
+        "PAC",
+        "BSK",
+        "AWR",
+        "SPD",
+        "ACC",
+        "AGI",
+        "COD",
+        "STR",
+        "CAR",
+        "JMP",
+        "INJ",
+        "STA",
+        "TGH"
+      ],
+      "additionalProperties": false
+    },
+    "node12": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/node8"
+      }
+    },
+    "node11": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/node12"
+        }
+      ],
+      "$comment": "Additional runtime refinement applies; use the canonical Zod schema and reconstruction validator."
+    },
+    "node15": {
+      "type": "string",
+      "format": "uri"
+    },
+    "node16": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "node14": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "$ref": "#/$defs/node6"
+        },
+        "url": {
+          "$ref": "#/$defs/node15"
+        },
+        "retrieved_at": {
+          "$ref": "#/$defs/node16"
+        },
+        "description": {
+          "$ref": "#/$defs/node6"
+        }
+      },
+      "required": [
+        "source_id",
+        "url",
+        "retrieved_at",
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "node13": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node14"
+      },
+      "minItems": 1
+    },
+    "node19": {
+      "type": "string",
+      "enum": [
+        "HIGH",
+        "MEDIUM",
+        "LOW"
+      ]
+    },
+    "node20": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node6"
+      },
+      "minItems": 1
+    },
+    "node21": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node6"
+      }
+    },
+    "node25": {
+      "const": 90
+    },
+    "node26": {
+      "const": 95
+    },
+    "node27": {
+      "const": 97
+    },
+    "node28": {
+      "const": 99
+    },
+    "node24": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/node25"
+        },
+        {
+          "$ref": "#/$defs/node26"
+        },
+        {
+          "$ref": "#/$defs/node27"
+        },
+        {
+          "$ref": "#/$defs/node28"
+        }
+      ]
+    },
+    "node29": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node6"
+      },
+      "minItems": 1
+    },
+    "node23": {
+      "type": "object",
+      "properties": {
+        "threshold": {
+          "$ref": "#/$defs/node24"
+        },
+        "rationale": {
+          "$ref": "#/$defs/node6"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/node29"
+        }
+      },
+      "required": [
+        "threshold",
+        "rationale",
+        "source_ids"
+      ],
+      "additionalProperties": false
+    },
+    "node22": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node23"
+      }
+    },
+    "node18": {
+      "type": "object",
+      "properties": {
+        "confidence": {
+          "$ref": "#/$defs/node19"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/node20"
+        },
+        "why_not_higher": {
+          "$ref": "#/$defs/node6"
+        },
+        "why_not_lower": {
+          "$ref": "#/$defs/node6"
+        },
+        "sample_size_context": {
+          "$ref": "#/$defs/node6"
+        },
+        "limitations": {
+          "$ref": "#/$defs/node21"
+        },
+        "scarcity_support": {
+          "$ref": "#/$defs/node22"
+        },
+        "evidence_confidence": {
+          "enum": [
+            "HIGH",
+            "MEDIUM",
+            "LOW"
+          ]
+        },
+        "evidence_tier": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "direct_or_inferred": {
+          "enum": [
+            "DIRECT",
+            "SUBSTITUTED",
+            "INFERRED"
+          ]
+        },
+        "primary_evidence_sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uncertainty_flag": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "confidence",
+        "evidence_confidence",
+        "evidence_tier",
+        "direct_or_inferred",
+        "primary_evidence_sources",
+        "rationale",
+        "uncertainty_flag",
+        "source_ids",
+        "why_not_higher",
+        "why_not_lower",
+        "sample_size_context",
+        "limitations",
+        "scarcity_support"
+      ],
+      "additionalProperties": false
+    },
+    "node17": {
+      "type": "object",
+      "properties": {
+        "THP": {
+          "$ref": "#/$defs/node18"
+        },
+        "SAC": {
+          "$ref": "#/$defs/node18"
+        },
+        "MAC": {
+          "$ref": "#/$defs/node18"
+        },
+        "DAC": {
+          "$ref": "#/$defs/node18"
+        },
+        "RUN": {
+          "$ref": "#/$defs/node18"
+        },
+        "TUP": {
+          "$ref": "#/$defs/node18"
+        },
+        "PAC": {
+          "$ref": "#/$defs/node18"
+        },
+        "BSK": {
+          "$ref": "#/$defs/node18"
+        },
+        "AWR": {
+          "$ref": "#/$defs/node18"
+        },
+        "SPD": {
+          "$ref": "#/$defs/node18"
+        },
+        "ACC": {
+          "$ref": "#/$defs/node18"
+        },
+        "AGI": {
+          "$ref": "#/$defs/node18"
+        },
+        "COD": {
+          "$ref": "#/$defs/node18"
+        },
+        "STR": {
+          "$ref": "#/$defs/node18"
+        },
+        "CAR": {
+          "$ref": "#/$defs/node18"
+        },
+        "JMP": {
+          "$ref": "#/$defs/node18"
+        },
+        "INJ": {
+          "$ref": "#/$defs/node18"
+        },
+        "STA": {
+          "$ref": "#/$defs/node18"
+        },
+        "TGH": {
+          "$ref": "#/$defs/node18"
+        }
+      },
+      "required": [
+        "THP",
+        "SAC",
+        "MAC",
+        "DAC",
+        "RUN",
+        "TUP",
+        "PAC",
+        "BSK",
+        "AWR",
+        "SPD",
+        "ACC",
+        "AGI",
+        "COD",
+        "STR",
+        "CAR",
+        "JMP",
+        "INJ",
+        "STA",
+        "TGH"
+      ],
+      "additionalProperties": false
+    },
+    "node32": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node6"
+      },
+      "minItems": 1
+    },
+    "node33": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node6"
+      }
+    },
+    "node31": {
+      "type": "object",
+      "properties": {
+        "assessment": {
+          "$ref": "#/$defs/node6"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/node32"
+        },
+        "limitations": {
+          "$ref": "#/$defs/node33"
+        }
+      },
+      "required": [
+        "assessment",
+        "source_ids",
+        "limitations"
+      ],
+      "additionalProperties": false
+    },
+    "node30": {
+      "type": "object",
+      "properties": {
+        "arm_strength": {
+          "$ref": "#/$defs/node31"
+        },
+        "short_accuracy": {
+          "$ref": "#/$defs/node31"
+        },
+        "intermediate_accuracy": {
+          "$ref": "#/$defs/node31"
+        },
+        "deep_accuracy": {
+          "$ref": "#/$defs/node31"
+        },
+        "pressure_performance": {
+          "$ref": "#/$defs/node31"
+        },
+        "pocket_movement": {
+          "$ref": "#/$defs/node31"
+        },
+        "sack_avoidance": {
+          "$ref": "#/$defs/node31"
+        },
+        "processing_decision_making": {
+          "$ref": "#/$defs/node31"
+        },
+        "play_action": {
+          "$ref": "#/$defs/node31"
+        },
+        "throws_on_run": {
+          "$ref": "#/$defs/node31"
+        },
+        "scrambling": {
+          "$ref": "#/$defs/node31"
+        },
+        "designed_rushing": {
+          "$ref": "#/$defs/node31"
+        },
+        "ball_security": {
+          "$ref": "#/$defs/node31"
+        },
+        "durability": {
+          "$ref": "#/$defs/node31"
+        },
+        "workload_availability": {
+          "$ref": "#/$defs/node31"
+        },
+        "consistency": {
+          "$ref": "#/$defs/node31"
+        },
+        "opponent_context_adjustments": {
+          "$ref": "#/$defs/node31"
+        }
+      },
+      "required": [
+        "arm_strength",
+        "short_accuracy",
+        "intermediate_accuracy",
+        "deep_accuracy",
+        "pressure_performance",
+        "pocket_movement",
+        "sack_avoidance",
+        "processing_decision_making",
+        "play_action",
+        "throws_on_run",
+        "scrambling",
+        "designed_rushing",
+        "ball_security",
+        "durability",
+        "workload_availability",
+        "consistency",
+        "opponent_context_adjustments"
+      ],
+      "additionalProperties": false
+    },
+    "node36": {
+      "type": "string",
+      "enum": [
+        "HIERARCHY_ONLY",
+        "RECONSTRUCTED"
+      ]
+    },
+    "node37": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/node6"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "node38": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node6"
+      }
+    },
+    "node39": {
+      "type": "boolean"
+    },
+    "node35": {
+      "type": "object",
+      "properties": {
+        "player_id": {
+          "$ref": "#/$defs/node6"
+        },
+        "mode": {
+          "$ref": "#/$defs/node36"
+        },
+        "card_fingerprint": {
+          "$ref": "#/$defs/node37"
+        },
+        "assessment": {
+          "$ref": "#/$defs/node6"
+        },
+        "limitations": {
+          "$ref": "#/$defs/node38"
+        },
+        "conflict": {
+          "$ref": "#/$defs/node39"
+        }
+      },
+      "required": [
+        "player_id",
+        "mode",
+        "card_fingerprint",
+        "assessment",
+        "limitations",
+        "conflict"
+      ],
+      "additionalProperties": false
+    },
+    "node34": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node35"
+      }
+    },
+    "node42": {
+      "type": "string",
+      "enum": [
+        "THP",
+        "SAC",
+        "MAC",
+        "DAC",
+        "RUN",
+        "TUP",
+        "PAC",
+        "BSK",
+        "AWR",
+        "SPD",
+        "ACC",
+        "AGI",
+        "COD",
+        "STR",
+        "CAR",
+        "JMP",
+        "INJ",
+        "STA",
+        "TGH"
+      ]
+    },
+    "node41": {
+      "type": "object",
+      "properties": {
+        "attribute": {
+          "$ref": "#/$defs/node42"
+        },
+        "threshold": {
+          "$ref": "#/$defs/node24"
+        }
+      },
+      "required": [
+        "attribute",
+        "threshold"
+      ],
+      "additionalProperties": false
+    },
+    "node40": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node41"
+      }
+    },
+    "node43": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node6"
+      }
+    },
+    "node44": {
+      "type": "string",
+      "enum": [
+        "NOT_STARTED",
+        "RESEARCH_READY",
+        "EVIDENCE_INSUFFICIENT",
+        "PROPOSED",
+        "VALIDATED",
+        "USER_APPROVED",
+        "LOCKED"
+      ]
+    },
+    "node47": {
+      "type": "integer",
+      "exclusiveMinimum": 0
+    },
+    "node48": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/node6"
+      }
+    },
+    "node50": {},
+    "node49": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/node50"
+      }
+    },
+    "node46": {
+      "type": "object",
+      "properties": {
+        "revision": {
+          "$ref": "#/$defs/node47"
+        },
+        "prior_proposal_fingerprint": {
+          "$ref": "#/$defs/node6"
+        },
+        "audit_logic_reference": {
+          "$ref": "#/$defs/node6"
+        },
+        "reasons": {
+          "$ref": "#/$defs/node48"
+        },
+        "prior_card_snapshot": {
+          "$ref": "#/$defs/node49"
+        }
+      },
+      "required": [
+        "revision",
+        "prior_proposal_fingerprint",
+        "audit_logic_reference",
+        "reasons",
+        "prior_card_snapshot"
+      ],
+      "additionalProperties": false
+    },
+    "node45": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node46"
+      }
+    },
+    "node53": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/node8"
+      }
+    },
+    "node52": {
+      "type": "object",
+      "properties": {
+        "observed_ovr": {
+          "$ref": "#/$defs/node8"
+        },
+        "card_fingerprint": {
+          "$ref": "#/$defs/node6"
+        },
+        "observed_at": {
+          "$ref": "#/$defs/node16"
+        },
+        "observer": {
+          "$ref": "#/$defs/node6"
+        },
+        "game_version": {
+          "$ref": "#/$defs/node6"
+        },
+        "platform": {
+          "$ref": "#/$defs/node6"
+        },
+        "mode": {
+          "$ref": "#/$defs/node6"
+        },
+        "roster_file": {
+          "$ref": "#/$defs/node6"
+        },
+        "settings": {
+          "$ref": "#/$defs/node6"
+        },
+        "evidence_ref": {
+          "$ref": "#/$defs/node6"
+        },
+        "entry_snapshot": {
+          "$ref": "#/$defs/node53"
+        }
+      },
+      "required": [
+        "observed_ovr",
+        "card_fingerprint",
+        "observed_at",
+        "observer",
+        "game_version",
+        "platform",
+        "mode",
+        "roster_file",
+        "settings",
+        "evidence_ref",
+        "entry_snapshot"
+      ],
+      "additionalProperties": false
+    },
+    "node51": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node52"
+      }
+    },
+    "node1": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "$ref": "#/$defs/node2"
+        },
+        "architecture_version": {
+          "$ref": "#/$defs/node3"
+        },
+        "reconstruction_architecture_version": {
+          "$ref": "#/$defs/node4"
+        },
+        "player": {
+          "$ref": "#/$defs/node5"
+        },
+        "locked_target_ovr": {
+          "$ref": "#/$defs/node8"
+        },
+        "proposed_ovr": {
+          "$ref": "#/$defs/node9"
+        },
+        "ratings": {
+          "$ref": "#/$defs/node10"
+        },
+        "supplemental_ratings": {
+          "$ref": "#/$defs/node11"
+        },
+        "sources": {
+          "$ref": "#/$defs/node13"
+        },
+        "trait_reviews": {
+          "$ref": "#/$defs/node17"
+        },
+        "domain_reviews": {
+          "$ref": "#/$defs/node30"
+        },
+        "control_comparisons": {
+          "$ref": "#/$defs/node34"
+        },
+        "internal_trait_coherence": {
+          "$ref": "#/$defs/node6"
+        },
+        "meaningful_weaknesses": {
+          "$ref": "#/$defs/node6"
+        },
+        "readiness_vs_reputation": {
+          "$ref": "#/$defs/node6"
+        },
+        "archetype_description": {
+          "$ref": "#/$defs/node6"
+        },
+        "scarcity_flags": {
+          "$ref": "#/$defs/node40"
+        },
+        "validator_findings": {
+          "$ref": "#/$defs/node43"
+        },
+        "approval_status": {
+          "$ref": "#/$defs/node44"
+        },
+        "revision_history": {
+          "$ref": "#/$defs/node45"
+        },
+        "observations": {
+          "$ref": "#/$defs/node51"
+        }
+      },
+      "required": [
+        "schema_version",
+        "architecture_version",
+        "reconstruction_architecture_version",
+        "player",
+        "locked_target_ovr",
+        "proposed_ovr",
+        "ratings",
+        "supplemental_ratings",
+        "sources",
+        "trait_reviews",
+        "domain_reviews",
+        "control_comparisons",
+        "internal_trait_coherence",
+        "meaningful_weaknesses",
+        "readiness_vs_reputation",
+        "archetype_description",
+        "scarcity_flags",
+        "validator_findings",
+        "approval_status",
+        "revision_history",
+        "observations"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

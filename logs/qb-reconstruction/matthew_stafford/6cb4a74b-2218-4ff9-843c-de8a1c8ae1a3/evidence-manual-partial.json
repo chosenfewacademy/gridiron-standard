@@ -1,0 +1,976 @@
+{
+  "task_id": "PLAYER_matthew_stafford_1788139435123",
+  "position": "QB",
+  "researched_at": "2026-08-31T01:43:53.027Z",
+  "sources": [
+    {
+      "name": "NFL Rams roster",
+      "url": "https://www.nfl.com/teams/los-angeles-rams/roster",
+      "retrieved_at": "2026-08-31T01:26:46.684Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Official roster lists Matthew Stafford as Rams QB; used only to resolve research team LAR without modifying the null registry team."
+      ]
+    },
+    {
+      "name": "Rams Stafford career statistics",
+      "url": "https://www.therams.com/team/players-roster/matthew-stafford/career",
+      "retrieved_at": "2026-08-31T01:26:46.696Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Team career page reports 4,707 passing yards and 46 passing touchdowns for the completed regular season. These production totals are not attribute ratings."
+      ]
+    },
+    {
+      "name": "PFF Week 9 Stafford film review",
+      "url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+      "retrieved_at": "2026-08-31T01:26:46.696Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "A Week 9 film review describes a far-hash Cover-2 throw and coverage recognition, supporting arm talent and processing qualitatively. Its deep-passing rankings are an in-season snapshot, not final full-season depth splits."
+      ]
+    },
+    {
+      "name": "PFF pre-NFC-Championship Stafford/Darnold comparison",
+      "url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+      "retrieved_at": "2026-08-31T01:26:46.696Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "Pre-conference-championship analysis distinguishes strong clean-pocket/play-action execution from weaker pressured passing, very low scramble frequency, and recent turnover-worthy decisions. It explicitly includes playoffs for some statistics; do not merge all figures into the regular-season baseline or translate PFF grades into Madden traits."
+      ]
+    },
+    {
+      "name": "Rams managed camp workload report",
+      "url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+      "retrieved_at": "2026-08-31T01:31:28.638Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Team reporting describes a planned two-days-on/two-days-off camp practice schedule. It contrasts participation with the prior camp's back-injury absence; do not mislabel that historical absence as a current injury."
+      ]
+    },
+    {
+      "name": "Rams Saints joint-practice report",
+      "url": "https://www.therams.com/news/10-observations-from-rams-joint-practice-with-saints-matthew-stafford-davante-adams-terrance-ferguson-nate-landman-kobie-turner",
+      "retrieved_at": "2026-08-31T01:31:28.639Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Stafford participated in the joint practice and completed short and deep throws. These are limited practice observations, not a formal full-health certification or regular-season accuracy sample."
+      ]
+    }
+  ],
+  "normalized": {
+    "performance_summary": {
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "items": [
+        {
+          "claim": "Completed regular season: 4,707 passing yards and 46 passing touchdowns.",
+          "source_url": "https://www.therams.com/team/players-roster/matthew-stafford/career",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "postseason_context": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "The pre-conference-championship preview explicitly includes playoff observations.",
+          "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "POSTSEASON"
+        }
+      ],
+      "limitations": [
+        "Complete postseason production/game samples were not normalized."
+      ]
+    },
+    "multi_year_trend": {
+      "status": "missing",
+      "confidence": "LOW",
+      "items": [],
+      "limitations": [
+        "Prior-year source context exists, but a reconciled multi-year normalized assessment was not completed."
+      ]
+    },
+    "current_role": {
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "items": [
+        {
+          "claim": "Listed as an active Rams quarterback.",
+          "source_url": "https://www.nfl.com/teams/los-angeles-rams/roster",
+          "retrieved_at": "2026-08-31T01:26:46.684Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        },
+        {
+          "claim": "Participated in joint-practice passing work.",
+          "source_url": "https://www.therams.com/news/10-observations-from-rams-joint-practice-with-saints-matthew-stafford-davante-adams-terrance-ferguson-nate-landman-kobie-turner",
+          "retrieved_at": "2026-08-31T01:31:28.639Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": []
+    },
+    "roster_depth_chart": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Official roster establishes Rams QB identity.",
+          "source_url": "https://www.nfl.com/teams/los-angeles-rams/roster",
+          "retrieved_at": "2026-08-31T01:26:46.684Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [
+        "Full current depth-chart allocation was not reconciled."
+      ]
+    },
+    "injury_practice_status": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Managed camp schedule: two practice days on, two off.",
+          "source_url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+          "retrieved_at": "2026-08-31T01:31:28.638Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        },
+        {
+          "claim": "Observed joint-practice participation.",
+          "source_url": "https://www.therams.com/news/10-observations-from-rams-joint-practice-with-saints-matthew-stafford-davante-adams-terrance-ferguson-nate-landman-kobie-turner",
+          "retrieved_at": "2026-08-31T01:31:28.639Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [
+        "These dated reports do not establish a current full injury/practice designation or medical clearance."
+      ]
+    },
+    "age_career_trajectory": {
+      "status": "missing",
+      "confidence": "LOW",
+      "items": [],
+      "limitations": [
+        "No completed, sufficiently specific assessment was established in the bounded collection."
+      ]
+    },
+    "team_system_context": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Camp repetitions with Adams support continuity and timing work.",
+          "source_url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+          "retrieved_at": "2026-08-31T01:31:28.638Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [
+        "No complete scheme/supporting-cast adjustment analysis."
+      ]
+    },
+    "preseason_participation": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Short and deep completions observed in joint practice.",
+          "source_url": "https://www.therams.com/news/10-observations-from-rams-joint-practice-with-saints-matthew-stafford-davante-adams-terrance-ferguson-nate-landman-kobie-turner",
+          "retrieved_at": "2026-08-31T01:31:28.639Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [
+        "Full preseason game participation and workload not verified in this retained packet."
+      ]
+    },
+    "durability_availability": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Current camp participation differs from the prior back-injury absence.",
+          "source_url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+          "retrieved_at": "2026-08-31T01:31:28.638Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [
+        "Historical injury/exposure and completed-season availability not fully reconciled; no medical inference."
+      ]
+    },
+    "recent_performance_trend": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Preview flags a late increase in risky decisions.",
+          "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "POSTSEASON"
+        }
+      ],
+      "limitations": [
+        "Recent mixed/postseason observations are not a reconciled full regular-season mistake package."
+      ]
+    },
+    "locked_control_comparisons": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Public Stafford/Darnold comparison distinguishes their passing profiles.",
+          "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "All ten locked controls lack a complete matched comparison packet; their full cards remain absent."
+      ],
+      "compared_controls": [
+        "Matthew Stafford",
+        "Sam Darnold"
+      ]
+    },
+    "outside_control_comparisons": {
+      "status": "missing",
+      "confidence": "LOW",
+      "items": [],
+      "limitations": [
+        "Mahomes/Jackson/Goff comparison collection did not return a complete structured packet; no attributes inferred."
+      ]
+    },
+    "position_specific_traits": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Arm execution and recognition have qualitative film support.",
+          "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "All 19 traits are not sufficiently established."
+      ],
+      "domain_assessments": {
+        "arm_strength": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Film describes a far-hash Cover-2 throw.",
+              "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Qualitative film only; no complete current arm-strength calibration package."
+          ]
+        },
+        "short_accuracy": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "Specific short_accuracy evidence remains unestablished after bounded collection and recovery failure."
+          ]
+        },
+        "intermediate_accuracy": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "Specific intermediate_accuracy evidence remains unestablished after bounded collection and recovery failure."
+          ]
+        },
+        "deep_accuracy": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Week 9 film review supports difficult downfield placement.",
+              "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "No complete short/intermediate/deep full-season placement splits or matched samples."
+          ]
+        },
+        "pressure_performance": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Pressured passing was weaker than clean-pocket execution in the preview sample.",
+              "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Full regular-season pressure denominator and scope not reconciled."
+          ]
+        },
+        "pocket_movement": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "Specific pocket_movement evidence remains unestablished after bounded collection and recovery failure."
+          ]
+        },
+        "sack_avoidance": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "Specific sack_avoidance evidence remains unestablished after bounded collection and recovery failure."
+          ]
+        },
+        "processing_decision_making": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Film describes coverage identification before delivery.",
+              "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "One film example is not a complete processing/decision sample."
+          ]
+        },
+        "play_action": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Public preview describes strong play-action execution.",
+              "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Scheme, fake execution and sample differences remain unresolved."
+          ]
+        },
+        "throws_on_run": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "Specific throws_on_run evidence remains unestablished after bounded collection and recovery failure."
+          ]
+        },
+        "scrambling": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Scramble involvement was very low in the preview comparison.",
+              "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Do not infer broken sacks, speed or contact escape from low scramble frequency."
+          ]
+        },
+        "designed_rushing": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "Specific designed_rushing evidence remains unestablished after bounded collection and recovery failure."
+          ]
+        },
+        "ball_security": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "Specific ball_security evidence remains unestablished after bounded collection and recovery failure."
+          ]
+        },
+        "durability": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Current camp participation differs from the prior back-injury absence.",
+              "source_url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+              "retrieved_at": "2026-08-31T01:31:28.638Z",
+              "season": 2026,
+              "period": "CURRENT_CONTEXT"
+            }
+          ],
+          "limitations": [
+            "Historical injury/exposure and completed-season availability not fully reconciled; no medical inference."
+          ]
+        },
+        "workload_availability": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Managed camp schedule: two practice days on, two off.",
+              "source_url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+              "retrieved_at": "2026-08-31T01:31:28.638Z",
+              "season": 2026,
+              "period": "CURRENT_CONTEXT"
+            },
+            {
+              "claim": "Observed joint-practice participation.",
+              "source_url": "https://www.therams.com/news/10-observations-from-rams-joint-practice-with-saints-matthew-stafford-davante-adams-terrance-ferguson-nate-landman-kobie-turner",
+              "retrieved_at": "2026-08-31T01:31:28.639Z",
+              "season": 2026,
+              "period": "CURRENT_CONTEXT"
+            }
+          ],
+          "limitations": [
+            "These dated reports do not establish a current full injury/practice designation or medical clearance."
+          ]
+        },
+        "consistency": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Preview flags a late increase in risky decisions.",
+              "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "POSTSEASON"
+            }
+          ],
+          "limitations": [
+            "Recent mixed/postseason observations are not a reconciled full regular-season mistake package."
+          ]
+        },
+        "opponent_context_adjustments": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Film identifies the coverage and specific opponent context.",
+              "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "No full opponent/supporting-cast adjustment or independent coefficients established."
+          ]
+        }
+      },
+      "trait_assessments": {
+        "THP": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Film describes a far-hash Cover-2 throw.",
+              "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Qualitative film only; no complete current arm-strength calibration package."
+          ]
+        },
+        "SAC": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific SAC trait package; no numeric rating inferred."
+          ]
+        },
+        "MAC": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific MAC trait package; no numeric rating inferred."
+          ]
+        },
+        "DAC": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Week 9 film review supports difficult downfield placement.",
+              "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "No complete short/intermediate/deep full-season placement splits or matched samples."
+          ]
+        },
+        "RUN": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific RUN trait package; no numeric rating inferred."
+          ]
+        },
+        "TUP": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Pressured passing was weaker than clean-pocket execution in the preview sample.",
+              "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Full regular-season pressure denominator and scope not reconciled."
+          ]
+        },
+        "PAC": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Public preview describes strong play-action execution.",
+              "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Scheme, fake execution and sample differences remain unresolved."
+          ]
+        },
+        "BSK": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific BSK trait package; no numeric rating inferred."
+          ]
+        },
+        "AWR": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Film describes coverage identification before delivery.",
+              "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "One film example is not a complete processing/decision sample."
+          ]
+        },
+        "SPD": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific SPD trait package; no numeric rating inferred."
+          ]
+        },
+        "ACC": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific ACC trait package; no numeric rating inferred."
+          ]
+        },
+        "AGI": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific AGI trait package; no numeric rating inferred."
+          ]
+        },
+        "COD": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific COD trait package; no numeric rating inferred."
+          ]
+        },
+        "STR": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific STR trait package; no numeric rating inferred."
+          ]
+        },
+        "CAR": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific CAR trait package; no numeric rating inferred."
+          ]
+        },
+        "JMP": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific JMP trait package; no numeric rating inferred."
+          ]
+        },
+        "INJ": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Current camp participation differs from the prior back-injury absence.",
+              "source_url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+              "retrieved_at": "2026-08-31T01:31:28.638Z",
+              "season": 2026,
+              "period": "CURRENT_CONTEXT"
+            }
+          ],
+          "limitations": [
+            "Historical injury/exposure and completed-season availability not fully reconciled; no medical inference."
+          ]
+        },
+        "STA": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific STA trait package; no numeric rating inferred."
+          ]
+        },
+        "TGH": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific TGH trait package; no numeric rating inferred."
+          ]
+        }
+      }
+    },
+    "passing_production_efficiency": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Passing production totals are established.",
+          "source_url": "https://www.therams.com/team/players-roster/matthew-stafford/career",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "The independently retained packet lacks a complete reconciled efficiency table."
+      ]
+    },
+    "advanced_passing_metrics": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Public comparison supplies pressure/play-action splits with mixed regular-season/playoff context.",
+          "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "Do not relabel mixed samples as a final regular-season advanced package."
+      ]
+    },
+    "pressure_performance": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Pressured passing was weaker than clean-pocket execution in the preview sample.",
+          "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "Full regular-season pressure denominator and scope not reconciled."
+      ]
+    },
+    "accuracy_by_depth": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Week 9 film review supports difficult downfield placement.",
+          "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "No complete short/intermediate/deep full-season placement splits or matched samples."
+      ]
+    },
+    "turnover_worthy_mistakes": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Preview flags a late increase in risky decisions.",
+          "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "POSTSEASON"
+        }
+      ],
+      "limitations": [
+        "Recent mixed/postseason observations are not a reconciled full regular-season mistake package."
+      ]
+    },
+    "rushing_designed_run_value": {
+      "status": "missing",
+      "confidence": "LOW",
+      "items": [],
+      "limitations": [
+        "No completed, sufficiently specific assessment was established in the bounded collection."
+      ]
+    },
+    "scrambling_sack_avoidance": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Scramble involvement was very low in the preview comparison.",
+          "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "Do not infer broken sacks, speed or contact escape from low scramble frequency."
+      ]
+    }
+  },
+  "conflicts": [
+    {
+      "issue": "Incompatible statistical scopes",
+      "resolution": "Regular season, in-season snapshots and playoff-inclusive previews remain separate; no averages or scope conversions."
+    }
+  ],
+  "minimum_evidence_met": false,
+  "missing_evidence": [
+    "PERFORMANCE_COLLECTION_TIMEOUT",
+    "BOUNDED_RECOVERY_TIMEOUT",
+    "MANUAL_PARTIAL_PACKET_NOT_FULL_AUDIT_READY",
+    "domain_assessments.arm_strength: PARTIAL_OR_MISSING",
+    "domain_assessments.short_accuracy: PARTIAL_OR_MISSING",
+    "domain_assessments.intermediate_accuracy: PARTIAL_OR_MISSING",
+    "domain_assessments.deep_accuracy: PARTIAL_OR_MISSING",
+    "domain_assessments.pressure_performance: PARTIAL_OR_MISSING",
+    "domain_assessments.pocket_movement: PARTIAL_OR_MISSING",
+    "domain_assessments.sack_avoidance: PARTIAL_OR_MISSING",
+    "domain_assessments.processing_decision_making: PARTIAL_OR_MISSING",
+    "domain_assessments.play_action: PARTIAL_OR_MISSING",
+    "domain_assessments.throws_on_run: PARTIAL_OR_MISSING",
+    "domain_assessments.scrambling: PARTIAL_OR_MISSING",
+    "domain_assessments.designed_rushing: PARTIAL_OR_MISSING",
+    "domain_assessments.ball_security: PARTIAL_OR_MISSING",
+    "domain_assessments.durability: PARTIAL_OR_MISSING",
+    "domain_assessments.workload_availability: PARTIAL_OR_MISSING",
+    "domain_assessments.consistency: PARTIAL_OR_MISSING",
+    "domain_assessments.opponent_context_adjustments: PARTIAL_OR_MISSING",
+    "trait_assessments.THP: PARTIAL_OR_MISSING",
+    "trait_assessments.SAC: PARTIAL_OR_MISSING",
+    "trait_assessments.MAC: PARTIAL_OR_MISSING",
+    "trait_assessments.DAC: PARTIAL_OR_MISSING",
+    "trait_assessments.RUN: PARTIAL_OR_MISSING",
+    "trait_assessments.TUP: PARTIAL_OR_MISSING",
+    "trait_assessments.PAC: PARTIAL_OR_MISSING",
+    "trait_assessments.BSK: PARTIAL_OR_MISSING",
+    "trait_assessments.AWR: PARTIAL_OR_MISSING",
+    "trait_assessments.SPD: PARTIAL_OR_MISSING",
+    "trait_assessments.ACC: PARTIAL_OR_MISSING",
+    "trait_assessments.AGI: PARTIAL_OR_MISSING",
+    "trait_assessments.COD: PARTIAL_OR_MISSING",
+    "trait_assessments.STR: PARTIAL_OR_MISSING",
+    "trait_assessments.CAR: PARTIAL_OR_MISSING",
+    "trait_assessments.JMP: PARTIAL_OR_MISSING",
+    "trait_assessments.INJ: PARTIAL_OR_MISSING",
+    "trait_assessments.STA: PARTIAL_OR_MISSING",
+    "trait_assessments.TGH: PARTIAL_OR_MISSING",
+    "RESEARCHER_MINIMUM_EVIDENCE_NOT_MET",
+    "postseason_context: CATEGORY_NOT_SATISFIED",
+    "multi_year_trend: MISSING_OR_INVALID_CATEGORY",
+    "roster_depth_chart: CATEGORY_NOT_SATISFIED",
+    "injury_practice_status: CATEGORY_NOT_SATISFIED",
+    "age_career_trajectory: MISSING_OR_INVALID_CATEGORY",
+    "team_system_context: CATEGORY_NOT_SATISFIED",
+    "preseason_participation: CATEGORY_NOT_SATISFIED",
+    "durability_availability: CATEGORY_NOT_SATISFIED",
+    "durability_availability: REQUIRED_SEASON_NOT_COVERED",
+    "durability_availability: PRIMARY_REGULAR_SEASON_SAMPLE_MISSING",
+    "recent_performance_trend: CATEGORY_NOT_SATISFIED",
+    "recent_performance_trend: PRIMARY_REGULAR_SEASON_SAMPLE_MISSING",
+    "locked_control_comparisons: CATEGORY_NOT_SATISFIED",
+    "locked_control_comparisons: LOCKED_CONTROL_COVERAGE_MISSING",
+    "outside_control_comparisons: MISSING_OR_INVALID_CATEGORY",
+    "position_specific_traits: CATEGORY_NOT_SATISFIED",
+    "passing_production_efficiency: CATEGORY_NOT_SATISFIED",
+    "advanced_passing_metrics: CATEGORY_NOT_SATISFIED",
+    "pressure_performance: CATEGORY_NOT_SATISFIED",
+    "accuracy_by_depth: CATEGORY_NOT_SATISFIED",
+    "turnover_worthy_mistakes: CATEGORY_NOT_SATISFIED",
+    "turnover_worthy_mistakes: PRIMARY_REGULAR_SEASON_SAMPLE_MISSING",
+    "rushing_designed_run_value: MISSING_OR_INVALID_CATEGORY",
+    "scrambling_sack_avoidance: CATEGORY_NOT_SATISFIED"
+  ],
+  "calendar": {
+    "nfl_season": 2026,
+    "player_id": "matthew_stafford",
+    "team": "LAR",
+    "valid_from": "2026-03-11T16:00:00-04:00",
+    "valid_until": "2027-03-11T16:00:00-05:00",
+    "preseason_start": "2026-07-25T00:00:00-04:00",
+    "regular_season_start": "2026-09-09T20:20:00-04:00",
+    "postseason_start": "2027-01-11T00:00:00-05:00",
+    "season_end": "2027-02-15T00:00:00-05:00",
+    "current_season_games_available": 0,
+    "current_season_games_played": 0,
+    "regular_season_games_scheduled": 17,
+    "regular_season_complete": false,
+    "postseason_complete": false,
+    "sources": [
+      {
+        "url": "https://www.nfl.com/_amp/2026-national-football-league-important-dates",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "2026 league year began 2026-03-11T16:00:00-04:00."
+        ]
+      },
+      {
+        "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "2027 league year begins 2027-03-11T16:00:00-05:00; the supplied as-of instant falls within the 2026 league year.",
+          "Current calendar lists Week 18 on January 9–10, 2027; the following America/New_York day begins 2027-01-11T00:00:00-05:00.",
+          "Super Bowl LXI is scheduled for February 14, 2027; the following America/New_York day begins 2027-02-15T00:00:00-05:00.",
+          "Postseason has not begun as of the requested instant; postseason_complete is false. No future scheduled game is treated as final.",
+          "No later postponed regular-season or postseason game appears in the current calendar."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/news/2026-nfl-training-camps-report-dates-locations-announced-for-all-32-teams",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "Rams rookies and veterans report July 25, 2026; preseason_start uses that calendar day's midnight, not an asserted reporting hour."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/by-week/week-1",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "First league kickoff: 2026-09-09T20:20:00-04:00. Before Week 1, opportunities and appearances are zero league-wide; trades cannot add completed opportunities."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/by-team/los-angeles-rams",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "17 regular-season games scheduled; Week 11 bye. Zero regular-season finals; only preseason games are final. Rams opener: 2026-09-10T20:35:00-04:00."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/players/matthew-stafford/stats/logs/2026/",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "Stafford is listed with LAR. Displayed entries are preseason only; combined with the unstarted regular-season schedule, regular-season appearances equal zero."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/by-week/week-18",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "Final regular-season week's matchups remain TBD, not FINAL; regular_season_complete is false."
+        ]
+      }
+    ]
+  },
+  "calendar_web_search_observed": true,
+  "fresh_web_research_observed": true,
+  "audit_type": "FULL_AUDIT",
+  "nfl_season": 2026,
+  "season_phase": "PRESEASON",
+  "evidence_season": 2025,
+  "current_season_games_available": 0,
+  "current_season_games_played": 0,
+  "prior_season_used_as_primary_baseline": true,
+  "sample_size_context": {
+    "weighting": "COMPLETED_SEASON_PRIMARY_WITH_CURRENT_CONTEXT",
+    "established_after_games": 4,
+    "player_sample_limited": true,
+    "limitations": [
+      "Player regular-season sample is limited; retain availability, workload, and prior-season context.",
+      "Game counts do not establish sufficient snaps, attempts, or exact-trait confidence; document those samples in category evidence."
+    ]
+  }
+}

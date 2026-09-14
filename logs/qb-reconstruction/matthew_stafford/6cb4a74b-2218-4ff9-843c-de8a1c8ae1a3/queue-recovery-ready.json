@@ -1,0 +1,119 @@
+[
+  {
+    "player_id": "matthew_stafford",
+    "player_name": "Matthew Stafford",
+    "position": "QB",
+    "rank": 1,
+    "role": "TOP_10",
+    "locked_target_ovr": 91,
+    "status": "RESEARCH_READY"
+  },
+  {
+    "player_id": "joe_burrow",
+    "player_name": "Joe Burrow",
+    "position": "QB",
+    "rank": 2,
+    "role": "TOP_10",
+    "locked_target_ovr": 90,
+    "status": "NOT_STARTED"
+  },
+  {
+    "player_id": "josh_allen",
+    "player_name": "Josh Allen",
+    "position": "QB",
+    "rank": 3,
+    "role": "TOP_10",
+    "locked_target_ovr": 90,
+    "status": "NOT_STARTED"
+  },
+  {
+    "player_id": "drake_maye",
+    "player_name": "Drake Maye",
+    "position": "QB",
+    "rank": 4,
+    "role": "TOP_10",
+    "locked_target_ovr": 88,
+    "status": "NOT_STARTED"
+  },
+  {
+    "player_id": "jordan_love",
+    "player_name": "Jordan Love",
+    "position": "QB",
+    "rank": 5,
+    "role": "TOP_10",
+    "locked_target_ovr": 88,
+    "status": "NOT_STARTED"
+  },
+  {
+    "player_id": "dak_prescott",
+    "player_name": "Dak Prescott",
+    "position": "QB",
+    "rank": 6,
+    "role": "TOP_10",
+    "locked_target_ovr": 87,
+    "status": "NOT_STARTED"
+  },
+  {
+    "player_id": "brock_purdy",
+    "player_name": "Brock Purdy",
+    "position": "QB",
+    "rank": 7,
+    "role": "TOP_10",
+    "locked_target_ovr": 85,
+    "status": "NOT_STARTED"
+  },
+  {
+    "player_id": "justin_herbert",
+    "player_name": "Justin Herbert",
+    "position": "QB",
+    "rank": 8,
+    "role": "TOP_10",
+    "locked_target_ovr": 84,
+    "status": "NOT_STARTED"
+  },
+  {
+    "player_id": "trevor_lawrence",
+    "player_name": "Trevor Lawrence",
+    "position": "QB",
+    "rank": 9,
+    "role": "TOP_10",
+    "locked_target_ovr": 84,
+    "status": "NOT_STARTED"
+  },
+  {
+    "player_id": "sam_darnold",
+    "player_name": "Sam Darnold",
+    "position": "QB",
+    "rank": 10,
+    "role": "TOP_10",
+    "locked_target_ovr": 83,
+    "status": "NOT_STARTED"
+  },
+  {
+    "player_id": "patrick_mahomes",
+    "player_name": "Patrick Mahomes",
+    "position": "QB",
+    "rank": null,
+    "role": "FIRST_OUT",
+    "locked_target_ovr": 83,
+    "status": "NOT_STARTED"
+  },
+  {
+    "player_id": "lamar_jackson",
+    "player_name": "Lamar Jackson",
+    "position": "QB",
+    "rank": null,
+    "role": "OUTSIDE_CONTROL",
+    "locked_target_ovr": 83,
+    "status": "NOT_STARTED"
+  },
+  {
+    "player_id": "jared_goff",
+    "player_name": "Jared Goff",
+    "position": "QB",
+    "rank": null,
+    "role": "OUTSIDE_CONTROL",
+    "locked_target_ovr": 82,
+    "status": "NOT_STARTED"
+  }
+]

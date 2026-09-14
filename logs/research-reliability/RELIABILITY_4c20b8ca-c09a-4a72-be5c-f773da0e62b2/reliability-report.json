@@ -1,0 +1,54 @@
+{
+  "run_id": "RELIABILITY_4c20b8ca-c09a-4a72-be5c-f773da0e62b2",
+  "started_at": "2026-09-02T17:11:19.873Z",
+  "completed_at": "2026-09-02T17:12:20.827Z",
+  "non_player_smoke": true,
+  "micro_batches": 3,
+  "attempts": 4,
+  "successful_structured_responses": 3,
+  "timeouts": 1,
+  "parse_failures": 0,
+  "sources_captured": 4,
+  "checkpoint_persisted": true,
+  "retry_isolation_observed": true,
+  "category_status": {
+    "league_calendar": "SATISFIED",
+    "schedule_source": "SATISFIED",
+    "rules_resource": "SATISFIED"
+  },
+  "diagnostics": [
+    {
+      "micro_batch_id": "SMOKE_LEAGUE_CALENDAR",
+      "attempt_number": 1,
+      "started_at": "2026-09-02T17:11:19.885Z",
+      "ended_at": "2026-09-02T17:11:48.156Z",
+      "elapsed_ms": 28271,
+      "thread_id": "01a0631a-918c-7b00-8519-f779d2346bcb",
+      "timeout_stage": "NORMALIZATION",
+      "outcome": "SUCCESS",
+      "failure_kind": null
+    },
+    {
+      "micro_batch_id": "SMOKE_RULES_RESOURCE",
+      "attempt_number": 1,
+      "started_at": "2026-09-02T17:11:48.171Z",
+      "ended_at": "2026-09-02T17:12:05.316Z",
+      "elapsed_ms": 17145,
+      "thread_id": "01a0631a-ffc8-73b2-9ae2-0ae9d82079f5",
+      "timeout_stage": "NORMALIZATION",
+      "outcome": "SUCCESS",
+      "failure_kind": null
+    },
+    {
+      "micro_batch_id": "SMOKE_SCHEDULE_SOURCE",
+      "attempt_number": 2,
+      "started_at": "2026-09-02T17:12:05.326Z",
+      "ended_at": "2026-09-02T17:12:20.820Z",
+      "elapsed_ms": 15494,
+      "thread_id": "01a0631b-4137-7fd0-b4de-113400930a55",
+      "timeout_stage": "NORMALIZATION",
+      "outcome": "SUCCESS",
+      "failure_kind": null
+    }
+  ]
+}

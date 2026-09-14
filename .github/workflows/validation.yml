@@ -1,0 +1,27 @@
+name: Gridiron Validation
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - name: Run preflight and keep Madden editor-order status visible
+        run: npm run --silent preflight | tee preflight-result.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: validation-${{ github.run_id }}
+          path: preflight-result.json
+          retention-days: 30

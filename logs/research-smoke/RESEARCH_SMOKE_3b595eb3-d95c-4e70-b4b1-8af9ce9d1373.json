@@ -1,0 +1,151 @@
+{
+  "task_id": "RESEARCH_SMOKE_3b595eb3-d95c-4e70-b4b1-8af9ce9d1373",
+  "started_at": "2026-08-30T23:48:24.677Z",
+  "status": "PASS",
+  "structured_json_parsed": true,
+  "structured_evidence_valid": true,
+  "fresh_web_research_succeeded": true,
+  "minimum_evidence_met": false,
+  "evidence": {
+    "task_id": "RESEARCH_SMOKE_3b595eb3-d95c-4e70-b4b1-8af9ce9d1373",
+    "position": "QB",
+    "researched_at": "2026-08-30T23:48:42Z",
+    "sources": [
+      {
+        "name": "Philadelphia Eagles — Jalen Hurts roster profile",
+        "url": "https://www.philadelphiaeagles.com/team/players-roster/jalen-hurts/",
+        "published_at": null,
+        "retrieved_at": "2026-08-30T23:48:42Z",
+        "authority_tier": 1,
+        "claims": [
+          "The Eagles list Jalen Hurts as quarterback, jersey number 1.",
+          "The explicitly labeled 2025 season summary reports 3,224 passing yards, 25 touchdowns, six interceptions and a 98.49 passer rating.",
+          "The biography contains older cumulative comparisons, including 55 career rushing touchdowns; these should not be treated as current totals."
+        ]
+      },
+      {
+        "name": "Philadelphia Eagles — Jalen Hurts press conference",
+        "url": "https://www.philadelphiaeagles.com/video/jalen-hurts-press-conference-august-26-2026",
+        "published_at": "2026-08-26",
+        "retrieved_at": "2026-08-30T23:48:42Z",
+        "authority_tier": 1,
+        "claims": [
+          "The team published a Hurts press conference following its final training camp practice.",
+          "The description identifies Hurts as QB and says he discussed learning from offensive coordinator Sean Mannion, team chemistry and his positive assessment of training camp.",
+          "The description does not establish an official injury designation or unrestricted game availability."
+        ]
+      },
+      {
+        "name": "NFL — Jalen Hurts statistics",
+        "url": "https://www.nfl.com/players/jalen-hurts/stats/",
+        "published_at": null,
+        "retrieved_at": "2026-08-30T23:48:42Z",
+        "authority_tier": 1,
+        "claims": [
+          "Active Eagles QB; 2025: 16 starts, 454 passing attempts, 7.1 yards/attempt, 105 rushes, 421 rushing yards, eight rushing touchdowns; career rushing touchdowns: 63."
+        ]
+      }
+    ],
+    "normalized": {
+      "player_id": "jalen_hurts",
+      "player_name": "Jalen Hurts",
+      "team": "Philadelphia Eagles",
+      "position": "QB",
+      "jersey_number": 1,
+      "fresh_web_research_performed": true,
+      "connectivity_smoke_test_passed": true,
+      "current_season": {
+        "season": 2026,
+        "evidence_type": "training_camp_news",
+        "latest_verified_player_specific_news_date": "2026-08-26",
+        "news": "Hurts discussed Sean Mannion's offense and team chemistry in an official team press conference.",
+        "regular_season_production": null,
+        "injury_designation": null,
+        "availability_assessment": "Recent team media appearance confirmed; full practice participation and game clearance were not established."
+      },
+      "prior_season_context": {
+        "season": 2025,
+        "passing_yards": 3224,
+        "passing_touchdowns": 25,
+        "interceptions": 6,
+        "passer_rating": 98.49,
+        "source_url": "https://www.philadelphiaeagles.com/team/players-roster/jalen-hurts/"
+      },
+      "comparison_evidence": {
+        "current_verified_peer_comparison": null,
+        "limitation": "Team biography comparisons contain stale cumulative statistics and were excluded from current calibration."
+      },
+      "source_independence": "Official team and league sources were retrieved; they are affiliated and may share statistical feeds.",
+      "minimum_evidence_scope": "Full QB evidence package, not merely connectivity or identity confirmation."
+    },
+    "conflicts": [
+      {
+        "field": "career_rushing_touchdowns",
+        "eagles_biography_value": 55,
+        "nfl_career_table_value": 63,
+        "assessment": "Apparent stale biography versus updated statistics. Preserve the discrepancy and exclude the biography's cumulative comparisons from current-season evidence."
+      }
+    ],
+    "minimum_evidence_met": false,
+    "missing_evidence": [
+      "current_season_qb_production_and_efficiency",
+      "current_verified_depth_chart_and_snap_workload",
+      "dated_official_injury_and_practice_participation_report",
+      "current_season_peer_comparison_and_positional_controls",
+      "passing_accuracy_pressure_processing_and_sack_context",
+      "independent_corroboration_beyond_affiliated_team_and_league_sources"
+    ]
+  },
+  "checks": {
+    "thread_started": true,
+    "web_search_observed": true,
+    "task_matches": true,
+    "source_information": true,
+    "retrieval_dates": true,
+    "normalized_evidence": true,
+    "no_fresh_web_failure": true
+  },
+  "completed_at": "2026-08-30T23:49:19.027Z",
+  "diagnostics": {
+    "thread_id": "01a05513-0a0c-7fc3-b17a-f31cd3c8503a",
+    "web_searches": [
+      {
+        "id": "exec-0c0b8003-1db3-4ac5-b1a5-3a7411b1a40a",
+        "type": "web_search",
+        "query": "site.philadelphiaeagles.com Jalen Hurts August 2026 quarterback ...",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site.philadelphiaeagles.com Jalen Hurts August 2026 quarterback",
+            "site.nfl.com Jalen Hurts 2026 Eagles"
+          ]
+        }
+      },
+      {
+        "id": "exec-bbadf98e-699d-4acc-b154-f8100d5bd615",
+        "type": "web_search",
+        "query": "",
+        "action": {
+          "type": "other"
+        }
+      },
+      {
+        "id": "exec-2cc600fe-82e3-46e8-829e-84aabf7a8da4",
+        "type": "web_search",
+        "query": "https://www.philadelphiaeagles.com/video/jalen-hurts-press-conference-august-26-2026",
+        "action": {
+          "type": "other"
+        }
+      },
+      {
+        "id": "exec-2661d733-dcbd-4785-8c38-33d45485e757",
+        "type": "web_search",
+        "query": "",
+        "action": {
+          "type": "other"
+        }
+      }
+    ],
+    "raw_response": "{\n  \"task_id\": \"RESEARCH_SMOKE_3b595eb3-d95c-4e70-b4b1-8af9ce9d1373\",\n  \"position\": \"QB\",\n  \"researched_at\": \"2026-08-30T23:48:42Z\",\n  \"sources\": [\n    {\n      \"name\": \"Philadelphia Eagles — Jalen Hurts roster profile\",\n      \"url\": \"https://www.philadelphiaeagles.com/team/players-roster/jalen-hurts/\",\n      \"published_at\": null,\n      \"retrieved_at\": \"2026-08-30T23:48:42Z\",\n      \"authority_tier\": 1,\n      \"claims\": [\n        \"The Eagles list Jalen Hurts as quarterback, jersey number 1.\",\n        \"The explicitly labeled 2025 season summary reports 3,224 passing yards, 25 touchdowns, six interceptions and a 98.49 passer rating.\",\n        \"The biography contains older cumulative comparisons, including 55 career rushing touchdowns; these should not be treated as current totals.\"\n      ]\n    },\n    {\n      \"name\": \"Philadelphia Eagles — Jalen Hurts press conference\",\n      \"url\": \"https://www.philadelphiaeagles.com/video/jalen-hurts-press-conference-august-26-2026\",\n      \"published_at\": \"2026-08-26\",\n      \"retrieved_at\": \"2026-08-30T23:48:42Z\",\n      \"authority_tier\": 1,\n      \"claims\": [\n        \"The team published a Hurts press conference following its final training camp practice.\",\n        \"The description identifies Hurts as QB and says he discussed learning from offensive coordinator Sean Mannion, team chemistry and his positive assessment of training camp.\",\n        \"The description does not establish an official injury designation or unrestricted game availability.\"\n      ]\n    },\n    {\n      \"name\": \"NFL — Jalen Hurts statistics\",\n      \"url\": \"https://www.nfl.com/players/jalen-hurts/stats/\",\n      \"published_at\": null,\n      \"retrieved_at\": \"2026-08-30T23:48:42Z\",\n      \"authority_tier\": 1,\n      \"claims\": [\n        \"Active Eagles QB; 2025: 16 starts, 454 passing attempts, 7.1 yards/attempt, 105 rushes, 421 rushing yards, eight rushing touchdowns; career rushing touchdowns: 63.\"\n      ]\n    }\n  ],\n  \"normalized\": {\n    \"player_id\": \"jalen_hurts\",\n    \"player_name\": \"Jalen Hurts\",\n    \"team\": \"Philadelphia Eagles\",\n    \"position\": \"QB\",\n    \"jersey_number\": 1,\n    \"fresh_web_research_performed\": true,\n    \"connectivity_smoke_test_passed\": true,\n    \"current_season\": {\n      \"season\": 2026,\n      \"evidence_type\": \"training_camp_news\",\n      \"latest_verified_player_specific_news_date\": \"2026-08-26\",\n      \"news\": \"Hurts discussed Sean Mannion's offense and team chemistry in an official team press conference.\",\n      \"regular_season_production\": null,\n      \"injury_designation\": null,\n      \"availability_assessment\": \"Recent team media appearance confirmed; full practice participation and game clearance were not established.\"\n    },\n    \"prior_season_context\": {\n      \"season\": 2025,\n      \"passing_yards\": 3224,\n      \"passing_touchdowns\": 25,\n      \"interceptions\": 6,\n      \"passer_rating\": 98.49,\n      \"source_url\": \"https://www.philadelphiaeagles.com/team/players-roster/jalen-hurts/\"\n    },\n    \"comparison_evidence\": {\n      \"current_verified_peer_comparison\": null,\n      \"limitation\": \"Team biography comparisons contain stale cumulative statistics and were excluded from current calibration.\"\n    },\n    \"source_independence\": \"Official team and league sources were retrieved; they are affiliated and may share statistical feeds.\",\n    \"minimum_evidence_scope\": \"Full QB evidence package, not merely connectivity or identity confirmation.\"\n  },\n  \"conflicts\": [\n    {\n      \"field\": \"career_rushing_touchdowns\",\n      \"eagles_biography_value\": 55,\n      \"nfl_career_table_value\": 63,\n      \"assessment\": \"Apparent stale biography versus updated statistics. Preserve the discrepancy and exclude the biography's cumulative comparisons from current-season evidence.\"\n    }\n  ],\n  \"minimum_evidence_met\": false,\n  \"missing_evidence\": [\n    \"current_season_qb_production_and_efficiency\",\n    \"current_verified_depth_chart_and_snap_workload\",\n    \"dated_official_injury_and_practice_participation_report\",\n    \"current_season_peer_comparison_and_positional_controls\",\n    \"passing_accuracy_pressure_processing_and_sack_context\",\n    \"independent_corroboration_beyond_affiliated_team_and_league_sources\"\n  ]\n}"
+  }
+}

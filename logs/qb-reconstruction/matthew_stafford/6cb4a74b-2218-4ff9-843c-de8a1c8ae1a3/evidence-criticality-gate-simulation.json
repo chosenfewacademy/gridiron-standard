@@ -1,0 +1,512 @@
+{
+  "simulation": "READ_ONLY_STAFFORD_EVIDENCE_GATE",
+  "audit_id": "6cb4a74b-2218-4ff9-843c-de8a1c8ae1a3",
+  "as_of": "2026-09-05T12:00:00-04:00",
+  "accepted_evidence_items": 93,
+  "calendar": {
+    "status": "RESOLVED",
+    "calendar": {
+      "nfl_season": 2026,
+      "player_id": "matthew_stafford",
+      "team": "LAR",
+      "valid_from": "2026-03-11T16:00:00-04:00",
+      "valid_until": "2027-03-11T16:00:00-05:00",
+      "preseason_start": "2026-07-25T00:00:00-04:00",
+      "regular_season_start": "2026-09-09T20:20:00-04:00",
+      "postseason_start": "2027-01-11T00:00:00-05:00",
+      "season_end": "2027-02-15T00:00:00-05:00",
+      "current_season_games_available": 0,
+      "current_season_games_played": 0,
+      "regular_season_games_scheduled": 17,
+      "regular_season_complete": false,
+      "postseason_complete": false,
+      "sources": [
+        {
+          "url": "https://www.nfl.com/_amp/2026-national-football-league-important-dates",
+          "retrieved_at": "2026-08-31T01:25:13Z",
+          "claims": [
+            "2026 league year began 2026-03-11T16:00:00-04:00."
+          ],
+          "season": 2026,
+          "boundary_valid_from": "2026-03-11T16:00:00-04:00",
+          "boundary_valid_until": "2027-03-11T16:00:00-05:00",
+          "authority_class": "OFFICIAL_NFL_CALENDAR",
+          "content_fingerprint": "0736fb90fc7e312aed4f2c1745b7343c2e8ec937df562c76f42e96966fe54e1f"
+        },
+        {
+          "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+          "retrieved_at": "2026-08-31T01:25:13Z",
+          "claims": [
+            "2027 league year begins 2027-03-11T16:00:00-05:00; the supplied as-of instant falls within the 2026 league year.",
+            "Current calendar lists Week 18 on January 9–10, 2027; the following America/New_York day begins 2027-01-11T00:00:00-05:00.",
+            "Super Bowl LXI is scheduled for February 14, 2027; the following America/New_York day begins 2027-02-15T00:00:00-05:00.",
+            "Postseason has not begun as of the requested instant; postseason_complete is false. No future scheduled game is treated as final.",
+            "No later postponed regular-season or postseason game appears in the current calendar."
+          ],
+          "season": 2026,
+          "boundary_valid_from": "2026-03-11T16:00:00-04:00",
+          "boundary_valid_until": "2027-03-11T16:00:00-05:00",
+          "authority_class": "OFFICIAL_NFL_CALENDAR",
+          "content_fingerprint": "f8c3da1987c2697993273566254107439044ecf49075b83fb61249f167d76141"
+        },
+        {
+          "url": "https://www.nfl.com/news/2026-nfl-training-camps-report-dates-locations-announced-for-all-32-teams",
+          "retrieved_at": "2026-08-31T01:25:13Z",
+          "claims": [
+            "Rams rookies and veterans report July 25, 2026; preseason_start uses that calendar day's midnight, not an asserted reporting hour."
+          ],
+          "season": 2026,
+          "boundary_valid_from": "2026-03-11T16:00:00-04:00",
+          "boundary_valid_until": "2027-03-11T16:00:00-05:00",
+          "authority_class": "OFFICIAL_NFL_CALENDAR",
+          "content_fingerprint": "f4e3cd9d097a51d19bd1d23d2a197cd18f14732f84e294c96996645004acd965"
+        },
+        {
+          "url": "https://www.nfl.com/schedules/2026/by-week/week-1",
+          "retrieved_at": "2026-08-31T01:25:13Z",
+          "claims": [
+            "First league kickoff: 2026-09-09T20:20:00-04:00. Before Week 1, opportunities and appearances are zero league-wide; trades cannot add completed opportunities."
+          ],
+          "season": 2026,
+          "boundary_valid_from": "2026-03-11T16:00:00-04:00",
+          "boundary_valid_until": "2027-03-11T16:00:00-05:00",
+          "authority_class": "OFFICIAL_NFL_SCHEDULE",
+          "content_fingerprint": "63f1d1eb5677fb335b4e8e5721da2518901d2c10f9b25118e0d45ccdebca832a"
+        },
+        {
+          "url": "https://www.nfl.com/schedules/2026/by-team/los-angeles-rams",
+          "retrieved_at": "2026-08-31T01:25:13Z",
+          "claims": [
+            "17 regular-season games scheduled; Week 11 bye. Zero regular-season finals; only preseason games are final. Rams opener: 2026-09-10T20:35:00-04:00."
+          ],
+          "season": 2026,
+          "boundary_valid_from": "2026-03-11T16:00:00-04:00",
+          "boundary_valid_until": "2027-03-11T16:00:00-05:00",
+          "authority_class": "OFFICIAL_NFL_TEAM_SCHEDULE",
+          "content_fingerprint": "80ac3fcce5ff0b9676f767caa410b5e8001895ac5ecb586d4c3ef085d937704c"
+        },
+        {
+          "url": "https://www.nfl.com/players/matthew-stafford/stats/logs/2026/",
+          "retrieved_at": "2026-08-31T01:25:13Z",
+          "claims": [
+            "Stafford is listed with LAR. Displayed entries are preseason only; combined with the unstarted regular-season schedule, regular-season appearances equal zero."
+          ],
+          "season": 2026,
+          "boundary_valid_from": "2026-03-11T16:00:00-04:00",
+          "boundary_valid_until": "2027-03-11T16:00:00-05:00",
+          "authority_class": "OFFICIAL_NFL_CALENDAR",
+          "content_fingerprint": "ed991dca47a89f9a2a81ded75d47a119e340d00c3e332c122906ebef176724a8"
+        },
+        {
+          "url": "https://www.nfl.com/schedules/2026/by-week/week-18",
+          "retrieved_at": "2026-08-31T01:25:13Z",
+          "claims": [
+            "Final regular-season week's matchups remain TBD, not FINAL; regular_season_complete is false."
+          ],
+          "season": 2026,
+          "boundary_valid_from": "2026-03-11T16:00:00-04:00",
+          "boundary_valid_until": "2027-03-11T16:00:00-05:00",
+          "authority_class": "OFFICIAL_NFL_SCHEDULE",
+          "content_fingerprint": "4ede139b59f5f84bde7050673f26a8a26a7f9f781e19c58aebe3f8ba324d002e"
+        }
+      ]
+    },
+    "resolution_level": "CACHED_AUTHORITATIVE",
+    "boundary_fingerprint": "2d54b89d03a3616adcf0d9a3c6c9e80e94832d138dc4819c3d84c6f420c1653d",
+    "source_fresh": false,
+    "metadata": {
+      "nfl_season": 2026,
+      "season_phase": "PRESEASON",
+      "evidence_season": 2025,
+      "current_season_games_available": 0,
+      "current_season_games_played": 0,
+      "prior_season_used_as_primary_baseline": true,
+      "sample_size_context": {
+        "weighting": "COMPLETED_SEASON_PRIMARY_WITH_CURRENT_CONTEXT",
+        "established_after_games": 4,
+        "player_sample_limited": true,
+        "limitations": [
+          "Season phase is established from immutable official NFL boundaries; mutable game counts require fresh evidence.",
+          "Player regular-season sample is unavailable; retain current role, availability, and completed-season evidence."
+        ]
+      }
+    }
+  },
+  "minimum_evidence_met": false,
+  "proposal_generated": false,
+  "research_performed": false,
+  "blockers": [
+    "BLOCKING_CORE_EVIDENCE_MISSING:current_role",
+    "BLOCKING_CORE_EVIDENCE_MISSING:roster_depth_chart",
+    "BLOCKING_CORE_EVIDENCE_MISSING:injury_practice_status",
+    "BLOCKING_CORE_EVIDENCE_MISSING:durability_availability",
+    "BLOCKING_CORE_EVIDENCE_MISSING:pressure_performance",
+    "BLOCKING_CORE_EVIDENCE_MISSING:accuracy_by_depth",
+    "BLOCKING_CORE_EVIDENCE_MISSING:scrambling_sack_avoidance",
+    "BLOCKING_CORE_EVIDENCE_MISSING:locked_control_comparisons",
+    "INVALID_SUPPORTING_SUBSTITUTE:rushing_designed_run_value",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:arm_strength",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:short_accuracy",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:intermediate_accuracy",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:deep_accuracy",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:pressure_performance",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:pocket_movement",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:sack_avoidance",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:workload_availability",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:durability",
+    "INVALID_SUPPORTING_SUBSTITUTE:domain:throws_on_run",
+    "INVALID_SUPPORTING_SUBSTITUTE:domain:designed_rushing",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:THP",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:SAC",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:MAC",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:DAC",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:TUP",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:BSK",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:INJ",
+    "SECONDARY_TRAIT_NO_VALID_EVIDENCE_PATH:trait:STR",
+    "POSITIONAL_COMPARISON_INSUFFICIENT"
+  ],
+  "supporting_weaknesses": [
+    "SUPPORTING_EVIDENCE_WEAK:advanced_passing_metrics",
+    "SUPPORTING_EVIDENCE_WEAK:domain:play_action",
+    "SUPPORTING_EVIDENCE_WEAK:domain:scrambling",
+    "SUPPORTING_EVIDENCE_WEAK:domain:opponent_context_adjustments",
+    "SUPPORTING_EVIDENCE_WEAK:trait:CAR"
+  ],
+  "secondary_low_confidence": [
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:SPD",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:ACC",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:AGI",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:COD",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:JMP",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:STA",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:TGH"
+  ],
+  "contextual_gaps": [
+    "CONTEXTUAL_EVIDENCE_GAP:age_career_trajectory"
+  ],
+  "categories_still_needing_research": [
+    "current_role",
+    "roster_depth_chart",
+    "injury_practice_status",
+    "durability_availability",
+    "pressure_performance",
+    "accuracy_by_depth",
+    "scrambling_sack_avoidance",
+    "locked_control_comparisons",
+    "rushing_designed_run_value",
+    "domain:arm_strength",
+    "domain:short_accuracy",
+    "domain:intermediate_accuracy",
+    "domain:deep_accuracy",
+    "domain:pressure_performance",
+    "domain:pocket_movement",
+    "domain:sack_avoidance",
+    "domain:workload_availability",
+    "domain:durability",
+    "domain:throws_on_run",
+    "domain:designed_rushing",
+    "trait:THP",
+    "trait:SAC",
+    "trait:MAC",
+    "trait:DAC",
+    "trait:TUP",
+    "trait:BSK",
+    "trait:INJ",
+    "trait:STR"
+  ],
+  "attributes": {
+    "THP": {
+      "criticality": "CORE_BLOCKING",
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "evidence_tier": 3,
+      "valid_evidence_path": true,
+      "classification": "GENUINE_PROPOSAL_BLOCKER",
+      "hierarchy": [
+        "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "SAC": {
+      "criticality": "CORE_BLOCKING",
+      "status": "missing",
+      "confidence": "LOW",
+      "evidence_tier": null,
+      "valid_evidence_path": false,
+      "classification": "GENUINE_PROPOSAL_BLOCKER",
+      "hierarchy": [
+        "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "MAC": {
+      "criticality": "CORE_BLOCKING",
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "evidence_tier": 3,
+      "valid_evidence_path": true,
+      "classification": "GENUINE_PROPOSAL_BLOCKER",
+      "hierarchy": [
+        "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "DAC": {
+      "criticality": "CORE_BLOCKING",
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "evidence_tier": 3,
+      "valid_evidence_path": true,
+      "classification": "GENUINE_PROPOSAL_BLOCKER",
+      "hierarchy": [
+        "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "TUP": {
+      "criticality": "CORE_BLOCKING",
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "evidence_tier": 3,
+      "valid_evidence_path": true,
+      "classification": "GENUINE_PROPOSAL_BLOCKER",
+      "hierarchy": [
+        "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "BSK": {
+      "criticality": "CORE_BLOCKING",
+      "status": "missing",
+      "confidence": "LOW",
+      "evidence_tier": null,
+      "valid_evidence_path": false,
+      "classification": "GENUINE_PROPOSAL_BLOCKER",
+      "hierarchy": [
+        "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "AWR": {
+      "criticality": "CORE_BLOCKING",
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "evidence_tier": 3,
+      "valid_evidence_path": true,
+      "classification": "SUPPORTED",
+      "hierarchy": [
+        "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "INJ": {
+      "criticality": "CORE_BLOCKING",
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "evidence_tier": 5,
+      "valid_evidence_path": false,
+      "classification": "GENUINE_PROPOSAL_BLOCKER",
+      "hierarchy": [
+        "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+        "Tier 2: current official participation, injury, practice, snap, and availability records",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "RUN": {
+      "criticality": "CORE_SUPPORTING",
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "evidence_tier": 3,
+      "valid_evidence_path": true,
+      "classification": "SUPPORTED",
+      "hierarchy": [
+        "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "PAC": {
+      "criticality": "CORE_SUPPORTING",
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "evidence_tier": 2,
+      "valid_evidence_path": true,
+      "classification": "SUPPORTED",
+      "hierarchy": [
+        "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "CAR": {
+      "criticality": "CORE_SUPPORTING",
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "evidence_tier": 3,
+      "valid_evidence_path": true,
+      "classification": "SUPPORTING_WEAKNESS",
+      "hierarchy": [
+        "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "SPD": {
+      "criticality": "SECONDARY_TRAIT",
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "evidence_tier": 1,
+      "valid_evidence_path": true,
+      "classification": "ACCEPTABLE_LOW_CONFIDENCE_SECONDARY_GAP",
+      "hierarchy": [
+        "Tier 1: current NFL tracking, GPS, or directly measured current data",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "ACC": {
+      "criticality": "SECONDARY_TRAIT",
+      "status": "partial",
+      "confidence": "LOW",
+      "evidence_tier": 2,
+      "valid_evidence_path": true,
+      "classification": "ACCEPTABLE_LOW_CONFIDENCE_SECONDARY_GAP",
+      "hierarchy": [
+        "Tier 1: current NFL tracking, GPS, or directly measured current data",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "AGI": {
+      "criticality": "SECONDARY_TRAIT",
+      "status": "partial",
+      "confidence": "LOW",
+      "evidence_tier": 5,
+      "valid_evidence_path": true,
+      "classification": "ACCEPTABLE_LOW_CONFIDENCE_SECONDARY_GAP",
+      "hierarchy": [
+        "Tier 1: current NFL tracking, GPS, or directly measured current data",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "COD": {
+      "criticality": "SECONDARY_TRAIT",
+      "status": "partial",
+      "confidence": "LOW",
+      "evidence_tier": 5,
+      "valid_evidence_path": true,
+      "classification": "ACCEPTABLE_LOW_CONFIDENCE_SECONDARY_GAP",
+      "hierarchy": [
+        "Tier 1: current NFL tracking, GPS, or directly measured current data",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "STR": {
+      "criticality": "SECONDARY_TRAIT",
+      "status": "missing",
+      "confidence": "LOW",
+      "evidence_tier": null,
+      "valid_evidence_path": false,
+      "classification": "GENUINE_PROPOSAL_BLOCKER",
+      "hierarchy": [
+        "Tier 1: current NFL tracking, GPS, or directly measured current data",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "JMP": {
+      "criticality": "SECONDARY_TRAIT",
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "evidence_tier": 3,
+      "valid_evidence_path": true,
+      "classification": "ACCEPTABLE_LOW_CONFIDENCE_SECONDARY_GAP",
+      "hierarchy": [
+        "Tier 1: current NFL tracking, GPS, or directly measured current data",
+        "Tier 2: recent verified measurement or reputable advanced charting",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "STA": {
+      "criticality": "SECONDARY_TRAIT",
+      "status": "partial",
+      "confidence": "LOW",
+      "evidence_tier": 5,
+      "valid_evidence_path": true,
+      "classification": "ACCEPTABLE_LOW_CONFIDENCE_SECONDARY_GAP",
+      "hierarchy": [
+        "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+        "Tier 2: current official participation, injury, practice, snap, and availability records",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    },
+    "TGH": {
+      "criticality": "SECONDARY_TRAIT",
+      "status": "partial",
+      "confidence": "LOW",
+      "evidence_tier": 5,
+      "valid_evidence_path": true,
+      "classification": "ACCEPTABLE_LOW_CONFIDENCE_SECONDARY_GAP",
+      "hierarchy": [
+        "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+        "Tier 2: current official participation, injury, practice, snap, and availability records",
+        "Tier 3: historical verified measurement or completed-season exact-trait evidence, adjusted cautiously for age, injury, and role",
+        "Tier 4: recent play-level evidence and credible film/charting tied directly to the trait",
+        "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+      ]
+    }
+  },
+  "protected_state_unchanged": true,
+  "protected_hashes": {
+    "data/baselines/QB.json": "a0fbd566dc23af2feb93decb276fd0fdd1643b73b1714bd92d919a67e4d5c78c",
+    "state/project-state.json": "b0a4304bc4c74c071dc4b31ce3d54c91fffc6d10a916e0f4ec46636bf7765157",
+    "state/locks.json": "4fb63117a3af4399e2c5df80080a2ce41d1640474a54dc0b0e37715ce2da6daf",
+    "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\logs\\qb-reconstruction\\matthew_stafford\\6cb4a74b-2218-4ff9-843c-de8a1c8ae1a3\\evidence-progress.json": "00c353ba3efcf8cdbda388acfd4078c8602587dcd166b8f542b2f674fb24d174"
+  }
+}

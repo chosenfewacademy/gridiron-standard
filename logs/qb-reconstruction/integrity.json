@@ -1,0 +1,118 @@
+{
+  "protected_state_unchanged": true,
+  "files_checked": 13,
+  "changes": [],
+  "before": [
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\AGENTS.md",
+      "sha256": "60543EB1E47ABEC4CB747C9B11773E417D631C4E72EEE55CF4C66B1331675279"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\data\\baselines\\LT.json",
+      "sha256": "C222AB7151F30CFC9D14473F4494AF71FC071E87A3A3C6250139906DCE9FEE00"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\data\\baselines\\QB.json",
+      "sha256": "A0FBD566DC23AF2FEB93DECB276FD0FDD1643B73B1714BD92D919A67E4D5C78C"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\data\\baselines\\RB.json",
+      "sha256": "32B526CFF5A0948003BB388C12FB06152A76E0484F3E902C175BE8241DBF3427"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\data\\baselines\\TE.json",
+      "sha256": "88BEF8CAB90DF542D7484DBD45D9D951A11F0B9769CC6A978288CA3D50CB6FC0"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\data\\baselines\\WR.json",
+      "sha256": "2E8A6DE09E2F8EA7AF703DCFFB64902BC345F427D6F26D958BD167D88C65AB4F"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\data\\players\\registry.json",
+      "sha256": "94502AB10C2541D309C0C4FBAAC0EE32C9874D3304319E64A57F116B7F75BDFA"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\state\\locks.json",
+      "sha256": "4FB63117A3AF4399E2C5DF80080A2CE41D1640474A54DC0B0E37715CE2DA6DAF"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\state\\project-state.json",
+      "sha256": "B0A4304BC4C74C071DC4B31CE3D54C91FFFC6D10A916E0F4EC46636BF7765157"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\state\\thread.json",
+      "sha256": "7872F9D30BC4DDAB91F0689D4FE592FDE3BB4766AD92A88003B948256A4EE85B"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\config\\madden-entry-order.json",
+      "sha256": "DE340D9EA5FD7D3B0E5640643559D7BD7EB6C33299B73D7F6975397075CD825F"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\bootstrap\\import-report.json",
+      "sha256": "5A93B1E2D7A407A65834F6F17E4F6D8DF1514A8810555D896C2515737C3F1128"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\bootstrap\\manifest.json",
+      "sha256": "AA072E18E7B36A16FCFC0FCA5C6B7E3CEBE396DE6E705FAD9409F4F56794D5F4"
+    }
+  ],
+  "after": [
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\AGENTS.md",
+      "sha256": "60543EB1E47ABEC4CB747C9B11773E417D631C4E72EEE55CF4C66B1331675279"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\data\\baselines\\LT.json",
+      "sha256": "C222AB7151F30CFC9D14473F4494AF71FC071E87A3A3C6250139906DCE9FEE00"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\data\\baselines\\QB.json",
+      "sha256": "A0FBD566DC23AF2FEB93DECB276FD0FDD1643B73B1714BD92D919A67E4D5C78C"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\data\\baselines\\RB.json",
+      "sha256": "32B526CFF5A0948003BB388C12FB06152A76E0484F3E902C175BE8241DBF3427"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\data\\baselines\\TE.json",
+      "sha256": "88BEF8CAB90DF542D7484DBD45D9D951A11F0B9769CC6A978288CA3D50CB6FC0"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\data\\baselines\\WR.json",
+      "sha256": "2E8A6DE09E2F8EA7AF703DCFFB64902BC345F427D6F26D958BD167D88C65AB4F"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\data\\players\\registry.json",
+      "sha256": "94502AB10C2541D309C0C4FBAAC0EE32C9874D3304319E64A57F116B7F75BDFA"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\state\\locks.json",
+      "sha256": "4FB63117A3AF4399E2C5DF80080A2CE41D1640474A54DC0B0E37715CE2DA6DAF"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\state\\project-state.json",
+      "sha256": "B0A4304BC4C74C071DC4B31CE3D54C91FFFC6D10A916E0F4EC46636BF7765157"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\state\\thread.json",
+      "sha256": "7872F9D30BC4DDAB91F0689D4FE592FDE3BB4766AD92A88003B948256A4EE85B"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\config\\madden-entry-order.json",
+      "sha256": "DE340D9EA5FD7D3B0E5640643559D7BD7EB6C33299B73D7F6975397075CD825F"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\bootstrap\\import-report.json",
+      "sha256": "5A93B1E2D7A407A65834F6F17E4F6D8DF1514A8810555D896C2515737C3F1128"
+    },
+    {
+      "path": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\bootstrap\\manifest.json",
+      "sha256": "AA072E18E7B36A16FCFC0FCA5C6B7E3CEBE396DE6E705FAD9409F4F56794D5F4"
+    }
+  ],
+  "no_player_audits_executed": true,
+  "no_approved_cards_created": true,
+  "queue_all_not_started": true,
+  "historical_smoke_artifacts_checked": 8,
+  "historical_smoke_artifacts_unchanged": true
+}

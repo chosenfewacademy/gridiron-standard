@@ -1,0 +1,982 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QB reconstruction architecture",
+  "$comment": "Structural export of the canonical Zod contract in src/qb-reconstruction.ts. Runtime validation additionally enforces source linkage, evidence gating, scarcity, immutable constraints and approval authorization.",
+  "$ref": "#/$defs/node1",
+  "$defs": {
+    "node2": {
+      "const": "QB"
+    },
+    "node3": {
+      "const": "1.0.0"
+    },
+    "node4": {
+      "const": "1.0.0"
+    },
+    "node5": {
+      "const": "RECONSTRUCTION_FRAMEWORK_NOT_RECOVERED_HISTORY"
+    },
+    "node6": {
+      "const": false
+    },
+    "node7": {
+      "const": "EMPIRICAL_UNVERIFIED"
+    },
+    "node9": {
+      "type": "string",
+      "minLength": 1
+    },
+    "node8": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node9"
+      },
+      "minItems": 1
+    },
+    "node10": {
+      "type": "object",
+      "properties": {
+        "arm_strength": {
+          "$ref": "#/$defs/node9"
+        },
+        "short_accuracy": {
+          "$ref": "#/$defs/node9"
+        },
+        "intermediate_accuracy": {
+          "$ref": "#/$defs/node9"
+        },
+        "deep_accuracy": {
+          "$ref": "#/$defs/node9"
+        },
+        "pressure_performance": {
+          "$ref": "#/$defs/node9"
+        },
+        "pocket_movement": {
+          "$ref": "#/$defs/node9"
+        },
+        "sack_avoidance": {
+          "$ref": "#/$defs/node9"
+        },
+        "processing_decision_making": {
+          "$ref": "#/$defs/node9"
+        },
+        "play_action": {
+          "$ref": "#/$defs/node9"
+        },
+        "throws_on_run": {
+          "$ref": "#/$defs/node9"
+        },
+        "scrambling": {
+          "$ref": "#/$defs/node9"
+        },
+        "designed_rushing": {
+          "$ref": "#/$defs/node9"
+        },
+        "ball_security": {
+          "$ref": "#/$defs/node9"
+        },
+        "durability": {
+          "$ref": "#/$defs/node9"
+        },
+        "workload_availability": {
+          "$ref": "#/$defs/node9"
+        },
+        "consistency": {
+          "$ref": "#/$defs/node9"
+        },
+        "opponent_context_adjustments": {
+          "$ref": "#/$defs/node9"
+        }
+      },
+      "required": [
+        "arm_strength",
+        "short_accuracy",
+        "intermediate_accuracy",
+        "deep_accuracy",
+        "pressure_performance",
+        "pocket_movement",
+        "sack_avoidance",
+        "processing_decision_making",
+        "play_action",
+        "throws_on_run",
+        "scrambling",
+        "designed_rushing",
+        "ball_security",
+        "durability",
+        "workload_availability",
+        "consistency",
+        "opponent_context_adjustments"
+      ],
+      "additionalProperties": false
+    },
+    "node13": {
+      "const": "MADDEN_27_UNVERIFIED"
+    },
+    "node14": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node9"
+      },
+      "minItems": 1
+    },
+    "node15": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node9"
+      },
+      "minItems": 1
+    },
+    "node17": {
+      "type": "string",
+      "enum": [
+        "THP",
+        "SAC",
+        "MAC",
+        "DAC",
+        "RUN",
+        "TUP",
+        "PAC",
+        "BSK",
+        "AWR",
+        "SPD",
+        "ACC",
+        "AGI",
+        "COD",
+        "STR",
+        "CAR",
+        "JMP",
+        "INJ",
+        "STA",
+        "TGH"
+      ]
+    },
+    "node16": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node17"
+      },
+      "minItems": 1
+    },
+    "node18": {
+      "const": "UNVERIFIED"
+    },
+    "node19": {
+      "type": "boolean"
+    },
+    "node20": {
+      "type": "object",
+      "properties": {
+        "90": {
+          "$ref": "#/$defs/node9"
+        },
+        "95": {
+          "$ref": "#/$defs/node9"
+        },
+        "97": {
+          "$ref": "#/$defs/node9"
+        },
+        "99": {
+          "$ref": "#/$defs/node9"
+        }
+      },
+      "required": [
+        "90",
+        "95",
+        "97",
+        "99"
+      ],
+      "additionalProperties": false
+    },
+    "node12": {
+      "type": "object",
+      "properties": {
+        "football_meaning": {
+          "$ref": "#/$defs/node9"
+        },
+        "madden_gameplay_effect": {
+          "$ref": "#/$defs/node9"
+        },
+        "engine_effect_status": {
+          "$ref": "#/$defs/node13"
+        },
+        "supporting_evidence": {
+          "$ref": "#/$defs/node14"
+        },
+        "forbidden_substitutes": {
+          "$ref": "#/$defs/node15"
+        },
+        "expected_confidence": {
+          "$ref": "#/$defs/node9"
+        },
+        "interactions": {
+          "$ref": "#/$defs/node16"
+        },
+        "ovr_materiality": {
+          "$ref": "#/$defs/node18"
+        },
+        "mainly_gameplay_identity": {
+          "$ref": "#/$defs/node19"
+        },
+        "gameplay_role": {
+          "$ref": "#/$defs/node9"
+        },
+        "scarcity": {
+          "$ref": "#/$defs/node20"
+        }
+      },
+      "required": [
+        "football_meaning",
+        "madden_gameplay_effect",
+        "engine_effect_status",
+        "supporting_evidence",
+        "forbidden_substitutes",
+        "expected_confidence",
+        "interactions",
+        "ovr_materiality",
+        "mainly_gameplay_identity",
+        "gameplay_role",
+        "scarcity"
+      ],
+      "additionalProperties": false
+    },
+    "node11": {
+      "type": "object",
+      "properties": {
+        "THP": {
+          "$ref": "#/$defs/node12"
+        },
+        "SAC": {
+          "$ref": "#/$defs/node12"
+        },
+        "MAC": {
+          "$ref": "#/$defs/node12"
+        },
+        "DAC": {
+          "$ref": "#/$defs/node12"
+        },
+        "RUN": {
+          "$ref": "#/$defs/node12"
+        },
+        "TUP": {
+          "$ref": "#/$defs/node12"
+        },
+        "PAC": {
+          "$ref": "#/$defs/node12"
+        },
+        "BSK": {
+          "$ref": "#/$defs/node12"
+        },
+        "AWR": {
+          "$ref": "#/$defs/node12"
+        },
+        "SPD": {
+          "$ref": "#/$defs/node12"
+        },
+        "ACC": {
+          "$ref": "#/$defs/node12"
+        },
+        "AGI": {
+          "$ref": "#/$defs/node12"
+        },
+        "COD": {
+          "$ref": "#/$defs/node12"
+        },
+        "STR": {
+          "$ref": "#/$defs/node12"
+        },
+        "CAR": {
+          "$ref": "#/$defs/node12"
+        },
+        "JMP": {
+          "$ref": "#/$defs/node12"
+        },
+        "INJ": {
+          "$ref": "#/$defs/node12"
+        },
+        "STA": {
+          "$ref": "#/$defs/node12"
+        },
+        "TGH": {
+          "$ref": "#/$defs/node12"
+        }
+      },
+      "required": [
+        "THP",
+        "SAC",
+        "MAC",
+        "DAC",
+        "RUN",
+        "TUP",
+        "PAC",
+        "BSK",
+        "AWR",
+        "SPD",
+        "ACC",
+        "AGI",
+        "COD",
+        "STR",
+        "CAR",
+        "JMP",
+        "INJ",
+        "STA",
+        "TGH"
+      ],
+      "additionalProperties": false
+    },
+    "node23": {
+      "type": "string",
+      "format": "uri"
+    },
+    "node22": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "$ref": "#/$defs/node23"
+        },
+        "scope": {
+          "$ref": "#/$defs/node9"
+        }
+      },
+      "required": [
+        "url",
+        "scope"
+      ],
+      "additionalProperties": false
+    },
+    "node21": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/node22"
+      },
+      "minItems": 1
+    },
+    "node1": {
+      "type": "object",
+      "properties": {
+        "position": {
+          "$ref": "#/$defs/node2"
+        },
+        "architecture_version": {
+          "$ref": "#/$defs/node3"
+        },
+        "reconstruction_architecture_version": {
+          "$ref": "#/$defs/node4"
+        },
+        "status": {
+          "$ref": "#/$defs/node5"
+        },
+        "editor_order_verified": {
+          "$ref": "#/$defs/node6"
+        },
+        "ovr_formula_status": {
+          "$ref": "#/$defs/node7"
+        },
+        "principles": {
+          "$ref": "#/$defs/node8"
+        },
+        "evidence_domains": {
+          "$ref": "#/$defs/node10"
+        },
+        "attributes": {
+          "$ref": "#/$defs/node11"
+        },
+        "engine_source_notes": {
+          "$ref": "#/$defs/node21"
+        },
+        "evidence_criticality": {
+          "type": "object",
+          "properties": {
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "THP": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "SAC": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "MAC": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "DAC": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "RUN": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "TUP": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "PAC": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "BSK": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "AWR": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "SPD": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "ACC": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "AGI": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "COD": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "STR": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "CAR": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "JMP": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "INJ": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "STA": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "TGH": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                }
+              },
+              "required": [
+                "THP",
+                "SAC",
+                "MAC",
+                "DAC",
+                "RUN",
+                "TUP",
+                "PAC",
+                "BSK",
+                "AWR",
+                "SPD",
+                "ACC",
+                "AGI",
+                "COD",
+                "STR",
+                "CAR",
+                "JMP",
+                "INJ",
+                "STA",
+                "TGH"
+              ],
+              "additionalProperties": false
+            },
+            "domains": {
+              "type": "object",
+              "properties": {
+                "arm_strength": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "short_accuracy": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "intermediate_accuracy": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "deep_accuracy": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "pressure_performance": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "pocket_movement": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "sack_avoidance": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "processing_decision_making": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "play_action": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "throws_on_run": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "scrambling": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "designed_rushing": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "ball_security": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "durability": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "workload_availability": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "consistency": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                },
+                "opponent_context_adjustments": {
+                  "enum": [
+                    "CORE_BLOCKING",
+                    "CORE_SUPPORTING",
+                    "SECONDARY_TRAIT",
+                    "CONTEXTUAL"
+                  ]
+                }
+              },
+              "required": [
+                "arm_strength",
+                "short_accuracy",
+                "intermediate_accuracy",
+                "deep_accuracy",
+                "pressure_performance",
+                "pocket_movement",
+                "sack_avoidance",
+                "processing_decision_making",
+                "play_action",
+                "throws_on_run",
+                "scrambling",
+                "designed_rushing",
+                "ball_security",
+                "durability",
+                "workload_availability",
+                "consistency",
+                "opponent_context_adjustments"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "attributes",
+            "domains"
+          ],
+          "additionalProperties": false
+        },
+        "evidence_hierarchies": {
+          "type": "object",
+          "properties": {
+            "THP": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "SAC": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "MAC": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "DAC": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "RUN": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "TUP": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "PAC": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "BSK": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "AWR": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "SPD": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "ACC": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "AGI": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "COD": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "STR": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "CAR": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "JMP": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "INJ": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "STA": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            },
+            "TGH": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^Tier [1-5]:"
+              },
+              "minItems": 5,
+              "maxItems": 5
+            }
+          },
+          "required": [
+            "THP",
+            "SAC",
+            "MAC",
+            "DAC",
+            "RUN",
+            "TUP",
+            "PAC",
+            "BSK",
+            "AWR",
+            "SPD",
+            "ACC",
+            "AGI",
+            "COD",
+            "STR",
+            "CAR",
+            "JMP",
+            "INJ",
+            "STA",
+            "TGH"
+          ],
+          "additionalProperties": false
+        },
+        "confidence_rules": {
+          "type": "object",
+          "properties": {
+            "core_blocking_low": {
+              "type": "string",
+              "minLength": 1
+            },
+            "core_supporting_low": {
+              "type": "string",
+              "minLength": 1
+            },
+            "secondary_trait_low": {
+              "type": "string",
+              "minLength": 1
+            },
+            "low_confidence_scarcity_cap": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 99
+            }
+          },
+          "required": [
+            "core_blocking_low",
+            "core_supporting_low",
+            "secondary_trait_low",
+            "low_confidence_scarcity_cap"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "position",
+        "architecture_version",
+        "reconstruction_architecture_version",
+        "status",
+        "editor_order_verified",
+        "ovr_formula_status",
+        "principles",
+        "evidence_domains",
+        "attributes",
+        "engine_source_notes",
+        "evidence_criticality",
+        "evidence_hierarchies",
+        "confidence_rules"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

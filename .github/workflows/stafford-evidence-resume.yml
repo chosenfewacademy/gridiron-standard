@@ -1,0 +1,92 @@
+name: Stafford Evidence Resume
+
+on:
+  workflow_dispatch:
+    inputs:
+      audit_id:
+        description: Existing Stafford reconstruction audit UUID
+        required: true
+        default: 6cb4a74b-2218-4ff9-843c-de8a1c8ae1a3
+        type: string
+      player_id:
+        description: Existing player registry ID
+        required: true
+        default: matthew_stafford
+        type: string
+      transport:
+        description: Research transport
+        required: true
+        default: OPENAI_RESPONSES_TRANSPORT
+        type: choice
+        options:
+          - OPENAI_RESPONSES_TRANSPORT
+          - SDK_TRANSPORT
+          - EPHEMERAL_CLI_TRANSPORT
+      live_confirmation:
+        description: Select RUN_PAID_RESEARCH to authorize evidence research
+        required: true
+        default: DO_NOT_RUN
+        type: choice
+        options:
+          - DO_NOT_RUN
+          - RUN_PAID_RESEARCH
+
+permissions:
+  contents: read
+
+concurrency:
+  group: stafford-evidence-${{ inputs.audit_id }}
+  cancel-in-progress: false
+
+jobs:
+  resume:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - name: Require explicit live confirmation
+        if: inputs.live_confirmation != 'RUN_PAID_RESEARCH'
+        run: |
+          echo "Paid evidence research was not authorized. Select RUN_PAID_RESEARCH to continue."
+          exit 1
+      - name: Resume existing Stafford evidence with Responses API
+        if: inputs.live_confirmation == 'RUN_PAID_RESEARCH' && inputs.transport == 'OPENAI_RESPONSES_TRANSPORT'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GRIDIRON_RESEARCH_MODEL: ${{ vars.GRIDIRON_RESEARCH_MODEL }}
+          AUDIT_ID: ${{ inputs.audit_id }}
+          PLAYER_ID: ${{ inputs.player_id }}
+          RESEARCH_TRANSPORT: ${{ inputs.transport }}
+        run: npm run evidence:resume -- --audit-id "$AUDIT_ID" --player "$PLAYER_ID" --transport "$RESEARCH_TRANSPORT"
+      - name: Resume existing Stafford evidence with explicit compatibility transport
+        if: inputs.live_confirmation == 'RUN_PAID_RESEARCH' && inputs.transport != 'OPENAI_RESPONSES_TRANSPORT'
+        env:
+          AUDIT_ID: ${{ inputs.audit_id }}
+          PLAYER_ID: ${{ inputs.player_id }}
+          RESEARCH_TRANSPORT: ${{ inputs.transport }}
+        run: npm run evidence:resume -- --audit-id "$AUDIT_ID" --player "$PLAYER_ID" --transport "$RESEARCH_TRANSPORT"
+      - name: Validate repository after research
+        if: inputs.live_confirmation == 'RUN_PAID_RESEARCH'
+        run: |
+          npm run typecheck
+          npm test
+          npm run preflight
+      - name: Add usage to workflow summary
+        if: always() && inputs.live_confirmation == 'RUN_PAID_RESEARCH'
+        env:
+          AUDIT_ID: ${{ inputs.audit_id }}
+          PLAYER_ID: ${{ inputs.player_id }}
+        run: npm run --silent research:usage-summary -- --kind "Stafford evidence resume" --input "logs/qb-reconstruction/$PLAYER_ID/$AUDIT_ID/evidence-resume-diagnostics.json" >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload evidence and diagnostics
+        if: always() && inputs.live_confirmation == 'RUN_PAID_RESEARCH'
+        uses: actions/upload-artifact@v4
+        with:
+          name: stafford-evidence-${{ inputs.audit_id }}
+          path: logs/qb-reconstruction/${{ inputs.player_id }}/${{ inputs.audit_id }}/
+          if-no-files-found: error
+          retention-days: 30

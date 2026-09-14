@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "audit_id": "RELIABILITY_4c20b8ca-c09a-4a72-be5c-f773da0e62b2",
+  "player_id": "non_player_reliability_fixture",
+  "player_name": "NFL league information",
+  "position": "N/A",
+  "task": {
+    "type": "RESEARCH_RELIABILITY_SMOKE",
+    "as_of": "2026-09-02T17:11:19.873Z",
+    "nfl_season": 2026,
+    "instruction": "Current public NFL league calendar, schedule publication, and rules information only; no player research."
+  },
+  "created_at": "2026-09-02T17:11:19.873Z",
+  "updated_at": "2026-09-02T17:12:20.820Z",
+  "max_attempts": 2,
+  "categories": {
+    "league_calendar": {
+      "player_id": "non_player_reliability_fixture",
+      "audit_id": "RELIABILITY_4c20b8ca-c09a-4a72-be5c-f773da0e62b2",
+      "evidence_category": "league_calendar",
+      "status": "SATISFIED",
+      "attempt_count": 1,
+      "last_attempt_timestamp": "2026-09-02T17:11:19.882Z",
+      "source_urls": [
+        "https://operations.nfl.com/calendar-events/nfl-important-dates",
+        "https://www.nfl.com/schedules/2026/by-week/week-1"
+      ],
+      "accepted_evidence": [
+        {
+          "claim": "The 2026 NFL Kickoff Weekend is scheduled for September 9-10 and September 13-14, 2026.",
+          "source_url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+          "retrieved_at": "2026-09-02T17:11:19-04:00",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        },
+        {
+          "claim": "The 2026 NFL regular season begins September 9, 2026, with the New England Patriots visiting the Seattle Seahawks.",
+          "source_url": "https://www.nfl.com/schedules/2026/by-week/week-1",
+          "retrieved_at": "2026-09-02T17:11:19-04:00",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "The 2026 NFL trading deadline is November 10, 2026, at 4:00 p.m. New York time.",
+          "source_url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+          "retrieved_at": "2026-09-02T17:11:19-04:00",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "normalized_evidence": {
+        "status": "satisfied",
+        "confidence": "HIGH",
+        "items": [
+          {
+            "claim": "The 2026 NFL Kickoff Weekend is scheduled for September 9-10 and September 13-14, 2026.",
+            "source_url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+            "retrieved_at": "2026-09-02T17:11:19-04:00",
+            "season": 2026,
+            "period": "CURRENT_CONTEXT"
+          },
+          {
+            "claim": "The 2026 NFL regular season begins September 9, 2026, with the New England Patriots visiting the Seattle Seahawks.",
+            "source_url": "https://www.nfl.com/schedules/2026/by-week/week-1",
+            "retrieved_at": "2026-09-02T17:11:19-04:00",
+            "season": 2026,
+            "period": "REGULAR_SEASON"
+          },
+          {
+            "claim": "The 2026 NFL trading deadline is November 10, 2026, at 4:00 p.m. New York time.",
+            "source_url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+            "retrieved_at": "2026-09-02T17:11:19-04:00",
+            "season": 2026,
+            "period": "REGULAR_SEASON"
+          }
+        ],
+        "limitations": [
+          "The NFL states that all listed dates are subject to change."
+        ]
+      },
+      "unresolved_conflicts": [],
+      "missing_fields": [],
+      "retry_eligible": false,
+      "failure_reason": null
+    },
+    "schedule_source": {
+      "player_id": "non_player_reliability_fixture",
+      "audit_id": "RELIABILITY_4c20b8ca-c09a-4a72-be5c-f773da0e62b2",
+      "evidence_category": "schedule_source",
+      "status": "SATISFIED",
+      "attempt_count": 2,
+      "last_attempt_timestamp": "2026-09-02T17:12:05.323Z",
+      "source_urls": [
+        "https://www.nfl.com/schedules/2026/by-team"
+      ],
+      "accepted_evidence": [
+        {
+          "claim": "NFL.com provides the official 2026 league schedule with by-week and by-team views, including regular-season Weeks 1-18.",
+          "source_url": "https://www.nfl.com/schedules/2026/by-team",
+          "retrieved_at": "2026-09-02T13:11:19.873-04:00",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "normalized_evidence": {
+        "status": "satisfied",
+        "confidence": "HIGH",
+        "items": [
+          {
+            "claim": "NFL.com provides the official 2026 league schedule with by-week and by-team views, including regular-season Weeks 1-18.",
+            "source_url": "https://www.nfl.com/schedules/2026/by-team",
+            "retrieved_at": "2026-09-02T13:11:19.873-04:00",
+            "season": 2026,
+            "period": "CURRENT_CONTEXT"
+          }
+        ],
+        "limitations": []
+      },
+      "unresolved_conflicts": [],
+      "missing_fields": [],
+      "retry_eligible": false,
+      "failure_reason": null
+    },
+    "rules_resource": {
+      "player_id": "non_player_reliability_fixture",
+      "audit_id": "RELIABILITY_4c20b8ca-c09a-4a72-be5c-f773da0e62b2",
+      "evidence_category": "rules_resource",
+      "status": "SATISFIED",
+      "attempt_count": 1,
+      "last_attempt_timestamp": "2026-09-02T17:11:48.168Z",
+      "source_urls": [
+        "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook"
+      ],
+      "accepted_evidence": [
+        {
+          "claim": "NFL Football Operations provides the official 2026 NFL Rulebook, including the complete playing rules and 2026 rule changes.",
+          "source_url": "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook",
+          "retrieved_at": "2026-09-02T13:11:19.873-04:00",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "normalized_evidence": {
+        "status": "satisfied",
+        "confidence": "HIGH",
+        "items": [
+          {
+            "claim": "NFL Football Operations provides the official 2026 NFL Rulebook, including the complete playing rules and 2026 rule changes.",
+            "source_url": "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook",
+            "retrieved_at": "2026-09-02T13:11:19.873-04:00",
+            "season": 2026,
+            "period": "CURRENT_CONTEXT"
+          }
+        ],
+        "limitations": []
+      },
+      "unresolved_conflicts": [],
+      "missing_fields": [],
+      "retry_eligible": false,
+      "failure_reason": null
+    }
+  },
+  "retry_history": [
+    {
+      "batch_id": "SMOKE_LEAGUE_CALENDAR",
+      "categories": [
+        "league_calendar"
+      ],
+      "attempted_at": "2026-09-02T17:11:19.882Z",
+      "outcome": "SUCCESS",
+      "failure_kind": null,
+      "reason": null
+    },
+    {
+      "batch_id": "SMOKE_SCHEDULE_SOURCE",
+      "categories": [
+        "schedule_source"
+      ],
+      "attempted_at": "2026-09-02T17:11:48.161Z",
+      "outcome": "FAILURE",
+      "failure_kind": "NETWORK_TOOL_TIMEOUT",
+      "reason": "Intentional first-attempt harness timeout"
+    },
+    {
+      "batch_id": "SMOKE_RULES_RESOURCE",
+      "categories": [
+        "rules_resource"
+      ],
+      "attempted_at": "2026-09-02T17:11:48.168Z",
+      "outcome": "SUCCESS",
+      "failure_kind": null,
+      "reason": null
+    },
+    {
+      "batch_id": "SMOKE_SCHEDULE_SOURCE",
+      "categories": [
+        "schedule_source"
+      ],
+      "attempted_at": "2026-09-02T17:12:05.323Z",
+      "outcome": "SUCCESS",
+      "failure_kind": null,
+      "reason": null
+    }
+  ],
+  "execution_diagnostics": [
+    {
+      "micro_batch_id": "SMOKE_LEAGUE_CALENDAR",
+      "attempt_number": 1,
+      "started_at": "2026-09-02T17:11:19.885Z",
+      "ended_at": "2026-09-02T17:11:48.156Z",
+      "elapsed_ms": 28271,
+      "thread_id": "01a0631a-918c-7b00-8519-f779d2346bcb",
+      "timeout_stage": "NORMALIZATION",
+      "outcome": "SUCCESS",
+      "failure_kind": null
+    },
+    {
+      "micro_batch_id": "SMOKE_RULES_RESOURCE",
+      "attempt_number": 1,
+      "started_at": "2026-09-02T17:11:48.171Z",
+      "ended_at": "2026-09-02T17:12:05.316Z",
+      "elapsed_ms": 17145,
+      "thread_id": "01a0631a-ffc8-73b2-9ae2-0ae9d82079f5",
+      "timeout_stage": "NORMALIZATION",
+      "outcome": "SUCCESS",
+      "failure_kind": null
+    },
+    {
+      "micro_batch_id": "SMOKE_SCHEDULE_SOURCE",
+      "attempt_number": 2,
+      "started_at": "2026-09-02T17:12:05.326Z",
+      "ended_at": "2026-09-02T17:12:20.820Z",
+      "elapsed_ms": 15494,
+      "thread_id": "01a0631b-4137-7fd0-b4de-113400930a55",
+      "timeout_stage": "NORMALIZATION",
+      "outcome": "SUCCESS",
+      "failure_kind": null
+    }
+  ],
+  "source_provenance": [
+    {
+      "name": "NFL Football Operations — NFL Important Dates",
+      "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+      "retrieved_at": "2026-09-02T17:11:19-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "The 2026 NFL Kickoff Weekend is scheduled for September 9-10 and September 13-14, 2026.",
+        "The 2026 NFL trading deadline is November 10, 2026, at 4:00 p.m. New York time.",
+        "All listed dates are subject to change."
+      ]
+    },
+    {
+      "name": "NFL.com — 2026 Week 1 Schedule",
+      "url": "https://www.nfl.com/schedules/2026/by-week/week-1",
+      "retrieved_at": "2026-09-02T17:11:19-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "The 2026 NFL regular season begins September 9, 2026, with the New England Patriots visiting the Seattle Seahawks."
+      ]
+    },
+    {
+      "name": "NFL Football Operations — 2026 NFL Rulebook",
+      "url": "https://operations.nfl.com/rules-officiating/2026-nfl-rulebook",
+      "retrieved_at": "2026-09-02T13:11:19.873-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "NFL Football Operations provides the official 2026 NFL Rulebook, including the complete playing rules and 2026 rule changes."
+      ]
+    },
+    {
+      "name": "NFL.com Official 2026 Team Schedules",
+      "url": "https://www.nfl.com/schedules/2026/by-team",
+      "retrieved_at": "2026-09-02T13:11:19.873-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "NFL.com provides the official 2026 league schedule with by-week and by-team views, including regular-season Weeks 1-18."
+      ]
+    }
+  ],
+  "minimum_evidence_met": true
+}

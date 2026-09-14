@@ -1,0 +1,79 @@
+{
+  "architecture_version": "1.0.0",
+  "methodology_version": "1.0.0",
+  "status": "LOCKED",
+  "mutation_policy": "IMMUTABLE_UNLESS_EXPLICIT_CURRENT_DATA_TOP10_REAUDIT",
+  "historical_cards_policy": "Do not fabricate missing historical full-card attributes.",
+  "position": "WR",
+  "version": "bootstrap-2026-08-30",
+  "top_10": [
+    {
+      "rank": 1,
+      "player": "Puka Nacua",
+      "ovr": 94
+    },
+    {
+      "rank": 2,
+      "player": "Ja'Marr Chase",
+      "ovr": 93
+    },
+    {
+      "rank": 3,
+      "player": "Jaxon Smith-Njigba",
+      "ovr": 92
+    },
+    {
+      "rank": 4,
+      "player": "Amon-Ra St. Brown",
+      "ovr": 91
+    },
+    {
+      "rank": 5,
+      "player": "George Pickens",
+      "ovr": 88
+    },
+    {
+      "rank": 6,
+      "player": "Drake London",
+      "ovr": 87
+    },
+    {
+      "rank": 7,
+      "player": "Nico Collins",
+      "ovr": 87
+    },
+    {
+      "rank": 8,
+      "player": "Justin Jefferson",
+      "ovr": 86
+    },
+    {
+      "rank": 9,
+      "player": "A.J. Brown",
+      "ovr": 86
+    },
+    {
+      "rank": 10,
+      "player": "Stefon Diggs",
+      "ovr": 85
+    }
+  ],
+  "last_in": {
+    "player": "Stefon Diggs",
+    "ovr": 85
+  },
+  "first_out": {
+    "player": "Jaylen Waddle",
+    "ovr": 85
+  },
+  "external_controls": [
+    {
+      "player": "Jaylen Waddle",
+      "ovr": 85
+    }
+  ],
+  "scarcity": {
+    "status": "LOCKED_HISTORICAL_NOT_FULLY_STRUCTURED"
+  },
+  "full_cards_import_status": "NOT_YET_IMPORTED"
+}

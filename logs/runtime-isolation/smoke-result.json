@@ -1,0 +1,125 @@
+{
+  "architecture": "PER_JOB_EPHEMERAL_CLI",
+  "runtime_root": "C:\\Users\\xavie\\OneDrive\\Desktop\\Madden 27 Rosters\\gridiron-standard\\.gridiron-runtime\\codex-sqlite",
+  "codex_home_rewritten": false,
+  "code_home_metadata_unchanged": true,
+  "before": {
+    "sqlite": [
+      "goals_1.sqlite-shm:1788657641233.2317",
+      "goals_1.sqlite-wal:1788657641251.781",
+      "goals_1.sqlite:1788657148060.1328",
+      "logs_2.sqlite-shm:1788656699931.4915",
+      "logs_2.sqlite-wal:1788658109931.7595",
+      "logs_2.sqlite:1788658079944.972",
+      "memories_1.sqlite-shm:1788654420979.7505",
+      "memories_1.sqlite-wal:1788654420980.7578",
+      "memories_1.sqlite:1788654420604.401",
+      "queue_1.sqlite-shm:1788652969879.0679",
+      "queue_1.sqlite-wal:1788655586731.6106",
+      "queue_1.sqlite:1787695896150.6382",
+      "state_5.sqlite-shm:1788652969808.3047",
+      "state_5.sqlite-wal:1788658106202.3723",
+      "state_5.sqlite:1788657987563.2766",
+      "thread_history_1.sqlite-shm:1788656980227.9358",
+      "thread_history_1.sqlite-wal:1788658106364.9883",
+      "thread_history_1.sqlite:1788658054101.5388"
+    ],
+    "session_rollout_count": 63
+  },
+  "after": {
+    "sqlite": [
+      "goals_1.sqlite-shm:1788657641233.2317",
+      "goals_1.sqlite-wal:1788657641251.781",
+      "goals_1.sqlite:1788657148060.1328",
+      "logs_2.sqlite-shm:1788656699931.4915",
+      "logs_2.sqlite-wal:1788658109931.7595",
+      "logs_2.sqlite:1788658079944.972",
+      "memories_1.sqlite-shm:1788654420979.7505",
+      "memories_1.sqlite-wal:1788654420980.7578",
+      "memories_1.sqlite:1788654420604.401",
+      "queue_1.sqlite-shm:1788652969879.0679",
+      "queue_1.sqlite-wal:1788655586731.6106",
+      "queue_1.sqlite:1787695896150.6382",
+      "state_5.sqlite-shm:1788652969808.3047",
+      "state_5.sqlite-wal:1788658106202.3723",
+      "state_5.sqlite:1788657987563.2766",
+      "thread_history_1.sqlite-shm:1788656980227.9358",
+      "thread_history_1.sqlite-wal:1788658106364.9883",
+      "thread_history_1.sqlite:1788658054101.5388"
+    ],
+    "session_rollout_count": 63
+  },
+  "runs": [
+    {
+      "run": 1,
+      "initialization_success": false,
+      "structured_parse_success": false,
+      "source_count": 0,
+      "repository_sqlite_initialized": true,
+      "runtime_files": [
+        "goals_1.sqlite",
+        "logs_2.sqlite",
+        "logs_2.sqlite-shm",
+        "logs_2.sqlite-wal",
+        "memories_1.sqlite",
+        "output-schema.json",
+        "queue_1.sqlite",
+        "state_5.sqlite",
+        "state_5.sqlite-shm",
+        "state_5.sqlite-wal"
+      ],
+      "runtime_cleaned": true,
+      "error": "[REDACTED]: Ephemeral Codex CLI failed (1): WARNING: failed to clean up stale arg0 temp dirs: Access is denied. (os error 5)\nWARNING: proceeding, even though we could not create PATH aliases: Access is denied. (os error 5) at path \"C:\\\\Users\\\\xavie\\\\.codex\\\\tmp\\\\arg0\\\\codex-arg0NXmBqn\"\nReading additional input from stdin...\nError: failed to initialize in-process app-server client: Access is denied. (os error 5)\n"
+    },
+    {
+      "run": 2,
+      "initialization_success": false,
+      "structured_parse_success": false,
+      "source_count": 0,
+      "repository_sqlite_initialized": true,
+      "runtime_files": [
+        "goals_1.sqlite",
+        "logs_2.sqlite",
+        "logs_2.sqlite-shm",
+        "logs_2.sqlite-wal",
+        "memories_1.sqlite",
+        "output-schema.json",
+        "queue_1.sqlite",
+        "state_5.sqlite"
+      ],
+      "runtime_cleaned": true,
+      "error": "[REDACTED]: Ephemeral Codex CLI failed (1): WARNING: failed to clean up stale arg0 temp dirs: Access is denied. (os error 5)\nWARNING: proceeding, even though we could not create PATH aliases: Access is denied. (os error 5) at path \"C:\\\\Users\\\\xavie\\\\.codex\\\\tmp\\\\arg0\\\\codex-arg0K18a1B\"\nReading additional input from stdin...\nError: failed to initialize in-process app-server client: Access is denied. (os error 5)\n"
+    },
+    {
+      "run": 3,
+      "initialization_success": false,
+      "structured_parse_success": false,
+      "source_count": 0,
+      "repository_sqlite_initialized": true,
+      "runtime_files": [
+        "goals_1.sqlite",
+        "logs_2.sqlite",
+        "logs_2.sqlite-shm",
+        "logs_2.sqlite-wal",
+        "memories_1.sqlite",
+        "output-schema.json",
+        "queue_1.sqlite",
+        "state_5.sqlite",
+        "state_5.sqlite-shm",
+        "state_5.sqlite-wal"
+      ],
+      "runtime_cleaned": true,
+      "error": "[REDACTED]: Ephemeral Codex CLI failed (1): WARNING: failed to clean up stale arg0 temp dirs: Access is denied. (os error 5)\nWARNING: proceeding, even though we could not create PATH aliases: Access is denied. (os error 5) at path \"C:\\\\Users\\\\xavie\\\\.codex\\\\tmp\\\\arg0\\\\codex-arg0UETrPH\"\nReading additional input from stdin...\nError: failed to initialize in-process app-server client: Access is denied. (os error 5)\n"
+    }
+  ],
+  "initialization_success_rate": "0/3",
+  "structured_output_success_rate": "0/3",
+  "source_capture_success_rate": "0/3",
+  "protected_state_unchanged": true,
+  "protected_hashes": {
+    "data/baselines/QB.json": "a0fbd566dc23af2feb93decb276fd0fdd1643b73b1714bd92d919a67e4d5c78c",
+    "state/project-state.json": "b0a4304bc4c74c071dc4b31ce3d54c91fffc6d10a916e0f4ec46636bf7765157",
+    "state/locks.json": "4fb63117a3af4399e2c5df80080a2ce41d1640474a54dc0b0e37715ce2da6daf",
+    "logs/qb-reconstruction/matthew_stafford/6cb4a74b-2218-4ff9-843c-de8a1c8ae1a3/evidence-progress.json": "00c353ba3efcf8cdbda388acfd4078c8602587dcd166b8f542b2f674fb24d174"
+  }
+}

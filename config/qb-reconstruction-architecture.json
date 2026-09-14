@@ -1,0 +1,761 @@
+{
+  "position": "QB",
+  "architecture_version": "1.0.0",
+  "reconstruction_architecture_version": "1.0.0",
+  "status": "RECONSTRUCTION_FRAMEWORK_NOT_RECOVERED_HISTORY",
+  "editor_order_verified": false,
+  "ovr_formula_status": "EMPIRICAL_UNVERIFIED",
+  "principles": [
+    "Preserve the locked hierarchy and target OVR; never inflate unrelated traits to match it.",
+    "Use the existing season-phase-aware Full Audit gate without weakening evidence standards.",
+    "Evaluate each trait independently, explain why not higher/lower, and preserve evidenced weaknesses.",
+    "Same-OVR players require distinct supported builds; archetypes describe completed cards.",
+    "Use exact-trait 90/95/97/99 standards; never prescribe a quota or normalize every elite QB upward.",
+    "Explicit user approval is required for every transition beyond PROPOSED in this reconstruction workflow.",
+    "No engine formula, editor order, or historical full-card values are inferred."
+  ],
+  "evidence_domains": {
+    "arm_strength": "Evaluate usable velocity/distance separately from downfield placement.",
+    "short_accuracy": "Chart short placement by difficulty, throw type and sample.",
+    "intermediate_accuracy": "Chart intermediate windows, anticipation and placement.",
+    "deep_accuracy": "Chart deep placement with separation, pressure and sample uncertainty.",
+    "pressure_performance": "Separate execution under pressure from protection and decisions.",
+    "pocket_movement": "Evaluate footwork, spatial awareness and platform recovery without conflating contact escapes.",
+    "sack_avoidance": "Separate pressure avoidance, decisions, protection, release and actual sack-contact breaks.",
+    "processing_decision_making": "Evaluate reads, anticipation, risk and situational decisions; reputation is context only.",
+    "play_action": "Separate fake execution from scheme-generated production.",
+    "throws_on_run": "Evaluate passing while moving by direction, platform and depth; rushing is not a substitute.",
+    "scrambling": "Separate unplanned rushing decisions, space creation, speed and outcomes.",
+    "designed_rushing": "Separate designed carries and sneaks from scrambles/kneeldowns; control for blocking and opportunities.",
+    "ball_security": "Separate carrying fumbles, strip sacks and exchange failures from interceptions.",
+    "durability": "Use sourced injury history and exposure without diagnosing or inventing medical certainty.",
+    "workload_availability": "Account for snaps, practice, role, missed time, rest and current readiness.",
+    "consistency": "Track repeatability and trend over meaningful samples; do not duplicate total production.",
+    "opponent_context_adjustments": "Record opponent quality, coverage, protection, receivers, scheme, game state, weather and sample differences; no invented adjustment coefficients."
+  },
+  "attributes": {
+    "THP": {
+      "football_meaning": "Ball velocity and usable distance from repeatable quarterback mechanics.",
+      "madden_gameplay_effect": "Intended to represent throwing power; exact velocity/distance response must be measured.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Contextual film of far-hash and deep throws",
+        "Measured ball velocity with method and release context"
+      ],
+      "forbidden_substitutes": [
+        "Passing yards or deep completions alone",
+        "Arm size, reputation or desired OVR"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "DAC",
+        "RUN",
+        "STR"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": false,
+      "gameplay_role": "Core QB execution/processing dimension in this analytical framework; material OVR impact must be established empirically.",
+      "scarcity": {
+        "90": "THP: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "THP: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "THP: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "THP: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "SAC": {
+      "football_meaning": "Placement and repeatability on short-area throws, separating target difficulty from completion outcome.",
+      "madden_gameplay_effect": "Intended short-pass placement component; engine distance cutoffs remain unverified.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Depth-binned on-target placement with attempts",
+        "Film separating screens, leverage, drops and throwaways"
+      ],
+      "forbidden_substitutes": [
+        "Raw completion percentage alone",
+        "Receiver yards after catch"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "AWR",
+        "TUP",
+        "RUN"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": false,
+      "gameplay_role": "Core QB execution/processing dimension in this analytical framework; material OVR impact must be established empirically.",
+      "scarcity": {
+        "90": "SAC: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "SAC: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "SAC: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "SAC: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "MAC": {
+      "football_meaning": "Placement through intermediate windows with timing, anticipation and coverage context.",
+      "madden_gameplay_effect": "Intended intermediate-pass placement component; no assumed numerical distance boundary.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Intermediate placement and catchable-ball charting",
+        "Timing/window film with route and coverage context"
+      ],
+      "forbidden_substitutes": [
+        "SAC extrapolation",
+        "Unadjusted yards per attempt"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "AWR",
+        "THP",
+        "TUP"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": false,
+      "gameplay_role": "Core QB execution/processing dimension in this analytical framework; material OVR impact must be established empirically.",
+      "scarcity": {
+        "90": "MAC: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "MAC: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "MAC: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "MAC: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "DAC": {
+      "football_meaning": "Downfield placement on appropriately difficult throws over a meaningful sample.",
+      "madden_gameplay_effect": "Intended deep-pass placement component; do not treat arm strength as accuracy.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Deep on-target and completion-over-expectation splits with sample",
+        "Film of ball location, separation and pressure"
+      ],
+      "forbidden_substitutes": [
+        "Longest completion",
+        "Highlight throws or THP alone"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "THP",
+        "AWR",
+        "TUP"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": false,
+      "gameplay_role": "Core QB execution/processing dimension in this analytical framework; material OVR impact must be established empirically.",
+      "scarcity": {
+        "90": "DAC: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "DAC: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "DAC: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "DAC: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "RUN": {
+      "football_meaning": "Passing mechanics and placement while moving, distinct from running ability.",
+      "madden_gameplay_effect": "Intended accuracy while throwing on the move; movement and animation interactions require observation.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "On-the-move versus set-feet placement splits",
+        "Film by direction, platform, depth and difficulty"
+      ],
+      "forbidden_substitutes": [
+        "Rushing yards",
+        "Speed or scrambling frequency"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "SAC",
+        "MAC",
+        "DAC",
+        "AGI"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": false,
+      "gameplay_role": "Core QB execution/processing dimension in this analytical framework; material OVR impact must be established empirically.",
+      "scarcity": {
+        "90": "RUN: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "RUN: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "RUN: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "RUN: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "TUP": {
+      "football_meaning": "Preserving throwing execution under actual defensive pressure.",
+      "madden_gameplay_effect": "Intended pressure-related throwing execution modifier; exact triggers are unverified.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Pressured versus clean placement/efficiency and attempt counts",
+        "Film distinguishing pressure, decision errors and disrupted mechanics"
+      ],
+      "forbidden_substitutes": [
+        "Low sack totals",
+        "Team pass protection or clean-pocket performance"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "AWR",
+        "BSK",
+        "SAC",
+        "MAC",
+        "DAC"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": false,
+      "gameplay_role": "Core QB execution/processing dimension in this analytical framework; material OVR impact must be established empirically.",
+      "scarcity": {
+        "90": "TUP: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "TUP: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "TUP: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "TUP: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "PAC": {
+      "football_meaning": "Selling run action and executing the fake-to-pass sequence.",
+      "madden_gameplay_effect": "Intended play-action execution quality; no assumed defender reaction probability.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Film of fake execution and timing",
+        "Play-action versus non-play-action splits adjusted for design and protection"
+      ],
+      "forbidden_substitutes": [
+        "Play-action EPA alone",
+        "Strong running game or coaching scheme"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "AWR",
+        "SAC",
+        "MAC"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": false,
+      "gameplay_role": "Core QB execution/processing dimension in this analytical framework; material OVR impact must be established empirically.",
+      "scarcity": {
+        "90": "PAC: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "PAC: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "PAC: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "PAC: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "BSK": {
+      "football_meaning": "Escaping or breaking contact that would otherwise become a sack.",
+      "madden_gameplay_effect": "Intended resistance to sack contact; distinct from avoiding initial pressure.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Charted broken sacks/contact escapes per opportunity",
+        "Film of contacted versus untouched escapes"
+      ],
+      "forbidden_substitutes": [
+        "Low sack rate alone",
+        "SPD or offensive-line strength"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "STR",
+        "AGI",
+        "AWR",
+        "TUP"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": false,
+      "gameplay_role": "Core QB execution/processing dimension in this analytical framework; material OVR impact must be established empirically.",
+      "scarcity": {
+        "90": "BSK: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "BSK: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "BSK: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "BSK: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "AWR": {
+      "football_meaning": "Current processing, anticipation, risk selection and situational decisions.",
+      "madden_gameplay_effect": "Intended CPU processing/decision component; EA documents AWR processing in Madden 26, not verified Madden 27 weights.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Progression and coverage-recognition film",
+        "Decision/timing and mistake charting adjusted for system/opponent"
+      ],
+      "forbidden_substitutes": [
+        "Age or career starts alone",
+        "Wins, reputation, raw intelligence claims or OVR gap"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "TUP",
+        "PAC",
+        "SAC",
+        "MAC"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": false,
+      "gameplay_role": "Core QB execution/processing dimension in this analytical framework; material OVR impact must be established empirically.",
+      "scarcity": {
+        "90": "AWR: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "AWR: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "AWR: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "AWR: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "SPD": {
+      "football_meaning": "Sustainable movement speed during relevant football actions.",
+      "madden_gameplay_effect": "Intended locomotion top-speed component; no time-to-rating formula assumed.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Recent tracking speed with opportunity context",
+        "Film cross-checks and dated timed runs with age/injury limitations"
+      ],
+      "forbidden_substitutes": [
+        "Total rushing yards",
+        "An old combine time without current corroboration"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "ACC",
+        "AGI",
+        "STA"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": true,
+      "gameplay_role": "Primarily movement, physical or availability identity in this analytical framework; this is not a claim of zero OVR effect.",
+      "scarcity": {
+        "90": "SPD: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "SPD: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "SPD: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "SPD: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "ACC": {
+      "football_meaning": "How quickly useful running speed is reached from a start or restart.",
+      "madden_gameplay_effect": "Intended acceleration response rather than maximum speed.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Short split/tracking acceleration with measurement method",
+        "Pocket exit and first-step film"
+      ],
+      "forbidden_substitutes": [
+        "Top speed alone",
+        "Forty-yard time without splits"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "SPD",
+        "AGI",
+        "COD"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": true,
+      "gameplay_role": "Primarily movement, physical or availability identity in this analytical framework; this is not a claim of zero OVR effect.",
+      "scarcity": {
+        "90": "ACC: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "ACC: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "ACC: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "ACC: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "AGI": {
+      "football_meaning": "Body control, fluidity and balance during movement.",
+      "madden_gameplay_effect": "Intended movement/body-control quality; exact animation coupling is unverified.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Film of controlled movement and recovery of balance",
+        "Repeatable movement testing with current context"
+      ],
+      "forbidden_substitutes": [
+        "Speed or rushing volume alone",
+        "COD treated as an identical trait"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "ACC",
+        "COD",
+        "RUN",
+        "BSK"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": true,
+      "gameplay_role": "Primarily movement, physical or availability identity in this analytical framework; this is not a claim of zero OVR effect.",
+      "scarcity": {
+        "90": "AGI: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "AGI: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "AGI: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "AGI: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "COD": {
+      "football_meaning": "Braking and redirecting efficiently while preserving control.",
+      "madden_gameplay_effect": "Intended direction-change responsiveness; not a duplicate of straight-line speed.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Tracking/film of deceleration and redirection",
+        "Dated change-direction testing with limitations"
+      ],
+      "forbidden_substitutes": [
+        "Top speed",
+        "Generic athletic reputation"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "AGI",
+        "ACC",
+        "SPD"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": true,
+      "gameplay_role": "Primarily movement, physical or availability identity in this analytical framework; this is not a claim of zero OVR effect.",
+      "scarcity": {
+        "90": "COD: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "COD: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "COD: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "COD: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "STR": {
+      "football_meaning": "Functional force and resistance to displacement in quarterback actions.",
+      "madden_gameplay_effect": "Intended physical-strength input in contact interactions; no OVR or animation weights assumed.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Contact and leverage film",
+        "Relevant measured strength and body context"
+      ],
+      "forbidden_substitutes": [
+        "Throw power alone",
+        "Body weight, size or sneak conversion alone"
+      ],
+      "expected_confidence": "Often LOW/MEDIUM until direct contemporary evidence is available. Do not invent precision; LOW blocks validation. HIGH exact-trait support is required for 90+.",
+      "interactions": [
+        "BSK",
+        "CAR"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": true,
+      "gameplay_role": "Primarily movement, physical or availability identity in this analytical framework; this is not a claim of zero OVR effect.",
+      "scarcity": {
+        "90": "STR: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "STR: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "STR: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "STR: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "CAR": {
+      "football_meaning": "Securing the ball through carries, scrambles and contact.",
+      "madden_gameplay_effect": "Intended ball-security component; no fumble probability formula assumed.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Fumbles per carry/contact with context",
+        "Film separating strip sacks, exchange errors and rushing fumbles"
+      ],
+      "forbidden_substitutes": [
+        "Interceptions",
+        "Fumbles lost alone or low-volume zero fumbles"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "AWR",
+        "STR",
+        "BSK"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": true,
+      "gameplay_role": "Primarily movement, physical or availability identity in this analytical framework; this is not a claim of zero OVR effect.",
+      "scarcity": {
+        "90": "CAR: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "CAR: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "CAR: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "CAR: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "JMP": {
+      "football_meaning": "Explosive vertical reach and body control in jumping actions.",
+      "madden_gameplay_effect": "Intended jumping/reach capability; exact QB gameplay sensitivity unverified.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Measured jump testing with date and methodology",
+        "Current film of vertical actions where available"
+      ],
+      "forbidden_substitutes": [
+        "Jump-pass completion",
+        "Height or generic athleticism"
+      ],
+      "expected_confidence": "Often LOW/MEDIUM until direct contemporary evidence is available. Do not invent precision; LOW blocks validation. HIGH exact-trait support is required for 90+.",
+      "interactions": [
+        "STR",
+        "AGI"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": true,
+      "gameplay_role": "Primarily movement, physical or availability identity in this analytical framework; this is not a claim of zero OVR effect.",
+      "scarcity": {
+        "90": "JMP: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "JMP: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "JMP: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "JMP: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "INJ": {
+      "football_meaning": "Current susceptibility to unavailable playing time, with exposure and diagnosis context.",
+      "madden_gameplay_effect": "Intended injury-susceptibility dimension; injury probabilities and recovery mapping unverified.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Official injury/practice and availability history",
+        "Exposure-adjusted absences separating injury from rest"
+      ],
+      "forbidden_substitutes": [
+        "Age alone",
+        "Playing through pain as proof of low injury risk"
+      ],
+      "expected_confidence": "Often LOW/MEDIUM until direct contemporary evidence is available. Do not invent precision; LOW blocks validation. HIGH exact-trait support is required for 90+.",
+      "interactions": [
+        "STA",
+        "TGH"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": true,
+      "gameplay_role": "Primarily movement, physical or availability identity in this analytical framework; this is not a claim of zero OVR effect.",
+      "scarcity": {
+        "90": "INJ: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "INJ: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "INJ: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "INJ: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "STA": {
+      "football_meaning": "Capacity to sustain repeated physical execution under workload.",
+      "madden_gameplay_effect": "Intended fatigue/endurance dimension; exact drain and recovery rates unverified.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Snap/workload and late-game mechanics trends",
+        "Repeated-effort evidence accounting for heat, pace and role"
+      ],
+      "forbidden_substitutes": [
+        "Games started alone",
+        "High INJ or perceived toughness"
+      ],
+      "expected_confidence": "Aim for HIGH from independent contextual evidence and sufficient sample. MEDIUM requires explicit review; LOW blocks validation. HIGH is required for 90+.",
+      "interactions": [
+        "SPD",
+        "ACC",
+        "TGH"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": true,
+      "gameplay_role": "Primarily movement, physical or availability identity in this analytical framework; this is not a claim of zero OVR effect.",
+      "scarcity": {
+        "90": "STA: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "STA: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "STA: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "STA: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    },
+    "TGH": {
+      "football_meaning": "Documented resilience and recovery context, distinct from injury susceptibility or motivation.",
+      "madden_gameplay_effect": "Intended toughness/recovery-related identity; precise current engine effect remains unverified.",
+      "engine_effect_status": "MADDEN_27_UNVERIFIED",
+      "supporting_evidence": [
+        "Documented recovery/return-to-workload context",
+        "Corroborated football availability evidence with medical uncertainty preserved"
+      ],
+      "forbidden_substitutes": [
+        "Moral judgments about playing hurt",
+        "Unsupported pain tolerance or injury-risk assumptions"
+      ],
+      "expected_confidence": "Often LOW/MEDIUM until direct contemporary evidence is available. Do not invent precision; LOW blocks validation. HIGH exact-trait support is required for 90+.",
+      "interactions": [
+        "INJ",
+        "STA"
+      ],
+      "ovr_materiality": "UNVERIFIED",
+      "mainly_gameplay_identity": true,
+      "gameplay_role": "Primarily movement, physical or availability identity in this analytical framework; this is not a claim of zero OVR effect.",
+      "scarcity": {
+        "90": "TGH: Demonstrably elite exact-trait performance against relevant league peers, supported by a meaningful sample.",
+        "95": "TGH: Rare league-defining exact-trait evidence; high confidence and explicit peer separation required.",
+        "97": "TGH: Extraordinary league-defining exact-trait evidence with sustained separation; not a reputation award.",
+        "99": "TGH: Historically exceptional/generational exact-trait evidence with explicit historical comparison; never an overall-player award."
+      }
+    }
+  },
+  "engine_source_notes": [
+    {
+      "url": "https://www.ea.com/games/madden-nfl/madden-nfl-26/news/madden-26-gridiron-notes-gameplay-deep-dive",
+      "scope": "Primary EA documentation for Madden 26 CPU awareness/processing and separate decision tendencies. Historical engine context only; does not verify Madden 27 OVR weights, distance bins, thresholds or editor order. No EA player ratings used."
+    }
+  ],
+  "evidence_criticality": {
+    "attributes": {
+      "THP": "CORE_BLOCKING",
+      "SAC": "CORE_BLOCKING",
+      "MAC": "CORE_BLOCKING",
+      "DAC": "CORE_BLOCKING",
+      "RUN": "CORE_SUPPORTING",
+      "TUP": "CORE_BLOCKING",
+      "PAC": "CORE_SUPPORTING",
+      "BSK": "CORE_BLOCKING",
+      "AWR": "CORE_BLOCKING",
+      "SPD": "SECONDARY_TRAIT",
+      "ACC": "SECONDARY_TRAIT",
+      "AGI": "SECONDARY_TRAIT",
+      "COD": "SECONDARY_TRAIT",
+      "STR": "SECONDARY_TRAIT",
+      "CAR": "CORE_SUPPORTING",
+      "JMP": "SECONDARY_TRAIT",
+      "INJ": "CORE_BLOCKING",
+      "STA": "SECONDARY_TRAIT",
+      "TGH": "SECONDARY_TRAIT"
+    },
+    "domains": {
+      "arm_strength": "CORE_BLOCKING",
+      "short_accuracy": "CORE_BLOCKING",
+      "intermediate_accuracy": "CORE_BLOCKING",
+      "deep_accuracy": "CORE_BLOCKING",
+      "pressure_performance": "CORE_BLOCKING",
+      "pocket_movement": "CORE_BLOCKING",
+      "sack_avoidance": "CORE_BLOCKING",
+      "processing_decision_making": "CORE_BLOCKING",
+      "play_action": "CORE_SUPPORTING",
+      "throws_on_run": "CORE_SUPPORTING",
+      "scrambling": "CORE_SUPPORTING",
+      "designed_rushing": "CORE_SUPPORTING",
+      "ball_security": "CORE_SUPPORTING",
+      "durability": "CORE_BLOCKING",
+      "workload_availability": "CORE_BLOCKING",
+      "consistency": "CONTEXTUAL",
+      "opponent_context_adjustments": "CORE_SUPPORTING"
+    }
+  },
+  "evidence_hierarchies": {
+    "THP": [
+      "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "SAC": [
+      "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "MAC": [
+      "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "DAC": [
+      "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "RUN": [
+      "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "TUP": [
+      "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "PAC": [
+      "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "BSK": [
+      "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "AWR": [
+      "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "SPD": [
+      "Tier 1: current NFL tracking, GPS, or directly measured current data",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "ACC": [
+      "Tier 1: current NFL tracking, GPS, or directly measured current data",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "AGI": [
+      "Tier 1: current NFL tracking, GPS, or directly measured current data",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "COD": [
+      "Tier 1: current NFL tracking, GPS, or directly measured current data",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "STR": [
+      "Tier 1: current NFL tracking, GPS, or directly measured current data",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "CAR": [
+      "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "JMP": [
+      "Tier 1: current NFL tracking, GPS, or directly measured current data",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "INJ": [
+      "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "STA": [
+      "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ],
+    "TGH": [
+      "Tier 1: current direct NFL play-level, tracking, or charted exact-trait evidence",
+      "Tier 2: recent verified measurement or reputable advanced charting",
+      "Tier 3: historical verified measurement or completed-season exact-trait evidence adjusted cautiously for age injury and role",
+      "Tier 4: recent play-level evidence and credible film or charting tied directly to the trait",
+      "Tier 5: conservative bounded inference from established career profile when no better public evidence exists"
+    ]
+  },
+  "confidence_rules": {
+    "core_blocking_low": "Blocks proposal",
+    "core_supporting_low": "Requires an approved substitute and review flag",
+    "secondary_trait_low": "May proceed conservatively with explicit uncertainty",
+    "low_confidence_scarcity_cap": 89
+  }
+}

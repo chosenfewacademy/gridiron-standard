@@ -1,0 +1,15 @@
+services:
+  gridiron-standard:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      - ./state:/app/state
+      - ./data:/app/data
+      - ./audits:/app/audits
+      - ./evidence:/app/evidence
+      - ./exports:/app/exports
+      - ./logs:/app/logs
+    restart: unless-stopped

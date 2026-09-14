@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Locked Positional Baseline",
+  "type": "object",
+  "required": [
+    "position",
+    "status",
+    "version",
+    "top_10"
+  ],
+  "properties": {
+    "position": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "DRAFT",
+        "IN_PROGRESS",
+        "LOCKED",
+        "REOPENED"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "top_10": {
+      "type": "array",
+      "maxItems": 10
+    },
+    "last_in": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "first_out": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "external_controls": {
+      "type": "array"
+    },
+    "scarcity": {
+      "type": "object"
+    },
+    "architecture_version": {
+      "type": "string"
+    },
+    "methodology_version": {
+      "type": "string"
+    }
+  }
+}

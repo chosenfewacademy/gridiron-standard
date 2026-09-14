@@ -1,0 +1,33 @@
+{
+  "purpose": "Independent source checks during adapter research; not ratings and not a substitute for the application evidence gate.",
+  "items": [
+    {
+      "source_url": "https://www.nfl.com/teams/los-angeles-rams/roster",
+      "retrieved_at": "2026-08-31T01:26:46.684Z",
+      "evidence_season": 2026,
+      "confidence": "HIGH",
+      "claim": "Official roster lists Matthew Stafford as Rams QB; used only to resolve research team LAR without modifying the null registry team."
+    },
+    {
+      "source_url": "https://www.therams.com/team/players-roster/matthew-stafford/career",
+      "retrieved_at": "2026-08-31T01:26:46.696Z",
+      "evidence_season": 2025,
+      "confidence": "HIGH",
+      "claim": "Team career page reports 4,707 passing yards and 46 passing touchdowns for the completed regular season. These production totals are not attribute ratings."
+    },
+    {
+      "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+      "retrieved_at": "2026-08-31T01:26:46.696Z",
+      "evidence_season": 2025,
+      "confidence": "MEDIUM",
+      "claim": "A Week 9 film review describes a far-hash Cover-2 throw and coverage recognition, supporting arm talent and processing qualitatively. Its deep-passing rankings are an in-season snapshot, not final full-season depth splits."
+    },
+    {
+      "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+      "retrieved_at": "2026-08-31T01:26:46.696Z",
+      "evidence_season": 2025,
+      "confidence": "MEDIUM",
+      "claim": "Pre-conference-championship analysis distinguishes strong clean-pocket/play-action execution from weaker pressured passing, very low scramble frequency, and recent turnover-worthy decisions. It explicitly includes playoffs for some statistics; do not merge all figures into the regular-season baseline or translate PFF grades into Madden traits."
+    }
+  ]
+}

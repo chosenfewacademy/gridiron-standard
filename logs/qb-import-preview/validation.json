@@ -1,0 +1,54 @@
+{
+  "project_typecheck": {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "018bf7",
+      "wall_time_seconds": 4.8051764,
+      "exit_code": 0,
+      "original_token_count": 14,
+      "output": "\n> gridiron-standard@1.0.0 typecheck\n> tsc --noEmit\n\n"
+    }
+  },
+  "preview_typecheck": {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "c5379e",
+      "wall_time_seconds": 2.9836005,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  "project_tests": {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "9a5397",
+      "wall_time_seconds": 0.8757541,
+      "exit_code": 0,
+      "original_token_count": 487,
+      "output": "\n> gridiron-standard@1.0.0 test\n> tsx tests/run-tests.ts\n\nPASS preseason before Week 1 uses completed season without upcoming production\nPASS offseason uses completed season and all current-context categories\nPASS early season incorporates small sample without replacing completed baseline\nPASS established season uses current performance but retains individual sample warning\nPASS postseason and completed season retain NFL season across calendar years\nPASS exact phase boundaries and configurable establishment threshold\nPASS scheduled season end without final status does not establish completion\nPASS unavailable schedule fails closed even when researcher claims true\nPASS nonofficial, stale, future, wrong-player and inconsistent calendars rejected\nPASS fewer categories and partial premium substitutes cannot pass\nPASS wrong performance season cannot substitute for phase primary season\nPASS derived metadata replaces model-selected seasons without mutating input\nPASS upcoming regular-season claims and unchecked extra categories are rejected\nPASS published phase schema and runtime category lists agree\nPASS untraceable claims, missing controls, weak evidence and unresolved gaps fail\nPASS non-applicability needs sourced explanation and cannot exempt core traits\nPASS route continue alias\nPASS route team audit before generic player audit\nPASS route named player audit remains unchanged\nPASS route card command\nPASS quick recheck 2-point change flags\nPASS high-confidence clean audit auto-approves\nPASS generic OLB is not guessed\nPASS LT maps exactly\nPASS output policy forbids player photo\nPASS locked baseline files exist\nPASS Full Audit research resolves calendar before collecting phase-specific evidence\nPASS calendar unavailable stops Full Audit before performance research\nPASS calendar URLs without observed live search cannot establish phase\nPASS legacy research smoke and Quick Recheck are not silently converted to Full Audits\n"
+    }
+  },
+  "preflight": {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "6c8c39",
+      "wall_time_seconds": 0.7829552,
+      "exit_code": 0,
+      "original_token_count": 307,
+      "output": "\n> gridiron-standard@1.0.0 preflight\n> tsx src/preflight.ts\n\n{\n  \"status\": \"FAIL\",\n  \"checks\": [\n    {\n      \"name\": \"file:AGENTS.md\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"file:state/project-state.json\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"file:state/locks.json\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"file:data/players/registry.json\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"file:config/output-policy.json\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"file:config/team-branding.json\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"file:config/madden-entry-order.json\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"architecture_version\",\n      \"ok\": true,\n      \"detail\": \"1.0.0\"\n    },\n    {\n      \"name\": \"review_mode\",\n      \"ok\": true,\n      \"detail\": \"REVIEW_MAJOR\"\n    },\n    {\n      \"name\": \"card_photo_disabled\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"card_requires_explicit_request\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"madden_order_registry_present\",\n      \"ok\": true\n    },\n    {\n      \"name\": \"madden_order_verified\",\n      \"ok\": false,\n      \"detail\": \"NOT VERIFIED: deployment may serve ratings, but production graphic card generation should remain gated.\"\n    }\n  ]\n}\n"
+    }
+  },
+  "preview_safety_tests": {
+    "command": "npx tsx logs/qb-import-preview/discovery.test.ts",
+    "passed": 14
+  },
+  "read_only_integration": {
+    "chunk_id": "ba2c37",
+    "wall_time_seconds": 1.2868986,
+    "exit_code": 0,
+    "original_token_count": 31,
+    "output": "PASS real repository read-only integration: 115 source file/archive hashes unchanged; deterministic empty creation preview\n"
+  },
+  "note": "Preflight exits 0 but reports status FAIL: madden_order_verified only. No verification flags modified."
+}

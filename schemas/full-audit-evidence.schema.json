@@ -1,0 +1,743 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase-aware Full Player Audit evidence contract",
+  "description": "Structural contract; runtime source freshness, official-calendar derivation, season matching and locked-control checks are additionally mandatory.",
+  "type": "object",
+  "required": [
+    "audit_type",
+    "nfl_season",
+    "season_phase",
+    "evidence_season",
+    "sample_size_context",
+    "current_season_games_available",
+    "current_season_games_played",
+    "prior_season_used_as_primary_baseline",
+    "minimum_evidence_met",
+    "missing_evidence"
+  ],
+  "properties": {
+    "audit_type": {
+      "const": "FULL_AUDIT"
+    },
+    "nfl_season": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "season_phase": {
+      "enum": [
+        "OFFSEASON",
+        "PRESEASON",
+        "REGULAR_SEASON_EARLY",
+        "REGULAR_SEASON_ESTABLISHED",
+        "POSTSEASON",
+        "COMPLETE_SEASON",
+        null
+      ]
+    },
+    "evidence_season": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "sample_size_context": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "required": [
+            "weighting",
+            "established_after_games",
+            "player_sample_limited",
+            "limitations"
+          ],
+          "properties": {
+            "weighting": {
+              "enum": [
+                "COMPLETED_SEASON_PRIMARY_WITH_CURRENT_CONTEXT",
+                "COMPLETED_SEASON_PRIMARY_WITH_SMALL_CURRENT_SAMPLE",
+                "CURRENT_SEASON_PRIMARY_PRIOR_CONTEXT"
+              ]
+            },
+            "established_after_games": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "player_sample_limited": {
+              "type": "boolean"
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "current_season_games_available": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "current_season_games_played": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "prior_season_used_as_primary_baseline": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "calendar": {},
+    "calendar_web_search_observed": {
+      "type": "boolean"
+    },
+    "fresh_web_research_observed": {
+      "type": "boolean"
+    }
+  },
+  "$defs": {
+    "category": {
+      "type": "object",
+      "required": [
+        "status",
+        "confidence",
+        "items",
+        "limitations"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "satisfied",
+            "partial",
+            "missing",
+            "not_applicable"
+          ]
+        },
+        "confidence": {
+          "enum": [
+            "HIGH",
+            "MEDIUM",
+            "LOW"
+          ]
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "claim",
+              "source_url",
+              "retrieved_at",
+              "season",
+              "period"
+            ],
+            "properties": {
+              "claim": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "retrieved_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "season": {
+                "type": "integer"
+              },
+              "period": {
+                "enum": [
+                  "REGULAR_SEASON",
+                  "POSTSEASON",
+                  "CURRENT_CONTEXT"
+                ]
+              }
+            }
+          }
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "not_applicable_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "compared_controls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "calendar": {
+      "type": "object",
+      "required": [
+        "nfl_season",
+        "player_id",
+        "team",
+        "valid_from",
+        "valid_until",
+        "preseason_start",
+        "regular_season_start",
+        "postseason_start",
+        "season_end",
+        "current_season_games_available",
+        "current_season_games_played",
+        "regular_season_games_scheduled",
+        "sources",
+        "regular_season_complete",
+        "postseason_complete"
+      ],
+      "properties": {
+        "nfl_season": {
+          "type": "integer",
+          "minimum": 1920
+        },
+        "player_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "team": {
+          "type": "string",
+          "minLength": 1
+        },
+        "valid_from": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "valid_until": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "preseason_start": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "regular_season_start": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "postseason_start": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "season_end": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "current_season_games_available": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "current_season_games_played": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "regular_season_games_scheduled": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "url",
+              "retrieved_at",
+              "claims"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "retrieved_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "claims": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        },
+        "regular_season_complete": {
+          "type": "boolean"
+        },
+        "postseason_complete": {
+          "type": "boolean"
+        }
+      }
+    },
+    "readyCategory": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/category"
+        },
+        {
+          "properties": {
+            "status": {
+              "const": "satisfied"
+            },
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "applicabilityCategory": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/category"
+        },
+        {
+          "properties": {
+            "confidence": {
+              "enum": [
+                "HIGH",
+                "MEDIUM"
+              ]
+            }
+          },
+          "anyOf": [
+            {
+              "properties": {
+                "status": {
+                  "const": "satisfied"
+                }
+              }
+            },
+            {
+              "required": [
+                "not_applicable_reason"
+              ],
+              "properties": {
+                "status": {
+                  "const": "not_applicable"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "minimum_evidence_met": {
+            "const": true
+          }
+        },
+        "required": [
+          "minimum_evidence_met"
+        ]
+      },
+      "then": {
+        "required": [
+          "calendar",
+          "calendar_web_search_observed",
+          "fresh_web_research_observed",
+          "normalized"
+        ],
+        "properties": {
+          "calendar": {
+            "$ref": "#/$defs/calendar"
+          },
+          "calendar_web_search_observed": {
+            "const": true
+          },
+          "fresh_web_research_observed": {
+            "const": true
+          },
+          "nfl_season": {
+            "type": "integer"
+          },
+          "season_phase": {
+            "enum": [
+              "OFFSEASON",
+              "PRESEASON",
+              "REGULAR_SEASON_EARLY",
+              "REGULAR_SEASON_ESTABLISHED",
+              "POSTSEASON",
+              "COMPLETE_SEASON"
+            ]
+          },
+          "evidence_season": {
+            "type": "integer"
+          },
+          "sample_size_context": {
+            "type": "object"
+          },
+          "current_season_games_available": {
+            "type": "integer"
+          },
+          "current_season_games_played": {
+            "type": "integer"
+          },
+          "prior_season_used_as_primary_baseline": {
+            "type": "boolean"
+          },
+          "missing_evidence": {
+            "maxItems": 0
+          },
+          "normalized": {
+            "type": "object",
+            "required": [
+              "performance_summary",
+              "postseason_context",
+              "multi_year_trend",
+              "current_role",
+              "roster_depth_chart",
+              "injury_practice_status",
+              "age_career_trajectory",
+              "team_system_context",
+              "preseason_participation",
+              "durability_availability",
+              "recent_performance_trend",
+              "locked_control_comparisons",
+              "outside_control_comparisons",
+              "position_specific_traits"
+            ],
+            "properties": {
+              "performance_summary": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "postseason_context": {
+                "$ref": "#/$defs/applicabilityCategory"
+              },
+              "multi_year_trend": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "current_role": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "roster_depth_chart": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "injury_practice_status": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "age_career_trajectory": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "team_system_context": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "preseason_participation": {
+                "$ref": "#/$defs/applicabilityCategory"
+              },
+              "durability_availability": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "recent_performance_trend": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "locked_control_comparisons": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "outside_control_comparisons": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "position_specific_traits": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "passing_production_efficiency": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "advanced_passing_metrics": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "pressure_performance": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "accuracy_by_depth": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "turnover_worthy_mistakes": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "rushing_designed_run_value": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "scrambling_sack_avoidance": {
+                "$ref": "#/$defs/readyCategory"
+              },
+              "current_season_performance": {
+                "$ref": "#/$defs/readyCategory"
+              }
+            }
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "position": {
+                  "const": "QB"
+                }
+              },
+              "required": [
+                "position"
+              ]
+            },
+            "then": {
+              "properties": {
+                "normalized": {
+                  "required": [
+                    "passing_production_efficiency",
+                    "advanced_passing_metrics",
+                    "pressure_performance",
+                    "accuracy_by_depth",
+                    "turnover_worthy_mistakes",
+                    "rushing_designed_run_value",
+                    "scrambling_sack_avoidance"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "season_phase": {
+                  "const": "OFFSEASON"
+                }
+              },
+              "required": [
+                "season_phase"
+              ]
+            },
+            "then": {
+              "properties": {
+                "normalized": {
+                  "required": [
+                    "performance_summary",
+                    "postseason_context",
+                    "multi_year_trend",
+                    "current_role",
+                    "roster_depth_chart",
+                    "injury_practice_status",
+                    "age_career_trajectory",
+                    "team_system_context",
+                    "preseason_participation",
+                    "durability_availability",
+                    "recent_performance_trend",
+                    "locked_control_comparisons",
+                    "outside_control_comparisons",
+                    "position_specific_traits"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "season_phase": {
+                  "const": "PRESEASON"
+                }
+              },
+              "required": [
+                "season_phase"
+              ]
+            },
+            "then": {
+              "properties": {
+                "normalized": {
+                  "required": [
+                    "performance_summary",
+                    "postseason_context",
+                    "multi_year_trend",
+                    "current_role",
+                    "roster_depth_chart",
+                    "injury_practice_status",
+                    "age_career_trajectory",
+                    "team_system_context",
+                    "preseason_participation",
+                    "durability_availability",
+                    "recent_performance_trend",
+                    "locked_control_comparisons",
+                    "outside_control_comparisons",
+                    "position_specific_traits"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "season_phase": {
+                  "const": "REGULAR_SEASON_EARLY"
+                }
+              },
+              "required": [
+                "season_phase"
+              ]
+            },
+            "then": {
+              "properties": {
+                "normalized": {
+                  "required": [
+                    "performance_summary",
+                    "postseason_context",
+                    "multi_year_trend",
+                    "current_role",
+                    "roster_depth_chart",
+                    "injury_practice_status",
+                    "age_career_trajectory",
+                    "team_system_context",
+                    "preseason_participation",
+                    "durability_availability",
+                    "recent_performance_trend",
+                    "locked_control_comparisons",
+                    "outside_control_comparisons",
+                    "position_specific_traits",
+                    "current_season_performance"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "season_phase": {
+                  "const": "REGULAR_SEASON_ESTABLISHED"
+                }
+              },
+              "required": [
+                "season_phase"
+              ]
+            },
+            "then": {
+              "properties": {
+                "normalized": {
+                  "required": [
+                    "performance_summary",
+                    "postseason_context",
+                    "multi_year_trend",
+                    "current_role",
+                    "roster_depth_chart",
+                    "injury_practice_status",
+                    "age_career_trajectory",
+                    "team_system_context",
+                    "preseason_participation",
+                    "durability_availability",
+                    "recent_performance_trend",
+                    "locked_control_comparisons",
+                    "outside_control_comparisons",
+                    "position_specific_traits",
+                    "current_season_performance"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "season_phase": {
+                  "const": "POSTSEASON"
+                }
+              },
+              "required": [
+                "season_phase"
+              ]
+            },
+            "then": {
+              "properties": {
+                "normalized": {
+                  "required": [
+                    "performance_summary",
+                    "postseason_context",
+                    "multi_year_trend",
+                    "current_role",
+                    "roster_depth_chart",
+                    "injury_practice_status",
+                    "age_career_trajectory",
+                    "team_system_context",
+                    "preseason_participation",
+                    "durability_availability",
+                    "recent_performance_trend",
+                    "locked_control_comparisons",
+                    "outside_control_comparisons",
+                    "position_specific_traits",
+                    "current_season_performance"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "season_phase": {
+                  "const": "COMPLETE_SEASON"
+                }
+              },
+              "required": [
+                "season_phase"
+              ]
+            },
+            "then": {
+              "properties": {
+                "normalized": {
+                  "required": [
+                    "performance_summary",
+                    "postseason_context",
+                    "multi_year_trend",
+                    "current_role",
+                    "roster_depth_chart",
+                    "injury_practice_status",
+                    "age_career_trajectory",
+                    "team_system_context",
+                    "preseason_participation",
+                    "durability_availability",
+                    "recent_performance_trend",
+                    "locked_control_comparisons",
+                    "outside_control_comparisons",
+                    "position_specific_traits",
+                    "current_season_performance"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

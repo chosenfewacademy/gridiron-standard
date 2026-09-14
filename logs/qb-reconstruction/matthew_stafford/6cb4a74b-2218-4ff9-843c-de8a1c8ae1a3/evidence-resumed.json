@@ -1,0 +1,1678 @@
+{
+  "task_id": "PLAYER_matthew_stafford_1788139435123",
+  "position": "QB",
+  "researched_at": "2026-09-06T01:11:15.523Z",
+  "sources": [
+    {
+      "name": "NFL.com — Matthew Stafford 2025 Logs Stats",
+      "url": "https://www.nfl.com/players/matthew-stafford/stats/logs/2025/",
+      "retrieved_at": "2026-09-05T20:26:30-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Stafford threw at least one touchdown pass in all 17 regular-season games.",
+        "Stafford recorded zero interceptions in 12 of 17 regular-season games.",
+        "Stafford posted a passer rating of at least 100 in 12 of 17 regular-season games."
+      ]
+    },
+    {
+      "name": "NFL.com — Matthew Stafford wins 2025 AP NFL Most Valuable Player award",
+      "url": "https://www.nfl.com/news/matthew-stafford-rams-qb-most-valuable-player-2025",
+      "retrieved_at": "2026-09-05T20:22:04-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Stafford led the NFL in 2025 with 4,707 passing yards, 276.9 passing yards per game, and 46 passing touchdowns; he threw eight interceptions."
+      ]
+    },
+    {
+      "name": "NFL.com — Matthew Stafford career statistics",
+      "url": "https://www.nfl.com/players/matthew-stafford/stats/career",
+      "retrieved_at": "2026-09-05T20:22:04-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Stafford completed 388 of 597 attempts (65.0%) for 7.9 yards per attempt, 46 touchdowns, eight interceptions, and a 109.2 passer rating."
+      ]
+    },
+    {
+      "name": "Pro Football Reference — 2025 NFL passing",
+      "url": "https://www.pro-football-reference.com/years/2025/passing.htm",
+      "retrieved_at": "2026-09-05T20:22:04-04:00",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "Stafford recorded an 8.3 adjusted net yards per attempt, 54.4% passing success rate, 7.7% touchdown rate, 1.3% interception rate, and 3.71% sack rate.",
+        "Stafford finished the regular season with eight interceptions across 597 attempts, a 1.3% interception rate."
+      ]
+    },
+    {
+      "name": "Los Angeles Rams — Matthew Stafford logs and records",
+      "url": "https://www.therams.com/team/players-roster/matthew-stafford/logs/",
+      "retrieved_at": "2026-09-05T20:22:04-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Stafford became the first quarterback in NFL history to throw at least four touchdowns with no interceptions in three consecutive games, doing so in Weeks 8-10."
+      ]
+    },
+    {
+      "name": "Los Angeles Rams — Sean McVay coaching profile",
+      "url": "https://www.therams.com/team/coaches-roster/sean-mcvay",
+      "retrieved_at": "2026-09-02T17:24:30-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "The 2025 Rams ranked first in yards per game, yards per play, passing yards per game, and offensive points per game.",
+        "The Rams offensive line tied for first in sacks allowed and ranked fourth in pressures allowed."
+      ]
+    },
+    {
+      "name": "Los Angeles Rams — How the Rams built the most successful designed run game of the last decade in 2025",
+      "url": "https://www.therams.com/news/feature-how-the-rams-built-the-most-successful-designed-run-game-of-the-last-decade-in-2025",
+      "retrieved_at": "2026-09-02T17:24:30-04:00",
+      "published_at": "2026-02-04T12:59:00-05:00",
+      "authority_tier": 1,
+      "claims": [
+        "The Rams used duo and outside-zone concepts and posted a 49.7% designed-running-back-run success rate including playoffs."
+      ]
+    },
+    {
+      "name": "Pro Football Reference — 2025 NFL Advanced Passing",
+      "url": "https://www.pro-football-reference.com/years/2025/passing_advanced.htm",
+      "retrieved_at": "2026-09-02T17:24:30-04:00",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "Stafford produced 1,744 passing yards on 207 play-action attempts in the 2025 regular season."
+      ]
+    },
+    {
+      "name": "Los Angeles Rams",
+      "url": "https://www.therams.com/news/matthew-stafford-talks-working-through-back-injury-returning-practice-preseason-2025",
+      "retrieved_at": "2026-09-02T17:23:42-04:00",
+      "published_at": "2025-08-21T12:52:00-04:00",
+      "authority_tier": 1,
+      "claims": [
+        "During August 2025 practice, Stafford reported no discomfort while navigating a pocket that required movement against the Rams pass rush."
+      ]
+    },
+    {
+      "name": "NFL.com",
+      "url": "https://www.nfl.com/players/matthew-stafford/stats/situational/2025/",
+      "retrieved_at": "2026-09-02T17:23:42-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Stafford recorded 29 rushing attempts for 1 yard, no rushing touchdowns, no rushing first downs, and a longest rush of 6 yards across 17 regular-season games in 2025."
+      ]
+    },
+    {
+      "name": "NFL.com — Patrick Mahomes career statistics",
+      "url": "https://www.nfl.com/players/patrick-mahomes/stats/career",
+      "retrieved_at": "2026-09-02T17:23:42-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Mahomes's 2025 regular-season passing totals and efficiency statistics used for comparison with Stafford."
+      ]
+    },
+    {
+      "name": "NFL.com — Lamar Jackson career statistics",
+      "url": "https://www.nfl.com/players/lamar-jackson/stats/career",
+      "retrieved_at": "2026-09-02T17:23:42-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Jackson's 2025 regular-season passing totals and efficiency statistics used for comparison with Stafford."
+      ]
+    },
+    {
+      "name": "NFL.com — Jared Goff career statistics",
+      "url": "https://www.nfl.com/players/jared-goff/stats/career",
+      "retrieved_at": "2026-09-02T17:23:42-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Goff's 2025 regular-season passing totals and efficiency statistics used for comparison with Stafford."
+      ]
+    },
+    {
+      "name": "Pro Football Focus — PFF Awards 2025: Matthew Stafford is the PFF MVP",
+      "url": "https://www.pff.com/news/nfl-pff-awards-2025-matthew-stafford-is-the-pff-mvp",
+      "retrieved_at": "2026-09-02T13:30:00-04:00",
+      "published_at": "2026-01-07T07:30:00-05:00",
+      "authority_tier": 2,
+      "claims": [
+        "PFF charted Stafford with 19 turnover-worthy plays and a 2.9% turnover-worthy-play rate over 663 dropbacks in the 2025 regular season."
+      ]
+    },
+    {
+      "name": "Pro Football Focus — Clutch Quarterback Play in 2025",
+      "url": "https://www.pff.com/news/nfl-clutch-quarterback-play-2025",
+      "retrieved_at": "2026-09-02T13:30:00-04:00",
+      "published_at": "2026-06-30T06:15:00-04:00",
+      "authority_tier": 2,
+      "claims": [
+        "PFF charted three turnover-worthy plays across 156 clutch-situation dropbacks during the 2025 season."
+      ]
+    },
+    {
+      "name": "Associated Press — Matthew Stafford edges Drake Maye for AP NFL MVP",
+      "url": "https://apnews.com/article/1f6a4d94a8ffcdd5844855c5d4ba510a",
+      "retrieved_at": "2026-09-02T13:30:00-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Stafford led the NFL in 2025 with 4,707 passing yards and 46 touchdown passes; Drake Maye led in passer rating and completion percentage.",
+        "Stafford, Maye, Allen, and Lawrence finished first, second, third, and fifth, respectively, in 2025 AP MVP voting."
+      ]
+    },
+    {
+      "name": "Los Angeles Rams — Matthew Stafford career statistics",
+      "url": "https://www.therams.com/team/players-roster/matthew-stafford/career",
+      "retrieved_at": "2026-09-02T13:25:00-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Stafford recorded 7 total fumbles and 3 fumbles lost in 17 regular-season games for the Rams in 2025.",
+        "The Rams' 2025 rushing table lists 29 attempts, 1 yard, and 3 rushing-category fumbles."
+      ]
+    },
+    {
+      "name": "Los Angeles Rams 2025 postseason statistics",
+      "url": "https://www.therams.com/team/stats/2025/POST",
+      "retrieved_at": "2026-09-02T13:25:00-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Stafford completed 66 of 119 passes for 936 yards, six touchdowns, one interception, 7.9 yards per attempt, and a 94.4 passer rating across three games in the 2025 postseason."
+      ]
+    },
+    {
+      "name": "ESPN Matthew Stafford 2025 game log",
+      "url": "https://www.espn.com/nfl/player/gamelog/_/id/12483/matthew-stafford",
+      "retrieved_at": "2026-09-02T13:25:00-04:00",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "The Rams went 2-1 in Stafford's three 2025 postseason starts, defeating Carolina 34-31 and Chicago 20-17 in overtime before losing 31-27 to Seattle in the NFC Championship Game."
+      ]
+    },
+    {
+      "name": "NFL.com Rams-Seahawks Championship Sunday analysis",
+      "url": "https://www.nfl.com/news/rams-seahawks-on-championship-sunday-what-we-learned-from-seattle-s-31-27-win",
+      "retrieved_at": "2026-09-02T13:25:00-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Against Seattle in the NFC Championship Game, Stafford completed 22 of 35 passes for 374 yards and three touchdowns; he went 7 of 11 for 226 yards and one touchdown on throws traveling at least 20 air yards."
+      ]
+    },
+    {
+      "name": "DraftKings Network",
+      "url": "https://dknetwork.draftkings.com/2025/11/06/matthew-stafford-is-on-an-mvp-like-tear-and-hes-a-fantasy-football-qb1-rest-of-season/",
+      "retrieved_at": "2026-09-02T17:23:42.634Z",
+      "published_at": "2025-11-06T00:00:00-05:00",
+      "authority_tier": 2,
+      "claims": [
+        "Through November 6, 2025, Stafford's 10-19-air-yard passes generated 10.2 yards per attempt and 0.58 EPA per play."
+      ]
+    },
+    {
+      "name": "Los Angeles Rams",
+      "url": "https://www.therams.com/news/feature-matthew-stafford-continues-to-beat-the-blitz-with-quick-processing-and-varied-approaches-rams-seahawks-week-11-2025",
+      "retrieved_at": "2026-09-02T13:23:42.634-04:00",
+      "published_at": "2025-11-13T13:28:00-05:00",
+      "authority_tier": 1,
+      "claims": [
+        "Through Week 10, Stafford had 20 touchdowns against the blitz, a league-leading total by nine, while his 2.45-second release ranked third-fastest among qualified quarterbacks; Rams reporting also documented him diagnosing Cover 3, adjusting reads, identifying rushers and checking plays at the line.",
+        "Rams reporting documented Stafford recognizing pre-snap pressure indicators, communicating rushers, checking plays and diagnosing a disguised Cover 3 before targeting the resulting opening.",
+        "Stafford was blitzed on 33.3% of dropbacks through Week 10 but pressured on 32.1% of those plays, the third-lowest rate among qualified quarterbacks; the Rams attributed the result jointly to his command, quick release and offensive-line coordination."
+      ]
+    },
+    {
+      "name": "Pro Football Focus player statistics",
+      "url": "https://www.pff.com/nfl/players/matthew-stafford/4924",
+      "retrieved_at": "2026-09-02T13:23:42.634-04:00",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "PFF recorded 19 turnover-worthy plays across 627 regular-season dropbacks for Stafford in 2025."
+      ]
+    },
+    {
+      "name": "Pro Football Focus play-action analysis",
+      "url": "https://www.pff.com/news/fantasy-football-scheme-stars-play-action-screens-2025",
+      "retrieved_at": "2026-09-02T13:23:42.634-04:00",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "Through Week 6, Stafford had produced 699 passing yards and eight touchdowns from play-action looks; his play-action yardage ranked third in the NFL at that point."
+      ]
+    },
+    {
+      "name": "NFL.com Matthew Stafford 2026 game logs",
+      "url": "https://www.nfl.com/players/matthew-stafford/stats/logs/2026/",
+      "retrieved_at": "2026-09-02T17:23:42.634Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Stafford recorded no playing statistics in any of the Rams' three 2026 preseason games, indicating he did not play against the Chiefs, Saints, or Chargers."
+      ]
+    },
+    {
+      "name": "Los Angeles Rams — Stafford and McVay react to Cowboys joint practice",
+      "url": "https://www.therams.com/news/rams-head-coach-sean-mcvay-quarterback-matthew-stafford-joint-practice-with-the-cowboys-press-conference",
+      "retrieved_at": "2026-09-02T17:23:42.634Z",
+      "published_at": "2026-08-11T16:08:00-04:00",
+      "authority_tier": 1,
+      "claims": [
+        "Stafford participated in the Rams' August 11 joint practice with the Cowboys and discussed what he learned from facing Dallas."
+      ]
+    },
+    {
+      "name": "NFL.com Matthew Stafford 2025 Splits",
+      "url": "https://www.nfl.com/players/matthew-stafford/stats/splits/2025/",
+      "retrieved_at": "2026-09-02T17:23:42.634Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Stafford's November, December, and January regular-season splits document late-season month-to-month variation."
+      ]
+    },
+    {
+      "name": "Los Angeles Rams 2025 Regular-Season Statistics",
+      "url": "https://www.therams.com/team/stats/2025/REG",
+      "retrieved_at": "2026-09-02T13:23:42-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "The Rams' official 2025 regular-season statistics list Stafford with 29 rushing attempts, 1 rushing yard, a 6-yard long, and zero rushing touchdowns."
+      ]
+    },
+    {
+      "name": "Pro Football Reference — 2009 NFL Combine Results",
+      "url": "https://www.pro-football-reference.com/draft/2009-combine.htm",
+      "retrieved_at": "2026-09-02T13:23:42-04:00",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "Stafford recorded a 30.5-inch vertical jump and a 107-inch broad jump at the 2009 NFL Scouting Combine."
+      ]
+    },
+    {
+      "name": "Houston Texans — QBs, WRs headline combine's glamour day",
+      "url": "https://www.houstontexans.com/news/qbs-wrs-headline-combine-s-glamour-day-2664497",
+      "retrieved_at": "2026-09-02T13:23:42-04:00",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Stafford recorded a 30.5-inch vertical jump at the 2009 NFL Scouting Combine."
+      ]
+    },
+    {
+      "name": "Rams Saints joint-practice report",
+      "url": "https://www.therams.com/news/10-observations-from-rams-joint-practice-with-saints-matthew-stafford-davante-adams-terrance-ferguson-nate-landman-kobie-turner",
+      "retrieved_at": "2026-08-31T01:31:28.639Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Stafford participated in the joint practice and completed short and deep throws. These are limited practice observations, not a formal full-health certification or regular-season accuracy sample."
+      ]
+    },
+    {
+      "name": "Rams managed camp workload report",
+      "url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+      "retrieved_at": "2026-08-31T01:31:28.638Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Team reporting describes a planned two-days-on/two-days-off camp practice schedule. It contrasts participation with the prior camp's back-injury absence; do not mislabel that historical absence as a current injury."
+      ]
+    },
+    {
+      "name": "PFF Week 9 Stafford film review",
+      "url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+      "retrieved_at": "2026-08-31T01:26:46.696Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "A Week 9 film review describes a far-hash Cover-2 throw and coverage recognition, supporting arm talent and processing qualitatively. Its deep-passing rankings are an in-season snapshot, not final full-season depth splits."
+      ]
+    },
+    {
+      "name": "PFF pre-NFC-Championship Stafford/Darnold comparison",
+      "url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+      "retrieved_at": "2026-08-31T01:26:46.696Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "Pre-conference-championship analysis distinguishes strong clean-pocket/play-action execution from weaker pressured passing, very low scramble frequency, and recent turnover-worthy decisions. It explicitly includes playoffs for some statistics; do not merge all figures into the regular-season baseline or translate PFF grades into Madden traits."
+      ]
+    },
+    {
+      "name": "NFL Rams roster",
+      "url": "https://www.nfl.com/teams/los-angeles-rams/roster",
+      "retrieved_at": "2026-08-31T01:26:46.684Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Official roster lists Matthew Stafford as Rams QB; used only to resolve research team LAR without modifying the null registry team."
+      ]
+    }
+  ],
+  "normalized": {
+    "performance_summary": {
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "items": [
+        {
+          "claim": "Stafford led the NFL in 2025 with 4,707 passing yards, 276.9 passing yards per game, and 46 passing touchdowns; he threw eight interceptions.",
+          "source_url": "https://www.nfl.com/news/matthew-stafford-rams-qb-most-valuable-player-2025",
+          "retrieved_at": "2026-09-05T20:22:04-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "postseason_context": {
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "items": [
+        {
+          "claim": "Stafford completed 66 of 119 passes for 936 yards, six touchdowns, one interception, 7.9 yards per attempt, and a 94.4 passer rating across three games in the 2025 postseason.",
+          "source_url": "https://www.therams.com/team/stats/2025/POST",
+          "retrieved_at": "2026-09-02T13:25:00-04:00",
+          "season": 2025,
+          "period": "POSTSEASON"
+        },
+        {
+          "claim": "The Rams went 2-1 in Stafford's three 2025 postseason starts, defeating Carolina 34-31 and Chicago 20-17 in overtime before losing 31-27 to Seattle in the NFC Championship Game.",
+          "source_url": "https://www.espn.com/nfl/player/gamelog/_/id/12483/matthew-stafford",
+          "retrieved_at": "2026-09-02T13:25:00-04:00",
+          "season": 2025,
+          "period": "POSTSEASON"
+        },
+        {
+          "claim": "Against Seattle in the NFC Championship Game, Stafford completed 22 of 35 passes for 374 yards and three touchdowns; he went 7 of 11 for 226 yards and one touchdown on throws traveling at least 20 air yards.",
+          "source_url": "https://www.nfl.com/news/rams-seahawks-on-championship-sunday-what-we-learned-from-seattle-s-31-27-win",
+          "retrieved_at": "2026-09-02T13:25:00-04:00",
+          "season": 2025,
+          "period": "POSTSEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "multi_year_trend": {
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "items": [
+        {
+          "claim": "Stafford's regular-season passer rating increased from 92.5 in 2023 to 93.6 in 2024 and 109.2 in 2025; his passing touchdowns rose from 24 to 20 to 46, while interceptions fell from 11 to 8 and remained at 8.",
+          "source_url": "https://www.nfl.com/players/matthew-stafford/stats/career",
+          "retrieved_at": "2026-09-02T17:23:42.634Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Stafford's passing production increased from 3,965 yards in 15 games in 2023 and 3,762 yards in 16 games in 2024 to 4,707 yards in 17 games in 2025.",
+          "source_url": "https://www.nfl.com/players/matthew-stafford/stats/career",
+          "retrieved_at": "2026-09-02T17:23:42.634Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "current_role": {
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "items": [
+        {
+          "claim": "Listed as an active Rams quarterback.",
+          "source_url": "https://www.nfl.com/teams/los-angeles-rams/roster",
+          "retrieved_at": "2026-08-31T01:26:46.684Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        },
+        {
+          "claim": "Participated in joint-practice passing work.",
+          "source_url": "https://www.therams.com/news/10-observations-from-rams-joint-practice-with-saints-matthew-stafford-davante-adams-terrance-ferguson-nate-landman-kobie-turner",
+          "retrieved_at": "2026-08-31T01:31:28.639Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": []
+    },
+    "roster_depth_chart": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Official roster establishes Rams QB identity.",
+          "source_url": "https://www.nfl.com/teams/los-angeles-rams/roster",
+          "retrieved_at": "2026-08-31T01:26:46.684Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [
+        "Full current depth-chart allocation was not reconciled."
+      ]
+    },
+    "injury_practice_status": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Managed camp schedule: two practice days on, two off.",
+          "source_url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+          "retrieved_at": "2026-08-31T01:31:28.638Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        },
+        {
+          "claim": "Observed joint-practice participation.",
+          "source_url": "https://www.therams.com/news/10-observations-from-rams-joint-practice-with-saints-matthew-stafford-davante-adams-terrance-ferguson-nate-landman-kobie-turner",
+          "retrieved_at": "2026-08-31T01:31:28.639Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [
+        "These dated reports do not establish a current full injury/practice designation or medical clearance."
+      ]
+    },
+    "age_career_trajectory": {
+      "status": "missing",
+      "confidence": "LOW",
+      "items": [],
+      "limitations": [
+        "No completed, sufficiently specific assessment was established in the bounded collection."
+      ]
+    },
+    "team_system_context": {
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "items": [
+        {
+          "claim": "The 2025 Rams ranked first in yards per game (394.6), yards per play (6.2), passing yards per game (268.1), and offensive points per game (29.6); they ranked seventh in rushing yards per game (126.6).",
+          "source_url": "https://www.therams.com/team/coaches-roster/sean-mcvay",
+          "retrieved_at": "2026-09-02T17:24:30-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "The Rams offensive line tied for first with 19 sacks allowed and ranked fourth with 201 pressures allowed in 2025.",
+          "source_url": "https://www.therams.com/team/coaches-roster/sean-mcvay",
+          "retrieved_at": "2026-09-02T17:24:30-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Los Angeles used duo and outside-zone concepts and produced a 49.7% success rate on designed running-back runs including the playoffs, the highest team rate recorded by Next Gen Stats since 2016.",
+          "source_url": "https://www.therams.com/news/feature-how-the-rams-built-the-most-successful-designed-run-game-of-the-last-decade-in-2025",
+          "retrieved_at": "2026-09-02T17:24:30-04:00",
+          "season": 2025,
+          "period": "POSTSEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "preseason_participation": {
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "items": [
+        {
+          "claim": "Stafford recorded no playing statistics in any of the Rams' three 2026 preseason games, indicating he did not play against the Chiefs, Saints, or Chargers.",
+          "source_url": "https://www.nfl.com/players/matthew-stafford/stats/logs/2026/",
+          "retrieved_at": "2026-09-02T17:23:42.634Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        },
+        {
+          "claim": "Stafford participated in the Rams' August 11 joint practice with the Cowboys and discussed what he learned from facing Dallas.",
+          "source_url": "https://www.therams.com/news/rams-head-coach-sean-mcvay-quarterback-matthew-stafford-joint-practice-with-the-cowboys-press-conference",
+          "retrieved_at": "2026-09-02T17:23:42.634Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [
+        "Exact snap or rep totals from joint practices were not published."
+      ]
+    },
+    "durability_availability": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Current camp participation differs from the prior back-injury absence.",
+          "source_url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+          "retrieved_at": "2026-08-31T01:31:28.638Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [
+        "Historical injury/exposure and completed-season availability not fully reconciled; no medical inference."
+      ]
+    },
+    "recent_performance_trend": {
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "items": [
+        {
+          "claim": "Stafford recorded a 115.5 passer rating with 15 touchdowns and 2 interceptions across five November 2025 games, followed by a 101.3 rating with 10 touchdowns and 4 interceptions across four December games.",
+          "source_url": "https://www.nfl.com/players/matthew-stafford/stats/splits/2025/",
+          "retrieved_at": "2026-09-02T17:23:42.634Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "In his January regular-season game, Stafford completed 25 of 40 passes for 259 yards, 4 touchdowns, no interceptions, and a 114.5 passer rating.",
+          "source_url": "https://www.nfl.com/players/matthew-stafford/stats/splits/2025/",
+          "retrieved_at": "2026-09-02T17:23:42.634Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Across three postseason games, Stafford completed 66 of 119 passes for 936 yards, 6 touchdowns, 1 interception, and a 94.4 passer rating; his final game produced 374 yards, 3 touchdowns, no interceptions, and a 127.6 rating.",
+          "source_url": "https://www.pro-football-reference.com/years/2025/passing.htm",
+          "retrieved_at": "2026-09-02T17:23:42.634Z",
+          "season": 2025,
+          "period": "POSTSEASON"
+        }
+      ],
+      "limitations": [
+        "Aggregate monthly and postseason statistics do not directly measure risky decisions, turnover-worthy plays, or film-based decision quality."
+      ]
+    },
+    "locked_control_comparisons": {
+      "status": "partial",
+      "confidence": "HIGH",
+      "items": [
+        {
+          "claim": "In the 2025 regular season, Stafford recorded 4,707 passing yards, 46 touchdown passes, eight interceptions, 7.9 yards per attempt, and a 109.2 passer rating.",
+          "source_url": "https://www.nfl.com/players/matthew-stafford/stats/career",
+          "retrieved_at": "2026-09-02T13:30:00-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Stafford led the NFL in 2025 with 4,707 passing yards and 46 touchdown passes; locked control Drake Maye led in passer rating at 113.5 and completion percentage at 72.0%, while Stafford ranked second in passer rating at 109.2.",
+          "source_url": "https://apnews.com/article/1f6a4d94a8ffcdd5844855c5d4ba510a",
+          "retrieved_at": "2026-09-02T13:30:00-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "The 2025 AP MVP vote directly compared locked controls Stafford, Maye, and Allen: Stafford finished first with 366 points, Maye second with 361, and Allen third with 91; locked control Lawrence finished fifth with 49.",
+          "source_url": "https://apnews.com/article/1f6a4d94a8ffcdd5844855c5d4ba510a",
+          "retrieved_at": "2026-09-02T13:30:00-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "Fresh matched evidence was found for Stafford against Drake Maye, Josh Allen, and Trevor Lawrence, but not a complete common-source comparison packet covering Joe Burrow, Jordan Love, Dak Prescott, Brock Purdy, Justin Herbert, Sam Darnold, Patrick Mahomes, Lamar Jackson, and Jared Goff.",
+        "Locked-control full-card attributes remain unavailable, so exact attribute-level comparisons cannot be established."
+      ]
+    },
+    "outside_control_comparisons": {
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "items": [
+        {
+          "claim": "In the 2025 regular season, Matthew Stafford recorded 388 completions on 597 attempts (65.0%), 4,707 passing yards, 46 touchdowns, 8 interceptions, 7.9 yards per attempt, and a 109.2 passer rating in 17 games.",
+          "source_url": "https://www.nfl.com/players/matthew-stafford/stats/career",
+          "retrieved_at": "2026-09-02T17:23:42-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Compared with Patrick Mahomes in the 2025 regular season, Stafford had more passing yards (4,707 to 3,587), touchdowns (46 to 22), yards per attempt (7.9 to 7.2), and a higher passer rating (109.2 to 89.6); Stafford had fewer interceptions (8 to 11), while Mahomes played 14 games.",
+          "source_url": "https://www.nfl.com/players/patrick-mahomes/stats/career",
+          "retrieved_at": "2026-09-02T17:23:42-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Compared with Lamar Jackson in the 2025 regular season, Stafford had more passing yards (4,707 to 2,549), touchdowns (46 to 21), a higher completion percentage (65.0% to 63.6%), and a higher passer rating (109.2 to 103.8); Jackson had higher yards per attempt (8.4 to 7.9), one fewer interception (7 to 8), and played 13 games.",
+          "source_url": "https://www.nfl.com/players/lamar-jackson/stats/career",
+          "retrieved_at": "2026-09-02T17:23:42-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Compared with Jared Goff in the 2025 regular season, Stafford had more passing yards (4,707 to 4,564), touchdowns (46 to 34), and a higher passer rating (109.2 to 105.5); both averaged 7.9 yards per attempt and threw 8 interceptions, while Goff had the higher completion percentage (68.0% to 65.0%). Both played 17 games.",
+          "source_url": "https://www.nfl.com/players/jared-goff/stats/career",
+          "retrieved_at": "2026-09-02T17:23:42-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "This micro-batch contains aggregate regular-season passing evidence only; postseason, rushing, play-level, pressure, depth-of-target, accuracy, and film-charting comparisons were not collected."
+      ]
+    },
+    "position_specific_traits": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Arm execution and recognition have qualitative film support.",
+          "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "domain:workload_availability unresolved",
+        "domain:short_accuracy unresolved",
+        "domain:intermediate_accuracy unresolved",
+        "domain:deep_accuracy unresolved",
+        "domain:pressure_performance unresolved",
+        "trait:SAC unresolved",
+        "trait:MAC unresolved",
+        "trait:DAC unresolved",
+        "trait:TUP unresolved",
+        "domain:pocket_movement unresolved",
+        "domain:sack_avoidance unresolved",
+        "domain:play_action unresolved",
+        "domain:throws_on_run unresolved",
+        "trait:BSK unresolved",
+        "trait:CAR unresolved",
+        "domain:scrambling unresolved",
+        "domain:designed_rushing unresolved",
+        "trait:SPD unresolved",
+        "trait:ACC unresolved",
+        "trait:AGI unresolved",
+        "trait:COD unresolved",
+        "domain:durability unresolved",
+        "trait:STR unresolved",
+        "trait:JMP unresolved",
+        "trait:INJ unresolved",
+        "trait:STA unresolved",
+        "trait:TGH unresolved",
+        "domain:arm_strength unresolved",
+        "trait:THP unresolved",
+        "domain:opponent_context_adjustments unresolved"
+      ],
+      "domain_assessments": {
+        "arm_strength": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Film describes a far-hash Cover-2 throw.",
+              "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Qualitative film only; no complete current arm-strength calibration package."
+          ]
+        },
+        "short_accuracy": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "In the 2025 regular season, Matthew Stafford recorded 427 on-target throws (73.6% on-target rate), 105 bad throws (18.1% bad-throw rate), and 28 receiver drops on 597 pass attempts.",
+              "source_url": "https://www.pro-football-reference.com/years/2025/passing_advanced.htm",
+              "retrieved_at": "2026-09-02T13:30:00-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "The source provides overall accuracy metrics but no short-distance split, so Stafford's accuracy specifically on short throws remains unestablished."
+          ]
+        },
+        "intermediate_accuracy": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Through November 6, 2025, Stafford produced 10.2 yards per attempt and 0.58 EPA per play on intermediate throws defined as 10-19 air yards.",
+              "source_url": "https://dknetwork.draftkings.com/2025/11/06/matthew-stafford-is-on-an-mvp-like-tear-and-hes-a-fantasy-football-qb1-rest-of-season/",
+              "retrieved_at": "2026-09-02T17:23:42.634Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            },
+            {
+              "claim": "Stafford led the NFL with a 99.0 PFF passing grade on throws traveling at least 10 yards during the 2025 regular season; this broader split includes both intermediate and deep attempts.",
+              "source_url": "https://www.pff.com/news/nfl-pff-awards-2025-matthew-stafford-is-the-pff-mvp",
+              "retrieved_at": "2026-09-02T17:23:42.634Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "No full-season 10-19-air-yard completion rate, adjusted completion rate, attempt volume, or accuracy-over-expectation split was located.",
+            "The PFF 10-plus-yard split is broader than intermediate range because it includes throws of 20 or more air yards.",
+            "The exact 10-19-yard evidence was published during the season and does not cover Stafford's complete 2025 regular season."
+          ]
+        },
+        "deep_accuracy": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Week 9 film review supports difficult downfield placement.",
+              "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "No complete short/intermediate/deep full-season placement splits or matched samples."
+          ]
+        },
+        "pressure_performance": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "PFF listed Stafford with an 11.4% pressure-to-sack rate, fifth among qualifying quarterbacks in the 2025 regular season.",
+              "source_url": "https://www.pff.com/nfl/players/matthew-stafford/4924",
+              "retrieved_at": "2026-09-02T13:23:42-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "The source does not expose Stafford's full pressured-dropback passing line or pressure-specific passing grade."
+          ]
+        },
+        "pocket_movement": {
+          "status": "partial",
+          "confidence": "LOW",
+          "items": [
+            {
+              "claim": "During August 2025 practice, Stafford reported no discomfort while navigating a pocket that required movement against the Rams pass rush.",
+              "source_url": "https://www.therams.com/news/matthew-stafford-talks-working-through-back-injury-returning-practice-preseason-2025",
+              "retrieved_at": "2026-09-02T17:23:42-04:00",
+              "season": 2025,
+              "period": "CURRENT_CONTEXT"
+            }
+          ],
+          "limitations": [
+            "Team-reported practice observation provides no regular-season tracking metric, play-level sample, or comparative pocket-movement measure."
+          ]
+        },
+        "sack_avoidance": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "Specific sack_avoidance evidence remains unestablished after bounded collection and recovery failure."
+          ]
+        },
+        "processing_decision_making": {
+          "status": "satisfied",
+          "confidence": "HIGH",
+          "items": [
+            {
+              "claim": "Through Week 10, Stafford had 20 touchdowns against the blitz, a league-leading total by nine, while his 2.45-second release ranked third-fastest among qualified quarterbacks; Rams reporting also documented him diagnosing Cover 3, adjusting reads, identifying rushers and checking plays at the line.",
+              "source_url": "https://www.therams.com/news/feature-matthew-stafford-continues-to-beat-the-blitz-with-quick-processing-and-varied-approaches-rams-seahawks-week-11-2025",
+              "retrieved_at": "2026-09-02T13:23:42.634-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            },
+            {
+              "claim": "PFF recorded 19 turnover-worthy plays across 627 regular-season dropbacks for Stafford in 2025.",
+              "source_url": "https://www.pff.com/nfl/players/matthew-stafford/4924",
+              "retrieved_at": "2026-09-02T13:23:42.634-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "The blitz evidence is concentrated through Week 10, while the turnover-worthy-play total does not isolate coverage reads or decision errors."
+          ]
+        },
+        "play_action": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Through Week 6, Stafford had produced 699 passing yards and eight touchdowns from play-action looks; his play-action yardage ranked third in the NFL at that point.",
+              "source_url": "https://www.pff.com/news/fantasy-football-scheme-stars-play-action-screens-2025",
+              "retrieved_at": "2026-09-02T13:23:42.634-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "The available split covers only the first six weeks and does not provide full-season efficiency, interception rate, pressure response or fake-execution measures."
+          ]
+        },
+        "throws_on_run": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific 2025 primary-source or reputable advanced-data split for Stafford's throws while running was located in the bounded search."
+          ]
+        },
+        "scrambling": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Pro Football Reference charted Stafford with 7 scrambles for 22 yards, averaging 3.1 yards per scramble across 17 regular-season games in 2025.",
+              "source_url": "https://www.pro-football-reference.com/years/2025/passing_advanced.htm",
+              "retrieved_at": "2026-09-02T13:23:42-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            },
+            {
+              "claim": "PFF reported 22 scramble yards and ranked Stafford 30th among 30 qualified quarterbacks in rushing grade for the 2025 season.",
+              "source_url": "https://www.pff.com/nfl/players/matthew-stafford/4924",
+              "retrieved_at": "2026-09-02T13:23:42-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Available data establishes low scramble volume and production but does not isolate open-field elusiveness, acceleration, lateral movement, broken tackles, or change-of-direction performance."
+          ]
+        },
+        "designed_rushing": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "Specific designed_rushing evidence remains unestablished after bounded collection and recovery failure."
+          ]
+        },
+        "ball_security": {
+          "status": "satisfied",
+          "confidence": "HIGH",
+          "items": [
+            {
+              "claim": "Stafford recorded 7 total fumbles and 3 fumbles lost in 17 regular-season games for the Rams in 2025.",
+              "source_url": "https://www.therams.com/team/players-roster/matthew-stafford/career",
+              "retrieved_at": "2026-09-02T13:25:00-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            },
+            {
+              "claim": "NFL.com lists 3 fumbles within Stafford's 2025 rushing statistics across 29 attempts.",
+              "source_url": "https://www.nfl.com/players/matthew-stafford/stats/career",
+              "retrieved_at": "2026-09-02T13:25:00-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "The 3-fumble rushing-table figure is narrower than the Rams' 7-total-fumble figure and should not be interpreted as the complete ball-security total."
+          ]
+        },
+        "durability": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Current camp participation differs from the prior back-injury absence.",
+              "source_url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+              "retrieved_at": "2026-08-31T01:31:28.638Z",
+              "season": 2026,
+              "period": "CURRENT_CONTEXT"
+            }
+          ],
+          "limitations": [
+            "Historical injury/exposure and completed-season availability not fully reconciled; no medical inference."
+          ]
+        },
+        "workload_availability": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Managed camp schedule: two practice days on, two off.",
+              "source_url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+              "retrieved_at": "2026-08-31T01:31:28.638Z",
+              "season": 2026,
+              "period": "CURRENT_CONTEXT"
+            },
+            {
+              "claim": "Observed joint-practice participation.",
+              "source_url": "https://www.therams.com/news/10-observations-from-rams-joint-practice-with-saints-matthew-stafford-davante-adams-terrance-ferguson-nate-landman-kobie-turner",
+              "retrieved_at": "2026-08-31T01:31:28.639Z",
+              "season": 2026,
+              "period": "CURRENT_CONTEXT"
+            }
+          ],
+          "limitations": [
+            "These dated reports do not establish a current full injury/practice designation or medical clearance."
+          ]
+        },
+        "consistency": {
+          "status": "satisfied",
+          "confidence": "HIGH",
+          "items": [
+            {
+              "claim": "Stafford threw at least one touchdown pass in all 17 regular-season games.",
+              "source_url": "https://www.nfl.com/players/matthew-stafford/stats/logs/2025/",
+              "retrieved_at": "2026-09-05T20:26:30-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            },
+            {
+              "claim": "Stafford recorded zero interceptions in 12 of 17 regular-season games.",
+              "source_url": "https://www.nfl.com/players/matthew-stafford/stats/logs/2025/",
+              "retrieved_at": "2026-09-05T20:26:30-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            },
+            {
+              "claim": "Stafford posted a passer rating of at least 100 in 12 of 17 regular-season games.",
+              "source_url": "https://www.nfl.com/players/matthew-stafford/stats/logs/2025/",
+              "retrieved_at": "2026-09-05T20:26:30-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            },
+            {
+              "claim": "Stafford became the first quarterback in NFL history to throw at least four touchdowns with no interceptions in three consecutive games, doing so in Weeks 8-10.",
+              "source_url": "https://www.therams.com/team/players-roster/matthew-stafford/logs/",
+              "retrieved_at": "2026-09-05T20:22:04-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            },
+            {
+              "claim": "Stafford finished the regular season with eight interceptions across 597 attempts, a 1.3% interception rate.",
+              "source_url": "https://www.pro-football-reference.com/years/2025/passing.htm",
+              "retrieved_at": "2026-09-05T20:22:04-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": []
+        },
+        "opponent_context_adjustments": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Film identifies the coverage and specific opponent context.",
+              "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "No full opponent/supporting-cast adjustment or independent coefficients established."
+          ]
+        }
+      },
+      "trait_assessments": {
+        "THP": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Film describes a far-hash Cover-2 throw.",
+              "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Qualitative film only; no complete current arm-strength calibration package."
+          ]
+        },
+        "SAC": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No authoritative 2025 completion, accuracy, or on-target data isolated to short-distance attempts was located; no numeric SAC rating inferred."
+          ]
+        },
+        "MAC": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Through November 6, 2025, Stafford produced 10.2 yards per attempt and 0.58 EPA per play on intermediate throws defined as 10-19 air yards.",
+              "source_url": "https://dknetwork.draftkings.com/2025/11/06/matthew-stafford-is-on-an-mvp-like-tear-and-hes-a-fantasy-football-qb1-rest-of-season/",
+              "retrieved_at": "2026-09-02T17:23:42.634Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            },
+            {
+              "claim": "Stafford led the NFL with a 99.0 PFF passing grade on throws traveling at least 10 yards during the 2025 regular season; this broader split includes both intermediate and deep attempts.",
+              "source_url": "https://www.pff.com/news/nfl-pff-awards-2025-matthew-stafford-is-the-pff-mvp",
+              "retrieved_at": "2026-09-02T17:23:42.634Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Evidence supports productive intermediate-range passing but does not isolate ball-placement accuracy from receiver, coverage, and play-design effects.",
+            "No complete 2025 regular-season 10-19-air-yard accuracy table was located.",
+            "No numeric MAC rating inferred."
+          ]
+        },
+        "DAC": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Week 9 film review supports difficult downfield placement.",
+              "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+              "retrieved_at": "2026-08-31T01:26:46.696Z",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "No complete short/intermediate/deep full-season placement splits or matched samples."
+          ]
+        },
+        "RUN": {
+          "status": "satisfied",
+          "confidence": "HIGH",
+          "items": [
+            {
+              "claim": "Stafford recorded 29 rushing attempts for 1 yard, no rushing touchdowns, no rushing first downs, and a longest rush of 6 yards across 17 regular-season games in 2025.",
+              "source_url": "https://www.nfl.com/players/matthew-stafford/stats/situational/2025/",
+              "retrieved_at": "2026-09-02T17:23:42-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "NFL situational totals do not distinguish designed runs, scrambles, kneel-downs, or aborted passing plays."
+          ]
+        },
+        "TUP": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "PFF listed Stafford with an 11.4% pressure-to-sack rate, fifth among qualifying quarterbacks in the 2025 regular season.",
+              "source_url": "https://www.pff.com/nfl/players/matthew-stafford/4924",
+              "retrieved_at": "2026-09-02T13:23:42-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Pressure-to-sack rate measures sack avoidance under pressure but does not establish Stafford's accuracy, efficiency, or decision quality while pressured."
+          ]
+        },
+        "PAC": {
+          "status": "satisfied",
+          "confidence": "HIGH",
+          "items": [
+            {
+              "claim": "Stafford recorded 207 play-action pass attempts for 1,744 passing yards in the 2025 regular season, approximately 8.4 yards per play-action attempt.",
+              "source_url": "https://www.pro-football-reference.com/years/2025/passing_advanced.htm",
+              "retrieved_at": "2026-09-02T17:24:30-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "The public table does not provide play-action completion rate, touchdowns, interceptions, pressure splits, or charted fake quality."
+          ]
+        },
+        "BSK": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific BSK trait package; no numeric rating inferred."
+          ]
+        },
+        "AWR": {
+          "status": "satisfied",
+          "confidence": "HIGH",
+          "items": [
+            {
+              "claim": "Rams reporting documented Stafford recognizing pre-snap pressure indicators, communicating rushers, checking plays and diagnosing a disguised Cover 3 before targeting the resulting opening.",
+              "source_url": "https://www.therams.com/news/feature-matthew-stafford-continues-to-beat-the-blitz-with-quick-processing-and-varied-approaches-rams-seahawks-week-11-2025",
+              "retrieved_at": "2026-09-02T13:23:42.634-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            },
+            {
+              "claim": "Stafford was blitzed on 33.3% of dropbacks through Week 10 but pressured on 32.1% of those plays, the third-lowest rate among qualified quarterbacks; the Rams attributed the result jointly to his command, quick release and offensive-line coordination.",
+              "source_url": "https://www.therams.com/news/feature-matthew-stafford-continues-to-beat-the-blitz-with-quick-processing-and-varied-approaches-rams-seahawks-week-11-2025",
+              "retrieved_at": "2026-09-02T13:23:42.634-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Pressure avoidance is influenced by protection and scheme, so it is not an isolated quarterback-awareness measure."
+          ]
+        },
+        "SPD": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Stafford recorded 1 rushing yard on 29 attempts, with a longest rush of 6 yards and no rushes of 20-plus yards during the 2025 regular season.",
+              "source_url": "https://www.nfl.com/players/matthew-stafford/stats/career",
+              "retrieved_at": "2026-09-02T13:23:42-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            },
+            {
+              "claim": "The Rams' official 2025 regular-season statistics also list Stafford with 29 rushing attempts, 1 rushing yard, a 6-yard long, and zero rushing touchdowns.",
+              "source_url": "https://www.therams.com/team/stats/2025/REG",
+              "retrieved_at": "2026-09-02T13:23:42-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "Aggregate rushing production is only an indirect movement indicator and includes kneel-downs or other play-context effects.",
+            "No current-season GPS-tracked maximum speed, timed sprint, or comparable speed measurement was found."
+          ]
+        },
+        "ACC": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No current-season split time, GPS acceleration measurement, or other sufficiently specific acceleration evidence was found.",
+            "Rushing totals do not isolate initial burst or acceleration."
+          ]
+        },
+        "AGI": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific 2025 evidence measuring Stafford's agility independently of scramble frequency or production."
+          ]
+        },
+        "COD": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific 2025 evidence measuring Stafford's change-of-direction ability."
+          ]
+        },
+        "STR": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific current functional-strength measurement or standardized bench-press result was found; arm strength and toughness were excluded as non-equivalent evidence."
+          ]
+        },
+        "CAR": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Stafford had 29 rushing attempts for 1 yard and 3 fumbles in the NFL.com 2025 rushing table.",
+              "source_url": "https://www.nfl.com/players/matthew-stafford/stats/career",
+              "retrieved_at": "2026-09-02T13:25:00-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            },
+            {
+              "claim": "The Rams' 2025 player table independently lists Stafford with 29 rushing attempts, 1 rushing yard, and 3 rushing-category fumbles.",
+              "source_url": "https://www.therams.com/team/players-roster/matthew-stafford/career",
+              "retrieved_at": "2026-09-02T13:25:00-04:00",
+              "season": 2025,
+              "period": "REGULAR_SEASON"
+            }
+          ],
+          "limitations": [
+            "No play-level evidence separates designed carries, scrambles, kneel-downs, and quarterback exchange or sack-related fumbles.",
+            "The limited and role-specific rushing sample does not fully establish open-field carrying security."
+          ]
+        },
+        "JMP": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Stafford recorded a 30.5-inch vertical jump and a 107-inch broad jump at the 2009 NFL Scouting Combine.",
+              "source_url": "https://www.pro-football-reference.com/draft/2009-combine.htm",
+              "retrieved_at": "2026-09-02T13:23:42-04:00",
+              "season": 2009,
+              "period": "CURRENT_CONTEXT"
+            },
+            {
+              "claim": "A Houston Texans combine report recorded Stafford's vertical jump as 30.5 inches.",
+              "source_url": "https://www.houstontexans.com/news/qbs-wrs-headline-combine-s-glamour-day-2664497",
+              "retrieved_at": "2026-09-02T13:23:42-04:00",
+              "season": 2009,
+              "period": "CURRENT_CONTEXT"
+            }
+          ],
+          "limitations": [
+            "The measurements are from 2009 and do not establish Stafford's current 2026 jumping ability."
+          ]
+        },
+        "INJ": {
+          "status": "partial",
+          "confidence": "MEDIUM",
+          "items": [
+            {
+              "claim": "Current camp participation differs from the prior back-injury absence.",
+              "source_url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+              "retrieved_at": "2026-08-31T01:31:28.638Z",
+              "season": 2026,
+              "period": "CURRENT_CONTEXT"
+            }
+          ],
+          "limitations": [
+            "Historical injury/exposure and completed-season availability not fully reconciled; no medical inference."
+          ]
+        },
+        "STA": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific STA trait package; no numeric rating inferred."
+          ]
+        },
+        "TGH": {
+          "status": "missing",
+          "confidence": "LOW",
+          "items": [],
+          "limitations": [
+            "No sufficiently specific TGH trait package; no numeric rating inferred."
+          ]
+        }
+      }
+    },
+    "passing_production_efficiency": {
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "items": [
+        {
+          "claim": "Stafford completed 388 of 597 attempts (65.0%) for 7.9 yards per attempt, 46 touchdowns, eight interceptions, and a 109.2 passer rating.",
+          "source_url": "https://www.nfl.com/players/matthew-stafford/stats/career",
+          "retrieved_at": "2026-09-05T20:22:04-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Stafford recorded an 8.3 adjusted net yards per attempt, 54.4% passing success rate, 7.7% touchdown rate, 1.3% interception rate, and 3.71% sack rate.",
+          "source_url": "https://www.pro-football-reference.com/years/2025/passing.htm",
+          "retrieved_at": "2026-09-05T20:22:04-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "advanced_passing_metrics": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Public comparison supplies pressure/play-action splits with mixed regular-season/playoff context.",
+          "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "Do not relabel mixed samples as a final regular-season advanced package."
+      ]
+    },
+    "pressure_performance": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "PFF listed Stafford with an 11.4% pressure-to-sack rate, fifth among qualifying quarterbacks in the 2025 regular season.",
+          "source_url": "https://www.pff.com/nfl/players/matthew-stafford/4924",
+          "retrieved_at": "2026-09-02T13:23:42-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "The source does not expose Stafford's full pressured-dropback passing line or pressure-specific passing grade."
+      ]
+    },
+    "accuracy_by_depth": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Week 9 film review supports difficult downfield placement.",
+          "source_url": "https://www.pff.com/news/nfl-qb-film-review-matthew-stafford-is-on-track-for-the-best-season-of-his-outstanding-career",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "No complete short/intermediate/deep full-season placement splits or matched samples."
+      ]
+    },
+    "turnover_worthy_mistakes": {
+      "status": "satisfied",
+      "confidence": "HIGH",
+      "items": [
+        {
+          "claim": "PFF charted Stafford with 19 turnover-worthy plays and a 2.9% turnover-worthy-play rate over 663 dropbacks in the 2025 regular season.",
+          "source_url": "https://www.pff.com/news/nfl-pff-awards-2025-matthew-stafford-is-the-pff-mvp",
+          "retrieved_at": "2026-09-02T13:30:00-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "PFF charted three turnover-worthy plays across 156 clutch-situation dropbacks during the 2025 season.",
+          "source_url": "https://www.pff.com/news/nfl-clutch-quarterback-play-2025",
+          "retrieved_at": "2026-09-02T13:30:00-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "NFL statistics record eight interceptions, seven total fumbles, and three fumbles lost for Stafford across 17 games in the 2025 regular season.",
+          "source_url": "https://www.nfl.com/players/matthew-stafford/stats/career",
+          "retrieved_at": "2026-09-02T13:30:00-04:00",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "Turnover-worthy plays are PFF-charted judgments and are not equivalent to official turnovers.",
+        "The clutch split is a subset of the full-season total, not an additional set of mistakes."
+      ]
+    },
+    "rushing_designed_run_value": {
+      "status": "missing",
+      "confidence": "LOW",
+      "items": [],
+      "limitations": [
+        "No completed, sufficiently specific assessment was established in the bounded collection."
+      ]
+    },
+    "scrambling_sack_avoidance": {
+      "status": "partial",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Scramble involvement was very low in the preview comparison.",
+          "source_url": "https://www.pff.com/news/nfl-sam-darnold-matthew-stafford-breakdown-nfc-championship-game-preview",
+          "retrieved_at": "2026-08-31T01:26:46.696Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "Do not infer broken sacks, speed or contact escape from low scramble frequency."
+      ]
+    }
+  },
+  "conflicts": [
+    {
+      "issue": "Incompatible statistical scopes",
+      "resolution": "Regular season, in-season snapshots and playoff-inclusive previews remain separate; no averages or scope conversions."
+    }
+  ],
+  "minimum_evidence_met": false,
+  "missing_evidence": [
+    "postseason_context: UNTRACEABLE_OR_STALE_ITEM",
+    "multi_year_trend: UNTRACEABLE_OR_STALE_ITEM",
+    "multi_year_trend: MULTI_YEAR_CONTEXT_MISSING",
+    "current_role: UNTRACEABLE_OR_STALE_ITEM",
+    "roster_depth_chart: CATEGORY_NOT_SATISFIED",
+    "roster_depth_chart: UNTRACEABLE_OR_STALE_ITEM",
+    "injury_practice_status: CATEGORY_NOT_SATISFIED",
+    "injury_practice_status: UNTRACEABLE_OR_STALE_ITEM",
+    "age_career_trajectory: MISSING_OR_INVALID_CATEGORY",
+    "team_system_context: UNTRACEABLE_OR_STALE_ITEM",
+    "team_system_context: REQUIRED_SEASON_NOT_COVERED",
+    "preseason_participation: UNTRACEABLE_OR_STALE_ITEM",
+    "durability_availability: CATEGORY_NOT_SATISFIED",
+    "durability_availability: UNTRACEABLE_OR_STALE_ITEM",
+    "durability_availability: REQUIRED_SEASON_NOT_COVERED",
+    "durability_availability: PRIMARY_REGULAR_SEASON_SAMPLE_MISSING",
+    "recent_performance_trend: UNTRACEABLE_OR_STALE_ITEM",
+    "locked_control_comparisons: CATEGORY_NOT_SATISFIED",
+    "locked_control_comparisons: UNTRACEABLE_OR_STALE_ITEM",
+    "locked_control_comparisons: LOCKED_CONTROL_COVERAGE_MISSING",
+    "outside_control_comparisons: UNTRACEABLE_OR_STALE_ITEM",
+    "outside_control_comparisons: NEAREST_OUTSIDE_CONTROL_MISSING",
+    "position_specific_traits: CATEGORY_NOT_SATISFIED",
+    "position_specific_traits: UNTRACEABLE_OR_STALE_ITEM",
+    "advanced_passing_metrics: UNTRACEABLE_OR_STALE_ITEM",
+    "pressure_performance: CATEGORY_NOT_SATISFIED",
+    "pressure_performance: UNTRACEABLE_OR_STALE_ITEM",
+    "accuracy_by_depth: CATEGORY_NOT_SATISFIED",
+    "accuracy_by_depth: UNTRACEABLE_OR_STALE_ITEM",
+    "turnover_worthy_mistakes: UNTRACEABLE_OR_STALE_ITEM",
+    "rushing_designed_run_value: MISSING_OR_INVALID_CATEGORY",
+    "scrambling_sack_avoidance: CATEGORY_NOT_SATISFIED",
+    "scrambling_sack_avoidance: UNTRACEABLE_OR_STALE_ITEM",
+    "BLOCKING_CORE_EVIDENCE_MISSING:current_role",
+    "BLOCKING_CORE_EVIDENCE_MISSING:roster_depth_chart",
+    "BLOCKING_CORE_EVIDENCE_MISSING:injury_practice_status",
+    "BLOCKING_CORE_EVIDENCE_MISSING:durability_availability",
+    "BLOCKING_CORE_EVIDENCE_MISSING:pressure_performance",
+    "BLOCKING_CORE_EVIDENCE_MISSING:accuracy_by_depth",
+    "BLOCKING_CORE_EVIDENCE_MISSING:scrambling_sack_avoidance",
+    "BLOCKING_CORE_EVIDENCE_MISSING:locked_control_comparisons",
+    "INVALID_SUPPORTING_SUBSTITUTE:rushing_designed_run_value",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:arm_strength",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:short_accuracy",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:intermediate_accuracy",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:deep_accuracy",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:pressure_performance",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:pocket_movement",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:sack_avoidance",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:workload_availability",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:durability",
+    "INVALID_SUPPORTING_SUBSTITUTE:domain:throws_on_run",
+    "INVALID_SUPPORTING_SUBSTITUTE:domain:designed_rushing",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:THP",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:SAC",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:MAC",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:DAC",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:TUP",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:BSK",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:INJ",
+    "SECONDARY_TRAIT_NO_VALID_EVIDENCE_PATH:trait:STR"
+  ],
+  "calendar": {
+    "nfl_season": 2026,
+    "player_id": "matthew_stafford",
+    "team": "LAR",
+    "valid_from": "2026-03-11T16:00:00-04:00",
+    "valid_until": "2027-03-11T16:00:00-05:00",
+    "preseason_start": "2026-07-25T00:00:00-04:00",
+    "regular_season_start": "2026-09-09T20:20:00-04:00",
+    "postseason_start": "2027-01-11T00:00:00-05:00",
+    "season_end": "2027-02-15T00:00:00-05:00",
+    "current_season_games_available": 0,
+    "current_season_games_played": 0,
+    "regular_season_games_scheduled": 17,
+    "regular_season_complete": false,
+    "postseason_complete": false,
+    "sources": [
+      {
+        "url": "https://www.nfl.com/_amp/2026-national-football-league-important-dates",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "2026 league year began 2026-03-11T16:00:00-04:00."
+        ]
+      },
+      {
+        "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "2027 league year begins 2027-03-11T16:00:00-05:00; the supplied as-of instant falls within the 2026 league year.",
+          "Current calendar lists Week 18 on January 9–10, 2027; the following America/New_York day begins 2027-01-11T00:00:00-05:00.",
+          "Super Bowl LXI is scheduled for February 14, 2027; the following America/New_York day begins 2027-02-15T00:00:00-05:00.",
+          "Postseason has not begun as of the requested instant; postseason_complete is false. No future scheduled game is treated as final.",
+          "No later postponed regular-season or postseason game appears in the current calendar."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/news/2026-nfl-training-camps-report-dates-locations-announced-for-all-32-teams",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "Rams rookies and veterans report July 25, 2026; preseason_start uses that calendar day's midnight, not an asserted reporting hour."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/by-week/week-1",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "First league kickoff: 2026-09-09T20:20:00-04:00. Before Week 1, opportunities and appearances are zero league-wide; trades cannot add completed opportunities."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/by-team/los-angeles-rams",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "17 regular-season games scheduled; Week 11 bye. Zero regular-season finals; only preseason games are final. Rams opener: 2026-09-10T20:35:00-04:00."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/players/matthew-stafford/stats/logs/2026/",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "Stafford is listed with LAR. Displayed entries are preseason only; combined with the unstarted regular-season schedule, regular-season appearances equal zero."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/by-week/week-18",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "Final regular-season week's matchups remain TBD, not FINAL; regular_season_complete is false."
+        ]
+      }
+    ]
+  },
+  "calendar_web_search_observed": true,
+  "fresh_web_research_observed": true,
+  "audit_type": "FULL_AUDIT",
+  "nfl_season": 2026,
+  "season_phase": "PRESEASON",
+  "evidence_season": 2025,
+  "current_season_games_available": 0,
+  "current_season_games_played": 0,
+  "prior_season_used_as_primary_baseline": true,
+  "sample_size_context": {
+    "weighting": "COMPLETED_SEASON_PRIMARY_WITH_CURRENT_CONTEXT",
+    "established_after_games": 4,
+    "player_sample_limited": true,
+    "limitations": [
+      "Season phase is established from immutable official NFL boundaries; mutable game counts require fresh evidence.",
+      "Player regular-season sample is unavailable; retain current role, availability, and completed-season evidence."
+    ]
+  },
+  "evidence_warnings": [
+    "SUPPORTING_EVIDENCE_WEAK:advanced_passing_metrics",
+    "SUPPORTING_EVIDENCE_WEAK:domain:play_action",
+    "SUPPORTING_EVIDENCE_WEAK:domain:scrambling",
+    "SUPPORTING_EVIDENCE_WEAK:domain:opponent_context_adjustments",
+    "SUPPORTING_EVIDENCE_WEAK:trait:CAR",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:SPD",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:ACC",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:AGI",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:COD",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:JMP",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:STA",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:TGH",
+    "CONTEXTUAL_EVIDENCE_GAP:age_career_trajectory"
+  ],
+  "gate_reasons": [
+    "postseason_context: UNTRACEABLE_OR_STALE_ITEM",
+    "multi_year_trend: UNTRACEABLE_OR_STALE_ITEM",
+    "multi_year_trend: MULTI_YEAR_CONTEXT_MISSING",
+    "current_role: UNTRACEABLE_OR_STALE_ITEM",
+    "roster_depth_chart: CATEGORY_NOT_SATISFIED",
+    "roster_depth_chart: UNTRACEABLE_OR_STALE_ITEM",
+    "injury_practice_status: CATEGORY_NOT_SATISFIED",
+    "injury_practice_status: UNTRACEABLE_OR_STALE_ITEM",
+    "age_career_trajectory: MISSING_OR_INVALID_CATEGORY",
+    "team_system_context: UNTRACEABLE_OR_STALE_ITEM",
+    "team_system_context: REQUIRED_SEASON_NOT_COVERED",
+    "preseason_participation: UNTRACEABLE_OR_STALE_ITEM",
+    "durability_availability: CATEGORY_NOT_SATISFIED",
+    "durability_availability: UNTRACEABLE_OR_STALE_ITEM",
+    "durability_availability: REQUIRED_SEASON_NOT_COVERED",
+    "durability_availability: PRIMARY_REGULAR_SEASON_SAMPLE_MISSING",
+    "recent_performance_trend: UNTRACEABLE_OR_STALE_ITEM",
+    "locked_control_comparisons: CATEGORY_NOT_SATISFIED",
+    "locked_control_comparisons: UNTRACEABLE_OR_STALE_ITEM",
+    "locked_control_comparisons: LOCKED_CONTROL_COVERAGE_MISSING",
+    "outside_control_comparisons: UNTRACEABLE_OR_STALE_ITEM",
+    "outside_control_comparisons: NEAREST_OUTSIDE_CONTROL_MISSING",
+    "position_specific_traits: CATEGORY_NOT_SATISFIED",
+    "position_specific_traits: UNTRACEABLE_OR_STALE_ITEM",
+    "advanced_passing_metrics: UNTRACEABLE_OR_STALE_ITEM",
+    "pressure_performance: CATEGORY_NOT_SATISFIED",
+    "pressure_performance: UNTRACEABLE_OR_STALE_ITEM",
+    "accuracy_by_depth: CATEGORY_NOT_SATISFIED",
+    "accuracy_by_depth: UNTRACEABLE_OR_STALE_ITEM",
+    "turnover_worthy_mistakes: UNTRACEABLE_OR_STALE_ITEM",
+    "rushing_designed_run_value: MISSING_OR_INVALID_CATEGORY",
+    "scrambling_sack_avoidance: CATEGORY_NOT_SATISFIED",
+    "scrambling_sack_avoidance: UNTRACEABLE_OR_STALE_ITEM",
+    "BLOCKING_CORE_EVIDENCE_MISSING:current_role",
+    "BLOCKING_CORE_EVIDENCE_MISSING:roster_depth_chart",
+    "BLOCKING_CORE_EVIDENCE_MISSING:injury_practice_status",
+    "BLOCKING_CORE_EVIDENCE_MISSING:durability_availability",
+    "BLOCKING_CORE_EVIDENCE_MISSING:pressure_performance",
+    "BLOCKING_CORE_EVIDENCE_MISSING:accuracy_by_depth",
+    "BLOCKING_CORE_EVIDENCE_MISSING:scrambling_sack_avoidance",
+    "BLOCKING_CORE_EVIDENCE_MISSING:locked_control_comparisons",
+    "INVALID_SUPPORTING_SUBSTITUTE:rushing_designed_run_value",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:arm_strength",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:short_accuracy",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:intermediate_accuracy",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:deep_accuracy",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:pressure_performance",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:pocket_movement",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:sack_avoidance",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:workload_availability",
+    "BLOCKING_CORE_EVIDENCE_MISSING:domain:durability",
+    "INVALID_SUPPORTING_SUBSTITUTE:domain:throws_on_run",
+    "INVALID_SUPPORTING_SUBSTITUTE:domain:designed_rushing",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:THP",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:SAC",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:MAC",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:DAC",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:TUP",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:BSK",
+    "BLOCKING_CORE_EVIDENCE_MISSING:trait:INJ",
+    "SECONDARY_TRAIT_NO_VALID_EVIDENCE_PATH:trait:STR",
+    "SUPPORTING_EVIDENCE_WEAK:advanced_passing_metrics",
+    "SUPPORTING_EVIDENCE_WEAK:domain:play_action",
+    "SUPPORTING_EVIDENCE_WEAK:domain:scrambling",
+    "SUPPORTING_EVIDENCE_WEAK:domain:opponent_context_adjustments",
+    "SUPPORTING_EVIDENCE_WEAK:trait:CAR",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:SPD",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:ACC",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:AGI",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:COD",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:JMP",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:STA",
+    "SECONDARY_TRAIT_LOW_CONFIDENCE:trait:TGH",
+    "CONTEXTUAL_EVIDENCE_GAP:age_career_trajectory"
+  ],
+  "calendar_resolution_level": "CACHED_AUTHORITATIVE"
+}

@@ -1,0 +1,67 @@
+{
+  "run_id": "RELIABILITY_7cdd87a7-f8d1-4f7f-b178-d49b2813b6c1",
+  "started_at": "2026-09-02T17:13:13.152Z",
+  "completed_at": "2026-09-02T17:14:13.177Z",
+  "non_player_smoke": true,
+  "micro_batches": 3,
+  "attempts": 4,
+  "successful_structured_responses": 3,
+  "timeouts": 1,
+  "intentional_timeouts": 1,
+  "live_timeout_rate": 0,
+  "parse_failures": 0,
+  "sources_captured": 3,
+  "checkpoint_persisted": true,
+  "retry_isolation_observed": true,
+  "category_status": {
+    "league_calendar": "SATISFIED",
+    "schedule_source": "SATISFIED",
+    "rules_resource": "SATISFIED"
+  },
+  "diagnostics": [
+    {
+      "micro_batch_id": "SMOKE_LEAGUE_CALENDAR",
+      "attempt_number": 1,
+      "started_at": "2026-09-02T17:13:13.166Z",
+      "ended_at": "2026-09-02T17:13:41.175Z",
+      "elapsed_ms": 28009,
+      "thread_id": "01a0631c-4bed-7ac1-aad0-fe8871f9049e",
+      "timeout_stage": null,
+      "outcome": "SUCCESS",
+      "failure_kind": null
+    },
+    {
+      "micro_batch_id": "SMOKE_SCHEDULE_SOURCE",
+      "attempt_number": 1,
+      "started_at": "2026-09-02T17:13:41.181Z",
+      "ended_at": "2026-09-02T17:13:41.181Z",
+      "elapsed_ms": 0,
+      "thread_id": null,
+      "timeout_stage": "THREAD_RUN",
+      "outcome": "FAILURE",
+      "failure_kind": "NETWORK_TOOL_TIMEOUT"
+    },
+    {
+      "micro_batch_id": "SMOKE_RULES_RESOURCE",
+      "attempt_number": 1,
+      "started_at": "2026-09-02T17:13:41.186Z",
+      "ended_at": "2026-09-02T17:13:56.149Z",
+      "elapsed_ms": 14963,
+      "thread_id": "01a0631c-b967-7b93-b9db-ffe279386211",
+      "timeout_stage": null,
+      "outcome": "SUCCESS",
+      "failure_kind": null
+    },
+    {
+      "micro_batch_id": "SMOKE_SCHEDULE_SOURCE",
+      "attempt_number": 2,
+      "started_at": "2026-09-02T17:13:56.162Z",
+      "ended_at": "2026-09-02T17:14:13.167Z",
+      "elapsed_ms": 17005,
+      "thread_id": "01a0631c-f24c-79e0-a313-f0f1299f3727",
+      "timeout_stage": null,
+      "outcome": "SUCCESS",
+      "failure_kind": null
+    }
+  ]
+}

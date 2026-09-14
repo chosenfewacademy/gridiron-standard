@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Gridiron Standard Audit Result",
+  "type": "object",
+  "required": [
+    "audit_id",
+    "audit_type",
+    "status",
+    "player_id",
+    "position",
+    "confidence",
+    "methodology_version",
+    "created_at"
+  ],
+  "properties": {
+    "audit_id": {
+      "type": "string"
+    },
+    "audit_type": {
+      "enum": [
+        "FULL_AUDIT",
+        "QUICK_RECHECK",
+        "RATINGS_ONLY",
+        "TOP10_REAUDIT",
+        "TEAM_ROOM_AUDIT"
+      ]
+    },
+    "status": {
+      "enum": [
+        "DRAFT",
+        "VALIDATED",
+        "APPROVED",
+        "INSUFFICIENT_EVIDENCE",
+        "FLAGGED",
+        "ARCHIVED"
+      ]
+    },
+    "player_id": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "confidence": {
+      "enum": [
+        "HIGH",
+        "MEDIUM",
+        "LOW"
+      ]
+    },
+    "methodology_version": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "ovr_before": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "ovr_after": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "ratings": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 99
+      }
+    },
+    "major_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "nearest_controls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "challenger_flag": {
+      "type": "boolean"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "player_identity": {
+      "type": [
+        "string",
+        "object"
+      ]
+    },
+    "why_not_higher": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "why_not_lower": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "proposed_top10_mutation": {
+      "type": "boolean"
+    },
+    "added_95_plus": {
+      "type": "boolean"
+    },
+    "removed_95_plus": {
+      "type": "boolean"
+    },
+    "changed_97_plus_or_99": {
+      "type": "boolean"
+    },
+    "material_attribute_redistribution": {
+      "type": "boolean"
+    }
+  }
+}

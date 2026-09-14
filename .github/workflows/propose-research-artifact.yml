@@ -1,0 +1,91 @@
+name: Propose Research Artifact Commit
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: Successful Stafford Evidence Resume workflow run ID
+        required: true
+        type: string
+      audit_id:
+        description: Existing Stafford reconstruction audit UUID
+        required: true
+        default: 6cb4a74b-2218-4ff9-843c-de8a1c8ae1a3
+        type: string
+      player_id:
+        description: Existing player registry ID
+        required: true
+        default: matthew_stafford
+        type: string
+      commit_confirmation:
+        description: Select CREATE_DRAFT_PR to create a review branch and draft PR
+        required: true
+        default: DO_NOT_CREATE
+        type: choice
+        options:
+          - DO_NOT_CREATE
+          - CREATE_DRAFT_PR
+
+permissions:
+  actions: read
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: research-artifact-proposal-${{ inputs.audit_id }}
+  cancel-in-progress: false
+
+jobs:
+  propose:
+    if: inputs.commit_confirmation == 'CREATE_DRAFT_PR'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Verify source workflow completed successfully
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+        run: |
+          conclusion="$(gh api "repos/${{ github.repository }}/actions/runs/$SOURCE_RUN_ID" --jq '.conclusion')"
+          test "$conclusion" = "success"
+      - name: Download research artifact from selected run
+        uses: actions/download-artifact@v4
+        with:
+          name: stafford-evidence-${{ inputs.audit_id }}
+          run-id: ${{ inputs.source_run_id }}
+          github-token: ${{ github.token }}
+          path: downloaded-research
+      - name: Copy only the selected audit artifact
+        env:
+          AUDIT_ID: ${{ inputs.audit_id }}
+          PLAYER_ID: ${{ inputs.player_id }}
+        run: |
+          [[ "$AUDIT_ID" =~ ^[A-Za-z0-9_.-]+$ ]]
+          [[ "$PLAYER_ID" =~ ^[A-Za-z0-9_-]+$ ]]
+          mkdir -p "logs/qb-reconstruction/$PLAYER_ID/$AUDIT_ID"
+          cp -R downloaded-research/. "logs/qb-reconstruction/$PLAYER_ID/$AUDIT_ID/"
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run preflight
+      - name: Create review branch and draft pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          AUDIT_ID: ${{ inputs.audit_id }}
+          PLAYER_ID: ${{ inputs.player_id }}
+          SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+        run: |
+          [[ "$SOURCE_RUN_ID" =~ ^[0-9]+$ ]]
+          branch="gridiron/research-$SOURCE_RUN_ID"
+          git switch -c "$branch"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "logs/qb-reconstruction/$PLAYER_ID/$AUDIT_ID"
+          git diff --cached --quiet && { echo "No research artifact changes to propose."; exit 1; }
+          git commit -m "Propose Stafford research artifacts from run $SOURCE_RUN_ID"
+          git push --set-upstream origin "$branch"
+          gh pr create --draft --title "Review Stafford research artifacts" --body "Proposes validated research artifacts from Actions run $SOURCE_RUN_ID. No approval or player-card persistence is performed by this workflow."

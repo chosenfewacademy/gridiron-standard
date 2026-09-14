@@ -1,0 +1,30 @@
+{
+  "rule": "Locked Top 10 baselines may only be changed by explicit current-data positional Top 10 re-audit.",
+  "positions": {
+    "QB": {
+      "status": "LOCKED",
+      "baseline_file": "data/baselines/QB.json",
+      "mutation_permission": "TOP10_REAUDIT_ONLY"
+    },
+    "RB": {
+      "status": "LOCKED",
+      "baseline_file": "data/baselines/RB.json",
+      "mutation_permission": "TOP10_REAUDIT_ONLY"
+    },
+    "WR": {
+      "status": "LOCKED",
+      "baseline_file": "data/baselines/WR.json",
+      "mutation_permission": "TOP10_REAUDIT_ONLY"
+    },
+    "TE": {
+      "status": "LOCKED",
+      "baseline_file": "data/baselines/TE.json",
+      "mutation_permission": "TOP10_REAUDIT_ONLY"
+    },
+    "LT": {
+      "status": "LOCKED",
+      "baseline_file": "data/baselines/LT.json",
+      "mutation_permission": "TOP10_REAUDIT_ONLY"
+    }
+  }
+}

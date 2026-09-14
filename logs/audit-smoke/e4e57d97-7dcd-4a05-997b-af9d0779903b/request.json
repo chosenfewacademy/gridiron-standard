@@ -1,0 +1,304 @@
+{
+  "task_id": "PLAYER_jalen_hurts_1788133987833",
+  "type": "player_full_audit",
+  "audit_type": "FULL_AUDIT",
+  "player_id": "jalen_hurts",
+  "player_name": "Jalen Hurts",
+  "team": "PHI",
+  "position": "QB",
+  "locked_baseline_file": "data/baselines/QB.json",
+  "current_audit_id": null,
+  "dry_run": true,
+  "as_of": "2026-08-30T23:53:07.834Z",
+  "player": {
+    "player_id": "jalen_hurts",
+    "full_name": "Jalen Hurts",
+    "aliases": [],
+    "team": "PHI",
+    "position": "QB",
+    "historical_positions": [
+      "QB"
+    ],
+    "current_audit_id": null,
+    "audit_history": []
+  },
+  "mapping": {
+    "exact_position": "QB",
+    "source_position": "QB",
+    "depth_chart_position": null,
+    "requires_role_resolution": false
+  },
+  "baseline_file": "data/baselines/QB.json",
+  "baseline_sha256": "a0fbd566dc23af2feb93decb276fd0fdd1643b73b1714bd92d919a67e4d5c78c",
+  "authoritative_baseline": {
+    "architecture_version": "1.0.0",
+    "methodology_version": "1.0.0",
+    "status": "LOCKED",
+    "mutation_policy": "IMMUTABLE_UNLESS_EXPLICIT_CURRENT_DATA_TOP10_REAUDIT",
+    "historical_cards_policy": "Do not fabricate missing historical full-card attributes.",
+    "position": "QB",
+    "version": "bootstrap-2026-08-30",
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Matthew Stafford",
+        "ovr": 91
+      },
+      {
+        "rank": 2,
+        "player": "Joe Burrow",
+        "ovr": 90
+      },
+      {
+        "rank": 3,
+        "player": "Josh Allen",
+        "ovr": 90
+      },
+      {
+        "rank": 4,
+        "player": "Drake Maye",
+        "ovr": 88
+      },
+      {
+        "rank": 5,
+        "player": "Jordan Love",
+        "ovr": 88
+      },
+      {
+        "rank": 6,
+        "player": "Dak Prescott",
+        "ovr": 87
+      },
+      {
+        "rank": 7,
+        "player": "Brock Purdy",
+        "ovr": 85
+      },
+      {
+        "rank": 8,
+        "player": "Justin Herbert",
+        "ovr": 84
+      },
+      {
+        "rank": 9,
+        "player": "Trevor Lawrence",
+        "ovr": 84
+      },
+      {
+        "rank": 10,
+        "player": "Sam Darnold",
+        "ovr": 83
+      }
+    ],
+    "last_in": {
+      "player": "Sam Darnold",
+      "ovr": 83
+    },
+    "first_out": {
+      "player": "Patrick Mahomes",
+      "ovr": 83
+    },
+    "external_controls": [
+      {
+        "player": "Patrick Mahomes",
+        "ovr": 83
+      },
+      {
+        "player": "Lamar Jackson",
+        "ovr": 83
+      },
+      {
+        "player": "Jared Goff",
+        "ovr": 82
+      }
+    ],
+    "scarcity": {
+      "status": "LOCKED_HISTORICAL_NOT_FULLY_STRUCTURED"
+    },
+    "full_cards_import_status": "NOT_YET_IMPORTED"
+  },
+  "baseline_controls": {
+    "position": "QB",
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Matthew Stafford",
+        "ovr": 91
+      },
+      {
+        "rank": 2,
+        "player": "Joe Burrow",
+        "ovr": 90
+      },
+      {
+        "rank": 3,
+        "player": "Josh Allen",
+        "ovr": 90
+      },
+      {
+        "rank": 4,
+        "player": "Drake Maye",
+        "ovr": 88
+      },
+      {
+        "rank": 5,
+        "player": "Jordan Love",
+        "ovr": 88
+      },
+      {
+        "rank": 6,
+        "player": "Dak Prescott",
+        "ovr": 87
+      },
+      {
+        "rank": 7,
+        "player": "Brock Purdy",
+        "ovr": 85
+      },
+      {
+        "rank": 8,
+        "player": "Justin Herbert",
+        "ovr": 84
+      },
+      {
+        "rank": 9,
+        "player": "Trevor Lawrence",
+        "ovr": 84
+      },
+      {
+        "rank": 10,
+        "player": "Sam Darnold",
+        "ovr": 83
+      }
+    ],
+    "last_in": {
+      "player": "Sam Darnold",
+      "ovr": 83
+    },
+    "first_out": {
+      "player": "Patrick Mahomes",
+      "ovr": 83
+    },
+    "external_controls": [
+      {
+        "player": "Patrick Mahomes",
+        "ovr": 83
+      },
+      {
+        "player": "Lamar Jackson",
+        "ovr": 83
+      },
+      {
+        "player": "Jared Goff",
+        "ovr": 82
+      }
+    ],
+    "scarcity": {
+      "status": "LOCKED_HISTORICAL_NOT_FULLY_STRUCTURED"
+    }
+  },
+  "governing_instructions": "# Gridiron Standard 27\n\nArchitecture Version: 1.0.0\nMethodology Version: 1.0.0\n\n## Governing Principle\n\nCodex is the analyst. The application is the commissioner.\n\nThe application controls:\n- workflow order\n- lock state\n- permissions\n- state transitions\n- validation\n- approvals\n- persistence\n\nCodex may analyze evidence and propose ratings. It may not bypass locks or change workflow state directly.\n\n## Core Rating Rules\n\n1. Current-season evidence is primary.\n2. Previous seasons provide context for sustainability, injury, development, breakout, and decline.\n3. EA ratings are controls only, never authoritative truth.\n4. OVR is an output of the attribute build, not a target used to inflate unrelated traits.\n5. 99 is reserved for historic/generational exact traits.\n6. 97+ requires extraordinary league-defining evidence.\n7. 95+ requires rare league-defining exact-trait evidence.\n8. 90+ requires demonstrably elite exact-trait evidence.\n9. Elite players must retain meaningful weaknesses when supported by evidence.\n10. Archetypes describe completed cards. They do not dictate ratings.\n11. Madden engine problems are handled through gameplay testing/sliders, not artificial rating distortion.\n12. Current ability is separate from future projection.\n\n## Locked Top 10 Rule\n\nA locked positional Top 10 baseline is immutable.\n\nIt may be reopened only when the user explicitly orders a current-data Top 10 re-audit for that exact Madden position bucket.\n\nNormal player audits, ratings-only requests, team-room audits, quick rechecks, bulk audits, or workflow continuation may not alter a locked Top 10.\n\n## Individual Player Audit Rule\n\nEvery Full Audit must:\n- use the locked positional Top 10 as the primary calibration baseline;\n- use nearest external controls around the player's expected tier;\n- evaluate each major gameplay/OVR-driving attribute independently;\n- include why-not-higher and why-not-lower analysis;\n- include player identity;\n- identify nearest controls;\n- document all 90+/95+/97+/99 traits with explicit evidence support.\n\nIf a player appears capable of challenging Top 10 membership, issue a CHALLENGER_FLAG. Do not modify the locked Top 10.\n\n## Positional Top 10 Workflow\n\narchitecture\n-> provisional_top_10\n-> pair_audits\n-> membership_reopen\n-> scarcity_audit\n-> individual_hard_audits\n-> positional_cross_audit\n-> lock\n\nEvery stage must complete before the baseline can be locked.\n\n## Team-Room Rule\n\nTeam-room audits:\n- occur after individual player audits;\n- may flag inconsistencies;\n- may not directly alter approved individual cards;\n- may not alter locked league baselines;\n- may identify players requiring separate Full Audits.\n\n## Approval Rules\n\nDefault mode: REVIEW_MAJOR\n\nHIGH-confidence validated audits auto-approve unless a major flag is triggered.\n\nMajor flags include:\n- Top 10 challenger status\n- OVR change >= 2\n- new or removed 95+ trait\n- any 97+ or 99 trait change\n- major position change\n- conflict with locked positional control\n\nMEDIUM confidence requires review flag.\nLOW confidence may not become current without explicit approval.\n\nQuick Recheck:\n- max 1 OVR change;\n- cannot add/remove 95+ traits;\n- larger changes escalate to Full Audit.\n\n## Audit Immutability\n\nEvery completed audit is a separate immutable record.\nOnly APPROVED audits may become the player's current card.\nHistorical audits are never overwritten.\n\n## Validation\n\nThe validator may reject and automatically return an audit for revision.\nMaximum automatic revision attempts: 3.\nAfter 3 failed attempts, preserve all attempts and queue RE-AUDIT REQUIRED.\n\n## Exact Position Buckets\n\nQB, RB, WR, TE, LT, LG, C, RG, RT,\nREDGE, LEDGE, DT, MIKE, WILL, SAM, CB, FS, SS, K, P\n\nDo not merge these buckets automatically.\n",
+  "evidence_policy": "# Evidence Policy\n\n## Priority\n\n1. Official NFL/team data and high-authority advanced performance sources\n2. Established analytics/statistical sources\n3. Credible film analysis and beat reporting\n4. EA ratings, Madden testing, forums, Operation Sports, Reddit\n5. Uncorroborated opinion\n\n## Rules\n\n- Fresh web research is mandatory for every Full Audit and Top 10 re-audit.\n- At least one high-authority source is required.\n- Use multiple independent sources whenever practical.\n- Preserve conflicts instead of averaging them away.\n- Record source publication/retrieval date.\n- Re-check volatile data immediately before approval.\n- Down-weight stale evidence when newer higher-quality evidence exists.\n- Position-specific minimum evidence packages are required.\n- If minimum evidence is not met, save the audit as INSUFFICIENT_EVIDENCE.\n",
+  "evidence_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Gridiron Standard Evidence Package",
+    "type": "object",
+    "required": [
+      "task_id",
+      "position",
+      "researched_at",
+      "sources",
+      "normalized"
+    ],
+    "properties": {
+      "task_id": {
+        "type": "string"
+      },
+      "position": {
+        "type": "string"
+      },
+      "researched_at": {
+        "type": "string"
+      },
+      "sources": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "name",
+            "authority_tier",
+            "retrieved_at"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "url": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "published_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "retrieved_at": {
+              "type": "string"
+            },
+            "authority_tier": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "claims": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "normalized": {
+        "type": "object"
+      },
+      "conflicts": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      },
+      "minimum_evidence_met": {
+        "type": "boolean"
+      },
+      "missing_evidence": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "qb_architecture": "# QB Architecture\n\nStatus: LOCKED/IMPORT_PENDING\n\nThis file will contain:\n- OVR-sensitive attributes\n- secondary attributes\n- position-specific evidence package\n- gameplay sensitivity\n- archetype descriptors\n- Madden-entry attribute order\n- analytical attribute hierarchy\n\nOnce the position's Top 10 baseline is finalized, this architecture is versioned and locked.\n",
+  "required_categories": [
+    "current_season_performance",
+    "passing_production_efficiency",
+    "advanced_passing_metrics",
+    "pressure_performance",
+    "accuracy_by_depth",
+    "turnover_worthy_mistakes",
+    "rushing_designed_run_value",
+    "scrambling_sack_avoidance",
+    "durability_availability",
+    "current_injury_practice_status",
+    "role_workload",
+    "recent_performance_trend",
+    "prior_season_context",
+    "locked_top10_peer_comparisons",
+    "outside_control_comparisons"
+  ],
+  "research_instructions": "Perform a thorough Full Player Audit evidence collection for Jalen Hurts, not the earlier brief connectivity query.\nUse fresh web search and open sources. Attempt ALL 15 required categories, including direct same-season comparisons with the STORED Top 10 and all three external controls. Do not change or challenge the stored rankings in this research stage. Prefer NFL/team/Next Gen Stats, official play-by-play, public advanced metrics from established analytics providers, PFR, ESPN, and publicly accessible PFF analysis. Search specifically for pressure splits, depth accuracy/CPOE, turnover-worthy rate or a clearly labeled interception/fumble substitute, designed runs versus scrambles, sacks/pressure-to-sack or comparable evidence, and injury/practice status. Seek a common peer table for production and advanced comparisons. Do not bypass subscriptions or fabricate unavailable premium values.\nCurrent-season evidence is primary. Establish season and sample explicitly. If current regular-season data does not exist, state that with a source; distinguish preseason/camp observations from regular-season performance and prior-season context. Do not silently redefine current season. Attempt public substitutes for unavailable metrics; explain exactly what they do and do not measure. Preserve conflicting evidence.\nReturn the existing EvidencePackage JSON shape with normalized containing ONLY these 15 category keys. Each category must have {status: 'satisfied'|'partial'|'missing', confidence: 'HIGH'|'MEDIUM'|'LOW', items: [{claim: string, source_url: string, retrieved_at: ISO timestamp, season_or_period: string}], unavailable: string[], public_substitute: string|null, limitation: string|null}. Every normalized factual item MUST include a source URL and actual retrieval timestamp. Missing categories still require an honest search/availability explanation in limitation/unavailable; do not invent evidence items. All item URLs must also appear in sources. Give substantive evidence, not just URLs. Use at least one high-authority source and multiple independent sources where practical. Record all material gaps in missing_evidence, preserving confidence distinctions. Set minimum_evidence_met honestly for Full Audit readiness, not merely JSON completeness or identity confirmation. Do not weaken requirements to make it true. The existing QB architecture is import-pending; do not invent missing locked rules.\nThis research thread is read-only. Do not assign any Madden attributes, ratings, OVR, or Top 10 membership. Do not run project commands or write files. Collect evidence only. Limit research to a reasonable focused pass, then return valid JSON even if gaps remain."
+}

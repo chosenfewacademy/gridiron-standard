@@ -1,0 +1,16 @@
+{
+  "data/baselines/LT.json": "c222ab7151f30cfc9d14473f4494af71fc071e87a3a3c6250139906dce9fee00",
+  "data/baselines/QB.json": "a0fbd566dc23af2feb93decb276fd0fdd1643b73b1714bd92d919a67e4d5c78c",
+  "data/baselines/RB.json": "32b526cff5a0948003bb388c12fb06152a76e0484f3e902c175be8241dbf3427",
+  "data/baselines/TE.json": "88bef8cab90df542d7484dbd45d9d951a11f0b9769cc6a978288ca3d50cb6fc0",
+  "data/baselines/WR.json": "2e8a6de09e2f8ea7af703dcffb64902bc345f427d6f26d958bd167d88c65ab4f",
+  "data/players/registry.json": "94502ab10c2541d309c0c4fbaac0ee32c9874d3304319e64a57f116b7f75bdfa",
+  "state/locks.json": "4fb63117a3af4399e2c5df80080a2ce41d1640474a54dc0b0e37715ce2da6daf",
+  "state/project-state.json": "b0a4304bc4c74c071dc4b31ce3d54c91fffc6d10a916e0f4ec46636bf7765157",
+  "state/thread.json": "7872f9d30bc4ddab91f0689d4fe592fde3bb4766ad92a88003b948256a4ee85b",
+  "bootstrap/import-report.json": "5a93b1e2d7a407a65834f6f17e4f6d8df1514a8810555d896c2515737c3f1128",
+  "bootstrap/manifest.json": "aa072e18e7b36a16fcfc0fca5c6b7e3cebe396de6e705fad9409f4f56794d5f4",
+  "AGENTS.md": "60543eb1e47abec4cb747c9b11773e417d631c4e72eee55cf4c66b1331675279",
+  "config/madden-entry-order.json": "de340d9ea5fd7d3b0e5640643559d7bd7eb6c33299b73d7f6975397075cd825f",
+  "config/qb-reconstruction-queue.json": "4b9cfd736b555ca3b0b941132fef86fc659c38139c8f2f25be9d7cbebd783f99"
+}

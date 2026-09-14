@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "domain": "workload_availability",
+      "source_url": "https://www.therams.com/news/matthew-stafford-and-davante-adams-rapport-benefitting-from-training-camp-practices-this-year-that-they-didn-t-have-together-in-2025",
+      "retrieved_at": "2026-08-31T01:31:28.638Z",
+      "evidence_season": 2026,
+      "confidence": "HIGH",
+      "claim": "Team reporting describes a planned two-days-on/two-days-off camp practice schedule. It contrasts participation with the prior camp's back-injury absence; do not mislabel that historical absence as a current injury."
+    },
+    {
+      "domain": "workload_availability",
+      "source_url": "https://www.therams.com/news/10-observations-from-rams-joint-practice-with-saints-matthew-stafford-davante-adams-terrance-ferguson-nate-landman-kobie-turner",
+      "retrieved_at": "2026-08-31T01:31:28.639Z",
+      "evidence_season": 2026,
+      "confidence": "HIGH",
+      "claim": "Stafford participated in the joint practice and completed short and deep throws. These are limited practice observations, not a formal full-health certification or regular-season accuracy sample."
+    }
+  ]
+}

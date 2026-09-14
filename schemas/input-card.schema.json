@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Madden Input Card Spec",
+  "type": "object",
+  "required": [
+    "player_id",
+    "player_name",
+    "team",
+    "position",
+    "ovr",
+    "ordered_ratings",
+    "branding",
+    "output_policy_version"
+  ],
+  "properties": {
+    "player_id": {
+      "type": "string"
+    },
+    "player_name": {
+      "type": "string"
+    },
+    "team": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "team_name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "ovr": {
+      "type": "integer"
+    },
+    "ordered_ratings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "attribute",
+          "rating",
+          "order"
+        ],
+        "properties": {
+          "attribute": {
+            "type": "string"
+          },
+          "rating": {
+            "type": "integer"
+          },
+          "order": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "branding": {
+      "type": "object"
+    },
+    "include_player_photo": {
+      "type": "boolean"
+    },
+    "output_policy_version": {
+      "type": "string"
+    }
+  }
+}

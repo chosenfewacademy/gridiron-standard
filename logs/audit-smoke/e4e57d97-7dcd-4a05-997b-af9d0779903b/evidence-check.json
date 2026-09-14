@@ -1,0 +1,25 @@
+{
+  "structured_json_parsed": true,
+  "structure_and_provenance_valid": true,
+  "errors": [],
+  "reported_minimum_evidence_met": false,
+  "ready_for_manual_evidence_gate_review": false,
+  "rating_generation_executed": false,
+  "validator_executed": false,
+  "revision_count": 0,
+  "missing_evidence": [
+    "INSUFFICIENT_EVIDENCE for Full Audit readiness; this read-only research package does not change application state.",
+    "2026 regular-season evidence does not yet exist; 2025 remains explicitly historical context.",
+    "LOW confidence: complete short/intermediate/deep accuracy evidence remains unavailable.",
+    "MEDIUM confidence: pressure-to-sack evidence exists, but verified pressured-versus-clean passing efficiency and sample counts remain incomplete.",
+    "MEDIUM confidence: full-season designed runs, sneaks, scrambles, and kneeldowns have not been separated.",
+    "MEDIUM confidence: scramble efficiency and quarterback-attributed sack evidence remain incomplete.",
+    "LOW confidence: a contemporaneous explicit injury/practice designation was not established; recheck immediately before any approval.",
+    "MEDIUM confidence: injury-versus-rest availability history is not fully reconciled.",
+    "MEDIUM confidence: common EPA/CPOE table methodology and conventional-stat discrepancies need reconciliation.",
+    "Peer production and advanced comparisons were attempted for all stored controls, but full matched exact-trait comparisons and reconciled external-control production remain incomplete.",
+    "2026 preseason workload and performance totals were not verified.",
+    "QB architecture and full baseline cards are import-pending; missing locked attribute hierarchy, minimum-package rules, and scarcity controls were not invented.",
+    "Publication dates were unavailable for several dynamic statistical pages; retrieval timestamps are recorded instead."
+  ]
+}

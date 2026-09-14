@@ -1,0 +1,1134 @@
+{
+  "version": "1.0.0",
+  "source": "bootstrap from locked baselines and known approved project rooms",
+  "players": [
+    {
+      "player_id": "a_j_brown",
+      "full_name": "A.J. Brown",
+      "aliases": [],
+      "team": null,
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "alaric_jackson",
+      "full_name": "Alaric Jackson",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "amon_ra_st_brown",
+      "full_name": "Amon-Ra St. Brown",
+      "aliases": [],
+      "team": null,
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "andrew_thomas",
+      "full_name": "Andrew Thomas",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "andy_dalton",
+      "full_name": "Andy Dalton",
+      "aliases": [],
+      "team": "PHI",
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "bernhard_raimann",
+      "full_name": "Bernhard Raimann",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "bijan_robinson",
+      "full_name": "Bijan Robinson",
+      "aliases": [],
+      "team": null,
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "breece_hall",
+      "full_name": "Breece Hall",
+      "aliases": [],
+      "team": null,
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "brenton_strange",
+      "full_name": "Brenton Strange",
+      "aliases": [],
+      "team": null,
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "britain_covey",
+      "full_name": "Britain Covey",
+      "aliases": [],
+      "team": "PHI",
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "brock_bowers",
+      "full_name": "Brock Bowers",
+      "aliases": [],
+      "team": null,
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "brock_purdy",
+      "full_name": "Brock Purdy",
+      "aliases": [],
+      "team": null,
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "cameron_latu",
+      "full_name": "Cameron Latu",
+      "aliases": [],
+      "team": "PHI",
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "carson_steele",
+      "full_name": "Carson Steele",
+      "aliases": [],
+      "team": "PHI",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "charles_cross",
+      "full_name": "Charles Cross",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "christian_darrisaw",
+      "full_name": "Christian Darrisaw",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "christian_mccaffrey",
+      "full_name": "Christian McCaffrey",
+      "aliases": [],
+      "team": null,
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "cole_payton",
+      "full_name": "Cole Payton",
+      "aliases": [],
+      "team": "PHI",
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "colston_loveland",
+      "full_name": "Colston Loveland",
+      "aliases": [],
+      "team": null,
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "dak_prescott",
+      "full_name": "Dak Prescott",
+      "aliases": [],
+      "team": null,
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "dallas_goedert",
+      "full_name": "Dallas Goedert",
+      "aliases": [],
+      "team": "PHI",
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "dalton_kincaid",
+      "full_name": "Dalton Kincaid",
+      "aliases": [],
+      "team": null,
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "dameon_pierce",
+      "full_name": "Dameon Pierce",
+      "aliases": [],
+      "team": "PHI",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "danny_gray",
+      "full_name": "Danny Gray",
+      "aliases": [],
+      "team": "PHI",
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "darius_cooper",
+      "full_name": "Darius Cooper",
+      "aliases": [],
+      "team": "PHI",
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "de_von_achane",
+      "full_name": "De'Von Achane",
+      "aliases": [],
+      "team": null,
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "devonta_smith",
+      "full_name": "DeVonta Smith",
+      "aliases": [],
+      "team": "PHI",
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "derrick_henry",
+      "full_name": "Derrick Henry",
+      "aliases": [],
+      "team": null,
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "dion_dawkins",
+      "full_name": "Dion Dawkins",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "dontayvion_wicks",
+      "full_name": "Dontayvion Wicks",
+      "aliases": [],
+      "team": "PHI",
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "drake_london",
+      "full_name": "Drake London",
+      "aliases": [],
+      "team": null,
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "drake_maye",
+      "full_name": "Drake Maye",
+      "aliases": [],
+      "team": null,
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "e_j_jenkins",
+      "full_name": "E.J. Jenkins",
+      "aliases": [],
+      "team": "PHI",
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "eli_stowers",
+      "full_name": "Eli Stowers",
+      "aliases": [],
+      "team": "PHI",
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "elijah_moore",
+      "full_name": "Elijah Moore",
+      "aliases": [],
+      "team": "PHI",
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "erik_ezukanma",
+      "full_name": "Erik Ezukanma",
+      "aliases": [],
+      "team": "PHI",
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "fred_johnson",
+      "full_name": "Fred Johnson",
+      "aliases": [],
+      "team": "PHI",
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "garett_bolles",
+      "full_name": "Garett Bolles",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "george_kittle",
+      "full_name": "George Kittle",
+      "aliases": [],
+      "team": null,
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "george_pickens",
+      "full_name": "George Pickens",
+      "aliases": [],
+      "team": null,
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "grant_calcaterra",
+      "full_name": "Grant Calcaterra",
+      "aliases": [],
+      "team": "PHI",
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "hollywood_brown",
+      "full_name": "Hollywood Brown",
+      "aliases": [],
+      "team": "PHI",
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "hunter_henry",
+      "full_name": "Hunter Henry",
+      "aliases": [],
+      "team": null,
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "ja_marr_chase",
+      "full_name": "Ja'Marr Chase",
+      "aliases": [],
+      "team": null,
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "jahmyr_gibbs",
+      "full_name": "Jahmyr Gibbs",
+      "aliases": [],
+      "team": null,
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "jake_matthews",
+      "full_name": "Jake Matthews",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "jalen_hurts",
+      "full_name": "Jalen Hurts",
+      "aliases": [],
+      "team": "PHI",
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "james_cook",
+      "full_name": "James Cook",
+      "aliases": [],
+      "team": null,
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "jared_goff",
+      "full_name": "Jared Goff",
+      "aliases": [],
+      "team": null,
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "jaxon_smith_njigba",
+      "full_name": "Jaxon Smith-Njigba",
+      "aliases": [],
+      "team": null,
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "jaylen_waddle",
+      "full_name": "Jaylen Waddle",
+      "aliases": [],
+      "team": null,
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "joe_burrow",
+      "full_name": "Joe Burrow",
+      "aliases": [],
+      "team": null,
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "johnny_mundt",
+      "full_name": "Johnny Mundt",
+      "aliases": [],
+      "team": "PHI",
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "jonathan_taylor",
+      "full_name": "Jonathan Taylor",
+      "aliases": [],
+      "team": null,
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "jordan_love",
+      "full_name": "Jordan Love",
+      "aliases": [],
+      "team": null,
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "jordan_mailata",
+      "full_name": "Jordan Mailata",
+      "aliases": [],
+      "team": "PHI",
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "jordan_mims",
+      "full_name": "Jordan Mims",
+      "aliases": [],
+      "team": "PHI",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "josh_allen",
+      "full_name": "Josh Allen",
+      "aliases": [],
+      "team": null,
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "josh_jacobs",
+      "full_name": "Josh Jacobs",
+      "aliases": [],
+      "team": null,
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "justin_herbert",
+      "full_name": "Justin Herbert",
+      "aliases": [],
+      "team": null,
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "justin_jefferson",
+      "full_name": "Justin Jefferson",
+      "aliases": [],
+      "team": null,
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "kenneth_walker_iii",
+      "full_name": "Kenneth Walker III",
+      "aliases": [],
+      "team": null,
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "kolton_miller",
+      "full_name": "Kolton Miller",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "kyle_pitts",
+      "full_name": "Kyle Pitts",
+      "aliases": [],
+      "team": null,
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "kyren_williams",
+      "full_name": "Kyren Williams",
+      "aliases": [],
+      "team": null,
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "lamar_jackson",
+      "full_name": "Lamar Jackson",
+      "aliases": [],
+      "team": null,
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "laremy_tunsil",
+      "full_name": "Laremy Tunsil",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "makai_lemon",
+      "full_name": "Makai Lemon",
+      "aliases": [],
+      "team": "PHI",
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "matthew_stafford",
+      "full_name": "Matthew Stafford",
+      "aliases": [],
+      "team": null,
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "myles_hinton",
+      "full_name": "Myles Hinton",
+      "aliases": [],
+      "team": "PHI",
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "nico_collins",
+      "full_name": "Nico Collins",
+      "aliases": [],
+      "team": null,
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "paris_johnson_jr",
+      "full_name": "Paris Johnson Jr.",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "patrick_mahomes",
+      "full_name": "Patrick Mahomes",
+      "aliases": [],
+      "team": null,
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "penei_sewell",
+      "full_name": "Penei Sewell",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "puka_nacua",
+      "full_name": "Puka Nacua",
+      "aliases": [],
+      "team": null,
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "quez_watkins",
+      "full_name": "Quez Watkins",
+      "aliases": [],
+      "team": "PHI",
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "rashawn_slater",
+      "full_name": "Rashawn Slater",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "sam_darnold",
+      "full_name": "Sam Darnold",
+      "aliases": [],
+      "team": null,
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "sam_laporta",
+      "full_name": "Sam LaPorta",
+      "aliases": [],
+      "team": null,
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "samori_toure",
+      "full_name": "Samori Toure",
+      "aliases": [],
+      "team": "PHI",
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "saquon_barkley",
+      "full_name": "Saquon Barkley",
+      "aliases": [],
+      "team": "PHI",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "stefon_diggs",
+      "full_name": "Stefon Diggs",
+      "aliases": [],
+      "team": null,
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "stone_smartt",
+      "full_name": "Stone Smartt",
+      "aliases": [],
+      "team": "PHI",
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "tahj_washington",
+      "full_name": "Tahj Washington",
+      "aliases": [],
+      "team": "PHI",
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "tank_bigsby",
+      "full_name": "Tank Bigsby",
+      "aliases": [],
+      "team": "PHI",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "tanner_mckee",
+      "full_name": "Tanner McKee",
+      "aliases": [],
+      "team": "PHI",
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "travis_kelce",
+      "full_name": "Travis Kelce",
+      "aliases": [],
+      "team": null,
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "trent_williams",
+      "full_name": "Trent Williams",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "trevor_lawrence",
+      "full_name": "Trevor Lawrence",
+      "aliases": [],
+      "team": null,
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "trey_mcbride",
+      "full_name": "Trey McBride",
+      "aliases": [],
+      "team": null,
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "tristan_wirfs",
+      "full_name": "Tristan Wirfs",
+      "aliases": [],
+      "team": null,
+      "position": "LT",
+      "historical_positions": [
+        "LT"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "tucker_kraft",
+      "full_name": "Tucker Kraft",
+      "aliases": [],
+      "team": null,
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "tyler_warren",
+      "full_name": "Tyler Warren",
+      "aliases": [],
+      "team": null,
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
+      "player_id": "will_shipley",
+      "full_name": "Will Shipley",
+      "aliases": [],
+      "team": "PHI",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    }
+  ]
+}

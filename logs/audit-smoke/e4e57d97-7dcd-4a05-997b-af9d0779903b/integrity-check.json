@@ -1,0 +1,810 @@
+{
+  "original_files": 100,
+  "changed": [],
+  "added": [],
+  "deleted": [],
+  "before": [
+    {
+      "Path": "tsconfig.json",
+      "Hash": "84960394815FEC7CB2D33D6019EF1475F82059E1F85C50FC109103E1F26DC34F"
+    },
+    {
+      "Path": "tests\\run-tests.ts",
+      "Hash": "BE6D88E461D3D5E09FD12182C91DC6EBA68856D8A0F5D78263574A011F137DAF"
+    },
+    {
+      "Path": "state\\thread.json",
+      "Hash": "7872F9D30BC4DDAB91F0689D4FE592FDE3BB4766AD92A88003B948256A4EE85B"
+    },
+    {
+      "Path": "state\\project-state.json",
+      "Hash": "B0A4304BC4C74C071DC4B31CE3D54C91FFFC6D10A916E0F4EC46636BF7765157"
+    },
+    {
+      "Path": "state\\locks.json",
+      "Hash": "4FB63117A3AF4399E2C5DF80080A2CE41D1640474A54DC0B0E37715CE2DA6DAF"
+    },
+    {
+      "Path": "src\\validator.ts",
+      "Hash": "6BAB55EDCA82BDFC7213AEFA238644BA4CB4FE402E970B5F16EA96288FBFC98C"
+    },
+    {
+      "Path": "src\\types.ts",
+      "Hash": "0C4EE5DE454C11844552FD957B19671FC8AF656CC5F59EB65C9823F5CBC26957"
+    },
+    {
+      "Path": "src\\team-room-lock.ts",
+      "Hash": "2F0AC41EB50F057D3035E3B2B9F7E877F3E229C46A81FFF5E61C3FF8B5BE0826"
+    },
+    {
+      "Path": "src\\team-bulk-audit.ts",
+      "Hash": "1CCBACC1E381CD93E61A763A428E4516E37F542352C0A150E907041470CE3ED3"
+    },
+    {
+      "Path": "src\\state.ts",
+      "Hash": "EC55DCF3655F5753EBC50D899E6FAA05E45BFFA7383DF69C40F115A34F1DAF00"
+    },
+    {
+      "Path": "src\\state-machine.ts",
+      "Hash": "3B3B05C05E23EEB43F24993ADD80DE724E2D87121C30A2574C63965DD1453A36"
+    },
+    {
+      "Path": "src\\state-integrity.ts",
+      "Hash": "C5386A2866CDD0FBFE6AFF6A2FEA87B2952FD1A0FA44C011746D6F1F29AEE1AA"
+    },
+    {
+      "Path": "src\\server.ts",
+      "Hash": "247E3EB0A8506B9FE0821F6A984EB9A8A2D343FE747DF7CEFF7770233A6EC424"
+    },
+    {
+      "Path": "src\\router.ts",
+      "Hash": "83E7DC62FF949034DF649E0F4913C93BFFA92CD56EF1FB22CE37CB14226C9970"
+    },
+    {
+      "Path": "src\\roster-source.ts",
+      "Hash": "537F258EE2C6C89CBFEDC5AEA18F98376092532A3CB8647B87B8EDCEECD0751F"
+    },
+    {
+      "Path": "src\\roster-refresh.ts",
+      "Hash": "0811425C7794AA0D8F4CFE8C6EB4ACCAAD99F3DCB6068BD02FF57D8B8B1A5089"
+    },
+    {
+      "Path": "src\\role-resolution.ts",
+      "Hash": "D3A0FCE60DA5AB6B3B3533A25FB23B81185F93F700C41AA1166325C85327564E"
+    },
+    {
+      "Path": "src\\research.ts",
+      "Hash": "3ACC00DAB5684D734A7F5678B4DA2986A13BBCEF330683227B39986561D3093A"
+    },
+    {
+      "Path": "src\\research-test.ts",
+      "Hash": "78906CF0D07EFD1ABADAF8E227E30E7A97E31A6730E9B5165E3BF92B4F87FDE1"
+    },
+    {
+      "Path": "src\\refresh-roster.ts",
+      "Hash": "386451D7D86A57F4FB2D4B1972CDAE30D7B34C5321B5AEE029F0E35C85F07EE5"
+    },
+    {
+      "Path": "src\\ratings-only.ts",
+      "Hash": "62D97128E4B8ECFCBB625816FE3BF5011CDF334A0659E63CF80BE3A41FB05DE1"
+    },
+    {
+      "Path": "src\\quick-recheck.ts",
+      "Hash": "CB81B8AF24A175A6DDDEF9A4F669F18909A6AA46A30D2AAE5AC38E4D139B4F0B"
+    },
+    {
+      "Path": "src\\preflight.ts",
+      "Hash": "75DD08AD22214EFE0CCCE5B6BEBCBFA02D5F9EAA02E7EA6838B0A6402E8B16F8"
+    },
+    {
+      "Path": "src\\position-mapper.ts",
+      "Hash": "63D2DA7FA9E183CC912F76E8D1279AA7D07401C10B88D4BC735060F4E1055E08"
+    },
+    {
+      "Path": "src\\player-resolver.ts",
+      "Hash": "57FCF8485C646733503694B079D4320F6F8709B331F8EE2181119910C04DF6D7"
+    },
+    {
+      "Path": "src\\player-history.ts",
+      "Hash": "0712A98BB0456B8A53604F93FA3AC9ABE9E645CC76535AFD7FFB7813854350FC"
+    },
+    {
+      "Path": "src\\player-executor.ts",
+      "Hash": "9B2DC5E2310E55C3F473F50896E4748221F52C70F35ABEBF97627F7ABC048E8B"
+    },
+    {
+      "Path": "src\\player-audit-task.ts",
+      "Hash": "6046ADC51AB145AFA3D939F0D4ABB8C86EE8D1430368FA8CC83B4F7868A4E37C"
+    },
+    {
+      "Path": "src\\persistence.ts",
+      "Hash": "7B6DFD482EDB1C3B3FA3C797C07C390494085494A8B40BD65C76BB21BBA6025B"
+    },
+    {
+      "Path": "src\\nflverse-roster-source.ts",
+      "Hash": "BA67161F2F313B96FA4CC2E3B47D8659F000396022BB02247F6416B694D4608D"
+    },
+    {
+      "Path": "src\\locks.ts",
+      "Hash": "253044E04B12B6EF62066395364FC8941FC2061EC8E66B37A26C9A02910DFE7F"
+    },
+    {
+      "Path": "src\\intent-executor.ts",
+      "Hash": "554706729AA817C81A973AB9B9D8F94AF2EB6B194656B17D98129E75947391A9"
+    },
+    {
+      "Path": "src\\index.ts",
+      "Hash": "70407434726600F6F2A772C94B6166E7FABACA3667FAD2D34D80F2B2E5B2E38D"
+    },
+    {
+      "Path": "src\\health.ts",
+      "Hash": "7DBC9888F78DDA476FBFD69CE9258B0E6FD97A9875E0101DFF80BC52D5C45377"
+    },
+    {
+      "Path": "src\\export-writer.ts",
+      "Hash": "10A3AA8482E14E74F6CACFA7D7A797D15D9E3F9A3977515A48CA7F9E4F3C2FF8"
+    },
+    {
+      "Path": "src\\export-types.ts",
+      "Hash": "CD272FF85BCDBA1C5CF4D02291998091F65AF6AB67EE3519BA0C06B175EF8CE4"
+    },
+    {
+      "Path": "src\\export-executor.ts",
+      "Hash": "5E5DBAEC8F7E93A9CC57352F179B45BC29061E47FCE9DAE2595EB810C0931775"
+    },
+    {
+      "Path": "src\\export-collector.ts",
+      "Hash": "75FE781D6DD1FB4E9D53EE12E0361079F906DAB78C9BC2130AB63AFF8E3CB379"
+    },
+    {
+      "Path": "src\\executor.ts",
+      "Hash": "6DB8DFB0EBC63155A723E11C6BE05CF8CECD508FE4806AEC8CD8F708B618AD69"
+    },
+    {
+      "Path": "src\\env.ts",
+      "Hash": "0111898117FE4325E8FA25771A5892170180562AE1E8FB0AC1146A54F0233E51"
+    },
+    {
+      "Path": "src\\continuous.ts",
+      "Hash": "384E8B789D4CF10131BE737C039DD1D93A8F36AD0C7430C86A29AD94DA7D02C8"
+    },
+    {
+      "Path": "src\\codex-research.ts",
+      "Hash": "CFAE25D3E653A599D1BCC6E667FCE35DF61E9AAC05DDDE3BC8C5CD9A72B57DBD"
+    },
+    {
+      "Path": "src\\codex-adapter.ts",
+      "Hash": "9A09E82561308ED5188CBD15C2ADC56C4542AACEC64A58FD226E27DA3E99215F"
+    },
+    {
+      "Path": "src\\checkpoint.ts",
+      "Hash": "24CF4B0ED2FAA52D1EDCA817FE868D6D42104BB110FB7C519D88E8EF50911F8E"
+    },
+    {
+      "Path": "src\\card-spec.ts",
+      "Hash": "4F9370D1788698D67F5BFD88893B018B68453E78C8CECF4605CC5A1D41BF3FE0"
+    },
+    {
+      "Path": "src\\baseline-controls.ts",
+      "Hash": "0FFA0C5C29FAE4FFDBB3CCAF4A18104E5944172062FBA18A6D68986588590A6A"
+    },
+    {
+      "Path": "src\\audit-validator.ts",
+      "Hash": "761A4C8B3A083E78C81B84EB8552EAFBED0B62D0ED276245A1064597DF8069E7"
+    },
+    {
+      "Path": "src\\audit-parser.ts",
+      "Hash": "02993C9FCD3B088D7EFE9ECA20AC2E72DFD0B46921186A1134DA72DC9CD23B58"
+    },
+    {
+      "Path": "schemas\\position-baseline.schema.json",
+      "Hash": "544BF0FB35D9658C1D7C46B8F5940BA5982AB6987AE324E7FC2E93E51E40129C"
+    },
+    {
+      "Path": "schemas\\player-profile.schema.json",
+      "Hash": "C2274B55DFD43ECFB05CB2D68ABCA832A0CC6BF5411C263DE4AE900EE7778269"
+    },
+    {
+      "Path": "schemas\\input-card.schema.json",
+      "Hash": "99352DBDCE751A8B28B0694D48A2662E1E2DA7CADE2BF43D5B8DBB7A336FB1DF"
+    },
+    {
+      "Path": "schemas\\evidence-package.schema.json",
+      "Hash": "CB226CD792A403AF0D51E0A22E23E108FFDFAD3F92AE470AE3FDF92A2D3550F0"
+    },
+    {
+      "Path": "schemas\\audit-result.schema.json",
+      "Hash": "B3259F51EA14A26BBAB30F7E082C3C000B4FB90570DD37A781A1B495DEF320AA"
+    },
+    {
+      "Path": "README.md",
+      "Hash": "634BA6A19E6FF2B0BE1DEE0A0717E16468368759AC6C03A4992FB70E2BAF7113"
+    },
+    {
+      "Path": "package.json",
+      "Hash": "1396EDF13A9AD4039B8F2E6668F5ED4952FE03D136A4C7A7F4A55D4C92604817"
+    },
+    {
+      "Path": "package-lock.json",
+      "Hash": "3F5D752F8A091F294C27A38D7A866F3A0FEE563DCE1D7E73606A8527560A2611"
+    },
+    {
+      "Path": "Dockerfile",
+      "Hash": "2D29B2CF9D6E3ED017458D1D21A6B8A50C1269B80C30414E4437A20BE0185E08"
+    },
+    {
+      "Path": "docker-compose.yml",
+      "Hash": "2C42DBF5F426B1FB397DAE84B41F49E919A62316AA30D7591B4E56AE155A028C"
+    },
+    {
+      "Path": "deploy\\READINESS_CHECKLIST.md",
+      "Hash": "D2DF46FCB10BE4CE7AD0061C7CB05A76B878F0290C76962D4AE01900AC42E544"
+    },
+    {
+      "Path": "deploy\\DEPLOYMENT.md",
+      "Hash": "E6DBBEDD4BC01D32081E3D888DF83BA7B0B7EAF672D64E0B2A33FAEA7B0F2E8B"
+    },
+    {
+      "Path": ".gitignore",
+      "Hash": "9905194E8E9619E3414010514A5298357B4DC509CC3B37953B1C564C3F9512B4"
+    },
+    {
+      "Path": ".env.example",
+      "Hash": "C1A935989249F1A93C326ACAF0ABE05D665A468030F492F19129BD751F7C927C"
+    },
+    {
+      "Path": ".dockerignore",
+      "Hash": "B782497EB228A3BE6E0FEB46A2CD91D1981D245CB0D0903F0D62178B9ADC253F"
+    },
+    {
+      "Path": "AGENTS.md",
+      "Hash": "60543EB1E47ABEC4CB747C9B11773E417D631C4E72EEE55CF4C66B1331675279"
+    },
+    {
+      "Path": "ARCHITECTURE_CHANGELOG.md",
+      "Hash": "486964A95976BAC9ACEF0BE31ABA573816A6C66DD10A7FA6B4CBE35AA28EB069"
+    },
+    {
+      "Path": "data\\players\\registry.json",
+      "Hash": "94502AB10C2541D309C0C4FBAAC0EE32C9874D3304319E64A57F116B7F75BDFA"
+    },
+    {
+      "Path": "data\\baselines\\WR.json",
+      "Hash": "2E8A6DE09E2F8EA7AF703DCFFB64902BC345F427D6F26D958BD167D88C65AB4F"
+    },
+    {
+      "Path": "bootstrap\\manifest.json",
+      "Hash": "AA072E18E7B36A16FCFC0FCA5C6B7E3CEBE396DE6E705FAD9409F4F56794D5F4"
+    },
+    {
+      "Path": "data\\baselines\\TE.json",
+      "Hash": "88BEF8CAB90DF542D7484DBD45D9D951A11F0B9769CC6A978288CA3D50CB6FC0"
+    },
+    {
+      "Path": "bootstrap\\import-report.json",
+      "Hash": "5A93B1E2D7A407A65834F6F17E4F6D8DF1514A8810555D896C2515737C3F1128"
+    },
+    {
+      "Path": "data\\baselines\\RB.json",
+      "Hash": "32B526CFF5A0948003BB388C12FB06152A76E0484F3E902C175BE8241DBF3427"
+    },
+    {
+      "Path": "data\\baselines\\QB.json",
+      "Hash": "A0FBD566DC23AF2FEB93DECB276FD0FDD1643B73B1714BD92D919A67E4D5C78C"
+    },
+    {
+      "Path": "data\\baselines\\LT.json",
+      "Hash": "C222AB7151F30CFC9D14473F4494AF71FC071E87A3A3C6250139906DCE9FEE00"
+    },
+    {
+      "Path": "config\\output-policy.json",
+      "Hash": "E2B595840F1974FF1E60727CBDFFB1C5BBF04376B18A7F0BF6FA59FCC48186EA"
+    },
+    {
+      "Path": "config\\position-sequence.json",
+      "Hash": "2AE1312FB40F5B76F56AFB03DA0627D10084C38C8AFC4DF89D9A0B1D42E673BE"
+    },
+    {
+      "Path": "config\\madden-entry-order.json",
+      "Hash": "DE340D9EA5FD7D3B0E5640643559D7BD7EB6C33299B73D7F6975397075CD825F"
+    },
+    {
+      "Path": "config\\evidence-policy.md",
+      "Hash": "754BA0ABAB5B58954D17227E43A5559D7D9E49B05320CF708F1E54F343378047"
+    },
+    {
+      "Path": "config\\team-branding.json",
+      "Hash": "D34F5D5A33800EC027E33C4FD92D4C5F859BEDF5563F765EB2E888056B5AFA13"
+    },
+    {
+      "Path": "config\\scarcity-rules.json",
+      "Hash": "C37B2E74C53C70EB3E2C97B81732481180A63BCDB70ED2FEAD2301B73FE83754"
+    },
+    {
+      "Path": ".github\\workflows\\ci.yml",
+      "Hash": "1984D6365BE1B96238FB4FAF343378AE75D6A9F7A5C2720EF3441E1D77196363"
+    },
+    {
+      "Path": "config\\positions\\WR.md",
+      "Hash": "E655300A2AF14C37182E97E7D799613F3C22330DE8AA995DAC25D41C611898B8"
+    },
+    {
+      "Path": "config\\positions\\WILL.md",
+      "Hash": "AB2E18380249EE1A2041582DFE781D17B35F3DF91DE1ACC468BD7CB805C01EFA"
+    },
+    {
+      "Path": "config\\positions\\TE.md",
+      "Hash": "0CACF2AE108CB21A0DDF4E9FC0282B8207861886EF3382FE82BD5EB317AEDC0B"
+    },
+    {
+      "Path": "config\\positions\\SS.md",
+      "Hash": "AC54BF5D8FCC3ABF5299670F30BCA5F0D1407DBDEE2348216CB534D44B6BCB99"
+    },
+    {
+      "Path": "config\\positions\\SAM.md",
+      "Hash": "E9FA9715D5E1A8C3F32B079E9CA2E6D2C4E1B565015C553A14D2DA7B2CFC48A0"
+    },
+    {
+      "Path": "config\\positions\\RT.md",
+      "Hash": "1FCD9E27CFF1E8D6EB361EA162EA4FA7CDCC0DB9CBC6240EEDCC73F3F60260E1"
+    },
+    {
+      "Path": "config\\positions\\RG.md",
+      "Hash": "3CE47F43C74C6FB8A8F6A5AD5A0BEDCBD7421E769F2A219AAD94C0D6E0617B92"
+    },
+    {
+      "Path": "config\\positions\\REDGE.md",
+      "Hash": "651E6340EF77C5258F49F074261C2CE9CF4E99E1765A243EDFE8FAF9A1A8D408"
+    },
+    {
+      "Path": "config\\positions\\RB.md",
+      "Hash": "813205034BBB3ED1135C1BCAE7758C57C980E6F3620BB49E1132E04F1098929D"
+    },
+    {
+      "Path": "config\\positions\\QB.md",
+      "Hash": "9EB48BD5006C73AE3819E1CFFBA7CBAA708DC55FADB0A14BB64337E5D6B94407"
+    },
+    {
+      "Path": "config\\positions\\P.md",
+      "Hash": "B9D8B48B519A189DFB1B834B7EFDEDC43F4E8B32C65A9170CD6C27C441B61E5A"
+    },
+    {
+      "Path": "config\\positions\\MIKE.md",
+      "Hash": "55283AE0F160F45138398027FF01F26920C24969BDCE0B97F7968F12A084E34D"
+    },
+    {
+      "Path": "config\\positions\\LT.md",
+      "Hash": "AA3A0568C89FF4B21EB5705A5D38BE044CFB4633F8A22C452BC8FFB53B30E752"
+    },
+    {
+      "Path": "config\\positions\\LG.md",
+      "Hash": "B43DE9F04FD5D2CA9422F4623EBB35B36F41CE1C98649C580115EE59F728330F"
+    },
+    {
+      "Path": "config\\positions\\LEDGE.md",
+      "Hash": "790C41F20B1FA45514EEF0F418974B703C59C77F50838915707DF6C6997614E5"
+    },
+    {
+      "Path": "config\\positions\\K.md",
+      "Hash": "BD36246161BA174E79CBCD2DD192C55643D38DCD35ED376590936C30DFBCF2FC"
+    },
+    {
+      "Path": "config\\positions\\FS.md",
+      "Hash": "726FAD488ECE9B472728361744721FA45A2E96CECA6219CBFADA632E1C00F254"
+    },
+    {
+      "Path": "config\\positions\\DT.md",
+      "Hash": "BF1D0119E717AD71E95B2720917FA92C6EDA3597989A708A22B073DA312BED57"
+    },
+    {
+      "Path": "config\\positions\\CB.md",
+      "Hash": "6C97C29A2773549F7A899F296C4CD5A54343C35B5CC808181C0AD2B322AA6617"
+    },
+    {
+      "Path": "config\\positions\\C.md",
+      "Hash": "8ED5D0DD3637CC3A220E219AF734FE86678E14154D98911EAF17C6B87C26E55B"
+    }
+  ],
+  "after": [
+    {
+      "Path": "tsconfig.json",
+      "Hash": "84960394815FEC7CB2D33D6019EF1475F82059E1F85C50FC109103E1F26DC34F"
+    },
+    {
+      "Path": "tests\\run-tests.ts",
+      "Hash": "BE6D88E461D3D5E09FD12182C91DC6EBA68856D8A0F5D78263574A011F137DAF"
+    },
+    {
+      "Path": "state\\thread.json",
+      "Hash": "7872F9D30BC4DDAB91F0689D4FE592FDE3BB4766AD92A88003B948256A4EE85B"
+    },
+    {
+      "Path": "state\\project-state.json",
+      "Hash": "B0A4304BC4C74C071DC4B31CE3D54C91FFFC6D10A916E0F4EC46636BF7765157"
+    },
+    {
+      "Path": "state\\locks.json",
+      "Hash": "4FB63117A3AF4399E2C5DF80080A2CE41D1640474A54DC0B0E37715CE2DA6DAF"
+    },
+    {
+      "Path": "Dockerfile",
+      "Hash": "2D29B2CF9D6E3ED017458D1D21A6B8A50C1269B80C30414E4437A20BE0185E08"
+    },
+    {
+      "Path": "package.json",
+      "Hash": "1396EDF13A9AD4039B8F2E6668F5ED4952FE03D136A4C7A7F4A55D4C92604817"
+    },
+    {
+      "Path": "ARCHITECTURE_CHANGELOG.md",
+      "Hash": "486964A95976BAC9ACEF0BE31ABA573816A6C66DD10A7FA6B4CBE35AA28EB069"
+    },
+    {
+      "Path": "docker-compose.yml",
+      "Hash": "2C42DBF5F426B1FB397DAE84B41F49E919A62316AA30D7591B4E56AE155A028C"
+    },
+    {
+      "Path": "package-lock.json",
+      "Hash": "3F5D752F8A091F294C27A38D7A866F3A0FEE563DCE1D7E73606A8527560A2611"
+    },
+    {
+      "Path": "AGENTS.md",
+      "Hash": "60543EB1E47ABEC4CB747C9B11773E417D631C4E72EEE55CF4C66B1331675279"
+    },
+    {
+      "Path": ".gitignore",
+      "Hash": "9905194E8E9619E3414010514A5298357B4DC509CC3B37953B1C564C3F9512B4"
+    },
+    {
+      "Path": ".env.example",
+      "Hash": "C1A935989249F1A93C326ACAF0ABE05D665A468030F492F19129BD751F7C927C"
+    },
+    {
+      "Path": ".dockerignore",
+      "Hash": "B782497EB228A3BE6E0FEB46A2CD91D1981D245CB0D0903F0D62178B9ADC253F"
+    },
+    {
+      "Path": "README.md",
+      "Hash": "634BA6A19E6FF2B0BE1DEE0A0717E16468368759AC6C03A4992FB70E2BAF7113"
+    },
+    {
+      "Path": "src\\validator.ts",
+      "Hash": "6BAB55EDCA82BDFC7213AEFA238644BA4CB4FE402E970B5F16EA96288FBFC98C"
+    },
+    {
+      "Path": "src\\types.ts",
+      "Hash": "0C4EE5DE454C11844552FD957B19671FC8AF656CC5F59EB65C9823F5CBC26957"
+    },
+    {
+      "Path": "src\\team-room-lock.ts",
+      "Hash": "2F0AC41EB50F057D3035E3B2B9F7E877F3E229C46A81FFF5E61C3FF8B5BE0826"
+    },
+    {
+      "Path": "src\\team-bulk-audit.ts",
+      "Hash": "1CCBACC1E381CD93E61A763A428E4516E37F542352C0A150E907041470CE3ED3"
+    },
+    {
+      "Path": "src\\state.ts",
+      "Hash": "EC55DCF3655F5753EBC50D899E6FAA05E45BFFA7383DF69C40F115A34F1DAF00"
+    },
+    {
+      "Path": "src\\state-machine.ts",
+      "Hash": "3B3B05C05E23EEB43F24993ADD80DE724E2D87121C30A2574C63965DD1453A36"
+    },
+    {
+      "Path": "src\\state-integrity.ts",
+      "Hash": "C5386A2866CDD0FBFE6AFF6A2FEA87B2952FD1A0FA44C011746D6F1F29AEE1AA"
+    },
+    {
+      "Path": "src\\server.ts",
+      "Hash": "247E3EB0A8506B9FE0821F6A984EB9A8A2D343FE747DF7CEFF7770233A6EC424"
+    },
+    {
+      "Path": "src\\router.ts",
+      "Hash": "83E7DC62FF949034DF649E0F4913C93BFFA92CD56EF1FB22CE37CB14226C9970"
+    },
+    {
+      "Path": "src\\roster-source.ts",
+      "Hash": "537F258EE2C6C89CBFEDC5AEA18F98376092532A3CB8647B87B8EDCEECD0751F"
+    },
+    {
+      "Path": "src\\roster-refresh.ts",
+      "Hash": "0811425C7794AA0D8F4CFE8C6EB4ACCAAD99F3DCB6068BD02FF57D8B8B1A5089"
+    },
+    {
+      "Path": "src\\role-resolution.ts",
+      "Hash": "D3A0FCE60DA5AB6B3B3533A25FB23B81185F93F700C41AA1166325C85327564E"
+    },
+    {
+      "Path": "src\\research.ts",
+      "Hash": "3ACC00DAB5684D734A7F5678B4DA2986A13BBCEF330683227B39986561D3093A"
+    },
+    {
+      "Path": "src\\research-test.ts",
+      "Hash": "78906CF0D07EFD1ABADAF8E227E30E7A97E31A6730E9B5165E3BF92B4F87FDE1"
+    },
+    {
+      "Path": "src\\refresh-roster.ts",
+      "Hash": "386451D7D86A57F4FB2D4B1972CDAE30D7B34C5321B5AEE029F0E35C85F07EE5"
+    },
+    {
+      "Path": "src\\ratings-only.ts",
+      "Hash": "62D97128E4B8ECFCBB625816FE3BF5011CDF334A0659E63CF80BE3A41FB05DE1"
+    },
+    {
+      "Path": "src\\quick-recheck.ts",
+      "Hash": "CB81B8AF24A175A6DDDEF9A4F669F18909A6AA46A30D2AAE5AC38E4D139B4F0B"
+    },
+    {
+      "Path": "src\\preflight.ts",
+      "Hash": "75DD08AD22214EFE0CCCE5B6BEBCBFA02D5F9EAA02E7EA6838B0A6402E8B16F8"
+    },
+    {
+      "Path": "src\\position-mapper.ts",
+      "Hash": "63D2DA7FA9E183CC912F76E8D1279AA7D07401C10B88D4BC735060F4E1055E08"
+    },
+    {
+      "Path": "src\\player-resolver.ts",
+      "Hash": "57FCF8485C646733503694B079D4320F6F8709B331F8EE2181119910C04DF6D7"
+    },
+    {
+      "Path": "src\\player-history.ts",
+      "Hash": "0712A98BB0456B8A53604F93FA3AC9ABE9E645CC76535AFD7FFB7813854350FC"
+    },
+    {
+      "Path": "src\\player-executor.ts",
+      "Hash": "9B2DC5E2310E55C3F473F50896E4748221F52C70F35ABEBF97627F7ABC048E8B"
+    },
+    {
+      "Path": "src\\player-audit-task.ts",
+      "Hash": "6046ADC51AB145AFA3D939F0D4ABB8C86EE8D1430368FA8CC83B4F7868A4E37C"
+    },
+    {
+      "Path": "src\\persistence.ts",
+      "Hash": "7B6DFD482EDB1C3B3FA3C797C07C390494085494A8B40BD65C76BB21BBA6025B"
+    },
+    {
+      "Path": "src\\nflverse-roster-source.ts",
+      "Hash": "BA67161F2F313B96FA4CC2E3B47D8659F000396022BB02247F6416B694D4608D"
+    },
+    {
+      "Path": "src\\locks.ts",
+      "Hash": "253044E04B12B6EF62066395364FC8941FC2061EC8E66B37A26C9A02910DFE7F"
+    },
+    {
+      "Path": "src\\intent-executor.ts",
+      "Hash": "554706729AA817C81A973AB9B9D8F94AF2EB6B194656B17D98129E75947391A9"
+    },
+    {
+      "Path": "src\\index.ts",
+      "Hash": "70407434726600F6F2A772C94B6166E7FABACA3667FAD2D34D80F2B2E5B2E38D"
+    },
+    {
+      "Path": "src\\health.ts",
+      "Hash": "7DBC9888F78DDA476FBFD69CE9258B0E6FD97A9875E0101DFF80BC52D5C45377"
+    },
+    {
+      "Path": "src\\export-writer.ts",
+      "Hash": "10A3AA8482E14E74F6CACFA7D7A797D15D9E3F9A3977515A48CA7F9E4F3C2FF8"
+    },
+    {
+      "Path": "src\\export-types.ts",
+      "Hash": "CD272FF85BCDBA1C5CF4D02291998091F65AF6AB67EE3519BA0C06B175EF8CE4"
+    },
+    {
+      "Path": "src\\export-executor.ts",
+      "Hash": "5E5DBAEC8F7E93A9CC57352F179B45BC29061E47FCE9DAE2595EB810C0931775"
+    },
+    {
+      "Path": "src\\export-collector.ts",
+      "Hash": "75FE781D6DD1FB4E9D53EE12E0361079F906DAB78C9BC2130AB63AFF8E3CB379"
+    },
+    {
+      "Path": "src\\executor.ts",
+      "Hash": "6DB8DFB0EBC63155A723E11C6BE05CF8CECD508FE4806AEC8CD8F708B618AD69"
+    },
+    {
+      "Path": "src\\env.ts",
+      "Hash": "0111898117FE4325E8FA25771A5892170180562AE1E8FB0AC1146A54F0233E51"
+    },
+    {
+      "Path": "src\\continuous.ts",
+      "Hash": "384E8B789D4CF10131BE737C039DD1D93A8F36AD0C7430C86A29AD94DA7D02C8"
+    },
+    {
+      "Path": "src\\codex-research.ts",
+      "Hash": "CFAE25D3E653A599D1BCC6E667FCE35DF61E9AAC05DDDE3BC8C5CD9A72B57DBD"
+    },
+    {
+      "Path": "src\\codex-adapter.ts",
+      "Hash": "9A09E82561308ED5188CBD15C2ADC56C4542AACEC64A58FD226E27DA3E99215F"
+    },
+    {
+      "Path": "src\\checkpoint.ts",
+      "Hash": "24CF4B0ED2FAA52D1EDCA817FE868D6D42104BB110FB7C519D88E8EF50911F8E"
+    },
+    {
+      "Path": "src\\card-spec.ts",
+      "Hash": "4F9370D1788698D67F5BFD88893B018B68453E78C8CECF4605CC5A1D41BF3FE0"
+    },
+    {
+      "Path": "src\\baseline-controls.ts",
+      "Hash": "0FFA0C5C29FAE4FFDBB3CCAF4A18104E5944172062FBA18A6D68986588590A6A"
+    },
+    {
+      "Path": "src\\audit-validator.ts",
+      "Hash": "761A4C8B3A083E78C81B84EB8552EAFBED0B62D0ED276245A1064597DF8069E7"
+    },
+    {
+      "Path": "src\\audit-parser.ts",
+      "Hash": "02993C9FCD3B088D7EFE9ECA20AC2E72DFD0B46921186A1134DA72DC9CD23B58"
+    },
+    {
+      "Path": "bootstrap\\import-report.json",
+      "Hash": "5A93B1E2D7A407A65834F6F17E4F6D8DF1514A8810555D896C2515737C3F1128"
+    },
+    {
+      "Path": "bootstrap\\manifest.json",
+      "Hash": "AA072E18E7B36A16FCFC0FCA5C6B7E3CEBE396DE6E705FAD9409F4F56794D5F4"
+    },
+    {
+      "Path": "config\\evidence-policy.md",
+      "Hash": "754BA0ABAB5B58954D17227E43A5559D7D9E49B05320CF708F1E54F343378047"
+    },
+    {
+      "Path": "deploy\\DEPLOYMENT.md",
+      "Hash": "E6DBBEDD4BC01D32081E3D888DF83BA7B0B7EAF672D64E0B2A33FAEA7B0F2E8B"
+    },
+    {
+      "Path": "deploy\\READINESS_CHECKLIST.md",
+      "Hash": "D2DF46FCB10BE4CE7AD0061C7CB05A76B878F0290C76962D4AE01900AC42E544"
+    },
+    {
+      "Path": "schemas\\audit-result.schema.json",
+      "Hash": "B3259F51EA14A26BBAB30F7E082C3C000B4FB90570DD37A781A1B495DEF320AA"
+    },
+    {
+      "Path": "schemas\\evidence-package.schema.json",
+      "Hash": "CB226CD792A403AF0D51E0A22E23E108FFDFAD3F92AE470AE3FDF92A2D3550F0"
+    },
+    {
+      "Path": "config\\madden-entry-order.json",
+      "Hash": "DE340D9EA5FD7D3B0E5640643559D7BD7EB6C33299B73D7F6975397075CD825F"
+    },
+    {
+      "Path": "schemas\\input-card.schema.json",
+      "Hash": "99352DBDCE751A8B28B0694D48A2662E1E2DA7CADE2BF43D5B8DBB7A336FB1DF"
+    },
+    {
+      "Path": "schemas\\position-baseline.schema.json",
+      "Hash": "544BF0FB35D9658C1D7C46B8F5940BA5982AB6987AE324E7FC2E93E51E40129C"
+    },
+    {
+      "Path": "schemas\\player-profile.schema.json",
+      "Hash": "C2274B55DFD43ECFB05CB2D68ABCA832A0CC6BF5411C263DE4AE900EE7778269"
+    },
+    {
+      "Path": "config\\position-sequence.json",
+      "Hash": "2AE1312FB40F5B76F56AFB03DA0627D10084C38C8AFC4DF89D9A0B1D42E673BE"
+    },
+    {
+      "Path": "config\\output-policy.json",
+      "Hash": "E2B595840F1974FF1E60727CBDFFB1C5BBF04376B18A7F0BF6FA59FCC48186EA"
+    },
+    {
+      "Path": "config\\team-branding.json",
+      "Hash": "D34F5D5A33800EC027E33C4FD92D4C5F859BEDF5563F765EB2E888056B5AFA13"
+    },
+    {
+      "Path": "config\\scarcity-rules.json",
+      "Hash": "C37B2E74C53C70EB3E2C97B81732481180A63BCDB70ED2FEAD2301B73FE83754"
+    },
+    {
+      "Path": ".github\\workflows\\ci.yml",
+      "Hash": "1984D6365BE1B96238FB4FAF343378AE75D6A9F7A5C2720EF3441E1D77196363"
+    },
+    {
+      "Path": "data\\players\\registry.json",
+      "Hash": "94502AB10C2541D309C0C4FBAAC0EE32C9874D3304319E64A57F116B7F75BDFA"
+    },
+    {
+      "Path": "data\\baselines\\WR.json",
+      "Hash": "2E8A6DE09E2F8EA7AF703DCFFB64902BC345F427D6F26D958BD167D88C65AB4F"
+    },
+    {
+      "Path": "data\\baselines\\TE.json",
+      "Hash": "88BEF8CAB90DF542D7484DBD45D9D951A11F0B9769CC6A978288CA3D50CB6FC0"
+    },
+    {
+      "Path": "data\\baselines\\RB.json",
+      "Hash": "32B526CFF5A0948003BB388C12FB06152A76E0484F3E902C175BE8241DBF3427"
+    },
+    {
+      "Path": "data\\baselines\\QB.json",
+      "Hash": "A0FBD566DC23AF2FEB93DECB276FD0FDD1643B73B1714BD92D919A67E4D5C78C"
+    },
+    {
+      "Path": "data\\baselines\\LT.json",
+      "Hash": "C222AB7151F30CFC9D14473F4494AF71FC071E87A3A3C6250139906DCE9FEE00"
+    },
+    {
+      "Path": "config\\positions\\CB.md",
+      "Hash": "6C97C29A2773549F7A899F296C4CD5A54343C35B5CC808181C0AD2B322AA6617"
+    },
+    {
+      "Path": "config\\positions\\C.md",
+      "Hash": "8ED5D0DD3637CC3A220E219AF734FE86678E14154D98911EAF17C6B87C26E55B"
+    },
+    {
+      "Path": "config\\positions\\DT.md",
+      "Hash": "BF1D0119E717AD71E95B2720917FA92C6EDA3597989A708A22B073DA312BED57"
+    },
+    {
+      "Path": "config\\positions\\WR.md",
+      "Hash": "E655300A2AF14C37182E97E7D799613F3C22330DE8AA995DAC25D41C611898B8"
+    },
+    {
+      "Path": "config\\positions\\WILL.md",
+      "Hash": "AB2E18380249EE1A2041582DFE781D17B35F3DF91DE1ACC468BD7CB805C01EFA"
+    },
+    {
+      "Path": "config\\positions\\TE.md",
+      "Hash": "0CACF2AE108CB21A0DDF4E9FC0282B8207861886EF3382FE82BD5EB317AEDC0B"
+    },
+    {
+      "Path": "config\\positions\\SS.md",
+      "Hash": "AC54BF5D8FCC3ABF5299670F30BCA5F0D1407DBDEE2348216CB534D44B6BCB99"
+    },
+    {
+      "Path": "config\\positions\\SAM.md",
+      "Hash": "E9FA9715D5E1A8C3F32B079E9CA2E6D2C4E1B565015C553A14D2DA7B2CFC48A0"
+    },
+    {
+      "Path": "config\\positions\\RT.md",
+      "Hash": "1FCD9E27CFF1E8D6EB361EA162EA4FA7CDCC0DB9CBC6240EEDCC73F3F60260E1"
+    },
+    {
+      "Path": "config\\positions\\RG.md",
+      "Hash": "3CE47F43C74C6FB8A8F6A5AD5A0BEDCBD7421E769F2A219AAD94C0D6E0617B92"
+    },
+    {
+      "Path": "config\\positions\\REDGE.md",
+      "Hash": "651E6340EF77C5258F49F074261C2CE9CF4E99E1765A243EDFE8FAF9A1A8D408"
+    },
+    {
+      "Path": "config\\positions\\RB.md",
+      "Hash": "813205034BBB3ED1135C1BCAE7758C57C980E6F3620BB49E1132E04F1098929D"
+    },
+    {
+      "Path": "config\\positions\\QB.md",
+      "Hash": "9EB48BD5006C73AE3819E1CFFBA7CBAA708DC55FADB0A14BB64337E5D6B94407"
+    },
+    {
+      "Path": "config\\positions\\P.md",
+      "Hash": "B9D8B48B519A189DFB1B834B7EFDEDC43F4E8B32C65A9170CD6C27C441B61E5A"
+    },
+    {
+      "Path": "config\\positions\\MIKE.md",
+      "Hash": "55283AE0F160F45138398027FF01F26920C24969BDCE0B97F7968F12A084E34D"
+    },
+    {
+      "Path": "config\\positions\\LT.md",
+      "Hash": "AA3A0568C89FF4B21EB5705A5D38BE044CFB4633F8A22C452BC8FFB53B30E752"
+    },
+    {
+      "Path": "config\\positions\\LG.md",
+      "Hash": "B43DE9F04FD5D2CA9422F4623EBB35B36F41CE1C98649C580115EE59F728330F"
+    },
+    {
+      "Path": "config\\positions\\LEDGE.md",
+      "Hash": "790C41F20B1FA45514EEF0F418974B703C59C77F50838915707DF6C6997614E5"
+    },
+    {
+      "Path": "config\\positions\\K.md",
+      "Hash": "BD36246161BA174E79CBCD2DD192C55643D38DCD35ED376590936C30DFBCF2FC"
+    },
+    {
+      "Path": "config\\positions\\FS.md",
+      "Hash": "726FAD488ECE9B472728361744721FA45A2E96CECA6219CBFADA632E1C00F254"
+    }
+  ]
+}

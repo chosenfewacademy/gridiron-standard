@@ -1,0 +1,104 @@
+{
+  "task_id": "PLAYER_matthew_stafford_1788139435123",
+  "position": "QB",
+  "researched_at": "2026-08-31T01:35:55.187Z",
+  "sources": [],
+  "normalized": {},
+  "conflicts": [],
+  "minimum_evidence_met": false,
+  "missing_evidence": [
+    "FULL_AUDIT_RESEARCH_FAILED_OR_INVALID_JSON",
+    "INVALID_FULL_AUDIT_EVIDENCE_STRUCTURE",
+    "fresh_web_research_unavailable",
+    "RESEARCHER_MINIMUM_EVIDENCE_NOT_MET"
+  ],
+  "calendar": {
+    "nfl_season": 2026,
+    "player_id": "matthew_stafford",
+    "team": "LAR",
+    "valid_from": "2026-03-11T16:00:00-04:00",
+    "valid_until": "2027-03-11T16:00:00-05:00",
+    "preseason_start": "2026-07-25T00:00:00-04:00",
+    "regular_season_start": "2026-09-09T20:20:00-04:00",
+    "postseason_start": "2027-01-11T00:00:00-05:00",
+    "season_end": "2027-02-15T00:00:00-05:00",
+    "current_season_games_available": 0,
+    "current_season_games_played": 0,
+    "regular_season_games_scheduled": 17,
+    "regular_season_complete": false,
+    "postseason_complete": false,
+    "sources": [
+      {
+        "url": "https://www.nfl.com/_amp/2026-national-football-league-important-dates",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "2026 league year began 2026-03-11T16:00:00-04:00."
+        ]
+      },
+      {
+        "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "2027 league year begins 2027-03-11T16:00:00-05:00; the supplied as-of instant falls within the 2026 league year.",
+          "Current calendar lists Week 18 on January 9–10, 2027; the following America/New_York day begins 2027-01-11T00:00:00-05:00.",
+          "Super Bowl LXI is scheduled for February 14, 2027; the following America/New_York day begins 2027-02-15T00:00:00-05:00.",
+          "Postseason has not begun as of the requested instant; postseason_complete is false. No future scheduled game is treated as final.",
+          "No later postponed regular-season or postseason game appears in the current calendar."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/news/2026-nfl-training-camps-report-dates-locations-announced-for-all-32-teams",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "Rams rookies and veterans report July 25, 2026; preseason_start uses that calendar day's midnight, not an asserted reporting hour."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/by-week/week-1",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "First league kickoff: 2026-09-09T20:20:00-04:00. Before Week 1, opportunities and appearances are zero league-wide; trades cannot add completed opportunities."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/by-team/los-angeles-rams",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "17 regular-season games scheduled; Week 11 bye. Zero regular-season finals; only preseason games are final. Rams opener: 2026-09-10T20:35:00-04:00."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/players/matthew-stafford/stats/logs/2026/",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "Stafford is listed with LAR. Displayed entries are preseason only; combined with the unstarted regular-season schedule, regular-season appearances equal zero."
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/by-week/week-18",
+        "retrieved_at": "2026-08-31T01:25:13Z",
+        "claims": [
+          "Final regular-season week's matchups remain TBD, not FINAL; regular_season_complete is false."
+        ]
+      }
+    ]
+  },
+  "calendar_web_search_observed": true,
+  "fresh_web_research_observed": false,
+  "audit_type": "FULL_AUDIT",
+  "nfl_season": 2026,
+  "season_phase": "PRESEASON",
+  "evidence_season": 2025,
+  "current_season_games_available": 0,
+  "current_season_games_played": 0,
+  "prior_season_used_as_primary_baseline": true,
+  "sample_size_context": {
+    "weighting": "COMPLETED_SEASON_PRIMARY_WITH_CURRENT_CONTEXT",
+    "established_after_games": 4,
+    "player_sample_limited": true,
+    "limitations": [
+      "Player regular-season sample is limited; retain availability, workload, and prior-season context.",
+      "Game counts do not establish sufficient snaps, attempts, or exact-trait confidence; document those samples in category evidence."
+    ]
+  }
+}

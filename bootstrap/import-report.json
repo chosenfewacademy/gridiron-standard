@@ -1,0 +1,19 @@
+{
+  "imported_at": "2026-08-30",
+  "positions": [
+    "QB",
+    "RB",
+    "WR",
+    "TE",
+    "LT"
+  ],
+  "status": "COMPLETE",
+  "notes": {
+    "QB": "Locked Top 10 hierarchy and controls imported. Historical full cards not present in available structured project record.",
+    "RB": "Locked Top 10 hierarchy and first-out control imported. Historical full cards not present in available structured project record.",
+    "WR": "Locked Top 10 hierarchy and first-out control imported. Historical full cards not present in available structured project record.",
+    "TE": "Locked Top 10 hierarchy, controls, and known 95+ scarcity traits imported. Historical full cards not present in available structured project record.",
+    "LT": "Locked Top 10 hierarchy, controls, scarcity summary, and all ten available full cards imported."
+  },
+  "integrity_rule": "Missing historical card data was not inferred or regenerated."
+}

@@ -1,0 +1,50 @@
+name: Gridiron Responses Smoke
+
+on:
+  workflow_dispatch:
+    inputs:
+      live_confirmation:
+        description: Select RUN_PAID_RESEARCH to authorize one live API smoke request
+        required: true
+        type: choice
+        default: DO_NOT_RUN
+        options:
+          - DO_NOT_RUN
+          - RUN_PAID_RESEARCH
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - name: Require explicit live confirmation
+        if: inputs.live_confirmation != 'RUN_PAID_RESEARCH'
+        run: |
+          echo "Live research was not authorized. Select RUN_PAID_RESEARCH to execute the paid smoke request."
+          exit 1
+      - name: Run live Responses API smoke
+        if: inputs.live_confirmation == 'RUN_PAID_RESEARCH'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GRIDIRON_RESEARCH_MODEL: ${{ vars.GRIDIRON_RESEARCH_MODEL }}
+        run: npm run --silent research:responses-smoke -- --live | tee responses-smoke-result.json
+      - name: Add usage to workflow summary
+        if: always() && inputs.live_confirmation == 'RUN_PAID_RESEARCH'
+        run: npm run --silent research:usage-summary -- --kind "Responses smoke" --input responses-smoke-result.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload smoke diagnostics
+        if: always() && inputs.live_confirmation == 'RUN_PAID_RESEARCH'
+        uses: actions/upload-artifact@v4
+        with:
+          name: responses-smoke-${{ github.run_id }}
+          path: responses-smoke-result.json
+          if-no-files-found: warn
+          retention-days: 30

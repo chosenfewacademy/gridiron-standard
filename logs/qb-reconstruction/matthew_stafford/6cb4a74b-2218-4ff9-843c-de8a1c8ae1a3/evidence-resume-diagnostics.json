@@ -1,0 +1,189 @@
+[
+  {
+    "micro_batch_id": "A3_PRESSURE_TARGET_1",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:14.325Z",
+    "ended_at": "2026-09-06T01:11:14.420Z",
+    "elapsed_ms": 95,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "A3_PRESSURE_TARGET_2",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:14.431Z",
+    "ended_at": "2026-09-06T01:11:14.524Z",
+    "elapsed_ms": 93,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "A4_ACCURACY_DEPTH_TARGET_1",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:14.540Z",
+    "ended_at": "2026-09-06T01:11:14.594Z",
+    "elapsed_ms": 54,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "A4_ACCURACY_DEPTH_TARGET_2",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:14.603Z",
+    "ended_at": "2026-09-06T01:11:14.655Z",
+    "elapsed_ms": 52,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "A5_SHORT_ACCURACY_TARGET_1",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:14.666Z",
+    "ended_at": "2026-09-06T01:11:14.714Z",
+    "elapsed_ms": 48,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "A6_INTERMEDIATE_ACCURACY_TARGET_1",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:14.723Z",
+    "ended_at": "2026-09-06T01:11:14.772Z",
+    "elapsed_ms": 49,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "B3_SACK_AVOIDANCE_TARGET_1",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:14.780Z",
+    "ended_at": "2026-09-06T01:11:14.856Z",
+    "elapsed_ms": 76,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "B3_SACK_AVOIDANCE_TARGET_2",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:14.867Z",
+    "ended_at": "2026-09-06T01:11:14.932Z",
+    "elapsed_ms": 65,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "B5_MOVING_THROWS_TARGET_1",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:14.943Z",
+    "ended_at": "2026-09-06T01:11:14.990Z",
+    "elapsed_ms": 47,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "C2_DESIGNED_RUSHING_TARGET_1",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:14.999Z",
+    "ended_at": "2026-09-06T01:11:15.068Z",
+    "elapsed_ms": 69,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "D1_DURABILITY_AVAILABILITY_TARGET_1",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:15.079Z",
+    "ended_at": "2026-09-06T01:11:15.135Z",
+    "elapsed_ms": 56,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "D1_DURABILITY_AVAILABILITY_TARGET_2",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:15.148Z",
+    "ended_at": "2026-09-06T01:11:15.201Z",
+    "elapsed_ms": 53,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "D2_INJURY_PRACTICE_TARGET_1",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:15.211Z",
+    "ended_at": "2026-09-06T01:11:15.261Z",
+    "elapsed_ms": 50,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "D3_ROLE_DEPTH_TARGET_1",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:15.270Z",
+    "ended_at": "2026-09-06T01:11:15.332Z",
+    "elapsed_ms": 62,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "D5_PHYSICAL_CONTEXT_TARGET_1",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:15.344Z",
+    "ended_at": "2026-09-06T01:11:15.398Z",
+    "elapsed_ms": 54,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "E2_AGE_TRAJECTORY_TARGET_1",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:15.407Z",
+    "ended_at": "2026-09-06T01:11:15.461Z",
+    "elapsed_ms": 54,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  },
+  {
+    "micro_batch_id": "F1_LOCKED_CONTROLS_TARGET_1",
+    "attempt_number": 3,
+    "started_at": "2026-09-06T01:11:15.472Z",
+    "ended_at": "2026-09-06T01:11:15.523Z",
+    "elapsed_ms": 51,
+    "thread_id": null,
+    "timeout_stage": "THREAD_RUN",
+    "outcome": "FAILURE",
+    "failure_kind": "SOURCE_UNAVAILABLE"
+  }
+]

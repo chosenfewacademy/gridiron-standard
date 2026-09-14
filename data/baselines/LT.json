@@ -1,0 +1,346 @@
+{
+  "architecture_version": "1.0.0",
+  "methodology_version": "1.0.0",
+  "status": "LOCKED",
+  "mutation_policy": "IMMUTABLE_UNLESS_EXPLICIT_CURRENT_DATA_TOP10_REAUDIT",
+  "historical_cards_policy": "Do not fabricate missing historical full-card attributes.",
+  "position": "LT",
+  "version": "bootstrap-2026-08-30",
+  "top_10": [
+    {
+      "rank": 1,
+      "player": "Tristan Wirfs",
+      "ovr": 93
+    },
+    {
+      "rank": 2,
+      "player": "Penei Sewell",
+      "ovr": 93
+    },
+    {
+      "rank": 3,
+      "player": "Garett Bolles",
+      "ovr": 91
+    },
+    {
+      "rank": 4,
+      "player": "Trent Williams",
+      "ovr": 90
+    },
+    {
+      "rank": 5,
+      "player": "Jordan Mailata",
+      "ovr": 89
+    },
+    {
+      "rank": 6,
+      "player": "Andrew Thomas",
+      "ovr": 89
+    },
+    {
+      "rank": 7,
+      "player": "Laremy Tunsil",
+      "ovr": 88
+    },
+    {
+      "rank": 8,
+      "player": "Bernhard Raimann",
+      "ovr": 86
+    },
+    {
+      "rank": 9,
+      "player": "Alaric Jackson",
+      "ovr": 85
+    },
+    {
+      "rank": 10,
+      "player": "Kolton Miller",
+      "ovr": 84
+    }
+  ],
+  "last_in": {
+    "player": "Kolton Miller",
+    "ovr": 84
+  },
+  "first_out": {
+    "player": "Rashawn Slater",
+    "ovr": 84
+  },
+  "external_controls": [
+    {
+      "player": "Rashawn Slater",
+      "ovr": 84
+    },
+    {
+      "player": "Charles Cross",
+      "ovr": 83
+    },
+    {
+      "player": "Christian Darrisaw",
+      "ovr": "82-83"
+    },
+    {
+      "player": "Dion Dawkins",
+      "ovr": "82-83"
+    },
+    {
+      "player": "Jake Matthews",
+      "ovr": "81-82"
+    },
+    {
+      "player": "Paris Johnson Jr.",
+      "ovr": "81-82"
+    }
+  ],
+  "scarcity": {
+    "95_plus_count": 14,
+    "97_plus_count": 2,
+    "98_plus_count": 0,
+    "99_count": 0,
+    "97_plus": [
+      {
+        "player": "Penei Sewell",
+        "attribute": "RBK",
+        "rating": 97
+      },
+      {
+        "player": "Penei Sewell",
+        "attribute": "RBP",
+        "rating": 97
+      }
+    ]
+  },
+  "full_cards_import_status": "IMPORTED",
+  "full_cards": {
+    "Tristan Wirfs": {
+      "ovr": 93,
+      "ratings": {
+        "STR": 89,
+        "SPD": 74,
+        "ACC": 80,
+        "AGI": 82,
+        "COD": 76,
+        "AWR": 94,
+        "INJ": 79,
+        "STA": 91,
+        "TGH": 92,
+        "PBK": 94,
+        "PBP": 93,
+        "PBF": 95,
+        "RBK": 94,
+        "RBP": 92,
+        "RBF": 94,
+        "IBL": 92,
+        "LBK": 91
+      },
+      "identity": "complete elite movement/technical LT"
+    },
+    "Penei Sewell": {
+      "ovr": 93,
+      "ratings": {
+        "STR": 95,
+        "SPD": 75,
+        "ACC": 79,
+        "AGI": 80,
+        "COD": 75,
+        "AWR": 93,
+        "INJ": 94,
+        "STA": 95,
+        "TGH": 94,
+        "PBK": 91,
+        "PBP": 93,
+        "PBF": 89,
+        "RBK": 97,
+        "RBP": 97,
+        "RBF": 94,
+        "IBL": 96,
+        "LBK": 94
+      },
+      "identity": "historic run/power force; excellent but lower pass protection; current 2026 LT transition"
+    },
+    "Garett Bolles": {
+      "ovr": 91,
+      "ratings": {
+        "STR": 84,
+        "SPD": 70,
+        "ACC": 76,
+        "AGI": 78,
+        "COD": 72,
+        "AWR": 94,
+        "INJ": 91,
+        "STA": 94,
+        "TGH": 92,
+        "PBK": 96,
+        "PBP": 94,
+        "PBF": 95,
+        "RBK": 88,
+        "RBP": 86,
+        "RBF": 89,
+        "IBL": 87,
+        "LBK": 87
+      },
+      "identity": "pure pass-protection ceiling"
+    },
+    "Trent Williams": {
+      "ovr": 90,
+      "ratings": {
+        "STR": 94,
+        "SPD": 65,
+        "ACC": 72,
+        "AGI": 75,
+        "COD": 68,
+        "AWR": 95,
+        "INJ": 80,
+        "STA": 88,
+        "TGH": 94,
+        "PBK": 89,
+        "PBP": 91,
+        "PBF": 87,
+        "RBK": 95,
+        "RBP": 96,
+        "RBF": 92,
+        "IBL": 94,
+        "LBK": 93
+      },
+      "identity": "aging run-block/processing master"
+    },
+    "Jordan Mailata": {
+      "ovr": 89,
+      "ratings": {
+        "STR": 95,
+        "SPD": 68,
+        "ACC": 75,
+        "AGI": 76,
+        "COD": 69,
+        "AWR": 92,
+        "INJ": 91,
+        "STA": 94,
+        "TGH": 94,
+        "PBK": 91,
+        "PBP": 93,
+        "PBF": 88,
+        "RBK": 91,
+        "RBP": 94,
+        "RBF": 88,
+        "IBL": 94,
+        "LBK": 89
+      },
+      "identity": "durable massive power LT; 2025 step down from elite 2024"
+    },
+    "Andrew Thomas": {
+      "ovr": 89,
+      "ratings": {
+        "STR": 87,
+        "SPD": 72,
+        "ACC": 78,
+        "AGI": 80,
+        "COD": 74,
+        "AWR": 92,
+        "INJ": 72,
+        "STA": 88,
+        "TGH": 91,
+        "PBK": 94,
+        "PBP": 92,
+        "PBF": 95,
+        "RBK": 91,
+        "RBP": 88,
+        "RBF": 92,
+        "IBL": 89,
+        "LBK": 90
+      },
+      "identity": "elite finesse protector, major recurring durability risk"
+    },
+    "Laremy Tunsil": {
+      "ovr": 88,
+      "ratings": {
+        "STR": 84,
+        "SPD": 71,
+        "ACC": 76,
+        "AGI": 79,
+        "COD": 73,
+        "AWR": 93,
+        "INJ": 84,
+        "STA": 89,
+        "TGH": 90,
+        "PBK": 94,
+        "PBP": 92,
+        "PBF": 95,
+        "RBK": 84,
+        "RBP": 81,
+        "RBF": 86,
+        "IBL": 83,
+        "LBK": 84
+      },
+      "identity": "elite pass-protection specialist, ordinary run blocker"
+    },
+    "Bernhard Raimann": {
+      "ovr": 86,
+      "ratings": {
+        "STR": 87,
+        "SPD": 73,
+        "ACC": 78,
+        "AGI": 79,
+        "COD": 74,
+        "AWR": 89,
+        "INJ": 91,
+        "STA": 93,
+        "TGH": 90,
+        "PBK": 88,
+        "PBP": 87,
+        "PBF": 89,
+        "RBK": 89,
+        "RBP": 87,
+        "RBF": 90,
+        "IBL": 88,
+        "LBK": 89
+      },
+      "identity": "balanced high-end starter"
+    },
+    "Alaric Jackson": {
+      "ovr": 85,
+      "ratings": {
+        "STR": 90,
+        "SPD": 69,
+        "ACC": 75,
+        "AGI": 75,
+        "COD": 69,
+        "AWR": 88,
+        "INJ": 90,
+        "STA": 93,
+        "TGH": 91,
+        "PBK": 85,
+        "PBP": 87,
+        "PBF": 83,
+        "RBK": 92,
+        "RBP": 93,
+        "RBF": 89,
+        "IBL": 91,
+        "LBK": 88
+      },
+      "identity": "run/power-oriented starter"
+    },
+    "Kolton Miller": {
+      "ovr": 84,
+      "ratings": {
+        "STR": 86,
+        "SPD": 70,
+        "ACC": 76,
+        "AGI": 78,
+        "COD": 72,
+        "AWR": 90,
+        "INJ": 69,
+        "STA": 86,
+        "TGH": 89,
+        "PBK": 92,
+        "PBP": 90,
+        "PBF": 93,
+        "RBK": 84,
+        "RBP": 82,
+        "RBF": 86,
+        "IBL": 84,
+        "LBK": 85
+      },
+      "identity": "pass-first high-skill tackle with major current injury risk"
+    }
+  }
+}
