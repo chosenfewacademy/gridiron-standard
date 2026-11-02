@@ -1,0 +1,376 @@
+# QB_REAUDIT_RATE_10 — Patrick Mahomes rating (v1.1.2 stage 3, automatic under t30u)
+
+```json
+{
+  "audit_id": "QB_REAUDIT_RATE_10_A1",
+  "task_id": "QB_REAUDIT_RATE_10",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "player_id": "patrick_mahomes",
+  "players": [
+    "Patrick Mahomes"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 79,
+    "ACC": 78,
+    "AGI": 77,
+    "COD": 76,
+    "STR": 78,
+    "AWR": 77,
+    "THP": 75,
+    "SAC": 74,
+    "MAC": 82,
+    "DAC": 65,
+    "RUN": 81,
+    "TUP": 71,
+    "PAC": 74,
+    "BSK": 79,
+    "CAR": 88,
+    "JMP": 70,
+    "INJ": 65,
+    "STA": 68,
+    "TGH": 76
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "MEDIUM",
+    "AWR": "MEDIUM",
+    "THP": "MEDIUM",
+    "SAC": "MEDIUM",
+    "MAC": "MEDIUM",
+    "DAC": "MEDIUM",
+    "RUN": "MEDIUM",
+    "TUP": "MEDIUM",
+    "PAC": "MEDIUM",
+    "BSK": "MEDIUM",
+    "CAR": "MEDIUM",
+    "JMP": "LOW",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Rush yds/game 24.5 (scrambles + designed), scramble YPC 7.6",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Scramble YPC 7.6, rush yds/game 24.5",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Rush yds/game 24.5, scramble YPC 7.6",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Rush yds/game 24.5, scramble YPC 7.6",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Listed 74 225 lb; rush TD/game 0.29",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "PFF 76.2 (#13) 2026, 76.0 (#16) 2025; blended EPA/dropback +0.134; INT rate 2.0%",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "THP": {
+      "basis": "Blended aDOT 6.7, deep share 11.4%, deep EPA +0.21",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "SAC": {
+      "basis": "Blended <10-yd cmp 71.5%, CPOE +1.1",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "MAC": {
+      "basis": "Blended 10-19-yd cmp 59.8%, EPA +0.58",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "DAC": {
+      "basis": "Blended 20+-yd cmp 30.2%, EPA +0.21",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "RUN": {
+      "basis": "Scramble YPC 7.6, rush EPA +12.8, EPA when hit -0.11",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "TUP": {
+      "basis": "Blended cmp when hit 31.7%, EPA when hit -0.11",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "PAC": {
+      "basis": "No play-action split in source; proxy clean-pocket EPA +0.26 and EPA/dropback +0.134",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "BSK": {
+      "basis": "Blended sack rate 4.7%, scramble YPC 7.6",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "Fumbles lost per touch 0.00%",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "No relevant evidence; neutral 70",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Availability 87.5% of team games 2025-26",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "444 offensive snaps 2026; availability 87.5%",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Availability 87.5%, frame 225 lb",
+      "why_not_higher": "Percentile among the 17 contention QBs caps it",
+      "why_not_lower": "Percentile among the 17 contention QBs floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 80,
+  "proposed_ovr_basis": "Automatic run under t30u. Attributes come from a fixed percentile mapping of the cited 2026/2025 metrics across the 17 contention QBs (2026 weighted 0.6). OVR = 74 + 16 x composite percentile (PFF 3, EPA/dropback 3, CPOE 1, INT rate 1, rush EPA 1, availability 1), composite 0.39; capped at 89 and no attribute is 90+. PFF 76.2 (#13) 2026, 76.0 (#16) 2025.",
+  "style_profile": "Patrick Mahomes: strengths relative to his own profile are ball security, intermediate accuracy, on-the-run creation (Fumbles lost per touch 0.00%; Blended 10-19-yd cmp 59.8%, EPA +0.58; Scramble YPC 7.6, rush EPA +12.8, EPA when hit -0.11); relative weaknesses are deep accuracy, injury availability, stamina (Blended 20+-yd cmp 30.2%, EPA +0.21; Availability 87.5% of team games 2025-26; 444 offensive snaps 2026; availability 87.5%).",
+  "style_evidence": [
+    "Patrick Mahomes 2026: 7/7 team games, 233 att, aDOT 5.8, EPA/dropback +0.14, CPOE +1.6; deep (20+) 10.3% of att, 29.2% cmp, EPA -0.03; 10-19 yds 61.8% EPA +0.68; <10 yds 72.4%; hit 31.2% EPA -0.16 (n=32) vs clean 71.6%; sack rate 3.7%; 13 scrambles 71 yds, 2 designed runs 14 yds, 1 rush TD; 12 TD/4 INT; 0 fumbles lost",
+    "Patrick Mahomes 2025: 14/17 team games, 505 att, aDOT 8.1, EPA/dropback +0.13, CPOE +0.3; deep (20+) 13.1% of att, 31.8% cmp, EPA +0.57; 10-19 yds 56.8% EPA +0.43; <10 yds 70.1%; hit 32.4% EPA -0.03 (n=68) vs clean 67.0%; sack rate 6.3%; 52 scrambles 420 yds, 4 designed runs 9 yds, 5 rush TD; 22 TD/11 INT; 0 fumbles lost",
+    "PFF 76.2 (#13) 2026, 76.0 (#16) 2025"
+  ],
+  "input_dossier": "QB_REAUDIT_BG_10_A1",
+  "weaknesses": [
+    "deep accuracy",
+    "injury availability",
+    "stamina"
+  ],
+  "madden_reference": [
+    {
+      "player": "Patrick Mahomes",
+      "ovr": 93,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "file": "references/madden/QB_madden27_reference.json"
+    }
+  ],
+  "major_flags": [
+    "AUTO_RUN_T30U: attributes from fixed percentile mapping; adjust in head-to-heads",
+    "LARGE_MADDEN_GAP: OVR 80 vs Madden 93 (reference only)"
+  ],
+  "locked_control_conflict": false
+}
+```

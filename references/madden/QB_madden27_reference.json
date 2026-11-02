@@ -262,6 +262,32 @@
       "team": "Houston Texans",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Patrick Mahomes": {
+      "ea_id": 12635,
+      "OVR": 93,
+      "SPD": 85,
+      "ACC": 86,
+      "AGI": 85,
+      "COD": 86,
+      "STR": 70,
+      "AWR": 94,
+      "THP": 97,
+      "SAC": 94,
+      "MAC": 89,
+      "DAC": 86,
+      "RUN": 96,
+      "TUP": 90,
+      "PAC": 96,
+      "BSK": 93,
+      "CAR": 66,
+      "JMP": 74,
+      "INJ": 96,
+      "STA": 98,
+      "TGH": 99,
+      "team": "Kansas City Chiefs",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
