@@ -1,5 +1,5 @@
 {
-  "architecture_version": "1.1.0",
+  "architecture_version": "1.1.1",
   "methodology_version": "1.1.0",
   "base_version": "1.0.0",
   "approved_at": "2026-11-01",
@@ -7,7 +7,9 @@
   "amendments": [
     "A1 Grok Bot analyst",
     "A2 declared-provenance freshness",
-    "A3 per-position inputs"
+    "A3 per-position inputs",
+    "A4 FB/LS exact buckets (addendum, enacted 2026-11-02)"
   ],
-  "note": "state/project-state.json and locked baselines keep 1.0.0 (protected history)."
+  "note": "state/project-state.json and locked baselines keep 1.0.0 (protected history).",
+  "addendum_fb_ls_enacted": "2026-11-02 (user/commissioner approval 2026-11-01/02)"
 }

@@ -33,7 +33,9 @@
     "FS": "PENDING",
     "SS": "PENDING",
     "K": "PENDING",
-    "P": "PENDING"
+    "P": "PENDING",
+    "FB": "PENDING",
+    "LS": "PENDING"
   },
   "completed_tasks": [
     "LG_PAIR_01",

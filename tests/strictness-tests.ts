@@ -134,12 +134,12 @@ export async function runStrictnessTests(test: T) {
 }
 
 export function runPositionArchitectureTests(test: (n: string, f: () => void) => void) {
-  test("position metrics cover all 20 buckets plus proposed FB/LS addendum buckets, are active v1.1, and never cite EA", () => {
+  test("position metrics cover all 20 buckets plus enacted FB/LS addendum buckets, are active v1.1, and never cite EA", () => {
     const cfg = JSON.parse(fs.readFileSync("config/position-metrics.json", "utf8"));
     const order = "QB RB WR TE LT LG C RG RT REDGE LEDGE DT MIKE WILL SAM CB FS SS K P".split(" ");
     assert.deepEqual(Object.keys(cfg.positions), [...order, "FB", "LS"]);
-    assert.deepEqual(JSON.parse(fs.readFileSync("config/position-sequence.json", "utf8")).sequence, order); // addendum not enacted
-    for (const b of ["FB", "LS"]) { assert.equal(cfg.positions[b].current_status, "ADDENDUM_PROPOSED"); assert(fs.existsSync(`docs/positions/${b}.md`)); } assert.equal(cfg.status, "ACTIVE_METHODOLOGY_V1_1"); assert.equal(cfg.effective, true);
+    assert.deepEqual(JSON.parse(fs.readFileSync("config/position-sequence.json", "utf8")).sequence, [...order, "FB", "LS"]); // addendum enacted
+    for (const b of ["FB", "LS"]) { assert.equal(cfg.positions[b].current_status, "PENDING"); assert(fs.existsSync(`docs/positions/${b}.md`)); } assert.equal(cfg.status, "ACTIVE_METHODOLOGY_V1_1"); assert.equal(cfg.effective, true);
     assert(!/ea\.com/i.test(JSON.stringify(cfg)));
     for (const b of order) assert(fs.existsSync(`docs/positions/${b}.md`));
   });
@@ -152,6 +152,8 @@ export function runPositionArchitectureTests(test: (n: string, f: () => void) =>
     assert(!/PENDING AMENDMENT/.test(s));
     for (const rule of ["Maximum automatic revision attempts: 3.", "Default mode: REVIEW_MAJOR", "A locked positional Top 10 baseline is immutable.",
       "EA ratings are controls only, never authoritative truth."]) assert(s.includes(rule), rule);
+    assert.match(s, /## Addendum v1\.1\.1 — FB and LS exact buckets \(ENACTED\)/);
+    const st = JSON.parse(fs.readFileSync("state/project-state.json", "utf8")); assert.equal(st.positions.FB, "PENDING"); assert.equal(st.positions.LS, "PENDING");
     const m = JSON.parse(fs.readFileSync("config/methodology.json", "utf8")); assert.equal(m.methodology_version, "1.1.0");
   });
 }

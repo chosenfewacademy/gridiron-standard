@@ -7,7 +7,7 @@ export interface PositionMapping {
 }
 
 const EXACT = new Set([
-  "QB","RB","WR","TE","LT","LG","C","RG","RT","DT","CB","FS","SS","K","P"
+  "QB","RB","WR","TE","LT","LG","C","RG","RT","DT","CB","FS","SS","K","P","FB","LS"
 ]);
 
 export function mapToMaddenBucket(

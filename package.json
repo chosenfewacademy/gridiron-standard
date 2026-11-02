@@ -32,6 +32,7 @@
     "preflight": "node scripts/run-with-fallback.mjs src/preflight.ts src/preflight.js",
     "test:fallback": "set GRIDIRON_SIMULATE_TSX_ENOMEM=1&& set GRIDIRON_FALLBACK_PROBE=1&& node scripts/run-with-fallback.mjs tests/fallback-probe.ts tests/fallback-probe.js",
     "position:lock": "tsx src/lock-position.ts",
+    "addendum:enact-positions": "tsx src/enact-addendum-positions.ts",
     "coverage:check": "tsx src/coverage-check.ts",
     "pool:approve": "tsx src/approve-pool.ts",
     "reaudit:trigger": "tsx src/top10-reaudit.ts"

@@ -41,7 +41,7 @@ export function route(input: string): Intent {
     mode: exportFull[1].toLowerCase() === "rich" ? "AUDIT_RICH" : "MADDEN_ENTRY"
   };
 
-  const exportTeam = value.match(/^export\s+team\s+([A-Za-z]{2,4})(?:\s+(QB|RB|WR|TE|LT|LG|C|RG|RT|REDGE|LEDGE|DT|MIKE|WILL|SAM|CB|FS|SS|K|P))?\s+(madden|rich)$/i);
+  const exportTeam = value.match(/^export\s+team\s+([A-Za-z]{2,4})(?:\s+(QB|RB|WR|TE|LT|LG|C|RG|RT|REDGE|LEDGE|DT|MIKE|WILL|SAM|CB|FS|SS|K|P|FB|LS))?\s+(madden|rich)$/i);
   if (exportTeam) return {
     type: "EXPORT_TEAM",
     team: exportTeam[1].toUpperCase(),
@@ -49,7 +49,7 @@ export function route(input: string): Intent {
     mode: exportTeam[3].toLowerCase() === "rich" ? "AUDIT_RICH" : "MADDEN_ENTRY"
   };
 
-  const exportPosition = value.match(/^export\s+position\s+(QB|RB|WR|TE|LT|LG|C|RG|RT|REDGE|LEDGE|DT|MIKE|WILL|SAM|CB|FS|SS|K|P)\s+(madden|rich)$/i);
+  const exportPosition = value.match(/^export\s+position\s+(QB|RB|WR|TE|LT|LG|C|RG|RT|REDGE|LEDGE|DT|MIKE|WILL|SAM|CB|FS|SS|K|P|FB|LS)\s+(madden|rich)$/i);
   if (exportPosition) return {
     type: "EXPORT_POSITION",
     position: exportPosition[1].toUpperCase(),
@@ -63,14 +63,14 @@ export function route(input: string): Intent {
     mode: exportPlayer[2].toLowerCase() === "rich" ? "AUDIT_RICH" : "MADDEN_ENTRY"
   };
 
-  const teamLock = value.match(/^lock\s+team\s+([A-Za-z]{2,4})\s+(QB|RB|WR|TE|LT|LG|C|RG|RT|REDGE|LEDGE|DT|MIKE|WILL|SAM|CB|FS|SS|K|P)$/i);
+  const teamLock = value.match(/^lock\s+team\s+([A-Za-z]{2,4})\s+(QB|RB|WR|TE|LT|LG|C|RG|RT|REDGE|LEDGE|DT|MIKE|WILL|SAM|CB|FS|SS|K|P|FB|LS)$/i);
   if (teamLock) return {
     type: "TEAM_ROOM_LOCK",
     team: teamLock[1].toUpperCase(),
     position: teamLock[2].toUpperCase()
   };
 
-  const teamAudit = value.match(/^audit\s+team\s+([A-Za-z]{2,4})(?:\s+(QB|RB|WR|TE|LT|LG|C|RG|RT|REDGE|LEDGE|DT|MIKE|WILL|SAM|CB|FS|SS|K|P))?$/i);
+  const teamAudit = value.match(/^audit\s+team\s+([A-Za-z]{2,4})(?:\s+(QB|RB|WR|TE|LT|LG|C|RG|RT|REDGE|LEDGE|DT|MIKE|WILL|SAM|CB|FS|SS|K|P|FB|LS))?$/i);
   if (teamAudit) return {
     type: "TEAM_AUDIT",
     team: teamAudit[1].toUpperCase(),

@@ -1,7 +1,8 @@
 export type Position =
   | "QB" | "RB" | "WR" | "TE" | "LT" | "LG" | "C" | "RG" | "RT"
   | "REDGE" | "LEDGE" | "DT" | "MIKE" | "WILL" | "SAM"
-  | "CB" | "FS" | "SS" | "K" | "P";
+  | "CB" | "FS" | "SS" | "K" | "P"
+  | "FB" | "LS";
 
 export type AuditStatus =
   | "DRAFT" | "VALIDATED" | "APPROVED"

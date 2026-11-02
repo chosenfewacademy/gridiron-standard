@@ -876,7 +876,7 @@
     "FB": {
       "order": 21,
       "group": "Offense",
-      "current_status": "ADDENDUM_PROPOSED",
+      "current_status": "PENDING",
       "pff_cited_inputs": [
         "overall offense grade (player page)",
         "run blocking",
@@ -915,7 +915,7 @@
     "LS": {
       "order": 22,
       "group": "Special Teams",
-      "current_status": "ADDENDUM_PROPOSED",
+      "current_status": "PENDING",
       "pff_cited_inputs": [
         "PFF long snapper grade (weekly special teams reports)"
       ],

@@ -147,3 +147,13 @@ metrics, on-field impact metrics, and the Madden attributes they inform. They ar
 task as research/analysis inputs. They add guidance; they do not remove or relax any evidence
 category, gate, threshold, scarcity rule or retry ceiling. EA ratings remain controls only; no
 Madden OVR formula is encoded.
+
+## Addendum v1.1.1 — FB and LS exact buckets (ENACTED)
+
+Architecture Version: 1.1.1
+Methodology Version: 1.1.0
+Approved: 2026-11-01/2026-11-02 by the commissioner (user approval).
+Adds fullback (FB) and long snapper (LS) as exact buckets 21 and 22, appended after P in
+config/position-sequence.json. All v1.0.0 text and Amendment v1.1 above remain in force unchanged.
+FB/LS use the A3 per-position inputs in config/position-metrics.json and docs/positions/FB.md, LS.md.
+Details: docs/amendments/v1.1-addendum-fb-ls.md.

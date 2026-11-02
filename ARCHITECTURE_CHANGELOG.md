@@ -114,3 +114,10 @@ No frozen architectural rule was changed.
 - production readiness checklist
 
 No frozen architectural rule was changed.
+
+## 1.1.1 (addendum)
+
+- FB and LS added as exact buckets 21/22 after P (commissioner approval 2026-11-01/02).
+- State gains FB/LS as PENDING only, via the add-only addendum state path.
+
+No frozen architectural rule was changed.
