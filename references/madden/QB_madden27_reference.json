@@ -366,6 +366,32 @@
       "team": "Los Angeles Rams",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Kirk Cousins": {
+      "ea_id": 11215,
+      "OVR": 76,
+      "SPD": 69,
+      "ACC": 67,
+      "AGI": 69,
+      "COD": 67,
+      "STR": 52,
+      "AWR": 77,
+      "THP": 87,
+      "SAC": 90,
+      "MAC": 84,
+      "DAC": 81,
+      "RUN": 84,
+      "TUP": 83,
+      "PAC": 91,
+      "BSK": 44,
+      "CAR": 58,
+      "JMP": 71,
+      "INJ": 85,
+      "STA": 89,
+      "TGH": 93,
+      "team": "Las Vegas Raiders",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
