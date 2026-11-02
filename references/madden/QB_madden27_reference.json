@@ -158,6 +158,32 @@
       "team": "Buffalo Bills",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Jared Goff": {
+      "ea_id": 17540,
+      "OVR": 88,
+      "SPD": 74,
+      "ACC": 79,
+      "AGI": 72,
+      "COD": 69,
+      "STR": 64,
+      "AWR": 91,
+      "THP": 90,
+      "SAC": 95,
+      "MAC": 95,
+      "DAC": 82,
+      "RUN": 84,
+      "TUP": 84,
+      "PAC": 94,
+      "BSK": 75,
+      "CAR": 58,
+      "JMP": 68,
+      "INJ": 96,
+      "STA": 91,
+      "TGH": 93,
+      "team": "Detroit Lions",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
