@@ -236,6 +236,32 @@
       "team": "NY Jets",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "C.J. Stroud": {
+      "ea_id": 22688,
+      "OVR": 81,
+      "SPD": 82,
+      "ACC": 87,
+      "AGI": 80,
+      "COD": 75,
+      "STR": 61,
+      "AWR": 80,
+      "THP": 91,
+      "SAC": 90,
+      "MAC": 87,
+      "DAC": 84,
+      "RUN": 87,
+      "TUP": 86,
+      "PAC": 85,
+      "BSK": 72,
+      "CAR": 61,
+      "JMP": 78,
+      "INJ": 88,
+      "STA": 85,
+      "TGH": 88,
+      "team": "Houston Texans",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
