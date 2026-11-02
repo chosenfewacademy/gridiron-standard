@@ -210,6 +210,32 @@
       "team": "New England Patriots",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Geno Smith": {
+      "ea_id": 112,
+      "OVR": 75,
+      "SPD": 84,
+      "ACC": 82,
+      "AGI": 79,
+      "COD": 73,
+      "STR": 58,
+      "AWR": 77,
+      "THP": 88,
+      "SAC": 87,
+      "MAC": 84,
+      "DAC": 80,
+      "RUN": 87,
+      "TUP": 81,
+      "PAC": 86,
+      "BSK": 73,
+      "CAR": 59,
+      "JMP": 81,
+      "INJ": 87,
+      "STA": 93,
+      "TGH": 87,
+      "team": "NY Jets",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
