@@ -1,0 +1,686 @@
+{
+  "position": "QB",
+  "status": "APPROVED",
+  "generated_at": "2026-11-01T22:52:12-05:00",
+  "generator": "scripts/build-candidate-pools.py",
+  "note": "PROPOSED for commissioner approval. Composite is a triage order for auditing, not a rating. Side/role flags must be resolved before provisional_top_10.",
+  "candidates": [
+    {
+      "player": "Drake Maye",
+      "player_id": "drake_maye",
+      "team": "NE",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 2.58,
+      "reasoning": "PFF 2026 overall 81.8 (#7); PFF 2025 overall 80.7 (#8); 2025 All-Pro selection; 450 snaps in 7 games (2026); 2026 stat score 68.3 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#7",
+        "pff_2025#8",
+        "allpro_2025#2",
+        "nflverse_snaps_2026#11",
+        "nflverse_stats_2026#4"
+      ]
+    },
+    {
+      "player": "Joe Burrow",
+      "player_id": "joe_burrow",
+      "team": "CIN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 2.11,
+      "reasoning": "PFF 2026 overall 93.5 (#1); PFF 2025 overall 91.8 (#2); 372 snaps in 6 games (2026); 2026 stat score 69.7 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#1",
+        "pff_2025#2",
+        "nflverse_stats_2026#3"
+      ]
+    },
+    {
+      "player": "Dak Prescott",
+      "player_id": "dak_prescott",
+      "team": "DAL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 1.987,
+      "reasoning": "PFF 2026 overall 86.7 (#3); PFF 2025 overall 86.9 (#5); 471 snaps in 7 games (2026); 2026 stat score 56.0 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#3",
+        "pff_2025#5",
+        "nflverse_snaps_2026#6",
+        "nflverse_stats_2026#7"
+      ]
+    },
+    {
+      "player": "Josh Allen",
+      "player_id": "josh_allen",
+      "team": "BUF",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 1.965,
+      "reasoning": "PFF 2026 overall 84.4 (#5); PFF 2025 overall 90.6 (#3); 389 snaps in 6 games (2026); 2026 stat score 79.4 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#5",
+        "pff_2025#3",
+        "nflverse_snaps_2026#19",
+        "nflverse_stats_2026#1"
+      ]
+    },
+    {
+      "player": "Brock Purdy",
+      "player_id": "brock_purdy",
+      "team": "SF",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 1.945,
+      "reasoning": "PFF 2026 overall 86.1 (#4); PFF 2025 overall 85.4 (#6); 417 snaps in 7 games (2026); 2026 stat score 77.6 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#4",
+        "pff_2025#6",
+        "nflverse_snaps_2026#15",
+        "nflverse_stats_2026#2"
+      ]
+    },
+    {
+      "player": "Matthew Stafford",
+      "player_id": "matthew_stafford",
+      "team": "LA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 1.845,
+      "reasoning": "PFF 2026 overall 64.5 (#24); PFF 2025 overall 92.0 (#1); 2025 All-Pro selection; 495 snaps in 7 games (2026); 2026 stat score 18.1 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2025#1",
+        "allpro_2025#1",
+        "nflverse_snaps_2026#3",
+        "nflverse_stats_2026#17"
+      ]
+    },
+    {
+      "player": "Jared Goff",
+      "player_id": "jared_goff",
+      "team": "DET",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 1.532,
+      "reasoning": "PFF 2026 overall 82.7 (#6); PFF 2025 overall 77.7 (#12); 409 snaps in 6 games (2026); 2026 stat score 57.5 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#6",
+        "pff_2025#12",
+        "nflverse_snaps_2026#16",
+        "nflverse_stats_2026#6"
+      ]
+    },
+    {
+      "player": "Jordan Love",
+      "player_id": "jordan_love",
+      "team": "GB",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 1.42,
+      "reasoning": "PFF 2026 overall 74.5 (#15); PFF 2025 overall 88.8 (#4); 523 snaps in 8 games (2026); 2026 stat score 45.5 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#15",
+        "pff_2025#4",
+        "nflverse_snaps_2026#1",
+        "nflverse_stats_2026#9"
+      ]
+    },
+    {
+      "player": "Lamar Jackson",
+      "player_id": "lamar_jackson",
+      "team": "BAL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 1.31,
+      "reasoning": "PFF 2026 overall 91.3 (#2); PFF 2025 overall 74.0 (#20); 223 snaps in 4 games (2026); 2026 stat score 41.6 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#2",
+        "pff_2025#20",
+        "nflverse_stats_2026#10"
+      ]
+    },
+    {
+      "player": "Kirk Cousins",
+      "player_id": "ext_00-0029604",
+      "team": "LV",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 1.14,
+      "reasoning": "PFF 2026 overall 77.7 (#12); PFF 2025 overall 76.0 (#16); 469 snaps in 7 games (2026); 2026 stat score 47.5 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#12",
+        "pff_2025#16",
+        "nflverse_snaps_2026#9",
+        "nflverse_stats_2026#8"
+      ]
+    },
+    {
+      "player": "C.J. Stroud",
+      "player_id": "ext_00-0039163",
+      "team": "HOU",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 1.038,
+      "reasoning": "PFF 2026 overall 81.0 (#9); PFF 2025 overall 65.0 (#31); 458 snaps in 7 games (2026); 2026 stat score 39.6 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#9",
+        "nflverse_snaps_2026#10",
+        "nflverse_stats_2026#11"
+      ]
+    },
+    {
+      "player": "Geno Smith",
+      "player_id": "ext_00-0030565",
+      "team": "NYJ",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 0.96,
+      "reasoning": "PFF 2026 overall 81.4 (#8); PFF 2025 overall 60.9 (#34); 430 snaps in 7 games (2026); 2026 stat score 26.5 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#8",
+        "nflverse_snaps_2026#13",
+        "nflverse_stats_2026#14"
+      ]
+    },
+    {
+      "player": "Trevor Lawrence",
+      "player_id": "trevor_lawrence",
+      "team": "JAX",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 0.95,
+      "reasoning": "PFF 2026 overall 71.7 (#20); PFF 2025 overall 83.7 (#7); 372 snaps in 6 games (2026); 2026 stat score 64.8 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#20",
+        "pff_2025#7",
+        "nflverse_stats_2026#5"
+      ]
+    },
+    {
+      "player": "Patrick Mahomes",
+      "player_id": "patrick_mahomes",
+      "team": "KC",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 0.922,
+      "reasoning": "PFF 2026 overall 79.7 (#10); PFF 2025 overall 76.0 (#16); 375 snaps in 6 games (2026); 2026 stat score 35.1 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#10",
+        "pff_2025#17",
+        "nflverse_snaps_2026#20",
+        "nflverse_stats_2026#13"
+      ]
+    },
+    {
+      "player": "Caleb Williams",
+      "player_id": "ext_00-0039918",
+      "team": "CHI",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 0.68,
+      "reasoning": "PFF 2026 overall 72.6 (#17); PFF 2025 overall 76.9 (#13); 285 snaps in 4 games (2026); 2026 stat score 39.3 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#17",
+        "pff_2025#14",
+        "nflverse_stats_2026#12"
+      ]
+    },
+    {
+      "player": "Bryce Young",
+      "player_id": "ext_00-0039150",
+      "team": "CAR",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 0.675,
+      "reasoning": "PFF 2026 overall 79.0 (#11); PFF 2025 overall 71.0 (#24); 470 snaps in 7 games (2026); 2026 stat score 12.3 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#11",
+        "nflverse_snaps_2026#7"
+      ]
+    },
+    {
+      "player": "Jayden Daniels",
+      "player_id": "ext_00-0039910",
+      "team": "WAS",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 0.58,
+      "reasoning": "PFF 2026 overall 75.1 (#13); PFF 2025 overall 74.8 (#18); 238 snaps in 4 games (2026); 2026 stat score 16.8 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#13",
+        "pff_2025#18",
+        "nflverse_stats_2026#18"
+      ]
+    },
+    {
+      "player": "Jacoby Brissett",
+      "player_id": "ext_00-0033119",
+      "team": "ARI",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 0.487,
+      "reasoning": "PFF 2026 overall 73.8 (#16); PFF 2025 overall 71.1 (#23); 504 snaps in 7 games (2026)",
+      "citations": [
+        "pff_2026#16",
+        "nflverse_snaps_2026#2"
+      ]
+    },
+    {
+      "player": "Tyler Shough",
+      "player_id": "ext_00-0040743",
+      "team": "NO",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 0.453,
+      "reasoning": "PFF 2026 overall 72.5 (#18); PFF 2025 overall 74.6 (#19); 478 snaps in 7 games (2026); 2026 stat score 13.1 (passing EPA + rushing EPA)",
+      "citations": [
+        "pff_2026#18",
+        "pff_2025#19",
+        "nflverse_snaps_2026#4",
+        "nflverse_stats_2026#20"
+      ]
+    },
+    {
+      "player": "Cam Ward",
+      "player_id": "ext_00-0040676",
+      "team": "TEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [],
+      "composite": 0.4,
+      "reasoning": "PFF 2026 overall 74.7 (#14); PFF 2025 overall 58.4 (#36); 399 snaps in 7 games (2026)",
+      "citations": [
+        "pff_2026#14",
+        "nflverse_snaps_2026#17"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "player": "Justin Herbert",
+      "player_id": "justin_herbert",
+      "reason": "Below pool cutoff (composite 0.34; PFF 2026 grade 43.6; sources pff_2025#11, nflverse_snaps_2026#18). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Sam Darnold",
+      "player_id": "sam_darnold",
+      "reason": "Below pool cutoff (composite 0.33; PFF 2026 grade 66.8; sources pff_2025#10). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Bo Nix",
+      "player_id": "ext_00-0039732",
+      "reason": "Below pool cutoff (composite 0.33; PFF 2026 grade 50.7; sources pff_2025#13, nflverse_snaps_2026#14). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Daniel Jones",
+      "player_id": "ext_00-0035710",
+      "reason": "Below pool cutoff (composite 0.20; PFF 2026 grade 48.4; sources nflverse_snaps_2026#5). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Mac Jones",
+      "player_id": "ext_00-0036972",
+      "reason": "Below pool cutoff (composite 0.18; PFF 2026 grade n/a; sources pff_2025#15). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Aaron Rodgers",
+      "player_id": "ext_00-0023459",
+      "reason": "Below pool cutoff (composite 0.16; PFF 2026 grade 65.2; sources nflverse_snaps_2026#8). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Drew Lock",
+      "player_id": "ext_00-0035704",
+      "reason": "Below pool cutoff (composite 0.15; PFF 2026 grade n/a; sources nflverse_stats_2026#16). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Deshaun Watson",
+      "player_id": "ext_00-0033537",
+      "reason": "Below pool cutoff (composite 0.11; PFF 2026 grade 54.6; sources nflverse_snaps_2026#12). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Kyler Murray",
+      "player_id": "ext_00-0035228",
+      "reason": "Below pool cutoff (composite 0.10; PFF 2026 grade 71.8; sources pff_2026#19). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Gardner Minshew",
+      "player_id": "ext_00-0035289",
+      "reason": "Below pool cutoff (composite 0.06; PFF 2026 grade n/a; sources nflverse_stats_2026#19). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    }
+  ],
+  "free_agents": [],
+  "injured": [
+    {
+      "player": "Jalen Hurts",
+      "player_id": "jalen_hurts",
+      "team": "PHI",
+      "status": "IR",
+      "in_pool": false,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.36, sources pff_2025#9"
+    },
+    {
+      "player": "Jaxson Dart",
+      "player_id": "ext_00-0040691",
+      "team": "NYG",
+      "status": "IR",
+      "in_pool": false,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.18, sources nflverse_stats_2026#15"
+    }
+  ],
+  "coverage_sources": [
+    {
+      "id": "pff_2026",
+      "name": "PFF 2026 season overall grades (qb)",
+      "publisher": "PFF",
+      "kind": "grades",
+      "season": 2026,
+      "url": "https://www.pff.com/grades/nfl/qb/2026",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Joe Burrow",
+        "Lamar Jackson",
+        "Dak Prescott",
+        "Brock Purdy",
+        "Josh Allen",
+        "Jared Goff",
+        "Drake Maye",
+        "Geno Smith",
+        "C.J. Stroud",
+        "Patrick Mahomes",
+        "Bryce Young",
+        "Kirk Cousins",
+        "Jayden Daniels",
+        "Cam Ward",
+        "Jordan Love",
+        "Jacoby Brissett",
+        "Caleb Williams",
+        "Tyler Shough",
+        "Kyler Murray",
+        "Trevor Lawrence"
+      ]
+    },
+    {
+      "id": "pff_2025",
+      "name": "PFF 2025 season overall grades (qb)",
+      "publisher": "PFF",
+      "kind": "grades",
+      "season": 2025,
+      "url": "https://www.pff.com/grades/nfl/qb/2025",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Matthew Stafford",
+        "Joe Burrow",
+        "Josh Allen",
+        "Jordan Love",
+        "Dak Prescott",
+        "Brock Purdy",
+        "Trevor Lawrence",
+        "Drake Maye",
+        "Jalen Hurts",
+        "Sam Darnold",
+        "Justin Herbert",
+        "Jared Goff",
+        "Bo Nix",
+        "Caleb Williams",
+        "Mac Jones",
+        "Kirk Cousins",
+        "Patrick Mahomes",
+        "Jayden Daniels",
+        "Tyler Shough",
+        "Lamar Jackson"
+      ]
+    },
+    {
+      "id": "allpro_2025",
+      "name": "2025 All-Pro (AP, PFWA, TSN)",
+      "publisher": "AP/PFWA/TSN via Wikipedia",
+      "kind": "honors",
+      "season": 2025,
+      "url": "https://en.wikipedia.org/wiki/2025_All-Pro_Team",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Matthew Stafford",
+        "Drake Maye"
+      ]
+    },
+    {
+      "id": "nflverse_snaps_2026",
+      "name": "nflverse 2026 total snaps, roster depth ['QB'] (weeks 1-8)",
+      "publisher": "nflverse",
+      "kind": "usage",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Jordan Love",
+        "Jacoby Brissett",
+        "Matthew Stafford",
+        "Tyler Shough",
+        "Daniel Jones",
+        "Dak Prescott",
+        "Bryce Young",
+        "Aaron Rodgers",
+        "Kirk Cousins",
+        "C.J. Stroud",
+        "Drake Maye",
+        "Deshaun Watson",
+        "Geno Smith",
+        "Bo Nix",
+        "Brock Purdy",
+        "Jared Goff",
+        "Cam Ward",
+        "Justin Herbert",
+        "Josh Allen",
+        "Patrick Mahomes"
+      ]
+    },
+    {
+      "id": "nflverse_stats_2026",
+      "name": "nflverse 2026 regular-season stats: passing EPA + rushing EPA",
+      "publisher": "nflverse",
+      "kind": "stats",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Josh Allen",
+        "Brock Purdy",
+        "Joe Burrow",
+        "Drake Maye",
+        "Trevor Lawrence",
+        "Jared Goff",
+        "Dak Prescott",
+        "Kirk Cousins",
+        "Jordan Love",
+        "Lamar Jackson",
+        "C.J. Stroud",
+        "Caleb Williams",
+        "Patrick Mahomes",
+        "Geno Smith",
+        "Jaxson Dart",
+        "Drew Lock",
+        "Matthew Stafford",
+        "Jayden Daniels",
+        "Gardner Minshew",
+        "Tyler Shough"
+      ]
+    }
+  ],
+  "reaudit": {
+    "target_position_state": "LOCKED",
+    "requires_trigger": "TOP10_REAUDIT",
+    "note": "Proposed re-audit pool only. Does not modify baselines, locks, state, LG progress or audit history. An actual re-audit needs the commissioner's explicit TOP10_REAUDIT trigger.",
+    "compared_against": "data/baselines/QB.json (locked top_10, read-only)",
+    "compared_list": [
+      "Matthew Stafford",
+      "Joe Burrow",
+      "Josh Allen",
+      "Drake Maye",
+      "Jordan Love",
+      "Dak Prescott",
+      "Brock Purdy",
+      "Justin Herbert",
+      "Trevor Lawrence",
+      "Sam Darnold"
+    ],
+    "flags": [
+      {
+        "player": "Justin Herbert",
+        "flag": "LOCKED_PLAYER_DECLINED",
+        "detail": "roster_2026 wk8 LAC ACTIVE; Below pool cutoff (composite 0.34; PFF 2026 grade 43.6; sources pff_2025#11, nflverse_snaps_2026#18). Re-include on request.; PFF 2026 overall 43.6 (#36)",
+        "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      },
+      {
+        "player": "Sam Darnold",
+        "flag": "LOCKED_PLAYER_DECLINED",
+        "detail": "roster_2026 wk8 SEA ACTIVE; Below pool cutoff (composite 0.33; PFF 2026 grade 66.8; sources pff_2025#10). Re-include on request.; PFF 2026 overall 66.8 (#21)",
+        "source": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      },
+      {
+        "player": "Jared Goff",
+        "flag": "STRONG_CANDIDATE_NOT_IN_TOP10",
+        "detail": "pool rank 7 (ACTIVE); PFF 2026 overall 82.7 (#6); PFF 2025 overall 77.7 (#12); 409 snaps in 6 games (2026); 2026 stat score 57.5 (passing EPA + rushing EPA)",
+        "source": "coverage_sources"
+      },
+      {
+        "player": "Lamar Jackson",
+        "flag": "STRONG_CANDIDATE_NOT_IN_TOP10",
+        "detail": "pool rank 9 (ACTIVE); PFF 2026 overall 91.3 (#2); PFF 2025 overall 74.0 (#20); 223 snaps in 4 games (2026); 2026 stat score 41.6 (passing EPA + rushing EPA)",
+        "source": "coverage_sources"
+      },
+      {
+        "player": "Kirk Cousins",
+        "flag": "STRONG_CANDIDATE_NOT_IN_TOP10",
+        "detail": "pool rank 10 (ACTIVE); PFF 2026 overall 77.7 (#12); PFF 2025 overall 76.0 (#16); 469 snaps in 7 games (2026); 2026 stat score 47.5 (passing EPA + rushing EPA)",
+        "source": "coverage_sources"
+      },
+      {
+        "player": "C.J. Stroud",
+        "flag": "STRONG_CANDIDATE_NOT_IN_TOP10",
+        "detail": "pool rank 11 (ACTIVE); PFF 2026 overall 81.0 (#9); PFF 2025 overall 65.0 (#31); 458 snaps in 7 games (2026); 2026 stat score 39.6 (passing EPA + rushing EPA)",
+        "source": "coverage_sources"
+      },
+      {
+        "player": "Geno Smith",
+        "flag": "STRONG_CANDIDATE_NOT_IN_TOP10",
+        "detail": "pool rank 12 (ACTIVE); PFF 2026 overall 81.4 (#8); PFF 2025 overall 60.9 (#34); 430 snaps in 7 games (2026); 2026 stat score 26.5 (passing EPA + rushing EPA)",
+        "source": "coverage_sources"
+      }
+    ]
+  },
+  "approved_by": "PhiXCrypto (commissioner)",
+  "approved_at": "2026-11-02T04:29:56.783Z",
+  "approved_from": "data/candidate-pools/QB.reaudit.proposed.json"
+}
