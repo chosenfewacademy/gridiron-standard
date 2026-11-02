@@ -12,7 +12,7 @@ import { runResearchTransportTests } from "./research-transport-tests.js";
 import { runOpenAIResponsesTransportTests } from "./openai-responses-transport-tests.js";
 import { runGithubWorkflowTests } from "./github-workflow-tests.js";
 import { runGrokBotTransportTests } from "./grok-bot-transport-tests.js";
-import { runRosterRefreshTests, runStageEngineTests } from "./stage-tests.js";
+import { runRosterRefreshTests, runStageEngineTests, runCoverageGateTests } from "./stage-tests.js";
 import { runStrictnessTests, runPositionArchitectureTests } from "./strictness-tests.js";
 
 function test(name: string, fn: () => void): void {
@@ -37,6 +37,7 @@ const atest = async (name: string, fn: () => void | Promise<void>) => {
 };
 await runRosterRefreshTests(atest as any);
 runStageEngineTests(test);
+runCoverageGateTests(test);
 runPositionArchitectureTests(test);
 
 test("route continue alias", () => {

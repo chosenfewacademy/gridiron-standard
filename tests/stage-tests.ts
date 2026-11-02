@@ -35,26 +35,81 @@ export async function runRosterRefreshTests(test: T) {
 import { planNext, generatePairs, stageOutputErrors, ids } from "../src/stage-engine.js";
 import { getNextTask } from "../src/state-machine.js";
 import { lockPosition } from "../src/position-lock.js";
+import { checkCoverage, normName } from "../src/coverage-gate.js";
 
 const REAL_STATE = JSON.parse(fs.readFileSync("state/project-state.json", "utf8"));
 const TOP = Array.from({ length: 10 }, (_, i) => `C Player ${i + 1}`);
 
 function sandbox(pos = "C") {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), "stage-"));
-  for (const d of ["state", "data/baselines", "config", `audits/league/${pos}`]) fs.mkdirSync(path.join(root, d), { recursive: true });
+  for (const d of ["state", "data/baselines", "config", "data/players", "data/candidate-pools", `audits/league/${pos}`]) fs.mkdirSync(path.join(root, d), { recursive: true });
   for (const f of ["state/locks.json", "config/position-sequence.json", "config/position-metrics.json"]) fs.copyFileSync(f, path.join(root, f));
+  fs.writeFileSync(path.join(root, "data/players/registry.json"), JSON.stringify({ players: [...TOP, "C Out", "C Ext"].map((n, i) => ({ player_id: `p${i}`, full_name: n })) }));
+  fs.writeFileSync(path.join(root, `data/candidate-pools/${pos}.json`), JSON.stringify(goodPool(pos, "APPROVED")));
   const state = structuredClone(REAL_STATE);
   state.positions.LG = "LOCKED"; state.positions[pos] = "IN_PROGRESS";
   state.current_position = pos; state.current_stage = "provisional_top_10"; state.completed_tasks = [];
   const save = () => fs.writeFileSync(path.join(root, "state/project-state.json"), JSON.stringify(state));
   save();
-  const opts = { auditsRoot: path.join(root, "audits/league"), metricsPath: path.join(root, "config/position-metrics.json") };
+  const opts = { root, auditsRoot: path.join(root, "audits/league"), metricsPath: path.join(root, "config/position-metrics.json") };
   let n = 0;
   const approve = (task_id: string, extra: Record<string, unknown> = {}) => {
     fs.writeFileSync(path.join(opts.auditsRoot, pos, `A${++n}.json`), JSON.stringify({ audit_id: `A${n}`, task_id, status: "APPROVED", position: pos, created_at: `2026-11-01T00:00:${String(n).padStart(2, "0")}Z`, ...extra }));
     state.completed_tasks.push(task_id); save();
   };
   return { root, state, opts, approve };
+}
+
+const SRC = (id: string, kind: string, publisher: string, top: string[]) =>
+  ({ id, name: id, publisher, kind, season: 2026, url: `https://example.org/${id}`, retrieved_at: "2026-11-01T22:00:00-05:00", top: [...top] });
+function goodPool(pos: string, status = "PROPOSED"): any {
+  return { position: pos, status, ...(status === "APPROVED" ? { approved_by: "commissioner", approved_at: "2026-11-01" } : {}),
+    candidates: [...TOP, "C Out"].map((player, i) => ({ player, player_id: i < 10 ? `p${i}` : "p10" })),
+    exclusions: [{ player: "C Ext", reason: "PFF grade below cutoff; usage only", code: "BELOW_CUTOFF" }],
+    coverage_sources: [SRC("pff", "grades", "PFF", TOP), SRC("snaps", "usage", "nflverse", ["C Ext", ...TOP]), SRC("ap", "honors", "AP", ["C Out"])] };
+}
+
+export function runCoverageGateTests(test: (n: string, f: () => void) => void) {
+  const reg = [...TOP, "C Out", "C Ext"].map((n, i) => ({ player_id: `p${i}`, full_name: n }));
+  test("coverage gate passes when every top name is pooled or excluded with reason", () => {
+    const r = checkCoverage(goodPool("C"), reg); assert.equal(r.ok, true, r.errors.join("; "));
+  });
+  test("coverage gate blocks a top-ranked name missing from the pool", () => {
+    const p = goodPool("C"); p.coverage_sources[2].top.push("Star Center");
+    const r = checkCoverage(p, [...reg, { player_id: "s", full_name: "Star Center" }]);
+    assert.equal(r.ok, false); assert.deepEqual(r.unaccounted.map(u => u.player), ["Star Center"]);
+  });
+  test("coverage gate blocks a top-ranked name missing from the registry, even if pooled", () => {
+    const p = goodPool("C"); p.coverage_sources[0].top.push("Ghost Guy"); p.candidates.push({ player: "Ghost Guy", player_id: null });
+    const r = checkCoverage(p, reg); assert.equal(r.ok, false); assert.deepEqual(r.missing_from_registry, ["Ghost Guy"]);
+    p.candidates.pop(); p.exclusions.push({ player: "Ghost Guy", reason: "Retired after 2025; not on 2026 roster", code: "NOT_ON_2026_ROSTER" });
+    assert.equal(checkCoverage(p, reg).ok, true);
+  });
+  test("coverage gate requires >=3 sources, 3 kinds, 2 publishers, urls and real exclusion reasons", () => {
+    const p = goodPool("C"); p.coverage_sources = p.coverage_sources.slice(0, 2); assert.equal(checkCoverage(p, reg).ok, false);
+    const q = goodPool("C"); q.coverage_sources.forEach((s: any) => s.publisher = "PFF"); assert.equal(checkCoverage(q, reg).ok, false);
+    const u = goodPool("C"); u.coverage_sources[0].url = "http://x"; assert.equal(checkCoverage(u, reg).ok, false);
+    const e = goodPool("C"); e.exclusions[0].reason = "no"; assert.equal(checkCoverage(e, reg).ok, false);
+  });
+  test("name matching tolerates suffixes and accents (Jr., II)", () => {
+    assert.equal(normName("Will Anderson Jr."), normName("Will Anderson")); assert.equal(normName("Patrick Surtain II"), normName("patrick surtain"));
+  });
+  test("provisional stage blocks without an APPROVED pool, and when coverage fails", () => {
+    const { root, state, opts } = sandbox();
+    fs.writeFileSync(path.join(root, "data/candidate-pools/C.json"), JSON.stringify(goodPool("C")));
+    assert.throws(() => planNext(state, opts), /COVERAGE_GATE_BLOCKED.*not APPROVED/);
+    const bad = goodPool("C", "APPROVED"); bad.coverage_sources[0].top.push("Star Center");
+    fs.writeFileSync(path.join(root, "data/candidate-pools/C.json"), JSON.stringify(bad));
+    assert.throws(() => planNext(state, opts), /COVERAGE_GATE_BLOCKED.*Star Center/);
+    fs.rmSync(path.join(root, "data/candidate-pools/C.json"));
+    assert.throws(() => planNext(state, opts), /no approved candidate pool/);
+  });
+  test("approved pool is attached and provisional names outside it are rejected", () => {
+    const { state, opts } = sandbox(); const t: any = planNext(state, opts).task;
+    assert.equal(t.candidate_pool.length, 11);
+    const errs = stageOutputErrors(t, { provisional_top_10: [...TOP.slice(0, 9), "Outsider"], first_out: "C Out", external_controls: ["x"] });
+    assert.ok(errs.some(e => /Outsider is not in the approved candidate pool/.test(e)));
+  });
 }
 
 export function runStageEngineTests(test: (n: string, f: () => void) => void) {
@@ -112,6 +167,7 @@ export function runStageEngineTests(test: (n: string, f: () => void) => void) {
     assert.equal(b.top_10[9].player, "C Out"); assert.equal(b.mutation_policy, "TOP10_REAUDIT_ONLY");
     const s2 = JSON.parse(fs.readFileSync(path.join(root, "state/project-state.json"), "utf8"));
     assert.equal(s2.positions.C, "LOCKED"); assert.equal(s2.current_position, "RG"); assert.equal(s2.current_stage, "provisional_top_10");
+    assert.match(String(s2.current_task.blocked), /COVERAGE_GATE_BLOCKED/, "next position waits for an approved pool");
     assert.throws(() => planNext({ ...s2, current_position: "C" }, opts), /LOCKED/);
   });
   test("lock refuses early stages, pending re-audits, and existing baselines", () => {

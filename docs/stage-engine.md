@@ -5,7 +5,8 @@ and APPROVED immutable records in `audits/league/<POS>/`. It never mutates state
 
 | Stage | Task id | Required output fields (enforced as validation errors, counted against the 3-revision ceiling) |
 |---|---|---|
-| provisional_top_10 | `<POS>_PROVISIONAL_TOP10` | `provisional_top_10` (10 distinct), `first_out`, `external_controls` |
+| coverage gate (pre-provisional) | `data/candidate-pools/<POS>.json` | `status: APPROVED` + approved_by/at; >=3 sources, >=3 kinds (grades/usage/stats/honors), >=2 publishers; every source top-20 name in the registry AND pooled or excluded with a reason (`npm run coverage:check -- <POS> [--proposed]`) |
+| provisional_top_10 | `<POS>_PROVISIONAL_TOP10` | `provisional_top_10` (10 distinct, all from the approved pool), `first_out`, `external_controls` |
 | pair_audits | `<POS>_PAIR_01..05` (ranks 1v2..9v10), `<POS>_PAIR_06` (10 vs first_out) | `pair_result` |
 | membership_reopen | `<POS>_MEMBERSHIP` | `final_top_10` (10 distinct) |
 | scarcity_audit | `<POS>_SCARCITY` | `scarcity` |

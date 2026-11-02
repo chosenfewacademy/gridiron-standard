@@ -31,7 +31,8 @@
     "ci": "npm run typecheck && npm run test",
     "preflight": "node scripts/run-with-fallback.mjs src/preflight.ts src/preflight.js",
     "test:fallback": "set GRIDIRON_SIMULATE_TSX_ENOMEM=1&& set GRIDIRON_FALLBACK_PROBE=1&& node scripts/run-with-fallback.mjs tests/fallback-probe.ts tests/fallback-probe.js",
-    "position:lock": "tsx src/lock-position.ts"
+    "position:lock": "tsx src/lock-position.ts",
+    "coverage:check": "tsx src/coverage-check.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

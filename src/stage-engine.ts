@@ -13,6 +13,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { Position, ProjectState } from "./types.js";
+import { normName, requireApprovedPool } from "./coverage-gate.js";
 
 export const STAGES = [
   "provisional_top_10", "pair_audits", "membership_reopen", "scarcity_audit",
@@ -29,7 +30,7 @@ export const LEGACY_PAIR_SEQUENCES: Partial<Record<Position, Array<{ task_id: st
   ]
 };
 
-export interface EngineOptions { auditsRoot?: string; metricsPath?: string }
+export interface EngineOptions { auditsRoot?: string; metricsPath?: string; root?: string }
 
 export const ids = (pos: string) => ({
   provisional: `${pos}_PROVISIONAL_TOP10`,
@@ -90,7 +91,11 @@ export function planNext(state: ProjectState, opts: EngineOptions = {}): StagePl
 
   const legacy = LEGACY_PAIR_SEQUENCES[pos];
   const prov = approvedOutput(pos, I.provisional, opts);
-  if (!legacy && !done.has(I.provisional)) return mk("provisional_top_10", { task_id: I.provisional, type: "provisional_top_10" });
+  if (!legacy && !done.has(I.provisional)) {
+    const pool = requireApprovedPool(pos, opts.root); // coverage gate: blocks if any top name is unaccounted
+    return mk("provisional_top_10", { task_id: I.provisional, type: "provisional_top_10",
+      candidate_pool: pool.candidates.map(c => ({ player: c.player, player_id: c.player_id, flags: c.flags ?? [] })) });
+  }
 
   const provTop = names(prov?.provisional_top_10);
   const firstOut = names(prov ? [prov.first_out] : [])[0] ?? null;
@@ -129,6 +134,10 @@ export function stageOutputErrors(task: Record<string, any>, audit: Record<strin
     if (top.length !== 10 || new Set(top).size !== 10) e.push("provisional_top_10 must list 10 distinct players");
     if (!names([audit.first_out]).length) e.push("first_out is required");
     if (!Array.isArray(audit.external_controls) || !audit.external_controls.length) e.push("external_controls must be non-empty");
+    if (Array.isArray(task.candidate_pool)) {
+      const pool = new Set(task.candidate_pool.map((c: any) => normName(c.player)));
+      for (const n of top) if (!pool.has(normName(n))) e.push(`${n} is not in the approved candidate pool`);
+    }
   }
   if (t === "pair_audit" && !audit.pair_result) e.push("pair_result is required for pair_audit");
   if (t === "membership_reopen") {

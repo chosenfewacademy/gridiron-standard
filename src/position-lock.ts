@@ -16,7 +16,7 @@ export function lockPosition(pos: string, confirm: string | undefined, root = pr
   const baselineRel = `data/baselines/${pos}.json`;
   if (state.current_position !== pos || state.positions[pos] !== "IN_PROGRESS") throw new Error(`${pos} is not the in-progress position.`);
   if (fs.existsSync(r(baselineRel)) || locks.positions?.[pos]) throw new Error(`${pos} already has a baseline or lock; immutable.`);
-  const opts = { auditsRoot: r("audits/league"), metricsPath: r("config/position-metrics.json") };
+  const opts = { root, auditsRoot: r("audits/league"), metricsPath: r("config/position-metrics.json") };
   const plan = planNext(state, opts);
   if (plan.stage !== "lock") throw new Error(`${pos} is at stage ${plan.stage}; all stages must be approved before lock.`);
   const pending = (state.pending_reaudit_queue ?? []).filter((q: any) => (q.task?.position ?? q.position) === pos);
@@ -47,8 +47,13 @@ export function lockPosition(pos: string, confirm: string | undefined, root = pr
   if (next) {
     state.positions[next] = "IN_PROGRESS";
     state.current_position = next;
-    const p = planNext(state, opts);
-    state.current_stage = p.stage; state.current_task = p.task;
+    try {
+      const p = planNext(state, opts);
+      state.current_stage = p.stage; state.current_task = p.task;
+    } catch (err) { // e.g. COVERAGE_GATE_BLOCKED until the next pool is approved
+      state.current_stage = "provisional_top_10";
+      state.current_task = { task_id: `${next}_PROVISIONAL_TOP10`, type: "provisional_top_10", position: next, blocked: String((err as Error).message) };
+    }
   } else { state.current_stage = "complete"; state.current_task = {}; }
   fs.writeFileSync(r("state/project-state.json"), JSON.stringify(state, null, 2) + "\n");
   return { locked: pos, baseline: baselineRel, next_position: next ?? null };
