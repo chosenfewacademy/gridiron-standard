@@ -110,12 +110,44 @@ export function requireApprovedPool(pos: string, root = process.cwd()): Candidat
   return pool;
 }
 
+/** Approved re-audit pool (data/candidate-pools/<POS>.reaudit.json). Required before a TOP10_REAUDIT may be queued.
+ *  Approval of a re-audit pool does NOT touch the locked baseline; the pool only feeds the re-audit once triggered. */
+export function requireApprovedReauditPool(pos: string, root = process.cwd()): CandidatePool & { reaudit?: any } {
+  const file = path.join(root, "data/candidate-pools", `${pos}.reaudit.json`);
+  if (!fs.existsSync(file)) throw new Error(`COVERAGE_GATE_BLOCKED: ${pos} has no approved re-audit pool (data/candidate-pools/${pos}.reaudit.json).`);
+  const pool = JSON.parse(fs.readFileSync(file, "utf8"));
+  if (pool.position !== pos || pool.status !== "APPROVED" || !pool.approved_by || !pool.approved_at) throw new Error(`COVERAGE_GATE_BLOCKED: ${pos} re-audit pool is not APPROVED with approved_by/approved_at.`);
+  const reg = JSON.parse(fs.readFileSync(path.join(root, "data/players/registry.json"), "utf8")).players;
+  const r = checkReauditPool({ ...pool, status: "PROPOSED" }, reg);
+  if (!r.ok) throw new Error(`COVERAGE_GATE_BLOCKED: ${pos} re-audit: ${r.errors.join("; ")}`);
+  return pool;
+}
+
+/** Commissioner approval: copies a PROPOSED pool that passes its gate to the approved file (<POS>.json or <POS>.reaudit.json)
+ *  with status APPROVED + approved_by/approved_at. The proposed file is left untouched; approved files are immutable. */
+export function approvePool(file: string, by: string, root = process.cwd(), now = new Date()): string {
+  const m = /^([A-Z]+)\.(reaudit\.)?proposed\.json$/.exec(path.basename(file));
+  if (!m) throw new Error(`not a proposed pool file: ${file}`);
+  if (!by.trim()) throw new Error("approved_by required");
+  const src = path.join(root, "data/candidate-pools", path.basename(file));
+  const pool = JSON.parse(fs.readFileSync(src, "utf8"));
+  const out = path.join(root, "data/candidate-pools", `${m[1]}${m[2] ? ".reaudit" : ""}.json`);
+  if (fs.existsSync(out)) throw new Error(`already approved (immutable): ${path.relative(root, out)}`);
+  if (pool.position !== m[1] || pool.status !== "PROPOSED") throw new Error(`${file}: must be a PROPOSED pool for ${m[1]}`);
+  const reg = JSON.parse(fs.readFileSync(path.join(root, "data/players/registry.json"), "utf8")).players;
+  const r = m[2] ? checkReauditPool(pool, reg) : checkCoverage(pool, reg);
+  if (!r.ok) throw new Error(`COVERAGE_GATE_BLOCKED: ${file}: ${r.errors.join("; ")}`);
+  const approved = { ...pool, status: "APPROVED", approved_by: by, approved_at: now.toISOString(), approved_from: `data/candidate-pools/${path.basename(file)}` };
+  fs.writeFileSync(out, JSON.stringify(approved, null, 2) + "\n");
+  return path.relative(root, out);
+}
+
 /** Re-audit pools for LOCKED (or in-progress) positions: stored as <POS>.reaudit.proposed.json, never an active pool.
  *  They must pass the normal coverage gate and declare that a re-audit needs the commissioner's TOP10_REAUDIT trigger. */
 export function checkReauditPool(pool: CandidatePool & { reaudit?: any }, registryPlayers: any[]): CoverageResult {
   const r = checkCoverage(pool, registryPlayers);
   const errors = [...r.errors];
-  if (pool.status !== "PROPOSED") errors.push("re-audit pools stay PROPOSED; they are never approved in place of a locked baseline");
+  if (pool.status !== "PROPOSED") errors.push("proposed re-audit pools must be PROPOSED (approval writes a separate <POS>.reaudit.json and never replaces a locked baseline)");
   if (!pool.reaudit || pool.reaudit.requires_trigger !== "TOP10_REAUDIT") errors.push("re-audit pool must declare reaudit.requires_trigger = TOP10_REAUDIT");
   if (pool.reaudit && !Array.isArray(pool.reaudit.flags)) errors.push("re-audit pool must carry baseline comparison flags (array)");
   if (pool.reaudit && !Array.isArray(pool.reaudit.compared_list)) errors.push("re-audit pool must record the list it was compared against");

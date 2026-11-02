@@ -339,6 +339,37 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0028946",
+      "full_name": "Aaron Brewer",
+      "aliases": [
+        "Aaron"
+      ],
+      "team": null,
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0028946",
+        "espn": "15241",
+        "pff": "7301",
+        "pfr": "BrewAa00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 46,
+      "roster_status": "UNSIGNED_FREE_AGENT",
+      "birth_date": "1990-07-05",
+      "height": 77,
+      "weight": 232,
+      "college": "San Diego State",
+      "years_exp": 13,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket.",
+      "previous_team": "ARI"
+    },
+    {
       "player_id": "ext_00-0031388",
       "full_name": "Aaron Donald",
       "aliases": [
@@ -603,6 +634,38 @@
       "years_exp": 9,
       "source_position": "DL",
       "depth_chart_position": "DT",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
+    },
+    {
+      "player_id": "ext_00-0036727",
+      "full_name": "Adam Prentice",
+      "aliases": [
+        "Adam"
+      ],
+      "team": "DEN",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0036727",
+        "espn": "3929914",
+        "pff": "35639",
+        "pfr": "PrenAd00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 46,
+      "roster_status": "ACT",
+      "birth_date": "1997-01-16",
+      "height": 72,
+      "weight": 245,
+      "college": "South Carolina",
+      "years_exp": 5,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
       "requires_role_resolution": false,
       "role_resolution_reason": null
     },
@@ -1396,6 +1459,38 @@
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
     },
     {
+      "player_id": "ext_00-0035125",
+      "full_name": "Alec Ingold",
+      "aliases": [
+        "Alec"
+      ],
+      "team": "LAC",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0035125",
+        "espn": "3917668",
+        "pff": "34934",
+        "pfr": "IngoAl01"
+      },
+      "roster_context_history": [],
+      "jersey_number": 30,
+      "roster_status": "RES",
+      "birth_date": "1996-07-09",
+      "height": 73,
+      "weight": 242,
+      "college": "Wisconsin",
+      "years_exp": 7,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
+    },
+    {
       "player_id": "ext_00-0037664",
       "full_name": "Alec Pierce",
       "aliases": [
@@ -1721,6 +1816,33 @@
       "depth_chart_position": "ILB",
       "requires_role_resolution": true,
       "role_resolution_reason": "Must resolve exact REDGE/LEDGE/MIKE/WILL/SAM role from current usage and depth-chart evidence."
+    },
+    {
+      "player_id": "ext_00-0038360",
+      "full_name": "Alex Ward",
+      "aliases": [
+        "Alex"
+      ],
+      "team": "LV",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0038360"
+      },
+      "roster_context_history": [],
+      "jersey_number": 47,
+      "roster_status": "ACT",
+      "birth_date": "1999-04-21",
+      "height": 76,
+      "weight": 240,
+      "college": "UCF",
+      "years_exp": 3,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0041336",
@@ -2559,6 +2681,38 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0034959",
+      "full_name": "Andrew Beck",
+      "aliases": [
+        "Andrew"
+      ],
+      "team": "NYJ",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0034959",
+        "espn": "3125107",
+        "pff": "47121",
+        "pfr": "BeckAn01"
+      },
+      "roster_context_history": [],
+      "jersey_number": 47,
+      "roster_status": "ACT",
+      "birth_date": "1996-05-15",
+      "height": 75,
+      "weight": 255,
+      "college": "Texas",
+      "years_exp": 7,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
+    },
+    {
       "player_id": "ext_00-0033066",
       "full_name": "Andrew Billings",
       "aliases": [
@@ -2614,6 +2768,33 @@
       "depth_chart_position": "T",
       "requires_role_resolution": true,
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
+    },
+    {
+      "player_id": "ext_00-0029714",
+      "full_name": "Andrew DePaola",
+      "aliases": [
+        "Andrew"
+      ],
+      "team": "MIN",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0029714"
+      },
+      "roster_context_history": [],
+      "jersey_number": 42,
+      "roster_status": "ACT",
+      "birth_date": "1987-07-28",
+      "height": 73,
+      "weight": 230,
+      "college": "Rutgers",
+      "years_exp": 14,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0038865",
@@ -4172,6 +4353,33 @@
       "role_resolution_reason": "Must resolve exact REDGE/LEDGE/MIKE/WILL/SAM role from current usage and depth-chart evidence."
     },
     {
+      "player_id": "ext_00-0040409",
+      "full_name": "Austin Brinkman",
+      "aliases": [
+        "Austin"
+      ],
+      "team": "HOU",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0040409"
+      },
+      "roster_context_history": [],
+      "jersey_number": 40,
+      "roster_status": "ACT",
+      "birth_date": "2002-06-20",
+      "height": 76,
+      "weight": 241,
+      "college": "West Virginia",
+      "years_exp": 1,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "ext_00-0041226",
       "full_name": "Austin Brown",
       "aliases": [
@@ -4954,6 +5162,33 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0041167",
+      "full_name": "Beau Gardner",
+      "aliases": [
+        "Beau"
+      ],
+      "team": "CHI",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0041167"
+      },
+      "roster_context_history": [],
+      "jersey_number": 45,
+      "roster_status": "DEV",
+      "birth_date": "2001-12-26",
+      "height": 77,
+      "weight": 250,
+      "college": "Georgia; UCLA",
+      "years_exp": 0,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "ext_00-0040882",
       "full_name": "Beau Stephens",
       "aliases": [
@@ -5122,6 +5357,33 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0041143",
+      "full_name": "Ben Mann",
+      "aliases": [
+        "Ben"
+      ],
+      "team": "NYG",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0041143"
+      },
+      "roster_context_history": [],
+      "jersey_number": 58,
+      "roster_status": "ACT",
+      "birth_date": "2002-07-06",
+      "height": 77,
+      "weight": 232,
+      "college": "Boston College; Yale",
+      "years_exp": 0,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "ext_00-0034978",
       "full_name": "Ben Powers",
       "aliases": [
@@ -5238,6 +5500,38 @@
       "years_exp": 4,
       "source_position": "DL",
       "depth_chart_position": "DT",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
+    },
+    {
+      "player_id": "ext_00-0038489",
+      "full_name": "Ben VanSumeren",
+      "aliases": [
+        "Ben"
+      ],
+      "team": "KC",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0038489",
+        "espn": "4372070",
+        "pff": "82523",
+        "pfr": "VanSBe00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 47,
+      "roster_status": "ACT",
+      "birth_date": "2000-05-05",
+      "height": 74,
+      "weight": 231,
+      "college": "Michigan State; Michigan",
+      "years_exp": 3,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
       "requires_role_resolution": false,
       "role_resolution_reason": null
     },
@@ -6340,6 +6634,38 @@
       "depth_chart_position": "G",
       "requires_role_resolution": true,
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
+    },
+    {
+      "player_id": "ext_00-0038488",
+      "full_name": "Brady Russell",
+      "aliases": [
+        "Brady"
+      ],
+      "team": "SEA",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0038488",
+        "espn": "4243176",
+        "pff": "60876",
+        "pfr": "RussBr00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 38,
+      "roster_status": "ACT",
+      "birth_date": "1998-08-31",
+      "height": 75,
+      "weight": 250,
+      "college": "Colorado",
+      "years_exp": 3,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
     },
     {
       "player_id": "ext_00-0040176",
@@ -10557,6 +10883,33 @@
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
     },
     {
+      "player_id": "ext_00-0030957",
+      "full_name": "Casey Kreiter",
+      "aliases": [
+        "Casey"
+      ],
+      "team": "ARI",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0030957"
+      },
+      "roster_context_history": [],
+      "jersey_number": 59,
+      "roster_status": "ACT",
+      "birth_date": "1990-08-13",
+      "height": 73,
+      "weight": 250,
+      "college": "Iowa",
+      "years_exp": 12,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "ext_00-0039510",
       "full_name": "Casey Rogers",
       "aliases": [
@@ -12149,6 +12502,33 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0038769",
+      "full_name": "Chris Stoll",
+      "aliases": [
+        "Chris"
+      ],
+      "team": "SEA",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0038769"
+      },
+      "roster_context_history": [],
+      "jersey_number": 41,
+      "roster_status": "ACT",
+      "birth_date": "1998-08-03",
+      "height": 74,
+      "weight": 255,
+      "college": "Penn State",
+      "years_exp": 3,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "ext_00-0035857",
       "full_name": "Chris Williams",
       "aliases": [
@@ -12497,6 +12877,36 @@
       "depth_chart_position": "T",
       "requires_role_resolution": true,
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
+    },
+    {
+      "player_id": "ext_00-0034051",
+      "full_name": "Christian Kuntz",
+      "aliases": [
+        "Christian"
+      ],
+      "team": "PIT",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0034051",
+        "espn": "2978524",
+        "pff": "20035",
+        "pfr": "KuntCh02"
+      },
+      "roster_context_history": [],
+      "jersey_number": 46,
+      "roster_status": "ACT",
+      "birth_date": "1994-04-13",
+      "height": 73,
+      "weight": 228,
+      "college": "Duquesne",
+      "years_exp": 9,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0039408",
@@ -13666,6 +14076,38 @@
       "depth_chart_position": "G",
       "requires_role_resolution": true,
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
+    },
+    {
+      "player_id": "ext_00-0037304",
+      "full_name": "Connor Heyward",
+      "aliases": [
+        "Connor"
+      ],
+      "team": "LV",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0037304",
+        "espn": "4241961",
+        "pff": "57301",
+        "pfr": "HeywCo00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 34,
+      "roster_status": "ACT",
+      "birth_date": "1999-01-22",
+      "height": 72,
+      "weight": 230,
+      "college": "Michigan State",
+      "years_exp": 4,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
     },
     {
       "player_id": "ext_00-0041062",
@@ -19841,6 +20283,38 @@
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
     },
     {
+      "player_id": "ext_00-0041436",
+      "full_name": "DJ Herman",
+      "aliases": [
+        "D.J."
+      ],
+      "team": "MIA",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0041436",
+        "espn": "4685116",
+        "pff": "146162",
+        "pfr": "HermDJ00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 34,
+      "roster_status": "ACT",
+      "birth_date": "2002-03-17",
+      "height": 73,
+      "weight": 240,
+      "college": "San Diego State",
+      "years_exp": 0,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
+    },
+    {
       "player_id": "ext_00-0039800",
       "full_name": "DJ James",
       "aliases": [
@@ -23586,6 +24060,33 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0038817",
+      "full_name": "Evan Deckers",
+      "aliases": [
+        "Evan"
+      ],
+      "team": "TB",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0038817"
+      },
+      "roster_context_history": [],
+      "jersey_number": 86,
+      "roster_status": "ACT",
+      "birth_date": "1999-02-23",
+      "height": 75,
+      "weight": 252,
+      "college": "Duke",
+      "years_exp": 3,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "ext_00-0036854",
       "full_name": "Evan McPherson",
       "aliases": [
@@ -25982,6 +26483,33 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0039445",
+      "full_name": "Hogan Hatten",
+      "aliases": [
+        "Hogan"
+      ],
+      "team": "DET",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0039445"
+      },
+      "roster_context_history": [],
+      "jersey_number": 49,
+      "roster_status": "ACT",
+      "birth_date": "2000-08-06",
+      "height": 74,
+      "weight": 239,
+      "college": "Idaho",
+      "years_exp": 2,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "hollywood_brown",
       "full_name": "Hollywood Brown",
       "aliases": [],
@@ -26063,6 +26591,38 @@
       ],
       "current_audit_id": null,
       "audit_history": []
+    },
+    {
+      "player_id": "ext_00-0038738",
+      "full_name": "Hunter Luepke",
+      "aliases": [
+        "Hunter"
+      ],
+      "team": "DAL",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0038738",
+        "espn": "4383396",
+        "pff": "91319",
+        "pfr": "LuepHu00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 30,
+      "roster_status": "ACT",
+      "birth_date": "2000-02-28",
+      "height": 73,
+      "weight": 250,
+      "college": "North Dakota State",
+      "years_exp": 3,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
     },
     {
       "player_id": "ext_00-0039827",
@@ -27015,6 +27575,33 @@
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
     },
     {
+      "player_id": "ext_00-0026027",
+      "full_name": "J.J. Jansen",
+      "aliases": [
+        "J.J."
+      ],
+      "team": "CAR",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0026027"
+      },
+      "roster_context_history": [],
+      "jersey_number": 44,
+      "roster_status": "ACT",
+      "birth_date": "1986-01-20",
+      "height": 74,
+      "weight": 245,
+      "college": "Notre Dame",
+      "years_exp": 18,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "ext_00-0036158",
       "full_name": "J.K. Dobbins",
       "aliases": [
@@ -27804,6 +28391,38 @@
       "depth_chart_position": "OLB",
       "requires_role_resolution": true,
       "role_resolution_reason": "Must resolve exact REDGE/LEDGE/MIKE/WILL/SAM role from current usage and depth-chart evidence."
+    },
+    {
+      "player_id": "ext_00-0039305",
+      "full_name": "Jack Westover",
+      "aliases": [
+        "Jack"
+      ],
+      "team": "WAS",
+      "position": "TE",
+      "historical_positions": [
+        "TE"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0039305",
+        "espn": "4361100",
+        "pff": "84079",
+        "pfr": "WestJa01"
+      },
+      "roster_context_history": [],
+      "jersey_number": 89,
+      "roster_status": "DEV",
+      "birth_date": "1999-06-09",
+      "height": 75,
+      "weight": 248,
+      "college": "Washington",
+      "years_exp": 2,
+      "source_position": "TE",
+      "depth_chart_position": "TE",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
     },
     {
       "player_id": "ext_00-0040892",
@@ -29467,6 +30086,39 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0035726",
+      "full_name": "Jakob Johnson",
+      "aliases": [
+        "Jakob"
+      ],
+      "team": null,
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0035726",
+        "espn": "3115349",
+        "pff": "32565",
+        "pfr": "JohnJa12"
+      },
+      "roster_context_history": [],
+      "jersey_number": 43,
+      "roster_status": "UNSIGNED_FREE_AGENT",
+      "birth_date": "1994-12-15",
+      "height": 75,
+      "weight": 255,
+      "college": "Tennessee",
+      "years_exp": 6,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null,
+      "previous_team": "HOU"
+    },
+    {
       "player_id": "ext_00-0040559",
       "full_name": "Jakob Robinson",
       "aliases": [
@@ -30688,6 +31340,36 @@
       "depth_chart_position": "OLB",
       "requires_role_resolution": true,
       "role_resolution_reason": "Must resolve exact REDGE/LEDGE/MIKE/WILL/SAM role from current usage and depth-chart evidence."
+    },
+    {
+      "player_id": "ext_00-0030615",
+      "full_name": "James Winchester",
+      "aliases": [
+        "James"
+      ],
+      "team": "KC",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0030615",
+        "espn": "16665",
+        "pff": "8580",
+        "pfr": "WincJa00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 41,
+      "roster_status": "ACT",
+      "birth_date": "1989-08-06",
+      "height": 75,
+      "weight": 240,
+      "college": "Oklahoma",
+      "years_exp": 13,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0037240",
@@ -33913,6 +34595,33 @@
       "audit_history": []
     },
     {
+      "player_id": "ext_00-0032228",
+      "full_name": "Joe Cardona",
+      "aliases": [
+        "Joe"
+      ],
+      "team": "LA",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0032228"
+      },
+      "roster_context_history": [],
+      "jersey_number": 49,
+      "roster_status": "ACT",
+      "birth_date": "1992-04-16",
+      "height": 74,
+      "weight": 245,
+      "college": "Navy",
+      "years_exp": 11,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "ext_00-0035363",
       "full_name": "Joe Giles-Harris",
       "aliases": [
@@ -34630,6 +35339,33 @@
       "depth_chart_position": "G",
       "requires_role_resolution": true,
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
+    },
+    {
+      "player_id": "ext_00-0027224",
+      "full_name": "Jon Weeks",
+      "aliases": [
+        "Jonathan"
+      ],
+      "team": "SF",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0027224"
+      },
+      "roster_context_history": [],
+      "jersey_number": 46,
+      "roster_status": "ACT",
+      "birth_date": "1986-02-17",
+      "height": 70,
+      "weight": 242,
+      "college": "Baylor",
+      "years_exp": 16,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0039809",
@@ -37335,6 +38071,33 @@
       "depth_chart_position": "G",
       "requires_role_resolution": true,
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
+    },
+    {
+      "player_id": "ext_00-0040246",
+      "full_name": "Julian Ashby",
+      "aliases": [
+        "Julian"
+      ],
+      "team": "NE",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0040246"
+      },
+      "roster_context_history": [],
+      "jersey_number": 47,
+      "roster_status": "ACT",
+      "birth_date": "2002-07-08",
+      "height": 73,
+      "weight": 231,
+      "college": "Vanderbilt; Furman",
+      "years_exp": 1,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0036253",
@@ -41748,6 +42511,38 @@
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
     },
     {
+      "player_id": "ext_00-0029892",
+      "full_name": "Kyle Juszczyk",
+      "aliases": [
+        "Kyle"
+      ],
+      "team": "SF",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0029892",
+        "espn": "16002",
+        "pff": "7912",
+        "pfr": "JuszKy00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 44,
+      "roster_status": "ACT",
+      "birth_date": "1991-04-23",
+      "height": 74,
+      "weight": 235,
+      "college": "Harvard",
+      "years_exp": 13,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
+    },
+    {
       "player_id": "ext_00-0040161",
       "full_name": "Kyle Kennard",
       "aliases": [
@@ -42994,6 +43789,33 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0036082",
+      "full_name": "Liam McCullough",
+      "aliases": [
+        "Liam"
+      ],
+      "team": "ATL",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0036082"
+      },
+      "roster_context_history": [],
+      "jersey_number": 49,
+      "roster_status": "ACT",
+      "birth_date": "1997-06-05",
+      "height": 74,
+      "weight": 245,
+      "college": "Ohio State",
+      "years_exp": 6,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "ext_00-0036391",
       "full_name": "Lloyd Cushenberry III",
       "aliases": [
@@ -43545,6 +44367,36 @@
       "depth_chart_position": "G",
       "requires_role_resolution": true,
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
+    },
+    {
+      "player_id": "ext_00-0032753",
+      "full_name": "Luke Rhodes",
+      "aliases": [
+        "Luke"
+      ],
+      "team": "IND",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0032753",
+        "espn": "2566045",
+        "pff": "10940",
+        "pfr": "RhodLu00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 46,
+      "roster_status": "ACT",
+      "birth_date": "1992-12-02",
+      "height": 74,
+      "weight": 238,
+      "college": "William & Mary",
+      "years_exp": 10,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0037305",
@@ -46127,6 +46979,36 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0035118",
+      "full_name": "Matthew Orzech",
+      "aliases": [
+        "Matt"
+      ],
+      "team": "GB",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0035118",
+        "espn": "4422336",
+        "pff": "94369",
+        "pfr": "OrzeMa00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 42,
+      "roster_status": "ACT",
+      "birth_date": "1995-04-12",
+      "height": 75,
+      "weight": 245,
+      "college": "Azusa Pacific",
+      "years_exp": 7,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "matthew_stafford",
       "full_name": "Matthew Stafford",
       "aliases": [],
@@ -46137,6 +47019,38 @@
       ],
       "current_audit_id": null,
       "audit_history": []
+    },
+    {
+      "player_id": "ext_00-0041081",
+      "full_name": "Max Bredeson",
+      "aliases": [
+        "Max"
+      ],
+      "team": "MIN",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0041081",
+        "espn": "4878695",
+        "pff": "144930",
+        "pfr": "BredMa00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 45,
+      "roster_status": "ACT",
+      "birth_date": "2002-10-04",
+      "height": 74,
+      "weight": 252,
+      "college": "Michigan",
+      "years_exp": 0,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
     },
     {
       "player_id": "ext_00-0041482",
@@ -46819,6 +47733,38 @@
       "depth_chart_position": "ILB",
       "requires_role_resolution": true,
       "role_resolution_reason": "Must resolve exact REDGE/LEDGE/MIKE/WILL/SAM role from current usage and depth-chart evidence."
+    },
+    {
+      "player_id": "ext_00-0031595",
+      "full_name": "Michael Burton",
+      "aliases": [
+        "Michael"
+      ],
+      "team": "CLE",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0031595",
+        "espn": "2515270",
+        "pff": "9601",
+        "pfr": "BurtMi00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 34,
+      "roster_status": "ACT",
+      "birth_date": "1992-02-01",
+      "height": 72,
+      "weight": 247,
+      "college": "Rutgers",
+      "years_exp": 11,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
     },
     {
       "player_id": "ext_00-0036501",
@@ -48010,6 +48956,33 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0036943",
+      "full_name": "Mitchell Fraboni",
+      "aliases": [
+        "Mitchell"
+      ],
+      "team": "DEN",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0036943"
+      },
+      "roster_context_history": [],
+      "jersey_number": 48,
+      "roster_status": "ACT",
+      "birth_date": "1996-10-28",
+      "height": 74,
+      "weight": 223,
+      "college": "Arizona State",
+      "years_exp": 5,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "ext_00-0041230",
       "full_name": "Mitchell Melton",
       "aliases": [
@@ -48216,6 +49189,33 @@
       "depth_chart_position": "DE",
       "requires_role_resolution": true,
       "role_resolution_reason": "Must resolve exact REDGE/LEDGE/MIKE/WILL/SAM role from current usage and depth-chart evidence."
+    },
+    {
+      "player_id": "ext_00-0027557",
+      "full_name": "Morgan Cox",
+      "aliases": [
+        "Morgan"
+      ],
+      "team": "TEN",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0027557"
+      },
+      "roster_context_history": [],
+      "jersey_number": 46,
+      "roster_status": "ACT",
+      "birth_date": "1986-04-26",
+      "height": 76,
+      "weight": 233,
+      "college": "Tennessee",
+      "years_exp": 16,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0031330",
@@ -49916,6 +50916,33 @@
       "depth_chart_position": "CB",
       "requires_role_resolution": false,
       "role_resolution_reason": null
+    },
+    {
+      "player_id": "ext_00-0035408",
+      "full_name": "Nick Moore",
+      "aliases": [
+        "Nick"
+      ],
+      "team": "BAL",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0035408"
+      },
+      "roster_context_history": [],
+      "jersey_number": 46,
+      "roster_status": "ACT",
+      "birth_date": "1992-12-09",
+      "height": 74,
+      "weight": 260,
+      "college": "Georgia",
+      "years_exp": 7,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0036648",
@@ -51634,6 +52661,38 @@
       "role_resolution_reason": "Must resolve exact REDGE/LEDGE/MIKE/WILL/SAM role from current usage and depth-chart evidence."
     },
     {
+      "player_id": "ext_00-0033376",
+      "full_name": "Patrick Ricard",
+      "aliases": [
+        "Patrick"
+      ],
+      "team": "NYG",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0033376",
+        "espn": "2975417",
+        "pff": "48862",
+        "pfr": "RicaPa00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 45,
+      "roster_status": "ACT",
+      "birth_date": "1994-05-27",
+      "height": 75,
+      "weight": 300,
+      "college": "Maine",
+      "years_exp": 9,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
+    },
+    {
       "player_id": "ext_00-0041583",
       "full_name": "Paul Rubelt",
       "aliases": [
@@ -53350,6 +54409,38 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0036187",
+      "full_name": "Reggie Gilliam",
+      "aliases": [
+        "Reggie"
+      ],
+      "team": "NE",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0036187",
+        "espn": "4039505",
+        "pff": "40951",
+        "pfr": "GillRe00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 44,
+      "roster_status": "RES",
+      "birth_date": "1997-08-20",
+      "height": 73,
+      "weight": 255,
+      "college": "Toledo",
+      "years_exp": 6,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
+    },
+    {
       "player_id": "ext_00-0041492",
       "full_name": "Reid Carrico",
       "aliases": [
@@ -53375,6 +54466,33 @@
       "depth_chart_position": "MLB",
       "requires_role_resolution": true,
       "role_resolution_reason": "Must resolve exact REDGE/LEDGE/MIKE/WILL/SAM role from current usage and depth-chart evidence."
+    },
+    {
+      "player_id": "ext_00-0032497",
+      "full_name": "Reid Ferguson",
+      "aliases": [
+        "Reid"
+      ],
+      "team": "BUF",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0032497"
+      },
+      "roster_context_history": [],
+      "jersey_number": 69,
+      "roster_status": "ACT",
+      "birth_date": "1994-03-24",
+      "height": 74,
+      "weight": 235,
+      "college": "LSU",
+      "years_exp": 10,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0040101",
@@ -53522,6 +54640,33 @@
       "depth_chart_position": "FS",
       "requires_role_resolution": false,
       "role_resolution_reason": null
+    },
+    {
+      "player_id": "ext_00-0036443",
+      "full_name": "Rex Sunahara",
+      "aliases": [
+        "Rex"
+      ],
+      "team": "CLE",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0036443"
+      },
+      "roster_context_history": [],
+      "jersey_number": 50,
+      "roster_status": "ACT",
+      "birth_date": "1996-10-09",
+      "height": 78,
+      "weight": 242,
+      "college": "West Virginia",
+      "years_exp": 6,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0036875",
@@ -53799,6 +54944,38 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0041398",
+      "full_name": "Riley Nowakowski",
+      "aliases": [
+        "Riley"
+      ],
+      "team": "PIT",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0041398",
+        "espn": "4693370",
+        "pff": "129928",
+        "pfr": "NowaRi00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 37,
+      "roster_status": "ACT",
+      "birth_date": "2002-06-30",
+      "height": 74,
+      "weight": 250,
+      "college": "Indiana; Wisconsin",
+      "years_exp": 0,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
+    },
+    {
       "player_id": "ext_00-0036816",
       "full_name": "Riley Patterson",
       "aliases": [
@@ -53945,6 +55122,38 @@
       "years_exp": 0,
       "source_position": "DB",
       "depth_chart_position": "CB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
+    },
+    {
+      "player_id": "ext_00-0040649",
+      "full_name": "Robbie Ouzts",
+      "aliases": [
+        "Robbie"
+      ],
+      "team": "SEA",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0040649",
+        "espn": "4691688",
+        "pff": "146594",
+        "pfr": "OuztRo00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 40,
+      "roster_status": "RES",
+      "birth_date": "2002-09-06",
+      "height": 75,
+      "weight": 274,
+      "college": "Alabama",
+      "years_exp": 1,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
       "requires_role_resolution": false,
       "role_resolution_reason": null
     },
@@ -54158,6 +55367,33 @@
       "depth_chart_position": "ILB",
       "requires_role_resolution": true,
       "role_resolution_reason": "Must resolve exact REDGE/LEDGE/MIKE/WILL/SAM role from current usage and depth-chart evidence."
+    },
+    {
+      "player_id": "ext_00-0040925",
+      "full_name": "Rocco Underwood",
+      "aliases": [
+        "Rocco"
+      ],
+      "team": "PHI",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0040925"
+      },
+      "roster_context_history": [],
+      "jersey_number": 41,
+      "roster_status": "ACT",
+      "birth_date": "2002-08-14",
+      "height": 75,
+      "weight": 231,
+      "college": "Florida",
+      "years_exp": 0,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0035637",
@@ -54580,6 +55816,33 @@
       "depth_chart_position": "ILB",
       "requires_role_resolution": true,
       "role_resolution_reason": "Must resolve exact REDGE/LEDGE/MIKE/WILL/SAM role from current usage and depth-chart evidence."
+    },
+    {
+      "player_id": "ext_00-0035827",
+      "full_name": "Ross Matiscik",
+      "aliases": [
+        "Ross"
+      ],
+      "team": "JAX",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0035827"
+      },
+      "roster_context_history": [],
+      "jersey_number": 46,
+      "roster_status": "ACT",
+      "birth_date": "1996-09-13",
+      "height": 72,
+      "weight": 240,
+      "college": "Baylor",
+      "years_exp": 6,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0036568",
@@ -55648,6 +56911,65 @@
       "years_exp": 4,
       "source_position": "DB",
       "depth_chart_position": "CB",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
+    },
+    {
+      "player_id": "ext_00-0034067",
+      "full_name": "Scott Daly",
+      "aliases": [
+        "Scott"
+      ],
+      "team": "CHI",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0034067"
+      },
+      "roster_context_history": [],
+      "jersey_number": 46,
+      "roster_status": "ACT",
+      "birth_date": "1994-02-07",
+      "height": 73,
+      "weight": 245,
+      "college": "Notre Dame",
+      "years_exp": 8,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
+      "player_id": "ext_00-0038614",
+      "full_name": "Scott Matlock",
+      "aliases": [
+        "Scott"
+      ],
+      "team": "LAC",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0038614",
+        "espn": "4373684",
+        "pff": "82482",
+        "pfr": "MatlSc00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 44,
+      "roster_status": "ACT",
+      "birth_date": "2000-06-28",
+      "height": 76,
+      "weight": 296,
+      "college": "Boise State",
+      "years_exp": 3,
+      "source_position": "RB",
+      "depth_chart_position": "FB",
       "requires_role_resolution": false,
       "role_resolution_reason": null
     },
@@ -58875,6 +60197,33 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0033260",
+      "full_name": "Thomas Hennessy",
+      "aliases": [
+        "Thomas"
+      ],
+      "team": "NYJ",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0033260"
+      },
+      "roster_context_history": [],
+      "jersey_number": 42,
+      "roster_status": "ACT",
+      "birth_date": "1994-06-11",
+      "height": 74,
+      "weight": 246,
+      "college": "Duke",
+      "years_exp": 9,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "ext_00-0038791",
       "full_name": "Thomas Incoom",
       "aliases": [
@@ -60279,6 +61628,33 @@
       "depth_chart_position": "T",
       "requires_role_resolution": true,
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
+    },
+    {
+      "player_id": "ext_00-0034198",
+      "full_name": "Trent Sieg",
+      "aliases": [
+        "Trent"
+      ],
+      "team": "DAL",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0034198"
+      },
+      "roster_context_history": [],
+      "jersey_number": 44,
+      "roster_status": "ACT",
+      "birth_date": "1995-05-19",
+      "height": 76,
+      "weight": 255,
+      "college": "Colorado State",
+      "years_exp": 8,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "trent_williams",
@@ -61959,6 +63335,33 @@
       "depth_chart_position": "DT",
       "requires_role_resolution": false,
       "role_resolution_reason": null
+    },
+    {
+      "player_id": "ext_00-0031156",
+      "full_name": "Tyler Ott",
+      "aliases": [
+        "Tyler"
+      ],
+      "team": "WAS",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0031156"
+      },
+      "roster_context_history": [],
+      "jersey_number": 69,
+      "roster_status": "ACT",
+      "birth_date": "1992-02-28",
+      "height": 75,
+      "weight": 253,
+      "college": "Harvard",
+      "years_exp": 12,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
     },
     {
       "player_id": "ext_00-0039681",
@@ -63731,6 +65134,33 @@
       "audit_history": []
     },
     {
+      "player_id": "ext_00-0040379",
+      "full_name": "William Wagner",
+      "aliases": [
+        "William"
+      ],
+      "team": "CIN",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0040379"
+      },
+      "roster_context_history": [],
+      "jersey_number": 46,
+      "roster_status": "ACT",
+      "birth_date": "2000-12-20",
+      "height": 74,
+      "weight": 240,
+      "college": "Michigan",
+      "years_exp": 1,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "ext_00-0041300",
       "full_name": "William Wright",
       "aliases": [
@@ -64731,6 +66161,33 @@
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
     },
     {
+      "player_id": "ext_00-0033063",
+      "full_name": "Zach Wood",
+      "aliases": [
+        "Zach"
+      ],
+      "team": "NO",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0033063"
+      },
+      "roster_context_history": [],
+      "jersey_number": 49,
+      "roster_status": "ACT",
+      "birth_date": "1993-01-10",
+      "height": 75,
+      "weight": 255,
+      "college": "SMU",
+      "years_exp": 10,
+      "source_position": "LS",
+      "depth_chart_position": "LS",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
+    },
+    {
       "player_id": "ext_00-0037804",
       "full_name": "Zachary Carter",
       "aliases": [
@@ -65433,5 +66890,5 @@
       "role_resolution_reason": null
     }
   ],
-  "last_refreshed_at": "2026-11-02T04:17:17.478Z"
+  "last_refreshed_at": "2026-11-02T04:27:11.875Z"
 }

@@ -872,6 +872,75 @@
         "AWR"
       ],
       "note": ""
+    },
+    "FB": {
+      "order": 21,
+      "group": "Offense",
+      "current_status": "ADDENDUM_PROPOSED",
+      "pff_cited_inputs": [
+        "overall offense grade (player page)",
+        "run blocking",
+        "pass blocking",
+        "receiving"
+      ],
+      "position_stats": [
+        "carries, yards, TD",
+        "targets, receptions, yards",
+        "short-yardage/goal-line touches"
+      ],
+      "usage_snap_metrics": [
+        "offensive snaps and snap share at FB alignment",
+        "21/22-personnel share",
+        "lead-block snaps"
+      ],
+      "on_field_impact": [
+        "team rush EPA/success rate with FB on field",
+        "short-yardage conversion rate"
+      ],
+      "madden_attributes_informed": [
+        "RBK",
+        "PBK",
+        "IBL",
+        "LBK",
+        "STR",
+        "IMP",
+        "TRK",
+        "CAR",
+        "CTH",
+        "SPD",
+        "AWR"
+      ],
+      "note": "v1.1 addendum bucket (docs/amendments/v1.1-addendum-fb-ls.md). Inputs only; NOT in config/position-sequence.json or state until the commissioner enacts the addendum."
+    },
+    "LS": {
+      "order": 22,
+      "group": "Special Teams",
+      "current_status": "ADDENDUM_PROPOSED",
+      "pff_cited_inputs": [
+        "PFF long snapper grade (weekly special teams reports)"
+      ],
+      "position_stats": [
+        "punt/FG/XP snaps",
+        "bad or inaccurate snaps",
+        "coverage tackles"
+      ],
+      "usage_snap_metrics": [
+        "special-teams snaps (nflverse st_snaps)",
+        "games, seasons as starter"
+      ],
+      "on_field_impact": [
+        "unit points on snaps delivered (FG/XP/punt; credits whole unit)",
+        "blocked kicks/punts on his snaps"
+      ],
+      "madden_attributes_informed": [
+        "AWR",
+        "STR",
+        "RBK",
+        "PBK",
+        "SPD",
+        "TAK"
+      ],
+      "note": "v1.1 addendum bucket (docs/amendments/v1.1-addendum-fb-ls.md). Inputs only; NOT in config/position-sequence.json or state until the commissioner enacts the addendum."
     }
   }
 }

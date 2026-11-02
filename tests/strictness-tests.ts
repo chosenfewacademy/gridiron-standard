@@ -95,10 +95,12 @@ export async function runStrictnessTests(test: T) {
 }
 
 export function runPositionArchitectureTests(test: (n: string, f: () => void) => void) {
-  test("position metrics cover all 20 buckets, are active v1.1, and never cite EA", () => {
+  test("position metrics cover all 20 buckets plus proposed FB/LS addendum buckets, are active v1.1, and never cite EA", () => {
     const cfg = JSON.parse(fs.readFileSync("config/position-metrics.json", "utf8"));
     const order = "QB RB WR TE LT LG C RG RT REDGE LEDGE DT MIKE WILL SAM CB FS SS K P".split(" ");
-    assert.deepEqual(Object.keys(cfg.positions), order); assert.equal(cfg.status, "ACTIVE_METHODOLOGY_V1_1"); assert.equal(cfg.effective, true);
+    assert.deepEqual(Object.keys(cfg.positions), [...order, "FB", "LS"]);
+    assert.deepEqual(JSON.parse(fs.readFileSync("config/position-sequence.json", "utf8")).sequence, order); // addendum not enacted
+    for (const b of ["FB", "LS"]) { assert.equal(cfg.positions[b].current_status, "ADDENDUM_PROPOSED"); assert(fs.existsSync(`docs/positions/${b}.md`)); } assert.equal(cfg.status, "ACTIVE_METHODOLOGY_V1_1"); assert.equal(cfg.effective, true);
     assert(!/ea\.com/i.test(JSON.stringify(cfg)));
     for (const b of order) assert(fs.existsSync(`docs/positions/${b}.md`));
   });

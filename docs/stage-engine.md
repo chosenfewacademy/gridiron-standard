@@ -44,3 +44,21 @@ Gates, REVIEW_MAJOR approval, immutability and `GRIDIRON_MAX_REVISIONS` (default
   - LOCKED_PLAYER_DECLINED (pool rank above 15, or outside the pool);
   - STRONG_CANDIDATE_NOT_IN_TOP10 (pool top 12).
 - Nothing here changes baselines, locks, state or audit history. An actual re-audit needs the commissioner's explicit TOP10_REAUDIT trigger.
+
+## Commissioner pool approval (sanctioned path)
+`npm run pool:approve -- <POS[,POS] | --all> --by "<commissioner>" --confirm APPROVE_POOLS`
+- Re-runs the coverage gate (or the re-audit gate) on each `<POS>.proposed.json` / `<POS>.reaudit.proposed.json`.
+- On pass, writes a separate immutable `<POS>.json` / `<POS>.reaudit.json` with `status: APPROVED`, `approved_by`, `approved_at`, `approved_from`.
+- Proposed files are left as-is. Baselines, locks, state, cards and audit history are never touched.
+- `requireApprovedPool` reads only `<POS>.json`; an approved re-audit pool never becomes the active pool.
+
+## Commissioner TOP10_REAUDIT trigger (sanctioned path)
+`npm run reaudit:trigger -- <POS[,POS]> --by "<commissioner>" --confirm TOP10_REAUDIT`
+- Requires an approved `<POS>.reaudit.json` and a LOCKED or IN_PROGRESS position. Duplicate triggers are refused.
+- Appends a `TOP10_REAUDIT` item (`status: QUEUED_NOT_STARTED`) to `state.pending_reaudit_queue` via `queueReaudit`.
+- Starts no audit or research. Lock status, baselines, lock pointers, cards and audit history are unchanged.
+- While a position has a queued item, `position:lock` refuses to lock it (existing rule).
+
+## FB / LS (v1.1 addendum, proposed)
+FB and LS have rating inputs and candidate pools but are not in the v1.0 sequence or state; see docs/amendments/v1.1-addendum-fb-ls.md.
+`roster:refresh --id-only` (with `--add-only`) adds by source id without exact-name merging (needed for LS Aaron Brewer vs C Aaron Brewer).

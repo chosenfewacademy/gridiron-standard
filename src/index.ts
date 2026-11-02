@@ -111,7 +111,7 @@ switch (intent.type) {
 
   case "TOP10_REAUDIT":
     console.log(JSON.stringify(intent, null, 2));
-    console.log("Top 10 re-audit requires explicit destructive-action confirmation before execution.");
+    console.log("Top 10 re-audit requires explicit commissioner confirmation: npm run reaudit:trigger -- <POS> --by <name> --confirm TOP10_REAUDIT (queues only; never starts an audit).");
     break;
 
   default:

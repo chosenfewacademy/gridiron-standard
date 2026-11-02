@@ -1,0 +1,642 @@
+{
+  "position": "LS",
+  "status": "PROPOSED",
+  "generated_at": "2026-11-01T22:52:12-05:00",
+  "generator": "scripts/build-candidate-pools.py",
+  "note": "PROPOSED for commissioner approval. LS is a v1.1 addendum bucket (docs/amendments/v1.1-addendum-fb-ls.md), outside the v1.0 20-position sequence. Composite is a usage triage order, not a rating.",
+  "candidates": [
+    {
+      "player": "Rex Sunahara",
+      "player_id": "ext_00-0036443",
+      "team": "CLE",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 2.376,
+      "reasoning": "65 special-teams snaps in 7 games (2026, CLE); 150 special-teams snaps in 17 games (2025, CLE); FootballKickingStats unit-points rank #4 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#3",
+        "nflverse_snaps_2025#2",
+        "fks_ls_2026#4"
+      ]
+    },
+    {
+      "player": "Chris Stoll",
+      "player_id": "ext_00-0038769",
+      "team": "SEA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 2.192,
+      "reasoning": "60 special-teams snaps in 7 games (2026, SEA); 150 special-teams snaps in 17 games (2025, SEA); FootballKickingStats unit-points rank #1 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#10",
+        "nflverse_snaps_2025#3",
+        "fks_ls_2026#1"
+      ]
+    },
+    {
+      "player": "Christian Kuntz",
+      "player_id": "ext_00-0034051",
+      "team": "PIT",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 2.128,
+      "reasoning": "64 special-teams snaps in 7 games (2026, PIT); 141 special-teams snaps in 17 games (2025, PIT); FootballKickingStats unit-points rank #5 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#4",
+        "nflverse_snaps_2025#9",
+        "fks_ls_2026#5"
+      ]
+    },
+    {
+      "player": "Ross Matiscik",
+      "player_id": "ext_00-0035827",
+      "team": "JAX",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 2.02,
+      "reasoning": "34 special-teams snaps in 5 games (2026, JAX); 144 special-teams snaps in 17 games (2025, JAX); 2026 Pro Bowl Games starter (2025 season); FootballKickingStats unit-points rank #10 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2025#6",
+        "probowl_2026#1",
+        "fks_ls_2026#10"
+      ]
+    },
+    {
+      "player": "Austin Brinkman",
+      "player_id": "ext_00-0040409",
+      "team": "HOU",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.72,
+      "reasoning": "63 special-teams snaps in 7 games (2026, HOU); 155 special-teams snaps in 17 games (2025, HOU); FootballKickingStats unit-points rank #18 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#6",
+        "nflverse_snaps_2025#1",
+        "fks_ls_2026#18"
+      ]
+    },
+    {
+      "player": "Jon Weeks",
+      "player_id": "ext_00-0027224",
+      "team": "SF",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.656,
+      "reasoning": "56 special-teams snaps in 7 games (2026, SF); 127 special-teams snaps in 17 games (2025, SF); 2026 Pro Bowl Games starter (2025 season); FootballKickingStats unit-points rank #17 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#17",
+        "nflverse_snaps_2025#23",
+        "probowl_2026#2",
+        "fks_ls_2026#17"
+      ]
+    },
+    {
+      "player": "Nick Moore",
+      "player_id": "ext_00-0035408",
+      "team": "BAL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.648,
+      "reasoning": "61 special-teams snaps in 7 games (2026, BAL); 134 special-teams snaps in 17 games (2025, BAL); FootballKickingStats unit-points rank #11 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#7",
+        "nflverse_snaps_2025#14",
+        "fks_ls_2026#11"
+      ]
+    },
+    {
+      "player": "Luke Rhodes",
+      "player_id": "ext_00-0032753",
+      "team": "IND",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.608,
+      "reasoning": "57 special-teams snaps in 7 games (2026, IND); 131 special-teams snaps in 17 games (2025, IND); FootballKickingStats unit-points rank #2 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#14",
+        "nflverse_snaps_2025#19",
+        "fks_ls_2026#2"
+      ]
+    },
+    {
+      "player": "Hogan Hatten",
+      "player_id": "ext_00-0039445",
+      "team": "DET",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.608,
+      "reasoning": "53 special-teams snaps in 6 games (2026, DET); 147 special-teams snaps in 17 games (2025, DET); FootballKickingStats unit-points rank #6 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#19",
+        "nflverse_snaps_2025#4",
+        "fks_ls_2026#6"
+      ]
+    },
+    {
+      "player": "Rocco Underwood",
+      "player_id": "ext_00-0040925",
+      "team": "PHI",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.48,
+      "reasoning": "58 special-teams snaps in 7 games (2026, PHI); FootballKickingStats unit-points rank #3 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#12",
+        "fks_ls_2026#3"
+      ]
+    },
+    {
+      "player": "Mitchell Fraboni",
+      "player_id": "ext_00-0036943",
+      "team": "DEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.344,
+      "reasoning": "64 special-teams snaps in 7 games (2026, DEN); 146 special-teams snaps in 17 games (2025, DEN)",
+      "citations": [
+        "nflverse_snaps_2026#5",
+        "nflverse_snaps_2025#5"
+      ]
+    },
+    {
+      "player": "Ben Mann",
+      "player_id": "ext_00-0041143",
+      "team": "NYG",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.32,
+      "reasoning": "58 special-teams snaps in 7 games (2026, NYG); FootballKickingStats unit-points rank #8 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#11",
+        "fks_ls_2026#8"
+      ]
+    },
+    {
+      "player": "Alex Ward",
+      "player_id": "ext_00-0038360",
+      "team": "LV",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.12,
+      "reasoning": "60 special-teams snaps in 7 games (2026, LV); 66 special-teams snaps in 8 games (2025, LA); FootballKickingStats unit-points rank #15 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#9",
+        "fks_ls_2026#15"
+      ]
+    },
+    {
+      "player": "Andrew DePaola",
+      "player_id": "ext_00-0029714",
+      "team": "MIN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.12,
+      "reasoning": "54 special-teams snaps in 6 games (2026, MIN); 133 special-teams snaps in 17 games (2025, MIN); FootballKickingStats unit-points rank #12 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#18",
+        "nflverse_snaps_2025#16",
+        "fks_ls_2026#12"
+      ]
+    },
+    {
+      "player": "William Wagner",
+      "player_id": "ext_00-0040379",
+      "team": "CIN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.08,
+      "reasoning": "49 special-teams snaps in 6 games (2026, CIN); 138 special-teams snaps in 17 games (2025, CIN); FootballKickingStats unit-points rank #9 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#25",
+        "nflverse_snaps_2025#11",
+        "fks_ls_2026#9"
+      ]
+    },
+    {
+      "player": "Casey Kreiter",
+      "player_id": "ext_00-0030957",
+      "team": "ARI",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.056,
+      "reasoning": "65 special-teams snaps in 7 games (2026, ARI); 128 special-teams snaps in 17 games (2025, NYG)",
+      "citations": [
+        "nflverse_snaps_2026#2",
+        "nflverse_snaps_2025#22"
+      ]
+    },
+    {
+      "player": "Evan Deckers",
+      "player_id": "ext_00-0038817",
+      "team": "TB",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.056,
+      "reasoning": "61 special-teams snaps in 7 games (2026, TB); 138 special-teams snaps in 17 games (2025, TB)",
+      "citations": [
+        "nflverse_snaps_2026#8",
+        "nflverse_snaps_2025#12"
+      ]
+    },
+    {
+      "player": "Matthew Orzech",
+      "player_id": "ext_00-0035118",
+      "team": "GB",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 1.024,
+      "reasoning": "68 special-teams snaps in 8 games (2026, GB); 126 special-teams snaps in 17 games (2025, GB)",
+      "citations": [
+        "nflverse_snaps_2026#1",
+        "nflverse_snaps_2025#25"
+      ]
+    },
+    {
+      "player": "J.J. Jansen",
+      "player_id": "ext_00-0026027",
+      "team": "CAR",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 0.92,
+      "reasoning": "56 special-teams snaps in 7 games (2026, CAR); 116 special-teams snaps in 17 games (2025, CAR); FootballKickingStats unit-points rank #14 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#15",
+        "fks_ls_2026#14"
+      ]
+    },
+    {
+      "player": "Morgan Cox",
+      "player_id": "ext_00-0027557",
+      "team": "TEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ],
+      "composite": 0.912,
+      "reasoning": "53 special-teams snaps in 7 games (2026, TEN); 143 special-teams snaps in 17 games (2025, TEN); FootballKickingStats unit-points rank #20 (2026 thru wk5)",
+      "citations": [
+        "nflverse_snaps_2026#20",
+        "nflverse_snaps_2025#8",
+        "fks_ls_2026#20"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "player": "Scott Daly",
+      "player_id": "ext_00-0034067",
+      "reason": "Below pool cutoff (composite 0.86; sources nflverse_snaps_2025#7, fks_ls_2026#16). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Liam McCullough",
+      "player_id": "ext_00-0036082",
+      "reason": "Below pool cutoff (composite 0.83; sources nflverse_snaps_2026#13, nflverse_snaps_2025#13). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Beau Gardner",
+      "player_id": "ext_00-0041167",
+      "reason": "Below pool cutoff (composite 0.76; sources fks_ls_2026#7). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Reid Ferguson",
+      "player_id": "ext_00-0032497",
+      "reason": "Below pool cutoff (composite 0.57; sources nflverse_snaps_2025#24, fks_ls_2026#13). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Julian Ashby",
+      "player_id": "ext_00-0040246",
+      "reason": "Below pool cutoff (composite 0.50; sources nflverse_snaps_2026#23, nflverse_snaps_2025#10). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "James Winchester",
+      "player_id": "ext_00-0030615",
+      "reason": "Below pool cutoff (composite 0.50; sources nflverse_snaps_2026#24, nflverse_snaps_2025#20, fks_ls_2026#19). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Thomas Hennessy",
+      "player_id": "ext_00-0033260",
+      "reason": "Below pool cutoff (composite 0.40; sources nflverse_snaps_2026#16). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Joe Cardona",
+      "player_id": "ext_00-0032228",
+      "reason": "Below pool cutoff (composite 0.32; sources nflverse_snaps_2026#21, nflverse_snaps_2025#21). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Trent Sieg",
+      "player_id": "ext_00-0034198",
+      "reason": "Below pool cutoff (composite 0.26; sources nflverse_snaps_2025#15). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Zach Wood",
+      "player_id": "ext_00-0033063",
+      "reason": "Below pool cutoff (composite 0.22; sources nflverse_snaps_2025#17). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Tyler Ott",
+      "player_id": "ext_00-0031156",
+      "reason": "Below pool cutoff (composite 0.16; sources nflverse_snaps_2026#22). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    }
+  ],
+  "free_agents": [
+    {
+      "player": "Aaron Brewer",
+      "player_id": "ext_00-0028946",
+      "status": "FREE_AGENT",
+      "last_team": "ARI",
+      "status_as_of": "2026-03-20",
+      "source_url": "https://cardswire.usatoday.com/story/sports/nfl/cardinals/2026/03/20/cardinals-offseason-moves-are-they-better-with-their-specialists/89246499007/",
+      "note": "LS (gsis 00-0028946, not the MIA center). UFA after 2025; ARI replaced him with Casey Kreiter (Mar 2026); unsigned, possibly retiring (not announced).",
+      "reason_listed": "composite 0.19; sources nflverse_snaps_2025#18; 131 special-teams snaps in 17 games (2025, ARI)"
+    }
+  ],
+  "injured": [],
+  "coverage_sources": [
+    {
+      "id": "nflverse_snaps_2026",
+      "name": "nflverse 2026 special-teams snaps, snap-file label LS (weeks 1-8)",
+      "publisher": "nflverse",
+      "kind": "usage",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Matthew Orzech",
+        "Casey Kreiter",
+        "Rex Sunahara",
+        "Christian Kuntz",
+        "Mitchell Fraboni",
+        "Austin Brinkman",
+        "Nick Moore",
+        "Evan Deckers",
+        "Alex Ward",
+        "Chris Stoll",
+        "Ben Mann",
+        "Rocco Underwood",
+        "Liam McCullough",
+        "Luke Rhodes",
+        "J.J. Jansen",
+        "Thomas Hennessy",
+        "Jon Weeks",
+        "Andrew DePaola",
+        "Hogan Hatten",
+        "Morgan Cox",
+        "Joe Cardona",
+        "Tyler Ott",
+        "Julian Ashby",
+        "James Winchester",
+        "William Wagner"
+      ]
+    },
+    {
+      "id": "nflverse_snaps_2025",
+      "name": "nflverse 2025 special-teams snaps, snap-file label LS",
+      "publisher": "nflverse",
+      "kind": "usage",
+      "season": 2025,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Austin Brinkman",
+        "Rex Sunahara",
+        "Chris Stoll",
+        "Hogan Hatten",
+        "Mitchell Fraboni",
+        "Ross Matiscik",
+        "Scott Daly",
+        "Morgan Cox",
+        "Christian Kuntz",
+        "Julian Ashby",
+        "William Wagner",
+        "Evan Deckers",
+        "Liam McCullough",
+        "Nick Moore",
+        "Trent Sieg",
+        "Andrew DePaola",
+        "Zach Wood",
+        "Aaron Brewer",
+        "Luke Rhodes",
+        "James Winchester",
+        "Joe Cardona",
+        "Casey Kreiter",
+        "Jon Weeks",
+        "Reid Ferguson",
+        "Matthew Orzech"
+      ]
+    },
+    {
+      "id": "probowl_2026",
+      "name": "2026 Pro Bowl Games long snappers (2025 season)",
+      "publisher": "NFL",
+      "kind": "honors",
+      "season": 2025,
+      "url": "https://www.nfl.com/news/2026-pro-bowl-games-complete-afc-roster-revealed",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Ross Matiscik",
+        "Jon Weeks"
+      ],
+      "note": "AFC: Matiscik (JAX); NFC: Weeks (SF) per nfl.com/news/2026-pro-bowl-games-complete-nfc-roster-revealed"
+    },
+    {
+      "id": "fks_ls_2026",
+      "name": "FootballKickingStats 2026 long snapper unit points (through Week 5; credits the whole unit)",
+      "publisher": "FootballKickingStats",
+      "kind": "stats",
+      "season": 2026,
+      "url": "https://footballkickingstats.com/nfl/rankings/long-snappers/2026/",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Chris Stoll",
+        "Luke Rhodes",
+        "Rocco Underwood",
+        "Rex Sunahara",
+        "Christian Kuntz",
+        "Hogan Hatten",
+        "Beau Gardner",
+        "Ben Mann",
+        "William Wagner",
+        "Ross Matiscik",
+        "Nick Moore",
+        "Andrew DePaola",
+        "Reid Ferguson",
+        "J.J. Jansen",
+        "Alex Ward",
+        "Scott Daly",
+        "Jon Weeks",
+        "Austin Brinkman",
+        "James Winchester",
+        "Morgan Cox"
+      ]
+    }
+  ]
+}

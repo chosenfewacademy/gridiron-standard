@@ -10,6 +10,8 @@ function slug(name: string): string {
 export interface RefreshOptions {
   /** Only add new players; never modify existing registry entries (safe for non-locked positions). */
   addOnly?: boolean;
+  /** Match existing players by source id only (no exact-name fallback); avoids merging same-name different players. Requires addOnly. */
+  idOnly?: boolean;
   /** Compute the result without writing the registry. */
   dryRun?: boolean;
   /** Restrict additions to these exact Madden buckets. */
@@ -27,6 +29,7 @@ export async function refreshRoster(source: RosterSource, options: RefreshOption
   const current = registry.players as any[];
   const incoming = await source.fetchAllPlayers();
 
+  if (options.idOnly && !options.addOnly) throw new Error("--id-only requires --add-only");
   let added = 0;
   let updated = 0;
   let unchanged = 0;
@@ -39,7 +42,7 @@ export async function refreshRoster(source: RosterSource, options: RefreshOption
     const id = ext.source_id ? `ext_${ext.source_id}` : slug(ext.full_name);
     let player = byId.get(id);
 
-    if (!player) {
+    if (!player && !options.idOnly) {
       // Fallback exact-name match helps preserve history if a future source introduces source IDs.
       const matches = current.filter(p => p.full_name.toLowerCase() === ext.full_name.toLowerCase());
       if (matches.length === 1) player = matches[0];
