@@ -12,6 +12,7 @@ import { runResearchTransportTests } from "./research-transport-tests.js";
 import { runOpenAIResponsesTransportTests } from "./openai-responses-transport-tests.js";
 import { runGithubWorkflowTests } from "./github-workflow-tests.js";
 import { runGrokBotTransportTests } from "./grok-bot-transport-tests.js";
+import { runRosterRefreshTests } from "./stage-tests.js";
 import { runStrictnessTests, runPositionArchitectureTests } from "./strictness-tests.js";
 
 function test(name: string, fn: () => void): void {
@@ -31,6 +32,10 @@ runResearchTransportTests(test);
 runGithubWorkflowTests(test);
 await runGrokBotTransportTests(test);
 await runStrictnessTests(test);
+const atest = async (name: string, fn: () => void | Promise<void>) => {
+  try { await fn(); console.log(`PASS ${name}`); } catch (error) { console.error(`FAIL ${name}`); throw error; }
+};
+await runRosterRefreshTests(atest as any);
 runPositionArchitectureTests(test);
 
 test("route continue alias", () => {

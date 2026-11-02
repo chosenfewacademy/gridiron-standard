@@ -1,3 +1,4 @@
+import fs from "node:fs";
 import { parse } from "csv-parse/sync";
 import type { ExternalPlayerRecord, RosterSource } from "./roster-source.js";
 import { mapToMaddenBucket } from "./position-mapper.js";
@@ -44,9 +45,11 @@ export interface NflversePlayerRecord extends ExternalPlayerRecord {
 }
 
 export class NflverseRosterSource implements RosterSource {
-  constructor(private readonly season = 2026) {}
+  /** csvFile: offline, free path (e.g. research-inbox/_cache/roster_2026.csv from npm run nflverse:fetch). */
+  constructor(private readonly season = 2026, private readonly csvFile?: string) {}
 
   async fetchAllPlayers(): Promise<NflversePlayerRecord[]> {
+    if (this.csvFile) return this.parseCsv(fs.readFileSync(this.csvFile, "utf8"));
     const url =
       `https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_${this.season}.csv`;
 
@@ -62,7 +65,10 @@ export class NflverseRosterSource implements RosterSource {
       );
     }
 
-    const csv = await response.text();
+    return this.parseCsv(await response.text());
+  }
+
+  parseCsv(csv: string): NflversePlayerRecord[] {
     const rows = parse(csv, {
       columns: true,
       skip_empty_lines: true,

@@ -301,3 +301,13 @@ Added:
 Before production graphic-card deployment, the Madden 27 editor order must be verified.
 The service can still operate for text/JSON audits and approved-card storage while that
 verification remains pending.
+
+### Offline / add-only roster refresh (free, no network at refresh time)
+
+```bash
+npm run nflverse:fetch -- roster 2026            # caches research-inbox/_cache/roster_2026.csv (gitignored)
+npm run roster:refresh -- 2026 --from-file research-inbox/_cache/roster_2026.csv --add-only --dry-run --positions C,RG
+```
+
+`--add-only` never modifies existing registry entries (no team/position/ID rewrites), so it is safe while
+positions are locked. `--dry-run` writes nothing. Commit registry changes only when they purely add players.

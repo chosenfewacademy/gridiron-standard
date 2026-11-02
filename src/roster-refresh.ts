@@ -6,8 +6,18 @@ function slug(name: string): string {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
 }
 
-export async function refreshRoster(source: RosterSource): Promise<RosterRefreshResult> {
-  const registryPath = path.resolve("data/players/registry.json");
+export interface RefreshOptions {
+  /** Only add new players; never modify existing registry entries (safe for non-locked positions). */
+  addOnly?: boolean;
+  /** Compute the result without writing the registry. */
+  dryRun?: boolean;
+  /** Restrict additions to these exact Madden buckets. */
+  positions?: string[];
+  registryPath?: string;
+}
+
+export async function refreshRoster(source: RosterSource, options: RefreshOptions = {}): Promise<RosterRefreshResult & { skipped_existing?: number }> {
+  const registryPath = path.resolve(options.registryPath ?? "data/players/registry.json");
   const registry = JSON.parse(fs.readFileSync(registryPath, "utf8"));
   const current = registry.players as any[];
   const incoming = await source.fetchAllPlayers();
@@ -15,6 +25,7 @@ export async function refreshRoster(source: RosterSource): Promise<RosterRefresh
   let added = 0;
   let updated = 0;
   let unchanged = 0;
+  let skippedExisting = 0;
   const conflicts: Array<Record<string, unknown>> = [];
 
   const byId = new Map(current.map(p => [p.player_id, p]));
@@ -32,6 +43,9 @@ export async function refreshRoster(source: RosterSource): Promise<RosterRefresh
         continue;
       }
     }
+
+    if (!player && options.positions && !options.positions.includes(String(ext.position))) continue;
+    if (player && options.addOnly) { skippedExisting++; continue; }
 
     if (!player) {
       player = {
@@ -85,9 +99,9 @@ export async function refreshRoster(source: RosterSource): Promise<RosterRefresh
   registry.players = current.sort((a,b) => a.full_name.localeCompare(b.full_name));
   registry.last_refreshed_at = new Date().toISOString();
 
-  fs.writeFileSync(registryPath, JSON.stringify(registry, null, 2) + "\n");
+  if (!options.dryRun) fs.writeFileSync(registryPath, JSON.stringify(registry, null, 2) + "\n");
 
-  return { added, updated, unchanged, conflicts };
+  return { added, updated, unchanged, conflicts, ...(options.addOnly ? { skipped_existing: skippedExisting } : {}) };
 }
 
 
