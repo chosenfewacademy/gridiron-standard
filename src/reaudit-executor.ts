@@ -10,7 +10,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { planNext, stageOutputErrors, LEGACY_ORDER_TASK } from "./stage-engine.js";
+import { planNext, stageOutputErrors, LEGACY_ORDER_TASK, styleSimilarity } from "./stage-engine.js";
 import { createAuditAdapter, createResearchAdapter, selectedTransport } from "./adapter-factory.js";
 import { withTransportChecks } from "./high-trait-evidence.js";
 import { parseAuditJson } from "./audit-parser.js";
@@ -108,6 +108,16 @@ export async function executeReauditStep(pos: string, deps: ReauditDeps = {}): P
       if (se.length) validation = { ...validation, valid: false, errors: [...(validation.errors ?? []), ...se] };
       if (validation.valid) break;
       feedback = validation.errors;
+    }
+    if (task.type === "player_rating" && parsed.ratings) {
+      // Unique playing-style rule: compare against every already-approved rating at this position.
+      const approved = new Set((item.approvals ?? []).map((a: any) => a.audit_id));
+      const dir = path.join(root, "audits/league", pos);
+      parsed.style_similarity = fs.readdirSync(dir).filter(f => f.endsWith(".json")).map(f => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")))
+        .filter(a => a.task_type === "player_rating" && approved.has(a.audit_id) && a.task_id !== task.task_id && a.ratings)
+        .map(a => ({ player: (a.players ?? [a.player_id])[0], audit_id: a.audit_id, ...styleSimilarity(parsed.ratings, a.ratings) }));
+      const close = parsed.style_similarity.filter((x: any) => x.too_similar);
+      if (close.length) parsed.major_flags = [...new Set([...(parsed.major_flags ?? []), ...close.map((x: any) => `STYLE_PROFILE_TOO_SIMILAR:${x.player}(corr ${x.corr}, mad ${x.mad})`)])];
     }
     if (!validation.valid) {
       parsed.status = "FLAGGED"; parsed.major_flags = [...new Set([...(parsed.major_flags ?? []), "RE-AUDIT REQUIRED"])];

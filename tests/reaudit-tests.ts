@@ -6,6 +6,7 @@ import { stateChangeAllowed, violations, reauditAuditAddAllowed } from "../scrip
 import { applyFullAuditEvidenceGate, calendarSubject, isPositionWideTask } from "../src/evidence-gate.js";
 import { planReaudit, executeReauditStep } from "../src/reaudit-executor.js";
 import { checkReauditPool } from "../src/coverage-gate.js";
+import { styleSimilarity, stageOutputErrors } from "../src/stage-engine.js";
 
 const J = (o: any) => JSON.stringify(o, null, 2);
 const NOW = "2026-11-02T13:30:00-05:00";
@@ -162,6 +163,17 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     const ext = t.baseline_controls?.external_controls ?? [];
     assert(ext.includes("Justin Herbert") && ext.includes("Sam Darnold"));
     assert.match(fs.readFileSync("src/reaudit-executor.ts", "utf8"), /ALWAYS_REVIEW = new Set\([^)]*"background_analysis"/);
+  });
+  test("style rule: ratings need style_profile + style_evidence (any position); near-identical shapes are flagged", () => {
+    const base = { ratings: { SPD: 90, AWR: 80, THP: 85 }, trait_confidence: { SPD: "HIGH", AWR: "MEDIUM", THP: "MEDIUM" }, proposed_ovr: 85 };
+    const t = { type: "player_rating", position: "ZZ" };
+    assert(stageOutputErrors(t, base).some(e => /style_profile/.test(e)) && stageOutputErrors(t, base).some(e => /style_evidence/.test(e)));
+    assert(!stageOutputErrors(t, { ...base, style_profile: "Explosive vertical scrambler, out-of-structure", style_evidence: ["x"] }).some(e => /style/.test(e)));
+    const a = { SPD: 70, ACC: 74, AWR: 90, SAC: 93, MAC: 91 };
+    assert.equal(styleSimilarity(a, { SPD: 71, ACC: 75, AWR: 91, SAC: 92, MAC: 90 }).too_similar, true);
+    assert.equal(styleSimilarity(a, { SPD: 91, ACC: 90, AWR: 84, SAC: 87, MAC: 82 }).too_similar, false);
+    assert.match(fs.readFileSync("AGENTS.md", "utf8"), /Unique playing-style rule/);
+    assert.equal(JSON.parse(fs.readFileSync("config/methodology.json", "utf8")).audit_order.style_rule.applies_to, "ALL_POSITIONS_ALL_RATINGS");
   });
   for (const [n, f] of asyncTests) { await f(); console.log(`PASS ${n}`); } // sequential: executor chdirs
 }

@@ -178,6 +178,9 @@ export function stageOutputErrors(task: Record<string, any>, audit: Record<strin
     for (const a of Object.keys(r)) if (!audit.trait_confidence?.[a]) e.push(`trait_confidence.${a} is required`);
     if (!Number.isFinite(Number(audit.proposed_ovr))) e.push("proposed_ovr is required (output of the attribute build, never a target)");
     if ("OVR" in r) e.push("OVR is not an attribute input; report proposed_ovr");
+    // Unique playing-style rule (commissioner 2026-11-02 2:32 PM ET, every position): the profile is built from style evidence.
+    if (typeof audit.style_profile !== "string" || audit.style_profile.trim().length < 20) e.push("style_profile (the player's distinct playing style, built from style evidence) is required");
+    if (!Array.isArray(audit.style_evidence) || !audit.style_evidence.length) e.push("style_evidence (sourced style indicators behind the profile) is required");
   }
   if (["candidate_audit", "background_analysis", "player_rating"].includes(String(t)) && audit.madden_reference !== undefined) {
     const refs = Array.isArray(audit.madden_reference) ? audit.madden_reference : [audit.madden_reference];
@@ -260,4 +263,17 @@ function planV112(pos: Position, done: Set<string>, I: ReturnType<typeof ids>, o
 export function ratingAttributes(pos: string, root = process.cwd()): string[] {
   try { return (JSON.parse(fs.readFileSync(path.join(root, "config/madden-entry-order.json"), "utf8")).positions?.[pos] ?? []).filter((a: string) => a !== "OVR"); }
   catch { return []; }
+}
+
+/** Unique playing-style rule: attribute SHAPE similarity between two rating profiles over shared attributes.
+ *  corr = Pearson correlation of mean-centred ratings; mad = mean absolute difference. Too similar => review flag. */
+export const STYLE_SIMILARITY_LIMITS = { max_corr: 0.95, min_mad: 3 } as const;
+export function styleSimilarity(a: Record<string, number>, b: Record<string, number>): { corr: number; mad: number; too_similar: boolean } {
+  const k = Object.keys(a).filter(x => Number.isFinite(a[x]) && Number.isFinite(b[x]));
+  if (k.length < 3) return { corr: 0, mad: 99, too_similar: false };
+  const ma = k.reduce((s, x) => s + a[x], 0) / k.length, mb = k.reduce((s, x) => s + b[x], 0) / k.length;
+  let num = 0, da = 0, db = 0, ad = 0;
+  for (const x of k) { const u = a[x] - ma, v = b[x] - mb; num += u * v; da += u * u; db += v * v; ad += Math.abs(a[x] - b[x]); }
+  const corr = da && db ? num / Math.sqrt(da * db) : 1; const mad = ad / k.length;
+  return { corr: Math.round(corr * 1000) / 1000, mad: Math.round(mad * 10) / 10, too_similar: corr >= STYLE_SIMILARITY_LIMITS.max_corr || mad <= STYLE_SIMILARITY_LIMITS.min_mad };
 }

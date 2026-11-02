@@ -27,6 +27,23 @@
     "applies_to": "positions with no completed tasks at enactment, and every TOP10_REAUDIT (including restarts)",
     "madden_reference": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
     "enacted": "2026-11-02T13:56:00-05:00",
-    "approved_by": "PhiXCrypto (commissioner)"
+    "approved_by": "PhiXCrypto (commissioner)",
+    "background_analysis_review": "ALWAYS_COMMISSIONER_REVIEW",
+    "style_rule": {
+      "applies_to": "ALL_POSITIONS_ALL_RATINGS",
+      "required_fields": [
+        "style_profile",
+        "style_evidence"
+      ],
+      "similarity_check": {
+        "compare_against": "approved ratings at the same position",
+        "flag": "STYLE_PROFILE_TOO_SIMILAR",
+        "max_corr": 0.95,
+        "min_mad": 3
+      },
+      "approved_ratings": "not edited for style; adjusted in head-to-heads",
+      "approved_by": "PhiXCrypto (commissioner)",
+      "enacted": "2026-11-02T14:32:00-05:00"
+    }
   }
 }

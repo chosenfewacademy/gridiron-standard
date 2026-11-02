@@ -183,4 +183,14 @@ protected-path guard. Candidate audits and ratings never auto-approve. A positio
 the earlier order (provisional_top_10 -> pairs -> membership -> scarcity -> hard audits -> cross-audit) finishes
 under that order. Records made under the earlier order (for example the QB re-audit provisional Top 10 and
 pairs 1-3) remain immutable history and may be cited as early inputs; they are never deleted.
+Background dossiers are reviewed by the commissioner too (no approvals without the commissioner).
+
+Unique playing-style rule (commissioner, 2026-11-02 2:32 PM ET; every position): each player's distinct playing
+style must show clearly in his attribute profile; players are not rated alike. Every rating builds the profile
+from sourced style evidence (usage, splits, role; e.g. a QB's designed runs/scrambles, rushing EPA, throwing on
+the run and deep-vs-short splits versus pocket precision) and records a one-line `style_profile` plus
+`style_evidence`. The rating stage compares each new profile's attribute shape with every already-approved
+rating at the position (correlation of mean-centred ratings >= 0.95, or mean absolute difference <= 3) and
+flags STYLE_PROFILE_TOO_SIMILAR for review. Approved ratings are not edited for style; style adjustments to
+them happen in the head-to-heads.
 All v1.0.0 text, Amendment v1.1 and Addendum v1.1.1 above remain in force unchanged.

@@ -291,13 +291,13 @@ export function runStageEngineTests(test: (n: string, f: () => void) => void) {
   test("v1.1.2 rating output uses the existing structure (ratings by madden-entry-order attributes, trait_confidence, proposed_ovr); Madden reference only", () => {
     const t = { type: "player_rating", task_id: "QB_REAUDIT_RATE_01", position: "QB" };
     const attrs = ratingAttributes("QB"); assert.equal(attrs.length, 19); assert.ok(!attrs.includes("OVR"));
-    const ratings = Object.fromEntries(attrs.map(a => [a, 70])); const conf = Object.fromEntries(attrs.map(a => [a, "MEDIUM"]));
-    assert.deepEqual(stageOutputErrors(t, { ratings, trait_confidence: conf, proposed_ovr: 78 }), []);
+    const ratings = Object.fromEntries(attrs.map(a => [a, 70])); const conf = Object.fromEntries(attrs.map(a => [a, "MEDIUM"])); const sty = { style_profile: "Pocket precision passer, timing and accuracy", style_evidence: ["sourced split"] };
+    assert.deepEqual(stageOutputErrors(t, { ratings, trait_confidence: conf, proposed_ovr: 78, ...sty }), []);
     assert.ok(stageOutputErrors(t, { ratings: { THP: 80 }, trait_confidence: { THP: "HIGH" }, proposed_ovr: 78 }).some(e => /ratings\.SAC/.test(e)));
     assert.ok(stageOutputErrors(t, { ratings: { ...ratings, OVR: 90 }, trait_confidence: { ...conf, OVR: "HIGH" }, proposed_ovr: 78 }).some(e => /OVR is not an attribute/.test(e)));
     assert.ok(stageOutputErrors(t, { ratings, trait_confidence: conf }).some(e => /proposed_ovr/.test(e)));
     assert.ok(stageOutputErrors(t, { ratings, trait_confidence: conf, proposed_ovr: 78, madden_reference: { ovr: 90, reference_only: true, used_as_evidence: true } }).some(e => /reference_only/.test(e)));
-    assert.deepEqual(stageOutputErrors(t, { ratings, trait_confidence: conf, proposed_ovr: 78, madden_reference: { ovr: 90, reference_only: true, used_as_evidence: false } }), []);
+    assert.deepEqual(stageOutputErrors(t, { ratings, trait_confidence: conf, proposed_ovr: 78, ...sty, madden_reference: { ovr: 90, reference_only: true, used_as_evidence: false } }), []);
   });
   test("v1.1.2 applies to fresh positions and re-audits; in-progress LG keeps the earlier order", () => {
     assert.equal(usesOrderV112(REAL_STATE, "LG"), false); assert.equal(usesOrderV112(REAL_STATE, "C"), true);
