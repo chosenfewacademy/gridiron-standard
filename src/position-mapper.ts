@@ -85,3 +85,17 @@ export function mapToMaddenBucket(
     reason: "Source position cannot be mapped safely to an exact Gridiron Standard bucket."
   };
 }
+
+/** Madden buckets a generic NFL label could resolve to (filtering only; never assigns a position). */
+const POSSIBLE: Record<string, string[]> = {
+  T: ["LT", "RT"], G: ["LG", "RG"], OL: ["LT", "LG", "C", "RG", "RT"],
+  OLB: ["REDGE", "LEDGE", "SAM", "WILL"], EDGE: ["REDGE", "LEDGE"], DE: ["REDGE", "LEDGE", "DT"],
+  LB: ["MIKE", "WILL", "SAM", "REDGE", "LEDGE"], ILB: ["MIKE", "WILL", "SAM"], MLB: ["MIKE", "WILL", "SAM"],
+  NT: ["DT"], DL: ["DT", "REDGE", "LEDGE"], S: ["FS", "SS"], DB: ["CB", "FS", "SS"]
+};
+export function possibleBuckets(position?: string | null, depthChartPosition?: string | null): string[] {
+  const m = mapToMaddenBucket(position, depthChartPosition);
+  if (m.exact_position) return [m.exact_position];
+  const d = (depthChartPosition ?? "").toUpperCase().trim(), p = (position ?? "").toUpperCase().trim();
+  return POSSIBLE[d] ?? POSSIBLE[p] ?? [];
+}

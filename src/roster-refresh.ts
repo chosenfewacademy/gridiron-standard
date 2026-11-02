@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { possibleBuckets } from "./position-mapper.js";
 import type { ExternalPlayerRecord, RosterRefreshResult, RosterSource } from "./roster-source.js";
 
 function slug(name: string): string {
@@ -44,7 +45,11 @@ export async function refreshRoster(source: RosterSource, options: RefreshOption
       }
     }
 
-    if (!player && options.positions && !options.positions.includes(String(ext.position))) continue;
+    if (!player && options.positions) {
+      const could = possibleBuckets((ext as any).source_position, (ext as any).depth_chart_position);
+      const buckets = ext.position ? [String(ext.position)] : could;
+      if (!buckets.some(b => options.positions!.includes(b))) continue;
+    }
     if (player && options.addOnly) { skippedExisting++; continue; }
 
     if (!player) {

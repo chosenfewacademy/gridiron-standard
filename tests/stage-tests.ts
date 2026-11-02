@@ -7,7 +7,7 @@ import { refreshRoster } from "../src/roster-refresh.js";
 
 type T = (name: string, fn: () => void | Promise<void>) => void;
 
-const CSV = "full_name,team,position,depth_chart_position,gsis_id\nOld Guy,NYG,C,C,00-1\nNew Guy,DAL,C,C,00-2\nKick Er,DAL,K,K,00-3\n";
+const CSV = "full_name,team,position,depth_chart_position,gsis_id\nOld Guy,NYG,C,C,00-1\nNew Guy,DAL,C,C,00-2\nKick Er,DAL,K,K,00-3\nGuard Man,DAL,OL,G,00-4\nTack Le,DAL,OL,T,00-5\n";
 function tmpRegistry(): { dir: string; reg: string; csv: string } {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "roster-"));
   const reg = path.join(dir, "registry.json"); const csv = path.join(dir, "roster.csv");
@@ -23,12 +23,12 @@ export async function runRosterRefreshTests(test: T) {
     const players = JSON.parse(fs.readFileSync(reg, "utf8")).players;
     const old = players.find((p: any) => p.full_name === "Old Guy");
     assert.equal(old.team, "PHI"); assert.equal(old.current_audit_id, "KEEP");
-    assert.equal(r.added, 2); assert.equal(r.updated, 0); assert.equal(r.skipped_existing, 1);
+    assert.equal(r.added, 4); assert.equal(r.updated, 0); assert.equal(r.skipped_existing, 1);
   });
   await test("roster:refresh --dry-run writes nothing; --positions filters additions", async () => {
     const { reg, csv } = tmpRegistry(); const before = fs.readFileSync(reg, "utf8");
-    const r = await refreshRoster(new NflverseRosterSource(2026, csv), { addOnly: true, dryRun: true, positions: ["K"], registryPath: reg });
-    assert.equal(fs.readFileSync(reg, "utf8"), before); assert.equal(r.added, 1);
+    const r = await refreshRoster(new NflverseRosterSource(2026, csv), { addOnly: true, dryRun: true, positions: ["K", "RG"], registryPath: reg });
+    assert.equal(fs.readFileSync(reg, "utf8"), before); assert.equal(r.added, 2, "K plus role-unresolved guard (could be RG); tackle excluded");
   });
 }
 
