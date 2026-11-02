@@ -4,3 +4,7 @@ export declare function queueOnlyAppend(baseText: string, headText: string): { o
 export declare function violations(lines: string[], allowState?: (path: string) => boolean): string[];
 export declare function positionsOnlyAddPending(a: any, b: any): { ok: boolean; reason?: string; added?: string[] };
 export declare function stateChangeAllowed(baseText: string, headText: string): { ok: boolean; reason?: string };
+export declare const REAUDIT_MUTABLE: string[];
+export declare const REAUDIT_TRANSITIONS: Record<string, string[]>;
+export declare function reauditItemUpdate(x: any, y: any): { ok: boolean; reason?: string; changed?: boolean };
+export declare function queueUpdateAllowed(qa: any[], qb: any[]): { ok: boolean; reason?: string };

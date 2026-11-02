@@ -55,11 +55,28 @@ function qbPolicyCategories(normalized: Record<string, unknown>): Record<string,
     ...Object.fromEntries(Object.entries(parent.trait_assessments ?? {}).map(([key,value])=>[`trait:${key}`,value])) };
 }
 
+/** Season-calendar subject (commissioner-approved 2026-11-02): provisional_top_10 and pair_audit tasks with no single
+ * player may use a position-wide subject {player_id: "POSITION_WIDE:<POS>", team: "NFL"}. Every other task keeps the strict
+ * player/team match. Position-wide calendars must resolve LIVE from fresh official nfl.com sources that state the
+ * regular-season start and the season end (Super Bowl). */
+export const POSITION_WIDE_TASK_TYPES = new Set(["provisional_top_10", "pair_audit"]);
+export function isPositionWideTask(task: Record<string, unknown>): boolean {
+  return POSITION_WIDE_TASK_TYPES.has(String(task.type)) && (task.player_id === undefined || task.player_id === null);
+}
+export function calendarSubject(task: Record<string, unknown>): { player_id?: unknown; team?: unknown } {
+  return isPositionWideTask(task) ? { player_id: `POSITION_WIDE:${String(task.position)}`, team: "NFL" } : task;
+}
+
 // This gate never approves an audit, mutates its input, or writes project state.
 export function applyFullAuditEvidenceGate(evidence: EvidencePackage, task: Record<string, unknown>, asOf: string): EvidencePackage {
   const context = resolveAuthoritativeSeasonContext({ live: evidence.calendar,
-    cached: evidence.calendar_fallbacks?.[0], stored: evidence.calendar_fallbacks?.slice(1) }, asOf, task);
+    cached: evidence.calendar_fallbacks?.[0], stored: evidence.calendar_fallbacks?.slice(1) }, asOf, calendarSubject(task));
   const errors: string[] = [];
+  if (isPositionWideTask(task) && context.status === "RESOLVED") {
+    const claims = context.calendar.sources.flatMap(s => s.claims).join(" | ");
+    if (context.resolution_level !== "LIVE_OFFICIAL") errors.push("POSITION_WIDE_CALENDAR_REQUIRES_LIVE_OFFICIAL");
+    if (!/regular[- ]season/i.test(claims) || !/super bowl|season end/i.test(claims)) errors.push("POSITION_WIDE_CALENDAR_START_END_SOURCES_MISSING");
+  }
   const checked = packageSchema.safeParse(evidence);
   if (!checked.success) errors.push("INVALID_FULL_AUDIT_EVIDENCE_STRUCTURE");
   if (evidence.calendar_web_search_observed !== true && context.status !== "RESOLVED") errors.push("FRESH_CALENDAR_RESEARCH_UNAVAILABLE");

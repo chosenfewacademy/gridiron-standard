@@ -35,7 +35,8 @@
     "addendum:enact-positions": "tsx src/enact-addendum-positions.ts",
     "coverage:check": "tsx src/coverage-check.ts",
     "pool:approve": "tsx src/approve-pool.ts",
-    "reaudit:trigger": "tsx src/top10-reaudit.ts"
+    "reaudit:trigger": "tsx src/top10-reaudit.ts",
+    "reaudit:run": "tsx src/reaudit-executor.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

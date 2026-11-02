@@ -13,7 +13,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { Position, ProjectState } from "./types.js";
-import { normName, requireApprovedPool } from "./coverage-gate.js";
+import { normName, requireApprovedPool, requireApprovedReauditPool } from "./coverage-gate.js";
 
 export const STAGES = [
   "provisional_top_10", "pair_audits", "membership_reopen", "scarcity_audit",
@@ -30,7 +30,10 @@ export const LEGACY_PAIR_SEQUENCES: Partial<Record<Position, Array<{ task_id: st
   ]
 };
 
-export interface EngineOptions { auditsRoot?: string; metricsPath?: string; root?: string }
+export interface EngineOptions { auditsRoot?: string; metricsPath?: string; root?: string;
+  /** TOP10_REAUDIT mode (commissioner-triggered, queue-driven): plans a re-audit of a LOCKED position without touching
+   *  current_position/completed_tasks of the main run. Task ids are <POS>_REAUDIT_*. */
+  reaudit?: { position: string; completed_tasks: string[]; baseline_controls?: Record<string, unknown> } }
 
 export const ids = (pos: string) => ({
   provisional: `${pos}_PROVISIONAL_TOP10`,
@@ -80,26 +83,29 @@ function positionInputs(pos: string, opts: EngineOptions) {
 export interface StagePlan { position: string; stage: Stage; task: Record<string, unknown> }
 
 export function planNext(state: ProjectState, opts: EngineOptions = {}): StagePlan {
-  const pos = state.current_position;
-  const done = new Set(state.completed_tasks);
-  const I = ids(pos);
+  const ra = opts.reaudit;
+  const pos = (ra ? ra.position : state.current_position) as Position;
+  const done = new Set(ra ? ra.completed_tasks : state.completed_tasks);
+  const I = ids(ra ? `${pos}_REAUDIT` : pos);
   const inputs = positionInputs(pos, opts);
   const mk = (stage: Stage, t: Record<string, unknown>): StagePlan =>
-    ({ position: pos, stage, task: { ...t, position: pos, stage, ...(inputs ? { position_inputs: inputs } : {}) } });
+    ({ position: pos, stage, task: { ...t, position: pos, stage, ...(ra ? { audit_type: "TOP10_REAUDIT", reaudit: true } : {}),
+      ...(inputs ? { position_inputs: inputs } : {}) } });
 
-  if (state.positions[pos] === "LOCKED") throw new Error(`${pos} is LOCKED; only an explicit TOP10_REAUDIT may change it.`);
+  if (state.positions[pos] === "LOCKED" && !ra) throw new Error(`${pos} is LOCKED; only an explicit TOP10_REAUDIT may change it.`);
 
-  const legacy = LEGACY_PAIR_SEQUENCES[pos];
+  const legacy = ra ? undefined : LEGACY_PAIR_SEQUENCES[pos];
   const prov = approvedOutput(pos, I.provisional, opts);
   if (!legacy && !done.has(I.provisional)) {
-    const pool = requireApprovedPool(pos, opts.root); // coverage gate: blocks if any top name is unaccounted
+    const pool = ra ? requireApprovedReauditPool(pos, opts.root) : requireApprovedPool(pos, opts.root); // coverage gate
     return mk("provisional_top_10", { task_id: I.provisional, type: "provisional_top_10",
+      ...(ra?.baseline_controls ? { baseline_controls: ra.baseline_controls } : {}),
       candidate_pool: pool.candidates.map(c => ({ player: c.player, aliases: c.aliases ?? [], player_id: c.player_id, flags: c.flags ?? [] })) });
   }
 
   const provTop = names(prov?.provisional_top_10);
   const firstOut = names(prov ? [prov.first_out] : [])[0] ?? null;
-  const controls = prov ? { top_10: provTop.map((player, i) => ({ rank: i + 1, player })), external_controls: prov.external_controls ?? [] } : undefined;
+  const controls = prov ? { ...(ra?.baseline_controls ? { locked_baseline: ra.baseline_controls } : {}), top_10: provTop.map((player, i) => ({ rank: i + 1, player })), external_controls: prov.external_controls ?? [] } : undefined;
   const withControls = (t: Record<string, unknown>) => controls ? { ...t, baseline_controls: controls } : t;
 
   if (!legacy && !prov) throw new Error(`${pos}: ${I.provisional} is completed but its APPROVED audit record is missing.`);
@@ -120,6 +126,7 @@ export function planNext(state: ProjectState, opts: EngineOptions = {}): StagePl
       { task_id: I.hard(i + 1), type: "individual_hard_audit", players: [final[i]], rank: i + 1, baseline_controls: finalControls });
   }
   if (!done.has(I.cross)) return mk("positional_cross_audit", { task_id: I.cross, type: "positional_cross_audit", players: final, baseline_controls: finalControls });
+  if (ra) return mk("lock", { task_id: I.lock, type: "lock", requires_commissioner_confirmation: `REAUDIT_REPLACE_BASELINE_${pos}`, players: final });
   return mk("lock", { task_id: I.lock, type: "lock", requires_commissioner_confirmation: `LOCK_${pos}`, players: final });
 }
 

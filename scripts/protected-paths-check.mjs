@@ -47,6 +47,32 @@ export function positionsOnlyAddPending(a, b) {
   for (const k of added) if (pb[k] !== "PENDING") return { ok: false, reason: `new position ${k} must be PENDING` };
   return { ok: true, added };
 }
+// THIRD NARROW EXCEPTION (commissioner-approved 2026-11-02): an EXISTING TOP10_REAUDIT queue item may record re-audit
+// progress. Identity fields stay identical; only REAUDIT_MUTABLE keys may change; status moves only along
+// REAUDIT_TRANSITIONS (never to COMPLETED — completion changes baselines and needs commissioner approval);
+// completed_tasks/audit_ids may only grow by append. Locks, positions, current_* pointers etc. remain covered elsewhere.
+export const REAUDIT_MUTABLE = ["status", "started_at", "updated_at", "current_stage", "current_task", "completed_tasks", "audit_ids", "last_result", "awaiting"];
+export const REAUDIT_TRANSITIONS = { QUEUED_NOT_STARTED: ["QUEUED_NOT_STARTED", "IN_PROGRESS"], IN_PROGRESS: ["IN_PROGRESS", "AWAITING_REVIEW_MAJOR"], AWAITING_REVIEW_MAJOR: ["AWAITING_REVIEW_MAJOR", "IN_PROGRESS"] };
+const appendOnly = (x, y) => { const a = x ?? [], b = y ?? []; return Array.isArray(b) && Array.isArray(a) && b.length >= a.length && a.every((v, i) => canon(v) === canon(b[i])); };
+export function reauditItemUpdate(x, y) {
+  if (canon(x) === canon(y)) return { ok: true, changed: false };
+  if (!x || !y || x.type !== "TOP10_REAUDIT" || y.type !== "TOP10_REAUDIT") return { ok: false, reason: "only TOP10_REAUDIT queue items may be updated" };
+  const strip = o => { const c = { ...o }; for (const k of REAUDIT_MUTABLE) delete c[k]; return canon(c); };
+  if (strip(x) !== strip(y)) return { ok: false, reason: "re-audit item identity fields changed" };
+  if (!(REAUDIT_TRANSITIONS[x.status] ?? []).includes(y.status)) return { ok: false, reason: `status transition ${x.status} -> ${y.status} not allowed` };
+  if (!appendOnly(x.completed_tasks, y.completed_tasks) || !appendOnly(x.audit_ids, y.audit_ids)) return { ok: false, reason: "completed_tasks/audit_ids are append-only" };
+  if (x.started_at && x.started_at !== y.started_at) return { ok: false, reason: "started_at is immutable once set" };
+  return { ok: true, changed: true };
+}
+export function queueUpdateAllowed(qa = [], qb) {
+  if (!Array.isArray(qa) || !Array.isArray(qb)) return { ok: false, reason: "pending_reaudit_queue must be an array" };
+  if (qb.length < qa.length) return { ok: false, reason: "queue items may not be removed" };
+  for (let i = 0; i < qa.length; i++) { const r = reauditItemUpdate(qa[i], qb[i]); if (!r.ok) return { ok: false, reason: `queue item ${i}: ${r.reason}` }; }
+  for (const it of qb.slice(qa.length))
+    if (!it || it.type !== "TOP10_REAUDIT" || it.status !== "QUEUED_NOT_STARTED" || typeof it.position !== "string")
+      return { ok: false, reason: "appended items must be TOP10_REAUDIT with status QUEUED_NOT_STARTED" };
+  return { ok: true };
+}
 export function stateChangeAllowed(baseText, headText) {
   let a, b;
   try { a = JSON.parse(baseText); b = JSON.parse(headText); } catch { return { ok: false, reason: "unparseable state JSON" }; }
@@ -55,7 +81,7 @@ export function stateChangeAllowed(baseText, headText) {
   const pos = positionsOnlyAddPending(a, b); if (!pos.ok) return pos;
   const queueSame = canon(a.pending_reaudit_queue ?? []) === canon(b.pending_reaudit_queue ?? []);
   if (!queueSame) {
-    const q = queueOnlyAppend(JSON.stringify({ ...a, positions: null }), JSON.stringify({ ...b, positions: null }));
+    const q = queueUpdateAllowed(a.pending_reaudit_queue ?? [], b.pending_reaudit_queue);
     if (!q.ok) return q;
   }
   if (queueSame && pos.added.length === 0) return { ok: false, reason: "no allowed change" };
