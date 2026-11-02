@@ -1,0 +1,630 @@
+{
+  "position": "MIKE",
+  "status": "PROPOSED",
+  "generated_at": "2026-11-01T22:52:12-05:00",
+  "generator": "scripts/build-candidate-pools.py",
+  "note": "PROPOSED for commissioner approval. Composite is a triage order for auditing, not a rating. Side/role flags must be resolved before provisional_top_10.",
+  "candidates": [
+    {
+      "player": "Fred Warner",
+      "player_id": "ext_00-0034815",
+      "team": "SF",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth MLB; shared MIKE/WILL/SAM pool)"
+      ],
+      "composite": 2.005,
+      "reasoning": "PFF 2026 overall 81.3 (#3); PFF 2025 overall 93.2 (#1); 452 snaps in 7 games (2026); 2026 stat score 60.5 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#3",
+        "pff_2025#1",
+        "nflverse_snaps_2026#7",
+        "nflverse_stats_2026#10"
+      ]
+    },
+    {
+      "player": "Jack Campbell",
+      "player_id": "ext_00-0039018",
+      "team": "DET",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth MLB; shared MIKE/WILL/SAM pool)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ],
+      "composite": 1.575,
+      "reasoning": "PFF 2025 overall 90.3 (#2); 2025 All-Pro selection; 445 snaps in 6 games (2026); 2026 stat score 46.0 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2025#2",
+        "allpro_2025#2",
+        "nflverse_snaps_2026#9"
+      ]
+    },
+    {
+      "player": "Devin Lloyd",
+      "player_id": "ext_00-0037244",
+      "team": "CAR",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
+      ],
+      "composite": 1.505,
+      "reasoning": "PFF 2026 overall 70.4 (#17); PFF 2025 overall 87.9 (#3); 2025 All-Pro selection; 377 snaps in 6 games (2026); 2026 stat score 52.5 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#17",
+        "pff_2025#3",
+        "allpro_2025#4"
+      ]
+    },
+    {
+      "player": "Blake Cashman",
+      "player_id": "ext_00-0035276",
+      "team": "MIN",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
+      ],
+      "composite": 1.46,
+      "reasoning": "PFF 2026 overall 86.8 (#2); PFF 2025 overall 63.5 (#40); 339 snaps in 6 games (2026); 2026 stat score 66.5 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#2",
+        "nflverse_stats_2026#4"
+      ]
+    },
+    {
+      "player": "Alex Singleton",
+      "player_id": "ext_00-0031898",
+      "team": "DEN",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
+      ],
+      "composite": 1.45,
+      "reasoning": "PFF 2026 overall 74.1 (#9); PFF 2025 overall 72.2 (#25); 512 snaps in 7 games (2026); 2026 stat score 85.0 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#9",
+        "nflverse_snaps_2026#1",
+        "nflverse_stats_2026#1"
+      ]
+    },
+    {
+      "player": "Ernest Jones",
+      "player_id": "ext_00-0036994",
+      "team": "SEA",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
+      ],
+      "composite": 1.39,
+      "reasoning": "PFF 2026 overall 59.7 (#50); PFF 2025 overall 60.9 (#46); 2025 All-Pro selection; 432 snaps in 7 games (2026); 2026 stat score 64.0 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "allpro_2025#3",
+        "nflverse_snaps_2026#13",
+        "nflverse_stats_2026#5"
+      ]
+    },
+    {
+      "player": "Zack Baun",
+      "player_id": "ext_00-0036418",
+      "team": "PHI",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
+      ],
+      "composite": 1.25,
+      "reasoning": "PFF 2026 overall 79.0 (#5); PFF 2025 overall 80.6 (#6); 408 snaps in 6 games (2026); 2026 stat score 49.5 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#5",
+        "pff_2025#6"
+      ]
+    },
+    {
+      "player": "Arvell Reese",
+      "player_id": "ext_00-0041509",
+      "team": "NYG",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
+      ],
+      "composite": 1.245,
+      "reasoning": "PFF 2026 overall 77.0 (#7); 438 snaps in 7 games (2026); 2026 stat score 63.5 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#7",
+        "nflverse_snaps_2026#11",
+        "nflverse_stats_2026#7"
+      ]
+    },
+    {
+      "player": "Jordyn Brooks",
+      "player_id": "ext_00-0036409",
+      "team": "MIA",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth OLB; shared MIKE/WILL/SAM pool)",
+        "ROSTER_LABEL_OLB (two-way/position change; confirm bucket)"
+      ],
+      "composite": 1.2,
+      "reasoning": "PFF 2026 overall 68.1 (#23); PFF 2025 overall 77.9 (#11); 2025 All-Pro selection; 2026 stat score 50.5 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2025#11",
+        "allpro_2025#1"
+      ]
+    },
+    {
+      "player": "Ventrell Miller",
+      "player_id": "ext_00-0038570",
+      "team": "JAX",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
+      ],
+      "composite": 1.0,
+      "reasoning": "PFF 2026 overall 92.0 (#1); 275 snaps in 6 games (2026); 2026 stat score 40.0 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#1"
+      ]
+    },
+    {
+      "player": "Quincy Williams",
+      "player_id": "ext_00-0035680",
+      "team": "CLE",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth OLB; shared MIKE/WILL/SAM pool)",
+        "ROSTER_LABEL_OLB (two-way/position change; confirm bucket)"
+      ],
+      "composite": 0.87,
+      "reasoning": "PFF 2026 overall 78.1 (#6); 2026 stat score 55.5 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#6",
+        "nflverse_stats_2026#17"
+      ]
+    },
+    {
+      "player": "Omar Speights",
+      "player_id": "ext_00-0039774",
+      "team": "LA",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
+      ],
+      "composite": 0.85,
+      "reasoning": "PFF 2026 overall 79.8 (#4); PFF 2025 overall 67.1 (#34); 197 snaps in 7 games (2026); 2026 stat score 39.5 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#4"
+      ]
+    },
+    {
+      "player": "Payton Wilson",
+      "player_id": "ext_00-0039741",
+      "team": "PIT",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
+      ],
+      "composite": 0.79,
+      "reasoning": "PFF 2026 overall 71.8 (#15); 375 snaps in 7 games (2026); 2026 stat score 71.0 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#16",
+        "nflverse_stats_2026#3"
+      ]
+    },
+    {
+      "player": "Nakobe Dean",
+      "player_id": "ext_00-0037615",
+      "team": "LV",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
+      ],
+      "composite": 0.783,
+      "reasoning": "PFF 2026 overall 67.4 (#25); PFF 2025 overall 62.4 (#43); 469 snaps in 7 games (2026); 2026 stat score 73.0 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "nflverse_snaps_2026#4",
+        "nflverse_stats_2026#2"
+      ]
+    },
+    {
+      "player": "Nick Bolton",
+      "player_id": "ext_00-0036621",
+      "team": "KC",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth MLB; shared MIKE/WILL/SAM pool)"
+      ],
+      "composite": 0.74,
+      "reasoning": "PFF 2026 overall 69.1 (#20); PFF 2025 overall 78.9 (#7); 409 snaps in 6 games (2026); 2026 stat score 58.0 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#20",
+        "pff_2025#8",
+        "nflverse_stats_2026#11"
+      ]
+    },
+    {
+      "player": "Dre Greenlaw",
+      "player_id": "ext_00-0034982",
+      "team": "SF",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth OLB; shared MIKE/WILL/SAM pool)",
+        "ROSTER_LABEL_OLB (two-way/position change; confirm bucket)"
+      ],
+      "composite": 0.7,
+      "reasoning": "PFF 2026 overall 73.3 (#10); PFF 2025 overall 76.1 (#16); 2026 stat score 35.5 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#10",
+        "pff_2025#16"
+      ]
+    },
+    {
+      "player": "Drue Tranquill",
+      "player_id": "ext_00-0035262",
+      "team": "KC",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth OLB; shared MIKE/WILL/SAM pool)",
+        "ROSTER_LABEL_OLB (two-way/position change; confirm bucket)"
+      ],
+      "composite": 0.69,
+      "reasoning": "PFF 2026 overall 72.8 (#12); PFF 2025 overall 76.6 (#13); 2026 stat score 50.5 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#12",
+        "pff_2025#13"
+      ]
+    },
+    {
+      "player": "Anthony Hill Jr.",
+      "player_id": "ext_00-0041479",
+      "team": "TEN",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth MLB; shared MIKE/WILL/SAM pool)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ],
+      "composite": 0.688,
+      "reasoning": "490 snaps in 7 games (2026); 2026 stat score 64.0 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "nflverse_snaps_2026#2",
+        "nflverse_stats_2026#6"
+      ]
+    },
+    {
+      "player": "Trenton Simpson",
+      "player_id": "ext_00-0038504",
+      "team": "BAL",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
+      ],
+      "composite": 0.68,
+      "reasoning": "PFF 2026 overall 75.4 (#8); PFF 2025 overall 70.7 (#27); 269 snaps in 7 games (2026); 2026 stat score 54.0 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#8",
+        "nflverse_stats_2026#20"
+      ]
+    },
+    {
+      "player": "Demario Davis",
+      "player_id": "ext_00-0029607",
+      "team": "NYJ",
+      "flags": [
+        "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ],
+      "composite": 0.68,
+      "reasoning": "PFF 2025 overall 81.7 (#5); 468 snaps in 7 games (2026); 2026 stat score 50.0 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2025#5",
+        "nflverse_snaps_2026#5"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "player": "Jamien Sherwood",
+      "player_id": "ext_00-0036500",
+      "reason": "Below pool cutoff (composite 0.55; PFF 2026 grade 66.6; sources nflverse_snaps_2026#8, nflverse_stats_2026#8). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Devin Bush",
+      "player_id": "ext_00-0035525",
+      "reason": "Below pool cutoff (composite 0.51; PFF 2026 grade 61.4; sources pff_2025#4). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Isaiah McDuffie",
+      "player_id": "ext_00-0036658",
+      "reason": "Below pool cutoff (composite 0.50; PFF 2026 grade 72.9; sources pff_2026#11). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Carson Schwesinger",
+      "player_id": "ext_00-0040579",
+      "reason": "Below pool cutoff (composite 0.46; PFF 2026 grade 66.0; sources pff_2025#19, nflverse_snaps_2026#6, nflverse_stats_2026#14). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Cedric Gray",
+      "player_id": "ext_00-0039858",
+      "reason": "Below pool cutoff (composite 0.42; PFF 2026 grade n/a; sources pff_2025#7). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Jeremiah Trotter Jr.",
+      "player_id": "ext_00-0039826",
+      "reason": "Below pool cutoff (composite 0.40; PFF 2026 grade 72.7; sources pff_2026#13). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Tyrice Knight",
+      "player_id": "ext_00-0039815",
+      "reason": "Below pool cutoff (composite 0.36; PFF 2026 grade n/a; sources pff_2025#9). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Josiah Trotter",
+      "player_id": "ext_00-0041502",
+      "reason": "Below pool cutoff (composite 0.36; PFF 2026 grade 66.6; sources nflverse_stats_2026#9). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Kaden Elliss",
+      "player_id": "ext_00-0035316",
+      "reason": "Below pool cutoff (composite 0.35; PFF 2026 grade 72.2; sources pff_2026#14). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Bobby Wagner",
+      "reason": "Absent from nflverse roster_2026 (week 8) under any name variant; likely retired/unsigned. Verify before approval.",
+      "code": "NOT_ON_2026_ROSTER"
+    },
+    {
+      "player": "Christian Elliss",
+      "player_id": "ext_00-0036813",
+      "reason": "Below pool cutoff (composite 0.33; PFF 2026 grade 71.8; sources pff_2026#15, nflverse_snaps_2026#19). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Bobby Okereke",
+      "player_id": "ext_00-0035687",
+      "reason": "Below pool cutoff (composite 0.32; PFF 2026 grade 64.1; sources nflverse_snaps_2026#15, nflverse_stats_2026#13). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Quay Walker",
+      "player_id": "ext_00-0037074",
+      "reason": "Below pool cutoff (composite 0.29; PFF 2026 grade n/a; sources nflverse_snaps_2026#3, nflverse_stats_2026#19). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Divine Deablo",
+      "player_id": "ext_00-0036990",
+      "reason": "Below pool cutoff (composite 0.27; PFF 2026 grade 60.9; sources pff_2025#12). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Jacob Rodriguez",
+      "player_id": "ext_00-0041522",
+      "reason": "Below pool cutoff (composite 0.27; PFF 2026 grade n/a; sources nflverse_stats_2026#12). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Roquan Smith",
+      "player_id": "ext_00-0034874",
+      "reason": "Below pool cutoff (composite 0.26; PFF 2026 grade 68.6; sources nflverse_snaps_2026#12, nflverse_stats_2026#16). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "D'Marco Jackson",
+      "player_id": "ext_00-0037271",
+      "reason": "Below pool cutoff (composite 0.21; PFF 2026 grade n/a; sources pff_2025#14). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Jihaad Campbell",
+      "player_id": "ext_00-0040708",
+      "reason": "Below pool cutoff (composite 0.18; PFF 2026 grade n/a; sources pff_2025#15). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Kendal Daniels",
+      "player_id": "ext_00-0041066",
+      "reason": "Below pool cutoff (composite 0.18; PFF 2026 grade 66.6; sources nflverse_stats_2026#15). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Sonny Styles",
+      "player_id": "ext_00-0041028",
+      "reason": "Below pool cutoff (composite 0.15; PFF 2026 grade 69.8; sources pff_2026#18). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Patrick Queen",
+      "player_id": "ext_00-0036323",
+      "reason": "Below pool cutoff (composite 0.14; PFF 2026 grade 62.2; sources nflverse_snaps_2026#10). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Edgerrin Cooper",
+      "player_id": "ext_00-0039850",
+      "reason": "Below pool cutoff (composite 0.12; PFF 2026 grade 60.1; sources pff_2025#17). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Jake Hansen",
+      "player_id": "ext_00-0037457",
+      "reason": "Below pool cutoff (composite 0.10; PFF 2026 grade 69.2; sources pff_2026#19). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Azeez Al-Shaair",
+      "player_id": "ext_00-0035166",
+      "reason": "Below pool cutoff (composite 0.09; PFF 2026 grade n/a; sources pff_2025#18). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Akeem Davis-Gaither",
+      "player_id": "ext_00-0036298",
+      "reason": "Below pool cutoff (composite 0.09; PFF 2026 grade 62.7; sources nflverse_stats_2026#18). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Alex Anzalone",
+      "player_id": "ext_00-0033914",
+      "reason": "Below pool cutoff (composite 0.09; PFF 2026 grade n/a; sources nflverse_snaps_2026#14). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Mack Wilson",
+      "player_id": "ext_00-0035144",
+      "reason": "Below pool cutoff (composite 0.06; PFF 2026 grade n/a; sources nflverse_snaps_2026#16). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Justin Strnad",
+      "player_id": "ext_00-0036428",
+      "reason": "Below pool cutoff (composite 0.05; PFF 2026 grade 62.4; sources nflverse_snaps_2026#17). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Robert Spillane",
+      "player_id": "ext_00-0034720",
+      "reason": "Below pool cutoff (composite 0.04; PFF 2026 grade 60.9; sources nflverse_snaps_2026#18). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Leo Chenal",
+      "player_id": "ext_00-0037819",
+      "reason": "Below pool cutoff (composite 0.03; PFF 2026 grade n/a; sources pff_2025#20). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Zaire Franklin",
+      "player_id": "ext_00-0034431",
+      "reason": "Below pool cutoff (composite 0.01; PFF 2026 grade n/a; sources nflverse_snaps_2026#20). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    }
+  ],
+  "coverage_sources": [
+    {
+      "id": "pff_2026",
+      "name": "PFF 2026 season overall grades (lb)",
+      "publisher": "PFF",
+      "kind": "grades",
+      "season": 2026,
+      "url": "https://www.pff.com/grades/nfl/lb/2026",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Ventrell Miller",
+        "Blake Cashman",
+        "Fred Warner",
+        "Omar Speights",
+        "Zack Baun",
+        "Quincy Williams",
+        "Arvell Reese",
+        "Trenton Simpson",
+        "Alex Singleton",
+        "Dre Greenlaw",
+        "Isaiah McDuffie",
+        "Drue Tranquill",
+        "Jeremiah Trotter Jr.",
+        "Kaden Elliss",
+        "Christian Elliss",
+        "Payton Wilson",
+        "Devin Lloyd",
+        "Sonny Styles",
+        "Jake Hansen",
+        "Nick Bolton"
+      ]
+    },
+    {
+      "id": "pff_2025",
+      "name": "PFF 2025 season overall grades (lb)",
+      "publisher": "PFF",
+      "kind": "grades",
+      "season": 2025,
+      "url": "https://www.pff.com/grades/nfl/lb/2025",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Fred Warner",
+        "Jack Campbell",
+        "Devin Lloyd",
+        "Devin Bush",
+        "Demario Davis",
+        "Zack Baun",
+        "Cedric Gray",
+        "Nick Bolton",
+        "Tyrice Knight",
+        "Bobby Wagner",
+        "Jordyn Brooks",
+        "Divine Deablo",
+        "Drue Tranquill",
+        "D'Marco Jackson",
+        "Jihaad Campbell",
+        "Dre Greenlaw",
+        "Edgerrin Cooper",
+        "Azeez Al-Shaair",
+        "Carson Schwesinger",
+        "Leo Chenal"
+      ]
+    },
+    {
+      "id": "allpro_2025",
+      "name": "2025 All-Pro (AP, PFWA, TSN)",
+      "publisher": "AP/PFWA/TSN via Wikipedia",
+      "kind": "honors",
+      "season": 2025,
+      "url": "https://en.wikipedia.org/wiki/2025_All-Pro_Team",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Jordyn Brooks",
+        "Jack Campbell",
+        "Ernest Jones IV",
+        "Devin Lloyd"
+      ]
+    },
+    {
+      "id": "nflverse_snaps_2026",
+      "name": "nflverse 2026 total snaps, roster depth ['ILB', 'MLB'] (weeks 1-8)",
+      "publisher": "nflverse",
+      "kind": "usage",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Alex Singleton",
+        "Anthony Hill Jr.",
+        "Quay Walker",
+        "Nakobe Dean",
+        "Demario Davis",
+        "Carson Schwesinger",
+        "Fred Warner",
+        "Jamien Sherwood",
+        "Jack Campbell",
+        "Patrick Queen",
+        "Arvell Reese",
+        "Roquan Smith",
+        "Ernest Jones",
+        "Alex Anzalone",
+        "Bobby Okereke",
+        "Mack Wilson",
+        "Justin Strnad",
+        "Robert Spillane",
+        "Christian Elliss",
+        "Zaire Franklin"
+      ]
+    },
+    {
+      "id": "nflverse_stats_2026",
+      "name": "nflverse 2026 regular-season stats: solo + 0.5*assists + 2*TFL + 3*INT + PD",
+      "publisher": "nflverse",
+      "kind": "stats",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Alex Singleton",
+        "Nakobe Dean",
+        "Payton Wilson",
+        "Blake Cashman",
+        "Ernest Jones",
+        "Anthony Hill Jr.",
+        "Arvell Reese",
+        "Jamien Sherwood",
+        "Josiah Trotter",
+        "Fred Warner",
+        "Nick Bolton",
+        "Jacob Rodriguez",
+        "Bobby Okereke",
+        "Carson Schwesinger",
+        "Kendal Daniels",
+        "Roquan Smith",
+        "Quincy Williams",
+        "Akeem Davis-Gaither",
+        "Quay Walker",
+        "Trenton Simpson"
+      ]
+    }
+  ]
+}

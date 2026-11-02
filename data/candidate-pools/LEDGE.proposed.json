@@ -1,0 +1,635 @@
+{
+  "position": "LEDGE",
+  "status": "PROPOSED",
+  "generated_at": "2026-11-01T22:52:12-05:00",
+  "generator": "scripts/build-candidate-pools.py",
+  "note": "PROPOSED for commissioner approval. Composite is a triage order for auditing, not a rating. Side/role flags must be resolved before provisional_top_10.",
+  "candidates": [
+    {
+      "player": "Will Anderson Jr.",
+      "player_id": "ext_00-0039108",
+      "team": "HOU",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)"
+      ],
+      "composite": 3.093,
+      "reasoning": "PFF 2026 overall 90.8 (#2); PFF 2025 overall 93.4 (#1); 2025 All-Pro selection; 367 snaps in 7 games (2026); 2026 stat score 17.5 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#2",
+        "pff_2025#1",
+        "allpro_2025#3",
+        "nflverse_snaps_2026#8",
+        "nflverse_stats_2026#2"
+      ]
+    },
+    {
+      "player": "Aidan Hutchinson",
+      "player_id": "ext_00-0037236",
+      "team": "DET",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)"
+      ],
+      "composite": 2.92,
+      "reasoning": "PFF 2026 overall 91.6 (#1); PFF 2025 overall 91.7 (#4); 2025 All-Pro selection; 396 snaps in 6 games (2026); 2026 stat score 14.8 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#1",
+        "pff_2025#4",
+        "allpro_2025#4",
+        "nflverse_snaps_2026#3",
+        "nflverse_stats_2026#7"
+      ]
+    },
+    {
+      "player": "Greg Rousseau",
+      "player_id": "ext_00-0036914",
+      "team": "BUF",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)",
+        "OLB_LABEL (confirm edge vs off-ball)"
+      ],
+      "composite": 1.828,
+      "reasoning": "PFF 2026 overall 84.0 (#6); PFF 2025 overall 86.3 (#8); 343 snaps in 6 games (2026); 2026 stat score 20.2 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#6",
+        "pff_2025#8",
+        "nflverse_snaps_2026#14",
+        "nflverse_stats_2026#1"
+      ]
+    },
+    {
+      "player": "Danielle Hunter",
+      "player_id": "ext_00-0031565",
+      "team": "HOU",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)"
+      ],
+      "composite": 1.787,
+      "reasoning": "PFF 2026 overall 80.5 (#12); PFF 2025 overall 89.9 (#5); 2025 All-Pro selection; 360 snaps in 7 games (2026); 2026 stat score 9.2 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#12",
+        "pff_2025#5",
+        "allpro_2025#5",
+        "nflverse_snaps_2026#10"
+      ]
+    },
+    {
+      "player": "Nik Bonitto",
+      "player_id": "ext_00-0037249",
+      "team": "DEN",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)",
+        "OLB_LABEL (confirm edge vs off-ball)"
+      ],
+      "composite": 1.52,
+      "reasoning": "PFF 2026 overall 85.3 (#5); PFF 2025 overall 78.9 (#18); 2025 All-Pro selection; 306 snaps in 7 games (2026); 2026 stat score 9.5 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#5",
+        "pff_2025#18",
+        "allpro_2025#7"
+      ]
+    },
+    {
+      "player": "Myles Garrett",
+      "player_id": "ext_00-0033868",
+      "team": "LA",
+      "flags": [
+        "INJURED_RESERVE",
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)",
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ],
+      "composite": 1.47,
+      "reasoning": "PFF 2025 overall 92.7 (#2); 2025 All-Pro selection; 40 snaps in 1 games (2026)",
+      "citations": [
+        "pff_2025#2",
+        "allpro_2025#1"
+      ]
+    },
+    {
+      "player": "Maxx Crosby",
+      "player_id": "ext_00-0034973",
+      "team": "LV",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)"
+      ],
+      "composite": 1.417,
+      "reasoning": "PFF 2026 overall 83.8 (#7); PFF 2025 overall 79.7 (#15); 414 snaps in 7 games (2026); 2026 stat score 13.0 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#7",
+        "pff_2025#15",
+        "nflverse_snaps_2026#2",
+        "nflverse_stats_2026#11"
+      ]
+    },
+    {
+      "player": "Micah Parsons",
+      "player_id": "ext_00-0036932",
+      "team": "GB",
+      "flags": [
+        "INJURED_RESERVE",
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)",
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ],
+      "composite": 1.395,
+      "reasoning": "PFF 2025 overall 91.9 (#3); 2025 All-Pro selection",
+      "citations": [
+        "pff_2025#3",
+        "allpro_2025#2"
+      ]
+    },
+    {
+      "player": "Abdul Carter",
+      "player_id": "ext_00-0040677",
+      "team": "NYG",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)",
+        "OLB_LABEL (confirm edge vs off-ball)"
+      ],
+      "composite": 1.113,
+      "reasoning": "PFF 2026 overall 90.3 (#3); PFF 2025 overall 74.7 (#28); 388 snaps in 7 games (2026); 2026 stat score 6.0 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#3",
+        "nflverse_snaps_2026#4"
+      ]
+    },
+    {
+      "player": "T.J. Watt",
+      "player_id": "ext_00-0033886",
+      "team": "PIT",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)",
+        "OLB_LABEL (confirm edge vs off-ball)"
+      ],
+      "composite": 1.11,
+      "reasoning": "PFF 2026 overall 81.8 (#9); PFF 2025 overall 74.2 (#34); 298 snaps in 7 games (2026); 2026 stat score 15.8 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#9",
+        "nflverse_stats_2026#4"
+      ]
+    },
+    {
+      "player": "Chase Young",
+      "player_id": "ext_00-0036321",
+      "team": "NO",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)",
+        "OLB_LABEL (confirm edge vs off-ball)"
+      ],
+      "composite": 1.002,
+      "reasoning": "PFF 2026 overall 81.3 (#10); PFF 2025 overall 78.0 (#20); 340 snaps in 7 games (2026); 2026 stat score 13.5 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#10",
+        "pff_2025#20",
+        "nflverse_snaps_2026#16",
+        "nflverse_stats_2026#9"
+      ]
+    },
+    {
+      "player": "Boye Mafe",
+      "player_id": "ext_00-0038133",
+      "team": "CIN",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)"
+      ],
+      "composite": 1.0,
+      "reasoning": "PFF 2026 overall 86.4 (#4); PFF 2025 overall 70.3 (#48); 293 snaps in 6 games (2026); 2026 stat score 11.2 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#4",
+        "nflverse_stats_2026#16"
+      ]
+    },
+    {
+      "player": "Josh Hines-Allen",
+      "player_id": "ext_00-0035642",
+      "team": "JAX",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)"
+      ],
+      "composite": 0.7,
+      "reasoning": "PFF 2026 overall 79.8 (#15); PFF 2025 overall 87.4 (#6); 303 snaps in 6 games (2026); 2026 stat score 7.5 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#16",
+        "pff_2025#6"
+      ]
+    },
+    {
+      "player": "Brian Burns",
+      "player_id": "ext_00-0035713",
+      "team": "NYG",
+      "flags": [
+        "INJURED_RESERVE",
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)",
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ],
+      "composite": 0.675,
+      "reasoning": "PFF 2025 overall 75.8 (#24); 2025 All-Pro selection; 116 snaps in 3 games (2026); 2026 stat score 1.0 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "allpro_2025#6"
+      ]
+    },
+    {
+      "player": "Al-Quadin Muhammad",
+      "player_id": "ext_00-0033964",
+      "team": "TB",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)",
+        "OLB_LABEL (confirm edge vs off-ball)"
+      ],
+      "composite": 0.65,
+      "reasoning": "PFF 2026 overall 81.9 (#8); PFF 2025 overall 74.5 (#30); 183 snaps in 7 games (2026); 2026 stat score 4.5 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#8"
+      ]
+    },
+    {
+      "player": "Byron Young",
+      "player_id": "ext_00-0038978",
+      "team": "PHI",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)",
+        "ROSTER_LABEL_DT (two-way/position change; confirm bucket)"
+      ],
+      "composite": 0.625,
+      "reasoning": "PFF 2026 overall 71.4 (#36); PFF 2025 overall 83.7 (#10); 370 snaps in 7 games (2026); 2026 stat score 10.8 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2025#10",
+        "nflverse_snaps_2026#7",
+        "nflverse_stats_2026#17"
+      ]
+    },
+    {
+      "player": "DeMarcus Lawrence",
+      "player_id": "ext_00-0031411",
+      "team": "SEA",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)",
+        "OLB_LABEL (confirm edge vs off-ball)"
+      ],
+      "composite": 0.54,
+      "reasoning": "PFF 2026 overall 79.8 (#15); PFF 2025 overall 82.1 (#13); 268 snaps in 7 games (2026); 2026 stat score 3.8 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#15",
+        "pff_2025#13"
+      ]
+    },
+    {
+      "player": "Dallas Turner",
+      "player_id": "ext_00-0039924",
+      "team": "MIN",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)",
+        "OLB_LABEL (confirm edge vs off-ball)"
+      ],
+      "composite": 0.54,
+      "reasoning": "PFF 2026 overall 72.4 (#33); 298 snaps in 6 games (2026); 2026 stat score 16.8 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "nflverse_stats_2026#3"
+      ]
+    },
+    {
+      "player": "George Karlaftis",
+      "player_id": "ext_00-0037192",
+      "team": "KC",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)"
+      ],
+      "composite": 0.502,
+      "reasoning": "PFF 2026 overall 77.7 (#18); PFF 2025 overall 76.2 (#22); 346 snaps in 6 games (2026); 2026 stat score 11.5 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#18",
+        "nflverse_snaps_2026#12",
+        "nflverse_stats_2026#13"
+      ]
+    },
+    {
+      "player": "Gabe Jacas",
+      "player_id": "ext_00-0041569",
+      "team": "NE",
+      "flags": [
+        "EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)",
+        "OLB_LABEL (confirm edge vs off-ball)"
+      ],
+      "composite": 0.5,
+      "reasoning": "PFF 2026 overall 80.7 (#11); 248 snaps in 7 games (2026); 2026 stat score 8.0 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#11"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "player": "Zach Allen",
+      "player_id": "ext_00-0035248",
+      "reason": "PFF grades this player as interior DL (not edge) in 2025/2026; belongs to DT.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "David Bailey",
+      "player_id": "ext_00-0041026",
+      "reason": "Below pool cutoff (composite 0.46; PFF 2026 grade n/a; sources nflverse_snaps_2026#6, nflverse_stats_2026#12). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Jacob Martin",
+      "player_id": "ext_00-0034163",
+      "reason": "Below pool cutoff (composite 0.45; PFF 2026 grade n/a; sources nflverse_stats_2026#6). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Nick Herbig",
+      "player_id": "ext_00-0038577",
+      "reason": "Below pool cutoff (composite 0.42; PFF 2026 grade 66.8; sources pff_2025#7). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Laiatu Latu",
+      "player_id": "ext_00-0039340",
+      "reason": "Below pool cutoff (composite 0.41; PFF 2026 grade n/a; sources pff_2025#9, nflverse_snaps_2026#17). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Elijah Ponder",
+      "player_id": "ext_00-0040574",
+      "reason": "Below pool cutoff (composite 0.40; PFF 2026 grade 76.9; sources pff_2026#20, nflverse_snaps_2026#19, nflverse_stats_2026#10). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Zaven Collins",
+      "player_id": "ext_00-0036933",
+      "reason": "Below pool cutoff (composite 0.40; PFF 2026 grade 80.5; sources pff_2026#13). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Andrew Van Ginkel",
+      "player_id": "ext_00-0035272",
+      "reason": "Below pool cutoff (composite 0.39; PFF 2026 grade n/a; sources nflverse_stats_2026#8). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Lukas Van Ness",
+      "player_id": "ext_00-0039112",
+      "reason": "Below pool cutoff (composite 0.36; PFF 2026 grade 69.9; sources nflverse_snaps_2026#9, nflverse_stats_2026#14). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "David Walker",
+      "player_id": "ext_00-0040158",
+      "reason": "Below pool cutoff (composite 0.35; PFF 2026 grade 80.3; sources pff_2026#14). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Trey Hendrickson",
+      "player_id": "ext_00-0033935",
+      "reason": "Below pool cutoff (composite 0.30; PFF 2026 grade n/a; sources pff_2025#11). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Alex Highsmith",
+      "player_id": "ext_00-0036333",
+      "reason": "Below pool cutoff (composite 0.27; PFF 2026 grade 73.9; sources pff_2025#12). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Quincy Williams",
+      "player_id": "ext_00-0035680",
+      "reason": "Below pool cutoff (composite 0.25; PFF 2026 grade n/a; sources nflverse_snaps_2026#1). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Jared Verse",
+      "player_id": "ext_00-0039852",
+      "reason": "Below pool cutoff (composite 0.21; PFF 2026 grade n/a; sources pff_2025#14). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Kyle Van Noy",
+      "player_id": "ext_00-0031360",
+      "reason": "Below pool cutoff (composite 0.20; PFF 2026 grade 78.4; sources pff_2026#17). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Derrick Barnes",
+      "player_id": "ext_00-0036964",
+      "reason": "Below pool cutoff (composite 0.20; PFF 2026 grade n/a; sources nflverse_snaps_2026#5). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Blake Cashman",
+      "player_id": "ext_00-0035276",
+      "reason": "Below pool cutoff (composite 0.18; PFF 2026 grade n/a; sources nflverse_stats_2026#15). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Khalil Mack",
+      "player_id": "ext_00-0031040",
+      "reason": "Below pool cutoff (composite 0.15; PFF 2026 grade 74.7; sources pff_2025#16). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Drue Tranquill",
+      "player_id": "ext_00-0035262",
+      "reason": "Below pool cutoff (composite 0.12; PFF 2026 grade n/a; sources nflverse_snaps_2026#11). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Jadeveon Clowney",
+      "player_id": "ext_00-0031364",
+      "reason": "Below pool cutoff (composite 0.12; PFF 2026 grade n/a; sources pff_2025#17). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Cameron Thomas",
+      "player_id": "ext_00-0037815",
+      "reason": "Below pool cutoff (composite 0.10; PFF 2026 grade 77.4; sources pff_2026#19). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Jordyn Brooks",
+      "player_id": "ext_00-0036409",
+      "reason": "Below pool cutoff (composite 0.10; PFF 2026 grade n/a; sources nflverse_snaps_2026#13). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Carl Granderson",
+      "player_id": "ext_00-0035402",
+      "reason": "Below pool cutoff (composite 0.09; PFF 2026 grade 75.6; sources nflverse_stats_2026#18). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Alex Wright",
+      "player_id": "ext_00-0037251",
+      "reason": "Below pool cutoff (composite 0.06; PFF 2026 grade n/a; sources pff_2025#19). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Chop Robinson",
+      "player_id": "ext_00-0039911",
+      "reason": "Below pool cutoff (composite 0.06; PFF 2026 grade n/a; sources nflverse_stats_2026#19). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Kayvon Thibodeaux",
+      "player_id": "ext_00-0037611",
+      "reason": "Below pool cutoff (composite 0.04; PFF 2026 grade n/a; sources nflverse_snaps_2026#18). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "DJ Wonnum",
+      "player_id": "ext_00-0036335",
+      "reason": "Below pool cutoff (composite 0.03; PFF 2026 grade n/a; sources nflverse_stats_2026#20). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Donovan Ezeiruaku",
+      "player_id": "ext_00-0040725",
+      "reason": "Below pool cutoff (composite 0.01; PFF 2026 grade n/a; sources nflverse_snaps_2026#20). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    }
+  ],
+  "coverage_sources": [
+    {
+      "id": "pff_2026",
+      "name": "PFF 2026 season overall grades (ed)",
+      "publisher": "PFF",
+      "kind": "grades",
+      "season": 2026,
+      "url": "https://www.pff.com/grades/nfl/ed/2026",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Aidan Hutchinson",
+        "Will Anderson Jr.",
+        "Abdul Carter",
+        "Boye Mafe",
+        "Nik Bonitto",
+        "Greg Rousseau",
+        "Maxx Crosby",
+        "Al-Quadin Muhammad",
+        "T.J. Watt",
+        "Chase Young",
+        "Gabe Jacas",
+        "Danielle Hunter",
+        "Zaven Collins",
+        "David Walker",
+        "DeMarcus Lawrence",
+        "Josh Hines-Allen",
+        "Kyle Van Noy",
+        "George Karlaftis",
+        "Cameron Thomas",
+        "Elijah Ponder"
+      ]
+    },
+    {
+      "id": "pff_2025",
+      "name": "PFF 2025 season overall grades (ed)",
+      "publisher": "PFF",
+      "kind": "grades",
+      "season": 2025,
+      "url": "https://www.pff.com/grades/nfl/ed/2025",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Will Anderson Jr.",
+        "Myles Garrett",
+        "Micah Parsons",
+        "Aidan Hutchinson",
+        "Danielle Hunter",
+        "Josh Hines-Allen",
+        "Nick Herbig",
+        "Greg Rousseau",
+        "Laiatu Latu",
+        "Byron Young",
+        "Trey Hendrickson",
+        "Alex Highsmith",
+        "DeMarcus Lawrence",
+        "Jared Verse",
+        "Maxx Crosby",
+        "Khalil Mack",
+        "Jadeveon Clowney",
+        "Nik Bonitto",
+        "Alex Wright",
+        "Chase Young"
+      ]
+    },
+    {
+      "id": "allpro_2025",
+      "name": "2025 All-Pro (AP, PFWA, TSN)",
+      "publisher": "AP/PFWA/TSN via Wikipedia",
+      "kind": "honors",
+      "season": 2025,
+      "url": "https://en.wikipedia.org/wiki/2025_All-Pro_Team",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Myles Garrett",
+        "Micah Parsons",
+        "Will Anderson Jr.",
+        "Aidan Hutchinson",
+        "Danielle Hunter",
+        "Brian Burns",
+        "Nik Bonitto"
+      ]
+    },
+    {
+      "id": "nflverse_snaps_2026",
+      "name": "nflverse 2026 total snaps, roster depth ['DE', 'OLB'] (weeks 1-8)",
+      "publisher": "nflverse",
+      "kind": "usage",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Quincy Williams",
+        "Maxx Crosby",
+        "Aidan Hutchinson",
+        "Abdul Carter",
+        "Derrick Barnes",
+        "David Bailey",
+        "Byron Young",
+        "Will Anderson Jr.",
+        "Lukas Van Ness",
+        "Danielle Hunter",
+        "Drue Tranquill",
+        "George Karlaftis",
+        "Jordyn Brooks",
+        "Greg Rousseau",
+        "Zach Allen",
+        "Chase Young",
+        "Laiatu Latu",
+        "Kayvon Thibodeaux",
+        "Elijah Ponder",
+        "Donovan Ezeiruaku"
+      ]
+    },
+    {
+      "id": "nflverse_stats_2026",
+      "name": "nflverse 2026 regular-season stats: sacks + 0.5*QB hits + 0.25*TFL",
+      "publisher": "nflverse",
+      "kind": "stats",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Greg Rousseau",
+        "Will Anderson Jr.",
+        "Dallas Turner",
+        "T.J. Watt",
+        "Zach Allen",
+        "Jacob Martin",
+        "Aidan Hutchinson",
+        "Andrew Van Ginkel",
+        "Chase Young",
+        "Elijah Ponder",
+        "Maxx Crosby",
+        "David Bailey",
+        "George Karlaftis",
+        "Lukas Van Ness",
+        "Blake Cashman",
+        "Boye Mafe",
+        "Byron Young",
+        "Carl Granderson",
+        "Chop Robinson",
+        "DJ Wonnum"
+      ]
+    }
+  ]
+}

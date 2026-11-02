@@ -1,0 +1,422 @@
+{
+  "position": "P",
+  "status": "PROPOSED",
+  "generated_at": "2026-11-01T22:52:12-05:00",
+  "generator": "scripts/build-candidate-pools.py",
+  "note": "PROPOSED for commissioner approval. Composite is a triage order for auditing, not a rating. Side/role flags must be resolved before provisional_top_10.",
+  "candidates": [
+    {
+      "player": "Michael Dickson",
+      "player_id": "ext_00-0034160",
+      "team": "SEA",
+      "flags": [],
+      "composite": 2.08,
+      "reasoning": "PFF 2026 overall 76.2 (#10); PFF 2025 overall 91.2 (#1); 2025 All-Pro selection; 2026 stat score 42.5 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#10",
+        "pff_2025#1",
+        "allpro_2025#3",
+        "nflverse_stats_2026#17"
+      ]
+    },
+    {
+      "player": "J.K. Scott",
+      "player_id": "ext_00-0034162",
+      "team": "LAC",
+      "flags": [],
+      "composite": 1.71,
+      "reasoning": "PFF 2026 overall 87.6 (#3); PFF 2025 overall 88.1 (#4); 2026 stat score 42.8 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#3",
+        "pff_2025#4",
+        "nflverse_stats_2026#11"
+      ]
+    },
+    {
+      "player": "AJ Cole",
+      "player_id": "ext_00-0035190",
+      "team": "LV",
+      "flags": [],
+      "composite": 1.57,
+      "reasoning": "PFF 2026 overall 89.7 (#1); PFF 2025 overall 72.2 (#15); 2026 stat score 43.3 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#1",
+        "pff_2025#15",
+        "nflverse_stats_2026#8"
+      ]
+    },
+    {
+      "player": "Jack Fox",
+      "player_id": "ext_00-0035156",
+      "team": "DET",
+      "flags": [],
+      "composite": 1.46,
+      "reasoning": "PFF 2026 overall 88.3 (#2); PFF 2025 overall 64.0 (#25); 2026 stat score 43.7 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#2",
+        "nflverse_stats_2026#4"
+      ]
+    },
+    {
+      "player": "Jordan Stout",
+      "player_id": "ext_00-0038094",
+      "team": "NYG",
+      "flags": [],
+      "composite": 1.38,
+      "reasoning": "PFF 2026 overall 68.6 (#23); PFF 2025 overall 53.9 (#31); 2025 All-Pro selection; 2026 stat score 43.6 (net yards per punt (>=10 punts))",
+      "citations": [
+        "allpro_2025#1",
+        "nflverse_stats_2026#5"
+      ]
+    },
+    {
+      "player": "Jeremy Crawshaw",
+      "player_id": "ext_00-0040223",
+      "team": "DEN",
+      "flags": [],
+      "composite": 1.24,
+      "reasoning": "PFF 2026 overall 81.9 (#4); PFF 2025 overall 72.7 (#14); 2026 stat score 42.7 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#4",
+        "pff_2025#14",
+        "nflverse_stats_2026#15"
+      ]
+    },
+    {
+      "player": "Ryan Wright",
+      "player_id": "ext_00-0037500",
+      "team": "NO",
+      "flags": [],
+      "composite": 1.2,
+      "reasoning": "PFF 2026 overall 78.4 (#6); PFF 2025 overall 81.3 (#6); 2026 stat score 39.6 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#6",
+        "pff_2025#6"
+      ]
+    },
+    {
+      "player": "Sam Martin",
+      "player_id": "ext_00-0030092",
+      "team": "CAR",
+      "flags": [],
+      "composite": 1.19,
+      "reasoning": "PFF 2026 overall 77.1 (#8); PFF 2025 overall 77.2 (#8); 2026 stat score 42.5 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#8",
+        "pff_2025#8",
+        "nflverse_stats_2026#16"
+      ]
+    },
+    {
+      "player": "Corliss Waitman",
+      "player_id": "ext_00-0035821",
+      "team": "SF",
+      "flags": [],
+      "composite": 1.13,
+      "reasoning": "PFF 2026 overall 75.7 (#11); PFF 2025 overall 70.2 (#18); 2026 stat score 44.1 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#11",
+        "pff_2025#18",
+        "nflverse_stats_2026#3"
+      ]
+    },
+    {
+      "player": "Corey Bojorquez",
+      "player_id": "ext_00-0034721",
+      "team": "CLE",
+      "flags": [],
+      "composite": 1.1,
+      "reasoning": "PFF 2026 overall 70.6 (#17); PFF 2025 overall 76.5 (#10); 2026 stat score 44.5 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#17",
+        "pff_2025#10",
+        "nflverse_stats_2026#2"
+      ]
+    },
+    {
+      "player": "Tress Way",
+      "player_id": "ext_00-0030140",
+      "team": "WAS",
+      "flags": [],
+      "composite": 1.095,
+      "reasoning": "PFF 2026 overall 49.0 (#33); PFF 2025 overall 44.0 (#32); 2025 All-Pro selection; 2026 stat score 42.7 (net yards per punt (>=10 punts))",
+      "citations": [
+        "allpro_2025#2",
+        "nflverse_stats_2026#13"
+      ]
+    },
+    {
+      "player": "Kai Kroeger",
+      "player_id": "ext_00-0040654",
+      "team": "HOU",
+      "flags": [],
+      "composite": 1.02,
+      "reasoning": "PFF 2026 overall 76.3 (#9); PFF 2025 overall 63.9 (#26); 2026 stat score 43.3 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#9",
+        "nflverse_stats_2026#7"
+      ]
+    },
+    {
+      "player": "Matt Araiza",
+      "player_id": "ext_00-0037284",
+      "team": "KC",
+      "flags": [],
+      "composite": 1.0,
+      "reasoning": "PFF 2026 overall 77.8 (#7); PFF 2025 overall 68.7 (#19); 2026 stat score 42.8 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#7",
+        "pff_2025#20",
+        "nflverse_stats_2026#12"
+      ]
+    },
+    {
+      "player": "Tommy Doman Jr.",
+      "player_id": "ext_00-0041126",
+      "team": "BUF",
+      "flags": [],
+      "composite": 0.9,
+      "reasoning": "PFF 2026 overall 72.2 (#15); 2026 stat score 46.1 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#15",
+        "nflverse_stats_2026#1"
+      ]
+    },
+    {
+      "player": "Braden Mann",
+      "player_id": "ext_00-0036313",
+      "team": "PHI",
+      "flags": [],
+      "composite": 0.83,
+      "reasoning": "PFF 2026 overall 72.9 (#14); PFF 2025 overall 80.9 (#7); 2026 stat score 42.5 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#14",
+        "pff_2025#7",
+        "nflverse_stats_2026#19"
+      ]
+    },
+    {
+      "player": "Austin McNamara",
+      "player_id": "ext_00-0039634",
+      "team": "NYJ",
+      "flags": [],
+      "composite": 0.82,
+      "reasoning": "PFF 2026 overall 70.8 (#16); PFF 2025 overall 90.3 (#2); 2026 stat score 41.2 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#16",
+        "pff_2025#2"
+      ]
+    },
+    {
+      "player": "Ethan Evans",
+      "player_id": "ext_00-0039059",
+      "team": "LA",
+      "flags": [],
+      "composite": 0.8,
+      "reasoning": "PFF 2026 overall 79.9 (#5); PFF 2025 overall 66.9 (#22); 2026 stat score 40.0 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#5"
+      ]
+    },
+    {
+      "player": "Rigoberto Sanchez",
+      "player_id": "ext_00-0033269",
+      "team": "IND",
+      "flags": [],
+      "composite": 0.72,
+      "reasoning": "PFF 2026 overall 67.2 (#26); PFF 2025 overall 76.7 (#9); 2026 stat score 43.1 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2025#9",
+        "nflverse_stats_2026#9"
+      ]
+    },
+    {
+      "player": "Jake Bailey",
+      "player_id": "ext_00-0035280",
+      "team": "ATL",
+      "flags": [],
+      "composite": 0.67,
+      "reasoning": "PFF 2026 overall 75.1 (#13); PFF 2025 overall 75.1 (#12); 2026 stat score 41.0 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#13",
+        "pff_2025#12"
+      ]
+    },
+    {
+      "player": "Daniel Whelan",
+      "player_id": "ext_00-0037547",
+      "team": "GB",
+      "flags": [],
+      "composite": 0.64,
+      "reasoning": "PFF 2026 overall 69.8 (#19); PFF 2025 overall 88.2 (#3); 2026 stat score 41.9 (net yards per punt (>=10 punts))",
+      "citations": [
+        "pff_2026#19",
+        "pff_2025#3"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "player": "Mitch Wishnowsky",
+      "player_id": "ext_00-0034941",
+      "reason": "Below pool cutoff (composite 0.60; PFF 2026 grade 75.6; sources pff_2026#12, pff_2025#16). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Tommy Townsend",
+      "player_id": "ext_00-0035889",
+      "reason": "Below pool cutoff (composite 0.51; PFF 2026 grade 69.1; sources pff_2025#5, nflverse_stats_2026#20). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Tory Taylor",
+      "player_id": "ext_00-0039745",
+      "reason": "Below pool cutoff (composite 0.45; PFF 2026 grade 67.5; sources nflverse_stats_2026#6). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Logan Cooke",
+      "player_id": "ext_00-0034437",
+      "reason": "Below pool cutoff (composite 0.45; PFF 2026 grade 66.3; sources pff_2025#17, nflverse_stats_2026#10). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Bryan Anger",
+      "player_id": "ext_00-0029692",
+      "reason": "Below pool cutoff (composite 0.30; PFF 2026 grade 70.5; sources pff_2026#18, pff_2025#19, nflverse_stats_2026#18). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Bradley Pinion",
+      "player_id": "ext_00-0032065",
+      "reason": "Below pool cutoff (composite 0.30; PFF 2026 grade 67.5; sources pff_2025#11). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Matt Haack",
+      "reason": "Absent from nflverse roster_2026 (week 8) under any name variant; likely retired/unsigned. Verify before approval.",
+      "code": "NOT_ON_2026_ROSTER"
+    },
+    {
+      "player": "Cameron Johnston",
+      "player_id": "ext_00-0033729",
+      "reason": "Below pool cutoff (composite 0.21; PFF 2026 grade 57.2; sources nflverse_stats_2026#14). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Brett Thorson",
+      "player_id": "ext_00-0041581",
+      "reason": "Below pool cutoff (composite 0.05; PFF 2026 grade 69.1; sources pff_2026#20). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    }
+  ],
+  "coverage_sources": [
+    {
+      "id": "pff_2026",
+      "name": "PFF 2026 season overall grades (p)",
+      "publisher": "PFF",
+      "kind": "grades",
+      "season": 2026,
+      "url": "https://www.pff.com/grades/nfl/p/2026",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "AJ Cole",
+        "Jack Fox",
+        "JK Scott",
+        "Jeremy Crawshaw",
+        "Ethan Evans",
+        "Ryan Wright",
+        "Matt Araiza",
+        "Sam Martin",
+        "Kai Kroeger",
+        "Michael Dickson",
+        "Corliss Waitman",
+        "Mitch Wishnowsky",
+        "Jake Bailey",
+        "Braden Mann",
+        "Tommy Doman",
+        "Austin McNamara",
+        "Corey Bojorquez",
+        "Bryan Anger",
+        "Daniel Whelan",
+        "Brett Thorson"
+      ]
+    },
+    {
+      "id": "pff_2025",
+      "name": "PFF 2025 season overall grades (p)",
+      "publisher": "PFF",
+      "kind": "grades",
+      "season": 2025,
+      "url": "https://www.pff.com/grades/nfl/p/2025",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Michael Dickson",
+        "Austin McNamara",
+        "Daniel Whelan",
+        "JK Scott",
+        "Tommy Townsend",
+        "Ryan Wright",
+        "Braden Mann",
+        "Sam Martin",
+        "Rigoberto Sanchez",
+        "Corey Bojorquez",
+        "Bradley Pinion",
+        "Jake Bailey",
+        "Matt Haack",
+        "Jeremy Crawshaw",
+        "AJ Cole",
+        "Mitch Wishnowsky",
+        "Logan Cooke",
+        "Corliss Waitman",
+        "Bryan Anger",
+        "Matt Araiza"
+      ]
+    },
+    {
+      "id": "allpro_2025",
+      "name": "2025 All-Pro (AP, PFWA, TSN)",
+      "publisher": "AP/PFWA/TSN via Wikipedia",
+      "kind": "honors",
+      "season": 2025,
+      "url": "https://en.wikipedia.org/wiki/2025_All-Pro_Team",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Jordan Stout",
+        "Tress Way",
+        "Michael Dickson"
+      ]
+    },
+    {
+      "id": "nflverse_stats_2026",
+      "name": "nflverse 2026 regular-season stats: net yards per punt (>=10 punts)",
+      "publisher": "nflverse",
+      "kind": "stats",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Tommy Doman Jr.",
+        "Corey Bojorquez",
+        "Corliss Waitman",
+        "Jack Fox",
+        "Jordan Stout",
+        "Tory Taylor",
+        "Kai Kroeger",
+        "AJ Cole",
+        "Rigoberto Sanchez",
+        "Logan Cooke",
+        "J.K. Scott",
+        "Matt Araiza",
+        "Tress Way",
+        "Cameron Johnston",
+        "Jeremy Crawshaw",
+        "Sam Martin",
+        "Michael Dickson",
+        "Bryan Anger",
+        "Braden Mann",
+        "Tommy Townsend"
+      ]
+    }
+  ]
+}
