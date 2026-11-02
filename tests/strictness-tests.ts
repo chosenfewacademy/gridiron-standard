@@ -7,7 +7,7 @@ import { validateHighTraitEvidence, withTransportChecks, requiredTier } from "..
 import { applyFullAuditEvidenceGate } from "../src/evidence-gate.js";
 import { GrokBotFileResearchAdapter, inboxDir } from "../src/grok-bot-transport.js";
 import { saveAuditRecord } from "../src/persistence.js";
-import { violations } from "../scripts/protected-paths-check.mjs";
+import { violations, queueOnlyAppend } from "../scripts/protected-paths-check.mjs";
 
 type T = (name: string, fn: () => void | Promise<void>) => void;
 const SRC = "https://www.pff.com/nfl/players/x/1";
@@ -76,6 +76,27 @@ export async function runStrictnessTests(test: T) {
       "A\taudits/league/LG/a.json", "M\tlogs/qb-reconstruction/p/a/evidence.json", "A\tlogs/qb-reconstruction/p/a/new.json",
       "M\tsrc/x.ts", "M\tdata/players/registry.json", "M\tconfig/madden-entry-order.json"]);
     assert.equal(v.length, 7, v.join("\n"));
+  });
+  test("protected guard: narrow queue-append exception for state/project-state.json only", () => {
+    const base = { positions: { QB: "LOCKED", LG: "IN_PROGRESS" }, current_position: "LG", pending_reaudit_queue: [] as any[] };
+    const item = (pos: string, extra: any = {}) => ({ type: "TOP10_REAUDIT", position: pos, status: "QUEUED_NOT_STARTED", ...extra });
+    const J = (o: any) => JSON.stringify(o, null, 2);
+    const head = { ...base, pending_reaudit_queue: [item("QB"), item("LG")] };
+    assert.equal(queueOnlyAppend(J(base), J(head)).ok, true, "append of queued items allowed");
+    const two = { ...head, pending_reaudit_queue: [...head.pending_reaudit_queue, item("RB")] };
+    assert.equal(queueOnlyAppend(J(head), J(two)).ok, true, "append after existing items allowed");
+    assert.equal(queueOnlyAppend(J(base), J({ ...head, positions: { ...base.positions, QB: "IN_PROGRESS" } })).ok, false, "unlock rejected");
+    assert.equal(queueOnlyAppend(J(base), J({ ...head, current_position: "C" })).ok, false, "other key rejected");
+    assert.equal(queueOnlyAppend(J(base), J({ ...base, pending_reaudit_queue: [item("QB", { status: "IN_PROGRESS" })] })).ok, false, "started item rejected");
+    assert.equal(queueOnlyAppend(J(base), J({ ...base, pending_reaudit_queue: [{ ...item("QB"), type: "OTHER" }] })).ok, false, "non-TOP10 item rejected");
+    assert.equal(queueOnlyAppend(J(head), J({ ...head, pending_reaudit_queue: [item("RB"), item("LG"), item("TE")] })).ok, false, "rewriting existing item rejected");
+    assert.equal(queueOnlyAppend(J(head), J(base)).ok, false, "removal rejected");
+    assert.equal(queueOnlyAppend(J(base), J(base)).ok, false, "no-op is not an append");
+    assert.equal(queueOnlyAppend("{", J(head)).ok, false);
+    const ok = () => true;
+    assert.deepEqual(violations(["M\tstate/project-state.json"], ok), [], "allowed when verified");
+    assert.equal(violations(["M\tstate/project-state.json"]).length, 1, "default still strict");
+    assert.equal(violations(["M\tstate/locks.json", "D\tstate/project-state.json", "M\tdata/baselines/QB.json"], ok).length, 3, "exception never covers other paths or deletes");
   });
   const NOW = "2026-11-01T22:00:00-05:00";
   const p = (async () => {
