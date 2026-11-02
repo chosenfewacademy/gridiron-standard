@@ -11,6 +11,7 @@ import { runQbEvidencePolicyTests } from "./qb-evidence-policy-tests.js";
 import { runResearchTransportTests } from "./research-transport-tests.js";
 import { runOpenAIResponsesTransportTests } from "./openai-responses-transport-tests.js";
 import { runGithubWorkflowTests } from "./github-workflow-tests.js";
+import { runGrokBotTransportTests } from "./grok-bot-transport-tests.js";
 
 function test(name: string, fn: () => void): void {
   try {
@@ -27,6 +28,7 @@ runQbReconstructionTests(test);
 runQbEvidencePolicyTests(test);
 runResearchTransportTests(test);
 runGithubWorkflowTests(test);
+await runGrokBotTransportTests(test);
 
 test("route continue alias", () => {
   assert.deepEqual(route("go"), { type: "CONTINUE" });

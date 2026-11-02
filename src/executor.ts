@@ -1,8 +1,7 @@
 import fs from "node:fs";
 import { loadState, saveState } from "./state.js";
 import { getNextTask } from "./state-machine.js";
-import { CodexResearchAdapter } from "./codex-research.js";
-import { CodexAuditAdapter } from "./codex-adapter.js";
+import { createAuditAdapter, createResearchAdapter } from "./adapter-factory.js";
 import { parseAuditJson } from "./audit-parser.js";
 import { validateAudit } from "./audit-validator.js";
 import { saveAuditRecord, queueReaudit } from "./persistence.js";
@@ -15,7 +14,7 @@ export async function executeNext(): Promise<Record<string, unknown>> {
   const task = getNextTask(state);
   const locks = JSON.parse(fs.readFileSync("state/locks.json", "utf8"));
 
-  const research = new CodexResearchAdapter();
+  const research = await createResearchAdapter();
   const evidence = await research.gather(task);
 
   if (!evidence.minimum_evidence_met) {
@@ -41,7 +40,7 @@ export async function executeNext(): Promise<Record<string, unknown>> {
     return record;
   }
 
-  const analyst = new CodexAuditAdapter();
+  const analyst = await createAuditAdapter();
   let feedback: string[] = [];
   let parsed: any = null;
   let validation: any = null;

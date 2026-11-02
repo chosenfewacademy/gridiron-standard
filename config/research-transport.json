@@ -1,0 +1,5 @@
+{
+  "default_transport": "GROK_BOT_FILE_TRANSPORT",
+  "available": ["GROK_BOT_FILE_TRANSPORT", "CODEX"],
+  "notes": "Override with env GRIDIRON_RESEARCH_TRANSPORT=CODEX to use the optional OpenAI/Codex adapters (paid). GROK_BOT_FILE_TRANSPORT is offline and reads research-inbox/."
+}

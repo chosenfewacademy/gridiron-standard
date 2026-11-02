@@ -1,8 +1,7 @@
 import fs from "node:fs";
 import { buildPlayerAuditTask } from "./player-audit-task.js";
 import { loadBaselineControls } from "./baseline-controls.js";
-import { CodexResearchAdapter } from "./codex-research.js";
-import { CodexAuditAdapter } from "./codex-adapter.js";
+import { createAuditAdapter, createResearchAdapter } from "./adapter-factory.js";
 import { parseAuditJson } from "./audit-parser.js";
 import { validateAudit } from "./audit-validator.js";
 import { saveAuditRecord, queueReaudit } from "./persistence.js";
@@ -19,7 +18,7 @@ export async function executePlayerAudit(player: PlayerIdentity): Promise<Record
   const state = JSON.parse(fs.readFileSync("state/project-state.json", "utf8"));
   const previousCard = getCurrentApprovedCard(player.player_id);
 
-  const research = new CodexResearchAdapter();
+  const research = await createResearchAdapter();
   const researchTask = {
     ...task,
     baseline_controls: {
@@ -58,7 +57,7 @@ export async function executePlayerAudit(player: PlayerIdentity): Promise<Record
     return record;
   }
 
-  const analyst = new CodexAuditAdapter();
+  const analyst = await createAuditAdapter();
   let feedback: string[] = [];
   let parsed: any = null;
   let validation: any = null;

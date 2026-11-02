@@ -1,6 +1,5 @@
 import fs from "node:fs";
-import { CodexResearchAdapter } from "./codex-research.js";
-import { CodexAuditAdapter } from "./codex-adapter.js";
+import { createAuditAdapter, createResearchAdapter } from "./adapter-factory.js";
 import { parseAuditJson } from "./audit-parser.js";
 import { validateAudit } from "./audit-validator.js";
 import { saveAuditRecord, queueReaudit } from "./persistence.js";
@@ -61,7 +60,7 @@ export async function executeQuickRecheck(
     }
   };
 
-  const research = new CodexResearchAdapter();
+  const research = await createResearchAdapter();
   const evidence = await research.gather(task);
 
   if (!evidence.minimum_evidence_met) {
@@ -89,7 +88,7 @@ export async function executeQuickRecheck(
     return record;
   }
 
-  const analyst = new CodexAuditAdapter();
+  const analyst = await createAuditAdapter();
   let feedback: string[] = [];
   let parsed: any = null;
   let validation: any = null;

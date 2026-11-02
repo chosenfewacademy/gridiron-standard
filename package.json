@@ -18,6 +18,7 @@
     "research:responses-smoke": "node scripts/run-with-fallback.mjs src/responses-api-smoke.ts src/responses-api-smoke.js",
     "research:usage-summary": "node scripts/run-with-fallback.mjs src/workflow-usage-summary.ts src/workflow-usage-summary.js",
     "evidence:resume": "node scripts/run-with-fallback.mjs src/resume-evidence.ts src/resume-evidence.js",
+    "evidence:import": "tsx src/evidence-import.ts",
     "evidence:stafford-gate-sim": "node scripts/run-with-fallback.mjs src/stafford-gate-simulation.ts src/stafford-gate-simulation.js",
     "roster:refresh": "tsx src/refresh-roster.ts",
     "team:audit": "tsx src/index.ts \"audit team\"",
