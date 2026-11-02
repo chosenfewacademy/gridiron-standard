@@ -17,8 +17,11 @@ import { normName, requireApprovedPool, requireApprovedReauditPool } from "./cov
 
 export const STAGES = [
   "provisional_top_10", "pair_audits", "membership_reopen", "scarcity_audit",
-  "individual_hard_audits", "positional_cross_audit", "lock"
+  "individual_hard_audits", "positional_cross_audit", "lock",
+  "candidate_audit", "background_analysis", "player_rating"
 ] as const;
+/** Addendum v1.1.2 stage order (commissioner-approved 2026-11-02 1:56 PM ET). */
+export const ORDER_V112 = ["candidate_audit", "background_analysis", "player_rating", "pair_audits", "scarcity_audit", "positional_cross_audit", "lock"] as const;
 export type Stage = typeof STAGES[number];
 
 /** LG began before the engine existed: its provisional stage and pairs 01-02 ran outside it. */
@@ -33,7 +36,9 @@ export const LEGACY_PAIR_SEQUENCES: Partial<Record<Position, Array<{ task_id: st
 export interface EngineOptions { auditsRoot?: string; metricsPath?: string; root?: string;
   /** TOP10_REAUDIT mode (commissioner-triggered, queue-driven): plans a re-audit of a LOCKED position without touching
    *  current_position/completed_tasks of the main run. Task ids are <POS>_REAUDIT_*. */
-  reaudit?: { position: string; completed_tasks: string[]; baseline_controls?: Record<string, unknown>; approved_audit_ids?: string[] } }
+  reaudit?: { position: string; completed_tasks: string[]; baseline_controls?: Record<string, unknown>; approved_audit_ids?: string[] };
+  /** Force the stage order (tests / explicit legacy runs). Default: v1.1.2 rules in usesOrderV112. */
+  order?: "1.1.0" | "1.1.2" }
 
 export const ids = (pos: string) => ({
   provisional: `${pos}_PROVISIONAL_TOP10`,
@@ -42,6 +47,9 @@ export const ids = (pos: string) => ({
   scarcity: `${pos}_SCARCITY`,
   hard: (n: number) => `${pos}_HARD_${String(n).padStart(2, "0")}`,
   cross: `${pos}_CROSS_AUDIT`,
+  candidate: `${pos}_CANDIDATE_AUDIT`,
+  background: (n: number) => `${pos}_BG_${String(n).padStart(2, "0")}`,
+  rate: (n: number) => `${pos}_RATE_${String(n).padStart(2, "0")}`,
   lock: `${pos}_LOCK`
 });
 
@@ -93,6 +101,8 @@ export function planNext(state: ProjectState, opts: EngineOptions = {}): StagePl
       ...(inputs ? { position_inputs: inputs } : {}) } });
 
   if (state.positions[pos] === "LOCKED" && !ra) throw new Error(`${pos} is LOCKED; only an explicit TOP10_REAUDIT may change it.`);
+
+  if (usesOrderV112(state, pos, opts)) return planV112(pos, done, I, opts, mk);
 
   const legacy = ra ? undefined : LEGACY_PAIR_SEQUENCES[pos];
   const prov = approvedOutput(pos, I.provisional, opts);
@@ -147,6 +157,32 @@ export function stageOutputErrors(task: Record<string, any>, audit: Record<strin
     }
   }
   if (t === "pair_audit" && !audit.pair_result) e.push("pair_result is required for pair_audit");
+  if (t === "candidate_audit") {
+    const set = names(audit.contention_set);
+    if (set.length < 11 || new Set(set).size !== set.length) e.push("contention_set must list at least 11 distinct players (top 10 + first out)");
+    if (!Array.isArray(audit.excluded)) e.push("excluded (pool players outside contention, with reasons) is required");
+    if (audit.missing_top_players === undefined) e.push("missing_top_players must be stated (empty array if none)");
+    else if (Array.isArray(audit.missing_top_players) && audit.missing_top_players.length) e.push("candidate pool is missing top players; pool must be amended first");
+    if (Array.isArray(task.candidate_pool)) {
+      const pool = new Set(task.candidate_pool.flatMap((c: any) => [c.player, ...(c.aliases ?? [])].map(normName)));
+      for (const n of set) if (!pool.has(normName(n))) e.push(`${n} is not in the approved candidate pool`);
+    }
+  }
+  if (t === "background_analysis" && (!audit.dossier || typeof audit.dossier !== "object")) e.push("dossier is required for background_analysis");
+  if (t === "player_rating") {
+    // Existing rating structure (AGENTS.md Core Rating Rules; config/madden-entry-order.json attribute set used by
+    // src/card-spec.ts; docs/qb-full-audit-template.md): audit.ratings {ATTR: n}, per-trait confidence, proposed_ovr.
+    const attrs = ratingAttributes(String(task.position ?? audit.position ?? ""));
+    const r = audit.ratings ?? {};
+    for (const a of attrs) if (!Number.isFinite(Number(r[a]))) e.push(`ratings.${a} is required`);
+    for (const a of Object.keys(r)) if (!audit.trait_confidence?.[a]) e.push(`trait_confidence.${a} is required`);
+    if (!Number.isFinite(Number(audit.proposed_ovr))) e.push("proposed_ovr is required (output of the attribute build, never a target)");
+    if ("OVR" in r) e.push("OVR is not an attribute input; report proposed_ovr");
+  }
+  if (["candidate_audit", "background_analysis", "player_rating"].includes(String(t)) && audit.madden_reference !== undefined) {
+    const refs = Array.isArray(audit.madden_reference) ? audit.madden_reference : [audit.madden_reference];
+    if (refs.some((r: any) => r?.reference_only !== true || r?.used_as_evidence !== false)) e.push("madden_reference must be reference_only:true and used_as_evidence:false");
+  }
   if (t === "membership_reopen") {
     const top = names(audit.final_top_10);
     if (top.length !== 10 || new Set(top).size !== 10) e.push("final_top_10 must list 10 distinct players");
@@ -154,4 +190,69 @@ export function stageOutputErrors(task: Record<string, any>, audit: Record<strin
   if (t === "scarcity_audit" && (!audit.scarcity || typeof audit.scarcity !== "object")) e.push("scarcity summary is required");
   if (t === "positional_cross_audit" && !audit.cross_audit_result) e.push("cross_audit_result is required");
   return e;
+}
+
+
+/** v1.1.2 applies to every TOP10_REAUDIT and to positions with no completed tasks (in-progress positions finish the earlier order). */
+/** Task ids that only exist in the earlier (v1.1.0) order. */
+export const LEGACY_ORDER_TASK = /_(PROVISIONAL_TOP10|PAIR_\d\d|MEMBERSHIP|HARD_\d\d)$/;
+export function usesOrderV112(state: ProjectState, pos: string, opts: EngineOptions = {}): boolean {
+  if (opts.order) return opts.order === "1.1.2";
+  if (opts.reaudit) return true;
+  if (LEGACY_PAIR_SEQUENCES[pos as Position]) return false;
+  return !state.completed_tasks.some(t => t.startsWith(`${pos}_`));
+}
+
+/** Contention set from the APPROVED candidate audit: >= 11 distinct names (top 10 + first out), all in the pool. */
+export function contentionSet(cand: Record<string, any> | null): string[] {
+  const set = names(cand?.contention_set);
+  if (set.length < 11 || new Set(set).size !== set.length) throw new Error("APPROVED candidate audit must carry a contention_set of at least 11 distinct players.");
+  return set;
+}
+
+/** Rating order: approved proposed_ovr desc; ties keep contention order. Madden/EA reference is never read here. */
+export function ratingOrder(set: string[], overall: Record<string, number>): string[] {
+  return set.map((p, i) => ({ p, i, o: overall[p] })).sort((a, b) => (b.o - a.o) || (a.i - b.i)).map(x => x.p);
+}
+
+function planV112(pos: Position, done: Set<string>, I: ReturnType<typeof ids>, opts: EngineOptions,
+  mk: (stage: Stage, t: Record<string, unknown>) => StagePlan): StagePlan {
+  const ra = opts.reaudit;
+  const pool = ra ? requireApprovedReauditPool(pos, opts.root) : requireApprovedPool(pos, opts.root); // coverage gate
+  const locked = ra?.baseline_controls ? { baseline_controls: ra.baseline_controls } : {};
+  if (!done.has(I.candidate)) return mk("candidate_audit", { task_id: I.candidate, type: "candidate_audit", audit_order: "1.1.2", ...locked,
+    candidate_pool: pool.candidates.map(c => ({ player: c.player, aliases: c.aliases ?? [], player_id: c.player_id, flags: c.flags ?? [] })) });
+  const cand = approvedOutput(pos, I.candidate, opts);
+  if (!cand) throw new Error(`${pos}: ${I.candidate} is completed but its approved record is missing.`);
+  const set = contentionSet(cand);
+  const poolNames = new Set(pool.candidates.flatMap(c => [c.player, ...(c.aliases ?? [])].map(normName)));
+  for (const n of set) if (!poolNames.has(normName(n))) throw new Error(`${pos}: contention player ${n} is not in the approved pool.`);
+  const controls = { ...(ra?.baseline_controls ? { locked_baseline: ra.baseline_controls } : {}), top_10: set.slice(0, 10).map((player, i) => ({ rank: i + 1, player })), external_controls: set.slice(10) };
+  for (let i = 0; i < set.length; i++) if (!done.has(I.background(i + 1)))
+    return mk("background_analysis", { task_id: I.background(i + 1), type: "background_analysis", players: [set[i]], baseline_controls: controls });
+  const overall: Record<string, number> = {};
+  for (let i = 0; i < set.length; i++) {
+    if (!done.has(I.rate(i + 1))) return mk("player_rating", { task_id: I.rate(i + 1), type: "player_rating", players: [set[i]], baseline_controls: controls,
+      madden_reference_policy: "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT" });
+    const r = approvedOutput(pos, I.rate(i + 1), opts);
+    const o = Number(r?.proposed_ovr);
+    if (!Number.isFinite(o)) throw new Error(`${pos}: approved ${I.rate(i + 1)} must carry proposed_ovr (output of the attribute build).`);
+    overall[set[i]] = o;
+  }
+  const order = ratingOrder(set, overall);
+  const rated = { ...controls, top_10: order.slice(0, 10).map((player, i) => ({ rank: i + 1, player, overall: overall[player] })), external_controls: order.slice(10) };
+  // v1.1.2 head-to-heads use *_H2H_nn ids so they never collide with earlier-order *_PAIR_nn records (immutable history).
+  const pair = generatePairs(I.lock.replace(/_LOCK$/, ""), order.slice(0, 10), order[10])
+    .map(p => ({ ...p, task_id: p.task_id.replace(/_PAIR_(\d\d)$/, "_H2H_$1") })).find(p => !done.has(p.task_id));
+  if (pair) return mk("pair_audits", { type: "pair_audit", ...pair, baseline_controls: rated });
+  const final = order.slice(0, 10);
+  if (!done.has(I.scarcity)) return mk("scarcity_audit", { task_id: I.scarcity, type: "scarcity_audit", players: final, baseline_controls: rated });
+  if (!done.has(I.cross)) return mk("positional_cross_audit", { task_id: I.cross, type: "positional_cross_audit", players: final, baseline_controls: rated });
+  return mk("lock", { task_id: I.lock, type: "lock", requires_commissioner_confirmation: ra ? `REAUDIT_REPLACE_BASELINE_${pos}` : `LOCK_${pos}`, players: final });
+}
+
+/** Rated attributes for a bucket = config/madden-entry-order.json order minus OVR (same list src/card-spec.ts uses). */
+export function ratingAttributes(pos: string, root = process.cwd()): string[] {
+  try { return (JSON.parse(fs.readFileSync(path.join(root, "config/madden-entry-order.json"), "utf8")).positions?.[pos] ?? []).filter((a: string) => a !== "OVR"); }
+  catch { return []; }
 }

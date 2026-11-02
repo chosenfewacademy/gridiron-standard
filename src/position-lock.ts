@@ -51,8 +51,8 @@ export function lockPosition(pos: string, confirm: string | undefined, root = pr
       const p = planNext(state, opts);
       state.current_stage = p.stage; state.current_task = p.task;
     } catch (err) { // e.g. COVERAGE_GATE_BLOCKED until the next pool is approved
-      state.current_stage = "provisional_top_10";
-      state.current_task = { task_id: `${next}_PROVISIONAL_TOP10`, type: "provisional_top_10", position: next, blocked: String((err as Error).message) };
+      state.current_stage = "candidate_audit"; // Addendum v1.1.2: fresh positions start with the candidate audit
+      state.current_task = { task_id: `${next}_CANDIDATE_AUDIT`, type: "candidate_audit", position: next, blocked: String((err as Error).message) };
     }
   } else { state.current_stage = "complete"; state.current_task = {}; }
   fs.writeFileSync(r("state/project-state.json"), JSON.stringify(state, null, 2) + "\n");

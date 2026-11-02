@@ -157,3 +157,30 @@ Adds fullback (FB) and long snapper (LS) as exact buckets 21 and 22, appended af
 config/position-sequence.json. All v1.0.0 text and Amendment v1.1 above remain in force unchanged.
 FB/LS use the A3 per-position inputs in config/position-metrics.json and docs/positions/FB.md, LS.md.
 Details: docs/amendments/v1.1-addendum-fb-ls.md.
+
+## Addendum v1.1.2 — Audit stage order (ENACTED)
+
+Architecture Version: 1.1.2
+Methodology Version: 1.1.0
+Approved: 2026-11-02 1:56 PM ET by the commissioner (user PhiXCrypto).
+Every positional audit that starts after enactment (a position with no completed tasks yet, and every
+TOP10_REAUDIT, including restarts) runs in this order:
+
+1. CANDIDATE AUDIT of the approved candidate pool: confirm membership (no top player missing), flag
+   injured / free-agent / limited-sample players, and name the top-10 contention set.
+2. BACKGROUND ANALYSIS per contention player: a sourced evidence dossier (PFF grades, position stats and
+   usage, on-field impact, multi-year trend, availability) with declared provenance.
+3. RATING per contention player on our standard: strict and data-driven; overall plus attributes; the
+   high-trait tiers and evidence gate apply. The EA/Madden rating is recorded alongside as REFERENCE ONLY:
+   never evidence, never an input to the formula. Our ratings are expected to be stricter, lower and more
+   stratified than Madden's.
+4. HEAD-TO-HEADS: 6 pairs (1v2, 3v4, 5v6, 7v8, 9v10, rank 10 vs first out) taken from the approved
+   rating order, used to audit and stratify the ratings.
+5. Then the existing scarcity audit, positional cross-audit and lock / baseline-replacement checkpoints.
+
+Each stage keeps its REVIEW_MAJOR approval checkpoint, the evidence gates, the 3-revision ceiling and the
+protected-path guard. Candidate audits and ratings never auto-approve. A position already in progress under
+the earlier order (provisional_top_10 -> pairs -> membership -> scarcity -> hard audits -> cross-audit) finishes
+under that order. Records made under the earlier order (for example the QB re-audit provisional Top 10 and
+pairs 1-3) remain immutable history and may be cited as early inputs; they are never deleted.
+All v1.0.0 text, Amendment v1.1 and Addendum v1.1.1 above remain in force unchanged.

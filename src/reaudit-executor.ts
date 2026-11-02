@@ -10,7 +10,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { planNext, stageOutputErrors } from "./stage-engine.js";
+import { planNext, stageOutputErrors, LEGACY_ORDER_TASK } from "./stage-engine.js";
 import { createAuditAdapter, createResearchAdapter, selectedTransport } from "./adapter-factory.js";
 import { withTransportChecks } from "./high-trait-evidence.js";
 import { parseAuditJson } from "./audit-parser.js";
@@ -18,7 +18,7 @@ import { validateAudit } from "./audit-validator.js";
 import { saveAuditRecord } from "./persistence.js";
 
 const MAX_REVISIONS = Number(process.env.GRIDIRON_MAX_REVISIONS ?? "3");
-const ALWAYS_REVIEW = new Set(["provisional_top_10", "membership_reopen", "positional_cross_audit"]);
+const ALWAYS_REVIEW = new Set(["provisional_top_10", "membership_reopen", "positional_cross_audit", "candidate_audit", "player_rating"]);
 
 export function findReauditItem(state: any, pos: string) {
   const q: any[] = state.pending_reaudit_queue ?? [];
@@ -66,13 +66,21 @@ export async function executeReauditStep(pos: string, deps: ReauditDeps = {}): P
   const { index, item } = findReauditItem(state, pos);
   if (!item) throw new Error(`${pos}: no active TOP10_REAUDIT queue item.`);
   const save = () => { state.pending_reaudit_queue[index] = item; fs.writeFileSync(statePath, JSON.stringify(state, null, 2) + "\n"); };
-  if (item.status === "AWAITING_REVIEW_MAJOR")
+  // Addendum v1.1.2 restart: a checkpoint left open under the earlier order is superseded (its records stay as
+  // immutable history). The item stays AWAITING_REVIEW_MAJOR; only the awaiting pointer moves to the new-order stage.
+  let restart = false;
+  if (item.status === "AWAITING_REVIEW_MAJOR" && LEGACY_ORDER_TASK.test(String(item.awaiting?.task_id ?? ""))) {
+    restart = true;
+    item.last_result = { restart: "ADDENDUM_V1_1_2", superseded_checkpoint: item.awaiting, earlier_order_audit_ids: [...(item.audit_ids ?? [])] };
+  }
+  if (item.status === "AWAITING_REVIEW_MAJOR" && !restart)
     return { status: "AWAITING_REVIEW_MAJOR", position: pos, awaiting: item.awaiting, instruction: "Commissioner REVIEW_MAJOR approval required before the re-audit continues." };
 
   const plan = planReaudit(state, pos, root);
   const task = plan.task as Record<string, any>;
   if (item.status === "QUEUED_NOT_STARTED") { item.status = "IN_PROGRESS"; item.started_at = now(); item.completed_tasks = item.completed_tasks ?? []; item.audit_ids = item.audit_ids ?? []; }
   item.current_stage = plan.stage; item.current_task = task.task_id; item.updated_at = now();
+  if (restart) { item.awaiting = { reason: "ADDENDUM_V1_1_2_RESTART_IN_PROGRESS", task_id: task.task_id }; (task as any).earlier_order_inputs = item.last_result.earlier_order_audit_ids; }
   if (task.type === "lock") {
     item.status = "AWAITING_REVIEW_MAJOR"; item.awaiting = { reason: "REAUDIT_COMPLETE_BASELINE_REPLACEMENT_REQUIRES_COMMISSIONER", task_id: task.task_id };
     save(); return { status: "AWAITING_REVIEW_MAJOR", task };
@@ -86,7 +94,7 @@ export async function executeReauditStep(pos: string, deps: ReauditDeps = {}): P
       const rec = { audit_id: `${task.task_id}_INSUFFICIENT_${Date.now()}`, task_id: task.task_id, audit_type: "TOP10_REAUDIT", status: "INSUFFICIENT_EVIDENCE",
         player_id: "N/A", position: pos, confidence: "LOW", methodology_version: state.methodology_version, created_at: now(), missing_evidence: evidence.missing_evidence, sources: evidence.sources };
       saveAuditRecord(rec as any, "```json\n" + JSON.stringify(rec, null, 2) + "\n```");
-      item.audit_ids.push(rec.audit_id); item.last_result = { task_id: task.task_id, status: rec.status, missing_evidence: evidence.missing_evidence };
+      item.audit_ids.push(rec.audit_id); item.last_result = { ...(restart ? item.last_result : {}), task_id: task.task_id, status: rec.status, missing_evidence: evidence.missing_evidence };
       save(); return rec;
     }
     const analyst = deps.analyst ?? await createAuditAdapter();
@@ -109,8 +117,8 @@ export async function executeReauditStep(pos: string, deps: ReauditDeps = {}): P
     }
     saveAuditRecord(parsed, text);
     item.audit_ids.push(parsed.audit_id);
-    item.last_result = { task_id: task.task_id, status: parsed.status, errors: validation.valid ? [] : validation.errors, flags: parsed.major_flags };
-    if (parsed.status === "APPROVED") item.completed_tasks.push(task.task_id);
+    item.last_result = { ...(restart ? item.last_result : {}), task_id: task.task_id, status: parsed.status, errors: validation.valid ? [] : validation.errors, flags: parsed.major_flags };
+    if (parsed.status === "APPROVED" && !restart) item.completed_tasks.push(task.task_id);
     else { item.status = "AWAITING_REVIEW_MAJOR"; item.awaiting = { reason: validation.valid ? "REVIEW_MAJOR" : "VALIDATION_FAILED_AFTER_3_ATTEMPTS", task_id: task.task_id, audit_id: parsed.audit_id }; }
     item.updated_at = now();
     save(); return parsed;

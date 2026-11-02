@@ -121,3 +121,12 @@ No frozen architectural rule was changed.
 - State gains FB/LS as PENDING only, via the add-only addendum state path.
 
 No frozen architectural rule was changed.
+
+## 1.1.2 (addendum)
+
+- Audit stage order: candidate audit -> per-player background analysis -> per-player rating (EA/Madden recorded
+  as reference only) -> 6 head-to-heads from the rating order -> scarcity -> cross-audit -> lock
+  (commissioner approval 2026-11-02 1:56 PM ET). Applies to new positions and all TOP10_REAUDITs.
+- In-progress positions finish under the earlier order; earlier records stay immutable history.
+
+No frozen architectural rule was changed.

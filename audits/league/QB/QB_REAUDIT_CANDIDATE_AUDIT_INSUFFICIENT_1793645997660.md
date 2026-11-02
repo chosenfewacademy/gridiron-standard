@@ -1,0 +1,17 @@
+```json
+{
+  "audit_id": "QB_REAUDIT_CANDIDATE_AUDIT_INSUFFICIENT_1793645997660",
+  "task_id": "QB_REAUDIT_CANDIDATE_AUDIT",
+  "audit_type": "TOP10_REAUDIT",
+  "status": "INSUFFICIENT_EVIDENCE",
+  "player_id": "N/A",
+  "position": "QB",
+  "confidence": "LOW",
+  "methodology_version": "1.0.0",
+  "created_at": "2026-11-02T13:30:00-05:00",
+  "missing_evidence": [
+    "X"
+  ],
+  "sources": []
+}
+```

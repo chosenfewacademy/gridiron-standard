@@ -19,8 +19,8 @@ const ev = (task: any, calendar: any) => ({ task_id: task.task_id, position: "QB
 const calErr = (task: any, c: any) => applyFullAuditEvidenceGate(ev(task, c) as any, task, NOW).missing_evidence.filter((m: string) => /CALENDAR|SUBJECT/.test(m));
 
 export async function runReauditTests(sync: (n: string, f: () => void) => void) {
-  const pending: Promise<void>[] = [];
-  const test = (n: string, f: () => void | Promise<void>) => sync(n, () => { const r = f(); if (r instanceof Promise) pending.push(r.then(() => console.log(`PASS ${n} (async)`))); });
+  const asyncTests: Array<[string, () => Promise<void>]> = [];
+  const test = (n: string, f: () => void | Promise<void>) => f.constructor.name === "AsyncFunction" ? asyncTests.push([n, f as () => Promise<void>]) : sync(n, f as () => void);
   const base = { positions: { QB: "LOCKED", LG: "IN_PROGRESS" }, current_position: "LG", completed_tasks: ["X"],
     pending_reaudit_queue: [{ type: "TOP10_REAUDIT", position: "QB", status: "QUEUED_NOT_STARTED", queued_at: "q", reason: "r" }] as any[] };
   const withItem = (patch: any) => ({ ...base, pending_reaudit_queue: [{ ...base.pending_reaudit_queue[0], ...patch }] });
@@ -98,6 +98,36 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     assert.equal(a.pending_reaudit_queue.find((x: any) => x.position === "QB").status, "IN_PROGRESS");
     assert.equal(fs.readFileSync(path.join(root, "data/baselines/QB.json"), "utf8"), fs.readFileSync("data/baselines/QB.json", "utf8"));
   });
+  test("executor: v1.1.2 restart supersedes an earlier-order checkpoint without approving it (guard-allowed)", async () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "reaudit112-"));
+    for (const f of ["state/project-state.json", "state/locks.json", "data/baselines/QB.json", "data/candidate-pools/QB.reaudit.json", "config/position-metrics.json", "config/methodology.json", "data/players/registry.json"]) {
+      fs.mkdirSync(path.dirname(path.join(root, f)), { recursive: true }); fs.copyFileSync(f, path.join(root, f)); }
+    const sp = path.join(root, "state/project-state.json"); const s0 = JSON.parse(fs.readFileSync(sp, "utf8"));
+    const qi = s0.pending_reaudit_queue.findIndex((x: any) => x.position === "QB");
+    s0.pending_reaudit_queue[qi] = { ...s0.pending_reaudit_queue[qi], status: "AWAITING_REVIEW_MAJOR", started_at: "s", completed_tasks: ["QB_REAUDIT_PAIR_01"], audit_ids: ["QB_REAUDIT_PAIR_03_A1"],
+      approvals: [], awaiting: { reason: "REVIEW_MAJOR", task_id: "QB_REAUDIT_PAIR_03", audit_id: "QB_REAUDIT_PAIR_03_A1" } };
+    fs.writeFileSync(sp, J(s0) + "\n"); const before = fs.readFileSync(sp, "utf8");
+    let seen: any = null;
+    await executeReauditStep("QB", { root, now: () => NOW, research: { gather: async (t: any) => { seen = t; return { task_id: t.task_id, minimum_evidence_met: false, missing_evidence: ["X"], sources: [] }; } } });
+    assert.equal(seen.task_id, "QB_REAUDIT_CANDIDATE_AUDIT"); assert.deepEqual(seen.earlier_order_inputs, ["QB_REAUDIT_PAIR_03_A1"]);
+    const after = fs.readFileSync(sp, "utf8"); const it = JSON.parse(after).pending_reaudit_queue[qi];
+    assert.equal(it.status, "AWAITING_REVIEW_MAJOR", "restart never approves or resumes past a checkpoint");
+    assert.equal(it.last_result.superseded_checkpoint.task_id, "QB_REAUDIT_PAIR_03"); assert.deepEqual(it.completed_tasks, ["QB_REAUDIT_PAIR_01"]);
+    assert.equal(stateChangeAllowed(before, after).ok, true, JSON.stringify(stateChangeAllowed(before, after)));
+  });
+  test("Addendum v1.1.2 enacted; v1.0, v1.1 and v1.1.1 text intact", () => {
+    const a = fs.readFileSync("AGENTS.md", "utf8");
+    assert.match(a, /^# Gridiron Standard 27\n\nArchitecture Version: 1\.0\.0/); assert.match(a, /## Amendment v1\.1 \(ENACTED\)/); assert.match(a, /## Addendum v1\.1\.1/);
+    assert.match(a, /## Addendum v1\.1\.2 — Audit stage order \(ENACTED\)/); assert.ok(a.indexOf("v1.1.2") > a.indexOf("Addendum v1.1.1"));
+    const m = JSON.parse(fs.readFileSync("config/methodology.json", "utf8"));
+    assert.equal(m.architecture_version, "1.1.2"); assert.equal(m.methodology_version, "1.1.0");
+    assert.deepEqual(m.audit_order.stages.slice(0, 4), ["candidate_audit", "background_analysis", "player_rating", "pair_audits"]);
+    assert.match(fs.readFileSync("ARCHITECTURE_CHANGELOG.md", "utf8"), /## 1\.1\.2 \(addendum\)/);
+  });
+  test("calendar: candidate_audit is position-wide too", () => {
+    const cand = { task_id: "QB_REAUDIT_CANDIDATE_AUDIT", position: "QB", type: "candidate_audit" };
+    assert.deepEqual(calErr(cand, cal()), []); assert(!isPositionWideTask({ ...cand, type: "player_rating" }));
+  });
   test("calendar: position-wide subject only for top-10 and pair tasks", () => {
     const prov = { task_id: "QB_REAUDIT_PROVISIONAL_TOP10", position: "QB", type: "provisional_top_10" };
     const pair = { task_id: "QB_REAUDIT_PAIR_01", position: "QB", type: "pair_audit" };
@@ -111,5 +141,5 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     assert(calErr(prov, cal({ sources: [cal().sources[0]] })).includes("POSITION_WIDE_CALENDAR_START_END_SOURCES_MISSING"));
     assert(calErr(prov, cal({ sources: cal().sources.map((s: any) => ({ ...s, retrieved_at: "2026-10-30T00:00:00Z" })) })).length > 0, "stale sources rejected");
   });
-  await Promise.all(pending);
+  for (const [n, f] of asyncTests) { await f(); console.log(`PASS ${n}`); } // sequential: executor chdirs
 }

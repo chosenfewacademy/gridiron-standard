@@ -38,7 +38,7 @@ export async function runRosterRefreshTests(test: T) {
   });
 }
 
-import { planNext, generatePairs, stageOutputErrors, ids } from "../src/stage-engine.js";
+import { planNext, generatePairs, stageOutputErrors, ids, ratingAttributes, usesOrderV112, LEGACY_ORDER_TASK } from "../src/stage-engine.js";
 import { getNextTask } from "../src/state-machine.js";
 import { lockPosition } from "../src/position-lock.js";
 import { checkCoverage, checkReauditPool, requireApprovedPool, requireApprovedReauditPool, approvePool, normName } from "../src/coverage-gate.js";
@@ -58,7 +58,7 @@ function sandbox(pos = "C") {
   state.current_position = pos; state.current_stage = "provisional_top_10"; state.completed_tasks = [];
   const save = () => fs.writeFileSync(path.join(root, "state/project-state.json"), JSON.stringify(state));
   save();
-  const opts = { root, auditsRoot: path.join(root, "audits/league"), metricsPath: path.join(root, "config/position-metrics.json") };
+  const opts = { root, auditsRoot: path.join(root, "audits/league"), metricsPath: path.join(root, "config/position-metrics.json"), order: "1.1.0" as const };
   let n = 0;
   const approve = (task_id: string, extra: Record<string, unknown> = {}) => {
     fs.writeFileSync(path.join(opts.auditsRoot, pos, `A${++n}.json`), JSON.stringify({ audit_id: `A${n}`, task_id, status: "APPROVED", position: pos, created_at: `2026-11-01T00:00:${String(n).padStart(2, "0")}Z`, ...extra }));
@@ -245,13 +245,13 @@ export function runStageEngineTests(test: (n: string, f: () => void) => void) {
     const b = JSON.parse(fs.readFileSync(path.join(root, "data/baselines/C.json"), "utf8"));
     assert.equal(b.top_10[9].player, "C Out"); assert.equal(b.mutation_policy, "TOP10_REAUDIT_ONLY");
     const s2 = JSON.parse(fs.readFileSync(path.join(root, "state/project-state.json"), "utf8"));
-    assert.equal(s2.positions.C, "LOCKED"); assert.equal(s2.current_position, "RG"); assert.equal(s2.current_stage, "provisional_top_10");
+    assert.equal(s2.positions.C, "LOCKED"); assert.equal(s2.current_position, "RG"); assert.equal(s2.current_stage, "candidate_audit");
     assert.match(String(s2.current_task.blocked), /COVERAGE_GATE_BLOCKED/, "next position waits for an approved pool");
     assert.throws(() => planNext({ ...s2, current_position: "C" }, opts), /LOCKED/);
   });
   test("lock refuses early stages, pending re-audits, and existing baselines", () => {
     const { root, state, approve } = sandbox();
-    assert.throws(() => lockPosition("C", "LOCK_C", root), /stage provisional_top_10/);
+    assert.throws(() => lockPosition("C", "LOCK_C", root), /stage (provisional_top_10|candidate_audit)/);
     approve("C_PROVISIONAL_TOP10", { provisional_top_10: TOP, first_out: "x", external_controls: ["x"] });
     state.pending_reaudit_queue = [{ task: { position: "C" } }];
     fs.writeFileSync(path.join(root, "state/project-state.json"), JSON.stringify(state));
@@ -267,6 +267,42 @@ export function runStageEngineTests(test: (n: string, f: () => void) => void) {
     assert.ok(stageOutputErrors({ type: "scarcity_audit", task_id: "X" }, {}).length);
     assert.ok(stageOutputErrors({ type: "positional_cross_audit", task_id: "X" }, {}).length);
     assert.ok(stageOutputErrors({ type: "pair_audit", task_id: "X", position: "C" }, { task_id: "Y", position: "LG", pair_result: 1 }).length === 2);
+  });
+  test("v1.1.2 order: candidate audit -> background -> rating -> H2H from rating order -> scarcity -> cross -> lock", () => {
+    const { state, opts, approve } = sandbox(); const o = { ...opts, order: "1.1.2" as const }; const I = ids("C");
+    const c: any = planNext(state, o); assert.equal(c.stage, "candidate_audit"); assert.equal(c.task.task_id, "C_CANDIDATE_AUDIT"); assert.equal(c.task.candidate_pool.length, 11);
+    const set = [...TOP, "C Out"];
+    assert.ok(stageOutputErrors(c.task, { contention_set: TOP }).length >= 3, "needs >=11, excluded, missing_top_players");
+    assert.deepEqual(stageOutputErrors(c.task, { contention_set: set, excluded: [], missing_top_players: [] }), []);
+    assert.ok(stageOutputErrors(c.task, { contention_set: set, excluded: [], missing_top_players: ["Star"] }).some(e => /missing top players/.test(e)));
+    approve(I.candidate, { contention_set: set });
+    for (let i = 1; i <= 11; i++) { const b: any = planNext(state, o); assert.equal(b.stage, "background_analysis"); assert.deepEqual(b.task.players, [set[i - 1]]); approve(I.background(i), { dossier: {} }); }
+    const ovr = [80, 84, 70, 71, 60, 66, 75, 74, 62, 61, 79]; // stricter, stratified; C Out (79) rates into the top 10
+    for (let i = 1; i <= 11; i++) { const r: any = planNext(state, o); assert.equal(r.stage, "player_rating"); assert.equal(r.task.madden_reference_policy, "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT"); approve(I.rate(i), { proposed_ovr: ovr[i - 1] }); }
+    const h: any = planNext(state, o); assert.equal(h.stage, "pair_audits"); assert.equal(h.task.task_id, "C_H2H_01");
+    assert.deepEqual(h.task.players, ["C Player 2", "C Player 1"]); assert.equal(h.task.baseline_controls.top_10[2].player, "C Out");
+    for (let i = 1; i <= 5; i++) approve(`C_H2H_0${i}`, { pair_result: "ok" });
+    const six: any = planNext(state, o); assert.equal(six.task.task_id, "C_H2H_06"); assert.deepEqual(six.task.players, ["C Player 10", "C Player 5"], "rank 10 vs first out");
+    approve("C_H2H_06", { pair_result: "ok" });
+    assert.equal(planNext(state, o).stage, "scarcity_audit"); approve(I.scarcity, { scarcity: {} });
+    assert.equal(planNext(state, o).stage, "positional_cross_audit"); approve(I.cross, { cross_audit_result: "ok" });
+    assert.equal((planNext(state, o).task as any).requires_commissioner_confirmation, "LOCK_C");
+  });
+  test("v1.1.2 rating output uses the existing structure (ratings by madden-entry-order attributes, trait_confidence, proposed_ovr); Madden reference only", () => {
+    const t = { type: "player_rating", task_id: "QB_REAUDIT_RATE_01", position: "QB" };
+    const attrs = ratingAttributes("QB"); assert.equal(attrs.length, 19); assert.ok(!attrs.includes("OVR"));
+    const ratings = Object.fromEntries(attrs.map(a => [a, 70])); const conf = Object.fromEntries(attrs.map(a => [a, "MEDIUM"]));
+    assert.deepEqual(stageOutputErrors(t, { ratings, trait_confidence: conf, proposed_ovr: 78 }), []);
+    assert.ok(stageOutputErrors(t, { ratings: { THP: 80 }, trait_confidence: { THP: "HIGH" }, proposed_ovr: 78 }).some(e => /ratings\.SAC/.test(e)));
+    assert.ok(stageOutputErrors(t, { ratings: { ...ratings, OVR: 90 }, trait_confidence: { ...conf, OVR: "HIGH" }, proposed_ovr: 78 }).some(e => /OVR is not an attribute/.test(e)));
+    assert.ok(stageOutputErrors(t, { ratings, trait_confidence: conf }).some(e => /proposed_ovr/.test(e)));
+    assert.ok(stageOutputErrors(t, { ratings, trait_confidence: conf, proposed_ovr: 78, madden_reference: { ovr: 90, reference_only: true, used_as_evidence: true } }).some(e => /reference_only/.test(e)));
+    assert.deepEqual(stageOutputErrors(t, { ratings, trait_confidence: conf, proposed_ovr: 78, madden_reference: { ovr: 90, reference_only: true, used_as_evidence: false } }), []);
+  });
+  test("v1.1.2 applies to fresh positions and re-audits; in-progress LG keeps the earlier order", () => {
+    assert.equal(usesOrderV112(REAL_STATE, "LG"), false); assert.equal(usesOrderV112(REAL_STATE, "C"), true);
+    assert.equal(usesOrderV112(REAL_STATE, "QB", { reaudit: { position: "QB", completed_tasks: [] } }), true);
+    assert.ok(LEGACY_ORDER_TASK.test("QB_REAUDIT_PAIR_03") && !LEGACY_ORDER_TASK.test("QB_REAUDIT_H2H_03") && !LEGACY_ORDER_TASK.test("QB_REAUDIT_CANDIDATE_AUDIT"));
   });
   test("locked positions (QB..LT) cannot be planned", () => {
     for (const pos of ["QB", "RB", "WR", "TE", "LT"]) assert.throws(() => planNext({ ...REAL_STATE, current_position: pos }), /LOCKED/);
