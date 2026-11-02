@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -66,21 +66,25 @@
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
         "QB_REAUDIT_PAIR_01_A1",
-        "QB_REAUDIT_PAIR_02_A1"
+        "QB_REAUDIT_PAIR_02_A1",
+        "QB_REAUDIT_PAIR_03_A1"
       ],
       "current_stage": "pair_audits",
-      "current_task": "QB_REAUDIT_PAIR_02",
-      "updated_at": "2026-11-02T18:54:11.041Z",
+      "current_task": "QB_REAUDIT_PAIR_03",
+      "updated_at": "2026-11-02T18:54:26.986Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_PAIR_02",
+        "task_id": "QB_REAUDIT_PAIR_03",
         "status": "FLAGGED",
         "errors": [],
         "flags": [
-          "AVAILABILITY: Lamar Jackson 5 games",
-          "PAIR_NEAR_TIE"
+          "GRADE_VS_EFFICIENCY_SPLIT"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "QB_REAUDIT_PAIR_03",
+        "audit_id": "QB_REAUDIT_PAIR_03_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",

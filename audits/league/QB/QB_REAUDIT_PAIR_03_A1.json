@@ -1,0 +1,37 @@
+{
+  "audit_id": "QB_REAUDIT_PAIR_03_A1",
+  "task_id": "QB_REAUDIT_PAIR_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "position": "QB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Dak Prescott",
+    "Drake Maye"
+  ],
+  "pair_result": {
+    "winner": "Dak Prescott",
+    "loser": "Drake Maye",
+    "provisional_order_holds": true,
+    "key_evidence_for_winner": [
+      "2026 PFF overall 86.2 vs 81.3",
+      "2025 PFF overall 86.9 vs 80.7 (grade edge both seasons)",
+      "2026 INT 5 vs 8",
+      "Both 8 games (no availability gap)"
+    ],
+    "key_evidence_for_loser": [
+      "2026 EPA/dropback+rush .231 vs .167",
+      "2025 EPA/play .276 vs .153",
+      "2026 CPOE +7.3 vs +0.2",
+      "2026 Y/A 8.47 vs 6.77",
+      "2026 rushing EPA 16.0; age 24.1 vs 33.2"
+    ],
+    "margin": "NARROW"
+  },
+  "major_flags": [
+    "GRADE_VS_EFFICIENCY_SPLIT"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
