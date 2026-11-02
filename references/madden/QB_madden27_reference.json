@@ -184,6 +184,32 @@
       "team": "Detroit Lions",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Drake Maye": {
+      "ea_id": 14501,
+      "OVR": 90,
+      "SPD": 89,
+      "ACC": 89,
+      "AGI": 82,
+      "COD": 78,
+      "STR": 62,
+      "AWR": 87,
+      "THP": 94,
+      "SAC": 92,
+      "MAC": 91,
+      "DAC": 91,
+      "RUN": 85,
+      "TUP": 93,
+      "PAC": 83,
+      "BSK": 80,
+      "CAR": 65,
+      "JMP": 72,
+      "INJ": 92,
+      "STA": 87,
+      "TGH": 90,
+      "team": "New England Patriots",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
