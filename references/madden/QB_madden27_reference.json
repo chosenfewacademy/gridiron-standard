@@ -392,6 +392,32 @@
       "team": "Las Vegas Raiders",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Caleb Williams": {
+      "ea_id": 14500,
+      "OVR": 94,
+      "SPD": 91,
+      "ACC": 93,
+      "AGI": 90,
+      "COD": 86,
+      "STR": 65,
+      "AWR": 93,
+      "THP": 97,
+      "SAC": 92,
+      "MAC": 87,
+      "DAC": 88,
+      "RUN": 97,
+      "TUP": 88,
+      "PAC": 84,
+      "BSK": 95,
+      "CAR": 61,
+      "JMP": 83,
+      "INJ": 95,
+      "STA": 95,
+      "TGH": 93,
+      "team": "Chicago Bears",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
