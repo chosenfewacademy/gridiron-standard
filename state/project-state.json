@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -135,21 +135,25 @@
         "QB_REAUDIT_RATE_13_A1",
         "QB_REAUDIT_RATE_14_A1",
         "QB_REAUDIT_RATE_15_A1",
-        "QB_REAUDIT_RATE_16_A1"
+        "QB_REAUDIT_RATE_16_A1",
+        "QB_REAUDIT_RATE_17_A1"
       ],
       "current_stage": "player_rating",
-      "current_task": "QB_REAUDIT_RATE_16",
-      "updated_at": "2026-11-02T23:36:00.192Z",
+      "current_task": "QB_REAUDIT_RATE_17",
+      "updated_at": "2026-11-02T23:36:14.302Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_RATE_16",
+        "task_id": "QB_REAUDIT_RATE_17",
         "status": "FLAGGED",
         "errors": [],
         "flags": [
-          "AUTO_RUN_T30U: attributes from fixed percentile mapping; adjust in head-to-heads",
-          "SEASON_SPLIT: PFF 78.0 (2025) vs 43.9 (2026)"
+          "AUTO_RUN_T30U: attributes from fixed percentile mapping; adjust in head-to-heads"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "QB_REAUDIT_RATE_17",
+        "audit_id": "QB_REAUDIT_RATE_17_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",

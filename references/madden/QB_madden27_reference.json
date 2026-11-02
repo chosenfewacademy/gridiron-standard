@@ -444,6 +444,32 @@
       "team": "Los Angeles Chargers",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Sam Darnold": {
+      "ea_id": 13097,
+      "OVR": 84,
+      "SPD": 82,
+      "ACC": 81,
+      "AGI": 80,
+      "COD": 76,
+      "STR": 60,
+      "AWR": 82,
+      "THP": 91,
+      "SAC": 90,
+      "MAC": 88,
+      "DAC": 93,
+      "RUN": 90,
+      "TUP": 86,
+      "PAC": 85,
+      "BSK": 72,
+      "CAR": 57,
+      "JMP": 67,
+      "INJ": 90,
+      "STA": 86,
+      "TGH": 91,
+      "team": "Seattle Seahawks",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
