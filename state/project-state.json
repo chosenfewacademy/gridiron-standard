@@ -62,7 +62,24 @@
         "QB_REAUDIT_PROVISIONAL_TOP10",
         "QB_REAUDIT_PAIR_01",
         "QB_REAUDIT_PAIR_02",
-        "QB_REAUDIT_CANDIDATE_AUDIT"
+        "QB_REAUDIT_CANDIDATE_AUDIT",
+        "QB_REAUDIT_BG_01",
+        "QB_REAUDIT_BG_02",
+        "QB_REAUDIT_BG_03",
+        "QB_REAUDIT_BG_04",
+        "QB_REAUDIT_BG_05",
+        "QB_REAUDIT_BG_06",
+        "QB_REAUDIT_BG_07",
+        "QB_REAUDIT_BG_08",
+        "QB_REAUDIT_BG_09",
+        "QB_REAUDIT_BG_10",
+        "QB_REAUDIT_BG_11",
+        "QB_REAUDIT_BG_12",
+        "QB_REAUDIT_BG_13",
+        "QB_REAUDIT_BG_14",
+        "QB_REAUDIT_BG_15",
+        "QB_REAUDIT_BG_16",
+        "QB_REAUDIT_BG_17"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
@@ -70,21 +87,41 @@
         "QB_REAUDIT_PAIR_02_A1",
         "QB_REAUDIT_PAIR_03_A1",
         "QB_REAUDIT_CANDIDATE_AUDIT_A1",
-        "QB_REAUDIT_BG_01_A1"
+        "QB_REAUDIT_BG_01_A1",
+        "QB_REAUDIT_BG_02_A1",
+        "QB_REAUDIT_BG_03_A1",
+        "QB_REAUDIT_BG_04_A1",
+        "QB_REAUDIT_BG_05_A1",
+        "QB_REAUDIT_BG_06_A1",
+        "QB_REAUDIT_BG_07_A1",
+        "QB_REAUDIT_BG_08_A1",
+        "QB_REAUDIT_BG_09_A1",
+        "QB_REAUDIT_BG_10_A1",
+        "QB_REAUDIT_BG_11_A1",
+        "QB_REAUDIT_BG_12_A1",
+        "QB_REAUDIT_BG_13_A1",
+        "QB_REAUDIT_BG_14_A1",
+        "QB_REAUDIT_BG_15_A1",
+        "QB_REAUDIT_BG_16_A1",
+        "QB_REAUDIT_BG_17_A1",
+        "QB_REAUDIT_RATE_01_A1"
       ],
-      "current_stage": "background_analysis",
-      "current_task": "QB_REAUDIT_BG_01",
-      "updated_at": "2026-11-02T19:20:24.933Z",
+      "current_stage": "player_rating",
+      "current_task": "QB_REAUDIT_RATE_01",
+      "updated_at": "2026-11-02T19:27:04.596Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_BG_01",
+        "task_id": "QB_REAUDIT_RATE_01",
         "status": "FLAGGED",
         "errors": [],
-        "flags": []
+        "flags": [
+          "ELITE_TRAITS_PROPOSED: AWR 90, SAC 93, MAC 91",
+          "PROPOSED_OVR_90_ELITE_THRESHOLD"
+        ]
       },
       "awaiting": {
         "reason": "REVIEW_MAJOR",
-        "task_id": "QB_REAUDIT_BG_01",
-        "audit_id": "QB_REAUDIT_BG_01_A1"
+        "task_id": "QB_REAUDIT_RATE_01",
+        "audit_id": "QB_REAUDIT_RATE_01_A1"
       },
       "approvals": [
         {
@@ -118,6 +155,142 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-02T19:15:00Z",
           "note": "Commissioner approved candidate audit; Herbert and Darnold re-included via add-only pool amendment QB_POOL_AMEND_01 (17 in contention)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_01",
+          "audit_id": "QB_REAUDIT_BG_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_02",
+          "audit_id": "QB_REAUDIT_BG_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_03",
+          "audit_id": "QB_REAUDIT_BG_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_04",
+          "audit_id": "QB_REAUDIT_BG_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_05",
+          "audit_id": "QB_REAUDIT_BG_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_06",
+          "audit_id": "QB_REAUDIT_BG_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_07",
+          "audit_id": "QB_REAUDIT_BG_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_08",
+          "audit_id": "QB_REAUDIT_BG_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_09",
+          "audit_id": "QB_REAUDIT_BG_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_10",
+          "audit_id": "QB_REAUDIT_BG_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_11",
+          "audit_id": "QB_REAUDIT_BG_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_12",
+          "audit_id": "QB_REAUDIT_BG_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_13",
+          "audit_id": "QB_REAUDIT_BG_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_14",
+          "audit_id": "QB_REAUDIT_BG_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_15",
+          "audit_id": "QB_REAUDIT_BG_15_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_16",
+          "audit_id": "QB_REAUDIT_BG_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_17",
+          "audit_id": "QB_REAUDIT_BG_17_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:25:00Z",
+          "note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)"
         }
       ]
     },

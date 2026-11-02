@@ -1,0 +1,127 @@
+# QB_REAUDIT_BG_07 — Background dossier: Drake Maye (Addendum v1.1.2 stage 2)
+
+Declared provenance: PFF public grade pages, nflverse releases, nfl.com. No ratings at this stage; EA/Madden never evidence.
+
+```json
+{
+  "audit_id": "QB_REAUDIT_BG_07_A1",
+  "task_id": "QB_REAUDIT_BG_07",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "player_id": "drake_maye",
+  "players": [
+    "Drake Maye"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Drake Maye",
+    "player_id": "drake_maye",
+    "team": "NE",
+    "pff": {
+      "2026": {
+        "overall": 81.3,
+        "rank": 7,
+        "rank_in_contention": 7
+      },
+      "2025": {
+        "overall": 80.7,
+        "rank": 8
+      }
+    },
+    "stats_2026": {
+      "games": 8,
+      "att": 234,
+      "cmp_pct": 67.1,
+      "yds": 1983,
+      "td": 15,
+      "int": 8,
+      "ypa": 8.47,
+      "cpoe": 7.3,
+      "sacks": 16,
+      "sack_pct": 6.4,
+      "fumbles_lost": 2
+    },
+    "usage_2026": {
+      "offensive_snaps": 510,
+      "dropbacks": 250,
+      "carries": 46
+    },
+    "impact_2026": {
+      "passing_epa_per_dropback": 0.209,
+      "total_epa_per_play": 0.231,
+      "epa_rank_in_contention": 7,
+      "rush_epa": 16.0
+    },
+    "stats_2025": {
+      "games": 17,
+      "yds": 4394,
+      "td": 31,
+      "int": 8,
+      "epa_per_dropback": 0.308,
+      "cpoe": 10.8
+    },
+    "multi_year_trend": "PFF 80.7 -> 81.3 (+0.6)",
+    "availability": {
+      "games_2026": 8,
+      "team_games_2026": 8,
+      "games_2025": 17,
+      "roster_status": "ACT"
+    },
+    "rating_relevant_notes": [
+      "8 INT in 2026",
+      "material rushing value"
+    ],
+    "attributes_informed": [
+      "THP",
+      "SAC",
+      "MAC",
+      "DAC",
+      "TUP",
+      "PAC",
+      "BSK",
+      "AWR",
+      "CAR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "INJ"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2026",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2025",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/reg9/",
+        "retrieved_at": "2026-11-02T18:15:34Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```

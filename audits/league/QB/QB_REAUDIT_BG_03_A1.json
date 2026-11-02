@@ -1,0 +1,121 @@
+{
+  "audit_id": "QB_REAUDIT_BG_03_A1",
+  "task_id": "QB_REAUDIT_BG_03",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "player_id": "dak_prescott",
+  "players": [
+    "Dak Prescott"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Dak Prescott",
+    "player_id": "dak_prescott",
+    "team": "DAL",
+    "pff": {
+      "2025": {
+        "overall": 86.9,
+        "rank": 5
+      },
+      "2026": {
+        "overall": 86.2,
+        "rank": 3,
+        "rank_in_contention": 3
+      }
+    },
+    "stats_2026": {
+      "games": 8,
+      "att": 302,
+      "cmp_pct": 65.2,
+      "yds": 2046,
+      "td": 14,
+      "int": 5,
+      "ypa": 6.77,
+      "cpoe": 0.2,
+      "sacks": 11,
+      "sack_pct": 3.5,
+      "fumbles_lost": 0
+    },
+    "usage_2026": {
+      "offensive_snaps": 545,
+      "dropbacks": 313,
+      "carries": 23
+    },
+    "impact_2026": {
+      "passing_epa_per_dropback": 0.167,
+      "total_epa_per_play": 0.167,
+      "epa_rank_in_contention": 9,
+      "rush_epa": 3.7
+    },
+    "stats_2025": {
+      "games": 17,
+      "yds": 4552,
+      "td": 30,
+      "int": 10,
+      "epa_per_dropback": 0.181,
+      "cpoe": 2.2
+    },
+    "multi_year_trend": "PFF 86.9 -> 86.2 (-0.7)",
+    "availability": {
+      "games_2026": 8,
+      "team_games_2026": 8,
+      "games_2025": 17,
+      "roster_status": "ACT"
+    },
+    "rating_relevant_notes": [],
+    "attributes_informed": [
+      "THP",
+      "SAC",
+      "MAC",
+      "DAC",
+      "TUP",
+      "PAC",
+      "BSK",
+      "AWR",
+      "CAR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "INJ"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2026",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2025",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/reg9/",
+        "retrieved_at": "2026-11-02T18:15:34Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [
+    "GRADE_VS_EFFICIENCY_SPLIT: PFF #3 vs EPA/play #9 of 17"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

@@ -1,0 +1,128 @@
+# QB_REAUDIT_BG_08 — Background dossier: Geno Smith (Addendum v1.1.2 stage 2)
+
+Declared provenance: PFF public grade pages, nflverse releases, nfl.com. No ratings at this stage; EA/Madden never evidence.
+
+```json
+{
+  "audit_id": "QB_REAUDIT_BG_08_A1",
+  "task_id": "QB_REAUDIT_BG_08",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "player_id": "ext_00-0030565",
+  "players": [
+    "Geno Smith"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Geno Smith",
+    "player_id": "ext_00-0030565",
+    "team": "NYJ",
+    "pff": {
+      "2026": {
+        "overall": 80.9,
+        "rank": 9,
+        "rank_in_contention": 9
+      },
+      "2025": {
+        "overall": 60.9,
+        "rank": 34
+      }
+    },
+    "stats_2026": {
+      "games": 8,
+      "att": 239,
+      "cmp_pct": 69.0,
+      "yds": 1913,
+      "td": 12,
+      "int": 3,
+      "ypa": 8.0,
+      "cpoe": 6.0,
+      "sacks": 23,
+      "sack_pct": 8.8,
+      "fumbles_lost": 2
+    },
+    "usage_2026": {
+      "offensive_snaps": 494,
+      "dropbacks": 262,
+      "carries": 23
+    },
+    "impact_2026": {
+      "passing_epa_per_dropback": 0.147,
+      "total_epa_per_play": 0.093,
+      "epa_rank_in_contention": 14,
+      "rush_epa": -12.1
+    },
+    "stats_2025": {
+      "games": 15,
+      "yds": 3025,
+      "td": 19,
+      "int": 17,
+      "epa_per_dropback": -0.145,
+      "cpoe": 0.7
+    },
+    "multi_year_trend": "PFF 60.9 -> 80.9 (+20.0)",
+    "availability": {
+      "games_2026": 8,
+      "team_games_2026": 8,
+      "games_2025": 15,
+      "roster_status": "ACT"
+    },
+    "rating_relevant_notes": [
+      "high sack rate 8.8%"
+    ],
+    "attributes_informed": [
+      "THP",
+      "SAC",
+      "MAC",
+      "DAC",
+      "TUP",
+      "PAC",
+      "BSK",
+      "AWR",
+      "CAR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "INJ"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2026",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2025",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/reg9/",
+        "retrieved_at": "2026-11-02T18:15:34Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [
+    "SHARP_RISE: PFF 60.9 (2025) -> 80.9 (2026); one-season spike risk"
+  ],
+  "locked_control_conflict": false
+}
+```

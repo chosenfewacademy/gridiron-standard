@@ -1,0 +1,126 @@
+{
+  "audit_id": "QB_REAUDIT_BG_16_A1",
+  "task_id": "QB_REAUDIT_BG_16",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "player_id": "justin_herbert",
+  "players": [
+    "Justin Herbert"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Justin Herbert",
+    "player_id": "justin_herbert",
+    "team": "LAC",
+    "pff": {
+      "2025": {
+        "overall": 78,
+        "rank": 11
+      },
+      "2026": {
+        "overall": 43.9,
+        "rank": 36,
+        "rank_in_contention": 17
+      }
+    },
+    "stats_2026": {
+      "games": 7,
+      "att": 212,
+      "cmp_pct": 61.8,
+      "yds": 1398,
+      "td": 5,
+      "int": 10,
+      "ypa": 6.59,
+      "cpoe": -4.2,
+      "sacks": 23,
+      "sack_pct": 9.8,
+      "fumbles_lost": 2
+    },
+    "usage_2026": {
+      "offensive_snaps": 459,
+      "dropbacks": 235,
+      "carries": 33
+    },
+    "impact_2026": {
+      "passing_epa_per_dropback": -0.26,
+      "total_epa_per_play": -0.241,
+      "epa_rank_in_contention": 17,
+      "rush_epa": -3.6
+    },
+    "stats_2025": {
+      "games": 16,
+      "yds": 3727,
+      "td": 26,
+      "int": 13,
+      "epa_per_dropback": 0.028,
+      "cpoe": 1.6
+    },
+    "multi_year_trend": "PFF 78.0 -> 43.9 (-34.1)",
+    "availability": {
+      "games_2026": 7,
+      "team_games_2026": 7,
+      "games_2025": 16,
+      "roster_status": "ACT"
+    },
+    "rating_relevant_notes": [
+      "high sack rate 9.8%",
+      "10 INT in 2026",
+      "material rushing value"
+    ],
+    "attributes_informed": [
+      "THP",
+      "SAC",
+      "MAC",
+      "DAC",
+      "TUP",
+      "PAC",
+      "BSK",
+      "AWR",
+      "CAR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "INJ"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2026",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2025",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/reg9/",
+        "retrieved_at": "2026-11-02T18:15:34Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [
+    "SHARP_DECLINE: PFF 78.0 (2025) -> 43.9 (2026)",
+    "COMMISSIONER_REINCLUDED_LOCKED_BASELINE_MEMBER"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

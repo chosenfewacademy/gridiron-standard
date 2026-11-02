@@ -1,0 +1,289 @@
+# QB_REAUDIT_RATE_01 — Joe Burrow rating (v1.1.2 stage 3, existing structure)
+
+```json
+{
+  "audit_id": "QB_REAUDIT_RATE_01_A1",
+  "task_id": "QB_REAUDIT_RATE_01",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "player_id": "joe_burrow",
+  "players": [
+    "Joe Burrow"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 70,
+    "ACC": 74,
+    "AGI": 74,
+    "COD": 70,
+    "STR": 66,
+    "AWR": 90,
+    "THP": 87,
+    "SAC": 93,
+    "MAC": 91,
+    "DAC": 85,
+    "RUN": 80,
+    "TUP": 85,
+    "PAC": 84,
+    "BSK": 76,
+    "CAR": 74,
+    "JMP": 70,
+    "INJ": 72,
+    "STA": 84,
+    "TGH": 82
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "MEDIUM",
+    "AWR": "HIGH",
+    "THP": "MEDIUM",
+    "SAC": "HIGH",
+    "MAC": "HIGH",
+    "DAC": "MEDIUM",
+    "RUN": "MEDIUM",
+    "TUP": "MEDIUM",
+    "PAC": "MEDIUM",
+    "BSK": "MEDIUM",
+    "CAR": "MEDIUM",
+    "JMP": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "70 rush yds 2026, pocket passer; no designed-run speed profile",
+      "why_not_higher": "No explosive runs in 2026/2025 sample",
+      "why_not_lower": "Functional scramble ability",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Quick first steps inside pocket; low sack rate 4.6%",
+      "why_not_higher": "Not a burst runner",
+      "why_not_lower": "Pocket climbs evade pressure",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Pocket mobility evidenced by 4.6% sack rate on 280 dropbacks",
+      "why_not_higher": "Limited open-field evidence",
+      "why_not_lower": "Escapes collapse consistently",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Few designed runs; change of direction mostly in-pocket",
+      "why_not_higher": "No open-field sample",
+      "why_not_lower": "Avoids sacks laterally",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Average frame (6'4\" 215)",
+      "why_not_higher": "Light build, injury history",
+      "why_not_lower": "Stands in vs pressure",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "PFF overall #1 2026 (93.3) and #2 2025 (91.8); 20 TD / 6 INT",
+      "why_not_higher": "Not 95: EPA/play only 6th of 17 contenders (.232)",
+      "why_not_lower": "Two consecutive top-2 PFF seasons",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "THP": {
+      "basis": "7.92 Y/A, 2115 yds in 7 games",
+      "why_not_higher": "Arm strength not league-best; deep volume moderate",
+      "why_not_lower": "Drives intermediate/deep throws on time",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "SAC": {
+      "basis": "73.0% completion, CPOE +9.0 (tied 1st among 17)",
+      "why_not_higher": "Not 95: one half-season sample at this level in 2026",
+      "why_not_lower": "League-best accuracy over expectation",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MAC": {
+      "basis": "CPOE +9.0 and 73.0% completion; PFF passing #1",
+      "why_not_higher": "Not 95: Y/A 7.92 not elite-tier vertical",
+      "why_not_lower": "Accuracy holds at intermediate",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "DAC": {
+      "basis": "Y/A 7.92; PFF grade #1 includes downfield throws",
+      "why_not_higher": "Public data lacks depth splits; capped below 90",
+      "why_not_lower": "Big-time throw production reflected in PFF #1",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "RUN": {
+      "basis": "Mobility in pocket, 4.6% sack rate",
+      "why_not_higher": "Rarely throws on designed rollouts",
+      "why_not_lower": "Sustains accuracy under movement",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TUP": {
+      "basis": "Low sack rate 4.6%, 6 INT; PFF #1 includes pressure snaps",
+      "why_not_higher": "No public pressure-split grade cached; capped below 90",
+      "why_not_lower": "Composed when pressured",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PAC": {
+      "basis": "PFF #1 passing; efficient play-action offense",
+      "why_not_higher": "No public play-action split cached",
+      "why_not_lower": "High efficiency overall",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "BSK": {
+      "basis": "70 rush yds, rush EPA 1.7",
+      "why_not_higher": "Not a rushing threat",
+      "why_not_lower": "Gains yards when lanes open",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "1 fumble lost in 7 games",
+      "why_not_higher": "Pocket QB, little ball-carrier usage",
+      "why_not_lower": "Ball security adequate",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "No relevant evidence; neutral",
+      "why_not_higher": "No evidence",
+      "why_not_lower": "Athletic enough for basic movement",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "2025: 8 of 17 games; prior major injuries; 7/7 in 2026",
+      "why_not_higher": "Repeated missed time 2025",
+      "why_not_lower": "Full availability 2026",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "STA": {
+      "basis": "7/7 games, 446 snaps 2026",
+      "why_not_higher": "Recent missed time limits",
+      "why_not_lower": "Full-game workloads 2026",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Plays through contact; 7/7 in 2026",
+      "why_not_higher": "Injury history",
+      "why_not_lower": "Returned to full form after injury",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "PFF overall #1 2026 (93.3) and #2 2025 (91.8); 20 TD / 6 INT",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://www.pff.com/grades/nfl/qb/2025"
+      ]
+    },
+    "SAC": {
+      "tier": "ELITE",
+      "claim": "73.0% completion, CPOE +9.0 (tied 1st among 17)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://www.pff.com/grades/nfl/qb/2025"
+      ]
+    },
+    "MAC": {
+      "tier": "ELITE",
+      "claim": "CPOE +9.0 and 73.0% completion; PFF passing #1",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://www.pff.com/grades/nfl/qb/2025"
+      ]
+    }
+  },
+  "proposed_ovr": 90,
+  "proposed_ovr_basis": "Output of the attribute build (no repo weights exist; core-blocking traits AWR/SAC/MAC elite, THP/DAC/TUP high-80s, INJ 72 and modest athletic traits keep it at the ELITE threshold, not 95+).",
+  "locked_target_ovr": null,
+  "input_dossier": "QB_REAUDIT_BG_01_A1",
+  "weaknesses": [
+    "Injury/availability history (INJ 72)",
+    "Below-average athleticism/rushing value",
+    "EPA/play 6th of 17 despite PFF #1"
+  ],
+  "madden_reference": [
+    {
+      "player": "Joe Burrow",
+      "ovr": null,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "note": "No Madden reference supplied; not looked up"
+    }
+  ],
+  "major_flags": [
+    "ELITE_TRAITS_PROPOSED: AWR 90, SAC 93, MAC 91",
+    "PROPOSED_OVR_90_ELITE_THRESHOLD"
+  ],
+  "locked_control_conflict": false
+}
+```
