@@ -1,0 +1,547 @@
+{
+  "task_id": "QB_REAUDIT_RATE_11",
+  "position": "QB",
+  "researched_at": "2026-11-02T19:18:21Z",
+  "sources": [
+    {
+      "name": "NFL.com 2026 week 9 schedule",
+      "url": "https://www.nfl.com/schedules/2026/reg9/",
+      "retrieved_at": "2026-11-02T18:15:34Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "nflverse roster 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "retrieved_at": "2026-11-02T19:18:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "nflverse player stats 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+      "retrieved_at": "2026-11-02T19:18:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "nflverse player stats 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+      "retrieved_at": "2026-11-02T19:18:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "nflverse snap counts 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-02T19:18:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "PFF QB grades 2026",
+      "url": "https://www.pff.com/grades/nfl/qb/2026",
+      "retrieved_at": "2026-11-02T19:18:10Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "PFF QB grades 2025",
+      "url": "https://www.pff.com/grades/nfl/qb/2025",
+      "retrieved_at": "2026-11-02T19:18:10Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "nflverse play-by-play 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+      "retrieved_at": "2026-11-02T19:32:59Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Jordan Love 2026: 8/8 team games, 313 att, aDOT 9.2, EPA/dropback +0.13, CPOE -1.1; deep (20+) 17.0% of att, 32.1% cmp, EPA +0.44; 10-19 yds 59.3% EPA +0.61; <10 yds 69.8%; hit 53.8% EPA +0.17 (n=39) vs clean 62.4%; sack rate 4.3%; 1 scrambles 6 yds, 5 designed runs 18 yds, 1 rush TD; 16 TD/6 INT; 1 fumbles lost"
+      ]
+    },
+    {
+      "name": "nflverse play-by-play 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+      "retrieved_at": "2026-11-02T19:32:59Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Jordan Love 2025: 15/17 team games, 441 att, aDOT 8.8, EPA/dropback +0.24, CPOE +5.5; deep (20+) 14.1% of att, 41.9% cmp, EPA +0.61; 10-19 yds 58.5% EPA +0.60; <10 yds 74.9%; hit 32.7% EPA -0.41 (n=49) vs clean 70.2%; sack rate 4.6%; 24 scrambles 183 yds, 10 designed runs 28 yds, 0 rush TD; 23 TD/6 INT; 2 fumbles lost"
+      ]
+    }
+  ],
+  "normalized": {
+    "performance_summary": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026 PFF overall (wk1-8): 74.5 (#15 of 36 qualifying QBs; #12 of the 17 in contention)",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jordan Love 2026 (8 of 8 team games): 61.5% cmp, 2246 yds, 16 TD / 6 INT, 7.2 Y/A, CPOE -1.1, passing EPA/dropback 0.142, total EPA/play 0.135 (#12 of 17)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "postseason_context": {
+      "status": "not_applicable",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "2026 postseason has not started (week 9 in progress)",
+          "source_url": "https://www.nfl.com/schedules/2026/reg9/",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [],
+      "not_applicable_reason": "Current season postseason not yet played."
+    },
+    "multi_year_trend": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026 PFF overall (wk1-8): 74.5 (#15 of 36 qualifying QBs; #12 of the 17 in contention)",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jordan Love 2025 PFF overall: 88.8 (#4)",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2025",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jordan Love 2025: 15 games, 3381 yds, 23 TD / 6 INT, EPA/dropback 0.24, CPOE +5.5",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "current_role": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love: nflverse roster_2026 week 8 GB status ACT; 523 offensive snaps 2026",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "roster_depth_chart": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love: nflverse roster_2026 week 8 GB status ACT; 523 offensive snaps 2026",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "injury_practice_status": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026: 8 of 8 team games played; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "No official practice reports fetched this run"
+      ]
+    },
+    "age_career_trajectory": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love: Jordan Love 2026 PFF overall (wk1-8): 74.5 (#15 of 36 qualifying QBs; #12 of the 17 in contention); Jordan Love 2025 PFF overall: 88.8 (#4)",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "team_system_context": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love plays for GB; week 9 in progress, 8 weeks complete",
+          "source_url": "https://www.nfl.com/schedules/2026/reg9/",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": []
+    },
+    "preseason_participation": {
+      "status": "not_applicable",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Regular season in week 9; preseason superseded",
+          "source_url": "https://www.nfl.com/schedules/2026/reg9/",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [],
+      "not_applicable_reason": "Regular season established."
+    },
+    "current_season_performance": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026 (8 of 8 team games): 61.5% cmp, 2246 yds, 16 TD / 6 INT, 7.2 Y/A, CPOE -1.1, passing EPA/dropback 0.142, total EPA/play 0.135 (#12 of 17)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "durability_availability": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026 games 8/8",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jordan Love 2025: 15 games, 3381 yds, 23 TD / 6 INT, EPA/dropback 0.24, CPOE +5.5",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "recent_performance_trend": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026 PFF overall (wk1-8): 74.5 (#15 of 36 qualifying QBs; #12 of the 17 in contention)",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "locked_control_comparisons": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "PFF 2026 within contention: Joe Burrow 93.3, Lamar Jackson 91.3, Dak Prescott 86.2, Brock Purdy 86.1, Josh Allen 84.4, Jared Goff 82.7, Drake Maye 81.3, Geno Smith 80.9, C.J. Stroud 81.0, Patrick Mahomes 76.2, Jordan Love 74.5, Trevor Lawrence 72.3, Matthew Stafford 66.8, Kirk Cousins 78.0, Caleb Williams 72.6, Justin Herbert 43.9, Sam Darnold 66.8",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [],
+      "compared_controls": [
+        "Joe Burrow",
+        "Lamar Jackson",
+        "Dak Prescott",
+        "Brock Purdy",
+        "Josh Allen",
+        "Jared Goff",
+        "Drake Maye",
+        "Geno Smith",
+        "C.J. Stroud",
+        "Patrick Mahomes",
+        "Jordan Love",
+        "Trevor Lawrence",
+        "Matthew Stafford",
+        "Kirk Cousins",
+        "Caleb Williams",
+        "Justin Herbert",
+        "Sam Darnold"
+      ]
+    },
+    "outside_control_comparisons": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "PFF 2026 within contention: Jordan Love 74.5, Trevor Lawrence 72.3, Matthew Stafford 66.8, Kirk Cousins 78.0, Caleb Williams 72.6, Justin Herbert 43.9, Sam Darnold 66.8",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "EPA/play 2026: Joe Burrow 0.232, Lamar Jackson 0.338, Dak Prescott 0.167, Brock Purdy 0.31, Josh Allen 0.291, Jared Goff 0.206, Drake Maye 0.231, Geno Smith 0.093, C.J. Stroud 0.141, Patrick Mahomes 0.134, Jordan Love 0.135, Trevor Lawrence 0.28, Matthew Stafford 0.055, Kirk Cousins 0.151, Caleb Williams 0.245, Justin Herbert -0.241, Sam Darnold -0.022",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jordan Love 2025 PFF overall: 88.8 (#4)",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2025",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [],
+      "compared_controls": [
+        "Joe Burrow",
+        "Lamar Jackson",
+        "Dak Prescott",
+        "Brock Purdy",
+        "Josh Allen",
+        "Jared Goff",
+        "Drake Maye",
+        "Geno Smith",
+        "C.J. Stroud",
+        "Patrick Mahomes",
+        "Jordan Love",
+        "Trevor Lawrence",
+        "Matthew Stafford",
+        "Kirk Cousins",
+        "Caleb Williams",
+        "Justin Herbert",
+        "Sam Darnold"
+      ]
+    },
+    "position_specific_traits": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026 (8 of 8 team games): 61.5% cmp, 2246 yds, 16 TD / 6 INT, 7.2 Y/A, CPOE -1.1, passing EPA/dropback 0.142, total EPA/play 0.135 (#12 of 17)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "passing_production_efficiency": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026 (8 of 8 team games): 61.5% cmp, 2246 yds, 16 TD / 6 INT, 7.2 Y/A, CPOE -1.1, passing EPA/dropback 0.142, total EPA/play 0.135 (#12 of 17)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "advanced_passing_metrics": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026 (8 of 8 team games): 61.5% cmp, 2246 yds, 16 TD / 6 INT, 7.2 Y/A, CPOE -1.1, passing EPA/dropback 0.142, total EPA/play 0.135 (#12 of 17)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "pressure_performance": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026 sacks 14 on 326 dropbacks (4.3%), fumbles lost 1",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "Pressure-split grades are PFF+ locked; sack counts used as proxy"
+      ]
+    },
+    "accuracy_by_depth": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026 (8 of 8 team games): 61.5% cmp, 2246 yds, 16 TD / 6 INT, 7.2 Y/A, CPOE -1.1, passing EPA/dropback 0.142, total EPA/play 0.135 (#12 of 17)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "No depth-split data available publicly"
+      ]
+    },
+    "turnover_worthy_mistakes": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026: 6 INT, 1 fumbles lost on 337 plays",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "TWP rates are PFF+ locked"
+      ]
+    },
+    "rushing_designed_run_value": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026 rushing: 11 car, 10 yds, 1 TD, rush EPA -0.8",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "scrambling_sack_avoidance": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Jordan Love 2026 sacks 14 on 326 dropbacks (4.3%), fumbles lost 1; Jordan Love 2026 rushing: 11 car, 10 yds, 1 TD, rush EPA -0.8",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    }
+  },
+  "conflicts": [],
+  "minimum_evidence_met": false,
+  "missing_evidence": [],
+  "calendar": {
+    "nfl_season": 2026,
+    "player_id": "jordan_love",
+    "team": "GB",
+    "valid_from": "2026-08-01T00:00:00Z",
+    "valid_until": "2027-03-01T00:00:00Z",
+    "preseason_start": "2026-08-07T00:00:00Z",
+    "regular_season_start": "2026-09-10T00:20:00Z",
+    "postseason_start": "2027-01-16T05:00:00Z",
+    "season_end": "2027-02-15T05:00:00Z",
+    "current_season_games_available": 8,
+    "current_season_games_played": 8,
+    "regular_season_games_scheduled": 17,
+    "regular_season_complete": false,
+    "postseason_complete": false,
+    "sources": [
+      {
+        "url": "https://media.nfl.com/news-and-releases/2026-nfl-regular-season-to-kick-off-wednesday--sept--9-in-seattl",
+        "retrieved_at": "2026-11-02T18:21:28Z",
+        "claims": [
+          "NFL release: the 2026 NFL regular season kicks off Wednesday, Sept. 9, 2026 at 8:20 PM ET in Seattle"
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/news/nfl-make-your-plan-to-watch-the-2026-nfl-preseason",
+        "retrieved_at": "2026-11-02T18:21:43Z",
+        "claims": [
+          "2026 preseason opens with the Hall of Fame Game Thursday, Aug. 6, 2026, 8 PM ET"
+        ]
+      },
+      {
+        "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+        "retrieved_at": "2026-11-02T18:21:16Z",
+        "claims": [
+          "Week 18 Jan 9-10, 2027; Wild Card Jan 16-18, 2027; Divisional Jan 23-24; Conference Championships Jan 31; Super Bowl LXI Sunday Feb 14, 2027 (season end)"
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/reg9/",
+        "retrieved_at": "2026-11-02T18:15:34Z",
+        "claims": [
+          "2026 regular season Week 9 in progress; 8 weeks completed; 17-game schedule"
+        ]
+      }
+    ]
+  },
+  "calendar_web_search_observed": true
+}

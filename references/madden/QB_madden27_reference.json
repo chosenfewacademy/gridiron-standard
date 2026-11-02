@@ -288,6 +288,32 @@
       "team": "Kansas City Chiefs",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Jordan Love": {
+      "ea_id": 20915,
+      "OVR": 86,
+      "SPD": 85,
+      "ACC": 86,
+      "AGI": 77,
+      "COD": 71,
+      "STR": 62,
+      "AWR": 85,
+      "THP": 94,
+      "SAC": 91,
+      "MAC": 90,
+      "DAC": 86,
+      "RUN": 89,
+      "TUP": 87,
+      "PAC": 85,
+      "BSK": 77,
+      "CAR": 67,
+      "JMP": 85,
+      "INJ": 89,
+      "STA": 90,
+      "TGH": 89,
+      "team": "Green Bay Packers",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
