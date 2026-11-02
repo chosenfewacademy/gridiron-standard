@@ -340,6 +340,32 @@
       "team": "Jacksonville Jaguars",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Matthew Stafford": {
+      "ea_id": 20051,
+      "OVR": 98,
+      "SPD": 77,
+      "ACC": 73,
+      "AGI": 70,
+      "COD": 66,
+      "STR": 66,
+      "AWR": 97,
+      "THP": 95,
+      "SAC": 99,
+      "MAC": 97,
+      "DAC": 94,
+      "RUN": 90,
+      "TUP": 84,
+      "PAC": 90,
+      "BSK": 73,
+      "CAR": 62,
+      "JMP": 75,
+      "INJ": 88,
+      "STA": 90,
+      "TGH": 98,
+      "team": "Los Angeles Rams",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
