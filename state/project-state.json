@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -107,21 +107,26 @@
         "QB_REAUDIT_BG_16_A1",
         "QB_REAUDIT_BG_17_A1",
         "QB_REAUDIT_RATE_01_A1",
-        "QB_REAUDIT_RATE_02_A1"
+        "QB_REAUDIT_RATE_02_A1",
+        "QB_REAUDIT_RATE_03_A1"
       ],
       "current_stage": "player_rating",
-      "current_task": "QB_REAUDIT_RATE_02",
-      "updated_at": "2026-11-02T20:43:02.506Z",
+      "current_task": "QB_REAUDIT_RATE_03",
+      "updated_at": "2026-11-02T20:44:30.883Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_RATE_02",
+        "task_id": "QB_REAUDIT_RATE_03",
         "status": "FLAGGED",
         "errors": [],
         "flags": [
-          "LIMITED_SAMPLE_RATING: 5 of 8 games",
-          "ELITE_TRAITS_PROPOSED: SPD 91, ACC 90, AGI 90"
+          "GRADE_VS_EFFICIENCY_SPLIT: PFF #3 vs EPA/play #9",
+          "ELITE_TRAIT_PROPOSED: STA 90"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "QB_REAUDIT_RATE_03",
+        "audit_id": "QB_REAUDIT_RATE_03_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",

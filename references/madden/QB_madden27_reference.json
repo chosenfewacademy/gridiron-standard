@@ -80,6 +80,32 @@
       "team": "Baltimore Ravens",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Dak Prescott": {
+      "ea_id": 17567,
+      "OVR": 91,
+      "SPD": 84,
+      "ACC": 83,
+      "AGI": 81,
+      "COD": 79,
+      "STR": 75,
+      "AWR": 90,
+      "THP": 93,
+      "SAC": 93,
+      "MAC": 90,
+      "DAC": 92,
+      "RUN": 94,
+      "TUP": 91,
+      "PAC": 87,
+      "BSK": 87,
+      "CAR": 68,
+      "JMP": 79,
+      "INJ": 89,
+      "STA": 96,
+      "TGH": 97,
+      "team": "Dallas Cowboys",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
