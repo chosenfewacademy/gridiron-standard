@@ -193,4 +193,6 @@ the run and deep-vs-short splits versus pocket precision) and records a one-line
 rating at the position (correlation of mean-centred ratings >= 0.95, or mean absolute difference <= 3) and
 flags STYLE_PROFILE_TOO_SIMILAR for review. Approved ratings are not edited for style; style adjustments to
 them happen in the head-to-heads.
+Rating revisions (commissioner card t30s3, 2026-11-02): an approved player_rating may be superseded only by an add-only revision record `<TASK>_A<N>` (`npm run reaudit:revise`). The earlier record stays as immutable history; the revision passes the same evidence gate, validator, high-trait tiers and unique playing-style rule against the effective rating of every other player at the position, and its approval is appended with `supersedes`. Superseded records are excluded from later style checks.
+
 All v1.0.0 text, Amendment v1.1 and Addendum v1.1.1 above remain in force unchanged.

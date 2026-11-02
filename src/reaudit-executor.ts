@@ -113,8 +113,10 @@ export async function executeReauditStep(pos: string, deps: ReauditDeps = {}): P
       // Unique playing-style rule: compare against every already-approved rating at this position.
       const approved = new Set((item.approvals ?? []).map((a: any) => a.audit_id));
       const dir = path.join(root, "audits/league", pos);
-      parsed.style_similarity = fs.readdirSync(dir).filter(f => f.endsWith(".json")).map(f => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")))
-        .filter(a => a.task_type === "player_rating" && approved.has(a.audit_id) && a.task_id !== task.task_id && a.ratings)
+      const recs = fs.readdirSync(dir).filter(f => f.endsWith(".json")).map(f => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")))
+        .filter(a => a.task_type === "player_rating" && approved.has(a.audit_id) && a.task_id !== task.task_id && a.ratings);
+      const superseded = new Set(recs.map(a => a.supersedes).filter(Boolean)); // add-only revisions (rating-revision.ts)
+      parsed.style_similarity = recs.filter(a => !superseded.has(a.audit_id))
         .map(a => ({ player: (a.players ?? [a.player_id])[0], audit_id: a.audit_id, ...styleSimilarity(parsed.ratings, a.ratings) }));
       const close = parsed.style_similarity.filter((x: any) => x.too_similar);
       if (close.length) parsed.major_flags = [...new Set([...(parsed.major_flags ?? []), ...close.map((x: any) => `STYLE_PROFILE_TOO_SIMILAR:${x.player}(corr ${x.corr}, mad ${x.mad})`)])];

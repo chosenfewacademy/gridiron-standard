@@ -7,6 +7,7 @@ import { applyFullAuditEvidenceGate, calendarSubject, isPositionWideTask } from 
 import { planReaudit, executeReauditStep } from "../src/reaudit-executor.js";
 import { checkReauditPool } from "../src/coverage-gate.js";
 import { styleSimilarity, stageOutputErrors } from "../src/stage-engine.js";
+import { effectiveRatings } from "../src/rating-revision.js";
 
 const J = (o: any) => JSON.stringify(o, null, 2);
 const NOW = "2026-11-02T13:30:00-05:00";
@@ -174,6 +175,20 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     assert.equal(styleSimilarity(a, { SPD: 91, ACC: 90, AWR: 84, SAC: 87, MAC: 82 }).too_similar, false);
     assert.match(fs.readFileSync("AGENTS.md", "utf8"), /Unique playing-style rule/);
     assert.equal(JSON.parse(fs.readFileSync("config/methodology.json", "utf8")).audit_order.style_rule.applies_to, "ALL_POSITIONS_ALL_RATINGS");
+  });
+  test("rating revision: superseded approved record leaves the effective set; approval with supersedes passes the guard", () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "rev-")); fs.mkdirSync(path.join(root, "audits/league/QB"), { recursive: true });
+    const w = (o: any) => fs.writeFileSync(path.join(root, "audits/league/QB", o.audit_id + ".json"), J(o));
+    w({ audit_id: "QB_REAUDIT_RATE_06_A1", task_id: "QB_REAUDIT_RATE_06", task_type: "player_rating", ratings: { SPD: 70 } });
+    w({ audit_id: "QB_REAUDIT_RATE_06_A2", task_id: "QB_REAUDIT_RATE_06", task_type: "player_rating", ratings: { SPD: 60 }, supersedes: "QB_REAUDIT_RATE_06_A1" });
+    const ap = (id: string) => ({ decision: "APPROVED", task_id: "QB_REAUDIT_RATE_06", audit_id: id, approved_by: "C", approved_at: "t" });
+    const it = { approvals: [ap("QB_REAUDIT_RATE_06_A1"), ap("QB_REAUDIT_RATE_06_A2")] };
+    assert.deepEqual(effectiveRatings("QB", it, root).map((a: any) => a.audit_id), ["QB_REAUDIT_RATE_06_A2"]);
+    assert.deepEqual(effectiveRatings("QB", { approvals: [ap("QB_REAUDIT_RATE_06_A1")] }, root).map((a: any) => a.audit_id), ["QB_REAUDIT_RATE_06_A1"]);
+    const a = withItem({ status: "IN_PROGRESS", started_at: "s", completed_tasks: ["QB_REAUDIT_RATE_06"], audit_ids: ["QB_REAUDIT_RATE_06_A1"], approvals: [ap("QB_REAUDIT_RATE_06_A1")] });
+    const b = withItem({ status: "IN_PROGRESS", started_at: "s", completed_tasks: ["QB_REAUDIT_RATE_06"], audit_ids: ["QB_REAUDIT_RATE_06_A1", "QB_REAUDIT_RATE_06_A2"],
+      approvals: [ap("QB_REAUDIT_RATE_06_A1"), { ...ap("QB_REAUDIT_RATE_06_A2"), supersedes: "QB_REAUDIT_RATE_06_A1" }] });
+    assert.equal(stateChangeAllowed(J(a), J(b)).ok, true);
   });
   for (const [n, f] of asyncTests) { await f(); console.log(`PASS ${n}`); } // sequential: executor chdirs
 }
