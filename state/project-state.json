@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -111,21 +111,27 @@
         "QB_REAUDIT_RATE_01_A1",
         "QB_REAUDIT_RATE_02_A1",
         "QB_REAUDIT_RATE_03_A1",
-        "QB_REAUDIT_RATE_04_A1"
+        "QB_REAUDIT_RATE_04_A1",
+        "QB_REAUDIT_RATE_05_A1"
       ],
       "current_stage": "player_rating",
-      "current_task": "QB_REAUDIT_RATE_04",
-      "updated_at": "2026-11-02T22:59:17.766Z",
+      "current_task": "QB_REAUDIT_RATE_05",
+      "updated_at": "2026-11-02T23:00:43.437Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_RATE_04",
+        "task_id": "QB_REAUDIT_RATE_05",
         "status": "FLAGGED",
         "errors": [],
         "flags": [
-          "SCHEME_EFFICIENCY_ATTRIBUTION: elite EPA partly scheme-aided",
-          "AVAILABILITY_RISK: 16 games across two seasons"
+          "ELITE_TRAIT_PROPOSED: STR 90",
+          "LARGE_MADDEN_GAP: OVR 88 vs Madden 99 (reference only)",
+          "SEASON_SPLIT: 2025 aDOT #29 vs 2026 #5"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "QB_REAUDIT_RATE_05",
+        "audit_id": "QB_REAUDIT_RATE_05_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",

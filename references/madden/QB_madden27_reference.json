@@ -132,6 +132,32 @@
       "team": "San Francisco 49ers",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Josh Allen": {
+      "ea_id": 13197,
+      "OVR": 99,
+      "SPD": 89,
+      "ACC": 90,
+      "AGI": 84,
+      "COD": 81,
+      "STR": 81,
+      "AWR": 96,
+      "THP": 98,
+      "SAC": 97,
+      "MAC": 91,
+      "DAC": 95,
+      "RUN": 98,
+      "TUP": 94,
+      "PAC": 97,
+      "BSK": 94,
+      "CAR": 63,
+      "JMP": 92,
+      "INJ": 99,
+      "STA": 98,
+      "TGH": 98,
+      "team": "Buffalo Bills",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
