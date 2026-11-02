@@ -39,5 +39,102 @@
     "LG_PAIR_01",
     "LG_PAIR_02"
   ],
-  "pending_reaudit_queue": []
+  "pending_reaudit_queue": [
+    {
+      "type": "TOP10_REAUDIT",
+      "position": "QB",
+      "task": {
+        "position": "QB",
+        "stage": "top10_reaudit"
+      },
+      "status": "QUEUED_NOT_STARTED",
+      "position_state_at_trigger": "LOCKED",
+      "pool_file": "data/candidate-pools/QB.reaudit.json",
+      "baseline_file": "data/baselines/QB.json",
+      "requested_by": "PhiXCrypto (commissioner)",
+      "requested_at": "2026-11-02T04:38:22.545Z",
+      "trigger": "COMMISSIONER_EXPLICIT",
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+    },
+    {
+      "type": "TOP10_REAUDIT",
+      "position": "RB",
+      "task": {
+        "position": "RB",
+        "stage": "top10_reaudit"
+      },
+      "status": "QUEUED_NOT_STARTED",
+      "position_state_at_trigger": "LOCKED",
+      "pool_file": "data/candidate-pools/RB.reaudit.json",
+      "baseline_file": "data/baselines/RB.json",
+      "requested_by": "PhiXCrypto (commissioner)",
+      "requested_at": "2026-11-02T04:38:22.561Z",
+      "trigger": "COMMISSIONER_EXPLICIT",
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+    },
+    {
+      "type": "TOP10_REAUDIT",
+      "position": "WR",
+      "task": {
+        "position": "WR",
+        "stage": "top10_reaudit"
+      },
+      "status": "QUEUED_NOT_STARTED",
+      "position_state_at_trigger": "LOCKED",
+      "pool_file": "data/candidate-pools/WR.reaudit.json",
+      "baseline_file": "data/baselines/WR.json",
+      "requested_by": "PhiXCrypto (commissioner)",
+      "requested_at": "2026-11-02T04:38:22.574Z",
+      "trigger": "COMMISSIONER_EXPLICIT",
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+    },
+    {
+      "type": "TOP10_REAUDIT",
+      "position": "TE",
+      "task": {
+        "position": "TE",
+        "stage": "top10_reaudit"
+      },
+      "status": "QUEUED_NOT_STARTED",
+      "position_state_at_trigger": "LOCKED",
+      "pool_file": "data/candidate-pools/TE.reaudit.json",
+      "baseline_file": "data/baselines/TE.json",
+      "requested_by": "PhiXCrypto (commissioner)",
+      "requested_at": "2026-11-02T04:38:22.585Z",
+      "trigger": "COMMISSIONER_EXPLICIT",
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+    },
+    {
+      "type": "TOP10_REAUDIT",
+      "position": "LT",
+      "task": {
+        "position": "LT",
+        "stage": "top10_reaudit"
+      },
+      "status": "QUEUED_NOT_STARTED",
+      "position_state_at_trigger": "LOCKED",
+      "pool_file": "data/candidate-pools/LT.reaudit.json",
+      "baseline_file": "data/baselines/LT.json",
+      "requested_by": "PhiXCrypto (commissioner)",
+      "requested_at": "2026-11-02T04:38:22.594Z",
+      "trigger": "COMMISSIONER_EXPLICIT",
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+    },
+    {
+      "type": "TOP10_REAUDIT",
+      "position": "LG",
+      "task": {
+        "position": "LG",
+        "stage": "top10_reaudit"
+      },
+      "status": "QUEUED_NOT_STARTED",
+      "position_state_at_trigger": "IN_PROGRESS",
+      "pool_file": "data/candidate-pools/LG.reaudit.json",
+      "baseline_file": null,
+      "requested_by": "PhiXCrypto (commissioner)",
+      "requested_at": "2026-11-02T04:38:22.602Z",
+      "trigger": "COMMISSIONER_EXPLICIT",
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+    }
+  ]
 }
