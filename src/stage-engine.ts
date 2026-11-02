@@ -109,7 +109,7 @@ export function planNext(state: ProjectState, opts: EngineOptions = {}): StagePl
   const withControls = (t: Record<string, unknown>) => controls ? { ...t, baseline_controls: controls } : t;
 
   if (!legacy && !prov) throw new Error(`${pos}: ${I.provisional} is completed but its APPROVED audit record is missing.`);
-  const pairs = legacy ?? generatePairs(pos, provTop, firstOut);
+  const pairs = legacy ?? generatePairs((ra ? `${pos}_REAUDIT` : pos) as Position, provTop, firstOut);
   const pair = pairs.find(p => !done.has(p.task_id));
   if (pair) return mk("pair_audits", withControls({ type: "pair_audit", ...pair }));
 

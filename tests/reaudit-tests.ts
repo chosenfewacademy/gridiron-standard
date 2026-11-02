@@ -76,7 +76,8 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
   test("engine: re-audit plans a LOCKED position without mutating state", () => {
     const st = JSON.parse(fs.readFileSync("state/project-state.json", "utf8")); const before = J(st);
     const plan = planReaudit(st, "QB");
-    assert.equal(plan.task.task_id, "QB_REAUDIT_PROVISIONAL_TOP10"); assert.equal((plan.task as any).audit_type, "TOP10_REAUDIT");
+    assert.match(String(plan.task.task_id), /^QB_REAUDIT_/); assert.equal((plan.task as any).audit_type, "TOP10_REAUDIT");
+    if (plan.stage === "pair_audits") { assert.equal((plan.task as any).baseline_controls.locked_baseline.top_10.length, 10); }
     assert.equal(((plan.task as any).baseline_controls.top_10).length, 10); assert.equal(J(st), before);
   });
   test("executor: re-audit step records only guard-allowed queue fields", async () => {
