@@ -52,7 +52,7 @@ export function positionsOnlyAddPending(a, b) {
 // REAUDIT_TRANSITIONS (never to COMPLETED — completion changes baselines and needs commissioner approval);
 // completed_tasks/audit_ids may only grow by append. Locks, positions, current_* pointers etc. remain covered elsewhere.
 export const REAUDIT_MUTABLE = ["status", "started_at", "updated_at", "current_stage", "current_task", "completed_tasks", "audit_ids", "last_result", "awaiting"];
-export const REAUDIT_TRANSITIONS = { QUEUED_NOT_STARTED: ["QUEUED_NOT_STARTED", "IN_PROGRESS"], IN_PROGRESS: ["IN_PROGRESS", "AWAITING_REVIEW_MAJOR"], AWAITING_REVIEW_MAJOR: ["AWAITING_REVIEW_MAJOR", "IN_PROGRESS"] };
+export const REAUDIT_TRANSITIONS = { QUEUED_NOT_STARTED: ["QUEUED_NOT_STARTED", "IN_PROGRESS", "AWAITING_REVIEW_MAJOR"], IN_PROGRESS: ["IN_PROGRESS", "AWAITING_REVIEW_MAJOR"], AWAITING_REVIEW_MAJOR: ["AWAITING_REVIEW_MAJOR", "IN_PROGRESS"] };
 const appendOnly = (x, y) => { const a = x ?? [], b = y ?? []; return Array.isArray(b) && Array.isArray(a) && b.length >= a.length && a.every((v, i) => canon(v) === canon(b[i])); };
 export function reauditItemUpdate(x, y) {
   if (canon(x) === canon(y)) return { ok: true, changed: false };

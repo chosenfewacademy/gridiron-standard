@@ -61,6 +61,21 @@
       "url": "https://www.nfl.com/schedules/2026/reg9/",
       "retrieved_at": "2026-11-02T18:15:34Z",
       "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://media.nfl.com/news-and-releases/2026-nfl-regular-season-to-kick-off-wednesday--sept--9-in-seattl",
+      "retrieved_at": "2026-11-02T18:21:28Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://www.nfl.com/news/nfl-make-your-plan-to-watch-the-2026-nfl-preseason",
+      "retrieved_at": "2026-11-02T18:21:43Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+      "retrieved_at": "2026-11-02T18:21:16Z",
+      "method": "WEB_FETCH"
     }
   ],
   "attestation": "All listed queries and retrievals were performed live for this task; no EA ratings used as evidence."

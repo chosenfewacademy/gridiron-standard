@@ -29,6 +29,7 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     assert.equal(stateChangeAllowed(J(base), J(started)).ok, true);
     const waiting = withItem({ ...started.pending_reaudit_queue[0], status: "AWAITING_REVIEW_MAJOR", audit_ids: ["A1"], last_result: { status: "FLAGGED" }, awaiting: { reason: "REVIEW_MAJOR" } });
     assert.equal(stateChangeAllowed(J(started), J(waiting)).ok, true);
+    assert.equal(stateChangeAllowed(J(base), J(waiting)).ok, true, "start-and-stop within one push range");
   });
   test("guard: re-audit exception rejects completion, identity changes, removals, history rewrites and other state", () => {
     const started = withItem({ status: "IN_PROGRESS", started_at: "s", completed_tasks: ["A"], audit_ids: ["A1"] });
@@ -51,7 +52,12 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     const root = fs.mkdtempSync(path.join(os.tmpdir(), "reaudit-"));
     for (const f of ["state/project-state.json", "state/locks.json", "data/baselines/QB.json", "data/candidate-pools/QB.reaudit.json", "config/position-metrics.json", "config/methodology.json", "data/players/registry.json"]) {
       fs.mkdirSync(path.dirname(path.join(root, f)), { recursive: true }); if (fs.existsSync(f)) fs.copyFileSync(f, path.join(root, f)); }
-    const before = fs.readFileSync(path.join(root, "state/project-state.json"), "utf8");
+    const sp = path.join(root, "state/project-state.json"); const s0 = JSON.parse(fs.readFileSync(sp, "utf8"));
+    const PROGRESS = ["status", "started_at", "updated_at", "current_stage", "current_task", "completed_tasks", "audit_ids", "last_result", "awaiting"];
+    s0.pending_reaudit_queue = s0.pending_reaudit_queue.map((x: any) => x.position !== "QB" ? x :
+      { ...Object.fromEntries(Object.entries(x).filter(([k]) => !PROGRESS.includes(k))), status: "QUEUED_NOT_STARTED" });
+    fs.writeFileSync(sp, J(s0) + "\n");
+    const before = fs.readFileSync(sp, "utf8");
     const r: any = await executeReauditStep("QB", { root, now: () => NOW, research: { gather: async (t: any) => ({ task_id: t.task_id, minimum_evidence_met: false, missing_evidence: ["CALENDAR_UNRESOLVED"], sources: [] }) } });
     assert.equal(r.status, "INSUFFICIENT_EVIDENCE");
     const after = fs.readFileSync(path.join(root, "state/project-state.json"), "utf8");

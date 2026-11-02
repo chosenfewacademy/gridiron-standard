@@ -49,14 +49,38 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "QUEUED_NOT_STARTED",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
       "requested_by": "PhiXCrypto (commissioner)",
       "requested_at": "2026-11-02T04:38:22.545Z",
       "trigger": "COMMISSIONER_EXPLICIT",
-      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
+      "started_at": "2026-11-02T18:26:15.265Z",
+      "completed_tasks": [],
+      "audit_ids": [
+        "QB_REAUDIT_PROVISIONAL_TOP10_A1"
+      ],
+      "current_stage": "provisional_top_10",
+      "current_task": "QB_REAUDIT_PROVISIONAL_TOP10",
+      "updated_at": "2026-11-02T18:26:15.271Z",
+      "last_result": {
+        "task_id": "QB_REAUDIT_PROVISIONAL_TOP10",
+        "status": "FLAGGED",
+        "errors": [],
+        "flags": [
+          "LOCKED_PLAYER_REMOVED: Matthew Stafford (locked #1)",
+          "AVAILABILITY: Lamar Jackson 5 games",
+          "RANK10_CONTESTED",
+          "LOCKED_CONTROL_CONFLICT"
+        ]
+      },
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "QB_REAUDIT_PROVISIONAL_TOP10",
+        "audit_id": "QB_REAUDIT_PROVISIONAL_TOP10_A1"
+      }
     },
     {
       "type": "TOP10_REAUDIT",
