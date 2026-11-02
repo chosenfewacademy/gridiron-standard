@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -133,22 +133,26 @@
         "QB_REAUDIT_RATE_12_A1",
         "QB_REAUDIT_RATE_13_A1",
         "QB_REAUDIT_RATE_14_A1",
-        "QB_REAUDIT_RATE_15_A1"
+        "QB_REAUDIT_RATE_15_A1",
+        "QB_REAUDIT_RATE_16_A1"
       ],
       "current_stage": "player_rating",
-      "current_task": "QB_REAUDIT_RATE_15",
-      "updated_at": "2026-11-02T23:35:32.949Z",
+      "current_task": "QB_REAUDIT_RATE_16",
+      "updated_at": "2026-11-02T23:35:47.137Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_RATE_15",
+        "task_id": "QB_REAUDIT_RATE_16",
         "status": "FLAGGED",
         "errors": [],
         "flags": [
           "AUTO_RUN_T30U: attributes from fixed percentile mapping; adjust in head-to-heads",
-          "LARGE_MADDEN_GAP: OVR 82 vs Madden 94 (reference only)",
-          "AVAILABILITY_RISK: 4/7 games 2026"
+          "SEASON_SPLIT: PFF 78.0 (2025) vs 43.9 (2026)"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "QB_REAUDIT_RATE_16",
+        "audit_id": "QB_REAUDIT_RATE_16_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",

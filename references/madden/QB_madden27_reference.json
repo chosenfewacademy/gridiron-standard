@@ -418,6 +418,32 @@
       "team": "Chicago Bears",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Justin Herbert": {
+      "ea_id": 21034,
+      "OVR": 82,
+      "SPD": 88,
+      "ACC": 87,
+      "AGI": 80,
+      "COD": 72,
+      "STR": 71,
+      "AWR": 75,
+      "THP": 96,
+      "SAC": 92,
+      "MAC": 83,
+      "DAC": 79,
+      "RUN": 92,
+      "TUP": 87,
+      "PAC": 89,
+      "BSK": 82,
+      "CAR": 68,
+      "JMP": 84,
+      "INJ": 92,
+      "STA": 94,
+      "TGH": 95,
+      "team": "Los Angeles Chargers",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
