@@ -1,0 +1,13 @@
+{
+  "architecture_version": "1.1.0",
+  "methodology_version": "1.1.0",
+  "base_version": "1.0.0",
+  "approved_at": "2026-11-01",
+  "approved_by": "commissioner",
+  "amendments": [
+    "A1 Grok Bot analyst",
+    "A2 declared-provenance freshness",
+    "A3 per-position inputs"
+  ],
+  "note": "state/project-state.json and locked baselines keep 1.0.0 (protected history)."
+}

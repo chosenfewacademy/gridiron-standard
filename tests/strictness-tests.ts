@@ -95,17 +95,22 @@ export async function runStrictnessTests(test: T) {
 }
 
 export function runPositionArchitectureTests(test: (n: string, f: () => void) => void) {
-  test("position metrics cover all 20 buckets, are PROPOSED, and never cite EA", () => {
+  test("position metrics cover all 20 buckets, are active v1.1, and never cite EA", () => {
     const cfg = JSON.parse(fs.readFileSync("config/position-metrics.json", "utf8"));
     const order = "QB RB WR TE LT LG C RG RT REDGE LEDGE DT MIKE WILL SAM CB FS SS K P".split(" ");
-    assert.deepEqual(Object.keys(cfg.positions), order); assert.equal(cfg.status, "PROPOSED_METHODOLOGY_V1_1_EXTENSION"); assert.equal(cfg.effective, false);
+    assert.deepEqual(Object.keys(cfg.positions), order); assert.equal(cfg.status, "ACTIVE_METHODOLOGY_V1_1"); assert.equal(cfg.effective, true);
     assert(!/ea\.com/i.test(JSON.stringify(cfg)));
     for (const b of order) assert(fs.existsSync(`docs/positions/${b}.md`));
   });
-  test("AGENTS.md v1.0 governing text is preserved; amendment is pending only", () => {
+  test("AGENTS.md keeps v1.0 text intact and records enacted v1.1 amendment", () => {
     const s = fs.readFileSync("AGENTS.md", "utf8");
     assert.match(s, /^# Gridiron Standard 27\n\nArchitecture Version: 1\.0\.0\nMethodology Version: 1\.0\.0/);
     assert.match(s, /Codex is the analyst\. The application is the commissioner\./);
-    assert.match(s, /PENDING AMENDMENT \(not in effect/);
+    assert.match(s, /## Amendment v1\.1 \(ENACTED\)\n\nArchitecture Version: 1\.1\.0\nMethodology Version: 1\.1\.0\nApproved: 2026-11-01 by the commissioner/);
+    assert.match(s, /Grok Bot is the analyst\. The application is the commissioner\./);
+    assert(!/PENDING AMENDMENT/.test(s));
+    for (const rule of ["Maximum automatic revision attempts: 3.", "Default mode: REVIEW_MAJOR", "A locked positional Top 10 baseline is immutable.",
+      "EA ratings are controls only, never authoritative truth."]) assert(s.includes(rule), rule);
+    const m = JSON.parse(fs.readFileSync("config/methodology.json", "utf8")); assert.equal(m.methodology_version, "1.1.0");
   });
 }

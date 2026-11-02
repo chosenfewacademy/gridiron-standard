@@ -1,10 +1,10 @@
 {
-  "status": "PROPOSED_METHODOLOGY_V1_1_EXTENSION",
-  "approval": "PENDING_COMMISSIONER_APPROVAL",
-  "effective": false,
+  "status": "ACTIVE_METHODOLOGY_V1_1",
+  "approval": "APPROVED_2026-11-01_COMMISSIONER",
+  "effective": true,
   "governing_methodology": "1.0.0",
   "notes": [
-    "Not read by the evidence gate; Methodology v1.0 requirements are unchanged.",
+    "Attached to tasks as research/analysis inputs (AGENTS.md A3). Does not relax the evidence gate; v1.0 categories still required.",
     "PFF grades are cited evidence only (with URL + retrieved_at), never sole basis; EA ratings are never evidence.",
     "Attributes listed are those the evidence INFORMS; no Madden OVR formula or weights are encoded.",
     "Locked positions' baselines are unaffected."

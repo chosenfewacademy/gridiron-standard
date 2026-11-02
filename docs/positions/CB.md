@@ -1,6 +1,6 @@
-# CB — rating inputs (PROPOSED Methodology v1.1 extension)
+# CB — rating inputs (Methodology v1.1 — ACTIVE)
 
-> **Status: PROPOSED — pending commissioner approval. Not in effect.** Methodology v1.0 and the evidence gate are unchanged.
+> **Status: ACTIVE — approved 2026-11-01 by the commissioner (AGENTS.md A3).** Inputs add guidance; the v1.0 evidence gate is not relaxed.
 > Current bucket status: **PENDING**
 
 Outside vs slot alignment documented; slot-heavy players flagged.

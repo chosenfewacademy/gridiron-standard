@@ -41,6 +41,12 @@ try {
     ok: state.review_mode === "REVIEW_MAJOR",
     detail: String(state.review_mode)
   });
+  const methodology = readJson("config/methodology.json");
+  checks.push({
+    name: "methodology_amendment",
+    ok: methodology.base_version === state.architecture_version && methodology.methodology_version === "1.1.0",
+    detail: `base ${methodology.base_version} + amendment ${methodology.methodology_version}`
+  });
 } catch (error) {
   checks.push({
     name: "project_state_parse",

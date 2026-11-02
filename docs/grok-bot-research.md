@@ -42,7 +42,7 @@ unchanged Full Audit gate then decides. Missing evidence.json stops the run with
 2. Resolve the season calendar (calendar_queries) and record CALENDAR queries.
 3. For each required category (`requiredEvidenceCategories` in src/evidence-gate.ts) research in ≤2-category
    batches using config/grok-bot-query-templates.json and the bucket's metrics in config/position-metrics.json
-   (PROPOSED v1.1 – use as research guidance only until approved).
+   (Methodology v1.1, active).
 4. Prefer tier-1 sources; cite PFF as tier-2 evidence with URL; never EA ratings.
 5. Free deterministic data: `npm run nflverse:fetch -- <snap_counts|stats_player_week|stats_player_reg|roster> <season>`
    → `research-inbox/_cache/` (+ `.provenance.json`, method DETERMINISTIC_HELPER). Note: nflverse snap counts use

@@ -119,13 +119,31 @@ Do not merge these buckets automatically.
 
 ---
 
-## PENDING AMENDMENT (not in effect — awaiting commissioner approval)
+## Amendment v1.1 (ENACTED)
 
-The text above (Architecture v1.0.0 / Methodology v1.0.0) is unchanged and governing.
+Architecture Version: 1.1.0
+Methodology Version: 1.1.0
+Approved: 2026-11-01 by the commissioner (project owner).
+Supersedes only the items below; all v1.0.0 text above remains in force and is preserved as history.
+Locked baselines, approved cards and audit records created under v1.0.0 keep their recorded version.
 
-Proposed:
-1. Analyst wording: "Grok Bot is the analyst. The application is the commissioner." Codex/OpenAI remain
-   optional transports. (Implemented as the default file transport without changing any rule above.)
-2. Methodology v1.1 extension: per-position rating inputs in docs/positions/*.md and
-   config/position-metrics.json (PFF grades as cited evidence, position stats, usage/snap metrics,
-   on-field impact). Not read by the evidence gate until approved.
+### A1. Analyst (amends Governing Principle wording)
+Grok Bot is the analyst. The application is the commissioner.
+Codex/OpenAI transports remain optional (GRIDIRON_RESEARCH_TRANSPORT=CODEX) and must never be run
+for paid research without explicit authorization. Analyst limits are unchanged: Grok Bot may analyze
+evidence and propose ratings; it may not bypass locks or change workflow state directly.
+
+### A2. Fresh-research proof for GROK_BOT_FILE_TRANSPORT
+Freshness is proven by declared provenance (research-inbox/<POS>/<TASK>/provenance.json):
+every query with execution time, every retrieved URL with retrieval time, exact match with every
+evidence source and item, all timestamps fresh, fixed attestation. Self-declared observation flags
+and minimum_evidence_met are ignored. The Full Audit evidence gate is otherwise unchanged.
+Every 90+/95+/97+/99 trait in a Grok Bot audit must carry tiered cited evidence (high_trait_evidence).
+
+### A3. Methodology v1.1 per-position rating inputs
+config/position-metrics.json and docs/positions/*.md define, for every exact bucket, the rating
+inputs: PFF grades (overall + relevant facets) as cited evidence only, position stats, usage/snap
+metrics, on-field impact metrics, and the Madden attributes they inform. They are attached to every
+task as research/analysis inputs. They add guidance; they do not remove or relax any evidence
+category, gate, threshold, scarcity rule or retry ceiling. EA ratings remain controls only; no
+Madden OVR formula is encoded.
