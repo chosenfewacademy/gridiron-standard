@@ -19,6 +19,7 @@
     "research:usage-summary": "node scripts/run-with-fallback.mjs src/workflow-usage-summary.ts src/workflow-usage-summary.js",
     "evidence:resume": "node scripts/run-with-fallback.mjs src/resume-evidence.ts src/resume-evidence.js",
     "evidence:import": "tsx src/evidence-import.ts",
+    "nflverse:fetch": "node scripts/nflverse-fetch.mjs",
     "evidence:stafford-gate-sim": "node scripts/run-with-fallback.mjs src/stafford-gate-simulation.ts src/stafford-gate-simulation.js",
     "roster:refresh": "tsx src/refresh-roster.ts",
     "team:audit": "tsx src/index.ts \"audit team\"",

@@ -1,0 +1,877 @@
+{
+  "status": "PROPOSED_METHODOLOGY_V1_1_EXTENSION",
+  "approval": "PENDING_COMMISSIONER_APPROVAL",
+  "effective": false,
+  "governing_methodology": "1.0.0",
+  "notes": [
+    "Not read by the evidence gate; Methodology v1.0 requirements are unchanged.",
+    "PFF grades are cited evidence only (with URL + retrieved_at), never sole basis; EA ratings are never evidence.",
+    "Attributes listed are those the evidence INFORMS; no Madden OVR formula or weights are encoded.",
+    "Locked positions' baselines are unaffected."
+  ],
+  "common_inputs": {
+    "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+    "context": [
+      "injury/availability",
+      "age/career trajectory",
+      "team/scheme context",
+      "multi-year trend"
+    ]
+  },
+  "positions": {
+    "QB": {
+      "order": 1,
+      "group": "Offense",
+      "current_status": "LOCKED",
+      "pff_cited_inputs": [
+        "overall",
+        "passing",
+        "rushing",
+        "grade under pressure",
+        "grade from clean pocket",
+        "big-time throw %",
+        "turnover-worthy play %"
+      ],
+      "position_stats": [
+        "completion %, yards, TD, INT",
+        "EPA/play, CPOE",
+        "ANY/A, passer rating",
+        "sacks, sack %, pressure-to-sack %",
+        "rush attempts, yards, scrambles"
+      ],
+      "usage_snap_metrics": [
+        "dropbacks",
+        "play-action rate",
+        "aDOT",
+        "time to throw (NGS)"
+      ],
+      "on_field_impact": [
+        "EPA/dropback",
+        "success rate",
+        "4th-quarter/2-minute performance"
+      ],
+      "madden_attributes_informed": [
+        "THP",
+        "SAC",
+        "MAC",
+        "DAC",
+        "TUP",
+        "TOR",
+        "PAC",
+        "BSK",
+        "AWR",
+        "CAR",
+        "SPD",
+        "ACC",
+        "AGI"
+      ],
+      "note": "Existing QB evidence categories and QB evidence policy are UNCHANGED (src/evidence-gate.ts, src/qb-evidence-policy.ts)."
+    },
+    "RB": {
+      "order": 2,
+      "group": "Offense",
+      "current_status": "LOCKED",
+      "pff_cited_inputs": [
+        "overall",
+        "rushing",
+        "receiving",
+        "pass blocking",
+        "elusive rating",
+        "yards after contact/att",
+        "missed tackles forced"
+      ],
+      "position_stats": [
+        "carries, yards, YPC, TD",
+        "fumbles",
+        "targets, receptions, yards"
+      ],
+      "usage_snap_metrics": [
+        "snap share",
+        "carry share",
+        "route participation",
+        "goal-line share"
+      ],
+      "on_field_impact": [
+        "rush EPA",
+        "rush yards over expected (NGS RYOE)",
+        "explosive run rate"
+      ],
+      "madden_attributes_informed": [
+        "SPD",
+        "ACC",
+        "AGI",
+        "COD",
+        "BCV",
+        "CAR",
+        "BTK",
+        "TRK",
+        "ELU",
+        "SPM",
+        "JKM",
+        "SFA",
+        "CTH",
+        "SRR",
+        "PBK",
+        "AWR"
+      ],
+      "note": ""
+    },
+    "WR": {
+      "order": 3,
+      "group": "Offense",
+      "current_status": "LOCKED",
+      "pff_cited_inputs": [
+        "overall",
+        "receiving",
+        "drop rate",
+        "contested catch rate",
+        "yards per route run",
+        "grade vs man/zone"
+      ],
+      "position_stats": [
+        "targets, receptions, yards, TD",
+        "catch %",
+        "YAC"
+      ],
+      "usage_snap_metrics": [
+        "route participation",
+        "slot/wide alignment %",
+        "aDOT",
+        "target share",
+        "air-yard share"
+      ],
+      "on_field_impact": [
+        "EPA/target",
+        "separation (NGS avg separation)",
+        "YAC over expected"
+      ],
+      "madden_attributes_informed": [
+        "SPD",
+        "ACC",
+        "AGI",
+        "COD",
+        "CTH",
+        "CIT",
+        "SPC",
+        "SRR",
+        "MRR",
+        "DRR",
+        "RLS",
+        "JMP",
+        "RBK",
+        "AWR"
+      ],
+      "note": ""
+    },
+    "TE": {
+      "order": 4,
+      "group": "Offense",
+      "current_status": "LOCKED",
+      "pff_cited_inputs": [
+        "overall",
+        "receiving",
+        "run blocking",
+        "pass blocking",
+        "yards per route run"
+      ],
+      "position_stats": [
+        "targets, receptions, yards, TD",
+        "YAC"
+      ],
+      "usage_snap_metrics": [
+        "inline/slot/wide alignment %",
+        "route participation",
+        "run-block snaps",
+        "pass-block snaps"
+      ],
+      "on_field_impact": [
+        "EPA/target",
+        "run-block win rate (ESPN)"
+      ],
+      "madden_attributes_informed": [
+        "CTH",
+        "CIT",
+        "SPC",
+        "SRR",
+        "MRR",
+        "RBK",
+        "RBP",
+        "RBF",
+        "PBK",
+        "LBK",
+        "IBL",
+        "STR",
+        "SPD",
+        "AWR"
+      ],
+      "note": ""
+    },
+    "LT": {
+      "order": 5,
+      "group": "Offense",
+      "current_status": "LOCKED",
+      "pff_cited_inputs": [
+        "overall",
+        "pass blocking",
+        "run blocking",
+        "zone/gap run-block grades",
+        "pressures allowed",
+        "sacks allowed",
+        "penalties"
+      ],
+      "position_stats": [
+        "games/snaps started at the exact bucket",
+        "penalties (holding, false start)"
+      ],
+      "usage_snap_metrics": [
+        "snaps by exact alignment (LT/LG/C/RG/RT)",
+        "pass-block vs run-block snap split",
+        "true pass sets"
+      ],
+      "on_field_impact": [
+        "pass-block win rate (ESPN)",
+        "run-block win rate (ESPN)",
+        "pressure rate allowed"
+      ],
+      "madden_attributes_informed": [
+        "PBK",
+        "PBP",
+        "PBF",
+        "RBK",
+        "RBP",
+        "RBF",
+        "IBL",
+        "LBK",
+        "STR",
+        "AWR",
+        "AGI",
+        "ACC"
+      ],
+      "note": "Exact-side bucket: only snaps at this alignment count as primary evidence; snaps elsewhere are context."
+    },
+    "LG": {
+      "order": 6,
+      "group": "Offense",
+      "current_status": "IN_PROGRESS",
+      "pff_cited_inputs": [
+        "overall",
+        "pass blocking",
+        "run blocking",
+        "zone/gap run-block grades",
+        "pressures allowed",
+        "sacks allowed",
+        "penalties"
+      ],
+      "position_stats": [
+        "games/snaps started at the exact bucket",
+        "penalties (holding, false start)"
+      ],
+      "usage_snap_metrics": [
+        "snaps by exact alignment (LT/LG/C/RG/RT)",
+        "pass-block vs run-block snap split",
+        "true pass sets"
+      ],
+      "on_field_impact": [
+        "pass-block win rate (ESPN)",
+        "run-block win rate (ESPN)",
+        "pressure rate allowed"
+      ],
+      "madden_attributes_informed": [
+        "PBK",
+        "PBP",
+        "PBF",
+        "RBK",
+        "RBP",
+        "RBF",
+        "IBL",
+        "LBK",
+        "STR",
+        "AWR",
+        "AGI",
+        "ACC"
+      ],
+      "note": "Exact-side bucket: only snaps at this alignment count as primary evidence; snaps elsewhere are context."
+    },
+    "C": {
+      "order": 7,
+      "group": "Offense",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall",
+        "pass blocking",
+        "run blocking",
+        "zone/gap run-block grades",
+        "pressures allowed",
+        "sacks allowed",
+        "penalties"
+      ],
+      "position_stats": [
+        "games/snaps started at the exact bucket",
+        "penalties (holding, false start)"
+      ],
+      "usage_snap_metrics": [
+        "snaps by exact alignment (LT/LG/C/RG/RT)",
+        "pass-block vs run-block snap split",
+        "true pass sets"
+      ],
+      "on_field_impact": [
+        "pass-block win rate (ESPN)",
+        "run-block win rate (ESPN)",
+        "pressure rate allowed"
+      ],
+      "madden_attributes_informed": [
+        "PBK",
+        "PBP",
+        "PBF",
+        "RBK",
+        "RBP",
+        "RBF",
+        "IBL",
+        "LBK",
+        "STR",
+        "AWR",
+        "AGI",
+        "ACC"
+      ],
+      "note": "Center: snapping/line-call responsibilities are context only unless documented."
+    },
+    "RG": {
+      "order": 8,
+      "group": "Offense",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall",
+        "pass blocking",
+        "run blocking",
+        "zone/gap run-block grades",
+        "pressures allowed",
+        "sacks allowed",
+        "penalties"
+      ],
+      "position_stats": [
+        "games/snaps started at the exact bucket",
+        "penalties (holding, false start)"
+      ],
+      "usage_snap_metrics": [
+        "snaps by exact alignment (LT/LG/C/RG/RT)",
+        "pass-block vs run-block snap split",
+        "true pass sets"
+      ],
+      "on_field_impact": [
+        "pass-block win rate (ESPN)",
+        "run-block win rate (ESPN)",
+        "pressure rate allowed"
+      ],
+      "madden_attributes_informed": [
+        "PBK",
+        "PBP",
+        "PBF",
+        "RBK",
+        "RBP",
+        "RBF",
+        "IBL",
+        "LBK",
+        "STR",
+        "AWR",
+        "AGI",
+        "ACC"
+      ],
+      "note": "Exact-side bucket: only snaps at this alignment count as primary evidence; snaps elsewhere are context."
+    },
+    "RT": {
+      "order": 9,
+      "group": "Offense",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall",
+        "pass blocking",
+        "run blocking",
+        "zone/gap run-block grades",
+        "pressures allowed",
+        "sacks allowed",
+        "penalties"
+      ],
+      "position_stats": [
+        "games/snaps started at the exact bucket",
+        "penalties (holding, false start)"
+      ],
+      "usage_snap_metrics": [
+        "snaps by exact alignment (LT/LG/C/RG/RT)",
+        "pass-block vs run-block snap split",
+        "true pass sets"
+      ],
+      "on_field_impact": [
+        "pass-block win rate (ESPN)",
+        "run-block win rate (ESPN)",
+        "pressure rate allowed"
+      ],
+      "madden_attributes_informed": [
+        "PBK",
+        "PBP",
+        "PBF",
+        "RBK",
+        "RBP",
+        "RBF",
+        "IBL",
+        "LBK",
+        "STR",
+        "AWR",
+        "AGI",
+        "ACC"
+      ],
+      "note": "Exact-side bucket: only snaps at this alignment count as primary evidence; snaps elsewhere are context."
+    },
+    "REDGE": {
+      "order": 10,
+      "group": "Defense",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall",
+        "pass rush",
+        "run defense",
+        "tackling",
+        "pass-rush win rate",
+        "pressures",
+        "total pressures, sacks, hits, hurries"
+      ],
+      "position_stats": [
+        "tackles, TFL, sacks, QB hits",
+        "forced fumbles",
+        "batted passes"
+      ],
+      "usage_snap_metrics": [
+        "snaps by alignment (edge side / interior technique)",
+        "pass-rush snaps vs run snaps"
+      ],
+      "on_field_impact": [
+        "pass-rush win rate (ESPN)",
+        "run-stop win rate (ESPN)",
+        "pressure rate",
+        "run-stop %"
+      ],
+      "madden_attributes_informed": [
+        "PMV",
+        "FMV",
+        "BSH",
+        "PUR",
+        "PRC",
+        "TAK",
+        "POW",
+        "STR",
+        "SPD",
+        "ACC",
+        "AWR"
+      ],
+      "note": "Right-side edge (offense's left): only right-edge alignment snaps are primary."
+    },
+    "LEDGE": {
+      "order": 11,
+      "group": "Defense",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall",
+        "pass rush",
+        "run defense",
+        "tackling",
+        "pass-rush win rate",
+        "pressures",
+        "total pressures, sacks, hits, hurries"
+      ],
+      "position_stats": [
+        "tackles, TFL, sacks, QB hits",
+        "forced fumbles",
+        "batted passes"
+      ],
+      "usage_snap_metrics": [
+        "snaps by alignment (edge side / interior technique)",
+        "pass-rush snaps vs run snaps"
+      ],
+      "on_field_impact": [
+        "pass-rush win rate (ESPN)",
+        "run-stop win rate (ESPN)",
+        "pressure rate",
+        "run-stop %"
+      ],
+      "madden_attributes_informed": [
+        "PMV",
+        "FMV",
+        "BSH",
+        "PUR",
+        "PRC",
+        "TAK",
+        "POW",
+        "STR",
+        "SPD",
+        "ACC",
+        "AWR"
+      ],
+      "note": "Left-side edge: only left-edge alignment snaps are primary."
+    },
+    "DT": {
+      "order": 12,
+      "group": "Defense",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall",
+        "pass rush",
+        "run defense",
+        "tackling",
+        "pass-rush win rate",
+        "pressures",
+        "total pressures, sacks, hits, hurries"
+      ],
+      "position_stats": [
+        "tackles, TFL, sacks, QB hits",
+        "forced fumbles",
+        "batted passes"
+      ],
+      "usage_snap_metrics": [
+        "snaps by alignment (edge side / interior technique)",
+        "pass-rush snaps vs run snaps"
+      ],
+      "on_field_impact": [
+        "pass-rush win rate (ESPN)",
+        "run-stop win rate (ESPN)",
+        "pressure rate",
+        "run-stop %"
+      ],
+      "madden_attributes_informed": [
+        "PMV",
+        "FMV",
+        "BSH",
+        "PUR",
+        "PRC",
+        "TAK",
+        "POW",
+        "STR",
+        "SPD",
+        "ACC",
+        "AWR"
+      ],
+      "note": "Interior (0-4i technique) snaps are primary."
+    },
+    "MIKE": {
+      "order": 13,
+      "group": "Defense",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall",
+        "run defense",
+        "coverage",
+        "pass rush",
+        "tackling",
+        "missed tackle %"
+      ],
+      "position_stats": [
+        "tackles, TFL, sacks",
+        "INT, PBU",
+        "missed tackles"
+      ],
+      "usage_snap_metrics": [
+        "snaps by role (MIKE/WILL/SAM)",
+        "coverage snaps",
+        "blitz rate",
+        "box vs slot alignment"
+      ],
+      "on_field_impact": [
+        "run-stop %",
+        "yards per coverage snap allowed",
+        "passer rating allowed"
+      ],
+      "madden_attributes_informed": [
+        "TAK",
+        "HIT",
+        "PUR",
+        "PRC",
+        "BSH",
+        "MCV",
+        "ZCV",
+        "PMV",
+        "FMV",
+        "SPD",
+        "ACC",
+        "AWR"
+      ],
+      "note": "Middle/green-dot role; play-calling responsibility is context only."
+    },
+    "WILL": {
+      "order": 14,
+      "group": "Defense",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall",
+        "run defense",
+        "coverage",
+        "pass rush",
+        "tackling",
+        "missed tackle %"
+      ],
+      "position_stats": [
+        "tackles, TFL, sacks",
+        "INT, PBU",
+        "missed tackles"
+      ],
+      "usage_snap_metrics": [
+        "snaps by role (MIKE/WILL/SAM)",
+        "coverage snaps",
+        "blitz rate",
+        "box vs slot alignment"
+      ],
+      "on_field_impact": [
+        "run-stop %",
+        "yards per coverage snap allowed",
+        "passer rating allowed"
+      ],
+      "madden_attributes_informed": [
+        "TAK",
+        "HIT",
+        "PUR",
+        "PRC",
+        "BSH",
+        "MCV",
+        "ZCV",
+        "PMV",
+        "FMV",
+        "SPD",
+        "ACC",
+        "AWR"
+      ],
+      "note": "Weak-side role."
+    },
+    "SAM": {
+      "order": 15,
+      "group": "Defense",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall",
+        "run defense",
+        "coverage",
+        "pass rush",
+        "tackling",
+        "missed tackle %"
+      ],
+      "position_stats": [
+        "tackles, TFL, sacks",
+        "INT, PBU",
+        "missed tackles"
+      ],
+      "usage_snap_metrics": [
+        "snaps by role (MIKE/WILL/SAM)",
+        "coverage snaps",
+        "blitz rate",
+        "box vs slot alignment"
+      ],
+      "on_field_impact": [
+        "run-stop %",
+        "yards per coverage snap allowed",
+        "passer rating allowed"
+      ],
+      "madden_attributes_informed": [
+        "TAK",
+        "HIT",
+        "PUR",
+        "PRC",
+        "BSH",
+        "MCV",
+        "ZCV",
+        "PMV",
+        "FMV",
+        "SPD",
+        "ACC",
+        "AWR"
+      ],
+      "note": "Strong-side role; edge/on-ball snaps documented separately."
+    },
+    "CB": {
+      "order": 16,
+      "group": "Defense",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall",
+        "coverage",
+        "run defense",
+        "tackling",
+        "grade vs man/zone",
+        "forced incompletion rate"
+      ],
+      "position_stats": [
+        "INT, PBU",
+        "targets, receptions allowed, yards allowed, TD allowed",
+        "tackles, missed tackles"
+      ],
+      "usage_snap_metrics": [
+        "snaps by alignment (outside/slot/box/deep)",
+        "man vs zone snap share",
+        "coverage snaps"
+      ],
+      "on_field_impact": [
+        "passer rating allowed",
+        "yards per coverage snap",
+        "EPA allowed per target"
+      ],
+      "madden_attributes_informed": [
+        "MCV",
+        "ZCV",
+        "PRS",
+        "SPD",
+        "ACC",
+        "AGI",
+        "COD",
+        "PRC",
+        "TAK",
+        "HIT",
+        "PUR",
+        "CTH",
+        "JMP",
+        "AWR"
+      ],
+      "note": "Outside vs slot alignment documented; slot-heavy players flagged."
+    },
+    "FS": {
+      "order": 17,
+      "group": "Defense",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall",
+        "coverage",
+        "run defense",
+        "tackling",
+        "grade vs man/zone",
+        "forced incompletion rate"
+      ],
+      "position_stats": [
+        "INT, PBU",
+        "targets, receptions allowed, yards allowed, TD allowed",
+        "tackles, missed tackles"
+      ],
+      "usage_snap_metrics": [
+        "snaps by alignment (outside/slot/box/deep)",
+        "man vs zone snap share",
+        "coverage snaps"
+      ],
+      "on_field_impact": [
+        "passer rating allowed",
+        "yards per coverage snap",
+        "EPA allowed per target"
+      ],
+      "madden_attributes_informed": [
+        "MCV",
+        "ZCV",
+        "PRS",
+        "SPD",
+        "ACC",
+        "AGI",
+        "COD",
+        "PRC",
+        "TAK",
+        "HIT",
+        "PUR",
+        "CTH",
+        "JMP",
+        "AWR"
+      ],
+      "note": "Deep-alignment snaps primary."
+    },
+    "SS": {
+      "order": 18,
+      "group": "Defense",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall",
+        "coverage",
+        "run defense",
+        "tackling",
+        "grade vs man/zone",
+        "forced incompletion rate"
+      ],
+      "position_stats": [
+        "INT, PBU",
+        "targets, receptions allowed, yards allowed, TD allowed",
+        "tackles, missed tackles"
+      ],
+      "usage_snap_metrics": [
+        "snaps by alignment (outside/slot/box/deep)",
+        "man vs zone snap share",
+        "coverage snaps"
+      ],
+      "on_field_impact": [
+        "passer rating allowed",
+        "yards per coverage snap",
+        "EPA allowed per target"
+      ],
+      "madden_attributes_informed": [
+        "MCV",
+        "ZCV",
+        "PRS",
+        "SPD",
+        "ACC",
+        "AGI",
+        "COD",
+        "PRC",
+        "TAK",
+        "HIT",
+        "PUR",
+        "CTH",
+        "JMP",
+        "AWR"
+      ],
+      "note": "Box/slot/deep split documented."
+    },
+    "K": {
+      "order": 19,
+      "group": "Special Teams",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall kicking grade",
+        "FG grade",
+        "kickoff grade"
+      ],
+      "position_stats": [
+        "FG made/att by distance",
+        "XP %",
+        "long",
+        "touchback %"
+      ],
+      "usage_snap_metrics": [
+        "attempts",
+        "kickoffs"
+      ],
+      "on_field_impact": [
+        "FG points over expected",
+        "kickoff EPA"
+      ],
+      "madden_attributes_informed": [
+        "KPW",
+        "KAC",
+        "AWR"
+      ],
+      "note": ""
+    },
+    "P": {
+      "order": 20,
+      "group": "Special Teams",
+      "current_status": "PENDING",
+      "pff_cited_inputs": [
+        "overall punting grade"
+      ],
+      "position_stats": [
+        "punts, gross/net average",
+        "inside-20",
+        "touchbacks"
+      ],
+      "usage_snap_metrics": [
+        "punts"
+      ],
+      "on_field_impact": [
+        "punting EPA",
+        "hang time (NGS/charting)"
+      ],
+      "madden_attributes_informed": [
+        "KPW",
+        "KAC",
+        "AWR"
+      ],
+      "note": ""
+    }
+  }
+}

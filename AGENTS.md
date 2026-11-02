@@ -116,3 +116,16 @@ QB, RB, WR, TE, LT, LG, C, RG, RT,
 REDGE, LEDGE, DT, MIKE, WILL, SAM, CB, FS, SS, K, P
 
 Do not merge these buckets automatically.
+
+---
+
+## PENDING AMENDMENT (not in effect — awaiting commissioner approval)
+
+The text above (Architecture v1.0.0 / Methodology v1.0.0) is unchanged and governing.
+
+Proposed:
+1. Analyst wording: "Grok Bot is the analyst. The application is the commissioner." Codex/OpenAI remain
+   optional transports. (Implemented as the default file transport without changing any rule above.)
+2. Methodology v1.1 extension: per-position rating inputs in docs/positions/*.md and
+   config/position-metrics.json (PFF grades as cited evidence, position stats, usage/snap metrics,
+   on-field impact). Not read by the evidence gate until approved.

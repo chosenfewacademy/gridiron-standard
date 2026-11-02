@@ -93,3 +93,19 @@ export async function runStrictnessTests(test: T) {
   })();
   await p;
 }
+
+export function runPositionArchitectureTests(test: (n: string, f: () => void) => void) {
+  test("position metrics cover all 20 buckets, are PROPOSED, and never cite EA", () => {
+    const cfg = JSON.parse(fs.readFileSync("config/position-metrics.json", "utf8"));
+    const order = "QB RB WR TE LT LG C RG RT REDGE LEDGE DT MIKE WILL SAM CB FS SS K P".split(" ");
+    assert.deepEqual(Object.keys(cfg.positions), order); assert.equal(cfg.status, "PROPOSED_METHODOLOGY_V1_1_EXTENSION"); assert.equal(cfg.effective, false);
+    assert(!/ea\.com/i.test(JSON.stringify(cfg)));
+    for (const b of order) assert(fs.existsSync(`docs/positions/${b}.md`));
+  });
+  test("AGENTS.md v1.0 governing text is preserved; amendment is pending only", () => {
+    const s = fs.readFileSync("AGENTS.md", "utf8");
+    assert.match(s, /^# Gridiron Standard 27\n\nArchitecture Version: 1\.0\.0\nMethodology Version: 1\.0\.0/);
+    assert.match(s, /Codex is the analyst\. The application is the commissioner\./);
+    assert.match(s, /PENDING AMENDMENT \(not in effect/);
+  });
+}

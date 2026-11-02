@@ -12,7 +12,7 @@ import { runResearchTransportTests } from "./research-transport-tests.js";
 import { runOpenAIResponsesTransportTests } from "./openai-responses-transport-tests.js";
 import { runGithubWorkflowTests } from "./github-workflow-tests.js";
 import { runGrokBotTransportTests } from "./grok-bot-transport-tests.js";
-import { runStrictnessTests } from "./strictness-tests.js";
+import { runStrictnessTests, runPositionArchitectureTests } from "./strictness-tests.js";
 
 function test(name: string, fn: () => void): void {
   try {
@@ -31,6 +31,7 @@ runResearchTransportTests(test);
 runGithubWorkflowTests(test);
 await runGrokBotTransportTests(test);
 await runStrictnessTests(test);
+runPositionArchitectureTests(test);
 
 test("route continue alias", () => {
   assert.deepEqual(route("go"), { type: "CONTINUE" });

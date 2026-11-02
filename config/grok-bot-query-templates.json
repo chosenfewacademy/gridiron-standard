@@ -1,0 +1,37 @@
+{
+  "status": "OPERATIONAL_PROCEDURE",
+  "derived_from": "logs/qb-reconstruction/matthew_stafford/6cb4a74b-2218-4ff9-843c-de8a1c8ae1a3 (query patterns, source domains, authority tiers)",
+  "placeholders": ["{player}", "{team}", "{team_site}", "{season}", "{evidence_season}", "{position}", "{metric}"],
+  "source_authority_tiers": {
+    "1": ["nfl.com (player stats/logs, news)", "operations.nfl.com (calendar, rules)", "nflverse releases (deterministic helper)", "official team sites"],
+    "2": ["pff.com (grades, charting)", "pro-football-reference.com", "nextgenstats.nfl.com", "espn.com (win rates)", "apnews.com"],
+    "3-5": ["reputable film/charting analysis tied to the exact trait; conservative inference only when no better public evidence"],
+    "never": ["ea.com ratings", "Madden ratings databases"]
+  },
+  "calendar_queries": [
+    "site:operations.nfl.com {season} regular season schedule",
+    "site:nfl.com {season} important dates league year",
+    "site:nfl.com \"{team}\" \"{season}\" \"Week 18\" schedule"
+  ],
+  "common_queries": {
+    "current_role": ["site:{team_site} \"{player}\" \"{season}\" depth chart", "\"{player}\" {season} snaps snap share"],
+    "roster_depth_chart": ["site:{team_site} \"{season}\" depth chart"],
+    "injury_practice_status": ["site:{team_site} \"{player}\" \"{season}\" injury practice", "site:nfl.com \"{player}\" injury {season}"],
+    "durability_availability": ["\"{player}\" games started {evidence_season} {season}", "site:pro-football-reference.com {player}"],
+    "multi_year_trend": ["site:pro-football-reference.com {player} career", "\"{player}\" PFF grade {evidence_season} career"],
+    "recent_performance_trend": ["site:nfl.com/players {player} stats logs {season}"],
+    "team_system_context": ["\"{team}\" {season} offensive OR defensive scheme \"{player}\""],
+    "current_season_performance": ["site:nfl.com/players {player} stats {season}", "\"{player}\" PFF grade week {season}"],
+    "locked_control_comparisons": ["\"{player}\" vs {control} {metric} {evidence_season}"],
+    "outside_control_comparisons": ["\"{player}\" vs {control} {metric} {evidence_season}"],
+    "position_specific_traits": ["\"{player}\" {evidence_season} {metric} PFF", "\"{player}\" {evidence_season} {metric} Next Gen Stats"]
+  },
+  "position_metrics_source": "config/position-metrics.json (PROPOSED v1.1) supplies {metric} values per bucket",
+  "qb_queries": {
+    "pressure_performance": ["\"{player}\" {evidence_season} pressure passing grade under pressure PFF sacks"],
+    "accuracy_by_depth": ["\"{player}\" \"{evidence_season}\" short intermediate accuracy PFF", "\"{player}\" {evidence_season} deep passing PFF"],
+    "scrambling_sack_avoidance": ["\"{player}\" \"{evidence_season}\" sacks pocket footwork film"],
+    "passing_production_efficiency": ["site:nfl.com {player} {evidence_season} stats"]
+  },
+  "micro_batch_rule": "At most 2 categories per batch (mirrors src/resume-evidence.ts *_TARGET_n batching); QB batches follow QB_EVIDENCE_BATCHES in src/resumable-evidence.ts."
+}
