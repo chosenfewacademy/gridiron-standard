@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -95,7 +95,8 @@
         "QB_REAUDIT_RATE_13",
         "QB_REAUDIT_RATE_14",
         "QB_REAUDIT_RATE_15",
-        "QB_REAUDIT_RATE_16"
+        "QB_REAUDIT_RATE_16",
+        "QB_REAUDIT_RATE_17"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
@@ -140,7 +141,7 @@
       ],
       "current_stage": "player_rating",
       "current_task": "QB_REAUDIT_RATE_17",
-      "updated_at": "2026-11-02T23:36:14.302Z",
+      "updated_at": "2026-11-02T23:36:28.161Z",
       "last_result": {
         "task_id": "QB_REAUDIT_RATE_17",
         "status": "FLAGGED",
@@ -149,11 +150,7 @@
           "AUTO_RUN_T30U: attributes from fixed percentile mapping; adjust in head-to-heads"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "QB_REAUDIT_RATE_17",
-        "audit_id": "QB_REAUDIT_RATE_17_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -449,6 +446,14 @@
           "audit_id": "QB_REAUDIT_RATE_16_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-02T23:35:59Z",
+          "note": "Automatic approval under t30u (user: keep going on ratings automatically); rating may be adjusted during the head-to-heads"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_17",
+          "audit_id": "QB_REAUDIT_RATE_17_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T23:36:27Z",
           "note": "Automatic approval under t30u (user: keep going on ratings automatically); rating may be adjusted during the head-to-heads"
         }
       ]
