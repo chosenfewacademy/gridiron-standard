@@ -1,0 +1,76 @@
+{
+  "task_id": "QB_REAUDIT_PROVISIONAL_TOP10",
+  "position": "QB",
+  "type": "provisional_top_10",
+  "audit_type": "TOP10_REAUDIT",
+  "stage": "top10_reaudit",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Matthew Stafford",
+        "ovr": 91
+      },
+      {
+        "rank": 2,
+        "player": "Joe Burrow",
+        "ovr": 90
+      },
+      {
+        "rank": 3,
+        "player": "Josh Allen",
+        "ovr": 90
+      },
+      {
+        "rank": 4,
+        "player": "Drake Maye",
+        "ovr": 88
+      },
+      {
+        "rank": 5,
+        "player": "Jordan Love",
+        "ovr": 88
+      },
+      {
+        "rank": 6,
+        "player": "Dak Prescott",
+        "ovr": 87
+      },
+      {
+        "rank": 7,
+        "player": "Brock Purdy",
+        "ovr": 85
+      },
+      {
+        "rank": 8,
+        "player": "Justin Herbert",
+        "ovr": 84
+      },
+      {
+        "rank": 9,
+        "player": "Trevor Lawrence",
+        "ovr": 84
+      },
+      {
+        "rank": 10,
+        "player": "Sam Darnold",
+        "ovr": 83
+      }
+    ],
+    "external_controls": [
+      {
+        "player": "Patrick Mahomes",
+        "ovr": 83
+      },
+      {
+        "player": "Lamar Jackson",
+        "ovr": 83
+      },
+      {
+        "player": "Jared Goff",
+        "ovr": 82
+      }
+    ]
+  },
+  "candidate_pool_file": "data/candidate-pools/QB.reaudit.json"
+}
