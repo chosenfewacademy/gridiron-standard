@@ -56833,6 +56833,38 @@
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
     },
     {
+      "player_id": "ext_00-0040718",
+      "full_name": "Travis Hunter",
+      "aliases": [
+        "Travis"
+      ],
+      "team": "JAX",
+      "position": "WR",
+      "historical_positions": [
+        "WR"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0040718",
+        "espn": "4685415",
+        "pff": "160766",
+        "pfr": "HuntTr00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 12,
+      "roster_status": "ACT",
+      "birth_date": "2003-05-18",
+      "height": 73,
+      "weight": 185,
+      "college": "Colorado; Jackson State University",
+      "years_exp": 1,
+      "source_position": "WR",
+      "depth_chart_position": "WR",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null
+    },
+    {
       "player_id": "ext_00-0037756",
       "full_name": "Travis Jones",
       "aliases": [
@@ -62168,5 +62200,5 @@
       "role_resolution_reason": null
     }
   ],
-  "last_refreshed_at": "2026-11-02T03:50:23.340Z"
+  "last_refreshed_at": "2026-11-02T03:56:53.547Z"
 }

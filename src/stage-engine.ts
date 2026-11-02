@@ -94,7 +94,7 @@ export function planNext(state: ProjectState, opts: EngineOptions = {}): StagePl
   if (!legacy && !done.has(I.provisional)) {
     const pool = requireApprovedPool(pos, opts.root); // coverage gate: blocks if any top name is unaccounted
     return mk("provisional_top_10", { task_id: I.provisional, type: "provisional_top_10",
-      candidate_pool: pool.candidates.map(c => ({ player: c.player, player_id: c.player_id, flags: c.flags ?? [] })) });
+      candidate_pool: pool.candidates.map(c => ({ player: c.player, aliases: c.aliases ?? [], player_id: c.player_id, flags: c.flags ?? [] })) });
   }
 
   const provTop = names(prov?.provisional_top_10);
@@ -135,7 +135,7 @@ export function stageOutputErrors(task: Record<string, any>, audit: Record<strin
     if (!names([audit.first_out]).length) e.push("first_out is required");
     if (!Array.isArray(audit.external_controls) || !audit.external_controls.length) e.push("external_controls must be non-empty");
     if (Array.isArray(task.candidate_pool)) {
-      const pool = new Set(task.candidate_pool.map((c: any) => normName(c.player)));
+      const pool = new Set(task.candidate_pool.flatMap((c: any) => [c.player, ...(c.aliases ?? [])].map(normName)));
       for (const n of top) if (!pool.has(normName(n))) e.push(`${n} is not in the approved candidate pool`);
     }
   }

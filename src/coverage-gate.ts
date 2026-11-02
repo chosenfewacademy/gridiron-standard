@@ -14,8 +14,8 @@ export interface CoverageSource {
   id: string; name: string; publisher: string; kind: SourceKind; season: number;
   url: string; retrieved_at: string; top: string[];
 }
-export interface PoolCandidate { player: string; player_id: string | null; team?: string | null; flags?: string[]; reasoning?: string; citations?: string[] }
-export interface PoolExclusion { player: string; reason: string; code?: "NOT_ON_2026_ROSTER" | "OTHER_POSITION" | "BELOW_CUTOFF" | "INJURED" | "OTHER" }
+export interface PoolCandidate { player: string; aliases?: string[]; player_id: string | null; team?: string | null; flags?: string[]; reasoning?: string; citations?: string[] }
+export interface PoolExclusion { player: string; player_id?: string | null; aliases?: string[]; reason: string; code?: "NOT_ON_2026_ROSTER" | "OTHER_POSITION" | "BELOW_CUTOFF" | "INJURED" | "OTHER" }
 export interface CandidatePool {
   position: string; status: "PROPOSED" | "APPROVED"; approved_by?: string; approved_at?: string;
   candidates: PoolCandidate[]; exclusions: PoolExclusion[]; coverage_sources: CoverageSource[];
@@ -43,10 +43,15 @@ export function checkCoverage(pool: CandidatePool, registryPlayers: any[], opts:
     if (!s.retrieved_at || Number.isNaN(Date.parse(s.retrieved_at))) errors.push(`source ${s.id}: retrieved_at required`);
     if (!Array.isArray(s.top) || !s.top.length) errors.push(`source ${s.id}: empty top list`);
   }
-  const cand = new Map(pool.candidates.map(c => [normName(c.player), c]));
-  const excl = new Map(pool.exclusions.map(e => [normName(e.player), e]));
-  if (cand.size !== pool.candidates.length) errors.push("duplicate candidates");
+  const cand = new Map<string, PoolCandidate>();
+  for (const c of pool.candidates) for (const n of [c.player, ...(c.aliases ?? [])]) {
+    if (cand.has(normName(n)) && cand.get(normName(n)) !== c) errors.push(`duplicate candidates: ${n}`);
+    cand.set(normName(n), c);
+  }
+  const excl = new Map<string, PoolExclusion>();
+  for (const e of pool.exclusions) for (const n of [e.player, ...(e.aliases ?? [])]) excl.set(normName(n), e);
   for (const k of cand.keys()) if (excl.has(k)) errors.push(`${cand.get(k)!.player} is both candidate and excluded`);
+  for (const e of pool.exclusions) if (e.player_id && !reg.ids.has(e.player_id)) errors.push(`exclusion ${e.player}: unknown player_id ${e.player_id}`);
   for (const e of pool.exclusions) if (!e.reason || e.reason.trim().length < 10) errors.push(`exclusion of ${e.player} needs a reason`);
 
   const missing = new Set<string>(); const unaccounted: CoverageResult["unaccounted"] = [];
@@ -55,7 +60,7 @@ export function checkCoverage(pool: CandidatePool, registryPlayers: any[], opts:
   for (const s of srcs) s.top.slice(0, topN).forEach((name, i) => {
     const k = normName(name), e = excl.get(k);
     if (!cand.has(k) && !e) unaccounted.push({ player: name, source: s.id, rank: i + 1 });
-    if (!inRegistry(name, cand.get(k)?.player_id) && e?.code !== "NOT_ON_2026_ROSTER") missing.add(name);
+    if (!inRegistry(name, cand.get(k)?.player_id ?? e?.player_id) && e?.code !== "NOT_ON_2026_ROSTER") missing.add(name);
   });
   if (missing.size) errors.push(`missing from registry: ${[...missing].join(", ")}`);
   if (unaccounted.length) errors.push(`unaccounted top-${topN} names: ${[...new Set(unaccounted.map(u => u.player))].join(", ")}`);

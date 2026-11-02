@@ -14,6 +14,8 @@ export interface RefreshOptions {
   dryRun?: boolean;
   /** Restrict additions to these exact Madden buckets. */
   positions?: string[];
+  /** Also admit these exact names regardless of position label (e.g. two-way players). */
+  names?: string[];
   registryPath?: string;
 }
 
@@ -45,7 +47,8 @@ export async function refreshRoster(source: RosterSource, options: RefreshOption
       }
     }
 
-    if (!player && options.positions) {
+    const named = options.names?.some(n => n.toLowerCase() === ext.full_name.toLowerCase()) ?? false;
+    if (!player && options.positions && !named) {
       const could = possibleBuckets((ext as any).source_position, (ext as any).depth_chart_position);
       const buckets = ext.position ? [String(ext.position)] : could;
       if (!buckets.some(b => options.positions!.includes(b))) continue;

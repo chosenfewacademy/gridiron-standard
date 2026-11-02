@@ -29,6 +29,8 @@ export async function runRosterRefreshTests(test: T) {
     const { reg, csv } = tmpRegistry(); const before = fs.readFileSync(reg, "utf8");
     const r = await refreshRoster(new NflverseRosterSource(2026, csv), { addOnly: true, dryRun: true, positions: ["K", "RG"], registryPath: reg });
     assert.equal(fs.readFileSync(reg, "utf8"), before); assert.equal(r.added, 2, "K plus role-unresolved guard (could be RG); tackle excluded");
+    const n = await refreshRoster(new NflverseRosterSource(2026, csv), { addOnly: true, dryRun: true, positions: ["K"], names: ["Tack Le"], registryPath: reg });
+    assert.equal(n.added, 2, "--names admits an explicitly named player outside the position filter");
   });
 }
 
@@ -90,6 +92,19 @@ export function runCoverageGateTests(test: (n: string, f: () => void) => void) {
     const q = goodPool("C"); q.coverage_sources.forEach((s: any) => s.publisher = "PFF"); assert.equal(checkCoverage(q, reg).ok, false);
     const u = goodPool("C"); u.coverage_sources[0].url = "http://x"; assert.equal(checkCoverage(u, reg).ok, false);
     const e = goodPool("C"); e.exclusions[0].reason = "no"; assert.equal(checkCoverage(e, reg).ok, false);
+  });
+  test("candidate aliases match source spellings (Patrick vs Pat Surtain II) via registry id", () => {
+    const p = goodPool("C"); p.coverage_sources[0].top.push("Patrick Surtain II");
+    const r2 = [...reg, { player_id: "ps", full_name: "Pat Surtain II" }];
+    assert.equal(checkCoverage(p, r2).ok, false);
+    p.candidates.push({ player: "Pat Surtain II", aliases: ["Patrick Surtain II"], player_id: "ps" });
+    assert.equal(checkCoverage(p, r2).ok, true);
+  });
+  test("excluded names resolve registry membership through player_id", () => {
+    const p = goodPool("C"); p.coverage_sources[0].top.push("Kamren Curl");
+    p.exclusions.push({ player: "Kam Curl", aliases: ["Kamren Curl"], player_id: "kc", reason: "Below pool cutoff for this position" });
+    assert.equal(checkCoverage(p, [...reg, { player_id: "kc", full_name: "Kam Curl" }]).ok, true);
+    assert.equal(checkCoverage(p, reg).ok, false, "unknown exclusion player_id blocks");
   });
   test("name matching tolerates suffixes and accents (Jr., II)", () => {
     assert.equal(normName("Will Anderson Jr."), normName("Will Anderson")); assert.equal(normName("Patrick Surtain II"), normName("patrick surtain"));
