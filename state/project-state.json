@@ -81,7 +81,8 @@
         "QB_REAUDIT_BG_16",
         "QB_REAUDIT_BG_17",
         "QB_REAUDIT_RATE_01",
-        "QB_REAUDIT_RATE_02"
+        "QB_REAUDIT_RATE_02",
+        "QB_REAUDIT_RATE_03"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
@@ -108,24 +109,25 @@
         "QB_REAUDIT_BG_17_A1",
         "QB_REAUDIT_RATE_01_A1",
         "QB_REAUDIT_RATE_02_A1",
-        "QB_REAUDIT_RATE_03_A1"
+        "QB_REAUDIT_RATE_03_A1",
+        "QB_REAUDIT_RATE_04_A1"
       ],
       "current_stage": "player_rating",
-      "current_task": "QB_REAUDIT_RATE_03",
-      "updated_at": "2026-11-02T20:44:30.883Z",
+      "current_task": "QB_REAUDIT_RATE_04",
+      "updated_at": "2026-11-02T21:39:59.304Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_RATE_03",
+        "task_id": "QB_REAUDIT_RATE_04",
         "status": "FLAGGED",
         "errors": [],
         "flags": [
-          "GRADE_VS_EFFICIENCY_SPLIT: PFF #3 vs EPA/play #9",
-          "ELITE_TRAIT_PROPOSED: STA 90"
+          "SCHEME_EFFICIENCY_ATTRIBUTION: elite EPA partly scheme-aided",
+          "AVAILABILITY_RISK: 16 games across two seasons"
         ]
       },
       "awaiting": {
         "reason": "REVIEW_MAJOR",
-        "task_id": "QB_REAUDIT_RATE_03",
-        "audit_id": "QB_REAUDIT_RATE_03_A1"
+        "task_id": "QB_REAUDIT_RATE_04",
+        "audit_id": "QB_REAUDIT_RATE_04_A1"
       },
       "approvals": [
         {
@@ -311,6 +313,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-02T20:42:00Z",
           "note": "Commissioner approved Jackson OVR 87 (card t28s2)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_03",
+          "audit_id": "QB_REAUDIT_RATE_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T21:38:00Z",
+          "note": "Approved Prescott RATE_03 at OVR 85 (card t29s3)"
         }
       ]
     },

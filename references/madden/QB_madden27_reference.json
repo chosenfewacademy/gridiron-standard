@@ -106,6 +106,32 @@
       "team": "Dallas Cowboys",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Brock Purdy": {
+      "ea_id": 22383,
+      "OVR": 92,
+      "SPD": 86,
+      "ACC": 89,
+      "AGI": 81,
+      "COD": 77,
+      "STR": 63,
+      "AWR": 92,
+      "THP": 89,
+      "SAC": 96,
+      "MAC": 96,
+      "DAC": 89,
+      "RUN": 93,
+      "TUP": 92,
+      "PAC": 89,
+      "BSK": 77,
+      "CAR": 64,
+      "JMP": 70,
+      "INJ": 89,
+      "STA": 90,
+      "TGH": 85,
+      "team": "San Francisco 49ers",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
