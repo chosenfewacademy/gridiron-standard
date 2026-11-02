@@ -33,7 +33,7 @@ export const LEGACY_PAIR_SEQUENCES: Partial<Record<Position, Array<{ task_id: st
 export interface EngineOptions { auditsRoot?: string; metricsPath?: string; root?: string;
   /** TOP10_REAUDIT mode (commissioner-triggered, queue-driven): plans a re-audit of a LOCKED position without touching
    *  current_position/completed_tasks of the main run. Task ids are <POS>_REAUDIT_*. */
-  reaudit?: { position: string; completed_tasks: string[]; baseline_controls?: Record<string, unknown> } }
+  reaudit?: { position: string; completed_tasks: string[]; baseline_controls?: Record<string, unknown>; approved_audit_ids?: string[] } }
 
 export const ids = (pos: string) => ({
   provisional: `${pos}_PROVISIONAL_TOP10`,
@@ -51,7 +51,7 @@ export function approvedOutput(pos: string, taskId: string, opts: EngineOptions 
   if (!fs.existsSync(dir)) return null;
   const hits = fs.readdirSync(dir).filter(f => f.endsWith(".json"))
     .map(f => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")))
-    .filter(a => a.task_id === taskId && a.status === "APPROVED")
+    .filter(a => a.task_id === taskId && (a.status === "APPROVED" || (opts.reaudit?.approved_audit_ids ?? []).includes(a.audit_id)))
     .sort((a, b) => String(a.created_at).localeCompare(String(b.created_at)));
   return hits.at(-1) ?? null;
 }

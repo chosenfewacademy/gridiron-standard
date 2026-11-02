@@ -51,7 +51,7 @@ export function positionsOnlyAddPending(a, b) {
 // progress. Identity fields stay identical; only REAUDIT_MUTABLE keys may change; status moves only along
 // REAUDIT_TRANSITIONS (never to COMPLETED — completion changes baselines and needs commissioner approval);
 // completed_tasks/audit_ids may only grow by append. Locks, positions, current_* pointers etc. remain covered elsewhere.
-export const REAUDIT_MUTABLE = ["status", "started_at", "updated_at", "current_stage", "current_task", "completed_tasks", "audit_ids", "last_result", "awaiting"];
+export const REAUDIT_MUTABLE = ["status", "started_at", "updated_at", "current_stage", "current_task", "completed_tasks", "audit_ids", "last_result", "awaiting", "approvals"];
 export const REAUDIT_TRANSITIONS = { QUEUED_NOT_STARTED: ["QUEUED_NOT_STARTED", "IN_PROGRESS", "AWAITING_REVIEW_MAJOR"], IN_PROGRESS: ["IN_PROGRESS", "AWAITING_REVIEW_MAJOR"], AWAITING_REVIEW_MAJOR: ["AWAITING_REVIEW_MAJOR", "IN_PROGRESS"] };
 const appendOnly = (x, y) => { const a = x ?? [], b = y ?? []; return Array.isArray(b) && Array.isArray(a) && b.length >= a.length && a.every((v, i) => canon(v) === canon(b[i])); };
 export function reauditItemUpdate(x, y) {
@@ -62,6 +62,16 @@ export function reauditItemUpdate(x, y) {
   if (!(REAUDIT_TRANSITIONS[x.status] ?? []).includes(y.status)) return { ok: false, reason: `status transition ${x.status} -> ${y.status} not allowed` };
   if (!appendOnly(x.completed_tasks, y.completed_tasks) || !appendOnly(x.audit_ids, y.audit_ids)) return { ok: false, reason: "completed_tasks/audit_ids are append-only" };
   if (x.started_at && x.started_at !== y.started_at) return { ok: false, reason: "started_at is immutable once set" };
+  // FIFTH NARROW EXCEPTION (commissioner-approved 2026-11-02 1:36 PM ET): commissioner approvals of re-audit stages are
+  // append-only records on the item; each must reference an audit already in audit_ids and its task must be completed.
+  if (!appendOnly(x.approvals, y.approvals)) return { ok: false, reason: "approvals are append-only" };
+  for (const ap of (y.approvals ?? []).slice((x.approvals ?? []).length)) {
+    if (!ap || ap.decision !== "APPROVED" || typeof ap.approved_by !== "string" || !ap.approved_by || typeof ap.approved_at !== "string" ||
+      !(y.audit_ids ?? []).includes(ap.audit_id) || !(y.completed_tasks ?? []).includes(ap.task_id))
+      return { ok: false, reason: "approval must be APPROVED by a named commissioner, reference a recorded audit_id and a completed task" };
+  }
+  if (x.status === "AWAITING_REVIEW_MAJOR" && y.status === "IN_PROGRESS" && (y.approvals ?? []).length <= (x.approvals ?? []).length)
+    return { ok: false, reason: "leaving AWAITING_REVIEW_MAJOR requires a new commissioner approval record" };
   return { ok: true, changed: true };
 }
 export function queueUpdateAllowed(qa = [], qb) {
@@ -88,14 +98,25 @@ export function stateChangeAllowed(baseText, headText) {
   return { ok: true };
 }
 
+// FOURTH NARROW EXCEPTION (commissioner-approved 2026-11-02 1:36 PM ET): NEW audit record files for TOP10_REAUDIT
+// tasks may be added under audits/league/<POS>/<POS>_REAUDIT_*.{json,md}. Status must be "A" (added); existing audit
+// files can never be modified, renamed or deleted. JSON records must declare audit_type TOP10_REAUDIT (checked by allowAudit).
+export const REAUDIT_AUDIT_RE = /^audits\/league\/([A-Z]{1,4})\/\1_REAUDIT_[A-Z0-9_]+\.(json|md)$/;
+export function reauditAuditAddAllowed(status, p, jsonText) {
+  if (status !== "A" || !REAUDIT_AUDIT_RE.test(p)) return false;
+  if (p.endsWith(".json")) { try { return JSON.parse(jsonText).audit_type === "TOP10_REAUDIT"; } catch { return false; } }
+  return true;
+}
+
 /** allowState(path) => true only when the caller has verified queueOnlyAppend for that exact path. */
-export function violations(lines, allowState = () => false) {
+export function violations(lines, allowState = () => false, allowAudit = () => false) {
   const out = [];
   for (const line of lines.filter(Boolean)) {
     const [status, ...paths] = line.split("\t");
     for (const p of paths) {
       const hit = PROTECTED.find(x => x.re.test(p));
       if (hit && status === "M" && p === QUEUE_EXCEPTION_PATH && allowState(p)) continue;
+      if (hit && status === "A" && REAUDIT_AUDIT_RE.test(p) && allowAudit(status, p)) continue;
       if (hit) out.push(`${status} ${p} (${hit.why})`);
       else if (APPEND_ONLY.test(p) && status[0] !== "A") out.push(`${status} ${p} (append-only research history)`);
     }
@@ -109,13 +130,14 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const diff = (fileFlag >= 0
     ? (await import("node:fs")).readFileSync(process.argv[fileFlag + 1], "utf8")
     : execFileSync("git", ["diff", "--name-status", `${base}...${head}`], { encoding: "utf8" })).split("\n");
-  let allow = () => false;
+  let allow = () => false, allowAudit = () => false;
   if (fileFlag < 0) {
     const mb = execFileSync("git", ["merge-base", base, head], { encoding: "utf8" }).trim();
     const show = ref => execFileSync("git", ["show", `${ref}:${QUEUE_EXCEPTION_PATH}`], { encoding: "utf8" });
+    allowAudit = (st, p) => { try { return reauditAuditAddAllowed(st, p, p.endsWith(".json") ? execFileSync("git", ["show", `${head}:${p}`], { encoding: "utf8" }) : ""); } catch { return false; } };
     allow = p => { try { const r = stateChangeAllowed(show(mb), show(head)); if (!r.ok) console.error(`state exception not applicable: ${r.reason}`); return r.ok; } catch { return false; } };
   }
-  const v = violations(diff, allow);
+  const v = violations(diff, allow, allowAudit);
   if (v.length) { console.error("PROTECTED PATHS CHANGED:\n" + v.join("\n")); process.exit(1); }
   console.log("Protected paths unchanged.");
 }

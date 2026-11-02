@@ -36,7 +36,8 @@
     "coverage:check": "tsx src/coverage-check.ts",
     "pool:approve": "tsx src/approve-pool.ts",
     "reaudit:trigger": "tsx src/top10-reaudit.ts",
-    "reaudit:run": "tsx src/reaudit-executor.ts"
+    "reaudit:run": "tsx src/reaudit-executor.ts",
+    "reaudit:approve": "tsx src/reaudit-executor.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

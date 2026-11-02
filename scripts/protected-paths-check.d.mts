@@ -1,7 +1,9 @@
 export declare const PROTECTED: Array<{ re: RegExp; why: string }>;
 export declare const QUEUE_EXCEPTION_PATH: string;
 export declare function queueOnlyAppend(baseText: string, headText: string): { ok: boolean; reason?: string };
-export declare function violations(lines: string[], allowState?: (path: string) => boolean): string[];
+export declare function violations(lines: string[], allowState?: (path: string) => boolean, allowAudit?: (status: string, path: string) => boolean): string[];
+export declare const REAUDIT_AUDIT_RE: RegExp;
+export declare function reauditAuditAddAllowed(status: string, p: string, jsonText: string): boolean;
 export declare function positionsOnlyAddPending(a: any, b: any): { ok: boolean; reason?: string; added?: string[] };
 export declare function stateChangeAllowed(baseText: string, headText: string): { ok: boolean; reason?: string };
 export declare const REAUDIT_MUTABLE: string[];

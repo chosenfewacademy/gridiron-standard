@@ -37,7 +37,24 @@ export function planReaudit(state: any, pos: string, root = process.cwd()) {
   const { item } = findReauditItem(state, pos);
   if (!item) throw new Error(`${pos}: no active TOP10_REAUDIT queue item (trigger with npm run reaudit:trigger).`);
   return planNext(state, { root, auditsRoot: path.join(root, "audits/league"), metricsPath: path.join(root, "config/position-metrics.json"),
-    reaudit: { position: pos, completed_tasks: item.completed_tasks ?? [], baseline_controls: lockedBaselineControls(pos, root) } });
+    reaudit: { position: pos, completed_tasks: item.completed_tasks ?? [], baseline_controls: lockedBaselineControls(pos, root),
+      approved_audit_ids: (item.approvals ?? []).filter((a: any) => a.decision === "APPROVED").map((a: any) => a.audit_id) } });
+}
+
+/** Records a commissioner approval of the awaiting re-audit stage (append-only). Never touches locks/baselines/cards/pointers. */
+export function approveReauditStage(pos: string, a: { audit_id: string; approved_by: string; approved_at: string; note?: string }, root = process.cwd()) {
+  const statePath = path.join(root, "state/project-state.json");
+  const state = JSON.parse(fs.readFileSync(statePath, "utf8"));
+  const { index, item } = findReauditItem(state, pos);
+  if (!item || item.status !== "AWAITING_REVIEW_MAJOR") throw new Error(`${pos}: no re-audit stage is awaiting approval.`);
+  if (item.awaiting?.audit_id !== a.audit_id) throw new Error(`${pos}: awaiting audit is ${item.awaiting?.audit_id}, not ${a.audit_id}.`);
+  if (!a.approved_by) throw new Error("approved_by is required.");
+  const task_id = item.awaiting.task_id;
+  item.completed_tasks = [...(item.completed_tasks ?? []), ...((item.completed_tasks ?? []).includes(task_id) ? [] : [task_id])];
+  item.approvals = [...(item.approvals ?? []), { decision: "APPROVED", task_id, audit_id: a.audit_id, approved_by: a.approved_by, approved_at: a.approved_at, ...(a.note ? { note: a.note } : {}) }];
+  item.status = "IN_PROGRESS"; item.awaiting = null; item.updated_at = new Date().toISOString();
+  state.pending_reaudit_queue[index] = item; fs.writeFileSync(statePath, JSON.stringify(state, null, 2) + "\n");
+  return item;
 }
 
 export interface ReauditDeps { research?: { gather(t: any): Promise<any> }; analyst?: { runAudit(i: any): Promise<{ text: string }> }; root?: string; now?: () => string }
@@ -102,6 +119,12 @@ export async function executeReauditStep(pos: string, deps: ReauditDeps = {}): P
 
 if (process.argv[1] && /reaudit-executor\.[tj]s$/.test(process.argv[1])) {
   const argv = process.argv.slice(2); const i = argv.indexOf("--confirm");
+  const opt = (k: string) => { const j = argv.indexOf(k); return j >= 0 ? argv[j + 1] : undefined; };
+  if (argv.includes("--approve")) {
+    if (argv[i + 1] !== "TOP10_REAUDIT_APPROVE") { console.error("Refusing: pass --confirm TOP10_REAUDIT_APPROVE."); process.exit(2); }
+    console.log(JSON.stringify(approveReauditStage(String(argv[0]).toUpperCase(), { audit_id: opt("--approve")!, approved_by: opt("--by")!, approved_at: opt("--at")!, note: opt("--note") }), null, 2));
+    process.exit(0);
+  }
   if (argv[i + 1] !== "TOP10_REAUDIT") { console.error("Refusing: pass --confirm TOP10_REAUDIT."); process.exit(2); }
   const pos = String(argv[0] ?? "").toUpperCase();
   executeReauditStep(pos).then(r => console.log(JSON.stringify(r, null, 2))).catch(e => { console.error(String(e?.message ?? e)); process.exitCode = 1; });

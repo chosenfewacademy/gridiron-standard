@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { stateChangeAllowed } from "../scripts/protected-paths-check.mjs";
+import { stateChangeAllowed, violations, reauditAuditAddAllowed } from "../scripts/protected-paths-check.mjs";
 import { applyFullAuditEvidenceGate, calendarSubject, isPositionWideTask } from "../src/evidence-gate.js";
 import { planReaudit, executeReauditStep } from "../src/reaudit-executor.js";
 
@@ -40,6 +40,37 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
       ["audit_ids rewrite", withItem({ status: "IN_PROGRESS", started_at: "s", completed_tasks: ["A"], audit_ids: ["Z"] }), started],
       ["started_at rewrite", withItem({ status: "IN_PROGRESS", started_at: "t", completed_tasks: ["A"], audit_ids: ["A1"] }), started],
       ["unknown field", withItem({ status: "IN_PROGRESS", baseline: [] }), base],
+    ] as any[]) assert.equal(stateChangeAllowed(J(from), J(head)).ok, false, why);
+  });
+  test("guard: NEW TOP10_REAUDIT audit records may be added; existing audit files stay immutable", () => {
+    const rec = J({ audit_id: "QB_REAUDIT_PAIR_01_A1", audit_type: "TOP10_REAUDIT" });
+    assert.equal(reauditAuditAddAllowed("A", "audits/league/QB/QB_REAUDIT_PAIR_01_A1.json", rec), true);
+    assert.equal(reauditAuditAddAllowed("A", "audits/league/QB/QB_REAUDIT_PAIR_01_A1.md", ""), true);
+    for (const [st, p, t, why] of [["M", "audits/league/QB/QB_REAUDIT_PAIR_01_A1.json", rec, "modify"], ["D", "audits/league/QB/QB_REAUDIT_PAIR_01_A1.json", rec, "delete"],
+      ["A", "audits/league/QB/QB_PAIR_01_A1.json", rec, "non-reaudit task"], ["A", "audits/league/QB/RB_REAUDIT_PAIR_01.json", rec, "position mismatch"],
+      ["A", "audits/league/QB/QB_REAUDIT_X.json", J({ audit_type: "FULL_AUDIT" }), "wrong audit_type"], ["A", "audits/league/QB/QB_REAUDIT_X.txt", "", "extension"]] as any[])
+      assert.equal(reauditAuditAddAllowed(st, p, t), false, why);
+    const allow = (st: string, p: string) => reauditAuditAddAllowed(st, p, rec);
+    assert.deepEqual(violations(["A\taudits/league/QB/QB_REAUDIT_PAIR_01_A1.json"], () => false, allow), []);
+    assert.equal(violations(["M\taudits/league/QB/QB_REAUDIT_PAIR_01_A1.json", "D\taudits/league/QB/QB_A.json", "R100\taudits/a.json\taudits/league/QB/QB_REAUDIT_Z.json", "A\tdata/baselines/QB.json"], () => false, allow).length, 5); // rename reports both paths
+    assert.equal(violations(["A\taudits/league/QB/QB_REAUDIT_PAIR_01_A1.json"]).length, 1, "default strict");
+  });
+  test("guard: commissioner approvals are append-only records that must reference recorded audits", () => {
+    const waiting = withItem({ status: "AWAITING_REVIEW_MAJOR", started_at: "s", completed_tasks: [], audit_ids: ["A1"], awaiting: { task_id: "P", audit_id: "A1" } });
+    const ap = { decision: "APPROVED", task_id: "P", audit_id: "A1", approved_by: "PhiXCrypto", approved_at: "2026-11-02T13:36:00-05:00" };
+    const approved = withItem({ ...waiting.pending_reaudit_queue[0], status: "IN_PROGRESS", completed_tasks: ["P"], approvals: [ap], awaiting: null });
+    assert.equal(stateChangeAllowed(J(waiting), J(approved)).ok, true);
+    const mod = (patch: any) => withItem({ ...approved.pending_reaudit_queue[0], ...patch });
+    for (const [why, head, from] of [
+      ["resume without approval", mod({ approvals: [] }), waiting],
+      ["unknown audit", mod({ approvals: [{ ...ap, audit_id: "ZZ" }] }), waiting],
+      ["task not completed", mod({ completed_tasks: [], approvals: [ap] }), waiting],
+      ["unnamed approver", mod({ approvals: [{ ...ap, approved_by: "" }] }), waiting],
+      ["rewrite approval", mod({ approvals: [{ ...ap, approved_at: "x" }] }), approved],
+      ["remove approval", mod({ approvals: [] }), approved],
+      ["approval + lock change", { ...approved, positions: { QB: "IN_PROGRESS", LG: "IN_PROGRESS" } }, waiting],
+      ["approval + current_position", { ...approved, current_position: "QB" }, waiting],
+      ["COMPLETED", mod({ status: "COMPLETED" }), waiting],
     ] as any[]) assert.equal(stateChangeAllowed(J(from), J(head)).ok, false, why);
   });
   test("engine: re-audit plans a LOCKED position without mutating state", () => {
