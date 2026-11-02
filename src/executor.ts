@@ -1,7 +1,8 @@
 import fs from "node:fs";
 import { loadState, saveState } from "./state.js";
 import { getNextTask } from "./state-machine.js";
-import { createAuditAdapter, createResearchAdapter } from "./adapter-factory.js";
+import { createAuditAdapter, createResearchAdapter, selectedTransport } from "./adapter-factory.js";
+import { withTransportChecks } from "./high-trait-evidence.js";
 import { parseAuditJson } from "./audit-parser.js";
 import { validateAudit } from "./audit-validator.js";
 import { saveAuditRecord, queueReaudit } from "./persistence.js";
@@ -57,7 +58,7 @@ export async function executeNext(): Promise<Record<string, unknown>> {
 
     responseText = result.text;
     parsed = parseAuditJson(result.text);
-    validation = validateAudit(parsed);
+    validation = withTransportChecks(validateAudit(parsed), parsed, evidence, selectedTransport());
 
     if (validation.valid) break;
     feedback = validation.errors;

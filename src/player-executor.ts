@@ -1,7 +1,8 @@
 import fs from "node:fs";
 import { buildPlayerAuditTask } from "./player-audit-task.js";
 import { loadBaselineControls } from "./baseline-controls.js";
-import { createAuditAdapter, createResearchAdapter } from "./adapter-factory.js";
+import { createAuditAdapter, createResearchAdapter, selectedTransport } from "./adapter-factory.js";
+import { withTransportChecks } from "./high-trait-evidence.js";
 import { parseAuditJson } from "./audit-parser.js";
 import { validateAudit } from "./audit-validator.js";
 import { saveAuditRecord, queueReaudit } from "./persistence.js";
@@ -95,7 +96,7 @@ export async function executePlayerAudit(player: PlayerIdentity): Promise<Record
     parsed.methodology_version = state.methodology_version;
     parsed.created_at ??= new Date().toISOString();
 
-    validation = validateAudit(parsed);
+    validation = withTransportChecks(validateAudit(parsed), parsed, evidence, selectedTransport());
 
     // Structural Gridiron requirements for one-off player audits.
     if (!Array.isArray(parsed.nearest_controls) || parsed.nearest_controls.length === 0) {

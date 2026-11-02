@@ -40,8 +40,17 @@ concurrency:
 
 jobs:
   resume:
+    # Declining paid research skips the job instead of failing it.
+    if: inputs.live_confirmation == 'RUN_PAID_RESEARCH'
     runs-on: ubuntu-latest
     steps:
+      - name: Validate inputs
+        env:
+          AUDIT_ID: ${{ inputs.audit_id }}
+          PLAYER_ID: ${{ inputs.player_id }}
+        run: |
+          [[ "$AUDIT_ID" =~ ^[A-Za-z0-9_.-]+$ ]] || { echo "Invalid audit_id"; exit 1; }
+          [[ "$PLAYER_ID" =~ ^[A-Za-z0-9_-]+$ ]] || { echo "Invalid player_id"; exit 1; }
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
@@ -49,11 +58,11 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run typecheck
-      - name: Require explicit live confirmation
-        if: inputs.live_confirmation != 'RUN_PAID_RESEARCH'
-        run: |
-          echo "Paid evidence research was not authorized. Select RUN_PAID_RESEARCH to continue."
-          exit 1
+      - name: Require existing checkpoint
+        env:
+          AUDIT_ID: ${{ inputs.audit_id }}
+          PLAYER_ID: ${{ inputs.player_id }}
+        run: test -d "logs/qb-reconstruction/$PLAYER_ID/$AUDIT_ID"
       - name: Resume existing Stafford evidence with Responses API
         if: inputs.live_confirmation == 'RUN_PAID_RESEARCH' && inputs.transport == 'OPENAI_RESPONSES_TRANSPORT'
         env:

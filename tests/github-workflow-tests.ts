@@ -14,4 +14,11 @@ export function runGithubWorkflowTests(test:(name:string,fn:()=>void)=>void){
   test("artifact proposal requires confirmation, successful source run, validation, and draft PR",()=>{const yaml=read("propose-research-artifact.yml");
     assert.match(yaml,/CREATE_DRAFT_PR/);assert.match(yaml,/test "\$conclusion" = "success"/);assert.match(yaml,/npm test/);
     assert.match(yaml,/gh pr create --draft/);assert.match(yaml,/git switch -c/);assert(!yaml.includes("branch=\"gridiron/research-${{ inputs.source_run_id }}\""));});
+  test("CI uses npm ci, read-only permissions, and protected path guard",()=>{const yaml=read("ci.yml");
+    assert.match(yaml,/run: npm ci/);assert(!/npm install/.test(yaml));assert.match(yaml,/contents: read/);assert.match(yaml,/protected-paths-check\.mjs/);});
+  test("Stafford resume validates inputs and skips when declined",()=>{const yaml=read("stafford-evidence-resume.yml");
+    assert.match(yaml,/if: inputs\.live_confirmation == 'RUN_PAID_RESEARCH'\n    runs-on/);assert.match(yaml,/\^\[A-Za-z0-9_.-\]\+\$/);assert(!/exit 1\n\s*- name: Resume/.test(yaml));});
+  test("artifact proposal verifies source workflow and branch and validates evidence",()=>{const yaml=read("propose-research-artifact.yml");
+    assert.match(yaml,/stafford-evidence-resume\.yml/);assert.match(yaml,/head_branch" = "main"/);assert.match(yaml,/validate-research-artifact\.mjs/);assert.match(yaml,/protected-paths-check\.mjs/);});
+  test("codex sdk is pinned",()=>{assert.equal(JSON.parse(fs.readFileSync("package.json","utf8")).dependencies["@openai/codex-sdk"],"0.151.0");});
 }
