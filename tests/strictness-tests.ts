@@ -7,7 +7,7 @@ import { validateHighTraitEvidence, withTransportChecks, requiredTier } from "..
 import { applyFullAuditEvidenceGate } from "../src/evidence-gate.js";
 import { GrokBotFileResearchAdapter, inboxDir } from "../src/grok-bot-transport.js";
 import { saveAuditRecord } from "../src/persistence.js";
-import { violations, queueOnlyAppend } from "../scripts/protected-paths-check.mjs";
+import { violations, queueOnlyAppend, stateChangeAllowed } from "../scripts/protected-paths-check.mjs";
 
 type T = (name: string, fn: () => void | Promise<void>) => void;
 const SRC = "https://www.pff.com/nfl/players/x/1";
@@ -76,6 +76,24 @@ export async function runStrictnessTests(test: T) {
       "A\taudits/league/LG/a.json", "M\tlogs/qb-reconstruction/p/a/evidence.json", "A\tlogs/qb-reconstruction/p/a/new.json",
       "M\tsrc/x.ts", "M\tdata/players/registry.json", "M\tconfig/madden-entry-order.json"]);
     assert.equal(v.length, 7, v.join("\n"));
+  });
+  test("protected guard: narrow add-PENDING-positions exception (combinable with queue append)", () => {
+    const base = { positions: { QB: "LOCKED", LG: "IN_PROGRESS", C: "PENDING" }, current_position: "LG", pending_reaudit_queue: [] as any[] };
+    const J = (o: any) => JSON.stringify(o, null, 2);
+    const ok = (h: any) => stateChangeAllowed(J(base), J(h)).ok;
+    const item = { type: "TOP10_REAUDIT", position: "QB", status: "QUEUED_NOT_STARTED" };
+    assert(ok({ ...base, positions: { ...base.positions, FB: "PENDING", LS: "PENDING" } }));
+    assert(ok({ ...base, positions: { ...base.positions, FB: "PENDING" }, pending_reaudit_queue: [item] }));
+    assert(ok({ ...base, pending_reaudit_queue: [item] })); // queue rule alone still works
+    assert(!ok({ ...base, positions: { ...base.positions, FB: "IN_PROGRESS" } }));
+    assert(!ok({ ...base, positions: { ...base.positions, FB: "LOCKED" } }));
+    assert(!ok({ ...base, positions: { ...base.positions, LG: "LOCKED", FB: "PENDING" } }));
+    assert(!ok({ ...base, positions: { QB: "LOCKED", LG: "IN_PROGRESS", FB: "PENDING" } })); // removed C
+    assert(!ok({ ...base, current_position: "FB", positions: { ...base.positions, FB: "PENDING" } }));
+    assert(!ok({ ...base, positions: { ...base.positions, FB: "PENDING" }, pending_reaudit_queue: [{ ...item, status: "IN_PROGRESS" }] }));
+    assert(!ok({ ...base, positions: { ...base.positions, FB: "PENDING" }, locks: {} }));
+    assert(!ok(base)); assert(!stateChangeAllowed("{", J(base)).ok);
+    assert.equal(violations(["M\tstate/locks.json"], () => true).length, 1);
   });
   test("protected guard: narrow queue-append exception for state/project-state.json only", () => {
     const base = { positions: { QB: "LOCKED", LG: "IN_PROGRESS" }, current_position: "LG", pending_reaudit_queue: [] as any[] };

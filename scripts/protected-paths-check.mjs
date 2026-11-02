@@ -36,6 +36,32 @@ export function queueOnlyAppend(baseText, headText) {
   return { ok: true };
 }
 
+// SECOND NARROW EXCEPTION (commissioner-approved 2026-11-02, option a): state/project-state.json may also change by
+// ADDING new position keys to `positions` with value "PENDING". Existing position entries and every other key
+// (locks, pointers, versions...) must be identical. May combine with a valid queue append; each rule still holds.
+export function positionsOnlyAddPending(a, b) {
+  const pa = a.positions ?? {}, pb = b.positions;
+  if (!pb || typeof pb !== "object" || Array.isArray(pb)) return { ok: false, reason: "positions must be an object" };
+  for (const k of Object.keys(pa)) if (!(k in pb) || canon(pa[k]) !== canon(pb[k])) return { ok: false, reason: `existing position ${k} changed or removed` };
+  const added = Object.keys(pb).filter(k => !(k in pa));
+  for (const k of added) if (pb[k] !== "PENDING") return { ok: false, reason: `new position ${k} must be PENDING` };
+  return { ok: true, added };
+}
+export function stateChangeAllowed(baseText, headText) {
+  let a, b;
+  try { a = JSON.parse(baseText); b = JSON.parse(headText); } catch { return { ok: false, reason: "unparseable state JSON" }; }
+  const rest = o => { const c = { ...o }; delete c.pending_reaudit_queue; delete c.positions; return canon(c); };
+  if (rest(a) !== rest(b)) return { ok: false, reason: "state keys other than pending_reaudit_queue/positions changed" };
+  const pos = positionsOnlyAddPending(a, b); if (!pos.ok) return pos;
+  const queueSame = canon(a.pending_reaudit_queue ?? []) === canon(b.pending_reaudit_queue ?? []);
+  if (!queueSame) {
+    const q = queueOnlyAppend(JSON.stringify({ ...a, positions: null }), JSON.stringify({ ...b, positions: null }));
+    if (!q.ok) return q;
+  }
+  if (queueSame && pos.added.length === 0) return { ok: false, reason: "no allowed change" };
+  return { ok: true };
+}
+
 /** allowState(path) => true only when the caller has verified queueOnlyAppend for that exact path. */
 export function violations(lines, allowState = () => false) {
   const out = [];
@@ -61,7 +87,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   if (fileFlag < 0) {
     const mb = execFileSync("git", ["merge-base", base, head], { encoding: "utf8" }).trim();
     const show = ref => execFileSync("git", ["show", `${ref}:${QUEUE_EXCEPTION_PATH}`], { encoding: "utf8" });
-    allow = p => { try { const r = queueOnlyAppend(show(mb), show(head)); if (!r.ok) console.error(`queue exception not applicable: ${r.reason}`); return r.ok; } catch { return false; } };
+    allow = p => { try { const r = stateChangeAllowed(show(mb), show(head)); if (!r.ok) console.error(`state exception not applicable: ${r.reason}`); return r.ok; } catch { return false; } };
   }
   const v = violations(diff, allow);
   if (v.length) { console.error("PROTECTED PATHS CHANGED:\n" + v.join("\n")); process.exit(1); }
