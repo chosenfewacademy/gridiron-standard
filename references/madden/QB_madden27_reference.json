@@ -314,6 +314,32 @@
       "team": "Green Bay Packers",
       "reference_only": true,
       "used_as_evidence": false
+    },
+    "Trevor Lawrence": {
+      "ea_id": 21553,
+      "OVR": 87,
+      "SPD": 89,
+      "ACC": 87,
+      "AGI": 88,
+      "COD": 83,
+      "STR": 69,
+      "AWR": 89,
+      "THP": 92,
+      "SAC": 93,
+      "MAC": 92,
+      "DAC": 83,
+      "RUN": 86,
+      "TUP": 89,
+      "PAC": 84,
+      "BSK": 81,
+      "CAR": 66,
+      "JMP": 81,
+      "INJ": 88,
+      "STA": 92,
+      "TGH": 91,
+      "team": "Jacksonville Jaguars",
+      "reference_only": true,
+      "used_as_evidence": false
     }
   }
 }
