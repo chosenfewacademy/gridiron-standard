@@ -1,0 +1,124 @@
+# QB_REAUDIT_BG_11 — Background dossier: Jordan Love (Addendum v1.1.2 stage 2)
+
+Declared provenance: PFF public grade pages, nflverse releases, nfl.com. No ratings at this stage; EA/Madden never evidence.
+
+```json
+{
+  "audit_id": "QB_REAUDIT_BG_11_A1",
+  "task_id": "QB_REAUDIT_BG_11",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "player_id": "jordan_love",
+  "players": [
+    "Jordan Love"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Jordan Love",
+    "player_id": "jordan_love",
+    "team": "GB",
+    "pff": {
+      "2026": {
+        "overall": 74.5,
+        "rank": 15,
+        "rank_in_contention": 12
+      },
+      "2025": {
+        "overall": 88.8,
+        "rank": 4
+      }
+    },
+    "stats_2026": {
+      "games": 8,
+      "att": 312,
+      "cmp_pct": 61.5,
+      "yds": 2246,
+      "td": 16,
+      "int": 6,
+      "ypa": 7.2,
+      "cpoe": -1.1,
+      "sacks": 14,
+      "sack_pct": 4.3,
+      "fumbles_lost": 1
+    },
+    "usage_2026": {
+      "offensive_snaps": 523,
+      "dropbacks": 326,
+      "carries": 11
+    },
+    "impact_2026": {
+      "passing_epa_per_dropback": 0.142,
+      "total_epa_per_play": 0.135,
+      "epa_rank_in_contention": 12,
+      "rush_epa": -0.8
+    },
+    "stats_2025": {
+      "games": 15,
+      "yds": 3381,
+      "td": 23,
+      "int": 6,
+      "epa_per_dropback": 0.24,
+      "cpoe": 5.5
+    },
+    "multi_year_trend": "PFF 88.8 -> 74.5 (-14.3)",
+    "availability": {
+      "games_2026": 8,
+      "team_games_2026": 8,
+      "games_2025": 15,
+      "roster_status": "ACT"
+    },
+    "rating_relevant_notes": [],
+    "attributes_informed": [
+      "THP",
+      "SAC",
+      "MAC",
+      "DAC",
+      "TUP",
+      "PAC",
+      "BSK",
+      "AWR",
+      "CAR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "INJ"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2026",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2025",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/reg9/",
+        "retrieved_at": "2026-11-02T18:15:34Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```

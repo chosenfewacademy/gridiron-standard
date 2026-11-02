@@ -5,6 +5,7 @@ import path from "node:path";
 import { stateChangeAllowed, violations, reauditAuditAddAllowed } from "../scripts/protected-paths-check.mjs";
 import { applyFullAuditEvidenceGate, calendarSubject, isPositionWideTask } from "../src/evidence-gate.js";
 import { planReaudit, executeReauditStep } from "../src/reaudit-executor.js";
+import { checkReauditPool } from "../src/coverage-gate.js";
 
 const J = (o: any) => JSON.stringify(o, null, 2);
 const NOW = "2026-11-02T13:30:00-05:00";
@@ -140,6 +141,27 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     assert(calErr(prov, cal({ sources: [{ url: "https://www.espn.com/x", retrieved_at: "2026-11-02T18:21:28Z", claims: ["regular season", "Super Bowl"] }] })).length > 0, "non-nfl source rejected");
     assert(calErr(prov, cal({ sources: [cal().sources[0]] })).includes("POSITION_WIDE_CALENDAR_START_END_SOURCES_MISSING"));
     assert(calErr(prov, cal({ sources: cal().sources.map((s: any) => ({ ...s, retrieved_at: "2026-10-30T00:00:00Z" })) })).length > 0, "stale sources rejected");
+  });
+  test("pool amendment: approved add-only re-inclusion supersedes an exclusion; unapproved or uncited does not", () => {
+    const reg = JSON.parse(fs.readFileSync("data/players/registry.json", "utf8")).players;
+    const live = JSON.parse(fs.readFileSync("data/candidate-pools/QB.reaudit.json", "utf8"));
+    const p = { ...live, status: "PROPOSED" };
+    assert.equal(checkReauditPool(p, reg).ok, true, checkReauditPool(p, reg).errors.join("; "));
+    assert(p.exclusions.some((e: any) => e.player === "Justin Herbert"), "exclusion record kept as history");
+    const noApproval = { ...p, amendments: p.amendments.map((a: any) => ({ ...a, approved_by: undefined })) };
+    assert(checkReauditPool(noApproval, reg).errors.some((e: string) => /both candidate and excluded/.test(e)));
+    const uncited = { ...p, candidates: p.candidates.map((c: any) => ({ ...c, added_by_amendment: undefined })) };
+    assert(checkReauditPool(uncited, reg).errors.some((e: string) => /both candidate and excluded/.test(e)));
+  });
+  test("engine: v1.1.2 background tasks carry the player calendar subject; amendment players join contention; dossiers are always reviewed", () => {
+    const st = JSON.parse(fs.readFileSync("state/project-state.json", "utf8"));
+    const item = st.pending_reaudit_queue.find((x: any) => x.position === "QB");
+    if (!item.completed_tasks.includes("QB_REAUDIT_CANDIDATE_AUDIT")) return;
+    const t: any = planReaudit(st, "QB").task;
+    if (t.type === "background_analysis") { assert.ok(t.player_id && t.team); assert(!isPositionWideTask(t)); }
+    const ext = t.baseline_controls?.external_controls ?? [];
+    assert(ext.includes("Justin Herbert") && ext.includes("Sam Darnold"));
+    assert.match(fs.readFileSync("src/reaudit-executor.ts", "utf8"), /ALWAYS_REVIEW = new Set\([^)]*"background_analysis"/);
   });
   for (const [n, f] of asyncTests) { await f(); console.log(`PASS ${n}`); } // sequential: executor chdirs
 }

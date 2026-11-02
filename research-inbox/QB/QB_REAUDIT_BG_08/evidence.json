@@ -1,0 +1,527 @@
+{
+  "task_id": "QB_REAUDIT_BG_08",
+  "position": "QB",
+  "researched_at": "2026-11-02T19:18:21Z",
+  "sources": [
+    {
+      "name": "NFL.com 2026 week 9 schedule",
+      "url": "https://www.nfl.com/schedules/2026/reg9/",
+      "retrieved_at": "2026-11-02T18:15:34Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "nflverse roster 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "retrieved_at": "2026-11-02T19:18:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "nflverse player stats 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+      "retrieved_at": "2026-11-02T19:18:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "nflverse player stats 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+      "retrieved_at": "2026-11-02T19:18:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "nflverse snap counts 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-02T19:18:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "PFF QB grades 2026",
+      "url": "https://www.pff.com/grades/nfl/qb/2026",
+      "retrieved_at": "2026-11-02T19:18:10Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "PFF QB grades 2025",
+      "url": "https://www.pff.com/grades/nfl/qb/2025",
+      "retrieved_at": "2026-11-02T19:18:10Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    }
+  ],
+  "normalized": {
+    "performance_summary": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026 PFF overall (wk1-8): 80.9 (#9 of 36 qualifying QBs; #9 of the 17 in contention)",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Geno Smith 2026 (8 of 8 team games): 69.0% cmp, 1913 yds, 12 TD / 3 INT, 8.0 Y/A, CPOE +6.0, passing EPA/dropback 0.147, total EPA/play 0.093 (#14 of 17)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "postseason_context": {
+      "status": "not_applicable",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "2026 postseason has not started (week 9 in progress)",
+          "source_url": "https://www.nfl.com/schedules/2026/reg9/",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [],
+      "not_applicable_reason": "Current season postseason not yet played."
+    },
+    "multi_year_trend": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026 PFF overall (wk1-8): 80.9 (#9 of 36 qualifying QBs; #9 of the 17 in contention)",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Geno Smith 2025 PFF overall: 60.9 (#34)",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2025",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Geno Smith 2025: 15 games, 3025 yds, 19 TD / 17 INT, EPA/dropback -0.145, CPOE +0.7",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "current_role": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith: nflverse roster_2026 week 8 NYJ status ACT; 494 offensive snaps 2026",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "roster_depth_chart": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith: nflverse roster_2026 week 8 NYJ status ACT; 494 offensive snaps 2026",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "injury_practice_status": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026: 8 of 8 team games played; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "No official practice reports fetched this run"
+      ]
+    },
+    "age_career_trajectory": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith: Geno Smith 2026 PFF overall (wk1-8): 80.9 (#9 of 36 qualifying QBs; #9 of the 17 in contention); Geno Smith 2025 PFF overall: 60.9 (#34)",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "team_system_context": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith plays for NYJ; week 9 in progress, 8 weeks complete",
+          "source_url": "https://www.nfl.com/schedules/2026/reg9/",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": []
+    },
+    "preseason_participation": {
+      "status": "not_applicable",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Regular season in week 9; preseason superseded",
+          "source_url": "https://www.nfl.com/schedules/2026/reg9/",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [],
+      "not_applicable_reason": "Regular season established."
+    },
+    "current_season_performance": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026 (8 of 8 team games): 69.0% cmp, 1913 yds, 12 TD / 3 INT, 8.0 Y/A, CPOE +6.0, passing EPA/dropback 0.147, total EPA/play 0.093 (#14 of 17)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "durability_availability": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026 games 8/8",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Geno Smith 2025: 15 games, 3025 yds, 19 TD / 17 INT, EPA/dropback -0.145, CPOE +0.7",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "recent_performance_trend": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026 PFF overall (wk1-8): 80.9 (#9 of 36 qualifying QBs; #9 of the 17 in contention)",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "locked_control_comparisons": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "PFF 2026 within contention: Joe Burrow 93.3, Lamar Jackson 91.3, Dak Prescott 86.2, Brock Purdy 86.1, Josh Allen 84.4, Jared Goff 82.7, Drake Maye 81.3, Geno Smith 80.9, C.J. Stroud 81.0, Patrick Mahomes 76.2, Jordan Love 74.5, Trevor Lawrence 72.3, Matthew Stafford 66.8, Kirk Cousins 78.0, Caleb Williams 72.6, Justin Herbert 43.9, Sam Darnold 66.8",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [],
+      "compared_controls": [
+        "Joe Burrow",
+        "Lamar Jackson",
+        "Dak Prescott",
+        "Brock Purdy",
+        "Josh Allen",
+        "Jared Goff",
+        "Drake Maye",
+        "Geno Smith",
+        "C.J. Stroud",
+        "Patrick Mahomes",
+        "Jordan Love",
+        "Trevor Lawrence",
+        "Matthew Stafford",
+        "Kirk Cousins",
+        "Caleb Williams",
+        "Justin Herbert",
+        "Sam Darnold"
+      ]
+    },
+    "outside_control_comparisons": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "PFF 2026 within contention: Jordan Love 74.5, Trevor Lawrence 72.3, Matthew Stafford 66.8, Kirk Cousins 78.0, Caleb Williams 72.6, Justin Herbert 43.9, Sam Darnold 66.8",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "EPA/play 2026: Joe Burrow 0.232, Lamar Jackson 0.338, Dak Prescott 0.167, Brock Purdy 0.31, Josh Allen 0.291, Jared Goff 0.206, Drake Maye 0.231, Geno Smith 0.093, C.J. Stroud 0.141, Patrick Mahomes 0.134, Jordan Love 0.135, Trevor Lawrence 0.28, Matthew Stafford 0.055, Kirk Cousins 0.151, Caleb Williams 0.245, Justin Herbert -0.241, Sam Darnold -0.022",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Geno Smith 2025 PFF overall: 60.9 (#34)",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2025",
+          "retrieved_at": "2026-11-02T19:18:10Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [],
+      "compared_controls": [
+        "Joe Burrow",
+        "Lamar Jackson",
+        "Dak Prescott",
+        "Brock Purdy",
+        "Josh Allen",
+        "Jared Goff",
+        "Drake Maye",
+        "Geno Smith",
+        "C.J. Stroud",
+        "Patrick Mahomes",
+        "Jordan Love",
+        "Trevor Lawrence",
+        "Matthew Stafford",
+        "Kirk Cousins",
+        "Caleb Williams",
+        "Justin Herbert",
+        "Sam Darnold"
+      ]
+    },
+    "position_specific_traits": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026 (8 of 8 team games): 69.0% cmp, 1913 yds, 12 TD / 3 INT, 8.0 Y/A, CPOE +6.0, passing EPA/dropback 0.147, total EPA/play 0.093 (#14 of 17)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "passing_production_efficiency": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026 (8 of 8 team games): 69.0% cmp, 1913 yds, 12 TD / 3 INT, 8.0 Y/A, CPOE +6.0, passing EPA/dropback 0.147, total EPA/play 0.093 (#14 of 17)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "advanced_passing_metrics": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026 (8 of 8 team games): 69.0% cmp, 1913 yds, 12 TD / 3 INT, 8.0 Y/A, CPOE +6.0, passing EPA/dropback 0.147, total EPA/play 0.093 (#14 of 17)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "pressure_performance": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026 sacks 23 on 262 dropbacks (8.8%), fumbles lost 2",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "Pressure-split grades are PFF+ locked; sack counts used as proxy"
+      ]
+    },
+    "accuracy_by_depth": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026 (8 of 8 team games): 69.0% cmp, 1913 yds, 12 TD / 3 INT, 8.0 Y/A, CPOE +6.0, passing EPA/dropback 0.147, total EPA/play 0.093 (#14 of 17)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "No depth-split data available publicly"
+      ]
+    },
+    "turnover_worthy_mistakes": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026: 3 INT, 2 fumbles lost on 285 plays",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "TWP rates are PFF+ locked"
+      ]
+    },
+    "rushing_designed_run_value": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026 rushing: 23 car, 46 yds, 0 TD, rush EPA -12.1",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "scrambling_sack_avoidance": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Geno Smith 2026 sacks 23 on 262 dropbacks (8.8%), fumbles lost 2; Geno Smith 2026 rushing: 23 car, 46 yds, 0 TD, rush EPA -12.1",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T19:18:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    }
+  },
+  "conflicts": [],
+  "minimum_evidence_met": false,
+  "missing_evidence": [],
+  "calendar": {
+    "nfl_season": 2026,
+    "player_id": "ext_00-0030565",
+    "team": "NYJ",
+    "valid_from": "2026-08-01T00:00:00Z",
+    "valid_until": "2027-03-01T00:00:00Z",
+    "preseason_start": "2026-08-07T00:00:00Z",
+    "regular_season_start": "2026-09-10T00:20:00Z",
+    "postseason_start": "2027-01-16T05:00:00Z",
+    "season_end": "2027-02-15T05:00:00Z",
+    "current_season_games_available": 8,
+    "current_season_games_played": 8,
+    "regular_season_games_scheduled": 17,
+    "regular_season_complete": false,
+    "postseason_complete": false,
+    "sources": [
+      {
+        "url": "https://media.nfl.com/news-and-releases/2026-nfl-regular-season-to-kick-off-wednesday--sept--9-in-seattl",
+        "retrieved_at": "2026-11-02T18:21:28Z",
+        "claims": [
+          "NFL release: the 2026 NFL regular season kicks off Wednesday, Sept. 9, 2026 at 8:20 PM ET in Seattle"
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/news/nfl-make-your-plan-to-watch-the-2026-nfl-preseason",
+        "retrieved_at": "2026-11-02T18:21:43Z",
+        "claims": [
+          "2026 preseason opens with the Hall of Fame Game Thursday, Aug. 6, 2026, 8 PM ET"
+        ]
+      },
+      {
+        "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+        "retrieved_at": "2026-11-02T18:21:16Z",
+        "claims": [
+          "Week 18 Jan 9-10, 2027; Wild Card Jan 16-18, 2027; Divisional Jan 23-24; Conference Championships Jan 31; Super Bowl LXI Sunday Feb 14, 2027 (season end)"
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/reg9/",
+        "retrieved_at": "2026-11-02T18:15:34Z",
+        "claims": [
+          "2026 regular season Week 9 in progress; 8 weeks completed; 17-game schedule"
+        ]
+      }
+    ]
+  },
+  "calendar_web_search_observed": true
+}

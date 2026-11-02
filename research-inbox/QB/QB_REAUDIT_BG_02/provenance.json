@@ -1,0 +1,77 @@
+{
+  "transport": "GROK_BOT_FILE_TRANSPORT",
+  "author": "grok-bot",
+  "task_id": "QB_REAUDIT_BG_02",
+  "position": "QB",
+  "researched_at": "2026-11-02T19:18:21Z",
+  "queries": [
+    {
+      "query": "PFF QB grades 2026 and 2025 (player Lamar Jackson)",
+      "executed_at": "2026-11-02T19:18:10Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "nflverse stats_player_reg 2026/2025, snap_counts 2026, roster 2026 rows for Lamar Jackson (lamar_jackson)",
+      "executed_at": "2026-11-02T19:18:21Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "NFL.com 2026 schedule week 9 + official season dates (calendar, player subject lamar_jackson/BAL)",
+      "executed_at": "2026-11-02T18:15:34Z",
+      "purpose": "CALENDAR"
+    }
+  ],
+  "retrievals": [
+    {
+      "url": "https://www.pff.com/grades/nfl/qb/2026",
+      "retrieved_at": "2026-11-02T19:18:10Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://www.pff.com/grades/nfl/qb/2025",
+      "retrieved_at": "2026-11-02T19:18:10Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+      "retrieved_at": "2026-11-02T19:18:21Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+      "retrieved_at": "2026-11-02T19:18:21Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-02T19:18:21Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "retrieved_at": "2026-11-02T19:18:21Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://www.nfl.com/schedules/2026/reg9/",
+      "retrieved_at": "2026-11-02T18:15:34Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://media.nfl.com/news-and-releases/2026-nfl-regular-season-to-kick-off-wednesday--sept--9-in-seattl",
+      "retrieved_at": "2026-11-02T18:21:28Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://www.nfl.com/news/nfl-make-your-plan-to-watch-the-2026-nfl-preseason",
+      "retrieved_at": "2026-11-02T18:21:43Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+      "retrieved_at": "2026-11-02T18:21:16Z",
+      "method": "WEB_FETCH"
+    }
+  ],
+  "attestation": "All listed queries and retrievals were performed live for this task; no EA ratings used as evidence."
+}

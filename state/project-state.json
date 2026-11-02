@@ -61,44 +61,30 @@
       "completed_tasks": [
         "QB_REAUDIT_PROVISIONAL_TOP10",
         "QB_REAUDIT_PAIR_01",
-        "QB_REAUDIT_PAIR_02"
+        "QB_REAUDIT_PAIR_02",
+        "QB_REAUDIT_CANDIDATE_AUDIT"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
         "QB_REAUDIT_PAIR_01_A1",
         "QB_REAUDIT_PAIR_02_A1",
         "QB_REAUDIT_PAIR_03_A1",
-        "QB_REAUDIT_CANDIDATE_AUDIT_A1"
+        "QB_REAUDIT_CANDIDATE_AUDIT_A1",
+        "QB_REAUDIT_BG_01_A1"
       ],
-      "current_stage": "candidate_audit",
-      "current_task": "QB_REAUDIT_CANDIDATE_AUDIT",
-      "updated_at": "2026-11-02T19:01:46.963Z",
+      "current_stage": "background_analysis",
+      "current_task": "QB_REAUDIT_BG_01",
+      "updated_at": "2026-11-02T19:20:24.933Z",
       "last_result": {
-        "restart": "ADDENDUM_V1_1_2",
-        "superseded_checkpoint": {
-          "reason": "REVIEW_MAJOR",
-          "task_id": "QB_REAUDIT_PAIR_03",
-          "audit_id": "QB_REAUDIT_PAIR_03_A1"
-        },
-        "earlier_order_audit_ids": [
-          "QB_REAUDIT_PROVISIONAL_TOP10_A1",
-          "QB_REAUDIT_PAIR_01_A1",
-          "QB_REAUDIT_PAIR_02_A1",
-          "QB_REAUDIT_PAIR_03_A1"
-        ],
-        "task_id": "QB_REAUDIT_CANDIDATE_AUDIT",
+        "task_id": "QB_REAUDIT_BG_01",
         "status": "FLAGGED",
         "errors": [],
-        "flags": [
-          "LOCKED_MEMBERS_OUTSIDE_POOL: Herbert, Darnold",
-          "LIMITED_SAMPLE_IN_CONTENTION: Jackson, C. Williams",
-          "LOCKED_CONTROL_CONFLICT"
-        ]
+        "flags": []
       },
       "awaiting": {
         "reason": "REVIEW_MAJOR",
-        "task_id": "QB_REAUDIT_CANDIDATE_AUDIT",
-        "audit_id": "QB_REAUDIT_CANDIDATE_AUDIT_A1"
+        "task_id": "QB_REAUDIT_BG_01",
+        "audit_id": "QB_REAUDIT_BG_01_A1"
       },
       "approvals": [
         {
@@ -124,6 +110,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-02T13:53:00-05:00",
           "note": "Commissioner approves pair 02: Purdy over Lamar Jackson"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_CANDIDATE_AUDIT",
+          "audit_id": "QB_REAUDIT_CANDIDATE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T19:15:00Z",
+          "note": "Commissioner approved candidate audit; Herbert and Darnold re-included via add-only pool amendment QB_POOL_AMEND_01 (17 in contention)"
         }
       ]
     },

@@ -224,15 +224,20 @@ function planV112(pos: Position, done: Set<string>, I: ReturnType<typeof ids>, o
     candidate_pool: pool.candidates.map(c => ({ player: c.player, aliases: c.aliases ?? [], player_id: c.player_id, flags: c.flags ?? [] })) });
   const cand = approvedOutput(pos, I.candidate, opts);
   if (!cand) throw new Error(`${pos}: ${I.candidate} is completed but its approved record is missing.`);
-  const set = contentionSet(cand);
+  const set = [...contentionSet(cand)];
+  // Commissioner add-only pool amendments append re-included players to the contention set (after the approved audit's list).
+  for (const a of (pool as any).amendments ?? []) for (const n of a?.contention_additions ?? [])
+    if (a.approved_by && a.approved_at && !set.some(x => normName(x) === normName(n))) set.push(n);
   const poolNames = new Set(pool.candidates.flatMap(c => [c.player, ...(c.aliases ?? [])].map(normName)));
   for (const n of set) if (!poolNames.has(normName(n))) throw new Error(`${pos}: contention player ${n} is not in the approved pool.`);
+  // Single-player stages carry the strict calendar subject (player_id/team) from the approved pool.
+  const subjectOf = (n: string) => { const c: any = pool.candidates.find(c => [c.player, ...(c.aliases ?? [])].some(x => normName(x) === normName(n))); return c ? { player_id: c.player_id, team: c.team } : {}; };
   const controls = { ...(ra?.baseline_controls ? { locked_baseline: ra.baseline_controls } : {}), top_10: set.slice(0, 10).map((player, i) => ({ rank: i + 1, player })), external_controls: set.slice(10) };
   for (let i = 0; i < set.length; i++) if (!done.has(I.background(i + 1)))
-    return mk("background_analysis", { task_id: I.background(i + 1), type: "background_analysis", players: [set[i]], baseline_controls: controls });
+    return mk("background_analysis", { task_id: I.background(i + 1), type: "background_analysis", players: [set[i]], ...subjectOf(set[i]), baseline_controls: controls });
   const overall: Record<string, number> = {};
   for (let i = 0; i < set.length; i++) {
-    if (!done.has(I.rate(i + 1))) return mk("player_rating", { task_id: I.rate(i + 1), type: "player_rating", players: [set[i]], baseline_controls: controls,
+    if (!done.has(I.rate(i + 1))) return mk("player_rating", { task_id: I.rate(i + 1), type: "player_rating", players: [set[i]], ...subjectOf(set[i]), baseline_controls: controls,
       madden_reference_policy: "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT" });
     const r = approvedOutput(pos, I.rate(i + 1), opts);
     const o = Number(r?.proposed_ovr);

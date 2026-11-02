@@ -1,0 +1,138 @@
+# QB_REAUDIT_BG_15 — Background dossier: Caleb Williams (Addendum v1.1.2 stage 2)
+
+Declared provenance: PFF public grade pages, nflverse releases, nfl.com. No ratings at this stage; EA/Madden never evidence.
+
+```json
+{
+  "audit_id": "QB_REAUDIT_BG_15_A1",
+  "task_id": "QB_REAUDIT_BG_15",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "player_id": "ext_00-0039918",
+  "players": [
+    "Caleb Williams"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Caleb Williams",
+    "player_id": "ext_00-0039918",
+    "team": "CHI",
+    "pff": {
+      "2026": {
+        "overall": 72.6,
+        "rank": 17,
+        "rank_in_contention": 13
+      },
+      "2025": {
+        "overall": 76.9,
+        "rank": 13
+      }
+    },
+    "stats_2026": {
+      "games": 4,
+      "att": 124,
+      "cmp_pct": 71.0,
+      "yds": 1020,
+      "td": 5,
+      "int": 1,
+      "ypa": 8.23,
+      "cpoe": 9.0,
+      "sacks": 12,
+      "sack_pct": 8.8,
+      "fumbles_lost": 0
+    },
+    "usage_2026": {
+      "offensive_snaps": 285,
+      "dropbacks": 136,
+      "carries": 24
+    },
+    "impact_2026": {
+      "passing_epa_per_dropback": 0.307,
+      "total_epa_per_play": 0.245,
+      "epa_rank_in_contention": 5,
+      "rush_epa": -2.4
+    },
+    "stats_2025": {
+      "games": 17,
+      "yds": 3942,
+      "td": 27,
+      "int": 7,
+      "epa_per_dropback": 0.071,
+      "cpoe": -3.5
+    },
+    "multi_year_trend": "PFF 76.9 -> 72.6 (-4.3)",
+    "availability": {
+      "games_2026": 4,
+      "team_games_2026": 7,
+      "games_2025": 17,
+      "roster_status": "ACT"
+    },
+    "rating_relevant_notes": [
+      "high sack rate 8.8%"
+    ],
+    "attributes_informed": [
+      "THP",
+      "SAC",
+      "MAC",
+      "DAC",
+      "TUP",
+      "PAC",
+      "BSK",
+      "AWR",
+      "CAR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "INJ"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2026",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2025",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/reg9/",
+        "retrieved_at": "2026-11-02T18:15:34Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [
+    "LIMITED_SAMPLE: 4 of 7 team games",
+    "GRADE_VS_EFFICIENCY_SPLIT: PFF #13 vs EPA/play #5 of 17"
+  ],
+  "locked_control_conflict": false,
+  "madden_reference": [
+    {
+      "player": "Caleb Williams",
+      "ovr": 94,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "commissioner-provided Madden reference"
+    }
+  ]
+}
+```

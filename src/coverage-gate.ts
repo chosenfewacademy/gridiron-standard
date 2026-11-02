@@ -61,7 +61,15 @@ export function checkCoverage(pool: CandidatePool, registryPlayers: any[], opts:
   }
   const excl = new Map<string, PoolExclusion>();
   for (const e of pool.exclusions) for (const n of [e.player, ...(e.aliases ?? [])]) excl.set(normName(n), e);
-  for (const k of cand.keys()) if (excl.has(k)) errors.push(`${cand.get(k)!.player} is both candidate and excluded`);
+  // Commissioner add-only pool amendment: an exclusion record stays as history but is superseded for players the
+  // amendment re-includes (amendment must carry approved_by/approved_at; the candidate must cite the amendment id).
+  const amended = new Map<string, string>();
+  for (const a of (pool as any).amendments ?? []) {
+    if (a?.type !== "ADD_ONLY_CONTENTION_ADDITION" || !a.approved_by || !a.approved_at || !a.amendment_id) { errors.push("pool amendments must be ADD_ONLY_CONTENTION_ADDITION with amendment_id/approved_by/approved_at"); continue; }
+    for (const n of a.players ?? []) amended.set(normName(n), a.amendment_id);
+  }
+  for (const k of cand.keys()) if (excl.has(k) && !(amended.has(k) && (cand.get(k) as any).added_by_amendment === amended.get(k)))
+    errors.push(`${cand.get(k)!.player} is both candidate and excluded`);
   for (const e of pool.exclusions) if (e.code === "NOT_ON_2026_ROSTER") errors.push(`${e.player}: off-roster players belong in free_agents with an explicit status, not exclusions`);
   const fa = new Map<string, FreeAgentEntry>(), inj = new Map<string, InjuredEntry>();
   for (const f of pool.free_agents ?? []) {

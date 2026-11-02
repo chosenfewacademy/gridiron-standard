@@ -392,6 +392,42 @@
         "pff_2026#14",
         "nflverse_snaps_2026#17"
       ]
+    },
+    {
+      "player": "Justin Herbert",
+      "player_id": "justin_herbert",
+      "team": "LAC",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-02T13:14:00-05:00",
+        "note": "nflverse roster_2026 week 8 ACT"
+      },
+      "flags": [
+        "COMMISSIONER_REINCLUDED",
+        "LOCKED_BASELINE_MEMBER"
+      ],
+      "reasoning": "Re-included by commissioner (2026-11-02 2:15 PM ET) so locked-baseline members are rated: PFF 2026 43.6; PFF 2025 78.0 (#11); locked baseline #8",
+      "citations": [],
+      "added_by_amendment": "QB_POOL_AMEND_01"
+    },
+    {
+      "player": "Sam Darnold",
+      "player_id": "sam_darnold",
+      "team": "SEA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-02T13:14:00-05:00",
+        "note": "nflverse roster_2026 week 8 ACT"
+      },
+      "flags": [
+        "COMMISSIONER_REINCLUDED",
+        "LOCKED_BASELINE_MEMBER"
+      ],
+      "reasoning": "Re-included by commissioner (2026-11-02 2:15 PM ET) so locked-baseline members are rated: PFF 2026 66.8; PFF 2025 79.0 (#10); locked baseline #10",
+      "citations": [],
+      "added_by_amendment": "QB_POOL_AMEND_01"
     }
   ],
   "exclusions": [
@@ -682,5 +718,22 @@
   },
   "approved_by": "PhiXCrypto (commissioner)",
   "approved_at": "2026-11-02T04:29:56.783Z",
-  "approved_from": "data/candidate-pools/QB.reaudit.proposed.json"
+  "approved_from": "data/candidate-pools/QB.reaudit.proposed.json",
+  "amendments": [
+    {
+      "amendment_id": "QB_POOL_AMEND_01",
+      "type": "ADD_ONLY_CONTENTION_ADDITION",
+      "players": [
+        "Justin Herbert",
+        "Sam Darnold"
+      ],
+      "contention_additions": [
+        "Justin Herbert",
+        "Sam Darnold"
+      ],
+      "approved_by": "PhiXCrypto",
+      "approved_at": "2026-11-02T19:15:00Z",
+      "note": "Exclusion records kept unchanged as history; these players are superseded into candidates and the contention set after QB_REAUDIT_CANDIDATE_AUDIT_A1."
+    }
+  ]
 }
