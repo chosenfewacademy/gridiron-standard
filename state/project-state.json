@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -84,7 +84,8 @@
         "QB_REAUDIT_RATE_02",
         "QB_REAUDIT_RATE_03",
         "QB_REAUDIT_RATE_04",
-        "QB_REAUDIT_RATE_05"
+        "QB_REAUDIT_RATE_05",
+        "QB_REAUDIT_RATE_06"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
@@ -118,7 +119,7 @@
       ],
       "current_stage": "player_rating",
       "current_task": "QB_REAUDIT_RATE_06",
-      "updated_at": "2026-11-02T23:31:00.307Z",
+      "updated_at": "2026-11-02T23:31:13.872Z",
       "last_result": {
         "task_id": "QB_REAUDIT_RATE_06",
         "status": "FLAGGED",
@@ -127,11 +128,7 @@
           "AUTO_RUN_T30U: attributes from fixed percentile mapping; adjust in head-to-heads"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "QB_REAUDIT_RATE_06",
-        "audit_id": "QB_REAUDIT_RATE_06_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -340,6 +337,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-02T23:28:00Z",
           "note": "Approved Allen RATE_05 at OVR 88 (card t29s11)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_06",
+          "audit_id": "QB_REAUDIT_RATE_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-02T23:31:13Z",
+          "note": "Automatic approval under t30u (user: keep going on ratings automatically); rating may be adjusted during the head-to-heads"
         }
       ]
     },
