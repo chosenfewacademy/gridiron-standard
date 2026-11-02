@@ -1,0 +1,247 @@
+{
+  "task_id": "QB_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Matthew Stafford"
+      },
+      {
+        "rank": 2,
+        "player": "Joe Burrow"
+      },
+      {
+        "rank": 3,
+        "player": "Josh Allen"
+      },
+      {
+        "rank": 4,
+        "player": "Drake Maye"
+      },
+      {
+        "rank": 5,
+        "player": "Jordan Love"
+      },
+      {
+        "rank": 6,
+        "player": "Dak Prescott"
+      },
+      {
+        "rank": 7,
+        "player": "Brock Purdy"
+      },
+      {
+        "rank": 8,
+        "player": "Justin Herbert"
+      },
+      {
+        "rank": 9,
+        "player": "Trevor Lawrence"
+      },
+      {
+        "rank": 10,
+        "player": "Sam Darnold"
+      }
+    ],
+    "external_controls": [
+      {
+        "player": "Patrick Mahomes",
+        "ovr": 83
+      },
+      {
+        "player": "Lamar Jackson",
+        "ovr": 83
+      },
+      {
+        "player": "Jared Goff",
+        "ovr": 82
+      }
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Drake Maye",
+      "aliases": [],
+      "player_id": "drake_maye",
+      "flags": []
+    },
+    {
+      "player": "Joe Burrow",
+      "aliases": [],
+      "player_id": "joe_burrow",
+      "flags": []
+    },
+    {
+      "player": "Dak Prescott",
+      "aliases": [],
+      "player_id": "dak_prescott",
+      "flags": []
+    },
+    {
+      "player": "Josh Allen",
+      "aliases": [],
+      "player_id": "josh_allen",
+      "flags": []
+    },
+    {
+      "player": "Brock Purdy",
+      "aliases": [],
+      "player_id": "brock_purdy",
+      "flags": []
+    },
+    {
+      "player": "Matthew Stafford",
+      "aliases": [],
+      "player_id": "matthew_stafford",
+      "flags": []
+    },
+    {
+      "player": "Jared Goff",
+      "aliases": [],
+      "player_id": "jared_goff",
+      "flags": []
+    },
+    {
+      "player": "Jordan Love",
+      "aliases": [],
+      "player_id": "jordan_love",
+      "flags": []
+    },
+    {
+      "player": "Lamar Jackson",
+      "aliases": [],
+      "player_id": "lamar_jackson",
+      "flags": []
+    },
+    {
+      "player": "Kirk Cousins",
+      "aliases": [],
+      "player_id": "ext_00-0029604",
+      "flags": []
+    },
+    {
+      "player": "C.J. Stroud",
+      "aliases": [],
+      "player_id": "ext_00-0039163",
+      "flags": []
+    },
+    {
+      "player": "Geno Smith",
+      "aliases": [],
+      "player_id": "ext_00-0030565",
+      "flags": []
+    },
+    {
+      "player": "Trevor Lawrence",
+      "aliases": [],
+      "player_id": "trevor_lawrence",
+      "flags": []
+    },
+    {
+      "player": "Patrick Mahomes",
+      "aliases": [],
+      "player_id": "patrick_mahomes",
+      "flags": []
+    },
+    {
+      "player": "Caleb Williams",
+      "aliases": [],
+      "player_id": "ext_00-0039918",
+      "flags": []
+    },
+    {
+      "player": "Bryce Young",
+      "aliases": [],
+      "player_id": "ext_00-0039150",
+      "flags": []
+    },
+    {
+      "player": "Jayden Daniels",
+      "aliases": [],
+      "player_id": "ext_00-0039910",
+      "flags": []
+    },
+    {
+      "player": "Jacoby Brissett",
+      "aliases": [],
+      "player_id": "ext_00-0033119",
+      "flags": []
+    },
+    {
+      "player": "Tyler Shough",
+      "aliases": [],
+      "player_id": "ext_00-0040743",
+      "flags": []
+    },
+    {
+      "player": "Cam Ward",
+      "aliases": [],
+      "player_id": "ext_00-0040676",
+      "flags": []
+    }
+  ],
+  "position": "QB",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 1,
+    "group": "Offense",
+    "current_status": "LOCKED",
+    "pff_cited_inputs": [
+      "overall",
+      "passing",
+      "rushing",
+      "grade under pressure",
+      "grade from clean pocket",
+      "big-time throw %",
+      "turnover-worthy play %"
+    ],
+    "position_stats": [
+      "completion %, yards, TD, INT",
+      "EPA/play, CPOE",
+      "ANY/A, passer rating",
+      "sacks, sack %, pressure-to-sack %",
+      "rush attempts, yards, scrambles"
+    ],
+    "usage_snap_metrics": [
+      "dropbacks",
+      "play-action rate",
+      "aDOT",
+      "time to throw (NGS)"
+    ],
+    "on_field_impact": [
+      "EPA/dropback",
+      "success rate",
+      "4th-quarter/2-minute performance"
+    ],
+    "madden_attributes_informed": [
+      "THP",
+      "SAC",
+      "MAC",
+      "DAC",
+      "TUP",
+      "TOR",
+      "PAC",
+      "BSK",
+      "AWR",
+      "CAR",
+      "SPD",
+      "ACC",
+      "AGI"
+    ],
+    "note": "Existing QB evidence categories and QB evidence policy are UNCHANGED (src/evidence-gate.ts, src/qb-evidence-policy.ts)."
+  }
+}
