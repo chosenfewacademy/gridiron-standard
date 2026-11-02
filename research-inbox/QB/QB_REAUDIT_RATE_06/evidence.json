@@ -92,6 +92,27 @@
       "claims": [
         "Jared Goff 2025: 17/17 team games, 578 att, aDOT 6.4, EPA/dropback +0.17, CPOE +1.8; deep (20+) 6.7% of att, 48.7% cmp, EPA +0.68; 10-19 yds 60.3% EPA +0.64; <10 yds 72.0%; hit 39.2% EPA -0.24 (n=79) vs clean 72.5%; sack rate 6.2%; 5 scrambles 48 yds, 6 designed runs 5 yds, 0 rush TD; 34 TD/8 INT; 5 fumbles lost"
       ]
+    },
+    {
+      "name": "nflverse FTN charting 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Jared Goff 2026 FTN charting (regular season): 264 dropbacks; play-action 28.0% EPA +0.30 vs non-PA +0.23; out of pocket 7.6% EPA +0.02, cmp 40.0%; vs blitz EPA +0.38 (n=78); interception-worthy 1.2% of attempts; QB-fault sacks 4 of 16",
+        "No jumping / elevated-throw measure exists in FTN charting, nflverse play-by-play, or PFF season grades"
+      ]
+    },
+    {
+      "name": "nflverse FTN charting 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Jared Goff 2025 FTN charting (regular season): 614 dropbacks; play-action 25.2% EPA +0.29 vs non-PA +0.14; out of pocket 9.8% EPA -0.23, cmp 41.7%; vs blitz EPA +0.28 (n=188); interception-worthy 1.6% of attempts; QB-fault sacks 12 of 38"
+      ]
     }
   ],
   "normalized": {
