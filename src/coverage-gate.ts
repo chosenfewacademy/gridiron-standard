@@ -109,3 +109,15 @@ export function requireApprovedPool(pos: string, root = process.cwd()): Candidat
   if (!r.ok) throw new Error(`COVERAGE_GATE_BLOCKED: ${pos}: ${r.errors.join("; ")}`);
   return pool;
 }
+
+/** Re-audit pools for LOCKED (or in-progress) positions: stored as <POS>.reaudit.proposed.json, never an active pool.
+ *  They must pass the normal coverage gate and declare that a re-audit needs the commissioner's TOP10_REAUDIT trigger. */
+export function checkReauditPool(pool: CandidatePool & { reaudit?: any }, registryPlayers: any[]): CoverageResult {
+  const r = checkCoverage(pool, registryPlayers);
+  const errors = [...r.errors];
+  if (pool.status !== "PROPOSED") errors.push("re-audit pools stay PROPOSED; they are never approved in place of a locked baseline");
+  if (!pool.reaudit || pool.reaudit.requires_trigger !== "TOP10_REAUDIT") errors.push("re-audit pool must declare reaudit.requires_trigger = TOP10_REAUDIT");
+  if (pool.reaudit && !Array.isArray(pool.reaudit.flags)) errors.push("re-audit pool must carry baseline comparison flags (array)");
+  if (pool.reaudit && !Array.isArray(pool.reaudit.compared_list)) errors.push("re-audit pool must record the list it was compared against");
+  return { ...r, ok: errors.length === 0, errors };
+}

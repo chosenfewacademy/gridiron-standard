@@ -31,3 +31,16 @@ Gates, REVIEW_MAJOR approval, immutability and `GRIDIRON_MAX_REVISIONS` (default
 - The gate rejects exclusions with code `NOT_ON_2026_ROSTER`, so off-roster players can't be left out silently.
 - Injured players do not count toward the 20 healthy pool slots.
 - To add unsigned players, run `roster:refresh <prior season> --from-file <prior roster> --add-only --free-agent --names "..."`. This clears `team`, keeps `previous_team` and sets `roster_status` to UNSIGNED_FREE_AGENT.
+
+## Re-audit pools for locked positions
+
+- QB, RB, WR, TE and LT are locked, and LG is in progress. `planNext` refuses locked positions, so their proposed pools are stored separately as `data/candidate-pools/<POS>.reaudit.proposed.json`. `requireApprovedPool` never reads these files.
+- Check one with `npm run coverage:check -- <POS> --reaudit`. This runs `checkReauditPool`: the normal coverage gate, plus these rules:
+  - the pool must stay PROPOSED;
+  - it must declare `reaudit.requires_trigger = "TOP10_REAUDIT"`;
+  - it must record `compared_list` and `flags`.
+- `reaudit.flags` compares the pool with the locked baseline `top_10`. For LG it uses the provisional names recorded in the engine; pairs 01–02 predate the engine and are not recorded. The flags are:
+  - LOCKED_PLAYER_IR, PUP, NFI, INACTIVE, FREE_AGENT or RETIRED;
+  - LOCKED_PLAYER_DECLINED (pool rank above 15, or outside the pool);
+  - STRONG_CANDIDATE_NOT_IN_TOP10 (pool top 12).
+- Nothing here changes baselines, locks, state or audit history. An actual re-audit needs the commissioner's explicit TOP10_REAUDIT trigger.

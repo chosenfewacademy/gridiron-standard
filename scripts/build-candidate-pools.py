@@ -44,6 +44,9 @@ HON = {  # 2025 season All-Pro (AP 1st/2nd, PFWA, TSN), transcribed from ALLPRO
  "LB": ["Jordyn Brooks", "Jack Campbell", "Ernest Jones IV", "Devin Lloyd"],
  "CB": ["Derek Stingley Jr.", "Quinyon Mitchell", "Patrick Surtain II", "Jaycee Horn", "Devon Witherspoon", "Cooper DeJean"],
  "S": ["Kyle Hamilton", "Kevin Byard", "Jessie Bates", "Talanoa Hufanga", "Xavier McKinney", "Derwin James"],
+ "QB": ["Matthew Stafford", "Drake Maye"], "RB": ["Bijan Robinson", "James Cook", "Christian McCaffrey", "Jonathan Taylor"],
+ "WR": ["Puka Nacua", "Jaxon Smith-Njigba", "Ja'Marr Chase", "George Pickens", "Chris Olave", "Amon-Ra St. Brown"], "TE": ["Trey McBride", "Kyle Pitts"],
+ "LT": ["Garett Bolles", "Trent Williams", "Penei Sewell"], "LG": ["Joe Thuney", "Quenton Nelson", "Quinn Meinerz"],
  "K": ["Will Reichard", "Brandon Aubrey", "Cameron Dicker"], "P": ["Jordan Stout", "Tress Way", "Michael Dickson"]}
 FAM = {  # pff key, roster depth labels for usage, stats family, honors key, nflverse stats positions
  "C": ("c", {"C"}, None, "C", set()), "RG": ("g", {"G"}, None, "RG", set()), "RT": ("t", {"T"}, None, "RT", set()),
@@ -52,7 +55,9 @@ FAM = {  # pff key, roster depth labels for usage, stats family, honors key, nfl
  "MIKE": ("lb", {"ILB", "MLB"}, "tackle", "LB", {"LB", "ILB", "MLB", "OLB"}), "WILL": ("lb", {"ILB", "MLB", "OLB"}, "tackle", "LB", {"LB", "ILB", "MLB", "OLB"}),
  "SAM": ("lb", {"ILB", "MLB", "OLB"}, "tackle", "LB", {"LB", "ILB", "MLB", "OLB"}),
  "CB": ("cb", {"CB"}, "cover", "CB", {"CB", "DB"}), "FS": ("s", {"FS", "SS"}, "cover", "S", {"SAF", "FS", "SS", "S", "DB"}),
- "SS": ("s", {"FS", "SS"}, "cover", "S", {"SAF", "FS", "SS", "S", "DB"}), "K": ("k", set(), "kick", "K", {"K"}), "P": ("p", set(), "punt", "P", {"P"})}
+ "SS": ("s", {"FS", "SS"}, "cover", "S", {"SAF", "FS", "SS", "S", "DB"}),
+ "QB": ("qb", {"QB"}, "qbpass", "QB", {"QB"}), "RB": ("hb", {"RB"}, "scrim", "RB", {"RB", "FB"}), "WR": ("wr", {"WR"}, "recv", "WR", {"WR"}),
+ "TE": ("te", {"TE"}, "recv", "TE", {"TE"}), "LT": ("t", {"T"}, None, "LT", set()), "LG": ("g", {"G"}, None, "LG", set()), "K": ("k", set(), "kick", "K", {"K"}), "P": ("p", set(), "punt", "P", {"P"})}
 def nf(x):
     try: return float(x or 0)
     except ValueError: return 0.0
@@ -60,6 +65,9 @@ def stat_score(r, kind):
     if kind == "rush": return nf(r["def_sacks"]) + 0.5 * nf(r["def_qb_hits"]) + 0.25 * nf(r["def_tackles_for_loss"])
     if kind == "tackle": return nf(r["def_tackles_solo"]) + 0.5 * nf(r["def_tackle_assists"]) + 2 * nf(r["def_tackles_for_loss"]) + 3 * nf(r["def_interceptions"]) + nf(r["def_pass_defended"])
     if kind == "cover": return 3 * nf(r["def_interceptions"]) + nf(r["def_pass_defended"])
+    if kind == "qbpass": return nf(r["passing_epa"]) + nf(r["rushing_epa"])
+    if kind == "scrim": return (nf(r["rushing_yards"]) + nf(r["receiving_yards"])) / 10 + 6 * (nf(r["rushing_tds"]) + nf(r["receiving_tds"]))
+    if kind == "recv": return nf(r["receiving_yards"]) / 10 + 6 * nf(r["receiving_tds"])
     if kind == "kick": return nf(r["fg_made"]) + 2 * nf(r["fg_made_50_59"]) + 3 * nf(r["fg_made_60_"]) - 2 * nf(r["fg_missed"])
     if kind == "punt": return (nf(r["pt_net_yards"]) / nf(r["pt_att"])) if nf(r["pt_att"]) >= 10 else 0
 STATS = {s: rows(f"stats_player_reg_{s}.csv") for s in (2026, 2025)}
@@ -76,7 +84,7 @@ def stat_top(kind, positions, season):
     xs = [(r["player_display_name"], stat_score(r, kind)) for r in STATS[season] if r["position"] in positions and r["season_type"] == "REG"]
     return sorted([x for x in xs if x[1] > 0], key=lambda x: -x[1])
 nfl = lambda ds, s: f"https://github.com/nflverse/nflverse-data/releases/download/{ds}/{ds}_{s}.csv" if ds != "stats_player" else f"https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_{s}.csv"
-STAT_LABEL = {"rush": "sacks + 0.5*QB hits + 0.25*TFL", "tackle": "solo + 0.5*assists + 2*TFL + 3*INT + PD", "cover": "3*INT + PD", "kick": "FGM + 2*50-59 + 3*60+ - 2*missed", "punt": "net yards per punt (>=10 punts)"}
+STAT_LABEL = {"qbpass": "passing EPA + rushing EPA", "scrim": "scrimmage yds/10 + 6*TD", "recv": "receiving yds/10 + 6*TD", "rush": "sacks + 0.5*QB hits + 0.25*TFL", "tackle": "solo + 0.5*assists + 2*TFL + 3*INT + PD", "cover": "3*INT + PD", "kick": "FGM + 2*50-59 + 3*60+ - 2*missed", "punt": "net yards per punt (>=10 punts)"}
 
 ROSTER_URL = "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
 # Off-roster statuses verified by hand from free public sources (retrieved 2026-11-01). Any off-roster top name not here
@@ -90,9 +98,12 @@ VERIFIED = {
      note="Retired March 2026 after five seasons. Ineligible."),
  "harrisonmevis": dict(status="CUT", last_team="LA", status_as_of="2026-10-14", source_url="https://www.nfl.com/news/rams-releasing-kicker-harrison-mevis-signing-k-blake-grupe-off-jets-practice-squad",
      note="Released by the Rams Oct 2026 (therams.com/team/transactions); unsigned free agent."),
+ "deandrehopkins": dict(status="FREE_AGENT", last_team="BAL", status_as_of="2026-08-01", source_url="https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-taking-coaching-job-at-georgia-tech-deandre-hopkins-says-he-isnt-retired",
+     note="Unsigned since his BAL deal expired; Georgia Tech assistant WR coach since Jul 31, 2026 but says he has not retired."),
  "matthaack": dict(status="FREE_AGENT", last_team="ARI", status_as_of="2026-08-30", source_url="https://en.wikipedia.org/wiki/Matt_Haack",
      note="Released by New England Aug 30, 2026 (final cuts); unsigned."),
 }
+UNV = []  # off-roster names with no verified status -> build fails at the end
 TEAM_TX = {"LA": "https://www.therams.com/team/transactions/"}
 def inj_status(ro):
     if ro["status"] == "INA": return "INACTIVE"
@@ -142,7 +153,7 @@ def build(pos):
             v = VERIFIED.get(k)
             if not v and ro and ro["status"] in ("CUT", "RET"):
                 v = dict(status="RETIRED" if ro["status"] == "RET" else "CUT", last_team=ro["team"], status_as_of=RET[:10], source_url=ROSTER_URL, note=f"nflverse roster_2026 (week 8) status {ro['status']}/{ro['status_description_abbr']}.")
-            if not v: sys.exit(f"{pos}: {n} is off-roster with no verified status; add a VERIFIED entry with a public source")
+            if not v: UNV.append(f"{pos}: {n}"); continue
             fid = REG.get(k) or (rid if rid in REG.values() else None)
             if v["status"] != "RETIRED" and not fid: sys.exit(f"{pos}: eligible free agent {n} missing from registry; add with roster:refresh --add-only --free-agent --names")
             g25 = G25.get(k); fas.append(dict(player=n, player_id=fid if v["status"] != "RETIRED" else (fid or None), **v,
@@ -160,6 +171,7 @@ def build(pos):
         flags = []
         if ro["status"] == "RES": flags.append("INJURED_RESERVE")
         elif ro["status"] != "ACT": flags.append(f"ROSTER_STATUS_{ro['status']}")
+        if pos in ("LT", "LG"): flags.append("SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)")
         if pos in ("RG", "RT"): flags.append("SIDE_UNVERIFIED (nflverse labels G/T only)")
         if pos in ("REDGE", "LEDGE"): flags.append("EDGE_SIDE_UNVERIFIED (shared REDGE/LEDGE pool; assign one side before provisional)")
         if pos in ("MIKE", "WILL", "SAM"): flags.append(f"LB_ROLE_UNVERIFIED (roster depth {ro['depth_chart_position']}; shared MIKE/WILL/SAM pool)")
@@ -182,6 +194,42 @@ def build(pos):
     return dict(position=pos, status="PROPOSED", generated_at=RET, generator="scripts/build-candidate-pools.py",
                 note="PROPOSED for commissioner approval. Composite is a triage order for auditing, not a rating. Side/role flags must be resolved before provisional_top_10.",
                 candidates=cand, exclusions=excl, free_agents=fas, injured=inj, coverage_sources=src)
+LOCKED = {"QB", "RB", "WR", "TE", "LT"}
+LG_PROVISIONAL_KNOWN = ["Steve Avila", "Tyler Smith", "Isaac Seumalo", "Landon Dickerson", "Matthew Bergeron", "Ezra Cleveland"]
+def compare(out, pos):
+    if pos in LOCKED:
+        b = json.load(open(f"data/baselines/{pos}.json")); ref = [x["player"] for x in b["top_10"]]; ref_src = f"data/baselines/{pos}.json (locked top_10, read-only)"
+    else:
+        ref = LG_PROVISIONAL_KNOWN; ref_src = "LG provisional list as recorded in src/stage-engine.ts LG pairs 03-05 (pairs 01-02 ran before the engine and are not recorded in the repo)"
+    cand = {norm(c["player"]): (i + 1, c) for i, c in enumerate(out["candidates"])}
+    for c in out["candidates"]:
+        for a in c.get("aliases", []): cand.setdefault(norm(a), (out["candidates"].index(c) + 1, c))
+    fa = {norm(f["player"]): f for f in out["free_agents"]}; inj = {norm(i["player"]): i for i in out["injured"]}
+    flags = []
+    for n in ref:
+        k = norm(n)
+        if k in fa: flags.append(dict(player=n, flag=f"LOCKED_PLAYER_{fa[k]['status']}", detail=fa[k]["note"], source=fa[k]["source_url"]))
+        elif k in cand and cand[k][1]["status"] != "ACTIVE": flags.append(dict(player=n, flag=f"LOCKED_PLAYER_{cand[k][1]['status']}", detail=f"pool rank {cand[k][0]}; {cand[k][1]['reasoning']}", source=ROSTER_URL))
+        elif k in inj: flags.append(dict(player=n, flag=f"LOCKED_PLAYER_{inj[k]['status']}_BELOW_CUTOFF", detail=inj[k]["note"], source=ROSTER_URL))
+        elif k not in cand:
+            ro = lookup(n); ex = next((e for e in out["exclusions"] if norm(e["player"]) == k), None)
+            st = (inj_status(ro) if ro and ro["status"] in ("RES", "INA") else ({"ACT": "ACTIVE"}.get(ro["status"], ro["status"]) if ro else "NOT_ON_ROSTER"))
+            g26 = next((x for x in PFF[2026][FAM[pos][0]] if norm(x["player"]) == k), None)
+            why = (ex["reason"] if ex else "not in any 2026/2025 source top-20") + (f"; PFF 2026 overall {g26['grade']} (#{g26['rank']})" if g26 and g26["grade"] is not None else "; no qualifying PFF 2026 grade")
+            flags.append(dict(player=n, flag=("LOCKED_PLAYER_DECLINED" if st == "ACTIVE" else f"LOCKED_PLAYER_{st}"), detail=f"roster_2026 wk8 {ro['team'] + ' ' if ro else ''}{st}; {why}", source=ROSTER_URL))
+        elif cand[k][0] > 15: flags.append(dict(player=n, flag="LOCKED_PLAYER_DECLINED", detail=f"pool rank {cand[k][0]}; {cand[k][1]['reasoning']}", source="coverage_sources"))
+    refk = {norm(n) for n in ref}
+    for i, c in enumerate(out["candidates"][:12]):
+        if norm(c["player"]) not in refk and not any(norm(a) in refk for a in c.get("aliases", [])):
+            flags.append(dict(player=c["player"], flag="STRONG_CANDIDATE_NOT_IN_TOP10", detail=f"pool rank {i+1} ({c['status']}); {c['reasoning']}", source="coverage_sources"))
+    out["reaudit"] = dict(target_position_state="LOCKED" if pos in LOCKED else "IN_PROGRESS", requires_trigger="TOP10_REAUDIT",
+        note="Proposed re-audit pool only. Does not modify baselines, locks, state, LG progress or audit history. An actual re-audit needs the commissioner's explicit TOP10_REAUDIT trigger.",
+        compared_against=ref_src, compared_list=ref, flags=flags)
 for pos in sys.argv[1:] or list(FAM):
-    out = build(pos); json.dump(out, open(f"data/candidate-pools/{pos}.proposed.json", "w"), indent=2); open(f"data/candidate-pools/{pos}.proposed.json", "a").write("\n")
+    out = build(pos)
+    fn = f"data/candidate-pools/{pos}.proposed.json"
+    if pos in LOCKED or pos == "LG": compare(out, pos); fn = f"data/candidate-pools/{pos}.reaudit.proposed.json"
+    if UNV: continue
+    json.dump(out, open(fn, "w"), indent=2); open(fn, "a").write("\n")
     print(pos, len(out["candidates"]), "cand", len(out["exclusions"]), "excl", len(out["free_agents"]), "fa", len(out["injured"]), "inj")
+if UNV: sys.exit("off-roster names with no verified status (add VERIFIED entries with public sources): " + "; ".join(UNV))

@@ -41,7 +41,7 @@ export async function runRosterRefreshTests(test: T) {
 import { planNext, generatePairs, stageOutputErrors, ids } from "../src/stage-engine.js";
 import { getNextTask } from "../src/state-machine.js";
 import { lockPosition } from "../src/position-lock.js";
-import { checkCoverage, normName } from "../src/coverage-gate.js";
+import { checkCoverage, checkReauditPool, requireApprovedPool, normName } from "../src/coverage-gate.js";
 
 const REAL_STATE = JSON.parse(fs.readFileSync("state/project-state.json", "utf8"));
 const TOP = Array.from({ length: 10 }, (_, i) => `C Player ${i + 1}`);
@@ -116,6 +116,18 @@ export function runCoverageGateTests(test: (n: string, f: () => void) => void) {
     p.exclusions.push({ player: "Kam Curl", aliases: ["Kamren Curl"], player_id: "kc", reason: "Below pool cutoff for this position" });
     assert.equal(checkCoverage(p, [...reg, { player_id: "kc", full_name: "Kam Curl" }]).ok, true);
     assert.equal(checkCoverage(p, reg).ok, false, "unknown exclusion player_id blocks");
+  });
+  test("re-audit pools: coverage gate + TOP10_REAUDIT trigger, never approved, ignored by requireApprovedPool", () => {
+    const p: any = goodPool("QB");
+    assert.ok(checkReauditPool(p, reg).errors.some(e => /TOP10_REAUDIT/.test(e)), "missing trigger blocks");
+    p.reaudit = { requires_trigger: "TOP10_REAUDIT", compared_list: ["A"], flags: [] };
+    assert.equal(checkReauditPool(p, reg).ok, true, checkReauditPool(p, reg).errors.join(";"));
+    p.status = "APPROVED"; assert.equal(checkReauditPool(p, reg).ok, false, "re-audit pool cannot be approved");
+    p.status = "PROPOSED"; p.coverage_sources = p.coverage_sources.slice(0, 1); assert.equal(checkReauditPool(p, reg).ok, false, "normal coverage rules still apply");
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "reaudit-"));
+    fs.mkdirSync(path.join(dir, "data/candidate-pools"), { recursive: true });
+    fs.writeFileSync(path.join(dir, "data/candidate-pools/QB.reaudit.proposed.json"), JSON.stringify({ ...goodPool("QB"), status: "APPROVED", approved_by: "x", approved_at: "y" }));
+    assert.throws(() => requireApprovedPool("QB", dir), "a re-audit file is never read as the active pool");
   });
   test("injured candidates must be explicit: status + source, in_pool consistent", () => {
     const r2 = reg.map(x => x.player_id === "p0" ? { ...x, roster_status: "RES" } : x);
