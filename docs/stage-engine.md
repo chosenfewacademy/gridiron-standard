@@ -1,0 +1,23 @@
+# Generic position stage engine (Methodology v1.1)
+
+`src/stage-engine.ts` derives the next task for `state.current_position` from `state.completed_tasks`
+and APPROVED immutable records in `audits/league/<POS>/`. It never mutates state.
+
+| Stage | Task id | Required output fields (enforced as validation errors, counted against the 3-revision ceiling) |
+|---|---|---|
+| provisional_top_10 | `<POS>_PROVISIONAL_TOP10` | `provisional_top_10` (10 distinct), `first_out`, `external_controls` |
+| pair_audits | `<POS>_PAIR_01..05` (ranks 1v2..9v10), `<POS>_PAIR_06` (10 vs first_out) | `pair_result` |
+| membership_reopen | `<POS>_MEMBERSHIP` | `final_top_10` (10 distinct) |
+| scarcity_audit | `<POS>_SCARCITY` | `scarcity` |
+| individual_hard_audits | `<POS>_HARD_01..10` | normal Full Audit |
+| positional_cross_audit | `<POS>_CROSS_AUDIT` | `cross_audit_result` |
+| lock | `<POS>_LOCK` | commissioner only: `npm run position:lock -- <POS> --confirm LOCK_<POS>` |
+
+Every task carries `position`, `stage`, `position_inputs` (config/position-metrics.json) and, after the
+provisional stage, `baseline_controls` built from the approved provisional/membership records.
+
+LG keeps its legacy in-progress sequence exactly: LG_PAIR_03 -> 04 -> 05 -> LG_MEMBERSHIP, then the generic
+stages. `CONTINUE` returns `AWAITING_COMMISSIONER_LOCK` at the lock stage and does no research.
+Lock refuses unless every stage is approved, there are no pending re-audits for the position, and no baseline or
+lock exists; it writes the baseline once (`wx`), then advances to the next PENDING position.
+Gates, REVIEW_MAJOR approval, immutability and `GRIDIRON_MAX_REVISIONS` (default 3) are unchanged.

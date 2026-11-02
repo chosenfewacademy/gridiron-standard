@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import { loadState, saveState } from "./state.js";
-import { getNextTask } from "./state-machine.js";
+import { planNext, stageOutputErrors } from "./stage-engine.js";
 import { createAuditAdapter, createResearchAdapter, selectedTransport } from "./adapter-factory.js";
 import { withTransportChecks } from "./high-trait-evidence.js";
 import { parseAuditJson } from "./audit-parser.js";
@@ -12,7 +12,12 @@ const MAX_REVISIONS = Number(process.env.GRIDIRON_MAX_REVISIONS ?? "3");
 
 export async function executeNext(): Promise<Record<string, unknown>> {
   const state = loadState();
-  const task = getNextTask(state);
+  // Throws (before any mutation) if stage records are inconsistent or the position is locked.
+  const task = planNext(state).task as Record<string, any>;
+  if (task.type === "lock") {
+    return { status: "AWAITING_COMMISSIONER_LOCK", task,
+      instruction: `All stages approved. Lock only by explicit commissioner command: npm run position:lock -- ${task.position} --confirm ${task.requires_commissioner_confirmation}` };
+  }
   const locks = JSON.parse(fs.readFileSync("state/locks.json", "utf8"));
 
   const research = await createResearchAdapter();
@@ -58,7 +63,11 @@ export async function executeNext(): Promise<Record<string, unknown>> {
 
     responseText = result.text;
     parsed = parseAuditJson(result.text);
+    parsed.task_id ??= task.task_id;
+    parsed.task_type ??= task.type;
     validation = withTransportChecks(validateAudit(parsed), parsed, evidence, selectedTransport());
+    const stageErrors = stageOutputErrors(task, parsed);
+    if (stageErrors.length) validation = { ...validation, valid: false, errors: [...(validation.errors ?? []), ...stageErrors] };
 
     if (validation.valid) break;
     feedback = validation.errors;
@@ -88,6 +97,11 @@ export async function executeNext(): Promise<Record<string, unknown>> {
     if (taskId && !state.completed_tasks.includes(taskId)) {
       state.completed_tasks.push(taskId);
     }
+    try {
+      const next = planNext(state);
+      state.current_stage = next.stage;
+      state.current_task = next.task;
+    } catch { /* keep pointers; next CONTINUE will surface the inconsistency */ }
     createCheckpoint(state, taskId || "approved");
     saveState(state);
   } else if (parsed.status === "FLAGGED") {
