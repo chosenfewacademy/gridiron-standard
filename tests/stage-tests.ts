@@ -31,6 +31,10 @@ export async function runRosterRefreshTests(test: T) {
     assert.equal(fs.readFileSync(reg, "utf8"), before); assert.equal(r.added, 2, "K plus role-unresolved guard (could be RG); tackle excluded");
     const n = await refreshRoster(new NflverseRosterSource(2026, csv), { addOnly: true, dryRun: true, positions: ["K"], names: ["Tack Le"], registryPath: reg });
     assert.equal(n.added, 2, "--names admits an explicitly named player outside the position filter");
+    await refreshRoster(new NflverseRosterSource(2025, csv), { addOnly: true, positions: [], names: ["New Guy"], freeAgent: true, registryPath: reg });
+    const fa = JSON.parse(fs.readFileSync(reg, "utf8")).players.find((p: any) => p.full_name === "New Guy");
+    assert.equal(fa.team, null); assert.equal(fa.previous_team, "DAL"); assert.equal(fa.roster_status, "UNSIGNED_FREE_AGENT");
+    assert.equal(JSON.parse(fs.readFileSync(reg, "utf8")).players.find((p: any) => p.full_name === "Old Guy").team, "PHI");
   });
 }
 
@@ -85,7 +89,14 @@ export function runCoverageGateTests(test: (n: string, f: () => void) => void) {
     const p = goodPool("C"); p.coverage_sources[0].top.push("Ghost Guy"); p.candidates.push({ player: "Ghost Guy", player_id: null });
     const r = checkCoverage(p, reg); assert.equal(r.ok, false); assert.deepEqual(r.missing_from_registry, ["Ghost Guy"]);
     p.candidates.pop(); p.exclusions.push({ player: "Ghost Guy", reason: "Retired after 2025; not on 2026 roster", code: "NOT_ON_2026_ROSTER" });
-    assert.equal(checkCoverage(p, reg).ok, true);
+    assert.ok(checkCoverage(p, reg).errors.some(e => /belong in free_agents/.test(e)), "silent off-roster exclusion rejected");
+    p.exclusions.pop();
+    p.free_agents = [{ player: "Ghost Guy", player_id: null, status: "RETIRED", last_team: "CLE", status_as_of: "2026-06-09", source_url: "https://www.nfl.com/news/x" }];
+    assert.equal(checkCoverage(p, reg).ok, true, "retired with status+source accounts for the name");
+    p.free_agents[0].status = "FREE_AGENT";
+    assert.equal(checkCoverage(p, reg).ok, false, "eligible free agent must be in registry");
+    p.free_agents[0].player_id = "p11"; p.free_agents[0].player = "C Ext"; p.exclusions = []; p.coverage_sources[0].top.pop();
+    assert.equal(checkCoverage(p, reg).ok, true, checkCoverage(p, reg).errors.join(";"));
   });
   test("coverage gate requires >=3 sources, 3 kinds, 2 publishers, urls and real exclusion reasons", () => {
     const p = goodPool("C"); p.coverage_sources = p.coverage_sources.slice(0, 2); assert.equal(checkCoverage(p, reg).ok, false);
@@ -105,6 +116,18 @@ export function runCoverageGateTests(test: (n: string, f: () => void) => void) {
     p.exclusions.push({ player: "Kam Curl", aliases: ["Kamren Curl"], player_id: "kc", reason: "Below pool cutoff for this position" });
     assert.equal(checkCoverage(p, [...reg, { player_id: "kc", full_name: "Kam Curl" }]).ok, true);
     assert.equal(checkCoverage(p, reg).ok, false, "unknown exclusion player_id blocks");
+  });
+  test("injured candidates must be explicit: status + source, in_pool consistent", () => {
+    const r2 = reg.map(x => x.player_id === "p0" ? { ...x, roster_status: "RES" } : x);
+    const p = goodPool("C");
+    assert.ok(checkCoverage(p, r2).errors.some(e => /injured section/.test(e)), "IR candidate without injured entry blocks");
+    p.injured = [{ player: "C Player 1", player_id: "p0", team: "X", status: "IR", in_pool: true, status_as_of: "2026-10-30", source_url: "https://github.com/nflverse/x" }];
+    assert.equal(checkCoverage(p, r2).ok, true);
+    p.injured[0].in_pool = false; assert.equal(checkCoverage(p, r2).ok, false);
+    p.injured[0].in_pool = true; (p.injured[0] as any).status = "HURT"; assert.equal(checkCoverage(p, r2).ok, false);
+    const q = goodPool("C"); q.coverage_sources[0].top.push("Hurt Guy");
+    q.injured = [{ player: "Hurt Guy", player_id: "h", team: "X", status: "PUP", in_pool: false, status_as_of: "2026-10-30", source_url: "https://x.org" }];
+    assert.equal(checkCoverage(q, [...reg, { player_id: "h", full_name: "Hurt Guy" }]).ok, true, "injured section accounts for a top name outside the pool");
   });
   test("name matching tolerates suffixes and accents (Jr., II)", () => {
     assert.equal(normName("Will Anderson Jr."), normName("Will Anderson")); assert.equal(normName("Patrick Surtain II"), normName("patrick surtain"));

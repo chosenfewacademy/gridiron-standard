@@ -5877,6 +5877,37 @@
       "role_resolution_reason": "Must resolve exact REDGE/LEDGE/MIKE/WILL/SAM role from current usage and depth-chart evidence."
     },
     {
+      "player_id": "ext_00-0029255",
+      "full_name": "Bobby Wagner",
+      "aliases": [
+        "Bobby"
+      ],
+      "team": null,
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0029255",
+        "espn": "14979",
+        "pff": "7050",
+        "pfr": "WagnBo00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 54,
+      "roster_status": "UNSIGNED_FREE_AGENT",
+      "birth_date": "1990-06-27",
+      "height": 72,
+      "weight": 242,
+      "college": "Utah State",
+      "years_exp": 13,
+      "source_position": "LB",
+      "depth_chart_position": "MLB",
+      "requires_role_resolution": true,
+      "role_resolution_reason": "Must resolve exact REDGE/LEDGE/MIKE/WILL/SAM role from current usage and depth-chart evidence.",
+      "previous_team": "WAS"
+    },
+    {
       "player_id": "ext_00-0038133",
       "full_name": "Boye Mafe",
       "aliases": [
@@ -43468,6 +43499,39 @@
       "role_resolution_reason": null
     },
     {
+      "player_id": "ext_00-0033400",
+      "full_name": "Matt Haack",
+      "aliases": [
+        "Matt"
+      ],
+      "team": null,
+      "position": "P",
+      "historical_positions": [
+        "P"
+      ],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0033400",
+        "espn": "3043237",
+        "pff": "12212",
+        "pfr": "HaacMa00"
+      },
+      "roster_context_history": [],
+      "jersey_number": 39,
+      "roster_status": "UNSIGNED_FREE_AGENT",
+      "birth_date": "1994-07-25",
+      "height": 72,
+      "weight": 205,
+      "college": "Arizona State",
+      "years_exp": 8,
+      "source_position": "P",
+      "depth_chart_position": "P",
+      "requires_role_resolution": false,
+      "role_resolution_reason": null,
+      "previous_team": "ARI"
+    },
+    {
       "player_id": "ext_00-0036295",
       "full_name": "Matt Hennessy",
       "aliases": [
@@ -62200,5 +62264,5 @@
       "role_resolution_reason": null
     }
   ],
-  "last_refreshed_at": "2026-11-02T03:56:53.547Z"
+  "last_refreshed_at": "2026-11-02T04:04:00.938Z"
 }

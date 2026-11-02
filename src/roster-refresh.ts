@@ -16,6 +16,8 @@ export interface RefreshOptions {
   positions?: string[];
   /** Also admit these exact names regardless of position label (e.g. two-way players). */
   names?: string[];
+  /** Mark players added in this run as unsigned free agents (team cleared, previous_team kept). Use with a prior-season file. */
+  freeAgent?: boolean;
   registryPath?: string;
 }
 
@@ -69,6 +71,7 @@ export async function refreshRoster(source: RosterSource, options: RefreshOption
         roster_context_history: []
       };
       applySourceMetadata(player, ext as any);
+      if (options.freeAgent) { player.previous_team = player.team ?? null; player.team = null; player.roster_status = "UNSIGNED_FREE_AGENT"; }
       current.push(player);
       byId.set(player.player_id, player);
       added++;

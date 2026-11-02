@@ -16,10 +16,21 @@ export interface CoverageSource {
 }
 export interface PoolCandidate { player: string; aliases?: string[]; player_id: string | null; team?: string | null; flags?: string[]; reasoning?: string; citations?: string[] }
 export interface PoolExclusion { player: string; player_id?: string | null; aliases?: string[]; reason: string; code?: "NOT_ON_2026_ROSTER" | "OTHER_POSITION" | "BELOW_CUTOFF" | "INJURED" | "OTHER" }
+/** Players not on an active 2026 roster. Explicit status + public source; never a silent exclusion. */
+export interface FreeAgentEntry { player: string; player_id: string | null; aliases?: string[]; status: "FREE_AGENT" | "CUT" | "RETIRED";
+  last_team: string | null; status_as_of: string; source_url: string; note?: string }
+/** IR / PUP / out players who would otherwise be top-20 candidates. in_pool says whether they are also candidates. */
+export interface InjuredEntry { player: string; player_id: string; aliases?: string[]; team: string | null;
+  status: "IR" | "IR_DESIGNATED_RETURN" | "PUP" | "NFI" | "INACTIVE" | "OUT" | "RESERVE_OTHER"; in_pool: boolean; status_as_of: string; source_url: string; note?: string }
 export interface CandidatePool {
   position: string; status: "PROPOSED" | "APPROVED"; approved_by?: string; approved_at?: string;
   candidates: PoolCandidate[]; exclusions: PoolExclusion[]; coverage_sources: CoverageSource[];
+  free_agents?: FreeAgentEntry[]; injured?: InjuredEntry[];
 }
+const FA_STATUS = new Set(["FREE_AGENT", "CUT", "RETIRED"]);
+const INJ_STATUS = new Set(["IR", "IR_DESIGNATED_RETURN", "PUP", "NFI", "INACTIVE", "OUT", "RESERVE_OTHER"]);
+/** Registry roster_status values that mean the player is hurt/out and must be listed in the injured section. */
+export const INJURED_ROSTER_STATUS = new Set(["RES", "INA"]);
 export interface CoverageResult { ok: boolean; errors: string[]; missing_from_registry: string[]; unaccounted: Array<{ player: string; source: string; rank: number }> }
 
 export const normName = (n: string) => n.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -51,6 +62,25 @@ export function checkCoverage(pool: CandidatePool, registryPlayers: any[], opts:
   const excl = new Map<string, PoolExclusion>();
   for (const e of pool.exclusions) for (const n of [e.player, ...(e.aliases ?? [])]) excl.set(normName(n), e);
   for (const k of cand.keys()) if (excl.has(k)) errors.push(`${cand.get(k)!.player} is both candidate and excluded`);
+  for (const e of pool.exclusions) if (e.code === "NOT_ON_2026_ROSTER") errors.push(`${e.player}: off-roster players belong in free_agents with an explicit status, not exclusions`);
+  const fa = new Map<string, FreeAgentEntry>(), inj = new Map<string, InjuredEntry>();
+  for (const f of pool.free_agents ?? []) {
+    for (const n of [f.player, ...(f.aliases ?? [])]) fa.set(normName(n), f);
+    if (!FA_STATUS.has(f.status)) errors.push(`free agent ${f.player}: status must be FREE_AGENT, CUT or RETIRED`);
+    if (!/^https:\/\//.test(f.source_url ?? "") || !f.status_as_of) errors.push(`free agent ${f.player}: source_url and status_as_of required`);
+    if (f.status !== "RETIRED" && !(f.player_id && reg.ids.has(f.player_id))) errors.push(`free agent ${f.player}: eligible (${f.status}) players must be in the registry`);
+    if (cand.has(normName(f.player))) errors.push(`${f.player} is both candidate and free agent`);
+  }
+  for (const i of pool.injured ?? []) {
+    for (const n of [i.player, ...(i.aliases ?? [])]) inj.set(normName(n), i);
+    if (!INJ_STATUS.has(i.status)) errors.push(`injured ${i.player}: invalid status ${i.status}`);
+    if (!/^https:\/\//.test(i.source_url ?? "") || !i.status_as_of) errors.push(`injured ${i.player}: source_url and status_as_of required`);
+    if (!reg.ids.has(i.player_id)) errors.push(`injured ${i.player}: unknown player_id`);
+    if (i.in_pool !== cand.has(normName(i.player))) errors.push(`injured ${i.player}: in_pool must match candidate membership`);
+  }
+  const rs = new Map(registryPlayers.map((p: any) => [p.player_id, p.roster_status]));
+  for (const c of pool.candidates) if (c.player_id && INJURED_ROSTER_STATUS.has(String(rs.get(c.player_id))) && !inj.has(normName(c.player)))
+    errors.push(`${c.player}: registry roster_status ${rs.get(c.player_id)} must be listed in the injured section`);
   for (const e of pool.exclusions) if (e.player_id && !reg.ids.has(e.player_id)) errors.push(`exclusion ${e.player}: unknown player_id ${e.player_id}`);
   for (const e of pool.exclusions) if (!e.reason || e.reason.trim().length < 10) errors.push(`exclusion of ${e.player} needs a reason`);
 
@@ -58,9 +88,10 @@ export function checkCoverage(pool: CandidatePool, registryPlayers: any[], opts:
   const inRegistry = (name: string, id?: string | null) => (id ? reg.ids.has(id) : false) || reg.names.has(normName(name));
   for (const c of pool.candidates) if (!inRegistry(c.player, c.player_id)) missing.add(c.player);
   for (const s of srcs) s.top.slice(0, topN).forEach((name, i) => {
-    const k = normName(name), e = excl.get(k);
-    if (!cand.has(k) && !e) unaccounted.push({ player: name, source: s.id, rank: i + 1 });
-    if (!inRegistry(name, cand.get(k)?.player_id ?? e?.player_id) && e?.code !== "NOT_ON_2026_ROSTER") missing.add(name);
+    const k = normName(name), e = excl.get(k), f = fa.get(k);
+    if (!cand.has(k) && !e && !f && !inj.has(k)) unaccounted.push({ player: name, source: s.id, rank: i + 1 });
+    if (f?.status === "RETIRED") return; // retired: registry not required, status + source recorded
+    if (!inRegistry(name, cand.get(k)?.player_id ?? e?.player_id ?? f?.player_id ?? inj.get(k)?.player_id)) missing.add(name);
   });
   if (missing.size) errors.push(`missing from registry: ${[...missing].join(", ")}`);
   if (unaccounted.length) errors.push(`unaccounted top-${topN} names: ${[...new Set(unaccounted.map(u => u.player))].join(", ")}`);

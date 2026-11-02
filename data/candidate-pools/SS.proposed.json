@@ -9,6 +9,12 @@
       "player": "Jessie Bates",
       "player_id": "ext_00-0034675",
       "team": "ATL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
       ],
@@ -25,6 +31,12 @@
       "player": "Xavier McKinney",
       "player_id": "ext_00-0036388",
       "team": "GB",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
       ],
@@ -42,6 +54,12 @@
       "player": "Kyle Hamilton",
       "player_id": "ext_00-0038038",
       "team": "BAL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
       ],
@@ -58,6 +76,12 @@
       "player": "Evan Williams",
       "player_id": "ext_00-0039813",
       "team": "GB",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
       ],
@@ -73,6 +97,12 @@
       "player": "Julian Love",
       "player_id": "ext_00-0034974",
       "team": "SEA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
       ],
@@ -88,6 +118,12 @@
       "player": "Jevon Holland",
       "player_id": "ext_00-0036998",
       "team": "NYG",
+      "status": "INACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 INA/A01"
+      },
       "flags": [
         "ROSTER_STATUS_INA",
         "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
@@ -103,6 +139,12 @@
       "player": "Amani Hooker",
       "player_id": "ext_00-0035632",
       "team": "TEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
       ],
@@ -117,6 +159,12 @@
       "player": "Quentin Lake",
       "player_id": "ext_00-0037841",
       "team": "LA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
       ],
@@ -132,6 +180,12 @@
       "player": "Kevin Byard",
       "player_id": "ext_00-0033132",
       "team": "NE",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_FS (shared FS/SS pool)",
         "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
@@ -147,6 +201,12 @@
       "player": "Talanoa Hufanga",
       "player_id": "ext_00-0036564",
       "team": "DEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
       ],
@@ -161,6 +221,12 @@
       "player": "Derwin James",
       "player_id": "ext_00-0034790",
       "team": "LAC",
+      "status": "IR",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 RES/R01"
+      },
       "flags": [
         "INJURED_RESERVE",
         "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
@@ -176,6 +242,12 @@
       "player": "Zakee Wheatley",
       "player_id": "ext_00-0041076",
       "team": "CAR",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
       ],
@@ -189,6 +261,12 @@
       "player": "Emmanuel McNeil-Warren",
       "player_id": "ext_00-0041471",
       "team": "CLE",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
       ],
@@ -202,6 +280,12 @@
       "player": "Jalen Pitre",
       "player_id": "ext_00-0037246",
       "team": "HOU",
+      "status": "INACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 INA/A01"
+      },
       "flags": [
         "ROSTER_STATUS_INA",
         "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
@@ -217,6 +301,12 @@
       "player": "Christian Roland-Wallace",
       "player_id": "ext_00-0039324",
       "team": "KC",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
       ],
@@ -230,6 +320,12 @@
       "player": "Minkah Fitzpatrick",
       "player_id": "ext_00-0034789",
       "team": "NYJ",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
       ],
@@ -244,6 +340,12 @@
       "player": "Brandon Jones",
       "player_id": "ext_00-0036221",
       "team": "DEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
       ],
@@ -258,6 +360,12 @@
       "player": "Malik Mustapha",
       "player_id": "ext_00-0039360",
       "team": "SF",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
       ],
@@ -271,6 +379,12 @@
       "player": "Antonio Johnson",
       "player_id": "ext_00-0038596",
       "team": "JAX",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
       ],
@@ -284,6 +398,12 @@
       "player": "Robert Spears-Jennings",
       "player_id": "ext_00-0041401",
       "team": "PIT",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
       ],
@@ -292,43 +412,94 @@
       "citations": [
         "pff_2026#10"
       ]
-    }
-  ],
-  "exclusions": [
+    },
     {
       "player": "Jordan Battle",
       "player_id": "ext_00-0038560",
-      "reason": "Below pool cutoff (composite 0.54; PFF 2026 grade n/a; sources nflverse_stats_2026#3). Re-include on request.",
-      "code": "BELOW_CUTOFF"
+      "team": "CIN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "SAFETY_ROLE_HINT_SS (shared FS/SS pool)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ],
+      "composite": 0.54,
+      "reasoning": "383 snaps in 6 games (2026); 2026 stat score 15.0 (3*INT + PD)",
+      "citations": [
+        "nflverse_stats_2026#3"
+      ]
     },
     {
       "player": "Bryan Cook",
       "player_id": "ext_00-0037193",
-      "reason": "Below pool cutoff (composite 0.51; PFF 2026 grade n/a; sources pff_2025#4). Re-include on request.",
-      "code": "BELOW_CUTOFF"
+      "team": "CIN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ],
+      "composite": 0.51,
+      "reasoning": "PFF 2025 overall 83.3 (#4); 285 snaps in 5 games (2026)",
+      "citations": [
+        "pff_2025#4"
+      ]
     },
     {
       "player": "Marques Sigle",
       "player_id": "ext_00-0040185",
-      "reason": "Below pool cutoff (composite 0.50; PFF 2026 grade 78.3; sources pff_2026#11). Re-include on request.",
-      "code": "BELOW_CUTOFF"
+      "team": "SF",
+      "status": "INACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 INA/A01"
+      },
+      "flags": [
+        "ROSTER_STATUS_INA",
+        "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
+      ],
+      "composite": 0.5,
+      "reasoning": "PFF 2026 overall 78.3 (#11); 237 snaps in 4 games (2026)",
+      "citations": [
+        "pff_2026#11"
+      ]
     },
     {
       "player": "Julian Blackmon",
       "player_id": "ext_00-0036253",
-      "reason": "Below pool cutoff (composite 0.46; PFF 2026 grade n/a; sources nflverse_snaps_2026#6, nflverse_stats_2026#12). Re-include on request.",
-      "code": "BELOW_CUTOFF"
-    },
+      "team": "NO",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ],
+      "composite": 0.457,
+      "reasoning": "474 snaps in 7 games (2026); 2026 stat score 8.0 (3*INT + PD)",
+      "citations": [
+        "nflverse_snaps_2026#6",
+        "nflverse_stats_2026#12"
+      ]
+    }
+  ],
+  "exclusions": [
     {
       "player": "Tykee Smith",
       "player_id": "ext_00-0039846",
       "reason": "Below pool cutoff (composite 0.40; PFF 2026 grade 77.8; sources pff_2026#13). Re-include on request.",
-      "code": "BELOW_CUTOFF"
-    },
-    {
-      "player": "Avonte Maddox",
-      "player_id": "ext_00-0034377",
-      "reason": "Below pool cutoff (composite 0.39; PFF 2026 grade n/a; sources pff_2025#8). Re-include on request.",
       "code": "BELOW_CUTOFF"
     },
     {
@@ -356,12 +527,6 @@
       "player": "Keisean Nixon",
       "player_id": "ext_00-0035133",
       "reason": "Below pool cutoff (composite 0.33; PFF 2026 grade n/a; sources nflverse_stats_2026#10). Re-include on request.",
-      "code": "BELOW_CUTOFF"
-    },
-    {
-      "player": "Thomas Harper",
-      "player_id": "ext_00-0039660",
-      "reason": "Below pool cutoff (composite 0.30; PFF 2026 grade n/a; sources pff_2025#11). Re-include on request.",
       "code": "BELOW_CUTOFF"
     },
     {
@@ -525,6 +690,69 @@
       "player_id": "ext_00-0039872",
       "reason": "Below pool cutoff (composite 0.01; PFF 2026 grade n/a; sources nflverse_snaps_2026#20). Re-include on request.",
       "code": "BELOW_CUTOFF"
+    }
+  ],
+  "free_agents": [],
+  "injured": [
+    {
+      "player": "Jevon Holland",
+      "player_id": "ext_00-0036998",
+      "team": "NYG",
+      "status": "INACTIVE",
+      "in_pool": true,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) INA/A01; composite 1.31, sources pff_2026#5, nflverse_stats_2026#4"
+    },
+    {
+      "player": "Derwin James",
+      "player_id": "ext_00-0034790",
+      "team": "LAC",
+      "status": "IR",
+      "in_pool": true,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 1.04, sources pff_2025#9, allpro_2025#6"
+    },
+    {
+      "player": "Jalen Pitre",
+      "player_id": "ext_00-0037246",
+      "team": "HOU",
+      "status": "INACTIVE",
+      "in_pool": true,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) INA/A01; composite 0.84, sources pff_2026#15, pff_2025#3"
+    },
+    {
+      "player": "Marques Sigle",
+      "player_id": "ext_00-0040185",
+      "team": "SF",
+      "status": "INACTIVE",
+      "in_pool": true,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) INA/A01; composite 0.50, sources pff_2026#11"
+    },
+    {
+      "player": "Avonte Maddox",
+      "player_id": "ext_00-0034377",
+      "team": "DET",
+      "status": "IR",
+      "in_pool": false,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.39, sources pff_2025#8"
+    },
+    {
+      "player": "Thomas Harper",
+      "player_id": "ext_00-0039660",
+      "team": "DET",
+      "status": "IR",
+      "in_pool": false,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.30, sources pff_2025#11"
     }
   ],
   "coverage_sources": [

@@ -9,6 +9,12 @@
       "player": "Fred Warner",
       "player_id": "ext_00-0034815",
       "team": "SF",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth MLB; shared MIKE/WILL/SAM pool)"
       ],
@@ -25,6 +31,12 @@
       "player": "Jack Campbell",
       "player_id": "ext_00-0039018",
       "team": "DET",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth MLB; shared MIKE/WILL/SAM pool)",
         "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
@@ -41,6 +53,12 @@
       "player": "Devin Lloyd",
       "player_id": "ext_00-0037244",
       "team": "CAR",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
       ],
@@ -56,6 +74,12 @@
       "player": "Blake Cashman",
       "player_id": "ext_00-0035276",
       "team": "MIN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
       ],
@@ -70,6 +94,12 @@
       "player": "Alex Singleton",
       "player_id": "ext_00-0031898",
       "team": "DEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
       ],
@@ -85,6 +115,12 @@
       "player": "Ernest Jones",
       "player_id": "ext_00-0036994",
       "team": "SEA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
       ],
@@ -100,6 +136,12 @@
       "player": "Zack Baun",
       "player_id": "ext_00-0036418",
       "team": "PHI",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
       ],
@@ -114,6 +156,12 @@
       "player": "Arvell Reese",
       "player_id": "ext_00-0041509",
       "team": "NYG",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
       ],
@@ -129,6 +177,12 @@
       "player": "Jordyn Brooks",
       "player_id": "ext_00-0036409",
       "team": "MIA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth OLB; shared MIKE/WILL/SAM pool)"
       ],
@@ -143,6 +197,12 @@
       "player": "Quincy Williams",
       "player_id": "ext_00-0035680",
       "team": "CLE",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth OLB; shared MIKE/WILL/SAM pool)"
       ],
@@ -158,6 +218,12 @@
       "player": "Ventrell Miller",
       "player_id": "ext_00-0038570",
       "team": "JAX",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
       ],
@@ -171,6 +237,12 @@
       "player": "Omar Speights",
       "player_id": "ext_00-0039774",
       "team": "LA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
       ],
@@ -184,6 +256,12 @@
       "player": "Payton Wilson",
       "player_id": "ext_00-0039741",
       "team": "PIT",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
       ],
@@ -198,6 +276,12 @@
       "player": "Nakobe Dean",
       "player_id": "ext_00-0037615",
       "team": "LV",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
       ],
@@ -212,6 +296,12 @@
       "player": "Nick Bolton",
       "player_id": "ext_00-0036621",
       "team": "KC",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth MLB; shared MIKE/WILL/SAM pool)"
       ],
@@ -227,6 +317,12 @@
       "player": "Dre Greenlaw",
       "player_id": "ext_00-0034982",
       "team": "SF",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth OLB; shared MIKE/WILL/SAM pool)"
       ],
@@ -241,6 +337,12 @@
       "player": "Drue Tranquill",
       "player_id": "ext_00-0035262",
       "team": "KC",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth OLB; shared MIKE/WILL/SAM pool)"
       ],
@@ -255,6 +357,12 @@
       "player": "Anthony Hill Jr.",
       "player_id": "ext_00-0041479",
       "team": "TEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth MLB; shared MIKE/WILL/SAM pool)",
         "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
@@ -270,6 +378,12 @@
       "player": "Trenton Simpson",
       "player_id": "ext_00-0038504",
       "team": "BAL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)"
       ],
@@ -284,6 +398,12 @@
       "player": "Demario Davis",
       "player_id": "ext_00-0029607",
       "team": "NYJ",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "LB_ROLE_UNVERIFIED (roster depth ILB; shared MIKE/WILL/SAM pool)",
         "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
@@ -352,11 +472,6 @@
       "code": "BELOW_CUTOFF"
     },
     {
-      "player": "Bobby Wagner",
-      "reason": "Absent from nflverse roster_2026 (week 8) under any name variant; likely retired/unsigned. Verify before approval.",
-      "code": "NOT_ON_2026_ROSTER"
-    },
-    {
       "player": "Christian Elliss",
       "player_id": "ext_00-0036813",
       "reason": "Below pool cutoff (composite 0.31; PFF 2026 grade 71.8; sources pff_2026#15, nflverse_snaps_2026#20). Re-include on request.",
@@ -423,12 +538,6 @@
       "code": "BELOW_CUTOFF"
     },
     {
-      "player": "Edgerrin Cooper",
-      "player_id": "ext_00-0039850",
-      "reason": "Below pool cutoff (composite 0.12; PFF 2026 grade 60.1; sources pff_2025#17). Re-include on request.",
-      "code": "BELOW_CUTOFF"
-    },
-    {
       "player": "Jake Hansen",
       "player_id": "ext_00-0037457",
       "reason": "Below pool cutoff (composite 0.10; PFF 2026 grade 69.2; sources pff_2026#19). Re-include on request.",
@@ -465,16 +574,44 @@
       "code": "BELOW_CUTOFF"
     },
     {
-      "player": "Leo Chenal",
-      "player_id": "ext_00-0037819",
-      "reason": "Below pool cutoff (composite 0.03; PFF 2026 grade n/a; sources pff_2025#20). Re-include on request.",
-      "code": "BELOW_CUTOFF"
-    },
-    {
       "player": "Robert Spillane",
       "player_id": "ext_00-0034720",
       "reason": "Below pool cutoff (composite 0.03; PFF 2026 grade 60.9; sources nflverse_snaps_2026#19). Re-include on request.",
       "code": "BELOW_CUTOFF"
+    }
+  ],
+  "free_agents": [
+    {
+      "player": "Bobby Wagner",
+      "player_id": "ext_00-0029255",
+      "status": "FREE_AGENT",
+      "last_team": "WAS",
+      "status_as_of": "2026-10-31",
+      "source_url": "https://www.profootballrumors.com/2026/02/bobby-wagner-plans-to-play-in-2026",
+      "note": "Unsigned after 2025 with WAS; said he plans to play in 2026 and has not retired (still unsigned per Oct 2026 reports).",
+      "reason_listed": "composite 0.33; sources pff_2025#10; PFF 2025 overall 78.7 (#10)"
+    }
+  ],
+  "injured": [
+    {
+      "player": "Edgerrin Cooper",
+      "player_id": "ext_00-0039850",
+      "team": "GB",
+      "status": "IR",
+      "in_pool": false,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.12, sources pff_2025#17"
+    },
+    {
+      "player": "Leo Chenal",
+      "player_id": "ext_00-0037819",
+      "team": "WAS",
+      "status": "IR",
+      "in_pool": false,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.03, sources pff_2025#20"
     }
   ],
   "coverage_sources": [

@@ -9,6 +9,12 @@
       "player": "Creed Humphrey",
       "player_id": "ext_00-0036623",
       "team": "KC",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 2.163,
       "reasoning": "PFF 2026 overall 68.7 (#8); PFF 2025 overall 88.8 (#1); 2025 All-Pro selection; 375 snaps in 6 games (2026)",
@@ -23,6 +29,12 @@
       "player": "Aaron Brewer",
       "player_id": "ext_00-0036171",
       "team": "MIA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.825,
       "reasoning": "PFF 2026 overall 66.5 (#13); PFF 2025 overall 87.3 (#2); 2025 All-Pro selection; 358 snaps in 6 games (2026)",
@@ -36,6 +48,12 @@
       "player": "Zach Frazier",
       "player_id": "ext_00-0039896",
       "team": "PIT",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.675,
       "reasoning": "PFF 2026 overall 79.5 (#1); PFF 2025 overall 73.8 (#6); 474 snaps in 7 games (2026)",
@@ -49,6 +67,12 @@
       "player": "Coleman Shelton",
       "player_id": "ext_00-0034114",
       "team": "LA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.28,
       "reasoning": "PFF 2026 overall 75.6 (#2); PFF 2025 overall 70.9 (#9)",
@@ -61,6 +85,12 @@
       "player": "Erik McCoy",
       "player_id": "ext_00-0035242",
       "team": "NO",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.268,
       "reasoning": "PFF 2026 overall 72.6 (#4); PFF 2025 overall 67.9 (#15); 478 snaps in 7 games (2026)",
@@ -74,6 +104,12 @@
       "player": "Cooper Beebe",
       "player_id": "ext_00-0039348",
       "team": "DAL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.138,
       "reasoning": "PFF 2026 overall 72.2 (#5); PFF 2025 overall 67.8 (#16); 471 snaps in 7 games (2026)",
@@ -87,6 +123,12 @@
       "player": "Luke Wattenberg",
       "player_id": "ext_00-0037278",
       "team": "DEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.09,
       "reasoning": "PFF 2026 overall 72.0 (#6); PFF 2025 overall 69.7 (#13); 428 snaps in 7 games (2026)",
@@ -100,6 +142,12 @@
       "player": "Jake Brendel",
       "player_id": "ext_00-0032701",
       "team": "SF",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.09,
       "reasoning": "PFF 2026 overall 69.5 (#7); PFF 2025 overall 71.4 (#8)",
@@ -112,6 +160,12 @@
       "player": "Juice Scruggs",
       "player_id": "ext_00-0038936",
       "team": "DET",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "ROSTER_LABEL_G (two-way/position change; confirm bucket)"
       ],
@@ -125,6 +179,12 @@
       "player": "Tyler Linderbaum",
       "player_id": "ext_00-0037825",
       "team": "LV",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.86,
       "reasoning": "PFF 2026 overall 61.5 (#19); PFF 2025 overall 79.8 (#4); 479 snaps in 7 games (2026)",
@@ -138,6 +198,12 @@
       "player": "Hjalte Froholdt",
       "player_id": "ext_00-0035258",
       "team": "ARI",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.81,
       "reasoning": "PFF 2026 overall 68.4 (#9); PFF 2025 overall 69.4 (#14)",
@@ -150,6 +216,12 @@
       "player": "Tanor Bortolini",
       "player_id": "ext_00-0039744",
       "team": "IND",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.74,
       "reasoning": "PFF 2026 overall 47.2 (#32); PFF 2025 overall 82.6 (#3); 471 snaps in 7 games (2026)",
@@ -162,6 +234,12 @@
       "player": "Ryan Neuzil",
       "player_id": "ext_00-0036833",
       "team": "ATL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.73,
       "reasoning": "PFF 2026 overall 65.3 (#15); PFF 2025 overall 77.4 (#5)",
@@ -174,6 +252,12 @@
       "player": "Connor McGovern",
       "player_id": "ext_00-0035679",
       "team": "BUF",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.65,
       "reasoning": "PFF 2026 overall 65.3 (#15); PFF 2025 overall 70.9 (#9); 389 snaps in 6 games (2026)",
@@ -190,6 +274,12 @@
       ],
       "player_id": "ext_00-0040866",
       "team": "BAL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "ROSTER_LABEL_G (two-way/position change; confirm bucket)"
       ],
@@ -203,6 +293,12 @@
       "player": "Bryan Hudson",
       "player_id": "ext_00-0039446",
       "team": "NYG",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.5,
       "reasoning": "PFF 2026 overall 67.1 (#11); 299 snaps in 7 games (2026)",
@@ -214,6 +310,12 @@
       "player": "Jared Wilson",
       "player_id": "ext_00-0040147",
       "team": "NE",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.45,
       "reasoning": "PFF 2026 overall 67.0 (#12)",
@@ -225,6 +327,12 @@
       "player": "Austin Schlottmann",
       "player_id": "ext_00-0034112",
       "team": "TEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.448,
       "reasoning": "PFF 2026 overall 44.7 (#34); PFF 2025 overall 70.9 (#9); 399 snaps in 7 games (2026)",
@@ -237,6 +345,12 @@
       "player": "Blake Brandel",
       "player_id": "ext_00-0036347",
       "team": "MIN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.387,
       "reasoning": "PFF 2026 overall 65.4 (#14); PFF 2025 overall 61.4 (#24); 384 snaps in 6 games (2026)",
@@ -249,6 +363,12 @@
       "player": "Luke Fortner",
       "player_id": "ext_00-0037814",
       "team": "CAR",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.333,
       "reasoning": "PFF 2026 overall 53.3 (#30); PFF 2025 overall 66.5 (#17); 472 snaps in 7 games (2026)",
@@ -259,17 +379,6 @@
     }
   ],
   "exclusions": [
-    {
-      "player": "Drew Dalman",
-      "reason": "Absent from nflverse roster_2026 (week 8) under any name variant; likely retired/unsigned. Verify before approval.",
-      "code": "NOT_ON_2026_ROSTER"
-    },
-    {
-      "player": "Tyler Biadasz",
-      "player_id": "ext_00-0036376",
-      "reason": "Below pool cutoff (composite 0.27; PFF 2026 grade n/a; sources pff_2025#12). Re-include on request.",
-      "code": "BELOW_CUTOFF"
-    },
     {
       "player": "Ted Karras",
       "player_id": "ext_00-0032445",
@@ -325,21 +434,9 @@
       "code": "BELOW_CUTOFF"
     },
     {
-      "player": "Sean Rhyan",
-      "player_id": "ext_00-0037076",
-      "reason": "Below pool cutoff (composite 0.07; PFF 2026 grade 59.3; sources nflverse_snaps_2026#15). Re-include on request.",
-      "code": "BELOW_CUTOFF"
-    },
-    {
       "player": "Alec Anderson",
       "player_id": "ext_00-0037428",
       "reason": "Below pool cutoff (composite 0.06; PFF 2026 grade n/a; sources nflverse_snaps_2026#16). Re-include on request.",
-      "code": "BELOW_CUTOFF"
-    },
-    {
-      "player": "Ethan Pocic",
-      "player_id": "ext_00-0033901",
-      "reason": "Below pool cutoff (composite 0.06; PFF 2026 grade n/a; sources pff_2025#19). Re-include on request.",
       "code": "BELOW_CUTOFF"
     },
     {
@@ -347,6 +444,50 @@
       "player_id": "ext_00-0035588",
       "reason": "Below pool cutoff (composite 0.05; PFF 2026 grade 60.4; sources pff_2026#20). Re-include on request.",
       "code": "BELOW_CUTOFF"
+    }
+  ],
+  "free_agents": [
+    {
+      "player": "Drew Dalman",
+      "player_id": null,
+      "status": "RETIRED",
+      "last_team": "CHI",
+      "status_as_of": "2026-03-03",
+      "source_url": "https://www.nfl.com/news/bears-pro-bowl-center-drew-dalman-expected-to-retire-after-five-nfl-seasons",
+      "note": "Retired March 2026 after five seasons. Ineligible.",
+      "reason_listed": "composite 0.42; sources pff_2025#7; PFF 2025 overall 72.6 (#7)"
+    }
+  ],
+  "injured": [
+    {
+      "player": "Tyler Biadasz",
+      "player_id": "ext_00-0036376",
+      "team": "LAC",
+      "status": "IR",
+      "in_pool": false,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.27, sources pff_2025#12"
+    },
+    {
+      "player": "Sean Rhyan",
+      "player_id": "ext_00-0037076",
+      "team": "GB",
+      "status": "INACTIVE",
+      "in_pool": false,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) INA/A01; composite 0.07, sources nflverse_snaps_2026#15"
+    },
+    {
+      "player": "Ethan Pocic",
+      "player_id": "ext_00-0033901",
+      "team": "BAL",
+      "status": "IR",
+      "in_pool": false,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.06, sources pff_2025#19"
     }
   ],
   "coverage_sources": [

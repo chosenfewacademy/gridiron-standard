@@ -22,3 +22,12 @@ stages. `CONTINUE` returns `AWAITING_COMMISSIONER_LOCK` at the lock stage and do
 Lock refuses unless every stage is approved, there are no pending re-audits for the position, and no baseline or
 lock exists; it writes the baseline once (`wx`), then advances to the next PENDING position.
 Gates, REVIEW_MAJOR approval, immutability and `GRIDIRON_MAX_REVISIONS` (default 3) are unchanged.
+
+## Player status in candidate pools
+
+- Every candidate has a `status` (ACTIVE, IR, IR_DESIGNATED_RETURN, PUP, NFI, INACTIVE, RESERVE_OTHER) and a `status_source`.
+- `free_agents[]` lists top-source names who are not on a 2026 roster. Each entry has a status of FREE_AGENT, CUT or RETIRED, plus `status_as_of` and an https `source_url`. FREE_AGENT and CUT players must be in the registry. RETIRED players are listed but are not eligible.
+- `injured[]` lists IR, PUP and inactive players, with `in_pool` showing whether they are also candidates. A candidate whose registry `roster_status` is RES or INA must have an entry here.
+- The gate rejects exclusions with code `NOT_ON_2026_ROSTER`, so off-roster players can't be left out silently.
+- Injured players do not count toward the 20 healthy pool slots.
+- To add unsigned players, run `roster:refresh <prior season> --from-file <prior roster> --add-only --free-agent --names "..."`. This clears `team`, keeps `previous_team` and sets `roster_status` to UNSIGNED_FREE_AGENT.

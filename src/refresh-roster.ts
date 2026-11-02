@@ -3,7 +3,7 @@ import path from "node:path";
 import { NflverseRosterSource } from "./nflverse-roster-source.js";
 import { refreshRoster } from "./roster-refresh.js";
 
-// Usage: roster:refresh -- [season] [--from-file <csv>] [--add-only] [--dry-run] [--positions C,RG,...] [--names "A B,C D"]
+// Usage: roster:refresh -- [season] [--from-file <csv>] [--add-only] [--dry-run] [--positions C,RG,...] [--names "A B,C D"] [--free-agent]
 const args = process.argv.slice(2);
 const flag = (n: string) => args.includes(n);
 const value = (n: string) => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] : undefined; };
@@ -12,7 +12,7 @@ const dryRun = flag("--dry-run");
 
 try {
   const result = await refreshRoster(new NflverseRosterSource(season, value("--from-file")), {
-    addOnly: flag("--add-only"), dryRun, positions: value("--positions")?.split(",").map(x => x.trim().toUpperCase()),
+    addOnly: flag("--add-only"), dryRun, freeAgent: flag("--free-agent"), positions: value("--positions")?.split(",").map(x => x.trim().toUpperCase()),
     names: value("--names")?.split(",").map(x => x.trim()).filter(Boolean)
   });
   if (dryRun) { console.log(JSON.stringify({ season, dry_run: true, ...result }, null, 2)); process.exit(0); }

@@ -78,6 +78,26 @@ def stat_top(kind, positions, season):
 nfl = lambda ds, s: f"https://github.com/nflverse/nflverse-data/releases/download/{ds}/{ds}_{s}.csv" if ds != "stats_player" else f"https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_{s}.csv"
 STAT_LABEL = {"rush": "sacks + 0.5*QB hits + 0.25*TFL", "tackle": "solo + 0.5*assists + 2*TFL + 3*INT + PD", "cover": "3*INT + PD", "kick": "FGM + 2*50-59 + 3*60+ - 2*missed", "punt": "net yards per punt (>=10 punts)"}
 
+ROSTER_URL = "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+# Off-roster statuses verified by hand from free public sources (retrieved 2026-11-01). Any off-roster top name not here
+# and not explicitly CUT/RET in roster_2026 makes the build fail, so nothing is silently dropped.
+VERIFIED = {
+ "bobbywagner": dict(status="FREE_AGENT", last_team="WAS", status_as_of="2026-10-31", source_url="https://www.profootballrumors.com/2026/02/bobby-wagner-plans-to-play-in-2026",
+     note="Unsigned after 2025 with WAS; said he plans to play in 2026 and has not retired (still unsigned per Oct 2026 reports)."),
+ "joelbitonio": dict(status="RETIRED", last_team="CLE", status_as_of="2026-06-09", source_url="https://www.nfl.com/news/browns-guard-joel-bitonio-retires-12-seasons",
+     note="Retired June 9, 2026 after 12 seasons (also clevelandbrowns.com/news/a-cleveland-brown-for-life). Ineligible."),
+ "drewdalman": dict(status="RETIRED", last_team="CHI", status_as_of="2026-03-03", source_url="https://www.nfl.com/news/bears-pro-bowl-center-drew-dalman-expected-to-retire-after-five-nfl-seasons",
+     note="Retired March 2026 after five seasons. Ineligible."),
+ "harrisonmevis": dict(status="CUT", last_team="LA", status_as_of="2026-10-14", source_url="https://www.nfl.com/news/rams-releasing-kicker-harrison-mevis-signing-k-blake-grupe-off-jets-practice-squad",
+     note="Released by the Rams Oct 2026 (therams.com/team/transactions); unsigned free agent."),
+ "matthaack": dict(status="FREE_AGENT", last_team="ARI", status_as_of="2026-08-30", source_url="https://en.wikipedia.org/wiki/Matt_Haack",
+     note="Released by New England Aug 30, 2026 (final cuts); unsigned."),
+}
+TEAM_TX = {"LA": "https://www.therams.com/team/transactions/"}
+def inj_status(ro):
+    if ro["status"] == "INA": return "INACTIVE"
+    return {"R01": "IR", "R48": "IR_DESIGNATED_RETURN", "R04": "PUP", "R05": "NFI"}.get(ro["status_description_abbr"], "RESERVE_OTHER")
+STATUS_LABEL = {"IR": "IR", "IR_DESIGNATED_RETURN": "IR (designated to return)", "PUP": "PUP", "NFI": "NFI", "INACTIVE": "Inactive/out", "RESERVE_OTHER": "Reserve (other)"}
 def idal(n, ro):
     if not ro: return {}
     rid = f'ext_{ro["gsis_id"]}' if f'ext_{ro["gsis_id"]}' in REG.values() else REG.get(norm(ro["full_name"]))
@@ -102,7 +122,8 @@ def build(pos):
     for s in src:
         for i, n in enumerate(s["top"][:20]):
             k = norm(n); disp.setdefault(k, n); score[k] = score.get(k, 0) + W[s["id"]] * (20 - i) / 20; cites.setdefault(k, []).append(f'{s["id"]}#{i+1}')
-    excl, cand = [], []
+    excl, cand, fas, inj = [], [], [], []
+    healthy = 0
     def other_pos(k):
         if pos == "RT" and k in LT_NAMES: return "In locked LT baseline/controls (data/baselines/LT.json); LT is locked, not an RT candidate."
         if pos == "RG" and k in LG_KNOWN: return "Left guard (LG in-progress pairs or AP 2025 left guard); belongs to LG, not RG."
@@ -118,9 +139,24 @@ def build(pos):
         if ro and ro["status"] not in ("CUT", "RET") and not rid:
             sys.exit(f"{pos}: {n} ({ro['full_name']}, {ro['team']}, {ro['status']}) is a real top-20 name missing from the registry; add it with roster:refresh --add-only --names")
         if not ro or ro["status"] in ("CUT", "RET") or not rid:
-            excl.append(dict(player=n, reason=(f"nflverse roster_2026 (week 8) status {ro['status']} ({ro['team']}); not on an active roster, so not a 2026 Top 10 candidate unless re-signed." if ro else "Absent from nflverse roster_2026 (week 8) under any name variant; likely retired/unsigned. Verify before approval."), code="NOT_ON_2026_ROSTER")); continue
-        if len(cand) >= 20:
+            v = VERIFIED.get(k)
+            if not v and ro and ro["status"] in ("CUT", "RET"):
+                v = dict(status="RETIRED" if ro["status"] == "RET" else "CUT", last_team=ro["team"], status_as_of=RET[:10], source_url=ROSTER_URL, note=f"nflverse roster_2026 (week 8) status {ro['status']}/{ro['status_description_abbr']}.")
+            if not v: sys.exit(f"{pos}: {n} is off-roster with no verified status; add a VERIFIED entry with a public source")
+            fid = REG.get(k) or (rid if rid in REG.values() else None)
+            if v["status"] != "RETIRED" and not fid: sys.exit(f"{pos}: eligible free agent {n} missing from registry; add with roster:refresh --add-only --free-agent --names")
+            g25 = G25.get(k); fas.append(dict(player=n, player_id=fid if v["status"] != "RETIRED" else (fid or None), **v,
+                reason_listed=f"composite {score[k]:.2f}; sources {', '.join(cites[k])}" + (f"; PFF 2025 overall {g25['grade']} (#{g25['rank']})" if g25 else ""))); continue
+        hurt = ro["status"] in ("RES", "INA")
+        ie = None
+        if hurt:
+            ie = dict(player=ro["full_name"], **({"aliases": [n]} if norm(n) != norm(ro["full_name"]) else {}), player_id=rid, team=ro["team"], status=inj_status(ro), in_pool=healthy < 20,
+                      status_as_of=RET[:10], source_url=ROSTER_URL, note=f"nflverse roster_2026 (week 8) {ro['status']}/{ro['status_description_abbr']}" + (f"; see also {TEAM_TX[ro['team']]}" if ro["team"] in TEAM_TX else "") + f"; composite {score[k]:.2f}, sources {', '.join(cites[k])}")
+            inj.append(ie)
+            if not ie["in_pool"]: continue
+        elif healthy >= 20:
             g = G26.get(k); excl.append(dict(player=n, **idal(n, ro), reason=f"Below pool cutoff (composite {score[k]:.2f}; PFF 2026 grade {g['grade'] if g else 'n/a'}; sources {', '.join(cites[k])}). Re-include on request.", code="BELOW_CUTOFF")); continue
+        else: healthy += 1
         flags = []
         if ro["status"] == "RES": flags.append("INJURED_RESERVE")
         elif ro["status"] != "ACT": flags.append(f"ROSTER_STATUS_{ro['status']}")
@@ -140,10 +176,12 @@ def build(pos):
         if sn: bits.append(f"{sn[0]} snaps in {sn[1]} games (2026)")
         if k in ST: bits.append(f"2026 stat score {ST[k]:.1f} ({STAT_LABEL[skind]})")
         canon = ro["full_name"]
-        cand.append(dict(player=canon, **({"aliases": [n]} if norm(n) != norm(canon) else {}), player_id=rid, team=ro["team"], flags=flags, composite=round(score[k], 3), reasoning="; ".join(bits), citations=cites[k]))
+        st = ie["status"] if ie else "ACTIVE"
+        cand.append(dict(player=canon, **({"aliases": [n]} if norm(n) != norm(canon) else {}), player_id=rid, team=ro["team"], status=st,
+                         status_source=dict(url=ROSTER_URL, retrieved_at=RET, note=f"nflverse roster_2026 week 8 {ro['status']}/{ro['status_description_abbr']}"), flags=flags, composite=round(score[k], 3), reasoning="; ".join(bits), citations=cites[k]))
     return dict(position=pos, status="PROPOSED", generated_at=RET, generator="scripts/build-candidate-pools.py",
                 note="PROPOSED for commissioner approval. Composite is a triage order for auditing, not a rating. Side/role flags must be resolved before provisional_top_10.",
-                candidates=cand, exclusions=excl, coverage_sources=src)
+                candidates=cand, exclusions=excl, free_agents=fas, injured=inj, coverage_sources=src)
 for pos in sys.argv[1:] or list(FAM):
     out = build(pos); json.dump(out, open(f"data/candidate-pools/{pos}.proposed.json", "w"), indent=2); open(f"data/candidate-pools/{pos}.proposed.json", "a").write("\n")
-    print(pos, len(out["candidates"]), "cand", len(out["exclusions"]), "excl")
+    print(pos, len(out["candidates"]), "cand", len(out["exclusions"]), "excl", len(out["free_agents"]), "fa", len(out["injured"]), "inj")

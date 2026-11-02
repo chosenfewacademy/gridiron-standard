@@ -9,6 +9,12 @@
       "player": "Will Reichard",
       "player_id": "ext_00-0039404",
       "team": "MIN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 2.97,
       "reasoning": "PFF 2026 overall 85.1 (#3); PFF 2025 overall 93.8 (#2); 2025 All-Pro selection; 2026 stat score 28.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -23,6 +29,12 @@
       "player": "Brandon Aubrey",
       "player_id": "ext_00-0037692",
       "team": "DAL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 2.455,
       "reasoning": "PFF 2026 overall 80.0 (#7); PFF 2025 overall 94.0 (#1); 2025 All-Pro selection; 2026 stat score 18.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -37,6 +49,12 @@
       "player": "Chase McLaughlin",
       "player_id": "ext_00-0035358",
       "team": "TB",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 2.06,
       "reasoning": "PFF 2026 overall 90.4 (#2); PFF 2025 overall 92.9 (#3); 2026 stat score 27.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -50,6 +68,12 @@
       "player": "Ka'imi Fairbairn",
       "player_id": "ext_00-0032726",
       "team": "HOU",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.84,
       "reasoning": "PFF 2026 overall 91.0 (#1); PFF 2025 overall 90.8 (#9); 2026 stat score 25.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -63,6 +87,12 @@
       "player": "Evan McPherson",
       "player_id": "ext_00-0036854",
       "team": "CIN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.55,
       "reasoning": "PFF 2026 overall 84.3 (#5); PFF 2025 overall 90.0 (#11); 2026 stat score 20.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -76,6 +106,12 @@
       "player": "Cam Little",
       "player_id": "ext_00-0039409",
       "team": "JAX",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.38,
       "reasoning": "PFF 2026 overall 82.2 (#6); PFF 2025 overall 92.3 (#5); 2026 stat score 15.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -89,6 +125,12 @@
       "player": "Cameron Dicker",
       "player_id": "ext_00-0037224",
       "team": "LAC",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.2,
       "reasoning": "PFF 2026 overall 58.7 (#21); PFF 2025 overall 91.0 (#8); 2025 All-Pro selection; 2026 stat score 8.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -101,6 +143,12 @@
       "player": "Spencer Shrader",
       "player_id": "ext_00-0039576",
       "team": "IND",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.19,
       "reasoning": "PFF 2026 overall 79.3 (#8); PFF 2025 overall 72.8 (#24); 2026 stat score 27.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -113,6 +161,12 @@
       "player": "Joey Slye",
       "player_id": "ext_00-0035192",
       "team": "TEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.09,
       "reasoning": "PFF 2026 overall 85.0 (#4); PFF 2025 overall 84.3 (#15); 2026 stat score 12.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -126,6 +180,12 @@
       "player": "Jason Myers",
       "player_id": "ext_00-0031492",
       "team": "SEA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 1.02,
       "reasoning": "PFF 2026 overall 66.7 (#15); PFF 2025 overall 90.8 (#9); 2026 stat score 18.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -139,6 +199,12 @@
       "player": "Tyler Loop",
       "player_id": "ext_00-0040074",
       "team": "BAL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.84,
       "reasoning": "PFF 2026 overall 76.4 (#9); PFF 2025 overall 59.1 (#32); 2026 stat score 18.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -151,6 +217,12 @@
       "player": "Tyler Bass",
       "player_id": "ext_00-0036162",
       "team": "BUF",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.83,
       "reasoning": "PFF 2026 overall 72.8 (#14); 2026 stat score 20.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -163,6 +235,12 @@
       "player": "Chad Ryland",
       "player_id": "ext_00-0038567",
       "team": "ARI",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.82,
       "reasoning": "PFF 2026 overall 75.0 (#10); PFF 2025 overall 73.9 (#22); 2026 stat score 18.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -175,6 +253,12 @@
       "player": "Matt Gay",
       "player_id": "ext_00-0035269",
       "team": "LV",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.78,
       "reasoning": "PFF 2026 overall 73.4 (#12); PFF 2025 overall 62.0 (#31); 2026 stat score 18.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -187,6 +271,12 @@
       "player": "Andre Szmyt",
       "player_id": "ext_00-0038428",
       "team": "CLE",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.77,
       "reasoning": "PFF 2026 overall 73.6 (#11); PFF 2025 overall 77.5 (#18); 2026 stat score 16.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -200,6 +290,12 @@
       "player": "Chris Boswell",
       "player_id": "ext_00-0031136",
       "team": "PIT",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.77,
       "reasoning": "PFF 2026 overall 62.7 (#20); PFF 2025 overall 92.5 (#4); 2026 stat score 16.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -213,6 +309,12 @@
       "player": "Jake Bates",
       "player_id": "ext_00-0039172",
       "team": "DET",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.64,
       "reasoning": "PFF 2026 overall 73.1 (#13); PFF 2025 overall 85.1 (#14); 2026 stat score 12.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -226,6 +328,12 @@
       "player": "Ryan Fitzgerald",
       "player_id": "ext_00-0040279",
       "team": "CAR",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.54,
       "reasoning": "PFF 2026 overall 65.3 (#18); PFF 2025 overall 68.0 (#27); 2026 stat score 19.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -238,6 +346,12 @@
       "player": "Jason Sanders",
       "player_id": "ext_00-0034794",
       "team": "NYJ",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [],
       "composite": 0.52,
       "reasoning": "PFF 2026 overall 64.4 (#19); 2026 stat score 19.0 (FGM + 2*50-59 + 3*60+ - 2*missed)",
@@ -250,6 +364,12 @@
       "player": "Zane Gonzalez",
       "player_id": "ext_00-0033862",
       "team": "MIA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
       "flags": [
         "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
       ],
@@ -286,11 +406,6 @@
       "code": "BELOW_CUTOFF"
     },
     {
-      "player": "Harrison Mevis",
-      "reason": "nflverse roster_2026 (week 8) status CUT (LA); not on an active roster, so not a 2026 Top 10 candidate unless re-signed.",
-      "code": "NOT_ON_2026_ROSTER"
-    },
-    {
       "player": "Dominic Zvada",
       "player_id": "ext_00-0041145",
       "reason": "Below pool cutoff (composite 0.12; PFF 2026 grade 53.0; sources nflverse_stats_2026#17). Re-include on request.",
@@ -309,6 +424,19 @@
       "code": "BELOW_CUTOFF"
     }
   ],
+  "free_agents": [
+    {
+      "player": "Harrison Mevis",
+      "player_id": "ext_00-0039498",
+      "status": "CUT",
+      "last_team": "LA",
+      "status_as_of": "2026-10-14",
+      "source_url": "https://www.nfl.com/news/rams-releasing-kicker-harrison-mevis-signing-k-blake-grupe-off-jets-practice-squad",
+      "note": "Released by the Rams Oct 2026 (therams.com/team/transactions); unsigned free agent.",
+      "reason_listed": "composite 0.24; sources pff_2025#13; PFF 2025 overall 85.4 (#13)"
+    }
+  ],
+  "injured": [],
   "coverage_sources": [
     {
       "id": "pff_2026",
