@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -159,13 +159,14 @@
         "QB_REAUDIT_H2H_02_A1",
         "QB_REAUDIT_H2H_03_A1",
         "QB_REAUDIT_H2H_04_A1",
-        "QB_REAUDIT_H2H_05_A1"
+        "QB_REAUDIT_H2H_05_A1",
+        "QB_REAUDIT_H2H_06_A1"
       ],
       "current_stage": "pair_audits",
-      "current_task": "QB_REAUDIT_H2H_05",
-      "updated_at": "2026-11-03T00:24:08.273Z",
+      "current_task": "QB_REAUDIT_H2H_06",
+      "updated_at": "2026-11-03T00:24:23.316Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_H2H_05",
+        "task_id": "QB_REAUDIT_H2H_06",
         "status": "FLAGGED",
         "errors": [],
         "flags": [
@@ -174,7 +175,11 @@
           "TIE_BREAK: tied overall broken by contention order; pair verdict decides"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "QB_REAUDIT_H2H_06",
+        "audit_id": "QB_REAUDIT_H2H_06_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
