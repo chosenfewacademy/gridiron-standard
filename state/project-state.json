@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -107,7 +107,8 @@
         "QB_REAUDIT_TIEBREAK_02",
         "QB_REAUDIT_TIEBREAK_03",
         "QB_REAUDIT_TIEBREAK_04",
-        "QB_REAUDIT_TIEBREAK_05"
+        "QB_REAUDIT_TIEBREAK_05",
+        "QB_REAUDIT_VARIANCE_AUDIT"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
@@ -186,24 +187,27 @@
         "QB_REAUDIT_RATE_01_A2",
         "QB_REAUDIT_RATE_02_A5",
         "QB_REAUDIT_TIEBREAK_05_A1",
-        "QB_REAUDIT_VARIANCE_AUDIT_A1"
+        "QB_REAUDIT_VARIANCE_AUDIT_A1",
+        "QB_REAUDIT_RATE_02_A6",
+        "QB_REAUDIT_RATE_05_A3"
       ],
       "current_stage": "variance_audit",
       "current_task": "QB_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-03T01:02:43.747Z",
+      "updated_at": "2026-11-03T01:07:01.614Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
-        "errors": [],
+        "task_id": "QB_REAUDIT_RATE_05",
+        "status": "REVISION_APPROVED",
+        "audit_id": "QB_REAUDIT_RATE_05_A3",
+        "supersedes": "QB_REAUDIT_RATE_05_A2",
         "flags": [
-          "VARIANCE_RESIDUAL_ADJUST: Lamar Jackson BSK 78->72 (add-only): sack rate 9.8% games-weighted, 16th of 17 (10.7% in 2025); approved 78 still 8th of our scale; Josh Allen BSK 80->75 (add-only): sack rate 7.3%, 13th of 17; approved 80 still ~5th of our scale"
+          "ELITE_TRAIT_PROPOSED: STR 90",
+          "LARGE_MADDEN_GAP: OVR 88 vs Madden 99 (reference only)",
+          "SEASON_SPLIT: 2025 aDOT #29 vs 2026 #5",
+          "VARIANCE_ADJUSTMENT:QB_REAUDIT_VARIANCE_AUDIT:PAC,BSK",
+          "VARIANCE_ADJUSTMENT:QB_REAUDIT_VARIANCE_AUDIT:BSK"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "QB_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "QB_REAUDIT_VARIANCE_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -830,6 +834,32 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T00:58:56Z",
           "note": "Approved under card t33s4 authorization (evidence-based: EPA/play incl. rush, EPA/dropback, CPOE favor Jackson)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "QB_REAUDIT_VARIANCE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T01:07:00Z",
+          "note": "Approved by the commissioner on card t34s264: variance audit; its 2 ADJUST rows are exactly Jackson A6 BSK 72 and Allen A3 BSK 75 approved on the same card (rerun impossible while awaiting without a guard change); post-revision recheck = 0 ADJUST"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_02",
+          "audit_id": "QB_REAUDIT_RATE_02_A6",
+          "supersedes": "QB_REAUDIT_RATE_02_A5",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T01:07:01Z",
+          "note": "Approved by the commissioner on card t34s264 (variance audit residual fix)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_05",
+          "audit_id": "QB_REAUDIT_RATE_05_A3",
+          "supersedes": "QB_REAUDIT_RATE_05_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T01:07:01Z",
+          "note": "Approved by the commissioner on card t34s264 (variance audit residual fix)"
         }
       ]
     },

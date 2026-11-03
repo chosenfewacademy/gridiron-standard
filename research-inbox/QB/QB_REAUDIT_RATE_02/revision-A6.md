@@ -1,4 +1,4 @@
-# QB_REAUDIT_RATE_02 revision A6 — Lamar Jackson residual variance — DRAFT, pending commissioner review (not run) 
+# QB_REAUDIT_RATE_02 revision A6 — Lamar Jackson residual variance (approved on card t34s264) 
 
 ```json
 {
@@ -181,7 +181,7 @@
       ]
     },
     "TUP": {
-      "basis": "EPA/play under pressure -1.29, 17th of 17 [nflverse pbp + FTN charting 2025-2026 REG (games-weighted), NGS passing; QB_REAUDIT_VARIANCE_AUDIT analysis]; revised 79->74 (variance audit, proposed, pending)",
+      "basis": "EPA/play under pressure -1.29, 17th of 17 [nflverse pbp + FTN charting 2025-2026 REG (games-weighted), NGS passing; QB_REAUDIT_VARIANCE_AUDIT analysis]; revised 79->74 (variance audit, approved t34s264)",
       "why_not_higher": "Pocket throws under pressure not his strength",
       "why_not_lower": "Creates under duress with legs",
       "sources": [
@@ -203,7 +203,7 @@
       ]
     },
     "BSK": {
-      "basis": "Sack rate 9.8% games-weighted, 16th of 17 (10.7% 2025, 6.7% 2026) [nflverse pbp + FTN charting 2025-2026 REG (games-weighted), NGS passing; QB_REAUDIT_VARIANCE_AUDIT analysis]; revised 78->72 (variance audit, proposed, pending)",
+      "basis": "Sack rate 9.8% games-weighted, 16th of 17 (10.7% 2025, 6.7% 2026) [nflverse pbp + FTN charting 2025-2026 REG (games-weighted), NGS passing; QB_REAUDIT_VARIANCE_AUDIT analysis]; revised 78->72 (variance audit, approved t34s264)",
       "why_not_higher": "High 2025 sack rate",
       "why_not_lower": "Turns pressure into scrambles",
       "sources": [

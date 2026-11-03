@@ -1,4 +1,4 @@
-# QB_REAUDIT_RATE_05 revision A3 — Josh Allen residual variance — DRAFT, pending commissioner review (not run) 
+# QB_REAUDIT_RATE_05 revision A3 — Josh Allen residual variance (approved on card t34s264) 
 
 ```json
 {
@@ -226,7 +226,7 @@
       ]
     },
     "PAC": {
-      "basis": "Play-action EPA/play +0.294, 3rd of 17 [nflverse pbp + FTN charting 2025-2026 REG (games-weighted), NGS passing; QB_REAUDIT_VARIANCE_AUDIT analysis]; revised 84->87 (variance audit, proposed, pending)",
+      "basis": "Play-action EPA/play +0.294, 3rd of 17 [nflverse pbp + FTN charting 2025-2026 REG (games-weighted), NGS passing; QB_REAUDIT_VARIANCE_AUDIT analysis]; revised 84->87 (variance audit, approved t34s264)",
       "why_not_higher": "No PA split",
       "why_not_lower": "Top-5 2026 efficiency",
       "sources": [
@@ -240,7 +240,7 @@
       ]
     },
     "BSK": {
-      "basis": "Sack rate 7.3% games-weighted, 13th of 17 [nflverse pbp + FTN charting 2025-2026 REG (games-weighted), NGS passing; QB_REAUDIT_VARIANCE_AUDIT analysis]; revised 80->75 (variance audit, proposed, pending)",
+      "basis": "Sack rate 7.3% games-weighted, 13th of 17 [nflverse pbp + FTN charting 2025-2026 REG (games-weighted), NGS passing; QB_REAUDIT_VARIANCE_AUDIT analysis]; revised 80->75 (variance audit, approved t34s264)",
       "why_not_higher": "40 sacks 2025",
       "why_not_lower": "Sack rate down to ~6% 2026",
       "sources": [
