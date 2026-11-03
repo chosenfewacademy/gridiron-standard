@@ -1,0 +1,26 @@
+{
+  "team": "PHI",
+  "position": "QB",
+  "as_of": "2026-11-02T22:15:00-05:00",
+  "authorized_by": "t38u",
+  "active": [
+    "Tanner McKee (#16, starter)",
+    "Joe Milton III (#14)",
+    "Cole Payton (#18, rookie)"
+  ],
+  "practice_squad": [],
+  "reserve_injured": [
+    "Jalen Hurts (#1, IR 2026-10-17, pulmonary emboli, expected out for season)"
+  ],
+  "notes": [
+    "No QB on the practice squad per philadelphiaeagles.com roster page (2026-11-02).",
+    "Andy Dalton appears in PHI 2026 stats (1 att) but is no longer on the roster page."
+  ],
+  "sources": [
+    "https://www.philadelphiaeagles.com/team/players-roster/",
+    "https://www.philadelphiaeagles.com/news/eagles-place-jalen-hurts-on-injured-reserve-sign-jaydon-blue-to-the-active-roster-2026-nfl-week-6-panthers",
+    "https://www.espn.com/nfl/story/_/id/50361174/sirianni-no-changes-oc-qb-eagles-six-game-skid",
+    "https://apnews.com/article/philadelphia-eagles-hurts-jalen-606e3d0acb4d42d80728894917b105ed",
+    "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+  ]
+}

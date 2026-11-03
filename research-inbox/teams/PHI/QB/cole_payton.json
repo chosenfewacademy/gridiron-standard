@@ -1,0 +1,251 @@
+{
+  "record_type": "team_room_rating",
+  "team": "PHI",
+  "position": "QB",
+  "player": "Cole Payton",
+  "player_id": "cole_payton",
+  "roster_status": "Active, rookie (2026 R5 #178), QB3",
+  "authorized_by": "t38u",
+  "rated_at": "2026-11-02T22:15:00-05:00",
+  "methodology_version": "1.1.0",
+  "audit_order": "1.1.2",
+  "status": "PROPOSED_UNLOCKED",
+  "overall": 60,
+  "ratings": {
+    "SPD": 84,
+    "ACC": 86,
+    "AGI": 78,
+    "COD": 76,
+    "STR": 78,
+    "AWR": 45,
+    "THP": 84,
+    "SAC": 74,
+    "MAC": 70,
+    "DAC": 70,
+    "RUN": 76,
+    "TUP": 66,
+    "PAC": 76,
+    "BSK": 82,
+    "CAR": 72,
+    "JMP": 84,
+    "INJ": 82,
+    "STA": 84,
+    "TGH": 86
+  },
+  "confidence": "LOW",
+  "style_profile": "Run-first FCS dual-threat: RB-sized power runner, efficient but low-volume passer, unproven processor",
+  "style_evidence": [
+    "2025 NDSU (13 g, first year starter): 161/224 (71.9%), 2719 yds, 16 TD/4 INT, 193.8 rating (gobison.com)",
+    "Rushing 2025: 136 car, 777 yds, 13 TD; career 287 car vs 282 pass att",
+    "22 sacks on ~247 dropbacks at FCS (ESPN game log) = ~8.9% sack rate",
+    "4.56 40 at 232 lbs (Inquirer); some teams saw TE conversion (Brugler via Inquirer)",
+    "No NFL regular-season snaps; FCS competition only - LOW confidence"
+  ],
+  "key_stats": [
+    "2025 NDSU (13 g, first year starter): 161/224 (71.9%), 2719 yds, 16 TD/4 INT, 193.8 rating (gobison.com)",
+    "Rushing 2025: 136 car, 777 yds, 13 TD; career 287 car vs 282 pass att",
+    "22 sacks on ~247 dropbacks at FCS (ESPN game log) = ~8.9% sack rate",
+    "4.56 40 at 232 lbs (Inquirer); some teams saw TE conversion (Brugler via Inquirer)",
+    "No NFL regular-season snaps; FCS competition only - LOW confidence"
+  ],
+  "madden27_reference": {
+    "policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+    "source": "https://www.ea.com/games/madden-nfl/ratings",
+    "retrieved_at": "2026-11-02T22:05:00-05:00",
+    "table": [
+      {
+        "attribute": "OVR",
+        "ours": 60,
+        "madden": 67,
+        "delta": -7
+      },
+      {
+        "attribute": "SPD",
+        "ours": 84,
+        "madden": 87,
+        "delta": -3
+      },
+      {
+        "attribute": "ACC",
+        "ours": 86,
+        "madden": 91,
+        "delta": -5
+      },
+      {
+        "attribute": "AGI",
+        "ours": 78,
+        "madden": 80,
+        "delta": -2
+      },
+      {
+        "attribute": "COD",
+        "ours": 76,
+        "madden": 75,
+        "delta": 1
+      },
+      {
+        "attribute": "STR",
+        "ours": 78,
+        "madden": 68,
+        "delta": 10
+      },
+      {
+        "attribute": "AWR",
+        "ours": 45,
+        "madden": 41,
+        "delta": 4
+      },
+      {
+        "attribute": "THP",
+        "ours": 84,
+        "madden": 85,
+        "delta": -1
+      },
+      {
+        "attribute": "SAC",
+        "ours": 74,
+        "madden": 84,
+        "delta": -10
+      },
+      {
+        "attribute": "MAC",
+        "ours": 70,
+        "madden": 81,
+        "delta": -11
+      },
+      {
+        "attribute": "DAC",
+        "ours": 70,
+        "madden": 77,
+        "delta": -7
+      },
+      {
+        "attribute": "RUN",
+        "ours": 76,
+        "madden": 84,
+        "delta": -8
+      },
+      {
+        "attribute": "TUP",
+        "ours": 66,
+        "madden": 82,
+        "delta": -16
+      },
+      {
+        "attribute": "PAC",
+        "ours": 76,
+        "madden": 82,
+        "delta": -6
+      },
+      {
+        "attribute": "BSK",
+        "ours": 82,
+        "madden": 77,
+        "delta": 5
+      },
+      {
+        "attribute": "CAR",
+        "ours": 72,
+        "madden": 65,
+        "delta": 7
+      },
+      {
+        "attribute": "JMP",
+        "ours": 84,
+        "madden": 90,
+        "delta": -6
+      },
+      {
+        "attribute": "INJ",
+        "ours": 82,
+        "madden": 86,
+        "delta": -4
+      },
+      {
+        "attribute": "STA",
+        "ours": 84,
+        "madden": 85,
+        "delta": -1
+      },
+      {
+        "attribute": "TGH",
+        "ours": 86,
+        "madden": 91,
+        "delta": -5
+      }
+    ]
+  },
+  "variance_audit": {
+    "threshold": 10,
+    "gaps": [
+      {
+        "attribute": "STR",
+        "ours": 78,
+        "madden": 68,
+        "delta": 10,
+        "explanation": "+10 vs Madden 68: 232-lb RB-built frame (TE-convert talk), 13 rush TD and 31 career rush TD largely between the tackles; play strength is his calling card"
+      },
+      {
+        "attribute": "SAC",
+        "ours": 74,
+        "madden": 84,
+        "delta": -10,
+        "explanation": "-10 vs Madden 84: completion rate inflated by RPO/PA volume in a run-first offense (533 team rushes vs 270 passes)"
+      },
+      {
+        "attribute": "MAC",
+        "ours": 70,
+        "madden": 81,
+        "delta": -11,
+        "explanation": "-11 vs Madden 81: only 282 college passes at FCS level, 25 or fewer attempts every game; intermediate accuracy unproven at NFL speed"
+      },
+      {
+        "attribute": "TUP",
+        "ours": 66,
+        "madden": 82,
+        "delta": -16,
+        "explanation": "-16 vs Madden 82: 8.9% sack rate vs FCS defenses and a 4/12 playoff loss; no evidence he handles NFL pressure"
+      }
+    ]
+  },
+  "style_similarity_check": {
+    "rule": "corr>=0.95 or mad<=3 flags STYLE_PROFILE_TOO_SIMILAR",
+    "compared_against": "19 approved QB re-audit ratings + PHI room",
+    "max_corr": [
+      "Joe Milton III",
+      0.806,
+      4.89
+    ],
+    "min_mad": [
+      "Joe Milton III",
+      0.806,
+      4.89
+    ],
+    "flags": [],
+    "result": "PASS"
+  },
+  "ceiling_check": {
+    "locked_top10_floor": "Trevor Lawrence 82 (QB_REAUDIT_LOCK_20261102)",
+    "rule": "non-top-10 QB must rate <=82 and below Lawrence in judgment",
+    "result": "PASS",
+    "overall": 60
+  },
+  "sources": [
+    "https://www.philadelphiaeagles.com/team/players-roster/",
+    "https://www.philadelphiaeagles.com/news/eagles-place-jalen-hurts-on-injured-reserve-sign-jaydon-blue-to-the-active-roster-2026-nfl-week-6-panthers",
+    "https://www.espn.com/nfl/story/_/id/50361174/sirianni-no-changes-oc-qb-eagles-six-game-skid",
+    "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/nick-sirianni-sticking-with-sean-mannion-and-tanner-mckee/763795/",
+    "https://apnews.com/article/philadelphia-eagles-hurts-jalen-606e3d0acb4d42d80728894917b105ed",
+    "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/",
+    "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/",
+    "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz",
+    "https://www.pff.com/grades/nfl/qb/2026",
+    "https://gobison.com/sports/football/stats/2025",
+    "https://www.espn.com/college-football/player/gamelog/_/id/4879250",
+    "https://www.inquirer.com/eagles/2026-nfl-draft-fifth-round-quarterback-cole-payton-north-dakota-state-20260425.html",
+    "https://www.ea.com/games/madden-nfl/ratings"
+  ]
+}

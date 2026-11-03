@@ -1,0 +1,262 @@
+{
+  "record_type": "team_room_rating",
+  "team": "PHI",
+  "position": "QB",
+  "player": "Jalen Hurts",
+  "player_id": "jalen_hurts",
+  "roster_status": "Reserve/Injured (placed 2026-10-17; pulmonary emboli, expected out for season)",
+  "authorized_by": "t38u",
+  "rated_at": "2026-11-02T22:15:00-05:00",
+  "methodology_version": "1.1.0",
+  "audit_order": "1.1.2",
+  "status": "PROPOSED_UNLOCKED",
+  "overall": 78,
+  "ratings": {
+    "SPD": 86,
+    "ACC": 87,
+    "AGI": 84,
+    "COD": 83,
+    "STR": 88,
+    "AWR": 78,
+    "THP": 86,
+    "SAC": 82,
+    "MAC": 80,
+    "DAC": 80,
+    "RUN": 79,
+    "TUP": 70,
+    "PAC": 84,
+    "BSK": 90,
+    "CAR": 74,
+    "JMP": 80,
+    "INJ": 70,
+    "STA": 84,
+    "TGH": 88
+  },
+  "confidence": "MEDIUM",
+  "style_profile": "Power-runner/RPO creator: elite play-strength and sack escapes, low-turnover decision maker, below-average from muddied pockets and slow to the trigger",
+  "style_evidence": [
+    "2025: 454 att, 3224 yds, 25 TD/6 INT, pass EPA +34.3, CPOE +3.2 (nflverse); PFF 79.0",
+    "2026 (5 g): 154 att, 933 yds, 8 TD/3 INT, pass EPA -9.7, CPOE -2.2; PFF 62.6",
+    "EPA/play in pocket +.12 (2025) / +.06 (2026); out of pocket -.02 / -.41 on 27%/24% of plays",
+    "Clean EPA +.22/+.09; pressured -1.05/-.82; time to throw 2.98/3.04 s (slow tier)",
+    "Turnover-worthy rate 2.2%/2.6%; fumbles lost 3 (2025), 0 (2026)",
+    "Rushing 2025: 105 car, 421 yds, 8 TD, rush EPA +16.7; 40 scrambles EPA +.45",
+    "Scheme: PA 21%, motion 53%, YAC share 39%; offense collapsed around him in 2026 (OL/coach turnover per ESPN)"
+  ],
+  "key_stats": [
+    "2025: 454 att, 3224 yds, 25 TD/6 INT, pass EPA +34.3, CPOE +3.2 (nflverse); PFF 79.0",
+    "2026 (5 g): 154 att, 933 yds, 8 TD/3 INT, pass EPA -9.7, CPOE -2.2; PFF 62.6",
+    "EPA/play in pocket +.12 (2025) / +.06 (2026); out of pocket -.02 / -.41 on 27%/24% of plays",
+    "Clean EPA +.22/+.09; pressured -1.05/-.82; time to throw 2.98/3.04 s (slow tier)",
+    "Turnover-worthy rate 2.2%/2.6%; fumbles lost 3 (2025), 0 (2026)",
+    "Rushing 2025: 105 car, 421 yds, 8 TD, rush EPA +16.7; 40 scrambles EPA +.45",
+    "Scheme: PA 21%, motion 53%, YAC share 39%; offense collapsed around him in 2026 (OL/coach turnover per ESPN)"
+  ],
+  "madden27_reference": {
+    "policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+    "source": "https://www.ea.com/games/madden-nfl/ratings",
+    "retrieved_at": "2026-11-02T22:05:00-05:00",
+    "table": [
+      {
+        "attribute": "OVR",
+        "ours": 78,
+        "madden": 79,
+        "delta": -1
+      },
+      {
+        "attribute": "SPD",
+        "ours": 86,
+        "madden": 88,
+        "delta": -2
+      },
+      {
+        "attribute": "ACC",
+        "ours": 87,
+        "madden": 90,
+        "delta": -3
+      },
+      {
+        "attribute": "AGI",
+        "ours": 84,
+        "madden": 90,
+        "delta": -6
+      },
+      {
+        "attribute": "COD",
+        "ours": 83,
+        "madden": 89,
+        "delta": -6
+      },
+      {
+        "attribute": "STR",
+        "ours": 88,
+        "madden": 76,
+        "delta": 12
+      },
+      {
+        "attribute": "AWR",
+        "ours": 78,
+        "madden": 75,
+        "delta": 3
+      },
+      {
+        "attribute": "THP",
+        "ours": 86,
+        "madden": 86,
+        "delta": 0
+      },
+      {
+        "attribute": "SAC",
+        "ours": 82,
+        "madden": 87,
+        "delta": -5
+      },
+      {
+        "attribute": "MAC",
+        "ours": 80,
+        "madden": 86,
+        "delta": -6
+      },
+      {
+        "attribute": "DAC",
+        "ours": 80,
+        "madden": 83,
+        "delta": -3
+      },
+      {
+        "attribute": "RUN",
+        "ours": 79,
+        "madden": 88,
+        "delta": -9
+      },
+      {
+        "attribute": "TUP",
+        "ours": 70,
+        "madden": 85,
+        "delta": -15
+      },
+      {
+        "attribute": "PAC",
+        "ours": 84,
+        "madden": 93,
+        "delta": -9
+      },
+      {
+        "attribute": "BSK",
+        "ours": 90,
+        "madden": 89,
+        "delta": 1
+      },
+      {
+        "attribute": "CAR",
+        "ours": 74,
+        "madden": 63,
+        "delta": 11
+      },
+      {
+        "attribute": "JMP",
+        "ours": 80,
+        "madden": 86,
+        "delta": -6
+      },
+      {
+        "attribute": "INJ",
+        "ours": 70,
+        "madden": 92,
+        "delta": -22
+      },
+      {
+        "attribute": "STA",
+        "ours": 84,
+        "madden": 96,
+        "delta": -12
+      },
+      {
+        "attribute": "TGH",
+        "ours": 88,
+        "madden": 93,
+        "delta": -5
+      }
+    ]
+  },
+  "variance_audit": {
+    "threshold": 10,
+    "gaps": [
+      {
+        "attribute": "STR",
+        "ours": 88,
+        "madden": 76,
+        "delta": 12,
+        "explanation": "+12 vs Madden 76: elite short-yardage push and contact balance (8 rush TD 2025, tush-push engine); play strength is a defining trait of his style"
+      },
+      {
+        "attribute": "TUP",
+        "ours": 70,
+        "madden": 85,
+        "delta": -15,
+        "explanation": "-15 vs Madden 85: pressured EPA -1.05 (2025) and -.82 (2026) are bottom-tier among starters; 3.0 s time to throw invites pressure"
+      },
+      {
+        "attribute": "CAR",
+        "ours": 74,
+        "madden": 63,
+        "delta": 11,
+        "explanation": "+11 vs Madden 63: 0 fumbles lost in 2026 and 3 in 2025 across 128 combined designed/QB-sneak carries plus heavy short-yardage usage; ball security is above a 63, though early-career fumbles keep it mid-70s"
+      },
+      {
+        "attribute": "INJ",
+        "ours": 70,
+        "madden": 92,
+        "delta": -22,
+        "explanation": "-22 vs Madden 92: season-ending bilateral pulmonary emboli on blood thinners (IR 2026-10-17); durability is a real current concern"
+      },
+      {
+        "attribute": "STA",
+        "ours": 84,
+        "madden": 96,
+        "delta": -12,
+        "explanation": "-12 vs Madden 96: tied to current medical status (blood thinners, no practice) rather than conditioning history"
+      }
+    ]
+  },
+  "style_similarity_check": {
+    "rule": "corr>=0.95 or mad<=3 flags STYLE_PROFILE_TOO_SIMILAR",
+    "compared_against": "19 approved QB re-audit ratings + PHI room",
+    "max_corr": [
+      "Cole Payton",
+      0.468,
+      6.95
+    ],
+    "min_mad": [
+      "Josh Allen",
+      0.382,
+      4.84
+    ],
+    "flags": [],
+    "result": "PASS"
+  },
+  "ceiling_check": {
+    "locked_top10_floor": "Trevor Lawrence 82 (QB_REAUDIT_LOCK_20261102)",
+    "rule": "non-top-10 QB must rate <=82 and below Lawrence in judgment",
+    "result": "PASS",
+    "overall": 78
+  },
+  "sources": [
+    "https://www.philadelphiaeagles.com/team/players-roster/",
+    "https://www.philadelphiaeagles.com/news/eagles-place-jalen-hurts-on-injured-reserve-sign-jaydon-blue-to-the-active-roster-2026-nfl-week-6-panthers",
+    "https://www.espn.com/nfl/story/_/id/50361174/sirianni-no-changes-oc-qb-eagles-six-game-skid",
+    "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/nick-sirianni-sticking-with-sean-mannion-and-tanner-mckee/763795/",
+    "https://apnews.com/article/philadelphia-eagles-hurts-jalen-606e3d0acb4d42d80728894917b105ed",
+    "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/",
+    "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/",
+    "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz",
+    "https://www.pff.com/grades/nfl/qb/2026",
+    "https://gobison.com/sports/football/stats/2025",
+    "https://www.espn.com/college-football/player/gamelog/_/id/4879250",
+    "https://www.inquirer.com/eagles/2026-nfl-draft-fifth-round-quarterback-cole-payton-north-dakota-state-20260425.html",
+    "https://www.ea.com/games/madden-nfl/ratings"
+  ]
+}

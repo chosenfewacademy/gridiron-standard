@@ -1,0 +1,239 @@
+{
+  "record_type": "team_room_rating",
+  "team": "PHI",
+  "position": "QB",
+  "player": "Tanner McKee",
+  "player_id": "tanner_mckee",
+  "roster_status": "Active, starting QB since Week 6",
+  "authorized_by": "t38u",
+  "rated_at": "2026-11-02T22:15:00-05:00",
+  "methodology_version": "1.1.0",
+  "audit_order": "1.1.2",
+  "status": "PROPOSED_UNLOCKED",
+  "overall": 66,
+  "ratings": {
+    "SPD": 70,
+    "ACC": 76,
+    "AGI": 68,
+    "COD": 66,
+    "STR": 70,
+    "AWR": 66,
+    "THP": 85,
+    "SAC": 80,
+    "MAC": 74,
+    "DAC": 70,
+    "RUN": 64,
+    "TUP": 58,
+    "PAC": 72,
+    "BSK": 55,
+    "CAR": 66,
+    "JMP": 70,
+    "INJ": 86,
+    "STA": 82,
+    "TGH": 80
+  },
+  "confidence": "MEDIUM",
+  "style_profile": "Tall rhythm pocket passer: quick-game timing and ball protection, little escape ability, struggles once the pocket is muddied",
+  "style_evidence": [
+    "2026 (3 starts, 0-3): 72/114, 638 yds, 2 TD/2 INT, pass EPA -22.6, CPOE -2.4; PFF 65.6",
+    "EPA/play -.178; in pocket -.125; out of pocket -.34 on 9% of plays (OOP cmp 33%)",
+    "Clean +.03, pressured -1.14; 10 sacks in 3 starts (5 vs WAS), 1 sack-fumble lost",
+    "Time to throw 2.65 s (quick); TWP rate 1.3% (low)",
+    "2025 relief: 24/43, 274 yds, 1 TD/1 INT",
+    "Media: 'struggled with his pocket awareness' (NBC Sports Philadelphia)"
+  ],
+  "key_stats": [
+    "2026 (3 starts, 0-3): 72/114, 638 yds, 2 TD/2 INT, pass EPA -22.6, CPOE -2.4; PFF 65.6",
+    "EPA/play -.178; in pocket -.125; out of pocket -.34 on 9% of plays (OOP cmp 33%)",
+    "Clean +.03, pressured -1.14; 10 sacks in 3 starts (5 vs WAS), 1 sack-fumble lost",
+    "Time to throw 2.65 s (quick); TWP rate 1.3% (low)",
+    "2025 relief: 24/43, 274 yds, 1 TD/1 INT",
+    "Media: 'struggled with his pocket awareness' (NBC Sports Philadelphia)"
+  ],
+  "madden27_reference": {
+    "policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+    "source": "https://www.ea.com/games/madden-nfl/ratings",
+    "retrieved_at": "2026-11-02T22:05:00-05:00",
+    "table": [
+      {
+        "attribute": "OVR",
+        "ours": 66,
+        "madden": 67,
+        "delta": -1
+      },
+      {
+        "attribute": "SPD",
+        "ours": 70,
+        "madden": 77,
+        "delta": -7
+      },
+      {
+        "attribute": "ACC",
+        "ours": 76,
+        "madden": 84,
+        "delta": -8
+      },
+      {
+        "attribute": "AGI",
+        "ours": 68,
+        "madden": 76,
+        "delta": -8
+      },
+      {
+        "attribute": "COD",
+        "ours": 66,
+        "madden": 74,
+        "delta": -8
+      },
+      {
+        "attribute": "STR",
+        "ours": 70,
+        "madden": 61,
+        "delta": 9
+      },
+      {
+        "attribute": "AWR",
+        "ours": 66,
+        "madden": 68,
+        "delta": -2
+      },
+      {
+        "attribute": "THP",
+        "ours": 85,
+        "madden": 87,
+        "delta": -2
+      },
+      {
+        "attribute": "SAC",
+        "ours": 80,
+        "madden": 83,
+        "delta": -3
+      },
+      {
+        "attribute": "MAC",
+        "ours": 74,
+        "madden": 80,
+        "delta": -6
+      },
+      {
+        "attribute": "DAC",
+        "ours": 70,
+        "madden": 76,
+        "delta": -6
+      },
+      {
+        "attribute": "RUN",
+        "ours": 64,
+        "madden": 80,
+        "delta": -16
+      },
+      {
+        "attribute": "TUP",
+        "ours": 58,
+        "madden": 77,
+        "delta": -19
+      },
+      {
+        "attribute": "PAC",
+        "ours": 72,
+        "madden": 78,
+        "delta": -6
+      },
+      {
+        "attribute": "BSK",
+        "ours": 55,
+        "madden": 53,
+        "delta": 2
+      },
+      {
+        "attribute": "CAR",
+        "ours": 66,
+        "madden": 58,
+        "delta": 8
+      },
+      {
+        "attribute": "JMP",
+        "ours": 70,
+        "madden": 78,
+        "delta": -8
+      },
+      {
+        "attribute": "INJ",
+        "ours": 86,
+        "madden": 89,
+        "delta": -3
+      },
+      {
+        "attribute": "STA",
+        "ours": 82,
+        "madden": 75,
+        "delta": 7
+      },
+      {
+        "attribute": "TGH",
+        "ours": 80,
+        "madden": 87,
+        "delta": -7
+      }
+    ]
+  },
+  "variance_audit": {
+    "threshold": 10,
+    "gaps": [
+      {
+        "attribute": "RUN",
+        "ours": 64,
+        "madden": 80,
+        "delta": -16,
+        "explanation": "-16 vs Madden 80: out-of-pocket EPA -.34 (2026) and -.74 (2025) with 33%/18% completion on the move"
+      },
+      {
+        "attribute": "TUP",
+        "ours": 58,
+        "madden": 77,
+        "delta": -19,
+        "explanation": "-19 vs Madden 77: pressured EPA -1.14 and 5 sacks + fumble in one start; worst pressure profile in the room"
+      }
+    ]
+  },
+  "style_similarity_check": {
+    "rule": "corr>=0.95 or mad<=3 flags STYLE_PROFILE_TOO_SIMILAR",
+    "compared_against": "19 approved QB re-audit ratings + PHI room",
+    "max_corr": [
+      "Justin Herbert",
+      0.78,
+      6.21
+    ],
+    "min_mad": [
+      "Geno Smith",
+      0.671,
+      5.42
+    ],
+    "flags": [],
+    "result": "PASS"
+  },
+  "ceiling_check": {
+    "locked_top10_floor": "Trevor Lawrence 82 (QB_REAUDIT_LOCK_20261102)",
+    "rule": "non-top-10 QB must rate <=82 and below Lawrence in judgment",
+    "result": "PASS",
+    "overall": 66
+  },
+  "sources": [
+    "https://www.philadelphiaeagles.com/team/players-roster/",
+    "https://www.philadelphiaeagles.com/news/eagles-place-jalen-hurts-on-injured-reserve-sign-jaydon-blue-to-the-active-roster-2026-nfl-week-6-panthers",
+    "https://www.espn.com/nfl/story/_/id/50361174/sirianni-no-changes-oc-qb-eagles-six-game-skid",
+    "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/nick-sirianni-sticking-with-sean-mannion-and-tanner-mckee/763795/",
+    "https://apnews.com/article/philadelphia-eagles-hurts-jalen-606e3d0acb4d42d80728894917b105ed",
+    "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/",
+    "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/",
+    "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz",
+    "https://www.pff.com/grades/nfl/qb/2026",
+    "https://gobison.com/sports/football/stats/2025",
+    "https://www.espn.com/college-football/player/gamelog/_/id/4879250",
+    "https://www.inquirer.com/eagles/2026-nfl-draft-fifth-round-quarterback-cole-payton-north-dakota-state-20260425.html",
+    "https://www.ea.com/games/madden-nfl/ratings"
+  ]
+}
