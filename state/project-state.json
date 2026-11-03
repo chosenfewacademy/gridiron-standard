@@ -116,7 +116,11 @@
         "QB_REAUDIT_BG_18",
         "QB_REAUDIT_BG_19",
         "QB_REAUDIT_RATE_18",
-        "QB_REAUDIT_RATE_19"
+        "QB_REAUDIT_RATE_19",
+        "QB_REAUDIT_TIEBREAK_09",
+        "QB_REAUDIT_TIEBREAK_10",
+        "QB_REAUDIT_TIEBREAK_11",
+        "QB_REAUDIT_TIEBREAK_12"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
@@ -207,19 +211,21 @@
         "QB_REAUDIT_BG_18_A1",
         "QB_REAUDIT_BG_19_A1",
         "QB_REAUDIT_RATE_18_A1",
-        "QB_REAUDIT_RATE_19_A1"
+        "QB_REAUDIT_RATE_19_A1",
+        "QB_REAUDIT_TIEBREAK_09_A1",
+        "QB_REAUDIT_TIEBREAK_10_A1",
+        "QB_REAUDIT_TIEBREAK_11_A1",
+        "QB_REAUDIT_TIEBREAK_12_A1"
       ],
       "current_stage": "player_rating",
       "current_task": "QB_REAUDIT_RATE_19",
-      "updated_at": "2026-11-03T02:22:21.672Z",
+      "updated_at": "2026-11-03T02:23:34.234Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_RATE_19",
+        "task_id": "QB_REAUDIT_TIEBREAK_12",
         "status": "FLAGGED",
-        "errors": [],
         "flags": [
-          "AVAILABILITY_RISK: 12 of 24 games 2025-26",
-          "LIMITED_SAMPLE: 157 dropbacks 2026",
-          "LEAGUE_CEILING_FLAG_ADDITION (t35s273)"
+          "CEILING_CHECK_TIEBREAK: outside-pool addition vs #10 / first out (card t35s273)",
+          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
       "awaiting": null,
@@ -957,6 +963,38 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T02:22:21Z",
           "note": "Judgment rating approved (Jayden Daniels 77, Madden 76 ref, delta +1); authorized by t35s273"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_09",
+          "audit_id": "QB_REAUDIT_TIEBREAK_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T02:23:31Z",
+          "note": "Evidence-based verdict approved; authorized by t35s273"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_10",
+          "audit_id": "QB_REAUDIT_TIEBREAK_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T02:23:32Z",
+          "note": "Evidence-based verdict approved; authorized by t35s273"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_11",
+          "audit_id": "QB_REAUDIT_TIEBREAK_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T02:23:33Z",
+          "note": "Evidence-based verdict approved; authorized by t35s273"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_12",
+          "audit_id": "QB_REAUDIT_TIEBREAK_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T02:23:34Z",
+          "note": "Evidence-based verdict approved; authorized by t35s273"
         }
       ]
     },

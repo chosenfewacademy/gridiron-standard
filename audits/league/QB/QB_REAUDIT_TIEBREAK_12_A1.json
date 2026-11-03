@@ -1,0 +1,41 @@
+{
+  "audit_id": "QB_REAUDIT_TIEBREAK_12_A1",
+  "task_id": "QB_REAUDIT_TIEBREAK_12",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Patrick Mahomes",
+    "Jayden Daniels"
+  ],
+  "pair_result": {
+    "winner": "Patrick Mahomes",
+    "loser": "Jayden Daniels",
+    "provisional_order_holds": true,
+    "reasoning": "Mahomes (81) vs Jayden Daniels (77). Daniels leads PFF (76.9 vs 76.1 dropback-weighted) and turnover-worthy rate (0.8% vs 2.8%); Mahomes leads EPA/dropback (+.131 vs -.007), sack rate (5.5% vs 8.3%), availability (21 vs 12 games) and creation value (rush EPA +29.2 in 2025 vs Daniels +14.4 in 2026). Mahomes wins clearly.",
+    "key_evidence_for_winner": [
+      "Patrick Mahomes PFF overall 2026 79.7 (#10), 2025 76.0 (#16)",
+      "Patrick Mahomes 2026: 7 games, EPA/dropback +0.138, EPA/play incl. rush +0.134, CPOE +1.6, 12 TD / 4 INT, sack 3.7%, Y/A 7.74, rush EPA +1.9",
+      "Patrick Mahomes 2025: 14 games, EPA/dropback +0.127, EPA/play incl. rush +0.162, CPOE +0.3, 22 TD / 11 INT",
+      "Patrick Mahomes FTN interception-worthy rate 2.1% (2026), 3.4% (2025)"
+    ],
+    "key_evidence_for_loser": [
+      "Jayden Daniels PFF overall 2026 79.7 (#10), 2025 74.8 (#18)",
+      "Jayden Daniels 2026: 5 games, EPA/dropback +.016, CPOE +5.6, 6 TD / 0 INT, sack 7.6%, rush EPA +14.4",
+      "Jayden Daniels 2025: 7 games, EPA/dropback -.024, CPOE -2.7, 8 TD / 3 INT, sack 8.8%",
+      "Jayden Daniels FTN interception-worthy rate 0.0% (2026), 1.6% (2025); 12 of 24 team games 2025-26"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "CEILING_CHECK_TIEBREAK: outside-pool addition vs #10 / first out (card t35s273)",
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

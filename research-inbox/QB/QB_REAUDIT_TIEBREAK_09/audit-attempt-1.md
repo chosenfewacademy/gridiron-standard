@@ -1,0 +1,45 @@
+# QB TOP10_REAUDIT — tiebreak 09: Trevor Lawrence vs Mac Jones (Grok Bot analyst, attempt 1)
+
+EA ratings not used. Evidence: PFF 2026/2025, nflverse stats and play-by-play, FTN charting.
+
+```json
+{
+  "audit_id": "QB_REAUDIT_TIEBREAK_09_A1",
+  "task_id": "QB_REAUDIT_TIEBREAK_09",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Trevor Lawrence",
+    "Mac Jones"
+  ],
+  "pair_result": {
+    "winner": "Trevor Lawrence",
+    "loser": "Mac Jones",
+    "provisional_order_holds": true,
+    "reasoning": "Lawrence (82) vs Mac Jones (77), ceiling-check tiebreak. On paper Jones leads dropback-weighted EPA/dropback (+.127 vs +.114 over 2025-26), CPOE (+3.7 vs -0.4) and sack rate (5.3% vs 6.7%). But Jones's sample is 11 fill-in starts in 2025 and zero 2026 attempts, built on play-action (+.35 vs non-PA +.08) and YAC (share .445), with a negative deep game (-.25) and collapse when hit (-1.00). Lawrence's 2026 is elite (EPA/db +.282, CPOE +3.9, 17 TD / 4 INT in 7 games), he leads PFF (80.7 vs 76.7), availability (24 vs 11 games) and turnover-worthy rate (3.0% vs 3.8%), and adds rushing value (+26.8 rush EPA 2025). Lawrence wins clearly.",
+    "key_evidence_for_winner": [
+      "Trevor Lawrence PFF overall 2026 71.7 (#20), 2025 83.7 (#7)",
+      "Trevor Lawrence 2026: 7 games, EPA/dropback +0.282, EPA/play incl. rush +0.280, CPOE +3.9, 17 TD / 4 INT, sack 6.2%, Y/A 8.54, rush EPA +5.4",
+      "Trevor Lawrence 2025: 17 games, EPA/dropback +0.064, EPA/play incl. rush +0.096, CPOE -1.9, 29 TD / 12 INT",
+      "Trevor Lawrence FTN interception-worthy rate 3.0% (2026), 3.2% (2025)"
+    ],
+    "key_evidence_for_loser": [
+      "Mac Jones PFF overall 2025 76.7 (#15); no 2026 qualifying grade (backup, 0 attempts)",
+      "Mac Jones 2025 (SF): 11 games, 304 dropbacks, EPA/dropback +.127, CPOE +3.7, 13 TD / 6 INT, sack 5.3%, rush EPA -5.3",
+      "Mac Jones 2025 splits: play-action EPA +.35 vs non-PA +.08; 20+ yds 18% cmp, EPA -.25; when hit EPA -1.00",
+      "Mac Jones FTN interception-worthy rate 3.8% (2025)"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "CEILING_CHECK_TIEBREAK: outside-pool addition vs #10 / first out (card t35s273)"
+  ],
+  "locked_control_conflict": false
+}
+```
