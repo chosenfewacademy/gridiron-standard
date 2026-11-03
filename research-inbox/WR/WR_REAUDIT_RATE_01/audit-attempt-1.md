@@ -1,0 +1,529 @@
+# WR_REAUDIT_RATE_01 — Jaxon Smith-Njigba rating (v1.1.2 stage 3, per-attribute judgment; authorized by t45u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "WR_REAUDIT_RATE_01_A1",
+  "task_id": "WR_REAUDIT_RATE_01",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "player_id": "jaxon_smith_njigba",
+  "players": [
+    "Jaxon Smith-Njigba"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 91,
+    "ACC": 95,
+    "AGI": 95,
+    "COD": 96,
+    "STR": 64,
+    "AWR": 95,
+    "CTH": 94,
+    "CIT": 88,
+    "SPC": 86,
+    "SRR": 97,
+    "MRR": 97,
+    "DRR": 95,
+    "RLS": 92,
+    "JMP": 82,
+    "CAR": 88,
+    "BTK": 72,
+    "SPM": 62,
+    "JKM": 80,
+    "INJ": 88,
+    "STA": 92,
+    "TGH": 82
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "CTH": "MEDIUM",
+    "CIT": "LOW",
+    "SPC": "LOW",
+    "SRR": "MEDIUM",
+    "MRR": "MEDIUM",
+    "DRR": "MEDIUM",
+    "RLS": "MEDIUM",
+    "JMP": "LOW",
+    "CAR": "MEDIUM",
+    "BTK": "MEDIUM",
+    "SPM": "LOW",
+    "JKM": "LOW",
+    "INJ": "LOW",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (physical): size 72 in / 198 lb, run-block snaps {'off': '448', 'routes': '286', 'rblk': '161'}. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (processing): 3rd-down conv, EPA/tgt, PFF grade: Jaxon Smith-Njigba PFF WR offense grade 2026 93.2 (rank 1), 2025 92.9; 2026 PFF snaps {'off': '448', 'routes': '286', 'rblk': '161'}. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (hands): short catch rate, PFF grade: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (contested): deep/red-zone results and size (198 lb): 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Listed weakness area: contested size, after-contact power",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPC": {
+      "basis": "Judgment (contested): deep/red-zone results and size (198 lb): 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Listed weakness area: contested size, after-contact power",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (deep): deep catch rate and deep EPA/tgt: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0; 2025: 17 g, 163 tgt, 119 rec, 1793 yds, 10 TD, EPA/tgt 0.556, aDOT 11.2, NGS separation 3.02, YAC over expected 0.79, YPRR 2.92, TPRR 0.265, routes 614; deep (20+ air yds) 24 tgt catch 0.58 EPA/tgt 1.45, short (<10) catch 0.78, YAC/rec 4.4, red-zone tgt 17, 3rd/4th-down conv 20/40, fumbles lost 1. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (contested): deep/red-zone results and size (198 lb): 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Listed weakness area: contested size, after-contact power",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 1. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPM": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JKM": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Jaxon Smith-Njigba 2026 usage: 387 offensive snaps in 7 games (nflverse snap_counts); age 24, 72 in, 198 lb; roster status ACT; 2025 games 17. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Jaxon Smith-Njigba 2026 usage: 387 offensive snaps in 7 games (nflverse snap_counts); age 24, 72 in, 198 lb; roster status ACT; PFF snaps {'off': '448', 'routes': '286', 'rblk': '161'}. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Jaxon Smith-Njigba 2026 usage: 387 offensive snaps in 7 games (nflverse snap_counts); age 24, 72 in, 198 lb; roster status ACT; PFF snaps {'off': '448', 'routes': '286', 'rblk': '161'}. Style: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "SPD": {
+      "tier": "ELITE",
+      "claim": "vertical/explosive: deep targets/aDOT/separation: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "ACC": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "vertical/explosive: deep targets/aDOT/separation: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AGI": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "separation: NGS separation, TPRR, short catch rate: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "COD": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "separation: NGS separation, TPRR, short catch rate: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AWR": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "processing: 3rd-down conv, EPA/tgt, PFF grade: Jaxon Smith-Njigba PFF WR offense grade 2026 93.2 (rank 1), 2025 92.9; 2026 PFF snaps {'off': '448', 'routes': '286', 'rblk': '161'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "tier": "ELITE",
+      "claim": "hands: short catch rate, PFF grade: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SRR": {
+      "tier": "EXTRAORDINARY",
+      "claim": "route: YPRR/TPRR/3rd-down conversion: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "MRR": {
+      "tier": "EXTRAORDINARY",
+      "claim": "route: YPRR/TPRR/3rd-down conversion: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "DRR": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "deep: deep catch rate and deep EPA/tgt: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0; 2025: 17 g, 163 tgt, 119 rec, 1793 yds, 10 TD, EPA/tgt 0.556, aDOT 11.2, NGS separation 3.02, YAC over expected 0.79, YPRR 2.92, TPRR 0.265, routes 614; deep (20+ air yds) 24 tgt catch 0.58 EPA/tgt 1.45, short (<10) catch 0.78, YAC/rec 4.4, red-zone tgt 17, 3rd/4th-down conv 20/40, fumbles lost 1",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RLS": {
+      "tier": "ELITE",
+      "claim": "route: YPRR/TPRR/3rd-down conversion: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: Jaxon Smith-Njigba 2026 usage: 387 offensive snaps in 7 games (nflverse snap_counts); age 24, 72 in, 198 lb; roster status ACT; PFF snaps {'off': '448', 'routes': '286', 'rblk': '161'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "proposed_ovr": 95,
+  "ovr_tier": "LEAGUE_DEFINING",
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact. OVR 95+: LEAGUE_DEFINING \u2014 best WR in football on 2025-26 evidence (PFF #1 2026, #2 2025, YPRR 2.9-3.0 both years).",
+  "style_profile": "Jaxon Smith-Njigba: League-defining separator: the sharpest route runner in football from slot or outside. PFF #1 in 2026 (93.2) after 92.9 in 2025; 1,793 yds in 2025; YPRR 2.92 then 3.03; deep targets at +2.25 EPA in 2026; wins with leverage and footwork, not size or contact.",
+  "style_evidence": [
+    "Jaxon Smith-Njigba (SEA) 2026: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YAC over expected 1.03, YPRR 3.03, TPRR 0.273, routes 286; deep (20+ air yds) 12 tgt catch 0.83 EPA/tgt 2.25, short (<10) catch 0.76, YAC/rec 4.7, red-zone tgt 12, 3rd/4th-down conv 17/30, fumbles lost 0",
+    "Jaxon Smith-Njigba (SEA) 2025: 17 g, 163 tgt, 119 rec, 1793 yds, 10 TD, EPA/tgt 0.556, aDOT 11.2, NGS separation 3.02, YAC over expected 0.79, YPRR 2.92, TPRR 0.265, routes 614; deep (20+ air yds) 24 tgt catch 0.58 EPA/tgt 1.45, short (<10) catch 0.78, YAC/rec 4.4, red-zone tgt 17, 3rd/4th-down conv 20/40, fumbles lost 1",
+    "Jaxon Smith-Njigba PFF WR offense grade 2026 93.2 (rank 1), 2025 92.9; 2026 PFF snaps {'off': '448', 'routes': '286', 'rblk': '161'}",
+    "Jaxon Smith-Njigba 2026 usage: 387 offensive snaps in 7 games (nflverse snap_counts); age 24, 72 in, 198 lb; roster status ACT"
+  ],
+  "input_dossier": "WR_REAUDIT_BG_01_A1",
+  "weaknesses": [
+    "contested size",
+    "after-contact power"
+  ],
+  "madden_reference": [
+    {
+      "player": "Jaxon Smith-Njigba",
+      "ovr": 99,
+      "attributes": {
+        "SPD": 93,
+        "ACC": 95,
+        "AGI": 96,
+        "COD": 94,
+        "STR": 63,
+        "AWR": 98,
+        "CTH": 97,
+        "CIT": 93,
+        "SPC": 98,
+        "SRR": 97,
+        "MRR": 99,
+        "DRR": 97,
+        "RLS": 98,
+        "JMP": 89,
+        "CAR": 72,
+        "BTK": 81,
+        "SPM": 76,
+        "JKM": 89,
+        "INJ": 87,
+        "STA": 94,
+        "TGH": 82
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -4,
+      "delta_attributes": {
+        "SPD": -2,
+        "ACC": 0,
+        "AGI": -1,
+        "COD": 2,
+        "STR": 1,
+        "AWR": -3,
+        "CTH": -3,
+        "CIT": -5,
+        "SPC": -12,
+        "SRR": 0,
+        "MRR": -2,
+        "DRR": -2,
+        "RLS": -6,
+        "JMP": -7,
+        "CAR": 16,
+        "BTK": -9,
+        "SPM": -14,
+        "JKM": -9,
+        "INJ": 1,
+        "STA": -2,
+        "TGH": 0
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 WR, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 4,
+    "attribute_gaps_10plus": {
+      "SPC": -12,
+      "CAR": 16,
+      "SPM": -14
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t45u"
+}
+```
