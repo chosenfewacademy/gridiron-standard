@@ -1134,16 +1134,17 @@
         "RB_REAUDIT_RATE_13_A2",
         "RB_REAUDIT_RATE_11_A2",
         "RB_REAUDIT_RATE_14_A2",
-        "RB_REAUDIT_RATE_12_A2"
+        "RB_REAUDIT_RATE_12_A2",
+        "RB_REAUDIT_RATE_06_A2"
       ],
       "current_stage": "pair_audits",
       "current_task": "RB_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T08:44:15.238Z",
+      "updated_at": "2026-11-03T08:45:13.318Z",
       "last_result": {
-        "task_id": "RB_REAUDIT_RATE_12",
+        "task_id": "RB_REAUDIT_RATE_06",
         "status": "REVISION_APPROVED",
-        "audit_id": "RB_REAUDIT_RATE_12_A2",
-        "supersedes": "RB_REAUDIT_RATE_12_A1",
+        "audit_id": "RB_REAUDIT_RATE_06_A2",
+        "supersedes": "RB_REAUDIT_RATE_06_A1",
         "flags": []
       },
       "awaiting": null,
@@ -1630,6 +1631,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T08:44:15Z",
           "note": "Commissioner approval t41s314: TIEBREAK_12 loses to Allen (EPA -.062, rec EPA -16.0)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RB_REAUDIT_RATE_06",
+          "audit_id": "RB_REAUDIT_RATE_06_A2",
+          "supersedes": "RB_REAUDIT_RATE_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T08:45:13Z",
+          "note": "Variance-audit evidence fix (t41s314, t42u): Variance audit (t42u): BTK 74 was 13 below Madden and ranked 13/14 in the group while Cook's RYOE/att (+0.78, 5th) and stuff rate (10.1%, 2nd lowest) "
         }
       ]
     },
