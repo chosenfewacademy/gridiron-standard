@@ -1,0 +1,163 @@
+{
+  "audit_id": "RB_REAUDIT_BG_05_A1",
+  "task_id": "RB_REAUDIT_BG_05",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "player_id": "bhayshul_tuten",
+  "players": [
+    "Bhayshul Tuten"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Bhayshul Tuten",
+    "player_id": "bhayshul_tuten",
+    "team": "JAX",
+    "age": 24,
+    "size": {
+      "ht_in": "69",
+      "wt_lb": "206"
+    },
+    "pff": {
+      "2025": {
+        "overall": null
+      },
+      "2026": {
+        "overall": 91.9,
+        "rank": 1,
+        "snaps": {
+          "off": "240",
+          "run": "116",
+          "route": "96",
+          "pblk": "23"
+        }
+      }
+    },
+    "stats_2026": {
+      "car": 110,
+      "ryd": 492,
+      "ypc": 4.47,
+      "td": 3,
+      "epa_rush": -0.003,
+      "succ": 0.418,
+      "expl": 0.109,
+      "fum": 0,
+      "gl": 3,
+      "tgt": 16,
+      "rec": 15,
+      "recyd": 181,
+      "rec_epa": 14.1,
+      "ryoe_att": 0.14915434335394,
+      "ryoe": 15.6612060521637,
+      "stack8": 14.5454545454545
+    },
+    "stats_2025": {
+      "car": 84,
+      "ryd": 307,
+      "ypc": 3.65,
+      "td": 5,
+      "epa_rush": -0.121,
+      "succ": 0.464,
+      "expl": 0.06,
+      "fum": 1,
+      "gl": 8,
+      "tgt": 14,
+      "rec": 10,
+      "recyd": 79,
+      "rec_epa": 5.5,
+      "ryoe_att": null,
+      "ryoe": null,
+      "stack8": null
+    },
+    "splits_2026": {
+      "rec_yac_per_rec": 15,
+      "runs20": 2,
+      "stuff_rate": 0.173,
+      "short_yd": "2/3"
+    },
+    "splits_2025": {
+      "rec_yac_per_rec": 8,
+      "runs20": 0,
+      "stuff_rate": 0.155,
+      "short_yd": "4/8"
+    },
+    "usage_2026": {
+      "offensive_snaps": 241,
+      "games": 7
+    },
+    "summary_lines": [
+      "Bhayshul Tuten (JAX) 2026: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3",
+      "Bhayshul Tuten (JAX) 2025: 84 car 307 yds 3.65 ypc 5 TD, EPA/rush -0.121, success 46%, 10+ run rate 6%, RYOE/att None, fumbles lost 1, 14 tgt 10 rec 79 rec yds, rec YAC/rec 8.0, 20+ runs 0, stuff rate 15.5%, 3rd/4th-and-<=2 conv 4/8",
+      "Bhayshul Tuten PFF HB overall 2026 91.9 (rank 1), 2025 None; 2026 PFF snaps off 240, run 116, routes 96, pass-block 23",
+      "Bhayshul Tuten 2026 usage: 241 offensive snaps in 7 games (nflverse snap_counts); age 24, 69 in, 206 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF elusive rating, YCO/att and MTF are paywalled; contact/MTF judged from RYOE, stuff rate, success and film-consensus style, not a measured MTF count",
+      "small 2026 sample"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CAR",
+      "BCV",
+      "BTK",
+      "TRK",
+      "SFA",
+      "SPM",
+      "JKM",
+      "CTH",
+      "CIT",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/hb/2026",
+        "retrieved_at": "2026-11-03T08:19:45Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/hb/2025",
+        "retrieved_at": "2026-11-03T08:19:45Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:45Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:45Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:45Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T08:19:45Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T08:19:45Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
