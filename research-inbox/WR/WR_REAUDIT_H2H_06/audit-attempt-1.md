@@ -1,4 +1,4 @@
-# WR_REAUDIT_H2H_06 — Amon-Ra St. Brown vs Zay Flowers (v1.1.2 head-to-head; authorized by t45s347)
+# WR_REAUDIT_H2H_06 — Justin Jefferson vs George Pickens (v1.1.2 head-to-head; authorized by t45s353)
 
 ```json
 {
@@ -11,23 +11,23 @@
   "methodology_version": "1.1.0",
   "confidence": "LOW",
   "players": [
-    "Amon-Ra St. Brown",
-    "Zay Flowers"
+    "Justin Jefferson",
+    "George Pickens"
   ],
   "pair_result": {
-    "winner": "Zay Flowers",
-    "loser": "Amon-Ra St. Brown",
-    "provisional_order_holds": false,
-    "reasoning": "84 tie; order flips. Flowers leads 2026 PFF (86.4 vs 78.9), YPRR (3.00 vs 2.21), EPA/tgt (+.436 vs +.313), yds (608 vs 571), deep EPA (+1.56 vs +0.48) and YAC (7.8 vs 3.9). St. Brown leads 2025 (PFF 90.7 vs 79.6, 11 vs 5 TD, 0 vs 3 fumbles lost), TPRR and red zone. Current season decides narrowly (as with Tuten-Henry). Flowers 85.",
+    "winner": "Justin Jefferson",
+    "loser": "George Pickens",
+    "provisional_order_holds": true,
+    "reasoning": "Untested cut line #10 vs #11 (82/81). Jefferson leads 2026 PFF (82.6 vs 78.1), EPA/tgt (+.531 vs +.409), YPRR (1.96 vs 1.72), deep (3/4 vs 3/9) and short catch (86% vs 69%). Pickens leads volume (8 g, 62 tgt vs 6 g, 41) and 2025 (PFF 85.9 vs 80.5, EPA/tgt +.643 vs -.097). Jefferson narrowly on current season; keeps the #10 spot.",
     "key_evidence_for_winner": [
-      "Zay Flowers PFF WR grade 2026 86.4, 2025 79.6; 2026 PFF snaps {'off': '299', 'routes': '203', 'rblk': '92'}; age 26, 69 in 183 lb",
-      "Zay Flowers (BAL) 2026: 7 g 58 tgt 608 yds 3 TD, EPA/tgt 0.436, YPRR 3.0, TPRR 0.286, NGS sep 2.99, aDOT 8.2, deep 7 tgt catch 0.57 EPA/tgt 1.56, short catch 0.73, YAC/rec 7.8, RZ tgt 7, 3rd/4th conv 7/15, fum lost 0",
-      "Zay Flowers (BAL) 2025: 17 g 119 tgt 1211 yds 5 TD, EPA/tgt 0.39, YPRR 2.37, TPRR 0.233, NGS sep 3.52, aDOT 10.2, deep 21 tgt catch 0.57 EPA/tgt 1.31, short catch 0.82, YAC/rec 5.3, RZ tgt 12, 3rd/4th conv 19/40, fum lost 3"
+      "Justin Jefferson PFF WR grade 2026 82.6, 2025 80.5; 2026 PFF snaps {'off': '288', 'routes': '171', 'rblk': '116'}; age 27, 73 in 192 lb",
+      "Justin Jefferson (MIN) 2026: 6 g 41 tgt 335 yds 4 TD, EPA/tgt 0.531, YPRR 1.96, TPRR 0.24, NGS sep 2.72, aDOT 10.0, deep 4 tgt catch 0.75 EPA/tgt 1.71, short catch 0.86, YAC/rec 3.5, RZ tgt 8, 3rd/4th conv 10/18, fum lost 0",
+      "Justin Jefferson (MIN) 2025: 17 g 142 tgt 1048 yds 2 TD, EPA/tgt -0.097, YPRR 1.78, TPRR 0.241, NGS sep 3.23, aDOT 10.2, deep 21 tgt catch 0.24 EPA/tgt -0.44, short catch 0.67, YAC/rec 5.4, RZ tgt 19, 3rd/4th conv 13/38, fum lost 0"
     ],
     "key_evidence_for_loser": [
-      "Amon-Ra St. Brown PFF WR grade 2026 78.9, 2025 90.7; 2026 PFF snaps {'off': '409', 'routes': '258', 'rblk': '150'}; age 27, 72 in 202 lb",
-      "Amon-Ra St. Brown (DET) 2026: 7 g 76 tgt 571 yds 5 TD, EPA/tgt 0.313, YPRR 2.21, TPRR 0.295, NGS sep 2.88, aDOT 8.4, deep 5 tgt catch 0.4 EPA/tgt 0.48, short catch 0.79, YAC/rec 3.9, RZ tgt 16, 3rd/4th conv 10/25, fum lost 0",
-      "Amon-Ra St. Brown (DET) 2025: 17 g 172 tgt 1401 yds 11 TD, EPA/tgt 0.323, YPRR 2.38, TPRR 0.292, NGS sep 2.94, aDOT 8.1, deep 8 tgt catch 0.38 EPA/tgt 0.1, short catch 0.74, YAC/rec 4.9, RZ tgt 35, 3rd/4th conv 28/63, fum lost 0"
+      "George Pickens PFF WR grade 2026 78.1, 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}; age 25, 75 in 205 lb",
+      "George Pickens (DAL) 2026: 8 g 62 tgt 533 yds 2 TD, EPA/tgt 0.409, YPRR 1.72, TPRR 0.2, NGS sep 2.4, aDOT 11.6, deep 9 tgt catch 0.33 EPA/tgt 0.29, short catch 0.69, YAC/rec 3.3, RZ tgt 7, 3rd/4th conv 10/23, fum lost 0",
+      "George Pickens (DAL) 2025: 17 g 138 tgt 1429 yds 9 TD, EPA/tgt 0.643, YPRR 2.16, TPRR 0.209, NGS sep 2.24, aDOT 11.3, deep 22 tgt catch 0.45 EPA/tgt 0.8, short catch 0.72, YAC/rec 5.2, RZ tgt 24, 3rd/4th conv 27/43, fum lost 0"
     ],
     "margin": "NARROW",
     "proposed_rating_adjustment": null,
