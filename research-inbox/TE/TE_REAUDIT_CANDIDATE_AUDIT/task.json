@@ -1,0 +1,240 @@
+{
+  "task_id": "TE_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Trey McBride"
+      },
+      {
+        "rank": 2,
+        "player": "George Kittle"
+      },
+      {
+        "rank": 3,
+        "player": "Brock Bowers"
+      },
+      {
+        "rank": 4,
+        "player": "Dalton Kincaid"
+      },
+      {
+        "rank": 5,
+        "player": "Sam LaPorta"
+      },
+      {
+        "rank": 6,
+        "player": "Colston Loveland"
+      },
+      {
+        "rank": 7,
+        "player": "Kyle Pitts"
+      },
+      {
+        "rank": 8,
+        "player": "Tucker Kraft"
+      },
+      {
+        "rank": 9,
+        "player": "Hunter Henry"
+      },
+      {
+        "rank": 10,
+        "player": "Travis Kelce"
+      }
+    ],
+    "external_controls": [
+      {
+        "player": "Tyler Warren",
+        "ovr": 83
+      },
+      {
+        "player": "Brenton Strange",
+        "ovr": 83
+      }
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Trey McBride",
+      "aliases": [],
+      "player_id": "trey_mcbride",
+      "flags": []
+    },
+    {
+      "player": "George Kittle",
+      "aliases": [],
+      "player_id": "george_kittle",
+      "flags": []
+    },
+    {
+      "player": "Brock Bowers",
+      "aliases": [],
+      "player_id": "brock_bowers",
+      "flags": []
+    },
+    {
+      "player": "Dalton Kincaid",
+      "aliases": [],
+      "player_id": "dalton_kincaid",
+      "flags": []
+    },
+    {
+      "player": "Sam LaPorta",
+      "aliases": [],
+      "player_id": "sam_laporta",
+      "flags": []
+    },
+    {
+      "player": "Isaiah Likely",
+      "aliases": [],
+      "player_id": "ext_00-0037838",
+      "flags": []
+    },
+    {
+      "player": "Kyle Pitts",
+      "aliases": [],
+      "player_id": "kyle_pitts",
+      "flags": []
+    },
+    {
+      "player": "Darnell Washington",
+      "aliases": [],
+      "player_id": "ext_00-0038558",
+      "flags": []
+    },
+    {
+      "player": "T.J. Hockenson",
+      "aliases": [],
+      "player_id": "ext_00-0035229",
+      "flags": []
+    },
+    {
+      "player": "Hunter Henry",
+      "aliases": [],
+      "player_id": "hunter_henry",
+      "flags": []
+    },
+    {
+      "player": "Tucker Kraft",
+      "aliases": [],
+      "player_id": "tucker_kraft",
+      "flags": []
+    },
+    {
+      "player": "Travis Kelce",
+      "aliases": [],
+      "player_id": "travis_kelce",
+      "flags": []
+    },
+    {
+      "player": "Colston Loveland",
+      "aliases": [],
+      "player_id": "colston_loveland",
+      "flags": []
+    },
+    {
+      "player": "Michael Mayer",
+      "aliases": [],
+      "player_id": "ext_00-0039066",
+      "flags": []
+    },
+    {
+      "player": "Elijah Higgins",
+      "aliases": [],
+      "player_id": "ext_00-0039041",
+      "flags": []
+    },
+    {
+      "player": "Harold Fannin Jr.",
+      "aliases": [],
+      "player_id": "ext_00-0040663",
+      "flags": []
+    },
+    {
+      "player": "Dallas Goedert",
+      "aliases": [],
+      "player_id": "dallas_goedert",
+      "flags": []
+    },
+    {
+      "player": "Jackson Hawes",
+      "aliases": [],
+      "player_id": "ext_00-0040194",
+      "flags": [
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Mike Gesicki",
+      "aliases": [],
+      "player_id": "ext_00-0034829",
+      "flags": []
+    },
+    {
+      "player": "Juwan Johnson",
+      "aliases": [],
+      "player_id": "ext_00-0036040",
+      "flags": []
+    }
+  ],
+  "position": "TE",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 4,
+    "group": "Offense",
+    "current_status": "LOCKED",
+    "pff_cited_inputs": [
+      "overall",
+      "receiving",
+      "run blocking",
+      "pass blocking",
+      "yards per route run"
+    ],
+    "position_stats": [
+      "targets, receptions, yards, TD",
+      "YAC"
+    ],
+    "usage_snap_metrics": [
+      "inline/slot/wide alignment %",
+      "route participation",
+      "run-block snaps",
+      "pass-block snaps"
+    ],
+    "on_field_impact": [
+      "EPA/target",
+      "run-block win rate (ESPN)"
+    ],
+    "madden_attributes_informed": [
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "RBK",
+      "RBP",
+      "RBF",
+      "PBK",
+      "LBK",
+      "IBL",
+      "STR",
+      "SPD",
+      "AWR"
+    ],
+    "note": ""
+  }
+}

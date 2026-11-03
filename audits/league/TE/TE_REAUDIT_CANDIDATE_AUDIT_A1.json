@@ -1,0 +1,403 @@
+{
+  "audit_id": "TE_REAUDIT_CANDIDATE_AUDIT_A1",
+  "task_id": "TE_REAUDIT_CANDIDATE_AUDIT",
+  "task_type": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "membership_confirmed": true,
+  "missing_top_players": [],
+  "coverage_check": "League-wide screen of every TE with 30+ targets or PFF 68+ in 2025 or 2026 across all teams, including IR/reserve/free agents (no free-agent TE met the screen). Every PFF 2026 top-12 TE and every 2025 top-10 TE is in the contention set, is an external control, or is listed in excluded with a reason. PFF receiving/run-blocking/pass-blocking sub-grades are behind PFF+ and inline/slot/wide alignment splits are not in public data, so PFF overall grade plus PFF route/run-block/pass-block snap counts (block share) are used instead. Unmatched join: Chigoziem Okonkwo (PFF) = Chig Okonkwo (nflverse), no top-10 case.",
+  "contention_set": [
+    "Brock Bowers",
+    "George Kittle",
+    "Trey McBride",
+    "Dalton Kincaid",
+    "Sam LaPorta",
+    "T.J. Hockenson",
+    "Darnell Washington",
+    "Travis Kelce",
+    "Hunter Henry",
+    "Isaiah Likely",
+    "Tucker Kraft",
+    "Colston Loveland",
+    "Michael Mayer",
+    "Dallas Goedert",
+    "Kyle Pitts"
+  ],
+  "contention_basis": "Step 1 only per commissioner t45s371: 10 proposed top-10 contenders plus 5 first-outs (Kraft, Loveland, Mayer, Goedert, Pitts). Judgment, not formula. TE evidence: PFF overall grade, PFF route/run-block/pass-block snaps (block share), YPRR, TPRR, EPA per target, NGS separation, volume, availability. 2025 full season plus 2026 through Week 8.",
+  "contender_reasons": {
+    "Brock Bowers": "Locked #3; PFF 90.2 (#1 2026)/78.8; 547 yds 5 TD in 6 g, YPRR 2.22, TPRR .252, EPA/tgt +.535; 28% block share - receiving-first, 2025 missed 5 g",
+    "George Kittle": "Locked #2; PFF 90.7 (#1 2025)/79.5; YPRR 2.03/2.35, EPA/tgt +.671/+.349; 45% block snaps (130 run-block 2026) - most complete TE; age 33, 11 g in 2025",
+    "Trey McBride": "Locked #1; 170 tgt, 1,239 yds, 11 TD in 2025 (PFF 81.7); 2026 86 tgt (most) but PFF 74.2, YPRR 1.53, EPA/tgt +.293 - volume vs efficiency trend test",
+    "Dalton Kincaid": "Locked #4; PFF 86.7/77.0; YPRR 2.12/2.29, EPA/tgt +.788/+.481; block share up to 44% in 2026; 12 g in 2025",
+    "Sam LaPorta": "Locked #5; PFF 82.0/75.4; EPA/tgt +.743/+.738 (best sustained); 46-51% block share, 180 run-block snaps 2026; 9 g in 2025 (back)",
+    "T.J. Hockenson": "PFF 79.5 (#3 2026)/61.2; 2026 EPA/tgt +.674, YPRR 1.87 after 2025 YPRR 0.98 - rebound vs one-year test",
+    "Darnell Washington": "PFF 80.3 (#2 2026)/71.0; 58-59% block share, 156 run-block + 45 pass-pro snaps 2026; YPRR 1.62/1.76, EPA/tgt +.33/+.30 - blocking-led top-10 case",
+    "Travis Kelce": "Locked #10; PFF 75.0/72.0; 2026 YPRR 1.90, EPA/tgt +.515; 2025 109 tgt 851 yds; age 37",
+    "Hunter Henry": "Locked #9; PFF 75.2/72.5; 2025 87 tgt 768 yds 7 TD; 2026 EPA/tgt +.554; 44% block share, 35 pass-pro snaps; foot injury questionable Week 9",
+    "Isaiah Likely": "PFF 77.3 (2026, NYG); 64 tgt, 5 TD, TPRR .257 in 7 g; YPRR 1.59, EPA/tgt +.223; 2025 BAL 36 tgt - new-team volume test",
+    "Tucker Kraft": "Locked #8; 2025 PFF 78.1, YPRR 2.20, EPA/tgt +.889 in 8 g (ACL); 2026 PFF 64.5, YPRR 1.37 - first-out, post-injury dip",
+    "Colston Loveland": "Locked #6; 2025 PFF 84.0, 713 yds 6 TD; 2026 PFF 65.8, YPRR 0.93, EPA/tgt -.041 but league-high 223 run-block snaps - first-out, sharp receiving decline",
+    "Michael Mayer": "PFF 75.2 (2026)/64.6; 44-49% block share; YPRR 1.43, EPA/tgt +.259 - first-out, blocking/role TE",
+    "Dallas Goedert": "PFF 74.9/66.7; 2025 11 TD; 2026 TPRR .215, YPRR 1.58; 6 g in 2026 - first-out",
+    "Kyle Pitts": "Locked #7; PFF 73.6/62.0; 2026 YPRR 1.15, EPA/tgt +.062, 197 yds in 8 g; 2025 119 tgt 928 yds - first-out, locked member at risk"
+  },
+  "excluded": [
+    {
+      "player": "Elijah Higgins",
+      "reason": "2026 PFF 77.3 on 18 tgt (151 yds); 62% block share; 2025 PFF 61.5, YPRR 0.95 - sample too small"
+    },
+    {
+      "player": "Tyler Warren",
+      "reason": "External control (83); 2025 114 tgt 817 yds; 2026 PFF 69.4, EPA/tgt -.251, YPRR 1.16"
+    },
+    {
+      "player": "Brenton Strange",
+      "reason": "External control (83); 2025 PFF 76.1, EPA/tgt +.523; 2026 PFF 62.8, 334 yds"
+    },
+    {
+      "player": "Mark Andrews",
+      "reason": "PFF 64.4/61.3; YPRR 1.14/1.08; EPA/tgt +.022/-.085 - decline"
+    },
+    {
+      "player": "Harold Fannin Jr.",
+      "reason": "PFF 67.9/69.0; 2025 108 tgt but EPA/tgt +.013; YPRR 1.57/1.49"
+    },
+    {
+      "player": "Juwan Johnson",
+      "reason": "PFF 66.5/69.5; 2025 102 tgt 889 yds; 2026 YPRR 1.17"
+    },
+    {
+      "player": "Dalton Schultz",
+      "reason": "PFF 73.1/66.7; 0 TD 2026; block share down to 25%"
+    },
+    {
+      "player": "Jake Ferguson",
+      "reason": "Outside PFF top 50 both years; 2026 EPA/tgt -.271; ankle questionable"
+    },
+    {
+      "player": "Mike Gesicki",
+      "reason": "6 TD in 2026 but PFF 67.3, YPRR 1.35, 18% block share"
+    },
+    {
+      "player": "Jackson Hawes",
+      "reason": "2025 PFF 83.2 as blocker (79% block share) on 19 tgt; no 2026 targets"
+    },
+    {
+      "player": "Ian Thomas",
+      "reason": "PFF 74.8 on 5 tgt in 2026; 77% block share - specialist"
+    },
+    {
+      "player": "Charlie Kolar",
+      "reason": "2025 PFF 77.5 blocker on 15 tgt; 2026 EPA/tgt -.896"
+    },
+    {
+      "player": "Brevyn Spann-Ford",
+      "reason": "2025 PFF 73.0 blocker on 13 tgt"
+    },
+    {
+      "player": "David Njoku",
+      "reason": "IR (fibula), window may open Week 9; 2025 EPA/tgt -.075, outside PFF top 50"
+    },
+    {
+      "player": "Cole Kmet",
+      "reason": "IR (knee), season; 2025 PFF 62.9, YPRR 0.83"
+    },
+    {
+      "player": "Josh Oliver",
+      "reason": "IR (biceps) to Jan 17; 2025 PFF 70.7 blocker, 20 tgt"
+    },
+    {
+      "player": "Jake Tonges",
+      "reason": "IR (MCL), out for season; 2025 PFF 77.9, YPRR 1.01"
+    },
+    {
+      "player": "Luke Musgrave",
+      "reason": "Out (neck), may not play in 2026; 2025 31 tgt"
+    },
+    {
+      "player": "Evan Engram",
+      "reason": "Outside PFF top 50 both years; EPA/tgt +.045/-.081"
+    },
+    {
+      "player": "Colby Parkinson",
+      "reason": "Inactive/questionable; 2025 PFF 75.4, 8 TD but YPRR 1.25; 2026 PFF 65.0"
+    },
+    {
+      "player": "Oronde Gadsden II",
+      "reason": "2025 PFF 64.1, 664 yds; 2026 EPA/tgt -.337"
+    },
+    {
+      "player": "Theo Johnson",
+      "reason": "Inactive; outside PFF top 50 in 2025; neck"
+    },
+    {
+      "player": "Zach Ertz",
+      "reason": "No 2026 snaps (development list); 2025 PFF 60.7"
+    }
+  ],
+  "flags": {
+    "injured": [
+      "Hunter Henry (foot, questionable Week 9)",
+      "David Njoku (IR, fibula)",
+      "Cole Kmet (IR, knee, season)",
+      "Josh Oliver (IR, biceps)",
+      "Jake Tonges (IR, MCL, season)",
+      "Luke Musgrave (out, neck)",
+      "Jake Ferguson (ankle, questionable)"
+    ],
+    "free_agents": [],
+    "limited_sample": [
+      "Brock Bowers: 6 g 2026",
+      "Dallas Goedert: 6 g 2026",
+      "Sam LaPorta: 9 g 2025",
+      "Tucker Kraft: 8 g 2025"
+    ],
+    "locked_members_outside_contention": [],
+    "locked_members_first_out": [
+      "Colston Loveland (#6)",
+      "Kyle Pitts (#7)",
+      "Tucker Kraft (#8)"
+    ],
+    "sharp_decline": [
+      "Colston Loveland (PFF 84.0 to 65.8, YPRR 0.93)",
+      "Trey McBride (YPRR 1.68 to 1.53, PFF 81.7 to 74.2)",
+      "Kyle Pitts (YPRR 1.15)",
+      "Tucker Kraft (PFF 78.1 to 64.5)"
+    ],
+    "data_gaps": [
+      "PFF RECV/RBLK/PBLK sub-grades paywalled (PFF+)",
+      "inline/slot/wide alignment snaps not public"
+    ]
+  },
+  "madden_reference": [
+    {
+      "player": "Trey McBride",
+      "ovr": 99,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "George Kittle",
+      "ovr": 97,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Brock Bowers",
+      "ovr": 95,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Dalton Kincaid",
+      "ovr": 83,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Sam LaPorta",
+      "ovr": 90,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Colston Loveland",
+      "ovr": 82,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Kyle Pitts",
+      "ovr": 81,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Tucker Kraft",
+      "ovr": 85,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Hunter Henry",
+      "ovr": 86,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Travis Kelce",
+      "ovr": 93,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "T.J. Hockenson",
+      "ovr": 83,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Darnell Washington",
+      "ovr": 77,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Isaiah Likely",
+      "ovr": 82,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Elijah Higgins",
+      "ovr": 69,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Michael Mayer",
+      "ovr": 80,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Dallas Goedert",
+      "ovr": 89,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Mark Andrews",
+      "ovr": 88,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Tyler Warren",
+      "ovr": 84,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Harold Fannin Jr.",
+      "ovr": 80,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Jake Ferguson",
+      "ovr": 78,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Juwan Johnson",
+      "ovr": 80,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Brenton Strange",
+      "ovr": 79,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Dalton Schultz",
+      "ovr": 87,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "David Njoku",
+      "ovr": 77,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Evan Engram",
+      "ovr": 78,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Jackson Hawes",
+      "ovr": 68,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Mike Gesicki",
+      "ovr": 79,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Oronde Gadsden",
+      "ovr": 75,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Jake Tonges",
+      "ovr": 72,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Mason Taylor",
+      "ovr": 75,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    }
+  ],
+  "madden_order_verified": false,
+  "early_inputs": [],
+  "external_controls": [
+    "Tyler Warren",
+    "Brenton Strange"
+  ],
+  "major_flags": [
+    "LOCKED_MEMBERS_TO_FIRST_OUT: Colston Loveland (#6), Kyle Pitts (#7), Tucker Kraft (#8)",
+    "NEW_CONTENDERS: T.J. Hockenson, Darnell Washington, Isaiah Likely",
+    "DATA_GAP: PFF sub-grades and alignment splits unavailable; block share proxy",
+    "MADDEN_GAP_10PLUS: Darnell Washington (77), Isaiah Likely (82) vs proposed contention; Madden reference only",
+    "LOCKED_CONTROL_CONFLICT"
+  ],
+  "locked_control_conflict": true,
+  "status": "FLAGGED"
+}
