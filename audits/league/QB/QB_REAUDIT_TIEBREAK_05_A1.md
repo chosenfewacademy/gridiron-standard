@@ -1,0 +1,46 @@
+# QB TOP10_REAUDIT — tiebreak 05: Lamar Jackson vs Trevor Lawrence (Grok Bot analyst, attempt 1)
+
+EA ratings not used. Evidence: PFF 2026/2025, nflverse stats and play-by-play, FTN charting.
+
+```json
+{
+  "audit_id": "QB_REAUDIT_TIEBREAK_05_A1",
+  "task_id": "QB_REAUDIT_TIEBREAK_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Lamar Jackson",
+    "Trevor Lawrence"
+  ],
+  "pair_result": {
+    "winner": "Lamar Jackson",
+    "loser": "Trevor Lawrence",
+    "provisional_order_holds": true,
+    "reasoning": "Jackson (82) and Lawrence (82) are tied after RATE_02 A4/A5 without a head-to-head. Weighted by games, Jackson leads EPA/play incl. rushing ~+.163 (+.338 in 5 games 2026, +.096 in 13 2025) vs Lawrence ~+.150 (+.280 in 7, +.096 in 17), EPA/dropback ~+.137 vs ~+.128, and CPOE (+7.4/+1.8 vs +3.9/-1.9). Lawrence leads games-weighted PFF ~80.2 vs ~78.8 and availability (24 vs 18 games) with a lower 2025 sack rate (6.8% vs 10.7%). Turnover-worthy rates are similar (3.2%/2.0% vs 3.0%/3.2%). Jackson's dual-threat value and efficiency edge narrowly outweigh Lawrence's availability. Jackson holds; no rating change.",
+    "key_evidence_for_winner": [
+      "Lamar Jackson PFF overall 2026 91.3 (#2), 2025 74.0 (#20)",
+      "Lamar Jackson 2026: 5 games, EPA/dropback +0.354, EPA/play incl. rush +0.338, CPOE +7.4, 6 TD / 1 INT, sack 6.7%, Y/A 9.97, rush EPA +4.9",
+      "Lamar Jackson 2025: 13 games, EPA/dropback +0.054, EPA/play incl. rush +0.096, CPOE +1.8, 21 TD / 7 INT",
+      "Lamar Jackson FTN interception-worthy rate 3.2% (2026), 2.0% (2025)"
+    ],
+    "key_evidence_for_loser": [
+      "Trevor Lawrence PFF overall 2026 71.7 (#20), 2025 83.7 (#7)",
+      "Trevor Lawrence 2026: 7 games, EPA/dropback +0.282, EPA/play incl. rush +0.280, CPOE +3.9, 17 TD / 4 INT, sack 6.2%, Y/A 8.54, rush EPA +5.4",
+      "Trevor Lawrence 2025: 17 games, EPA/dropback +0.064, EPA/play incl. rush +0.096, CPOE -1.9, 29 TD / 12 INT",
+      "Trevor Lawrence FTN interception-worthy rate 3.0% (2026), 3.2% (2025)"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "PENDING_REVIEW: tiebreak result not approved (card t33s4)",
+    "TIE_BREAK: tied overall broken by contention order; pair verdict decides"
+  ],
+  "locked_control_conflict": false
+}
+```

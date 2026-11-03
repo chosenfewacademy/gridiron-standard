@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -104,7 +104,10 @@
         "QB_REAUDIT_H2H_05",
         "QB_REAUDIT_H2H_06",
         "QB_REAUDIT_TIEBREAK_01",
-        "QB_REAUDIT_TIEBREAK_02"
+        "QB_REAUDIT_TIEBREAK_02",
+        "QB_REAUDIT_TIEBREAK_03",
+        "QB_REAUDIT_TIEBREAK_04",
+        "QB_REAUDIT_TIEBREAK_05"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
@@ -171,36 +174,32 @@
         "QB_REAUDIT_TIEBREAK_02_A1",
         "QB_REAUDIT_RATE_02_A3",
         "QB_REAUDIT_TIEBREAK_03_A1",
-        "QB_REAUDIT_TIEBREAK_04_A1"
+        "QB_REAUDIT_TIEBREAK_04_A1",
+        "QB_REAUDIT_RATE_02_A4",
+        "QB_REAUDIT_RATE_04_A2",
+        "QB_REAUDIT_RATE_05_A2",
+        "QB_REAUDIT_RATE_10_A4",
+        "QB_REAUDIT_RATE_11_A4",
+        "QB_REAUDIT_RATE_14_A3",
+        "QB_REAUDIT_RATE_15_A3",
+        "QB_REAUDIT_RATE_03_A2",
+        "QB_REAUDIT_RATE_01_A2",
+        "QB_REAUDIT_RATE_02_A5",
+        "QB_REAUDIT_TIEBREAK_05_A1"
       ],
       "current_stage": "pair_audits",
       "current_task": "QB_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T00:47:05.345Z",
+      "updated_at": "2026-11-03T00:58:56.827Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_TIEBREAK_04",
+        "task_id": "QB_REAUDIT_TIEBREAK_05",
         "status": "FLAGGED",
         "flags": [
-          "PENDING_REVIEW: tiebreak result not approved (card t31s1)",
-          "RATING_CONTRADICTION: verdict reverses rating order",
+          "PENDING_REVIEW: tiebreak result not approved (card t33s4)",
           "TIE_BREAK: tied overall broken by contention order; pair verdict decides",
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "QB_REAUDIT_TIEBREAK_03",
-        "audit_id": "QB_REAUDIT_TIEBREAK_03_A1",
-        "pending": [
-          {
-            "task_id": "QB_REAUDIT_TIEBREAK_03",
-            "audit_id": "QB_REAUDIT_TIEBREAK_03_A1"
-          },
-          {
-            "task_id": "QB_REAUDIT_TIEBREAK_04",
-            "audit_id": "QB_REAUDIT_TIEBREAK_04_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -713,6 +712,120 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T00:42:57Z",
           "note": "Approved by the commissioner on card t31s5 (tiebreak adjustment)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_03",
+          "audit_id": "QB_REAUDIT_TIEBREAK_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:55:52Z",
+          "note": "Approved by the commissioner on card t33s4"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_04",
+          "audit_id": "QB_REAUDIT_TIEBREAK_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:55:52Z",
+          "note": "Approved by the commissioner on card t33s4"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_02",
+          "audit_id": "QB_REAUDIT_RATE_02_A4",
+          "supersedes": "QB_REAUDIT_RATE_02_A3",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:57:48Z",
+          "note": "Approved by the commissioner on card t33s4 (variance audit fix)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_04",
+          "audit_id": "QB_REAUDIT_RATE_04_A2",
+          "supersedes": "QB_REAUDIT_RATE_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:57:48Z",
+          "note": "Approved by the commissioner on card t33s4 (variance audit fix)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_05",
+          "audit_id": "QB_REAUDIT_RATE_05_A2",
+          "supersedes": "QB_REAUDIT_RATE_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:57:49Z",
+          "note": "Approved by the commissioner on card t33s4 (variance audit fix)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_10",
+          "audit_id": "QB_REAUDIT_RATE_10_A4",
+          "supersedes": "QB_REAUDIT_RATE_10_A3",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:57:49Z",
+          "note": "Approved by the commissioner on card t33s4 (variance audit fix)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_11",
+          "audit_id": "QB_REAUDIT_RATE_11_A4",
+          "supersedes": "QB_REAUDIT_RATE_11_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:57:49Z",
+          "note": "Approved by the commissioner on card t33s4 (variance audit fix)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_14",
+          "audit_id": "QB_REAUDIT_RATE_14_A3",
+          "supersedes": "QB_REAUDIT_RATE_14_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:57:50Z",
+          "note": "Approved by the commissioner on card t33s4 (variance audit fix)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_15",
+          "audit_id": "QB_REAUDIT_RATE_15_A3",
+          "supersedes": "QB_REAUDIT_RATE_15_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:57:50Z",
+          "note": "Approved by the commissioner on card t33s4 (variance audit fix)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_03",
+          "audit_id": "QB_REAUDIT_RATE_03_A2",
+          "supersedes": "QB_REAUDIT_RATE_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:57:50Z",
+          "note": "Approved by the commissioner on card t33s4 (variance audit fix)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_01",
+          "audit_id": "QB_REAUDIT_RATE_01_A2",
+          "supersedes": "QB_REAUDIT_RATE_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:58:14Z",
+          "note": "Approved by the commissioner on card t33s4 (variance audit fix)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_02",
+          "audit_id": "QB_REAUDIT_RATE_02_A5",
+          "supersedes": "QB_REAUDIT_RATE_02_A4",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:58:22Z",
+          "note": "Clerical fix (integrity audit pt34u), authorized by card t33s4: removes stale draft flag; ratings identical to A4"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_05",
+          "audit_id": "QB_REAUDIT_TIEBREAK_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:58:56Z",
+          "note": "Approved under card t33s4 authorization (evidence-based: EPA/play incl. rush, EPA/dropback, CPOE favor Jackson)"
         }
       ]
     },

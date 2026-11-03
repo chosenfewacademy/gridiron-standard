@@ -1,4 +1,4 @@
-# QB_REAUDIT_RATE_02 revision A4 — Lamar Jackson (tiebreak adjustment; DRAFT pending commissioner review)
+# QB_REAUDIT_RATE_02 revision A4 — Lamar Jackson tiebreak adjustment + variance fixes (approved on card t33s4)
 
 ```json
 {
@@ -26,9 +26,9 @@
     "MAC": 82,
     "DAC": 86,
     "RUN": 89,
-    "TUP": 79,
+    "TUP": 74,
     "PAC": 87,
-    "BSK": 84,
+    "BSK": 78,
     "CAR": 76,
     "JMP": 80,
     "INJ": 68,
@@ -181,7 +181,7 @@
       ]
     },
     "TUP": {
-      "basis": "Sack rate 6.7% 2026, 10.6% 2025; leaves pocket rather than throwing into pressure",
+      "basis": "EPA/play under pressure -1.29, 17th of 17 [nflverse pbp + FTN charting 2025-2026 REG (games-weighted), NGS passing; QB_REAUDIT_VARIANCE_AUDIT analysis]; revised 79->74 (variance audit, approved t33s4)",
       "why_not_higher": "Pocket throws under pressure not his strength",
       "why_not_lower": "Creates under duress with legs",
       "sources": [
@@ -203,7 +203,7 @@
       ]
     },
     "BSK": {
-      "basis": "Escapes and scrambles, but 36 sacks (10.6%) in 2025",
+      "basis": "Sack rate 16th of 17 (10.6% 2025) [nflverse pbp + FTN charting 2025-2026 REG (games-weighted), NGS passing; QB_REAUDIT_VARIANCE_AUDIT analysis]; revised 84->78 (variance audit, approved t33s4)",
       "why_not_higher": "High 2025 sack rate",
       "why_not_lower": "Turns pressure into scrambles",
       "sources": [
@@ -323,7 +323,8 @@
     "TIEBREAK_ADJUSTMENT_PROPOSED:QB_REAUDIT_TIEBREAK_01",
     "TIEBREAK_ADJUSTMENT_PROPOSED:QB_REAUDIT_TIEBREAK_03,QB_REAUDIT_TIEBREAK_04",
     "NEW_UNTESTED_TIE: Jackson 82 vs Lawrence 82",
-    "PENDING_COMMISSIONER_REVIEW: drafted only; not run, not approved"
+    "PENDING_COMMISSIONER_REVIEW: drafted only; not run, not approved",
+    "VARIANCE_ADJUSTMENT:QB_REAUDIT_VARIANCE_AUDIT:TUP,BSK"
   ],
   "locked_control_conflict": false,
   "style_profile": "Explosive vertical scrambler: improvises out of structure, attacks deep (aDOT 10.2, 18.6% deep), wins with legs on scrambles; weaker intermediate accuracy and pocket-pressure throwing \u2014 the opposite shape to Burrow's pocket precision.",
