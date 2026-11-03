@@ -1016,7 +1016,7 @@
         "position": "RB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/RB.reaudit.json",
       "baseline_file": "data/baselines/RB.json",
@@ -1074,7 +1074,8 @@
         "RB_REAUDIT_TIEBREAK_11",
         "RB_REAUDIT_TIEBREAK_12",
         "RB_REAUDIT_TIEBREAK_13",
-        "RB_REAUDIT_VARIANCE_AUDIT"
+        "RB_REAUDIT_VARIANCE_AUDIT",
+        "RB_REAUDIT_SCARCITY"
       ],
       "audit_ids": [
         "RB_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -1144,18 +1145,14 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "RB_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-03T08:46:30.354Z",
+      "updated_at": "2026-11-03T08:46:30.590Z",
       "last_result": {
         "task_id": "RB_REAUDIT_SCARCITY",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "RB_REAUDIT_SCARCITY",
-        "audit_id": "RB_REAUDIT_SCARCITY_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -1674,6 +1671,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T08:46:05Z",
           "note": "Scarcity consistency fix (t41s314): Scarcity consistency (t41s314): ACC 95 is a rare/league-defining tier but Tuten's evidence is LOW-confidence (110 carries, 10+ run rate 11%, 2 runs of"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RB_REAUDIT_SCARCITY",
+          "audit_id": "RB_REAUDIT_SCARCITY_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T08:46:30Z",
+          "note": "Commissioner approval t41s314 (run the scarcity audit; approve if clean)"
         }
       ]
     },
