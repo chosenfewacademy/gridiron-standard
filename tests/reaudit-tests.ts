@@ -128,6 +128,13 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     assert.deepEqual(m.audit_order.stages.slice(0, 4), ["candidate_audit", "background_analysis", "player_rating", "pair_audits"]);
     assert.match(fs.readFileSync("ARCHITECTURE_CHANGELOG.md", "utf8"), /## 1\.1\.2 \(addendum\)/);
   });
+  test("calendar: scarcity_audit and positional_cross_audit are position-wide (card t31s9); player stages stay strict", () => {
+    for (const type of ["scarcity_audit", "positional_cross_audit"]) {
+      const k = { task_id: "QB_REAUDIT_X", position: "QB", type };
+      assert(isPositionWideTask(k)); assert.deepEqual(calErr(k, cal()), []);
+    }
+    for (const type of ["player_rating", "background_analysis", "full_audit"]) assert(!isPositionWideTask({ position: "QB", type }));
+  });
   test("calendar: candidate_audit is position-wide too", () => {
     const cand = { task_id: "QB_REAUDIT_CANDIDATE_AUDIT", position: "QB", type: "candidate_audit" };
     assert.deepEqual(calErr(cand, cal()), []); assert(!isPositionWideTask({ ...cand, type: "player_rating" }));
