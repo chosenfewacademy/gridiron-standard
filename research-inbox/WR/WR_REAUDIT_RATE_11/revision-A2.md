@@ -1,0 +1,436 @@
+# WR_REAUDIT_RATE_11 revision A2 — Nico Collins 79 (authorized t45s353)
+
+TIEBREAK_11 narrow loss to Nabers (5 g 2026, TPRR .207); TIEBREAK_06 edges Evans
+
+```json
+{
+  "audit_id": "WR_REAUDIT_RATE_11_A2",
+  "task_id": "WR_REAUDIT_RATE_11",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "player_id": "nico_collins",
+  "players": [
+    "Nico Collins"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "ratings": {
+    "SPD": 90,
+    "ACC": 87,
+    "AGI": 78,
+    "COD": 76,
+    "STR": 88,
+    "AWR": 80,
+    "CTH": 84,
+    "CIT": 86,
+    "SPC": 84,
+    "SRR": 80,
+    "MRR": 84,
+    "DRR": 90,
+    "RLS": 78,
+    "JMP": 86,
+    "CAR": 84,
+    "BTK": 84,
+    "SPM": 58,
+    "JKM": 64,
+    "INJ": 68,
+    "STA": 84,
+    "TGH": 84
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "LOW",
+    "CTH": "LOW",
+    "CIT": "LOW",
+    "SPC": "LOW",
+    "SRR": "LOW",
+    "MRR": "LOW",
+    "DRR": "LOW",
+    "RLS": "LOW",
+    "JMP": "LOW",
+    "CAR": "LOW",
+    "BTK": "LOW",
+    "SPM": "LOW",
+    "JKM": "LOW",
+    "INJ": "LOW",
+    "STA": "LOW",
+    "TGH": "LOW"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences. Revised 88->87: TIEBREAK_11 narrow loss to Nabers (5 g 2026, TPRR .207); TIEBREAK_06 edges Evans",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (physical): size 76 in / 222 lb, run-block snaps {'off': '229', 'routes': '169', 'rblk': '58'}. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (processing): 3rd-down conv, EPA/tgt, PFF grade: Nico Collins PFF WR offense grade 2026 79.6 (rank 17), 2025 85.9; 2026 PFF snaps {'off': '229', 'routes': '169', 'rblk': '58'}. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (hands): short catch rate, PFF grade: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (contested): deep/red-zone results and size (222 lb): 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPC": {
+      "basis": "Judgment (contested): deep/red-zone results and size (222 lb): 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (deep): deep catch rate and deep EPA/tgt: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0; 2025: 15 g, 121 tgt, 71 rec, 1117 yds, 6 TD, EPA/tgt 0.325, aDOT 12.7, NGS separation 2.26, YAC over expected 1.75, YPRR 2.05, TPRR 0.222, routes 544; deep (20+ air yds) 22 tgt catch 0.45 EPA/tgt 0.69, short (<10) catch 0.68, YAC/rec 4.6, red-zone tgt 19, 3rd/4th-down conv 13/33, fumbles lost 1. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (contested): deep/red-zone results and size (222 lb): 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 1. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPM": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JKM": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Nico Collins 2026 usage: 229 offensive snaps in 5 games (nflverse snap_counts); age 27, 76 in, 222 lb; roster status ACT; 2025 games 15. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences. Revised 70->68: TIEBREAK_11 narrow loss to Nabers (5 g 2026, TPRR .207); TIEBREAK_06 edges Evans",
+      "why_not_higher": "Listed weakness area: availability, agility, 2026 sample",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Nico Collins 2026 usage: 229 offensive snaps in 5 games (nflverse snap_counts); age 27, 76 in, 222 lb; roster status ACT; PFF snaps {'off': '229', 'routes': '169', 'rblk': '58'}. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Nico Collins 2026 usage: 229 offensive snaps in 5 games (nflverse snap_counts); age 27, 76 in, 222 lb; roster status ACT; PFF snaps {'off': '229', 'routes': '169', 'rblk': '58'}. Style: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "SPD": {
+      "tier": "ELITE",
+      "claim": "vertical/explosive: deep targets/aDOT/separation: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "DRR": {
+      "tier": "ELITE",
+      "claim": "deep: deep catch rate and deep EPA/tgt: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0; 2025: 15 g, 121 tgt, 71 rec, 1117 yds, 6 TD, EPA/tgt 0.325, aDOT 12.7, NGS separation 2.26, YAC over expected 1.75, YPRR 2.05, TPRR 0.222, routes 544; deep (20+ air yds) 22 tgt catch 0.45 EPA/tgt 0.69, short (<10) catch 0.68, YAC/rec 4.6, red-zone tgt 19, 3rd/4th-down conv 13/33, fumbles lost 1",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "proposed_ovr": 79,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences. Revision A2: TIEBREAK_11 narrow loss to Nabers (5 g 2026, TPRR .207); TIEBREAK_06 edges Evans",
+  "style_profile": "Nico Collins: Big vertical X with strong hands at the catch point: PFF 85.9 and 1,117 yds in 2025, EPA/target +.57 in 2026; only 5 games in 2026 and recurring soft-tissue absences.",
+  "style_evidence": [
+    "Nico Collins (HOU) 2026: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YAC over expected 0.39, YPRR 1.95, TPRR 0.207, routes 169; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 0.9, short (<10) catch 0.8, YAC/rec 3.5, red-zone tgt 5, 3rd/4th-down conv 5/8, fumbles lost 0",
+    "Nico Collins (HOU) 2025: 15 g, 121 tgt, 71 rec, 1117 yds, 6 TD, EPA/tgt 0.325, aDOT 12.7, NGS separation 2.26, YAC over expected 1.75, YPRR 2.05, TPRR 0.222, routes 544; deep (20+ air yds) 22 tgt catch 0.45 EPA/tgt 0.69, short (<10) catch 0.68, YAC/rec 4.6, red-zone tgt 19, 3rd/4th-down conv 13/33, fumbles lost 1",
+    "Nico Collins PFF WR offense grade 2026 79.6 (rank 17), 2025 85.9; 2026 PFF snaps {'off': '229', 'routes': '169', 'rblk': '58'}",
+    "Nico Collins 2026 usage: 229 offensive snaps in 5 games (nflverse snap_counts); age 27, 76 in, 222 lb; roster status ACT"
+  ],
+  "input_dossier": "WR_REAUDIT_BG_11_A1",
+  "weaknesses": [
+    "availability",
+    "agility",
+    "2026 sample"
+  ],
+  "madden_reference": [
+    {
+      "player": "Nico Collins",
+      "ovr": 90,
+      "attributes": {
+        "SPD": 93,
+        "ACC": 91,
+        "AGI": 88,
+        "COD": 81,
+        "STR": 67,
+        "AWR": 92,
+        "CTH": 96,
+        "CIT": 95,
+        "SPC": 90,
+        "SRR": 88,
+        "MRR": 91,
+        "DRR": 88,
+        "RLS": 93,
+        "JMP": 93,
+        "CAR": 77,
+        "BTK": 87,
+        "SPM": 74,
+        "JKM": 79,
+        "INJ": 90,
+        "STA": 88,
+        "TGH": 83
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -11,
+      "delta_attributes": {
+        "SPD": -3,
+        "ACC": -4,
+        "AGI": -10,
+        "COD": -5,
+        "STR": 21,
+        "AWR": -12,
+        "CTH": -12,
+        "CIT": -9,
+        "SPC": -6,
+        "SRR": -8,
+        "MRR": -7,
+        "DRR": 2,
+        "RLS": -15,
+        "JMP": -7,
+        "CAR": 7,
+        "BTK": -3,
+        "SPM": -16,
+        "JKM": -15,
+        "INJ": -22,
+        "STA": -4,
+        "TGH": 1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 WR, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 11,
+    "attribute_gaps_10plus": {
+      "AGI": -10,
+      "STR": 21,
+      "AWR": -12,
+      "CTH": -12,
+      "RLS": -15,
+      "SPM": -16,
+      "JKM": -15,
+      "INJ": -22
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t45s353"
+}
+```
