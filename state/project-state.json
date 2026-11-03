@@ -1016,7 +1016,7 @@
         "position": "RB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/RB.reaudit.json",
       "baseline_file": "data/baselines/RB.json",
@@ -1029,23 +1029,23 @@
         "RB_REAUDIT_CANDIDATE_AUDIT"
       ],
       "audit_ids": [
-        "RB_REAUDIT_CANDIDATE_AUDIT_A1"
+        "RB_REAUDIT_CANDIDATE_AUDIT_A1",
+        "RB_REAUDIT_BG_01_A1"
       ],
-      "current_stage": "candidate_audit",
-      "current_task": "RB_REAUDIT_CANDIDATE_AUDIT",
-      "updated_at": "2026-11-03T08:18:50.663Z",
+      "current_stage": "background_analysis",
+      "current_task": "RB_REAUDIT_BG_01",
+      "updated_at": "2026-11-03T08:22:12.237Z",
       "last_result": {
-        "task_id": "RB_REAUDIT_CANDIDATE_AUDIT",
+        "task_id": "RB_REAUDIT_BG_01",
         "status": "FLAGGED",
         "errors": [],
-        "flags": [
-          "LOCKED_MEMBER_OUTSIDE_CONTENTION: De'Von Achane (IR)",
-          "LIMITED_SAMPLE_IN_CONTENTION: Josh Jacobs, Bhayshul Tuten",
-          "PFF_PRODUCTION_CONFLICT: James Cook",
-          "LOCKED_CONTROL_CONFLICT"
-        ]
+        "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "RB_REAUDIT_BG_01",
+        "audit_id": "RB_REAUDIT_BG_01_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
