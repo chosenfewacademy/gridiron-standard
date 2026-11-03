@@ -854,5 +854,22 @@
   },
   "approved_by": "PhiXCrypto (commissioner)",
   "approved_at": "2026-11-02T04:29:56.857Z",
-  "approved_from": "data/candidate-pools/WR.reaudit.proposed.json"
+  "approved_from": "data/candidate-pools/WR.reaudit.proposed.json",
+  "amendments": [
+    {
+      "amendment_id": "WR_POOL_AMEND_01",
+      "type": "ADD_ONLY_CONTENTION_ADDITION",
+      "players": [
+        "Christian Watson",
+        "Parker Washington"
+      ],
+      "contention_additions": [
+        "Christian Watson",
+        "Parker Washington"
+      ],
+      "approved_by": "PhiXCrypto",
+      "approved_at": "2026-11-03T15:42:04Z",
+      "note": "Authorized by t45s359 (10:39 AM ET Nov 3): league ceiling check flagged both; each beat first-out Pickens in tiebreak (TIEBREAK_36, TIEBREAK_38) and lost to #10 Jefferson; rate fully and test. Already pool candidates; contention addition only. Order Watson then Washington per TIEBREAK_55."
+    }
+  ]
 }
