@@ -1,0 +1,188 @@
+# TE_REAUDIT_BG_03 — Trey McBride background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t45s377.
+
+```json
+{
+  "audit_id": "TE_REAUDIT_BG_03_A1",
+  "task_id": "TE_REAUDIT_BG_03",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "player_id": "trey_mcbride",
+  "players": [
+    "Trey McBride"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Trey McBride",
+    "player_id": "trey_mcbride",
+    "team": "ARI",
+    "age": 26,
+    "size": {
+      "ht_in": "76",
+      "wt_lb": "246"
+    },
+    "pff": {
+      "2026": {
+        "grade": 74.2,
+        "rank": 14,
+        "snaps": {
+          "off": "534",
+          "routes": "356",
+          "pblk": "10",
+          "rblk": "168"
+        }
+      },
+      "2025": {
+        "grade": 81.7,
+        "snaps": {
+          "off": "1033",
+          "routes": "737",
+          "pblk": "12",
+          "rblk": "284"
+        }
+      }
+    },
+    "stats_2026": {
+      "team": "ARI",
+      "games": 8,
+      "tgt": 86,
+      "rec": 66,
+      "yds": 544,
+      "td": 5,
+      "epa_tgt": 0.293,
+      "rz_tgt": 19,
+      "adot": 6.0,
+      "sep": 2.58,
+      "yac_oe": 0.31,
+      "pff": 74.2,
+      "pff_rank": 14,
+      "off": 534,
+      "routes": 356,
+      "pblk": 10,
+      "rblk": 168,
+      "yprr": 1.53,
+      "tprr": 0.242,
+      "block_share": 0.33
+    },
+    "stats_2025": {
+      "team": "ARI",
+      "games": 17,
+      "tgt": 170,
+      "rec": 126,
+      "yds": 1239,
+      "td": 11,
+      "epa_tgt": 0.428,
+      "rz_tgt": 34,
+      "adot": 6.7,
+      "sep": 3.06,
+      "yac_oe": 0.65,
+      "pff": 81.7,
+      "pff_rank": 6,
+      "off": 1033,
+      "routes": 737,
+      "pblk": 12,
+      "rblk": 284,
+      "yprr": 1.68,
+      "tprr": 0.231,
+      "block_share": 0.29
+    },
+    "splits_2026": {
+      "deep_tgt": 4,
+      "deep_catch": 0.5,
+      "deep_epa_tgt": 0.72,
+      "yac_rec": 3.0,
+      "short_catch": 0.8,
+      "rz_tgt": 19,
+      "third_down_conv": "11/25",
+      "fum_lost": 0
+    },
+    "splits_2025": {
+      "deep_tgt": 9,
+      "deep_catch": 0.33,
+      "deep_epa_tgt": 0.41,
+      "yac_rec": 4.6,
+      "short_catch": 0.82,
+      "rz_tgt": 34,
+      "third_down_conv": "22/37",
+      "fum_lost": 0
+    },
+    "usage_2026": {
+      "offensive_snaps": 535,
+      "games": 8
+    },
+    "summary_lines": [
+      "Trey McBride (ARI) 2026: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0",
+      "Trey McBride (ARI) 2025: 17 g, 170 tgt, 126 rec, 1239 yds, 11 TD, EPA/tgt 0.428, aDOT 6.7, NGS separation 3.06, YAC over expected 0.65, YPRR 1.68, TPRR 0.231, routes 737; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.41, short (<10) catch 0.82, YAC/rec 4.6, red-zone tgt 34, 3rd/4th-down conv 22/37, fumbles lost 0",
+      "Trey McBride PFF TE offense grade 2026 74.2 (rank 14), 2025 81.7; 2026 PFF snaps {'off': '534', 'routes': '356', 'pblk': '10', 'rblk': '168'}",
+      "Trey McBride 2026 usage: 535 offensive snaps in 8 games (nflverse snap_counts); age 26, 76 in, 246 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF receiving/run-block/pass-block sub-grades are paywalled (PFF+) and inline/slot/wide alignment splits are not public; per commissioner t45s377 blocking traits are judged from PFF overall grade plus PFF run-block/pass-block/route snap counts (block share), with film-consensus style"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "CAR",
+      "BTK",
+      "RBK",
+      "IBL",
+      "PBK",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/te/2026",
+        "retrieved_at": "2026-11-03T21:11:59Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/te/2025",
+        "retrieved_at": "2026-11-03T21:11:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T21:11:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T21:11:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
+        "retrieved_at": "2026-11-03T21:11:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T21:11:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T21:11:59Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
