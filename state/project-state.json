@@ -139,21 +139,22 @@
         "QB_REAUDIT_RATE_16_A1",
         "QB_REAUDIT_RATE_17_A1",
         "QB_REAUDIT_RATE_06_A2",
-        "QB_REAUDIT_RATE_07_A2"
+        "QB_REAUDIT_RATE_07_A2",
+        "QB_REAUDIT_RATE_08_A2"
       ],
       "current_stage": "player_rating",
       "current_task": "QB_REAUDIT_RATE_17",
-      "updated_at": "2026-11-02T23:59:56.177Z",
+      "updated_at": "2026-11-03T00:00:11.242Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_RATE_07",
+        "task_id": "QB_REAUDIT_RATE_08",
         "status": "REVISION_APPROVED",
-        "audit_id": "QB_REAUDIT_RATE_07_A2",
-        "supersedes": "QB_REAUDIT_RATE_07_A1",
+        "audit_id": "QB_REAUDIT_RATE_08_A2",
+        "supersedes": "QB_REAUDIT_RATE_08_A1",
         "flags": [
           "REVISION_A2_T30S3: per-player judgment replaces formula A1",
           "JMP_NO_EVIDENCE: neutral 70 LOW",
-          "ELITE_TRAIT_PROPOSED: SAC 90",
-          "SEASON_SPLIT: EPA/dropback +0.298 (2025) vs +0.159 (2026)"
+          "SEASON_SPLIT: PFF 60.9 (2025) vs 80.9 (2026)",
+          "SACK_PRONE: 78 sacks in two seasons"
         ]
       },
       "awaiting": null,
@@ -478,6 +479,15 @@
           "supersedes": "QB_REAUDIT_RATE_07_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-02T23:59:55Z",
+          "note": "Automatic approval under t30u and t30s3 (user: redo formula ratings by per-player judgment); supersedes the formula A1; rating may be adjusted during the head-to-heads"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_08",
+          "audit_id": "QB_REAUDIT_RATE_08_A2",
+          "supersedes": "QB_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:00:10Z",
           "note": "Automatic approval under t30u and t30s3 (user: redo formula ratings by per-player judgment); supersedes the formula A1; rating may be adjusted during the head-to-heads"
         }
       ]

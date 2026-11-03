@@ -92,6 +92,27 @@
       "claims": [
         "Geno Smith 2025: 15/17 team games, 450 att, aDOT 6.2, EPA/dropback -0.15, CPOE +0.7; deep (20+) 9.8% of att, 34.1% cmp, EPA +0.13; 10-19 yds 49.3% EPA +0.17; <10 yds 75.7%; hit 43.2% EPA -0.78 (n=44) vs clean 69.7%; sack rate 10.9%; 18 scrambles 109 yds, 17 designed runs 6 yds, 0 rush TD; 19 TD/17 INT; 1 fumbles lost"
       ]
+    },
+    {
+      "name": "nflverse FTN charting 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Geno Smith 2026 FTN charting (regular season): 264 dropbacks; play-action 18.6% EPA +0.24 vs non-PA +0.11; out of pocket 9.5% EPA +0.10, cmp 52.0%; vs blitz EPA +0.07 (n=65); interception-worthy 2.1% of attempts; QB-fault sacks 0 of 23",
+        "No jumping / elevated-throw measure exists in FTN charting, nflverse play-by-play, or PFF season grades"
+      ]
+    },
+    {
+      "name": "nflverse FTN charting 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Geno Smith 2025 FTN charting (regular season): 503 dropbacks; play-action 24.3% EPA -0.06 vs non-PA -0.17; out of pocket 12.3% EPA -0.40, cmp 51.6%; vs blitz EPA -0.20 (n=166); interception-worthy 3.1% of attempts; QB-fault sacks 23 of 55"
+      ]
     }
   ],
   "normalized": {
