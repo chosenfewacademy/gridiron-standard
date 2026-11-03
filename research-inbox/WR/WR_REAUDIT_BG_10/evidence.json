@@ -1,0 +1,1147 @@
+{
+  "task_id": "WR_REAUDIT_BG_10",
+  "position": "WR",
+  "researched_at": "2026-11-03T14:51:41Z",
+  "sources": [
+    {
+      "name": "NFL.com 2026 week 9 schedule",
+      "url": "https://www.nfl.com/schedules/2026/reg9/",
+      "retrieved_at": "2026-11-03T14:51:41Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "p26",
+      "url": "https://www.pff.com/grades/nfl/wr/2026",
+      "retrieved_at": "2026-11-03T14:51:41Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "p25",
+      "url": "https://www.pff.com/grades/nfl/wr/2025",
+      "retrieved_at": "2026-11-03T14:51:41Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "pbp",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+      "retrieved_at": "2026-11-03T14:51:41Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "pbp25",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+      "retrieved_at": "2026-11-03T14:51:41Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "ngs",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
+      "retrieved_at": "2026-11-03T14:51:41Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "ros",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "retrieved_at": "2026-11-03T14:51:41Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "inj",
+      "url": "http://www.espn.com/nfl/injuries",
+      "retrieved_at": "2026-11-03T14:51:41Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "ds",
+      "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-30/devonta-dontayvion-wicks-ruled-out-for-week-8",
+      "retrieved_at": "2026-11-03T14:51:41Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "me",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-working-tirelessly-to-calm-down-his-achilles-tendinitis",
+      "retrieved_at": "2026-11-03T14:51:41Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "sn",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-03T14:51:41Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    }
+  ],
+  "normalized": {
+    "performance_summary": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF WR offense grade (wk1-8): Jaxon Smith-Njigba 93.2, Mike Evans 92.4, Tee Higgins 92.3, DeVonta Smith 90.5, Puka Nacua 90.3, CeeDee Lamb 89.7, Chris Olave 87.3, Zay Flowers 86.4, Drake London 86.0, Ja'Marr Chase 84.9, Malik Nabers 83.6, Justin Jefferson 82.6, Mack Hollins 82.2, Parker Washington 81.0, Luther Burden III 81.0, Garrett Wilson 80.6, Nico Collins 79.6, Jaylin Noel 79.3, Amon-Ra St. Brown 78.9, George Pickens 78.1, Adonai Mitchell 77.7, Tetairoa McMillan 77.4, DJ Moore 76.9, Michael Wilson 76.7, Davante Adams 75.9",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF WR offense grade: Puka Nacua 96.2, Jaxon Smith-Njigba 92.9, Amon-Ra St. Brown 90.7, Ja'Marr Chase 90.1, Drake London 88.0, Terry McLaurin 86.5, Nico Collins 85.9, George Pickens 85.9, Davante Adams 84.8, Jaylen Waddle 84.0, Stefon Diggs 82.7, Christian Watson 82.7, Parker Washington 82.1, DeAndre Hopkins 81.3, A.J. Brown 80.9, Justin Jefferson 80.5, Ryan Flournoy 80.3, Tee Higgins 80.1, Zay Flowers 79.6, Tetairoa McMillan 79.3, Alec Pierce 79.3, Chris Olave 78.0, CeeDee Lamb 77.6, DeMario Douglas 77.4, Josh Downs 77.1",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaxon Smith-Njigba (SEA) 2026: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YPRR 3.03, TPRR 0.273",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaxon Smith-Njigba (SEA) 2025: 17 g, 163 tgt, 119 rec, 1793 yds, 10 TD, EPA/tgt 0.556, aDOT 11.2, NGS separation 3.02, YPRR 2.92, TPRR 0.265",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Puka Nacua (LA) 2026: 6 g, 74 tgt, 56 rec, 565 yds, 3 TD, EPA/tgt 0.194, aDOT 7.7, NGS separation 3.09, YPRR 2.53, TPRR 0.332",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Puka Nacua (LA) 2025: 16 g, 166 tgt, 129 rec, 1715 yds, 10 TD, EPA/tgt 0.697, aDOT 9.4, NGS separation 2.83, YPRR 2.86, TPRR 0.277",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Ja'Marr Chase (CIN) 2026: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YPRR 1.98, TPRR 0.246",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Ja'Marr Chase (CIN) 2025: 16 g, 185 tgt, 125 rec, 1412 yds, 8 TD, EPA/tgt 0.224, aDOT 8.5, NGS separation 3.13, YPRR 2.11, TPRR 0.277",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Tee Higgins (CIN) 2026: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YPRR 2.72, TPRR 0.232",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Tee Higgins (CIN) 2025: 15 g, 99 tgt, 59 rec, 846 yds, 11 TD, EPA/tgt 0.364, aDOT 13.4, NGS separation 1.85, YPRR 1.53, TPRR 0.179",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "CeeDee Lamb (DAL) 2026: 8 g, 94 tgt, 60 rec, 709 yds, 6 TD, EPA/tgt 0.345, aDOT 9.9, NGS separation 2.86, YPRR 2.4, TPRR 0.318",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "CeeDee Lamb (DAL) 2025: 13 g, 117 tgt, 75 rec, 1077 yds, 3 TD, EPA/tgt 0.248, aDOT 12.0, NGS separation 2.77, YPRR 2.16, TPRR 0.235",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Drake London (ATL) 2026: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YPRR 2.57, TPRR 0.259",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Drake London (ATL) 2025: 12 g, 113 tgt, 68 rec, 919 yds, 7 TD, EPA/tgt 0.219, aDOT 10.9, NGS separation 2.63, YPRR 2.2, TPRR 0.271",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Amon-Ra St. Brown (DET) 2026: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YPRR 2.21, TPRR 0.295",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Amon-Ra St. Brown (DET) 2025: 17 g, 172 tgt, 117 rec, 1401 yds, 11 TD, EPA/tgt 0.323, aDOT 8.1, NGS separation 2.94, YPRR 2.38, TPRR 0.292",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Zay Flowers (BAL) 2026: 7 g, 58 tgt, 40 rec, 608 yds, 3 TD, EPA/tgt 0.436, aDOT 8.2, NGS separation 2.99, YPRR 3.0, TPRR 0.286",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Zay Flowers (BAL) 2025: 17 g, 119 tgt, 86 rec, 1211 yds, 5 TD, EPA/tgt 0.39, aDOT 10.2, NGS separation 3.52, YPRR 2.37, TPRR 0.233",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Chris Olave (NO) 2026: 7 g, 71 tgt, 49 rec, 636 yds, 2 TD, EPA/tgt 0.528, aDOT 12.3, NGS separation 2.78, YPRR 2.24, TPRR 0.25",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Chris Olave (NO) 2025: 16 g, 156 tgt, 100 rec, 1163 yds, 9 TD, EPA/tgt 0.228, aDOT 11.8, NGS separation 2.93, YPRR 1.86, TPRR 0.25",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YPRR 1.72, TPRR 0.2",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2025: 17 g, 138 tgt, 93 rec, 1429 yds, 9 TD, EPA/tgt 0.643, aDOT 11.3, NGS separation 2.24, YPRR 2.16, TPRR 0.209",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Nico Collins (HOU) 2026: 5 g, 35 tgt, 24 rec, 329 yds, 3 TD, EPA/tgt 0.574, aDOT 12.5, NGS separation 1.99, YPRR 1.95, TPRR 0.207",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Nico Collins (HOU) 2025: 15 g, 121 tgt, 71 rec, 1117 yds, 6 TD, EPA/tgt 0.325, aDOT 12.7, NGS separation 2.26, YPRR 2.05, TPRR 0.222",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Justin Jefferson (MIN) 2026: 6 g, 41 tgt, 28 rec, 335 yds, 4 TD, EPA/tgt 0.531, aDOT 10.0, NGS separation 2.72, YPRR 1.96, TPRR 0.24",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Justin Jefferson (MIN) 2025: 17 g, 142 tgt, 84 rec, 1048 yds, 2 TD, EPA/tgt -0.097, aDOT 10.2, NGS separation 3.23, YPRR 1.78, TPRR 0.241",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "DeVonta Smith (PHI) 2026: 4 g, 41 tgt, 26 rec, 310 yds, 2 TD, EPA/tgt 0.02, aDOT 12.2, NGS separation 2.35, YPRR 2.12, TPRR 0.281",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "DeVonta Smith (PHI) 2025: 17 g, 114 tgt, 77 rec, 1008 yds, 4 TD, EPA/tgt 0.477, aDOT 12.0, NGS separation 2.83, YPRR 1.7, TPRR 0.193",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Malik Nabers (NYG) 2026: 7 g, 71 tgt, 48 rec, 605 yds, 2 TD, EPA/tgt 0.231, aDOT 11.6, NGS separation 2.99, YPRR 2.39, TPRR 0.281",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Malik Nabers (NYG) 2025: 4 g, 35 tgt, 18 rec, 271 yds, 2 TD, EPA/tgt 0.066, aDOT 15.9, NGS separation None, YPRR None, TPRR None",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Mike Evans (SF) 2026: 6 g, 40 tgt, 27 rec, 420 yds, 3 TD, EPA/tgt 1.023, aDOT 14.6, NGS separation 1.77, YPRR 3.28, TPRR 0.312",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Mike Evans (TB) 2025: 8 g, 62 tgt, 30 rec, 368 yds, 3 TD, EPA/tgt 0.085, aDOT 13.3, NGS separation 1.92, YPRR None, TPRR None",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "A.J. Brown (NE) 2026: 3 g, 20 tgt, 9 rec, 101 yds, 0 TD, EPA/tgt -0.23, aDOT 13.4, NGS separation 2.5, YPRR None, TPRR None",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "A.J. Brown (PHI) 2025: 15 g, 121 tgt, 78 rec, 1003 yds, 7 TD, EPA/tgt 0.278, aDOT 11.8, NGS separation 2.22, YPRR 1.81, TPRR 0.218",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Stefon Diggs (WAS) 2026: 6 g, 44 tgt, 27 rec, 252 yds, 5 TD, EPA/tgt 0.229, aDOT 8.5, NGS separation 2.66, YPRR 1.41, TPRR 0.246",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Stefon Diggs (NE) 2025: 17 g, 102 tgt, 85 rec, 1013 yds, 4 TD, EPA/tgt 0.69, aDOT 8.5, NGS separation 3.04, YPRR 1.76, TPRR 0.178",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaylen Waddle (DEN) 2026: 8 g, 53 tgt, 29 rec, 315 yds, 2 TD, EPA/tgt 0.081, aDOT 9.8, NGS separation 3.56, YPRR None, TPRR None",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaylen Waddle (MIA) 2025: 16 g, 100 tgt, 64 rec, 910 yds, 6 TD, EPA/tgt 0.345, aDOT 13.1, NGS separation 2.72, YPRR 2.06, TPRR 0.226",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jameson Williams (DET) 2026: 7 g, 44 tgt, 27 rec, 437 yds, 5 TD, EPA/tgt 0.544, aDOT 14.9, NGS separation 2.84, YPRR None, TPRR None",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jameson Williams (DET) 2025: 17 g, 102 tgt, 65 rec, 1109 yds, 7 TD, EPA/tgt 0.551, aDOT 12.6, NGS separation 3.17, YPRR 1.77, TPRR 0.163",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "DeVonta Smith (hamstring) ruled out Weeks 7-8; has not practiced since Week 6",
+          "source_url": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-30/devonta-dontayvion-wicks-ruled-out-for-week-8",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Mike Evans missed Week 7 with Achilles tendinitis, also playing through rib injury; return after bye not guaranteed",
+          "source_url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-working-tirelessly-to-calm-down-his-achilles-tendinitis",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "postseason_context": {
+      "status": "not_applicable",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF WR offense grade (wk1-8): Jaxon Smith-Njigba 93.2, Mike Evans 92.4, Tee Higgins 92.3, DeVonta Smith 90.5, Puka Nacua 90.3, CeeDee Lamb 89.7, Chris Olave 87.3, Zay Flowers 86.4, Drake London 86.0, Ja'Marr Chase 84.9, Malik Nabers 83.6, Justin Jefferson 82.6, Mack Hollins 82.2, Parker Washington 81.0, Luther Burden III 81.0, Garrett Wilson 80.6, Nico Collins 79.6, Jaylin Noel 79.3, Amon-Ra St. Brown 78.9, George Pickens 78.1, Adonai Mitchell 77.7, Tetairoa McMillan 77.4, DJ Moore 76.9, Michael Wilson 76.7, Davante Adams 75.9",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF WR offense grade: Puka Nacua 96.2, Jaxon Smith-Njigba 92.9, Amon-Ra St. Brown 90.7, Ja'Marr Chase 90.1, Drake London 88.0, Terry McLaurin 86.5, Nico Collins 85.9, George Pickens 85.9, Davante Adams 84.8, Jaylen Waddle 84.0, Stefon Diggs 82.7, Christian Watson 82.7, Parker Washington 82.1, DeAndre Hopkins 81.3, A.J. Brown 80.9, Justin Jefferson 80.5, Ryan Flournoy 80.3, Tee Higgins 80.1, Zay Flowers 79.6, Tetairoa McMillan 79.3, Alec Pierce 79.3, Chris Olave 78.0, CeeDee Lamb 77.6, DeMario Douglas 77.4, Josh Downs 77.1",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaxon Smith-Njigba (SEA) 2026: 7 g, 78 tgt, 58 rec, 867 yds, 8 TD, EPA/tgt 0.751, aDOT 10.4, NGS separation 2.66, YPRR 3.03, TPRR 0.273",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaxon Smith-Njigba (SEA) 2025: 17 g, 163 tgt, 119 rec, 1793 yds, 10 TD, EPA/tgt 0.556, aDOT 11.2, NGS separation 3.02, YPRR 2.92, TPRR 0.265",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [],
+      "not_applicable_reason": "Current season postseason not yet played."
+    },
+    "multi_year_trend": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "George Pickens (DAL) 2025: 17 g, 138 tgt, 93 rec, 1429 yds, 9 TD, EPA/tgt 0.643, aDOT 11.3, NGS separation 2.24, YAC over expected 2.15, YPRR 2.16, TPRR 0.209, routes 661; deep (20+ air yds) 22 tgt catch 0.45 EPA/tgt 0.8, short (<10) catch 0.72, YAC/rec 5.2, red-zone tgt 24, 3rd/4th-down conv 27/43, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF WR offense grade (wk1-8): Jaxon Smith-Njigba 93.2, Mike Evans 92.4, Tee Higgins 92.3, DeVonta Smith 90.5, Puka Nacua 90.3, CeeDee Lamb 89.7, Chris Olave 87.3, Zay Flowers 86.4, Drake London 86.0, Ja'Marr Chase 84.9, Malik Nabers 83.6, Justin Jefferson 82.6, Mack Hollins 82.2, Parker Washington 81.0, Luther Burden III 81.0, Garrett Wilson 80.6, Nico Collins 79.6, Jaylin Noel 79.3, Amon-Ra St. Brown 78.9, George Pickens 78.1, Adonai Mitchell 77.7, Tetairoa McMillan 77.4, DJ Moore 76.9, Michael Wilson 76.7, Davante Adams 75.9",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF WR offense grade: Puka Nacua 96.2, Jaxon Smith-Njigba 92.9, Amon-Ra St. Brown 90.7, Ja'Marr Chase 90.1, Drake London 88.0, Terry McLaurin 86.5, Nico Collins 85.9, George Pickens 85.9, Davante Adams 84.8, Jaylen Waddle 84.0, Stefon Diggs 82.7, Christian Watson 82.7, Parker Washington 82.1, DeAndre Hopkins 81.3, A.J. Brown 80.9, Justin Jefferson 80.5, Ryan Flournoy 80.3, Tee Higgins 80.1, Zay Flowers 79.6, Tetairoa McMillan 79.3, Alec Pierce 79.3, Chris Olave 78.0, CeeDee Lamb 77.6, DeMario Douglas 77.4, Josh Downs 77.1",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "current_role": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF WR offense grade (wk1-8): Jaxon Smith-Njigba 93.2, Mike Evans 92.4, Tee Higgins 92.3, DeVonta Smith 90.5, Puka Nacua 90.3, CeeDee Lamb 89.7, Chris Olave 87.3, Zay Flowers 86.4, Drake London 86.0, Ja'Marr Chase 84.9, Malik Nabers 83.6, Justin Jefferson 82.6, Mack Hollins 82.2, Parker Washington 81.0, Luther Burden III 81.0, Garrett Wilson 80.6, Nico Collins 79.6, Jaylin Noel 79.3, Amon-Ra St. Brown 78.9, George Pickens 78.1, Adonai Mitchell 77.7, Tetairoa McMillan 77.4, DJ Moore 76.9, Michael Wilson 76.7, Davante Adams 75.9",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF WR offense grade: Puka Nacua 96.2, Jaxon Smith-Njigba 92.9, Amon-Ra St. Brown 90.7, Ja'Marr Chase 90.1, Drake London 88.0, Terry McLaurin 86.5, Nico Collins 85.9, George Pickens 85.9, Davante Adams 84.8, Jaylen Waddle 84.0, Stefon Diggs 82.7, Christian Watson 82.7, Parker Washington 82.1, DeAndre Hopkins 81.3, A.J. Brown 80.9, Justin Jefferson 80.5, Ryan Flournoy 80.3, Tee Higgins 80.1, Zay Flowers 79.6, Tetairoa McMillan 79.3, Alec Pierce 79.3, Chris Olave 78.0, CeeDee Lamb 77.6, DeMario Douglas 77.4, Josh Downs 77.1",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "roster_depth_chart": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF WR offense grade (wk1-8): Jaxon Smith-Njigba 93.2, Mike Evans 92.4, Tee Higgins 92.3, DeVonta Smith 90.5, Puka Nacua 90.3, CeeDee Lamb 89.7, Chris Olave 87.3, Zay Flowers 86.4, Drake London 86.0, Ja'Marr Chase 84.9, Malik Nabers 83.6, Justin Jefferson 82.6, Mack Hollins 82.2, Parker Washington 81.0, Luther Burden III 81.0, Garrett Wilson 80.6, Nico Collins 79.6, Jaylin Noel 79.3, Amon-Ra St. Brown 78.9, George Pickens 78.1, Adonai Mitchell 77.7, Tetairoa McMillan 77.4, DJ Moore 76.9, Michael Wilson 76.7, Davante Adams 75.9",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF WR offense grade: Puka Nacua 96.2, Jaxon Smith-Njigba 92.9, Amon-Ra St. Brown 90.7, Ja'Marr Chase 90.1, Drake London 88.0, Terry McLaurin 86.5, Nico Collins 85.9, George Pickens 85.9, Davante Adams 84.8, Jaylen Waddle 84.0, Stefon Diggs 82.7, Christian Watson 82.7, Parker Washington 82.1, DeAndre Hopkins 81.3, A.J. Brown 80.9, Justin Jefferson 80.5, Ryan Flournoy 80.3, Tee Higgins 80.1, Zay Flowers 79.6, Tetairoa McMillan 79.3, Alec Pierce 79.3, Chris Olave 78.0, CeeDee Lamb 77.6, DeMario Douglas 77.4, Josh Downs 77.1",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "injury_practice_status": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "DeVonta Smith (hamstring) ruled out Weeks 7-8; has not practiced since Week 6",
+          "source_url": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-30/devonta-dontayvion-wicks-ruled-out-for-week-8",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Mike Evans missed Week 7 with Achilles tendinitis, also playing through rib injury; return after bye not guaranteed",
+          "source_url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-working-tirelessly-to-calm-down-his-achilles-tendinitis",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "age_career_trajectory": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF WR offense grade (wk1-8): Jaxon Smith-Njigba 93.2, Mike Evans 92.4, Tee Higgins 92.3, DeVonta Smith 90.5, Puka Nacua 90.3, CeeDee Lamb 89.7, Chris Olave 87.3, Zay Flowers 86.4, Drake London 86.0, Ja'Marr Chase 84.9, Malik Nabers 83.6, Justin Jefferson 82.6, Mack Hollins 82.2, Parker Washington 81.0, Luther Burden III 81.0, Garrett Wilson 80.6, Nico Collins 79.6, Jaylin Noel 79.3, Amon-Ra St. Brown 78.9, George Pickens 78.1, Adonai Mitchell 77.7, Tetairoa McMillan 77.4, DJ Moore 76.9, Michael Wilson 76.7, Davante Adams 75.9",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF WR offense grade: Puka Nacua 96.2, Jaxon Smith-Njigba 92.9, Amon-Ra St. Brown 90.7, Ja'Marr Chase 90.1, Drake London 88.0, Terry McLaurin 86.5, Nico Collins 85.9, George Pickens 85.9, Davante Adams 84.8, Jaylen Waddle 84.0, Stefon Diggs 82.7, Christian Watson 82.7, Parker Washington 82.1, DeAndre Hopkins 81.3, A.J. Brown 80.9, Justin Jefferson 80.5, Ryan Flournoy 80.3, Tee Higgins 80.1, Zay Flowers 79.6, Tetairoa McMillan 79.3, Alec Pierce 79.3, Chris Olave 78.0, CeeDee Lamb 77.6, DeMario Douglas 77.4, Josh Downs 77.1",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "team_system_context": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF WR offense grade (wk1-8): Jaxon Smith-Njigba 93.2, Mike Evans 92.4, Tee Higgins 92.3, DeVonta Smith 90.5, Puka Nacua 90.3, CeeDee Lamb 89.7, Chris Olave 87.3, Zay Flowers 86.4, Drake London 86.0, Ja'Marr Chase 84.9, Malik Nabers 83.6, Justin Jefferson 82.6, Mack Hollins 82.2, Parker Washington 81.0, Luther Burden III 81.0, Garrett Wilson 80.6, Nico Collins 79.6, Jaylin Noel 79.3, Amon-Ra St. Brown 78.9, George Pickens 78.1, Adonai Mitchell 77.7, Tetairoa McMillan 77.4, DJ Moore 76.9, Michael Wilson 76.7, Davante Adams 75.9",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF WR offense grade: Puka Nacua 96.2, Jaxon Smith-Njigba 92.9, Amon-Ra St. Brown 90.7, Ja'Marr Chase 90.1, Drake London 88.0, Terry McLaurin 86.5, Nico Collins 85.9, George Pickens 85.9, Davante Adams 84.8, Jaylen Waddle 84.0, Stefon Diggs 82.7, Christian Watson 82.7, Parker Washington 82.1, DeAndre Hopkins 81.3, A.J. Brown 80.9, Justin Jefferson 80.5, Ryan Flournoy 80.3, Tee Higgins 80.1, Zay Flowers 79.6, Tetairoa McMillan 79.3, Alec Pierce 79.3, Chris Olave 78.0, CeeDee Lamb 77.6, DeMario Douglas 77.4, Josh Downs 77.1",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "preseason_participation": {
+      "status": "not_applicable",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF WR offense grade (wk1-8): Jaxon Smith-Njigba 93.2, Mike Evans 92.4, Tee Higgins 92.3, DeVonta Smith 90.5, Puka Nacua 90.3, CeeDee Lamb 89.7, Chris Olave 87.3, Zay Flowers 86.4, Drake London 86.0, Ja'Marr Chase 84.9, Malik Nabers 83.6, Justin Jefferson 82.6, Mack Hollins 82.2, Parker Washington 81.0, Luther Burden III 81.0, Garrett Wilson 80.6, Nico Collins 79.6, Jaylin Noel 79.3, Amon-Ra St. Brown 78.9, George Pickens 78.1, Adonai Mitchell 77.7, Tetairoa McMillan 77.4, DJ Moore 76.9, Michael Wilson 76.7, Davante Adams 75.9",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF WR offense grade: Puka Nacua 96.2, Jaxon Smith-Njigba 92.9, Amon-Ra St. Brown 90.7, Ja'Marr Chase 90.1, Drake London 88.0, Terry McLaurin 86.5, Nico Collins 85.9, George Pickens 85.9, Davante Adams 84.8, Jaylen Waddle 84.0, Stefon Diggs 82.7, Christian Watson 82.7, Parker Washington 82.1, DeAndre Hopkins 81.3, A.J. Brown 80.9, Justin Jefferson 80.5, Ryan Flournoy 80.3, Tee Higgins 80.1, Zay Flowers 79.6, Tetairoa McMillan 79.3, Alec Pierce 79.3, Chris Olave 78.0, CeeDee Lamb 77.6, DeMario Douglas 77.4, Josh Downs 77.1",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [],
+      "not_applicable_reason": "Regular season established."
+    },
+    "current_season_performance": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF WR offense grade (wk1-8): Jaxon Smith-Njigba 93.2, Mike Evans 92.4, Tee Higgins 92.3, DeVonta Smith 90.5, Puka Nacua 90.3, CeeDee Lamb 89.7, Chris Olave 87.3, Zay Flowers 86.4, Drake London 86.0, Ja'Marr Chase 84.9, Malik Nabers 83.6, Justin Jefferson 82.6, Mack Hollins 82.2, Parker Washington 81.0, Luther Burden III 81.0, Garrett Wilson 80.6, Nico Collins 79.6, Jaylin Noel 79.3, Amon-Ra St. Brown 78.9, George Pickens 78.1, Adonai Mitchell 77.7, Tetairoa McMillan 77.4, DJ Moore 76.9, Michael Wilson 76.7, Davante Adams 75.9",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF WR offense grade: Puka Nacua 96.2, Jaxon Smith-Njigba 92.9, Amon-Ra St. Brown 90.7, Ja'Marr Chase 90.1, Drake London 88.0, Terry McLaurin 86.5, Nico Collins 85.9, George Pickens 85.9, Davante Adams 84.8, Jaylen Waddle 84.0, Stefon Diggs 82.7, Christian Watson 82.7, Parker Washington 82.1, DeAndre Hopkins 81.3, A.J. Brown 80.9, Justin Jefferson 80.5, Ryan Flournoy 80.3, Tee Higgins 80.1, Zay Flowers 79.6, Tetairoa McMillan 79.3, Alec Pierce 79.3, Chris Olave 78.0, CeeDee Lamb 77.6, DeMario Douglas 77.4, Josh Downs 77.1",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "durability_availability": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "DeVonta Smith (hamstring) ruled out Weeks 7-8; has not practiced since Week 6",
+          "source_url": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-30/devonta-dontayvion-wicks-ruled-out-for-week-8",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Mike Evans missed Week 7 with Achilles tendinitis, also playing through rib injury; return after bye not guaranteed",
+          "source_url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-working-tirelessly-to-calm-down-his-achilles-tendinitis",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "recent_performance_trend": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF WR offense grade (wk1-8): Jaxon Smith-Njigba 93.2, Mike Evans 92.4, Tee Higgins 92.3, DeVonta Smith 90.5, Puka Nacua 90.3, CeeDee Lamb 89.7, Chris Olave 87.3, Zay Flowers 86.4, Drake London 86.0, Ja'Marr Chase 84.9, Malik Nabers 83.6, Justin Jefferson 82.6, Mack Hollins 82.2, Parker Washington 81.0, Luther Burden III 81.0, Garrett Wilson 80.6, Nico Collins 79.6, Jaylin Noel 79.3, Amon-Ra St. Brown 78.9, George Pickens 78.1, Adonai Mitchell 77.7, Tetairoa McMillan 77.4, DJ Moore 76.9, Michael Wilson 76.7, Davante Adams 75.9",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF WR offense grade: Puka Nacua 96.2, Jaxon Smith-Njigba 92.9, Amon-Ra St. Brown 90.7, Ja'Marr Chase 90.1, Drake London 88.0, Terry McLaurin 86.5, Nico Collins 85.9, George Pickens 85.9, Davante Adams 84.8, Jaylen Waddle 84.0, Stefon Diggs 82.7, Christian Watson 82.7, Parker Washington 82.1, DeAndre Hopkins 81.3, A.J. Brown 80.9, Justin Jefferson 80.5, Ryan Flournoy 80.3, Tee Higgins 80.1, Zay Flowers 79.6, Tetairoa McMillan 79.3, Alec Pierce 79.3, Chris Olave 78.0, CeeDee Lamb 77.6, DeMario Douglas 77.4, Josh Downs 77.1",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "locked_control_comparisons": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Contention top 10 comparison: Jaxon Smith-Njigba PFF26 93.2 YPRR 3.03 EPA/tgt 0.751; Puka Nacua PFF26 90.3 YPRR 2.53 EPA/tgt 0.194; Ja'Marr Chase PFF26 84.9 YPRR 1.98 EPA/tgt 0.462; Tee Higgins PFF26 92.3 YPRR 2.72 EPA/tgt 0.836; CeeDee Lamb PFF26 89.7 YPRR 2.4 EPA/tgt 0.345; Drake London PFF26 86.0 YPRR 2.57 EPA/tgt 0.394; Amon-Ra St. Brown PFF26 78.9 YPRR 2.21 EPA/tgt 0.313; Zay Flowers PFF26 86.4 YPRR 3.0 EPA/tgt 0.436; Chris Olave PFF26 87.3 YPRR 2.24 EPA/tgt 0.528; George Pickens PFF26 78.1 YPRR 1.72 EPA/tgt 0.409",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF WR offense grade (wk1-8): Jaxon Smith-Njigba 93.2, Mike Evans 92.4, Tee Higgins 92.3, DeVonta Smith 90.5, Puka Nacua 90.3, CeeDee Lamb 89.7, Chris Olave 87.3, Zay Flowers 86.4, Drake London 86.0, Ja'Marr Chase 84.9, Malik Nabers 83.6, Justin Jefferson 82.6, Mack Hollins 82.2, Parker Washington 81.0, Luther Burden III 81.0, Garrett Wilson 80.6, Nico Collins 79.6, Jaylin Noel 79.3, Amon-Ra St. Brown 78.9, George Pickens 78.1, Adonai Mitchell 77.7, Tetairoa McMillan 77.4, DJ Moore 76.9, Michael Wilson 76.7, Davante Adams 75.9",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF WR offense grade: Puka Nacua 96.2, Jaxon Smith-Njigba 92.9, Amon-Ra St. Brown 90.7, Ja'Marr Chase 90.1, Drake London 88.0, Terry McLaurin 86.5, Nico Collins 85.9, George Pickens 85.9, Davante Adams 84.8, Jaylen Waddle 84.0, Stefon Diggs 82.7, Christian Watson 82.7, Parker Washington 82.1, DeAndre Hopkins 81.3, A.J. Brown 80.9, Justin Jefferson 80.5, Ryan Flournoy 80.3, Tee Higgins 80.1, Zay Flowers 79.6, Tetairoa McMillan 79.3, Alec Pierce 79.3, Chris Olave 78.0, CeeDee Lamb 77.6, DeMario Douglas 77.4, Josh Downs 77.1",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [],
+      "compared_controls": [
+        "A.J. Brown",
+        "Amon-Ra St. Brown",
+        "CeeDee Lamb",
+        "Chris Olave",
+        "Drake London",
+        "George Pickens",
+        "Ja'Marr Chase",
+        "Jaxon Smith-Njigba",
+        "Justin Jefferson",
+        "Nico Collins",
+        "Puka Nacua",
+        "Stefon Diggs",
+        "Tee Higgins",
+        "Zay Flowers"
+      ]
+    },
+    "outside_control_comparisons": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "First-out comparison: Nico Collins PFF26 79.6 YPRR 1.95 EPA/tgt 0.574; Justin Jefferson PFF26 82.6 YPRR 1.96 EPA/tgt 0.531; DeVonta Smith PFF26 90.5 YPRR 2.12 EPA/tgt 0.02; Malik Nabers PFF26 83.6 YPRR 2.39 EPA/tgt 0.231; Mike Evans PFF26 92.4 YPRR 3.28 EPA/tgt 1.023",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF WR offense grade (wk1-8): Jaxon Smith-Njigba 93.2, Mike Evans 92.4, Tee Higgins 92.3, DeVonta Smith 90.5, Puka Nacua 90.3, CeeDee Lamb 89.7, Chris Olave 87.3, Zay Flowers 86.4, Drake London 86.0, Ja'Marr Chase 84.9, Malik Nabers 83.6, Justin Jefferson 82.6, Mack Hollins 82.2, Parker Washington 81.0, Luther Burden III 81.0, Garrett Wilson 80.6, Nico Collins 79.6, Jaylin Noel 79.3, Amon-Ra St. Brown 78.9, George Pickens 78.1, Adonai Mitchell 77.7, Tetairoa McMillan 77.4, DJ Moore 76.9, Michael Wilson 76.7, Davante Adams 75.9",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF WR offense grade: Puka Nacua 96.2, Jaxon Smith-Njigba 92.9, Amon-Ra St. Brown 90.7, Ja'Marr Chase 90.1, Drake London 88.0, Terry McLaurin 86.5, Nico Collins 85.9, George Pickens 85.9, Davante Adams 84.8, Jaylen Waddle 84.0, Stefon Diggs 82.7, Christian Watson 82.7, Parker Washington 82.1, DeAndre Hopkins 81.3, A.J. Brown 80.9, Justin Jefferson 80.5, Ryan Flournoy 80.3, Tee Higgins 80.1, Zay Flowers 79.6, Tetairoa McMillan 79.3, Alec Pierce 79.3, Chris Olave 78.0, CeeDee Lamb 77.6, DeMario Douglas 77.4, Josh Downs 77.1",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [],
+      "compared_controls": [
+        "DeVonta Smith",
+        "Jaylen Waddle",
+        "Justin Jefferson",
+        "Malik Nabers",
+        "Mike Evans",
+        "Nico Collins"
+      ]
+    },
+    "position_specific_traits": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "George Pickens PFF WR offense grade 2026 78.1 (rank 20), 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens (DAL) 2026: 8 g, 62 tgt, 39 rec, 533 yds, 2 TD, EPA/tgt 0.409, aDOT 11.6, NGS separation 2.4, YAC over expected 0.26, YPRR 1.72, TPRR 0.2, routes 310; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.29, short (<10) catch 0.69, YAC/rec 3.3, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 0",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "George Pickens 2026 usage: 426 offensive snaps in 8 games (nflverse snap_counts); age 25, 75 in, 205 lb; roster status ACT",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF WR offense grade (wk1-8): Jaxon Smith-Njigba 93.2, Mike Evans 92.4, Tee Higgins 92.3, DeVonta Smith 90.5, Puka Nacua 90.3, CeeDee Lamb 89.7, Chris Olave 87.3, Zay Flowers 86.4, Drake London 86.0, Ja'Marr Chase 84.9, Malik Nabers 83.6, Justin Jefferson 82.6, Mack Hollins 82.2, Parker Washington 81.0, Luther Burden III 81.0, Garrett Wilson 80.6, Nico Collins 79.6, Jaylin Noel 79.3, Amon-Ra St. Brown 78.9, George Pickens 78.1, Adonai Mitchell 77.7, Tetairoa McMillan 77.4, DJ Moore 76.9, Michael Wilson 76.7, Davante Adams 75.9",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2026",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF WR offense grade: Puka Nacua 96.2, Jaxon Smith-Njigba 92.9, Amon-Ra St. Brown 90.7, Ja'Marr Chase 90.1, Drake London 88.0, Terry McLaurin 86.5, Nico Collins 85.9, George Pickens 85.9, Davante Adams 84.8, Jaylen Waddle 84.0, Stefon Diggs 82.7, Christian Watson 82.7, Parker Washington 82.1, DeAndre Hopkins 81.3, A.J. Brown 80.9, Justin Jefferson 80.5, Ryan Flournoy 80.3, Tee Higgins 80.1, Zay Flowers 79.6, Tetairoa McMillan 79.3, Alec Pierce 79.3, Chris Olave 78.0, CeeDee Lamb 77.6, DeMario Douglas 77.4, Josh Downs 77.1",
+          "source_url": "https://www.pff.com/grades/nfl/wr/2025",
+          "retrieved_at": "2026-11-03T14:51:41Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    }
+  },
+  "conflicts": [],
+  "minimum_evidence_met": false,
+  "missing_evidence": [],
+  "calendar": {
+    "nfl_season": 2026,
+    "player_id": "george_pickens",
+    "team": "DAL",
+    "valid_from": "2026-08-01T00:00:00Z",
+    "valid_until": "2027-03-01T00:00:00Z",
+    "preseason_start": "2026-08-07T00:00:00Z",
+    "regular_season_start": "2026-09-10T00:20:00Z",
+    "postseason_start": "2027-01-16T05:00:00Z",
+    "season_end": "2027-02-15T05:00:00Z",
+    "current_season_games_available": 8,
+    "current_season_games_played": 8,
+    "regular_season_games_scheduled": 17,
+    "regular_season_complete": false,
+    "postseason_complete": false,
+    "sources": [
+      {
+        "url": "https://media.nfl.com/news-and-releases/2026-nfl-regular-season-to-kick-off-wednesday--sept--9-in-seattl",
+        "retrieved_at": "2026-11-03T14:51:41Z",
+        "claims": [
+          "NFL release: the 2026 NFL regular season kicks off Wednesday, Sept. 9, 2026 at 8:20 PM ET in Seattle"
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/news/nfl-make-your-plan-to-watch-the-2026-nfl-preseason",
+        "retrieved_at": "2026-11-03T14:51:41Z",
+        "claims": [
+          "2026 preseason opens with the Hall of Fame Game Thursday, Aug. 6, 2026, 8 PM ET"
+        ]
+      },
+      {
+        "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+        "retrieved_at": "2026-11-03T14:51:41Z",
+        "claims": [
+          "Week 18 Jan 9-10, 2027; Wild Card Jan 16-18, 2027; Divisional Jan 23-24; Conference Championships Jan 31; Super Bowl LXI Sunday Feb 14, 2027 (season end)"
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/reg9/",
+        "retrieved_at": "2026-11-03T14:51:41Z",
+        "claims": [
+          "2026 regular season Week 9 in progress; 8 weeks completed; 17-game schedule"
+        ]
+      }
+    ]
+  },
+  "calendar_web_search_observed": true
+}
