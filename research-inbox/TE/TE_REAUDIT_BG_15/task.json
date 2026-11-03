@@ -1,0 +1,171 @@
+{
+  "task_id": "TE_REAUDIT_BG_15",
+  "type": "background_analysis",
+  "players": [
+    "Kyle Pitts"
+  ],
+  "player_id": "kyle_pitts",
+  "team": "ATL",
+  "baseline_controls": {
+    "locked_baseline": {
+      "top_10": [
+        {
+          "rank": 1,
+          "player": "Trey McBride"
+        },
+        {
+          "rank": 2,
+          "player": "George Kittle"
+        },
+        {
+          "rank": 3,
+          "player": "Brock Bowers"
+        },
+        {
+          "rank": 4,
+          "player": "Dalton Kincaid"
+        },
+        {
+          "rank": 5,
+          "player": "Sam LaPorta"
+        },
+        {
+          "rank": 6,
+          "player": "Colston Loveland"
+        },
+        {
+          "rank": 7,
+          "player": "Kyle Pitts"
+        },
+        {
+          "rank": 8,
+          "player": "Tucker Kraft"
+        },
+        {
+          "rank": 9,
+          "player": "Hunter Henry"
+        },
+        {
+          "rank": 10,
+          "player": "Travis Kelce"
+        }
+      ],
+      "external_controls": [
+        {
+          "player": "Tyler Warren",
+          "ovr": 83
+        },
+        {
+          "player": "Brenton Strange",
+          "ovr": 83
+        }
+      ]
+    },
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Brock Bowers"
+      },
+      {
+        "rank": 2,
+        "player": "George Kittle"
+      },
+      {
+        "rank": 3,
+        "player": "Trey McBride"
+      },
+      {
+        "rank": 4,
+        "player": "Dalton Kincaid"
+      },
+      {
+        "rank": 5,
+        "player": "Sam LaPorta"
+      },
+      {
+        "rank": 6,
+        "player": "T.J. Hockenson"
+      },
+      {
+        "rank": 7,
+        "player": "Darnell Washington"
+      },
+      {
+        "rank": 8,
+        "player": "Travis Kelce"
+      },
+      {
+        "rank": 9,
+        "player": "Hunter Henry"
+      },
+      {
+        "rank": 10,
+        "player": "Isaiah Likely"
+      }
+    ],
+    "external_controls": [
+      "Tucker Kraft",
+      "Colston Loveland",
+      "Michael Mayer",
+      "Dallas Goedert",
+      "Kyle Pitts"
+    ]
+  },
+  "position": "TE",
+  "stage": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 4,
+    "group": "Offense",
+    "current_status": "LOCKED",
+    "pff_cited_inputs": [
+      "overall",
+      "receiving",
+      "run blocking",
+      "pass blocking",
+      "yards per route run"
+    ],
+    "position_stats": [
+      "targets, receptions, yards, TD",
+      "YAC"
+    ],
+    "usage_snap_metrics": [
+      "inline/slot/wide alignment %",
+      "route participation",
+      "run-block snaps",
+      "pass-block snaps"
+    ],
+    "on_field_impact": [
+      "EPA/target",
+      "run-block win rate (ESPN)"
+    ],
+    "madden_attributes_informed": [
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "RBK",
+      "RBP",
+      "RBF",
+      "PBK",
+      "LBK",
+      "IBL",
+      "STR",
+      "SPD",
+      "AWR"
+    ],
+    "note": ""
+  }
+}
