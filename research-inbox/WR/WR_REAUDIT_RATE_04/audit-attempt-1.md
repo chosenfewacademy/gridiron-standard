@@ -1,0 +1,447 @@
+# WR_REAUDIT_RATE_04 — Tee Higgins rating (v1.1.2 stage 3, per-attribute judgment; authorized by t45u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "WR_REAUDIT_RATE_04_A1",
+  "task_id": "WR_REAUDIT_RATE_04",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "player_id": "ext_00-0036410",
+  "players": [
+    "Tee Higgins"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 84,
+    "ACC": 84,
+    "AGI": 78,
+    "COD": 76,
+    "STR": 82,
+    "AWR": 82,
+    "CTH": 86,
+    "CIT": 92,
+    "SPC": 92,
+    "SRR": 78,
+    "MRR": 84,
+    "DRR": 86,
+    "RLS": 80,
+    "JMP": 92,
+    "CAR": 86,
+    "BTK": 74,
+    "SPM": 52,
+    "JKM": 62,
+    "INJ": 74,
+    "STA": 84,
+    "TGH": 84
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "CTH": "MEDIUM",
+    "CIT": "LOW",
+    "SPC": "LOW",
+    "SRR": "MEDIUM",
+    "MRR": "MEDIUM",
+    "DRR": "MEDIUM",
+    "RLS": "MEDIUM",
+    "JMP": "LOW",
+    "CAR": "MEDIUM",
+    "BTK": "MEDIUM",
+    "SPM": "LOW",
+    "JKM": "LOW",
+    "INJ": "LOW",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (physical): size 76 in / 220 lb, run-block snaps {'off': '358', 'routes': '267', 'rblk': '91'}. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (processing): 3rd-down conv, EPA/tgt, PFF grade: Tee Higgins PFF WR offense grade 2026 92.3 (rank 3), 2025 80.1; 2026 PFF snaps {'off': '358', 'routes': '267', 'rblk': '91'}. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (hands): short catch rate, PFF grade: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (contested): deep/red-zone results and size (220 lb): 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPC": {
+      "basis": "Judgment (contested): deep/red-zone results and size (220 lb): 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (deep): deep catch rate and deep EPA/tgt: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0; 2025: 15 g, 99 tgt, 59 rec, 846 yds, 11 TD, EPA/tgt 0.364, aDOT 13.4, NGS separation 1.85, YAC over expected 0.37, YPRR 1.53, TPRR 0.179, routes 553; deep (20+ air yds) 25 tgt catch 0.44 EPA/tgt 1.0, short (<10) catch 0.64, YAC/rec 2.8, red-zone tgt 16, 3rd/4th-down conv 15/31, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (contested): deep/red-zone results and size (220 lb): 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPM": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JKM": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Tee Higgins 2026 usage: 358 offensive snaps in 7 games (nflverse snap_counts); age 27, 76 in, 220 lb; roster status ACT; 2025 games 15. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Tee Higgins 2026 usage: 358 offensive snaps in 7 games (nflverse snap_counts); age 27, 76 in, 220 lb; roster status ACT; PFF snaps {'off': '358', 'routes': '267', 'rblk': '91'}. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Tee Higgins 2026 usage: 358 offensive snaps in 7 games (nflverse snap_counts); age 27, 76 in, 220 lb; roster status ACT; PFF snaps {'off': '358', 'routes': '267', 'rblk': '91'}. Style: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "CIT": {
+      "tier": "ELITE",
+      "claim": "contested: deep/red-zone results and size (220 lb): 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPC": {
+      "tier": "ELITE",
+      "claim": "contested: deep/red-zone results and size (220 lb): 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JMP": {
+      "tier": "ELITE",
+      "claim": "contested: deep/red-zone results and size (220 lb): 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "proposed_ovr": 85,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+  "style_profile": "Tee Higgins: Big contested-catch X and red-zone target: PFF 92.3 (#3) and EPA/target +.84 in 2026, 11 TD in 2025; stiff in and out of breaks (short catch rate 55-64%) and only .179 TPRR in 2025, so he wins above the rim rather than by separating.",
+  "style_evidence": [
+    "Tee Higgins (CIN) 2026: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0",
+    "Tee Higgins (CIN) 2025: 15 g, 99 tgt, 59 rec, 846 yds, 11 TD, EPA/tgt 0.364, aDOT 13.4, NGS separation 1.85, YAC over expected 0.37, YPRR 1.53, TPRR 0.179, routes 553; deep (20+ air yds) 25 tgt catch 0.44 EPA/tgt 1.0, short (<10) catch 0.64, YAC/rec 2.8, red-zone tgt 16, 3rd/4th-down conv 15/31, fumbles lost 0",
+    "Tee Higgins PFF WR offense grade 2026 92.3 (rank 3), 2025 80.1; 2026 PFF snaps {'off': '358', 'routes': '267', 'rblk': '91'}",
+    "Tee Higgins 2026 usage: 358 offensive snaps in 7 games (nflverse snap_counts); age 27, 76 in, 220 lb; roster status ACT"
+  ],
+  "input_dossier": "WR_REAUDIT_BG_04_A1",
+  "weaknesses": [
+    "separation/short game",
+    "one-year spike risk",
+    "agility"
+  ],
+  "madden_reference": [
+    {
+      "player": "Tee Higgins",
+      "ovr": 89,
+      "attributes": {
+        "SPD": 90,
+        "ACC": 87,
+        "AGI": 85,
+        "COD": 81,
+        "STR": 71,
+        "AWR": 95,
+        "CTH": 96,
+        "CIT": 92,
+        "SPC": 96,
+        "SRR": 85,
+        "MRR": 84,
+        "DRR": 81,
+        "RLS": 90,
+        "JMP": 97,
+        "CAR": 76,
+        "BTK": 78,
+        "SPM": 74,
+        "JKM": 79,
+        "INJ": 85,
+        "STA": 89,
+        "TGH": 84
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -4,
+      "delta_attributes": {
+        "SPD": -6,
+        "ACC": -3,
+        "AGI": -7,
+        "COD": -5,
+        "STR": 11,
+        "AWR": -13,
+        "CTH": -10,
+        "CIT": 0,
+        "SPC": -4,
+        "SRR": -7,
+        "MRR": 0,
+        "DRR": 5,
+        "RLS": -10,
+        "JMP": -5,
+        "CAR": 10,
+        "BTK": -4,
+        "SPM": -22,
+        "JKM": -17,
+        "INJ": -11,
+        "STA": -5,
+        "TGH": 0
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 WR, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 4,
+    "attribute_gaps_10plus": {
+      "STR": 11,
+      "AWR": -13,
+      "CTH": -10,
+      "RLS": -10,
+      "CAR": 10,
+      "SPM": -22,
+      "JKM": -17,
+      "INJ": -11
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t45u"
+}
+```
