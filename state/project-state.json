@@ -1918,16 +1918,17 @@
         "WR_REAUDIT_TIEBREAK_03_A1",
         "WR_REAUDIT_TIEBREAK_05_A1",
         "WR_REAUDIT_TIEBREAK_06_A1",
-        "WR_REAUDIT_RATE_05_A2"
+        "WR_REAUDIT_RATE_05_A2",
+        "WR_REAUDIT_RATE_04_A2"
       ],
       "current_stage": "pair_audits",
       "current_task": "WR_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T15:17:49.885Z",
+      "updated_at": "2026-11-03T15:17:50.165Z",
       "last_result": {
-        "task_id": "WR_REAUDIT_RATE_05",
+        "task_id": "WR_REAUDIT_RATE_04",
         "status": "REVISION_APPROVED",
-        "audit_id": "WR_REAUDIT_RATE_05_A2",
-        "supersedes": "WR_REAUDIT_RATE_05_A1",
+        "audit_id": "WR_REAUDIT_RATE_04_A2",
+        "supersedes": "WR_REAUDIT_RATE_04_A1",
         "flags": []
       },
       "awaiting": null,
@@ -2324,6 +2325,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T15:17:49Z",
           "note": "Commissioner approval t45s353: H2H_02 narrow loss to Chase tightens gap; TIEBREAK_01 beats Higgins on volume, TPRR, two-year role"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_04",
+          "audit_id": "WR_REAUDIT_RATE_04_A2",
+          "supersedes": "WR_REAUDIT_RATE_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T15:17:49Z",
+          "note": "Commissioner approval t45s353: H2H_03 beats London (PFF 92.3, EPA/tgt +.836, deep EPA +1.47); TIEBREAK_01 narrow loss to Lamb"
         }
       ]
     },
