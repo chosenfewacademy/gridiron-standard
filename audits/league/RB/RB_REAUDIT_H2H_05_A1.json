@@ -1,0 +1,38 @@
+{
+  "audit_id": "RB_REAUDIT_H2H_05_A1",
+  "task_id": "RB_REAUDIT_H2H_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jonathan Taylor",
+    "Kyren Williams"
+  ],
+  "pair_result": {
+    "winner": "Kyren Williams",
+    "loser": "Jonathan Taylor",
+    "provisional_order_holds": false,
+    "reasoning": "Order flips. Kyren leads 2026 PFF (81.0 vs 62.8), EPA/rush (+.002 vs -.059), success (42% vs 40%), RYOE (+0.53 vs +0.02), stuff rate (8.9% vs 19.6%), short-yardage (10/12 vs 5/10) and receiving (242 vs 202 yds). Both lost 2 fumbles. Taylor has more explosive runs (12% vs 8%) and 2025 volume, but 2026 says Kyren.",
+    "key_evidence_for_winner": [
+      "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+      "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+      "Kyren Williams (LA) 2025: 259 car 4.83 ypc, EPA/rush +0.019, success 50%, 10+ run rate 10%, RYOE/att 0.55, stuff 12.4%, short-yd 17/30, fumbles lost 2, 281 rec yds (rec EPA +8.5), YAC/rec 4.31"
+    ],
+    "key_evidence_for_loser": [
+      "Jonathan Taylor PFF HB overall 2026 62.8, 2025 78.1; 2026 PFF snaps {'off': '412', 'run': '149', 'route': '180', 'pblk': '67'}; age 27, 226 lb",
+      "Jonathan Taylor (IND) 2026: 148 car 4.12 ypc, EPA/rush -0.059, success 40%, 10+ run rate 12%, RYOE/att 0.02, stuff 19.6%, short-yd 5/10, fumbles lost 2, 202 rec yds (rec EPA -3.2), YAC/rec 11.62",
+      "Jonathan Taylor (IND) 2025: 324 car 4.9 ypc, EPA/rush +0.058, success 44%, 10+ run rate 11%, RYOE/att 0.6, stuff 15.1%, short-yd 13/18, fumbles lost 1, 378 rec yds (rec EPA +9.2), YAC/rec 9.43"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "PENDING_REVIEW: pair result not approved (prepared under t41s308; commissioner decides)"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
