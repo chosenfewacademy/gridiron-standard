@@ -1,0 +1,39 @@
+# WR_REAUDIT_TIEBREAK_14 — Keenan Allen vs George Pickens (v1.1.2 head-to-head tiebreak; authorized by t45s359)
+
+```json
+{
+  "audit_id": "WR_REAUDIT_TIEBREAK_14_A1",
+  "task_id": "WR_REAUDIT_TIEBREAK_14",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Keenan Allen",
+    "George Pickens"
+  ],
+  "pair_result": {
+    "winner": "George Pickens",
+    "loser": "Keenan Allen",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s359). Keenan Allen: 2025 17 g, 777 yds, 4 TD, EPA/tgt +0.286, PFF 76.0, YPRR 1.49; 2026 7 g, 325 yds, 1 TD, EPA/tgt +0.216, PFF 73.9, YPRR 1.72. George Pickens: 2025 17 g, 1429 yds, 9 TD, EPA/tgt +0.643, PFF 85.9, YPRR 2.16; 2026 8 g, 533 yds, 2 TD, EPA/tgt +0.409, PFF 78.1, YPRR 1.72. Pickens' 2025 (1,429 yds, 9 TD, PFF 85.9, EPA/tgt +.640) and full 2026 availability outweigh age 34 and YPRR 1.49/1.72. Pickens holds first-out.",
+    "key_evidence_for_winner": [
+      "George Pickens PFF WR grade 2026 78.1, 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}; age 25, 75 in 205 lb",
+      "George Pickens (DAL) 2026: 8 g 62 tgt 533 yds 2 TD, EPA/tgt 0.409, YPRR 1.72, TPRR 0.2, NGS sep 2.4, aDOT 11.6, deep 9 tgt catch 0.33 EPA/tgt 0.29, short catch 0.69, YAC/rec 3.3, RZ tgt 7, 3rd/4th conv 10/23, fum lost 0",
+      "George Pickens (DAL) 2025: 17 g 138 tgt 1429 yds 9 TD, EPA/tgt 0.643, YPRR 2.16, TPRR 0.209, NGS sep 2.24, aDOT 11.3, deep 22 tgt catch 0.45 EPA/tgt 0.8, short catch 0.72, YAC/rec 5.2, RZ tgt 24, 3rd/4th conv 27/43, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Keenan Allen PFF WR grade 2026 73.9, 2025 76.0; 2026 PFF snaps {'off': '274', 'routes': '189', 'rblk': '84'}; age 34, 74 in 211 lb",
+      "Keenan Allen (IND) 2026: 7 g 50 tgt 325 yds 1 TD, EPA/tgt 0.216, YPRR 1.72, TPRR 0.265, NGS sep 2.5, aDOT 7.3, deep 1 tgt catch 0.0 EPA/tgt -0.55, short catch 0.82, YAC/rec 2.9, RZ tgt 4, 3rd/4th conv 8/18, fum lost 0",
+      "Keenan Allen (LAC) 2025: 17 g 122 tgt 777 yds 4 TD, EPA/tgt 0.286, YPRR 1.49, TPRR 0.233, NGS sep 2.63, aDOT 8.4, deep 14 tgt catch 0.29 EPA/tgt 0.21, short catch 0.73, YAC/rec 2.9, RZ tgt 16, 3rd/4th conv 30/52, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
