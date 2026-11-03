@@ -1,0 +1,39 @@
+# WR_REAUDIT_TIEBREAK_62 — A.J. Brown vs Justin Jefferson (v1.1.2 head-to-head tiebreak; authorized by t45s359)
+
+```json
+{
+  "audit_id": "WR_REAUDIT_TIEBREAK_62_A1",
+  "task_id": "WR_REAUDIT_TIEBREAK_62",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "A.J. Brown",
+    "Justin Jefferson"
+  ],
+  "pair_result": {
+    "winner": "Justin Jefferson",
+    "loser": "A.J. Brown",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling recheck flag (t45s365). A.J. Brown: 2025 15 g, 1003 yds, 7 TD, EPA/tgt +0.278, PFF 80.9, YPRR 1.81; 2026 3 g, 101 yds, 0 TD, EPA/tgt -0.230, PFF outside top 50, YPRR n/a. Justin Jefferson: 2025 17 g, 1048 yds, 2 TD, EPA/tgt -0.097, PFF 80.5, YPRR 1.78; 2026 6 g, 335 yds, 4 TD, EPA/tgt +0.531, PFF 82.6, YPRR 1.96. Jefferson's current season (PFF 82.6, EPA/tgt +.531, 4 TD in 6 g) and 2025 volume (1,048 yds) outweigh; 2026 is 3 g, 101 yds, EPA/tgt -.230 and inactive; his 2025 (1,003 yds, PFF 80.9) is the strongest case. Justin Jefferson holds.",
+    "key_evidence_for_winner": [
+      "Justin Jefferson PFF WR grade 2026 82.6, 2025 80.5; 2026 PFF snaps {'off': '288', 'routes': '171', 'rblk': '116'}; age 27, 73 in 192 lb",
+      "Justin Jefferson (MIN) 2026: 6 g 41 tgt 335 yds 4 TD, EPA/tgt 0.531, YPRR 1.96, TPRR 0.24, NGS sep 2.72, aDOT 10.0, deep 4 tgt catch 0.75 EPA/tgt 1.71, short catch 0.86, YAC/rec 3.5, RZ tgt 8, 3rd/4th conv 10/18, fum lost 0",
+      "Justin Jefferson (MIN) 2025: 17 g 142 tgt 1048 yds 2 TD, EPA/tgt -0.097, YPRR 1.78, TPRR 0.241, NGS sep 3.23, aDOT 10.2, deep 21 tgt catch 0.24 EPA/tgt -0.44, short catch 0.67, YAC/rec 5.4, RZ tgt 19, 3rd/4th conv 13/38, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "A.J. Brown PFF WR grade 2026 None, 2025 80.9; 2026 PFF snaps None; age 29, 73 in 226 lb",
+      "A.J. Brown (NE) 2026: 3 g 20 tgt 101 yds 0 TD, EPA/tgt -0.23, YPRR None, TPRR None, NGS sep 2.5, aDOT 13.4, deep 3 tgt catch 0.0 EPA/tgt -0.47, short catch 0.55, YAC/rec 2.6, RZ tgt 3, 3rd/4th conv 2/7, fum lost 0",
+      "A.J. Brown (PHI) 2025: 15 g 121 tgt 1003 yds 7 TD, EPA/tgt 0.278, YPRR 1.81, TPRR 0.218, NGS sep 2.22, aDOT 11.8, deep 22 tgt catch 0.36 EPA/tgt 0.57, short catch 0.78, YAC/rec 3.4, RZ tgt 13, 3rd/4th conv 16/37, fum lost 0"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
