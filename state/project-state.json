@@ -1016,7 +1016,7 @@
         "position": "RB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/RB.reaudit.json",
       "baseline_file": "data/baselines/RB.json",
@@ -1165,11 +1165,12 @@
         "RB_REAUDIT_TIEBREAK_20_A1",
         "RB_REAUDIT_TIEBREAK_21_A1",
         "RB_REAUDIT_TIEBREAK_22_A1",
-        "RB_REAUDIT_CROSS_AUDIT_A1"
+        "RB_REAUDIT_CROSS_AUDIT_A1",
+        "RB_REAUDIT_LOCK_20261103"
       ],
-      "current_stage": "positional_cross_audit",
+      "current_stage": "lock",
       "current_task": "RB_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-03T13:51:14.964Z",
+      "updated_at": "2026-11-03T14:23:28Z",
       "last_result": {
         "task_id": "RB_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",

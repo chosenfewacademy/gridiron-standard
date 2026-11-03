@@ -1,0 +1,180 @@
+{
+  "architecture_version": "1.1.3",
+  "methodology_version": "1.0.0",
+  "status": "LOCKED",
+  "mutation_policy": "IMMUTABLE_UNLESS_EXPLICIT_CURRENT_DATA_TOP10_REAUDIT",
+  "historical_cards_policy": "Do not fabricate missing historical full-card attributes.",
+  "position": "RB",
+  "version": "reaudit-20261103",
+  "top_10": [
+    {
+      "rank": 1,
+      "player": "Bijan Robinson",
+      "ovr": 92
+    },
+    {
+      "rank": 2,
+      "player": "Kenneth Walker III",
+      "ovr": 90
+    },
+    {
+      "rank": 3,
+      "player": "Jahmyr Gibbs",
+      "ovr": 89
+    },
+    {
+      "rank": 4,
+      "player": "Jaylen Warren",
+      "ovr": 84
+    },
+    {
+      "rank": 5,
+      "player": "Christian McCaffrey",
+      "ovr": 83
+    },
+    {
+      "rank": 6,
+      "player": "James Cook",
+      "ovr": 82
+    },
+    {
+      "rank": 7,
+      "player": "De'Von Achane",
+      "ovr": 82
+    },
+    {
+      "rank": 8,
+      "player": "Kyren Williams",
+      "ovr": 80
+    },
+    {
+      "rank": 9,
+      "player": "Bhayshul Tuten",
+      "ovr": 79
+    },
+    {
+      "rank": 10,
+      "player": "Jonathan Taylor",
+      "ovr": 78
+    }
+  ],
+  "last_in": {
+    "player": "Jonathan Taylor",
+    "ovr": 78
+  },
+  "first_out": {
+    "player": "Chuba Hubbard",
+    "ovr": 77
+  },
+  "external_controls": [
+    {
+      "player": "Chuba Hubbard",
+      "ovr": 77
+    },
+    {
+      "player": "Derrick Henry",
+      "ovr": 76
+    },
+    {
+      "player": "Braelon Allen",
+      "ovr": 75
+    },
+    {
+      "player": "Tony Pollard",
+      "ovr": 74
+    },
+    {
+      "player": "Josh Jacobs",
+      "ovr": 73
+    }
+  ],
+  "scarcity": {
+    "status": "LOCKED_HISTORICAL_NOT_FULLY_STRUCTURED"
+  },
+  "full_cards_import_status": "NOT_YET_IMPORTED",
+  "supersedes": {
+    "baseline_file": "data/baselines/RB.json",
+    "version": "bootstrap-2026-08-30"
+  },
+  "stage_audit_ids": [
+    "RB_REAUDIT_CANDIDATE_AUDIT_A1",
+    "RB_REAUDIT_BG_01_A1",
+    "RB_REAUDIT_BG_02_A1",
+    "RB_REAUDIT_BG_03_A1",
+    "RB_REAUDIT_BG_04_A1",
+    "RB_REAUDIT_BG_05_A1",
+    "RB_REAUDIT_BG_06_A1",
+    "RB_REAUDIT_BG_07_A1",
+    "RB_REAUDIT_BG_08_A1",
+    "RB_REAUDIT_BG_09_A1",
+    "RB_REAUDIT_BG_10_A1",
+    "RB_REAUDIT_BG_11_A1",
+    "RB_REAUDIT_BG_12_A1",
+    "RB_REAUDIT_BG_13_A1",
+    "RB_REAUDIT_BG_14_A1",
+    "RB_REAUDIT_RATE_01_A1",
+    "RB_REAUDIT_RATE_02_A2",
+    "RB_REAUDIT_RATE_03_A1",
+    "RB_REAUDIT_RATE_04_A1",
+    "RB_REAUDIT_RATE_05_A1",
+    "RB_REAUDIT_RATE_06_A1",
+    "RB_REAUDIT_RATE_07_A1",
+    "RB_REAUDIT_RATE_08_A1",
+    "RB_REAUDIT_RATE_09_A1",
+    "RB_REAUDIT_RATE_10_A1",
+    "RB_REAUDIT_RATE_11_A1",
+    "RB_REAUDIT_RATE_12_A1",
+    "RB_REAUDIT_RATE_13_A1",
+    "RB_REAUDIT_RATE_14_A1",
+    "RB_REAUDIT_H2H_01_A1",
+    "RB_REAUDIT_H2H_02_A1",
+    "RB_REAUDIT_H2H_03_A1",
+    "RB_REAUDIT_H2H_04_A1",
+    "RB_REAUDIT_H2H_05_A1",
+    "RB_REAUDIT_H2H_06_A1",
+    "RB_REAUDIT_TIEBREAK_01_A1",
+    "RB_REAUDIT_TIEBREAK_02_A1",
+    "RB_REAUDIT_TIEBREAK_03_A1",
+    "RB_REAUDIT_TIEBREAK_04_A1",
+    "RB_REAUDIT_TIEBREAK_05_A1",
+    "RB_REAUDIT_TIEBREAK_06_A1",
+    "RB_REAUDIT_TIEBREAK_07_A1",
+    "RB_REAUDIT_TIEBREAK_08_A1",
+    "RB_REAUDIT_TIEBREAK_09_A1",
+    "RB_REAUDIT_TIEBREAK_10_A1",
+    "RB_REAUDIT_TIEBREAK_11_A1",
+    "RB_REAUDIT_TIEBREAK_12_A1",
+    "RB_REAUDIT_TIEBREAK_13_A1",
+    "RB_REAUDIT_RATE_03_A2",
+    "RB_REAUDIT_RATE_02_A3",
+    "RB_REAUDIT_RATE_04_A2",
+    "RB_REAUDIT_RATE_09_A2",
+    "RB_REAUDIT_RATE_10_A2",
+    "RB_REAUDIT_RATE_08_A2",
+    "RB_REAUDIT_RATE_07_A2",
+    "RB_REAUDIT_RATE_13_A2",
+    "RB_REAUDIT_RATE_11_A2",
+    "RB_REAUDIT_RATE_14_A2",
+    "RB_REAUDIT_RATE_12_A2",
+    "RB_REAUDIT_RATE_06_A2",
+    "RB_REAUDIT_RATE_08_A3",
+    "RB_REAUDIT_VARIANCE_AUDIT_A1",
+    "RB_REAUDIT_RATE_05_A2",
+    "RB_REAUDIT_SCARCITY_A1",
+    "RB_REAUDIT_BG_15_A1",
+    "RB_REAUDIT_RATE_15_A1",
+    "RB_REAUDIT_TIEBREAK_14_A1",
+    "RB_REAUDIT_TIEBREAK_15_A1",
+    "RB_REAUDIT_TIEBREAK_16_A1",
+    "RB_REAUDIT_TIEBREAK_17_A1",
+    "RB_REAUDIT_TIEBREAK_18_A1",
+    "RB_REAUDIT_TIEBREAK_19_A1",
+    "RB_REAUDIT_TIEBREAK_20_A1",
+    "RB_REAUDIT_TIEBREAK_21_A1",
+    "RB_REAUDIT_TIEBREAK_22_A1",
+    "RB_REAUDIT_CROSS_AUDIT_A1"
+  ],
+  "madden_order_verified": false,
+  "locked_by": "PhiXCrypto",
+  "locked_at": "2026-11-03T14:23:28Z"
+}
