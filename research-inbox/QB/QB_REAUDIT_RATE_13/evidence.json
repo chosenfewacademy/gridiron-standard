@@ -92,6 +92,27 @@
       "claims": [
         "Matthew Stafford 2025: 17/17 team games, 597 att, aDOT 9.3, EPA/dropback +0.23, CPOE +1.5; deep (20+) 15.1% of att, 43.3% cmp, EPA +0.78; 10-19 yds 56.9% EPA +0.57; <10 yds 72.9%; hit 45.5% EPA -0.13 (n=55) vs clean 67.0%; sack rate 3.7%; 7 scrambles 22 yds, 5 designed runs 0 yds, 0 rush TD; 46 TD/8 INT; 3 fumbles lost"
       ]
+    },
+    {
+      "name": "nflverse FTN charting 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Matthew Stafford 2026 FTN charting (regular season): 314 dropbacks; play-action 24.2% EPA +0.10 vs non-PA +0.05; out of pocket 11.8% EPA +0.00, cmp 51.4%; vs blitz EPA -0.04 (n=89); interception-worthy 4.0% of attempts; QB-fault sacks 2 of 12",
+        "No jumping / elevated-throw measure exists in FTN charting, nflverse play-by-play, or PFF season grades"
+      ]
+    },
+    {
+      "name": "nflverse FTN charting 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Matthew Stafford 2025 FTN charting (regular season): 617 dropbacks; play-action 34.0% EPA +0.33 vs non-PA +0.18; out of pocket 15.2% EPA +0.04, cmp 57.4%; vs blitz EPA +0.36 (n=178); interception-worthy 2.4% of attempts; QB-fault sacks 9 of 23"
+      ]
     }
   ],
   "normalized": {
