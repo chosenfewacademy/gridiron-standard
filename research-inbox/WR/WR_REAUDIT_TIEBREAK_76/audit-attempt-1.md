@@ -1,0 +1,39 @@
+# WR_REAUDIT_TIEBREAK_76 — Tre Harris vs Justin Jefferson (v1.1.2 head-to-head tiebreak; authorized by t45s359)
+
+```json
+{
+  "audit_id": "WR_REAUDIT_TIEBREAK_76_A1",
+  "task_id": "WR_REAUDIT_TIEBREAK_76",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Tre Harris",
+    "Justin Jefferson"
+  ],
+  "pair_result": {
+    "winner": "Justin Jefferson",
+    "loser": "Tre Harris",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling recheck flag (t45s365). Tre Harris: 2025 16 g, 324 yds, 1 TD, EPA/tgt +0.356, PFF outside top 50, YPRR n/a; 2026 6 g, 256 yds, 0 TD, EPA/tgt +0.300, PFF outside top 50, YPRR n/a. Justin Jefferson: 2025 17 g, 1048 yds, 2 TD, EPA/tgt -0.097, PFF 80.5, YPRR 1.78; 2026 6 g, 335 yds, 4 TD, EPA/tgt +0.531, PFF 82.6, YPRR 1.96. Jefferson's current season (PFF 82.6, EPA/tgt +.531, 4 TD in 6 g) and 2025 volume (1,048 yds) outweigh; 324/256 yds, 1 TD total. Justin Jefferson holds.",
+    "key_evidence_for_winner": [
+      "Justin Jefferson PFF WR grade 2026 82.6, 2025 80.5; 2026 PFF snaps {'off': '288', 'routes': '171', 'rblk': '116'}; age 27, 73 in 192 lb",
+      "Justin Jefferson (MIN) 2026: 6 g 41 tgt 335 yds 4 TD, EPA/tgt 0.531, YPRR 1.96, TPRR 0.24, NGS sep 2.72, aDOT 10.0, deep 4 tgt catch 0.75 EPA/tgt 1.71, short catch 0.86, YAC/rec 3.5, RZ tgt 8, 3rd/4th conv 10/18, fum lost 0",
+      "Justin Jefferson (MIN) 2025: 17 g 142 tgt 1048 yds 2 TD, EPA/tgt -0.097, YPRR 1.78, TPRR 0.241, NGS sep 3.23, aDOT 10.2, deep 21 tgt catch 0.24 EPA/tgt -0.44, short catch 0.67, YAC/rec 5.4, RZ tgt 19, 3rd/4th conv 13/38, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Tre Harris PFF WR grade 2026 None, 2025 None; 2026 PFF snaps None; age 24, 75 in 210 lb",
+      "Tre Harris (LAC) 2026: 6 g 28 tgt 256 yds 0 TD, EPA/tgt 0.3, YPRR None, TPRR None, NGS sep 3.09, aDOT 10.8, deep 4 tgt catch 0.5 EPA/tgt 1.26, short catch 0.77, YAC/rec 5.3, RZ tgt 3, 3rd/4th conv 5/11, fum lost 0",
+      "Tre Harris (LAC) 2025: 16 g 43 tgt 324 yds 1 TD, EPA/tgt 0.356, YPRR None, TPRR None, NGS sep None, aDOT 9.3, deep 7 tgt catch 0.29 EPA/tgt 0.26, short catch 0.81, YAC/rec 4.6, RZ tgt 5, 3rd/4th conv 10/15, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
