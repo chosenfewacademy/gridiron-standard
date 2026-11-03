@@ -20,6 +20,7 @@
       "background_analysis",
       "player_rating",
       "pair_audits",
+      "variance_audit",
       "scarcity_audit",
       "positional_cross_audit",
       "lock"

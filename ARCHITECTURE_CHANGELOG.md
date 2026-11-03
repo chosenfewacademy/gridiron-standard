@@ -137,3 +137,8 @@ No frozen architectural rule was changed.
 
 - 2026-11-02 (card t31s1): add-only tiebreak head-to-heads (`src/tiebreak.ts`, `reaudit:tiebreak`); pending review via the existing awaiting pointer; no guard changes.
 - 2026-11-02 (card t31s9): evidence gate treats scarcity_audit and positional_cross_audit as position-wide (same live nfl.com calendar rules).
+
+## 2026-11-02 — Generic pipeline, variance audit stage, re-audit lock command (t31s9/t32u/t33u)
+- Engine v1.1.2 order now: candidate → BG → RATE → H2H → **variance_audit** → scarcity → cross-audit → lock. New `config/variance-metrics.json` (all 22 positions); stage output validator; always reviewed.
+- New `src/reaudit-lock.ts` (`reaudit:lock`): add-only new baseline, old baseline kept in locks history. Built and tested; not run.
+- Pending approvals: variance_audit gate widening; protected-paths exception for lock outputs.

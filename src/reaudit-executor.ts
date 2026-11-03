@@ -19,7 +19,7 @@ import { saveAuditRecord } from "./persistence.js";
 
 const MAX_REVISIONS = Number(process.env.GRIDIRON_MAX_REVISIONS ?? "3");
 // Standing rule: no approvals without the commissioner; every v1.1.2 player stage (incl. background dossiers) is reviewed.
-const ALWAYS_REVIEW = new Set(["provisional_top_10", "membership_reopen", "positional_cross_audit", "candidate_audit", "background_analysis", "player_rating"]);
+const ALWAYS_REVIEW = new Set(["variance_audit", "provisional_top_10", "membership_reopen", "positional_cross_audit", "candidate_audit", "background_analysis", "player_rating"]);
 
 export function findReauditItem(state: any, pos: string) {
   const q: any[] = state.pending_reaudit_queue ?? [];

@@ -268,7 +268,7 @@ export function runStageEngineTests(test: (n: string, f: () => void) => void) {
     assert.ok(stageOutputErrors({ type: "positional_cross_audit", task_id: "X" }, {}).length);
     assert.ok(stageOutputErrors({ type: "pair_audit", task_id: "X", position: "C" }, { task_id: "Y", position: "LG", pair_result: 1 }).length === 2);
   });
-  test("v1.1.2 order: candidate audit -> background -> rating -> H2H from rating order -> scarcity -> cross -> lock", () => {
+  test("v1.1.2 order: candidate audit -> background -> rating -> H2H from rating order -> variance -> scarcity -> cross -> lock", () => {
     const { state, opts, approve } = sandbox(); const o = { ...opts, order: "1.1.2" as const }; const I = ids("C");
     const c: any = planNext(state, o); assert.equal(c.stage, "candidate_audit"); assert.equal(c.task.task_id, "C_CANDIDATE_AUDIT"); assert.equal(c.task.candidate_pool.length, 11);
     const set = [...TOP, "C Out"];
@@ -284,6 +284,8 @@ export function runStageEngineTests(test: (n: string, f: () => void) => void) {
     for (let i = 1; i <= 5; i++) approve(`C_H2H_0${i}`, { pair_result: "ok" });
     const six: any = planNext(state, o); assert.equal(six.task.task_id, "C_H2H_06"); assert.deepEqual(six.task.players, ["C Player 10", "C Player 5"], "rank 10 vs first out");
     approve("C_H2H_06", { pair_result: "ok" });
+    const v: any = planNext(state, o); assert.equal(v.stage, "variance_audit"); assert.equal(v.task.task_id, "C_VARIANCE_AUDIT"); assert.equal(v.task.variance_threshold, 10);
+    approve(I.variance, { variance_gaps: [], madden_used_as_evidence: false });
     assert.equal(planNext(state, o).stage, "scarcity_audit"); approve(I.scarcity, { scarcity: {} });
     assert.equal(planNext(state, o).stage, "positional_cross_audit"); approve(I.cross, { cross_audit_result: "ok" });
     assert.equal((planNext(state, o).task as any).requires_commissioner_confirmation, "LOCK_C");

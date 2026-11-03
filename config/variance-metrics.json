@@ -1,0 +1,246 @@
+{
+  "version": "1.0.0",
+  "enacted": "2026-11-02 (commissioner t32u/t33u)",
+  "threshold": 10,
+  "madden_reference": "REFERENCE_ONLY_NEVER_EVIDENCE",
+  "verdicts": [
+    "SUPPORTED",
+    "ADJUST"
+  ],
+  "positions": {
+    "QB": {
+      "domains": [
+        "EPA inside vs outside the pocket (FTN is_qb_out_of_pocket x nflverse EPA)",
+        "throwing on the run: out-of-pocket completion and EPA, scramble EPA",
+        "clean pocket vs hurried/pressured (PFF pressure grades where available; nflverse qb_hit+sack proxy)",
+        "time to throw / holding the ball (NGS avg_time_to_throw, aggressiveness)",
+        "turnovers: INT, FTN interception-worthy rate, fumbles lost",
+        "team value: EPA over position average (WAR-type), EPA/play, PFF overall",
+        "scheme / system-QB: play-action, motion, screen and RPO share (FTN), YAC share of passing yards, drop and catchable-ball rate (receiver quality), pressure rate (line quality)"
+      ],
+      "attribute_metrics": {
+        "SPD|ACC|AGI|COD": "scramble + designed-run yards per play",
+        "STR": "size, rushing TDs / contact",
+        "AWR": "interception-worthy rate, PFF overall",
+        "THP": "aDOT, NGS intended air yards",
+        "SAC|MAC|DAC": "completion and EPA by depth (<10 / 10-19 / 20+), CPOE",
+        "RUN": "out-of-pocket EPA and completion",
+        "TUP": "pressured/hit EPA",
+        "PAC": "play-action EPA and share",
+        "BSK": "sack rate, QB-fault sacks, time to throw",
+        "CAR": "fumbles lost per play",
+        "INJ|STA": "games and snaps available",
+        "TGH": "hits absorbed, pressured EPA",
+        "JMP": "no public measure; neutral unless sourced",
+        "OVR": "EPA over average, PFF overall"
+      }
+    },
+    "RB": {
+      "domains": [
+        "rushing EPA and success rate, yards after contact per attempt, missed tackles forced",
+        "explosive-run rate, rush yards over expected (NGS RYOE)",
+        "receiving: targets per route, yards per route run, YAC, drops",
+        "pass protection: pressures allowed per pass-block snap",
+        "fumbles lost",
+        "team value: EPA share, snap share",
+        "scheme: zone vs gap share, stacked-box rate (NGS), offensive line run-block quality"
+      ]
+    },
+    "WR": {
+      "domains": [
+        "yards per route run, target share, targets per route",
+        "separation (NGS avg_separation) and contested-catch rate",
+        "YAC and YAC over expected",
+        "drops per catchable target",
+        "alignment: slot vs wide, route tree depth (aDOT)",
+        "team value: EPA per target and share of team passing EPA",
+        "scheme: play-action/screen share, QB quality and accuracy (catchable-ball rate)"
+      ]
+    },
+    "TE": {
+      "domains": [
+        "yards per route run, target share, separation",
+        "YAC and contested catches",
+        "drops",
+        "run-block grade and pass-block pressures allowed",
+        "inline vs slot vs wide alignment share",
+        "team value: EPA per target, snap share",
+        "scheme: play-action share, 12/13-personnel usage, QB quality"
+      ]
+    },
+    "LT": {
+      "domains": [
+        "pass-block win rate and pressures/sacks allowed per pass-block snap (PFF pass-block grade)",
+        "run-block grade, gap vs zone run EPA and yards before contact behind him",
+        "true pass set vs non-true set splits",
+        "penalties per snap (holding, false start)",
+        "snap share, availability, alignment versatility",
+        "scheme: play-action/RPO share, QB time to throw, help (chips/TE) frequency"
+      ]
+    },
+    "LG": {
+      "domains": [
+        "pass-block win rate and pressures/sacks allowed per pass-block snap (PFF pass-block grade)",
+        "run-block grade, gap vs zone run EPA and yards before contact behind him",
+        "true pass set vs non-true set splits",
+        "penalties per snap (holding, false start)",
+        "snap share, availability, alignment versatility",
+        "scheme: play-action/RPO share, QB time to throw, help (chips/TE) frequency"
+      ]
+    },
+    "C": {
+      "domains": [
+        "pass-block win rate and pressures/sacks allowed per pass-block snap (PFF pass-block grade)",
+        "run-block grade, gap vs zone run EPA and yards before contact behind him",
+        "true pass set vs non-true set splits",
+        "penalties per snap (holding, false start)",
+        "snap share, availability, alignment versatility",
+        "scheme: play-action/RPO share, QB time to throw, help (chips/TE) frequency"
+      ]
+    },
+    "RG": {
+      "domains": [
+        "pass-block win rate and pressures/sacks allowed per pass-block snap (PFF pass-block grade)",
+        "run-block grade, gap vs zone run EPA and yards before contact behind him",
+        "true pass set vs non-true set splits",
+        "penalties per snap (holding, false start)",
+        "snap share, availability, alignment versatility",
+        "scheme: play-action/RPO share, QB time to throw, help (chips/TE) frequency"
+      ]
+    },
+    "RT": {
+      "domains": [
+        "pass-block win rate and pressures/sacks allowed per pass-block snap (PFF pass-block grade)",
+        "run-block grade, gap vs zone run EPA and yards before contact behind him",
+        "true pass set vs non-true set splits",
+        "penalties per snap (holding, false start)",
+        "snap share, availability, alignment versatility",
+        "scheme: play-action/RPO share, QB time to throw, help (chips/TE) frequency"
+      ]
+    },
+    "REDGE": {
+      "domains": [
+        "pass-rush win rate, pressures, sacks, QB hits per pass-rush snap (PFF pass-rush grade)",
+        "true pass set vs non-true set pressure rate",
+        "run-defense stops and tackles for loss, run grade",
+        "double-team rate and alignment (wide-9, 5-tech) usage",
+        "missed tackles, penalties",
+        "snap share, availability; value: pressure-to-sack conversion, EPA allowed on run plays at his gap"
+      ]
+    },
+    "LEDGE": {
+      "domains": [
+        "pass-rush win rate, pressures, sacks, QB hits per pass-rush snap (PFF pass-rush grade)",
+        "true pass set vs non-true set pressure rate",
+        "run-defense stops and tackles for loss, run grade",
+        "double-team rate and alignment (wide-9, 5-tech) usage",
+        "missed tackles, penalties",
+        "snap share, availability; value: pressure-to-sack conversion, EPA allowed on run plays at his gap"
+      ]
+    },
+    "DT": {
+      "domains": [
+        "pass-rush win rate, pressures per pass-rush snap",
+        "run stops, run grade, double-team rate",
+        "interior alignment (0/1/3-tech) usage",
+        "missed tackles, penalties",
+        "snap share, availability",
+        "value: EPA allowed on runs at his gaps"
+      ]
+    },
+    "MIKE": {
+      "domains": [
+        "coverage: targets, yards and EPA allowed per coverage snap, passer rating allowed",
+        "run defense: run stops, tackles for loss, missed tackle rate",
+        "blitz pressures per pass-rush snap",
+        "snap share by alignment (box/slot), green-dot/defensive play-calling role",
+        "availability, penalties",
+        "scheme: zone vs man coverage share, sub-package usage"
+      ]
+    },
+    "WILL": {
+      "domains": [
+        "coverage: targets, yards and EPA allowed per coverage snap, passer rating allowed",
+        "run defense: run stops, tackles for loss, missed tackle rate",
+        "blitz pressures per pass-rush snap",
+        "snap share by alignment (box/slot), green-dot/defensive play-calling role",
+        "availability, penalties",
+        "scheme: zone vs man coverage share, sub-package usage"
+      ]
+    },
+    "SAM": {
+      "domains": [
+        "coverage: targets, yards and EPA allowed per coverage snap, passer rating allowed",
+        "run defense: run stops, tackles for loss, missed tackle rate",
+        "blitz pressures per pass-rush snap",
+        "snap share by alignment (box/slot), green-dot/defensive play-calling role",
+        "availability, penalties",
+        "scheme: zone vs man coverage share, sub-package usage"
+      ]
+    },
+    "CB": {
+      "domains": [
+        "coverage: targets, catch rate, yards, EPA and passer rating allowed per coverage snap",
+        "man vs zone splits; slot vs outside alignment",
+        "forced incompletions, INTs, PBUs vs penalties",
+        "run support and missed tackle rate",
+        "snap share, availability",
+        "scheme: deep-safety vs box alignment, matchup/travel usage, quality of opposing receivers"
+      ]
+    },
+    "FS": {
+      "domains": [
+        "coverage: targets, catch rate, yards, EPA and passer rating allowed per coverage snap",
+        "man vs zone splits; slot vs outside alignment",
+        "forced incompletions, INTs, PBUs vs penalties",
+        "run support and missed tackle rate",
+        "snap share, availability",
+        "scheme: deep-safety vs box alignment, matchup/travel usage, quality of opposing receivers"
+      ]
+    },
+    "SS": {
+      "domains": [
+        "coverage: targets, catch rate, yards, EPA and passer rating allowed per coverage snap",
+        "man vs zone splits; slot vs outside alignment",
+        "forced incompletions, INTs, PBUs vs penalties",
+        "run support and missed tackle rate",
+        "snap share, availability",
+        "scheme: deep-safety vs box alignment, matchup/travel usage, quality of opposing receivers"
+      ]
+    },
+    "K": {
+      "domains": [
+        "FG% by distance band, made FGs over expectation",
+        "XP%",
+        "kickoff touchback and return-yards-allowed rate",
+        "weather / indoor splits",
+        "value: points added over expected"
+      ]
+    },
+    "P": {
+      "domains": [
+        "net average, inside-20 rate, touchback rate",
+        "hang time and return yards allowed",
+        "EPA per punt over expected",
+        "weather splits"
+      ]
+    },
+    "FB": {
+      "domains": [
+        "run-block grade and lead-block success",
+        "short-yardage conversions",
+        "receiving targets and YAC",
+        "special-teams snaps",
+        "snap share"
+      ]
+    },
+    "LS": {
+      "domains": [
+        "snap accuracy / bad-snap count",
+        "coverage tackles on punts",
+        "penalties",
+        "availability"
+      ]
+    }
+  }
+}

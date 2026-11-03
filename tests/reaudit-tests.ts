@@ -9,6 +9,8 @@ import { checkReauditPool } from "../src/coverage-gate.js";
 import { styleSimilarity, stageOutputErrors } from "../src/stage-engine.js";
 import { effectiveRatings } from "../src/rating-revision.js";
 import { TIEBREAK_TASK } from "../src/tiebreak.js";
+import { buildLock, applyLock } from "../src/reaudit-lock.js";
+import { ORDER_V112, varianceMetrics } from "../src/stage-engine.js";
 
 const J = (o: any) => JSON.stringify(o, null, 2);
 const NOW = "2026-11-02T13:30:00-05:00";
@@ -204,6 +206,41 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
       awaiting: { reason: "TIEBREAK_REVIEW", task_id: "QB_REAUDIT_TIEBREAK_01", audit_id: "QB_REAUDIT_TIEBREAK_01_A1", pending: [{ task_id: "QB_REAUDIT_TIEBREAK_01", audit_id: "QB_REAUDIT_TIEBREAK_01_A1" }] } };
     assert.equal(stateChangeAllowed(J(withItem(base)), J(withItem(pend))).ok, true);
     assert.ok(TIEBREAK_TASK.test("QB_REAUDIT_TIEBREAK_01") && !TIEBREAK_TASK.test("QB_REAUDIT_H2H_01"));
+  });
+  test("variance audit (t32u): required before lock, every gap >= 10 needs verdict + key stats; ADJUST needs a revision; metrics for every position", () => {
+    assert.ok(ORDER_V112.indexOf("variance_audit") > ORDER_V112.indexOf("pair_audits") && ORDER_V112.indexOf("variance_audit") < ORDER_V112.indexOf("lock"));
+    const t = { type: "variance_audit", task_id: "QB_REAUDIT_VARIANCE_AUDIT" };
+    const ok = { player: "A", attr: "TUP", madden: 90, ours: 79, verdict: "SUPPORTED", key_stats: ["pressured EPA -1.29 (17/17)"] };
+    assert.deepEqual(stageOutputErrors(t, { variance_gaps: [ok], madden_used_as_evidence: false }), []);
+    assert.ok(stageOutputErrors(t, {}).some(e => /variance_gaps/.test(e)));
+    assert.ok(stageOutputErrors(t, { variance_gaps: [{ ...ok, ours: 85 }], madden_used_as_evidence: false }).some(e => /delta/.test(e)));
+    assert.ok(stageOutputErrors(t, { variance_gaps: [{ ...ok, verdict: "ADJUST" }], madden_used_as_evidence: false }).some(e => /proposed_revision/.test(e)));
+    assert.ok(stageOutputErrors(t, { variance_gaps: [{ ...ok, key_stats: [] }], madden_used_as_evidence: false }).some(e => /key_stats/.test(e)));
+    assert.ok(stageOutputErrors(t, { variance_gaps: [ok] }).some(e => /madden_used_as_evidence/.test(e)));
+    for (const p of ["QB", "RB", "WR", "TE", "LT", "LG", "C", "RG", "RT", "REDGE", "LEDGE", "DT", "MIKE", "WILL", "SAM", "CB", "FS", "SS", "K", "P", "FB", "LS"])
+      assert.ok((varianceMetrics(p) as any)?.domains?.length >= 4, `variance metrics for ${p}`);
+    assert.ok((varianceMetrics("QB_REAUDIT") as any).domains.some((d: string) => /pocket/.test(d)));
+  });
+  test("reaudit lock: confirmation, lock stage + no pending review required; new baseline add-only, old kept in history", () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "lock-")); fs.mkdirSync(path.join(root, "data/baselines"), { recursive: true }); fs.mkdirSync(path.join(root, "state"));
+    const old = { status: "LOCKED", position: "Z", version: "bootstrap", top_10: [{ rank: 1, player: "Old", ovr: 90 }], scarcity: { x: 1 } };
+    fs.writeFileSync(path.join(root, "data/baselines/Z.json"), JSON.stringify(old));
+    fs.writeFileSync(path.join(root, "state/locks.json"), JSON.stringify({ rule: "r", positions: { Z: { status: "LOCKED", baseline_file: "data/baselines/Z.json", mutation_permission: "TOP10_REAUDIT_ONLY" } } }));
+    fs.writeFileSync(path.join(root, "state/project-state.json"), JSON.stringify({ pending_reaudit_queue: [{ type: "TOP10_REAUDIT", position: "Z", status: "IN_PROGRESS", audit_ids: ["a1"] }] }));
+    const inp = { position: "Z", confirm: "REAUDIT_REPLACE_BASELINE_Z", approved_by: "PhiXCrypto", approved_at: "2026-11-03T12:00:00-05:00", next_stage: "lock", pending_review: false,
+      stage_audit_ids: ["a1"], final_order: Array.from({ length: 12 }, (_, i) => ({ player: `P${i + 1}`, ovr: 90 - i })) };
+    assert.throws(() => buildLock({ ...inp, confirm: "LOCK_Z" }, root), /REAUDIT_REPLACE_BASELINE_Z/);
+    assert.throws(() => buildLock({ ...inp, next_stage: "variance_audit" }, root), /not lock/);
+    assert.throws(() => buildLock({ ...inp, pending_review: true }, root), /pending review/);
+    const b = applyLock(inp, root);
+    assert.equal(b.file, "data/baselines/Z.reaudit-20261103.json");
+    assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root, "data/baselines/Z.json"), "utf8")), old, "old baseline untouched");
+    const nb = JSON.parse(fs.readFileSync(path.join(root, b.file), "utf8"));
+    assert.equal(nb.top_10.length, 10); assert.equal(nb.first_out.player, "P11"); assert.equal(nb.madden_order_verified, false); assert.equal(nb.supersedes.baseline_file, "data/baselines/Z.json");
+    const l = JSON.parse(fs.readFileSync(path.join(root, "state/locks.json"), "utf8")).positions.Z;
+    assert.equal(l.baseline_file, b.file); assert.equal(l.history[0].baseline_file, "data/baselines/Z.json");
+    assert.equal(JSON.parse(fs.readFileSync(path.join(root, "state/project-state.json"), "utf8")).pending_reaudit_queue[0].status, "COMPLETED");
+    assert.throws(() => applyLock(inp, root), /already exists/, "add-only: no overwrite");
   });
   for (const [n, f] of asyncTests) { await f(); console.log(`PASS ${n}`); } // sequential: executor chdirs
 }

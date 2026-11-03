@@ -18,10 +18,15 @@ import { normName, requireApprovedPool, requireApprovedReauditPool } from "./cov
 export const STAGES = [
   "provisional_top_10", "pair_audits", "membership_reopen", "scarcity_audit",
   "individual_hard_audits", "positional_cross_audit", "lock",
-  "candidate_audit", "background_analysis", "player_rating"
+  "candidate_audit", "background_analysis", "player_rating", "variance_audit"
 ] as const;
 /** Addendum v1.1.2 stage order (commissioner-approved 2026-11-02 1:56 PM ET). */
-export const ORDER_V112 = ["candidate_audit", "background_analysis", "player_rating", "pair_audits", "scarcity_audit", "positional_cross_audit", "lock"] as const;
+export const ORDER_V112 = ["candidate_audit", "background_analysis", "player_rating", "pair_audits", "variance_audit", "scarcity_audit", "positional_cross_audit", "lock"] as const;
+/** Double-digit variance audit (commissioner t32u / card t31s9; every position): ratings >= this far from the Madden reference need a sourced verdict. */
+export const VARIANCE_THRESHOLD = 10;
+export function varianceMetrics(pos: string, root = process.cwd()): Record<string, unknown> | null {
+  try { const c = JSON.parse(fs.readFileSync(path.join(root, "config/variance-metrics.json"), "utf8")); return c.positions?.[pos.replace(/_REAUDIT$/, "")] ?? null; } catch { return null; }
+}
 export type Stage = typeof STAGES[number];
 
 /** LG began before the engine existed: its provisional stage and pairs 01-02 ran outside it. */
@@ -47,6 +52,7 @@ export const ids = (pos: string) => ({
   scarcity: `${pos}_SCARCITY`,
   hard: (n: number) => `${pos}_HARD_${String(n).padStart(2, "0")}`,
   cross: `${pos}_CROSS_AUDIT`,
+  variance: `${pos}_VARIANCE_AUDIT`,
   candidate: `${pos}_CANDIDATE_AUDIT`,
   background: (n: number) => `${pos}_BG_${String(n).padStart(2, "0")}`,
   rate: (n: number) => `${pos}_RATE_${String(n).padStart(2, "0")}`,
@@ -190,6 +196,19 @@ export function stageOutputErrors(task: Record<string, any>, audit: Record<strin
     const top = names(audit.final_top_10);
     if (top.length !== 10 || new Set(top).size !== 10) e.push("final_top_10 must list 10 distinct players");
   }
+  if (t === "variance_audit") {
+    const g = audit.variance_gaps;
+    if (!Array.isArray(g)) e.push("variance_gaps (every rating >= 10 from the Madden reference, with a verdict) is required");
+    else for (const x of g) {
+      const id = `${x?.player}/${x?.attr}`;
+      if (!x?.player || !x?.attr || !Number.isFinite(Number(x?.madden)) || !Number.isFinite(Number(x?.ours))) e.push(`variance gap ${id}: player, attr, madden, ours required`);
+      else if (Math.abs(Number(x.ours) - Number(x.madden)) < VARIANCE_THRESHOLD) e.push(`variance gap ${id}: |delta| < ${VARIANCE_THRESHOLD}`);
+      if (!["SUPPORTED", "ADJUST"].includes(String(x?.verdict))) e.push(`variance gap ${id}: verdict must be SUPPORTED or ADJUST`);
+      if (!Array.isArray(x?.key_stats) || !x.key_stats.length) e.push(`variance gap ${id}: key_stats (statistical basis) required`);
+      if (x?.verdict === "ADJUST" && !x?.proposed_revision) e.push(`variance gap ${id}: ADJUST needs proposed_revision (add-only)`);
+    }
+    if (audit.madden_used_as_evidence !== false) e.push("madden_used_as_evidence must be false (reference only)");
+  }
   if (t === "scarcity_audit" && (!audit.scarcity || typeof audit.scarcity !== "object")) e.push("scarcity summary is required");
   if (t === "positional_cross_audit" && !audit.cross_audit_result) e.push("cross_audit_result is required");
   return e;
@@ -254,9 +273,12 @@ function planV112(pos: Position, done: Set<string>, I: ReturnType<typeof ids>, o
     .map(p => ({ ...p, task_id: p.task_id.replace(/_PAIR_(\d\d)$/, "_H2H_$1") })).find(p => !done.has(p.task_id));
   if (pair) return mk("pair_audits", { type: "pair_audit", ...pair, baseline_controls: rated });
   const final = order.slice(0, 10);
+  if (!done.has(I.variance)) return mk("variance_audit", { task_id: I.variance, type: "variance_audit", players: order, baseline_controls: rated,
+    variance_threshold: VARIANCE_THRESHOLD, variance_metrics: varianceMetrics(pos, opts.root), madden_reference_policy: "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT" });
   if (!done.has(I.scarcity)) return mk("scarcity_audit", { task_id: I.scarcity, type: "scarcity_audit", players: final, baseline_controls: rated });
   if (!done.has(I.cross)) return mk("positional_cross_audit", { task_id: I.cross, type: "positional_cross_audit", players: final, baseline_controls: rated });
-  return mk("lock", { task_id: I.lock, type: "lock", requires_commissioner_confirmation: ra ? `REAUDIT_REPLACE_BASELINE_${pos}` : `LOCK_${pos}`, players: final });
+  return mk("lock", { task_id: I.lock, type: "lock", requires_commissioner_confirmation: ra ? `REAUDIT_REPLACE_BASELINE_${pos}` : `LOCK_${pos}`, players: final,
+    final_order: order.map(player => ({ player, ovr: overall[player] })) });
 }
 
 /** Rated attributes for a bucket = config/madden-entry-order.json order minus OVR (same list src/card-spec.ts uses). */

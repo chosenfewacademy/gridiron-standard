@@ -39,7 +39,8 @@
     "reaudit:run": "tsx src/reaudit-executor.ts",
     "reaudit:approve": "tsx src/reaudit-executor.ts",
     "reaudit:revise": "tsx src/rating-revision.ts",
-    "reaudit:tiebreak": "tsx src/tiebreak.ts"
+    "reaudit:tiebreak": "tsx src/tiebreak.ts",
+    "reaudit:lock": "tsx src/reaudit-lock.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

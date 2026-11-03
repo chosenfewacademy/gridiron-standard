@@ -198,3 +198,17 @@ Rating revisions (commissioner card t30s3, 2026-11-02): an approved player_ratin
 Tiebreak head-to-heads (commissioner card t31s1, 2026-11-02): players tied on overall whose order the standard v1.1.2 pairs did not test may get add-only extra pair_audit tasks `<POS>_REAUDIT_TIEBREAK_nn` (`npm run reaudit:tiebreak`). They pass the same evidence gate, validator and pair_audit checks, are saved FLAGGED and stay pending commissioner review on the awaiting pointer; any rating change they imply is proposed as a rating revision.
 
 All v1.0.0 text, Amendment v1.1 and Addendum v1.1.1 above remain in force unchanged.
+
+## Addendum v1.1.2 entry B — Generic position pipeline + variance audit + re-audit lock (code/docs, commissioner t31s9/t32u/t33u, 2026-11-02)
+Every position (new run or TOP10_REAUDIT) follows the same engine path; only the evidence metrics differ:
+1. candidate_audit → 2. background dossiers (one per player, always reviewed) → 3. per-player judgment ratings (no formulas;
+style rule: style_profile + style_evidence, flag corr ≥ 0.95 or mad ≤ 3) with the Madden reference + deltas (reference only, never evidence) →
+4. head-to-heads from the rating order (H2H_01..06 incl. rank 10 vs first out) + `reaudit:tiebreak` for every untested tie (pending until approved) →
+5. **variance_audit** (`<POS>_VARIANCE_AUDIT`): every OVR/attribute with |ours − Madden| ≥ 10 gets a verdict SUPPORTED (key stats) or ADJUST
+(proposed add-only revision via `reaudit:revise`, style rule rechecked). Metrics per position: `config/variance-metrics.json`
+(QB: EPA in/out of pocket, on the run, clean vs pressured, time to throw, turnovers, value over average, scheme/system-QB). Always commissioner review. →
+6. scarcity_audit → 7. positional_cross_audit (left pending while tiebreaks/variance adjustments are pending) →
+8. lock: `npm run reaudit:lock -- <POS> --confirm REAUDIT_REPLACE_BASELINE_<POS> --by <name> --at <iso> [--dry-run]` writes a NEW
+`data/baselines/<POS>.reaudit-<YYYYMMDD>.json`, keeps the old baseline file and appends it to `state/locks.json` history, writes an add-only lock record.
+OPEN (needs commissioner approval, not applied): (a) `variance_audit` in POSITION_WIDE_TASK_TYPES so the evidence gate accepts it;
+(b) a protected-paths exception for the lock outputs (new data/baselines file, locks.json pointer + append-only history, queue item → COMPLETED).

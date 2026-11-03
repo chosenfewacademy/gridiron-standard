@@ -62,3 +62,6 @@ Gates, REVIEW_MAJOR approval, immutability and `GRIDIRON_MAX_REVISIONS` (default
 ## FB / LS (v1.1 addendum, proposed)
 FB and LS have rating inputs and candidate pools but are not in the v1.0 sequence or state; see docs/amendments/v1.1-addendum-fb-ls.md.
 `roster:refresh --id-only` (with `--add-only`) adds by source id without exact-name merging (needed for LS Aaron Brewer vs C Aaron Brewer).
+
+### Variance audit and lock (2026-11-02)
+`<POS>_VARIANCE_AUDIT` runs after head-to-heads and before scarcity. Output: `variance_gaps[]` (player, attr, madden, ours, verdict SUPPORTED|ADJUST, key_stats, proposed_revision for ADJUST) and `madden_used_as_evidence: false`. Metrics: `config/variance-metrics.json`. Lock task carries `final_order`; `reaudit:lock` consumes `REAUDIT_REPLACE_BASELINE_<POS>`.
