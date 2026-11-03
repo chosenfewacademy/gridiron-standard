@@ -1,0 +1,520 @@
+# WR_REAUDIT_RATE_03 revision A2 — Ja'Marr Chase 90 (authorized t45s353)
+
+Variance evidence fix: AWR rank 9/15 inconsistent with two-year PFF 84.9/90.1 (4th) and EPA/tgt +.462
+
+```json
+{
+  "audit_id": "WR_REAUDIT_RATE_03_A2",
+  "task_id": "WR_REAUDIT_RATE_03",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "player_id": "ja_marr_chase",
+  "players": [
+    "Ja'Marr Chase"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 95,
+    "ACC": 93,
+    "AGI": 91,
+    "COD": 90,
+    "STR": 74,
+    "AWR": 88,
+    "CTH": 92,
+    "CIT": 86,
+    "SPC": 88,
+    "SRR": 88,
+    "MRR": 86,
+    "DRR": 88,
+    "RLS": 90,
+    "JMP": 92,
+    "CAR": 90,
+    "BTK": 86,
+    "SPM": 70,
+    "JKM": 84,
+    "INJ": 90,
+    "STA": 90,
+    "TGH": 86
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "CTH": "MEDIUM",
+    "CIT": "LOW",
+    "SPC": "LOW",
+    "SRR": "MEDIUM",
+    "MRR": "MEDIUM",
+    "DRR": "MEDIUM",
+    "RLS": "MEDIUM",
+    "JMP": "LOW",
+    "CAR": "MEDIUM",
+    "BTK": "MEDIUM",
+    "SPM": "LOW",
+    "JKM": "LOW",
+    "INJ": "LOW",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (physical): size 72 in / 205 lb, run-block snaps {'off': '359', 'routes': '248', 'rblk': '111'}. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (processing): 3rd-down conv, EPA/tgt, PFF grade: Ja'Marr Chase PFF WR offense grade 2026 84.9 (rank 10), 2025 90.1; 2026 PFF snaps {'off': '359', 'routes': '248', 'rblk': '111'}. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two. Revised 84->88: Variance evidence fix: AWR rank 9/15 inconsistent with two-year PFF 84.9/90.1 (4th) and EPA/tgt +.462",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (hands): short catch rate, PFF grade: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (contested): deep/red-zone results and size (205 lb): 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPC": {
+      "basis": "Judgment (contested): deep/red-zone results and size (205 lb): 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (deep): deep catch rate and deep EPA/tgt: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0; 2025: 16 g, 185 tgt, 125 rec, 1412 yds, 8 TD, EPA/tgt 0.224, aDOT 8.5, NGS separation 3.13, YAC over expected 1.32, YPRR 2.11, TPRR 0.277, routes 669; deep (20+ air yds) 20 tgt catch 0.25 EPA/tgt 0.2, short (<10) catch 0.77, YAC/rec 5.1, red-zone tgt 22, 3rd/4th-down conv 24/49, fumbles lost 1. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Listed weakness area: 2026 efficiency trend, deep catch consistency",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (contested): deep/red-zone results and size (205 lb): 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 1. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPM": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JKM": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Ja'Marr Chase 2026 usage: 360 offensive snaps in 7 games (nflverse snap_counts); age 26, 72 in, 205 lb; roster status ACT; 2025 games 16. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Ja'Marr Chase 2026 usage: 360 offensive snaps in 7 games (nflverse snap_counts); age 26, 72 in, 205 lb; roster status ACT; PFF snaps {'off': '359', 'routes': '248', 'rblk': '111'}. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Ja'Marr Chase 2026 usage: 360 offensive snaps in 7 games (nflverse snap_counts); age 26, 72 in, 205 lb; roster status ACT; PFF snaps {'off': '359', 'routes': '248', 'rblk': '111'}. Style: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "SPD": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "vertical/explosive: deep targets/aDOT/separation: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "vertical/explosive: deep targets/aDOT/separation: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AGI": {
+      "tier": "ELITE",
+      "claim": "separation: NGS separation, TPRR, short catch rate: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "COD": {
+      "tier": "ELITE",
+      "claim": "separation: NGS separation, TPRR, short catch rate: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "tier": "ELITE",
+      "claim": "hands: short catch rate, PFF grade: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RLS": {
+      "tier": "ELITE",
+      "claim": "route: YPRR/TPRR/3rd-down conversion: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JMP": {
+      "tier": "ELITE",
+      "claim": "contested: deep/red-zone results and size (205 lb): 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CAR": {
+      "tier": "ELITE",
+      "claim": "ball security: fumbles lost 2026 0, 2025 1",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Ja'Marr Chase 2026 usage: 360 offensive snaps in 7 games (nflverse snap_counts); age 26, 72 in, 205 lb; roster status ACT; 2025 games 16",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: Ja'Marr Chase 2026 usage: 360 offensive snaps in 7 games (nflverse snap_counts); age 26, 72 in, 205 lb; roster status ACT; PFF snaps {'off': '359', 'routes': '248', 'rblk': '111'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "proposed_ovr": 90,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two. Revision A2: Variance evidence fix: AWR rank 9/15 inconsistent with two-year PFF 84.9/90.1 (4th) and EPA/tgt +.462",
+  "style_profile": "Ja'Marr Chase: Catch-and-run alpha: elite burst and YAC with 185 targets in 2025 and 6 TD in 7 games in 2026; deep catch rate fell to 25% in 2025 and 2026 YPRR is 1.98, so the trend tempers him below the top two.",
+  "style_evidence": [
+    "Ja'Marr Chase (CIN) 2026: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0",
+    "Ja'Marr Chase (CIN) 2025: 16 g, 185 tgt, 125 rec, 1412 yds, 8 TD, EPA/tgt 0.224, aDOT 8.5, NGS separation 3.13, YAC over expected 1.32, YPRR 2.11, TPRR 0.277, routes 669; deep (20+ air yds) 20 tgt catch 0.25 EPA/tgt 0.2, short (<10) catch 0.77, YAC/rec 5.1, red-zone tgt 22, 3rd/4th-down conv 24/49, fumbles lost 1",
+    "Ja'Marr Chase PFF WR offense grade 2026 84.9 (rank 10), 2025 90.1; 2026 PFF snaps {'off': '359', 'routes': '248', 'rblk': '111'}",
+    "Ja'Marr Chase 2026 usage: 360 offensive snaps in 7 games (nflverse snap_counts); age 26, 72 in, 205 lb; roster status ACT"
+  ],
+  "input_dossier": "WR_REAUDIT_BG_03_A1",
+  "weaknesses": [
+    "2026 efficiency trend",
+    "deep catch consistency"
+  ],
+  "madden_reference": [
+    {
+      "player": "Ja'Marr Chase",
+      "ovr": 99,
+      "attributes": {
+        "SPD": 96,
+        "ACC": 95,
+        "AGI": 92,
+        "COD": 96,
+        "STR": 73,
+        "AWR": 99,
+        "CTH": 98,
+        "CIT": 94,
+        "SPC": 97,
+        "SRR": 95,
+        "MRR": 97,
+        "DRR": 98,
+        "RLS": 99,
+        "JMP": 98,
+        "CAR": 71,
+        "BTK": 88,
+        "SPM": 83,
+        "JKM": 90,
+        "INJ": 92,
+        "STA": 96,
+        "TGH": 88
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -9,
+      "delta_attributes": {
+        "SPD": -1,
+        "ACC": -2,
+        "AGI": -1,
+        "COD": -6,
+        "STR": 1,
+        "AWR": -11,
+        "CTH": -6,
+        "CIT": -8,
+        "SPC": -9,
+        "SRR": -7,
+        "MRR": -11,
+        "DRR": -10,
+        "RLS": -9,
+        "JMP": -6,
+        "CAR": 19,
+        "BTK": -2,
+        "SPM": -13,
+        "JKM": -6,
+        "INJ": -2,
+        "STA": -6,
+        "TGH": -2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 WR, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 9,
+    "attribute_gaps_10plus": {
+      "AWR": -11,
+      "MRR": -11,
+      "DRR": -10,
+      "CAR": 19,
+      "SPM": -13
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t45s353"
+}
+```
