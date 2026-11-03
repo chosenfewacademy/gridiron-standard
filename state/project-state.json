@@ -1810,7 +1810,7 @@
         "position": "WR",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/WR.reaudit.json",
       "baseline_file": "data/baselines/WR.json",
@@ -1930,19 +1930,23 @@
         "WR_REAUDIT_RATE_01_A2",
         "WR_REAUDIT_RATE_08_A3",
         "WR_REAUDIT_RATE_05_A3",
-        "WR_REAUDIT_RATE_02_A2"
+        "WR_REAUDIT_RATE_02_A2",
+        "WR_REAUDIT_VARIANCE_AUDIT_A1"
       ],
-      "current_stage": "pair_audits",
-      "current_task": "WR_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T15:19:12.464Z",
+      "current_stage": "variance_audit",
+      "current_task": "WR_REAUDIT_VARIANCE_AUDIT",
+      "updated_at": "2026-11-03T15:20:03.390Z",
       "last_result": {
-        "task_id": "WR_REAUDIT_RATE_02",
-        "status": "REVISION_APPROVED",
-        "audit_id": "WR_REAUDIT_RATE_02_A2",
-        "supersedes": "WR_REAUDIT_RATE_02_A1",
+        "task_id": "WR_REAUDIT_VARIANCE_AUDIT",
+        "status": "FLAGGED",
+        "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "WR_REAUDIT_VARIANCE_AUDIT",
+        "audit_id": "WR_REAUDIT_VARIANCE_AUDIT_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",

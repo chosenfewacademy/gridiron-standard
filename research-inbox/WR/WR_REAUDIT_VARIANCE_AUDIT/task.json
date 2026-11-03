@@ -1,0 +1,206 @@
+{
+  "task_id": "WR_REAUDIT_VARIANCE_AUDIT",
+  "type": "variance_audit",
+  "players": [
+    "Jaxon Smith-Njigba",
+    "Puka Nacua",
+    "Ja'Marr Chase",
+    "CeeDee Lamb",
+    "Tee Higgins",
+    "Drake London",
+    "Zay Flowers",
+    "Amon-Ra St. Brown",
+    "Chris Olave",
+    "Justin Jefferson",
+    "George Pickens",
+    "Malik Nabers",
+    "Nico Collins",
+    "Mike Evans",
+    "DeVonta Smith"
+  ],
+  "baseline_controls": {
+    "locked_baseline": {
+      "top_10": [
+        {
+          "rank": 1,
+          "player": "Puka Nacua"
+        },
+        {
+          "rank": 2,
+          "player": "Ja'Marr Chase"
+        },
+        {
+          "rank": 3,
+          "player": "Jaxon Smith-Njigba"
+        },
+        {
+          "rank": 4,
+          "player": "Amon-Ra St. Brown"
+        },
+        {
+          "rank": 5,
+          "player": "George Pickens"
+        },
+        {
+          "rank": 6,
+          "player": "Drake London"
+        },
+        {
+          "rank": 7,
+          "player": "Nico Collins"
+        },
+        {
+          "rank": 8,
+          "player": "Justin Jefferson"
+        },
+        {
+          "rank": 9,
+          "player": "A.J. Brown"
+        },
+        {
+          "rank": 10,
+          "player": "Stefon Diggs"
+        }
+      ],
+      "external_controls": [
+        {
+          "player": "Jaylen Waddle",
+          "ovr": 85
+        }
+      ]
+    },
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Jaxon Smith-Njigba",
+        "overall": 95
+      },
+      {
+        "rank": 2,
+        "player": "Puka Nacua",
+        "overall": 93
+      },
+      {
+        "rank": 3,
+        "player": "Ja'Marr Chase",
+        "overall": 90
+      },
+      {
+        "rank": 4,
+        "player": "CeeDee Lamb",
+        "overall": 88
+      },
+      {
+        "rank": 5,
+        "player": "Tee Higgins",
+        "overall": 87
+      },
+      {
+        "rank": 6,
+        "player": "Drake London",
+        "overall": 86
+      },
+      {
+        "rank": 7,
+        "player": "Zay Flowers",
+        "overall": 85
+      },
+      {
+        "rank": 8,
+        "player": "Amon-Ra St. Brown",
+        "overall": 84
+      },
+      {
+        "rank": 9,
+        "player": "Chris Olave",
+        "overall": 83
+      },
+      {
+        "rank": 10,
+        "player": "Justin Jefferson",
+        "overall": 82
+      }
+    ],
+    "external_controls": [
+      "George Pickens",
+      "Malik Nabers",
+      "Nico Collins",
+      "Mike Evans",
+      "DeVonta Smith"
+    ]
+  },
+  "variance_threshold": 10,
+  "variance_metrics": {
+    "domains": [
+      "yards per route run, target share, targets per route",
+      "separation (NGS avg_separation) and contested-catch rate",
+      "YAC and YAC over expected",
+      "drops per catchable target",
+      "alignment: slot vs wide, route tree depth (aDOT)",
+      "team value: EPA per target and share of team passing EPA",
+      "scheme: play-action/screen share, QB quality and accuracy (catchable-ball rate)"
+    ]
+  },
+  "madden_reference_policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+  "position": "WR",
+  "stage": "variance_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 3,
+    "group": "Offense",
+    "current_status": "LOCKED",
+    "pff_cited_inputs": [
+      "overall",
+      "receiving",
+      "drop rate",
+      "contested catch rate",
+      "yards per route run",
+      "grade vs man/zone"
+    ],
+    "position_stats": [
+      "targets, receptions, yards, TD",
+      "catch %",
+      "YAC"
+    ],
+    "usage_snap_metrics": [
+      "route participation",
+      "slot/wide alignment %",
+      "aDOT",
+      "target share",
+      "air-yard share"
+    ],
+    "on_field_impact": [
+      "EPA/target",
+      "separation (NGS avg separation)",
+      "YAC over expected"
+    ],
+    "madden_attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "RBK",
+      "AWR"
+    ],
+    "note": ""
+  }
+}
