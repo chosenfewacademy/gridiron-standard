@@ -1,0 +1,499 @@
+# TE_REAUDIT_RATE_03 — Trey McBride rating (v1.1.2 stage 3, per-attribute judgment; authorized by t45s377)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "TE_REAUDIT_RATE_03_A1",
+  "task_id": "TE_REAUDIT_RATE_03",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "player_id": "trey_mcbride",
+  "players": [
+    "Trey McBride"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 84,
+    "ACC": 87,
+    "AGI": 85,
+    "COD": 84,
+    "STR": 74,
+    "AWR": 92,
+    "CTH": 94,
+    "CIT": 90,
+    "SPC": 84,
+    "SRR": 90,
+    "MRR": 89,
+    "DRR": 76,
+    "RLS": 84,
+    "JMP": 82,
+    "CAR": 82,
+    "BTK": 78,
+    "RBK": 62,
+    "IBL": 64,
+    "PBK": 60,
+    "INJ": 90,
+    "STA": 94,
+    "TGH": 90
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "CTH": "MEDIUM",
+    "CIT": "LOW",
+    "SPC": "LOW",
+    "SRR": "MEDIUM",
+    "MRR": "MEDIUM",
+    "DRR": "MEDIUM",
+    "RLS": "MEDIUM",
+    "JMP": "LOW",
+    "CAR": "MEDIUM",
+    "BTK": "MEDIUM",
+    "RBK": "LOW",
+    "IBL": "LOW",
+    "PBK": "LOW",
+    "INJ": "LOW",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (physical): size 76 in / 246 lb, PFF snap usage 534 off snaps, 356 routes, 168 run-block, 10 pass-block (block share 0.33). Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (processing): 3rd-down conv, EPA/tgt, PFF grade: Trey McBride PFF TE offense grade 2026 74.2 (rank 14), 2025 81.7; 2026 PFF snaps {'off': '534', 'routes': '356', 'pblk': '10', 'rblk': '168'}. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (hands): short catch rate, PFF grade: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (contested): deep/red-zone results and size (246 lb): 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPC": {
+      "basis": "Judgment (contested): deep/red-zone results and size (246 lb): 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (deep): deep catch rate and deep EPA/tgt: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0; 2025: 17 g, 170 tgt, 126 rec, 1239 yds, 11 TD, EPA/tgt 0.428, aDOT 6.7, NGS separation 3.06, YAC over expected 0.65, YPRR 1.68, TPRR 0.231, routes 737; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.41, short (<10) catch 0.82, YAC/rec 4.6, red-zone tgt 34, 3rd/4th-down conv 22/37, fumbles lost 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (contested): deep/red-zone results and size (246 lb): 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run blocking): PFF overall grade 2026 74.2 / 2025 81.7; PFF snap usage 2026: 534 off snaps, 356 routes, 168 run-block, 10 pass-block (block share 0.33); 2025: 1033 off snaps, 737 routes, 284 run-block, 12 pass-block (block share 0.29); size 76 in / 246 lb (block-share substitute for paywalled sub-grades, t45s377). Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Listed weakness area: blocking, vertical/deep",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run blocking): PFF overall grade 2026 74.2 / 2025 81.7; PFF snap usage 2026: 534 off snaps, 356 routes, 168 run-block, 10 pass-block (block share 0.33); 2025: 1033 off snaps, 737 routes, 284 run-block, 12 pass-block (block share 0.29); size 76 in / 246 lb (block-share substitute for paywalled sub-grades, t45s377). Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Listed weakness area: blocking, vertical/deep",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass blocking): PFF overall grade 2026 74.2 / 2025 81.7; PFF snap usage 2026: 534 off snaps, 356 routes, 168 run-block, 10 pass-block (block share 0.33); 2025: 1033 off snaps, 737 routes, 284 run-block, 12 pass-block (block share 0.29); size 76 in / 246 lb (block-share substitute for paywalled sub-grades, t45s377). Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Listed weakness area: blocking, vertical/deep",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Trey McBride 2026 usage: 535 offensive snaps in 8 games (nflverse snap_counts); age 26, 76 in, 246 lb; roster status ACT; 2025 games 17. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Trey McBride 2026 usage: 535 offensive snaps in 8 games (nflverse snap_counts); age 26, 76 in, 246 lb; roster status ACT; PFF snaps {'off': '534', 'routes': '356', 'pblk': '10', 'rblk': '168'}. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Trey McBride 2026 usage: 535 offensive snaps in 8 games (nflverse snap_counts); age 26, 76 in, 246 lb; roster status ACT; PFF snaps {'off': '534', 'routes': '356', 'pblk': '10', 'rblk': '168'}. Style: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "processing: 3rd-down conv, EPA/tgt, PFF grade: Trey McBride PFF TE offense grade 2026 74.2 (rank 14), 2025 81.7; 2026 PFF snaps {'off': '534', 'routes': '356', 'pblk': '10', 'rblk': '168'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "tier": "ELITE",
+      "claim": "hands: short catch rate, PFF grade: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CIT": {
+      "tier": "ELITE",
+      "claim": "contested: deep/red-zone results and size (246 lb): 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SRR": {
+      "tier": "ELITE",
+      "claim": "route: YPRR/TPRR/3rd-down conversion: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Trey McBride 2026 usage: 535 offensive snaps in 8 games (nflverse snap_counts); age 26, 76 in, 246 lb; roster status ACT; 2025 games 17",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: Trey McBride 2026 usage: 535 offensive snaps in 8 games (nflverse snap_counts); age 26, 76 in, 246 lb; roster status ACT; PFF snaps {'off': '534', 'routes': '356', 'pblk': '10', 'rblk': '168'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: Trey McBride 2026 usage: 535 offensive snaps in 8 games (nflverse snap_counts); age 26, 76 in, 246 lb; roster status ACT; PFF snaps {'off': '534', 'routes': '356', 'pblk': '10', 'rblk': '168'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "proposed_ovr": 88,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+  "style_profile": "Trey McBride: Volume chain-mover: 1,239 yds in 2025 and 34 red-zone targets, reliable short hands from the slot/flex; 2026 PFF dipped to 74.2 and blocking is a non-factor.",
+  "style_evidence": [
+    "Trey McBride (ARI) 2026: 8 g, 86 tgt, 66 rec, 544 yds, 5 TD, EPA/tgt 0.293, aDOT 6.0, NGS separation 2.58, YAC over expected 0.31, YPRR 1.53, TPRR 0.242, routes 356; deep (20+ air yds) 4 tgt catch 0.5 EPA/tgt 0.72, short (<10) catch 0.8, YAC/rec 3.0, red-zone tgt 19, 3rd/4th-down conv 11/25, fumbles lost 0",
+    "Trey McBride (ARI) 2025: 17 g, 170 tgt, 126 rec, 1239 yds, 11 TD, EPA/tgt 0.428, aDOT 6.7, NGS separation 3.06, YAC over expected 0.65, YPRR 1.68, TPRR 0.231, routes 737; deep (20+ air yds) 9 tgt catch 0.33 EPA/tgt 0.41, short (<10) catch 0.82, YAC/rec 4.6, red-zone tgt 34, 3rd/4th-down conv 22/37, fumbles lost 0",
+    "Trey McBride PFF TE offense grade 2026 74.2 (rank 14), 2025 81.7; 2026 PFF snaps {'off': '534', 'routes': '356', 'pblk': '10', 'rblk': '168'}",
+    "Trey McBride 2026 usage: 535 offensive snaps in 8 games (nflverse snap_counts); age 26, 76 in, 246 lb; roster status ACT"
+  ],
+  "input_dossier": "TE_REAUDIT_BG_03_A1",
+  "weaknesses": [
+    "blocking",
+    "vertical/deep"
+  ],
+  "madden_reference": [
+    {
+      "player": "Trey McBride",
+      "ovr": 99,
+      "attributes": {
+        "SPD": 88,
+        "ACC": 90,
+        "AGI": 84,
+        "COD": 79,
+        "STR": 76,
+        "AWR": 99,
+        "CTH": 99,
+        "CIT": 93,
+        "SPC": 92,
+        "SRR": 88,
+        "MRR": 83,
+        "DRR": 78,
+        "RLS": 85,
+        "JMP": 94,
+        "CAR": 75,
+        "BTK": 80,
+        "RBK": 64,
+        "IBL": 67,
+        "PBK": 62,
+        "INJ": 93,
+        "STA": 97,
+        "TGH": 87
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -11,
+      "delta_attributes": {
+        "SPD": -4,
+        "ACC": -3,
+        "AGI": 1,
+        "COD": 5,
+        "STR": -2,
+        "AWR": -7,
+        "CTH": -5,
+        "CIT": -3,
+        "SPC": -8,
+        "SRR": 2,
+        "MRR": 6,
+        "DRR": -2,
+        "RLS": -1,
+        "JMP": -12,
+        "CAR": 7,
+        "BTK": -2,
+        "RBK": -2,
+        "IBL": -3,
+        "PBK": -2,
+        "INJ": -3,
+        "STA": -3,
+        "TGH": 3
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 TE, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 11,
+    "attribute_gaps_10plus": {
+      "JMP": -12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t45s377"
+}
+```

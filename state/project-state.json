@@ -3194,7 +3194,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.json",
@@ -3241,18 +3241,25 @@
         "TE_REAUDIT_BG_14_A1",
         "TE_REAUDIT_BG_15_A1",
         "TE_REAUDIT_RATE_01_A1",
-        "TE_REAUDIT_RATE_02_A1"
+        "TE_REAUDIT_RATE_02_A1",
+        "TE_REAUDIT_RATE_03_A1"
       ],
       "current_stage": "player_rating",
-      "current_task": "TE_REAUDIT_RATE_02",
-      "updated_at": "2026-11-03T21:15:16.348Z",
+      "current_task": "TE_REAUDIT_RATE_03",
+      "updated_at": "2026-11-03T21:15:17.216Z",
       "last_result": {
-        "task_id": "TE_REAUDIT_RATE_02",
+        "task_id": "TE_REAUDIT_RATE_03",
         "status": "FLAGGED",
         "errors": [],
-        "flags": []
+        "flags": [
+          "STYLE_PROFILE_TOO_SIMILAR:Brock Bowers(corr 0.943, mad 2.5)"
+        ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "TE_REAUDIT_RATE_03",
+        "audit_id": "TE_REAUDIT_RATE_03_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
