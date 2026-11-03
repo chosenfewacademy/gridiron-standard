@@ -9,3 +9,7 @@ Watson and Washington were added (WR_POOL_AMEND_01) and rated 82 (RATE_16/17); W
 Kalif Raymond, Kendrick Bourne, Mack Hollins, A.J. Brown, Rashod Bateman, Romeo Doubs,
 Dontayvion Wicks, Kayshon Boutte, Ryan Flournoy, Keon Coleman, Tre Harris, Carnell Tate.
 Per t45s359, stopped before the cross-audit and the lock dry-run. Commissioner decision needed.
+
+## t45s365 resolution
+TIEBREAK_56–79: all 12 new flags lost to both Jefferson and Watson (MODERATE: A.J. Brown and Hollins vs Jefferson; Hollins, Doubs, Coleman vs Watson; rest CLEAR).
+Rerun: 31 raw flags, all previously tested, so all resolved. Cross-audit approved, CONSISTENT. Lock dry-run OK (not locked).
