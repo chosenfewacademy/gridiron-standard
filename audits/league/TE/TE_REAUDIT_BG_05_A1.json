@@ -1,0 +1,183 @@
+{
+  "audit_id": "TE_REAUDIT_BG_05_A1",
+  "task_id": "TE_REAUDIT_BG_05",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "player_id": "sam_laporta",
+  "players": [
+    "Sam LaPorta"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Sam LaPorta",
+    "player_id": "sam_laporta",
+    "team": "DET",
+    "age": 25,
+    "size": {
+      "ht_in": "75",
+      "wt_lb": "245"
+    },
+    "pff": {
+      "2025": {
+        "grade": 82,
+        "snaps": {
+          "off": "517",
+          "routes": "254",
+          "pblk": "33",
+          "rblk": "230"
+        }
+      },
+      "2026": {
+        "grade": 75.4,
+        "rank": 8,
+        "snaps": {
+          "off": "434",
+          "routes": "234",
+          "pblk": "19",
+          "rblk": "180"
+        }
+      }
+    },
+    "stats_2026": {
+      "team": "DET",
+      "games": 7,
+      "tgt": 44,
+      "rec": 31,
+      "yds": 367,
+      "td": 3,
+      "epa_tgt": 0.738,
+      "rz_tgt": 11,
+      "adot": 6.1,
+      "sep": 3.51,
+      "yac_oe": 0.34,
+      "pff": 75.4,
+      "pff_rank": 8,
+      "off": 434,
+      "routes": 234,
+      "pblk": 19,
+      "rblk": 180,
+      "yprr": 1.57,
+      "tprr": 0.188,
+      "block_share": 0.46
+    },
+    "stats_2025": {
+      "team": "DET",
+      "games": 9,
+      "tgt": 49,
+      "rec": 40,
+      "yds": 489,
+      "td": 3,
+      "epa_tgt": 0.743,
+      "rz_tgt": 6,
+      "adot": 5.7,
+      "sep": 3.44,
+      "yac_oe": 1.02,
+      "pff": 82,
+      "pff_rank": 5,
+      "off": 517,
+      "routes": 254,
+      "pblk": 33,
+      "rblk": 230,
+      "yprr": 1.93,
+      "tprr": 0.193,
+      "block_share": 0.51
+    },
+    "splits_2026": {
+      "deep_tgt": 1,
+      "deep_catch": 0,
+      "deep_epa_tgt": -0.3,
+      "yac_rec": 5.5,
+      "short_catch": 0.68,
+      "rz_tgt": 11,
+      "third_down_conv": "5/12",
+      "fum_lost": 0
+    },
+    "splits_2025": {
+      "deep_tgt": 2,
+      "deep_catch": 1,
+      "deep_epa_tgt": 3.66,
+      "yac_rec": 6.8,
+      "short_catch": 0.82,
+      "rz_tgt": 6,
+      "third_down_conv": "10/18",
+      "fum_lost": 0
+    },
+    "usage_2026": {
+      "offensive_snaps": 434,
+      "games": 7
+    },
+    "summary_lines": [
+      "Sam LaPorta (DET) 2026: 7 g, 44 tgt, 31 rec, 367 yds, 3 TD, EPA/tgt 0.738, aDOT 6.1, NGS separation 3.51, YAC over expected 0.34, YPRR 1.57, TPRR 0.188, routes 234; deep (20+ air yds) 1 tgt catch 0.0 EPA/tgt -0.3, short (<10) catch 0.68, YAC/rec 5.5, red-zone tgt 11, 3rd/4th-down conv 5/12, fumbles lost 0",
+      "Sam LaPorta (DET) 2025: 9 g, 49 tgt, 40 rec, 489 yds, 3 TD, EPA/tgt 0.743, aDOT 5.7, NGS separation 3.44, YAC over expected 1.02, YPRR 1.93, TPRR 0.193, routes 254; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 3.66, short (<10) catch 0.82, YAC/rec 6.8, red-zone tgt 6, 3rd/4th-down conv 10/18, fumbles lost 0",
+      "Sam LaPorta PFF TE offense grade 2026 75.4 (rank 8), 2025 82.0; 2026 PFF snaps {'off': '434', 'routes': '234', 'pblk': '19', 'rblk': '180'}",
+      "Sam LaPorta 2026 usage: 434 offensive snaps in 7 games (nflverse snap_counts); age 25, 75 in, 245 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF receiving/run-block/pass-block sub-grades are paywalled (PFF+) and inline/slot/wide alignment splits are not public; per commissioner t45s377 blocking traits are judged from PFF overall grade plus PFF run-block/pass-block/route snap counts (block share), with film-consensus style"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "CAR",
+      "BTK",
+      "RBK",
+      "IBL",
+      "PBK",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/te/2026",
+        "retrieved_at": "2026-11-03T21:12:01Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/te/2025",
+        "retrieved_at": "2026-11-03T21:12:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T21:12:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T21:12:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
+        "retrieved_at": "2026-11-03T21:12:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T21:12:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T21:12:01Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
