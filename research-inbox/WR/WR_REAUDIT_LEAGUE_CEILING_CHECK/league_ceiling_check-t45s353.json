@@ -1,0 +1,633 @@
+{
+ "position": "WR",
+ "references": [
+  {
+   "name": "Justin Jefferson",
+   "teams": [
+    "MIN"
+   ],
+   "snaps": 1229,
+   "snaps_2026": 288,
+   "targets": 183,
+   "pff": 81,
+   "value": 0.043,
+   "efficiency": 1.82,
+   "negative_rate": 49.727,
+   "availability": 0.958
+  },
+  {
+   "name": "George Pickens",
+   "teams": [
+    "DAL"
+   ],
+   "snaps": 1394,
+   "snaps_2026": 426,
+   "targets": 200,
+   "pff": 83.5,
+   "value": 0.57,
+   "efficiency": 2.02,
+   "negative_rate": 38.5,
+   "availability": 1
+  }
+ ],
+ "thresholds": {
+  "pff": 81,
+  "value": 0.043,
+  "efficiency": 1.82,
+  "negative_rate": 49.727,
+  "availability": 0.958
+ },
+ "flagged": [
+  {
+   "name": "Keenan Allen",
+   "teams": [
+    "IND",
+    "LAC"
+   ],
+   "snaps": 940,
+   "snaps_2026": 274,
+   "targets": 172,
+   "pff": 75.4,
+   "value": 0.266,
+   "efficiency": 1.55,
+   "negative_rate": 44.767,
+   "availability": 0.96,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -2.6774389389472875
+  },
+  {
+   "name": "DeAndre Hopkins",
+   "teams": [
+    "BAL"
+   ],
+   "snaps": 334,
+   "snaps_2026": 0,
+   "targets": 39,
+   "pff": 81.3,
+   "value": 0.242,
+   "efficiency": 1.53,
+   "negative_rate": 51.282,
+   "availability": 1,
+   "hits": [
+    "pff",
+    "value",
+    "availability"
+   ],
+   "score": -0.09089628063547828
+  },
+  {
+   "name": "Davante Adams",
+   "teams": [
+    "LA"
+   ],
+   "snaps": 1115,
+   "snaps_2026": 327,
+   "targets": 163,
+   "pff": 82.2,
+   "value": 0.301,
+   "efficiency": 1.61,
+   "negative_rate": 46.626,
+   "availability": 0.8,
+   "hits": [
+    "pff",
+    "value",
+    "negative_rate"
+   ],
+   "score": -2.8042272939540394
+  },
+  {
+   "name": "Stefon Diggs",
+   "teams": [
+    "NE",
+    "WAS"
+   ],
+   "snaps": 992,
+   "snaps_2026": 243,
+   "targets": 146,
+   "pff": 80,
+   "value": 0.551,
+   "efficiency": 1.68,
+   "negative_rate": 36.986,
+   "availability": 0.958,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.8639468690702081
+  },
+  {
+   "name": "Cooper Kupp",
+   "teams": [
+    "SEA"
+   ],
+   "snaps": 1231,
+   "snaps_2026": 316,
+   "targets": 98,
+   "pff": 73.1,
+   "value": 0.174,
+   "efficiency": 1.12,
+   "negative_rate": 43.878,
+   "availability": 0.958,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -5.230446931859341
+  },
+  {
+   "name": "Courtland Sutton",
+   "teams": [
+    "DEN"
+   ],
+   "snaps": 1469,
+   "snaps_2026": 379,
+   "targets": 162,
+   "pff": 73.8,
+   "value": 0.248,
+   "efficiency": 1.36,
+   "negative_rate": 48.148,
+   "availability": 1,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -3.650362600054865
+  },
+  {
+   "name": "Jakobi Meyers",
+   "teams": [
+    "JAX"
+   ],
+   "snaps": 1260,
+   "snaps_2026": 333,
+   "targets": 141,
+   "pff": 71.7,
+   "value": 0.191,
+   "efficiency": 1.44,
+   "negative_rate": 39.716,
+   "availability": 0.958,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -3.7274754087166873
+  },
+  {
+   "name": "Terry McLaurin",
+   "teams": [
+    "WAS"
+   ],
+   "snaps": 639,
+   "snaps_2026": 206,
+   "targets": 88,
+   "pff": 86.5,
+   "value": 0.521,
+   "efficiency": 2.05,
+   "negative_rate": 40.909,
+   "availability": 0.625,
+   "hits": [
+    "pff",
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": 0.6924488589702009
+  },
+  {
+   "name": "Jaylen Waddle",
+   "teams": [
+    "DEN",
+    "MIA"
+   ],
+   "snaps": 1033,
+   "snaps_2026": 311,
+   "targets": 153,
+   "pff": 84,
+   "value": 0.253,
+   "efficiency": 2.06,
+   "negative_rate": 50.327,
+   "availability": 0.96,
+   "hits": [
+    "pff",
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": 2.392658427306366
+  },
+  {
+   "name": "Jameson Williams",
+   "teams": [
+    "DET"
+   ],
+   "snaps": 1420,
+   "snaps_2026": 427,
+   "targets": 146,
+   "pff": 75.6,
+   "value": 0.549,
+   "efficiency": 1.78,
+   "negative_rate": 44.521,
+   "availability": 1,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.06385537440322608
+  },
+  {
+   "name": "Alec Pierce",
+   "teams": [
+    "IND"
+   ],
+   "snaps": 863,
+   "snaps_2026": 49,
+   "targets": 84,
+   "pff": 79.3,
+   "value": 0.664,
+   "efficiency": 1.98,
+   "negative_rate": 46.429,
+   "availability": 0.882,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": -0.39576768589327505
+  },
+  {
+   "name": "Christian Watson",
+   "teams": [
+    "GB"
+   ],
+   "snaps": 876,
+   "snaps_2026": 402,
+   "targets": 121,
+   "pff": 79.1,
+   "value": 0.519,
+   "efficiency": 2.27,
+   "negative_rate": 44.628,
+   "availability": 0.72,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": -1.4026012176866274
+  },
+  {
+   "name": "Parker Washington",
+   "teams": [
+    "JAX"
+   ],
+   "snaps": 1041,
+   "snaps_2026": 329,
+   "targets": 145,
+   "pff": 81.8,
+   "value": 0.355,
+   "efficiency": 1.9,
+   "negative_rate": 48.966,
+   "availability": 0.958,
+   "hits": [
+    "pff",
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.3798133836006934
+  },
+  {
+   "name": "Xavier Hutchinson",
+   "teams": [
+    "HOU"
+   ],
+   "snaps": 250,
+   "snaps_2026": 250,
+   "targets": 97,
+   "pff": 71.4,
+   "value": 0.117,
+   "efficiency": 1.52,
+   "negative_rate": 49.485,
+   "availability": 0.958,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -4.338027363216454
+  },
+  {
+   "name": "DeMario Douglas",
+   "teams": [
+    "NE"
+   ],
+   "snaps": 293,
+   "snaps_2026": 293,
+   "targets": 83,
+   "pff": null,
+   "value": 0.594,
+   "efficiency": null,
+   "negative_rate": 43.373,
+   "availability": 0.96,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.613576115402071
+  },
+  {
+   "name": "Rashee Rice",
+   "teams": [
+    "KC"
+   ],
+   "snaps": 620,
+   "snaps_2026": 205,
+   "targets": 104,
+   "pff": 74.2,
+   "value": 0.216,
+   "efficiency": 1.96,
+   "negative_rate": 47.115,
+   "availability": 0.5,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": -4.459073330438667
+  },
+  {
+   "name": "Tetairoa McMillan",
+   "teams": [
+    "CAR"
+   ],
+   "snaps": 1396,
+   "snaps_2026": 412,
+   "targets": 188,
+   "pff": 78.7,
+   "value": 0.255,
+   "efficiency": 1.72,
+   "negative_rate": 46.809,
+   "availability": 1,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.24218618743882758
+  },
+  {
+   "name": "Jayden Higgins",
+   "teams": [
+    "HOU"
+   ],
+   "snaps": 768,
+   "snaps_2026": 0,
+   "targets": 69,
+   "pff": 70,
+   "value": 0.243,
+   "efficiency": 1.16,
+   "negative_rate": 49.275,
+   "availability": 1,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -4.580233271344207
+  },
+  {
+   "name": "Luther Burden III",
+   "teams": [
+    "CHI"
+   ],
+   "snaps": 852,
+   "snaps_2026": 0,
+   "targets": 107,
+   "pff": 78.5,
+   "value": 0.415,
+   "efficiency": 2.07,
+   "negative_rate": 42.056,
+   "availability": 0.917,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": 0.4129554378088668
+  },
+  {
+   "name": "Antonio Williams",
+   "teams": [
+    "WAS"
+   ],
+   "snaps": 270,
+   "snaps_2026": 270,
+   "targets": 33,
+   "pff": 75.3,
+   "value": 0.311,
+   "efficiency": 1.44,
+   "negative_rate": 45.455,
+   "availability": 1,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -2.2909498330890803
+  },
+  {
+   "name": "KC Concepcion",
+   "teams": [
+    "CLE"
+   ],
+   "snaps": 368,
+   "snaps_2026": 367,
+   "targets": 49,
+   "pff": 69.5,
+   "value": 0.205,
+   "efficiency": 1.43,
+   "negative_rate": 46.939,
+   "availability": 1,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -3.3942697015479606
+  }
+ ],
+ "closest": [
+  {
+   "name": "Tre Tucker",
+   "teams": [
+    "LV"
+   ],
+   "snaps": 362,
+   "snaps_2026": 362,
+   "targets": 140,
+   "pff": null,
+   "value": 0.304,
+   "efficiency": null,
+   "negative_rate": 52.857,
+   "availability": 1,
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": 1.216463969601609
+  },
+  {
+   "name": "Laquon Treadwell",
+   "teams": [
+    "IND"
+   ],
+   "snaps": 401,
+   "snaps_2026": 401,
+   "targets": 28,
+   "pff": null,
+   "value": 0.091,
+   "efficiency": null,
+   "negative_rate": 50,
+   "availability": 1,
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": 1.06676521377291
+  },
+  {
+   "name": "Malachi Fields",
+   "teams": [
+    "NYG"
+   ],
+   "snaps": 370,
+   "snaps_2026": 370,
+   "targets": 30,
+   "pff": null,
+   "value": 0.157,
+   "efficiency": null,
+   "negative_rate": 53.333,
+   "availability": 1,
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": 0.895128797157976
+  },
+  {
+   "name": "Darius Cooper",
+   "teams": [
+    "PHI"
+   ],
+   "snaps": 318,
+   "snaps_2026": 318,
+   "targets": 24,
+   "pff": null,
+   "value": 0.209,
+   "efficiency": null,
+   "negative_rate": 58.333,
+   "availability": 1,
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": 0.5484455760197231
+  },
+  {
+   "name": "Makai Lemon",
+   "teams": [
+    "PHI"
+   ],
+   "snaps": 390,
+   "snaps_2026": 390,
+   "targets": 45,
+   "pff": null,
+   "value": 0.074,
+   "efficiency": null,
+   "negative_rate": 57.778,
+   "availability": 1,
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": 0.34171299231369723
+  },
+  {
+   "name": "Tre Harris",
+   "teams": [
+    "LAC"
+   ],
+   "snaps": 264,
+   "snaps_2026": 264,
+   "targets": 71,
+   "pff": null,
+   "value": 0.334,
+   "efficiency": null,
+   "negative_rate": 47.887,
+   "availability": 0.917,
+   "hits": [
+    "value",
+    "negative_rate"
+   ],
+   "score": -0.26011769217782044
+  },
+  {
+   "name": "Ryan Flournoy",
+   "teams": [
+    "DAL"
+   ],
+   "snaps": 881,
+   "snaps_2026": 402,
+   "targets": 101,
+   "pff": 80.3,
+   "value": 0.43,
+   "efficiency": 1.63,
+   "negative_rate": 46.535,
+   "availability": 0.92,
+   "hits": [
+    "value",
+    "negative_rate"
+   ],
+   "score": -1.1161019549830689
+  },
+  {
+   "name": "Carnell Tate",
+   "teams": [
+    "TEN"
+   ],
+   "snaps": 329,
+   "snaps_2026": 329,
+   "targets": 51,
+   "pff": null,
+   "value": 0.197,
+   "efficiency": null,
+   "negative_rate": 47.059,
+   "availability": 0.875,
+   "hits": [
+    "value",
+    "negative_rate"
+   ],
+   "score": -1.446328962142525
+  }
+ ],
+ "screened": 151,
+ "read_only": true,
+ "rating_changes": [],
+ "authorized_by": "t45s353",
+ "status": "FLAGGED_CROSS_AUDIT_HELD_FOR_COMMISSIONER",
+ "method": "References #10 Justin Jefferson 82 and first-out George Pickens 81 (approved rating order). Rows: nflverse pbp/player stats 2025-26 (EPA/target = value, % targets with negative EPA = negative_rate, games/team games = availability), PFF WR grades 2025-26 top-50 lists (snap-weighted grade = pff, yards per route = efficiency; null when outside the PFF lists), sample = 2026 offense snaps + 2025 PFF offense snaps. evaluateLeagueCeiling (config/ceiling-metrics.json, min_hits 3, >=1 production). Read-only; no rating changed; Madden not an input.",
+ "notes": [
+  "Thresholds are set by the weaker reference on each metric; Jefferson's 2026 (PFF 81.0, EPA/tgt +0.043, YPRR 1.82, 49.7% negative targets) makes them low, so 21 players clear 3 metrics.",
+  "Tyreek Hill: 0 qualifying snaps in the screen (no PFF row, no 2026 snaps), so below the 250 sample; A.J. Brown: 2 hits (value, efficiency missed; PFF 80.9 vs 81.0), not flagged."
+ ]
+}
