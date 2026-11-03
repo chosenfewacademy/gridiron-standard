@@ -1,0 +1,33 @@
+{
+  "version": "weekly-1.0",
+  "authorized_by": "t36u",
+  "applies_to": ["QB"],
+  "baseline": { "QB": "data/baselines/QB.reaudit-20261102.json" },
+  "season": 2026,
+  "evidence_weights": {
+    "_note": "Rolling, season-weighted evidence blend. Weights are for evidence weighting only; ratings remain per-player judgment (no percentile-to-rating formulas).",
+    "last_4_weeks": 0.35,
+    "season_to_date": 0.45,
+    "prior_season": 0.20,
+    "prior_season_fade_per_week": 0.02,
+    "prior_season_floor": 0.05,
+    "single_week_max_share": 0.15,
+    "min_dropbacks_for_week_to_count": 15
+  },
+  "shrinkage": {
+    "_note": "Proposed OVR is pulled toward the locked baseline: proposed = baseline + k*(judged - baseline).",
+    "k_by_weeks_since_baseline": { "1": 0.4, "2": 0.5, "3": 0.6, "4": 0.7, "6": 0.8, "8": 0.9 }
+  },
+  "caps": {
+    "ovr_per_week": 1,
+    "attribute_per_week": 2,
+    "sustained": { "min_consecutive_weeks_same_direction": 3, "ovr_per_week": 2, "attribute_per_week": 4 },
+    "event_override": { "reasons": ["injury", "role_change"], "ovr_per_week": 4, "attribute_per_week": 8, "requires_source_url": true },
+    "ovr_cumulative_vs_baseline_before_full_reaudit": 5
+  },
+  "rank_change_requires_h2h": true,
+  "keep_checks": ["style_rule", "madden_delta_reference", "variance_audit_gap_10_plus", "league_ceiling_check", "h2h_on_rank_order_change"],
+  "ea_ratings_as_evidence": false,
+  "output_dir": "research-inbox/{POS}/WEEKLY_{SEASON}_W{WEEK}",
+  "lock_requires_user_confirmation": true
+}

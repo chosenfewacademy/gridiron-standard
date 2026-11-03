@@ -81,6 +81,7 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
   });
   test("engine: re-audit plans a LOCKED position without mutating state", () => {
     const st = JSON.parse(fs.readFileSync("state/project-state.json", "utf8")); const before = J(st);
+    if (!st.pending_reaudit_queue?.some((x: any) => x.position === "QB" && x.status !== "COMPLETED")) { assert.throws(() => planReaudit(st, "QB"), /no active TOP10_REAUDIT/); assert.equal(J(st), before); return; } // re-audit locked
     const plan = planReaudit(st, "QB");
     assert.match(String(plan.task.task_id), /^QB_REAUDIT_/); assert.equal((plan.task as any).audit_type, "TOP10_REAUDIT");
     if (plan.stage === "pair_audits") { assert.equal((plan.task as any).baseline_controls.locked_baseline.top_10.length, 10); }
@@ -170,7 +171,7 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
   test("engine: v1.1.2 background tasks carry the player calendar subject; amendment players join contention; dossiers are always reviewed", () => {
     const st = JSON.parse(fs.readFileSync("state/project-state.json", "utf8"));
     const item = st.pending_reaudit_queue.find((x: any) => x.position === "QB");
-    if (!item.completed_tasks.includes("QB_REAUDIT_CANDIDATE_AUDIT")) return;
+    if (!item.completed_tasks.includes("QB_REAUDIT_CANDIDATE_AUDIT") || item.status === "COMPLETED") return; // locked: nothing left to plan
     const t: any = planReaudit(st, "QB").task;
     if (t.type === "background_analysis") { assert.ok(t.player_id && t.team); assert(!isPositionWideTask(t)); }
     const ext = t.baseline_controls?.external_controls ?? (t.final_order ?? []).map((x: any) => x.player); // lock stage carries final_order

@@ -146,3 +146,6 @@ No frozen architectural rule was changed.
 
 ## v1.1.2 addendum — league-wide ceiling check (card t35u)
 - Added `src/league-ceiling.ts`, `config/ceiling-metrics.json` (all positions), planner fields on the cross-audit task and a cross-audit validator; any flag blocks cross-audit approval. Read-only; no rating changes. Tests in `tests/stage-tests.ts`; docs in `docs/stage-engine.md` and AGENTS.md.
+
+## v1.1.2 addendum D — weekly in-season update (card t36u)
+- Added `config/weekly-update.json`, `src/weekly-update.ts` (propose scaffold and validator, read-only for state/locks/baselines), `docs/weekly-update.md`, tests in `tests/weekly-update-tests.ts` and the npm scripts `weekly:propose` and `weekly:validate`.

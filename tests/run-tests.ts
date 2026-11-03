@@ -14,6 +14,7 @@ import { runGithubWorkflowTests } from "./github-workflow-tests.js";
 import { runGrokBotTransportTests } from "./grok-bot-transport-tests.js";
 import { runRosterRefreshTests, runStageEngineTests, runCoverageGateTests } from "./stage-tests.js";
 import { runReauditTests } from "./reaudit-tests.js";
+import { runWeeklyUpdateTests } from "./weekly-update-tests.js";
 import { runStrictnessTests, runPositionArchitectureTests } from "./strictness-tests.js";
 
 function test(name: string, fn: () => void): void {
@@ -34,6 +35,7 @@ runGithubWorkflowTests(test);
 await runGrokBotTransportTests(test);
 await runStrictnessTests(test);
 await runReauditTests(test);
+runWeeklyUpdateTests(test);
 const atest = async (name: string, fn: () => void | Promise<void>) => {
   try { await fn(); console.log(`PASS ${name}`); } catch (error) { console.error(`FAIL ${name}`); throw error; }
 };

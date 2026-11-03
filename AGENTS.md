@@ -220,3 +220,11 @@ the commissioner's separate confirmation.
 
 ### Addendum v1.1.2 entry C — league-wide ceiling check (card t35u)
 Before any positional cross-audit is approved, run the league-wide ceiling check (`docs/stage-engine.md`): screen every rostered or free-agent player outside the audited pool with meaningful 2025-26 snaps against #10 and first-out. Any flag means the cross-audit is NOT approved; stop and report to the commissioner. Read-only; never changes a rating.
+
+### Addendum v1.1.2 entry D — weekly in-season update (card t36u, 2026-11-02)
+Weekly QB top-10 updates against `data/baselines/QB.reaudit-20261102.json` follow `config/weekly-update.json` and `docs/weekly-update.md`:
+- Evidence is rolling and season-weighted.
+- Shrinkage pulls ratings toward the baseline.
+- Caps per week: OVR ±1 and attributes ±2. They widen to ±2/±4 when a move is sustained for 3+ weeks, or to ±4/±8 on an injury or role change with a source.
+- Head-to-heads are required on every rank swap. All existing checks still apply.
+- Output is PROPOSED only (`npm run weekly:propose|weekly:validate`). There is no lock without the commissioner's confirmation. v1.0 is unchanged.
