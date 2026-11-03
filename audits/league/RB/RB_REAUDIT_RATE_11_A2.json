@@ -1,0 +1,542 @@
+{
+  "audit_id": "RB_REAUDIT_RATE_11_A2",
+  "task_id": "RB_REAUDIT_RATE_11",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "player_id": "josh_jacobs",
+  "players": [
+    "Josh Jacobs"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "ratings": {
+    "SPD": 79,
+    "ACC": 82,
+    "AGI": 78,
+    "COD": 76,
+    "STR": 86,
+    "AWR": 86,
+    "CAR": 84,
+    "BCV": 82,
+    "BTK": 88,
+    "TRK": 88,
+    "SFA": 88,
+    "SPM": 66,
+    "JKM": 74,
+    "CTH": 72,
+    "CIT": 60,
+    "SRR": 60,
+    "MRR": 52,
+    "DRR": 40,
+    "RLS": 50,
+    "JMP": 78,
+    "INJ": 80,
+    "STA": 84,
+    "TGH": 92
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "LOW",
+    "CAR": "LOW",
+    "BCV": "LOW",
+    "BTK": "LOW",
+    "TRK": "LOW",
+    "SFA": "LOW",
+    "SPM": "LOW",
+    "JKM": "LOW",
+    "CTH": "LOW",
+    "CIT": "LOW",
+    "SRR": "LOW",
+    "MRR": "LOW",
+    "DRR": "LOW",
+    "RLS": "LOW",
+    "JMP": "LOW",
+    "INJ": "LOW",
+    "STA": "LOW",
+    "TGH": "LOW"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample. Revised 80->79: H2H_06, TIEBREAK_06/09 losses: 32 carries at 2.34 ypc in 2026 (sample cap)",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): short-yardage conv and size (220 lb): 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample. Revised 86->84: H2H_06, TIEBREAK_06/09 losses: 32 carries at 2.34 ypc in 2026 (sample cap)",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BCV": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample. Revised 84->82: H2H_06, TIEBREAK_06/09 losses: 32 carries at 2.34 ypc in 2026 (sample cap)",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (contact): RYOE/stuff rate: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TRK": {
+      "basis": "Judgment (power): short-yardage conv and size (220 lb): 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SFA": {
+      "basis": "Judgment (power): short-yardage conv and size (220 lb): 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SPM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JKM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2; routes None. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2; routes None. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2; routes None. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2; routes None. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2; routes None. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2; routes None. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (athletic): size/age 220 lb age 28; explosive plays: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Josh Jacobs 2026 usage: 84 offensive snaps in 2 games (nflverse snap_counts); age 28, 70 in, 220 lb; roster status ACT; 2025: 234 car 929 yds 3.97 ypc 13 TD, EPA/rush -0.063, success 44%, 10+ run rate 10%, RYOE/att -0.0274118869332625, fumbles lost 2, 44 tgt 36 rec 282 rec yds, rec YAC/rec 8.44, 20+ runs 3, stuff rate 17.9%, 3rd/4th-and-<=2 conv 14/26. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Josh Jacobs 2026 usage: 84 offensive snaps in 2 games (nflverse snap_counts); age 28, 70 in, 220 lb; roster status ACT; PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Josh Jacobs 2026 usage: 84 offensive snaps in 2 games (nflverse snap_counts); age 28, 70 in, 220 lb; roster status ACT; PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}. Style: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: Josh Jacobs 2026 usage: 84 offensive snaps in 2 games (nflverse snap_counts); age 28, 70 in, 220 lb; roster status ACT; PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 73,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden. Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample. Revision A2: H2H_06, TIEBREAK_06/09 losses: 32 carries at 2.34 ypc in 2026 (sample cap)",
+  "style_profile": "Josh Jacobs: Physical contact runner and finisher: 2025 PFF 85.8 with strong goal-line/short-yardage volume (14/26), but only 32 carries at 2.34 ypc in 2026 after the exempt list, so ratings lean on 2025 and are capped for sample.",
+  "style_evidence": [
+    "Josh Jacobs (GB) 2026: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2",
+    "Josh Jacobs (GB) 2025: 234 car 929 yds 3.97 ypc 13 TD, EPA/rush -0.063, success 44%, 10+ run rate 10%, RYOE/att -0.0274118869332625, fumbles lost 2, 44 tgt 36 rec 282 rec yds, rec YAC/rec 8.44, 20+ runs 3, stuff rate 17.9%, 3rd/4th-and-<=2 conv 14/26",
+    "Josh Jacobs PFF HB overall 2026 None (rank None), 2025 85.8; 2026 PFF snaps off None, run None, routes None, pass-block None",
+    "Josh Jacobs 2026 usage: 84 offensive snaps in 2 games (nflverse snap_counts); age 28, 70 in, 220 lb; roster status ACT"
+  ],
+  "input_dossier": "RB_REAUDIT_BG_11_A1",
+  "weaknesses": [
+    "2026 sample",
+    "burst",
+    "long speed"
+  ],
+  "madden_reference": [
+    {
+      "player": "Josh Jacobs",
+      "ovr": 88,
+      "attributes": {
+        "SPD": 90,
+        "ACC": 89,
+        "AGI": 85,
+        "COD": 83,
+        "STR": 83,
+        "AWR": 88,
+        "CAR": 94,
+        "BCV": 89,
+        "BTK": 91,
+        "TRK": 89,
+        "SFA": 91,
+        "SPM": 80,
+        "JKM": 88,
+        "CTH": 72,
+        "CIT": 53,
+        "SRR": 62,
+        "MRR": 55,
+        "DRR": 41,
+        "RLS": 51,
+        "JMP": 84,
+        "INJ": 93,
+        "STA": 92,
+        "TGH": 95
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -15,
+      "delta_attributes": {
+        "SPD": -11,
+        "ACC": -7,
+        "AGI": -7,
+        "COD": -7,
+        "STR": 3,
+        "AWR": -2,
+        "CAR": -10,
+        "BCV": -7,
+        "BTK": -3,
+        "TRK": -1,
+        "SFA": -3,
+        "SPM": -14,
+        "JKM": -14,
+        "CTH": 0,
+        "CIT": 7,
+        "SRR": -2,
+        "MRR": -3,
+        "DRR": -1,
+        "RLS": -1,
+        "JMP": -6,
+        "INJ": -13,
+        "STA": -8,
+        "TGH": -3
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RB, retrieved 2026-11-02 ET)"
+    }
+  ],
+  "variance_check": {
+    "ovr_gap": 15,
+    "attribute_gaps_10plus": {
+      "SPD": -11,
+      "CAR": -10,
+      "SPM": -14,
+      "JKM": -14,
+      "INJ": -13
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t41s314",
+  "revision": 2,
+  "supersedes": "RB_REAUDIT_RATE_11_A1",
+  "style_similarity": [
+    {
+      "player": "Bijan Robinson",
+      "audit_id": "RB_REAUDIT_RATE_01_A1",
+      "corr": 0.462,
+      "mad": 13.3,
+      "too_similar": false
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "audit_id": "RB_REAUDIT_RATE_02_A3",
+      "corr": 0.334,
+      "mad": 12.5,
+      "too_similar": false
+    },
+    {
+      "player": "Kenneth Walker III",
+      "audit_id": "RB_REAUDIT_RATE_03_A2",
+      "corr": 0.888,
+      "mad": 6.7,
+      "too_similar": false
+    },
+    {
+      "player": "Jaylen Warren",
+      "audit_id": "RB_REAUDIT_RATE_04_A2",
+      "corr": 0.854,
+      "mad": 7.2,
+      "too_similar": false
+    },
+    {
+      "player": "Bhayshul Tuten",
+      "audit_id": "RB_REAUDIT_RATE_05_A1",
+      "corr": 0.746,
+      "mad": 8.1,
+      "too_similar": false
+    },
+    {
+      "player": "James Cook",
+      "audit_id": "RB_REAUDIT_RATE_06_A1",
+      "corr": 0.487,
+      "mad": 11.4,
+      "too_similar": false
+    },
+    {
+      "player": "Derrick Henry",
+      "audit_id": "RB_REAUDIT_RATE_07_A2",
+      "corr": 0.947,
+      "mad": 6,
+      "too_similar": false
+    },
+    {
+      "player": "Jonathan Taylor",
+      "audit_id": "RB_REAUDIT_RATE_08_A2",
+      "corr": 0.908,
+      "mad": 5.2,
+      "too_similar": false
+    },
+    {
+      "player": "Christian McCaffrey",
+      "audit_id": "RB_REAUDIT_RATE_09_A2",
+      "corr": 0.183,
+      "mad": 13,
+      "too_similar": false
+    },
+    {
+      "player": "Kyren Williams",
+      "audit_id": "RB_REAUDIT_RATE_10_A2",
+      "corr": 0.87,
+      "mad": 5.9,
+      "too_similar": false
+    },
+    {
+      "player": "Tony Pollard",
+      "audit_id": "RB_REAUDIT_RATE_12_A1",
+      "corr": 0.623,
+      "mad": 8.6,
+      "too_similar": false
+    },
+    {
+      "player": "Chuba Hubbard",
+      "audit_id": "RB_REAUDIT_RATE_13_A2",
+      "corr": 0.868,
+      "mad": 5.5,
+      "too_similar": false
+    },
+    {
+      "player": "Braelon Allen",
+      "audit_id": "RB_REAUDIT_RATE_14_A1",
+      "corr": 0.923,
+      "mad": 4.6,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
