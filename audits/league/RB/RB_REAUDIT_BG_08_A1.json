@@ -1,0 +1,162 @@
+{
+  "audit_id": "RB_REAUDIT_BG_08_A1",
+  "task_id": "RB_REAUDIT_BG_08",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "player_id": "jonathan_taylor",
+  "players": [
+    "Jonathan Taylor"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Jonathan Taylor",
+    "player_id": "jonathan_taylor",
+    "team": "IND",
+    "age": 27,
+    "size": {
+      "ht_in": "70",
+      "wt_lb": "226"
+    },
+    "pff": {
+      "2025": {
+        "overall": 78.1
+      },
+      "2026": {
+        "overall": 62.8,
+        "rank": 39,
+        "snaps": {
+          "off": "412",
+          "run": "149",
+          "route": "180",
+          "pblk": "67"
+        }
+      }
+    },
+    "stats_2026": {
+      "car": 148,
+      "ryd": 610,
+      "ypc": 4.12,
+      "td": 8,
+      "epa_rush": -0.059,
+      "succ": 0.399,
+      "expl": 0.122,
+      "fum": 2,
+      "gl": 15,
+      "tgt": 31,
+      "rec": 21,
+      "recyd": 202,
+      "rec_epa": -3.2,
+      "ryoe_att": 0.0186975241390724,
+      "ryoe": 2.72983852430457,
+      "stack8": 18.2432432432432
+    },
+    "stats_2025": {
+      "car": 324,
+      "ryd": 1587,
+      "ypc": 4.9,
+      "td": 18,
+      "epa_rush": 0.058,
+      "succ": 0.444,
+      "expl": 0.111,
+      "fum": 1,
+      "gl": 24,
+      "tgt": 56,
+      "rec": 46,
+      "recyd": 378,
+      "rec_epa": 9.2,
+      "ryoe_att": 0.597979944784815,
+      "ryoe": 190.157622441571,
+      "stack8": 17.6470588235294
+    },
+    "splits_2026": {
+      "rec_yac_per_rec": 11.62,
+      "runs20": 5,
+      "stuff_rate": 0.196,
+      "short_yd": "5/10"
+    },
+    "splits_2025": {
+      "rec_yac_per_rec": 9.43,
+      "runs20": 9,
+      "stuff_rate": 0.151,
+      "short_yd": "13/18"
+    },
+    "usage_2026": {
+      "offensive_snaps": 412,
+      "games": 8
+    },
+    "summary_lines": [
+      "Jonathan Taylor (IND) 2026: 148 car 610 yds 4.12 ypc 8 TD, EPA/rush -0.059, success 40%, 10+ run rate 12%, RYOE/att 0.0186975241390724, fumbles lost 2, 31 tgt 21 rec 202 rec yds, rec YAC/rec 11.62, 20+ runs 5, stuff rate 19.6%, 3rd/4th-and-<=2 conv 5/10",
+      "Jonathan Taylor (IND) 2025: 324 car 1587 yds 4.9 ypc 18 TD, EPA/rush +0.058, success 44%, 10+ run rate 11%, RYOE/att 0.597979944784815, fumbles lost 1, 56 tgt 46 rec 378 rec yds, rec YAC/rec 9.43, 20+ runs 9, stuff rate 15.1%, 3rd/4th-and-<=2 conv 13/18",
+      "Jonathan Taylor PFF HB overall 2026 62.8 (rank 39), 2025 78.1; 2026 PFF snaps off 412, run 149, routes 180, pass-block 67",
+      "Jonathan Taylor 2026 usage: 412 offensive snaps in 8 games (nflverse snap_counts); age 27, 70 in, 226 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF elusive rating, YCO/att and MTF are paywalled; contact/MTF judged from RYOE, stuff rate, success and film-consensus style, not a measured MTF count"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CAR",
+      "BCV",
+      "BTK",
+      "TRK",
+      "SFA",
+      "SPM",
+      "JKM",
+      "CTH",
+      "CIT",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/hb/2026",
+        "retrieved_at": "2026-11-03T08:19:48Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/hb/2025",
+        "retrieved_at": "2026-11-03T08:19:48Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:48Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:48Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:48Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T08:19:48Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T08:19:48Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
