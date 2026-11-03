@@ -1,0 +1,183 @@
+{
+  "audit_id": "TE_REAUDIT_BG_02_A1",
+  "task_id": "TE_REAUDIT_BG_02",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "player_id": "george_kittle",
+  "players": [
+    "George Kittle"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "George Kittle",
+    "player_id": "george_kittle",
+    "team": "SF",
+    "age": 33,
+    "size": {
+      "ht_in": "76",
+      "wt_lb": "250"
+    },
+    "pff": {
+      "2025": {
+        "grade": 90.7,
+        "snaps": {
+          "off": "567",
+          "routes": "309",
+          "pblk": "30",
+          "rblk": "227"
+        }
+      },
+      "2026": {
+        "grade": 79.5,
+        "rank": 3,
+        "snaps": {
+          "off": "331",
+          "routes": "181",
+          "pblk": "20",
+          "rblk": "130"
+        }
+      }
+    },
+    "stats_2026": {
+      "team": "SF",
+      "games": 7,
+      "tgt": 46,
+      "rec": 34,
+      "yds": 425,
+      "td": 5,
+      "epa_tgt": 0.349,
+      "rz_tgt": 11,
+      "adot": 7.7,
+      "sep": 3.25,
+      "yac_oe": 1,
+      "pff": 79.5,
+      "pff_rank": 3,
+      "off": 331,
+      "routes": 181,
+      "pblk": 20,
+      "rblk": 130,
+      "yprr": 2.35,
+      "tprr": 0.254,
+      "block_share": 0.45
+    },
+    "stats_2025": {
+      "team": "SF",
+      "games": 11,
+      "tgt": 69,
+      "rec": 57,
+      "yds": 628,
+      "td": 7,
+      "epa_tgt": 0.671,
+      "rz_tgt": 13,
+      "adot": 6.7,
+      "sep": 3.63,
+      "yac_oe": 0.93,
+      "pff": 90.7,
+      "pff_rank": 1,
+      "off": 567,
+      "routes": 309,
+      "pblk": 30,
+      "rblk": 227,
+      "yprr": 2.03,
+      "tprr": 0.223,
+      "block_share": 0.45
+    },
+    "splits_2026": {
+      "deep_tgt": 3,
+      "deep_catch": 0.33,
+      "deep_epa_tgt": 0.53,
+      "yac_rec": 6.3,
+      "short_catch": 0.82,
+      "rz_tgt": 11,
+      "third_down_conv": "3/7",
+      "fum_lost": 1
+    },
+    "splits_2025": {
+      "deep_tgt": 4,
+      "deep_catch": 0.75,
+      "deep_epa_tgt": 1.56,
+      "yac_rec": 4.4,
+      "short_catch": 0.85,
+      "rz_tgt": 13,
+      "third_down_conv": "11/20",
+      "fum_lost": 0
+    },
+    "usage_2026": {
+      "offensive_snaps": 331,
+      "games": 7
+    },
+    "summary_lines": [
+      "George Kittle (SF) 2026: 7 g, 46 tgt, 34 rec, 425 yds, 5 TD, EPA/tgt 0.349, aDOT 7.7, NGS separation 3.25, YAC over expected 1.0, YPRR 2.35, TPRR 0.254, routes 181; deep (20+ air yds) 3 tgt catch 0.33 EPA/tgt 0.53, short (<10) catch 0.82, YAC/rec 6.3, red-zone tgt 11, 3rd/4th-down conv 3/7, fumbles lost 1",
+      "George Kittle (SF) 2025: 11 g, 69 tgt, 57 rec, 628 yds, 7 TD, EPA/tgt 0.671, aDOT 6.7, NGS separation 3.63, YAC over expected 0.93, YPRR 2.03, TPRR 0.223, routes 309; deep (20+ air yds) 4 tgt catch 0.75 EPA/tgt 1.56, short (<10) catch 0.85, YAC/rec 4.4, red-zone tgt 13, 3rd/4th-down conv 11/20, fumbles lost 0",
+      "George Kittle PFF TE offense grade 2026 79.5 (rank 3), 2025 90.7; 2026 PFF snaps {'off': '331', 'routes': '181', 'pblk': '20', 'rblk': '130'}",
+      "George Kittle 2026 usage: 331 offensive snaps in 7 games (nflverse snap_counts); age 33, 76 in, 250 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF receiving/run-block/pass-block sub-grades are paywalled (PFF+) and inline/slot/wide alignment splits are not public; per commissioner t45s377 blocking traits are judged from PFF overall grade plus PFF run-block/pass-block/route snap counts (block share), with film-consensus style"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "CAR",
+      "BTK",
+      "RBK",
+      "IBL",
+      "PBK",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/te/2026",
+        "retrieved_at": "2026-11-03T21:11:58Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/te/2025",
+        "retrieved_at": "2026-11-03T21:11:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T21:11:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T21:11:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
+        "retrieved_at": "2026-11-03T21:11:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T21:11:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T21:11:58Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
