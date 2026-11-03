@@ -102,7 +102,8 @@
         "QB_REAUDIT_H2H_03",
         "QB_REAUDIT_H2H_04",
         "QB_REAUDIT_H2H_05",
-        "QB_REAUDIT_H2H_06"
+        "QB_REAUDIT_H2H_06",
+        "QB_REAUDIT_TIEBREAK_01"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
@@ -170,7 +171,7 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "QB_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T00:27:42.259Z",
+      "updated_at": "2026-11-03T00:42:29.924Z",
       "last_result": {
         "task_id": "QB_REAUDIT_TIEBREAK_02",
         "status": "FLAGGED",
@@ -182,13 +183,9 @@
       },
       "awaiting": {
         "reason": "TIEBREAK_REVIEW",
-        "task_id": "QB_REAUDIT_TIEBREAK_01",
-        "audit_id": "QB_REAUDIT_TIEBREAK_01_A1",
+        "task_id": "QB_REAUDIT_TIEBREAK_02",
+        "audit_id": "QB_REAUDIT_TIEBREAK_02_A1",
         "pending": [
-          {
-            "task_id": "QB_REAUDIT_TIEBREAK_01",
-            "audit_id": "QB_REAUDIT_TIEBREAK_01_A1"
-          },
           {
             "task_id": "QB_REAUDIT_TIEBREAK_02",
             "audit_id": "QB_REAUDIT_TIEBREAK_02_A1"
@@ -682,6 +679,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T00:25:31Z",
           "note": "Approved by the commissioner on card t31s1 (head-to-head adjustment)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_01",
+          "audit_id": "QB_REAUDIT_TIEBREAK_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:42:29Z",
+          "note": "Approved by the commissioner on card t31s5"
         }
       ]
     },
