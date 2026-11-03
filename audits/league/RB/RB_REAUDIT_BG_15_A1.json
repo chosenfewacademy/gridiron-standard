@@ -1,0 +1,162 @@
+{
+  "audit_id": "RB_REAUDIT_BG_15_A1",
+  "task_id": "RB_REAUDIT_BG_15",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "player_id": "devon_achane",
+  "players": [
+    "De'Von Achane"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "De'Von Achane",
+    "player_id": "devon_achane",
+    "team": "MIA",
+    "age": 25,
+    "size": {
+      "ht_in": "69",
+      "wt_lb": "195"
+    },
+    "pff": {
+      "2025": {
+        "overall": 88.9
+      },
+      "2026": {
+        "overall": null,
+        "rank": "no qualifying 2026 grade (97 snaps)",
+        "snaps": {
+          "off": "97",
+          "run": "n/a",
+          "route": "n/a",
+          "pblk": "n/a"
+        }
+      }
+    },
+    "stats_2026": {
+      "car": 34,
+      "ryd": 127,
+      "ypc": 3.74,
+      "td": 0,
+      "epa_rush": -0.171,
+      "succ": 0.353,
+      "expl": 0.088,
+      "fum": 0,
+      "gl": 1,
+      "tgt": 12,
+      "rec": 7,
+      "recyd": 49,
+      "rec_epa": 0.1,
+      "ryoe_att": null,
+      "ryoe": null,
+      "stack8": null
+    },
+    "stats_2025": {
+      "car": 238,
+      "ryd": 1350,
+      "ypc": 5.67,
+      "td": 8,
+      "epa_rush": 0.059,
+      "succ": 0.382,
+      "expl": 0.168,
+      "fum": 0,
+      "gl": 5,
+      "tgt": 85,
+      "rec": 67,
+      "recyd": 481,
+      "rec_epa": -10.2,
+      "ryoe_att": 1.0363615736243,
+      "ryoe": 243.544969801711,
+      "stack8": 23.109243697479
+    },
+    "splits_2026": {
+      "rec_yac_per_rec": 4.86,
+      "runs20": 0,
+      "stuff_rate": 0.206,
+      "short_yd": "1/2"
+    },
+    "splits_2025": {
+      "rec_yac_per_rec": 8.13,
+      "runs20": 13,
+      "stuff_rate": 0.206,
+      "short_yd": "0/4"
+    },
+    "usage_2026": {
+      "offensive_snaps": 97,
+      "games": 3
+    },
+    "summary_lines": [
+      "De'Von Achane (MIA) 2026: 34 car 127 yds 3.74 ypc 0 TD, EPA/rush -0.171, success 35%, 10+ run rate 9%, RYOE/att None, fumbles lost 0, 12 tgt 7 rec 49 rec yds, rec YAC/rec 4.86, 20+ runs 0, stuff rate 20.6%, 3rd/4th-and-<=2 conv 1/2",
+      "De'Von Achane (MIA) 2025: 238 car 1350 yds 5.67 ypc 8 TD, EPA/rush +0.059, success 38%, 10+ run rate 17%, RYOE/att 1.0363615736243, fumbles lost 0, 85 tgt 67 rec 481 rec yds, rec YAC/rec 8.13, 20+ runs 13, stuff rate 20.6%, 3rd/4th-and-<=2 conv 0/4",
+      "De'Von Achane PFF HB overall 2026 None (rank no qualifying 2026 grade (97 snaps)), 2025 88.9; 2026 PFF snaps off 97, run n/a, routes n/a, pass-block n/a",
+      "De'Von Achane 2026 usage: 97 offensive snaps in 3 games (nflverse snap_counts); age 25, 69 in, 195 lb; roster status RES (IR, torn left ACL Week 3 2026, season-ending)"
+    ],
+    "availability": {
+      "roster_status": "RES (IR, torn left ACL Week 3 2026, season-ending)"
+    },
+    "limitations": [
+      "PFF elusive rating, YCO/att and MTF are paywalled; contact/MTF judged from RYOE, stuff rate, success and film-consensus style, not a measured MTF count"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CAR",
+      "BCV",
+      "BTK",
+      "TRK",
+      "SFA",
+      "SPM",
+      "JKM",
+      "CTH",
+      "CIT",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/hb/2026",
+        "retrieved_at": "2026-11-03T13:45:23Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/hb/2025",
+        "retrieved_at": "2026-11-03T13:45:23Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T13:45:23Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T13:45:23Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "retrieved_at": "2026-11-03T13:45:23Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T13:45:23Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T13:45:23Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
