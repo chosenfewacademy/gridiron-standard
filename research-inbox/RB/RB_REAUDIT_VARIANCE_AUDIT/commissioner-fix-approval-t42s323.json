@@ -1,0 +1,11 @@
+{
+  "record": "Commissioner approval of variance-audit evidence fixes (add-only record)",
+  "approved_by": "PhiXCrypto",
+  "approved_at": "2026-11-03T13:46:00Z",
+  "authorization": "t42s323 (8:46 AM ET Nov 3 2026): approve the Cook and Taylor fixes",
+  "fixes": [
+    {"player": "James Cook", "attr": "BTK", "from": 74, "to": 80, "audit_id": "RB_REAUDIT_RATE_06_A2", "decision": "APPROVED"},
+    {"player": "Jonathan Taylor", "attr": "INJ", "from": 80, "to": 86, "audit_id": "RB_REAUDIT_RATE_08_A3", "decision": "APPROVED"}
+  ],
+  "note": "Both revisions were already applied via reaudit:revise under t41s314/t42u; this records the commissioner's explicit sign-off. OVRs unchanged."
+}
