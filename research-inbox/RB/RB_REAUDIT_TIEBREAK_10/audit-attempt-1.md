@@ -33,9 +33,7 @@
     "proposed_rating_adjustment": null,
     "adjustment_status": null
   },
-  "major_flags": [
-    "PENDING_REVIEW: pair result not approved (prepared under t41s308; commissioner decides)"
-  ],
+  "major_flags": [],
   "locked_control_conflict": false
 }
 ```
