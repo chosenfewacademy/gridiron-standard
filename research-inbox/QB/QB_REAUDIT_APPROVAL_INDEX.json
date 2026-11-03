@@ -1,0 +1,206 @@
+{
+  "kind": "APPROVAL_AUTHORIZATION_INDEX",
+  "position": "QB",
+  "created_under": "card t34s264 (integrity audit t34u follow-up)",
+  "policy": "Add-only. Maps approvals whose notes lack a card id to the commissioner's in-chat authorization. No card ids invented.",
+  "entries": [
+    {
+      "audit_id": "QB_REAUDIT_PROVISIONAL_TOP10_A1",
+      "task_id": "QB_REAUDIT_PROVISIONAL_TOP10",
+      "approved_at_utc": "2026-11-02T13:36:00-05:00",
+      "approved_at_et": "2026-11-02 01:36 PM ET",
+      "recorded_note": "Commissioner approves provisional QB top 10: Burrow, Allen, Purdy, L. Jackson, Prescott, Maye, Goff, Lawrence, Love, Mahomes; first out Cousins",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner approves provisional QB top 10: Burrow, Allen, Purdy, L. Jackson, Prescott, Maye, Goff, Lawrence, Love, Mahomes; first out Cousins",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_PAIR_01_A1",
+      "task_id": "QB_REAUDIT_PAIR_01",
+      "approved_at_utc": "2026-11-02T13:42:00-05:00",
+      "approved_at_et": "2026-11-02 01:42 PM ET",
+      "recorded_note": "Commissioner approves pair 01: Burrow over Allen",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner approves pair 01: Burrow over Allen",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_PAIR_02_A1",
+      "task_id": "QB_REAUDIT_PAIR_02",
+      "approved_at_utc": "2026-11-02T13:53:00-05:00",
+      "approved_at_et": "2026-11-02 01:53 PM ET",
+      "recorded_note": "Commissioner approves pair 02: Purdy over Lamar Jackson",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner approves pair 02: Purdy over Lamar Jackson",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_CANDIDATE_AUDIT_A1",
+      "task_id": "QB_REAUDIT_CANDIDATE_AUDIT",
+      "approved_at_utc": "2026-11-02T19:15:00Z",
+      "approved_at_et": "2026-11-02 02:15 PM ET",
+      "recorded_note": "Commissioner approved candidate audit; Herbert and Darnold re-included via add-only pool amendment QB_POOL_AMEND_01 (17 in contention)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner approved candidate audit; Herbert and Darnold re-included via add-only pool amendment QB_POOL_AMEND_01 (17 in contention)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_01_A1",
+      "task_id": "QB_REAUDIT_BG_01",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_02_A1",
+      "task_id": "QB_REAUDIT_BG_02",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_03_A1",
+      "task_id": "QB_REAUDIT_BG_03",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_04_A1",
+      "task_id": "QB_REAUDIT_BG_04",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_05_A1",
+      "task_id": "QB_REAUDIT_BG_05",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_06_A1",
+      "task_id": "QB_REAUDIT_BG_06",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_07_A1",
+      "task_id": "QB_REAUDIT_BG_07",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_08_A1",
+      "task_id": "QB_REAUDIT_BG_08",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_09_A1",
+      "task_id": "QB_REAUDIT_BG_09",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_10_A1",
+      "task_id": "QB_REAUDIT_BG_10",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_11_A1",
+      "task_id": "QB_REAUDIT_BG_11",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_12_A1",
+      "task_id": "QB_REAUDIT_BG_12",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_13_A1",
+      "task_id": "QB_REAUDIT_BG_13",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_14_A1",
+      "task_id": "QB_REAUDIT_BG_14",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_15_A1",
+      "task_id": "QB_REAUDIT_BG_15",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_16_A1",
+      "task_id": "QB_REAUDIT_BG_16",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_BG_17_A1",
+      "task_id": "QB_REAUDIT_BG_17",
+      "approved_at_utc": "2026-11-02T19:25:00Z",
+      "approved_at_et": "2026-11-02 02:25 PM ET",
+      "recorded_note": "Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner batch approval of all 17 QB background dossiers as reported (2:25 PM ET)",
+      "card_id": "user widget answer in chat, id not recorded"
+    },
+    {
+      "audit_id": "QB_REAUDIT_RATE_01_A1",
+      "task_id": "QB_REAUDIT_RATE_01",
+      "approved_at_utc": "2026-11-02T19:31:00Z",
+      "approved_at_et": "2026-11-02 02:31 PM ET",
+      "recorded_note": "Commissioner approved Burrow OVR 90; ratings may be adjusted during head-to-heads after all are rated",
+      "authorization": "Commissioner (PhiXCrypto) in-chat approval: Commissioner approved Burrow OVR 90; ratings may be adjusted during head-to-heads after all are rated",
+      "card_id": "user widget answer in chat, id not recorded"
+    }
+  ]
+}
