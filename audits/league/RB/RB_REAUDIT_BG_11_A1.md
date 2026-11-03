@@ -1,0 +1,168 @@
+# RB_REAUDIT_BG_11 — Josh Jacobs background dossier (v1.1.2 stage 2)
+
+Auto-run under commissioner approval t41s302.
+
+```json
+{
+  "audit_id": "RB_REAUDIT_BG_11_A1",
+  "task_id": "RB_REAUDIT_BG_11",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "player_id": "josh_jacobs",
+  "players": [
+    "Josh Jacobs"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Josh Jacobs",
+    "player_id": "josh_jacobs",
+    "team": "GB",
+    "age": 28,
+    "size": {
+      "ht_in": "70",
+      "wt_lb": "220"
+    },
+    "pff": {
+      "2026": {
+        "overall": null,
+        "rank": null,
+        "snaps": {
+          "off": null,
+          "run": null,
+          "route": null,
+          "pblk": null
+        }
+      },
+      "2025": {
+        "overall": 85.8
+      }
+    },
+    "stats_2026": {
+      "car": 32,
+      "ryd": 75,
+      "ypc": 2.34,
+      "td": 1,
+      "epa_rush": -0.153,
+      "succ": 0.375,
+      "expl": 0.031,
+      "fum": 0,
+      "gl": 3,
+      "tgt": 13,
+      "rec": 11,
+      "recyd": 68,
+      "rec_epa": 2.7,
+      "ryoe_att": null,
+      "ryoe": null,
+      "stack8": null
+    },
+    "stats_2025": {
+      "car": 234,
+      "ryd": 929,
+      "ypc": 3.97,
+      "td": 13,
+      "epa_rush": -0.063,
+      "succ": 0.436,
+      "expl": 0.098,
+      "fum": 2,
+      "gl": 20,
+      "tgt": 44,
+      "rec": 36,
+      "recyd": 282,
+      "rec_epa": 11.8,
+      "ryoe_att": -0.0274118869332625,
+      "ryoe": -6.33214588158364,
+      "stack8": 17.0940170940171
+    },
+    "splits_2026": {
+      "rec_yac_per_rec": 4.09,
+      "runs20": 0,
+      "stuff_rate": 0.188,
+      "short_yd": "2/2"
+    },
+    "splits_2025": {
+      "rec_yac_per_rec": 8.44,
+      "runs20": 3,
+      "stuff_rate": 0.179,
+      "short_yd": "14/26"
+    },
+    "usage_2026": {
+      "offensive_snaps": 84,
+      "games": 2
+    },
+    "summary_lines": [
+      "Josh Jacobs (GB) 2026: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 11 rec 68 rec yds, rec YAC/rec 4.09, 20+ runs 0, stuff rate 18.8%, 3rd/4th-and-<=2 conv 2/2",
+      "Josh Jacobs (GB) 2025: 234 car 929 yds 3.97 ypc 13 TD, EPA/rush -0.063, success 44%, 10+ run rate 10%, RYOE/att -0.0274118869332625, fumbles lost 2, 44 tgt 36 rec 282 rec yds, rec YAC/rec 8.44, 20+ runs 3, stuff rate 17.9%, 3rd/4th-and-<=2 conv 14/26",
+      "Josh Jacobs PFF HB overall 2026 None (rank None), 2025 85.8; 2026 PFF snaps off None, run None, routes None, pass-block None",
+      "Josh Jacobs 2026 usage: 84 offensive snaps in 2 games (nflverse snap_counts); age 28, 70 in, 220 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF elusive rating, YCO/att and MTF are paywalled; contact/MTF judged from RYOE, stuff rate, success and film-consensus style, not a measured MTF count",
+      "small 2026 sample"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CAR",
+      "BCV",
+      "BTK",
+      "TRK",
+      "SFA",
+      "SPM",
+      "JKM",
+      "CTH",
+      "CIT",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/hb/2026",
+        "retrieved_at": "2026-11-03T08:19:52Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/hb/2025",
+        "retrieved_at": "2026-11-03T08:19:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T08:19:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T08:19:52Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
