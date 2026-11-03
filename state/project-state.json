@@ -1016,7 +1016,7 @@
         "position": "RB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/RB.reaudit.json",
       "baseline_file": "data/baselines/RB.json",
@@ -1086,7 +1086,8 @@
         "RB_REAUDIT_TIEBREAK_19",
         "RB_REAUDIT_TIEBREAK_20",
         "RB_REAUDIT_TIEBREAK_21",
-        "RB_REAUDIT_TIEBREAK_22"
+        "RB_REAUDIT_TIEBREAK_22",
+        "RB_REAUDIT_CROSS_AUDIT"
       ],
       "audit_ids": [
         "RB_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -1168,18 +1169,14 @@
       ],
       "current_stage": "positional_cross_audit",
       "current_task": "RB_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-03T13:51:07.839Z",
+      "updated_at": "2026-11-03T13:51:14.964Z",
       "last_result": {
         "task_id": "RB_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "RB_REAUDIT_CROSS_AUDIT",
-        "audit_id": "RB_REAUDIT_CROSS_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -1794,6 +1791,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T13:49:42Z",
           "note": "Commissioner approval t42s323 (test Achane in the top 10; tiebreaks for the six flagged backs vs Hubbard)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RB_REAUDIT_CROSS_AUDIT",
+          "audit_id": "RB_REAUDIT_CROSS_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T13:51:14Z",
+          "note": "Commissioner approval t42s323 (rerun ceiling; if clean run and approve the cross-audit)"
         }
       ]
     },
