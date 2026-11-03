@@ -79,3 +79,13 @@ H2H_01-06, TB01-13 approved; 11 rating revisions plus 3 evidence fixes applied (
 Variance: 41 gaps of 10+ vs Madden (7 OVR, 34 attribute), all SUPPORTED. Scarcity PASS.
 League ceiling check (refs Hubbard 77 / Henry 76): **7 FLAGGED**. Achane (IR; PFF 88.9, RYOE +1.04, EPA +0.03) is the substantive one. Javonte Williams, Swift, Monangai, Dowdle, Gainwell, and Henderson hit 3+ screens because the EPA reference threshold is low (-0.034).
 The cross-audit has not been submitted and the lock is blocked until the commissioner resolves this.
+
+## Status 2026-11-03 (t42s323)
+Achane was added through RB_POOL_AMEND_01 and rated 82 (RATE_15).
+- Head-to-heads: he lost to CMC (TB14) and to Cook (TB15), and beat Kyren (TB16). He is placed #7.
+- 10+ Madden gaps: INJ 66 (−24, torn ACL), TRK 58 (−11) and RLS 70 (+14), all SUPPORTED.
+
+The six ceiling flags all lost tiebreaks to Hubbard (TB17–22). The ceiling rerun (Taylor 78 / Hubbard 77) flags 0. The cross-audit is approved and the lock dry-run is OK.
+
+Final top 10: Bijan 92, Walker 90, Gibbs 89, Warren 84, CMC 83, Cook 82, Achane 82, Kyren 80, Tuten 79, Taylor 78.
+First out: Hubbard 77, then Henry 76, Allen 75, Pollard 74, Jacobs 73.
