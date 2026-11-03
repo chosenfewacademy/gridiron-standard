@@ -1,0 +1,232 @@
+{
+  "prepared_under": "t41s308",
+  "status": "DRAFT_NOT_APPLIED",
+  "revisions": [
+    {
+      "player": "Kenneth Walker III",
+      "current_ovr": 88,
+      "proposed_ovr": 90,
+      "attribute_changes": {
+        "BCV": "90->92",
+        "AWR": "86->88",
+        "ACC": "92->93"
+      },
+      "reason": "TIEBREAK_01: beats Gibbs on PFF, RYOE, EPA, stuff rate and two-year PFF",
+      "madden_ovr": 95,
+      "delta_vs_madden": -5,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "current_ovr": 90,
+      "proposed_ovr": 89,
+      "attribute_changes": {
+        "CAR": "86->84",
+        "BTK": "76->74"
+      },
+      "reason": "TIEBREAK_01: loses to Walker; higher stuff rate (21.5%) and a fumble, receiving/explosive value keeps him a star",
+      "madden_ovr": 97,
+      "delta_vs_madden": -8,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Jaylen Warren",
+      "current_ovr": 83,
+      "proposed_ovr": 84,
+      "attribute_changes": {
+        "AWR": "86->88",
+        "BCV": "86->88"
+      },
+      "reason": "TIEBREAK_02: beats McCaffrey on PFF, RYOE, volume, pass pro",
+      "madden_ovr": 87,
+      "delta_vs_madden": -3,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Christian McCaffrey",
+      "current_ovr": 84,
+      "proposed_ovr": 83,
+      "attribute_changes": {
+        "ACC": "86->84",
+        "SPD": "84->83"
+      },
+      "reason": "TIEBREAK_02: loses to Warren; 0 runs of 20+, 84 carries, 2025 RYOE -0.54",
+      "madden_ovr": 97,
+      "delta_vs_madden": -14,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Kyren Williams",
+      "current_ovr": 79,
+      "proposed_ovr": 80,
+      "attribute_changes": {
+        "CAR": "76->78",
+        "BCV": "92->93"
+      },
+      "reason": "H2H_05 beats Taylor; TIEBREAK_05 beats Tuten on role, RYOE, short-yardage",
+      "madden_ovr": 90,
+      "delta_vs_madden": -10,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Jonathan Taylor",
+      "current_ovr": 79,
+      "proposed_ovr": 78,
+      "attribute_changes": {
+        "BCV": "84->82"
+      },
+      "reason": "H2H_05 loses to Kyren; TIEBREAK_04 loses to Tuten; TIEBREAK_07 edges Henry",
+      "madden_ovr": 96,
+      "delta_vs_madden": -18,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Derrick Henry",
+      "current_ovr": 80,
+      "proposed_ovr": 77,
+      "attribute_changes": {
+        "ACC": "80->77",
+        "BCV": "88->85",
+        "SPD": "86->84"
+      },
+      "reason": "H2H_04 loses to Tuten; TIEBREAK_03 loses to Cook; TIEBREAK_07 loses to Taylor; 2026 EPA -.113, success 39%",
+      "madden_ovr": 94,
+      "delta_vs_madden": -17,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Chuba Hubbard",
+      "current_ovr": 75,
+      "proposed_ovr": 76,
+      "attribute_changes": {
+        "AWR": "84->86"
+      },
+      "reason": "TIEBREAK_08 beats Pollard; TIEBREAK_10 beats Allen",
+      "madden_ovr": 85,
+      "delta_vs_madden": -9,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Josh Jacobs",
+      "current_ovr": 76,
+      "proposed_ovr": 73,
+      "attribute_changes": {
+        "SPD": "80->79",
+        "BCV": "84->82",
+        "CAR": "86->84"
+      },
+      "reason": "H2H_06 / TIEBREAK_06 / TIEBREAK_09: 32 carries at 2.34 ypc in 2026; sample-capped below Pollard and Allen",
+      "madden_ovr": 88,
+      "delta_vs_madden": -15,
+      "status": "DRAFT_NOT_APPLIED"
+    }
+  ],
+  "proposed_order": [
+    {
+      "rank": 1,
+      "player": "Bijan Robinson",
+      "ours": 92,
+      "madden": 98,
+      "delta": -6
+    },
+    {
+      "rank": 2,
+      "player": "Kenneth Walker III",
+      "ours": 90,
+      "madden": 95,
+      "delta": -5
+    },
+    {
+      "rank": 3,
+      "player": "Jahmyr Gibbs",
+      "ours": 89,
+      "madden": 97,
+      "delta": -8
+    },
+    {
+      "rank": 4,
+      "player": "Jaylen Warren",
+      "ours": 84,
+      "madden": 87,
+      "delta": -3
+    },
+    {
+      "rank": 5,
+      "player": "Christian McCaffrey",
+      "ours": 83,
+      "madden": 97,
+      "delta": -14
+    },
+    {
+      "rank": 6,
+      "player": "James Cook",
+      "ours": 82,
+      "madden": 92,
+      "delta": -10
+    },
+    {
+      "rank": 7,
+      "player": "Kyren Williams",
+      "ours": 80,
+      "madden": 90,
+      "delta": -10
+    },
+    {
+      "rank": 8,
+      "player": "Bhayshul Tuten",
+      "ours": 79,
+      "madden": 81,
+      "delta": -2
+    },
+    {
+      "rank": 9,
+      "player": "Jonathan Taylor",
+      "ours": 78,
+      "madden": 96,
+      "delta": -18
+    },
+    {
+      "rank": 10,
+      "player": "Derrick Henry",
+      "ours": 77,
+      "madden": 94,
+      "delta": -17
+    },
+    {
+      "rank": 11,
+      "player": "Chuba Hubbard",
+      "ours": 76,
+      "madden": 85,
+      "delta": -9
+    },
+    {
+      "rank": 12,
+      "player": "Tony Pollard",
+      "ours": 75,
+      "madden": 85,
+      "delta": -10
+    },
+    {
+      "rank": 13,
+      "player": "Braelon Allen",
+      "ours": 74,
+      "madden": 78,
+      "delta": -4
+    },
+    {
+      "rank": 14,
+      "player": "Josh Jacobs",
+      "ours": 73,
+      "madden": 88,
+      "delta": -15
+    }
+  ],
+  "similarity": {
+    "too_similar_pairs": [],
+    "max_corr": [
+      0.949,
+      "Josh Jacobs",
+      "Derrick Henry"
+    ]
+  }
+}
