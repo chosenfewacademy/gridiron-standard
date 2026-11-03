@@ -1,0 +1,39 @@
+# RB_REAUDIT_TIEBREAK_16 — De'Von Achane vs Kyren Williams (v1.1.2 head-to-head tiebreak; authorized by t42s323)
+
+```json
+{
+  "audit_id": "RB_REAUDIT_TIEBREAK_16_A1",
+  "task_id": "RB_REAUDIT_TIEBREAK_16",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "De'Von Achane",
+    "Kyren Williams"
+  ],
+  "pair_result": {
+    "winner": "De'Von Achane",
+    "loser": "Kyren Williams",
+    "provisional_order_holds": true,
+    "reasoning": "Achane (82) vs #8 Kyren (80). Achane leads 2025 PFF (88.9 vs 85.2), RYOE (+1.04 vs +0.55), 10+ rate (17% vs 10%), 20+ runs (13 vs 6), receiving (481 vs 281 yds, 8.1 vs 4.3 YAC/rec) and ball security (0 vs 2+2 fumbles). Kyren leads success (50% vs 38%), stuff rate, short-yardage (17/30 + 10/12 vs 0/4 + 1/2), pass pro and availability (active vs IR). Achane narrowly on two-year rushing/receiving quality; order holds.",
+    "key_evidence_for_winner": [
+      "De'Von Achane PFF HB overall 2026 None, 2025 88.9; 2026 PFF snaps {'off': '97', 'run': 'n/a', 'route': 'n/a', 'pblk': 'n/a'}; age 25, 195 lb",
+      "De'Von Achane (MIA) 2026: 34 car 3.74 ypc, EPA/rush -0.171, success 35%, 10+ run rate 9%, RYOE/att None, stuff 20.6%, short-yd 1/2, fumbles lost 0, 49 rec yds (rec EPA +0.1), YAC/rec 4.86",
+      "De'Von Achane (MIA) 2025: 238 car 5.67 ypc, EPA/rush +0.059, success 38%, 10+ run rate 17%, RYOE/att 1.04, stuff 20.6%, short-yd 0/4, fumbles lost 0, 481 rec yds (rec EPA -10.2), YAC/rec 8.13"
+    ],
+    "key_evidence_for_loser": [
+      "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+      "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+      "Kyren Williams (LA) 2025: 259 car 4.83 ypc, EPA/rush +0.019, success 50%, 10+ run rate 10%, RYOE/att 0.55, stuff 12.4%, short-yd 17/30, fumbles lost 2, 281 rec yds (rec EPA +8.5), YAC/rec 4.31"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
