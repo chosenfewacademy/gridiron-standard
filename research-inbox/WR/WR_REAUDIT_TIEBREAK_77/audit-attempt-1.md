@@ -1,0 +1,39 @@
+# WR_REAUDIT_TIEBREAK_77 — Tre Harris vs Christian Watson (v1.1.2 head-to-head tiebreak; authorized by t45s359)
+
+```json
+{
+  "audit_id": "WR_REAUDIT_TIEBREAK_77_A1",
+  "task_id": "WR_REAUDIT_TIEBREAK_77",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Tre Harris",
+    "Christian Watson"
+  ],
+  "pair_result": {
+    "winner": "Christian Watson",
+    "loser": "Tre Harris",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling recheck flag (t45s365). Tre Harris: 2025 16 g, 324 yds, 1 TD, EPA/tgt +0.356, PFF outside top 50, YPRR n/a; 2026 6 g, 256 yds, 0 TD, EPA/tgt +0.300, PFF outside top 50, YPRR n/a. Christian Watson: 2025 10 g, 611 yds, 6 TD, EPA/tgt +0.587, PFF 82.7, YPRR 2.06; 2026 8 g, 708 yds, 6 TD, EPA/tgt +0.463, PFF 74.8, YPRR 2.48. Watson's 2026 (708 yds, 6 TD, YPRR 2.48, EPA/tgt +.463) and 2025 (PFF 82.7, YPRR 2.06, EPA/tgt +.587) outweigh; 324/256 yds, 1 TD total. Christian Watson holds.",
+    "key_evidence_for_winner": [
+      "Christian Watson PFF WR grade 2026 74.8, 2025 82.7; 2026 PFF snaps {'off': '403', 'routes': '285', 'rblk': '115'}; age 27, 76 in 215 lb",
+      "Christian Watson (GB) 2026: 8 g 66 tgt 708 yds 6 TD, EPA/tgt 0.463, YPRR 2.48, TPRR 0.232, NGS sep 2.38, aDOT 13.4, deep 13 tgt catch 0.46 EPA/tgt 1.32, short catch 0.69, YAC/rec 4.7, RZ tgt 7, 3rd/4th conv 10/23, fum lost 1",
+      "Christian Watson (GB) 2025: 10 g 55 tgt 611 yds 6 TD, EPA/tgt 0.587, YPRR 2.06, TPRR 0.186, NGS sep 1.97, aDOT 17.8, deep 18 tgt catch 0.44 EPA/tgt 0.7, short catch 0.72, YAC/rec 3.4, RZ tgt 6, 3rd/4th conv 12/21, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Tre Harris PFF WR grade 2026 None, 2025 None; 2026 PFF snaps None; age 24, 75 in 210 lb",
+      "Tre Harris (LAC) 2026: 6 g 28 tgt 256 yds 0 TD, EPA/tgt 0.3, YPRR None, TPRR None, NGS sep 3.09, aDOT 10.8, deep 4 tgt catch 0.5 EPA/tgt 1.26, short catch 0.77, YAC/rec 5.3, RZ tgt 3, 3rd/4th conv 5/11, fum lost 0",
+      "Tre Harris (LAC) 2025: 16 g 43 tgt 324 yds 1 TD, EPA/tgt 0.356, YPRR None, TPRR None, NGS sep None, aDOT 9.3, deep 7 tgt catch 0.29 EPA/tgt 0.26, short catch 0.81, YAC/rec 4.6, RZ tgt 5, 3rd/4th conv 10/15, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
