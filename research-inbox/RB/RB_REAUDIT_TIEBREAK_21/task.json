@@ -1,0 +1,183 @@
+{
+  "type": "pair_audit",
+  "task_id": "RB_REAUDIT_TIEBREAK_21",
+  "players": [
+    "Chuba Hubbard",
+    "Kenny Gainwell"
+  ],
+  "baseline_controls": {
+    "locked_baseline": {
+      "top_10": [
+        {
+          "rank": 1,
+          "player": "Bijan Robinson"
+        },
+        {
+          "rank": 2,
+          "player": "Jahmyr Gibbs"
+        },
+        {
+          "rank": 3,
+          "player": "De'Von Achane"
+        },
+        {
+          "rank": 4,
+          "player": "Kenneth Walker III"
+        },
+        {
+          "rank": 5,
+          "player": "Derrick Henry"
+        },
+        {
+          "rank": 6,
+          "player": "Christian McCaffrey"
+        },
+        {
+          "rank": 7,
+          "player": "James Cook"
+        },
+        {
+          "rank": 8,
+          "player": "Jonathan Taylor"
+        },
+        {
+          "rank": 9,
+          "player": "Josh Jacobs"
+        },
+        {
+          "rank": 10,
+          "player": "Kyren Williams"
+        }
+      ],
+      "external_controls": [
+        {
+          "player": "Breece Hall",
+          "ovr": 84
+        }
+      ]
+    },
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Bijan Robinson",
+        "overall": 92
+      },
+      {
+        "rank": 2,
+        "player": "Jahmyr Gibbs",
+        "overall": 90
+      },
+      {
+        "rank": 3,
+        "player": "Kenneth Walker III",
+        "overall": 88
+      },
+      {
+        "rank": 4,
+        "player": "Christian McCaffrey",
+        "overall": 84
+      },
+      {
+        "rank": 5,
+        "player": "Jaylen Warren",
+        "overall": 83
+      },
+      {
+        "rank": 6,
+        "player": "James Cook",
+        "overall": 82
+      },
+      {
+        "rank": 7,
+        "player": "Derrick Henry",
+        "overall": 80
+      },
+      {
+        "rank": 8,
+        "player": "Bhayshul Tuten",
+        "overall": 79
+      },
+      {
+        "rank": 9,
+        "player": "Jonathan Taylor",
+        "overall": 79
+      },
+      {
+        "rank": 10,
+        "player": "Kyren Williams",
+        "overall": 79
+      }
+    ],
+    "external_controls": [
+      "Josh Jacobs",
+      "Tony Pollard",
+      "Chuba Hubbard",
+      "Braelon Allen"
+    ]
+  },
+  "position": "RB",
+  "stage": "pair_audits",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 2,
+    "group": "Offense",
+    "current_status": "LOCKED",
+    "pff_cited_inputs": [
+      "overall",
+      "rushing",
+      "receiving",
+      "pass blocking",
+      "elusive rating",
+      "yards after contact/att",
+      "missed tackles forced"
+    ],
+    "position_stats": [
+      "carries, yards, YPC, TD",
+      "fumbles",
+      "targets, receptions, yards"
+    ],
+    "usage_snap_metrics": [
+      "snap share",
+      "carry share",
+      "route participation",
+      "goal-line share"
+    ],
+    "on_field_impact": [
+      "rush EPA",
+      "rush yards over expected (NGS RYOE)",
+      "explosive run rate"
+    ],
+    "madden_attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "BCV",
+      "CAR",
+      "BTK",
+      "TRK",
+      "ELU",
+      "SPM",
+      "JKM",
+      "SFA",
+      "CTH",
+      "SRR",
+      "PBK",
+      "AWR"
+    ],
+    "note": ""
+  },
+  "tiebreak": true,
+  "note": "Add-only tiebreak for an untested adjacent tie/close call (authorized by t42s323)."
+}
