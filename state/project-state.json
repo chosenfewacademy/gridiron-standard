@@ -145,22 +145,21 @@
         "QB_REAUDIT_RATE_10_A2",
         "QB_REAUDIT_RATE_11_A2",
         "QB_REAUDIT_RATE_12_A2",
-        "QB_REAUDIT_RATE_13_A2"
+        "QB_REAUDIT_RATE_13_A2",
+        "QB_REAUDIT_RATE_14_A2"
       ],
       "current_stage": "player_rating",
       "current_task": "QB_REAUDIT_RATE_17",
-      "updated_at": "2026-11-03T00:01:23.527Z",
+      "updated_at": "2026-11-03T00:01:37.413Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_RATE_13",
+        "task_id": "QB_REAUDIT_RATE_14",
         "status": "REVISION_APPROVED",
-        "audit_id": "QB_REAUDIT_RATE_13_A2",
-        "supersedes": "QB_REAUDIT_RATE_13_A1",
+        "audit_id": "QB_REAUDIT_RATE_14_A2",
+        "supersedes": "QB_REAUDIT_RATE_14_A1",
         "flags": [
           "REVISION_A2_T30S3: per-player judgment replaces formula A1",
           "JMP_NO_EVIDENCE: neutral 70 LOW",
-          "ELITE_TRAIT_PROPOSED: STA 90",
-          "SEASON_SPLIT: PFF 92.0 (2025) vs 66.8 (2026)",
-          "LARGE_MADDEN_GAP: OVR 82 vs Madden 98 (reference only)"
+          "AVAILABILITY_2025: 10/17 games"
         ]
       },
       "awaiting": null,
@@ -539,6 +538,15 @@
           "supersedes": "QB_REAUDIT_RATE_13_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T00:01:23Z",
+          "note": "Automatic approval under t30u and t30s3 (user: redo formula ratings by per-player judgment); supersedes the formula A1; rating may be adjusted during the head-to-heads"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_14",
+          "audit_id": "QB_REAUDIT_RATE_14_A2",
+          "supersedes": "QB_REAUDIT_RATE_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:01:37Z",
           "note": "Automatic approval under t30u and t30s3 (user: redo formula ratings by per-player judgment); supersedes the formula A1; rating may be adjusted during the head-to-heads"
         }
       ]

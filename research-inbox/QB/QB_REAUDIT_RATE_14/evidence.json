@@ -92,6 +92,27 @@
       "claims": [
         "Kirk Cousins 2025: 10/17 team games, 271 att, aDOT 7.0, EPA/dropback -0.02, CPOE -2.8; deep (20+) 9.3% of att, 16.0% cmp, EPA -0.24; 10-19 yds 47.6% EPA +0.26; <10 yds 72.9%; hit 35.5% EPA -0.16 (n=31) vs clean 64.6%; sack rate 4.6%; 2 scrambles 8 yds, 6 designed runs 9 yds, 1 rush TD; 10 TD/5 INT; 1 fumbles lost"
       ]
+    },
+    {
+      "name": "nflverse FTN charting 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Kirk Cousins 2026 FTN charting (regular season): 296 dropbacks; play-action 20.6% EPA +0.28 vs non-PA +0.14; out of pocket 8.4% EPA +0.07, cmp 52.0%; vs blitz EPA +0.05 (n=78); interception-worthy 2.5% of attempts; QB-fault sacks 4 of 11",
+        "No jumping / elevated-throw measure exists in FTN charting, nflverse play-by-play, or PFF season grades"
+      ]
+    },
+    {
+      "name": "nflverse FTN charting 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Kirk Cousins 2025 FTN charting (regular season): 281 dropbacks; play-action 22.4% EPA +0.28 vs non-PA -0.11; out of pocket 5.0% EPA -0.24, cmp 42.9%; vs blitz EPA +0.06 (n=85); interception-worthy 1.5% of attempts; QB-fault sacks 5 of 13"
+      ]
     }
   ],
   "normalized": {

@@ -24,6 +24,11 @@
       "query": "nflverse play_by_play 2026/2025: Kirk Cousins depth splits, hit/clean, sack rate, scrambles vs designed runs (rating + style evidence)",
       "executed_at": "2026-11-02T19:32:59Z",
       "purpose": "EVIDENCE"
+    },
+    {
+      "query": "nflverse ftn_charting 2026/2025: Kirk Cousins play-action, out-of-pocket, blitz, interception-worthy, QB-fault sacks; search for jumping evidence",
+      "executed_at": "2026-11-02T23:54:32Z",
+      "purpose": "EVIDENCE"
     }
   ],
   "retrievals": [
@@ -85,6 +90,16 @@
     {
       "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
       "retrieved_at": "2026-11-02T19:32:59Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
       "method": "DETERMINISTIC_HELPER"
     }
   ],
