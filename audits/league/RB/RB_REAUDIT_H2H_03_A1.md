@@ -1,0 +1,41 @@
+# RB_REAUDIT_H2H_03 — Jaylen Warren vs James Cook (v1.1.2 head-to-head; prepared under t41s308, NOT approved)
+
+```json
+{
+  "audit_id": "RB_REAUDIT_H2H_03_A1",
+  "task_id": "RB_REAUDIT_H2H_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jaylen Warren",
+    "James Cook"
+  ],
+  "pair_result": {
+    "winner": "Jaylen Warren",
+    "loser": "James Cook",
+    "provisional_order_holds": true,
+    "reasoning": "Warren leads 2026 PFF (87.3 vs 64.8), RYOE/att (+1.93 vs +0.78), EPA/rush (+.128 vs +.054), ypc (5.92 vs 5.12), receiving (294 vs 110 yds), fumbles (0 vs 2) and pass pro (67 vs 29 PBLK snaps). Cook leads success (51% vs 48%), explosive rate (17% vs 13%) and 2025 production (309 car, RYOE +1.13). Order holds.",
+    "key_evidence_for_winner": [
+      "Jaylen Warren PFF HB overall 2026 87.3, 2025 81.0; 2026 PFF snaps {'off': '385', 'run': '120', 'route': '188', 'pblk': '67'}; age 28, 215 lb",
+      "Jaylen Warren (PIT) 2026: 119 car 5.92 ypc, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93, stuff 15.1%, short-yd 8/9, fumbles lost 0, 294 rec yds (rec EPA -1.1), YAC/rec 13.84",
+      "Jaylen Warren (PIT) 2025: 211 car 4.54 ypc, EPA/rush -0.002, success 43%, 10+ run rate 11%, RYOE/att 0.8, stuff 14.7%, short-yd 12/15, fumbles lost 0, 333 rec yds (rec EPA +10.6), YAC/rec 10.97"
+    ],
+    "key_evidence_for_loser": [
+      "James Cook PFF HB overall 2026 64.8, 2025 80.4; 2026 PFF snaps {'off': '304', 'run': '143', 'route': '108', 'pblk': '29'}; age 27, 190 lb",
+      "James Cook (BUF) 2026: 138 car 5.12 ypc, EPA/rush +0.054, success 51%, 10+ run rate 17%, RYOE/att 0.78, stuff 10.1%, short-yd 2/2, fumbles lost 2, 110 rec yds (rec EPA +4.2), YAC/rec 9.5",
+      "James Cook (BUF) 2025: 309 car 5.25 ypc, EPA/rush +0.018, success 46%, 10+ run rate 13%, RYOE/att 1.13, stuff 10.7%, short-yd 5/12, fumbles lost 3, 291 rec yds (rec EPA +8.7), YAC/rec 8.24"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "PENDING_REVIEW: pair result not approved (prepared under t41s308; commissioner decides)"
+  ],
+  "locked_control_conflict": false
+}
+```
