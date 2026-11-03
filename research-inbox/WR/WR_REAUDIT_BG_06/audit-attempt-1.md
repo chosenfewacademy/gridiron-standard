@@ -1,0 +1,177 @@
+# WR_REAUDIT_BG_06 — Drake London background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t45u.
+
+```json
+{
+  "audit_id": "WR_REAUDIT_BG_06_A1",
+  "task_id": "WR_REAUDIT_BG_06",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "player_id": "drake_london",
+  "players": [
+    "Drake London"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Drake London",
+    "player_id": "drake_london",
+    "team": "ATL",
+    "age": 25,
+    "size": {
+      "ht_in": "76",
+      "wt_lb": "215"
+    },
+    "pff": {
+      "2026": {
+        "grade": 86.0,
+        "rank": 9,
+        "snaps": {
+          "off": "442",
+          "routes": "243",
+          "rblk": "197"
+        }
+      },
+      "2025": {
+        "grade": 88.0,
+        "snaps": {
+          "off": "709",
+          "routes": "417",
+          "rblk": "288"
+        }
+      }
+    },
+    "stats_2026": {
+      "team": "ATL",
+      "games": 8,
+      "tgt": 63,
+      "rec": 39,
+      "yds": 624,
+      "td": 1,
+      "epa_tgt": 0.394,
+      "epa": 24.8,
+      "adot": 10.0,
+      "sep": 3.01,
+      "yac_oe": 1.57,
+      "pff": 86.0,
+      "pff_rank": 9,
+      "routes": 243,
+      "yprr": 2.57,
+      "tprr": 0.259
+    },
+    "stats_2025": {
+      "team": "ATL",
+      "games": 12,
+      "tgt": 113,
+      "rec": 68,
+      "yds": 919,
+      "td": 7,
+      "epa_tgt": 0.219,
+      "epa": 24.8,
+      "adot": 10.9,
+      "sep": 2.63,
+      "yac_oe": 0.64,
+      "pff": 88.0,
+      "pff_rank": 5,
+      "routes": 417,
+      "yprr": 2.2,
+      "tprr": 0.271
+    },
+    "splits_2026": {
+      "deep_tgt": 7,
+      "deep_catch": 0.43,
+      "deep_epa_tgt": 1.03,
+      "yac_rec": 7.1,
+      "short_catch": 0.7,
+      "rz_tgt": 5,
+      "third_down_conv": "12/25",
+      "fum_lost": 0
+    },
+    "splits_2025": {
+      "deep_tgt": 17,
+      "deep_catch": 0.41,
+      "deep_epa_tgt": 0.36,
+      "yac_rec": 3.4,
+      "short_catch": 0.66,
+      "rz_tgt": 16,
+      "third_down_conv": "12/34",
+      "fum_lost": 1
+    },
+    "usage_2026": {
+      "offensive_snaps": 443,
+      "games": 8
+    },
+    "summary_lines": [
+      "Drake London (ATL) 2026: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0",
+      "Drake London (ATL) 2025: 12 g, 113 tgt, 68 rec, 919 yds, 7 TD, EPA/tgt 0.219, aDOT 10.9, NGS separation 2.63, YAC over expected 0.64, YPRR 2.2, TPRR 0.271, routes 417; deep (20+ air yds) 17 tgt catch 0.41 EPA/tgt 0.36, short (<10) catch 0.66, YAC/rec 3.4, red-zone tgt 16, 3rd/4th-down conv 12/34, fumbles lost 1",
+      "Drake London PFF WR offense grade 2026 86.0 (rank 9), 2025 88.0; 2026 PFF snaps {'off': '442', 'routes': '243', 'rblk': '197'}",
+      "Drake London 2026 usage: 443 offensive snaps in 8 games (nflverse snap_counts); age 25, 76 in, 215 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF drop rate, contested-catch rate and man/zone splits are paywalled; hands/contested traits judged from catch rates by depth, red-zone results and film-consensus style"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "CAR",
+      "BTK",
+      "SPM",
+      "JKM",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/wr/2026",
+        "retrieved_at": "2026-11-03T14:51:36Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/wr/2025",
+        "retrieved_at": "2026-11-03T14:51:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T14:51:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T14:51:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
+        "retrieved_at": "2026-11-03T14:51:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T14:51:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T14:51:36Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
