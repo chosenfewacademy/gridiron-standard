@@ -8,10 +8,10 @@
     "Jaylen Warren",
     "Christian McCaffrey",
     "James Cook",
+    "De'Von Achane",
     "Kyren Williams",
     "Bhayshul Tuten",
-    "Jonathan Taylor",
-    "Chuba Hubbard"
+    "Jonathan Taylor"
   ],
   "baseline_controls": {
     "locked_baseline": {
@@ -97,26 +97,27 @@
       },
       {
         "rank": 7,
+        "player": "De'Von Achane",
+        "overall": 82
+      },
+      {
+        "rank": 8,
         "player": "Kyren Williams",
         "overall": 80
       },
       {
-        "rank": 8,
+        "rank": 9,
         "player": "Bhayshul Tuten",
         "overall": 79
       },
       {
-        "rank": 9,
+        "rank": 10,
         "player": "Jonathan Taylor",
         "overall": 78
-      },
-      {
-        "rank": 10,
-        "player": "Chuba Hubbard",
-        "overall": 77
       }
     ],
     "external_controls": [
+      "Chuba Hubbard",
       "Derrick Henry",
       "Braelon Allen",
       "Tony Pollard",
@@ -126,12 +127,12 @@
   "league_ceiling_check_required": true,
   "ceiling_references": [
     {
-      "player": "Chuba Hubbard",
-      "ovr": 77
+      "player": "Jonathan Taylor",
+      "ovr": 78
     },
     {
-      "player": "Derrick Henry",
-      "ovr": 76
+      "player": "Chuba Hubbard",
+      "ovr": 77
     }
   ],
   "ceiling_config": {

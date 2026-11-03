@@ -1,0 +1,205 @@
+{
+ "raw_flags_before_resolution": [
+  {
+   "name": "Rico Dowdle",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ]
+  },
+  {
+   "name": "D'Andre Swift",
+   "hits": [
+    "pff",
+    "value",
+    "negative_rate",
+    "availability"
+   ]
+  },
+  {
+   "name": "Kenny Gainwell",
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ]
+  },
+  {
+   "name": "Javonte Williams",
+   "hits": [
+    "pff",
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ]
+  },
+  {
+   "name": "Kyle Monangai",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ]
+  },
+  {
+   "name": "TreVeyon Henderson",
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ]
+  }
+ ],
+ "position": "RB",
+ "references": [
+  {
+   "name": "Jonathan Taylor",
+   "teams": [
+    "IND"
+   ],
+   "snaps": 558,
+   "snaps_2026": 412,
+   "opportunities": 558,
+   "carries": 472,
+   "pff": 73.3,
+   "value": 0.021,
+   "efficiency": 0.416,
+   "negative_rate": 16.525,
+   "availability": 1,
+   "player": "Jonathan Taylor",
+   "ovr": 78
+  },
+  {
+   "name": "Chuba Hubbard",
+   "teams": [
+    "CAR"
+   ],
+   "snaps": 394,
+   "snaps_2026": 394,
+   "opportunities": 319,
+   "carries": 254,
+   "pff": 76.6,
+   "value": -0.034,
+   "efficiency": 0.239,
+   "negative_rate": 11.811,
+   "availability": 0.917,
+   "player": "Chuba Hubbard",
+   "ovr": 77
+  }
+ ],
+ "thresholds": {
+  "pff": 73.3,
+  "value": -0.034,
+  "efficiency": 0.239,
+  "negative_rate": 16.525,
+  "availability": 0.917
+ },
+ "flagged": [],
+ "closest": [
+  {
+   "name": "Chase Brown",
+   "teams": [
+    "CIN"
+   ],
+   "snaps": 457,
+   "snaps_2026": 318,
+   "opportunities": 457,
+   "carries": 327,
+   "pff": 72.9,
+   "value": -0.061,
+   "efficiency": 0.133,
+   "negative_rate": 13.15,
+   "availability": 1,
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.5049612133502194
+  },
+  {
+   "name": "Rhamondre Stevenson",
+   "teams": [
+    "NE"
+   ],
+   "snaps": 340,
+   "snaps_2026": 340,
+   "opportunities": 291,
+   "carries": 227,
+   "pff": 77.5,
+   "value": -0.103,
+   "efficiency": 0.842,
+   "negative_rate": 18.943,
+   "availability": 0.88,
+   "hits": [
+    "pff",
+    "efficiency"
+   ],
+   "score": -0.21326876526819377
+  },
+  {
+   "name": "Jacory Croskey-Merritt",
+   "teams": [
+    "WAS"
+   ],
+   "snaps": 263,
+   "snaps_2026": 150,
+   "opportunities": 263,
+   "carries": 243,
+   "pff": 68.7,
+   "value": -0.054,
+   "efficiency": 0.458,
+   "negative_rate": 17.695,
+   "availability": 0.917,
+   "hits": [
+    "efficiency",
+    "availability"
+   ],
+   "score": -1.00577261799154
+  },
+  {
+   "name": "J.K. Dobbins",
+   "teams": [
+    "DEN"
+   ],
+   "snaps": 270,
+   "snaps_2026": 187,
+   "opportunities": 270,
+   "carries": 247,
+   "pff": 76.8,
+   "value": -0.057,
+   "efficiency": 0.238,
+   "negative_rate": 15.789,
+   "availability": 0.72,
+   "hits": [
+    "pff",
+    "negative_rate"
+   ],
+   "score": -1.6411948370132206
+  },
+  {
+   "name": "Breece Hall",
+   "teams": [
+    "NYJ"
+   ],
+   "snaps": 352,
+   "snaps_2026": 119,
+   "opportunities": 352,
+   "carries": 294,
+   "pff": 80.1,
+   "value": -0.106,
+   "efficiency": 0.44,
+   "negative_rate": 19.728,
+   "availability": 0.76,
+   "hits": [
+    "pff",
+    "efficiency"
+   ],
+   "score": -1.8801225962979484
+  }
+ ],
+ "screened": 86,
+ "read_only": true,
+ "rating_changes": []
+}
