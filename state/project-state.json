@@ -1810,7 +1810,7 @@
         "position": "WR",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/WR.reaudit.json",
       "baseline_file": "data/baselines/WR.json",
@@ -1938,7 +1938,8 @@
         "WR_REAUDIT_TIEBREAK_74",
         "WR_REAUDIT_TIEBREAK_75",
         "WR_REAUDIT_TIEBREAK_76",
-        "WR_REAUDIT_TIEBREAK_77"
+        "WR_REAUDIT_TIEBREAK_77",
+        "WR_REAUDIT_TIEBREAK_78"
       ],
       "audit_ids": [
         "WR_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -2077,7 +2078,7 @@
       ],
       "current_stage": "player_rating",
       "current_task": "WR_REAUDIT_RATE_17",
-      "updated_at": "2026-11-03T15:46:47.857Z",
+      "updated_at": "2026-11-03T15:46:48.109Z",
       "last_result": {
         "task_id": "WR_REAUDIT_TIEBREAK_78",
         "status": "FLAGGED",
@@ -2085,17 +2086,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "WR_REAUDIT_TIEBREAK_78",
-        "audit_id": "WR_REAUDIT_TIEBREAK_78_A1",
-        "pending": [
-          {
-            "task_id": "WR_REAUDIT_TIEBREAK_78",
-            "audit_id": "WR_REAUDIT_TIEBREAK_78_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -3162,6 +3153,14 @@
           "decision": "APPROVED",
           "task_id": "WR_REAUDIT_TIEBREAK_77",
           "audit_id": "WR_REAUDIT_TIEBREAK_77_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T15:46:47Z",
+          "note": "Commissioner approval t45s365 (tiebreaks for the 12 new ceiling flags vs Jefferson and Watson)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_78",
+          "audit_id": "WR_REAUDIT_TIEBREAK_78_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T15:46:47Z",
           "note": "Commissioner approval t45s365 (tiebreaks for the 12 new ceiling flags vs Jefferson and Watson)"
