@@ -1810,7 +1810,7 @@
         "position": "WR",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/WR.reaudit.json",
       "baseline_file": "data/baselines/WR.json",
@@ -1866,7 +1866,8 @@
         "WR_REAUDIT_TIEBREAK_01",
         "WR_REAUDIT_TIEBREAK_02",
         "WR_REAUDIT_TIEBREAK_03",
-        "WR_REAUDIT_TIEBREAK_05"
+        "WR_REAUDIT_TIEBREAK_05",
+        "WR_REAUDIT_TIEBREAK_06"
       ],
       "audit_ids": [
         "WR_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -1920,7 +1921,7 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "WR_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T15:17:25.904Z",
+      "updated_at": "2026-11-03T15:17:26.147Z",
       "last_result": {
         "task_id": "WR_REAUDIT_TIEBREAK_06",
         "status": "FLAGGED",
@@ -1928,17 +1929,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "WR_REAUDIT_TIEBREAK_06",
-        "audit_id": "WR_REAUDIT_TIEBREAK_06_A1",
-        "pending": [
-          {
-            "task_id": "WR_REAUDIT_TIEBREAK_06",
-            "audit_id": "WR_REAUDIT_TIEBREAK_06_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -2312,6 +2303,14 @@
           "decision": "APPROVED",
           "task_id": "WR_REAUDIT_TIEBREAK_05",
           "audit_id": "WR_REAUDIT_TIEBREAK_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T15:17:25Z",
+          "note": "Commissioner approval t45s353 (approve all 11 WR head-to-heads, 6 tiebreaks and 8 rating changes)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_06",
+          "audit_id": "WR_REAUDIT_TIEBREAK_06_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T15:17:25Z",
           "note": "Commissioner approval t45s353 (approve all 11 WR head-to-heads, 6 tiebreaks and 8 rating changes)"
