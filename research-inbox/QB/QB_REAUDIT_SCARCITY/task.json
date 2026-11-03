@@ -8,9 +8,9 @@
     "Drake Maye",
     "Dak Prescott",
     "Jared Goff",
-    "Lamar Jackson",
     "Jordan Love",
     "Matthew Stafford",
+    "Lamar Jackson",
     "Trevor Lawrence"
   ],
   "baseline_controls": {
@@ -105,18 +105,18 @@
       },
       {
         "rank": 7,
-        "player": "Lamar Jackson",
-        "overall": 84
-      },
-      {
-        "rank": 8,
         "player": "Jordan Love",
         "overall": 83
       },
       {
-        "rank": 9,
+        "rank": 8,
         "player": "Matthew Stafford",
         "overall": 83
+      },
+      {
+        "rank": 9,
+        "player": "Lamar Jackson",
+        "overall": 82
       },
       {
         "rank": 10,

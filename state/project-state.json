@@ -111,7 +111,8 @@
         "QB_REAUDIT_VARIANCE_AUDIT",
         "QB_REAUDIT_TIEBREAK_06",
         "QB_REAUDIT_TIEBREAK_07",
-        "QB_REAUDIT_TIEBREAK_08"
+        "QB_REAUDIT_TIEBREAK_08",
+        "QB_REAUDIT_SCARCITY"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
@@ -195,19 +196,17 @@
         "QB_REAUDIT_RATE_05_A3",
         "QB_REAUDIT_TIEBREAK_06_A1",
         "QB_REAUDIT_TIEBREAK_07_A1",
-        "QB_REAUDIT_TIEBREAK_08_A1"
+        "QB_REAUDIT_TIEBREAK_08_A1",
+        "QB_REAUDIT_SCARCITY_A1"
       ],
-      "current_stage": "variance_audit",
-      "current_task": "QB_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-03T01:08:27.909Z",
+      "current_stage": "scarcity_audit",
+      "current_task": "QB_REAUDIT_SCARCITY",
+      "updated_at": "2026-11-03T01:12:39.274Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_TIEBREAK_08",
-        "status": "FLAGGED",
-        "flags": [
-          "PENDING_REVIEW: tiebreak result not approved (card t34s264)",
-          "TIE_BREAK: tied overall broken by contention order; pair verdict decides",
-          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "task_id": "QB_REAUDIT_SCARCITY",
+        "status": "VALIDATED",
+        "errors": [],
+        "flags": []
       },
       "awaiting": null,
       "approvals": [
@@ -886,6 +885,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T01:08:27Z",
           "note": "Approved by the commissioner on card t34s264 (evidence-based verdict; any rating change proposed only, not applied)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_SCARCITY",
+          "audit_id": "QB_REAUDIT_SCARCITY_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T01:12:39Z",
+          "note": "Approved by the commissioner on card t34s264 (scarcity clean: 11 sourced 90+ traits, no 95+, one 90 overall, style rule 0/136)"
         }
       ]
     },

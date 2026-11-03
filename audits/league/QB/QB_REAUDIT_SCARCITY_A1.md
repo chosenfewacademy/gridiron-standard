@@ -1,0 +1,243 @@
+# QB_REAUDIT_SCARCITY (Grok Bot analyst, attempt 1)
+
+EA ratings not used.
+
+```json
+{
+  "audit_id": "QB_REAUDIT_SCARCITY_A1",
+  "task_id": "QB_REAUDIT_SCARCITY",
+  "task_type": "scarcity_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Joe Burrow",
+    "Josh Allen",
+    "Brock Purdy",
+    "Drake Maye",
+    "Dak Prescott",
+    "Jared Goff",
+    "Jordan Love",
+    "Matthew Stafford",
+    "Lamar Jackson",
+    "Trevor Lawrence"
+  ],
+  "scarcity": {
+    "rules": "config/scarcity-rules.json (90+ elite, 95+ rare, 97+ extraordinary, 99 historic)",
+    "traits_90_plus": [
+      {
+        "player": "Joe Burrow",
+        "attr": "AWR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Joe Burrow",
+        "attr": "SAC",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Joe Burrow",
+        "attr": "MAC",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Lamar Jackson",
+        "attr": "SPD",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Lamar Jackson",
+        "attr": "ACC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Lamar Jackson",
+        "attr": "AGI",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Dak Prescott",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Josh Allen",
+        "attr": "STR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Jared Goff",
+        "attr": "PAC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 2
+      },
+      {
+        "player": "Drake Maye",
+        "attr": "SAC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Matthew Stafford",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      }
+    ],
+    "count_90_plus": 11,
+    "count_95_plus": 0,
+    "count_97_plus": 0,
+    "count_99": 0,
+    "max_trait": "Joe Burrow SAC 93",
+    "all_90_plus_have_elite_sourced_high_confidence": true,
+    "overall_90_plus": [
+      "Joe Burrow 90"
+    ],
+    "overall_spread": "90 to 75 across 17 contention QBs (top 10: 90 to 82)",
+    "style_rule": {
+      "pairs_checked": 136,
+      "too_similar": 0,
+      "closest": [
+        [
+          "Josh Allen",
+          "Drake Maye",
+          0.584,
+          3.1,
+          false
+        ],
+        [
+          "Dak Prescott",
+          "Jordan Love",
+          0.84,
+          3.2,
+          false
+        ],
+        [
+          "Drake Maye",
+          "Trevor Lawrence",
+          0.768,
+          3.2,
+          false
+        ]
+      ],
+      "highest_corr": [
+        "Matthew Stafford",
+        "Kirk Cousins",
+        0.945,
+        3.9,
+        false
+      ]
+    },
+    "effective_ratings": {
+      "Joe Burrow": [
+        "QB_REAUDIT_RATE_01_A2",
+        90
+      ],
+      "Lamar Jackson": [
+        "QB_REAUDIT_RATE_02_A6",
+        82
+      ],
+      "Dak Prescott": [
+        "QB_REAUDIT_RATE_03_A2",
+        85
+      ],
+      "Brock Purdy": [
+        "QB_REAUDIT_RATE_04_A2",
+        86
+      ],
+      "Josh Allen": [
+        "QB_REAUDIT_RATE_05_A3",
+        88
+      ],
+      "Jared Goff": [
+        "QB_REAUDIT_RATE_06_A2",
+        85
+      ],
+      "Drake Maye": [
+        "QB_REAUDIT_RATE_07_A2",
+        86
+      ],
+      "Geno Smith": [
+        "QB_REAUDIT_RATE_08_A2",
+        78
+      ],
+      "C.J. Stroud": [
+        "QB_REAUDIT_RATE_09_A2",
+        80
+      ],
+      "Patrick Mahomes": [
+        "QB_REAUDIT_RATE_10_A4",
+        81
+      ],
+      "Jordan Love": [
+        "QB_REAUDIT_RATE_11_A4",
+        83
+      ],
+      "Trevor Lawrence": [
+        "QB_REAUDIT_RATE_12_A2",
+        82
+      ],
+      "Matthew Stafford": [
+        "QB_REAUDIT_RATE_13_A3",
+        83
+      ],
+      "Kirk Cousins": [
+        "QB_REAUDIT_RATE_14_A3",
+        78
+      ],
+      "Caleb Williams": [
+        "QB_REAUDIT_RATE_15_A3",
+        81
+      ],
+      "Justin Herbert": [
+        "QB_REAUDIT_RATE_16_A2",
+        75
+      ],
+      "Sam Darnold": [
+        "QB_REAUDIT_RATE_17_A2",
+        78
+      ]
+    },
+    "result": "PASS: no 95+ trait, all 11 90+ traits carry ELITE HIGH-confidence sourced evidence, one 90 overall (Burrow), style rule passes for all 136 pairs (regenerated t34s264 on current effective ratings)",
+    "pending_unapplied_proposals": [
+      "QB_REAUDIT_RATE_07 A3 draft: Maye 86->87 (TIEBREAK_06)",
+      "QB_REAUDIT_RATE_03 A3 draft: Prescott 85->84 (TIEBREAK_07)",
+      "Neither touches a 90+ trait or a 90+ overall; scarcity result is unaffected either way."
+    ]
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
