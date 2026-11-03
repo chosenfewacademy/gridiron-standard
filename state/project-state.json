@@ -1016,7 +1016,7 @@
         "position": "RB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/RB.reaudit.json",
       "baseline_file": "data/baselines/RB.json",
@@ -1107,19 +1107,30 @@
         "RB_REAUDIT_TIEBREAK_02_A1",
         "RB_REAUDIT_TIEBREAK_03_A1",
         "RB_REAUDIT_TIEBREAK_04_A1",
-        "RB_REAUDIT_TIEBREAK_05_A1"
+        "RB_REAUDIT_TIEBREAK_05_A1",
+        "RB_REAUDIT_TIEBREAK_06_A1"
       ],
       "current_stage": "pair_audits",
       "current_task": "RB_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T08:43:33.171Z",
+      "updated_at": "2026-11-03T08:43:33.437Z",
       "last_result": {
-        "task_id": "RB_REAUDIT_TIEBREAK_05",
+        "task_id": "RB_REAUDIT_TIEBREAK_06",
         "status": "FLAGGED",
         "flags": [
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "TIEBREAK_REVIEW",
+        "task_id": "RB_REAUDIT_TIEBREAK_06",
+        "audit_id": "RB_REAUDIT_TIEBREAK_06_A1",
+        "pending": [
+          {
+            "task_id": "RB_REAUDIT_TIEBREAK_06",
+            "audit_id": "RB_REAUDIT_TIEBREAK_06_A1"
+          }
+        ]
+      },
       "approvals": [
         {
           "decision": "APPROVED",
