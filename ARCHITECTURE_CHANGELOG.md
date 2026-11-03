@@ -142,3 +142,4 @@ No frozen architectural rule was changed.
 - Engine v1.1.2 order now: candidate → BG → RATE → H2H → **variance_audit** → scarcity → cross-audit → lock. New `config/variance-metrics.json` (all 22 positions); stage output validator; always reviewed.
 - New `src/reaudit-lock.ts` (`reaudit:lock`): add-only new baseline, old baseline kept in locks history. Built and tested; not run.
 - Pending approvals: variance_audit gate widening; protected-paths exception for lock outputs.
+- 2026-11-02 (t33s4): variance_audit gate widening + sixth narrow guard exception (lock outputs) approved and implemented; lock id now <POS>_REAUDIT_LOCK_<YYYYMMDD>.

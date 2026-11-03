@@ -59,7 +59,9 @@ export function reauditItemUpdate(x, y) {
   if (!x || !y || x.type !== "TOP10_REAUDIT" || y.type !== "TOP10_REAUDIT") return { ok: false, reason: "only TOP10_REAUDIT queue items may be updated" };
   const strip = o => { const c = { ...o }; for (const k of REAUDIT_MUTABLE) delete c[k]; return canon(c); };
   if (strip(x) !== strip(y)) return { ok: false, reason: "re-audit item identity fields changed" };
-  if (!(REAUDIT_TRANSITIONS[x.status] ?? []).includes(y.status)) return { ok: false, reason: `status transition ${x.status} -> ${y.status} not allowed` };
+  const lockDone = lockCompletionOk(x, y);
+  if (y.status === "COMPLETED" && !lockDone.ok) return { ok: false, reason: lockDone.reason };
+  if (!lockDone.ok && !(REAUDIT_TRANSITIONS[x.status] ?? []).includes(y.status)) return { ok: false, reason: `status transition ${x.status} -> ${y.status} not allowed` };
   if (!appendOnly(x.completed_tasks, y.completed_tasks) || !appendOnly(x.audit_ids, y.audit_ids)) return { ok: false, reason: "completed_tasks/audit_ids are append-only" };
   if (x.started_at && x.started_at !== y.started_at) return { ok: false, reason: "started_at is immutable once set" };
   // FIFTH NARROW EXCEPTION (commissioner-approved 2026-11-02 1:36 PM ET): commissioner approvals of re-audit stages are
@@ -74,6 +76,47 @@ export function reauditItemUpdate(x, y) {
     return { ok: false, reason: "leaving AWAITING_REVIEW_MAJOR requires a new commissioner approval record" };
   return { ok: true, changed: true };
 }
+// SIXTH NARROW EXCEPTION (commissioner-approved 2026-11-02, card t33s4): the re-audit LOCK may (1) move the queue item
+// IN_PROGRESS -> COMPLETED when its last appended audit id is the lock record <POS>_REAUDIT_LOCK_<YYYYMMDD> and
+// current_stage is "lock"; (2) ADD data/baselines/<POS>.reaudit-<YYYYMMDD>.json; (3) in state/locks.json change only that
+// position's baseline_file pointer (to the new file) + version/locked_at/lock_audit_id and APPEND one history entry
+// naming the previous baseline file. Existing baseline files are never modified or deleted.
+export const LOCK_BASELINE_RE = /^data\/baselines\/([A-Z]{1,5})\.reaudit-(\d{8})\.json$/;
+export const LOCKS_PATH = "state/locks.json";
+export function lockCompletionOk(x, y) {
+  if (x?.status !== "IN_PROGRESS" || y?.status !== "COMPLETED") return { ok: false, reason: "COMPLETED only from IN_PROGRESS via the re-audit lock" };
+  const last = (y.audit_ids ?? []).at(-1);
+  if ((y.audit_ids ?? []).length !== (x.audit_ids ?? []).length + 1 || !new RegExp(`^${x.position}_REAUDIT_LOCK_\\d{8}$`).test(String(last)) || y.current_stage !== "lock")
+    return { ok: false, reason: "COMPLETED requires exactly one appended lock audit id <POS>_REAUDIT_LOCK_<YYYYMMDD> and current_stage lock" };
+  return { ok: true };
+}
+export function locksChangeAllowed(baseText, headText) {
+  let a, b; try { a = JSON.parse(baseText); b = JSON.parse(headText); } catch { return { ok: false, reason: "unparseable locks JSON" }; }
+  const rest = o => { const c = { ...o }; delete c.positions; return canon(c); };
+  if (rest(a) !== rest(b)) return { ok: false, reason: "locks keys other than positions changed" };
+  const pa = a.positions ?? {}, pb = b.positions ?? {};
+  if (canon(Object.keys(pa).sort()) !== canon(Object.keys(pb).sort())) return { ok: false, reason: "locks positions added/removed" };
+  const changed = Object.keys(pa).filter(k => canon(pa[k]) !== canon(pb[k]));
+  if (changed.length !== 1) return { ok: false, reason: "exactly one position lock may change" };
+  const k = changed[0], o = pa[k], n = pb[k], m = LOCK_BASELINE_RE.exec(n.baseline_file ?? "");
+  if (!m || m[1] !== k) return { ok: false, reason: `baseline_file must point at data/baselines/${k}.reaudit-<YYYYMMDD>.json` };
+  if (n.status !== "LOCKED" || n.mutation_permission !== o.mutation_permission) return { ok: false, reason: "status/mutation_permission must stay" };
+  if (n.lock_audit_id !== `${k}_REAUDIT_LOCK_${m[2]}`) return { ok: false, reason: "lock_audit_id must match the new baseline date" };
+  const strip = e => { const c = { ...e }; for (const x of ["baseline_file", "version", "locked_at", "lock_audit_id", "history"]) delete c[x]; return canon(c); };
+  if (strip(o) !== strip(n)) return { ok: false, reason: "only baseline_file/version/locked_at/lock_audit_id/history may change" };
+  const h = n.history ?? [];
+  if (!appendOnly(o.history, h) || h.length !== (o.history ?? []).length + 1 || h.at(-1)?.baseline_file !== o.baseline_file)
+    return { ok: false, reason: "history must append exactly one entry naming the previous baseline_file" };
+  return { ok: true, position: k, baseline_file: n.baseline_file };
+}
+export function lockBaselineAddAllowed(status, p, jsonText, locksHeadText) {
+  const m = LOCK_BASELINE_RE.exec(p); if (status !== "A" || !m) return false;
+  try {
+    const j = JSON.parse(jsonText), l = JSON.parse(locksHeadText).positions?.[m[1]];
+    return j.status === "LOCKED" && j.position === m[1] && j.madden_order_verified === false && !!j.supersedes?.baseline_file && l?.baseline_file === p;
+  } catch { return false; }
+}
+
 export function queueUpdateAllowed(qa = [], qb) {
   if (!Array.isArray(qa) || !Array.isArray(qb)) return { ok: false, reason: "pending_reaudit_queue must be an array" };
   if (qb.length < qa.length) return { ok: false, reason: "queue items may not be removed" };
@@ -109,7 +152,7 @@ export function reauditAuditAddAllowed(status, p, jsonText) {
 }
 
 /** allowState(path) => true only when the caller has verified queueOnlyAppend for that exact path. */
-export function violations(lines, allowState = () => false, allowAudit = () => false) {
+export function violations(lines, allowState = () => false, allowAudit = () => false, allowLocks = () => false, allowBaseline = () => false) {
   const out = [];
   for (const line of lines.filter(Boolean)) {
     const [status, ...paths] = line.split("\t");
@@ -117,6 +160,8 @@ export function violations(lines, allowState = () => false, allowAudit = () => f
       const hit = PROTECTED.find(x => x.re.test(p));
       if (hit && status === "M" && p === QUEUE_EXCEPTION_PATH && allowState(p)) continue;
       if (hit && status === "A" && REAUDIT_AUDIT_RE.test(p) && allowAudit(status, p)) continue;
+      if (hit && status === "M" && p === LOCKS_PATH && allowLocks(p)) continue;
+      if (hit && status === "A" && LOCK_BASELINE_RE.test(p) && allowBaseline(status, p)) continue;
       if (hit) out.push(`${status} ${p} (${hit.why})`);
       else if (APPEND_ONLY.test(p) && status[0] !== "A") out.push(`${status} ${p} (append-only research history)`);
     }
@@ -130,14 +175,17 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const diff = (fileFlag >= 0
     ? (await import("node:fs")).readFileSync(process.argv[fileFlag + 1], "utf8")
     : execFileSync("git", ["diff", "--name-status", `${base}...${head}`], { encoding: "utf8" })).split("\n");
-  let allow = () => false, allowAudit = () => false;
+  let allow = () => false, allowAudit = () => false, allowLocks = () => false, allowBaseline = () => false;
   if (fileFlag < 0) {
     const mb = execFileSync("git", ["merge-base", base, head], { encoding: "utf8" }).trim();
     const show = ref => execFileSync("git", ["show", `${ref}:${QUEUE_EXCEPTION_PATH}`], { encoding: "utf8" });
     allowAudit = (st, p) => { try { return reauditAuditAddAllowed(st, p, p.endsWith(".json") ? execFileSync("git", ["show", `${head}:${p}`], { encoding: "utf8" }) : ""); } catch { return false; } };
+    const showP = (ref, p) => execFileSync("git", ["show", `${ref}:${p}`], { encoding: "utf8" });
+    allowLocks = () => { try { const r = locksChangeAllowed(showP(mb, LOCKS_PATH), showP(head, LOCKS_PATH)); if (!r.ok) console.error(`locks exception not applicable: ${r.reason}`); return r.ok; } catch { return false; } };
+    allowBaseline = (st, p) => { try { return lockBaselineAddAllowed(st, p, showP(head, p), showP(head, LOCKS_PATH)); } catch { return false; } };
     allow = p => { try { const r = stateChangeAllowed(show(mb), show(head)); if (!r.ok) console.error(`state exception not applicable: ${r.reason}`); return r.ok; } catch { return false; } };
   }
-  const v = violations(diff, allow, allowAudit);
+  const v = violations(diff, allow, allowAudit, allowLocks, allowBaseline);
   if (v.length) { console.error("PROTECTED PATHS CHANGED:\n" + v.join("\n")); process.exit(1); }
   console.log("Protected paths unchanged.");
 }

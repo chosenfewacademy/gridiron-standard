@@ -1,7 +1,7 @@
 export declare const PROTECTED: Array<{ re: RegExp; why: string }>;
 export declare const QUEUE_EXCEPTION_PATH: string;
 export declare function queueOnlyAppend(baseText: string, headText: string): { ok: boolean; reason?: string };
-export declare function violations(lines: string[], allowState?: (path: string) => boolean, allowAudit?: (status: string, path: string) => boolean): string[];
+export declare function violations(lines: string[], allowState?: (path: string) => boolean, allowAudit?: (status: string, path: string) => boolean, allowLocks?: (path: string) => boolean, allowBaseline?: (status: string, path: string) => boolean): string[];
 export declare const REAUDIT_AUDIT_RE: RegExp;
 export declare function reauditAuditAddAllowed(status: string, p: string, jsonText: string): boolean;
 export declare function positionsOnlyAddPending(a: any, b: any): { ok: boolean; reason?: string; added?: string[] };
@@ -10,3 +10,8 @@ export declare const REAUDIT_MUTABLE: string[];
 export declare const REAUDIT_TRANSITIONS: Record<string, string[]>;
 export declare function reauditItemUpdate(x: any, y: any): { ok: boolean; reason?: string; changed?: boolean };
 export declare function queueUpdateAllowed(qa: any[], qb: any[]): { ok: boolean; reason?: string };
+export declare const LOCK_BASELINE_RE: RegExp;
+export declare const LOCKS_PATH: string;
+export declare function lockCompletionOk(x: any, y: any): { ok: boolean; reason?: string };
+export declare function locksChangeAllowed(baseText: string, headText: string): { ok: boolean; reason?: string; position?: string; baseline_file?: string };
+export declare function lockBaselineAddAllowed(status: string, p: string, jsonText: string, locksHeadText: string): boolean;

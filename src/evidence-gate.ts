@@ -59,7 +59,7 @@ function qbPolicyCategories(normalized: Record<string, unknown>): Record<string,
  * player (and, under Addendum v1.1.2, candidate_audit tasks) may use a position-wide subject {player_id: "POSITION_WIDE:<POS>", team: "NFL"}. Every other task keeps the strict
  * player/team match. Position-wide calendars must resolve LIVE from fresh official nfl.com sources that state the
  * regular-season start and the season end (Super Bowl). */
-export const POSITION_WIDE_TASK_TYPES = new Set(["provisional_top_10", "pair_audit", "candidate_audit", "scarcity_audit", "positional_cross_audit"]); // scarcity + cross-audit: commissioner card t31s9
+export const POSITION_WIDE_TASK_TYPES = new Set(["provisional_top_10", "pair_audit", "candidate_audit", "scarcity_audit", "positional_cross_audit", "variance_audit"]); // scarcity + cross-audit: card t31s9; variance_audit: card t33s4
 export function isPositionWideTask(task: Record<string, unknown>): boolean {
   return POSITION_WIDE_TASK_TYPES.has(String(task.type)) && (task.player_id === undefined || task.player_id === null);
 }

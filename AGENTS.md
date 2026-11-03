@@ -212,3 +212,8 @@ style rule: style_profile + style_evidence, flag corr ≥ 0.95 or mad ≤ 3) wit
 `data/baselines/<POS>.reaudit-<YYYYMMDD>.json`, keeps the old baseline file and appends it to `state/locks.json` history, writes an add-only lock record.
 OPEN (needs commissioner approval, not applied): (a) `variance_audit` in POSITION_WIDE_TASK_TYPES so the evidence gate accepts it;
 (b) a protected-paths exception for the lock outputs (new data/baselines file, locks.json pointer + append-only history, queue item → COMPLETED).
+APPROVED (card t33s4, 2026-11-02): (a) `variance_audit` is position-wide in the evidence gate; (b) SIXTH NARROW EXCEPTION in
+scripts/protected-paths-check.mjs admits only the lock outputs: new `data/baselines/<POS>.reaudit-<YYYYMMDD>.json` (must be the file
+locks.json points at, LOCKED, madden_order_verified false), the single-position `state/locks.json` pointer change + one appended history
+entry, and queue item IN_PROGRESS → COMPLETED with the appended lock audit id `<POS>_REAUDIT_LOCK_<YYYYMMDD>`. Real lock still needs
+the commissioner's separate confirmation.

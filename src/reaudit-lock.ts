@@ -5,8 +5,7 @@
  *  - points positions.<POS>.baseline_file at the new file, writes an add-only lock audit record,
  *  - marks the queue item COMPLETED with the lock audit id.
  * Refuses unless the engine's next stage is the lock and every stage (incl. variance audit) is approved with no pending review.
- * NOTE: pushing the result needs a commissioner-approved protected-paths exception (data/baselines/, state/locks.json,
- * queue item COMPLETED) — not granted yet. Build/test only.
+ * Guard: SIXTH NARROW EXCEPTION in scripts/protected-paths-check.mjs (card t33s4) admits exactly these outputs.
  * Usage: npm run reaudit:lock -- <POS> --confirm REAUDIT_REPLACE_BASELINE_<POS> --by <name> --at <iso> [--dry-run]
  */
 import fs from "node:fs";
@@ -40,13 +39,13 @@ export function buildLock(inp: LockInput, root = process.cwd()) {
     external_controls: inp.final_order.slice(10).map(p => ({ player: p.player, ovr: p.ovr })), scarcity: inp.scarcity ?? old.scarcity,
     supersedes: { baseline_file: cur.baseline_file, version: old.version }, stage_audit_ids: inp.stage_audit_ids,
     madden_order_verified: false, locked_by: inp.approved_by, locked_at: inp.approved_at };
-  const lockId = `LOCK-${pos}-REAUDIT-${day}`;
+  const lockId = `${pos}_REAUDIT_LOCK_${day}`;
   const newEntry = { ...cur, baseline_file: file, version: baseline.version, locked_at: inp.approved_at, lock_audit_id: lockId,
     history: [...(cur.history ?? []), { baseline_file: cur.baseline_file, version: old.version, superseded_at: inp.approved_at, superseded_by: lockId }] };
-  const record = { audit_id: lockId, task_id: `${pos}_REAUDIT_LOCK`, type: "lock", status: "APPROVED", confirmation: inp.confirm,
+  const record = { audit_id: lockId, task_id: `${pos}_REAUDIT_LOCK`, task_type: "lock", audit_type: "TOP10_REAUDIT", position: pos, status: "APPROVED", confirmation: inp.confirm,
     approved_by: inp.approved_by, created_at: inp.approved_at, new_baseline_file: file, previous_baseline_file: cur.baseline_file };
   return { file, baseline, locksPath, locks: { ...locks, positions: { ...locks.positions, [pos]: newEntry } }, record,
-    recordPath: path.join(root, `audits/league/${pos}/${pos}_REAUDIT_LOCK.${lockId}.json`) };
+    recordPath: path.join(root, `audits/league/${pos}/${lockId}.json`) };
 }
 
 export function applyLock(inp: LockInput, root = process.cwd()) {

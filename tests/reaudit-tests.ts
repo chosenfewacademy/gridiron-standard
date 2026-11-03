@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { stateChangeAllowed, violations, reauditAuditAddAllowed } from "../scripts/protected-paths-check.mjs";
+import { stateChangeAllowed, violations, reauditAuditAddAllowed, locksChangeAllowed, lockCompletionOk, lockBaselineAddAllowed, reauditItemUpdate } from "../scripts/protected-paths-check.mjs";
 import { applyFullAuditEvidenceGate, calendarSubject, isPositionWideTask } from "../src/evidence-gate.js";
 import { planReaudit, executeReauditStep } from "../src/reaudit-executor.js";
 import { checkReauditPool } from "../src/coverage-gate.js";
@@ -233,7 +233,7 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     assert.throws(() => buildLock({ ...inp, next_stage: "variance_audit" }, root), /not lock/);
     assert.throws(() => buildLock({ ...inp, pending_review: true }, root), /pending review/);
     const b = applyLock(inp, root);
-    assert.equal(b.file, "data/baselines/Z.reaudit-20261103.json");
+    assert.equal(b.file, "data/baselines/Z.reaudit-20261103.json"); assert.equal(b.record.audit_id, "Z_REAUDIT_LOCK_20261103");
     assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root, "data/baselines/Z.json"), "utf8")), old, "old baseline untouched");
     const nb = JSON.parse(fs.readFileSync(path.join(root, b.file), "utf8"));
     assert.equal(nb.top_10.length, 10); assert.equal(nb.first_out.player, "P11"); assert.equal(nb.madden_order_verified, false); assert.equal(nb.supersedes.baseline_file, "data/baselines/Z.json");
@@ -241,6 +241,27 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     assert.equal(l.baseline_file, b.file); assert.equal(l.history[0].baseline_file, "data/baselines/Z.json");
     assert.equal(JSON.parse(fs.readFileSync(path.join(root, "state/project-state.json"), "utf8")).pending_reaudit_queue[0].status, "COMPLETED");
     assert.throws(() => applyLock(inp, root), /already exists/, "add-only: no overwrite");
+  });
+  test("guard sixth exception (t33s4): lock outputs only; variance_audit is position-wide", () => {
+    assert.ok(isPositionWideTask({ type: "variance_audit" } as any));
+    const L = (pos: any) => JSON.stringify({ rule: "r", positions: { QB: pos, RB: { status: "LOCKED", baseline_file: "data/baselines/RB.json", mutation_permission: "TOP10_REAUDIT_ONLY" } } });
+    const old = { status: "LOCKED", baseline_file: "data/baselines/QB.json", mutation_permission: "TOP10_REAUDIT_ONLY" };
+    const neu = { ...old, baseline_file: "data/baselines/QB.reaudit-20261103.json", version: "reaudit-20261103", locked_at: "x", lock_audit_id: "QB_REAUDIT_LOCK_20261103", history: [{ baseline_file: "data/baselines/QB.json" }] };
+    assert.equal(locksChangeAllowed(L(old), L(neu)).ok, true);
+    assert.equal(locksChangeAllowed(L(old), L({ ...neu, history: [] })).ok, false, "history must append the old file");
+    assert.equal(locksChangeAllowed(L(old), L({ ...neu, mutation_permission: "ANY" })).ok, false);
+    assert.equal(locksChangeAllowed(L(old), L({ ...neu, baseline_file: "data/baselines/QB.json2" })).ok, false);
+    assert.equal(locksChangeAllowed(L(old), JSON.stringify({ rule: "changed", positions: JSON.parse(L(neu)).positions })).ok, false);
+    const x = { type: "TOP10_REAUDIT", position: "QB", status: "IN_PROGRESS", audit_ids: ["a"], completed_tasks: [], approvals: [], current_stage: "positional_cross_audit" };
+    const y = { ...x, status: "COMPLETED", audit_ids: ["a", "QB_REAUDIT_LOCK_20261103"], current_stage: "lock" };
+    assert.equal(lockCompletionOk(x, y).ok, true); assert.equal(reauditItemUpdate(x, y).ok, true);
+    assert.equal(reauditItemUpdate(x, { ...y, audit_ids: ["a"] }).ok, false, "COMPLETED without lock id");
+    assert.equal(reauditItemUpdate({ ...x, status: "AWAITING_REVIEW_MAJOR" }, y).ok, false);
+    const bl = JSON.stringify({ status: "LOCKED", position: "QB", madden_order_verified: false, supersedes: { baseline_file: "data/baselines/QB.json" } });
+    assert.equal(lockBaselineAddAllowed("A", "data/baselines/QB.reaudit-20261103.json", bl, L(neu)), true);
+    assert.equal(lockBaselineAddAllowed("M", "data/baselines/QB.json", bl, L(neu)), false, "existing baseline never modified");
+    assert.equal(lockBaselineAddAllowed("A", "data/baselines/QB.reaudit-20261104.json", bl, L(neu)), false, "must be the file locks points at");
+    assert.deepEqual(violations(["M\tdata/baselines/QB.json", "D\tdata/baselines/QB.json"], () => true, () => true, () => true, () => true).length, 2);
   });
   for (const [n, f] of asyncTests) { await f(); console.log(`PASS ${n}`); } // sequential: executor chdirs
 }
