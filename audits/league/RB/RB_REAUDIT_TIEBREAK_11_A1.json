@@ -1,0 +1,38 @@
+{
+  "audit_id": "RB_REAUDIT_TIEBREAK_11_A1",
+  "task_id": "RB_REAUDIT_TIEBREAK_11",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Derrick Henry",
+    "Chuba Hubbard"
+  ],
+  "pair_result": {
+    "winner": "Chuba Hubbard",
+    "loser": "Derrick Henry",
+    "provisional_order_holds": false,
+    "reasoning": "New tiebreak (t41s314). Hubbard leads 2026 PFF (84.1 vs 74.8), EPA/rush (+.058 vs -.113), success (46% vs 39%), RYOE (+0.76 vs +0.11), stuff (12.6% vs 19.5%), short-yardage (11/14 vs 2/9), receiving (rec EPA +12.6 vs +2.1) and pass pro (79 vs 34 PBLK). Henry leads 2025 by a lot (5.20 ypc, RYOE +1.05, PFF 80.4 vs 3.79 ypc, PFF 69.9) and power, but he is 32 and 2026 is a full half-season. Hubbard narrowly: order changes (Hubbard 77 at #10, Henry 76 first-out).",
+    "key_evidence_for_winner": [
+      "Chuba Hubbard PFF HB overall 2026 84.1, 2025 69.9; 2026 PFF snaps {'off': '394', 'run': '128', 'route': '184', 'pblk': '79'}; age 27, 216 lb",
+      "Chuba Hubbard (CAR) 2026: 119 car 4.54 ypc, EPA/rush +0.058, success 46%, 10+ run rate 11%, RYOE/att 0.76, stuff 12.6%, short-yd 11/14, fumbles lost 0, 150 rec yds (rec EPA +12.6), YAC/rec 7.86",
+      "Chuba Hubbard (CAR) 2025: 135 car 3.79 ypc, EPA/rush -0.116, success 41%, 10+ run rate 6%, RYOE/att -0.22, stuff 12.6%, short-yd 8/11, fumbles lost 1, 223 rec yds (rec EPA +4.6), YAC/rec 9.7"
+    ],
+    "key_evidence_for_loser": [
+      "Derrick Henry PFF HB overall 2026 74.8, 2025 80.4; 2026 PFF snaps {'off': '283', 'run': '162', 'route': '73', 'pblk': '34'}; age 32, 252 lb",
+      "Derrick Henry (BAL) 2026: 159 car 3.99 ypc, EPA/rush -0.113, success 39%, 10+ run rate 9%, RYOE/att 0.11, stuff 19.5%, short-yd 2/9, fumbles lost 1, 75 rec yds (rec EPA +2.1), YAC/rec 9.83",
+      "Derrick Henry (BAL) 2025: 307 car 5.2 ypc, EPA/rush +0.030, success 42%, 10+ run rate 12%, RYOE/att 1.05, stuff 15.3%, short-yd 15/24, fumbles lost 3, 150 rec yds (rec EPA -2.9), YAC/rec 9.0"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
