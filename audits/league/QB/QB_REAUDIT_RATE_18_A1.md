@@ -1,0 +1,355 @@
+# QB_REAUDIT_RATE_18 — Mac Jones rating (v1.1.2 stage 3, per-attribute judgment; authorized by t35s273)
+
+No formula; Madden reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "QB_REAUDIT_RATE_18_A1",
+  "task_id": "QB_REAUDIT_RATE_18",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "player_id": "mac_jones",
+  "players": [
+    "Mac Jones"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 64,
+    "ACC": 67,
+    "AGI": 66,
+    "COD": 64,
+    "STR": 70,
+    "AWR": 79,
+    "THP": 78,
+    "SAC": 86,
+    "MAC": 87,
+    "DAC": 66,
+    "RUN": 68,
+    "TUP": 62,
+    "PAC": 86,
+    "BSK": 74,
+    "CAR": 78,
+    "JMP": 70,
+    "INJ": 76,
+    "STA": 72,
+    "TGH": 80
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "MEDIUM",
+    "AWR": "MEDIUM",
+    "THP": "MEDIUM",
+    "SAC": "MEDIUM",
+    "MAC": "MEDIUM",
+    "DAC": "MEDIUM",
+    "RUN": "MEDIUM",
+    "TUP": "MEDIUM",
+    "PAC": "MEDIUM",
+    "BSK": "MEDIUM",
+    "CAR": "MEDIUM",
+    "JMP": "LOW",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "8 scrambles for 55 yds in 2025; not a designed-run threat",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Mobile enough to slide in the pocket",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "ACC": {
+      "basis": "Short-area burst limited: 6.9 yds/scramble, 14 designed runs for 19 yds",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "AGI": {
+      "basis": "Rarely escapes; 7.6% out-of-pocket rate",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "COD": {
+      "basis": "Minimal open-field rushing sample",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "STR": {
+      "basis": "6-3 220; no contact-run evidence",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "AWR": {
+      "basis": "Processes quickly in structure (2.71s TTT, 3.8% TWP but 6 INT in 11 games)",
+      "why_not_higher": "6 INT in 11 starts, 3.8% TWP",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "THP": {
+      "basis": "Short aDOT 7.3; 20+ attempts only 7.6% of throws",
+      "why_not_higher": "Rarely pushes the ball",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "SAC": {
+      "basis": "76.4% on throws under 10 yds; CPOE +3.7",
+      "why_not_higher": "Short game inside a timing scheme with elite YAC receivers",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "MAC": {
+      "basis": "10-19 yds 66.2% cmp, EPA +.76: best area of his game",
+      "why_not_higher": "Production heavily play-action and YAC-assisted (YAC share .445)",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "DAC": {
+      "basis": "20+ yds 18.2% cmp, EPA -.25",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Some deep completions; not zero",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "RUN": {
+      "basis": "Out-of-pocket EPA +.10 on 7.6% share; few creation plays",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "TUP": {
+      "basis": "When hit: 44.8% cmp, EPA -1.00",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Sack rate stays moderate",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "PAC": {
+      "basis": "PA EPA +.35 vs non-PA +.08",
+      "why_not_higher": "Gap to non-PA EPA shows scheme dependence",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "BSK": {
+      "basis": "Sack rate 5.3%, 1 QB-fault sack (FTN)",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "CAR": {
+      "basis": "2 fumbles lost in 2025",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "JMP": {
+      "basis": "No relevant evidence; neutral",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "INJ": {
+      "basis": "No major 2025-26 injury listed; career availability mixed",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "STA": {
+      "basis": "Backup in 2026 (8 snaps)",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    },
+    "TGH": {
+      "basis": "Played through 2025 as fill-in starter, 11 games",
+      "why_not_higher": "Evidence does not separate him from higher-rated peers on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated peers on this trait",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 77,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula). 2025 efficiency (EPA/db +.127, CPOE +3.7) sits between Lawrence and Mahomes on paper, but it comes from 11 fill-in starts in Shanahan's system: play-action +.35 vs non-PA +.08, YAC share .445, deep game negative (18% / -.25 EPA), collapse when hit (-1.00 EPA), and no 2026 sample. A system-dependent pocket distributor; below Mahomes 81 and Lawrence 82.",
+  "style_profile": "Mac Jones: timing-and-rhythm pocket distributor who wins short-to-intermediate inside a play-action/motion system (10-19 yds EPA +.76, PA EPA +.35); lacks a deep game (20+ yds 18%), creation outside the pocket, or answers under pressure (EPA -1.00 when hit).",
+  "style_evidence": [
+    "Mac Jones 2025 (SF, 11 starts while Purdy was out): 291 att, 2151 yds, 13 TD / 6 INT, EPA/dropback +.127, CPOE +3.7, sack rate 5.3%, aDOT 7.3 (nflverse pbp/stats 2025)",
+    "Mac Jones 2025 depth: <10 yds 76.4% cmp; 10-19 yds 66.2% cmp, EPA +.76; 20+ yds 18.2% cmp on 7.6% of attempts, EPA -.25 (nflverse pbp 2025)",
+    "Mac Jones 2025 pressure/pocket: clean EPA +.32 vs when hit -1.00 (hit cmp 44.8%, n=29); out of pocket 7.6% of dropbacks, EPA +.10 (FTN 2025)",
+    "Mac Jones 2025 scheme: play-action EPA +.35 vs non-PA +.08 (PA 17% of dropbacks), motion 71%, YAC share .445; time to throw 2.71s (NGS); FTN turnover-worthy 3.8%, 2 fumbles lost",
+    "Mac Jones 2026: backup to Brock Purdy, 1 game, 0 pass attempts (nflverse 2026); PFF 2025 76.7 (#15)"
+  ],
+  "input_dossier": "QB_REAUDIT_BG_18_A1",
+  "weaknesses": [
+    "deep accuracy",
+    "throwing under pressure",
+    "mobility/creation",
+    "non-play-action efficiency"
+  ],
+  "madden_reference": [
+    {
+      "player": "Mac Jones",
+      "ovr": 75,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta": 2,
+      "source": "https://www.ea.com/games/madden-nfl/ratings/positions-ratings/quarterback/QB (retrieved 2026-11-02 ET)"
+    }
+  ],
+  "variance_check": {
+    "gap": 2,
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP",
+    "domains": {
+      "in_vs_out_of_pocket": "in +.13 / out +.14 EPA, out-of-pocket only 9.9% of plays",
+      "on_the_run": "8 scrambles, +.27 EPA; OOP cmp 78% on tiny sample",
+      "clean_vs_pressured": "clean +.32 / pressured -1.00",
+      "time_to_throw": "2.71s, aggressiveness 17%",
+      "turnovers": "6 INT, TWP 3.8%, 2 fumbles lost",
+      "team_value": "EPA vs 17-QB avg +4.2 over 326 plays; team EPA share .49",
+      "scheme_system": "PA 18%, motion 71%, YAC share .445, catchable 77%, drop 4.2%: strongly system-supported"
+    }
+  },
+  "style_similarity": {
+    "closest_mad": [
+      "Geno Smith",
+      0.64,
+      4.6
+    ],
+    "highest_corr": [
+      "Jared Goff",
+      0.717,
+      5.7
+    ],
+    "too_similar": false
+  },
+  "major_flags": [
+    "NO_2026_SAMPLE: rating rests on 2025",
+    "SYSTEM_DEPENDENCE: PA/YAC-driven efficiency",
+    "LEAGUE_CEILING_FLAG_ADDITION (t35s273)"
+  ],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t35s273"
+}
+```

@@ -1,0 +1,7 @@
+{
+  "attempt": 1,
+  "errors": [
+    "HIGH_TRAIT_EVIDENCE_MISSING:SPD=90 requires ELITE",
+    "HIGH_TRAIT_EVIDENCE_MISSING:ACC=91 requires ELITE"
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "task_id": "QB_REAUDIT_BG_19",
+  "type": "background_analysis",
+  "players": [
+    "Jayden Daniels"
+  ],
+  "player_id": "ext_00-0039910",
+  "team": "WAS",
+  "baseline_controls": {
+    "locked_baseline": {
+      "top_10": [
+        {
+          "rank": 1,
+          "player": "Matthew Stafford"
+        },
+        {
+          "rank": 2,
+          "player": "Joe Burrow"
+        },
+        {
+          "rank": 3,
+          "player": "Josh Allen"
+        },
+        {
+          "rank": 4,
+          "player": "Drake Maye"
+        },
+        {
+          "rank": 5,
+          "player": "Jordan Love"
+        },
+        {
+          "rank": 6,
+          "player": "Dak Prescott"
+        },
+        {
+          "rank": 7,
+          "player": "Brock Purdy"
+        },
+        {
+          "rank": 8,
+          "player": "Justin Herbert"
+        },
+        {
+          "rank": 9,
+          "player": "Trevor Lawrence"
+        },
+        {
+          "rank": 10,
+          "player": "Sam Darnold"
+        }
+      ],
+      "external_controls": [
+        {
+          "player": "Patrick Mahomes",
+          "ovr": 83
+        },
+        {
+          "player": "Lamar Jackson",
+          "ovr": 83
+        },
+        {
+          "player": "Jared Goff",
+          "ovr": 82
+        }
+      ]
+    },
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Joe Burrow"
+      },
+      {
+        "rank": 2,
+        "player": "Lamar Jackson"
+      },
+      {
+        "rank": 3,
+        "player": "Dak Prescott"
+      },
+      {
+        "rank": 4,
+        "player": "Brock Purdy"
+      },
+      {
+        "rank": 5,
+        "player": "Josh Allen"
+      },
+      {
+        "rank": 6,
+        "player": "Jared Goff"
+      },
+      {
+        "rank": 7,
+        "player": "Drake Maye"
+      },
+      {
+        "rank": 8,
+        "player": "Geno Smith"
+      },
+      {
+        "rank": 9,
+        "player": "C.J. Stroud"
+      },
+      {
+        "rank": 10,
+        "player": "Patrick Mahomes"
+      }
+    ],
+    "external_controls": [
+      "Jordan Love",
+      "Trevor Lawrence",
+      "Matthew Stafford",
+      "Kirk Cousins",
+      "Caleb Williams",
+      "Justin Herbert",
+      "Sam Darnold",
+      "Mac Jones",
+      "Jayden Daniels"
+    ]
+  },
+  "position": "QB",
+  "stage": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 1,
+    "group": "Offense",
+    "current_status": "LOCKED",
+    "pff_cited_inputs": [
+      "overall",
+      "passing",
+      "rushing",
+      "grade under pressure",
+      "grade from clean pocket",
+      "big-time throw %",
+      "turnover-worthy play %"
+    ],
+    "position_stats": [
+      "completion %, yards, TD, INT",
+      "EPA/play, CPOE",
+      "ANY/A, passer rating",
+      "sacks, sack %, pressure-to-sack %",
+      "rush attempts, yards, scrambles"
+    ],
+    "usage_snap_metrics": [
+      "dropbacks",
+      "play-action rate",
+      "aDOT",
+      "time to throw (NGS)"
+    ],
+    "on_field_impact": [
+      "EPA/dropback",
+      "success rate",
+      "4th-quarter/2-minute performance"
+    ],
+    "madden_attributes_informed": [
+      "THP",
+      "SAC",
+      "MAC",
+      "DAC",
+      "TUP",
+      "TOR",
+      "PAC",
+      "BSK",
+      "AWR",
+      "CAR",
+      "SPD",
+      "ACC",
+      "AGI"
+    ],
+    "note": "Existing QB evidence categories and QB evidence policy are UNCHANGED (src/evidence-gate.ts, src/qb-evidence-policy.ts)."
+  }
+}

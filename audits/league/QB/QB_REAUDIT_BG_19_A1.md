@@ -1,0 +1,130 @@
+# QB_REAUDIT_BG_19 — Background dossier: Jayden Daniels (Addendum v1.1.2 stage 2)
+
+Declared provenance: PFF public grade pages, nflverse releases, nfl.com. No ratings at this stage; EA/Madden never evidence.
+
+```json
+{
+  "audit_id": "QB_REAUDIT_BG_19_A1",
+  "task_id": "QB_REAUDIT_BG_19",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "player_id": "ext_00-0039910",
+  "players": [
+    "Jayden Daniels"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Jayden Daniels",
+    "player_id": "ext_00-0039910",
+    "team": "WAS",
+    "pff": {
+      "2026": {
+        "overall": 79.7,
+        "rank": 10,
+        "rank_in_contention": 10
+      },
+      "2025": {
+        "overall": 74.8,
+        "rank": 18
+      }
+    },
+    "stats_2026": {
+      "games": 5,
+      "att": 145,
+      "cmp_pct": 62.8,
+      "yds": 976,
+      "td": 6,
+      "int": 0,
+      "ypa": 6.73,
+      "cpoe": 5.6,
+      "sacks": 12,
+      "sack_pct": 7.6,
+      "fumbles_lost": 0
+    },
+    "usage_2026": {
+      "offensive_snaps": 298,
+      "dropbacks": 157,
+      "carries": 27
+    },
+    "impact_2026": {
+      "passing_epa_per_dropback": 0.043,
+      "total_epa_per_play": 0.115,
+      "epa_rank_in_contention": 15,
+      "rush_epa": 14.4
+    },
+    "stats_2025": {
+      "games": 7,
+      "yds": 1262,
+      "td": 8,
+      "int": 3,
+      "epa_per_dropback": -0.023,
+      "cpoe": -2.7
+    },
+    "multi_year_trend": "PFF 74.8 -> 79.7 (+4.9)",
+    "availability": {
+      "games_2026": 5,
+      "team_games_2026": 7,
+      "games_2025": 7,
+      "roster_status": "ACT"
+    },
+    "rating_relevant_notes": [
+      "availability history: 7 games in 2025",
+      "material rushing value"
+    ],
+    "attributes_informed": [
+      "THP",
+      "SAC",
+      "MAC",
+      "DAC",
+      "TUP",
+      "PAC",
+      "BSK",
+      "AWR",
+      "CAR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "INJ"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2026",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/qb/2025",
+        "retrieved_at": "2026-11-02T19:18:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-02T19:18:21Z"
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/reg9/",
+        "retrieved_at": "2026-11-02T18:15:34Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [
+    "LEAGUE_CEILING_FLAG_ADDITION (t35s273)",
+    "LIMITED_SAMPLE: 5 of 7 team games"
+  ],
+  "locked_control_conflict": false
+}
+```

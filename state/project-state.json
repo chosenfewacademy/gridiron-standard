@@ -112,7 +112,11 @@
         "QB_REAUDIT_TIEBREAK_06",
         "QB_REAUDIT_TIEBREAK_07",
         "QB_REAUDIT_TIEBREAK_08",
-        "QB_REAUDIT_SCARCITY"
+        "QB_REAUDIT_SCARCITY",
+        "QB_REAUDIT_BG_18",
+        "QB_REAUDIT_BG_19",
+        "QB_REAUDIT_RATE_18",
+        "QB_REAUDIT_RATE_19"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
@@ -199,21 +203,23 @@
         "QB_REAUDIT_TIEBREAK_08_A1",
         "QB_REAUDIT_SCARCITY_A1",
         "QB_REAUDIT_RATE_07_A3",
-        "QB_REAUDIT_RATE_03_A3"
+        "QB_REAUDIT_RATE_03_A3",
+        "QB_REAUDIT_BG_18_A1",
+        "QB_REAUDIT_BG_19_A1",
+        "QB_REAUDIT_RATE_18_A1",
+        "QB_REAUDIT_RATE_19_A1"
       ],
-      "current_stage": "scarcity_audit",
-      "current_task": "QB_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-03T02:18:34.604Z",
+      "current_stage": "player_rating",
+      "current_task": "QB_REAUDIT_RATE_19",
+      "updated_at": "2026-11-03T02:22:21.672Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_RATE_03",
-        "status": "REVISION_APPROVED",
-        "audit_id": "QB_REAUDIT_RATE_03_A3",
-        "supersedes": "QB_REAUDIT_RATE_03_A2",
+        "task_id": "QB_REAUDIT_RATE_19",
+        "status": "FLAGGED",
+        "errors": [],
         "flags": [
-          "GRADE_VS_EFFICIENCY_SPLIT: PFF #3 vs EPA/play #9",
-          "ELITE_TRAIT_PROPOSED: STA 90",
-          "VARIANCE_ADJUSTMENT:QB_REAUDIT_VARIANCE_AUDIT:RUN",
-          "TIEBREAK_ADJUSTMENT_PROPOSED: OVR 85->84 (authorized by t35s273)"
+          "AVAILABILITY_RISK: 12 of 24 games 2025-26",
+          "LIMITED_SAMPLE: 157 dropbacks 2026",
+          "LEAGUE_CEILING_FLAG_ADDITION (t35s273)"
         ]
       },
       "awaiting": null,
@@ -919,6 +925,38 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T02:18:34Z",
           "note": "Tiebreak adjustment applied, authorized by t35s273"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_18",
+          "audit_id": "QB_REAUDIT_BG_18_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T02:20:42Z",
+          "note": "Dossier approved; full-process addition authorized by t35s273"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_19",
+          "audit_id": "QB_REAUDIT_BG_19_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T02:20:43Z",
+          "note": "Dossier approved; full-process addition authorized by t35s273"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_18",
+          "audit_id": "QB_REAUDIT_RATE_18_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T02:21:57Z",
+          "note": "Judgment rating approved (Mac Jones 77, Madden 75 ref, delta +2); authorized by t35s273"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_19",
+          "audit_id": "QB_REAUDIT_RATE_19_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T02:22:21Z",
+          "note": "Judgment rating approved (Jayden Daniels 77, Madden 76 ref, delta +1); authorized by t35s273"
         }
       ]
     },
