@@ -1,0 +1,46 @@
+# QB TOP10_REAUDIT — tiebreak 02: Patrick Mahomes vs Caleb Williams (Grok Bot analyst, attempt 1)
+
+EA ratings not used. Evidence: PFF 2026/2025, nflverse stats and play-by-play, FTN charting.
+
+```json
+{
+  "audit_id": "QB_REAUDIT_TIEBREAK_02_A1",
+  "task_id": "QB_REAUDIT_TIEBREAK_02",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Patrick Mahomes",
+    "Caleb Williams"
+  ],
+  "pair_result": {
+    "winner": "Patrick Mahomes",
+    "loser": "Caleb Williams",
+    "provisional_order_holds": true,
+    "reasoning": "Tied at 81 (Mahomes ahead by contention order). Mahomes leads 2026 PFF (79.7 vs 72.6) and availability (7 vs 4 games), and 2025 EPA/dropback (+.127 vs +.071) and CPOE (+0.3 vs -3.5); Caleb's 2026 +.307 / CPOE +9.0 is on 124 attempts with an 8.8% sack rate; 2025 PFF is level (76.0 vs 76.9). Sample-weighted EPA/dropback ~+.131 vs ~+.116. Mahomes wins; order holds.",
+    "key_evidence_for_winner": [
+      "Patrick Mahomes PFF overall 2026 79.7 (#10), 2025 76.0 (#16)",
+      "Patrick Mahomes 2026: 7 games, EPA/dropback +0.138, EPA/play incl. rush +0.134, CPOE +1.6, 12 TD / 4 INT, sack 3.7%, Y/A 7.74, rush EPA +1.9",
+      "Patrick Mahomes 2025: 14 games, EPA/dropback +0.127, EPA/play incl. rush +0.162, CPOE +0.3, 22 TD / 11 INT",
+      "Patrick Mahomes FTN interception-worthy rate 2.1% (2026), 3.4% (2025)"
+    ],
+    "key_evidence_for_loser": [
+      "Caleb Williams PFF overall 2026 72.6 (#17), 2025 76.9 (#13)",
+      "Caleb Williams 2026: 4 games, EPA/dropback +0.307, EPA/play incl. rush +0.245, CPOE +9.0, 5 TD / 1 INT, sack 8.8%, Y/A 8.23, rush EPA -2.4",
+      "Caleb Williams 2025: 17 games, EPA/dropback +0.071, EPA/play incl. rush +0.071, CPOE -3.5, 27 TD / 7 INT",
+      "Caleb Williams FTN interception-worthy rate 0.8% (2026), 3.2% (2025)"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "PENDING_REVIEW: tiebreak result not approved (card t31s1)",
+    "TIE_BREAK: tied overall broken by contention order; pair verdict decides"
+  ],
+  "locked_control_conflict": false
+}
+```
