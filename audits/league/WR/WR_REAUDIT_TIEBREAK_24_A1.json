@@ -1,0 +1,38 @@
+{
+  "audit_id": "WR_REAUDIT_TIEBREAK_24_A1",
+  "task_id": "WR_REAUDIT_TIEBREAK_24",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Courtland Sutton",
+    "George Pickens"
+  ],
+  "pair_result": {
+    "winner": "George Pickens",
+    "loser": "Courtland Sutton",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s359). Courtland Sutton: 2025 17 g, 1017 yds, 7 TD, EPA/tgt +0.365, PFF 73.8, YPRR 1.36; 2026 8 g, 221 yds, 1 TD, EPA/tgt -0.145, PFF outside top 50, YPRR n/a. George Pickens: 2025 17 g, 1429 yds, 9 TD, EPA/tgt +0.643, PFF 85.9, YPRR 2.16; 2026 8 g, 533 yds, 2 TD, EPA/tgt +0.409, PFF 78.1, YPRR 1.72. Pickens' 2025 (1,429 yds, 9 TD, PFF 85.9, EPA/tgt +.640) and full 2026 availability outweigh 2026 EPA/tgt -.140 and PFF outside the top 50. Pickens holds first-out.",
+    "key_evidence_for_winner": [
+      "George Pickens PFF WR grade 2026 78.1, 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}; age 25, 75 in 205 lb",
+      "George Pickens (DAL) 2026: 8 g 62 tgt 533 yds 2 TD, EPA/tgt 0.409, YPRR 1.72, TPRR 0.2, NGS sep 2.4, aDOT 11.6, deep 9 tgt catch 0.33 EPA/tgt 0.29, short catch 0.69, YAC/rec 3.3, RZ tgt 7, 3rd/4th conv 10/23, fum lost 0",
+      "George Pickens (DAL) 2025: 17 g 138 tgt 1429 yds 9 TD, EPA/tgt 0.643, YPRR 2.16, TPRR 0.209, NGS sep 2.24, aDOT 11.3, deep 22 tgt catch 0.45 EPA/tgt 0.8, short catch 0.72, YAC/rec 5.2, RZ tgt 24, 3rd/4th conv 27/43, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Courtland Sutton PFF WR grade 2026 None, 2025 73.8; 2026 PFF snaps None; age 31, 76 in 216 lb",
+      "Courtland Sutton (DEN) 2026: 8 g 37 tgt 221 yds 1 TD, EPA/tgt -0.145, YPRR None, TPRR None, NGS sep 2.85, aDOT 11.1, deep 6 tgt catch 0.33 EPA/tgt 0.33, short catch 0.76, YAC/rec 3.0, RZ tgt 7, 3rd/4th conv 3/13, fum lost 0",
+      "Courtland Sutton (DEN) 2025: 17 g 125 tgt 1017 yds 7 TD, EPA/tgt 0.365, YPRR 1.36, TPRR 0.167, NGS sep 2.28, aDOT 12.4, deep 22 tgt catch 0.45 EPA/tgt 0.87, short catch 0.67, YAC/rec 3.0, RZ tgt 20, 3rd/4th conv 27/56, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
