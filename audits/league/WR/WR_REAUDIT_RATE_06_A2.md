@@ -1,0 +1,446 @@
+# WR_REAUDIT_RATE_06 revision A2 — Drake London 86 (authorized t45s353)
+
+TIEBREAK_08 beats St. Brown; TIEBREAK_02 beats Flowers on two-year PFF, contested role, ball security; H2H_03 narrow loss to Higgins
+
+```json
+{
+  "audit_id": "WR_REAUDIT_RATE_06_A2",
+  "task_id": "WR_REAUDIT_RATE_06",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "player_id": "drake_london",
+  "players": [
+    "Drake London"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 82,
+    "ACC": 84,
+    "AGI": 80,
+    "COD": 80,
+    "STR": 84,
+    "AWR": 85,
+    "CTH": 90,
+    "CIT": 93,
+    "SPC": 88,
+    "SRR": 82,
+    "MRR": 87,
+    "DRR": 78,
+    "RLS": 84,
+    "JMP": 88,
+    "CAR": 88,
+    "BTK": 82,
+    "SPM": 58,
+    "JKM": 66,
+    "INJ": 78,
+    "STA": 86,
+    "TGH": 90
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "CTH": "MEDIUM",
+    "CIT": "LOW",
+    "SPC": "LOW",
+    "SRR": "MEDIUM",
+    "MRR": "MEDIUM",
+    "DRR": "MEDIUM",
+    "RLS": "MEDIUM",
+    "JMP": "LOW",
+    "CAR": "MEDIUM",
+    "BTK": "MEDIUM",
+    "SPM": "LOW",
+    "JKM": "LOW",
+    "INJ": "LOW",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (physical): size 76 in / 215 lb, run-block snaps {'off': '442', 'routes': '243', 'rblk': '197'}. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (processing): 3rd-down conv, EPA/tgt, PFF grade: Drake London PFF WR offense grade 2026 86.0 (rank 9), 2025 88.0; 2026 PFF snaps {'off': '442', 'routes': '243', 'rblk': '197'}. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD. Revised 84->85: TIEBREAK_08 beats St. Brown; TIEBREAK_02 beats Flowers on two-year PFF, contested role, ball security; H2H_03 narrow loss to Higgins",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (hands): short catch rate, PFF grade: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (contested): deep/red-zone results and size (215 lb): 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPC": {
+      "basis": "Judgment (contested): deep/red-zone results and size (215 lb): 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD. Revised 86->87: TIEBREAK_08 beats St. Brown; TIEBREAK_02 beats Flowers on two-year PFF, contested role, ball security; H2H_03 narrow loss to Higgins",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (deep): deep catch rate and deep EPA/tgt: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0; 2025: 12 g, 113 tgt, 68 rec, 919 yds, 7 TD, EPA/tgt 0.219, aDOT 10.9, NGS separation 2.63, YAC over expected 0.64, YPRR 2.2, TPRR 0.271, routes 417; deep (20+ air yds) 17 tgt catch 0.41 EPA/tgt 0.36, short (<10) catch 0.66, YAC/rec 3.4, red-zone tgt 16, 3rd/4th-down conv 12/34, fumbles lost 1. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Listed weakness area: long speed, deep routes, TD production",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (contested): deep/red-zone results and size (215 lb): 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 1. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPM": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JKM": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Drake London 2026 usage: 443 offensive snaps in 8 games (nflverse snap_counts); age 25, 76 in, 215 lb; roster status ACT; 2025 games 12. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Drake London 2026 usage: 443 offensive snaps in 8 games (nflverse snap_counts); age 25, 76 in, 215 lb; roster status ACT; PFF snaps {'off': '442', 'routes': '243', 'rblk': '197'}. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Drake London 2026 usage: 443 offensive snaps in 8 games (nflverse snap_counts); age 25, 76 in, 215 lb; roster status ACT; PFF snaps {'off': '442', 'routes': '243', 'rblk': '197'}. Style: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "CTH": {
+      "tier": "ELITE",
+      "claim": "hands: short catch rate, PFF grade: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CIT": {
+      "tier": "ELITE",
+      "claim": "contested: deep/red-zone results and size (215 lb): 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: Drake London 2026 usage: 443 offensive snaps in 8 games (nflverse snap_counts); age 25, 76 in, 215 lb; roster status ACT; PFF snaps {'off': '442', 'routes': '243', 'rblk': '197'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "proposed_ovr": 86,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD. Revision A2: TIEBREAK_08 beats St. Brown; TIEBREAK_02 beats Flowers on two-year PFF, contested role, ball security; H2H_03 narrow loss to Higgins",
+  "style_profile": "Drake London: Possession X who boxes out defenders: PFF 88.0/86.0, YPRR 2.57, strong hands in traffic, 7.1 YAC per catch in 2026 and one of the heaviest blocking loads (197 run-block snaps); lacks a vertical gear and has only 1 TD.",
+  "style_evidence": [
+    "Drake London (ATL) 2026: 8 g, 63 tgt, 39 rec, 624 yds, 1 TD, EPA/tgt 0.394, aDOT 10.0, NGS separation 3.01, YAC over expected 1.57, YPRR 2.57, TPRR 0.259, routes 243; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 1.03, short (<10) catch 0.7, YAC/rec 7.1, red-zone tgt 5, 3rd/4th-down conv 12/25, fumbles lost 0",
+    "Drake London (ATL) 2025: 12 g, 113 tgt, 68 rec, 919 yds, 7 TD, EPA/tgt 0.219, aDOT 10.9, NGS separation 2.63, YAC over expected 0.64, YPRR 2.2, TPRR 0.271, routes 417; deep (20+ air yds) 17 tgt catch 0.41 EPA/tgt 0.36, short (<10) catch 0.66, YAC/rec 3.4, red-zone tgt 16, 3rd/4th-down conv 12/34, fumbles lost 1",
+    "Drake London PFF WR offense grade 2026 86.0 (rank 9), 2025 88.0; 2026 PFF snaps {'off': '442', 'routes': '243', 'rblk': '197'}",
+    "Drake London 2026 usage: 443 offensive snaps in 8 games (nflverse snap_counts); age 25, 76 in, 215 lb; roster status ACT"
+  ],
+  "input_dossier": "WR_REAUDIT_BG_06_A1",
+  "weaknesses": [
+    "long speed",
+    "deep routes",
+    "TD production"
+  ],
+  "madden_reference": [
+    {
+      "player": "Drake London",
+      "ovr": 93,
+      "attributes": {
+        "SPD": 88,
+        "ACC": 92,
+        "AGI": 88,
+        "COD": 88,
+        "STR": 77,
+        "AWR": 97,
+        "CTH": 97,
+        "CIT": 94,
+        "SPC": 95,
+        "SRR": 88,
+        "MRR": 87,
+        "DRR": 83,
+        "RLS": 94,
+        "JMP": 98,
+        "CAR": 73,
+        "BTK": 85,
+        "SPM": 76,
+        "JKM": 82,
+        "INJ": 89,
+        "STA": 89,
+        "TGH": 88
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -7,
+      "delta_attributes": {
+        "SPD": -6,
+        "ACC": -8,
+        "AGI": -8,
+        "COD": -8,
+        "STR": 7,
+        "AWR": -12,
+        "CTH": -7,
+        "CIT": -1,
+        "SPC": -7,
+        "SRR": -6,
+        "MRR": 0,
+        "DRR": -5,
+        "RLS": -10,
+        "JMP": -10,
+        "CAR": 15,
+        "BTK": -3,
+        "SPM": -18,
+        "JKM": -16,
+        "INJ": -11,
+        "STA": -3,
+        "TGH": 2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 WR, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 7,
+    "attribute_gaps_10plus": {
+      "AWR": -12,
+      "RLS": -10,
+      "JMP": -10,
+      "CAR": 15,
+      "SPM": -18,
+      "JKM": -16,
+      "INJ": -11
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t45s353"
+}
+```
