@@ -7,104 +7,104 @@
   "queries": [
     {
       "query": "PFF NFL WR grades 2026",
-      "executed_at": "2026-11-03T14:56:50Z",
+      "executed_at": "2026-11-03T15:13:55Z",
       "purpose": "EVIDENCE"
     },
     {
       "query": "PFF NFL WR grades 2025",
-      "executed_at": "2026-11-03T14:56:50Z",
+      "executed_at": "2026-11-03T15:13:55Z",
       "purpose": "EVIDENCE"
     },
     {
       "query": "nflverse pbp 2025/2026 + NGS receiving + roster 2026",
-      "executed_at": "2026-11-03T14:56:50Z",
+      "executed_at": "2026-11-03T15:13:55Z",
       "purpose": "EVIDENCE"
     },
     {
       "query": "DeVonta Smith / Mike Evans availability 2026",
-      "executed_at": "2026-11-03T14:56:50Z",
+      "executed_at": "2026-11-03T15:13:55Z",
       "purpose": "EVIDENCE"
     },
     {
       "query": "NFL.com 2026 schedule week 9",
-      "executed_at": "2026-11-03T14:56:50Z",
+      "executed_at": "2026-11-03T15:13:55Z",
       "purpose": "CALENDAR"
     },
     {
-      "query": "Puka Nacua vs Ja'Marr Chase: PFF WR 2025-26, nflverse pbp deep/short/red-zone/3rd-down splits, NGS receiving",
-      "executed_at": "2026-11-03T14:56:50Z",
+      "query": "Ja'Marr Chase vs CeeDee Lamb: PFF WR 2025-26, nflverse pbp deep/short/red-zone/3rd-down splits, NGS receiving",
+      "executed_at": "2026-11-03T15:13:55Z",
       "purpose": "EVIDENCE"
     }
   ],
   "retrievals": [
     {
       "url": "https://www.pff.com/grades/nfl/wr/2026",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "WEB_FETCH"
     },
     {
       "url": "https://www.pff.com/grades/nfl/wr/2025",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "WEB_FETCH"
     },
     {
       "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "DETERMINISTIC_HELPER"
     },
     {
       "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "DETERMINISTIC_HELPER"
     },
     {
       "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "DETERMINISTIC_HELPER"
     },
     {
       "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "DETERMINISTIC_HELPER"
     },
     {
       "url": "http://www.espn.com/nfl/injuries",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "WEB_FETCH"
     },
     {
       "url": "https://www.nfl.com/schedules/2026/reg9/",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "WEB_FETCH"
     },
     {
       "url": "https://media.nfl.com/news-and-releases/2026-nfl-regular-season-to-kick-off-wednesday--sept--9-in-seattl",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "WEB_FETCH"
     },
     {
       "url": "https://www.nfl.com/news/nfl-make-your-plan-to-watch-the-2026-nfl-preseason",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "WEB_FETCH"
     },
     {
       "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "WEB_FETCH"
     },
     {
       "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-30/devonta-dontayvion-wicks-ruled-out-for-week-8",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "WEB_FETCH"
     },
     {
       "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-working-tirelessly-to-calm-down-his-achilles-tendinitis",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "WEB_FETCH"
     },
     {
       "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
-      "retrieved_at": "2026-11-03T14:56:50Z",
+      "retrieved_at": "2026-11-03T15:13:55Z",
       "method": "DETERMINISTIC_HELPER"
     }
   ],
