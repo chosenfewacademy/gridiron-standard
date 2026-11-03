@@ -168,18 +168,23 @@
         "QB_REAUDIT_RATE_10_A3",
         "QB_REAUDIT_RATE_13_A3",
         "QB_REAUDIT_TIEBREAK_01_A1",
-        "QB_REAUDIT_TIEBREAK_02_A1"
+        "QB_REAUDIT_TIEBREAK_02_A1",
+        "QB_REAUDIT_RATE_02_A3"
       ],
       "current_stage": "pair_audits",
       "current_task": "QB_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T00:42:43.839Z",
+      "updated_at": "2026-11-03T00:42:57.224Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_TIEBREAK_02",
-        "status": "FLAGGED",
+        "task_id": "QB_REAUDIT_RATE_02",
+        "status": "REVISION_APPROVED",
+        "audit_id": "QB_REAUDIT_RATE_02_A3",
+        "supersedes": "QB_REAUDIT_RATE_02_A2",
         "flags": [
-          "PENDING_REVIEW: tiebreak result not approved (card t31s1)",
-          "TIE_BREAK: tied overall broken by contention order; pair verdict decides",
-          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+          "LIMITED_SAMPLE_RATING: 5 of 8 games",
+          "ELITE_TRAITS_PROPOSED: SPD 91, ACC 90, AGI 90",
+          "H2H_ADJUSTMENT_PROPOSED:QB_REAUDIT_H2H_02",
+          "TIEBREAK_ADJUSTMENT_PROPOSED:QB_REAUDIT_TIEBREAK_01",
+          "APPROVED_BY_COMMISSIONER: card t31s5"
         ]
       },
       "awaiting": null,
@@ -686,6 +691,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T00:42:43Z",
           "note": "Approved by the commissioner on card t31s5"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_02",
+          "audit_id": "QB_REAUDIT_RATE_02_A3",
+          "supersedes": "QB_REAUDIT_RATE_02_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:42:57Z",
+          "note": "Approved by the commissioner on card t31s5 (tiebreak adjustment)"
         }
       ]
     },

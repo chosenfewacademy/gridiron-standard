@@ -1,4 +1,4 @@
-# QB_REAUDIT_RATE_02 revision A3 — Lamar Jackson (tiebreak adjustment; DRAFT pending commissioner review)
+# QB_REAUDIT_RATE_02 revision A3 — Lamar Jackson (tiebreak adjustment; approved on card t31s5)
 
 Supersedes QB_REAUDIT_RATE_02_A2 only if approved via `npm run reaudit:revise -- QB --task QB_REAUDIT_RATE_02 --revision 3 ...`.
 
@@ -322,7 +322,7 @@ Supersedes QB_REAUDIT_RATE_02_A2 only if approved via `npm run reaudit:revise --
     "ELITE_TRAITS_PROPOSED: SPD 91, ACC 90, AGI 90",
     "H2H_ADJUSTMENT_PROPOSED:QB_REAUDIT_H2H_02",
     "TIEBREAK_ADJUSTMENT_PROPOSED:QB_REAUDIT_TIEBREAK_01",
-    "PENDING_COMMISSIONER_REVIEW: drafted only; not run through reaudit:revise, not approved"
+    "APPROVED_BY_COMMISSIONER: card t31s5"
   ],
   "locked_control_conflict": false,
   "style_profile": "Explosive vertical scrambler: improvises out of structure, attacks deep (aDOT 10.2, 18.6% deep), wins with legs on scrambles; weaker intermediate accuracy and pocket-pressure throwing \u2014 the opposite shape to Burrow's pocket precision.",
