@@ -1,0 +1,172 @@
+{
+  "audit_id": "WR_REAUDIT_BG_16_A1",
+  "task_id": "WR_REAUDIT_BG_16",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "player_id": "ext_00-0038124",
+  "players": [
+    "Christian Watson"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Christian Watson",
+    "player_id": "ext_00-0038124",
+    "team": "GB",
+    "age": 27,
+    "size": {
+      "ht_in": "76",
+      "wt_lb": "215"
+    },
+    "pff": {
+      "2025": {
+        "grade": 82.7,
+        "snaps": {
+          "off": "473",
+          "routes": "296",
+          "rblk": "175"
+        }
+      },
+      "2026": {
+        "grade": 74.8,
+        "rank": 27,
+        "snaps": {
+          "off": "403",
+          "routes": "285",
+          "rblk": "115"
+        }
+      }
+    },
+    "stats_2026": {
+      "team": "GB",
+      "games": 8,
+      "tgt": 66,
+      "rec": 42,
+      "yds": 708,
+      "td": 6,
+      "epa_tgt": 0.463,
+      "epa": 30.5,
+      "adot": 13.4,
+      "sep": 2.38,
+      "yac_oe": 1.52,
+      "pff": 74.8,
+      "pff_rank": 27,
+      "routes": 285,
+      "yprr": 2.48,
+      "tprr": 0.232
+    },
+    "stats_2025": {
+      "team": "GB",
+      "games": 10,
+      "tgt": 55,
+      "rec": 35,
+      "yds": 611,
+      "td": 6,
+      "epa_tgt": 0.587,
+      "epa": 32.3,
+      "adot": 17.8,
+      "sep": 1.97,
+      "yac_oe": 0.8,
+      "pff": 82.7,
+      "pff_rank": 11,
+      "routes": 296,
+      "yprr": 2.06,
+      "tprr": 0.186
+    },
+    "splits_2026": {
+      "deep_tgt": 13,
+      "deep_catch": 0.46,
+      "deep_epa_tgt": 1.32,
+      "yac_rec": 4.7,
+      "short_catch": 0.69,
+      "rz_tgt": 7,
+      "third_down_conv": "10/23",
+      "fum_lost": 1
+    },
+    "splits_2025": {
+      "deep_tgt": 18,
+      "deep_catch": 0.44,
+      "deep_epa_tgt": 0.7,
+      "yac_rec": 3.4,
+      "short_catch": 0.72,
+      "rz_tgt": 6,
+      "third_down_conv": "12/21",
+      "fum_lost": 0
+    },
+    "usage_2026": {
+      "offensive_snaps": 402,
+      "games": 8
+    },
+    "summary_lines": [
+      "Christian Watson (GB) 2026: 8 g, 66 tgt, 42 rec, 708 yds, 6 TD, EPA/tgt 0.463, aDOT 13.4, NGS separation 2.38, YAC over expected 1.52, YPRR 2.48, TPRR 0.232, routes 285; deep (20+ air yds) 13 tgt catch 0.46 EPA/tgt 1.32, short (<10) catch 0.69, YAC/rec 4.7, red-zone tgt 7, 3rd/4th-down conv 10/23, fumbles lost 1",
+      "Christian Watson (GB) 2025: 10 g, 55 tgt, 35 rec, 611 yds, 6 TD, EPA/tgt 0.587, aDOT 17.8, NGS separation 1.97, YAC over expected 0.8, YPRR 2.06, TPRR 0.186, routes 296; deep (20+ air yds) 18 tgt catch 0.44 EPA/tgt 0.7, short (<10) catch 0.72, YAC/rec 3.4, red-zone tgt 6, 3rd/4th-down conv 12/21, fumbles lost 0",
+      "Christian Watson PFF WR offense grade 2026 74.8 (rank 27), 2025 82.7; 2026 PFF snaps {'off': '403', 'routes': '285', 'rblk': '115'}",
+      "Christian Watson 2026 usage: 402 offensive snaps in 8 games (nflverse snap_counts); age 27, 76 in, 215 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF drop rate, contested-catch rate and man/zone splits are paywalled; hands/contested traits judged from catch rates by depth, red-zone results and film-consensus style"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "CAR",
+      "BTK",
+      "SPM",
+      "JKM",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/wr/2026",
+        "retrieved_at": "2026-11-03T15:39:11Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/wr/2025",
+        "retrieved_at": "2026-11-03T15:39:11Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T15:39:11Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T15:39:11Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
+        "retrieved_at": "2026-11-03T15:39:11Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T15:39:11Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T15:39:11Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
