@@ -1,0 +1,39 @@
+# WR_REAUDIT_TIEBREAK_03 — Amon-Ra St. Brown vs Chris Olave (v1.1.2 head-to-head tiebreak; authorized by t45s347)
+
+```json
+{
+  "audit_id": "WR_REAUDIT_TIEBREAK_03_A1",
+  "task_id": "WR_REAUDIT_TIEBREAK_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Amon-Ra St. Brown",
+    "Chris Olave"
+  ],
+  "pair_result": {
+    "winner": "Amon-Ra St. Brown",
+    "loser": "Chris Olave",
+    "provisional_order_holds": true,
+    "reasoning": "Untested 8v9 (84/83). Olave leads 2026 PFF (87.3 vs 78.9) and EPA/tgt (+.528 vs +.313); YPRR is level (2.24 vs 2.21). St. Brown leads TPRR (.295 vs .250), TD (5 vs 2), short catch (79% vs 73%), YAC and all of 2025 (PFF 90.7 vs 78.0, 1,401 vs 1,163 yds, EPA/tgt +.323 vs +.228). St. Brown narrowly on two years.",
+    "key_evidence_for_winner": [
+      "Amon-Ra St. Brown PFF WR grade 2026 78.9, 2025 90.7; 2026 PFF snaps {'off': '409', 'routes': '258', 'rblk': '150'}; age 27, 72 in 202 lb",
+      "Amon-Ra St. Brown (DET) 2026: 7 g 76 tgt 571 yds 5 TD, EPA/tgt 0.313, YPRR 2.21, TPRR 0.295, NGS sep 2.88, aDOT 8.4, deep 5 tgt catch 0.4 EPA/tgt 0.48, short catch 0.79, YAC/rec 3.9, RZ tgt 16, 3rd/4th conv 10/25, fum lost 0",
+      "Amon-Ra St. Brown (DET) 2025: 17 g 172 tgt 1401 yds 11 TD, EPA/tgt 0.323, YPRR 2.38, TPRR 0.292, NGS sep 2.94, aDOT 8.1, deep 8 tgt catch 0.38 EPA/tgt 0.1, short catch 0.74, YAC/rec 4.9, RZ tgt 35, 3rd/4th conv 28/63, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Chris Olave PFF WR grade 2026 87.3, 2025 78.0; 2026 PFF snaps {'off': '387', 'routes': '284', 'rblk': '103'}; age 26, 72 in 185 lb",
+      "Chris Olave (NO) 2026: 7 g 71 tgt 636 yds 2 TD, EPA/tgt 0.528, YPRR 2.24, TPRR 0.25, NGS sep 2.78, aDOT 12.3, deep 15 tgt catch 0.4 EPA/tgt 0.39, short catch 0.73, YAC/rec 3.0, RZ tgt 8, 3rd/4th conv 16/23, fum lost 0",
+      "Chris Olave (NO) 2025: 16 g 156 tgt 1163 yds 9 TD, EPA/tgt 0.228, YPRR 1.86, TPRR 0.25, NGS sep 2.93, aDOT 11.8, deep 31 tgt catch 0.32 EPA/tgt 0.46, short catch 0.79, YAC/rec 2.9, RZ tgt 15, 3rd/4th conv 21/47, fum lost 0"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```

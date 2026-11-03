@@ -1,0 +1,233 @@
+{
+  "prepared_under": "t45s347",
+  "status": "DRAFT_NOT_APPLIED",
+  "revisions": [
+    {
+      "player": "CeeDee Lamb",
+      "current_ovr": 87,
+      "proposed_ovr": 88,
+      "attribute_changes": {
+        "SRR": "92->93",
+        "AWR": "88->89"
+      },
+      "reason": "H2H_03 narrow loss to Chase tightens gap; TIEBREAK_01 beats Higgins on volume, TPRR, two-year role",
+      "madden_ovr": 96,
+      "delta_vs_madden": -8,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Tee Higgins",
+      "current_ovr": 85,
+      "proposed_ovr": 87,
+      "attribute_changes": {
+        "AWR": "82->84",
+        "CTH": "86->87",
+        "DRR": "86->87"
+      },
+      "reason": "H2H_04 beats London (PFF 92.3, EPA/tgt +.836, deep EPA +1.47); TIEBREAK_01 narrow loss to Lamb",
+      "madden_ovr": 89,
+      "delta_vs_madden": -2,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Drake London",
+      "current_ovr": 85,
+      "proposed_ovr": 86,
+      "attribute_changes": {
+        "AWR": "84->85",
+        "MRR": "86->87"
+      },
+      "reason": "H2H_05 beats St. Brown; TIEBREAK_02 beats Flowers on two-year PFF, contested role, ball security; H2H_04 narrow loss to Higgins",
+      "madden_ovr": 93,
+      "delta_vs_madden": -7,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Zay Flowers",
+      "current_ovr": 84,
+      "proposed_ovr": 85,
+      "attribute_changes": {
+        "SRR": "88->89",
+        "AWR": "80->82"
+      },
+      "reason": "H2H_06 beats St. Brown on 2026 (YPRR 3.00, EPA/tgt +.436, deep EPA +1.56); TIEBREAK_02 narrow loss to London",
+      "madden_ovr": 90,
+      "delta_vs_madden": -5,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Chris Olave",
+      "current_ovr": 82,
+      "proposed_ovr": 83,
+      "attribute_changes": {
+        "AWR": "82->83",
+        "MRR": "86->87"
+      },
+      "reason": "H2H_07 beats Jefferson, H2H_08 beats Pickens; TIEBREAK_03 narrow loss to St. Brown",
+      "madden_ovr": 89,
+      "delta_vs_madden": -6,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Nico Collins",
+      "current_ovr": 80,
+      "proposed_ovr": 79,
+      "attribute_changes": {
+        "INJ": "70->68",
+        "ACC": "88->87"
+      },
+      "reason": "H2H_10 narrow loss to Nabers (5 g 2026, TPRR .207); TIEBREAK_06 edges Evans",
+      "madden_ovr": 90,
+      "delta_vs_madden": -11,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "Mike Evans",
+      "current_ovr": 79,
+      "proposed_ovr": 78,
+      "attribute_changes": {
+        "AGI": "70->68",
+        "STA": "78->76"
+      },
+      "reason": "H2H_11 beats DeVonta Smith; TIEBREAK_06 loses to Collins (age 33, Achilles + ribs, 368 yds 2025)",
+      "madden_ovr": 91,
+      "delta_vs_madden": -13,
+      "status": "DRAFT_NOT_APPLIED"
+    },
+    {
+      "player": "DeVonta Smith",
+      "current_ovr": 79,
+      "proposed_ovr": 77,
+      "attribute_changes": {
+        "INJ": "70->66",
+        "STR": "56->55",
+        "DRR": "84->83"
+      },
+      "reason": "H2H_11 loses to Evans: 2026 EPA/tgt +.020, YAC 1.8, hamstring out Weeks 7-8",
+      "madden_ovr": 92,
+      "delta_vs_madden": -15,
+      "status": "DRAFT_NOT_APPLIED"
+    }
+  ],
+  "proposed_order": [
+    {
+      "rank": 1,
+      "player": "Jaxon Smith-Njigba",
+      "ovr": 95,
+      "madden_ovr": 99,
+      "delta": -4
+    },
+    {
+      "rank": 2,
+      "player": "Puka Nacua",
+      "ovr": 93,
+      "madden_ovr": 98,
+      "delta": -5
+    },
+    {
+      "rank": 3,
+      "player": "Ja'Marr Chase",
+      "ovr": 90,
+      "madden_ovr": 99,
+      "delta": -9
+    },
+    {
+      "rank": 4,
+      "player": "CeeDee Lamb",
+      "ovr": 88,
+      "madden_ovr": 96,
+      "delta": -8
+    },
+    {
+      "rank": 5,
+      "player": "Tee Higgins",
+      "ovr": 87,
+      "madden_ovr": 89,
+      "delta": -2
+    },
+    {
+      "rank": 6,
+      "player": "Drake London",
+      "ovr": 86,
+      "madden_ovr": 93,
+      "delta": -7
+    },
+    {
+      "rank": 7,
+      "player": "Zay Flowers",
+      "ovr": 85,
+      "madden_ovr": 90,
+      "delta": -5
+    },
+    {
+      "rank": 8,
+      "player": "Amon-Ra St. Brown",
+      "ovr": 84,
+      "madden_ovr": 95,
+      "delta": -11
+    },
+    {
+      "rank": 9,
+      "player": "Chris Olave",
+      "ovr": 83,
+      "madden_ovr": 89,
+      "delta": -6
+    },
+    {
+      "rank": 10,
+      "player": "Justin Jefferson",
+      "ovr": 82,
+      "madden_ovr": 97,
+      "delta": -15
+    },
+    {
+      "rank": 11,
+      "player": "George Pickens",
+      "ovr": 81,
+      "madden_ovr": 88,
+      "delta": -7
+    },
+    {
+      "rank": 12,
+      "player": "Malik Nabers",
+      "ovr": 80,
+      "madden_ovr": 88,
+      "delta": -8
+    },
+    {
+      "rank": 13,
+      "player": "Nico Collins",
+      "ovr": 79,
+      "madden_ovr": 90,
+      "delta": -11
+    },
+    {
+      "rank": 14,
+      "player": "Mike Evans",
+      "ovr": 78,
+      "madden_ovr": 91,
+      "delta": -13
+    },
+    {
+      "rank": 15,
+      "player": "DeVonta Smith",
+      "ovr": 77,
+      "madden_ovr": 92,
+      "delta": -15
+    }
+  ],
+  "madden_order_verified": false,
+  "style_recheck": {
+    "too_similar_pairs": 0,
+    "max_corr": 0.919,
+    "max_corr_pair": [
+      "Tee Higgins",
+      "Drake London"
+    ],
+    "min_mad": 3.4,
+    "min_mad_pair": [
+      "Puka Nacua",
+      "Amon-Ra St. Brown"
+    ]
+  }
+}
