@@ -1,0 +1,172 @@
+{
+  "audit_id": "WR_REAUDIT_BG_03_A1",
+  "task_id": "WR_REAUDIT_BG_03",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "player_id": "ja_marr_chase",
+  "players": [
+    "Ja'Marr Chase"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Ja'Marr Chase",
+    "player_id": "ja_marr_chase",
+    "team": "CIN",
+    "age": 26,
+    "size": {
+      "ht_in": "72",
+      "wt_lb": "205"
+    },
+    "pff": {
+      "2025": {
+        "grade": 90.1,
+        "snaps": {
+          "off": "987",
+          "routes": "669",
+          "rblk": "316"
+        }
+      },
+      "2026": {
+        "grade": 84.9,
+        "rank": 10,
+        "snaps": {
+          "off": "359",
+          "routes": "248",
+          "rblk": "111"
+        }
+      }
+    },
+    "stats_2026": {
+      "team": "CIN",
+      "games": 7,
+      "tgt": 61,
+      "rec": 43,
+      "yds": 492,
+      "td": 6,
+      "epa_tgt": 0.462,
+      "epa": 28.2,
+      "adot": 10.4,
+      "sep": 3.06,
+      "yac_oe": 1.31,
+      "pff": 84.9,
+      "pff_rank": 10,
+      "routes": 248,
+      "yprr": 1.98,
+      "tprr": 0.246
+    },
+    "stats_2025": {
+      "team": "CIN",
+      "games": 16,
+      "tgt": 185,
+      "rec": 125,
+      "yds": 1412,
+      "td": 8,
+      "epa_tgt": 0.224,
+      "epa": 41.4,
+      "adot": 8.5,
+      "sep": 3.13,
+      "yac_oe": 1.32,
+      "pff": 90.1,
+      "pff_rank": 4,
+      "routes": 669,
+      "yprr": 2.11,
+      "tprr": 0.277
+    },
+    "splits_2026": {
+      "deep_tgt": 9,
+      "deep_catch": 0.44,
+      "deep_epa_tgt": 0.73,
+      "yac_rec": 3.5,
+      "short_catch": 0.79,
+      "rz_tgt": 10,
+      "third_down_conv": "10/14",
+      "fum_lost": 0
+    },
+    "splits_2025": {
+      "deep_tgt": 20,
+      "deep_catch": 0.25,
+      "deep_epa_tgt": 0.2,
+      "yac_rec": 5.1,
+      "short_catch": 0.77,
+      "rz_tgt": 22,
+      "third_down_conv": "24/49",
+      "fum_lost": 1
+    },
+    "usage_2026": {
+      "offensive_snaps": 360,
+      "games": 7
+    },
+    "summary_lines": [
+      "Ja'Marr Chase (CIN) 2026: 7 g, 61 tgt, 43 rec, 492 yds, 6 TD, EPA/tgt 0.462, aDOT 10.4, NGS separation 3.06, YAC over expected 1.31, YPRR 1.98, TPRR 0.246, routes 248; deep (20+ air yds) 9 tgt catch 0.44 EPA/tgt 0.73, short (<10) catch 0.79, YAC/rec 3.5, red-zone tgt 10, 3rd/4th-down conv 10/14, fumbles lost 0",
+      "Ja'Marr Chase (CIN) 2025: 16 g, 185 tgt, 125 rec, 1412 yds, 8 TD, EPA/tgt 0.224, aDOT 8.5, NGS separation 3.13, YAC over expected 1.32, YPRR 2.11, TPRR 0.277, routes 669; deep (20+ air yds) 20 tgt catch 0.25 EPA/tgt 0.2, short (<10) catch 0.77, YAC/rec 5.1, red-zone tgt 22, 3rd/4th-down conv 24/49, fumbles lost 1",
+      "Ja'Marr Chase PFF WR offense grade 2026 84.9 (rank 10), 2025 90.1; 2026 PFF snaps {'off': '359', 'routes': '248', 'rblk': '111'}",
+      "Ja'Marr Chase 2026 usage: 360 offensive snaps in 7 games (nflverse snap_counts); age 26, 72 in, 205 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF drop rate, contested-catch rate and man/zone splits are paywalled; hands/contested traits judged from catch rates by depth, red-zone results and film-consensus style"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "CAR",
+      "BTK",
+      "SPM",
+      "JKM",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/wr/2026",
+        "retrieved_at": "2026-11-03T14:51:33Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/wr/2025",
+        "retrieved_at": "2026-11-03T14:51:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T14:51:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T14:51:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
+        "retrieved_at": "2026-11-03T14:51:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T14:51:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T14:51:33Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
