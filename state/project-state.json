@@ -1810,7 +1810,7 @@
         "position": "WR",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/WR.reaudit.json",
       "baseline_file": "data/baselines/WR.json",
@@ -1892,7 +1892,8 @@
         "WR_REAUDIT_TIEBREAK_32",
         "WR_REAUDIT_TIEBREAK_33",
         "WR_REAUDIT_TIEBREAK_34",
-        "WR_REAUDIT_TIEBREAK_35"
+        "WR_REAUDIT_TIEBREAK_35",
+        "WR_REAUDIT_TIEBREAK_36"
       ],
       "audit_ids": [
         "WR_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -1985,7 +1986,7 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "WR_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-03T15:41:07.811Z",
+      "updated_at": "2026-11-03T15:41:08.063Z",
       "last_result": {
         "task_id": "WR_REAUDIT_TIEBREAK_36",
         "status": "FLAGGED",
@@ -1993,17 +1994,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "WR_REAUDIT_TIEBREAK_36",
-        "audit_id": "WR_REAUDIT_TIEBREAK_36_A1",
-        "pending": [
-          {
-            "task_id": "WR_REAUDIT_TIEBREAK_36",
-            "audit_id": "WR_REAUDIT_TIEBREAK_36_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -2702,6 +2693,14 @@
           "decision": "APPROVED",
           "task_id": "WR_REAUDIT_TIEBREAK_35",
           "audit_id": "WR_REAUDIT_TIEBREAK_35_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T15:41:07Z",
+          "note": "Commissioner approval t45s359 (tiebreaks for all 21 ceiling-flagged WRs vs Jefferson and Pickens)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_36",
+          "audit_id": "WR_REAUDIT_TIEBREAK_36_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T15:41:07Z",
           "note": "Commissioner approval t45s359 (tiebreaks for all 21 ceiling-flagged WRs vs Jefferson and Pickens)"
