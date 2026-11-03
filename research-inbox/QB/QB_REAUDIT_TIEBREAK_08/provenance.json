@@ -1,0 +1,152 @@
+{
+  "transport": "GROK_BOT_FILE_TRANSPORT",
+  "author": "grok-bot",
+  "task_id": "QB_REAUDIT_TIEBREAK_08",
+  "position": "QB",
+  "researched_at": "2026-11-03T01:08:15Z",
+  "queries": [
+    {
+      "query": "PFF NFL QB grades 2026 season",
+      "executed_at": "2026-11-02T18:15:34Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "PFF NFL QB grades 2025 season",
+      "executed_at": "2026-11-02T18:15:34Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "nflverse stats_player_reg 2026/2025, snap_counts 2026, roster 2026",
+      "executed_at": "2026-11-02T18:14:56.002Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "NFL.com 2026 schedule week 9",
+      "executed_at": "2026-11-02T18:15:34Z",
+      "purpose": "CALENDAR"
+    },
+    {
+      "query": "PFF QB grades 2026 and 2025 (player Jordan Love)",
+      "executed_at": "2026-11-02T19:18:10Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "nflverse stats_player_reg 2026/2025, snap_counts 2026, roster 2026 rows for Jordan Love (jordan_love)",
+      "executed_at": "2026-11-02T19:18:21Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "NFL.com 2026 schedule week 9 + official season dates (calendar, player subject jordan_love/GB)",
+      "executed_at": "2026-11-02T18:15:34Z",
+      "purpose": "CALENDAR"
+    },
+    {
+      "query": "nflverse play_by_play 2026/2025: Jordan Love depth splits, hit/clean, sack rate, scrambles vs designed runs (rating + style evidence)",
+      "executed_at": "2026-11-02T19:32:59Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "nflverse ftn_charting 2026/2025: Jordan Love play-action, out-of-pocket, blitz, interception-worthy, QB-fault sacks; search for jumping evidence",
+      "executed_at": "2026-11-02T23:54:32Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "PFF QB grades 2026 and 2025 (player Matthew Stafford)",
+      "executed_at": "2026-11-02T19:18:10Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "nflverse stats_player_reg 2026/2025, snap_counts 2026, roster 2026 rows for Matthew Stafford (matthew_stafford)",
+      "executed_at": "2026-11-02T19:18:21Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "NFL.com 2026 schedule week 9 + official season dates (calendar, player subject matthew_stafford/LA)",
+      "executed_at": "2026-11-02T18:15:34Z",
+      "purpose": "CALENDAR"
+    },
+    {
+      "query": "nflverse play_by_play 2026/2025: Matthew Stafford depth splits, hit/clean, sack rate, scrambles vs designed runs (rating + style evidence)",
+      "executed_at": "2026-11-02T19:32:59Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "nflverse ftn_charting 2026/2025: Matthew Stafford play-action, out-of-pocket, blitz, interception-worthy, QB-fault sacks; search for jumping evidence",
+      "executed_at": "2026-11-02T23:54:32Z",
+      "purpose": "EVIDENCE"
+    }
+  ],
+  "retrievals": [
+    {
+      "url": "https://www.pff.com/grades/nfl/qb/2026",
+      "retrieved_at": "2026-11-02T18:15:34Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://www.pff.com/grades/nfl/qb/2025",
+      "retrieved_at": "2026-11-02T18:15:34Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+      "retrieved_at": "2026-11-02T18:14:56.002Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+      "retrieved_at": "2026-11-02T18:14:58.851Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-02T18:14:56.970Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "retrieved_at": "2026-11-02T18:14:57.980Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://www.nfl.com/schedules/2026/reg9/",
+      "retrieved_at": "2026-11-02T18:15:34Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://media.nfl.com/news-and-releases/2026-nfl-regular-season-to-kick-off-wednesday--sept--9-in-seattl",
+      "retrieved_at": "2026-11-02T18:21:28Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://www.nfl.com/news/nfl-make-your-plan-to-watch-the-2026-nfl-preseason",
+      "retrieved_at": "2026-11-02T18:21:43Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+      "retrieved_at": "2026-11-02T18:21:16Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+      "retrieved_at": "2026-11-02T19:32:59Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+      "retrieved_at": "2026-11-02T19:32:59Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "method": "DETERMINISTIC_HELPER"
+    }
+  ],
+  "attestation": "All listed queries and retrievals were performed live for this task; no EA ratings used as evidence."
+}

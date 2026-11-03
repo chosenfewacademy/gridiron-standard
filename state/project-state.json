@@ -108,7 +108,10 @@
         "QB_REAUDIT_TIEBREAK_03",
         "QB_REAUDIT_TIEBREAK_04",
         "QB_REAUDIT_TIEBREAK_05",
-        "QB_REAUDIT_VARIANCE_AUDIT"
+        "QB_REAUDIT_VARIANCE_AUDIT",
+        "QB_REAUDIT_TIEBREAK_06",
+        "QB_REAUDIT_TIEBREAK_07",
+        "QB_REAUDIT_TIEBREAK_08"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
@@ -189,22 +192,21 @@
         "QB_REAUDIT_TIEBREAK_05_A1",
         "QB_REAUDIT_VARIANCE_AUDIT_A1",
         "QB_REAUDIT_RATE_02_A6",
-        "QB_REAUDIT_RATE_05_A3"
+        "QB_REAUDIT_RATE_05_A3",
+        "QB_REAUDIT_TIEBREAK_06_A1",
+        "QB_REAUDIT_TIEBREAK_07_A1",
+        "QB_REAUDIT_TIEBREAK_08_A1"
       ],
       "current_stage": "variance_audit",
       "current_task": "QB_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-03T01:07:01.614Z",
+      "updated_at": "2026-11-03T01:08:27.909Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_RATE_05",
-        "status": "REVISION_APPROVED",
-        "audit_id": "QB_REAUDIT_RATE_05_A3",
-        "supersedes": "QB_REAUDIT_RATE_05_A2",
+        "task_id": "QB_REAUDIT_TIEBREAK_08",
+        "status": "FLAGGED",
         "flags": [
-          "ELITE_TRAIT_PROPOSED: STR 90",
-          "LARGE_MADDEN_GAP: OVR 88 vs Madden 99 (reference only)",
-          "SEASON_SPLIT: 2025 aDOT #29 vs 2026 #5",
-          "VARIANCE_ADJUSTMENT:QB_REAUDIT_VARIANCE_AUDIT:PAC,BSK",
-          "VARIANCE_ADJUSTMENT:QB_REAUDIT_VARIANCE_AUDIT:BSK"
+          "PENDING_REVIEW: tiebreak result not approved (card t34s264)",
+          "TIE_BREAK: tied overall broken by contention order; pair verdict decides",
+          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
       "awaiting": null,
@@ -860,6 +862,30 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T01:07:01Z",
           "note": "Approved by the commissioner on card t34s264 (variance audit residual fix)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_06",
+          "audit_id": "QB_REAUDIT_TIEBREAK_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T01:08:27Z",
+          "note": "Approved by the commissioner on card t34s264 (evidence-based verdict; any rating change proposed only, not applied)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_07",
+          "audit_id": "QB_REAUDIT_TIEBREAK_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T01:08:27Z",
+          "note": "Approved by the commissioner on card t34s264 (evidence-based verdict; any rating change proposed only, not applied)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_08",
+          "audit_id": "QB_REAUDIT_TIEBREAK_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T01:08:27Z",
+          "note": "Approved by the commissioner on card t34s264 (evidence-based verdict; any rating change proposed only, not applied)"
         }
       ]
     },

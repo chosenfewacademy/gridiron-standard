@@ -1,0 +1,47 @@
+# QB TOP10_REAUDIT — tiebreak 06: Brock Purdy vs Drake Maye (Grok Bot analyst, attempt 1)
+
+EA ratings not used. Evidence: PFF 2026/2025, nflverse stats and play-by-play, FTN charting.
+
+```json
+{
+  "audit_id": "QB_REAUDIT_TIEBREAK_06_A1",
+  "task_id": "QB_REAUDIT_TIEBREAK_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Brock Purdy",
+    "Drake Maye"
+  ],
+  "pair_result": {
+    "winner": "Drake Maye",
+    "loser": "Brock Purdy",
+    "provisional_order_holds": false,
+    "reasoning": "Purdy (86) and Maye (86) are tied without a head-to-head; Purdy sits ahead only by contention order. Same weighting as TIEBREAK_03-05: Maye leads games-weighted EPA/dropback +.276 vs +.247 (Maye +.209 in 8 / +.308 in 17; Purdy +.290 in 7 / +.214 in 9), CPOE (+7.3/+10.8 vs +4.3/+7.2) and availability (25 vs 16 games). Purdy leads PFF (~85.7 vs ~81.1), EPA/play incl. rush (+.272 vs +.262), sack rate (3.2/3.7% vs 6.4/8.7%) and 2026 form. Maye 3-2 on the standard criteria, narrowly. Maye wins; proposed (not applied): Maye 86 -> 87.",
+    "key_evidence_for_winner": [
+      "Drake Maye PFF overall 2026 81.8 (#7), 2025 80.7 (#8)",
+      "Drake Maye 2026: 8 games, EPA/dropback +0.209, EPA/play incl. rush +0.231, CPOE +7.3, 15 TD / 8 INT, sack 6.4%, Y/A 8.47, rush EPA +16.0",
+      "Drake Maye 2025: 17 games, EPA/dropback +0.308, EPA/play incl. rush +0.276, CPOE +10.8, 31 TD / 8 INT",
+      "Drake Maye FTN interception-worthy rate 3.8% (2026), 2.8% (2025)"
+    ],
+    "key_evidence_for_loser": [
+      "Brock Purdy PFF overall 2026 86.1 (#4), 2025 85.4 (#6)",
+      "Brock Purdy 2026: 7 games, EPA/dropback +0.290, EPA/play incl. rush +0.310, CPOE +4.3, 15 TD / 4 INT, sack 3.2%, Y/A 8.28, rush EPA +14.4",
+      "Brock Purdy 2025: 9 games, EPA/dropback +0.214, EPA/play incl. rush +0.242, CPOE +7.2, 20 TD / 10 INT",
+      "Brock Purdy FTN interception-worthy rate 2.9% (2026), 3.8% (2025)"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": "Drake Maye 86 -> 87 (RATE_07 revision, proposed only; avoids a new tie)",
+    "adjustment_status": "PENDING_COMMISSIONER_REVIEW (drafted as an add-only revision, not run, not approved)"
+  },
+  "major_flags": [
+    "PENDING_REVIEW: tiebreak result not approved (card t34s264)",
+    "RATING_CONTRADICTION: verdict reverses rating order",
+    "TIE_BREAK: tied overall broken by contention order; pair verdict decides"
+  ],
+  "locked_control_conflict": false
+}
+```
