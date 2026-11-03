@@ -1,4 +1,4 @@
-# WR_REAUDIT_H2H_05 — Drake London vs Amon-Ra St. Brown (v1.1.2 head-to-head; authorized by t45s347)
+# WR_REAUDIT_H2H_05 — Chris Olave vs Justin Jefferson (v1.1.2 head-to-head; authorized by t45s353)
 
 ```json
 {
@@ -11,23 +11,23 @@
   "methodology_version": "1.1.0",
   "confidence": "LOW",
   "players": [
-    "Drake London",
-    "Amon-Ra St. Brown"
+    "Chris Olave",
+    "Justin Jefferson"
   ],
   "pair_result": {
-    "winner": "Drake London",
-    "loser": "Amon-Ra St. Brown",
+    "winner": "Chris Olave",
+    "loser": "Justin Jefferson",
     "provisional_order_holds": true,
-    "reasoning": "London leads 2026 PFF (86.0 vs 78.9), YPRR (2.57 vs 2.21), EPA/tgt (+.394 vs +.313), deep EPA (+1.03 vs +0.48) and YAC (7.1 vs 3.9). St. Brown leads TPRR (.295 vs .259), TD (5 vs 1), and 2025 (PFF 90.7 vs 88.0, 1,401 vs 919 yds, 35 RZ tgt). London narrowly on current season. Order holds.",
+    "reasoning": "82 tie. Olave leads 2026 PFF (87.3 vs 82.6), YPRR (2.24 vs 1.96), volume (636 yds/284 routes vs 335/171) and 2025 EPA/tgt (+.228 vs -.097). EPA/tgt is level in 2026 (+.528 vs +.531); Jefferson leads 2025 PFF (80.5 vs 78.0), deep catch 2026 (3/4) and 3rd down. Olave narrowly; Olave 83.",
     "key_evidence_for_winner": [
-      "Drake London PFF WR grade 2026 86.0, 2025 88.0; 2026 PFF snaps {'off': '442', 'routes': '243', 'rblk': '197'}; age 25, 76 in 215 lb",
-      "Drake London (ATL) 2026: 8 g 63 tgt 624 yds 1 TD, EPA/tgt 0.394, YPRR 2.57, TPRR 0.259, NGS sep 3.01, aDOT 10.0, deep 7 tgt catch 0.43 EPA/tgt 1.03, short catch 0.7, YAC/rec 7.1, RZ tgt 5, 3rd/4th conv 12/25, fum lost 0",
-      "Drake London (ATL) 2025: 12 g 113 tgt 919 yds 7 TD, EPA/tgt 0.219, YPRR 2.2, TPRR 0.271, NGS sep 2.63, aDOT 10.9, deep 17 tgt catch 0.41 EPA/tgt 0.36, short catch 0.66, YAC/rec 3.4, RZ tgt 16, 3rd/4th conv 12/34, fum lost 1"
+      "Chris Olave PFF WR grade 2026 87.3, 2025 78.0; 2026 PFF snaps {'off': '387', 'routes': '284', 'rblk': '103'}; age 26, 72 in 185 lb",
+      "Chris Olave (NO) 2026: 7 g 71 tgt 636 yds 2 TD, EPA/tgt 0.528, YPRR 2.24, TPRR 0.25, NGS sep 2.78, aDOT 12.3, deep 15 tgt catch 0.4 EPA/tgt 0.39, short catch 0.73, YAC/rec 3.0, RZ tgt 8, 3rd/4th conv 16/23, fum lost 0",
+      "Chris Olave (NO) 2025: 16 g 156 tgt 1163 yds 9 TD, EPA/tgt 0.228, YPRR 1.86, TPRR 0.25, NGS sep 2.93, aDOT 11.8, deep 31 tgt catch 0.32 EPA/tgt 0.46, short catch 0.79, YAC/rec 2.9, RZ tgt 15, 3rd/4th conv 21/47, fum lost 0"
     ],
     "key_evidence_for_loser": [
-      "Amon-Ra St. Brown PFF WR grade 2026 78.9, 2025 90.7; 2026 PFF snaps {'off': '409', 'routes': '258', 'rblk': '150'}; age 27, 72 in 202 lb",
-      "Amon-Ra St. Brown (DET) 2026: 7 g 76 tgt 571 yds 5 TD, EPA/tgt 0.313, YPRR 2.21, TPRR 0.295, NGS sep 2.88, aDOT 8.4, deep 5 tgt catch 0.4 EPA/tgt 0.48, short catch 0.79, YAC/rec 3.9, RZ tgt 16, 3rd/4th conv 10/25, fum lost 0",
-      "Amon-Ra St. Brown (DET) 2025: 17 g 172 tgt 1401 yds 11 TD, EPA/tgt 0.323, YPRR 2.38, TPRR 0.292, NGS sep 2.94, aDOT 8.1, deep 8 tgt catch 0.38 EPA/tgt 0.1, short catch 0.74, YAC/rec 4.9, RZ tgt 35, 3rd/4th conv 28/63, fum lost 0"
+      "Justin Jefferson PFF WR grade 2026 82.6, 2025 80.5; 2026 PFF snaps {'off': '288', 'routes': '171', 'rblk': '116'}; age 27, 73 in 192 lb",
+      "Justin Jefferson (MIN) 2026: 6 g 41 tgt 335 yds 4 TD, EPA/tgt 0.531, YPRR 1.96, TPRR 0.24, NGS sep 2.72, aDOT 10.0, deep 4 tgt catch 0.75 EPA/tgt 1.71, short catch 0.86, YAC/rec 3.5, RZ tgt 8, 3rd/4th conv 10/18, fum lost 0",
+      "Justin Jefferson (MIN) 2025: 17 g 142 tgt 1048 yds 2 TD, EPA/tgt -0.097, YPRR 1.78, TPRR 0.241, NGS sep 3.23, aDOT 10.2, deep 21 tgt catch 0.24 EPA/tgt -0.44, short catch 0.67, YAC/rec 5.4, RZ tgt 19, 3rd/4th conv 13/38, fum lost 0"
     ],
     "margin": "NARROW",
     "proposed_rating_adjustment": null,
