@@ -1810,7 +1810,7 @@
         "position": "WR",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/WR.reaudit.json",
       "baseline_file": "data/baselines/WR.json",
@@ -1887,18 +1887,23 @@
         "WR_REAUDIT_RATE_14_A1",
         "WR_REAUDIT_RATE_15_A1",
         "WR_REAUDIT_H2H_01_A1",
-        "WR_REAUDIT_H2H_02_A1"
+        "WR_REAUDIT_H2H_02_A1",
+        "WR_REAUDIT_H2H_03_A1"
       ],
       "current_stage": "pair_audits",
-      "current_task": "WR_REAUDIT_H2H_02",
-      "updated_at": "2026-11-03T15:16:56.583Z",
+      "current_task": "WR_REAUDIT_H2H_03",
+      "updated_at": "2026-11-03T15:16:57.603Z",
       "last_result": {
-        "task_id": "WR_REAUDIT_H2H_02",
+        "task_id": "WR_REAUDIT_H2H_03",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "WR_REAUDIT_H2H_03",
+        "audit_id": "WR_REAUDIT_H2H_03_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",

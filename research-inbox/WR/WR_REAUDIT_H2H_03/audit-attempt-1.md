@@ -1,4 +1,4 @@
-# WR_REAUDIT_H2H_03 — Ja'Marr Chase vs CeeDee Lamb (v1.1.2 head-to-head; authorized by t45s347)
+# WR_REAUDIT_H2H_03 — Tee Higgins vs Drake London (v1.1.2 head-to-head; authorized by t45s353)
 
 ```json
 {
@@ -11,23 +11,23 @@
   "methodology_version": "1.1.0",
   "confidence": "LOW",
   "players": [
-    "Ja'Marr Chase",
-    "CeeDee Lamb"
+    "Tee Higgins",
+    "Drake London"
   ],
   "pair_result": {
-    "winner": "Ja'Marr Chase",
-    "loser": "CeeDee Lamb",
+    "winner": "Tee Higgins",
+    "loser": "Drake London",
     "provisional_order_holds": true,
-    "reasoning": "2026 favors Lamb: PFF 89.7 vs 84.9, YPRR 2.40 vs 1.98, TPRR .318 vs .246, 709 vs 492 yds, deep EPA +1.16 vs +0.73. Chase leads 2026 EPA/tgt (+.462 vs +.345) and separation (3.06 vs 2.86), and 2025 clearly (PFF 90.1 vs 77.6, 185 tgt/1,412 yds vs 1,077). Chase narrowly on two years; gap tightens (Lamb 87->88).",
+    "reasoning": "85 tie. Higgins leads 2026 PFF (92.3 vs 86.0), EPA/tgt (+.836 vs +.394), YPRR (2.72 vs 2.57), yds (726 vs 624), TD (4 vs 1), deep EPA (+1.47 vs +1.03) and 3rd-down (10/15 vs 12/25). London leads 2025 PFF (88.0 vs 80.1), TPRR (.259 vs .232), short catch (70% vs 55%) and YAC (7.1 vs 3.9). Higgins narrowly.",
     "key_evidence_for_winner": [
-      "Ja'Marr Chase PFF WR grade 2026 84.9, 2025 90.1; 2026 PFF snaps {'off': '359', 'routes': '248', 'rblk': '111'}; age 26, 72 in 205 lb",
-      "Ja'Marr Chase (CIN) 2026: 7 g 61 tgt 492 yds 6 TD, EPA/tgt 0.462, YPRR 1.98, TPRR 0.246, NGS sep 3.06, aDOT 10.4, deep 9 tgt catch 0.44 EPA/tgt 0.73, short catch 0.79, YAC/rec 3.5, RZ tgt 10, 3rd/4th conv 10/14, fum lost 0",
-      "Ja'Marr Chase (CIN) 2025: 16 g 185 tgt 1412 yds 8 TD, EPA/tgt 0.224, YPRR 2.11, TPRR 0.277, NGS sep 3.13, aDOT 8.5, deep 20 tgt catch 0.25 EPA/tgt 0.2, short catch 0.77, YAC/rec 5.1, RZ tgt 22, 3rd/4th conv 24/49, fum lost 1"
+      "Tee Higgins PFF WR grade 2026 92.3, 2025 80.1; 2026 PFF snaps {'off': '358', 'routes': '267', 'rblk': '91'}; age 27, 76 in 220 lb",
+      "Tee Higgins (CIN) 2026: 7 g 62 tgt 726 yds 4 TD, EPA/tgt 0.836, YPRR 2.72, TPRR 0.232, NGS sep 2.37, aDOT 13.6, deep 8 tgt catch 0.5 EPA/tgt 1.47, short catch 0.55, YAC/rec 3.9, RZ tgt 6, 3rd/4th conv 10/15, fum lost 0",
+      "Tee Higgins (CIN) 2025: 15 g 99 tgt 846 yds 11 TD, EPA/tgt 0.364, YPRR 1.53, TPRR 0.179, NGS sep 1.85, aDOT 13.4, deep 25 tgt catch 0.44 EPA/tgt 1.0, short catch 0.64, YAC/rec 2.8, RZ tgt 16, 3rd/4th conv 15/31, fum lost 0"
     ],
     "key_evidence_for_loser": [
-      "CeeDee Lamb PFF WR grade 2026 89.7, 2025 77.6; 2026 PFF snaps {'off': '430', 'routes': '296', 'rblk': '132'}; age 27, 74 in 200 lb",
-      "CeeDee Lamb (DAL) 2026: 8 g 94 tgt 709 yds 6 TD, EPA/tgt 0.345, YPRR 2.4, TPRR 0.318, NGS sep 2.86, aDOT 9.9, deep 10 tgt catch 0.6 EPA/tgt 1.16, short catch 0.72, YAC/rec 3.5, RZ tgt 18, 3rd/4th conv 16/29, fum lost 0",
-      "CeeDee Lamb (DAL) 2025: 13 g 117 tgt 1077 yds 3 TD, EPA/tgt 0.248, YPRR 2.16, TPRR 0.235, NGS sep 2.77, aDOT 12.0, deep 21 tgt catch 0.57 EPA/tgt 1.28, short catch 0.75, YAC/rec 4.3, RZ tgt 17, 3rd/4th conv 18/34, fum lost 0"
+      "Drake London PFF WR grade 2026 86.0, 2025 88.0; 2026 PFF snaps {'off': '442', 'routes': '243', 'rblk': '197'}; age 25, 76 in 215 lb",
+      "Drake London (ATL) 2026: 8 g 63 tgt 624 yds 1 TD, EPA/tgt 0.394, YPRR 2.57, TPRR 0.259, NGS sep 3.01, aDOT 10.0, deep 7 tgt catch 0.43 EPA/tgt 1.03, short catch 0.7, YAC/rec 7.1, RZ tgt 5, 3rd/4th conv 12/25, fum lost 0",
+      "Drake London (ATL) 2025: 12 g 113 tgt 919 yds 7 TD, EPA/tgt 0.219, YPRR 2.2, TPRR 0.271, NGS sep 2.63, aDOT 10.9, deep 17 tgt catch 0.41 EPA/tgt 0.36, short catch 0.66, YAC/rec 3.4, RZ tgt 16, 3rd/4th conv 12/34, fum lost 1"
     ],
     "margin": "NARROW",
     "proposed_rating_adjustment": null,
