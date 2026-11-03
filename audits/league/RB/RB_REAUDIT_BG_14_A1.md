@@ -1,0 +1,150 @@
+# RB_REAUDIT_BG_14 — Braelon Allen background dossier (v1.1.2 stage 2)
+
+Auto-run under commissioner approval t41s302.
+
+```json
+{
+  "audit_id": "RB_REAUDIT_BG_14_A1",
+  "task_id": "RB_REAUDIT_BG_14",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "player_id": "braelon_allen",
+  "players": [
+    "Braelon Allen"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Braelon Allen",
+    "player_id": "braelon_allen",
+    "team": "NYJ",
+    "age": 22,
+    "size": {
+      "ht_in": "73",
+      "wt_lb": "235"
+    },
+    "pff": {
+      "2026": {
+        "overall": 82.4,
+        "rank": 8,
+        "snaps": {
+          "off": "327",
+          "run": "115",
+          "route": "135",
+          "pblk": "64"
+        }
+      },
+      "2025": {
+        "overall": null
+      }
+    },
+    "stats_2026": {
+      "car": 112,
+      "ryd": 565,
+      "ypc": 5.04,
+      "td": 3,
+      "epa_rush": 0.007,
+      "succ": 0.438,
+      "expl": 0.17,
+      "fum": 0,
+      "gl": 3,
+      "tgt": 22,
+      "rec": 17,
+      "recyd": 81,
+      "rec_epa": -4.5,
+      "ryoe_att": 1.2164295737576,
+      "ryoe": 132.590823539578,
+      "stack8": 25.8928571428572
+    },
+    "stats_2025": null,
+    "splits_2026": {
+      "rec_yac_per_rec": 4.41,
+      "runs20": 4,
+      "stuff_rate": 0.179,
+      "short_yd": "2/6"
+    },
+    "splits_2025": {
+      "rec_yac_per_rec": 4.5,
+      "runs20": 0,
+      "stuff_rate": 6.0,
+      "short_yd": "0/1"
+    },
+    "usage_2026": {
+      "offensive_snaps": 327,
+      "games": 8
+    },
+    "summary_lines": [
+      "Braelon Allen (NYJ) 2026: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6",
+      "Braelon Allen 2025: no qualifying carries in sample",
+      "Braelon Allen PFF HB overall 2026 82.4 (rank 8), 2025 None; 2026 PFF snaps off 327, run 115, routes 135, pass-block 64",
+      "Braelon Allen 2026 usage: 327 offensive snaps in 8 games (nflverse snap_counts); age 22, 73 in, 235 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF elusive rating, YCO/att and MTF are paywalled; contact/MTF judged from RYOE, stuff rate, success and film-consensus style, not a measured MTF count"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CAR",
+      "BCV",
+      "BTK",
+      "TRK",
+      "SFA",
+      "SPM",
+      "JKM",
+      "CTH",
+      "CIT",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/hb/2026",
+        "retrieved_at": "2026-11-03T08:19:55Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/hb/2025",
+        "retrieved_at": "2026-11-03T08:19:55Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:55Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:55Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:55Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T08:19:55Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T08:19:55Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
