@@ -92,6 +92,27 @@
       "claims": [
         "Drake Maye 2025: 17/17 team games, 493 att, aDOT 9.1, EPA/dropback +0.30, CPOE +10.8; deep (20+) 14.2% of att, 50.0% cmp, EPA +1.01; 10-19 yds 67.6% EPA +0.70; <10 yds 78.3%; hit 53.2% EPA +0.22 (n=47) vs clean 73.8%; sack rate 8.7%; 62 scrambles 429 yds, 21 designed runs 50 yds, 4 rush TD; 31 TD/8 INT; 3 fumbles lost"
       ]
+    },
+    {
+      "name": "nflverse FTN charting 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Drake Maye 2026 FTN charting (regular season): 250 dropbacks; play-action 18.4% EPA -0.19 vs non-PA +0.24; out of pocket 17.6% EPA +0.33, cmp 54.5%; vs blitz EPA +0.12 (n=72); interception-worthy 3.8% of attempts; QB-fault sacks 2 of 16",
+        "No jumping / elevated-throw measure exists in FTN charting, nflverse play-by-play, or PFF season grades"
+      ]
+    },
+    {
+      "name": "nflverse FTN charting 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Drake Maye 2025 FTN charting (regular season): 540 dropbacks; play-action 24.1% EPA +0.31 vs non-PA +0.29; out of pocket 16.3% EPA -0.07, cmp 42.0%; vs blitz EPA +0.36 (n=173); interception-worthy 2.8% of attempts; QB-fault sacks 13 of 47"
+      ]
     }
   ],
   "normalized": {
