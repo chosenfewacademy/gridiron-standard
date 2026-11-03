@@ -1,0 +1,13 @@
+{
+  "audit_id": "WR_REAUDIT_LOCK_20261103",
+  "task_id": "WR_REAUDIT_LOCK",
+  "task_type": "lock",
+  "audit_type": "TOP10_REAUDIT",
+  "position": "WR",
+  "status": "APPROVED",
+  "confirmation": "REAUDIT_REPLACE_BASELINE_WR",
+  "approved_by": "PhiXCrypto",
+  "created_at": "2026-11-03T15:52:30Z",
+  "new_baseline_file": "data/baselines/WR.reaudit-20261103.json",
+  "previous_baseline_file": "data/baselines/WR.json"
+}
