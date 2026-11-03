@@ -143,3 +143,6 @@ No frozen architectural rule was changed.
 - New `src/reaudit-lock.ts` (`reaudit:lock`): add-only new baseline, old baseline kept in locks history. Built and tested; not run.
 - Pending approvals: variance_audit gate widening; protected-paths exception for lock outputs.
 - 2026-11-02 (t33s4): variance_audit gate widening + sixth narrow guard exception (lock outputs) approved and implemented; lock id now <POS>_REAUDIT_LOCK_<YYYYMMDD>.
+
+## v1.1.2 addendum — league-wide ceiling check (card t35u)
+- Added `src/league-ceiling.ts`, `config/ceiling-metrics.json` (all positions), planner fields on the cross-audit task and a cross-audit validator; any flag blocks cross-audit approval. Read-only; no rating changes. Tests in `tests/stage-tests.ts`; docs in `docs/stage-engine.md` and AGENTS.md.

@@ -10,6 +10,7 @@
  * confirmation (see position-lock.ts). All gates, the revision ceiling, immutability and
  * REVIEW_MAJOR approval are unchanged.
  */
+import { ceilingConfig, ceilingCheckErrors } from "./league-ceiling.js";
 import fs from "node:fs";
 import path from "node:path";
 import type { Position, ProjectState } from "./types.js";
@@ -211,6 +212,7 @@ export function stageOutputErrors(task: Record<string, any>, audit: Record<strin
   }
   if (t === "scarcity_audit" && (!audit.scarcity || typeof audit.scarcity !== "object")) e.push("scarcity summary is required");
   if (t === "positional_cross_audit" && !audit.cross_audit_result) e.push("cross_audit_result is required");
+  if (t === "positional_cross_audit" && task?.league_ceiling_check_required) e.push(...ceilingCheckErrors(audit));
   return e;
 }
 
@@ -276,7 +278,8 @@ function planV112(pos: Position, done: Set<string>, I: ReturnType<typeof ids>, o
   if (!done.has(I.variance)) return mk("variance_audit", { task_id: I.variance, type: "variance_audit", players: order, baseline_controls: rated,
     variance_threshold: VARIANCE_THRESHOLD, variance_metrics: varianceMetrics(pos, opts.root), madden_reference_policy: "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT" });
   if (!done.has(I.scarcity)) return mk("scarcity_audit", { task_id: I.scarcity, type: "scarcity_audit", players: final, baseline_controls: rated });
-  if (!done.has(I.cross)) return mk("positional_cross_audit", { task_id: I.cross, type: "positional_cross_audit", players: final, baseline_controls: rated });
+  if (!done.has(I.cross)) return mk("positional_cross_audit", { task_id: I.cross, type: "positional_cross_audit", players: final, baseline_controls: rated,
+    league_ceiling_check_required: true, ceiling_references: order.slice(9, 11).map(player => ({ player, ovr: overall[player] })), ceiling_config: ceilingConfig(pos, opts.root) });
   return mk("lock", { task_id: I.lock, type: "lock", requires_commissioner_confirmation: ra ? `REAUDIT_REPLACE_BASELINE_${pos}` : `LOCK_${pos}`, players: final,
     final_order: order.map(player => ({ player, ovr: overall[player] })) });
 }

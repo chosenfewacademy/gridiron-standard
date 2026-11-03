@@ -217,3 +217,6 @@ scripts/protected-paths-check.mjs admits only the lock outputs: new `data/baseli
 locks.json points at, LOCKED, madden_order_verified false), the single-position `state/locks.json` pointer change + one appended history
 entry, and queue item IN_PROGRESS → COMPLETED with the appended lock audit id `<POS>_REAUDIT_LOCK_<YYYYMMDD>`. Real lock still needs
 the commissioner's separate confirmation.
+
+### Addendum v1.1.2 entry C — league-wide ceiling check (card t35u)
+Before any positional cross-audit is approved, run the league-wide ceiling check (`docs/stage-engine.md`): screen every rostered or free-agent player outside the audited pool with meaningful 2025-26 snaps against #10 and first-out. Any flag means the cross-audit is NOT approved; stop and report to the commissioner. Read-only; never changes a rating.

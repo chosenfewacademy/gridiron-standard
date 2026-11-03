@@ -38,6 +38,7 @@ export async function runRosterRefreshTests(test: T) {
   });
 }
 
+import { evaluateLeagueCeiling, ceilingCheckErrors, ceilingConfig } from "../src/league-ceiling.js";
 import { planNext, generatePairs, stageOutputErrors, ids, ratingAttributes, usesOrderV112, LEGACY_ORDER_TASK } from "../src/stage-engine.js";
 import { getNextTask } from "../src/state-machine.js";
 import { lockPosition } from "../src/position-lock.js";
@@ -287,7 +288,7 @@ export function runStageEngineTests(test: (n: string, f: () => void) => void) {
     const v: any = planNext(state, o); assert.equal(v.stage, "variance_audit"); assert.equal(v.task.task_id, "C_VARIANCE_AUDIT"); assert.equal(v.task.variance_threshold, 10);
     approve(I.variance, { variance_gaps: [], madden_used_as_evidence: false });
     assert.equal(planNext(state, o).stage, "scarcity_audit"); approve(I.scarcity, { scarcity: {} });
-    assert.equal(planNext(state, o).stage, "positional_cross_audit"); approve(I.cross, { cross_audit_result: "ok" });
+    assert.equal(planNext(state, o).stage, "positional_cross_audit"); assert.equal((planNext(state, o) as any).task.league_ceiling_check_required, true); approve(I.cross, { cross_audit_result: "ok", league_ceiling_check: { flagged: [], closest: [] } });
     assert.equal((planNext(state, o).task as any).requires_commissioner_confirmation, "LOCK_C");
   });
   test("v1.1.2 rating output uses the existing structure (ratings by madden-entry-order attributes, trait_confidence, proposed_ovr); Madden reference only", () => {
@@ -308,5 +309,17 @@ export function runStageEngineTests(test: (n: string, f: () => void) => void) {
   });
   test("locked positions (QB..LT) cannot be planned", () => {
     for (const pos of ["QB", "RB", "WR", "TE", "LT"]) assert.throws(() => planNext({ ...REAL_STATE, current_position: pos }), /LOCKED/);
+  });
+  test("league ceiling check: read-only screen flags comparable outsiders and blocks cross-audit", () => {
+    const cfg = ceilingConfig("QB")!; assert.ok(cfg && cfg.metrics.length >= 5);
+    for (const p of ["RB", "WR", "LT", "CB", "K"]) assert.ok(ceilingConfig(p), `ceiling config for ${p}`);
+    const refs = [{ name: "R10", pff: 80, epa_db: 0.11, cpoe: 0, twp: 3, sack: 6.7, games: 24, db: 800 }, { name: "R11", pff: 76, epa_db: 0.13, cpoe: 0.7, twp: 2.8, sack: 5.5, games: 21, db: 780 }];
+    const cands = [{ name: "Hot", pff: 77, epa_db: 0.12, cpoe: 3, twp: 4, sack: 5, games: 11, db: 300 },
+      { name: "Small", pff: 90, epa_db: 0.3, cpoe: 5, twp: 1, sack: 3, games: 3, db: 90 },
+      { name: "Meh", pff: 60, epa_db: -0.1, cpoe: 1, twp: 2, sack: 7, games: 17, db: 500 }, { name: "R10", pff: 99, db: 900 }];
+    const r = evaluateLeagueCeiling("QB", cfg, refs, cands, ["R10", "R11"]);
+    assert.deepEqual(r.flagged.map(f => f.name), ["Hot"]); assert.deepEqual(r.closest.map(c => c.name), ["Meh"]); assert.deepEqual(r.rating_changes, []);
+    assert.ok(ceilingCheckErrors({}).length && ceilingCheckErrors({ league_ceiling_check: { flagged: [{ name: "Hot" }], closest: [] } }).some(e => /Hot/.test(e)));
+    assert.deepEqual(ceilingCheckErrors({ league_ceiling_check: { flagged: [], closest: [] } }), []);
   });
 }

@@ -65,3 +65,19 @@ FB and LS have rating inputs and candidate pools but are not in the v1.0 sequenc
 
 ### Variance audit and lock (2026-11-02)
 `<POS>_VARIANCE_AUDIT` runs after head-to-heads and before scarcity. Output: `variance_gaps[]` (player, attr, madden, ours, verdict SUPPORTED|ADJUST, key_stats, proposed_revision for ADJUST) and `madden_used_as_evidence: false`. Metrics: `config/variance-metrics.json`. Lock task carries `final_order`; `reaudit:lock` consumes `REAUDIT_REPLACE_BASELINE_<POS>`.
+
+## League-wide ceiling check (v1.1.2 addendum, card t35u)
+
+Before the positional cross-audit can be approved, every rostered or free-agent player at the position
+**outside** the audited pool with meaningful 2025-26 snaps (starters, recent starters, notable backups,
+rookies) is screened against the #10 and first-out (#11) players. Read-only and add-only: it never changes
+a rating, and Madden is never an input.
+
+- Config: `config/ceiling-metrics.json` (all positions; QB screens PFF grade, EPA/dropback, CPOE,
+  turnover-worthy rate, sack rate, games).
+- Rule: FLAG when the sample is at least `min_sample` and the player matches or beats the weaker of the two
+  references on at least `min_hits` (3) metrics, including at least one production metric (PFF or value/EPA).
+- Code: `src/league-ceiling.ts` (`evaluateLeagueCeiling`, `ceilingCheckErrors`). The planner adds
+  `league_ceiling_check_required` and `ceiling_references` to the cross-audit task; the validator requires
+  `league_ceiling_check { flagged, closest }` and rejects the cross-audit while anyone is flagged.
+- The next 5 closest non-flagged players are always reported.
