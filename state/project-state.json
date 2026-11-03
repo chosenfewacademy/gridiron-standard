@@ -1810,7 +1810,7 @@
         "position": "WR",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/WR.reaudit.json",
       "baseline_file": "data/baselines/WR.json",
@@ -1912,7 +1912,8 @@
         "WR_REAUDIT_TIEBREAK_52",
         "WR_REAUDIT_TIEBREAK_53",
         "WR_REAUDIT_TIEBREAK_54",
-        "WR_REAUDIT_TIEBREAK_55"
+        "WR_REAUDIT_TIEBREAK_55",
+        "WR_REAUDIT_BG_16"
       ],
       "audit_ids": [
         "WR_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -2025,18 +2026,14 @@
       ],
       "current_stage": "background_analysis",
       "current_task": "WR_REAUDIT_BG_16",
-      "updated_at": "2026-11-03T15:42:12.298Z",
+      "updated_at": "2026-11-03T15:42:12.572Z",
       "last_result": {
         "task_id": "WR_REAUDIT_BG_16",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "WR_REAUDIT_BG_16",
-        "audit_id": "WR_REAUDIT_BG_16_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -2898,6 +2895,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T15:41:50Z",
           "note": "Commissioner approval t45s359 (rate and test ceiling winners; Watson vs Washington order)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_16",
+          "audit_id": "WR_REAUDIT_BG_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T15:42:12Z",
+          "note": "Commissioner approval t45s359 (fully rate and test ceiling winners)"
         }
       ]
     },
