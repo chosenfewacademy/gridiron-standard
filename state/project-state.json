@@ -1135,16 +1135,17 @@
         "RB_REAUDIT_RATE_11_A2",
         "RB_REAUDIT_RATE_14_A2",
         "RB_REAUDIT_RATE_12_A2",
-        "RB_REAUDIT_RATE_06_A2"
+        "RB_REAUDIT_RATE_06_A2",
+        "RB_REAUDIT_RATE_08_A3"
       ],
       "current_stage": "pair_audits",
       "current_task": "RB_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T08:45:13.318Z",
+      "updated_at": "2026-11-03T08:45:13.597Z",
       "last_result": {
-        "task_id": "RB_REAUDIT_RATE_06",
+        "task_id": "RB_REAUDIT_RATE_08",
         "status": "REVISION_APPROVED",
-        "audit_id": "RB_REAUDIT_RATE_06_A2",
-        "supersedes": "RB_REAUDIT_RATE_06_A1",
+        "audit_id": "RB_REAUDIT_RATE_08_A3",
+        "supersedes": "RB_REAUDIT_RATE_08_A2",
         "flags": []
       },
       "awaiting": null,
@@ -1640,6 +1641,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T08:45:13Z",
           "note": "Variance-audit evidence fix (t41s314, t42u): Variance audit (t42u): BTK 74 was 13 below Madden and ranked 13/14 in the group while Cook's RYOE/att (+0.78, 5th) and stuff rate (10.1%, 2nd lowest) "
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RB_REAUDIT_RATE_08",
+          "audit_id": "RB_REAUDIT_RATE_08_A3",
+          "supersedes": "RB_REAUDIT_RATE_08_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T08:45:13Z",
+          "note": "Variance-audit evidence fix (t41s314, t42u): Variance audit (t42u): INJ 80 was 11 below Madden and ranked 11/14 while Taylor has played every 2026 game (412 snaps, most in group) and carried 324 "
         }
       ]
     },
