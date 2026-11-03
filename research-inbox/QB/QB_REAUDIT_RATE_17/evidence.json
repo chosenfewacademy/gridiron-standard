@@ -92,6 +92,27 @@
       "claims": [
         "Sam Darnold 2025: 17/17 team games, 479 att, aDOT 7.9, EPA/dropback +0.13, CPOE +5.2; deep (20+) 11.1% of att, 52.8% cmp, EPA +0.99; 10-19 yds 59.3% EPA +0.47; <10 yds 73.3%; hit 50.0% EPA -0.11 (n=36) vs clean 68.8%; sack rate 5.4%; 14 scrambles 89 yds, 8 designed runs 19 yds, 0 rush TD; 25 TD/14 INT; 6 fumbles lost"
       ]
+    },
+    {
+      "name": "nflverse FTN charting 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Sam Darnold 2026 FTN charting (regular season): 190 dropbacks; play-action 23.7% EPA -0.14 vs non-PA -0.02; out of pocket 21.6% EPA -0.36, cmp 39.0%; vs blitz EPA +0.03 (n=71); interception-worthy 4.5% of attempts; QB-fault sacks 8 of 14",
+        "No jumping / elevated-throw measure exists in FTN charting, nflverse play-by-play, or PFF season grades"
+      ]
+    },
+    {
+      "name": "nflverse FTN charting 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Sam Darnold 2025 FTN charting (regular season): 502 dropbacks; play-action 25.1% EPA +0.45 vs non-PA +0.02; out of pocket 17.1% EPA +0.33, cmp 60.5%; vs blitz EPA +0.04 (n=160); interception-worthy 3.8% of attempts; QB-fault sacks 14 of 27"
+      ]
     }
   ],
   "normalized": {
