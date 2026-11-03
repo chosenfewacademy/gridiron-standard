@@ -1138,15 +1138,17 @@
         "RB_REAUDIT_RATE_12_A2",
         "RB_REAUDIT_RATE_06_A2",
         "RB_REAUDIT_RATE_08_A3",
-        "RB_REAUDIT_VARIANCE_AUDIT_A1"
+        "RB_REAUDIT_VARIANCE_AUDIT_A1",
+        "RB_REAUDIT_RATE_05_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "RB_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-03T08:45:47.852Z",
+      "updated_at": "2026-11-03T08:46:06.193Z",
       "last_result": {
-        "task_id": "RB_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
-        "errors": [],
+        "task_id": "RB_REAUDIT_RATE_05",
+        "status": "REVISION_APPROVED",
+        "audit_id": "RB_REAUDIT_RATE_05_A2",
+        "supersedes": "RB_REAUDIT_RATE_05_A1",
         "flags": []
       },
       "awaiting": null,
@@ -1659,6 +1661,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T08:45:47Z",
           "note": "Commissioner approval t41s314 (run the variance audit) + t42u (audit the double-digit drop-offs from Madden)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RB_REAUDIT_RATE_05",
+          "audit_id": "RB_REAUDIT_RATE_05_A2",
+          "supersedes": "RB_REAUDIT_RATE_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T08:46:05Z",
+          "note": "Scarcity consistency fix (t41s314): Scarcity consistency (t41s314): ACC 95 is a rare/league-defining tier but Tuten's evidence is LOW-confidence (110 carries, 10+ run rate 11%, 2 runs of"
         }
       ]
     },
