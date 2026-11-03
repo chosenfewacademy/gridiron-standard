@@ -3194,7 +3194,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.json",
@@ -3213,18 +3213,23 @@
         "TE_REAUDIT_CANDIDATE_AUDIT_A1",
         "TE_REAUDIT_BG_01_A1",
         "TE_REAUDIT_BG_02_A1",
-        "TE_REAUDIT_BG_03_A1"
+        "TE_REAUDIT_BG_03_A1",
+        "TE_REAUDIT_BG_04_A1"
       ],
       "current_stage": "background_analysis",
-      "current_task": "TE_REAUDIT_BG_03",
-      "updated_at": "2026-11-03T21:15:00.146Z",
+      "current_task": "TE_REAUDIT_BG_04",
+      "updated_at": "2026-11-03T21:15:01.061Z",
       "last_result": {
-        "task_id": "TE_REAUDIT_BG_03",
+        "task_id": "TE_REAUDIT_BG_04",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "TE_REAUDIT_BG_04",
+        "audit_id": "TE_REAUDIT_BG_04_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
