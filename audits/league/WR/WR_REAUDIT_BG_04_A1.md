@@ -1,0 +1,177 @@
+# WR_REAUDIT_BG_04 — Tee Higgins background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t45u.
+
+```json
+{
+  "audit_id": "WR_REAUDIT_BG_04_A1",
+  "task_id": "WR_REAUDIT_BG_04",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "player_id": "ext_00-0036410",
+  "players": [
+    "Tee Higgins"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Tee Higgins",
+    "player_id": "ext_00-0036410",
+    "team": "CIN",
+    "age": 27,
+    "size": {
+      "ht_in": "76",
+      "wt_lb": "220"
+    },
+    "pff": {
+      "2026": {
+        "grade": 92.3,
+        "rank": 3,
+        "snaps": {
+          "off": "358",
+          "routes": "267",
+          "rblk": "91"
+        }
+      },
+      "2025": {
+        "grade": 80.1,
+        "snaps": {
+          "off": "768",
+          "routes": "553",
+          "rblk": "214"
+        }
+      }
+    },
+    "stats_2026": {
+      "team": "CIN",
+      "games": 7,
+      "tgt": 62,
+      "rec": 43,
+      "yds": 726,
+      "td": 4,
+      "epa_tgt": 0.836,
+      "epa": 51.9,
+      "adot": 13.6,
+      "sep": 2.37,
+      "yac_oe": 1.63,
+      "pff": 92.3,
+      "pff_rank": 3,
+      "routes": 267,
+      "yprr": 2.72,
+      "tprr": 0.232
+    },
+    "stats_2025": {
+      "team": "CIN",
+      "games": 15,
+      "tgt": 99,
+      "rec": 59,
+      "yds": 846,
+      "td": 11,
+      "epa_tgt": 0.364,
+      "epa": 36.0,
+      "adot": 13.4,
+      "sep": 1.85,
+      "yac_oe": 0.37,
+      "pff": 80.1,
+      "pff_rank": 18,
+      "routes": 553,
+      "yprr": 1.53,
+      "tprr": 0.179
+    },
+    "splits_2026": {
+      "deep_tgt": 8,
+      "deep_catch": 0.5,
+      "deep_epa_tgt": 1.47,
+      "yac_rec": 3.9,
+      "short_catch": 0.55,
+      "rz_tgt": 6,
+      "third_down_conv": "10/15",
+      "fum_lost": 0
+    },
+    "splits_2025": {
+      "deep_tgt": 25,
+      "deep_catch": 0.44,
+      "deep_epa_tgt": 1.0,
+      "yac_rec": 2.8,
+      "short_catch": 0.64,
+      "rz_tgt": 16,
+      "third_down_conv": "15/31",
+      "fum_lost": 0
+    },
+    "usage_2026": {
+      "offensive_snaps": 358,
+      "games": 7
+    },
+    "summary_lines": [
+      "Tee Higgins (CIN) 2026: 7 g, 62 tgt, 43 rec, 726 yds, 4 TD, EPA/tgt 0.836, aDOT 13.6, NGS separation 2.37, YAC over expected 1.63, YPRR 2.72, TPRR 0.232, routes 267; deep (20+ air yds) 8 tgt catch 0.5 EPA/tgt 1.47, short (<10) catch 0.55, YAC/rec 3.9, red-zone tgt 6, 3rd/4th-down conv 10/15, fumbles lost 0",
+      "Tee Higgins (CIN) 2025: 15 g, 99 tgt, 59 rec, 846 yds, 11 TD, EPA/tgt 0.364, aDOT 13.4, NGS separation 1.85, YAC over expected 0.37, YPRR 1.53, TPRR 0.179, routes 553; deep (20+ air yds) 25 tgt catch 0.44 EPA/tgt 1.0, short (<10) catch 0.64, YAC/rec 2.8, red-zone tgt 16, 3rd/4th-down conv 15/31, fumbles lost 0",
+      "Tee Higgins PFF WR offense grade 2026 92.3 (rank 3), 2025 80.1; 2026 PFF snaps {'off': '358', 'routes': '267', 'rblk': '91'}",
+      "Tee Higgins 2026 usage: 358 offensive snaps in 7 games (nflverse snap_counts); age 27, 76 in, 220 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF drop rate, contested-catch rate and man/zone splits are paywalled; hands/contested traits judged from catch rates by depth, red-zone results and film-consensus style"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "CAR",
+      "BTK",
+      "SPM",
+      "JKM",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/wr/2026",
+        "retrieved_at": "2026-11-03T14:51:34Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/wr/2025",
+        "retrieved_at": "2026-11-03T14:51:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T14:51:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T14:51:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
+        "retrieved_at": "2026-11-03T14:51:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T14:51:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T14:51:34Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
