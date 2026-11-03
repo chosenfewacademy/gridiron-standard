@@ -1,0 +1,438 @@
+# RB_REAUDIT_RATE_14 — Braelon Allen rating (v1.1.2 stage 3, per-attribute judgment; authorized by t41s302)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "RB_REAUDIT_RATE_14_A1",
+  "task_id": "RB_REAUDIT_RATE_14",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "player_id": "braelon_allen",
+  "players": [
+    "Braelon Allen"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 85,
+    "ACC": 82,
+    "AGI": 76,
+    "COD": 78,
+    "STR": 86,
+    "AWR": 72,
+    "CAR": 88,
+    "BCV": 74,
+    "BTK": 80,
+    "TRK": 88,
+    "SFA": 80,
+    "SPM": 64,
+    "JKM": 70,
+    "CTH": 64,
+    "CIT": 50,
+    "SRR": 58,
+    "MRR": 50,
+    "DRR": 44,
+    "RLS": 50,
+    "JMP": 74,
+    "INJ": 86,
+    "STA": 82,
+    "TGH": 82
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "MEDIUM",
+    "AWR": "MEDIUM",
+    "CAR": "MEDIUM",
+    "BCV": "MEDIUM",
+    "BTK": "MEDIUM",
+    "TRK": "MEDIUM",
+    "SFA": "MEDIUM",
+    "SPM": "LOW",
+    "JKM": "MEDIUM",
+    "CTH": "MEDIUM",
+    "CIT": "LOW",
+    "SRR": "MEDIUM",
+    "MRR": "MEDIUM",
+    "DRR": "LOW",
+    "RLS": "LOW",
+    "JMP": "LOW",
+    "INJ": "LOW",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): short-yardage conv and size (235 lb): 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Listed weakness area: agility, vision, receiving, short yardage",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 None. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BCV": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Listed weakness area: agility, vision, receiving, short yardage",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (contact): RYOE/stuff rate: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TRK": {
+      "basis": "Judgment (power): short-yardage conv and size (235 lb): 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SFA": {
+      "basis": "Judgment (power): short-yardage conv and size (235 lb): 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SPM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JKM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6; routes 135. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Listed weakness area: agility, vision, receiving, short yardage",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6; routes 135. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Listed weakness area: agility, vision, receiving, short yardage",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6; routes 135. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Listed weakness area: agility, vision, receiving, short yardage",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6; routes 135. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Listed weakness area: agility, vision, receiving, short yardage",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6; routes 135. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Listed weakness area: agility, vision, receiving, short yardage",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6; routes 135. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Listed weakness area: agility, vision, receiving, short yardage",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (athletic): size/age 235 lb age 22; explosive plays: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Braelon Allen 2026 usage: 327 offensive snaps in 8 games (nflverse snap_counts); age 22, 73 in, 235 lb; roster status ACT; 2025: no qualifying carries in sample. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Braelon Allen 2026 usage: 327 offensive snaps in 8 games (nflverse snap_counts); age 22, 73 in, 235 lb; roster status ACT; PFF snaps {'off': '327', 'run': '115', 'route': '135', 'pblk': '64'}. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Braelon Allen 2026 usage: 327 offensive snaps in 8 games (nflverse snap_counts); age 22, 73 in, 235 lb; roster status ACT; PFF snaps {'off': '327', 'run': '115', 'route': '135', 'pblk': '64'}. Style: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 74,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden. Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+  "style_profile": "Braelon Allen: Young 235-lb power back: RYOE +1.22 and PFF 82.4 at age 22 with trucking and size; lateral agility, vision, hands (4.4 YAC/rec) and short-yardage results (2/6) are still developing.",
+  "style_evidence": [
+    "Braelon Allen (NYJ) 2026: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 17 rec 81 rec yds, rec YAC/rec 4.41, 20+ runs 4, stuff rate 17.9%, 3rd/4th-and-<=2 conv 2/6",
+    "Braelon Allen 2025: no qualifying carries in sample",
+    "Braelon Allen PFF HB overall 2026 82.4 (rank 8), 2025 None; 2026 PFF snaps off 327, run 115, routes 135, pass-block 64",
+    "Braelon Allen 2026 usage: 327 offensive snaps in 8 games (nflverse snap_counts); age 22, 73 in, 235 lb; roster status ACT"
+  ],
+  "input_dossier": "RB_REAUDIT_BG_14_A1",
+  "weaknesses": [
+    "agility",
+    "vision",
+    "receiving",
+    "short yardage"
+  ],
+  "madden_reference": [
+    {
+      "player": "Braelon Allen",
+      "ovr": 78,
+      "attributes": {
+        "SPD": 88,
+        "ACC": 89,
+        "AGI": 83,
+        "COD": 85,
+        "STR": 79,
+        "AWR": 81,
+        "CAR": 90,
+        "BCV": 80,
+        "BTK": 85,
+        "TRK": 90,
+        "SFA": 81,
+        "SPM": 74,
+        "JKM": 83,
+        "CTH": 64,
+        "CIT": 51,
+        "SRR": 62,
+        "MRR": 55,
+        "DRR": 50,
+        "RLS": 54,
+        "JMP": 78,
+        "INJ": 84,
+        "STA": 86,
+        "TGH": 84
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -4,
+      "delta_attributes": {
+        "SPD": -3,
+        "ACC": -7,
+        "AGI": -7,
+        "COD": -7,
+        "STR": 7,
+        "AWR": -9,
+        "CAR": -2,
+        "BCV": -6,
+        "BTK": -5,
+        "TRK": -2,
+        "SFA": -1,
+        "SPM": -10,
+        "JKM": -13,
+        "CTH": 0,
+        "CIT": -1,
+        "SRR": -4,
+        "MRR": -5,
+        "DRR": -6,
+        "RLS": -4,
+        "JMP": -4,
+        "INJ": 2,
+        "STA": -4,
+        "TGH": -2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RB, retrieved 2026-11-02 ET)"
+    }
+  ],
+  "variance_check": {
+    "ovr_gap": 4,
+    "attribute_gaps_10plus": {
+      "SPM": -10,
+      "JKM": -13
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t41s302"
+}
+```
