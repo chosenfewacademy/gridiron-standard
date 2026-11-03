@@ -1,4 +1,4 @@
-# WR_REAUDIT_TIEBREAK_06 — Nico Collins vs Mike Evans (v1.1.2 head-to-head tiebreak; authorized by t45s347)
+# WR_REAUDIT_TIEBREAK_06 — Nico Collins vs Mike Evans (v1.1.2 head-to-head tiebreak; authorized by t45s353)
 
 ```json
 {
