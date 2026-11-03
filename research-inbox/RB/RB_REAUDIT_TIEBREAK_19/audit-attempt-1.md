@@ -1,0 +1,39 @@
+# RB_REAUDIT_TIEBREAK_19 — Chuba Hubbard vs Kyle Monangai (v1.1.2 head-to-head tiebreak; authorized by t42s323)
+
+```json
+{
+  "audit_id": "RB_REAUDIT_TIEBREAK_19_A1",
+  "task_id": "RB_REAUDIT_TIEBREAK_19",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Chuba Hubbard",
+    "Kyle Monangai"
+  ],
+  "pair_result": {
+    "winner": "Chuba Hubbard",
+    "loser": "Kyle Monangai",
+    "provisional_order_holds": true,
+    "reasoning": "Ceiling flag vs Hubbard. Monangai's 2026 is efficient but a backup sample (60 carries, 129 snaps: 5.40 ypc, RYOE +1.17, EPA +.097, PFF 74.6); 2025 PFF 67.4, RYOE +0.27. Hubbard leads PFF (84.1), volume (119 car, 394 snaps), receiving (150 vs 39 yds), pass pro and short-yardage (11/14 vs 3/5). Hubbard on role and sample.",
+    "key_evidence_for_winner": [
+      "Chuba Hubbard PFF HB overall 2026 84.1, 2025 69.9; 2026 PFF snaps {'off': '394', 'run': '128', 'route': '184', 'pblk': '79'}; age 27, 216 lb",
+      "Chuba Hubbard (CAR) 2026: 119 car 4.54 ypc, EPA/rush +0.058, success 46%, 10+ run rate 11%, RYOE/att 0.76, stuff 12.6%, short-yd 11/14, fumbles lost 0, 150 rec yds (rec EPA +12.6), YAC/rec 7.86",
+      "Chuba Hubbard (CAR) 2025: 135 car 3.79 ypc, EPA/rush -0.116, success 41%, 10+ run rate 6%, RYOE/att -0.22, stuff 12.6%, short-yd 8/11, fumbles lost 1, 223 rec yds (rec EPA +4.6), YAC/rec 9.7"
+    ],
+    "key_evidence_for_loser": [
+      "Kyle Monangai PFF HB overall 2026 74.6, 2025 67.4; 2026 PFF snaps {'off': '129'}; age 24, 209 lb",
+      "Kyle Monangai (CHI) 2026: 60 car 5.4 ypc, EPA/rush +0.097, success 42%, 10+ run rate 12%, RYOE/att 1.17, stuff 13.3%, short-yd 3/5, fumbles lost 0, 39 rec yds (rec EPA +0.5), YAC/rec 7.0",
+      "Kyle Monangai (CHI) 2025: 171 car 4.6 ypc, EPA/rush +0.021, success 46%, 10+ run rate 9%, RYOE/att 0.27, stuff 14.0%, short-yd 7/11, fumbles lost 0, 164 rec yds (rec EPA -7.3), YAC/rec 9.0"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
