@@ -1,0 +1,493 @@
+# RB_REAUDIT_RATE_02 — Jahmyr Gibbs rating (v1.1.2 stage 3, per-attribute judgment; authorized by t41s302)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "RB_REAUDIT_RATE_02_A2",
+  "task_id": "RB_REAUDIT_RATE_02",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "player_id": "jahmyr_gibbs",
+  "players": [
+    "Jahmyr Gibbs"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 96,
+    "ACC": 95,
+    "AGI": 90,
+    "COD": 90,
+    "STR": 68,
+    "AWR": 84,
+    "CAR": 86,
+    "BCV": 86,
+    "BTK": 76,
+    "TRK": 70,
+    "SFA": 66,
+    "SPM": 84,
+    "JKM": 90,
+    "CTH": 80,
+    "CIT": 66,
+    "SRR": 80,
+    "MRR": 72,
+    "DRR": 66,
+    "RLS": 70,
+    "JMP": 80,
+    "INJ": 86,
+    "STA": 84,
+    "TGH": 80
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "MEDIUM",
+    "AWR": "MEDIUM",
+    "CAR": "MEDIUM",
+    "BCV": "MEDIUM",
+    "BTK": "MEDIUM",
+    "TRK": "MEDIUM",
+    "SFA": "MEDIUM",
+    "SPM": "LOW",
+    "JKM": "MEDIUM",
+    "CTH": "MEDIUM",
+    "CIT": "LOW",
+    "SRR": "MEDIUM",
+    "MRR": "MEDIUM",
+    "DRR": "LOW",
+    "RLS": "LOW",
+    "JMP": "LOW",
+    "INJ": "LOW",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): short-yardage conv and size (200 lb): 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 1, 2025 1. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BCV": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (contact): RYOE/stuff rate: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TRK": {
+      "basis": "Judgment (power): short-yardage conv and size (200 lb): 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SFA": {
+      "basis": "Judgment (power): short-yardage conv and size (200 lb): 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SPM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JKM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8; routes 163. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8; routes 163. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8; routes 163. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8; routes 163. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8; routes 163. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8; routes 163. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (athletic): size/age 200 lb age 24; explosive plays: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Jahmyr Gibbs 2026 usage: 380 offensive snaps in 7 games (nflverse snap_counts); age 24, 69 in, 200 lb; roster status ACT; 2025: 243 car 1223 yds 5.03 ypc 13 TD, EPA/rush -0.011, success 40%, 10+ run rate 11%, RYOE/att 0.701787767836512, fumbles lost 1, 94 tgt 77 rec 613 rec yds, rec YAC/rec 7.95, 20+ runs 10, stuff rate 18.9%, 3rd/4th-and-<=2 conv 9/15. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Jahmyr Gibbs 2026 usage: 380 offensive snaps in 7 games (nflverse snap_counts); age 24, 69 in, 200 lb; roster status ACT; PFF snaps {'off': '380', 'run': '165', 'route': '163', 'pblk': '45'}. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Jahmyr Gibbs 2026 usage: 380 offensive snaps in 7 games (nflverse snap_counts); age 24, 69 in, 200 lb; roster status ACT; PFF snaps {'off': '380', 'run': '165', 'route': '163', 'pblk': '45'}. Style: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "SPD": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "breakaway/explosive: 10+ run rate / 20+ runs / RYOE: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "breakaway/explosive: 10+ run rate / 20+ runs / RYOE: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "tier": "ELITE",
+      "claim": "elusive: stuff rate, RYOE and success: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "COD": {
+      "tier": "ELITE",
+      "claim": "elusive: stuff rate, RYOE and success: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JKM": {
+      "tier": "ELITE",
+      "claim": "elusive: stuff rate, RYOE and success: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 90,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden. Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+  "style_profile": "Jahmyr Gibbs: Home-run speed back and receiving mismatch: league-best long speed, 17% explosive rate, 163 routes in 2026 (most of the top three); stuffed more often (21.5%) and lighter on contact, so he wins in space not through tackles.",
+  "style_evidence": [
+    "Jahmyr Gibbs (DET) 2026: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 34 rec 276 rec yds, rec YAC/rec 7.18, 20+ runs 3, stuff rate 21.5%, 3rd/4th-and-<=2 conv 3/8",
+    "Jahmyr Gibbs (DET) 2025: 243 car 1223 yds 5.03 ypc 13 TD, EPA/rush -0.011, success 40%, 10+ run rate 11%, RYOE/att 0.701787767836512, fumbles lost 1, 94 tgt 77 rec 613 rec yds, rec YAC/rec 7.95, 20+ runs 10, stuff rate 18.9%, 3rd/4th-and-<=2 conv 9/15",
+    "Jahmyr Gibbs PFF HB overall 2026 89.9 (rank 3), 2025 85.6; 2026 PFF snaps off 380, run 165, routes 163, pass-block 45",
+    "Jahmyr Gibbs 2026 usage: 380 offensive snaps in 7 games (nflverse snap_counts); age 24, 69 in, 200 lb; roster status ACT"
+  ],
+  "input_dossier": "RB_REAUDIT_BG_02_A1",
+  "weaknesses": [
+    "between-tackles contact",
+    "stuff rate",
+    "pass protection"
+  ],
+  "madden_reference": [
+    {
+      "player": "Jahmyr Gibbs",
+      "ovr": 97,
+      "attributes": {
+        "SPD": 98,
+        "ACC": 95,
+        "AGI": 93,
+        "COD": 92,
+        "STR": 72,
+        "AWR": 87,
+        "CAR": 96,
+        "BCV": 92,
+        "BTK": 84,
+        "TRK": 82,
+        "SFA": 72,
+        "SPM": 93,
+        "JKM": 96,
+        "CTH": 75,
+        "CIT": 66,
+        "SRR": 75,
+        "MRR": 70,
+        "DRR": 63,
+        "RLS": 65,
+        "JMP": 81,
+        "INJ": 90,
+        "STA": 88,
+        "TGH": 84
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -7,
+      "delta_attributes": {
+        "SPD": -2,
+        "ACC": 0,
+        "AGI": -3,
+        "COD": -2,
+        "STR": -4,
+        "AWR": -3,
+        "CAR": -10,
+        "BCV": -6,
+        "BTK": -8,
+        "TRK": -12,
+        "SFA": -6,
+        "SPM": -9,
+        "JKM": -6,
+        "CTH": 5,
+        "CIT": 0,
+        "SRR": 5,
+        "MRR": 2,
+        "DRR": 3,
+        "RLS": 5,
+        "JMP": -1,
+        "INJ": -4,
+        "STA": -4,
+        "TGH": -4
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RB, retrieved 2026-11-02 ET)"
+    }
+  ],
+  "variance_check": {
+    "ovr_gap": 7,
+    "attribute_gaps_10plus": {
+      "CAR": -10,
+      "TRK": -12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t41s302"
+}
+```

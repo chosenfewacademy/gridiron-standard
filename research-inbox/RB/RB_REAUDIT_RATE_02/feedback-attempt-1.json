@@ -1,0 +1,7 @@
+{
+  "attempt": 1,
+  "errors": [
+    "HIGH_TRAIT_TIER_MISMATCH:SPD=96 requires LEAGUE_DEFINING, got ELITE",
+    "HIGH_TRAIT_TIER_MISMATCH:ACC=95 requires LEAGUE_DEFINING, got ELITE"
+  ]
+}
