@@ -1,0 +1,38 @@
+{
+  "audit_id": "WR_REAUDIT_TIEBREAK_35_A1",
+  "task_id": "WR_REAUDIT_TIEBREAK_35",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Christian Watson",
+    "Justin Jefferson"
+  ],
+  "pair_result": {
+    "winner": "Justin Jefferson",
+    "loser": "Christian Watson",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s359). Christian Watson: 2025 10 g, 611 yds, 6 TD, EPA/tgt +0.587, PFF 82.7, YPRR 2.06; 2026 8 g, 708 yds, 6 TD, EPA/tgt +0.463, PFF 74.8, YPRR 2.48. Justin Jefferson: 2025 17 g, 1048 yds, 2 TD, EPA/tgt -0.097, PFF 80.5, YPRR 1.78; 2026 6 g, 335 yds, 4 TD, EPA/tgt +0.531, PFF 82.6, YPRR 1.96. Jefferson leads 2026 PFF (82.6), EPA/tgt (+.531) and separation (2.72) with 4 TD in 6 g after a 2025 depressed by Minnesota QB play (EPA/tgt -.097 on 142 tgt, still 1,048 yds, PFF 80.5). Christian Watson leads YPRR (2.48)/yards/TD in 2026 but trails on PFF (74.8) and EPA/tgt (+.460). Jefferson holds #10.",
+    "key_evidence_for_winner": [
+      "Justin Jefferson PFF WR grade 2026 82.6, 2025 80.5; 2026 PFF snaps {'off': '288', 'routes': '171', 'rblk': '116'}; age 27, 73 in 192 lb",
+      "Justin Jefferson (MIN) 2026: 6 g 41 tgt 335 yds 4 TD, EPA/tgt 0.531, YPRR 1.96, TPRR 0.24, NGS sep 2.72, aDOT 10.0, deep 4 tgt catch 0.75 EPA/tgt 1.71, short catch 0.86, YAC/rec 3.5, RZ tgt 8, 3rd/4th conv 10/18, fum lost 0",
+      "Justin Jefferson (MIN) 2025: 17 g 142 tgt 1048 yds 2 TD, EPA/tgt -0.097, YPRR 1.78, TPRR 0.241, NGS sep 3.23, aDOT 10.2, deep 21 tgt catch 0.24 EPA/tgt -0.44, short catch 0.67, YAC/rec 5.4, RZ tgt 19, 3rd/4th conv 13/38, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Christian Watson PFF WR grade 2026 74.8, 2025 82.7; 2026 PFF snaps {'off': '403', 'routes': '285', 'rblk': '115'}; age 27, 76 in 215 lb",
+      "Christian Watson (GB) 2026: 8 g 66 tgt 708 yds 6 TD, EPA/tgt 0.463, YPRR 2.48, TPRR 0.232, NGS sep 2.38, aDOT 13.4, deep 13 tgt catch 0.46 EPA/tgt 1.32, short catch 0.69, YAC/rec 4.7, RZ tgt 7, 3rd/4th conv 10/23, fum lost 1",
+      "Christian Watson (GB) 2025: 10 g 55 tgt 611 yds 6 TD, EPA/tgt 0.587, YPRR 2.06, TPRR 0.186, NGS sep 1.97, aDOT 17.8, deep 18 tgt catch 0.44 EPA/tgt 0.7, short catch 0.72, YAC/rec 3.4, RZ tgt 6, 3rd/4th conv 12/21, fum lost 0"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
