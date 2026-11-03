@@ -1,0 +1,40 @@
+{
+  "audit_id": "QB_REAUDIT_H2H_01_A1",
+  "task_id": "QB_REAUDIT_H2H_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Joe Burrow",
+    "Josh Allen"
+  ],
+  "pair_result": {
+    "winner": "Joe Burrow",
+    "loser": "Josh Allen",
+    "provisional_order_holds": true,
+    "reasoning": "Burrow leads PFF both seasons and CPOE (+9.0 vs +4.0) with far fewer turnover-worthy throws (1.1% vs 3.3%); Allen leads 2026 EPA/play (+.291 vs +.232) via rushing and played 16 games in 2025 vs 8. The ordering holds.",
+    "key_evidence_for_winner": [
+      "Joe Burrow PFF overall 2026 93.5 (#1), 2025 91.8 (#2)",
+      "Joe Burrow 2026: 7 games, EPA/dropback +0.243, EPA/play incl. rush +0.232, CPOE +9.0, 20 TD / 6 INT, sack 4.6%, Y/A 7.92, rush EPA +1.7",
+      "Joe Burrow 2025: 8 games, EPA/dropback +0.133, EPA/play incl. rush +0.139, CPOE +4.7, 17 TD / 5 INT",
+      "Joe Burrow FTN interception-worthy rate 1.1% (2026), 1.5% (2025)"
+    ],
+    "key_evidence_for_loser": [
+      "Josh Allen PFF overall 2026 84.4 (#5), 2025 90.6 (#3)",
+      "Josh Allen 2026: 7 games, EPA/dropback +0.272, EPA/play incl. rush +0.291, CPOE +4.0, 11 TD / 5 INT, sack 6.0%, Y/A 8.75, rush EPA +20.0",
+      "Josh Allen 2025: 16 games, EPA/dropback +0.143, EPA/play incl. rush +0.180, CPOE +3.5, 25 TD / 10 INT",
+      "Josh Allen FTN interception-worthy rate 3.3% (2026), 4.1% (2025)"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "PENDING_REVIEW: pair result not approved (card t30s8)"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

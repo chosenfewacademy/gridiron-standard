@@ -1,0 +1,594 @@
+{
+  "task_id": "QB_REAUDIT_H2H_05",
+  "position": "QB",
+  "researched_at": "2026-11-03T00:14:04Z",
+  "sources": [
+    {
+      "name": "NFL.com 2026 week 9 schedule",
+      "url": "https://www.nfl.com/schedules/2026/reg9/",
+      "retrieved_at": "2026-11-02T18:15:34Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "nflverse roster 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "retrieved_at": "2026-11-02T18:14:57.980Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "nflverse player stats 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+      "retrieved_at": "2026-11-02T18:14:56.002Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Patrick Mahomes PFF overall 2026 79.7 (#10), 2025 76.0 (#16)",
+        "Patrick Mahomes 2026: 7 games, EPA/dropback +0.138, EPA/play incl. rush +0.134, CPOE +1.6, 12 TD / 4 INT, sack 3.7%, Y/A 7.74, rush EPA +1.9",
+        "Patrick Mahomes 2025: 14 games, EPA/dropback +0.127, EPA/play incl. rush +0.162, CPOE +0.3, 22 TD / 11 INT",
+        "Patrick Mahomes FTN interception-worthy rate 2.1% (2026), 3.4% (2025)",
+        "Trevor Lawrence PFF overall 2026 71.7 (#20), 2025 83.7 (#7)",
+        "Trevor Lawrence 2026: 7 games, EPA/dropback +0.282, EPA/play incl. rush +0.280, CPOE +3.9, 17 TD / 4 INT, sack 6.2%, Y/A 8.54, rush EPA +5.4",
+        "Trevor Lawrence 2025: 17 games, EPA/dropback +0.064, EPA/play incl. rush +0.096, CPOE -1.9, 29 TD / 12 INT",
+        "Trevor Lawrence FTN interception-worthy rate 3.0% (2026), 3.2% (2025)"
+      ]
+    },
+    {
+      "name": "nflverse player stats 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+      "retrieved_at": "2026-11-02T18:14:58.851Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Patrick Mahomes PFF overall 2026 79.7 (#10), 2025 76.0 (#16)",
+        "Patrick Mahomes 2026: 7 games, EPA/dropback +0.138, EPA/play incl. rush +0.134, CPOE +1.6, 12 TD / 4 INT, sack 3.7%, Y/A 7.74, rush EPA +1.9",
+        "Patrick Mahomes 2025: 14 games, EPA/dropback +0.127, EPA/play incl. rush +0.162, CPOE +0.3, 22 TD / 11 INT",
+        "Patrick Mahomes FTN interception-worthy rate 2.1% (2026), 3.4% (2025)",
+        "Trevor Lawrence PFF overall 2026 71.7 (#20), 2025 83.7 (#7)",
+        "Trevor Lawrence 2026: 7 games, EPA/dropback +0.282, EPA/play incl. rush +0.280, CPOE +3.9, 17 TD / 4 INT, sack 6.2%, Y/A 8.54, rush EPA +5.4",
+        "Trevor Lawrence 2025: 17 games, EPA/dropback +0.064, EPA/play incl. rush +0.096, CPOE -1.9, 29 TD / 12 INT",
+        "Trevor Lawrence FTN interception-worthy rate 3.0% (2026), 3.2% (2025)"
+      ]
+    },
+    {
+      "name": "nflverse snap counts 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-02T18:14:56.970Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "PFF QB grades 2026",
+      "url": "https://www.pff.com/grades/nfl/qb/2026",
+      "retrieved_at": "2026-11-02T18:15:34Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "Patrick Mahomes PFF overall 2026 79.7 (#10), 2025 76.0 (#16)",
+        "Patrick Mahomes 2026: 7 games, EPA/dropback +0.138, EPA/play incl. rush +0.134, CPOE +1.6, 12 TD / 4 INT, sack 3.7%, Y/A 7.74, rush EPA +1.9",
+        "Patrick Mahomes 2025: 14 games, EPA/dropback +0.127, EPA/play incl. rush +0.162, CPOE +0.3, 22 TD / 11 INT",
+        "Patrick Mahomes FTN interception-worthy rate 2.1% (2026), 3.4% (2025)",
+        "Trevor Lawrence PFF overall 2026 71.7 (#20), 2025 83.7 (#7)",
+        "Trevor Lawrence 2026: 7 games, EPA/dropback +0.282, EPA/play incl. rush +0.280, CPOE +3.9, 17 TD / 4 INT, sack 6.2%, Y/A 8.54, rush EPA +5.4",
+        "Trevor Lawrence 2025: 17 games, EPA/dropback +0.064, EPA/play incl. rush +0.096, CPOE -1.9, 29 TD / 12 INT",
+        "Trevor Lawrence FTN interception-worthy rate 3.0% (2026), 3.2% (2025)"
+      ]
+    },
+    {
+      "name": "PFF QB grades 2025",
+      "url": "https://www.pff.com/grades/nfl/qb/2025",
+      "retrieved_at": "2026-11-02T18:15:34Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "Patrick Mahomes PFF overall 2026 79.7 (#10), 2025 76.0 (#16)",
+        "Patrick Mahomes 2026: 7 games, EPA/dropback +0.138, EPA/play incl. rush +0.134, CPOE +1.6, 12 TD / 4 INT, sack 3.7%, Y/A 7.74, rush EPA +1.9",
+        "Patrick Mahomes 2025: 14 games, EPA/dropback +0.127, EPA/play incl. rush +0.162, CPOE +0.3, 22 TD / 11 INT",
+        "Patrick Mahomes FTN interception-worthy rate 2.1% (2026), 3.4% (2025)",
+        "Trevor Lawrence PFF overall 2026 71.7 (#20), 2025 83.7 (#7)",
+        "Trevor Lawrence 2026: 7 games, EPA/dropback +0.282, EPA/play incl. rush +0.280, CPOE +3.9, 17 TD / 4 INT, sack 6.2%, Y/A 8.54, rush EPA +5.4",
+        "Trevor Lawrence 2025: 17 games, EPA/dropback +0.064, EPA/play incl. rush +0.096, CPOE -1.9, 29 TD / 12 INT",
+        "Trevor Lawrence FTN interception-worthy rate 3.0% (2026), 3.2% (2025)"
+      ]
+    },
+    {
+      "name": "nflverse play-by-play 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+      "retrieved_at": "2026-11-02T19:32:59Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Patrick Mahomes 2026: 7/7 team games, 233 att, aDOT 5.8, EPA/dropback +0.14, CPOE +1.6; deep (20+) 10.3% of att, 29.2% cmp, EPA -0.03; 10-19 yds 61.8% EPA +0.68; <10 yds 72.4%; hit 31.2% EPA -0.16 (n=32) vs clean 71.6%; sack rate 3.7%; 13 scrambles 71 yds, 2 designed runs 14 yds, 1 rush TD; 12 TD/4 INT; 0 fumbles lost"
+      ]
+    },
+    {
+      "name": "nflverse play-by-play 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+      "retrieved_at": "2026-11-02T19:32:59Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Patrick Mahomes 2025: 14/17 team games, 505 att, aDOT 8.1, EPA/dropback +0.13, CPOE +0.3; deep (20+) 13.1% of att, 31.8% cmp, EPA +0.57; 10-19 yds 56.8% EPA +0.43; <10 yds 70.1%; hit 32.4% EPA -0.03 (n=68) vs clean 67.0%; sack rate 6.3%; 52 scrambles 420 yds, 4 designed runs 9 yds, 5 rush TD; 22 TD/11 INT; 0 fumbles lost"
+      ]
+    },
+    {
+      "name": "nflverse FTN charting 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Patrick Mahomes 2026 FTN charting (regular season): 242 dropbacks; play-action 26.4% EPA +0.33 vs non-PA +0.07; out of pocket 22.7% EPA +0.07, cmp 60.0%; vs blitz EPA +0.25 (n=53); interception-worthy 2.1% of attempts; QB-fault sacks 1 of 9",
+        "No jumping / elevated-throw measure exists in FTN charting, nflverse play-by-play, or PFF season grades"
+      ]
+    },
+    {
+      "name": "nflverse FTN charting 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Patrick Mahomes 2025 FTN charting (regular season): 537 dropbacks; play-action 14.0% EPA +0.07 vs non-PA +0.14; out of pocket 19.6% EPA +0.16, cmp 42.9%; vs blitz EPA +0.03 (n=144); interception-worthy 3.4% of attempts; QB-fault sacks 10 of 34"
+      ]
+    }
+  ],
+  "normalized": {
+    "performance_summary": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Patrick Mahomes 2026: 7 games, EPA/dropback +0.138, EPA/play incl. rush +0.134, CPOE +1.6, 12 TD / 4 INT, sack 3.7%, Y/A 7.74, rush EPA +1.9",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Trevor Lawrence 2026: 7 games, EPA/dropback +0.282, EPA/play incl. rush +0.280, CPOE +3.9, 17 TD / 4 INT, sack 6.2%, Y/A 8.54, rush EPA +5.4",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "postseason_context": {
+      "status": "not_applicable",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "2026 postseason has not started (week 9 in progress)",
+          "source_url": "https://www.nfl.com/schedules/2026/reg9/",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [],
+      "not_applicable_reason": "Current season postseason not yet played."
+    },
+    "multi_year_trend": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "2026 (wk1-8) vs 2025 trend, PFF overall 2026: Burrow 93.3, Jackson 91.3, Prescott 86.2, Purdy 86.1, Allen 84.4, Goff 82.7, Maye 81.3, Stroud 81.0, Mahomes 76.2, Love 74.5, Lawrence 72.3, Stafford 66.8, Darnold 66.8, Herbert 43.9",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF overall: Stafford 92.0, Burrow 91.8, Allen 90.6, Love 88.8, Prescott 86.9, Purdy 85.4, Lawrence 83.7, Maye 80.7, Darnold 79.0, Herbert 78.0, Goff 77.7, Mahomes 76.0, Cousins 76.0, Jackson 74.0",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2025",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 EPA/play: Maye .276, Love .243, Purdy .242, Stafford .183, Allen .180, Mahomes .162, Prescott .153, Goff .145, Cousins -.012",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+          "retrieved_at": "2026-11-02T18:14:58.851Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "current_role": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "All 10 proposed QBs are their team's starter by 2026 offensive snaps (weeks 1-8)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.970Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "roster_depth_chart": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "roster_2026 week 8: all proposed players ACT; Hurts (PHI) and Dart (NYG) on IR",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:57.980Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "injury_practice_status": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "PFF roster status 'A' for all proposed top-10 QBs; Hurts IR",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "No official practice reports fetched this run"
+      ]
+    },
+    "age_career_trajectory": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "PFF ages: Maye 24.1, Purdy 26.8, Lawrence 27.0, Love 28.0, Burrow 29.8, Jackson 29.8, Allen 30.4, Mahomes 31.1, Goff 32.0, Prescott 33.2, Stafford 38.7, Cousins 38.2",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "team_system_context": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Week 9 results/standings context (e.g., BUF 6-1, SF 6-1 on bye, CIN 5-2, NE 5-3)",
+          "source_url": "https://www.nfl.com/schedules/2026/reg9/",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": []
+    },
+    "preseason_participation": {
+      "status": "not_applicable",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Regular season in week 9; preseason superseded",
+          "source_url": "https://www.nfl.com/schedules/2026/reg9/",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [],
+      "not_applicable_reason": "Regular season established."
+    },
+    "current_season_performance": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "2026 passing: Burrow 195/267 2115y 20TD 6INT; Allen 1793y 11TD 5INT + 270 rush; Purdy 1748y 15TD 4INT; Jackson 967y 6TD 1INT in 5 g",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "durability_availability": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "2026 games: Jackson 5, Caleb Williams 4, Daniels 5 (availability flags); Burrow/Allen/Purdy/Goff/Lawrence 7; Maye/Prescott/Love 8",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 games: Burrow 8, Purdy 9 (missed time)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+          "retrieved_at": "2026-11-02T18:14:58.851Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "recent_performance_trend": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Stafford fell from 2025 PFF #1 (92.0) to 2026 #21 (66.8); Herbert from 78.0 to 43.9 with 10 INT in 7 g",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "locked_control_comparisons": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Approved provisional re-audit top 10 compared (2026 PFF overall): Burrow 93.3, Allen 84.4, Purdy 86.1, Jackson 91.3, Prescott 86.2, Maye 81.3, Goff 82.7, Lawrence 72.3, Love 74.5, Mahomes 76.2",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Locked top 10 compared: Matthew Stafford, Joe Burrow, Josh Allen, Drake Maye, Jordan Love, Dak Prescott, Brock Purdy, Justin Herbert, Trevor Lawrence, Sam Darnold",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [],
+      "compared_controls": [
+        "Brock Purdy",
+        "Dak Prescott",
+        "Drake Maye",
+        "Jared Goff",
+        "Joe Burrow",
+        "Jordan Love",
+        "Josh Allen",
+        "Justin Herbert",
+        "Lamar Jackson",
+        "Matthew Stafford",
+        "Patrick Mahomes",
+        "Sam Darnold",
+        "Trevor Lawrence"
+      ]
+    },
+    "outside_control_comparisons": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Nearest outside controls 2026: Cousins EPA/play .151; Stafford EPA/play .055 (PFF 66.8)",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Outside controls 2026 regular season, PFF overall: Jackson 91.3, Goff 82.7, Mahomes 76.2",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2026",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Outside controls 2026 EPA/dropback+rush: Jackson .338, Goff .206, Mahomes .134",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Outside controls compared: Patrick Mahomes, Lamar Jackson, Jared Goff",
+          "source_url": "https://www.pff.com/grades/nfl/qb/2025",
+          "retrieved_at": "2026-11-02T18:15:34Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [],
+      "compared_controls": [
+        "Jared Goff",
+        "Kirk Cousins",
+        "Lamar Jackson",
+        "Matthew Stafford",
+        "Patrick Mahomes"
+      ]
+    },
+    "position_specific_traits": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Accuracy proxy CPOE 2026: Burrow +9.0, C.Williams +9.0, Jackson +7.4, Maye +7.3, Geno +6.0, Purdy +4.3, Allen +4.0, Lawrence +3.9, Goff +1.1, Prescott +0.2",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "passing_production_efficiency": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "2026 Y/A: Jackson 9.97, Allen 8.75, Lawrence 8.54, Maye 8.47, Purdy 8.28, Burrow 7.92, Goff 7.92, Mahomes 7.74, Love 7.20, Prescott 6.77",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "advanced_passing_metrics": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "2026 passing EPA totals: Goff 70.3, Burrow 68.0, Purdy 63.2, Allen 59.4, Lawrence 59.4, Cousins 54.9, Maye 52.3, Prescott 52.3, Love 46.2",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "pressure_performance": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "2026 sacks taken: Geno 23, Herbert 23, Young 23, Maye 16, Goff 16, Burrow 13, Allen 13, Lawrence 13, Purdy 7, Jackson 7",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "Pressure-split grades are PFF+ locked; sack counts used as proxy"
+      ]
+    },
+    "accuracy_by_depth": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "CPOE (overall) used; depth splits PFF+ locked",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "No depth-split data available publicly"
+      ]
+    },
+    "turnover_worthy_mistakes": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "2026 INT: Herbert 10, Maye 8, Stafford 8, Darnold 8, Burrow 6, Love 6, Allen 5, Prescott 5, Purdy 4, Lawrence 4, Mahomes 4, Goff 1, Jackson 1",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [
+        "TWP rates are PFF+ locked"
+      ]
+    },
+    "rushing_designed_run_value": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "2026 rushing EPA: Allen 20.0, Maye 16.0, Purdy 14.4, Daniels 14.4, Jackson 4.9; Goff -12.7, Stafford -11.7",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "scrambling_sack_avoidance": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "2026 sacks per dropback lowest: Purdy 7/218, Jackson 7/104; highest Geno 23/262, Young 23/292",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+          "retrieved_at": "2026-11-02T18:14:56.002Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    }
+  },
+  "conflicts": [],
+  "minimum_evidence_met": false,
+  "missing_evidence": [],
+  "calendar": {
+    "nfl_season": 2026,
+    "player_id": "POSITION_WIDE:QB",
+    "team": "NFL",
+    "valid_from": "2026-08-01T00:00:00Z",
+    "valid_until": "2027-03-01T00:00:00Z",
+    "preseason_start": "2026-08-07T00:00:00Z",
+    "regular_season_start": "2026-09-10T00:20:00Z",
+    "postseason_start": "2027-01-16T05:00:00Z",
+    "season_end": "2027-02-15T05:00:00Z",
+    "current_season_games_available": 8,
+    "current_season_games_played": 8,
+    "regular_season_games_scheduled": 17,
+    "regular_season_complete": false,
+    "postseason_complete": false,
+    "sources": [
+      {
+        "url": "https://media.nfl.com/news-and-releases/2026-nfl-regular-season-to-kick-off-wednesday--sept--9-in-seattl",
+        "retrieved_at": "2026-11-02T18:21:28Z",
+        "claims": [
+          "NFL release: the 2026 NFL regular season kicks off Wednesday, Sept. 9, 2026 at 8:20 PM ET in Seattle"
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/news/nfl-make-your-plan-to-watch-the-2026-nfl-preseason",
+        "retrieved_at": "2026-11-02T18:21:43Z",
+        "claims": [
+          "2026 preseason opens with the Hall of Fame Game Thursday, Aug. 6, 2026, 8 PM ET"
+        ]
+      },
+      {
+        "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+        "retrieved_at": "2026-11-02T18:21:16Z",
+        "claims": [
+          "Week 18 Jan 9-10, 2027; Wild Card Jan 16-18, 2027; Divisional Jan 23-24; Conference Championships Jan 31; Super Bowl LXI Sunday Feb 14, 2027 (season end)"
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/reg9/",
+        "retrieved_at": "2026-11-02T18:15:34Z",
+        "claims": [
+          "2026 regular season Week 9 in progress; 8 weeks completed; 17-game schedule"
+        ]
+      }
+    ]
+  },
+  "calendar_web_search_observed": true
+}
