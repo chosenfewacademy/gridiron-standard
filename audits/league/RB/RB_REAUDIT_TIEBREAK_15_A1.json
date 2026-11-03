@@ -1,0 +1,38 @@
+{
+  "audit_id": "RB_REAUDIT_TIEBREAK_15_A1",
+  "task_id": "RB_REAUDIT_TIEBREAK_15",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "James Cook",
+    "De'Von Achane"
+  ],
+  "pair_result": {
+    "winner": "James Cook",
+    "loser": "De'Von Achane",
+    "provisional_order_holds": true,
+    "reasoning": "Achane tie at 82 with Cook (#6). Near-identical speed-slasher profiles: Achane leads 2025 PFF (88.9 vs 80.4), 10+ rate (17% vs 13%), 20+ runs (13 vs 9), receiving (481 vs 291 yds) and ball security (0 vs 3 fumbles). Cook leads 2025 RYOE (+1.13 vs +1.04), stuff rate (10.7% vs 20.6%) and success (46% vs 38%), and he is healthy and productive in 2026 (5.12 ypc, EPA +.054, 17% explosive) while Achane is out for the season with a torn ACL. Cook narrowly; Achane #7.",
+    "key_evidence_for_winner": [
+      "James Cook PFF HB overall 2026 64.8, 2025 80.4; 2026 PFF snaps {'off': '304', 'run': '143', 'route': '108', 'pblk': '29'}; age 27, 190 lb",
+      "James Cook (BUF) 2026: 138 car 5.12 ypc, EPA/rush +0.054, success 51%, 10+ run rate 17%, RYOE/att 0.78, stuff 10.1%, short-yd 2/2, fumbles lost 2, 110 rec yds (rec EPA +4.2), YAC/rec 9.5",
+      "James Cook (BUF) 2025: 309 car 5.25 ypc, EPA/rush +0.018, success 46%, 10+ run rate 13%, RYOE/att 1.13, stuff 10.7%, short-yd 5/12, fumbles lost 3, 291 rec yds (rec EPA +8.7), YAC/rec 8.24"
+    ],
+    "key_evidence_for_loser": [
+      "De'Von Achane PFF HB overall 2026 None, 2025 88.9; 2026 PFF snaps {'off': '97', 'run': 'n/a', 'route': 'n/a', 'pblk': 'n/a'}; age 25, 195 lb",
+      "De'Von Achane (MIA) 2026: 34 car 3.74 ypc, EPA/rush -0.171, success 35%, 10+ run rate 9%, RYOE/att None, stuff 20.6%, short-yd 1/2, fumbles lost 0, 49 rec yds (rec EPA +0.1), YAC/rec 4.86",
+      "De'Von Achane (MIA) 2025: 238 car 5.67 ypc, EPA/rush +0.059, success 38%, 10+ run rate 17%, RYOE/att 1.04, stuff 20.6%, short-yd 0/4, fumbles lost 0, 481 rec yds (rec EPA -10.2), YAC/rec 8.13"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
