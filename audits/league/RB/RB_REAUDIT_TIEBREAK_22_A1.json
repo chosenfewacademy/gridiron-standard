@@ -1,0 +1,38 @@
+{
+  "audit_id": "RB_REAUDIT_TIEBREAK_22_A1",
+  "task_id": "RB_REAUDIT_TIEBREAK_22",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Chuba Hubbard",
+    "TreVeyon Henderson"
+  ],
+  "pair_result": {
+    "winner": "Chuba Hubbard",
+    "loser": "TreVeyon Henderson",
+    "provisional_order_holds": true,
+    "reasoning": "Ceiling flag vs Hubbard (driven by Henderson's 2025 rookie year: RYOE +0.83, 5.06 ypc, 9 TD). 2026: 52 carries, 3.90 ypc, EPA -.249, success 33%, stuff 21%, 1 fumble. Hubbard leads every 2026 mark and PFF (84.1 vs 68.0 in 2025). Hubbard clearly.",
+    "key_evidence_for_winner": [
+      "Chuba Hubbard PFF HB overall 2026 84.1, 2025 69.9; 2026 PFF snaps {'off': '394', 'run': '128', 'route': '184', 'pblk': '79'}; age 27, 216 lb",
+      "Chuba Hubbard (CAR) 2026: 119 car 4.54 ypc, EPA/rush +0.058, success 46%, 10+ run rate 11%, RYOE/att 0.76, stuff 12.6%, short-yd 11/14, fumbles lost 0, 150 rec yds (rec EPA +12.6), YAC/rec 7.86",
+      "Chuba Hubbard (CAR) 2025: 135 car 3.79 ypc, EPA/rush -0.116, success 41%, 10+ run rate 6%, RYOE/att -0.22, stuff 12.6%, short-yd 8/11, fumbles lost 1, 223 rec yds (rec EPA +4.6), YAC/rec 9.7"
+    ],
+    "key_evidence_for_loser": [
+      "TreVeyon Henderson PFF HB overall 2026 None, 2025 68.0; 2026 PFF snaps {'off': '125'}; age 24, 202 lb",
+      "TreVeyon Henderson (NE) 2026: 52 car 3.9 ypc, EPA/rush -0.249, success 33%, 10+ run rate 10%, RYOE/att -0.0, stuff 21.2%, short-yd 1/2, fumbles lost 1, 33 rec yds (rec EPA -0.2), YAC/rec 7.0",
+      "TreVeyon Henderson (NE) 2025: 180 car 5.06 ypc, EPA/rush +0.047, success 42%, 10+ run rate 10%, RYOE/att 0.83, stuff 17.2%, short-yd 5/8, fumbles lost 1, 221 rec yds (rec EPA +2.7), YAC/rec 6.97"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
