@@ -1,0 +1,39 @@
+# WR_REAUDIT_TIEBREAK_52 — Antonio Williams vs George Pickens (v1.1.2 head-to-head tiebreak; authorized by t45s359)
+
+```json
+{
+  "audit_id": "WR_REAUDIT_TIEBREAK_52_A1",
+  "task_id": "WR_REAUDIT_TIEBREAK_52",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Antonio Williams",
+    "George Pickens"
+  ],
+  "pair_result": {
+    "winner": "George Pickens",
+    "loser": "Antonio Williams",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s359). Antonio Williams: no 20+ target 2025 season; 2026 7 g, 259 yds, 1 TD, EPA/tgt +0.311, PFF 75.3, YPRR 1.44. George Pickens: 2025 17 g, 1429 yds, 9 TD, EPA/tgt +0.643, PFF 85.9, YPRR 2.16; 2026 8 g, 533 yds, 2 TD, EPA/tgt +0.409, PFF 78.1, YPRR 1.72. Pickens' 2025 (1,429 yds, 9 TD, PFF 85.9, EPA/tgt +.640) and full 2026 availability outweigh a rookie half-season (259 yds, PFF 75.3, YPRR 1.44). Pickens holds first-out.",
+    "key_evidence_for_winner": [
+      "George Pickens PFF WR grade 2026 78.1, 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}; age 25, 75 in 205 lb",
+      "George Pickens (DAL) 2026: 8 g 62 tgt 533 yds 2 TD, EPA/tgt 0.409, YPRR 1.72, TPRR 0.2, NGS sep 2.4, aDOT 11.6, deep 9 tgt catch 0.33 EPA/tgt 0.29, short catch 0.69, YAC/rec 3.3, RZ tgt 7, 3rd/4th conv 10/23, fum lost 0",
+      "George Pickens (DAL) 2025: 17 g 138 tgt 1429 yds 9 TD, EPA/tgt 0.643, YPRR 2.16, TPRR 0.209, NGS sep 2.24, aDOT 11.3, deep 22 tgt catch 0.45 EPA/tgt 0.8, short catch 0.72, YAC/rec 5.2, RZ tgt 24, 3rd/4th conv 27/43, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Antonio Williams PFF WR grade 2026 75.3, 2025 None; 2026 PFF snaps {'off': '270', 'routes': '180', 'rblk': '87'}; age 22, 71 in 195 lb",
+      "Antonio Williams (WAS) 2026: 7 g 33 tgt 259 yds 1 TD, EPA/tgt 0.311, YPRR 1.44, TPRR 0.183, NGS sep 3.02, aDOT 11.1, deep 6 tgt catch 0.33 EPA/tgt 0.38, short catch 0.84, YAC/rec 2.7, RZ tgt 2, 3rd/4th conv 7/14, fum lost 0",
+      "Antonio Williams 2025: no qualifying targets"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
