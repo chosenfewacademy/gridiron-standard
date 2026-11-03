@@ -1,0 +1,38 @@
+{
+  "audit_id": "WR_REAUDIT_TIEBREAK_68_A1",
+  "task_id": "WR_REAUDIT_TIEBREAK_68",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Dontayvion Wicks",
+    "Justin Jefferson"
+  ],
+  "pair_result": {
+    "winner": "Justin Jefferson",
+    "loser": "Dontayvion Wicks",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling recheck flag (t45s365). Dontayvion Wicks: 2025 13 g, 332 yds, 2 TD, EPA/tgt +0.308, PFF 70.2, YPRR 1.33; 2026 6 g, 284 yds, 1 TD, EPA/tgt +0.502, PFF 68.9, YPRR 1.46. Justin Jefferson: 2025 17 g, 1048 yds, 2 TD, EPA/tgt -0.097, PFF 80.5, YPRR 1.78; 2026 6 g, 335 yds, 4 TD, EPA/tgt +0.531, PFF 82.6, YPRR 1.96. Jefferson's current season (PFF 82.6, EPA/tgt +.531, 4 TD in 6 g) and 2025 volume (1,048 yds) outweigh; inactive, PFF ~69-70, YPRR 1.33/1.46. Justin Jefferson holds.",
+    "key_evidence_for_winner": [
+      "Justin Jefferson PFF WR grade 2026 82.6, 2025 80.5; 2026 PFF snaps {'off': '288', 'routes': '171', 'rblk': '116'}; age 27, 73 in 192 lb",
+      "Justin Jefferson (MIN) 2026: 6 g 41 tgt 335 yds 4 TD, EPA/tgt 0.531, YPRR 1.96, TPRR 0.24, NGS sep 2.72, aDOT 10.0, deep 4 tgt catch 0.75 EPA/tgt 1.71, short catch 0.86, YAC/rec 3.5, RZ tgt 8, 3rd/4th conv 10/18, fum lost 0",
+      "Justin Jefferson (MIN) 2025: 17 g 142 tgt 1048 yds 2 TD, EPA/tgt -0.097, YPRR 1.78, TPRR 0.241, NGS sep 3.23, aDOT 10.2, deep 21 tgt catch 0.24 EPA/tgt -0.44, short catch 0.67, YAC/rec 5.4, RZ tgt 19, 3rd/4th conv 13/38, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Dontayvion Wicks PFF WR grade 2026 68.9, 2025 70.2; 2026 PFF snaps {'off': '289', 'routes': '195', 'rblk': '94'}; age 25, 73 in 208 lb",
+      "Dontayvion Wicks (PHI) 2026: 6 g 32 tgt 284 yds 1 TD, EPA/tgt 0.502, YPRR 1.46, TPRR 0.164, NGS sep 3.0, aDOT 13.1, deep 9 tgt catch 0.33 EPA/tgt 0.42, short catch 0.75, YAC/rec 4.1, RZ tgt 4, 3rd/4th conv 10/17, fum lost 0",
+      "Dontayvion Wicks (GB) 2025: 13 g 46 tgt 332 yds 2 TD, EPA/tgt 0.308, YPRR 1.33, TPRR 0.185, NGS sep 2.14, aDOT 11.2, deep 7 tgt catch 0.29 EPA/tgt 0.39, short catch 0.72, YAC/rec 2.2, RZ tgt 4, 3rd/4th conv 11/19, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
