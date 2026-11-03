@@ -1016,14 +1016,38 @@
         "position": "RB",
         "stage": "top10_reaudit"
       },
-      "status": "QUEUED_NOT_STARTED",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/RB.reaudit.json",
       "baseline_file": "data/baselines/RB.json",
       "requested_by": "PhiXCrypto (commissioner)",
       "requested_at": "2026-11-02T04:38:22.561Z",
       "trigger": "COMMISSIONER_EXPLICIT",
-      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
+      "started_at": "2026-11-03T03:29:29.770Z",
+      "completed_tasks": [],
+      "audit_ids": [
+        "RB_REAUDIT_CANDIDATE_AUDIT_A1"
+      ],
+      "current_stage": "candidate_audit",
+      "current_task": "RB_REAUDIT_CANDIDATE_AUDIT",
+      "updated_at": "2026-11-03T03:29:29.777Z",
+      "last_result": {
+        "task_id": "RB_REAUDIT_CANDIDATE_AUDIT",
+        "status": "FLAGGED",
+        "errors": [],
+        "flags": [
+          "LOCKED_MEMBER_OUTSIDE_CONTENTION: De'Von Achane (IR)",
+          "LIMITED_SAMPLE_IN_CONTENTION: Josh Jacobs, Bhayshul Tuten",
+          "PFF_PRODUCTION_CONFLICT: James Cook",
+          "LOCKED_CONTROL_CONFLICT"
+        ]
+      },
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "RB_REAUDIT_CANDIDATE_AUDIT",
+        "audit_id": "RB_REAUDIT_CANDIDATE_AUDIT_A1"
+      }
     },
     {
       "type": "TOP10_REAUDIT",

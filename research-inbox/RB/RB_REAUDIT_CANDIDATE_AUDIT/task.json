@@ -1,0 +1,251 @@
+{
+  "task_id": "RB_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Bijan Robinson"
+      },
+      {
+        "rank": 2,
+        "player": "Jahmyr Gibbs"
+      },
+      {
+        "rank": 3,
+        "player": "De'Von Achane"
+      },
+      {
+        "rank": 4,
+        "player": "Kenneth Walker III"
+      },
+      {
+        "rank": 5,
+        "player": "Derrick Henry"
+      },
+      {
+        "rank": 6,
+        "player": "Christian McCaffrey"
+      },
+      {
+        "rank": 7,
+        "player": "James Cook"
+      },
+      {
+        "rank": 8,
+        "player": "Jonathan Taylor"
+      },
+      {
+        "rank": 9,
+        "player": "Josh Jacobs"
+      },
+      {
+        "rank": 10,
+        "player": "Kyren Williams"
+      }
+    ],
+    "external_controls": [
+      {
+        "player": "Breece Hall",
+        "ovr": 84
+      }
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Bijan Robinson",
+      "aliases": [],
+      "player_id": "bijan_robinson",
+      "flags": []
+    },
+    {
+      "player": "Kenneth Walker III",
+      "aliases": [],
+      "player_id": "kenneth_walker_iii",
+      "flags": []
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "aliases": [],
+      "player_id": "jahmyr_gibbs",
+      "flags": []
+    },
+    {
+      "player": "Jaylen Warren",
+      "aliases": [],
+      "player_id": "ext_00-0037228",
+      "flags": []
+    },
+    {
+      "player": "Jonathan Taylor",
+      "aliases": [],
+      "player_id": "jonathan_taylor",
+      "flags": []
+    },
+    {
+      "player": "Kyren Williams",
+      "aliases": [],
+      "player_id": "kyren_williams",
+      "flags": []
+    },
+    {
+      "player": "James Cook",
+      "aliases": [],
+      "player_id": "james_cook",
+      "flags": []
+    },
+    {
+      "player": "Christian McCaffrey",
+      "aliases": [],
+      "player_id": "christian_mccaffrey",
+      "flags": []
+    },
+    {
+      "player": "Chuba Hubbard",
+      "aliases": [],
+      "player_id": "ext_00-0036555",
+      "flags": []
+    },
+    {
+      "player": "Bhayshul Tuten",
+      "aliases": [],
+      "player_id": "ext_00-0040719",
+      "flags": []
+    },
+    {
+      "player": "Tony Pollard",
+      "aliases": [],
+      "player_id": "ext_00-0035261",
+      "flags": []
+    },
+    {
+      "player": "Rhamondre Stevenson",
+      "aliases": [],
+      "player_id": "ext_00-0036875",
+      "flags": []
+    },
+    {
+      "player": "Braelon Allen",
+      "aliases": [],
+      "player_id": "ext_00-0039794",
+      "flags": []
+    },
+    {
+      "player": "Blake Corum",
+      "aliases": [],
+      "player_id": "ext_00-0039738",
+      "flags": []
+    },
+    {
+      "player": "Derrick Henry",
+      "aliases": [],
+      "player_id": "derrick_henry",
+      "flags": []
+    },
+    {
+      "player": "D'Andre Swift",
+      "aliases": [],
+      "player_id": "ext_00-0036275",
+      "flags": []
+    },
+    {
+      "player": "Bucky Irving",
+      "aliases": [],
+      "player_id": "ext_00-0039361",
+      "flags": []
+    },
+    {
+      "player": "Javonte Williams",
+      "aliases": [],
+      "player_id": "ext_00-0036997",
+      "flags": []
+    },
+    {
+      "player": "De'Von Achane",
+      "aliases": [],
+      "player_id": "de_von_achane",
+      "flags": [
+        "INJURED_RESERVE",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Josh Jacobs",
+      "aliases": [],
+      "player_id": "josh_jacobs",
+      "flags": [
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Sione Vaki",
+      "aliases": [],
+      "player_id": "ext_00-0039364",
+      "flags": []
+    }
+  ],
+  "position": "RB",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 2,
+    "group": "Offense",
+    "current_status": "LOCKED",
+    "pff_cited_inputs": [
+      "overall",
+      "rushing",
+      "receiving",
+      "pass blocking",
+      "elusive rating",
+      "yards after contact/att",
+      "missed tackles forced"
+    ],
+    "position_stats": [
+      "carries, yards, YPC, TD",
+      "fumbles",
+      "targets, receptions, yards"
+    ],
+    "usage_snap_metrics": [
+      "snap share",
+      "carry share",
+      "route participation",
+      "goal-line share"
+    ],
+    "on_field_impact": [
+      "rush EPA",
+      "rush yards over expected (NGS RYOE)",
+      "explosive run rate"
+    ],
+    "madden_attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "BCV",
+      "CAR",
+      "BTK",
+      "TRK",
+      "ELU",
+      "SPM",
+      "JKM",
+      "SFA",
+      "CTH",
+      "SRR",
+      "PBK",
+      "AWR"
+    ],
+    "note": ""
+  }
+}

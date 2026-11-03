@@ -1,0 +1,211 @@
+{
+  "audit_id": "RB_REAUDIT_CANDIDATE_AUDIT_A1",
+  "task_id": "RB_REAUDIT_CANDIDATE_AUDIT",
+  "task_type": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "membership_confirmed": true,
+  "missing_top_players": [],
+  "coverage_check": "League-wide screen of every RB with 40+ carries (2026) or PFF 75+ (2025/2026), all teams incl. IR/exempt: every PFF 2026 top-11 HB and every PFF 2025 top-10 HB is in the approved pool, an external control, or listed below with a reason. Low-volume backs (Chris Rodriguez Jr. 45 car, Kyle Monangai 60 car, Emmett Johnson, Kenneth Gainwell 58 car) and Zach Charbonnet (no 2026 snaps until Week 8 return from ACL) have no top-10 case on volume.",
+  "contention_set": [
+    "Bijan Robinson",
+    "Jahmyr Gibbs",
+    "Kenneth Walker III",
+    "Jaylen Warren",
+    "Bhayshul Tuten",
+    "James Cook",
+    "Derrick Henry",
+    "Jonathan Taylor",
+    "Christian McCaffrey",
+    "Kyren Williams",
+    "Josh Jacobs",
+    "Tony Pollard",
+    "Chuba Hubbard",
+    "Braelon Allen"
+  ],
+  "contention_basis": "Tight set per commissioner t41u: top-10 contenders (PFF 2026 top 10 + locked members with a live multi-year case) plus 4 first-out (Jacobs, Pollard, Hubbard, B. Allen). RB evidence: PFF overall, EPA/rush, success rate, 10+ run rate, NGS RYOE/att, receiving volume, fumbles, usage.",
+  "contender_reasons": {
+    "Bijan Robinson": "PFF 86.4/86.7; RYOE/att +1.21; 820 rec yds 2025 — complete three-down back",
+    "Jahmyr Gibbs": "PFF 89.9 (#3); 17% 10+ run rate; 8 TD in 8 g; 613 rec yds 2025",
+    "Kenneth Walker III": "PFF 91.0 (#2) and 91.4 (#1 2025); RYOE/att +1.84, 5.46 ypc in KC",
+    "Jaylen Warren": "PFF 87.3 (#4); best RYOE/att +1.93 and EPA/rush +.128 of volume backs",
+    "Bhayshul Tuten": "PFF 91.9 (#1 2026) on 110 car; thin 2025 base (3.65 ypc) — must prove it in rating",
+    "James Cook": "Locked #7; 2025 1621 yds, 2026 51% success, 17% explosive, +.054 EPA/rush; PFF 64.8 conflict",
+    "Derrick Henry": "Locked #5; 2025 1595 yds 16 TD RYOE +1.05; 2026 decline (3.99 ypc, PFF 74.8) — age-32 trend test",
+    "Jonathan Taylor": "Locked #8; 2025 1587 yds 18 TD; 2026 RYOE ~0, PFF 62.8 — decline test",
+    "Christian McCaffrey": "Locked #6; 2026 54% success, +.144 EPA/rush, 8 rush TD in 84 car, 42 tgt; 904 rec yds 2025",
+    "Kyren Williams": "Locked #10; PFF 81.0/85.2; 50% success 2025; 2 fumbles lost 2026",
+    "Josh Jacobs": "First-out: locked #9, PFF 85.8 (2025) but exempt list wk1-6, 32 car 2.34 ypc 2026 — limited sample",
+    "Tony Pollard": "First-out: PFF 85.6 (#6) 2026; RYOE +.61 but EPA/rush -.062",
+    "Chuba Hubbard": "First-out: PFF 84.1 (#7); +.058 EPA/rush; 2025 was poor (3.79 ypc)",
+    "Braelon Allen": "First-out: PFF 82.4 (#8); RYOE +1.22, 17% explosive; first lead-back sample"
+  },
+  "excluded": [
+    {
+      "player": "De'Von Achane",
+      "reason": "Locked #3 but torn ACL Week 3, IR, out for 2026 (34 car); outside contention this re-audit, flagged injured"
+    },
+    {
+      "player": "Blake Corum",
+      "reason": "Best efficiency (+.144 EPA/rush, 52% success) but 75 car committee role; near-miss"
+    },
+    {
+      "player": "Bucky Irving",
+      "reason": "147 car, RYOE +.72 but EPA/rush ~0, PFF 73.4; 2025 was -0.84 RYOE"
+    },
+    {
+      "player": "Rhamondre Stevenson",
+      "reason": "3.82 ypc, -.054 EPA/rush 2026; PFF 77.4"
+    },
+    {
+      "player": "D'Andre Swift",
+      "reason": "PFF 62.1, RYOE -.44, 2 fumbles lost 2026 despite strong 2025"
+    },
+    {
+      "player": "Javonte Williams",
+      "reason": "3.94 ypc, PFF 70.6 2026"
+    },
+    {
+      "player": "Sione Vaki",
+      "reason": "27 carries; sample too small"
+    }
+  ],
+  "flags": {
+    "injured": [
+      "De'Von Achane (IR, season-ending ACL)"
+    ],
+    "exempt_list": [
+      "Josh Jacobs (weeks 1-6)"
+    ],
+    "free_agents": [],
+    "limited_sample": [
+      "Josh Jacobs: 32 car 2026",
+      "Bhayshul Tuten: one-year lead-back sample"
+    ],
+    "locked_members_outside_contention": [
+      "De'Von Achane (IR)"
+    ],
+    "sharp_decline": [
+      "Derrick Henry: PFF 80.4 -> 74.8, 5.20 -> 3.99 ypc",
+      "Jonathan Taylor: PFF 78.1 -> 62.8",
+      "James Cook: PFF 80.4 -> 64.8 (production still strong)"
+    ]
+  },
+  "madden_reference": [
+    {
+      "player": "Bijan Robinson",
+      "ovr": 98,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "ovr": 97,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Kenneth Walker III",
+      "ovr": 95,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Jaylen Warren",
+      "ovr": 87,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Bhayshul Tuten",
+      "ovr": 81,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "James Cook",
+      "ovr": 92,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Derrick Henry",
+      "ovr": 94,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Jonathan Taylor",
+      "ovr": 96,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Christian McCaffrey",
+      "ovr": 97,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Kyren Williams",
+      "ovr": 90,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Josh Jacobs",
+      "ovr": 88,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Tony Pollard",
+      "ovr": 85,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Chuba Hubbard",
+      "ovr": 85,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Braelon Allen",
+      "ovr": 78,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    }
+  ],
+  "early_inputs": [],
+  "external_controls": [
+    "Breece Hall",
+    "Saquon Barkley",
+    "Chase Brown"
+  ],
+  "major_flags": [
+    "LOCKED_MEMBER_OUTSIDE_CONTENTION: De'Von Achane (IR)",
+    "LIMITED_SAMPLE_IN_CONTENTION: Josh Jacobs, Bhayshul Tuten",
+    "PFF_PRODUCTION_CONFLICT: James Cook",
+    "LOCKED_CONTROL_CONFLICT"
+  ],
+  "locked_control_conflict": true,
+  "status": "FLAGGED"
+}
