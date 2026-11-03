@@ -1,0 +1,45 @@
+# QB TOP10_REAUDIT — head-to-head 03: Drake Maye vs Dak Prescott (Grok Bot analyst, attempt 1)
+
+EA ratings not used. Evidence: PFF 2026/2025, nflverse stats and play-by-play, FTN charting.
+
+```json
+{
+  "audit_id": "QB_REAUDIT_H2H_03_A1",
+  "task_id": "QB_REAUDIT_H2H_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Drake Maye",
+    "Dak Prescott"
+  ],
+  "pair_result": {
+    "winner": "Drake Maye",
+    "loser": "Dak Prescott",
+    "provisional_order_holds": true,
+    "reasoning": "Maye's efficiency and accuracy (EPA/dropback +.308 / +.209, CPOE +10.8 / +7.3) clearly exceed Prescott's (+.181 / +.167, CPOE +2.2 / +0.2); Prescott has the better PFF grade both seasons (86.9 / 86.7 vs 80.7 / 81.8) and fewer sacks. Efficiency over two seasons decides it narrowly for Maye.",
+    "key_evidence_for_winner": [
+      "Drake Maye PFF overall 2026 81.8 (#7), 2025 80.7 (#8)",
+      "Drake Maye 2026: 8 games, EPA/dropback +0.209, EPA/play incl. rush +0.231, CPOE +7.3, 15 TD / 8 INT, sack 6.4%, Y/A 8.47, rush EPA +16.0",
+      "Drake Maye 2025: 17 games, EPA/dropback +0.308, EPA/play incl. rush +0.276, CPOE +10.8, 31 TD / 8 INT",
+      "Drake Maye FTN interception-worthy rate 3.8% (2026), 2.8% (2025)"
+    ],
+    "key_evidence_for_loser": [
+      "Dak Prescott PFF overall 2026 86.7 (#3), 2025 86.9 (#5)",
+      "Dak Prescott 2026: 8 games, EPA/dropback +0.167, EPA/play incl. rush +0.167, CPOE +0.2, 14 TD / 5 INT, sack 3.5%, Y/A 6.77, rush EPA +3.7",
+      "Dak Prescott 2025: 17 games, EPA/dropback +0.181, EPA/play incl. rush +0.153, CPOE +2.2, 30 TD / 10 INT",
+      "Dak Prescott FTN interception-worthy rate 2.3% (2026), 2.7% (2025)"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "PENDING_REVIEW: pair result not approved (card t30s8)"
+  ],
+  "locked_control_conflict": false
+}
+```
