@@ -1,0 +1,39 @@
+# WR_REAUDIT_H2H_01 — Jaxon Smith-Njigba vs Puka Nacua (v1.1.2 head-to-head; authorized by t45s347)
+
+```json
+{
+  "audit_id": "WR_REAUDIT_H2H_01_A1",
+  "task_id": "WR_REAUDIT_H2H_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jaxon Smith-Njigba",
+    "Puka Nacua"
+  ],
+  "pair_result": {
+    "winner": "Jaxon Smith-Njigba",
+    "loser": "Puka Nacua",
+    "provisional_order_holds": true,
+    "reasoning": "JSN leads 2026 PFF (93.2 vs 90.3), YPRR (3.03 vs 2.53), EPA/target (+.751 vs +.194), deep (10/12 caught, +2.25 EPA/tgt vs 2/9, -0.51) and 3rd/4th-down conversions (17/30 vs 5/20); 2025 YPRR is level (2.92 vs 2.86) with JSN's 1,793 yds. Nacua leads TPRR (.332 vs .273), 2025 PFF (96.2 vs 92.9) and short catch rate (90% vs 76%). Order holds.",
+    "key_evidence_for_winner": [
+      "Jaxon Smith-Njigba PFF WR grade 2026 93.2, 2025 92.9; 2026 PFF snaps {'off': '448', 'routes': '286', 'rblk': '161'}; age 24, 72 in 198 lb",
+      "Jaxon Smith-Njigba (SEA) 2026: 7 g 78 tgt 867 yds 8 TD, EPA/tgt 0.751, YPRR 3.03, TPRR 0.273, NGS sep 2.66, aDOT 10.4, deep 12 tgt catch 0.83 EPA/tgt 2.25, short catch 0.76, YAC/rec 4.7, RZ tgt 12, 3rd/4th conv 17/30, fum lost 0",
+      "Jaxon Smith-Njigba (SEA) 2025: 17 g 163 tgt 1793 yds 10 TD, EPA/tgt 0.556, YPRR 2.92, TPRR 0.265, NGS sep 3.02, aDOT 11.2, deep 24 tgt catch 0.58 EPA/tgt 1.45, short catch 0.78, YAC/rec 4.4, RZ tgt 17, 3rd/4th conv 20/40, fum lost 1"
+    ],
+    "key_evidence_for_loser": [
+      "Puka Nacua PFF WR grade 2026 90.3, 2025 96.2; 2026 PFF snaps {'off': '354', 'routes': '223', 'rblk': '129'}; age 25, 74 in 216 lb",
+      "Puka Nacua (LA) 2026: 6 g 74 tgt 565 yds 3 TD, EPA/tgt 0.194, YPRR 2.53, TPRR 0.332, NGS sep 3.09, aDOT 7.7, deep 9 tgt catch 0.22 EPA/tgt -0.51, short catch 0.9, YAC/rec 5.8, RZ tgt 11, 3rd/4th conv 5/20, fum lost 0",
+      "Puka Nacua (LA) 2025: 16 g 166 tgt 1715 yds 10 TD, EPA/tgt 0.697, YPRR 2.86, TPRR 0.277, NGS sep 2.83, aDOT 9.4, deep 23 tgt catch 0.57 EPA/tgt 1.16, short catch 0.84, YAC/rec 5.2, RZ tgt 17, 3rd/4th conv 28/48, fum lost 1"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
