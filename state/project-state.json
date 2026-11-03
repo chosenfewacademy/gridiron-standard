@@ -120,7 +120,8 @@
         "QB_REAUDIT_TIEBREAK_09",
         "QB_REAUDIT_TIEBREAK_10",
         "QB_REAUDIT_TIEBREAK_11",
-        "QB_REAUDIT_TIEBREAK_12"
+        "QB_REAUDIT_TIEBREAK_12",
+        "QB_REAUDIT_CROSS_AUDIT"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
@@ -215,17 +216,18 @@
         "QB_REAUDIT_TIEBREAK_09_A1",
         "QB_REAUDIT_TIEBREAK_10_A1",
         "QB_REAUDIT_TIEBREAK_11_A1",
-        "QB_REAUDIT_TIEBREAK_12_A1"
+        "QB_REAUDIT_TIEBREAK_12_A1",
+        "QB_REAUDIT_CROSS_AUDIT_A1"
       ],
-      "current_stage": "player_rating",
-      "current_task": "QB_REAUDIT_RATE_19",
-      "updated_at": "2026-11-03T02:23:34.234Z",
+      "current_stage": "positional_cross_audit",
+      "current_task": "QB_REAUDIT_CROSS_AUDIT",
+      "updated_at": "2026-11-03T02:24:40.389Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_TIEBREAK_12",
+        "task_id": "QB_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
+        "errors": [],
         "flags": [
-          "CEILING_CHECK_TIEBREAK: outside-pool addition vs #10 / first out (card t35s273)",
-          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+          "COMMISSIONER_REVIEW: positional cross-audit (card t35s273)"
         ]
       },
       "awaiting": null,
@@ -995,6 +997,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T02:23:34Z",
           "note": "Evidence-based verdict approved; authorized by t35s273"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_CROSS_AUDIT",
+          "audit_id": "QB_REAUDIT_CROSS_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T02:24:40Z",
+          "note": "Cross-audit clean (18/18 pair verdicts consistent, style 0/171, ceiling 0 flagged); approved, authorized by t35s273"
         }
       ]
     },

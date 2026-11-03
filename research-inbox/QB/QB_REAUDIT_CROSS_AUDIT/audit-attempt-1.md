@@ -1,0 +1,457 @@
+# QB_REAUDIT_CROSS_AUDIT (Grok Bot analyst, attempt 1)
+
+EA ratings not used.
+
+```json
+{
+  "audit_id": "QB_REAUDIT_CROSS_AUDIT_A1",
+  "task_id": "QB_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Joe Burrow",
+    "Josh Allen",
+    "Drake Maye",
+    "Brock Purdy",
+    "Jared Goff",
+    "Dak Prescott",
+    "Jordan Love",
+    "Matthew Stafford",
+    "Lamar Jackson",
+    "Trevor Lawrence"
+  ],
+  "cross_audit_result": "CONSISTENT: all 18 approved head-to-head/tiebreak verdicts agree with the final rating order (ties resolved by contention order match every tiebreak); style rule passes for all 171 pairs of 19 rated QBs; league ceiling check rerun flags 0; Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Joe Burrow",
+      "ovr": 90
+    },
+    {
+      "rank": 2,
+      "player": "Josh Allen",
+      "ovr": 88
+    },
+    {
+      "rank": 3,
+      "player": "Drake Maye",
+      "ovr": 87
+    },
+    {
+      "rank": 4,
+      "player": "Brock Purdy",
+      "ovr": 86
+    },
+    {
+      "rank": 5,
+      "player": "Jared Goff",
+      "ovr": 85
+    },
+    {
+      "rank": 6,
+      "player": "Dak Prescott",
+      "ovr": 84
+    },
+    {
+      "rank": 7,
+      "player": "Jordan Love",
+      "ovr": 83
+    },
+    {
+      "rank": 8,
+      "player": "Matthew Stafford",
+      "ovr": 83
+    },
+    {
+      "rank": 9,
+      "player": "Lamar Jackson",
+      "ovr": 82
+    },
+    {
+      "rank": 10,
+      "player": "Trevor Lawrence",
+      "ovr": 82
+    },
+    {
+      "rank": 11,
+      "player": "Patrick Mahomes",
+      "ovr": 81
+    },
+    {
+      "rank": 12,
+      "player": "Caleb Williams",
+      "ovr": 81
+    },
+    {
+      "rank": 13,
+      "player": "C.J. Stroud",
+      "ovr": 80
+    },
+    {
+      "rank": 14,
+      "player": "Geno Smith",
+      "ovr": 78
+    },
+    {
+      "rank": 15,
+      "player": "Kirk Cousins",
+      "ovr": 78
+    },
+    {
+      "rank": 16,
+      "player": "Sam Darnold",
+      "ovr": 78
+    },
+    {
+      "rank": 17,
+      "player": "Mac Jones",
+      "ovr": 77
+    },
+    {
+      "rank": 18,
+      "player": "Jayden Daniels",
+      "ovr": 77
+    },
+    {
+      "rank": 19,
+      "player": "Justin Herbert",
+      "ovr": 75
+    }
+  ],
+  "pair_consistency": [
+    {
+      "audit_id": "QB_REAUDIT_H2H_01_A1",
+      "winner": "Joe Burrow",
+      "loser": "Josh Allen",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_H2H_02_A1",
+      "winner": "Brock Purdy",
+      "loser": "Lamar Jackson",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_H2H_03_A1",
+      "winner": "Drake Maye",
+      "loser": "Dak Prescott",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_H2H_04_A1",
+      "winner": "Jared Goff",
+      "loser": "Jordan Love",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_H2H_05_A1",
+      "winner": "Trevor Lawrence",
+      "loser": "Patrick Mahomes",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_H2H_06_A1",
+      "winner": "Matthew Stafford",
+      "loser": "Trevor Lawrence",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_TIEBREAK_01_A1",
+      "winner": "Dak Prescott",
+      "loser": "Lamar Jackson",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_TIEBREAK_02_A1",
+      "winner": "Patrick Mahomes",
+      "loser": "Caleb Williams",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_TIEBREAK_03_A1",
+      "winner": "Jordan Love",
+      "loser": "Lamar Jackson",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_TIEBREAK_04_A1",
+      "winner": "Matthew Stafford",
+      "loser": "Lamar Jackson",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_TIEBREAK_05_A1",
+      "winner": "Lamar Jackson",
+      "loser": "Trevor Lawrence",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_TIEBREAK_06_A1",
+      "winner": "Drake Maye",
+      "loser": "Brock Purdy",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_TIEBREAK_07_A1",
+      "winner": "Jared Goff",
+      "loser": "Dak Prescott",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_TIEBREAK_08_A1",
+      "winner": "Jordan Love",
+      "loser": "Matthew Stafford",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_TIEBREAK_09_A1",
+      "winner": "Trevor Lawrence",
+      "loser": "Mac Jones",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_TIEBREAK_10_A1",
+      "winner": "Patrick Mahomes",
+      "loser": "Mac Jones",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_TIEBREAK_11_A1",
+      "winner": "Trevor Lawrence",
+      "loser": "Jayden Daniels",
+      "consistent": true
+    },
+    {
+      "audit_id": "QB_REAUDIT_TIEBREAK_12_A1",
+      "winner": "Patrick Mahomes",
+      "loser": "Jayden Daniels",
+      "consistent": true
+    }
+  ],
+  "style_rule": {
+    "pairs_checked": 171,
+    "too_similar": 0,
+    "closest": [
+      [
+        "Josh Allen",
+        "Drake Maye",
+        0.584,
+        3.1,
+        false
+      ],
+      [
+        "Dak Prescott",
+        "Jordan Love",
+        0.84,
+        3.2,
+        false
+      ],
+      [
+        "Drake Maye",
+        "Trevor Lawrence",
+        0.768,
+        3.2,
+        false
+      ]
+    ]
+  },
+  "scarcity_note": "QB_REAUDIT_SCARCITY_A1 was approved before the additions; Jayden Daniels adds SPD 90 and ACC 91 (ELITE, HIGH confidence, 3 sourced URLs each). Still no 95+ trait and one 90 overall.",
+  "league_ceiling_check": {
+    "source": "research-inbox/QB/QB_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-rerun-t35s273.json",
+    "references": [
+      {
+        "player": "Patrick Mahomes",
+        "ovr": 81
+      },
+      {
+        "player": "Trevor Lawrence",
+        "ovr": 82
+      }
+    ],
+    "thresholds": {
+      "pff": 76.062,
+      "epa_db": 0.114,
+      "cpoe": -0.371,
+      "twp": 2.959,
+      "sack": 6.658,
+      "games": 21
+    },
+    "flagged": [],
+    "closest": [
+      {
+        "name": "Bryce Young",
+        "games": 23,
+        "db": 798,
+        "pff": 73.927,
+        "epa_db": -0.012,
+        "cpoe": 0.542,
+        "twp": 1.88,
+        "sack": 6.266,
+        "hits": [
+          "cpoe",
+          "twp",
+          "sack",
+          "games"
+        ]
+      },
+      {
+        "name": "Jalen Hurts",
+        "games": 21,
+        "db": 653,
+        "pff": 74.806,
+        "epa_db": 0.019,
+        "cpoe": 1.809,
+        "twp": 2.144,
+        "sack": 6.891,
+        "hits": [
+          "cpoe",
+          "twp",
+          "games"
+        ]
+      },
+      {
+        "name": "Jacoby Brissett",
+        "games": 22,
+        "db": 852,
+        "pff": 72.347,
+        "epa_db": -0.037,
+        "cpoe": 0.897,
+        "twp": 1.995,
+        "sack": 7.277,
+        "hits": [
+          "cpoe",
+          "twp",
+          "games"
+        ]
+      },
+      {
+        "name": "Aaron Rodgers",
+        "games": 24,
+        "db": 834,
+        "pff": 66.966,
+        "epa_db": -0.022,
+        "cpoe": -0.673,
+        "twp": 1.918,
+        "sack": 6.235,
+        "hits": [
+          "twp",
+          "sack",
+          "games"
+        ]
+      },
+      {
+        "name": "Marcus Mariota",
+        "games": 13,
+        "db": 298,
+        "pff": 71.4,
+        "epa_db": 0.016,
+        "cpoe": 3.209,
+        "twp": 2.685,
+        "sack": 6.376,
+        "hits": [
+          "cpoe",
+          "twp",
+          "sack"
+        ]
+      }
+    ],
+    "screened": 67,
+    "rating_changes": []
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Joe Burrow",
+      "ours": 90,
+      "madden": 97,
+      "delta": -7
+    },
+    {
+      "player": "Josh Allen",
+      "ours": 88,
+      "madden": 99,
+      "delta": -11
+    },
+    {
+      "player": "Drake Maye",
+      "ours": 87,
+      "madden": 90,
+      "delta": -3
+    },
+    {
+      "player": "Brock Purdy",
+      "ours": 86,
+      "madden": 92,
+      "delta": -6
+    },
+    {
+      "player": "Jared Goff",
+      "ours": 85,
+      "madden": 88,
+      "delta": -3
+    },
+    {
+      "player": "Dak Prescott",
+      "ours": 84,
+      "madden": 91,
+      "delta": -7
+    },
+    {
+      "player": "Jordan Love",
+      "ours": 83,
+      "madden": 86,
+      "delta": -3
+    },
+    {
+      "player": "Matthew Stafford",
+      "ours": 83,
+      "madden": 98,
+      "delta": -15
+    },
+    {
+      "player": "Lamar Jackson",
+      "ours": 82,
+      "madden": 95,
+      "delta": -13
+    },
+    {
+      "player": "Trevor Lawrence",
+      "ours": 82,
+      "madden": 87,
+      "delta": -5
+    },
+    {
+      "player": "Patrick Mahomes",
+      "ours": 81,
+      "madden": 93,
+      "delta": -12
+    },
+    {
+      "player": "Caleb Williams",
+      "ours": 81,
+      "madden": 94,
+      "delta": -13
+    },
+    {
+      "player": "Mac Jones",
+      "ours": 77,
+      "madden": 75,
+      "delta": 2
+    },
+    {
+      "player": "Jayden Daniels",
+      "ours": 77,
+      "madden": 76,
+      "delta": 1
+    }
+  ],
+  "madden_used_as_evidence": false,
+  "major_flags": [
+    "COMMISSIONER_REVIEW: positional cross-audit (card t35s273)"
+  ],
+  "locked_control_conflict": false
+}
+```

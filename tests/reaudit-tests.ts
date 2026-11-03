@@ -84,7 +84,9 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     const plan = planReaudit(st, "QB");
     assert.match(String(plan.task.task_id), /^QB_REAUDIT_/); assert.equal((plan.task as any).audit_type, "TOP10_REAUDIT");
     if (plan.stage === "pair_audits") { assert.equal((plan.task as any).baseline_controls.locked_baseline.top_10.length, 10); }
-    assert.equal(((plan.task as any).baseline_controls.top_10).length, 10); assert.equal(J(st), before);
+    if (plan.stage === "lock") assert.ok(((plan.task as any).final_order).length >= 11); // final stage carries final_order instead of controls
+    else assert.equal(((plan.task as any).baseline_controls.top_10).length, 10);
+    assert.equal(J(st), before);
   });
   test("executor: re-audit step records only guard-allowed queue fields", async () => {
     const root = fs.mkdtempSync(path.join(os.tmpdir(), "reaudit-"));
@@ -171,7 +173,7 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     if (!item.completed_tasks.includes("QB_REAUDIT_CANDIDATE_AUDIT")) return;
     const t: any = planReaudit(st, "QB").task;
     if (t.type === "background_analysis") { assert.ok(t.player_id && t.team); assert(!isPositionWideTask(t)); }
-    const ext = t.baseline_controls?.external_controls ?? [];
+    const ext = t.baseline_controls?.external_controls ?? (t.final_order ?? []).map((x: any) => x.player); // lock stage carries final_order
     assert(ext.includes("Justin Herbert") && ext.includes("Sam Darnold"));
     assert.match(fs.readFileSync("src/reaudit-executor.ts", "utf8"), /ALWAYS_REVIEW = new Set\([^)]*"background_analysis"/);
   });
