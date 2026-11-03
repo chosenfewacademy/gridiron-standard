@@ -1,0 +1,38 @@
+{
+  "audit_id": "RB_REAUDIT_H2H_01_A1",
+  "task_id": "RB_REAUDIT_H2H_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Bijan Robinson",
+    "Jahmyr Gibbs"
+  ],
+  "pair_result": {
+    "winner": "Bijan Robinson",
+    "loser": "Jahmyr Gibbs",
+    "provisional_order_holds": true,
+    "reasoning": "Close. Gibbs leads 2026 PFF (89.9 vs 86.4), explosive rate (17% vs 12%) and receiving EPA (+1.7 vs -9.6). Bijan leads RYOE/att (+1.21 vs +0.80), stuff rate (14.0% vs 21.5%), 2025 RYOE (+0.88 vs +0.70) and 2025 receiving (820 vs 613 yds), and fumbled 0 times vs 1. Bijan's more complete inside and outside the tackles keeps the order, by a narrow margin.",
+    "key_evidence_for_winner": [
+      "Bijan Robinson PFF HB overall 2026 86.4, 2025 86.7; 2026 PFF snaps {'off': '358', 'run': '154', 'route': '138', 'pblk': '57'}; age 24, 214 lb",
+      "Bijan Robinson (ATL) 2026: 150 car 5.2 ypc, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21, stuff 14.0%, short-yd 2/8, fumbles lost 0, 189 rec yds (rec EPA -9.6), YAC/rec 8.52",
+      "Bijan Robinson (ATL) 2025: 288 car 5.14 ypc, EPA/rush -0.043, success 41%, 10+ run rate 12%, RYOE/att 0.88, stuff 14.9%, short-yd 7/14, fumbles lost 2, 820 rec yds (rec EPA +26.6), YAC/rec 10.85"
+    ],
+    "key_evidence_for_loser": [
+      "Jahmyr Gibbs PFF HB overall 2026 89.9, 2025 85.6; 2026 PFF snaps {'off': '380', 'run': '165', 'route': '163', 'pblk': '45'}; age 24, 200 lb",
+      "Jahmyr Gibbs (DET) 2026: 158 car 4.89 ypc, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.8, stuff 21.5%, short-yd 3/8, fumbles lost 1, 276 rec yds (rec EPA +1.7), YAC/rec 7.18",
+      "Jahmyr Gibbs (DET) 2025: 243 car 5.03 ypc, EPA/rush -0.011, success 40%, 10+ run rate 11%, RYOE/att 0.7, stuff 18.9%, short-yd 9/15, fumbles lost 1, 613 rec yds (rec EPA +17.8), YAC/rec 7.95"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "PENDING_REVIEW: pair result not approved (prepared under t41s308; commissioner decides)"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
