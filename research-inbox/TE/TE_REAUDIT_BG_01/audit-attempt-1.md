@@ -1,0 +1,188 @@
+# TE_REAUDIT_BG_01 — Brock Bowers background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t45s377.
+
+```json
+{
+  "audit_id": "TE_REAUDIT_BG_01_A1",
+  "task_id": "TE_REAUDIT_BG_01",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "player_id": "brock_bowers",
+  "players": [
+    "Brock Bowers"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Brock Bowers",
+    "player_id": "brock_bowers",
+    "team": "LV",
+    "age": 23,
+    "size": {
+      "ht_in": "75",
+      "wt_lb": "235"
+    },
+    "pff": {
+      "2026": {
+        "grade": 90.2,
+        "rank": 1,
+        "snaps": {
+          "off": "342",
+          "routes": "246",
+          "pblk": "2",
+          "rblk": "94"
+        }
+      },
+      "2025": {
+        "grade": 78.8,
+        "snaps": {
+          "off": "606",
+          "routes": "423",
+          "pblk": "14",
+          "rblk": "167"
+        }
+      }
+    },
+    "stats_2026": {
+      "team": "LV",
+      "games": 6,
+      "tgt": 62,
+      "rec": 41,
+      "yds": 547,
+      "td": 5,
+      "epa_tgt": 0.535,
+      "rz_tgt": 12,
+      "adot": 10.0,
+      "sep": 2.39,
+      "yac_oe": 0.94,
+      "pff": 90.2,
+      "pff_rank": 1,
+      "off": 342,
+      "routes": 246,
+      "pblk": 2,
+      "rblk": 94,
+      "yprr": 2.22,
+      "tprr": 0.252,
+      "block_share": 0.28
+    },
+    "stats_2025": {
+      "team": "LV",
+      "games": 12,
+      "tgt": 87,
+      "rec": 64,
+      "yds": 680,
+      "td": 7,
+      "epa_tgt": 0.268,
+      "rz_tgt": 18,
+      "adot": 6.5,
+      "sep": 2.92,
+      "yac_oe": 0.97,
+      "pff": 78.8,
+      "pff_rank": 7,
+      "off": 606,
+      "routes": 423,
+      "pblk": 14,
+      "rblk": 167,
+      "yprr": 1.61,
+      "tprr": 0.206,
+      "block_share": 0.3
+    },
+    "splits_2026": {
+      "deep_tgt": 7,
+      "deep_catch": 0.43,
+      "deep_epa_tgt": 0.51,
+      "yac_rec": 4.4,
+      "short_catch": 0.73,
+      "rz_tgt": 12,
+      "third_down_conv": "15/25",
+      "fum_lost": 1
+    },
+    "splits_2025": {
+      "deep_tgt": 6,
+      "deep_catch": 0.33,
+      "deep_epa_tgt": -0.86,
+      "yac_rec": 4.8,
+      "short_catch": 0.78,
+      "rz_tgt": 18,
+      "third_down_conv": "8/22",
+      "fum_lost": 0
+    },
+    "usage_2026": {
+      "offensive_snaps": 342,
+      "games": 6
+    },
+    "summary_lines": [
+      "Brock Bowers (LV) 2026: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1",
+      "Brock Bowers (LV) 2025: 12 g, 87 tgt, 64 rec, 680 yds, 7 TD, EPA/tgt 0.268, aDOT 6.5, NGS separation 2.92, YAC over expected 0.97, YPRR 1.61, TPRR 0.206, routes 423; deep (20+ air yds) 6 tgt catch 0.33 EPA/tgt -0.86, short (<10) catch 0.78, YAC/rec 4.8, red-zone tgt 18, 3rd/4th-down conv 8/22, fumbles lost 0",
+      "Brock Bowers PFF TE offense grade 2026 90.2 (rank 1), 2025 78.8; 2026 PFF snaps {'off': '342', 'routes': '246', 'pblk': '2', 'rblk': '94'}",
+      "Brock Bowers 2026 usage: 342 offensive snaps in 6 games (nflverse snap_counts); age 23, 75 in, 235 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF receiving/run-block/pass-block sub-grades are paywalled (PFF+) and inline/slot/wide alignment splits are not public; per commissioner t45s377 blocking traits are judged from PFF overall grade plus PFF run-block/pass-block/route snap counts (block share), with film-consensus style"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "CAR",
+      "BTK",
+      "RBK",
+      "IBL",
+      "PBK",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/te/2026",
+        "retrieved_at": "2026-11-03T21:11:56Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/te/2025",
+        "retrieved_at": "2026-11-03T21:11:56Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T21:11:56Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T21:11:56Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
+        "retrieved_at": "2026-11-03T21:11:56Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T21:11:56Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T21:11:56Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
