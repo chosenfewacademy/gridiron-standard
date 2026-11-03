@@ -1,0 +1,248 @@
+{
+ "task": "QB_REAUDIT_LEAGUE_CEILING_CHECK",
+ "card": "t35u",
+ "generated_at": "2026-11-03T01:11:38.158Z",
+ "sources": [
+  "nflverse pbp_2025/2026 (REG, qb_dropback)",
+  "nflverse stats_player_reg_2025/2026 (games, CPOE)",
+  "FTN charting 2025/2026 (is_interception_worthy)",
+  "PFF QB grades 2025/2026"
+ ],
+ "pool": [
+  "Joe Burrow",
+  "Josh Allen",
+  "Brock Purdy",
+  "Drake Maye",
+  "Dak Prescott",
+  "Jared Goff",
+  "Jordan Love",
+  "Matthew Stafford",
+  "Lamar Jackson",
+  "Trevor Lawrence",
+  "Patrick Mahomes",
+  "Caleb Williams",
+  "C.J. Stroud",
+  "Geno Smith",
+  "Kirk Cousins",
+  "Sam Darnold",
+  "Justin Herbert"
+ ],
+ "madden_used_as_evidence": false,
+ "position": "QB",
+ "references": [
+  {
+   "name": "Patrick Mahomes",
+   "teams": [
+    "KC"
+   ],
+   "games": 21,
+   "g25": 14,
+   "g26": 7,
+   "db": 779,
+   "pff": 76.062,
+   "pff25": 76,
+   "pff26": 76.2,
+   "epa_db": 0.131,
+   "cpoe": 0.734,
+   "sack": 5.52,
+   "twp": 2.824,
+   "ovr": 81
+  },
+  {
+   "name": "Trevor Lawrence",
+   "teams": [
+    "JAX"
+   ],
+   "games": 24,
+   "g25": 17,
+   "g26": 7,
+   "db": 811,
+   "pff": 80.734,
+   "pff25": 83.7,
+   "pff26": 72.3,
+   "epa_db": 0.114,
+   "cpoe": -0.371,
+   "sack": 6.658,
+   "twp": 2.959,
+   "ovr": 82
+  }
+ ],
+ "thresholds": {
+  "pff": 76.062,
+  "epa_db": 0.114,
+  "cpoe": -0.371,
+  "twp": 2.959,
+  "sack": 6.658,
+  "games": 21
+ },
+ "flagged": [
+  {
+   "name": "Mac Jones",
+   "teams": [
+    "SF"
+   ],
+   "games": 11,
+   "g25": 11,
+   "g26": 0,
+   "db": 304,
+   "pff": 76.7,
+   "pff25": 76.7,
+   "pff26": null,
+   "epa_db": 0.127,
+   "cpoe": 3.679,
+   "sack": 5.263,
+   "twp": 3.618,
+   "hits": [
+    "pff",
+    "epa_db",
+    "cpoe",
+    "sack"
+   ],
+   "score": -3.0987358984689757
+  },
+  {
+   "name": "Jayden Daniels",
+   "teams": [
+    "WAS"
+   ],
+   "games": 12,
+   "g25": 7,
+   "g26": 5,
+   "db": 362,
+   "pff": 76.925,
+   "pff25": 74.8,
+   "pff26": 79.7,
+   "epa_db": -0.007,
+   "cpoe": 0.873,
+   "sack": 8.287,
+   "twp": 0.829,
+   "hits": [
+    "pff",
+    "cpoe",
+    "twp"
+   ],
+   "score": -5.246741233719334
+  }
+ ],
+ "closest": [
+  {
+   "name": "Bryce Young",
+   "teams": [
+    "CAR"
+   ],
+   "games": 23,
+   "g25": 16,
+   "g26": 7,
+   "db": 798,
+   "pff": 73.927,
+   "pff25": 71,
+   "pff26": 79,
+   "epa_db": -0.012,
+   "cpoe": 0.542,
+   "sack": 6.266,
+   "twp": 1.88,
+   "hits": [
+    "cpoe",
+    "twp",
+    "sack",
+    "games"
+   ],
+   "score": -0.6196027572874637
+  },
+  {
+   "name": "Jalen Hurts",
+   "teams": [
+    "PHI"
+   ],
+   "games": 21,
+   "g25": 16,
+   "g26": 5,
+   "db": 653,
+   "pff": 74.806,
+   "pff25": 79,
+   "pff26": 62.6,
+   "epa_db": 0.019,
+   "cpoe": 1.809,
+   "sack": 6.891,
+   "twp": 2.144,
+   "hits": [
+    "cpoe",
+    "twp",
+    "games"
+   ],
+   "score": -1.4735807833979342
+  },
+  {
+   "name": "Jacoby Brissett",
+   "teams": [
+    "ARI"
+   ],
+   "games": 22,
+   "g25": 14,
+   "g26": 8,
+   "db": 852,
+   "pff": 72.347,
+   "pff25": 71.1,
+   "pff26": 74.4,
+   "epa_db": -0.037,
+   "cpoe": 0.897,
+   "sack": 7.277,
+   "twp": 1.995,
+   "hits": [
+    "cpoe",
+    "twp",
+    "games"
+   ],
+   "score": -2.0057660690067496
+  },
+  {
+   "name": "Aaron Rodgers",
+   "teams": [
+    "PIT"
+   ],
+   "games": 24,
+   "g25": 16,
+   "g26": 8,
+   "db": 834,
+   "pff": 66.966,
+   "pff25": 68,
+   "pff26": 65.2,
+   "epa_db": -0.022,
+   "cpoe": -0.673,
+   "sack": 6.235,
+   "twp": 1.918,
+   "hits": [
+    "twp",
+    "sack",
+    "games"
+   ],
+   "score": -2.8485162304730345
+  },
+  {
+   "name": "Marcus Mariota",
+   "teams": [
+    "WAS"
+   ],
+   "games": 13,
+   "g25": 10,
+   "g26": 3,
+   "db": 298,
+   "pff": 71.4,
+   "pff25": 71.4,
+   "pff26": null,
+   "epa_db": 0.016,
+   "cpoe": 3.209,
+   "sack": 6.376,
+   "twp": 2.685,
+   "hits": [
+    "cpoe",
+    "twp",
+    "sack"
+   ],
+   "score": -4.416723092263122
+  }
+ ],
+ "screened": 69,
+ "read_only": true,
+ "rating_changes": []
+}
