@@ -1,0 +1,167 @@
+# RB_REAUDIT_BG_04 — Jaylen Warren background dossier (v1.1.2 stage 2)
+
+Auto-run under commissioner approval t41s302.
+
+```json
+{
+  "audit_id": "RB_REAUDIT_BG_04_A1",
+  "task_id": "RB_REAUDIT_BG_04",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "player_id": "jaylen_warren",
+  "players": [
+    "Jaylen Warren"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Jaylen Warren",
+    "player_id": "jaylen_warren",
+    "team": "PIT",
+    "age": 28,
+    "size": {
+      "ht_in": "68",
+      "wt_lb": "215"
+    },
+    "pff": {
+      "2026": {
+        "overall": 87.3,
+        "rank": 4,
+        "snaps": {
+          "off": "385",
+          "run": "120",
+          "route": "188",
+          "pblk": "67"
+        }
+      },
+      "2025": {
+        "overall": 81.0
+      }
+    },
+    "stats_2026": {
+      "car": 119,
+      "ryd": 704,
+      "ypc": 5.92,
+      "td": 2,
+      "epa_rush": 0.128,
+      "succ": 0.479,
+      "expl": 0.126,
+      "fum": 0,
+      "gl": 3,
+      "tgt": 37,
+      "rec": 25,
+      "recyd": 294,
+      "rec_epa": -1.1,
+      "ryoe_att": 1.93427213353781,
+      "ryoe": 222.441295356849,
+      "stack8": 23.5294117647059
+    },
+    "stats_2025": {
+      "car": 211,
+      "ryd": 958,
+      "ypc": 4.54,
+      "td": 6,
+      "epa_rush": -0.002,
+      "succ": 0.427,
+      "expl": 0.109,
+      "fum": 0,
+      "gl": 14,
+      "tgt": 45,
+      "rec": 40,
+      "recyd": 333,
+      "rec_epa": 10.6,
+      "ryoe_att": 0.800823869744857,
+      "ryoe": 167.372188776675,
+      "stack8": 31.7535545023697
+    },
+    "splits_2026": {
+      "rec_yac_per_rec": 13.84,
+      "runs20": 7,
+      "stuff_rate": 0.151,
+      "short_yd": "8/9"
+    },
+    "splits_2025": {
+      "rec_yac_per_rec": 10.97,
+      "runs20": 6,
+      "stuff_rate": 0.147,
+      "short_yd": "12/15"
+    },
+    "usage_2026": {
+      "offensive_snaps": 386,
+      "games": 8
+    },
+    "summary_lines": [
+      "Jaylen Warren (PIT) 2026: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9",
+      "Jaylen Warren (PIT) 2025: 211 car 958 yds 4.54 ypc 6 TD, EPA/rush -0.002, success 43%, 10+ run rate 11%, RYOE/att 0.800823869744857, fumbles lost 0, 45 tgt 40 rec 333 rec yds, rec YAC/rec 10.97, 20+ runs 6, stuff rate 14.7%, 3rd/4th-and-<=2 conv 12/15",
+      "Jaylen Warren PFF HB overall 2026 87.3 (rank 4), 2025 81.0; 2026 PFF snaps off 385, run 120, routes 188, pass-block 67",
+      "Jaylen Warren 2026 usage: 386 offensive snaps in 8 games (nflverse snap_counts); age 28, 68 in, 215 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF elusive rating, YCO/att and MTF are paywalled; contact/MTF judged from RYOE, stuff rate, success and film-consensus style, not a measured MTF count"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CAR",
+      "BCV",
+      "BTK",
+      "TRK",
+      "SFA",
+      "SPM",
+      "JKM",
+      "CTH",
+      "CIT",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/hb/2026",
+        "retrieved_at": "2026-11-03T08:19:44Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/hb/2025",
+        "retrieved_at": "2026-11-03T08:19:44Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:44Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:44Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "retrieved_at": "2026-11-03T08:19:44Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T08:19:44Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T08:19:44Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
