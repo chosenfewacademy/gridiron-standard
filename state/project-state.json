@@ -1016,7 +1016,7 @@
         "position": "RB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/RB.reaudit.json",
       "baseline_file": "data/baselines/RB.json",
@@ -1073,7 +1073,8 @@
         "RB_REAUDIT_TIEBREAK_10",
         "RB_REAUDIT_TIEBREAK_11",
         "RB_REAUDIT_TIEBREAK_12",
-        "RB_REAUDIT_TIEBREAK_13"
+        "RB_REAUDIT_TIEBREAK_13",
+        "RB_REAUDIT_VARIANCE_AUDIT"
       ],
       "audit_ids": [
         "RB_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -1141,18 +1142,14 @@
       ],
       "current_stage": "variance_audit",
       "current_task": "RB_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-03T08:45:36.709Z",
+      "updated_at": "2026-11-03T08:45:47.852Z",
       "last_result": {
         "task_id": "RB_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "RB_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "RB_REAUDIT_VARIANCE_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -1654,6 +1651,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T08:45:13Z",
           "note": "Variance-audit evidence fix (t41s314, t42u): Variance audit (t42u): INJ 80 was 11 below Madden and ranked 11/14 while Taylor has played every 2026 game (412 snaps, most in group) and carried 324 "
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RB_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "RB_REAUDIT_VARIANCE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T08:45:47Z",
+          "note": "Commissioner approval t41s314 (run the variance audit) + t42u (audit the double-digit drop-offs from Madden)"
         }
       ]
     },
