@@ -1810,7 +1810,7 @@
         "position": "WR",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/WR.reaudit.json",
       "baseline_file": "data/baselines/WR.json",
@@ -1820,7 +1820,8 @@
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-03T14:29:07.368Z",
       "completed_tasks": [
-        "WR_REAUDIT_CANDIDATE_AUDIT"
+        "WR_REAUDIT_CANDIDATE_AUDIT",
+        "WR_REAUDIT_BG_01"
       ],
       "audit_ids": [
         "WR_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -1828,18 +1829,14 @@
       ],
       "current_stage": "background_analysis",
       "current_task": "WR_REAUDIT_BG_01",
-      "updated_at": "2026-11-03T14:54:31.618Z",
+      "updated_at": "2026-11-03T14:54:31.873Z",
       "last_result": {
         "task_id": "WR_REAUDIT_BG_01",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "WR_REAUDIT_BG_01",
-        "audit_id": "WR_REAUDIT_BG_01_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -1848,6 +1845,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T14:51:51Z",
           "note": "Commissioner approval t45u (All of the above): WR candidate list approved; A.J. Brown and Stefon Diggs drop out of top-10 contention"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_01",
+          "audit_id": "WR_REAUDIT_BG_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T14:54:31Z",
+          "note": "Automatic approval under commissioner approval t45u (run the dossiers and ratings automatically); adjustable in head-to-heads"
         }
       ]
     },
