@@ -1810,14 +1810,39 @@
         "position": "WR",
         "stage": "top10_reaudit"
       },
-      "status": "QUEUED_NOT_STARTED",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/WR.reaudit.json",
       "baseline_file": "data/baselines/WR.json",
       "requested_by": "PhiXCrypto (commissioner)",
       "requested_at": "2026-11-02T04:38:22.574Z",
       "trigger": "COMMISSIONER_EXPLICIT",
-      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
+      "started_at": "2026-11-03T14:29:07.368Z",
+      "completed_tasks": [],
+      "audit_ids": [
+        "WR_REAUDIT_CANDIDATE_AUDIT_A1"
+      ],
+      "current_stage": "candidate_audit",
+      "current_task": "WR_REAUDIT_CANDIDATE_AUDIT",
+      "updated_at": "2026-11-03T14:29:07.376Z",
+      "last_result": {
+        "task_id": "WR_REAUDIT_CANDIDATE_AUDIT",
+        "status": "FLAGGED",
+        "errors": [],
+        "flags": [
+          "LOCKED_MEMBER_OUTSIDE_CONTENTION: A.J. Brown, Stefon Diggs",
+          "LIMITED_SAMPLE_IN_CONTENTION: Nico Collins, DeVonta Smith, Mike Evans",
+          "ONE_YEAR_SPIKE: Tee Higgins, CeeDee Lamb (2025 down years)",
+          "MADDEN_GAP_10PLUS: none among contenders vs Madden (reference only)",
+          "LOCKED_CONTROL_CONFLICT"
+        ]
+      },
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "WR_REAUDIT_CANDIDATE_AUDIT",
+        "audit_id": "WR_REAUDIT_CANDIDATE_AUDIT_A1"
+      }
     },
     {
       "type": "TOP10_REAUDIT",

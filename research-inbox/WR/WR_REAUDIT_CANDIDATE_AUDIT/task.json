@@ -1,0 +1,273 @@
+{
+  "task_id": "WR_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Puka Nacua"
+      },
+      {
+        "rank": 2,
+        "player": "Ja'Marr Chase"
+      },
+      {
+        "rank": 3,
+        "player": "Jaxon Smith-Njigba"
+      },
+      {
+        "rank": 4,
+        "player": "Amon-Ra St. Brown"
+      },
+      {
+        "rank": 5,
+        "player": "George Pickens"
+      },
+      {
+        "rank": 6,
+        "player": "Drake London"
+      },
+      {
+        "rank": 7,
+        "player": "Nico Collins"
+      },
+      {
+        "rank": 8,
+        "player": "Justin Jefferson"
+      },
+      {
+        "rank": 9,
+        "player": "A.J. Brown"
+      },
+      {
+        "rank": 10,
+        "player": "Stefon Diggs"
+      }
+    ],
+    "external_controls": [
+      {
+        "player": "Jaylen Waddle",
+        "ovr": 85
+      }
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Jaxon Smith-Njigba",
+      "aliases": [],
+      "player_id": "jaxon_smith_njigba",
+      "flags": []
+    },
+    {
+      "player": "Puka Nacua",
+      "aliases": [],
+      "player_id": "puka_nacua",
+      "flags": []
+    },
+    {
+      "player": "Ja'Marr Chase",
+      "aliases": [],
+      "player_id": "ja_marr_chase",
+      "flags": []
+    },
+    {
+      "player": "Chris Olave",
+      "aliases": [],
+      "player_id": "ext_00-0037239",
+      "flags": []
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "aliases": [],
+      "player_id": "amon_ra_st_brown",
+      "flags": []
+    },
+    {
+      "player": "Tee Higgins",
+      "aliases": [],
+      "player_id": "ext_00-0036410",
+      "flags": []
+    },
+    {
+      "player": "CeeDee Lamb",
+      "aliases": [],
+      "player_id": "ext_00-0036358",
+      "flags": []
+    },
+    {
+      "player": "Drake London",
+      "aliases": [],
+      "player_id": "drake_london",
+      "flags": []
+    },
+    {
+      "player": "George Pickens",
+      "aliases": [],
+      "player_id": "george_pickens",
+      "flags": []
+    },
+    {
+      "player": "Zay Flowers",
+      "aliases": [],
+      "player_id": "ext_00-0039064",
+      "flags": []
+    },
+    {
+      "player": "Christian Watson",
+      "aliases": [],
+      "player_id": "ext_00-0038124",
+      "flags": []
+    },
+    {
+      "player": "Mike Evans",
+      "aliases": [],
+      "player_id": "ext_00-0031408",
+      "flags": [
+        "ROSTER_STATUS_INA"
+      ]
+    },
+    {
+      "player": "DeVonta Smith",
+      "aliases": [],
+      "player_id": "devonta_smith",
+      "flags": []
+    },
+    {
+      "player": "Malik Nabers",
+      "aliases": [],
+      "player_id": "ext_00-0039337",
+      "flags": []
+    },
+    {
+      "player": "Parker Washington",
+      "aliases": [],
+      "player_id": "ext_00-0038606",
+      "flags": []
+    },
+    {
+      "player": "Matthew Golden",
+      "aliases": [],
+      "player_id": "ext_00-0040667",
+      "flags": []
+    },
+    {
+      "player": "Nico Collins",
+      "aliases": [],
+      "player_id": "nico_collins",
+      "flags": []
+    },
+    {
+      "player": "Justin Jefferson",
+      "aliases": [],
+      "player_id": "justin_jefferson",
+      "flags": []
+    },
+    {
+      "player": "Davante Adams",
+      "aliases": [],
+      "player_id": "ext_00-0031381",
+      "flags": [
+        "INJURED_RESERVE"
+      ]
+    },
+    {
+      "player": "Garrett Wilson",
+      "aliases": [],
+      "player_id": "ext_00-0037740",
+      "flags": []
+    },
+    {
+      "player": "Terry McLaurin",
+      "aliases": [],
+      "player_id": "ext_00-0035659",
+      "flags": [
+        "INJURED_RESERVE",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Mack Hollins",
+      "aliases": [],
+      "player_id": "ext_00-0033555",
+      "flags": [
+        "INJURED_RESERVE"
+      ]
+    },
+    {
+      "player": "Tetairoa McMillan",
+      "aliases": [],
+      "player_id": "ext_00-0040124",
+      "flags": []
+    },
+    {
+      "player": "Jaylen Waddle",
+      "aliases": [],
+      "player_id": "jaylen_waddle",
+      "flags": [
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    }
+  ],
+  "position": "WR",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 3,
+    "group": "Offense",
+    "current_status": "LOCKED",
+    "pff_cited_inputs": [
+      "overall",
+      "receiving",
+      "drop rate",
+      "contested catch rate",
+      "yards per route run",
+      "grade vs man/zone"
+    ],
+    "position_stats": [
+      "targets, receptions, yards, TD",
+      "catch %",
+      "YAC"
+    ],
+    "usage_snap_metrics": [
+      "route participation",
+      "slot/wide alignment %",
+      "aDOT",
+      "target share",
+      "air-yard share"
+    ],
+    "on_field_impact": [
+      "EPA/target",
+      "separation (NGS avg separation)",
+      "YAC over expected"
+    ],
+    "madden_attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "RBK",
+      "AWR"
+    ],
+    "note": ""
+  }
+}
