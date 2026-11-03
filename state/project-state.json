@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -151,20 +151,26 @@
         "QB_REAUDIT_RATE_15_A2",
         "QB_REAUDIT_RATE_16_A2",
         "QB_REAUDIT_RATE_17_A2",
-        "QB_REAUDIT_H2H_01_A1"
+        "QB_REAUDIT_H2H_01_A1",
+        "QB_REAUDIT_H2H_02_A1"
       ],
       "current_stage": "pair_audits",
-      "current_task": "QB_REAUDIT_H2H_01",
-      "updated_at": "2026-11-03T00:22:16.206Z",
+      "current_task": "QB_REAUDIT_H2H_02",
+      "updated_at": "2026-11-03T00:22:31.212Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_H2H_01",
+        "task_id": "QB_REAUDIT_H2H_02",
         "status": "FLAGGED",
         "errors": [],
         "flags": [
-          "PENDING_REVIEW: pair result not approved (card t30s8)"
+          "PENDING_REVIEW: pair result not approved (card t30s8)",
+          "RATING_CONTRADICTION: verdict reverses rating order"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "QB_REAUDIT_H2H_02",
+        "audit_id": "QB_REAUDIT_H2H_02_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
