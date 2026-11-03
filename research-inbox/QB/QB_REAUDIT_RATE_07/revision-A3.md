@@ -1,4 +1,4 @@
-# QB_REAUDIT_RATE_07 revision A3 — tiebreak adjustment DRAFT (not run, not approved)
+# QB_REAUDIT_RATE_07 revision A3 — tiebreak adjustment authorized by t35s273
 
 ```json
 {
@@ -414,7 +414,7 @@
     "JMP_NO_EVIDENCE: neutral 70 LOW",
     "ELITE_TRAIT_PROPOSED: SAC 90",
     "SEASON_SPLIT: EPA/dropback +0.298 (2025) vs +0.159 (2026)",
-    "TIEBREAK_ADJUSTMENT_PROPOSED: OVR 86->87 (PENDING commissioner review; not run)"
+    "TIEBREAK_ADJUSTMENT_PROPOSED: OVR 86->87 (authorized by t35s273)"
   ],
   "locked_control_conflict": false,
   "style_profile": "Vertical accuracy creator: elite ball placement at every depth (CPOE +10.8 / +7.3, 50% deep) plus real scramble production (62 scrambles 2025), offset by long-holding sacks (8.7%) and a rising turnover-worthy rate \u2014 accuracy-first where Allen is power-first.",

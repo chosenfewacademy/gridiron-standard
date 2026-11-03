@@ -1,4 +1,4 @@
-# QB_REAUDIT_RATE_03 revision A3 — tiebreak adjustment DRAFT (not run, not approved)
+# QB_REAUDIT_RATE_03 revision A3 — tiebreak adjustment authorized by t35s273
 
 ```json
 {
@@ -337,7 +337,7 @@
     "GRADE_VS_EFFICIENCY_SPLIT: PFF #3 vs EPA/play #9",
     "ELITE_TRAIT_PROPOSED: STA 90",
     "VARIANCE_ADJUSTMENT:QB_REAUDIT_VARIANCE_AUDIT:RUN",
-    "TIEBREAK_ADJUSTMENT_PROPOSED: OVR 85->84 (PENDING commissioner review; not run)"
+    "TIEBREAK_ADJUSTMENT_PROPOSED: OVR 85->84 (authorized by t35s273)"
   ],
   "locked_control_conflict": false,
   "style_profile": "Durable high-volume rhythm distributor: wins with timing, quick release and ball security from the pocket (3.5% sack rate, 0 fumbles), short-area heavy (aDOT 7.8, 8.2% deep); limited intermediate/deep accuracy and little legs value \u2014 distinct from Burrow's precision and Jackson's improvisation.",

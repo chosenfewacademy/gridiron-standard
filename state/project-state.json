@@ -197,16 +197,24 @@
         "QB_REAUDIT_TIEBREAK_06_A1",
         "QB_REAUDIT_TIEBREAK_07_A1",
         "QB_REAUDIT_TIEBREAK_08_A1",
-        "QB_REAUDIT_SCARCITY_A1"
+        "QB_REAUDIT_SCARCITY_A1",
+        "QB_REAUDIT_RATE_07_A3",
+        "QB_REAUDIT_RATE_03_A3"
       ],
       "current_stage": "scarcity_audit",
       "current_task": "QB_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-03T01:12:39.274Z",
+      "updated_at": "2026-11-03T02:18:34.604Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_SCARCITY",
-        "status": "VALIDATED",
-        "errors": [],
-        "flags": []
+        "task_id": "QB_REAUDIT_RATE_03",
+        "status": "REVISION_APPROVED",
+        "audit_id": "QB_REAUDIT_RATE_03_A3",
+        "supersedes": "QB_REAUDIT_RATE_03_A2",
+        "flags": [
+          "GRADE_VS_EFFICIENCY_SPLIT: PFF #3 vs EPA/play #9",
+          "ELITE_TRAIT_PROPOSED: STA 90",
+          "VARIANCE_ADJUSTMENT:QB_REAUDIT_VARIANCE_AUDIT:RUN",
+          "TIEBREAK_ADJUSTMENT_PROPOSED: OVR 85->84 (authorized by t35s273)"
+        ]
       },
       "awaiting": null,
       "approvals": [
@@ -893,6 +901,24 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T01:12:39Z",
           "note": "Approved by the commissioner on card t34s264 (scarcity clean: 11 sourced 90+ traits, no 95+, one 90 overall, style rule 0/136)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_07",
+          "audit_id": "QB_REAUDIT_RATE_07_A3",
+          "supersedes": "QB_REAUDIT_RATE_07_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T02:18:34Z",
+          "note": "Tiebreak adjustment applied, authorized by t35s273"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_03",
+          "audit_id": "QB_REAUDIT_RATE_03_A3",
+          "supersedes": "QB_REAUDIT_RATE_03_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T02:18:34Z",
+          "note": "Tiebreak adjustment applied, authorized by t35s273"
         }
       ]
     },
