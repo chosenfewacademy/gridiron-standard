@@ -1920,16 +1920,17 @@
         "WR_REAUDIT_TIEBREAK_06_A1",
         "WR_REAUDIT_RATE_05_A2",
         "WR_REAUDIT_RATE_04_A2",
-        "WR_REAUDIT_RATE_06_A2"
+        "WR_REAUDIT_RATE_06_A2",
+        "WR_REAUDIT_RATE_08_A2"
       ],
       "current_stage": "pair_audits",
       "current_task": "WR_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T15:17:50.498Z",
+      "updated_at": "2026-11-03T15:17:50.785Z",
       "last_result": {
-        "task_id": "WR_REAUDIT_RATE_06",
+        "task_id": "WR_REAUDIT_RATE_08",
         "status": "REVISION_APPROVED",
-        "audit_id": "WR_REAUDIT_RATE_06_A2",
-        "supersedes": "WR_REAUDIT_RATE_06_A1",
+        "audit_id": "WR_REAUDIT_RATE_08_A2",
+        "supersedes": "WR_REAUDIT_RATE_08_A1",
         "flags": []
       },
       "awaiting": null,
@@ -2344,6 +2345,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T15:17:50Z",
           "note": "Commissioner approval t45s353: TIEBREAK_08 beats St. Brown; TIEBREAK_02 beats Flowers on two-year PFF, contested role, ball security; H2H_03 narrow loss to Higgins"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_08",
+          "audit_id": "WR_REAUDIT_RATE_08_A2",
+          "supersedes": "WR_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T15:17:50Z",
+          "note": "Commissioner approval t45s353: H2H_04 beats St. Brown on 2026 (YPRR 3.00, EPA/tgt +.436, deep EPA +1.56); TIEBREAK_02 narrow loss to London"
         }
       ]
     },
