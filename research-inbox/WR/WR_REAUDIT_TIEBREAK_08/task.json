@@ -1,0 +1,182 @@
+{
+  "type": "pair_audit",
+  "task_id": "WR_REAUDIT_TIEBREAK_08",
+  "players": [
+    "Drake London",
+    "Amon-Ra St. Brown"
+  ],
+  "baseline_controls": {
+    "locked_baseline": {
+      "top_10": [
+        {
+          "rank": 1,
+          "player": "Puka Nacua"
+        },
+        {
+          "rank": 2,
+          "player": "Ja'Marr Chase"
+        },
+        {
+          "rank": 3,
+          "player": "Jaxon Smith-Njigba"
+        },
+        {
+          "rank": 4,
+          "player": "Amon-Ra St. Brown"
+        },
+        {
+          "rank": 5,
+          "player": "George Pickens"
+        },
+        {
+          "rank": 6,
+          "player": "Drake London"
+        },
+        {
+          "rank": 7,
+          "player": "Nico Collins"
+        },
+        {
+          "rank": 8,
+          "player": "Justin Jefferson"
+        },
+        {
+          "rank": 9,
+          "player": "A.J. Brown"
+        },
+        {
+          "rank": 10,
+          "player": "Stefon Diggs"
+        }
+      ],
+      "external_controls": [
+        {
+          "player": "Jaylen Waddle",
+          "ovr": 85
+        }
+      ]
+    },
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Jaxon Smith-Njigba",
+        "overall": 95
+      },
+      {
+        "rank": 2,
+        "player": "Puka Nacua",
+        "overall": 93
+      },
+      {
+        "rank": 3,
+        "player": "Ja'Marr Chase",
+        "overall": 90
+      },
+      {
+        "rank": 4,
+        "player": "CeeDee Lamb",
+        "overall": 87
+      },
+      {
+        "rank": 5,
+        "player": "Tee Higgins",
+        "overall": 85
+      },
+      {
+        "rank": 6,
+        "player": "Drake London",
+        "overall": 85
+      },
+      {
+        "rank": 7,
+        "player": "Amon-Ra St. Brown",
+        "overall": 84
+      },
+      {
+        "rank": 8,
+        "player": "Zay Flowers",
+        "overall": 84
+      },
+      {
+        "rank": 9,
+        "player": "Chris Olave",
+        "overall": 82
+      },
+      {
+        "rank": 10,
+        "player": "Justin Jefferson",
+        "overall": 82
+      }
+    ],
+    "external_controls": [
+      "George Pickens",
+      "Nico Collins",
+      "Malik Nabers",
+      "DeVonta Smith",
+      "Mike Evans"
+    ]
+  },
+  "position": "WR",
+  "stage": "pair_audits",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 3,
+    "group": "Offense",
+    "current_status": "LOCKED",
+    "pff_cited_inputs": [
+      "overall",
+      "receiving",
+      "drop rate",
+      "contested catch rate",
+      "yards per route run",
+      "grade vs man/zone"
+    ],
+    "position_stats": [
+      "targets, receptions, yards, TD",
+      "catch %",
+      "YAC"
+    ],
+    "usage_snap_metrics": [
+      "route participation",
+      "slot/wide alignment %",
+      "aDOT",
+      "target share",
+      "air-yard share"
+    ],
+    "on_field_impact": [
+      "EPA/target",
+      "separation (NGS avg separation)",
+      "YAC over expected"
+    ],
+    "madden_attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "RBK",
+      "AWR"
+    ],
+    "note": ""
+  },
+  "tiebreak": true,
+  "note": "Add-only tiebreak for an untested adjacent tie/close call (authorized by t45s353)."
+}
