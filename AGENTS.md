@@ -195,4 +195,6 @@ flags STYLE_PROFILE_TOO_SIMILAR for review. Approved ratings are not edited for 
 them happen in the head-to-heads.
 Rating revisions (commissioner card t30s3, 2026-11-02): an approved player_rating may be superseded only by an add-only revision record `<TASK>_A<N>` (`npm run reaudit:revise`). The earlier record stays as immutable history; the revision passes the same evidence gate, validator, high-trait tiers and unique playing-style rule against the effective rating of every other player at the position, and its approval is appended with `supersedes`. Superseded records are excluded from later style checks.
 
+Tiebreak head-to-heads (commissioner card t31s1, 2026-11-02): players tied on overall whose order the standard v1.1.2 pairs did not test may get add-only extra pair_audit tasks `<POS>_REAUDIT_TIEBREAK_nn` (`npm run reaudit:tiebreak`). They pass the same evidence gate, validator and pair_audit checks, are saved FLAGGED and stay pending commissioner review on the awaiting pointer; any rating change they imply is proposed as a rating revision.
+
 All v1.0.0 text, Amendment v1.1 and Addendum v1.1.1 above remain in force unchanged.

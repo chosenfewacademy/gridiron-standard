@@ -38,7 +38,8 @@
     "reaudit:trigger": "tsx src/top10-reaudit.ts",
     "reaudit:run": "tsx src/reaudit-executor.ts",
     "reaudit:approve": "tsx src/reaudit-executor.ts",
-    "reaudit:revise": "tsx src/rating-revision.ts"
+    "reaudit:revise": "tsx src/rating-revision.ts",
+    "reaudit:tiebreak": "tsx src/tiebreak.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",

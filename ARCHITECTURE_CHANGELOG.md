@@ -134,3 +134,5 @@ No frozen architectural rule was changed.
 - 1.1.2 (2026-11-02 2:32 PM ET, commissioner): unique playing-style rule for all positions — rating stage requires `style_profile` + `style_evidence` and flags STYLE_PROFILE_TOO_SIMILAR against approved ratings at the position.
 
 - 2026-11-02 (t30s3): add-only player_rating revisions (src/rating-revision.ts, `reaudit:revise`); executor style checks skip superseded records.
+
+- 2026-11-02 (card t31s1): add-only tiebreak head-to-heads (`src/tiebreak.ts`, `reaudit:tiebreak`); pending review via the existing awaiting pointer; no guard changes.

@@ -8,6 +8,7 @@ import { planReaudit, executeReauditStep } from "../src/reaudit-executor.js";
 import { checkReauditPool } from "../src/coverage-gate.js";
 import { styleSimilarity, stageOutputErrors } from "../src/stage-engine.js";
 import { effectiveRatings } from "../src/rating-revision.js";
+import { TIEBREAK_TASK } from "../src/tiebreak.js";
 
 const J = (o: any) => JSON.stringify(o, null, 2);
 const NOW = "2026-11-02T13:30:00-05:00";
@@ -189,6 +190,13 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     const b = withItem({ status: "IN_PROGRESS", started_at: "s", completed_tasks: ["QB_REAUDIT_RATE_06"], audit_ids: ["QB_REAUDIT_RATE_06_A1", "QB_REAUDIT_RATE_06_A2"],
       approvals: [ap("QB_REAUDIT_RATE_06_A1"), { ...ap("QB_REAUDIT_RATE_06_A2"), supersedes: "QB_REAUDIT_RATE_06_A1" }] });
     assert.equal(stateChangeAllowed(J(a), J(b)).ok, true);
+  });
+  test("tiebreak: pending tiebreak (on the awaiting pointer) and its later approval pass the guard", () => {
+    const base = { status: "IN_PROGRESS", started_at: "s", completed_tasks: ["QB_REAUDIT_H2H_06"], audit_ids: ["QB_REAUDIT_H2H_06_A1"], approvals: [{ decision: "APPROVED", task_id: "QB_REAUDIT_H2H_06", audit_id: "QB_REAUDIT_H2H_06_A1", approved_by: "C", approved_at: "t" }] };
+    const pend = { ...base, status: "AWAITING_REVIEW_MAJOR", audit_ids: [...base.audit_ids, "QB_REAUDIT_TIEBREAK_01_A1"], 
+      awaiting: { reason: "TIEBREAK_REVIEW", task_id: "QB_REAUDIT_TIEBREAK_01", audit_id: "QB_REAUDIT_TIEBREAK_01_A1", pending: [{ task_id: "QB_REAUDIT_TIEBREAK_01", audit_id: "QB_REAUDIT_TIEBREAK_01_A1" }] } };
+    assert.equal(stateChangeAllowed(J(withItem(base)), J(withItem(pend))).ok, true);
+    assert.ok(TIEBREAK_TASK.test("QB_REAUDIT_TIEBREAK_01") && !TIEBREAK_TASK.test("QB_REAUDIT_H2H_01"));
   });
   for (const [n, f] of asyncTests) { await f(); console.log(`PASS ${n}`); } // sequential: executor chdirs
 }
