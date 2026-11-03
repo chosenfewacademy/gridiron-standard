@@ -1,0 +1,469 @@
+# RB_REAUDIT_RATE_05 — Bhayshul Tuten rating (v1.1.2 stage 3, per-attribute judgment; authorized by t41s302)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "RB_REAUDIT_RATE_05_A1",
+  "task_id": "RB_REAUDIT_RATE_05",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "player_id": "bhayshul_tuten",
+  "players": [
+    "Bhayshul Tuten"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "ratings": {
+    "SPD": 94,
+    "ACC": 95,
+    "AGI": 86,
+    "COD": 84,
+    "STR": 72,
+    "AWR": 72,
+    "CAR": 84,
+    "BCV": 76,
+    "BTK": 80,
+    "TRK": 74,
+    "SFA": 70,
+    "SPM": 74,
+    "JKM": 80,
+    "CTH": 70,
+    "CIT": 52,
+    "SRR": 64,
+    "MRR": 52,
+    "DRR": 48,
+    "RLS": 56,
+    "JMP": 90,
+    "INJ": 84,
+    "STA": 84,
+    "TGH": 82
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "LOW",
+    "CAR": "LOW",
+    "BCV": "LOW",
+    "BTK": "LOW",
+    "TRK": "LOW",
+    "SFA": "LOW",
+    "SPM": "LOW",
+    "JKM": "LOW",
+    "CTH": "LOW",
+    "CIT": "LOW",
+    "SRR": "LOW",
+    "MRR": "LOW",
+    "DRR": "LOW",
+    "RLS": "LOW",
+    "JMP": "LOW",
+    "INJ": "LOW",
+    "STA": "LOW",
+    "TGH": "LOW"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): short-yardage conv and size (206 lb): 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 1. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BCV": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (contact): RYOE/stuff rate: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TRK": {
+      "basis": "Judgment (power): short-yardage conv and size (206 lb): 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SFA": {
+      "basis": "Judgment (power): short-yardage conv and size (206 lb): 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SPM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JKM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3; routes 96. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3; routes 96. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3; routes 96. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3; routes 96. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3; routes 96. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3; routes 96. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (athletic): size/age 206 lb age 24; explosive plays: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Bhayshul Tuten 2026 usage: 241 offensive snaps in 7 games (nflverse snap_counts); age 24, 69 in, 206 lb; roster status ACT; 2025: 84 car 307 yds 3.65 ypc 5 TD, EPA/rush -0.121, success 46%, 10+ run rate 6%, RYOE/att None, fumbles lost 1, 14 tgt 10 rec 79 rec yds, rec YAC/rec 8.0, 20+ runs 0, stuff rate 15.5%, 3rd/4th-and-<=2 conv 4/8. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Bhayshul Tuten 2026 usage: 241 offensive snaps in 7 games (nflverse snap_counts); age 24, 69 in, 206 lb; roster status ACT; PFF snaps {'off': '240', 'run': '116', 'route': '96', 'pblk': '23'}. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Bhayshul Tuten 2026 usage: 241 offensive snaps in 7 games (nflverse snap_counts); age 24, 69 in, 206 lb; roster status ACT; PFF snaps {'off': '240', 'run': '116', 'route': '96', 'pblk': '23'}. Style: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "SPD": {
+      "tier": "ELITE",
+      "claim": "breakaway/explosive: 10+ run rate / 20+ runs / RYOE: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "breakaway/explosive: 10+ run rate / 20+ runs / RYOE: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JMP": {
+      "tier": "ELITE",
+      "claim": "athletic: size/age 206 lb age 24; explosive plays: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 79,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden. Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+  "style_profile": "Bhayshul Tuten: Explosive second-year speed back: PFF 91.9 on 240 snaps, 4.4 speed and leaping ability, 15.0 YAC/rec on small volume; RYOE only +0.15 and 2025 was 3.65 ypc, so sample size caps his ratings.",
+  "style_evidence": [
+    "Bhayshul Tuten (JAX) 2026: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 15 rec 181 rec yds, rec YAC/rec 15.0, 20+ runs 2, stuff rate 17.3%, 3rd/4th-and-<=2 conv 2/3",
+    "Bhayshul Tuten (JAX) 2025: 84 car 307 yds 3.65 ypc 5 TD, EPA/rush -0.121, success 46%, 10+ run rate 6%, RYOE/att None, fumbles lost 1, 14 tgt 10 rec 79 rec yds, rec YAC/rec 8.0, 20+ runs 0, stuff rate 15.5%, 3rd/4th-and-<=2 conv 4/8",
+    "Bhayshul Tuten PFF HB overall 2026 91.9 (rank 1), 2025 None; 2026 PFF snaps off 240, run 116, routes 96, pass-block 23",
+    "Bhayshul Tuten 2026 usage: 241 offensive snaps in 7 games (nflverse snap_counts); age 24, 69 in, 206 lb; roster status ACT"
+  ],
+  "input_dossier": "RB_REAUDIT_BG_05_A1",
+  "weaknesses": [
+    "sample size",
+    "vision/patience",
+    "pass protection",
+    "route polish"
+  ],
+  "madden_reference": [
+    {
+      "player": "Bhayshul Tuten",
+      "ovr": 81,
+      "attributes": {
+        "SPD": 95,
+        "ACC": 96,
+        "AGI": 90,
+        "COD": 87,
+        "STR": 75,
+        "AWR": 77,
+        "CAR": 85,
+        "BCV": 84,
+        "BTK": 82,
+        "TRK": 78,
+        "SFA": 73,
+        "SPM": 79,
+        "JKM": 83,
+        "CTH": 68,
+        "CIT": 54,
+        "SRR": 61,
+        "MRR": 54,
+        "DRR": 51,
+        "RLS": 59,
+        "JMP": 94,
+        "INJ": 88,
+        "STA": 89,
+        "TGH": 87
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -2,
+      "delta_attributes": {
+        "SPD": -1,
+        "ACC": -1,
+        "AGI": -4,
+        "COD": -3,
+        "STR": -3,
+        "AWR": -5,
+        "CAR": -1,
+        "BCV": -8,
+        "BTK": -2,
+        "TRK": -4,
+        "SFA": -3,
+        "SPM": -5,
+        "JKM": -3,
+        "CTH": 2,
+        "CIT": -2,
+        "SRR": 3,
+        "MRR": -2,
+        "DRR": -3,
+        "RLS": -3,
+        "JMP": -4,
+        "INJ": -4,
+        "STA": -5,
+        "TGH": -5
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RB, retrieved 2026-11-02 ET)"
+    }
+  ],
+  "variance_check": {
+    "ovr_gap": 2,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t41s302"
+}
+```
