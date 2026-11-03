@@ -1,0 +1,532 @@
+# WR_REAUDIT_RATE_07 — Amon-Ra St. Brown rating (v1.1.2 stage 3, per-attribute judgment; authorized by t45u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "WR_REAUDIT_RATE_07_A1",
+  "task_id": "WR_REAUDIT_RATE_07",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "player_id": "amon_ra_st_brown",
+  "players": [
+    "Amon-Ra St. Brown"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 84,
+    "ACC": 88,
+    "AGI": 90,
+    "COD": 90,
+    "STR": 74,
+    "AWR": 92,
+    "CTH": 93,
+    "CIT": 92,
+    "SPC": 76,
+    "SRR": 94,
+    "MRR": 90,
+    "DRR": 70,
+    "RLS": 86,
+    "JMP": 74,
+    "CAR": 90,
+    "BTK": 78,
+    "SPM": 66,
+    "JKM": 78,
+    "INJ": 90,
+    "STA": 90,
+    "TGH": 92
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "CTH": "MEDIUM",
+    "CIT": "LOW",
+    "SPC": "LOW",
+    "SRR": "MEDIUM",
+    "MRR": "MEDIUM",
+    "DRR": "MEDIUM",
+    "RLS": "MEDIUM",
+    "JMP": "LOW",
+    "CAR": "MEDIUM",
+    "BTK": "MEDIUM",
+    "SPM": "LOW",
+    "JKM": "LOW",
+    "INJ": "LOW",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (physical): size 72 in / 202 lb, run-block snaps {'off': '409', 'routes': '258', 'rblk': '150'}. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (processing): 3rd-down conv, EPA/tgt, PFF grade: Amon-Ra St. Brown PFF WR offense grade 2026 78.9 (rank 19), 2025 90.7; 2026 PFF snaps {'off': '409', 'routes': '258', 'rblk': '150'}. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (hands): short catch rate, PFF grade: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (contested): deep/red-zone results and size (202 lb): 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPC": {
+      "basis": "Judgment (contested): deep/red-zone results and size (202 lb): 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (deep): deep catch rate and deep EPA/tgt: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0; 2025: 17 g, 172 tgt, 117 rec, 1401 yds, 11 TD, EPA/tgt 0.323, aDOT 8.1, NGS separation 2.94, YAC over expected 0.3, YPRR 2.38, TPRR 0.292, routes 589; deep (20+ air yds) 8 tgt catch 0.38 EPA/tgt 0.1, short (<10) catch 0.74, YAC/rec 4.9, red-zone tgt 35, 3rd/4th-down conv 28/63, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Listed weakness area: deep threat, long speed, 2026 decline",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (contested): deep/red-zone results and size (202 lb): 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPM": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JKM": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Amon-Ra St. Brown 2026 usage: 409 offensive snaps in 7 games (nflverse snap_counts); age 27, 72 in, 202 lb; roster status ACT; 2025 games 17. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Amon-Ra St. Brown 2026 usage: 409 offensive snaps in 7 games (nflverse snap_counts); age 27, 72 in, 202 lb; roster status ACT; PFF snaps {'off': '409', 'routes': '258', 'rblk': '150'}. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Amon-Ra St. Brown 2026 usage: 409 offensive snaps in 7 games (nflverse snap_counts); age 27, 72 in, 202 lb; roster status ACT; PFF snaps {'off': '409', 'routes': '258', 'rblk': '150'}. Style: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated receivers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated receivers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "AGI": {
+      "tier": "ELITE",
+      "claim": "separation: NGS separation, TPRR, short catch rate: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "COD": {
+      "tier": "ELITE",
+      "claim": "separation: NGS separation, TPRR, short catch rate: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "processing: 3rd-down conv, EPA/tgt, PFF grade: Amon-Ra St. Brown PFF WR offense grade 2026 78.9 (rank 19), 2025 90.7; 2026 PFF snaps {'off': '409', 'routes': '258', 'rblk': '150'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "tier": "ELITE",
+      "claim": "hands: short catch rate, PFF grade: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CIT": {
+      "tier": "ELITE",
+      "claim": "contested: deep/red-zone results and size (202 lb): 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SRR": {
+      "tier": "ELITE",
+      "claim": "route: YPRR/TPRR/3rd-down conversion: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "MRR": {
+      "tier": "ELITE",
+      "claim": "route: YPRR/TPRR/3rd-down conversion: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CAR": {
+      "tier": "ELITE",
+      "claim": "ball security: fumbles lost 2026 0, 2025 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Amon-Ra St. Brown 2026 usage: 409 offensive snaps in 7 games (nflverse snap_counts); age 27, 72 in, 202 lb; roster status ACT; 2025 games 17",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: Amon-Ra St. Brown 2026 usage: 409 offensive snaps in 7 games (nflverse snap_counts); age 27, 72 in, 202 lb; roster status ACT; PFF snaps {'off': '409', 'routes': '258', 'rblk': '150'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: Amon-Ra St. Brown 2026 usage: 409 offensive snaps in 7 games (nflverse snap_counts); age 27, 72 in, 202 lb; roster status ACT; PFF snaps {'off': '409', 'routes': '258', 'rblk': '150'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/wr/2026",
+        "https://www.pff.com/grades/nfl/wr/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "proposed_ovr": 84,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+  "style_profile": "Amon-Ra St. Brown: Slot technician and red-zone volume target: 35 red-zone targets and 11 TD in 2025, TPRR .29 both years, elite short-area hands; almost no deep game (5-8 deep targets per year), and his PFF fell from 90.7 to 78.9.",
+  "style_evidence": [
+    "Amon-Ra St. Brown (DET) 2026: 7 g, 76 tgt, 53 rec, 571 yds, 5 TD, EPA/tgt 0.313, aDOT 8.4, NGS separation 2.88, YAC over expected -0.34, YPRR 2.21, TPRR 0.295, routes 258; deep (20+ air yds) 5 tgt catch 0.4 EPA/tgt 0.48, short (<10) catch 0.79, YAC/rec 3.9, red-zone tgt 16, 3rd/4th-down conv 10/25, fumbles lost 0",
+    "Amon-Ra St. Brown (DET) 2025: 17 g, 172 tgt, 117 rec, 1401 yds, 11 TD, EPA/tgt 0.323, aDOT 8.1, NGS separation 2.94, YAC over expected 0.3, YPRR 2.38, TPRR 0.292, routes 589; deep (20+ air yds) 8 tgt catch 0.38 EPA/tgt 0.1, short (<10) catch 0.74, YAC/rec 4.9, red-zone tgt 35, 3rd/4th-down conv 28/63, fumbles lost 0",
+    "Amon-Ra St. Brown PFF WR offense grade 2026 78.9 (rank 19), 2025 90.7; 2026 PFF snaps {'off': '409', 'routes': '258', 'rblk': '150'}",
+    "Amon-Ra St. Brown 2026 usage: 409 offensive snaps in 7 games (nflverse snap_counts); age 27, 72 in, 202 lb; roster status ACT"
+  ],
+  "input_dossier": "WR_REAUDIT_BG_07_A1",
+  "weaknesses": [
+    "deep threat",
+    "long speed",
+    "2026 decline"
+  ],
+  "madden_reference": [
+    {
+      "player": "Amon-Ra St. Brown",
+      "ovr": 95,
+      "attributes": {
+        "SPD": 90,
+        "ACC": 91,
+        "AGI": 92,
+        "COD": 88,
+        "STR": 67,
+        "AWR": 98,
+        "CTH": 98,
+        "CIT": 91,
+        "SPC": 90,
+        "SRR": 97,
+        "MRR": 98,
+        "DRR": 90,
+        "RLS": 89,
+        "JMP": 91,
+        "CAR": 75,
+        "BTK": 79,
+        "SPM": 79,
+        "JKM": 87,
+        "INJ": 90,
+        "STA": 94,
+        "TGH": 85
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -11,
+      "delta_attributes": {
+        "SPD": -6,
+        "ACC": -3,
+        "AGI": -2,
+        "COD": 2,
+        "STR": 7,
+        "AWR": -6,
+        "CTH": -5,
+        "CIT": 1,
+        "SPC": -14,
+        "SRR": -3,
+        "MRR": -8,
+        "DRR": -20,
+        "RLS": -3,
+        "JMP": -17,
+        "CAR": 15,
+        "BTK": -1,
+        "SPM": -13,
+        "JKM": -9,
+        "INJ": 0,
+        "STA": -4,
+        "TGH": 7
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 WR, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 11,
+    "attribute_gaps_10plus": {
+      "SPC": -14,
+      "DRR": -20,
+      "JMP": -17,
+      "CAR": 15,
+      "SPM": -13
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t45u"
+}
+```
