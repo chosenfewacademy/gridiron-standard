@@ -1,0 +1,38 @@
+{
+  "audit_id": "RB_REAUDIT_H2H_06_A1",
+  "task_id": "RB_REAUDIT_H2H_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Kyren Williams",
+    "Josh Jacobs"
+  ],
+  "pair_result": {
+    "winner": "Kyren Williams",
+    "loser": "Josh Jacobs",
+    "provisional_order_holds": true,
+    "reasoning": "Kyren has a full 2026 sample (112 car, PFF 81.0, RYOE +0.53, 10/12 short-yardage); Jacobs has 32 carries at 2.34 ypc, EPA -.153 after the exempt list. Jacobs's 2025 (PFF 85.8 vs 85.2) is level, so 2026 decides. Order holds.",
+    "key_evidence_for_winner": [
+      "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+      "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+      "Kyren Williams (LA) 2025: 259 car 4.83 ypc, EPA/rush +0.019, success 50%, 10+ run rate 10%, RYOE/att 0.55, stuff 12.4%, short-yd 17/30, fumbles lost 2, 281 rec yds (rec EPA +8.5), YAC/rec 4.31"
+    ],
+    "key_evidence_for_loser": [
+      "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+      "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+      "Josh Jacobs (GB) 2025: 234 car 3.97 ypc, EPA/rush -0.063, success 44%, 10+ run rate 10%, RYOE/att -0.03, stuff 17.9%, short-yd 14/26, fumbles lost 2, 282 rec yds (rec EPA +11.8), YAC/rec 8.44"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "PENDING_REVIEW: pair result not approved (prepared under t41s308; commissioner decides)"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
