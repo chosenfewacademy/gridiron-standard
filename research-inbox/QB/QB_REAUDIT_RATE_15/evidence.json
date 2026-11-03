@@ -92,6 +92,27 @@
       "claims": [
         "Caleb Williams 2025: 17/17 team games, 572 att, aDOT 8.6, EPA/dropback +0.07, CPOE -3.5; deep (20+) 14.4% of att, 39.0% cmp, EPA +0.57; 10-19 yds 38.0% EPA +0.01; <10 yds 69.7%; hit 32.6% EPA -0.45 (n=43) vs clean 59.7%; sack rate 4.0%; 43 scrambles 363 yds, 23 designed runs 37 yds, 3 rush TD; 27 TD/7 INT; 1 fumbles lost"
       ]
+    },
+    {
+      "name": "nflverse FTN charting 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Caleb Williams 2026 FTN charting (regular season): 136 dropbacks; play-action 34.6% EPA +0.23 vs non-PA +0.29; out of pocket 25.0% EPA +0.25, cmp 50.0%; vs blitz EPA +0.21 (n=67); interception-worthy 0.8% of attempts; QB-fault sacks 0 of 12",
+        "No jumping / elevated-throw measure exists in FTN charting, nflverse play-by-play, or PFF season grades"
+      ]
+    },
+    {
+      "name": "nflverse FTN charting 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Caleb Williams 2025 FTN charting (regular season): 594 dropbacks; play-action 31.0% EPA +0.14 vs non-PA +0.04; out of pocket 24.7% EPA -0.22, cmp 36.7%; vs blitz EPA +0.25 (n=189); interception-worthy 3.2% of attempts; QB-fault sacks 7 of 24"
+      ]
     }
   ],
   "normalized": {

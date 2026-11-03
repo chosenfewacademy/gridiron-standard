@@ -1,0 +1,420 @@
+# QB_REAUDIT_RATE_15 revision A2 — Caleb Williams (per-player judgment, t30s3; supersedes formula A1)
+
+```json
+{
+  "audit_id": "QB_REAUDIT_RATE_15_A2",
+  "task_id": "QB_REAUDIT_RATE_15",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "player_id": "caleb_williams",
+  "players": [
+    "Caleb Williams"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 81,
+    "ACC": 82,
+    "AGI": 83,
+    "COD": 81,
+    "STR": 72,
+    "AWR": 80,
+    "THP": 87,
+    "SAC": 84,
+    "MAC": 74,
+    "DAC": 80,
+    "RUN": 84,
+    "TUP": 70,
+    "PAC": 83,
+    "BSK": 76,
+    "CAR": 84,
+    "JMP": 70,
+    "INJ": 72,
+    "STA": 74,
+    "TGH": 78
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "MEDIUM",
+    "AWR": "MEDIUM",
+    "THP": "MEDIUM",
+    "SAC": "MEDIUM",
+    "MAC": "MEDIUM",
+    "DAC": "MEDIUM",
+    "RUN": "MEDIUM",
+    "TUP": "MEDIUM",
+    "PAC": "MEDIUM",
+    "BSK": "MEDIUM",
+    "CAR": "MEDIUM",
+    "JMP": "LOW",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Scrambles 14-107 (2026), 43-363 (2025); designed runs 8-23 / 23-37",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Scramble yards per attempt 7.6 (2026), 8.4 (2025)",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Out-of-pocket share 25.0% / 24.7% (FTN); scrambles 14 / 43",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Open-field sample: 57 scrambles, 31 designed runs across 2025-26",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Listed 73 in, 226 lb; rush TD 2 (2026), 3 (2025)",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Interception-worthy 0.8% (2026, FTN); PFF 72.6 (#17) / 76.9 (#13)",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "THP": {
+      "basis": "aDOT 7.0 / 8.6; deep share 10.5% / 14.4%",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "SAC": {
+      "basis": "<10 yds 80.2% CPOE +9.0 (2026, 124 att) vs 69.7% CPOE -3.5 (2025, 572 att)",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "MAC": {
+      "basis": "10-19 yds 52.0% (2026), 38.0% (2025)",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "DAC": {
+      "basis": "20+ yds 46.2% EPA +0.59 (2026), 39.0% EPA +0.57 (2025)",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "RUN": {
+      "basis": "Out-of-pocket on 25.0% (2026) / 24.7% (2025) of dropbacks \u2014 highest of the 17 (FTN); 43 scrambles 363 yds (2025)",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "TUP": {
+      "basis": "Hit 25.0% EPA -0.40 (n=12) 2026, 32.6% EPA -0.45 (n=43) 2025; vs blitz EPA +0.21 / +0.25 (FTN)",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "PAC": {
+      "basis": "Play-action 34.6% / 31.0% of dropbacks, the heaviest PA usage of the 17 in 2026 and second in 2025 (FTN); PA EPA +0.23 / +0.14",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "BSK": {
+      "basis": "Sack rate 8.8% / 4.0%; QB-fault sacks 0 / 7 (FTN)",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "Fumbles lost 0 (2026), 1 (2025)",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Searched FTN charting, nflverse play-by-play and PFF: no jumping / elevated-throw measure exists; neutral 70 at LOW confidence",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "4 of 7 team games in 2026",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "285 snaps 2026",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Plays through contact: 55 hits on attempts and 36 sacks absorbed; games 4/7, 17/17",
+      "why_not_higher": "Evidence does not support a higher tier; see season split",
+      "why_not_lower": "Two-season evidence floors it",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 81,
+  "proposed_ovr_basis": "Judgment from the whole attribute build (no formula), per the repo methodology. Season reading: 2026 is excellent but only 124 attempts in 4 games; 2025 is a full 572-attempt season with CPOE -3.5 and 38% intermediate. Reviewer weighting leans on 2025 for accuracy traits and credits 2026 partially; OVR 81 vs Madden 94.",
+  "season_split_reading": "2026 is excellent but only 124 attempts in 4 games; 2025 is a full 572-attempt season with CPOE -3.5 and 38% intermediate. Reviewer weighting leans on 2025 for accuracy traits and credits 2026 partially; OVR 81 vs Madden 94.",
+  "style_profile": "Out-of-structure creator in a play-action-heavy offense: leaves the pocket more than any QB in the group (25% of dropbacks) and scrambles well, with improved 2026 short accuracy on a small sample, but intermediate accuracy and availability (4 of 7 games) lag.",
+  "style_evidence": [
+    "Interception-worthy 0.8% (2026, FTN); PFF 72.6 (#17) / 76.9 (#13)",
+    "Play-action 34.6% / 31.0% of dropbacks, the heaviest PA usage of the 17 in 2026 and second in 2025 (FTN); PA EPA +0.23 / +0.14",
+    "Out-of-pocket on 25.0% (2026) / 24.7% (2025) of dropbacks \u2014 highest of the 17 (FTN); 43 scrambles 363 yds (2025)",
+    "Hit 25.0% EPA -0.40 (n=12) 2026, 32.6% EPA -0.45 (n=43) 2025; vs blitz EPA +0.21 / +0.25 (FTN)",
+    "20+ yds 46.2% EPA +0.59 (2026), 39.0% EPA +0.57 (2025)"
+  ],
+  "input_dossier": "QB_REAUDIT_BG_15_A1",
+  "weaknesses": [
+    "TUP: Hit 25.0% EPA -0.40 (n=12) 2026, 32.6% EPA -0.45 (n=43) 2025; vs blitz EPA +0.21 / +0.25 (FTN)",
+    "JMP: Searched FTN charting, nflverse play-by-play and PFF: no jumping / elevated-throw measure exists; neutral 70 at LOW confidence",
+    "STR: Listed 73 in, 226 lb; rush TD 2 (2026), 3 (2025)"
+  ],
+  "madden_reference": [
+    {
+      "player": "Caleb Williams",
+      "ovr": 94,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "file": "references/madden/QB_madden27_reference.json"
+    }
+  ],
+  "major_flags": [
+    "REVISION_A2_T30S3: per-player judgment replaces formula A1",
+    "JMP_NO_EVIDENCE: neutral 70 LOW",
+    "AVAILABILITY_RISK: 4/7 games 2026",
+    "SMALL_SAMPLE_2026: 124 attempts",
+    "LARGE_MADDEN_GAP: OVR 81 vs Madden 94 (reference only)"
+  ],
+  "locked_control_conflict": false
+}
+```
