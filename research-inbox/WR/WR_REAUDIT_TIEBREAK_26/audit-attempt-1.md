@@ -1,0 +1,39 @@
+# WR_REAUDIT_TIEBREAK_26 — Jakobi Meyers vs George Pickens (v1.1.2 head-to-head tiebreak; authorized by t45s359)
+
+```json
+{
+  "audit_id": "WR_REAUDIT_TIEBREAK_26_A1",
+  "task_id": "WR_REAUDIT_TIEBREAK_26",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jakobi Meyers",
+    "George Pickens"
+  ],
+  "pair_result": {
+    "winner": "George Pickens",
+    "loser": "Jakobi Meyers",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s359). Jakobi Meyers: 2025 16 g, 835 yds, 3 TD, EPA/tgt +0.091, PFF 71.1, YPRR 1.41; 2026 7 g, 309 yds, 2 TD, EPA/tgt +0.547, PFF 73.3, YPRR 1.54. George Pickens: 2025 17 g, 1429 yds, 9 TD, EPA/tgt +0.643, PFF 85.9, YPRR 2.16; 2026 8 g, 533 yds, 2 TD, EPA/tgt +0.409, PFF 78.1, YPRR 1.72. Pickens' 2025 (1,429 yds, 9 TD, PFF 85.9, EPA/tgt +.640) and full 2026 availability outweigh PFF 71.1/73.3 and TPRR .185/.155. Pickens holds first-out.",
+    "key_evidence_for_winner": [
+      "George Pickens PFF WR grade 2026 78.1, 2025 85.9; 2026 PFF snaps {'off': '426', 'routes': '310', 'rblk': '116'}; age 25, 75 in 205 lb",
+      "George Pickens (DAL) 2026: 8 g 62 tgt 533 yds 2 TD, EPA/tgt 0.409, YPRR 1.72, TPRR 0.2, NGS sep 2.4, aDOT 11.6, deep 9 tgt catch 0.33 EPA/tgt 0.29, short catch 0.69, YAC/rec 3.3, RZ tgt 7, 3rd/4th conv 10/23, fum lost 0",
+      "George Pickens (DAL) 2025: 17 g 138 tgt 1429 yds 9 TD, EPA/tgt 0.643, YPRR 2.16, TPRR 0.209, NGS sep 2.24, aDOT 11.3, deep 22 tgt catch 0.45 EPA/tgt 0.8, short catch 0.72, YAC/rec 5.2, RZ tgt 24, 3rd/4th conv 27/43, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Jakobi Meyers PFF WR grade 2026 73.3, 2025 71.1; 2026 PFF snaps {'off': '334', 'routes': '200', 'rblk': '133'}; age 30, 74 in 200 lb",
+      "Jakobi Meyers (JAX) 2026: 7 g 31 tgt 309 yds 2 TD, EPA/tgt 0.547, YPRR 1.54, TPRR 0.155, NGS sep 3.12, aDOT 10.5, deep 4 tgt catch 0.75 EPA/tgt 2.05, short catch 0.67, YAC/rec 3.0, RZ tgt 7, 3rd/4th conv 5/10, fum lost 0",
+      "Jakobi Meyers (JAX) 2025: 16 g 110 tgt 835 yds 3 TD, EPA/tgt 0.091, YPRR 1.41, TPRR 0.185, NGS sep 2.73, aDOT 9.2, deep 8 tgt catch 0.38 EPA/tgt -0.16, short catch 0.82, YAC/rec 3.8, RZ tgt 15, 3rd/4th conv 18/36, fum lost 1"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
