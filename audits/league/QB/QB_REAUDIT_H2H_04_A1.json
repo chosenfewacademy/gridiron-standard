@@ -1,0 +1,40 @@
+{
+  "audit_id": "QB_REAUDIT_H2H_04_A1",
+  "task_id": "QB_REAUDIT_H2H_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jared Goff",
+    "Jordan Love"
+  ],
+  "pair_result": {
+    "winner": "Jared Goff",
+    "loser": "Jordan Love",
+    "provisional_order_holds": true,
+    "reasoning": "Goff's 2026 (PFF 82.7, +.266, 15 TD / 1 INT) beats Love's (74.5, +.142); Love's 2025 (88.8, +.240) beat Goff's (77.7, +.173). The two-season sample-weighted EPA is level (~+.20 each); Goff's much lower interception-worthy rate (1.2% / 1.6% vs 3.2% / 2.3%) and the current-season edge decide it.",
+    "key_evidence_for_winner": [
+      "Jared Goff PFF overall 2026 82.7 (#6), 2025 77.7 (#12)",
+      "Jared Goff 2026: 7 games, EPA/dropback +0.266, EPA/play incl. rush +0.206, CPOE +1.1, 15 TD / 1 INT, sack 6.1%, Y/A 7.92, rush EPA -12.7",
+      "Jared Goff 2025: 17 games, EPA/dropback +0.173, EPA/play incl. rush +0.145, CPOE +1.8, 34 TD / 8 INT",
+      "Jared Goff FTN interception-worthy rate 1.2% (2026), 1.6% (2025)"
+    ],
+    "key_evidence_for_loser": [
+      "Jordan Love PFF overall 2026 74.5 (#15), 2025 88.8 (#4)",
+      "Jordan Love 2026: 8 games, EPA/dropback +0.142, EPA/play incl. rush +0.135, CPOE -1.1, 16 TD / 6 INT, sack 4.3%, Y/A 7.2, rush EPA -0.8",
+      "Jordan Love 2025: 15 games, EPA/dropback +0.240, EPA/play incl. rush +0.243, CPOE +5.5, 23 TD / 6 INT",
+      "Jordan Love FTN interception-worthy rate 3.2% (2026), 2.3% (2025)"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "PENDING_REVIEW: pair result not approved (card t30s8)"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
