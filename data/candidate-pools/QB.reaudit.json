@@ -428,6 +428,26 @@
       "reasoning": "Re-included by commissioner (2026-11-02 2:15 PM ET) so locked-baseline members are rated: PFF 2026 66.8; PFF 2025 79.0 (#10); locked baseline #10",
       "citations": [],
       "added_by_amendment": "QB_POOL_AMEND_01"
+    },
+    {
+      "player": "Mac Jones",
+      "player_id": "ext_00-0036972",
+      "team": "SF",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 7 ACT/A01"
+      },
+      "flags": [
+        "COMMISSIONER_REINCLUDED",
+        "LEAGUE_CEILING_FLAG"
+      ],
+      "reasoning": "Re-included by commissioner (card t35s273) after the league-wide ceiling check flagged him: 2025 SF 11 games, PFF 76.7, EPA/dropback +.127, CPOE +3.7.",
+      "citations": [
+        "pff_2025#15"
+      ],
+      "added_by_amendment": "QB_POOL_AMEND_02"
     }
   ],
   "exclusions": [
@@ -734,6 +754,21 @@
       "approved_by": "PhiXCrypto",
       "approved_at": "2026-11-02T19:15:00Z",
       "note": "Exclusion records kept unchanged as history; these players are superseded into candidates and the contention set after QB_REAUDIT_CANDIDATE_AUDIT_A1."
+    },
+    {
+      "amendment_id": "QB_POOL_AMEND_02",
+      "type": "ADD_ONLY_CONTENTION_ADDITION",
+      "players": [
+        "Mac Jones",
+        "Jayden Daniels"
+      ],
+      "contention_additions": [
+        "Mac Jones",
+        "Jayden Daniels"
+      ],
+      "approved_by": "PhiXCrypto",
+      "approved_at": "2026-11-03T02:18:00Z",
+      "note": "Authorized by t35s273 (9:18 PM ET Nov 2): league ceiling check flagged both; rate fully and test vs Lawrence (#10) and Mahomes (first out). Exclusion record for Mac Jones kept as history."
     }
   ]
 }
