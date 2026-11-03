@@ -1,0 +1,445 @@
+{
+  "audit_id": "QB_REAUDIT_RATE_02_A2",
+  "task_id": "QB_REAUDIT_RATE_02",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "player_id": "lamar_jackson",
+  "players": [
+    "Lamar Jackson"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 91,
+    "ACC": 90,
+    "AGI": 90,
+    "COD": 89,
+    "STR": 63,
+    "AWR": 84,
+    "THP": 88,
+    "SAC": 87,
+    "MAC": 82,
+    "DAC": 86,
+    "RUN": 89,
+    "TUP": 79,
+    "PAC": 87,
+    "BSK": 84,
+    "CAR": 76,
+    "JMP": 80,
+    "INJ": 68,
+    "STA": 80,
+    "TGH": 82
+  },
+  "trait_confidence": {
+    "SPD": "HIGH",
+    "ACC": "HIGH",
+    "AGI": "HIGH",
+    "COD": "MEDIUM",
+    "STR": "MEDIUM",
+    "AWR": "MEDIUM",
+    "THP": "MEDIUM",
+    "SAC": "MEDIUM",
+    "MAC": "MEDIUM",
+    "DAC": "MEDIUM",
+    "RUN": "MEDIUM",
+    "TUP": "MEDIUM",
+    "PAC": "MEDIUM",
+    "BSK": "MEDIUM",
+    "CAR": "MEDIUM",
+    "JMP": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Scrambles 10.7 YPC (2026) and 7.3 YPC on 30 scrambles (2025); 7.6 YPC overall 2026",
+      "why_not_higher": "Not 95: public sample lacks top-speed tracking",
+      "why_not_lower": "Most dangerous QB scrambler in the contention set",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Scramble EPA .48 (2026) / .52 (2025): instant burst out of the pocket",
+      "why_not_higher": "Not 95: no burst tracking data",
+      "why_not_lower": "Two seasons of explosive scrambles",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "30 scrambles 219 yds 2025 + 10 for 107 in 2026; makes first defender miss",
+      "why_not_higher": "Not 95: no elusiveness metric",
+      "why_not_lower": "Repeatable open-field creation",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Same scramble sample",
+      "why_not_higher": "No direct metric; just under ELITE",
+      "why_not_lower": "Open-field production",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Slight frame (6'2\" 215)",
+      "why_not_higher": "Light frame",
+      "why_not_lower": "Neutral",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "PFF 91.3 (2026, 5 games) vs 74.0 (2025); improvisational, not timing-based",
+      "why_not_higher": "Small sample, 2025 grade #20",
+      "why_not_lower": "Elite 2026 grade, 6 TD / 1 INT",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "THP": {
+      "basis": "aDOT 10.2 (highest of the two rated), 18.6% deep attempts",
+      "why_not_higher": "Low volume",
+      "why_not_lower": "Vertical aggressiveness with EPA .74 deep",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "SAC": {
+      "basis": "<10 air yds: 79.4% cmp (2026); CPOE +7.4",
+      "why_not_higher": "2025 short 69.4%",
+      "why_not_lower": "Strong 2026 short accuracy",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "MAC": {
+      "basis": "10-19 air yds: 62.5% (2026), 59.0% (2025) — clear gap to his short/deep value",
+      "why_not_higher": "Intermediate accuracy is his weakest passing zone",
+      "why_not_lower": "Positive EPA .81 on intermediate",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "DAC": {
+      "basis": "20+ air yds: 44.4% cmp, EPA .74 (2026); 46.3%, EPA .91 (2025)",
+      "why_not_higher": "Completion % on deep shots moderate",
+      "why_not_lower": "Two seasons of high-value deep passing",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "RUN": {
+      "basis": "Scramble-driven offense; out-of-structure passing core to his game",
+      "why_not_higher": "No on-the-run split in public data; just under ELITE",
+      "why_not_lower": "Constant movement passing",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "TUP": {
+      "basis": "Sack rate 6.7% 2026, 10.6% 2025; leaves pocket rather than throwing into pressure",
+      "why_not_higher": "Pocket throws under pressure not his strength",
+      "why_not_lower": "Creates under duress with legs",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "PAC": {
+      "basis": "Run-threat play-action; EPA/dropback .354 best of 17",
+      "why_not_higher": "No PA split",
+      "why_not_lower": "Best EPA/dropback",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "BSK": {
+      "basis": "Escapes and scrambles, but 36 sacks (10.6%) in 2025",
+      "why_not_higher": "High 2025 sack rate",
+      "why_not_lower": "Turns pressure into scrambles",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "0 rush fumbles lost; 1 sack fumble lost 2026, 3 in 2025",
+      "why_not_higher": "Sack fumbles",
+      "why_not_lower": "Clean ball-carrier record",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Athletic profile from scramble evidence; no direct metric",
+      "why_not_higher": "No evidence",
+      "why_not_lower": "Athleticism",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "5 of 8 games 2026; 13 of 17 in 2025",
+      "why_not_higher": "Missed time both seasons",
+      "why_not_lower": "Returns within season",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ],
+      "head_to_head_adjustment": "Purdy beats Jackson head-to-head: Jackson's elite 2026 (PFF 91.3, +.354 EPA/dropback) is 5 games; 2025 was PFF 74.0 (#20), +.054. INJ 70->68: 5/7 games 2026, 13/17 in 2025."
+    },
+    "STA": {
+      "basis": "224 snaps 2026",
+      "why_not_higher": "Missed games",
+      "why_not_lower": "Full workloads when active",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Absorbs rushing contact",
+      "why_not_higher": "Missed time",
+      "why_not_lower": "Heavy rushing load sustained",
+      "sources": [
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "SPD": {
+      "tier": "ELITE",
+      "claim": "Scrambles 10.7 YPC (2026) and 7.3 YPC on 30 scrambles (2025); 7.6 YPC overall 2026",
+      "source_urls": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "Scramble EPA .48 (2026) / .52 (2025): instant burst out of the pocket",
+      "source_urls": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "tier": "ELITE",
+      "claim": "30 scrambles 219 yds 2025 + 10 for 107 in 2026; makes first defender miss",
+      "source_urls": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 85,
+  "proposed_ovr_basis": "Judgment from the attribute build, adjusted after head-to-head QB_REAUDIT_H2H_02: Purdy beats Jackson head-to-head: Jackson's elite 2026 (PFF 91.3, +.354 EPA/dropback) is 5 games; 2025 was PFF 74.0 (#20), +.054. INJ 70->68: 5/7 games 2026, 13/17 in 2025.",
+  "input_dossier": "QB_REAUDIT_BG_02_A1",
+  "weaknesses": [
+    "Limited 2026 sample (5 games, 97 attempts)",
+    "2025 PFF 74.0 (#20) and 10.6% sack rate",
+    "Availability (INJ 70)"
+  ],
+  "madden_reference": [
+    {
+      "player": "Lamar Jackson",
+      "ovr": 95,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "file": "references/madden/QB_madden27_reference.json"
+    }
+  ],
+  "major_flags": [
+    "LIMITED_SAMPLE_RATING: 5 of 8 games",
+    "ELITE_TRAITS_PROPOSED: SPD 91, ACC 90, AGI 90",
+    "H2H_ADJUSTMENT_PROPOSED:QB_REAUDIT_H2H_02",
+    "APPROVED_BY_COMMISSIONER: card t31s1"
+  ],
+  "locked_control_conflict": false,
+  "style_profile": "Explosive vertical scrambler: improvises out of structure, attacks deep (aDOT 10.2, 18.6% deep), wins with legs on scrambles; weaker intermediate accuracy and pocket-pressure throwing — the opposite shape to Burrow's pocket precision.",
+  "style_evidence": [
+    "2026 aDOT 10.2 vs Burrow 7.6; deep share 18.6% vs 9.0% (nflverse pbp 2026)",
+    "Depth splits 2026: short 79.4% / intermediate 62.5% / deep 44.4% (EPA .42/.81/.74)",
+    "Scrambles: 10 for 107 yds (2026), 30 for 219 yds EPA .52 (2025); designed runs 9-37 (2026), 37-130 (2025)",
+    "Rush EPA +20.6 (2025), +4.9 (2026); sack rate 10.6% (2025)"
+  ],
+  "revision": 2,
+  "supersedes": "QB_REAUDIT_RATE_02_A1",
+  "style_similarity": [
+    {
+      "player": "Joe Burrow",
+      "audit_id": "QB_REAUDIT_RATE_01_A1",
+      "corr": 0.296,
+      "mad": 7.6,
+      "too_similar": false
+    },
+    {
+      "player": "Dak Prescott",
+      "audit_id": "QB_REAUDIT_RATE_03_A1",
+      "corr": -0.23,
+      "mad": 8.9,
+      "too_similar": false
+    },
+    {
+      "player": "Brock Purdy",
+      "audit_id": "QB_REAUDIT_RATE_04_A1",
+      "corr": 0.603,
+      "mad": 6.1,
+      "too_similar": false
+    },
+    {
+      "player": "Josh Allen",
+      "audit_id": "QB_REAUDIT_RATE_05_A1",
+      "corr": -0.094,
+      "mad": 6.3,
+      "too_similar": false
+    },
+    {
+      "player": "Jared Goff",
+      "audit_id": "QB_REAUDIT_RATE_06_A2",
+      "corr": -0.231,
+      "mad": 11.2,
+      "too_similar": false
+    },
+    {
+      "player": "Drake Maye",
+      "audit_id": "QB_REAUDIT_RATE_07_A2",
+      "corr": 0.244,
+      "mad": 6.5,
+      "too_similar": false
+    },
+    {
+      "player": "Geno Smith",
+      "audit_id": "QB_REAUDIT_RATE_08_A2",
+      "corr": -0.064,
+      "mad": 10.3,
+      "too_similar": false
+    },
+    {
+      "player": "C.J. Stroud",
+      "audit_id": "QB_REAUDIT_RATE_09_A2",
+      "corr": 0.413,
+      "mad": 7.4,
+      "too_similar": false
+    },
+    {
+      "player": "Patrick Mahomes",
+      "audit_id": "QB_REAUDIT_RATE_10_A2",
+      "corr": 0.267,
+      "mad": 6.6,
+      "too_similar": false
+    },
+    {
+      "player": "Jordan Love",
+      "audit_id": "QB_REAUDIT_RATE_11_A2",
+      "corr": -0.083,
+      "mad": 8.6,
+      "too_similar": false
+    },
+    {
+      "player": "Trevor Lawrence",
+      "audit_id": "QB_REAUDIT_RATE_12_A2",
+      "corr": -0.066,
+      "mad": 7.7,
+      "too_similar": false
+    },
+    {
+      "player": "Matthew Stafford",
+      "audit_id": "QB_REAUDIT_RATE_13_A2",
+      "corr": -0.31,
+      "mad": 11.4,
+      "too_similar": false
+    },
+    {
+      "player": "Kirk Cousins",
+      "audit_id": "QB_REAUDIT_RATE_14_A2",
+      "corr": -0.221,
+      "mad": 12.6,
+      "too_similar": false
+    },
+    {
+      "player": "Caleb Williams",
+      "audit_id": "QB_REAUDIT_RATE_15_A2",
+      "corr": 0.666,
+      "mad": 6.4,
+      "too_similar": false
+    },
+    {
+      "player": "Justin Herbert",
+      "audit_id": "QB_REAUDIT_RATE_16_A2",
+      "corr": -0.191,
+      "mad": 10.6,
+      "too_similar": false
+    },
+    {
+      "player": "Sam Darnold",
+      "audit_id": "QB_REAUDIT_RATE_17_A2",
+      "corr": 0.169,
+      "mad": 8.7,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}

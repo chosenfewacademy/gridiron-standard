@@ -161,19 +161,22 @@
         "QB_REAUDIT_H2H_03_A1",
         "QB_REAUDIT_H2H_04_A1",
         "QB_REAUDIT_H2H_05_A1",
-        "QB_REAUDIT_H2H_06_A1"
+        "QB_REAUDIT_H2H_06_A1",
+        "QB_REAUDIT_RATE_02_A2"
       ],
       "current_stage": "pair_audits",
       "current_task": "QB_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T00:24:37.410Z",
+      "updated_at": "2026-11-03T00:25:03.065Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_H2H_06",
-        "status": "FLAGGED",
-        "errors": [],
+        "task_id": "QB_REAUDIT_RATE_02",
+        "status": "REVISION_APPROVED",
+        "audit_id": "QB_REAUDIT_RATE_02_A2",
+        "supersedes": "QB_REAUDIT_RATE_02_A1",
         "flags": [
-          "PENDING_REVIEW: pair result not approved (card t30s8)",
-          "RATING_CONTRADICTION: verdict reverses rating order",
-          "TIE_BREAK: tied overall broken by contention order; pair verdict decides"
+          "LIMITED_SAMPLE_RATING: 5 of 8 games",
+          "ELITE_TRAITS_PROPOSED: SPD 91, ACC 90, AGI 90",
+          "H2H_ADJUSTMENT_PROPOSED:QB_REAUDIT_H2H_02",
+          "APPROVED_BY_COMMISSIONER: card t31s1"
         ]
       },
       "awaiting": null,
@@ -637,6 +640,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T00:24:37Z",
           "note": "Approved by the commissioner on card t31s1 (all six QB head-to-heads approved with the prepared verdicts)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_02",
+          "audit_id": "QB_REAUDIT_RATE_02_A2",
+          "supersedes": "QB_REAUDIT_RATE_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:25:02Z",
+          "note": "Approved by the commissioner on card t31s1 (head-to-head adjustment)"
         }
       ]
     },
