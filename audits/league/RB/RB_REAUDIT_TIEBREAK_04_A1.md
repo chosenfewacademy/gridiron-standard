@@ -1,0 +1,39 @@
+# RB_REAUDIT_TIEBREAK_04 — Bhayshul Tuten vs Jonathan Taylor (v1.1.2 head-to-head tiebreak; prepared under t41s308, NOT approved)
+
+```json
+{
+  "audit_id": "RB_REAUDIT_TIEBREAK_04_A1",
+  "task_id": "RB_REAUDIT_TIEBREAK_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Bhayshul Tuten",
+    "Jonathan Taylor"
+  ],
+  "pair_result": {
+    "winner": "Bhayshul Tuten",
+    "loser": "Jonathan Taylor",
+    "provisional_order_holds": true,
+    "reasoning": "79 tie. Tuten leads 2026 PFF (91.9 vs 62.8), EPA/rush (-.003 vs -.059), success (42% vs 40%), RYOE (+0.15 vs +0.02), receiving EPA (+14.1 vs -3.2) and fumbles (0 vs 2). Taylor leads volume, routes (180) and 2025 (RYOE +0.60 vs Tuten 3.65 ypc). Tuten; recommend Taylor 78.",
+    "key_evidence_for_winner": [
+      "Bhayshul Tuten PFF HB overall 2026 91.9, 2025 None; 2026 PFF snaps {'off': '240', 'run': '116', 'route': '96', 'pblk': '23'}; age 24, 206 lb",
+      "Bhayshul Tuten (JAX) 2026: 110 car 4.47 ypc, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.15, stuff 17.3%, short-yd 2/3, fumbles lost 0, 181 rec yds (rec EPA +14.1), YAC/rec 15.0",
+      "Bhayshul Tuten (JAX) 2025: 84 car 3.65 ypc, EPA/rush -0.121, success 46%, 10+ run rate 6%, RYOE/att None, stuff 15.5%, short-yd 4/8, fumbles lost 1, 79 rec yds (rec EPA +5.5), YAC/rec 8.0"
+    ],
+    "key_evidence_for_loser": [
+      "Jonathan Taylor PFF HB overall 2026 62.8, 2025 78.1; 2026 PFF snaps {'off': '412', 'run': '149', 'route': '180', 'pblk': '67'}; age 27, 226 lb",
+      "Jonathan Taylor (IND) 2026: 148 car 4.12 ypc, EPA/rush -0.059, success 40%, 10+ run rate 12%, RYOE/att 0.02, stuff 19.6%, short-yd 5/10, fumbles lost 2, 202 rec yds (rec EPA -3.2), YAC/rec 11.62",
+      "Jonathan Taylor (IND) 2025: 324 car 4.9 ypc, EPA/rush +0.058, success 44%, 10+ run rate 11%, RYOE/att 0.6, stuff 15.1%, short-yd 13/18, fumbles lost 1, 378 rec yds (rec EPA +9.2), YAC/rec 9.43"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
