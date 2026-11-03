@@ -92,6 +92,27 @@
       "claims": [
         "Patrick Mahomes 2025: 14/17 team games, 505 att, aDOT 8.1, EPA/dropback +0.13, CPOE +0.3; deep (20+) 13.1% of att, 31.8% cmp, EPA +0.57; 10-19 yds 56.8% EPA +0.43; <10 yds 70.1%; hit 32.4% EPA -0.03 (n=68) vs clean 67.0%; sack rate 6.3%; 52 scrambles 420 yds, 4 designed runs 9 yds, 5 rush TD; 22 TD/11 INT; 0 fumbles lost"
       ]
+    },
+    {
+      "name": "nflverse FTN charting 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Patrick Mahomes 2026 FTN charting (regular season): 242 dropbacks; play-action 26.4% EPA +0.33 vs non-PA +0.07; out of pocket 22.7% EPA +0.07, cmp 60.0%; vs blitz EPA +0.25 (n=53); interception-worthy 2.1% of attempts; QB-fault sacks 1 of 9",
+        "No jumping / elevated-throw measure exists in FTN charting, nflverse play-by-play, or PFF season grades"
+      ]
+    },
+    {
+      "name": "nflverse FTN charting 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Patrick Mahomes 2025 FTN charting (regular season): 537 dropbacks; play-action 14.0% EPA +0.07 vs non-PA +0.14; out of pocket 19.6% EPA +0.16, cmp 42.9%; vs blitz EPA +0.03 (n=144); interception-worthy 3.4% of attempts; QB-fault sacks 10 of 34"
+      ]
     }
   ],
   "normalized": {
