@@ -1,0 +1,520 @@
+{
+  "audit_id": "RB_REAUDIT_RATE_12_A1",
+  "task_id": "RB_REAUDIT_RATE_12",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "player_id": "tony_pollard",
+  "players": [
+    "Tony Pollard"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 87,
+    "ACC": 90,
+    "AGI": 82,
+    "COD": 82,
+    "STR": 66,
+    "AWR": 84,
+    "CAR": 86,
+    "BCV": 84,
+    "BTK": 76,
+    "TRK": 66,
+    "SFA": 66,
+    "SPM": 74,
+    "JKM": 82,
+    "CTH": 72,
+    "CIT": 56,
+    "SRR": 68,
+    "MRR": 62,
+    "DRR": 58,
+    "RLS": 62,
+    "JMP": 76,
+    "INJ": 84,
+    "STA": 80,
+    "TGH": 80
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "MEDIUM",
+    "AWR": "MEDIUM",
+    "CAR": "MEDIUM",
+    "BCV": "MEDIUM",
+    "BTK": "MEDIUM",
+    "TRK": "MEDIUM",
+    "SFA": "MEDIUM",
+    "SPM": "LOW",
+    "JKM": "MEDIUM",
+    "CTH": "MEDIUM",
+    "CIT": "LOW",
+    "SRR": "MEDIUM",
+    "MRR": "MEDIUM",
+    "DRR": "LOW",
+    "RLS": "LOW",
+    "JMP": "LOW",
+    "INJ": "LOW",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): short-yardage conv and size (209 lb): 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Listed weakness area: power, short yardage, tackle breaking",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 2. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BCV": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (contact): RYOE/stuff rate: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TRK": {
+      "basis": "Judgment (power): short-yardage conv and size (209 lb): 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Listed weakness area: power, short yardage, tackle breaking",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SFA": {
+      "basis": "Judgment (power): short-yardage conv and size (209 lb): 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Listed weakness area: power, short yardage, tackle breaking",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SPM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JKM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6; routes 100. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6; routes 100. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6; routes 100. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6; routes 100. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6; routes 100. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6; routes 100. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (athletic): size/age 209 lb age 29; explosive plays: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Tony Pollard 2026 usage: 296 offensive snaps in 8 games (nflverse snap_counts); age 29, 72 in, 209 lb; roster status ACT; 2025: 242 car 1082 yds 4.47 ypc 5 TD, EPA/rush -0.090, success 39%, 10+ run rate 11%, RYOE/att 0.488804396577282, fumbles lost 2, 41 tgt 33 rec 206 rec yds, rec YAC/rec 6.15, 20+ runs 6, stuff rate 14.0%, 3rd/4th-and-<=2 conv 5/10. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Tony Pollard 2026 usage: 296 offensive snaps in 8 games (nflverse snap_counts); age 29, 72 in, 209 lb; roster status ACT; PFF snaps {'off': '296', 'run': '137', 'route': '100', 'pblk': '49'}. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Tony Pollard 2026 usage: 296 offensive snaps in 8 games (nflverse snap_counts); age 29, 72 in, 209 lb; roster status ACT; PFF snaps {'off': '296', 'run': '137', 'route': '100', 'pblk': '49'}. Style: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "breakaway/explosive: 10+ run rate / 20+ runs / RYOE: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 75,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden. One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+  "style_profile": "Tony Pollard: One-cut speed runner: PFF 85.6, quick acceleration and outside-zone burst, light on contact and limited as a short-yardage back (2/6).",
+  "style_evidence": [
+    "Tony Pollard (TEN) 2026: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 14 rec 70 rec yds, rec YAC/rec 6.0, 20+ runs 3, stuff rate 15.8%, 3rd/4th-and-<=2 conv 2/6",
+    "Tony Pollard (TEN) 2025: 242 car 1082 yds 4.47 ypc 5 TD, EPA/rush -0.090, success 39%, 10+ run rate 11%, RYOE/att 0.488804396577282, fumbles lost 2, 41 tgt 33 rec 206 rec yds, rec YAC/rec 6.15, 20+ runs 6, stuff rate 14.0%, 3rd/4th-and-<=2 conv 5/10",
+    "Tony Pollard PFF HB overall 2026 85.6 (rank 6), 2025 67.0; 2026 PFF snaps off 296, run 137, routes 100, pass-block 49",
+    "Tony Pollard 2026 usage: 296 offensive snaps in 8 games (nflverse snap_counts); age 29, 72 in, 209 lb; roster status ACT"
+  ],
+  "input_dossier": "RB_REAUDIT_BG_12_A1",
+  "weaknesses": [
+    "power",
+    "short yardage",
+    "tackle breaking"
+  ],
+  "madden_reference": [
+    {
+      "player": "Tony Pollard",
+      "ovr": 85,
+      "attributes": {
+        "SPD": 90,
+        "ACC": 93,
+        "AGI": 84,
+        "COD": 85,
+        "STR": 69,
+        "AWR": 87,
+        "CAR": 92,
+        "BCV": 90,
+        "BTK": 83,
+        "TRK": 73,
+        "SFA": 73,
+        "SPM": 82,
+        "JKM": 90,
+        "CTH": 74,
+        "CIT": 62,
+        "SRR": 67,
+        "MRR": 63,
+        "DRR": 62,
+        "RLS": 64,
+        "JMP": 85,
+        "INJ": 89,
+        "STA": 85,
+        "TGH": 84
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -10,
+      "delta_attributes": {
+        "SPD": -3,
+        "ACC": -3,
+        "AGI": -2,
+        "COD": -3,
+        "STR": -3,
+        "AWR": -3,
+        "CAR": -6,
+        "BCV": -6,
+        "BTK": -7,
+        "TRK": -7,
+        "SFA": -7,
+        "SPM": -8,
+        "JKM": -8,
+        "CTH": -2,
+        "CIT": -6,
+        "SRR": 1,
+        "MRR": -1,
+        "DRR": -4,
+        "RLS": -2,
+        "JMP": -9,
+        "INJ": -5,
+        "STA": -5,
+        "TGH": -4
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RB, retrieved 2026-11-02 ET)"
+    }
+  ],
+  "variance_check": {
+    "ovr_gap": 10,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t41s302",
+  "style_similarity": [
+    {
+      "player": "Bijan Robinson",
+      "audit_id": "RB_REAUDIT_RATE_01_A1",
+      "corr": 0.92,
+      "mad": 9.9,
+      "too_similar": false
+    },
+    {
+      "player": "Jahmyr Gibbs",
+      "audit_id": "RB_REAUDIT_RATE_02_A2",
+      "corr": 0.919,
+      "mad": 5.3,
+      "too_similar": false
+    },
+    {
+      "player": "Kenneth Walker III",
+      "audit_id": "RB_REAUDIT_RATE_03_A1",
+      "corr": 0.824,
+      "mad": 8.7,
+      "too_similar": false
+    },
+    {
+      "player": "Jaylen Warren",
+      "audit_id": "RB_REAUDIT_RATE_04_A1",
+      "corr": 0.87,
+      "mad": 4.2,
+      "too_similar": false
+    },
+    {
+      "player": "Bhayshul Tuten",
+      "audit_id": "RB_REAUDIT_RATE_05_A1",
+      "corr": 0.88,
+      "mad": 5.2,
+      "too_similar": false
+    },
+    {
+      "player": "James Cook",
+      "audit_id": "RB_REAUDIT_RATE_06_A1",
+      "corr": 0.938,
+      "mad": 4.9,
+      "too_similar": false
+    },
+    {
+      "player": "Derrick Henry",
+      "audit_id": "RB_REAUDIT_RATE_07_A1",
+      "corr": 0.588,
+      "mad": 12.5,
+      "too_similar": false
+    },
+    {
+      "player": "Jonathan Taylor",
+      "audit_id": "RB_REAUDIT_RATE_08_A1",
+      "corr": 0.794,
+      "mad": 5.5,
+      "too_similar": false
+    },
+    {
+      "player": "Christian McCaffrey",
+      "audit_id": "RB_REAUDIT_RATE_09_A1",
+      "corr": 0.612,
+      "mad": 8.6,
+      "too_similar": false
+    },
+    {
+      "player": "Kyren Williams",
+      "audit_id": "RB_REAUDIT_RATE_10_A1",
+      "corr": 0.785,
+      "mad": 6,
+      "too_similar": false
+    },
+    {
+      "player": "Josh Jacobs",
+      "audit_id": "RB_REAUDIT_RATE_11_A1",
+      "corr": 0.634,
+      "mad": 8.4,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
