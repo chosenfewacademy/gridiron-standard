@@ -1,0 +1,235 @@
+{
+  "task_id": "QB_REAUDIT_VARIANCE_AUDIT",
+  "type": "variance_audit",
+  "players": [
+    "Joe Burrow",
+    "Josh Allen",
+    "Brock Purdy",
+    "Drake Maye",
+    "Dak Prescott",
+    "Jared Goff",
+    "Jordan Love",
+    "Matthew Stafford",
+    "Lamar Jackson",
+    "Trevor Lawrence",
+    "Patrick Mahomes",
+    "Caleb Williams",
+    "C.J. Stroud",
+    "Geno Smith",
+    "Kirk Cousins",
+    "Sam Darnold",
+    "Justin Herbert"
+  ],
+  "baseline_controls": {
+    "locked_baseline": {
+      "top_10": [
+        {
+          "rank": 1,
+          "player": "Matthew Stafford"
+        },
+        {
+          "rank": 2,
+          "player": "Joe Burrow"
+        },
+        {
+          "rank": 3,
+          "player": "Josh Allen"
+        },
+        {
+          "rank": 4,
+          "player": "Drake Maye"
+        },
+        {
+          "rank": 5,
+          "player": "Jordan Love"
+        },
+        {
+          "rank": 6,
+          "player": "Dak Prescott"
+        },
+        {
+          "rank": 7,
+          "player": "Brock Purdy"
+        },
+        {
+          "rank": 8,
+          "player": "Justin Herbert"
+        },
+        {
+          "rank": 9,
+          "player": "Trevor Lawrence"
+        },
+        {
+          "rank": 10,
+          "player": "Sam Darnold"
+        }
+      ],
+      "external_controls": [
+        {
+          "player": "Patrick Mahomes",
+          "ovr": 83
+        },
+        {
+          "player": "Lamar Jackson",
+          "ovr": 83
+        },
+        {
+          "player": "Jared Goff",
+          "ovr": 82
+        }
+      ]
+    },
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Joe Burrow",
+        "overall": 90
+      },
+      {
+        "rank": 2,
+        "player": "Josh Allen",
+        "overall": 88
+      },
+      {
+        "rank": 3,
+        "player": "Brock Purdy",
+        "overall": 86
+      },
+      {
+        "rank": 4,
+        "player": "Drake Maye",
+        "overall": 86
+      },
+      {
+        "rank": 5,
+        "player": "Dak Prescott",
+        "overall": 85
+      },
+      {
+        "rank": 6,
+        "player": "Jared Goff",
+        "overall": 85
+      },
+      {
+        "rank": 7,
+        "player": "Jordan Love",
+        "overall": 83
+      },
+      {
+        "rank": 8,
+        "player": "Matthew Stafford",
+        "overall": 83
+      },
+      {
+        "rank": 9,
+        "player": "Lamar Jackson",
+        "overall": 82
+      },
+      {
+        "rank": 10,
+        "player": "Trevor Lawrence",
+        "overall": 82
+      }
+    ],
+    "external_controls": [
+      "Patrick Mahomes",
+      "Caleb Williams",
+      "C.J. Stroud",
+      "Geno Smith",
+      "Kirk Cousins",
+      "Sam Darnold",
+      "Justin Herbert"
+    ]
+  },
+  "variance_threshold": 10,
+  "variance_metrics": {
+    "domains": [
+      "EPA inside vs outside the pocket (FTN is_qb_out_of_pocket x nflverse EPA)",
+      "throwing on the run: out-of-pocket completion and EPA, scramble EPA",
+      "clean pocket vs hurried/pressured (PFF pressure grades where available; nflverse qb_hit+sack proxy)",
+      "time to throw / holding the ball (NGS avg_time_to_throw, aggressiveness)",
+      "turnovers: INT, FTN interception-worthy rate, fumbles lost",
+      "team value: EPA over position average (WAR-type), EPA/play, PFF overall",
+      "scheme / system-QB: play-action, motion, screen and RPO share (FTN), YAC share of passing yards, drop and catchable-ball rate (receiver quality), pressure rate (line quality)"
+    ],
+    "attribute_metrics": {
+      "SPD|ACC|AGI|COD": "scramble + designed-run yards per play",
+      "STR": "size, rushing TDs / contact",
+      "AWR": "interception-worthy rate, PFF overall",
+      "THP": "aDOT, NGS intended air yards",
+      "SAC|MAC|DAC": "completion and EPA by depth (<10 / 10-19 / 20+), CPOE",
+      "RUN": "out-of-pocket EPA and completion",
+      "TUP": "pressured/hit EPA",
+      "PAC": "play-action EPA and share",
+      "BSK": "sack rate, QB-fault sacks, time to throw",
+      "CAR": "fumbles lost per play",
+      "INJ|STA": "games and snaps available",
+      "TGH": "hits absorbed, pressured EPA",
+      "JMP": "no public measure; neutral unless sourced",
+      "OVR": "EPA over average, PFF overall"
+    }
+  },
+  "madden_reference_policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+  "position": "QB",
+  "stage": "variance_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 1,
+    "group": "Offense",
+    "current_status": "LOCKED",
+    "pff_cited_inputs": [
+      "overall",
+      "passing",
+      "rushing",
+      "grade under pressure",
+      "grade from clean pocket",
+      "big-time throw %",
+      "turnover-worthy play %"
+    ],
+    "position_stats": [
+      "completion %, yards, TD, INT",
+      "EPA/play, CPOE",
+      "ANY/A, passer rating",
+      "sacks, sack %, pressure-to-sack %",
+      "rush attempts, yards, scrambles"
+    ],
+    "usage_snap_metrics": [
+      "dropbacks",
+      "play-action rate",
+      "aDOT",
+      "time to throw (NGS)"
+    ],
+    "on_field_impact": [
+      "EPA/dropback",
+      "success rate",
+      "4th-quarter/2-minute performance"
+    ],
+    "madden_attributes_informed": [
+      "THP",
+      "SAC",
+      "MAC",
+      "DAC",
+      "TUP",
+      "TOR",
+      "PAC",
+      "BSK",
+      "AWR",
+      "CAR",
+      "SPD",
+      "ACC",
+      "AGI"
+    ],
+    "note": "Existing QB evidence categories and QB evidence policy are UNCHANGED (src/evidence-gate.ts, src/qb-evidence-policy.ts)."
+  }
+}

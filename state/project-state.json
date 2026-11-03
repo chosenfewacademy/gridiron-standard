@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -185,21 +185,25 @@
         "QB_REAUDIT_RATE_03_A2",
         "QB_REAUDIT_RATE_01_A2",
         "QB_REAUDIT_RATE_02_A5",
-        "QB_REAUDIT_TIEBREAK_05_A1"
+        "QB_REAUDIT_TIEBREAK_05_A1",
+        "QB_REAUDIT_VARIANCE_AUDIT_A1"
       ],
-      "current_stage": "pair_audits",
-      "current_task": "QB_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T00:58:56.827Z",
+      "current_stage": "variance_audit",
+      "current_task": "QB_REAUDIT_VARIANCE_AUDIT",
+      "updated_at": "2026-11-03T01:02:43.747Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_TIEBREAK_05",
+        "task_id": "QB_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
+        "errors": [],
         "flags": [
-          "PENDING_REVIEW: tiebreak result not approved (card t33s4)",
-          "TIE_BREAK: tied overall broken by contention order; pair verdict decides",
-          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+          "VARIANCE_RESIDUAL_ADJUST: Lamar Jackson BSK 78->72 (add-only): sack rate 9.8% games-weighted, 16th of 17 (10.7% in 2025); approved 78 still 8th of our scale; Josh Allen BSK 80->75 (add-only): sack rate 7.3%, 13th of 17; approved 80 still ~5th of our scale"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "QB_REAUDIT_VARIANCE_AUDIT",
+        "audit_id": "QB_REAUDIT_VARIANCE_AUDIT_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",

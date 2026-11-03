@@ -1,0 +1,266 @@
+{
+ "effective": {
+  "Joe Burrow": [
+   "QB_REAUDIT_RATE_01_A2",
+   90
+  ],
+  "Lamar Jackson": [
+   "QB_REAUDIT_RATE_02_A5",
+   82
+  ],
+  "Dak Prescott": [
+   "QB_REAUDIT_RATE_03_A2",
+   85
+  ],
+  "Brock Purdy": [
+   "QB_REAUDIT_RATE_04_A2",
+   86
+  ],
+  "Josh Allen": [
+   "QB_REAUDIT_RATE_05_A2",
+   88
+  ],
+  "Jared Goff": [
+   "QB_REAUDIT_RATE_06_A2",
+   85
+  ],
+  "Drake Maye": [
+   "QB_REAUDIT_RATE_07_A2",
+   86
+  ],
+  "Geno Smith": [
+   "QB_REAUDIT_RATE_08_A2",
+   78
+  ],
+  "C.J. Stroud": [
+   "QB_REAUDIT_RATE_09_A2",
+   80
+  ],
+  "Patrick Mahomes": [
+   "QB_REAUDIT_RATE_10_A4",
+   81
+  ],
+  "Jordan Love": [
+   "QB_REAUDIT_RATE_11_A4",
+   83
+  ],
+  "Trevor Lawrence": [
+   "QB_REAUDIT_RATE_12_A2",
+   82
+  ],
+  "Matthew Stafford": [
+   "QB_REAUDIT_RATE_13_A3",
+   83
+  ],
+  "Kirk Cousins": [
+   "QB_REAUDIT_RATE_14_A3",
+   78
+  ],
+  "Caleb Williams": [
+   "QB_REAUDIT_RATE_15_A3",
+   81
+  ],
+  "Justin Herbert": [
+   "QB_REAUDIT_RATE_16_A2",
+   75
+  ],
+  "Sam Darnold": [
+   "QB_REAUDIT_RATE_17_A2",
+   78
+  ]
+ },
+ "ratings_90plus": [
+  [
+   "Joe Burrow",
+   "AWR",
+   90
+  ],
+  [
+   "Joe Burrow",
+   "SAC",
+   93
+  ],
+  [
+   "Joe Burrow",
+   "MAC",
+   91
+  ],
+  [
+   "Lamar Jackson",
+   "SPD",
+   91
+  ],
+  [
+   "Lamar Jackson",
+   "ACC",
+   90
+  ],
+  [
+   "Lamar Jackson",
+   "AGI",
+   90
+  ],
+  [
+   "Dak Prescott",
+   "STA",
+   90
+  ],
+  [
+   "Josh Allen",
+   "STR",
+   90
+  ],
+  [
+   "Jared Goff",
+   "PAC",
+   90
+  ],
+  [
+   "Drake Maye",
+   "SAC",
+   90
+  ],
+  [
+   "Matthew Stafford",
+   "STA",
+   90
+  ]
+ ],
+ "style": {
+  "pairs": 136,
+  "too_similar": [],
+  "max_corr": [
+   "Matthew Stafford",
+   "Kirk Cousins",
+   0.9447154466599678,
+   3.9473684210526314
+  ],
+  "min_mad": [
+   "Dak Prescott",
+   "Jordan Love",
+   0.8402386340940452,
+   3.1578947368421053
+  ]
+ },
+ "order": [
+  [
+   "Joe Burrow",
+   90
+  ],
+  [
+   "Josh Allen",
+   88
+  ],
+  [
+   "Brock Purdy",
+   86
+  ],
+  [
+   "Drake Maye",
+   86
+  ],
+  [
+   "Dak Prescott",
+   85
+  ],
+  [
+   "Jared Goff",
+   85
+  ],
+  [
+   "Jordan Love",
+   83
+  ],
+  [
+   "Matthew Stafford",
+   83
+  ],
+  [
+   "Lamar Jackson",
+   82
+  ],
+  [
+   "Trevor Lawrence",
+   82
+  ],
+  [
+   "Patrick Mahomes",
+   81
+  ],
+  [
+   "Caleb Williams",
+   81
+  ],
+  [
+   "C.J. Stroud",
+   80
+  ],
+  [
+   "Geno Smith",
+   78
+  ],
+  [
+   "Kirk Cousins",
+   78
+  ]
+ ],
+ "ties": [
+  [
+   "Brock Purdy",
+   "Drake Maye"
+  ],
+  [
+   "Dak Prescott",
+   "Jared Goff"
+  ],
+  [
+   "Jordan Love",
+   "Matthew Stafford"
+  ],
+  [
+   "Lamar Jackson",
+   "Trevor Lawrence"
+  ]
+ ],
+ "approvals": 75,
+ "evidence_oldest": "2026-11-02T18:14:56.002Z",
+ "evidence_newest": "2026-11-03T00:47:34Z",
+ "madden_order_verified": null,
+ "issues": [
+  "QB_REAUDIT_RATE_06_A2: formula leftover 'formula'",
+  "QB_REAUDIT_RATE_07_A2: formula leftover 'formula'",
+  "QB_REAUDIT_RATE_08_A2: formula leftover 'formula'",
+  "QB_REAUDIT_RATE_09_A2: formula leftover 'formula'",
+  "QB_REAUDIT_RATE_11_A4: formula leftover 'formula'",
+  "QB_REAUDIT_RATE_12_A2: formula leftover 'formula'",
+  "QB_REAUDIT_RATE_14_A3: formula leftover 'formula'",
+  "QB_REAUDIT_RATE_15_A3: formula leftover 'formula'",
+  "QB_REAUDIT_RATE_16_A2: formula leftover 'formula'",
+  "QB_REAUDIT_RATE_17_A2: formula leftover 'formula'",
+  "untested tie Brock Purdy/Drake Maye at 86",
+  "untested tie Dak Prescott/Jared Goff at 85",
+  "untested tie Jordan Love/Matthew Stafford at 83",
+  "approval QB_REAUDIT_PROVISIONAL_TOP10_A1: no authorization card id in note (Commissioner approves provisional QB top 10: Burrow, Allen, )",
+  "approval QB_REAUDIT_PAIR_01_A1: no authorization card id in note (Commissioner approves pair 01: Burrow over Allen)",
+  "approval QB_REAUDIT_PAIR_02_A1: no authorization card id in note (Commissioner approves pair 02: Purdy over Lamar Jackson)",
+  "approval QB_REAUDIT_CANDIDATE_AUDIT_A1: no authorization card id in note (Commissioner approved candidate audit; Herbert and Darnold r)",
+  "approval QB_REAUDIT_BG_01_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_02_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_03_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_04_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_05_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_06_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_07_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_08_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_09_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_10_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_11_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_12_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_13_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_14_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_15_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_16_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_BG_17_A1: no authorization card id in note (Commissioner batch approval of all 17 QB background dossiers)",
+  "approval QB_REAUDIT_RATE_01_A1: no authorization card id in note (Commissioner approved Burrow OVR 90; ratings may be adjusted)"
+ ]
+}
