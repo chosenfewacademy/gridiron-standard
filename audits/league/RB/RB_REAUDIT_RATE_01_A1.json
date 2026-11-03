@@ -1,0 +1,511 @@
+{
+  "audit_id": "RB_REAUDIT_RATE_01_A1",
+  "task_id": "RB_REAUDIT_RATE_01",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "player_id": "bijan_robinson",
+  "players": [
+    "Bijan Robinson"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 93,
+    "ACC": 91,
+    "AGI": 91,
+    "COD": 93,
+    "STR": 76,
+    "AWR": 88,
+    "CAR": 88,
+    "BCV": 92,
+    "BTK": 88,
+    "TRK": 76,
+    "SFA": 74,
+    "SPM": 88,
+    "JKM": 94,
+    "CTH": 84,
+    "CIT": 72,
+    "SRR": 84,
+    "MRR": 78,
+    "DRR": 70,
+    "RLS": 78,
+    "JMP": 86,
+    "INJ": 88,
+    "STA": 90,
+    "TGH": 88
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "MEDIUM",
+    "AWR": "MEDIUM",
+    "CAR": "MEDIUM",
+    "BCV": "MEDIUM",
+    "BTK": "MEDIUM",
+    "TRK": "MEDIUM",
+    "SFA": "MEDIUM",
+    "SPM": "LOW",
+    "JKM": "MEDIUM",
+    "CTH": "MEDIUM",
+    "CIT": "LOW",
+    "SRR": "MEDIUM",
+    "MRR": "MEDIUM",
+    "DRR": "LOW",
+    "RLS": "LOW",
+    "JMP": "LOW",
+    "INJ": "LOW",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): short-yardage conv and size (214 lb): 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 2. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BCV": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (contact): RYOE/stuff rate: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TRK": {
+      "basis": "Judgment (power): short-yardage conv and size (214 lb): 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SFA": {
+      "basis": "Judgment (power): short-yardage conv and size (214 lb): 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SPM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JKM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8; routes 138. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8; routes 138. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8; routes 138. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8; routes 138. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8; routes 138. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8; routes 138. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (athletic): size/age 214 lb age 24; explosive plays: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Bijan Robinson 2026 usage: 359 offensive snaps in 8 games (nflverse snap_counts); age 24, 71 in, 214 lb; roster status ACT; 2025: 288 car 1480 yds 5.14 ypc 7 TD, EPA/rush -0.043, success 41%, 10+ run rate 12%, RYOE/att 0.879670845539487, fumbles lost 2, 103 tgt 79 rec 820 rec yds, rec YAC/rec 10.85, 20+ runs 8, stuff rate 14.9%, 3rd/4th-and-<=2 conv 7/14. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Bijan Robinson 2026 usage: 359 offensive snaps in 8 games (nflverse snap_counts); age 24, 71 in, 214 lb; roster status ACT; PFF snaps {'off': '358', 'run': '154', 'route': '138', 'pblk': '57'}. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Bijan Robinson 2026 usage: 359 offensive snaps in 8 games (nflverse snap_counts); age 24, 71 in, 214 lb; roster status ACT; PFF snaps {'off': '358', 'run': '154', 'route': '138', 'pblk': '57'}. Style: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "SPD": {
+      "tier": "ELITE",
+      "claim": "breakaway/explosive: 10+ run rate / 20+ runs / RYOE: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "breakaway/explosive: 10+ run rate / 20+ runs / RYOE: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "tier": "ELITE",
+      "claim": "elusive: stuff rate, RYOE and success: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "COD": {
+      "tier": "ELITE",
+      "claim": "elusive: stuff rate, RYOE and success: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BCV": {
+      "tier": "ELITE",
+      "claim": "vision: success, RYOE, EPA: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JKM": {
+      "tier": "ELITE",
+      "claim": "elusive: stuff rate, RYOE and success: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: Bijan Robinson 2026 usage: 359 offensive snaps in 8 games (nflverse snap_counts); age 24, 71 in, 214 lb; roster status ACT; PFF snaps {'off': '358', 'run': '154', 'route': '138', 'pblk': '57'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 92,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden. Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+  "style_profile": "Bijan Robinson: Complete three-down elusive weapon: cutback vision plus elite jump-cut/juke and real slot/route value (820 rec yds 2025, 10.9 YAC/rec); lowest stuff rate tier, but short-yardage conversion only 2/8 in 2026.",
+  "style_evidence": [
+    "Bijan Robinson (ATL) 2026: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 25 rec 189 rec yds, rec YAC/rec 8.52, 20+ runs 8, stuff rate 14.0%, 3rd/4th-and-<=2 conv 2/8",
+    "Bijan Robinson (ATL) 2025: 288 car 1480 yds 5.14 ypc 7 TD, EPA/rush -0.043, success 41%, 10+ run rate 12%, RYOE/att 0.879670845539487, fumbles lost 2, 103 tgt 79 rec 820 rec yds, rec YAC/rec 10.85, 20+ runs 8, stuff rate 14.9%, 3rd/4th-and-<=2 conv 7/14",
+    "Bijan Robinson PFF HB overall 2026 86.4 (rank 5), 2025 86.7; 2026 PFF snaps off 358, run 154, routes 138, pass-block 57",
+    "Bijan Robinson 2026 usage: 359 offensive snaps in 8 games (nflverse snap_counts); age 24, 71 in, 214 lb; roster status ACT"
+  ],
+  "input_dossier": "RB_REAUDIT_BG_01_A1",
+  "weaknesses": [
+    "short-yardage power",
+    "contested catches"
+  ],
+  "madden_reference": [
+    {
+      "player": "Bijan Robinson",
+      "ovr": 98,
+      "attributes": {
+        "SPD": 96,
+        "ACC": 93,
+        "AGI": 92,
+        "COD": 95,
+        "STR": 81,
+        "AWR": 91,
+        "CAR": 91,
+        "BCV": 94,
+        "BTK": 93,
+        "TRK": 84,
+        "SFA": 82,
+        "SPM": 95,
+        "JKM": 98,
+        "CTH": 75,
+        "CIT": 63,
+        "SRR": 74,
+        "MRR": 66,
+        "DRR": 61,
+        "RLS": 66,
+        "JMP": 90,
+        "INJ": 94,
+        "STA": 95,
+        "TGH": 90
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -6,
+      "delta_attributes": {
+        "SPD": -3,
+        "ACC": -2,
+        "AGI": -1,
+        "COD": -2,
+        "STR": -5,
+        "AWR": -3,
+        "CAR": -3,
+        "BCV": -2,
+        "BTK": -5,
+        "TRK": -8,
+        "SFA": -8,
+        "SPM": -7,
+        "JKM": -4,
+        "CTH": 9,
+        "CIT": 9,
+        "SRR": 10,
+        "MRR": 12,
+        "DRR": 9,
+        "RLS": 12,
+        "JMP": -4,
+        "INJ": -6,
+        "STA": -5,
+        "TGH": -2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RB, retrieved 2026-11-02 ET)"
+    }
+  ],
+  "variance_check": {
+    "ovr_gap": 6,
+    "attribute_gaps_10plus": {
+      "SRR": 10,
+      "MRR": 12,
+      "RLS": 12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t41s302",
+  "style_similarity": [],
+  "status": "FLAGGED"
+}
