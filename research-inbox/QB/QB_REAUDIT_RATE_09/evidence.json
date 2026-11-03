@@ -92,6 +92,27 @@
       "claims": [
         "C.J. Stroud 2025: 14/17 team games, 426 att, aDOT 8.1, EPA/dropback +0.09, CPOE +0.4; deep (20+) 11.1% of att, 34.0% cmp, EPA +0.36; 10-19 yds 50.0% EPA +0.44; <10 yds 74.5%; hit 41.7% EPA -0.35 (n=36) vs clean 66.2%; sack rate 5.2%; 25 scrambles 194 yds, 13 designed runs 20 yds, 1 rush TD; 19 TD/8 INT; 0 fumbles lost"
       ]
+    },
+    {
+      "name": "nflverse FTN charting 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "C.J. Stroud 2026 FTN charting (regular season): 259 dropbacks; play-action 21.2% EPA +0.28 vs non-PA +0.08; out of pocket 19.3% EPA -0.11, cmp 50.0%; vs blitz EPA +0.26 (n=68); interception-worthy 1.2% of attempts; QB-fault sacks 1 of 15",
+        "No jumping / elevated-throw measure exists in FTN charting, nflverse play-by-play, or PFF season grades"
+      ]
+    },
+    {
+      "name": "nflverse FTN charting 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "C.J. Stroud 2025 FTN charting (regular season): 446 dropbacks; play-action 23.8% EPA +0.20 vs non-PA +0.05; out of pocket 17.7% EPA +0.11, cmp 57.0%; vs blitz EPA -0.03 (n=150); interception-worthy 3.3% of attempts; QB-fault sacks 10 of 23"
+      ]
     }
   ],
   "normalized": {
