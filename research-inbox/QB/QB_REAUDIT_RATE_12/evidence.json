@@ -92,6 +92,27 @@
       "claims": [
         "Trevor Lawrence 2025: 17/17 team games, 562 att, aDOT 8.7, EPA/dropback +0.06, CPOE -1.9; deep (20+) 13.4% of att, 38.7% cmp, EPA +0.51; 10-19 yds 54.3% EPA +0.40; <10 yds 68.3%; hit 47.7% EPA -0.20 (n=44) vs clean 61.8%; sack rate 6.8%; 43 scrambles 310 yds, 32 designed runs 61 yds, 9 rush TD; 29 TD/12 INT; 3 fumbles lost"
       ]
+    },
+    {
+      "name": "nflverse FTN charting 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Trevor Lawrence 2026 FTN charting (regular season): 211 dropbacks; play-action 21.8% EPA +0.35 vs non-PA +0.26; out of pocket 10.9% EPA +0.27, cmp 47.8%; vs blitz EPA +0.15 (n=63); interception-worthy 3.0% of attempts; QB-fault sacks 3 of 13",
+        "No jumping / elevated-throw measure exists in FTN charting, nflverse play-by-play, or PFF season grades"
+      ]
+    },
+    {
+      "name": "nflverse FTN charting 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Trevor Lawrence 2025 FTN charting (regular season): 600 dropbacks; play-action 22.2% EPA +0.11 vs non-PA +0.04; out of pocket 13.3% EPA -0.13, cmp 41.2%; vs blitz EPA +0.17 (n=163); interception-worthy 3.2% of attempts; QB-fault sacks 11 of 41"
+      ]
     }
   ],
   "normalized": {
