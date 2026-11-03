@@ -1,0 +1,304 @@
+{
+ "position": "RB",
+ "references": [
+  {
+   "name": "Derrick Henry",
+   "teams": [
+    "BAL"
+   ],
+   "snaps": 501,
+   "snaps_2026": 283,
+   "opportunities": 501,
+   "carries": 466,
+   "pff": 78.5,
+   "value": -0.019,
+   "efficiency": 0.731,
+   "negative_rate": 16.738,
+   "availability": 1,
+   "player": "Derrick Henry",
+   "ovr": 76
+  },
+  {
+   "name": "Chuba Hubbard",
+   "teams": [
+    "CAR"
+   ],
+   "snaps": 394,
+   "snaps_2026": 394,
+   "opportunities": 319,
+   "carries": 254,
+   "pff": 76.6,
+   "value": -0.034,
+   "efficiency": 0.239,
+   "negative_rate": 11.811,
+   "availability": 0.917,
+   "player": "Chuba Hubbard",
+   "ovr": 77
+  }
+ ],
+ "thresholds": {
+  "pff": 76.6,
+  "value": -0.034,
+  "efficiency": 0.239,
+  "negative_rate": 16.738,
+  "availability": 0.917
+ },
+ "flagged": [
+  {
+   "name": "Rico Dowdle",
+   "teams": [
+    "CAR",
+    "PIT"
+   ],
+   "snaps": 350,
+   "snaps_2026": 134,
+   "opportunities": 350,
+   "carries": 283,
+   "pff": 63.2,
+   "value": -0.02,
+   "efficiency": 0.534,
+   "negative_rate": 15.194,
+   "availability": 0.88,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": -1.5994810241873414
+  },
+  {
+   "name": "D'Andre Swift",
+   "teams": [
+    "CHI"
+   ],
+   "snaps": 412,
+   "snaps_2026": 320,
+   "opportunities": 412,
+   "carries": 339,
+   "pff": 75.8,
+   "value": 0.025,
+   "efficiency": 0.225,
+   "negative_rate": 13.274,
+   "availability": 0.958,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.7475327327637713
+  },
+  {
+   "name": "Kenny Gainwell",
+   "teams": [
+    "PIT",
+    "TB"
+   ],
+   "snaps": 275,
+   "snaps_2026": 0,
+   "opportunities": 275,
+   "carries": 172,
+   "pff": null,
+   "value": 0.001,
+   "efficiency": 0.807,
+   "negative_rate": 18.605,
+   "availability": 1,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": 2.621067586766795
+  },
+  {
+   "name": "Javonte Williams",
+   "teams": [
+    "DAL"
+   ],
+   "snaps": 461,
+   "snaps_2026": 406,
+   "opportunities": 461,
+   "carries": 386,
+   "pff": 73.7,
+   "value": 0.036,
+   "efficiency": 0.468,
+   "negative_rate": 13.472,
+   "availability": 0.96,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.1200816732330423
+  },
+  {
+   "name": "De'Von Achane",
+   "teams": [
+    "MIA"
+   ],
+   "snaps": 369,
+   "snaps_2026": 97,
+   "opportunities": 369,
+   "carries": 272,
+   "pff": 88.9,
+   "value": 0.03,
+   "efficiency": 1.036,
+   "negative_rate": 20.588,
+   "availability": 0.792,
+   "hits": [
+    "pff",
+    "value",
+    "efficiency"
+   ],
+   "score": 0.7125673385647306
+  },
+  {
+   "name": "Kyle Monangai",
+   "teams": [
+    "CHI"
+   ],
+   "snaps": 266,
+   "snaps_2026": 129,
+   "opportunities": 266,
+   "carries": 231,
+   "pff": 69.3,
+   "value": 0.041,
+   "efficiency": 0.503,
+   "negative_rate": 13.853,
+   "availability": 0.875,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": -1.383889714903713
+  },
+  {
+   "name": "TreVeyon Henderson",
+   "teams": [
+    "NE"
+   ],
+   "snaps": 281,
+   "snaps_2026": 125,
+   "opportunities": 281,
+   "carries": 232,
+   "pff": 68,
+   "value": -0.019,
+   "efficiency": 0.641,
+   "negative_rate": 18.103,
+   "availability": 0.92,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -1.4238271058363066
+  }
+ ],
+ "closest": [
+  {
+   "name": "Chase Brown",
+   "teams": [
+    "CIN"
+   ],
+   "snaps": 457,
+   "snaps_2026": 318,
+   "opportunities": 457,
+   "carries": 327,
+   "pff": 72.9,
+   "value": -0.061,
+   "efficiency": 0.133,
+   "negative_rate": 13.15,
+   "availability": 1,
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": -2.234583385550549
+  },
+  {
+   "name": "Rhamondre Stevenson",
+   "teams": [
+    "NE"
+   ],
+   "snaps": 340,
+   "snaps_2026": 340,
+   "opportunities": 291,
+   "carries": 227,
+   "pff": 77.5,
+   "value": -0.103,
+   "efficiency": 0.842,
+   "negative_rate": 18.943,
+   "availability": 0.88,
+   "hits": [
+    "pff",
+    "efficiency"
+   ],
+   "score": -2.4196329183504655
+  },
+  {
+   "name": "Emanuel Wilson",
+   "teams": [
+    "GB",
+    "SEA"
+   ],
+   "snaps": 262,
+   "snaps_2026": 189,
+   "opportunities": 262,
+   "carries": 236,
+   "pff": null,
+   "value": -0.102,
+   "efficiency": -0.378,
+   "negative_rate": 13.136,
+   "availability": 1,
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": -2.5229913649857014
+  },
+  {
+   "name": "J.K. Dobbins",
+   "teams": [
+    "DEN"
+   ],
+   "snaps": 270,
+   "snaps_2026": 187,
+   "opportunities": 270,
+   "carries": 247,
+   "pff": 76.8,
+   "value": -0.057,
+   "efficiency": 0.238,
+   "negative_rate": 15.789,
+   "availability": 0.72,
+   "hits": [
+    "pff",
+    "negative_rate"
+   ],
+   "score": -3.610984534464248
+  },
+  {
+   "name": "Jacory Croskey-Merritt",
+   "teams": [
+    "WAS"
+   ],
+   "snaps": 263,
+   "snaps_2026": 150,
+   "opportunities": 263,
+   "carries": 243,
+   "pff": 68.7,
+   "value": -0.054,
+   "efficiency": 0.458,
+   "negative_rate": 17.695,
+   "availability": 0.917,
+   "hits": [
+    "efficiency",
+    "availability"
+   ],
+   "score": -4.082447225426181
+  }
+ ],
+ "screened": 93,
+ "read_only": true,
+ "rating_changes": []
+}

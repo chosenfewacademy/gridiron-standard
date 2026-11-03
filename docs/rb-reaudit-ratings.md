@@ -73,3 +73,9 @@ Judgment ratings approved automatically under commissioner approval t41s302; adj
 
 Variance-audit domains: RYOE, success rate, EPA/rush, receiving YAC, MTF/contact (PFF MTF/YCO paywalled; proxied by RYOE and stuff rate), explosive rate, receiving/routes, pass pro snaps, fumbles, PFF grade, usage, scheme/OL context.
 
+
+## Status 2026-11-03 (t41s314, t42u)
+H2H_01-06, TB01-13 approved; 11 rating revisions plus 3 evidence fixes applied (Cook BTK 80, Taylor INJ 86, Tuten ACC 93).
+Variance: 41 gaps of 10+ vs Madden (7 OVR, 34 attribute), all SUPPORTED. Scarcity PASS.
+League ceiling check (refs Hubbard 77 / Henry 76): **7 FLAGGED**. Achane (IR; PFF 88.9, RYOE +1.04, EPA +0.03) is the substantive one. Javonte Williams, Swift, Monangai, Dowdle, Gainwell, and Henderson hit 3+ screens because the EPA reference threshold is low (-0.034).
+The cross-audit has not been submitted and the lock is blocked until the commissioner resolves this.
