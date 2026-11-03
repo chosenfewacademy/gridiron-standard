@@ -1,0 +1,457 @@
+# RB_REAUDIT_RATE_04 — Jaylen Warren rating (v1.1.2 stage 3, per-attribute judgment; authorized by t41s302)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "RB_REAUDIT_RATE_04_A1",
+  "task_id": "RB_REAUDIT_RATE_04",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "player_id": "jaylen_warren",
+  "players": [
+    "Jaylen Warren"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 86,
+    "ACC": 90,
+    "AGI": 80,
+    "COD": 82,
+    "STR": 76,
+    "AWR": 86,
+    "CAR": 92,
+    "BCV": 86,
+    "BTK": 88,
+    "TRK": 80,
+    "SFA": 76,
+    "SPM": 74,
+    "JKM": 80,
+    "CTH": 76,
+    "CIT": 66,
+    "SRR": 72,
+    "MRR": 64,
+    "DRR": 56,
+    "RLS": 64,
+    "JMP": 72,
+    "INJ": 84,
+    "STA": 82,
+    "TGH": 86
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "MEDIUM",
+    "AWR": "MEDIUM",
+    "CAR": "MEDIUM",
+    "BCV": "MEDIUM",
+    "BTK": "MEDIUM",
+    "TRK": "MEDIUM",
+    "SFA": "MEDIUM",
+    "SPM": "LOW",
+    "JKM": "MEDIUM",
+    "CTH": "MEDIUM",
+    "CIT": "LOW",
+    "SRR": "MEDIUM",
+    "MRR": "MEDIUM",
+    "DRR": "LOW",
+    "RLS": "LOW",
+    "JMP": "LOW",
+    "INJ": "LOW",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (breakaway/explosive): 10+ run rate / 20+ runs / RYOE: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): short-yardage conv and size (215 lb): 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 0. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BCV": {
+      "basis": "Judgment (vision): success, RYOE, EPA: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (contact): RYOE/stuff rate: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TRK": {
+      "basis": "Judgment (power): short-yardage conv and size (215 lb): 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SFA": {
+      "basis": "Judgment (power): short-yardage conv and size (215 lb): 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SPM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JKM": {
+      "basis": "Judgment (elusive): stuff rate, RYOE and success: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9; routes 188. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9; routes 188. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9; routes 188. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9; routes 188. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9; routes 188. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (receiving): targets/rec yds/YAC/routes: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9; routes 188. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (athletic): size/age 215 lb age 28; explosive plays: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Jaylen Warren 2026 usage: 386 offensive snaps in 8 games (nflverse snap_counts); age 28, 68 in, 215 lb; roster status ACT; 2025: 211 car 958 yds 4.54 ypc 6 TD, EPA/rush -0.002, success 43%, 10+ run rate 11%, RYOE/att 0.800823869744857, fumbles lost 0, 45 tgt 40 rec 333 rec yds, rec YAC/rec 10.97, 20+ runs 6, stuff rate 14.7%, 3rd/4th-and-<=2 conv 12/15. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Jaylen Warren 2026 usage: 386 offensive snaps in 8 games (nflverse snap_counts); age 28, 68 in, 215 lb; roster status ACT; PFF snaps {'off': '385', 'run': '120', 'route': '188', 'pblk': '67'}. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Jaylen Warren 2026 usage: 386 offensive snaps in 8 games (nflverse snap_counts); age 28, 68 in, 215 lb; roster status ACT; PFF snaps {'off': '385', 'run': '120', 'route': '188', 'pblk': '67'}. Style: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+      "why_not_higher": "Evidence does not separate him from higher-rated backs in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated backs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "breakaway/explosive: 10+ run rate / 20+ runs / RYOE: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CAR": {
+      "tier": "ELITE",
+      "claim": "ball security: fumbles lost 2026 0, 2025 0",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/hb/2026",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 83,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden. Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+  "style_profile": "Jaylen Warren: Compact contact-balance grinder and screen weapon: RYOE +1.93 and EPA +.128 on 120 carries, 13.8 YAC/rec, 8/9 short-yardage, best pass-pro volume of the stars; not a home-run burner.",
+  "style_evidence": [
+    "Jaylen Warren (PIT) 2026: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 25 rec 294 rec yds, rec YAC/rec 13.84, 20+ runs 7, stuff rate 15.1%, 3rd/4th-and-<=2 conv 8/9",
+    "Jaylen Warren (PIT) 2025: 211 car 958 yds 4.54 ypc 6 TD, EPA/rush -0.002, success 43%, 10+ run rate 11%, RYOE/att 0.800823869744857, fumbles lost 0, 45 tgt 40 rec 333 rec yds, rec YAC/rec 10.97, 20+ runs 6, stuff rate 14.7%, 3rd/4th-and-<=2 conv 12/15",
+    "Jaylen Warren PFF HB overall 2026 87.3 (rank 4), 2025 81.0; 2026 PFF snaps off 385, run 120, routes 188, pass-block 67",
+    "Jaylen Warren 2026 usage: 386 offensive snaps in 8 games (nflverse snap_counts); age 28, 68 in, 215 lb; roster status ACT"
+  ],
+  "input_dossier": "RB_REAUDIT_BG_04_A1",
+  "weaknesses": [
+    "top speed",
+    "deep routes",
+    "agility vs elite"
+  ],
+  "madden_reference": [
+    {
+      "player": "Jaylen Warren",
+      "ovr": 87,
+      "attributes": {
+        "SPD": 90,
+        "ACC": 94,
+        "AGI": 83,
+        "COD": 85,
+        "STR": 75,
+        "AWR": 92,
+        "CAR": 97,
+        "BCV": 89,
+        "BTK": 90,
+        "TRK": 79,
+        "SFA": 77,
+        "SPM": 82,
+        "JKM": 87,
+        "CTH": 73,
+        "CIT": 63,
+        "SRR": 67,
+        "MRR": 61,
+        "DRR": 56,
+        "RLS": 59,
+        "JMP": 74,
+        "INJ": 88,
+        "STA": 83,
+        "TGH": 86
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -4,
+      "delta_attributes": {
+        "SPD": -4,
+        "ACC": -4,
+        "AGI": -3,
+        "COD": -3,
+        "STR": 1,
+        "AWR": -6,
+        "CAR": -5,
+        "BCV": -3,
+        "BTK": -2,
+        "TRK": 1,
+        "SFA": -1,
+        "SPM": -8,
+        "JKM": -7,
+        "CTH": 3,
+        "CIT": 3,
+        "SRR": 5,
+        "MRR": 3,
+        "DRR": 0,
+        "RLS": 5,
+        "JMP": -2,
+        "INJ": -4,
+        "STA": -1,
+        "TGH": 0
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RB, retrieved 2026-11-02 ET)"
+    }
+  ],
+  "variance_check": {
+    "ovr_gap": 4,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t41s302"
+}
+```
