@@ -1,0 +1,13 @@
+{
+  "audit_id": "QB_REAUDIT_LOCK_20261102",
+  "task_id": "QB_REAUDIT_LOCK",
+  "task_type": "lock",
+  "audit_type": "TOP10_REAUDIT",
+  "position": "QB",
+  "status": "APPROVED",
+  "confirmation": "REAUDIT_REPLACE_BASELINE_QB",
+  "approved_by": "PhiXCrypto",
+  "created_at": "2026-11-02T21:35:00-05:00",
+  "new_baseline_file": "data/baselines/QB.reaudit-20261102.json",
+  "previous_baseline_file": "data/baselines/QB.json"
+}
