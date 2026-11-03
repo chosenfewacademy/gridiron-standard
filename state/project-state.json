@@ -1016,7 +1016,7 @@
         "position": "RB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/RB.reaudit.json",
       "baseline_file": "data/baselines/RB.json",
@@ -1066,7 +1066,8 @@
         "RB_REAUDIT_TIEBREAK_03",
         "RB_REAUDIT_TIEBREAK_04",
         "RB_REAUDIT_TIEBREAK_05",
-        "RB_REAUDIT_TIEBREAK_06"
+        "RB_REAUDIT_TIEBREAK_06",
+        "RB_REAUDIT_TIEBREAK_07"
       ],
       "audit_ids": [
         "RB_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -1114,7 +1115,7 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "RB_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T08:43:33.933Z",
+      "updated_at": "2026-11-03T08:43:34.172Z",
       "last_result": {
         "task_id": "RB_REAUDIT_TIEBREAK_07",
         "status": "FLAGGED",
@@ -1122,17 +1123,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "RB_REAUDIT_TIEBREAK_07",
-        "audit_id": "RB_REAUDIT_TIEBREAK_07_A1",
-        "pending": [
-          {
-            "task_id": "RB_REAUDIT_TIEBREAK_07",
-            "audit_id": "RB_REAUDIT_TIEBREAK_07_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -1458,6 +1449,14 @@
           "decision": "APPROVED",
           "task_id": "RB_REAUDIT_TIEBREAK_06",
           "audit_id": "RB_REAUDIT_TIEBREAK_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T08:43:33Z",
+          "note": "Commissioner approval t41s314 (approve the ten tiebreaks; add Henry vs Hubbard and Pollard vs Allen)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RB_REAUDIT_TIEBREAK_07",
+          "audit_id": "RB_REAUDIT_TIEBREAK_07_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T08:43:33Z",
           "note": "Commissioner approval t41s314 (approve the ten tiebreaks; add Henry vs Hubbard and Pollard vs Allen)"
