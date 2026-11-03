@@ -1,4 +1,4 @@
-# QB_REAUDIT_RATE_13 revision A3 — Matthew Stafford (head-to-head adjustment from QB_REAUDIT_H2H_06; DRAFT pending commissioner review)
+# QB_REAUDIT_RATE_13 revision A3 — Matthew Stafford (head-to-head adjustment from QB_REAUDIT_H2H_06; approved on card t31s1)
 
 Supersedes QB_REAUDIT_RATE_13_A2 only if approved via `npm run reaudit:revise -- QB --task QB_REAUDIT_RATE_13 --revision 3 ...`.
 
@@ -428,7 +428,7 @@ Supersedes QB_REAUDIT_RATE_13_A2 only if approved via `npm run reaudit:revise --
     "SEASON_SPLIT: PFF 92.0 (2025) vs 66.8 (2026)",
     "LARGE_MADDEN_GAP: OVR 82 vs Madden 98 (reference only)",
     "H2H_ADJUSTMENT_PROPOSED:QB_REAUDIT_H2H_06",
-    "PENDING_COMMISSIONER_REVIEW: drafted only; not run through reaudit:revise, not approved (card t30s8)"
+    "APPROVED_BY_COMMISSIONER: card t31s1"
   ],
   "locked_control_conflict": false
 }

@@ -163,22 +163,24 @@
         "QB_REAUDIT_H2H_05_A1",
         "QB_REAUDIT_H2H_06_A1",
         "QB_REAUDIT_RATE_02_A2",
-        "QB_REAUDIT_RATE_10_A3"
+        "QB_REAUDIT_RATE_10_A3",
+        "QB_REAUDIT_RATE_13_A3"
       ],
       "current_stage": "pair_audits",
       "current_task": "QB_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T00:25:16.957Z",
+      "updated_at": "2026-11-03T00:25:31.426Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_RATE_10",
+        "task_id": "QB_REAUDIT_RATE_13",
         "status": "REVISION_APPROVED",
-        "audit_id": "QB_REAUDIT_RATE_10_A3",
-        "supersedes": "QB_REAUDIT_RATE_10_A2",
+        "audit_id": "QB_REAUDIT_RATE_13_A3",
+        "supersedes": "QB_REAUDIT_RATE_13_A2",
         "flags": [
           "REVISION_A2_T30S3: per-player judgment replaces formula A1",
           "JMP_NO_EVIDENCE: neutral 70 LOW",
-          "LARGE_MADDEN_GAP: OVR 82 vs Madden 93 (reference only)",
-          "DEEP_GAME_COLLAPSE: 29% deep completion 2026",
-          "H2H_ADJUSTMENT_PROPOSED:QB_REAUDIT_H2H_05",
+          "ELITE_TRAIT_PROPOSED: STA 90",
+          "SEASON_SPLIT: PFF 92.0 (2025) vs 66.8 (2026)",
+          "LARGE_MADDEN_GAP: OVR 82 vs Madden 98 (reference only)",
+          "H2H_ADJUSTMENT_PROPOSED:QB_REAUDIT_H2H_06",
           "APPROVED_BY_COMMISSIONER: card t31s1"
         ]
       },
@@ -660,6 +662,15 @@
           "supersedes": "QB_REAUDIT_RATE_10_A2",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T00:25:16Z",
+          "note": "Approved by the commissioner on card t31s1 (head-to-head adjustment)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_13",
+          "audit_id": "QB_REAUDIT_RATE_13_A3",
+          "supersedes": "QB_REAUDIT_RATE_13_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:25:31Z",
           "note": "Approved by the commissioner on card t31s1 (head-to-head adjustment)"
         }
       ]
