@@ -1,0 +1,39 @@
+# RB_REAUDIT_TIEBREAK_08 — Tony Pollard vs Chuba Hubbard (v1.1.2 head-to-head tiebreak; prepared under t41s308, NOT approved)
+
+```json
+{
+  "audit_id": "RB_REAUDIT_TIEBREAK_08_A1",
+  "task_id": "RB_REAUDIT_TIEBREAK_08",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Tony Pollard",
+    "Chuba Hubbard"
+  ],
+  "pair_result": {
+    "winner": "Chuba Hubbard",
+    "loser": "Tony Pollard",
+    "provisional_order_holds": false,
+    "reasoning": "75 tie. Hubbard leads 2026 EPA/rush (+.058 vs -.062), success (46% vs 41%), RYOE (+0.76 vs +0.61), receiving (150 yds, rec EPA +12.6 vs 70 yds, -16.0) and pass pro (79 vs 49 PBLK). Pollard leads PFF (85.6 vs 84.1) and 2025 RYOE (+0.49 vs -0.22). Hubbard; recommend Hubbard 76.",
+    "key_evidence_for_winner": [
+      "Chuba Hubbard PFF HB overall 2026 84.1, 2025 69.9; 2026 PFF snaps {'off': '394', 'run': '128', 'route': '184', 'pblk': '79'}; age 27, 216 lb",
+      "Chuba Hubbard (CAR) 2026: 119 car 4.54 ypc, EPA/rush +0.058, success 46%, 10+ run rate 11%, RYOE/att 0.76, stuff 12.6%, short-yd 11/14, fumbles lost 0, 150 rec yds (rec EPA +12.6), YAC/rec 7.86",
+      "Chuba Hubbard (CAR) 2025: 135 car 3.79 ypc, EPA/rush -0.116, success 41%, 10+ run rate 6%, RYOE/att -0.22, stuff 12.6%, short-yd 8/11, fumbles lost 1, 223 rec yds (rec EPA +4.6), YAC/rec 9.7"
+    ],
+    "key_evidence_for_loser": [
+      "Tony Pollard PFF HB overall 2026 85.6, 2025 67.0; 2026 PFF snaps {'off': '296', 'run': '137', 'route': '100', 'pblk': '49'}; age 29, 209 lb",
+      "Tony Pollard (TEN) 2026: 133 car 4.47 ypc, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.61, stuff 15.8%, short-yd 2/6, fumbles lost 0, 70 rec yds (rec EPA -16.0), YAC/rec 6.0",
+      "Tony Pollard (TEN) 2025: 242 car 4.47 ypc, EPA/rush -0.090, success 39%, 10+ run rate 11%, RYOE/att 0.49, stuff 14.0%, short-yd 5/10, fumbles lost 2, 206 rec yds (rec EPA -11.8), YAC/rec 6.15"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
