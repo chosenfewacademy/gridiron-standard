@@ -1016,7 +1016,7 @@
         "position": "RB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/RB.reaudit.json",
       "baseline_file": "data/baselines/RB.json",
@@ -1139,19 +1139,23 @@
         "RB_REAUDIT_RATE_06_A2",
         "RB_REAUDIT_RATE_08_A3",
         "RB_REAUDIT_VARIANCE_AUDIT_A1",
-        "RB_REAUDIT_RATE_05_A2"
+        "RB_REAUDIT_RATE_05_A2",
+        "RB_REAUDIT_SCARCITY_A1"
       ],
-      "current_stage": "variance_audit",
-      "current_task": "RB_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-03T08:46:06.193Z",
+      "current_stage": "scarcity_audit",
+      "current_task": "RB_REAUDIT_SCARCITY",
+      "updated_at": "2026-11-03T08:46:30.354Z",
       "last_result": {
-        "task_id": "RB_REAUDIT_RATE_05",
-        "status": "REVISION_APPROVED",
-        "audit_id": "RB_REAUDIT_RATE_05_A2",
-        "supersedes": "RB_REAUDIT_RATE_05_A1",
+        "task_id": "RB_REAUDIT_SCARCITY",
+        "status": "VALIDATED",
+        "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "RB_REAUDIT_SCARCITY",
+        "audit_id": "RB_REAUDIT_SCARCITY_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
