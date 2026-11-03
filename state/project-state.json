@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -98,7 +98,8 @@
         "QB_REAUDIT_RATE_16",
         "QB_REAUDIT_RATE_17",
         "QB_REAUDIT_H2H_01",
-        "QB_REAUDIT_H2H_02"
+        "QB_REAUDIT_H2H_02",
+        "QB_REAUDIT_H2H_03"
       ],
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
@@ -158,7 +159,7 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "QB_REAUDIT_H2H_03",
-      "updated_at": "2026-11-03T00:23:00.135Z",
+      "updated_at": "2026-11-03T00:23:13.394Z",
       "last_result": {
         "task_id": "QB_REAUDIT_H2H_03",
         "status": "FLAGGED",
@@ -167,11 +168,7 @@
           "PENDING_REVIEW: pair result not approved (card t30s8)"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "QB_REAUDIT_H2H_03",
-        "audit_id": "QB_REAUDIT_H2H_03_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -599,6 +596,14 @@
           "audit_id": "QB_REAUDIT_H2H_02_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T00:22:45Z",
+          "note": "Approved by the commissioner on card t31s1 (all six QB head-to-heads approved with the prepared verdicts)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_H2H_03",
+          "audit_id": "QB_REAUDIT_H2H_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T00:23:13Z",
           "note": "Approved by the commissioner on card t31s1 (all six QB head-to-heads approved with the prepared verdicts)"
         }
       ]
