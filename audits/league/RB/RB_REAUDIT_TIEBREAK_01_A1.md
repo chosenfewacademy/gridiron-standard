@@ -1,0 +1,39 @@
+# RB_REAUDIT_TIEBREAK_01 — Jahmyr Gibbs vs Kenneth Walker III (v1.1.2 head-to-head tiebreak; prepared under t41s308, NOT approved)
+
+```json
+{
+  "audit_id": "RB_REAUDIT_TIEBREAK_01_A1",
+  "task_id": "RB_REAUDIT_TIEBREAK_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Jahmyr Gibbs",
+    "Kenneth Walker III"
+  ],
+  "pair_result": {
+    "winner": "Kenneth Walker III",
+    "loser": "Jahmyr Gibbs",
+    "provisional_order_holds": false,
+    "reasoning": "Untested 2v3. Walker leads 2026 PFF (91.0 vs 89.9), RYOE/att (+1.84 vs +0.80), EPA/rush (+.075 vs -.025), stuff (15.6% vs 21.5%), fumbles (0 vs 1) and 2-year PFF (91.4 vs 85.6 in 2025). Gibbs leads explosive rate (17% vs 14%), receiving (276 vs 131 yds, rec EPA +1.7 vs -2.1) and 2025 RYOE (+0.70 vs +0.25). Walker narrowly; recommend Walker 90, Gibbs 89.",
+    "key_evidence_for_winner": [
+      "Kenneth Walker III PFF HB overall 2026 91.0, 2025 91.4; 2026 PFF snaps {'off': '335', 'run': '142', 'route': '127', 'pblk': '56'}; age 26, 210 lb",
+      "Kenneth Walker III (KC) 2026: 141 car 5.46 ypc, EPA/rush +0.075, success 45%, 10+ run rate 14%, RYOE/att 1.84, stuff 15.6%, short-yd 11/17, fumbles lost 0, 131 rec yds (rec EPA -2.1), YAC/rec 6.95",
+      "Kenneth Walker III (KC) 2025: 221 car 4.65 ypc, EPA/rush -0.065, success 38%, 10+ run rate 15%, RYOE/att 0.25, stuff 19.0%, short-yd 0/0, fumbles lost 0, 282 rec yds (rec EPA +6.8), YAC/rec 10.94"
+    ],
+    "key_evidence_for_loser": [
+      "Jahmyr Gibbs PFF HB overall 2026 89.9, 2025 85.6; 2026 PFF snaps {'off': '380', 'run': '165', 'route': '163', 'pblk': '45'}; age 24, 200 lb",
+      "Jahmyr Gibbs (DET) 2026: 158 car 4.89 ypc, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.8, stuff 21.5%, short-yd 3/8, fumbles lost 1, 276 rec yds (rec EPA +1.7), YAC/rec 7.18",
+      "Jahmyr Gibbs (DET) 2025: 243 car 5.03 ypc, EPA/rush -0.011, success 40%, 10+ run rate 11%, RYOE/att 0.7, stuff 18.9%, short-yd 9/15, fumbles lost 1, 613 rec yds (rec EPA +17.8), YAC/rec 7.95"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
