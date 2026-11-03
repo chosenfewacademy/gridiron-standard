@@ -1,0 +1,177 @@
+# WR_REAUDIT_BG_12 — Justin Jefferson background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t45u.
+
+```json
+{
+  "audit_id": "WR_REAUDIT_BG_12_A1",
+  "task_id": "WR_REAUDIT_BG_12",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "player_id": "justin_jefferson",
+  "players": [
+    "Justin Jefferson"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Justin Jefferson",
+    "player_id": "justin_jefferson",
+    "team": "MIN",
+    "age": 27,
+    "size": {
+      "ht_in": "73",
+      "wt_lb": "192"
+    },
+    "pff": {
+      "2026": {
+        "grade": 82.6,
+        "rank": 12,
+        "snaps": {
+          "off": "288",
+          "routes": "171",
+          "rblk": "116"
+        }
+      },
+      "2025": {
+        "grade": 80.5,
+        "snaps": {
+          "off": "941",
+          "routes": "589",
+          "rblk": "349"
+        }
+      }
+    },
+    "stats_2026": {
+      "team": "MIN",
+      "games": 6,
+      "tgt": 41,
+      "rec": 28,
+      "yds": 335,
+      "td": 4,
+      "epa_tgt": 0.531,
+      "epa": 21.8,
+      "adot": 10.0,
+      "sep": 2.72,
+      "yac_oe": 0.84,
+      "pff": 82.6,
+      "pff_rank": 12,
+      "routes": 171,
+      "yprr": 1.96,
+      "tprr": 0.24
+    },
+    "stats_2025": {
+      "team": "MIN",
+      "games": 17,
+      "tgt": 142,
+      "rec": 84,
+      "yds": 1048,
+      "td": 2,
+      "epa_tgt": -0.097,
+      "epa": -13.8,
+      "adot": 10.2,
+      "sep": 3.23,
+      "yac_oe": 0.81,
+      "pff": 80.5,
+      "pff_rank": 16,
+      "routes": 589,
+      "yprr": 1.78,
+      "tprr": 0.241
+    },
+    "splits_2026": {
+      "deep_tgt": 4,
+      "deep_catch": 0.75,
+      "deep_epa_tgt": 1.71,
+      "yac_rec": 3.5,
+      "short_catch": 0.86,
+      "rz_tgt": 8,
+      "third_down_conv": "10/18",
+      "fum_lost": 0
+    },
+    "splits_2025": {
+      "deep_tgt": 21,
+      "deep_catch": 0.24,
+      "deep_epa_tgt": -0.44,
+      "yac_rec": 5.4,
+      "short_catch": 0.67,
+      "rz_tgt": 19,
+      "third_down_conv": "13/38",
+      "fum_lost": 0
+    },
+    "usage_2026": {
+      "offensive_snaps": 288,
+      "games": 8
+    },
+    "summary_lines": [
+      "Justin Jefferson (MIN) 2026: 6 g, 41 tgt, 28 rec, 335 yds, 4 TD, EPA/tgt 0.531, aDOT 10.0, NGS separation 2.72, YAC over expected 0.84, YPRR 1.96, TPRR 0.24, routes 171; deep (20+ air yds) 4 tgt catch 0.75 EPA/tgt 1.71, short (<10) catch 0.86, YAC/rec 3.5, red-zone tgt 8, 3rd/4th-down conv 10/18, fumbles lost 0",
+      "Justin Jefferson (MIN) 2025: 17 g, 142 tgt, 84 rec, 1048 yds, 2 TD, EPA/tgt -0.097, aDOT 10.2, NGS separation 3.23, YAC over expected 0.81, YPRR 1.78, TPRR 0.241, routes 589; deep (20+ air yds) 21 tgt catch 0.24 EPA/tgt -0.44, short (<10) catch 0.67, YAC/rec 5.4, red-zone tgt 19, 3rd/4th-down conv 13/38, fumbles lost 0",
+      "Justin Jefferson PFF WR offense grade 2026 82.6 (rank 12), 2025 80.5; 2026 PFF snaps {'off': '288', 'routes': '171', 'rblk': '116'}",
+      "Justin Jefferson 2026 usage: 288 offensive snaps in 8 games (nflverse snap_counts); age 27, 73 in, 192 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF drop rate, contested-catch rate and man/zone splits are paywalled; hands/contested traits judged from catch rates by depth, red-zone results and film-consensus style"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "CAR",
+      "BTK",
+      "SPM",
+      "JKM",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/wr/2026",
+        "retrieved_at": "2026-11-03T14:51:43Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/wr/2025",
+        "retrieved_at": "2026-11-03T14:51:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-03T14:51:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-03T14:51:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
+        "retrieved_at": "2026-11-03T14:51:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-03T14:51:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T14:51:43Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
