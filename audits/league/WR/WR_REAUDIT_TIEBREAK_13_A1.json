@@ -1,0 +1,38 @@
+{
+  "audit_id": "WR_REAUDIT_TIEBREAK_13_A1",
+  "task_id": "WR_REAUDIT_TIEBREAK_13",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Keenan Allen",
+    "Justin Jefferson"
+  ],
+  "pair_result": {
+    "winner": "Justin Jefferson",
+    "loser": "Keenan Allen",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s359). Keenan Allen: 2025 17 g, 777 yds, 4 TD, EPA/tgt +0.286, PFF 76.0, YPRR 1.49; 2026 7 g, 325 yds, 1 TD, EPA/tgt +0.216, PFF 73.9, YPRR 1.72. Justin Jefferson: 2025 17 g, 1048 yds, 2 TD, EPA/tgt -0.097, PFF 80.5, YPRR 1.78; 2026 6 g, 335 yds, 4 TD, EPA/tgt +0.531, PFF 82.6, YPRR 1.96. Jefferson leads 2026 PFF (82.6), EPA/tgt (+.531) and separation (2.72) with 4 TD in 6 g after a 2025 depressed by Minnesota QB play (EPA/tgt -.097 on 142 tgt, still 1,048 yds, PFF 80.5). Keenan Allen: age 34 and YPRR 1.49/1.72. Jefferson holds #10.",
+    "key_evidence_for_winner": [
+      "Justin Jefferson PFF WR grade 2026 82.6, 2025 80.5; 2026 PFF snaps {'off': '288', 'routes': '171', 'rblk': '116'}; age 27, 73 in 192 lb",
+      "Justin Jefferson (MIN) 2026: 6 g 41 tgt 335 yds 4 TD, EPA/tgt 0.531, YPRR 1.96, TPRR 0.24, NGS sep 2.72, aDOT 10.0, deep 4 tgt catch 0.75 EPA/tgt 1.71, short catch 0.86, YAC/rec 3.5, RZ tgt 8, 3rd/4th conv 10/18, fum lost 0",
+      "Justin Jefferson (MIN) 2025: 17 g 142 tgt 1048 yds 2 TD, EPA/tgt -0.097, YPRR 1.78, TPRR 0.241, NGS sep 3.23, aDOT 10.2, deep 21 tgt catch 0.24 EPA/tgt -0.44, short catch 0.67, YAC/rec 5.4, RZ tgt 19, 3rd/4th conv 13/38, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Keenan Allen PFF WR grade 2026 73.9, 2025 76.0; 2026 PFF snaps {'off': '274', 'routes': '189', 'rblk': '84'}; age 34, 74 in 211 lb",
+      "Keenan Allen (IND) 2026: 7 g 50 tgt 325 yds 1 TD, EPA/tgt 0.216, YPRR 1.72, TPRR 0.265, NGS sep 2.5, aDOT 7.3, deep 1 tgt catch 0.0 EPA/tgt -0.55, short catch 0.82, YAC/rec 2.9, RZ tgt 4, 3rd/4th conv 8/18, fum lost 0",
+      "Keenan Allen (LAC) 2025: 17 g 122 tgt 777 yds 4 TD, EPA/tgt 0.286, YPRR 1.49, TPRR 0.233, NGS sep 2.63, aDOT 8.4, deep 14 tgt catch 0.29 EPA/tgt 0.21, short catch 0.73, YAC/rec 2.9, RZ tgt 16, 3rd/4th conv 30/52, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
