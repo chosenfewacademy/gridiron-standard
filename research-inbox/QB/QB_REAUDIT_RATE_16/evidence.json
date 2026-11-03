@@ -92,6 +92,27 @@
       "claims": [
         "Justin Herbert 2025: 16/17 team games, 512 att, aDOT 7.8, EPA/dropback +0.01, CPOE +1.6; deep (20+) 12.5% of att, 37.5% cmp, EPA +0.43; 10-19 yds 60.0% EPA +0.41; <10 yds 73.6%; hit 37.3% EPA -0.32 (n=75) vs clean 71.4%; sack rate 9.5%; 49 scrambles 439 yds, 25 designed runs 73 yds, 2 rush TD; 26 TD/13 INT; 2 fumbles lost"
       ]
+    },
+    {
+      "name": "nflverse FTN charting 2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Justin Herbert 2026 FTN charting (regular season): 233 dropbacks; play-action 20.6% EPA -0.20 vs non-PA -0.32; out of pocket 22.3% EPA +0.13, cmp 51.9%; vs blitz EPA -0.29 (n=50); interception-worthy 5.2% of attempts; QB-fault sacks 4 of 23",
+        "No jumping / elevated-throw measure exists in FTN charting, nflverse play-by-play, or PFF season grades"
+      ]
+    },
+    {
+      "name": "nflverse FTN charting 2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2025.csv",
+      "retrieved_at": "2026-11-02T23:54:32Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "Justin Herbert 2025 FTN charting (regular season): 566 dropbacks; play-action 23.5% EPA +0.12 vs non-PA -0.03; out of pocket 19.1% EPA -0.09, cmp 48.1%; vs blitz EPA +0.08 (n=183); interception-worthy 3.3% of attempts; QB-fault sacks 17 of 54"
+      ]
     }
   ],
   "normalized": {
