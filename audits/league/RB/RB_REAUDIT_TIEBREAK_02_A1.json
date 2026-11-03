@@ -1,0 +1,38 @@
+{
+  "audit_id": "RB_REAUDIT_TIEBREAK_02_A1",
+  "task_id": "RB_REAUDIT_TIEBREAK_02",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Christian McCaffrey",
+    "Jaylen Warren"
+  ],
+  "pair_result": {
+    "winner": "Jaylen Warren",
+    "loser": "Christian McCaffrey",
+    "provisional_order_holds": false,
+    "reasoning": "Untested 4v5. Warren leads 2026 PFF (87.3 vs 73.0), RYOE (+1.93 vs +0.36), volume (119 vs 84 carries), receiving (294 vs 251 yds), pass pro (67 vs 19 PBLK) and 2025 RYOE (+0.80 vs -0.54). McCaffrey leads success (54% vs 48%), EPA/rush (+.144 vs +.128) and 2025 receiving (904 yds). Warren narrowly; recommend Warren 84, McCaffrey 83.",
+    "key_evidence_for_winner": [
+      "Jaylen Warren PFF HB overall 2026 87.3, 2025 81.0; 2026 PFF snaps {'off': '385', 'run': '120', 'route': '188', 'pblk': '67'}; age 28, 215 lb",
+      "Jaylen Warren (PIT) 2026: 119 car 5.92 ypc, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93, stuff 15.1%, short-yd 8/9, fumbles lost 0, 294 rec yds (rec EPA -1.1), YAC/rec 13.84",
+      "Jaylen Warren (PIT) 2025: 211 car 4.54 ypc, EPA/rush -0.002, success 43%, 10+ run rate 11%, RYOE/att 0.8, stuff 14.7%, short-yd 12/15, fumbles lost 0, 333 rec yds (rec EPA +10.6), YAC/rec 10.97"
+    ],
+    "key_evidence_for_loser": [
+      "Christian McCaffrey PFF HB overall 2026 73.0, 2025 77.2; 2026 PFF snaps {'off': '293', 'run': '87', 'route': '169', 'pblk': '19'}; age 30, 210 lb",
+      "Christian McCaffrey (SF) 2026: 84 car 4.63 ypc, EPA/rush +0.144, success 54%, 10+ run rate 13%, RYOE/att 0.36, stuff 10.7%, short-yd 4/5, fumbles lost 0, 251 rec yds (rec EPA +1.4), YAC/rec 5.53",
+      "Christian McCaffrey (SF) 2025: 311 car 3.86 ypc, EPA/rush -0.068, success 39%, 10+ run rate 9%, RYOE/att -0.54, stuff 18.6%, short-yd 12/18, fumbles lost 0, 904 rec yds (rec EPA +39.0), YAC/rec 6.86"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
