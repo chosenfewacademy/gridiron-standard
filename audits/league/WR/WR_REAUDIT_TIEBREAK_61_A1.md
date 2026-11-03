@@ -1,0 +1,39 @@
+# WR_REAUDIT_TIEBREAK_61 — Mack Hollins vs Christian Watson (v1.1.2 head-to-head tiebreak; authorized by t45s359)
+
+```json
+{
+  "audit_id": "WR_REAUDIT_TIEBREAK_61_A1",
+  "task_id": "WR_REAUDIT_TIEBREAK_61",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Mack Hollins",
+    "Christian Watson"
+  ],
+  "pair_result": {
+    "winner": "Christian Watson",
+    "loser": "Mack Hollins",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling recheck flag (t45s365). Mack Hollins: 2025 14 g, 550 yds, 2 TD, EPA/tgt +0.418, PFF 70.8, YPRR 1.33; 2026 4 g, 209 yds, 0 TD, EPA/tgt +0.644, PFF 82.2, YPRR 2.18. Christian Watson: 2025 10 g, 611 yds, 6 TD, EPA/tgt +0.587, PFF 82.7, YPRR 2.06; 2026 8 g, 708 yds, 6 TD, EPA/tgt +0.463, PFF 74.8, YPRR 2.48. Watson's 2026 (708 yds, 6 TD, YPRR 2.48, EPA/tgt +.463) and 2025 (PFF 82.7, YPRR 2.06, EPA/tgt +.587) outweigh; 2026 PFF 82.2/YPRR 2.18 is a 4-game sample (209 yds) and he is on reserve, 2025 PFF 70.8. Christian Watson holds.",
+    "key_evidence_for_winner": [
+      "Christian Watson PFF WR grade 2026 74.8, 2025 82.7; 2026 PFF snaps {'off': '403', 'routes': '285', 'rblk': '115'}; age 27, 76 in 215 lb",
+      "Christian Watson (GB) 2026: 8 g 66 tgt 708 yds 6 TD, EPA/tgt 0.463, YPRR 2.48, TPRR 0.232, NGS sep 2.38, aDOT 13.4, deep 13 tgt catch 0.46 EPA/tgt 1.32, short catch 0.69, YAC/rec 4.7, RZ tgt 7, 3rd/4th conv 10/23, fum lost 1",
+      "Christian Watson (GB) 2025: 10 g 55 tgt 611 yds 6 TD, EPA/tgt 0.587, YPRR 2.06, TPRR 0.186, NGS sep 1.97, aDOT 17.8, deep 18 tgt catch 0.44 EPA/tgt 0.7, short catch 0.72, YAC/rec 3.4, RZ tgt 6, 3rd/4th conv 12/21, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Mack Hollins PFF WR grade 2026 82.2, 2025 70.8; 2026 PFF snaps {'off': '168', 'routes': '96', 'rblk': '71'}; age 33, 76 in 221 lb",
+      "Mack Hollins (NE) 2026: 4 g 20 tgt 209 yds 0 TD, EPA/tgt 0.644, YPRR 2.18, TPRR 0.208, NGS sep 2.66, aDOT 14.8, deep 3 tgt catch 0.33 EPA/tgt 0.46, short catch 1.0, YAC/rec 2.5, RZ tgt 4, 3rd/4th conv 3/7, fum lost 0",
+      "Mack Hollins (NE) 2025: 14 g 65 tgt 550 yds 2 TD, EPA/tgt 0.418, YPRR 1.33, TPRR 0.157, NGS sep 2.73, aDOT 13.1, deep 12 tgt catch 0.33 EPA/tgt 0.47, short catch 0.88, YAC/rec 2.3, RZ tgt 5, 3rd/4th conv 7/16, fum lost 0"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
