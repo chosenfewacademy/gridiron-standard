@@ -1,0 +1,499 @@
+# TE_REAUDIT_RATE_01 — Brock Bowers rating (v1.1.2 stage 3, per-attribute judgment; authorized by t45s377)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "TE_REAUDIT_RATE_01_A1",
+  "task_id": "TE_REAUDIT_RATE_01",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "player_id": "brock_bowers",
+  "players": [
+    "Brock Bowers"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 88,
+    "ACC": 91,
+    "AGI": 88,
+    "COD": 86,
+    "STR": 74,
+    "AWR": 92,
+    "CTH": 92,
+    "CIT": 88,
+    "SPC": 86,
+    "SRR": 92,
+    "MRR": 93,
+    "DRR": 84,
+    "RLS": 88,
+    "JMP": 82,
+    "CAR": 82,
+    "BTK": 82,
+    "RBK": 62,
+    "IBL": 64,
+    "PBK": 58,
+    "INJ": 82,
+    "STA": 90,
+    "TGH": 90
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "CTH": "MEDIUM",
+    "CIT": "LOW",
+    "SPC": "LOW",
+    "SRR": "MEDIUM",
+    "MRR": "MEDIUM",
+    "DRR": "MEDIUM",
+    "RLS": "MEDIUM",
+    "JMP": "LOW",
+    "CAR": "MEDIUM",
+    "BTK": "MEDIUM",
+    "RBK": "LOW",
+    "IBL": "LOW",
+    "PBK": "LOW",
+    "INJ": "LOW",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (physical): size 75 in / 235 lb, PFF snap usage 342 off snaps, 246 routes, 94 run-block, 2 pass-block (block share 0.28). Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (processing): 3rd-down conv, EPA/tgt, PFF grade: Brock Bowers PFF TE offense grade 2026 90.2 (rank 1), 2025 78.8; 2026 PFF snaps {'off': '342', 'routes': '246', 'pblk': '2', 'rblk': '94'}. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (hands): short catch rate, PFF grade: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (contested): deep/red-zone results and size (235 lb): 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPC": {
+      "basis": "Judgment (contested): deep/red-zone results and size (235 lb): 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (deep): deep catch rate and deep EPA/tgt: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1; 2025: 12 g, 87 tgt, 64 rec, 680 yds, 7 TD, EPA/tgt 0.268, aDOT 6.5, NGS separation 2.92, YAC over expected 0.97, YPRR 1.61, TPRR 0.206, routes 423; deep (20+ air yds) 6 tgt catch 0.33 EPA/tgt -0.86, short (<10) catch 0.78, YAC/rec 4.8, red-zone tgt 18, 3rd/4th-down conv 8/22, fumbles lost 0. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (contested): deep/red-zone results and size (235 lb): 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 1, 2025 0. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run blocking): PFF overall grade 2026 90.2 / 2025 78.8; PFF snap usage 2026: 342 off snaps, 246 routes, 94 run-block, 2 pass-block (block share 0.28); 2025: 606 off snaps, 423 routes, 167 run-block, 14 pass-block (block share 0.3); size 75 in / 235 lb (block-share substitute for paywalled sub-grades, t45s377). Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run blocking): PFF overall grade 2026 90.2 / 2025 78.8; PFF snap usage 2026: 342 off snaps, 246 routes, 94 run-block, 2 pass-block (block share 0.28); 2025: 606 off snaps, 423 routes, 167 run-block, 14 pass-block (block share 0.3); size 75 in / 235 lb (block-share substitute for paywalled sub-grades, t45s377). Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass blocking): PFF overall grade 2026 90.2 / 2025 78.8; PFF snap usage 2026: 342 off snaps, 246 routes, 94 run-block, 2 pass-block (block share 0.28); 2025: 606 off snaps, 423 routes, 167 run-block, 14 pass-block (block share 0.3); size 75 in / 235 lb (block-share substitute for paywalled sub-grades, t45s377). Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Listed weakness area: inline blocking, pass protection",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Brock Bowers 2026 usage: 342 offensive snaps in 6 games (nflverse snap_counts); age 23, 75 in, 235 lb; roster status ACT; 2025 games 12. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Brock Bowers 2026 usage: 342 offensive snaps in 6 games (nflverse snap_counts); age 23, 75 in, 235 lb; roster status ACT; PFF snaps {'off': '342', 'routes': '246', 'pblk': '2', 'rblk': '94'}. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Brock Bowers 2026 usage: 342 offensive snaps in 6 games (nflverse snap_counts); age 23, 75 in, 235 lb; roster status ACT; PFF snaps {'off': '342', 'routes': '246', 'pblk': '2', 'rblk': '94'}. Style: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "vertical/explosive: deep targets/aDOT/separation: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "processing: 3rd-down conv, EPA/tgt, PFF grade: Brock Bowers PFF TE offense grade 2026 90.2 (rank 1), 2025 78.8; 2026 PFF snaps {'off': '342', 'routes': '246', 'pblk': '2', 'rblk': '94'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "tier": "ELITE",
+      "claim": "hands: short catch rate, PFF grade: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SRR": {
+      "tier": "ELITE",
+      "claim": "route: YPRR/TPRR/3rd-down conversion: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "MRR": {
+      "tier": "ELITE",
+      "claim": "route: YPRR/TPRR/3rd-down conversion: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: Brock Bowers 2026 usage: 342 offensive snaps in 6 games (nflverse snap_counts); age 23, 75 in, 235 lb; roster status ACT; PFF snaps {'off': '342', 'routes': '246', 'pblk': '2', 'rblk': '94'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: Brock Bowers 2026 usage: 342 offensive snaps in 6 games (nflverse snap_counts); age 23, 75 in, 235 lb; roster status ACT; PFF snaps {'off': '342', 'routes': '246', 'pblk': '2', 'rblk': '94'}",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "proposed_ovr": 93,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+  "style_profile": "Brock Bowers: Big-slot receiving weapon: PFF 90.2 and YPRR 2.22 with the lowest block share in the group (.28); a WR-style route runner at TE who is moved around the formation, not an inline blocker.",
+  "style_evidence": [
+    "Brock Bowers (LV) 2026: 6 g, 62 tgt, 41 rec, 547 yds, 5 TD, EPA/tgt 0.535, aDOT 10.0, NGS separation 2.39, YAC over expected 0.94, YPRR 2.22, TPRR 0.252, routes 246; deep (20+ air yds) 7 tgt catch 0.43 EPA/tgt 0.51, short (<10) catch 0.73, YAC/rec 4.4, red-zone tgt 12, 3rd/4th-down conv 15/25, fumbles lost 1",
+    "Brock Bowers (LV) 2025: 12 g, 87 tgt, 64 rec, 680 yds, 7 TD, EPA/tgt 0.268, aDOT 6.5, NGS separation 2.92, YAC over expected 0.97, YPRR 1.61, TPRR 0.206, routes 423; deep (20+ air yds) 6 tgt catch 0.33 EPA/tgt -0.86, short (<10) catch 0.78, YAC/rec 4.8, red-zone tgt 18, 3rd/4th-down conv 8/22, fumbles lost 0",
+    "Brock Bowers PFF TE offense grade 2026 90.2 (rank 1), 2025 78.8; 2026 PFF snaps {'off': '342', 'routes': '246', 'pblk': '2', 'rblk': '94'}",
+    "Brock Bowers 2026 usage: 342 offensive snaps in 6 games (nflverse snap_counts); age 23, 75 in, 235 lb; roster status ACT"
+  ],
+  "input_dossier": "TE_REAUDIT_BG_01_A1",
+  "weaknesses": [
+    "inline blocking",
+    "pass protection"
+  ],
+  "madden_reference": [
+    {
+      "player": "Brock Bowers",
+      "ovr": 95,
+      "attributes": {
+        "SPD": 90,
+        "ACC": 91,
+        "AGI": 86,
+        "COD": 82,
+        "STR": 75,
+        "AWR": 98,
+        "CTH": 97,
+        "CIT": 90,
+        "SPC": 93,
+        "SRR": 87,
+        "MRR": 82,
+        "DRR": 77,
+        "RLS": 84,
+        "JMP": 84,
+        "CAR": 74,
+        "BTK": 74,
+        "RBK": 60,
+        "IBL": 66,
+        "PBK": 57,
+        "INJ": 91,
+        "STA": 92,
+        "TGH": 94
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -2,
+      "delta_attributes": {
+        "SPD": -2,
+        "ACC": 0,
+        "AGI": 2,
+        "COD": 4,
+        "STR": -1,
+        "AWR": -6,
+        "CTH": -5,
+        "CIT": -2,
+        "SPC": -7,
+        "SRR": 5,
+        "MRR": 11,
+        "DRR": 7,
+        "RLS": 4,
+        "JMP": -2,
+        "CAR": 8,
+        "BTK": 8,
+        "RBK": 2,
+        "IBL": -2,
+        "PBK": 1,
+        "INJ": -9,
+        "STA": -2,
+        "TGH": -4
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 TE, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 2,
+    "attribute_gaps_10plus": {
+      "MRR": 11
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t45s377"
+}
+```
