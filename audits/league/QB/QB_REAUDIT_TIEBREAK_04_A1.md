@@ -1,0 +1,47 @@
+# QB TOP10_REAUDIT — tiebreak 04: Lamar Jackson vs Matthew Stafford (Grok Bot analyst, attempt 1)
+
+EA ratings not used. Evidence: PFF 2026/2025, nflverse stats and play-by-play, FTN charting.
+
+```json
+{
+  "audit_id": "QB_REAUDIT_TIEBREAK_04_A1",
+  "task_id": "QB_REAUDIT_TIEBREAK_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Lamar Jackson",
+    "Matthew Stafford"
+  ],
+  "pair_result": {
+    "winner": "Matthew Stafford",
+    "loser": "Lamar Jackson",
+    "provisional_order_holds": false,
+    "reasoning": "Jackson (84) is ranked above Stafford (83) without a head-to-head. Weighted by games, Stafford leads EPA/dropback ~+.195 (+.094 in 8, +.243 in 17) vs ~+.137, and PFF ~83.2 vs ~78.8; Stafford has 17-game 2025 availability against Jackson's 5/7 and 13/17. Stafford wins.",
+    "key_evidence_for_winner": [
+      "Matthew Stafford PFF overall 2026 64.5 (#24), 2025 92.0 (#1)",
+      "Matthew Stafford 2026: 8 games, EPA/dropback +0.094, EPA/play incl. rush +0.055, CPOE +0.6, 15 TD / 8 INT, sack 3.8%, Y/A 7.08, rush EPA -11.7",
+      "Matthew Stafford 2025: 17 games, EPA/dropback +0.243, EPA/play incl. rush +0.183, CPOE +1.5, 46 TD / 8 INT",
+      "Matthew Stafford FTN interception-worthy rate 4.0% (2026), 2.4% (2025)"
+    ],
+    "key_evidence_for_loser": [
+      "Lamar Jackson PFF overall 2026 91.3 (#2), 2025 74.0 (#20)",
+      "Lamar Jackson 2026: 5 games, EPA/dropback +0.354, EPA/play incl. rush +0.338, CPOE +7.4, 6 TD / 1 INT, sack 6.7%, Y/A 9.97, rush EPA +4.9",
+      "Lamar Jackson 2025: 13 games, EPA/dropback +0.054, EPA/play incl. rush +0.096, CPOE +1.8, 21 TD / 7 INT",
+      "Lamar Jackson FTN interception-worthy rate 3.2% (2026), 2.0% (2025)"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": "Lamar Jackson 84 -> 82 (RATE_02 revision A4), together with TIEBREAK_03; AWR 83 -> 82",
+    "adjustment_status": "PENDING_COMMISSIONER_REVIEW (drafted as an add-only revision, not run, not approved)"
+  },
+  "major_flags": [
+    "PENDING_REVIEW: tiebreak result not approved (card t31s1)",
+    "RATING_CONTRADICTION: verdict reverses rating order",
+    "TIE_BREAK: tied overall broken by contention order; pair verdict decides"
+  ],
+  "locked_control_conflict": false
+}
+```

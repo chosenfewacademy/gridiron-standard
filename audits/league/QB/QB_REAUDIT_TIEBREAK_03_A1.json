@@ -1,0 +1,43 @@
+{
+  "audit_id": "QB_REAUDIT_TIEBREAK_03_A1",
+  "task_id": "QB_REAUDIT_TIEBREAK_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Lamar Jackson",
+    "Jordan Love"
+  ],
+  "pair_result": {
+    "winner": "Jordan Love",
+    "loser": "Lamar Jackson",
+    "provisional_order_holds": false,
+    "reasoning": "Jackson (84) is ranked above Love (83) without a head-to-head. Weighting both seasons by games, Love leads EPA/dropback ~+.206 (+.142 in 8 games 2026, +.240 in 15 games 2025) vs Jackson ~+.137 (+.354 in 5, +.054 in 13), and PFF ~81.7 vs ~78.8. Jackson's 2026 per-play peak is higher, but on 5 games. Love wins.",
+    "key_evidence_for_winner": [
+      "Jordan Love PFF overall 2026 74.5 (#15), 2025 88.8 (#4)",
+      "Jordan Love 2026: 8 games, EPA/dropback +0.142, EPA/play incl. rush +0.135, CPOE -1.1, 16 TD / 6 INT, sack 4.3%, Y/A 7.2, rush EPA -0.8",
+      "Jordan Love 2025: 15 games, EPA/dropback +0.240, EPA/play incl. rush +0.243, CPOE +5.5, 23 TD / 6 INT",
+      "Jordan Love FTN interception-worthy rate 3.2% (2026), 2.3% (2025)"
+    ],
+    "key_evidence_for_loser": [
+      "Lamar Jackson PFF overall 2026 91.3 (#2), 2025 74.0 (#20)",
+      "Lamar Jackson 2026: 5 games, EPA/dropback +0.354, EPA/play incl. rush +0.338, CPOE +7.4, 6 TD / 1 INT, sack 6.7%, Y/A 9.97, rush EPA +4.9",
+      "Lamar Jackson 2025: 13 games, EPA/dropback +0.054, EPA/play incl. rush +0.096, CPOE +1.8, 21 TD / 7 INT",
+      "Lamar Jackson FTN interception-worthy rate 3.2% (2026), 2.0% (2025)"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": "Lamar Jackson 84 -> 82 (RATE_02 revision A4), together with TIEBREAK_04; AWR 83 -> 82",
+    "adjustment_status": "PENDING_COMMISSIONER_REVIEW (drafted as an add-only revision, not run, not approved)"
+  },
+  "major_flags": [
+    "PENDING_REVIEW: tiebreak result not approved (card t31s1)",
+    "RATING_CONTRADICTION: verdict reverses rating order",
+    "TIE_BREAK: tied overall broken by contention order; pair verdict decides",
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

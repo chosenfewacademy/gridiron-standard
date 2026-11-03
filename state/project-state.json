@@ -49,7 +49,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.json",
@@ -169,25 +169,38 @@
         "QB_REAUDIT_RATE_13_A3",
         "QB_REAUDIT_TIEBREAK_01_A1",
         "QB_REAUDIT_TIEBREAK_02_A1",
-        "QB_REAUDIT_RATE_02_A3"
+        "QB_REAUDIT_RATE_02_A3",
+        "QB_REAUDIT_TIEBREAK_03_A1",
+        "QB_REAUDIT_TIEBREAK_04_A1"
       ],
       "current_stage": "pair_audits",
       "current_task": "QB_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T00:42:57.224Z",
+      "updated_at": "2026-11-03T00:47:05.345Z",
       "last_result": {
-        "task_id": "QB_REAUDIT_RATE_02",
-        "status": "REVISION_APPROVED",
-        "audit_id": "QB_REAUDIT_RATE_02_A3",
-        "supersedes": "QB_REAUDIT_RATE_02_A2",
+        "task_id": "QB_REAUDIT_TIEBREAK_04",
+        "status": "FLAGGED",
         "flags": [
-          "LIMITED_SAMPLE_RATING: 5 of 8 games",
-          "ELITE_TRAITS_PROPOSED: SPD 91, ACC 90, AGI 90",
-          "H2H_ADJUSTMENT_PROPOSED:QB_REAUDIT_H2H_02",
-          "TIEBREAK_ADJUSTMENT_PROPOSED:QB_REAUDIT_TIEBREAK_01",
-          "APPROVED_BY_COMMISSIONER: card t31s5"
+          "PENDING_REVIEW: tiebreak result not approved (card t31s1)",
+          "RATING_CONTRADICTION: verdict reverses rating order",
+          "TIE_BREAK: tied overall broken by contention order; pair verdict decides",
+          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "TIEBREAK_REVIEW",
+        "task_id": "QB_REAUDIT_TIEBREAK_03",
+        "audit_id": "QB_REAUDIT_TIEBREAK_03_A1",
+        "pending": [
+          {
+            "task_id": "QB_REAUDIT_TIEBREAK_03",
+            "audit_id": "QB_REAUDIT_TIEBREAK_03_A1"
+          },
+          {
+            "task_id": "QB_REAUDIT_TIEBREAK_04",
+            "audit_id": "QB_REAUDIT_TIEBREAK_04_A1"
+          }
+        ]
+      },
       "approvals": [
         {
           "decision": "APPROVED",
