@@ -729,5 +729,20 @@
   },
   "approved_by": "PhiXCrypto (commissioner)",
   "approved_at": "2026-11-02T04:29:56.793Z",
-  "approved_from": "data/candidate-pools/RB.reaudit.proposed.json"
+  "approved_from": "data/candidate-pools/RB.reaudit.proposed.json",
+  "amendments": [
+    {
+      "amendment_id": "RB_POOL_AMEND_01",
+      "type": "ADD_ONLY_CONTENTION_ADDITION",
+      "players": [
+        "De'Von Achane"
+      ],
+      "contention_additions": [
+        "De'Von Achane"
+      ],
+      "approved_by": "PhiXCrypto",
+      "approved_at": "2026-11-03T13:46:00Z",
+      "note": "Authorized by t42s323 (8:46 AM ET Nov 3): league ceiling check flagged Achane (IR, torn ACL); rate fully and test him in the top 10. Already a pool candidate; contention addition only."
+    }
+  ]
 }
