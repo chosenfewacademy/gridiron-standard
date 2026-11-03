@@ -1927,16 +1927,17 @@
         "WR_REAUDIT_RATE_15_A2",
         "WR_REAUDIT_RATE_13_A2",
         "WR_REAUDIT_RATE_03_A2",
-        "WR_REAUDIT_RATE_01_A2"
+        "WR_REAUDIT_RATE_01_A2",
+        "WR_REAUDIT_RATE_08_A3"
       ],
       "current_stage": "pair_audits",
       "current_task": "WR_REAUDIT_H2H_06",
-      "updated_at": "2026-11-03T15:19:11.574Z",
+      "updated_at": "2026-11-03T15:19:11.865Z",
       "last_result": {
-        "task_id": "WR_REAUDIT_RATE_01",
+        "task_id": "WR_REAUDIT_RATE_08",
         "status": "REVISION_APPROVED",
-        "audit_id": "WR_REAUDIT_RATE_01_A2",
-        "supersedes": "WR_REAUDIT_RATE_01_A1",
+        "audit_id": "WR_REAUDIT_RATE_08_A3",
+        "supersedes": "WR_REAUDIT_RATE_08_A2",
         "flags": []
       },
       "awaiting": null,
@@ -2414,6 +2415,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T15:19:11Z",
           "note": "Commissioner approval t45s353: Variance evidence fix: SPC rank 7/15 inconsistent with best deep catch rate in group (10/12, .83 in 2026; .58 in 2025)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_08",
+          "audit_id": "WR_REAUDIT_RATE_08_A3",
+          "supersedes": "WR_REAUDIT_RATE_08_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-03T15:19:11Z",
+          "note": "Commissioner approval t45s353: Variance evidence fix: SPC rank 15/15 inconsistent with deep catch .57 in both 2025 and 2026 (3rd)"
         }
       ]
     },
