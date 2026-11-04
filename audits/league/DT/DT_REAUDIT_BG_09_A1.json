@@ -1,0 +1,206 @@
+{
+  "audit_id": "DT_REAUDIT_BG_09_A1",
+  "task_id": "DT_REAUDIT_BG_09",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "player_id": "ext_00-0034234",
+  "players": [
+    "Poona Ford"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Poona Ford",
+    "player_id": "ext_00-0034234",
+    "team": "LA",
+    "side_assignment": {
+      "DT": 496,
+      "DE": 0
+    },
+    "side_rule": "DT BUCKET (t46u): interior defensive linemen graded by PFF as DI (pff.com/grades/nfl/di), aligned at DT/NT or 3-4 DE (interior) in nflverse 2025-26 depth charts; edge-graded players belong to LEDGE/REDGE. DT has no left/right split.",
+    "pff": {
+      "2025": {
+        "team": "los-angeles-rams",
+        "ovr": 86.1,
+        "snaps": 626,
+        "rank": 4,
+        "status": "IR"
+      },
+      "2026": {
+        "team": "los-angeles-rams",
+        "ovr": 69.1,
+        "snaps": 151,
+        "rank": 27,
+        "status": "IR"
+      }
+    },
+    "pressures": {
+      "2025": {
+        "tm": "LA",
+        "pos": "NT",
+        "g": "17",
+        "prss": "9",
+        "hrry": "4",
+        "qbkd": "3",
+        "sk": "2",
+        "comb": "47",
+        "m_tkl": "3"
+      },
+      "2026": {
+        "def_pressures": 1,
+        "def_times_hurried": 0,
+        "def_times_hitqb": 1,
+        "def_sacks": 0,
+        "def_tackles_combined": 2,
+        "def_missed_tackles": 0,
+        "g": 1
+      }
+    },
+    "espn_win_rates": {
+      "prwr": null,
+      "rswr": null
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 508
+      },
+      "2026": {
+        "games": 6,
+        "defs": 152
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 17,
+        "def_tackle_assists": 28,
+        "def_tackles_for_loss": 4,
+        "def_fumbles_forced": 0,
+        "def_sacks": 2,
+        "def_qb_hits": 5,
+        "def_pass_defended": 1
+      },
+      "2026": {
+        "def_tackles_solo": 5,
+        "def_tackle_assists": 9,
+        "def_tackles_for_loss": 1,
+        "def_fumbles_forced": 0,
+        "def_sacks": 0,
+        "def_qb_hits": 1,
+        "def_pass_defended": 1
+      }
+    },
+    "penalties": {
+      "2025": 0,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk13 Questionable (Calf)",
+        "wk14 Questionable (Calf)"
+      ]
+    },
+    "summary_lines": [
+      "Poona Ford (LA) Poona Ford 2026: PFF DI 2026 overall 69.1 on 151 snaps (DI rank 27); PFR 2026 1 pressures (0 hurries, 1 QB hits, 0.0 sacks) in 1 games, 2 tackles, 0 missed; 6 g / 152 def snaps; 0.0 sacks, 1 QB hits, 1 TFL, 0 FF, 1 PD; 0 accepted penalties; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+      "Poona Ford 2025: PFF DI 2025 overall 86.1 on 626 snaps (DI rank 4); PFR 2025 9 pressures (4 hurries, 3 QB knockdowns, 2 sacks), 47 tackles, 3 missed; 17 g / 508 def snaps; 2.0 sacks, 5 QB hits, 4 TFL, 0 FF, 1 PD; 0 accepted penalties",
+      "Poona Ford alignment: depth-chart interior snapshots 2025-26: 496 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket (DT BUCKET (t46u): interior defensive linemen graded by PFF as DI (pff.com/grades/nfl/di), aligned at DT/NT or 3-4 DE (in...); roster position DL; Madden card DT (reference only)",
+      "Poona Ford injury reports: wk13 Questionable (Calf); wk14 Questionable (Calf); roster status RES"
+    ],
+    "availability": {
+      "roster_status": "RES"
+    },
+    "limitations": [
+      "PFF pass-rush and run-defense sub-grades and alignment splits are paywalled; substitutes: PFF DI overall + snap counts, ESPN DT PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PMV",
+      "FMV",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/di/2026",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/di/2025",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:49Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
