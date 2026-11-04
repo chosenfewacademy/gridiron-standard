@@ -3194,7 +3194,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.json",
@@ -3356,19 +3356,30 @@
         "TE_REAUDIT_TIEBREAK_28_A1",
         "TE_REAUDIT_TIEBREAK_29_A1",
         "TE_REAUDIT_TIEBREAK_30_A1",
-        "TE_REAUDIT_TIEBREAK_31_A1"
+        "TE_REAUDIT_TIEBREAK_31_A1",
+        "TE_REAUDIT_TIEBREAK_32_A1"
       ],
       "current_stage": "scarcity_audit",
       "current_task": "TE_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T00:18:40.580Z",
+      "updated_at": "2026-11-04T00:18:41.106Z",
       "last_result": {
-        "task_id": "TE_REAUDIT_TIEBREAK_31",
+        "task_id": "TE_REAUDIT_TIEBREAK_32",
         "status": "FLAGGED",
         "flags": [
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "TIEBREAK_REVIEW",
+        "task_id": "TE_REAUDIT_TIEBREAK_32",
+        "audit_id": "TE_REAUDIT_TIEBREAK_32_A1",
+        "pending": [
+          {
+            "task_id": "TE_REAUDIT_TIEBREAK_32",
+            "audit_id": "TE_REAUDIT_TIEBREAK_32_A1"
+          }
+        ]
+      },
       "approvals": [
         {
           "decision": "APPROVED",
