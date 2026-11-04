@@ -1,0 +1,229 @@
+# SAM_REAUDIT_BG_05 — Leo Chenal background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "SAM_REAUDIT_BG_05_A1",
+  "task_id": "SAM_REAUDIT_BG_05",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SAM",
+  "player_id": "ext_00-0037819",
+  "players": [
+    "Leo Chenal"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Leo Chenal",
+    "player_id": "ext_00-0037819",
+    "team": "WAS",
+    "role_assignment": {
+      "MIKE25": 3,
+      "EDGE25": 1,
+      "SAM25": 217,
+      "MIKE26": 207,
+      "WILL26": 68,
+      "MIKE": 69.2,
+      "WILL": 20.8,
+      "SAM": 432.0,
+      "EDGE": 2.0,
+      "assign": "SAM"
+    },
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "kansas-city-chiefs",
+        "ovr": 75.3,
+        "snaps": 440,
+        "rank": 18,
+        "rdef": 202,
+        "prsh": 108,
+        "cov": 130
+      },
+      "2026": {
+        "team": "washington-commanders",
+        "ovr": 37.8,
+        "snaps": 84,
+        "rank": null,
+        "rdef": 34,
+        "prsh": 9,
+        "cov": 41
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "KC",
+        "pos": "LB",
+        "g": "14",
+        "tgt": "14",
+        "cmp": "11",
+        "yds": "93",
+        "rat": "88.4",
+        "int": "1",
+        "bltz": "32",
+        "prss": "6",
+        "sk": "2",
+        "comb": "58",
+        "m_tkl": "3"
+      },
+      "2026": {
+        "def_targets": 6.0,
+        "def_completions_allowed": 5.0,
+        "def_yards_allowed": 27.0,
+        "def_ints": 0.0,
+        "def_times_blitzed": 6.0,
+        "def_pressures": 0.0,
+        "def_sacks": 0.0,
+        "def_tackles_combined": 18.0,
+        "def_missed_tackles": 2.0,
+        "g": 3
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 14,
+        "defs": 440
+      },
+      "2026": {
+        "games": 3,
+        "defs": 84
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 25.0,
+        "def_tackle_assists": 33.0,
+        "def_tackles_for_loss": 2.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 2.0,
+        "def_qb_hits": 5.0,
+        "def_pass_defended": 2.0,
+        "def_interceptions": 1.0
+      },
+      "2026": {
+        "def_tackles_solo": 9.0,
+        "def_tackle_assists": 9.0,
+        "def_tackles_for_loss": 1.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 0.0,
+        "def_interceptions": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 0,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk16 Out (Shoulder)"
+      ]
+    },
+    "summary_lines": [
+      "Leo Chenal (WAS) Leo Chenal 2026: PFF LB 2026 overall 37.8 on 84 snaps (LB rank None; 34 run-def / 41 coverage / 9 pass-rush snaps); PFR 2026 (3 games) coverage 6 targets / 5 completions / 27 yds / 0 INT; 18 tackles, 2 missed; 0 pressures on 6 blitzes; 3 g / 84 def snaps; 9 solo + 9 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF; 0 accepted penalties",
+      "Leo Chenal 2025: PFF LB 2025 overall 75.3 on 440 snaps (LB rank 18; 202 run-def / 130 coverage / 108 pass-rush snaps); PFR 2025 coverage 14 targets / 11 completions / 93 yds / passer rating 88.4 / 1 INT; 58 tackles, 3 missed; 6 pressures on 32 blitzes, 2 sacks; 14 g / 440 def snaps; 25 solo + 33 ast tackles, 2 TFL, 2.0 sacks, 1 INT, 2 PD, 0 FF; 0 accepted penalties",
+      "Leo Chenal role: snap-weighted 2025-26 depth-chart role shares MIKE 69 / WILL 21 / SAM 432 / edge 2 (raw snapshots MIKE25 3, EDGE25 1, SAM25 217, MIKE26 207, WILL26 68) -> SAM (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card MIKE (reference only)",
+      "Leo Chenal injury reports: wk16 Out (Shoulder); roster status RES"
+    ],
+    "availability": {
+      "roster_status": "RES"
+    },
+    "limitations": [
+      "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports",
+      "limited 2026 sample (reserve/IR/PUP)"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PUR",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2026",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2025",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:53Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
