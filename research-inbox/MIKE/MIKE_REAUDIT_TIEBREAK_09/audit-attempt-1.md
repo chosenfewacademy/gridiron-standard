@@ -1,0 +1,40 @@
+# MIKE_REAUDIT_TIEBREAK_09 — Omar Speights vs Azeez Al-Shaair (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "MIKE_REAUDIT_TIEBREAK_09_A1",
+  "task_id": "MIKE_REAUDIT_TIEBREAK_09",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "MIKE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Omar Speights",
+    "Azeez Al-Shaair"
+  ],
+  "pair_result": {
+    "winner": "Omar Speights",
+    "loser": "Azeez Al-Shaair",
+    "provisional_order_holds": true,
+    "reasoning": "Speights holds #10 on current form: PFF 79.9 on 231 snaps in 2026 (#4 LB) with 4 TFL / 2.0 sacks and 2 missed tackles (PFR, 7 games), vs Azeez Al-Shaair's PFF 46.5 on 358 snaps in 2026. Azeez Al-Shaair's ceiling hits (value, efficiency, negative_rate, availability) come from the two-year screen (snap-weighted PFF 67.9, 0.73 impact plays/game, 91.5% tackle success) where Speights' 2025 (PFF 67.1, 0 TFL) sets a low reference bar.",
+    "key_evidence_for_winner": [
+      "Omar Speights (LA) role snap-weighted 2025-26 depth-chart role shares MIKE 905 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE25 221, MIKE26 275) -> MIKE; roster ACT (LB); injuries wk6 Doubtful (Ankle); wk18 Questionable (Ankle)",
+      "Omar Speights 2026: Omar Speights 2026: PFF LB 2026 overall 79.9 on 231 snaps (LB rank 4; 114 run-def / 92 coverage / 25 pass-rush snaps); PFR 2026 (7 games) coverage 13 targets / 9 completions / 79 yds / 0 INT; 32 tackles, 2 missed; 4 pressures on 13 blitzes; 8 g / 232 def snaps; 22 solo + 15 ast tackles, 4 TFL, 2.0 sacks, 0 INT, 2 PD, 1 FF; 1 accepted penalties; PFR 2026 (7 games) coverage 13 targets / 9 completions / 79 yds / 0 INT; 32 tackles, 2 missed; 4 pressures on 13 blitzes",
+      "Omar Speights 2025: Omar Speights 2025: PFF LB 2025 overall 67.1 on 826 snaps (LB rank 34; 384 run-def / 413 coverage / 29 pass-rush snaps); PFR 2025 coverage 44 targets / 28 completions / 214 yds / passer rating 75.4 / 0 INT; 85 tackles, 3 missed; 1 pressures on 9 blitzes, 0 sacks; 16 g / 673 def snaps; 43 solo + 40 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 44 targets / 28 completions / 214 yds / passer rating 75.4 / 0 INT; 85 tackles, 3 missed; 1 pressures on 9 blitzes, 0 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Azeez Al-Shaair (HOU) role snap-weighted 2025-26 depth-chart role shares MIKE 1286 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE25 221, MIKE26 275) -> MIKE; roster ACT (LB); injuries wk16 Questionable (Ankle); wk4 Out (Groin)",
+      "Azeez Al-Shaair 2026: Azeez Al-Shaair 2026: PFF LB 2026 overall 46.5 on 358 snaps (LB rank 73; 136 run-def / 208 coverage / 14 pass-rush snaps); PFR 2026 (6 games) coverage 25 targets / 18 completions / 150 yds / 0 INT; 58 tackles, 6 missed; 4 pressures on 11 blitzes; 6 g / 360 def snaps; 22 solo + 36 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 2 PD, 0 FF; 1 accepted penalties; PFR 2026 (6 games) coverage 25 targets / 18 completions / 150 yds / 0 INT; 58 tackles, 6 missed; 4 pressures on 11 blitzes",
+      "Azeez Al-Shaair 2025: Azeez Al-Shaair 2025: PFF LB 2025 overall 75.3 on 1043 snaps (LB rank 18; 358 run-def / 658 coverage / 27 pass-rush snaps); PFR 2025 coverage 54 targets / 39 completions / 283 yds / passer rating 87.2 / 2 INT; 103 tackles, 9 missed; 2 pressures on 21 blitzes, 0 sacks; 16 g / 926 def snaps; 48 solo + 55 ast tackles, 1 TFL, 0.0 sacks, 2 INT, 9 PD, 1 FF; 2 accepted penalties; PFR 2025 coverage 54 targets / 39 completions / 283 yds / passer rating 87.2 / 2 INT; 103 tackles, 9 missed; 2 pressures on 21 blitzes, 0 sacks"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
