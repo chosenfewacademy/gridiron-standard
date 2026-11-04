@@ -12428,7 +12428,7 @@
         "position": "SS",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/SS.reaudit.json",
       "baseline_file": null,
@@ -12481,18 +12481,23 @@
         "SS_REAUDIT_RATE_04_A1",
         "SS_REAUDIT_RATE_05_A1",
         "SS_REAUDIT_RATE_06_A1",
-        "SS_REAUDIT_RATE_07_A1"
+        "SS_REAUDIT_RATE_07_A1",
+        "SS_REAUDIT_RATE_08_A1"
       ],
       "current_stage": "player_rating",
-      "current_task": "SS_REAUDIT_RATE_07",
-      "updated_at": "2026-11-04T12:32:19.248Z",
+      "current_task": "SS_REAUDIT_RATE_08",
+      "updated_at": "2026-11-04T12:32:20.094Z",
       "last_result": {
-        "task_id": "SS_REAUDIT_RATE_07",
+        "task_id": "SS_REAUDIT_RATE_08",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "SS_REAUDIT_RATE_08",
+        "audit_id": "SS_REAUDIT_RATE_08_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
