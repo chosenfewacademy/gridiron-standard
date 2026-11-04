@@ -11290,7 +11290,7 @@
         "position": "CB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/CB.reaudit.json",
       "baseline_file": null,
@@ -11339,7 +11339,8 @@
         "CB_REAUDIT_TIEBREAK_04",
         "CB_REAUDIT_TIEBREAK_05",
         "CB_REAUDIT_TIEBREAK_06",
-        "CB_REAUDIT_VARIANCE_AUDIT"
+        "CB_REAUDIT_VARIANCE_AUDIT",
+        "CB_REAUDIT_SCARCITY"
       ],
       "audit_ids": [
         "CB_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -11387,18 +11388,14 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "CB_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T12:10:41.430Z",
+      "updated_at": "2026-11-04T12:10:46.738Z",
       "last_result": {
         "task_id": "CB_REAUDIT_SCARCITY",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "CB_REAUDIT_SCARCITY",
-        "audit_id": "CB_REAUDIT_SCARCITY_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -11728,6 +11725,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T12:10:19Z",
           "note": "Standing commissioner approval t46u: Approved variance fix (CB_REAUDIT_VARIANCE_AUDIT, t46u): TAK 70->62 (12 missed tackles on 66 combined across 2025-26 per PFR: 8 on 39 in 2025, 4 on 27"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_SCARCITY",
+          "audit_id": "CB_REAUDIT_SCARCITY_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:10:46Z",
+          "note": "Standing commissioner approval t46u"
         }
       ]
     }
