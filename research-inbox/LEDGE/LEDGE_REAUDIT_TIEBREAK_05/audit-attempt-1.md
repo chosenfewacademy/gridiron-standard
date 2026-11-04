@@ -1,0 +1,40 @@
+# LEDGE_REAUDIT_TIEBREAK_05 — Brian Burns vs Josh Sweat (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "LEDGE_REAUDIT_TIEBREAK_05_A1",
+  "task_id": "LEDGE_REAUDIT_TIEBREAK_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Brian Burns",
+    "Josh Sweat"
+  ],
+  "pair_result": {
+    "winner": "Brian Burns",
+    "loser": "Josh Sweat",
+    "provisional_order_holds": true,
+    "reasoning": "League-ceiling flag (PFF/negative-rate/availability). Sweat: 12 sacks on 540 snaps in 2025 (PFF 74.3), 64.8 in 2026. Burns: 16.5 sacks, 41 pressures, 22 TFL on 863 snaps in 2025 (PFF 75.8) and 72.1 in 2026 before reserve. Burns' larger 2025 production holds #10; Sweat is the closest challenger.",
+    "key_evidence_for_winner": [
+      "Brian Burns (NYG) alignment side snapshots 2025-26 left 496 / right 0 -> LEDGE; roster RES (LB); injuries wk8 Questionable (Hip); wk3 Questionable (Ankle)",
+      "Brian Burns 2026: Brian Burns 2026: PFF edge 2026 overall 72.1 on 116 snaps (64 pass-rush, 35 run-defense, 17 coverage); PFR 2026 5 pressures (3 hurries, 2 QB hits, 0.0 sacks) in 3 games, 4 tackles, 1 missed; 3 g / 116 def snaps; 0.0 sacks, 2 QB hits, 0 TFL, 0 FF, 0 PD; 0 accepted penalties; PFR 2026 5 pressures (3 hurries, 2 QB hits, 0.0 sacks) in 3 games, 4 tackles, 1 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Brian Burns 2025: Brian Burns 2025: PFF edge 2025 overall 75.8 on 863 snaps (471 pass-rush, 313 run-defense, 79 coverage); PFR 2025 41 pressures (10 hurries, 14 QB knockdowns, 16.5 sacks), 67 tackles, 4 missed; 17 g / 862 def snaps; 16.5 sacks, 31 QB hits, 22 TFL, 3 FF, 7 PD; 1 accepted penalties; PFR 2025 41 pressures (10 hurries, 14 QB knockdowns, 16.5 sacks), 67 tackles, 4 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Josh Sweat (ARI) alignment side snapshots 2025-26 left 496 / right 0 -> LEDGE; roster ACT (LB); injuries wk17 Questionable (Ankle); wk18 Questionable (Ankle); wk4 Questionable (Not injury related - resting player)",
+      "Josh Sweat 2026: Josh Sweat 2026: PFF edge 2026 overall 64.8 on 291 snaps (190 pass-rush, 96 run-defense, 5 coverage); PFR 2026 8 pressures (4 hurries, 2 QB hits, 2.0 sacks) in 7 games, 16 tackles, 0 missed; 8 g / 291 def snaps; 3.0 sacks, 5 QB hits, 4 TFL, 0 FF, 0 PD; 3 accepted penalties; PFR 2026 8 pressures (4 hurries, 2 QB hits, 2.0 sacks) in 7 games, 16 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Josh Sweat 2025: Josh Sweat 2025: PFF edge 2025 overall 74.3 on 540 snaps (355 pass-rush, 168 run-defense, 17 coverage); PFR 2025 28 pressures (9 hurries, 7 QB knockdowns, 12 sacks), 30 tackles, 0 missed; 17 g / 540 def snaps; 12.0 sacks, 17 QB hits, 13 TFL, 4 FF, 2 PD; 2 accepted penalties; PFR 2025 28 pressures (9 hurries, 7 QB knockdowns, 12 sacks), 30 tackles, 0 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
