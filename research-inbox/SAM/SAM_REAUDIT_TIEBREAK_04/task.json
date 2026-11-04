@@ -1,0 +1,127 @@
+{
+  "type": "pair_audit",
+  "task_id": "SAM_REAUDIT_TIEBREAK_04",
+  "players": [
+    "Dennis Gardeck",
+    "E.J. Speed"
+  ],
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Devin Bush",
+        "overall": 84
+      },
+      {
+        "rank": 2,
+        "player": "Isaiah McDuffie",
+        "overall": 79
+      },
+      {
+        "rank": 3,
+        "player": "Quincy Williams",
+        "overall": 78
+      },
+      {
+        "rank": 4,
+        "player": "D'Marco Jackson",
+        "overall": 77
+      },
+      {
+        "rank": 5,
+        "player": "Leo Chenal",
+        "overall": 76
+      },
+      {
+        "rank": 6,
+        "player": "Derrick Barnes",
+        "overall": 75
+      },
+      {
+        "rank": 7,
+        "player": "Dorian Williams",
+        "overall": 74
+      },
+      {
+        "rank": 8,
+        "player": "Dennis Gardeck",
+        "overall": 73
+      },
+      {
+        "rank": 9,
+        "player": "E.J. Speed",
+        "overall": 72
+      },
+      {
+        "rank": 10,
+        "player": "Malcolm Rodriguez",
+        "overall": 71
+      }
+    ],
+    "external_controls": [
+      "Noah Sewell",
+      "Jack Sanborn",
+      "Devin White"
+    ]
+  },
+  "position": "SAM",
+  "stage": "pair_audits",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 15,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "run defense",
+      "coverage",
+      "pass rush",
+      "tackling",
+      "missed tackle %"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks",
+      "INT, PBU",
+      "missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by role (MIKE/WILL/SAM)",
+      "coverage snaps",
+      "blitz rate",
+      "box vs slot alignment"
+    ],
+    "on_field_impact": [
+      "run-stop %",
+      "yards per coverage snap allowed",
+      "passer rating allowed"
+    ],
+    "madden_attributes_informed": [
+      "TAK",
+      "HIT",
+      "PUR",
+      "PRC",
+      "BSH",
+      "MCV",
+      "ZCV",
+      "PMV",
+      "FMV",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Strong-side role; edge/on-ball snaps documented separately."
+  },
+  "tiebreak": true,
+  "note": "Add-only tiebreak for an untested adjacent tie/close call (authorized by t46u)."
+}
