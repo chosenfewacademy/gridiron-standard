@@ -1,0 +1,218 @@
+{
+  "audit_id": "SAM_REAUDIT_BG_02_A1",
+  "task_id": "SAM_REAUDIT_BG_02",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SAM",
+  "player_id": "ext_00-0036658",
+  "players": [
+    "Isaiah McDuffie"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Isaiah McDuffie",
+    "player_id": "ext_00-0036658",
+    "team": "GB",
+    "role_assignment": {
+      "MIKE25": 10,
+      "SAM25": 211,
+      "MIKE26": 242,
+      "WILL26": 33,
+      "MIKE": 251.7,
+      "WILL": 31.2,
+      "SAM": 482.1,
+      "EDGE": 0,
+      "assign": "SAM"
+    },
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "green-bay-packers",
+        "ovr": 65.5,
+        "snaps": 551,
+        "rank": 37,
+        "rdef": 283,
+        "prsh": 31,
+        "cov": 237
+      },
+      "2026": {
+        "team": "green-bay-packers",
+        "ovr": 72.9,
+        "snaps": 259,
+        "rank": 12,
+        "rdef": 89,
+        "prsh": 26,
+        "cov": 144
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "GB",
+        "pos": "LB",
+        "g": "17",
+        "tgt": "32",
+        "cmp": "22",
+        "yds": "173",
+        "rat": "79.3",
+        "int": "1",
+        "bltz": "13",
+        "prss": "3",
+        "sk": "1",
+        "comb": "92",
+        "m_tkl": "6"
+      },
+      "2026": {
+        "def_targets": 14,
+        "def_completions_allowed": 11,
+        "def_yards_allowed": 82,
+        "def_ints": 0,
+        "def_times_blitzed": 18,
+        "def_pressures": 1,
+        "def_sacks": 0,
+        "def_tackles_combined": 36,
+        "def_missed_tackles": 2,
+        "g": 5
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 505
+      },
+      "2026": {
+        "games": 7,
+        "defs": 260
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 46,
+        "def_tackle_assists": 45,
+        "def_tackles_for_loss": 3,
+        "def_fumbles_forced": 0,
+        "def_sacks": 1,
+        "def_qb_hits": 3,
+        "def_pass_defended": 1,
+        "def_interceptions": 1
+      },
+      "2026": {
+        "def_tackles_solo": 18,
+        "def_tackle_assists": 24,
+        "def_tackles_for_loss": 1,
+        "def_fumbles_forced": 1,
+        "def_sacks": 0,
+        "def_qb_hits": 0,
+        "def_pass_defended": 0,
+        "def_interceptions": 0
+      }
+    },
+    "penalties": {
+      "2025": 2,
+      "2026": 0
+    },
+    "injuries": {},
+    "summary_lines": [
+      "Isaiah McDuffie (GB) Isaiah McDuffie 2026: PFF LB 2026 overall 72.9 on 259 snaps (LB rank 12; 89 run-def / 144 coverage / 26 pass-rush snaps); PFR 2026 (5 games) coverage 14 targets / 11 completions / 82 yds / 0 INT; 36 tackles, 2 missed; 1 pressures on 18 blitzes; 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF; 0 accepted penalties",
+      "Isaiah McDuffie 2025: PFF LB 2025 overall 65.5 on 551 snaps (LB rank 37; 283 run-def / 237 coverage / 31 pass-rush snaps); PFR 2025 coverage 32 targets / 22 completions / 173 yds / passer rating 79.3 / 1 INT; 92 tackles, 6 missed; 3 pressures on 13 blitzes, 1 sacks; 17 g / 505 def snaps; 46 solo + 45 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 1 PD, 0 FF; 2 accepted penalties",
+      "Isaiah McDuffie role: snap-weighted 2025-26 depth-chart role shares MIKE 252 / WILL 31 / SAM 482 / edge 0 (raw snapshots MIKE25 10, SAM25 211, MIKE26 242, WILL26 33) -> SAM (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card SAM (reference only)",
+      "Isaiah McDuffie injury reports: no injury designation 2025-26; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PUR",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2026",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2025",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:50Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
