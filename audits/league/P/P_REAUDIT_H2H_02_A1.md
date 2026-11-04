@@ -1,0 +1,40 @@
+# P_REAUDIT_H2H_02 — Daniel Whelan vs Logan Cooke (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "P_REAUDIT_H2H_02_A1",
+  "task_id": "P_REAUDIT_H2H_02",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "P",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Daniel Whelan",
+    "Logan Cooke"
+  ],
+  "pair_result": {
+    "winner": "Daniel Whelan",
+    "loser": "Logan Cooke",
+    "provisional_order_holds": true,
+    "reasoning": "Daniel Whelan nets 43.9 in both seasons with PFF 88.2 in 2025 and 50.0% inside-20 in 2026; Logan Cooke nets 43.0/42.9 with PFF 70.3/66.3 and 36.7%/40.0% inside-20. Both are positive on EPA (+4.2/+1.8 vs +4.0/+3.4); Whelan's leg and grade settle it.",
+    "key_evidence_for_winner": [
+      "Daniel Whelan (GB) role punter (punt attempts in nflverse pbp); roster position P; roster ACT (P); injuries no injury designation 2025-26",
+      "Daniel Whelan 2026: PFF P 2026 overall 69.8 (P rank 18); 2026 8 games punting; 0 accepted penalties; 2026 32 punts, gross 48.9, net 43.9, inside-20 16 (50.0%), 3 TB, 8 fair catches, 14 returned for 101 yds, 0 blocked, long 75; punt EPA +1.8 (+0.056/punt)",
+      "Daniel Whelan 2025: PFF P 2025 overall 88.2 (P rank 3); 2025 14 games punting; 0 accepted penalties; 2025 49 punts, gross 51.7, net 43.9, inside-20 18 (36.7%), 8 TB, 12 fair catches, 21 returned for 222 yds, 0 blocked, long 72; punt EPA +4.2 (+0.086/punt)"
+    ],
+    "key_evidence_for_loser": [
+      "Logan Cooke (JAX) role punter (punt attempts in nflverse pbp); roster position P; roster ACT (P); injuries no injury designation 2025-26",
+      "Logan Cooke 2026: PFF P 2026 overall 66.3 (P rank 26); 2026 7 games punting; 0 accepted penalties; 2026 25 punts, gross 47.8, net 42.9, inside-20 10 (40.0%), 1 TB, 6 fair catches, 13 returned for 104 yds, 0 blocked, long 60; punt EPA +3.4 (+0.137/punt)",
+      "Logan Cooke 2025: PFF P 2025 overall 70.3 (P rank 17); 2025 16 games punting; 0 accepted penalties; 2025 60 punts, gross 48.0, net 43.0, inside-20 22 (36.7%), 6 TB, 9 fair catches, 27 returned for 178 yds, 0 blocked, long 66; punt EPA +4.0 (+0.066/punt)"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```

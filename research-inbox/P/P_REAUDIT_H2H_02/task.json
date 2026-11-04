@@ -1,0 +1,107 @@
+{
+  "type": "pair_audit",
+  "task_id": "P_REAUDIT_H2H_02",
+  "players": [
+    "Daniel Whelan",
+    "Logan Cooke"
+  ],
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Michael Dickson",
+        "overall": 90
+      },
+      {
+        "rank": 2,
+        "player": "Jordan Stout",
+        "overall": 86
+      },
+      {
+        "rank": 3,
+        "player": "Daniel Whelan",
+        "overall": 85
+      },
+      {
+        "rank": 4,
+        "player": "Logan Cooke",
+        "overall": 83
+      },
+      {
+        "rank": 5,
+        "player": "Tress Way",
+        "overall": 81
+      },
+      {
+        "rank": 6,
+        "player": "Jack Fox",
+        "overall": 79
+      },
+      {
+        "rank": 7,
+        "player": "Austin McNamara",
+        "overall": 77
+      },
+      {
+        "rank": 8,
+        "player": "Corliss Waitman",
+        "overall": 76
+      },
+      {
+        "rank": 9,
+        "player": "J.K. Scott",
+        "overall": 75
+      },
+      {
+        "rank": 10,
+        "player": "Braden Mann",
+        "overall": 74
+      }
+    ],
+    "external_controls": [
+      "Bryan Anger",
+      "Jeremy Crawshaw",
+      "Ryan Wright"
+    ]
+  },
+  "position": "P",
+  "stage": "pair_audits",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 20,
+    "group": "Special Teams",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall punting grade"
+    ],
+    "position_stats": [
+      "punts, gross/net average",
+      "inside-20",
+      "touchbacks"
+    ],
+    "usage_snap_metrics": [
+      "punts"
+    ],
+    "on_field_impact": [
+      "punting EPA",
+      "hang time (NGS/charting)"
+    ],
+    "madden_attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR"
+    ],
+    "note": ""
+  }
+}
