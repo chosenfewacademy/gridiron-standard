@@ -1,0 +1,401 @@
+# QB_REAUDIT_RATE_05 revision A4 — Josh Allen 89 (authorized t56s532)
+
+Josh Allen INJ 84->92, STA 85->92, OVR 88->89. Notes fixed: played all 17 games in 2025 (week 7 bye), not 16; 2026 snap rank was a week-7 bye artifact (7 of 7 BUF games, every snap available).
+
+```json
+{
+  "audit_id": "QB_REAUDIT_RATE_05_A4",
+  "task_id": "QB_REAUDIT_RATE_05",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "QB",
+  "player_id": "josh_allen",
+  "players": [
+    "Josh Allen"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 82,
+    "ACC": 84,
+    "AGI": 80,
+    "COD": 78,
+    "STR": 90,
+    "AWR": 85,
+    "THP": 89,
+    "SAC": 85,
+    "MAC": 85,
+    "DAC": 82,
+    "RUN": 87,
+    "TUP": 76,
+    "PAC": 87,
+    "BSK": 75,
+    "CAR": 78,
+    "JMP": 72,
+    "INJ": 92,
+    "STA": 92,
+    "TGH": 88
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "HIGH",
+    "AWR": "MEDIUM",
+    "THP": "MEDIUM",
+    "SAC": "MEDIUM",
+    "MAC": "MEDIUM",
+    "DAC": "MEDIUM",
+    "RUN": "MEDIUM",
+    "TUP": "MEDIUM",
+    "PAC": "MEDIUM",
+    "BSK": "MEDIUM",
+    "CAR": "MEDIUM",
+    "JMP": "LOW",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "48 scrambles 426 yds 2025 (8.9 YPC), 19 for 204 2026 (10.7)",
+      "why_not_higher": "Designed runs are power, not speed (2.7 YPC 2026)",
+      "why_not_lower": "Big-play scrambler",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Scramble YPC 8.9-10.7",
+      "why_not_higher": "Below Jackson's burst",
+      "why_not_lower": "Consistent chunk scrambles",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Extends plays in and out of pocket",
+      "why_not_higher": "Power over shiftiness",
+      "why_not_lower": "Escapes pressure",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Runs through rather than around tacklers",
+      "why_not_higher": "Limited elusiveness",
+      "why_not_lower": "Functional",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "6'5\" 237; 9 rush TD in 2026 (most in NFL at any position) and 14 in 2025 (#3), with designed short-yardage runs (74 designed runs in window)",
+      "why_not_higher": "Not 95: no broken-tackle data in window",
+      "why_not_lower": "Elite power and goal-line finishing; HIGH confidence",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "PFF 84.4 (#5) 2026, 90.6 (#3) 2025; EPA/dropback #5 of 29 (2026), #11 of 42 (2025)",
+      "why_not_higher": "Not 90: 2025 EPA rank 11; 15 INT in window",
+      "why_not_lower": "Top-5 PFF both seasons",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "THP": {
+      "basis": "aDOT 9.0 (#5) and deep share 15.6% (#3) 2026",
+      "why_not_higher": "2025 aDOT only #29 of 42; capped below 90 on mixed evidence",
+      "why_not_lower": "Pushes ball deep at volume",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "SAC": {
+      "basis": "<10 yds 78.6% (2025), 72.7% (2026); CPOE +3.5/+4.0",
+      "why_not_higher": "2026 short % moderate",
+      "why_not_lower": "Positive CPOE both seasons",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "MAC": {
+      "basis": "10-19 yds 64.4% EPA .37 (2026), 56.7% EPA .55 (2025)",
+      "why_not_higher": "2025 intermediate % moderate",
+      "why_not_lower": "Best 2026 intermediate % of the five",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "DAC": {
+      "basis": "20+ yds 40.6% EPA .79 (2026), 40.4% (2025)",
+      "why_not_higher": "Deep completion % only ~40%",
+      "why_not_lower": "Strong deep EPA at volume",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "RUN": {
+      "basis": "Scramble-drill creator; high-volume off-structure production",
+      "why_not_higher": "No on-the-run split",
+      "why_not_lower": "Elite creator",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TUP": {
+      "basis": "Hit: 31.6% (2026, n=19), 41.9% (2025, n=31); 40 sacks 2025",
+      "why_not_higher": "Lowest when-hit completion % of the five",
+      "why_not_lower": "Clean-pocket 68-70%",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "PAC": {
+      "basis": "Play-action EPA/play +0.294, 3rd of 17 [nflverse pbp + FTN charting 2025-2026 REG (games-weighted), NGS passing; QB_REAUDIT_VARIANCE_AUDIT analysis]; revised 84->87 (variance audit, approved t34s264)",
+      "why_not_higher": "No PA split",
+      "why_not_lower": "Top-5 2026 efficiency",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "BSK": {
+      "basis": "Sack rate 7.3% games-weighted, 13th of 17 [nflverse pbp + FTN charting 2025-2026 REG (games-weighted), NGS passing; QB_REAUDIT_VARIANCE_AUDIT analysis]; revised 80->75 (variance audit, approved t34s264)",
+      "why_not_higher": "40 sacks 2025",
+      "why_not_lower": "Sack rate down to ~6% 2026",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "3 fumbles lost 2025 (2 rushing, 1 sack), 1 in 2026 on 167 carries",
+      "why_not_higher": "Fumble count",
+      "why_not_lower": "Heavy rush volume",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "No relevant evidence; neutral",
+      "why_not_higher": "No evidence",
+      "why_not_lower": "Neutral",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Played all 17 games in 2025 (weeks 1-6, 8-18; week 7 bye) and all 7 Buffalo games in 2026 (week 7 bye) while absorbing designed-run contact (74 designed runs 2025-26); no missed game in either season Revised 84->92 (t56s532).",
+      "why_not_higher": "Contact exposure from designed runs keeps him below a pure pocket passer's ceiling",
+      "why_not_lower": "No missed games across 24 straight team games",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "1034 offensive snaps in 17 games 2025; 467 offensive snaps in 7 of 7 BUF games 2026 (the lower 2026 league snap rank reflects Buffalo's week-7 bye, not missed time) Revised 85->92 (t56s532).",
+      "why_not_higher": "Below the 95+ every-snap iron-man tier",
+      "why_not_lower": "Full-time workload every game in both seasons",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Absorbs designed-run and goal-line contact (74 designed runs, 23 rush TD in window) and stays available",
+      "why_not_higher": "Not 90: no direct toughness measure",
+      "why_not_lower": "Plays through contact at volume",
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "ELITE",
+      "claim": "6'5\" 237; 9 rush TD in 2026 (most in NFL at any position) and 14 in 2025 (#3), with designed short-yardage runs (74 designed runs in window)",
+      "source_urls": [
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz"
+      ]
+    },
+    "INJ": {
+      "claim": "Played all 17 games in 2025 (weeks 1-6, 8-18; week 7 bye) and all 7 Buffalo games in 2026 (week 7 bye) while absorbing designed-run contact (74 designed runs 2025-26); no missed game in either season Revised 84->92 (t56s532).",
+      "source_urls": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ],
+      "tier": "ELITE"
+    },
+    "STA": {
+      "claim": "1034 offensive snaps in 17 games 2025; 467 offensive snaps in 7 of 7 BUF games 2026 (the lower 2026 league snap rank reflects Buffalo's week-7 bye, not missed time) Revised 85->92 (t56s532).",
+      "source_urls": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "https://www.pff.com/grades/nfl/qb/2026",
+        "https://www.pff.com/grades/nfl/qb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv"
+      ],
+      "tier": "ELITE"
+    }
+  },
+  "proposed_ovr": 89,
+  "proposed_ovr_basis": "Output of the attribute build: top-5 PFF both seasons (90.6 #3 2025, 84.4 #5 2026), EPA/dropback #5 of 29 in 2026, and the league's most productive QB rushing/scoring (9 rush TD 2026, 14 in 2025); above Jackson (87) on power and arm, below Burrow (90) on accuracy under pressure (31.6-41.9% when hit), deep completion % (~40%) and 2025 efficiency rank (#11). Revision A4 (t56s532): Josh Allen INJ 84->92, STA 85->92, OVR 88->89. Notes fixed: played all 17 games in 2025 (week 7 bye), not 16; 2026 snap rank was a week-7 bye artifact (7 of 7 BUF games, every snap available).",
+  "input_dossier": "QB_REAUDIT_BG_05_A1",
+  "weaknesses": [
+    "Accuracy when hit",
+    "Deep completion % ~40%",
+    "40 sacks 2025; 4 fumbles lost in window"
+  ],
+  "madden_reference": [
+    {
+      "player": "Josh Allen",
+      "ovr": 99,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "file": "references/madden/QB_madden27_reference.json"
+    }
+  ],
+  "major_flags": [
+    "ELITE_TRAIT_PROPOSED: STR 90",
+    "LARGE_MADDEN_GAP: OVR 88 vs Madden 99 (reference only)",
+    "SEASON_SPLIT: 2025 aDOT #29 vs 2026 #5",
+    "VARIANCE_ADJUSTMENT:QB_REAUDIT_VARIANCE_AUDIT:PAC,BSK",
+    "VARIANCE_ADJUSTMENT:QB_REAUDIT_VARIANCE_AUDIT:BSK"
+  ],
+  "locked_control_conflict": false,
+  "style_profile": "Power dual-threat: big-arm vertical thrower (deep share #3 in 2026) and a goal-line/short-yardage battering ram (9 rush TD 2026, most in NFL), with chunk scrambles; volatile under pressure and only ~40% deep completion \u2014 power-and-size where Jackson is speed-and-elusiveness.",
+  "style_evidence": [
+    "Rush TD: 9 (2026, NFL #1 any position), 14 (2025, #3) (nflverse pbp)",
+    "Designed runs 28-74 (2026), 46-173 (2025); scrambles 19-204, 48-426",
+    "aDOT 9.0 #5, deep share 15.6% #3 (2026)",
+    "When hit 31.6% (2026), 41.9% (2025)",
+    "PFF 90.6 #3 (2025), 84.4 #5 (2026)"
+  ],
+  "authorized_by": "t56s532"
+}
+```

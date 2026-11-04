@@ -14454,7 +14454,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "QUEUED_NOT_STARTED",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.reaudit-20261102.json",
@@ -14462,7 +14462,1391 @@
       "requested_by": "PhiXCrypto",
       "requested_at": "2026-11-04T14:08:02.420Z",
       "trigger": "COMMISSIONER_EXPLICIT",
-      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
+      "started_at": "2026-11-04T14:00:00Z",
+      "updated_at": "2026-11-04T14:09:27.566Z",
+      "audit_ids": [
+        "QB_REAUDIT_PROVISIONAL_TOP10_A1",
+        "QB_REAUDIT_PAIR_01_A1",
+        "QB_REAUDIT_PAIR_02_A1",
+        "QB_REAUDIT_CANDIDATE_AUDIT_A1",
+        "QB_REAUDIT_BG_01_A1",
+        "QB_REAUDIT_BG_02_A1",
+        "QB_REAUDIT_BG_03_A1",
+        "QB_REAUDIT_BG_04_A1",
+        "QB_REAUDIT_BG_05_A1",
+        "QB_REAUDIT_BG_06_A1",
+        "QB_REAUDIT_BG_07_A1",
+        "QB_REAUDIT_BG_08_A1",
+        "QB_REAUDIT_BG_09_A1",
+        "QB_REAUDIT_BG_10_A1",
+        "QB_REAUDIT_BG_11_A1",
+        "QB_REAUDIT_BG_12_A1",
+        "QB_REAUDIT_BG_13_A1",
+        "QB_REAUDIT_BG_14_A1",
+        "QB_REAUDIT_BG_15_A1",
+        "QB_REAUDIT_BG_16_A1",
+        "QB_REAUDIT_BG_17_A1",
+        "QB_REAUDIT_RATE_01_A1",
+        "QB_REAUDIT_RATE_02_A1",
+        "QB_REAUDIT_RATE_03_A1",
+        "QB_REAUDIT_RATE_04_A1",
+        "QB_REAUDIT_RATE_05_A1",
+        "QB_REAUDIT_RATE_06_A1",
+        "QB_REAUDIT_RATE_07_A1",
+        "QB_REAUDIT_RATE_08_A1",
+        "QB_REAUDIT_RATE_09_A1",
+        "QB_REAUDIT_RATE_10_A1",
+        "QB_REAUDIT_RATE_11_A1",
+        "QB_REAUDIT_RATE_12_A1",
+        "QB_REAUDIT_RATE_13_A1",
+        "QB_REAUDIT_RATE_14_A1",
+        "QB_REAUDIT_RATE_15_A1",
+        "QB_REAUDIT_RATE_16_A1",
+        "QB_REAUDIT_RATE_17_A1",
+        "QB_REAUDIT_RATE_06_A2",
+        "QB_REAUDIT_RATE_07_A2",
+        "QB_REAUDIT_RATE_08_A2",
+        "QB_REAUDIT_RATE_09_A2",
+        "QB_REAUDIT_RATE_10_A2",
+        "QB_REAUDIT_RATE_11_A2",
+        "QB_REAUDIT_RATE_12_A2",
+        "QB_REAUDIT_RATE_13_A2",
+        "QB_REAUDIT_RATE_14_A2",
+        "QB_REAUDIT_RATE_15_A2",
+        "QB_REAUDIT_RATE_16_A2",
+        "QB_REAUDIT_RATE_17_A2",
+        "QB_REAUDIT_H2H_01_A1",
+        "QB_REAUDIT_H2H_02_A1",
+        "QB_REAUDIT_H2H_03_A1",
+        "QB_REAUDIT_H2H_04_A1",
+        "QB_REAUDIT_H2H_05_A1",
+        "QB_REAUDIT_H2H_06_A1",
+        "QB_REAUDIT_RATE_02_A2",
+        "QB_REAUDIT_RATE_10_A3",
+        "QB_REAUDIT_RATE_13_A3",
+        "QB_REAUDIT_TIEBREAK_01_A1",
+        "QB_REAUDIT_TIEBREAK_02_A1",
+        "QB_REAUDIT_RATE_02_A3",
+        "QB_REAUDIT_TIEBREAK_03_A1",
+        "QB_REAUDIT_TIEBREAK_04_A1",
+        "QB_REAUDIT_RATE_02_A4",
+        "QB_REAUDIT_RATE_04_A2",
+        "QB_REAUDIT_RATE_05_A2",
+        "QB_REAUDIT_RATE_10_A4",
+        "QB_REAUDIT_RATE_11_A4",
+        "QB_REAUDIT_RATE_14_A3",
+        "QB_REAUDIT_RATE_15_A3",
+        "QB_REAUDIT_RATE_03_A2",
+        "QB_REAUDIT_RATE_01_A2",
+        "QB_REAUDIT_RATE_02_A5",
+        "QB_REAUDIT_TIEBREAK_05_A1",
+        "QB_REAUDIT_RATE_02_A6",
+        "QB_REAUDIT_RATE_05_A3",
+        "QB_REAUDIT_TIEBREAK_06_A1",
+        "QB_REAUDIT_TIEBREAK_07_A1",
+        "QB_REAUDIT_TIEBREAK_08_A1",
+        "QB_REAUDIT_RATE_07_A3",
+        "QB_REAUDIT_RATE_03_A3",
+        "QB_REAUDIT_BG_18_A1",
+        "QB_REAUDIT_BG_19_A1",
+        "QB_REAUDIT_RATE_18_A1",
+        "QB_REAUDIT_RATE_19_A1",
+        "QB_REAUDIT_TIEBREAK_09_A1",
+        "QB_REAUDIT_TIEBREAK_10_A1",
+        "QB_REAUDIT_TIEBREAK_11_A1",
+        "QB_REAUDIT_TIEBREAK_12_A1",
+        "QB_REAUDIT_RATE_05_A4"
+      ],
+      "completed_tasks": [
+        "QB_REAUDIT_PROVISIONAL_TOP10",
+        "QB_REAUDIT_PAIR_01",
+        "QB_REAUDIT_PAIR_02",
+        "QB_REAUDIT_CANDIDATE_AUDIT",
+        "QB_REAUDIT_BG_01",
+        "QB_REAUDIT_BG_02",
+        "QB_REAUDIT_BG_03",
+        "QB_REAUDIT_BG_04",
+        "QB_REAUDIT_BG_05",
+        "QB_REAUDIT_BG_06",
+        "QB_REAUDIT_BG_07",
+        "QB_REAUDIT_BG_08",
+        "QB_REAUDIT_BG_09",
+        "QB_REAUDIT_BG_10",
+        "QB_REAUDIT_BG_11",
+        "QB_REAUDIT_BG_12",
+        "QB_REAUDIT_BG_13",
+        "QB_REAUDIT_BG_14",
+        "QB_REAUDIT_BG_15",
+        "QB_REAUDIT_BG_16",
+        "QB_REAUDIT_BG_17",
+        "QB_REAUDIT_RATE_01",
+        "QB_REAUDIT_RATE_02",
+        "QB_REAUDIT_RATE_03",
+        "QB_REAUDIT_RATE_04",
+        "QB_REAUDIT_RATE_05",
+        "QB_REAUDIT_RATE_06",
+        "QB_REAUDIT_RATE_07",
+        "QB_REAUDIT_RATE_08",
+        "QB_REAUDIT_RATE_09",
+        "QB_REAUDIT_RATE_10",
+        "QB_REAUDIT_RATE_11",
+        "QB_REAUDIT_RATE_12",
+        "QB_REAUDIT_RATE_13",
+        "QB_REAUDIT_RATE_14",
+        "QB_REAUDIT_RATE_15",
+        "QB_REAUDIT_RATE_16",
+        "QB_REAUDIT_RATE_17",
+        "QB_REAUDIT_H2H_01",
+        "QB_REAUDIT_H2H_02",
+        "QB_REAUDIT_H2H_03",
+        "QB_REAUDIT_H2H_04",
+        "QB_REAUDIT_H2H_05",
+        "QB_REAUDIT_H2H_06",
+        "QB_REAUDIT_TIEBREAK_01",
+        "QB_REAUDIT_TIEBREAK_02",
+        "QB_REAUDIT_TIEBREAK_03",
+        "QB_REAUDIT_TIEBREAK_04",
+        "QB_REAUDIT_TIEBREAK_05",
+        "QB_REAUDIT_TIEBREAK_06",
+        "QB_REAUDIT_TIEBREAK_07",
+        "QB_REAUDIT_TIEBREAK_08",
+        "QB_REAUDIT_BG_18",
+        "QB_REAUDIT_BG_19",
+        "QB_REAUDIT_RATE_18",
+        "QB_REAUDIT_RATE_19",
+        "QB_REAUDIT_TIEBREAK_09",
+        "QB_REAUDIT_TIEBREAK_10",
+        "QB_REAUDIT_TIEBREAK_11",
+        "QB_REAUDIT_TIEBREAK_12"
+      ],
+      "approvals": [
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_PROVISIONAL_TOP10",
+          "audit_id": "QB_REAUDIT_PROVISIONAL_TOP10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T13:36:00-05:00"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_PAIR_01",
+          "audit_id": "QB_REAUDIT_PAIR_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T13:42:00-05:00"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_PAIR_02",
+          "audit_id": "QB_REAUDIT_PAIR_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T13:53:00-05:00"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_CANDIDATE_AUDIT",
+          "audit_id": "QB_REAUDIT_CANDIDATE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:15:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_01",
+          "audit_id": "QB_REAUDIT_BG_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_02",
+          "audit_id": "QB_REAUDIT_BG_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_03",
+          "audit_id": "QB_REAUDIT_BG_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_04",
+          "audit_id": "QB_REAUDIT_BG_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_05",
+          "audit_id": "QB_REAUDIT_BG_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_06",
+          "audit_id": "QB_REAUDIT_BG_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_07",
+          "audit_id": "QB_REAUDIT_BG_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_08",
+          "audit_id": "QB_REAUDIT_BG_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_09",
+          "audit_id": "QB_REAUDIT_BG_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_10",
+          "audit_id": "QB_REAUDIT_BG_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_11",
+          "audit_id": "QB_REAUDIT_BG_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_12",
+          "audit_id": "QB_REAUDIT_BG_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_13",
+          "audit_id": "QB_REAUDIT_BG_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_14",
+          "audit_id": "QB_REAUDIT_BG_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_15",
+          "audit_id": "QB_REAUDIT_BG_15_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_16",
+          "audit_id": "QB_REAUDIT_BG_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_17",
+          "audit_id": "QB_REAUDIT_BG_17_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:25:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_01",
+          "audit_id": "QB_REAUDIT_RATE_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T19:31:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_02",
+          "audit_id": "QB_REAUDIT_RATE_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T20:42:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_03",
+          "audit_id": "QB_REAUDIT_RATE_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T21:38:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_04",
+          "audit_id": "QB_REAUDIT_RATE_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T22:59:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_05",
+          "audit_id": "QB_REAUDIT_RATE_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:28:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_06",
+          "audit_id": "QB_REAUDIT_RATE_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:31:13Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_07",
+          "audit_id": "QB_REAUDIT_RATE_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:31:41Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_08",
+          "audit_id": "QB_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:32:09Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_09",
+          "audit_id": "QB_REAUDIT_RATE_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:32:38Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_10",
+          "audit_id": "QB_REAUDIT_RATE_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:33:06Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_11",
+          "audit_id": "QB_REAUDIT_RATE_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:33:35Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_12",
+          "audit_id": "QB_REAUDIT_RATE_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:34:05Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_13",
+          "audit_id": "QB_REAUDIT_RATE_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:34:36Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_14",
+          "audit_id": "QB_REAUDIT_RATE_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:35:05Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_15",
+          "audit_id": "QB_REAUDIT_RATE_15_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:35:32Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_16",
+          "audit_id": "QB_REAUDIT_RATE_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:35:59Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_17",
+          "audit_id": "QB_REAUDIT_RATE_17_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:36:27Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_06",
+          "audit_id": "QB_REAUDIT_RATE_06_A2",
+          "supersedes": "QB_REAUDIT_RATE_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:59:41Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_07",
+          "audit_id": "QB_REAUDIT_RATE_07_A2",
+          "supersedes": "QB_REAUDIT_RATE_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-02T23:59:55Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_08",
+          "audit_id": "QB_REAUDIT_RATE_08_A2",
+          "supersedes": "QB_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:00:10Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_09",
+          "audit_id": "QB_REAUDIT_RATE_09_A2",
+          "supersedes": "QB_REAUDIT_RATE_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:00:25Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_10",
+          "audit_id": "QB_REAUDIT_RATE_10_A2",
+          "supersedes": "QB_REAUDIT_RATE_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:00:40Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_11",
+          "audit_id": "QB_REAUDIT_RATE_11_A2",
+          "supersedes": "QB_REAUDIT_RATE_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:00:54Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_12",
+          "audit_id": "QB_REAUDIT_RATE_12_A2",
+          "supersedes": "QB_REAUDIT_RATE_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:01:09Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_13",
+          "audit_id": "QB_REAUDIT_RATE_13_A2",
+          "supersedes": "QB_REAUDIT_RATE_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:01:23Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_14",
+          "audit_id": "QB_REAUDIT_RATE_14_A2",
+          "supersedes": "QB_REAUDIT_RATE_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:01:37Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_15",
+          "audit_id": "QB_REAUDIT_RATE_15_A2",
+          "supersedes": "QB_REAUDIT_RATE_15_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:01:51Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_16",
+          "audit_id": "QB_REAUDIT_RATE_16_A2",
+          "supersedes": "QB_REAUDIT_RATE_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:02:05Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_17",
+          "audit_id": "QB_REAUDIT_RATE_17_A2",
+          "supersedes": "QB_REAUDIT_RATE_17_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:02:20Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_H2H_01",
+          "audit_id": "QB_REAUDIT_H2H_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:22:15Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_H2H_02",
+          "audit_id": "QB_REAUDIT_H2H_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:22:45Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_H2H_03",
+          "audit_id": "QB_REAUDIT_H2H_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:23:13Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_H2H_04",
+          "audit_id": "QB_REAUDIT_H2H_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:23:40Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_H2H_05",
+          "audit_id": "QB_REAUDIT_H2H_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:24:08Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_H2H_06",
+          "audit_id": "QB_REAUDIT_H2H_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:24:37Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_02",
+          "audit_id": "QB_REAUDIT_RATE_02_A2",
+          "supersedes": "QB_REAUDIT_RATE_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:25:02Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_10",
+          "audit_id": "QB_REAUDIT_RATE_10_A3",
+          "supersedes": "QB_REAUDIT_RATE_10_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:25:16Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_13",
+          "audit_id": "QB_REAUDIT_RATE_13_A3",
+          "supersedes": "QB_REAUDIT_RATE_13_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:25:31Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_01",
+          "audit_id": "QB_REAUDIT_TIEBREAK_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:42:29Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_02",
+          "audit_id": "QB_REAUDIT_TIEBREAK_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:42:43Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_02",
+          "audit_id": "QB_REAUDIT_RATE_02_A3",
+          "supersedes": "QB_REAUDIT_RATE_02_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:42:57Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_03",
+          "audit_id": "QB_REAUDIT_TIEBREAK_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:55:52Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_04",
+          "audit_id": "QB_REAUDIT_TIEBREAK_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:55:52Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_02",
+          "audit_id": "QB_REAUDIT_RATE_02_A4",
+          "supersedes": "QB_REAUDIT_RATE_02_A3",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:57:48Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_04",
+          "audit_id": "QB_REAUDIT_RATE_04_A2",
+          "supersedes": "QB_REAUDIT_RATE_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:57:48Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_05",
+          "audit_id": "QB_REAUDIT_RATE_05_A2",
+          "supersedes": "QB_REAUDIT_RATE_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:57:49Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_10",
+          "audit_id": "QB_REAUDIT_RATE_10_A4",
+          "supersedes": "QB_REAUDIT_RATE_10_A3",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:57:49Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_11",
+          "audit_id": "QB_REAUDIT_RATE_11_A4",
+          "supersedes": "QB_REAUDIT_RATE_11_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:57:49Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_14",
+          "audit_id": "QB_REAUDIT_RATE_14_A3",
+          "supersedes": "QB_REAUDIT_RATE_14_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:57:50Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_15",
+          "audit_id": "QB_REAUDIT_RATE_15_A3",
+          "supersedes": "QB_REAUDIT_RATE_15_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:57:50Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_03",
+          "audit_id": "QB_REAUDIT_RATE_03_A2",
+          "supersedes": "QB_REAUDIT_RATE_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:57:50Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_01",
+          "audit_id": "QB_REAUDIT_RATE_01_A2",
+          "supersedes": "QB_REAUDIT_RATE_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:58:14Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_02",
+          "audit_id": "QB_REAUDIT_RATE_02_A5",
+          "supersedes": "QB_REAUDIT_RATE_02_A4",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:58:22Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_05",
+          "audit_id": "QB_REAUDIT_TIEBREAK_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T00:58:56Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_02",
+          "audit_id": "QB_REAUDIT_RATE_02_A6",
+          "supersedes": "QB_REAUDIT_RATE_02_A5",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T01:07:01Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_05",
+          "audit_id": "QB_REAUDIT_RATE_05_A3",
+          "supersedes": "QB_REAUDIT_RATE_05_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T01:07:01Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_06",
+          "audit_id": "QB_REAUDIT_TIEBREAK_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T01:08:27Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_07",
+          "audit_id": "QB_REAUDIT_TIEBREAK_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T01:08:27Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_08",
+          "audit_id": "QB_REAUDIT_TIEBREAK_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T01:08:27Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_07",
+          "audit_id": "QB_REAUDIT_RATE_07_A3",
+          "supersedes": "QB_REAUDIT_RATE_07_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T02:18:34Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_03",
+          "audit_id": "QB_REAUDIT_RATE_03_A3",
+          "supersedes": "QB_REAUDIT_RATE_03_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T02:18:34Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_18",
+          "audit_id": "QB_REAUDIT_BG_18_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T02:20:42Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_BG_19",
+          "audit_id": "QB_REAUDIT_BG_19_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T02:20:43Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_18",
+          "audit_id": "QB_REAUDIT_RATE_18_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T02:21:57Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_19",
+          "audit_id": "QB_REAUDIT_RATE_19_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T02:22:21Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_09",
+          "audit_id": "QB_REAUDIT_TIEBREAK_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T02:23:31Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_10",
+          "audit_id": "QB_REAUDIT_TIEBREAK_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T02:23:32Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_11",
+          "audit_id": "QB_REAUDIT_TIEBREAK_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T02:23:33Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_TIEBREAK_12",
+          "audit_id": "QB_REAUDIT_TIEBREAK_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:00:00Z",
+          "note": "t56s532: carry forward approved QB player stages from QB_REAUDIT_LOCK_20261102",
+          "carried_from": "QB_REAUDIT_LOCK_20261102",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T02:23:34Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "QB_REAUDIT_RATE_05",
+          "audit_id": "QB_REAUDIT_RATE_05_A4",
+          "supersedes": "QB_REAUDIT_RATE_05_A3",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:09:27Z",
+          "note": "User-approved card t56s532: Josh Allen INJ 84->92, STA 85->92, OVR 88->89. Notes fixed: played all 17 games in 2025 (week 7 bye), not 16; 2026 snap rank was a week-7 bye artifact (7 of 7 BUF games, every snap"
+        }
+      ],
+      "current_stage": "carry_forward",
+      "current_task": null,
+      "awaiting": null,
+      "last_result": {
+        "task_id": "QB_REAUDIT_RATE_05",
+        "status": "REVISION_APPROVED",
+        "audit_id": "QB_REAUDIT_RATE_05_A4",
+        "supersedes": "QB_REAUDIT_RATE_05_A3",
+        "flags": [
+          "ELITE_TRAIT_PROPOSED: STR 90",
+          "LARGE_MADDEN_GAP: OVR 88 vs Madden 99 (reference only)",
+          "SEASON_SPLIT: 2025 aDOT #29 vs 2026 #5",
+          "VARIANCE_ADJUSTMENT:QB_REAUDIT_VARIANCE_AUDIT:PAC,BSK",
+          "VARIANCE_ADJUSTMENT:QB_REAUDIT_VARIANCE_AUDIT:BSK"
+        ]
+      }
     }
   ]
 }
