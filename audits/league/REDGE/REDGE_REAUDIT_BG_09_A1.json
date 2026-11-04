@@ -1,0 +1,218 @@
+{
+  "audit_id": "REDGE_REAUDIT_BG_09_A1",
+  "task_id": "REDGE_REAUDIT_BG_09",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "player_id": "ext_00-0038577",
+  "players": [
+    "Nick Herbig"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Nick Herbig",
+    "player_id": "ext_00-0038577",
+    "team": "PIT",
+    "side_assignment": {
+      "R25": 220,
+      "L25": 1,
+      "L26": 137,
+      "R26": 138,
+      "L": 138,
+      "R": 358,
+      "teams": [
+        "PIT"
+      ],
+      "assign": "REDGE"
+    },
+    "side_rule": "EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LEDGE = defense's left edge (aligned over the offense's right tackle); REDGE = defense's right edge (over the offense's left tackle), matching the repo note 'Right-side edge (offense's left)'. Side evidence = nflverse weekly depth charts 2025 + 2026 (ESPN-sourced): each team-day snapshot counts once; LDE (4-3 or 3-4) or 3-4 WLB (ESPN 3-4 layout slot 4, left of LILB) = left; RDE or 3-4 SLB (slot 7, right of RILB) = right; 4-3 WLB/SLB are off-ball LBs and not counted. The side with more snapshots across both seasons wins; a player appears in only one list. PFF alignment splits (left/right snap counts) are paywalled and NGS publishes no side split, so depth charts are the side source; Madden 27's LEDG/REDG card label is reference only and does not decide side.",
+    "pff": {
+      "2025": {
+        "team": "pittsburgh-steelers",
+        "ovr": 87.4,
+        "snaps": 636,
+        "prsh": 360,
+        "rdef": 222,
+        "cov": 54,
+        "status": "A"
+      },
+      "2026": {
+        "team": "pittsburgh-steelers",
+        "ovr": 66.8,
+        "snaps": 274,
+        "prsh": 136,
+        "rdef": 102,
+        "cov": 36,
+        "status": "A"
+      }
+    },
+    "pressures": {
+      "2025": {
+        "tm": "PIT",
+        "pos": "LB",
+        "g": "15",
+        "prss": "29",
+        "hrry": "11",
+        "qbkd": "10",
+        "sk": "7.5",
+        "comb": "30",
+        "m_tkl": "6"
+      },
+      "2026": {
+        "def_pressures": 5,
+        "def_times_hurried": 1,
+        "def_times_hitqb": 2,
+        "def_sacks": 2,
+        "def_tackles_combined": 20,
+        "def_missed_tackles": 6,
+        "g": 7
+      }
+    },
+    "espn_win_rates": {
+      "prwr": null,
+      "rswr": null
+    },
+    "snaps": {
+      "2025": {
+        "games": 15,
+        "defs": 610
+      },
+      "2026": {
+        "games": 8,
+        "defs": 273
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 18,
+        "def_tackle_assists": 9,
+        "def_tackles_for_loss": 13,
+        "def_fumbles_forced": 3,
+        "def_sacks": 7.5,
+        "def_qb_hits": 18,
+        "def_pass_defended": 3
+      },
+      "2026": {
+        "def_tackles_solo": 13,
+        "def_tackle_assists": 6,
+        "def_tackles_for_loss": 7,
+        "def_fumbles_forced": 1,
+        "def_sacks": 3,
+        "def_qb_hits": 5,
+        "def_pass_defended": 0
+      }
+    },
+    "penalties": {
+      "2025": 4,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk1 Questionable (Hamstring)",
+        "wk16 Doubtful (Hamstring)"
+      ]
+    },
+    "summary_lines": [
+      "Nick Herbig (PIT) Nick Herbig 2026: PFF edge 2026 overall 66.8 on 274 snaps (136 pass-rush, 102 run-defense, 36 coverage); PFR 2026 5 pressures (1 hurries, 2 QB hits, 2.0 sacks) in 7 games, 20 tackles, 6 missed; 8 g / 273 def snaps; 3.0 sacks, 5 QB hits, 7 TFL, 1 FF, 0 PD; 0 accepted penalties; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Nick Herbig 2025: PFF edge 2025 overall 87.4 on 636 snaps (360 pass-rush, 222 run-defense, 54 coverage); PFR 2025 29 pressures (11 hurries, 10 QB knockdowns, 7.5 sacks), 30 tackles, 6 missed; 15 g / 610 def snaps; 7.5 sacks, 18 QB hits, 13 TFL, 3 FF, 3 PD; 4 accepted penalties",
+      "Nick Herbig alignment: side snapshots 2025-26 left 138 / right 358 -> REDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position LB; Madden card REDG (reference only)",
+      "Nick Herbig injury reports: wk1 Questionable (Hamstring); wk16 Doubtful (Hamstring); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PMV",
+      "FMV",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2026",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2025",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:38Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
