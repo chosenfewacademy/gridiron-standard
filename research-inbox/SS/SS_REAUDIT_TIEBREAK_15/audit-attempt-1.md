@@ -1,0 +1,40 @@
+# SS_REAUDIT_TIEBREAK_15 — Jaylinn Hawkins vs Dane Belton (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "SS_REAUDIT_TIEBREAK_15_A1",
+  "task_id": "SS_REAUDIT_TIEBREAK_15",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Jaylinn Hawkins",
+    "Dane Belton"
+  ],
+  "pair_result": {
+    "winner": "Jaylinn Hawkins",
+    "loser": "Dane Belton",
+    "provisional_order_holds": true,
+    "reasoning": "Hawkins holds #10 on graded play: PFF 74.9 on 1102 snaps in 2025 (S rank 15) with 4 INT and a 71.2 passer rating allowed, and 54.1 on 314 in 2026, vs Dane Belton's 62.5 on 705 snaps in 2025 (S rank 54) and 69.8 on 531 snaps in 2026 (S rank 25). Belton's 2026 (69.8) is better than Hawkins' 2026, but his 2025 (62.5 on 705) is well below Hawkins' 74.9 on 1102. Dane Belton's screen hits (value, efficiency, negative_rate, availability) come from low reference bars: Christian Roland-Wallace's 345-snap sample (8 of 9 targets completed in 2026) sets the efficiency bar.",
+    "key_evidence_for_winner": [
+      "Jaylinn Hawkins (BAL) role snap-weighted 2025-26 depth-chart FS/SS shares FS 176 / SS 977 -> SS; roster INA (DB); injuries wk6 Out (Hamstring); wk7 Questionable (Hamstring); wk7 Out (Knee); wk8 Out (Knee)",
+      "Jaylinn Hawkins 2026: Jaylinn Hawkins 2026: PFF S 2026 overall 54.1 on 314 snaps (S rank 75; 211 coverage / 100 run-def snaps); PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed; 6 g / 315 def snaps; 17 solo + 13 ast tackles, 0 TFL, 0 INT, 0 PD, 0 FF; 1 accepted penalties; PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed",
+      "Jaylinn Hawkins 2025: Jaylinn Hawkins 2025: PFF S 2025 overall 74.9 on 1102 snaps (S rank 15; 659 coverage / 408 run-def snaps); PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed; 15 g / 838 def snaps; 44 solo + 26 ast tackles, 3 TFL, 4 INT, 6 PD, 1 FF; 3 accepted penalties; PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Dane Belton (NYJ) role snap-weighted 2025-26 depth-chart FS/SS shares FS 145 / SS 1091 -> SS; roster ACT (DB); injuries wk6 Questionable (Knee)",
+      "Dane Belton 2026: Dane Belton 2026: PFF S 2026 overall 69.8 on 531 snaps (S rank 25; 285 coverage / 236 run-def snaps); PFR 2026 (6 games) coverage 23 targets / 12 completions / 137 yds / 0 TD / 0 INT; 53 tackles, 3 missed; 8 g / 531 def snaps; 37 solo + 30 ast tackles, 2 TFL, 0 INT, 4 PD, 0 FF; 0 accepted penalties; PFR 2026 (6 games) coverage 23 targets / 12 completions / 137 yds / 0 TD / 0 INT; 53 tackles, 3 missed",
+      "Dane Belton 2025: Dane Belton 2025: PFF S 2025 overall 62.5 on 705 snaps (S rank 54; 444 coverage / 243 run-def snaps); PFR 2025 coverage 40 targets / 28 completions / 331 yds / 2 TD / passer rating 101.1 / 1 INT; 120 tackles, 2 missed; 17 g / 705 def snaps; 60 solo + 60 ast tackles, 3 TFL, 1 INT, 5 PD, 3 FF; 3 accepted penalties; PFR 2025 coverage 40 targets / 28 completions / 331 yds / 2 TD / passer rating 101.1 / 1 INT; 120 tackles, 2 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
