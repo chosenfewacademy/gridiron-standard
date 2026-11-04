@@ -1,0 +1,385 @@
+# LEDGE_REAUDIT_RATE_07 revision A2 — Byron Young 81 (authorized t46u)
+
+Approved variance fix (LEDGE_REAUDIT_VARIANCE_AUDIT, t46u): PRC 78->82 (82 tackles / 3 missed, 357 run-defense snaps in 2025). OVR unchanged.
+
+```json
+{
+  "audit_id": "LEDGE_REAUDIT_RATE_07_A2",
+  "task_id": "LEDGE_REAUDIT_RATE_07",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "player_id": "ext_00-0038978",
+  "players": [
+    "Byron Young"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 86,
+    "ACC": 90,
+    "AGI": 80,
+    "COD": 76,
+    "STR": 70,
+    "AWR": 78,
+    "PRC": 82,
+    "TAK": 78,
+    "POW": 74,
+    "BSH": 72,
+    "PMV": 74,
+    "FMV": 84,
+    "PUR": 86,
+    "INJ": 90,
+    "STA": 92,
+    "TGH": 84
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PMV": "MEDIUM",
+    "FMV": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 40 pressures (10 hurries, 17 QB knockdowns, 12 sacks), 82 tackles, 3 missed; PFR 2026 18 pressures (9 hurries, 4 QB hits, 4.5 sacks) in 6 games, 30 tackles, 3 missed; ESPN 2026 edge PRWR 25% (#9, 25/99); RSWR outside the published top 10. Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 40 pressures (10 hurries, 17 QB knockdowns, 12 sacks), 82 tackles, 3 missed; PFR 2026 18 pressures (9 hurries, 4 QB hits, 4.5 sacks) in 6 games, 30 tackles, 3 missed; ESPN 2026 edge PRWR 25% (#9, 25/99); RSWR outside the published top 10. Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 40 pressures (10 hurries, 17 QB knockdowns, 12 sacks), 82 tackles, 3 missed; PFR 2026 18 pressures (9 hurries, 4 QB hits, 4.5 sacks) in 6 games, 30 tackles, 3 missed; ESPN 2026 edge PRWR 25% (#9, 25/99); RSWR outside the published top 10. Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 40 pressures (10 hurries, 17 QB knockdowns, 12 sacks), 82 tackles, 3 missed; PFR 2026 18 pressures (9 hurries, 4 QB hits, 4.5 sacks) in 6 games, 30 tackles, 3 missed; ESPN 2026 edge PRWR 25% (#9, 25/99); RSWR outside the published top 10. Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF edge 2026 overall 69.4 on 415 snaps (222 pass-rush, 158 run-defense, 35 coverage); ESPN 2026 edge PRWR 25% (#9, 25/99); RSWR outside the published top 10. Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 1/1; PFF edge 2026 overall 69.4 on 415 snaps (222 pass-rush, 158 run-defense, 35 coverage). Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR 25% (#9, 25/99); RSWR outside the published top 10; PFF edge 2025 overall 83.7 on 981 snaps (476 pass-rush, 357 run-defense, 148 coverage); PFF edge 2026 overall 69.4 on 415 snaps (222 pass-rush, 158 run-defense, 35 coverage); TFL in 17 g / 854 def snaps; 12.0 sacks, 29 QB hits, 12 TFL, 1 FF, 0 PD / 8 g / 416 def snaps; 4.5 sacks, 10 QB hits, 5 TFL, 1 FF, 0 PD. Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026. Revised 78->82: Approved variance fix (LEDGE_REAUDIT_VARIANCE_AUDIT, t46u): PRC 78->82 (82 tackles / 3 missed, 357 run-defense snaps in 2025). OVR unchanged.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 40 pressures (10 hurries, 17 QB knockdowns, 12 sacks), 82 tackles, 3 missed; PFR 2026 18 pressures (9 hurries, 4 QB hits, 4.5 sacks) in 6 games, 30 tackles, 3 missed. Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 40 pressures (10 hurries, 17 QB knockdowns, 12 sacks), 82 tackles, 3 missed; PFR 2026 18 pressures (9 hurries, 4 QB hits, 4.5 sacks) in 6 games, 30 tackles, 3 missed. Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR 25% (#9, 25/99); RSWR outside the published top 10; PFF edge 2025 overall 83.7 on 981 snaps (476 pass-rush, 357 run-defense, 148 coverage); PFF edge 2026 overall 69.4 on 415 snaps (222 pass-rush, 158 run-defense, 35 coverage); TFL in 17 g / 854 def snaps; 12.0 sacks, 29 QB hits, 12 TFL, 1 FF, 0 PD / 8 g / 416 def snaps; 4.5 sacks, 10 QB hits, 5 TFL, 1 FF, 0 PD. Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR 25% (#9, 25/99); RSWR outside the published top 10; PFR 2025 40 pressures (10 hurries, 17 QB knockdowns, 12 sacks), 82 tackles, 3 missed; PFR 2026 18 pressures (9 hurries, 4 QB hits, 4.5 sacks) in 6 games, 30 tackles, 3 missed. Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "FMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR 25% (#9, 25/99); RSWR outside the published top 10; PFR 2025 40 pressures (10 hurries, 17 QB knockdowns, 12 sacks), 82 tackles, 3 missed; PFR 2026 18 pressures (9 hurries, 4 QB hits, 4.5 sacks) in 6 games, 30 tackles, 3 missed. Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR 25% (#9, 25/99); RSWR outside the published top 10; PFF edge 2025 overall 83.7 on 981 snaps (476 pass-rush, 357 run-defense, 148 coverage); PFF edge 2026 overall 69.4 on 415 snaps (222 pass-rush, 158 run-defense, 35 coverage); TFL in 17 g / 854 def snaps; 12.0 sacks, 29 QB hits, 12 TFL, 1 FF, 0 PD / 8 g / 416 def snaps; 4.5 sacks, 10 QB hits, 5 TFL, 1 FF, 0 PD. Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Byron Young injury reports: wk21 Questionable (Knee); roster status ACT; 17 g / 854 def snaps; 12.0 sacks, 29 QB hits, 12 TFL, 1 FF, 0 PD (2025), 8 g / 416 def snaps; 4.5 sacks, 10 QB hits, 5 TFL, 1 FF, 0 PD (2026). Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 17 g / 854 def snaps; 12.0 sacks, 29 QB hits, 12 TFL, 1 FF, 0 PD (2025), 8 g / 416 def snaps; 4.5 sacks, 10 QB hits, 5 TFL, 1 FF, 0 PD (2026). Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 17 g / 854 def snaps; 12.0 sacks, 29 QB hits, 12 TFL, 1 FF, 0 PD (2025), 8 g / 416 def snaps; 4.5 sacks, 10 QB hits, 5 TFL, 1 FF, 0 PD (2026). Style: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "movement: PFR 2025 40 pressures (10 hurries, 17 QB knockdowns, 12 sacks), 82 tackles, 3 missed; PFR 2026 18 pressures (9 hurries, 4 QB hits, 4.5 sacks) in 6 games, 30 tackles, 3 missed; ESPN 2026 edge PRWR 25% (#9, 25/99); RSWR outside the published top 10",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Byron Young injury reports: wk21 Questionable (Knee); roster status ACT; 17 g / 854 def snaps; 12.0 sacks, 29 QB hits, 12 TFL, 1 FF, 0 PD (2025), 8 g / 416 def snaps; 4.5 sacks, 10 QB hits, 5 TFL, 1 FF, 0 PD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 854 def snaps; 12.0 sacks, 29 QB hits, 12 TFL, 1 FF, 0 PD (2025), 8 g / 416 def snaps; 4.5 sacks, 10 QB hits, 5 TFL, 1 FF, 0 PD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 81,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026. Revision A2: Approved variance fix (LEDGE_REAUDIT_VARIANCE_AUDIT, t46u): PRC 78->82 (82 tackles / 3 missed, 357 run-defense snaps in 2025). OVR unchanged.",
+  "style_profile": "Byron Young: Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+  "style_evidence": [
+    "Byron Young (LA) Byron Young 2026: PFF edge 2026 overall 69.4 on 415 snaps (222 pass-rush, 158 run-defense, 35 coverage); PFR 2026 18 pressures (9 hurries, 4 QB hits, 4.5 sacks) in 6 games, 30 tackles, 3 missed; 8 g / 416 def snaps; 4.5 sacks, 10 QB hits, 5 TFL, 1 FF, 0 PD; 1 accepted penalties; ESPN 2026 edge PRWR 25% (#9, 25/99); RSWR outside the published top 10",
+    "Byron Young 2025: PFF edge 2025 overall 83.7 on 981 snaps (476 pass-rush, 357 run-defense, 148 coverage); PFR 2025 40 pressures (10 hurries, 17 QB knockdowns, 12 sacks), 82 tackles, 3 missed; 17 g / 854 def snaps; 12.0 sacks, 29 QB hits, 12 TFL, 1 FF, 0 PD; 1 accepted penalties",
+    "Byron Young alignment: side snapshots 2025-26 left 991 / right 1 -> LEDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position LB; Madden card LEDG (reference only)",
+    "Byron Young injury reports: wk21 Questionable (Knee); roster status ACT"
+  ],
+  "input_dossier": "LEDGE_REAUDIT_BG_07_A1",
+  "weaknesses": [
+    "2026 grade (69.4)",
+    "strength"
+  ],
+  "limitations": [
+    "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+  ],
+  "side_assignment": "LEDGE (side snapshots 2025-26 left 991 / right 1 -> LEDGE)",
+  "madden_reference": [
+    {
+      "player": "Byron Young",
+      "ovr": 85,
+      "madden_position": "LEDG",
+      "attributes": {
+        "SPD": 92,
+        "ACC": 93,
+        "AGI": 77,
+        "COD": 65,
+        "STR": 74,
+        "AWR": 88,
+        "PRC": 90,
+        "TAK": 87,
+        "POW": 83,
+        "BSH": 81,
+        "PMV": 86,
+        "FMV": 81,
+        "PUR": 87,
+        "INJ": 90,
+        "STA": 86,
+        "TGH": 80
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -4,
+      "delta_attributes": {
+        "SPD": -6,
+        "ACC": -3,
+        "AGI": 3,
+        "COD": 11,
+        "STR": -4,
+        "AWR": -10,
+        "PRC": -8,
+        "TAK": -9,
+        "POW": -9,
+        "BSH": -9,
+        "PMV": -12,
+        "FMV": 3,
+        "PUR": -1,
+        "INJ": 0,
+        "STA": 6,
+        "TGH": 4
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 4,
+    "attribute_gaps_10plus": {
+      "COD": 11,
+      "AWR": -10,
+      "PMV": -12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
