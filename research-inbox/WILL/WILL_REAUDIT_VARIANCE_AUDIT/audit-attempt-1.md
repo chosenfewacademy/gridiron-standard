@@ -1,0 +1,355 @@
+# WILL_REAUDIT_VARIANCE_AUDIT (v1.1.2; authorized t46u)
+
+```json
+{
+  "audit_id": "WILL_REAUDIT_VARIANCE_AUDIT_A1",
+  "task_id": "WILL_REAUDIT_VARIANCE_AUDIT",
+  "task_type": "variance_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Zack Baun",
+    "Roquan Smith",
+    "Drue Tranquill",
+    "Jordyn Brooks",
+    "Blake Cashman",
+    "Arvell Reese",
+    "Foyesade Oluokun",
+    "Alex Singleton",
+    "Demario Davis",
+    "Edgerrin Cooper",
+    "Divine Deablo",
+    "Drake Thomas",
+    "Kaden Elliss"
+  ],
+  "variance_gaps": [
+    {
+      "player": "Zack Baun",
+      "attr": "PRS",
+      "madden": 56,
+      "ours": 66,
+      "delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Zack Baun 2025: PFF LB 2025 overall 80.6 on 1098 snaps (LB rank 6; 425 run-def / 589 coverage / 84 pass-rush snaps); PFR 2025 coverage 59 targets / 38 completions / 248 yds / passer rating 64.8 / 2 INT; 123 tackles, 14 missed; 7 pressures on 49 blitzes, 3.5 sacks; 16 g / 1038 def snaps; 63 solo + 59 ast tackles, 7 TFL, 3.5 sacks, 2 INT, 7 PD, 1 FF; 1 accepted penalties",
+        "Zack Baun 2026: PFF LB 2026 overall 79.7 on 468 snaps (LB rank 6; 207 run-def / 215 coverage / 46 pass-rush snaps); PFR 2026 (6 games) coverage 26 targets / 15 completions / 131 yds / 0 INT; 51 tackles, 7 missed; 6 pressures on 23 blitzes; 7 g / 468 def snaps; 25 solo + 30 ast tackles, 5 TFL, 0.0 sacks, 0 INT, 5 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 59 targets / 38 completions / 248 yds / passer rating 64.8 / 2 INT; 123 tackles, 14 missed; 7 pressures on 49 blitzes, 3.5 sacks; PFR 2026 (6 games) coverage 26 targets / 15 completions / 131 yds / 0 INT; 51 tackles, 7 missed; 6 pressures on 23 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1506 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL; injuries wk4 Out (Concussion); roster ACT"
+      ],
+      "basis": "blitz pressures and sacks (PFR), pass-rush snaps"
+    },
+    {
+      "player": "Blake Cashman",
+      "attr": "PRS",
+      "madden": 51,
+      "ours": 68,
+      "delta": 17,
+      "verdict": "ADJUST",
+      "key_stats": [
+        "Blake Cashman 2025: PFF LB 2025 overall 63.5 on 789 snaps (LB rank 40; 375 run-def / 295 coverage / 119 pass-rush snaps); PFR 2025 coverage 35 targets / 26 completions / 304 yds / passer rating 109.7 / 0 INT; 144 tackles, 8 missed; 7 pressures on 58 blitzes, 2 sacks; 13 g / 790 def snaps; 60 solo + 83 ast tackles, 4 TFL, 2.0 sacks, 0 INT, 2 PD, 1 FF; 0 accepted penalties",
+        "Blake Cashman 2026: PFF LB 2026 overall 85.4 on 410 snaps (LB rank 2; 171 run-def / 154 coverage / 85 pass-rush snaps); PFR 2026 (6 games) coverage 19 targets / 13 completions / 120 yds / 0 INT; 54 tackles, 1 missed; 13 pressures on 42 blitzes; 7 g / 410 def snaps; 33 solo + 29 ast tackles, 7 TFL, 4.5 sacks, 0 INT, 5 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 35 targets / 26 completions / 304 yds / passer rating 109.7 / 0 INT; 144 tackles, 8 missed; 7 pressures on 58 blitzes, 2 sacks; PFR 2026 (6 games) coverage 19 targets / 13 completions / 120 yds / 0 INT; 54 tackles, 1 missed; 13 pressures on 42 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 406 / WILL 794 / SAM 0 / edge 0 (raw snapshots WILL25 220, MIKE25 1, MIKE26 270, WILL26 5) -> WILL; injuries wk7 Questionable (Hamstring); roster ACT"
+      ],
+      "basis": "blitz pressures and sacks (PFR), pass-rush snaps",
+      "proposed_revision": {
+        "attr": "PRS",
+        "from": 68,
+        "to": 72,
+        "why": "13 pressures on 42 blitzes and 4.5 sacks in 2026 (PFR/nflverse), 85 PFF pass-rush snaps; OVR unchanged",
+        "task_id": "WILL_REAUDIT_RATE_05",
+        "status": "PROPOSED_NOT_APPROVED"
+      }
+    },
+    {
+      "player": "Arvell Reese",
+      "attr": "PRS",
+      "madden": 50,
+      "ours": 66,
+      "delta": 16,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Arvell Reese 2025: no PFF LB grade 2025; no PFR 2025 line; no snaps; no stats; 0 accepted penalties",
+        "Arvell Reese 2026: PFF LB 2026 overall 77 on 438 snaps (LB rank 8; 176 run-def / 186 coverage / 76 pass-rush snaps); PFR 2026 (7 games) coverage 26 targets / 22 completions / 106 yds / 1 INT; 56 tackles, 3 missed; 5 pressures on 40 blitzes; 7 g / 438 def snaps; 38 solo + 17 ast tackles, 5 TFL, 1.5 sacks, 1 INT, 4 PD, 0 FF; 0 accepted penalties",
+        "no PFR 2025 line; PFR 2026 (7 games) coverage 26 targets / 22 completions / 106 yds / 1 INT; 56 tackles, 3 missed; 5 pressures on 40 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 438 / SAM 0 / edge 0 (raw snapshots WILL26 240) -> WILL; injuries no injury designation 2025-26; roster ACT"
+      ],
+      "basis": "blitz pressures and sacks (PFR), pass-rush snaps"
+    },
+    {
+      "player": "Foyesade Oluokun",
+      "attr": "AWR",
+      "madden": 91,
+      "ours": 80,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Foyesade Oluokun 2025: PFF LB 2025 overall 74.4 on 1100 snaps (LB rank 21; 354 run-def / 625 coverage / 121 pass-rush snaps); PFR 2025 coverage 78 targets / 64 completions / 566 yds / passer rating 91.6 / 1 INT; 143 tackles, 18 missed; 5 pressures on 72 blitzes, 1 sacks; 17 g / 1036 def snaps; 68 solo + 74 ast tackles, 5 TFL, 1.0 sacks, 1 INT, 11 PD, 2 FF; 1 accepted penalties",
+        "Foyesade Oluokun 2026: PFF LB 2026 overall 70.6 on 386 snaps (LB rank 18; 124 run-def / 217 coverage / 45 pass-rush snaps); PFR 2026 (6 games) coverage 29 targets / 22 completions / 195 yds / 2 INT; 42 tackles, 5 missed; 4 pressures on 22 blitzes; 7 g / 386 def snaps; 29 solo + 20 ast tackles, 3 TFL, 1.0 sacks, 2 INT, 2 PD, 1 FF; 0 accepted penalties",
+        "PFR 2025 coverage 78 targets / 64 completions / 566 yds / passer rating 91.6 / 1 INT; 143 tackles, 18 missed; 5 pressures on 72 blitzes, 1 sacks; PFR 2026 (6 games) coverage 29 targets / 22 completions / 195 yds / 2 INT; 42 tackles, 5 missed; 4 pressures on 22 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1422 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL; injuries no injury designation 2025-26; roster ACT"
+      ],
+      "basis": "PFF overall + penalties + missed tackles"
+    },
+    {
+      "player": "Foyesade Oluokun",
+      "attr": "PRC",
+      "madden": 90,
+      "ours": 78,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Foyesade Oluokun 2025: PFF LB 2025 overall 74.4 on 1100 snaps (LB rank 21; 354 run-def / 625 coverage / 121 pass-rush snaps); PFR 2025 coverage 78 targets / 64 completions / 566 yds / passer rating 91.6 / 1 INT; 143 tackles, 18 missed; 5 pressures on 72 blitzes, 1 sacks; 17 g / 1036 def snaps; 68 solo + 74 ast tackles, 5 TFL, 1.0 sacks, 1 INT, 11 PD, 2 FF; 1 accepted penalties",
+        "Foyesade Oluokun 2026: PFF LB 2026 overall 70.6 on 386 snaps (LB rank 18; 124 run-def / 217 coverage / 45 pass-rush snaps); PFR 2026 (6 games) coverage 29 targets / 22 completions / 195 yds / 2 INT; 42 tackles, 5 missed; 4 pressures on 22 blitzes; 7 g / 386 def snaps; 29 solo + 20 ast tackles, 3 TFL, 1.0 sacks, 2 INT, 2 PD, 1 FF; 0 accepted penalties",
+        "PFR 2025 coverage 78 targets / 64 completions / 566 yds / passer rating 91.6 / 1 INT; 143 tackles, 18 missed; 5 pressures on 72 blitzes, 1 sacks; PFR 2026 (6 games) coverage 29 targets / 22 completions / 195 yds / 2 INT; 42 tackles, 5 missed; 4 pressures on 22 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1422 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL; injuries no injury designation 2025-26; roster ACT"
+      ],
+      "basis": "TFL, INT/PD, PFF LB overall"
+    },
+    {
+      "player": "Foyesade Oluokun",
+      "attr": "TAK",
+      "madden": 90,
+      "ours": 78,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Foyesade Oluokun 2025: PFF LB 2025 overall 74.4 on 1100 snaps (LB rank 21; 354 run-def / 625 coverage / 121 pass-rush snaps); PFR 2025 coverage 78 targets / 64 completions / 566 yds / passer rating 91.6 / 1 INT; 143 tackles, 18 missed; 5 pressures on 72 blitzes, 1 sacks; 17 g / 1036 def snaps; 68 solo + 74 ast tackles, 5 TFL, 1.0 sacks, 1 INT, 11 PD, 2 FF; 1 accepted penalties",
+        "Foyesade Oluokun 2026: PFF LB 2026 overall 70.6 on 386 snaps (LB rank 18; 124 run-def / 217 coverage / 45 pass-rush snaps); PFR 2026 (6 games) coverage 29 targets / 22 completions / 195 yds / 2 INT; 42 tackles, 5 missed; 4 pressures on 22 blitzes; 7 g / 386 def snaps; 29 solo + 20 ast tackles, 3 TFL, 1.0 sacks, 2 INT, 2 PD, 1 FF; 0 accepted penalties",
+        "PFR 2025 coverage 78 targets / 64 completions / 566 yds / passer rating 91.6 / 1 INT; 143 tackles, 18 missed; 5 pressures on 72 blitzes, 1 sacks; PFR 2026 (6 games) coverage 29 targets / 22 completions / 195 yds / 2 INT; 42 tackles, 5 missed; 4 pressures on 22 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1422 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL; injuries no injury designation 2025-26; roster ACT"
+      ],
+      "basis": "tackles vs missed tackles (PFR)"
+    },
+    {
+      "player": "Alex Singleton",
+      "attr": "AWR",
+      "madden": 94,
+      "ours": 84,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Alex Singleton 2025: PFF LB 2025 overall 72.2 on 1171 snaps (LB rank 25; 422 run-def / 654 coverage / 95 pass-rush snaps); PFR 2025 coverage 70 targets / 54 completions / 629 yds / passer rating 122.9 / 0 INT; 135 tackles, 12 missed; 11 pressures on 55 blitzes, 1 sacks; 16 g / 1029 def snaps; 52 solo + 81 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 4 PD, 1 FF; 0 accepted penalties",
+        "Alex Singleton 2026: PFF LB 2026 overall 73.4 on 581 snaps (LB rank 10; 214 run-def / 324 coverage / 43 pass-rush snaps); PFR 2026 (7 games) coverage 35 targets / 24 completions / 215 yds / 0 INT; 86 tackles, 6 missed; 5 pressures on 22 blitzes; 8 g / 581 def snaps; 48 solo + 50 ast tackles, 5 TFL, 2.0 sacks, 0 INT, 2 PD, 0 FF; 2 accepted penalties",
+        "PFR 2025 coverage 70 targets / 54 completions / 629 yds / passer rating 122.9 / 0 INT; 135 tackles, 12 missed; 11 pressures on 55 blitzes, 1 sacks; PFR 2026 (7 games) coverage 35 targets / 24 completions / 215 yds / 0 INT; 86 tackles, 6 missed; 5 pressures on 22 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1610 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL; injuries wk11 Out (Illness); roster ACT"
+      ],
+      "basis": "PFF overall + penalties + missed tackles"
+    },
+    {
+      "player": "Alex Singleton",
+      "attr": "TAK",
+      "madden": 94,
+      "ours": 82,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Alex Singleton 2025: PFF LB 2025 overall 72.2 on 1171 snaps (LB rank 25; 422 run-def / 654 coverage / 95 pass-rush snaps); PFR 2025 coverage 70 targets / 54 completions / 629 yds / passer rating 122.9 / 0 INT; 135 tackles, 12 missed; 11 pressures on 55 blitzes, 1 sacks; 16 g / 1029 def snaps; 52 solo + 81 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 4 PD, 1 FF; 0 accepted penalties",
+        "Alex Singleton 2026: PFF LB 2026 overall 73.4 on 581 snaps (LB rank 10; 214 run-def / 324 coverage / 43 pass-rush snaps); PFR 2026 (7 games) coverage 35 targets / 24 completions / 215 yds / 0 INT; 86 tackles, 6 missed; 5 pressures on 22 blitzes; 8 g / 581 def snaps; 48 solo + 50 ast tackles, 5 TFL, 2.0 sacks, 0 INT, 2 PD, 0 FF; 2 accepted penalties",
+        "PFR 2025 coverage 70 targets / 54 completions / 629 yds / passer rating 122.9 / 0 INT; 135 tackles, 12 missed; 11 pressures on 55 blitzes, 1 sacks; PFR 2026 (7 games) coverage 35 targets / 24 completions / 215 yds / 0 INT; 86 tackles, 6 missed; 5 pressures on 22 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1610 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL; injuries wk11 Out (Illness); roster ACT"
+      ],
+      "basis": "tackles vs missed tackles (PFR)"
+    },
+    {
+      "player": "Alex Singleton",
+      "attr": "PRS",
+      "madden": 42,
+      "ours": 58,
+      "delta": 16,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Alex Singleton 2025: PFF LB 2025 overall 72.2 on 1171 snaps (LB rank 25; 422 run-def / 654 coverage / 95 pass-rush snaps); PFR 2025 coverage 70 targets / 54 completions / 629 yds / passer rating 122.9 / 0 INT; 135 tackles, 12 missed; 11 pressures on 55 blitzes, 1 sacks; 16 g / 1029 def snaps; 52 solo + 81 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 4 PD, 1 FF; 0 accepted penalties",
+        "Alex Singleton 2026: PFF LB 2026 overall 73.4 on 581 snaps (LB rank 10; 214 run-def / 324 coverage / 43 pass-rush snaps); PFR 2026 (7 games) coverage 35 targets / 24 completions / 215 yds / 0 INT; 86 tackles, 6 missed; 5 pressures on 22 blitzes; 8 g / 581 def snaps; 48 solo + 50 ast tackles, 5 TFL, 2.0 sacks, 0 INT, 2 PD, 0 FF; 2 accepted penalties",
+        "PFR 2025 coverage 70 targets / 54 completions / 629 yds / passer rating 122.9 / 0 INT; 135 tackles, 12 missed; 11 pressures on 55 blitzes, 1 sacks; PFR 2026 (7 games) coverage 35 targets / 24 completions / 215 yds / 0 INT; 86 tackles, 6 missed; 5 pressures on 22 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1610 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL; injuries wk11 Out (Illness); roster ACT"
+      ],
+      "basis": "blitz pressures and sacks (PFR), pass-rush snaps"
+    },
+    {
+      "player": "Demario Davis",
+      "attr": "OVR",
+      "madden": 90,
+      "ours": 79,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Demario Davis 2025: PFF LB 2025 overall 81.7 on 1079 snaps (LB rank 5; 492 run-def / 517 coverage / 70 pass-rush snaps); PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF; 2 accepted penalties",
+        "Demario Davis 2026: PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps); PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes; 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF; 1 accepted penalties",
+        "PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 163 / WILL 1448 / SAM 0 / edge 0 (raw snapshots MIKE25 5, WILL25 216, WILL26 203, MIKE26 72) -> WILL; injuries wk18 Questionable (Calf); roster ACT",
+        "approved H2H/tiebreak chain (6 head-to-heads + 6 tiebreaks) sets the order"
+      ],
+      "basis": "OVR follows the approved head-to-head chain"
+    },
+    {
+      "player": "Demario Davis",
+      "attr": "PRS",
+      "madden": 40,
+      "ours": 50,
+      "delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Demario Davis 2025: PFF LB 2025 overall 81.7 on 1079 snaps (LB rank 5; 492 run-def / 517 coverage / 70 pass-rush snaps); PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF; 2 accepted penalties",
+        "Demario Davis 2026: PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps); PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes; 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF; 1 accepted penalties",
+        "PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 163 / WILL 1448 / SAM 0 / edge 0 (raw snapshots MIKE25 5, WILL25 216, WILL26 203, MIKE26 72) -> WILL; injuries wk18 Questionable (Calf); roster ACT"
+      ],
+      "basis": "blitz pressures and sacks (PFR), pass-rush snaps"
+    },
+    {
+      "player": "Edgerrin Cooper",
+      "attr": "INJ",
+      "madden": 92,
+      "ours": 68,
+      "delta": -24,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Edgerrin Cooper 2025: PFF LB 2025 overall 75.8 on 1089 snaps (LB rank 17; 445 run-def / 574 coverage / 70 pass-rush snaps); PFR 2025 coverage 69 targets / 54 completions / 332 yds / passer rating 96.4 / 0 INT; 118 tackles, 13 missed; 5 pressures on 40 blitzes, 0.5 sacks; 16 g / 1046 def snaps; 61 solo + 55 ast tackles, 4 TFL, 0.5 sacks, 0 INT, 4 PD, 2 FF; 0 accepted penalties",
+        "Edgerrin Cooper 2026: PFF LB 2026 overall 60.1 on 227 snaps (LB rank 47; 99 run-def / 101 coverage / 27 pass-rush snaps); PFR 2026 (4 games) coverage 15 targets / 10 completions / 136 yds / 1 INT; 30 tackles, 2 missed; 3 pressures on 15 blitzes; 4 g / 227 def snaps; 15 solo + 12 ast tackles, 6 TFL, 3.0 sacks, 1 INT, 1 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 69 targets / 54 completions / 332 yds / passer rating 96.4 / 0 INT; 118 tackles, 13 missed; 5 pressures on 40 blitzes, 0.5 sacks; PFR 2026 (4 games) coverage 15 targets / 10 completions / 136 yds / 1 INT; 30 tackles, 2 missed; 3 pressures on 15 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 123 / WILL 1150 / SAM 0 / edge 0 (raw snapshots WILL25 195, MIKE25 26, WILL26 275) -> WILL; injuries wk4 Questionable (Shoulder); roster RES"
+      ],
+      "basis": "availability: injury reports, reserve/IR, games"
+    },
+    {
+      "player": "Divine Deablo",
+      "attr": "PRS",
+      "madden": 72,
+      "ours": 58,
+      "delta": -14,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Divine Deablo 2025: PFF LB 2025 overall 77.8 on 750 snaps (LB rank 12; 270 run-def / 430 coverage / 50 pass-rush snaps); PFR 2025 coverage 33 targets / 24 completions / 212 yds / passer rating 89.5 / 0 INT; 73 tackles, 5 missed; 4 pressures on 22 blitzes, 1 sacks; 13 g / 750 def snaps; 36 solo + 35 ast tackles, 5 TFL, 1.0 sacks, 0 INT, 7 PD, 0 FF; 1 accepted penalties",
+        "Divine Deablo 2026: PFF LB 2026 overall 60.9 on 349 snaps (LB rank 45; 104 run-def / 226 coverage / 19 pass-rush snaps); PFR 2026 (6 games) coverage 18 targets / 16 completions / 186 yds / 0 INT; 30 tackles, 1 missed; 2 pressures on 13 blitzes; 6 g / 348 def snaps; 14 solo + 15 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 33 targets / 24 completions / 212 yds / passer rating 89.5 / 0 INT; 73 tackles, 5 missed; 4 pressures on 22 blitzes, 1 sacks; PFR 2026 (6 games) coverage 18 targets / 16 completions / 186 yds / 0 INT; 30 tackles, 1 missed; 2 pressures on 13 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 441 / WILL 657 / SAM 0 / edge 0 (raw snapshots WILL25 129, MIKE25 92, MIKE26 102, WILL26 173) -> WILL; injuries wk8 Out (Forearm); wk5 Questionable (Hamstring); wk7 Out (Forearm); wk8 Questionable (Forearm); roster INA"
+      ],
+      "basis": "blitz pressures and sacks (PFR), pass-rush snaps"
+    },
+    {
+      "player": "Divine Deablo",
+      "attr": "INJ",
+      "madden": 86,
+      "ours": 74,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Divine Deablo 2025: PFF LB 2025 overall 77.8 on 750 snaps (LB rank 12; 270 run-def / 430 coverage / 50 pass-rush snaps); PFR 2025 coverage 33 targets / 24 completions / 212 yds / passer rating 89.5 / 0 INT; 73 tackles, 5 missed; 4 pressures on 22 blitzes, 1 sacks; 13 g / 750 def snaps; 36 solo + 35 ast tackles, 5 TFL, 1.0 sacks, 0 INT, 7 PD, 0 FF; 1 accepted penalties",
+        "Divine Deablo 2026: PFF LB 2026 overall 60.9 on 349 snaps (LB rank 45; 104 run-def / 226 coverage / 19 pass-rush snaps); PFR 2026 (6 games) coverage 18 targets / 16 completions / 186 yds / 0 INT; 30 tackles, 1 missed; 2 pressures on 13 blitzes; 6 g / 348 def snaps; 14 solo + 15 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 33 targets / 24 completions / 212 yds / passer rating 89.5 / 0 INT; 73 tackles, 5 missed; 4 pressures on 22 blitzes, 1 sacks; PFR 2026 (6 games) coverage 18 targets / 16 completions / 186 yds / 0 INT; 30 tackles, 1 missed; 2 pressures on 13 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 441 / WILL 657 / SAM 0 / edge 0 (raw snapshots WILL25 129, MIKE25 92, MIKE26 102, WILL26 173) -> WILL; injuries wk8 Out (Forearm); wk5 Questionable (Hamstring); wk7 Out (Forearm); wk8 Questionable (Forearm); roster INA"
+      ],
+      "basis": "availability: injury reports, reserve/IR, games"
+    },
+    {
+      "player": "Drake Thomas",
+      "attr": "PRS",
+      "madden": 46,
+      "ours": 62,
+      "delta": 16,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Drake Thomas 2025: PFF LB 2025 overall 72.9 on 871 snaps (LB rank 23; 315 run-def / 476 coverage / 80 pass-rush snaps); PFR 2025 coverage 59 targets / 41 completions / 409 yds / passer rating 81.8 / 1 INT; 96 tackles, 13 missed; 7 pressures on 41 blitzes, 3.5 sacks; 17 g / 764 def snaps; 45 solo + 49 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 8 PD, 0 FF; 1 accepted penalties",
+        "Drake Thomas 2026: PFF LB 2026 overall 59.9 on 336 snaps (LB rank 48; 143 run-def / 173 coverage / 20 pass-rush snaps); PFR 2026 (5 games) coverage 17 targets / 10 completions / 83 yds / 1 INT; 35 tackles, 4 missed; 4 pressures on 7 blitzes; 6 g / 336 def snaps; 20 solo + 15 ast tackles, 4 TFL, 1.0 sacks, 1 INT, 1 PD, 1 FF; 0 accepted penalties",
+        "PFR 2025 coverage 59 targets / 41 completions / 409 yds / passer rating 81.8 / 1 INT; 96 tackles, 13 missed; 7 pressures on 41 blitzes, 3.5 sacks; PFR 2026 (5 games) coverage 17 targets / 10 completions / 83 yds / 1 INT; 35 tackles, 4 missed; 4 pressures on 7 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1003 / SAM 97 / edge 0 (raw snapshots WILL25 193, SAM25 28, WILL26 275) -> WILL; injuries wk6 Out (Ankle); wk7 Out (Ankle); roster ACT"
+      ],
+      "basis": "blitz pressures and sacks (PFR), pass-rush snaps"
+    },
+    {
+      "player": "Kaden Elliss",
+      "attr": "AWR",
+      "madden": 90,
+      "ours": 80,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Kaden Elliss 2025: PFF LB 2025 overall 67.8 on 1102 snaps (LB rank 31; 432 run-def / 496 coverage / 174 pass-rush snaps); PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF; 0 accepted penalties",
+        "Kaden Elliss 2026: PFF LB 2026 overall 72.2 on 269 snaps (LB rank 14; 109 run-def / 125 coverage / 35 pass-rush snaps); PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes; 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 524 / WILL 848 / SAM 0 / edge 0 (raw snapshots WILL25 116, MIKE25 105, WILL26 275) -> WILL; injuries wk4 Out (Calf); wk5 Out (Calf); wk6 Out (Calf); roster ACT"
+      ],
+      "basis": "PFF overall + penalties + missed tackles"
+    },
+    {
+      "player": "Kaden Elliss",
+      "attr": "MCV",
+      "madden": 66,
+      "ours": 56,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Kaden Elliss 2025: PFF LB 2025 overall 67.8 on 1102 snaps (LB rank 31; 432 run-def / 496 coverage / 174 pass-rush snaps); PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF; 0 accepted penalties",
+        "Kaden Elliss 2026: PFF LB 2026 overall 72.2 on 269 snaps (LB rank 14; 109 run-def / 125 coverage / 35 pass-rush snaps); PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes; 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 524 / WILL 848 / SAM 0 / edge 0 (raw snapshots WILL25 116, MIKE25 105, WILL26 275) -> WILL; injuries wk4 Out (Calf); wk5 Out (Calf); wk6 Out (Calf); roster ACT"
+      ],
+      "basis": "PFR coverage targets/completions/yards/INT, PD"
+    },
+    {
+      "player": "Kaden Elliss",
+      "attr": "ZCV",
+      "madden": 74,
+      "ours": 64,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Kaden Elliss 2025: PFF LB 2025 overall 67.8 on 1102 snaps (LB rank 31; 432 run-def / 496 coverage / 174 pass-rush snaps); PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF; 0 accepted penalties",
+        "Kaden Elliss 2026: PFF LB 2026 overall 72.2 on 269 snaps (LB rank 14; 109 run-def / 125 coverage / 35 pass-rush snaps); PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes; 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 524 / WILL 848 / SAM 0 / edge 0 (raw snapshots WILL25 116, MIKE25 105, WILL26 275) -> WILL; injuries wk4 Out (Calf); wk5 Out (Calf); wk6 Out (Calf); roster ACT"
+      ],
+      "basis": "PFR coverage allowed, INT/PD, coverage snaps"
+    },
+    {
+      "player": "Kaden Elliss",
+      "attr": "PRS",
+      "madden": 45,
+      "ours": 72,
+      "delta": 27,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Kaden Elliss 2025: PFF LB 2025 overall 67.8 on 1102 snaps (LB rank 31; 432 run-def / 496 coverage / 174 pass-rush snaps); PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF; 0 accepted penalties",
+        "Kaden Elliss 2026: PFF LB 2026 overall 72.2 on 269 snaps (LB rank 14; 109 run-def / 125 coverage / 35 pass-rush snaps); PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes; 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes",
+        "role snap-weighted 2025-26 depth-chart role shares MIKE 524 / WILL 848 / SAM 0 / edge 0 (raw snapshots WILL25 116, MIKE25 105, WILL26 275) -> WILL; injuries wk4 Out (Calf); wk5 Out (Calf); wk6 Out (Calf); roster ACT"
+      ],
+      "basis": "blitz pressures and sacks (PFR), pass-rush snaps"
+    }
+  ],
+  "madden_used_as_evidence": false,
+  "madden_order_verified": false,
+  "variance_threshold": 10,
+  "metrics_used": [
+    "PFF LB overall grades 2025-26",
+    "PFF LB run-def/coverage/pass-rush snap counts (sub-grades paywalled)",
+    "PFR coverage allowed, tackles/missed tackles, blitz pressures",
+    "nflverse tackles/TFL/sacks/INT/PD/FF",
+    "accepted penalties",
+    "games/snaps",
+    "injury reports and roster status",
+    "depth-chart LB role"
+  ],
+  "evidence_fixes_applied_before_audit": [],
+  "drafted_fixes_pending_review": [
+    {
+      "player": "Blake Cashman",
+      "attr": "PRS",
+      "from": 68,
+      "to": 72,
+      "why": "13 pressures on 42 blitzes and 4.5 sacks in 2026 (PFR/nflverse), 85 PFF pass-rush snaps; OVR unchanged",
+      "task_id": "WILL_REAUDIT_RATE_05",
+      "status": "PROPOSED_NOT_APPROVED"
+    }
+  ],
+  "summary": "Every overall and attribute rating 10+ from Madden 27 audited (t46u): 19 gaps (12 below Madden, 7 above). 18 SUPPORTED on LB evidence; 1 ADJUST with drafted add-only revisions NOT approved or applied: Blake Cashman PRS 68->72. 1 OVR gaps: Demario Davis -11. Overalls unchanged by the drafts. Madden is reference only.",
+  "major_flags": [
+    "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false
+}
+```
