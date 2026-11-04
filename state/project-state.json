@@ -21589,7 +21589,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:32:25Z",
-      "updated_at": "2026-11-04T19:32:25Z",
+      "updated_at": "2026-11-04T19:32:25.867Z",
       "audit_ids": [
         "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1",
         "LEDGE_REAUDIT_BG_01_A1",
@@ -21633,7 +21633,8 @@
         "LEDGE_REAUDIT_TIEBREAK_05_A1",
         "LEDGE_REAUDIT_TIEBREAK_06_A1",
         "LEDGE_REAUDIT_TIEBREAK_07_A1",
-        "LEDGE_REAUDIT_TIEBREAK_08_A1"
+        "LEDGE_REAUDIT_TIEBREAK_08_A1",
+        "LEDGE_REAUDIT_RATE_04_A2"
       ],
       "completed_tasks": [
         "LEDGE_REAUDIT_CANDIDATE_AUDIT",
@@ -22239,21 +22240,26 @@
             "approved_by": "PhiXCrypto",
             "approved_at": "2026-11-04T11:11:26Z"
           }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_04",
+          "audit_id": "LEDGE_REAUDIT_RATE_04_A2",
+          "supersedes": "LEDGE_REAUDIT_RATE_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "User-approved card t56s532: Maxx Crosby INJ 78->84, OVR 86 unchanged. Availability note corrected: 'never off the field' was inaccurate - he played 15 of 17 games in 2025 (wk14 Questionable, wk17 Out, knee) a"
         }
       ],
       "current_stage": "carry_forward",
       "current_task": null,
       "awaiting": null,
       "last_result": {
-        "status": "CARRIED_FORWARD",
-        "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
-        "carried": 43,
-        "rerun": [
-          "LEDGE_REAUDIT_VARIANCE_AUDIT",
-          "LEDGE_REAUDIT_SCARCITY",
-          "LEDGE_REAUDIT_CROSS_AUDIT",
-          "LEDGE_REAUDIT_LOCK"
-        ]
+        "task_id": "LEDGE_REAUDIT_RATE_04",
+        "status": "REVISION_APPROVED",
+        "audit_id": "LEDGE_REAUDIT_RATE_04_A2",
+        "supersedes": "LEDGE_REAUDIT_RATE_04_A1",
+        "flags": []
       }
     }
   ]
