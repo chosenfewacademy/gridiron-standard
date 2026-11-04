@@ -1,0 +1,39 @@
+# TE_REAUDIT_TIEBREAK_01 — George Kittle vs Dalton Kincaid (v1.1.2 head-to-head tiebreak; authorized by t45s383)
+
+```json
+{
+  "audit_id": "TE_REAUDIT_TIEBREAK_01_A1",
+  "task_id": "TE_REAUDIT_TIEBREAK_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "George Kittle",
+    "Dalton Kincaid"
+  ],
+  "pair_result": {
+    "winner": "George Kittle",
+    "loser": "Dalton Kincaid",
+    "provisional_order_holds": true,
+    "reasoning": "Untested 2v3 after drafted flip (90/88). Kittle leads 2025 PFF (90.7 vs 86.7), 2026 PFF (79.5 vs 77.0), YPRR 2026 (2.35 vs 2.29), TD (12 vs 7 over two years), 3rd-down 2025 (11/20 vs 7/14) and blocking (block share .45 vs .27/.44). Kincaid leads EPA/tgt (+.788/+.481 vs +.671/+.349) and YAC 2025. Kittle on two-way value. Order holds.",
+    "key_evidence_for_winner": [
+      "George Kittle PFF TE overall grade 2026 79.5, 2025 90.7; 2026 PFF snaps {'off': '331', 'routes': '181', 'pblk': '20', 'rblk': '130'} (block share 0.45); 2025 PFF snaps {'off': '567', 'routes': '309', 'pblk': '30', 'rblk': '227'} (block share 0.45); age 33, 76 in 250 lb",
+      "George Kittle (SF) 2026: 7 g 46 tgt 425 yds 5 TD, EPA/tgt 0.349, YPRR 2.35, TPRR 0.254, NGS sep 3.25, aDOT 7.7, deep 3 tgt catch 0.33 EPA/tgt 0.53, short catch 0.82, YAC/rec 6.3, RZ tgt 11, 3rd/4th conv 3/7, fum lost 1",
+      "George Kittle (SF) 2025: 11 g 69 tgt 628 yds 7 TD, EPA/tgt 0.671, YPRR 2.03, TPRR 0.223, NGS sep 3.63, aDOT 6.7, deep 4 tgt catch 0.75 EPA/tgt 1.56, short catch 0.85, YAC/rec 4.4, RZ tgt 13, 3rd/4th conv 11/20, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Dalton Kincaid PFF TE overall grade 2026 77.0, 2025 86.7; 2026 PFF snaps {'off': '310', 'routes': '175', 'pblk': '8', 'rblk': '127'} (block share 0.44); 2025 PFF snaps {'off': '368', 'routes': '269', 'pblk': '3', 'rblk': '96'} (block share 0.27); age 27, 75 in 246 lb",
+      "Dalton Kincaid (BUF) 2026: 7 g 36 tgt 401 yds 2 TD, EPA/tgt 0.481, YPRR 2.29, TPRR 0.206, NGS sep 3.16, aDOT 10.1, deep 5 tgt catch 0.8 EPA/tgt 2.08, short catch 0.79, YAC/rec 5.6, RZ tgt 7, 3rd/4th conv 2/6, fum lost 1",
+      "Dalton Kincaid (BUF) 2025: 12 g 50 tgt 571 yds 5 TD, EPA/tgt 0.788, YPRR 2.12, TPRR 0.186, NGS sep 3.42, aDOT 9.5, deep 6 tgt catch 0.5 EPA/tgt 0.85, short catch 0.91, YAC/rec 6.6, RZ tgt 9, 3rd/4th conv 7/14, fum lost 0"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```

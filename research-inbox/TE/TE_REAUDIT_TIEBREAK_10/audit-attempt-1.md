@@ -1,0 +1,39 @@
+# TE_REAUDIT_TIEBREAK_10 — Michael Mayer vs Kyle Pitts (v1.1.2 head-to-head tiebreak; authorized by t45s383)
+
+```json
+{
+  "audit_id": "TE_REAUDIT_TIEBREAK_10_A1",
+  "task_id": "TE_REAUDIT_TIEBREAK_10",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Michael Mayer",
+    "Kyle Pitts"
+  ],
+  "pair_result": {
+    "winner": "Michael Mayer",
+    "loser": "Kyle Pitts",
+    "provisional_order_holds": true,
+    "reasoning": "75 tie after drafted revision. Mayer leads 2026 PFF (75.2 vs 62.0), EPA/tgt (+.259 vs +.062), YPRR (1.43 vs 1.15), volume (43 vs 32 tgt) and blocking (block share .44 vs .40). Pitts leads 2025 volume (119 tgt, 928 yds, PFF 73.6 vs 64.6) and TD 2026 (4 vs 1). Mayer on current play; proposed Pitts 74.",
+    "key_evidence_for_winner": [
+      "Michael Mayer PFF TE overall grade 2026 75.2, 2025 64.6; 2026 PFF snaps {'off': '440', 'routes': '245', 'pblk': '35', 'rblk': '160'} (block share 0.44); 2025 PFF snaps {'off': '465', 'routes': '238', 'pblk': '41', 'rblk': '186'} (block share 0.49); age 25, 76 in 256 lb",
+      "Michael Mayer (LV) 2026: 8 g 43 tgt 351 yds 1 TD, EPA/tgt 0.259, YPRR 1.43, TPRR 0.176, NGS sep 3.25, aDOT 5.1, deep 1 tgt catch 1.0 EPA/tgt 3.53, short catch 0.89, YAC/rec 5.2, RZ tgt 3, 3rd/4th conv 4/7, fum lost 0",
+      "Michael Mayer (LV) 2025: 13 g 50 tgt 328 yds 1 TD, EPA/tgt -0.197, YPRR 1.38, TPRR 0.21, NGS sep 3.35, aDOT 4.8, deep 2 tgt catch 0.0 EPA/tgt -2.18, short catch 0.73, YAC/rec 5.6, RZ tgt 6, 3rd/4th conv 6/17, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Kyle Pitts PFF TE overall grade 2026 62.0, 2025 73.6; 2026 PFF snaps {'off': '287', 'routes': '172', 'pblk': '12', 'rblk': '103'} (block share 0.4); 2025 PFF snaps {'off': '961', 'routes': '573', 'pblk': '23', 'rblk': '365'} (block share 0.4); age 26, 78 in 250 lb",
+      "Kyle Pitts (ATL) 2026: 8 g 32 tgt 197 yds 4 TD, EPA/tgt 0.062, YPRR 1.15, TPRR 0.186, NGS sep 3.13, aDOT 5.0, deep 2 tgt catch 0.0 EPA/tgt -1.27, short catch 0.77, YAC/rec 6.0, RZ tgt 7, 3rd/4th conv 4/9, fum lost 0",
+      "Kyle Pitts (ATL) 2025: 17 g 119 tgt 928 yds 5 TD, EPA/tgt 0.207, YPRR 1.62, TPRR 0.208, NGS sep 3.51, aDOT 7.4, deep 8 tgt catch 0.25 EPA/tgt -0.44, short catch 0.81, YAC/rec 4.5, RZ tgt 13, 3rd/4th conv 19/44, fum lost 0"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
