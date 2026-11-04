@@ -6124,7 +6124,7 @@
         "position": "RG",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/RG.reaudit.json",
       "baseline_file": null,
@@ -6172,7 +6172,8 @@
         "RG_REAUDIT_TIEBREAK_03",
         "RG_REAUDIT_TIEBREAK_04",
         "RG_REAUDIT_TIEBREAK_05",
-        "RG_REAUDIT_TIEBREAK_06"
+        "RG_REAUDIT_TIEBREAK_06",
+        "RG_REAUDIT_VARIANCE_AUDIT"
       ],
       "audit_ids": [
         "RG_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -6218,7 +6219,7 @@
       ],
       "current_stage": "variance_audit",
       "current_task": "RG_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T03:50:09.043Z",
+      "updated_at": "2026-11-04T03:50:15.622Z",
       "last_result": {
         "task_id": "RG_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
@@ -6227,11 +6228,7 @@
           "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "RG_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "RG_REAUDIT_VARIANCE_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -6544,6 +6541,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:49:26Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RG_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "RG_REAUDIT_VARIANCE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:50:15Z",
+          "note": "Standing commissioner approval t46u: variance audit; drafted fixes approved (Meinerz RBF 82->88, Trey Smith AWR 78->82)"
         }
       ]
     }
