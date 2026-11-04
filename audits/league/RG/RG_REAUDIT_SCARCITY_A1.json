@@ -1,0 +1,455 @@
+{
+  "audit_id": "RG_REAUDIT_SCARCITY_A1",
+  "task_id": "RG_REAUDIT_SCARCITY",
+  "task_type": "scarcity_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Chris Lindstrom",
+    "Quinn Meinerz",
+    "Jonah Jackson",
+    "Tyler Booker",
+    "Dalton Risner",
+    "Joe Tippmann",
+    "Sam Cosmi",
+    "Trey Smith",
+    "Mason McCormick",
+    "Dominick Puni"
+  ],
+  "scarcity": {
+    "rules": "config/scarcity-rules.json (90+ elite, 95+ rare league-defining, 97+ extraordinary, 99 historic)",
+    "traits_90_plus": [
+      {
+        "player": "Chris Lindstrom",
+        "attr": "STR",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Chris Lindstrom",
+        "attr": "AWR",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Chris Lindstrom",
+        "attr": "STA",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Chris Lindstrom",
+        "attr": "TGH",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Chris Lindstrom",
+        "attr": "PBK",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Chris Lindstrom",
+        "attr": "PBF",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Chris Lindstrom",
+        "attr": "RBK",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Chris Lindstrom",
+        "attr": "RBP",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Chris Lindstrom",
+        "attr": "RBF",
+        "v": 96,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Chris Lindstrom",
+        "attr": "IBL",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Chris Lindstrom",
+        "attr": "LBK",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Quinn Meinerz",
+        "attr": "STR",
+        "v": 96,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Quinn Meinerz",
+        "attr": "AWR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Quinn Meinerz",
+        "attr": "INJ",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Quinn Meinerz",
+        "attr": "STA",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Quinn Meinerz",
+        "attr": "TGH",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Quinn Meinerz",
+        "attr": "PBK",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Quinn Meinerz",
+        "attr": "PBP",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Quinn Meinerz",
+        "attr": "RBK",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Quinn Meinerz",
+        "attr": "RBP",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Quinn Meinerz",
+        "attr": "IBL",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jonah Jackson",
+        "attr": "AWR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jonah Jackson",
+        "attr": "INJ",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jonah Jackson",
+        "attr": "STA",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Tyler Booker",
+        "attr": "STR",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Tyler Booker",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Tyler Booker",
+        "attr": "TGH",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Tyler Booker",
+        "attr": "RBP",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Tyler Booker",
+        "attr": "IBL",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Dalton Risner",
+        "attr": "RBF",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Joe Tippmann",
+        "attr": "STA",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Joe Tippmann",
+        "attr": "LBK",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Sam Cosmi",
+        "attr": "LBK",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Trey Smith",
+        "attr": "STR",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Trey Smith",
+        "attr": "TGH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Trey Smith",
+        "attr": "RBP",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Trey Smith",
+        "attr": "IBL",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Mason McCormick",
+        "attr": "INJ",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Mason McCormick",
+        "attr": "STA",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Dominick Puni",
+        "attr": "STR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Dominick Puni",
+        "attr": "INJ",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Dominick Puni",
+        "attr": "STA",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      }
+    ],
+    "count_90_plus": 42,
+    "count_95_plus": 5,
+    "count_97_plus": 0,
+    "count_99": 0,
+    "traits_95_plus": [
+      "Chris Lindstrom RBK 95 (LEAGUE_DEFINING)",
+      "Chris Lindstrom RBF 96 (LEAGUE_DEFINING)",
+      "Quinn Meinerz STR 96 (LEAGUE_DEFINING)",
+      "Quinn Meinerz STA 95 (LEAGUE_DEFINING)",
+      "Quinn Meinerz RBP 95 (LEAGUE_DEFINING)"
+    ],
+    "max_trait": "Chris Lindstrom RBF 96 (LEAGUE_DEFINING)",
+    "all_90_plus_have_tiered_sourced_evidence": true,
+    "league_defining_basis": {
+      "Chris Lindstrom RBK 95 / RBF 96 / OVR 92": "PFF #2 G in 2025 (88.3, All-Pro) and #1 G in 2026 (88.1); the only right guard on both ESPN IOL lists (PBWR 91%, RBWR 76%); 463 + 219 run-block snaps - the league's defining zone-run guard of 2025-26",
+      "Quinn Meinerz STR 96 / RBP 95 / STA 95": "PFF #1 G in 2025 (89.0 on 1,239 snaps, All-Pro) and 83.4 in 2026; 25/25 games and 1,729 PFF snaps over two seasons; the strongest power anchor at the position"
+    },
+    "overall_90_plus": [
+      "Chris Lindstrom 92"
+    ],
+    "overall_spread": "92 to 76 across top 10; star tier Lindstrom 92 / Meinerz 89, then Jackson 84; 5-point gap from #2 to #3 (only the two All-Pros sustained elite grades across both seasons)",
+    "style_rule": {
+      "pairs_checked": 78,
+      "too_similar": 0,
+      "highest_corr": [
+        0.944,
+        7.12,
+        "Tyler Booker",
+        "Quinn Meinerz"
+      ],
+      "min_mad": 3.88
+    },
+    "effective_ratings": {
+      "Chris Lindstrom": [
+        "RG_REAUDIT_RATE_01_A1",
+        92
+      ],
+      "Quinn Meinerz": [
+        "RG_REAUDIT_RATE_02_A2",
+        89
+      ],
+      "Jonah Jackson": [
+        "RG_REAUDIT_RATE_03_A1",
+        84
+      ],
+      "Tyler Booker": [
+        "RG_REAUDIT_RATE_04_A1",
+        83
+      ],
+      "Dalton Risner": [
+        "RG_REAUDIT_RATE_05_A1",
+        81
+      ],
+      "Joe Tippmann": [
+        "RG_REAUDIT_RATE_06_A1",
+        80
+      ],
+      "Sam Cosmi": [
+        "RG_REAUDIT_RATE_07_A1",
+        79
+      ],
+      "Trey Smith": [
+        "RG_REAUDIT_RATE_08_A2",
+        78
+      ],
+      "Mason McCormick": [
+        "RG_REAUDIT_RATE_09_A1",
+        77
+      ],
+      "Dominick Puni": [
+        "RG_REAUDIT_RATE_10_A1",
+        76
+      ],
+      "Mike Onwenu": [
+        "RG_REAUDIT_RATE_11_A1",
+        75
+      ],
+      "Kevin Dotson": [
+        "RG_REAUDIT_RATE_12_A1",
+        74
+      ],
+      "Ed Ingram": [
+        "RG_REAUDIT_RATE_13_A1",
+        73
+      ]
+    },
+    "note_for_commissioner": "5 traits at 95+ (all LEAGUE_DEFINING; no 97+), each tiered and sourced.",
+    "result": "PASS: 5 95+ traits, all tiered (LEAGUE_DEFINING/EXTRAORDINARY) with sources; 42 90+ traits all tiered; overalls 90+: Chris Lindstrom 92; style rule 78 pairs, 0 too similar"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
