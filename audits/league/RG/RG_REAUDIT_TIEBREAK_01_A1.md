@@ -1,0 +1,40 @@
+# RG_REAUDIT_TIEBREAK_01 — Quinn Meinerz vs Jonah Jackson (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "RG_REAUDIT_TIEBREAK_01_A1",
+  "task_id": "RG_REAUDIT_TIEBREAK_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Quinn Meinerz",
+    "Jonah Jackson"
+  ],
+  "pair_result": {
+    "winner": "Quinn Meinerz",
+    "loser": "Jonah Jackson",
+    "provisional_order_holds": true,
+    "reasoning": "Meinerz: PFF 89.0 (#1 G, All-Pro) / 83.4, 2 penalties in two seasons. Jackson: 72.2 / 83.8. 2026 is even; Meinerz's elite 2025 decides it.",
+    "key_evidence_for_winner": [
+      "Quinn Meinerz (DEN) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 225}; roster ACT",
+      "Quinn Meinerz 2026: PFF 83.4 (rank 5; 296 pass-block/194 run-block of 490 snaps); 8 g/488 snaps; penalties 1; injuries none",
+      "Quinn Meinerz 2025: PFF 89 (rank 1; 797 pass-block/442 run-block of 1239 snaps); 17 g/1108 snaps; penalties 1; injuries none"
+    ],
+    "key_evidence_for_loser": [
+      "Jonah Jackson (CHI) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 225}; roster ACT",
+      "Jonah Jackson 2026: PFF 83.8 (rank 4; 322 pass-block/251 run-block of 573 snaps); 8 g/572 snaps; penalties 1; injuries none",
+      "Jonah Jackson 2025: PFF 72.2 (rank 18; 772 pass-block/520 run-block of 1292 snaps); 17 g/1133 snaps; penalties 4; injuries none"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
