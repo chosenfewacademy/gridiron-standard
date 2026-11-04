@@ -1,0 +1,219 @@
+# CB_REAUDIT_BG_04 — Jamel Dean background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "CB_REAUDIT_BG_04_A1",
+  "task_id": "CB_REAUDIT_BG_04",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "player_id": "ext_00-0035699",
+  "players": [
+    "Jamel Dean"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Jamel Dean",
+    "player_id": "ext_00-0035699",
+    "team": "PIT",
+    "role_assignment": "CB (single list)",
+    "side_rule": "CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/grades/nfl/cb) in the current 2026 season (2025 if no 2026 snaps); outside and slot corners compete in the same list; a player PFF grades at S in 2026 (e.g. Cooper DeJean) belongs to the safety list. Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "tampa-bay-buccaneers",
+        "ovr": 80.6,
+        "snaps": 661,
+        "rank": 5,
+        "rdef": 214,
+        "cov": 443
+      },
+      "2026": {
+        "team": "pittsburgh-steelers",
+        "ovr": 83.1,
+        "snaps": 357,
+        "rank": 4,
+        "rdef": 119,
+        "cov": 238
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "TB",
+        "pos": "CB",
+        "g": "14",
+        "tgt": "59",
+        "cmp": "29",
+        "yds": "424",
+        "td": "2",
+        "rat": "63.1",
+        "int": "3",
+        "comb": "46",
+        "m_tkl": "1"
+      },
+      "2026": {
+        "def_targets": 38.0,
+        "def_completions_allowed": 21.0,
+        "def_yards_allowed": 287.0,
+        "def_ints": 1.0,
+        "def_receiving_td_allowed": 0.0,
+        "def_tackles_combined": 25.0,
+        "def_missed_tackles": 2.0,
+        "g": 6
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 14,
+        "defs": 660
+      },
+      "2026": {
+        "games": 7,
+        "defs": 357
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 38.0,
+        "def_tackle_assists": 8.0,
+        "def_tackles_for_loss": 1.0,
+        "def_fumbles_forced": 2.0,
+        "def_sacks": 1.0,
+        "def_qb_hits": 2.0,
+        "def_pass_defended": 9.0,
+        "def_interceptions": 3.0
+      },
+      "2026": {
+        "def_tackles_solo": 19.0,
+        "def_tackle_assists": 11.0,
+        "def_tackles_for_loss": 0.0,
+        "def_fumbles_forced": 3.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 8.0,
+        "def_interceptions": 1.0
+      }
+    },
+    "penalties": {
+      "2025": 3,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk5 Out (Hip)",
+        "wk12 Out (Hip)",
+        "wk13 Questionable (Hip)",
+        "wk18 Out (Shoulder)"
+      ],
+      "2026": [
+        "wk3 Questionable (Ankle)",
+        "wk5 Out (Ankle)",
+        "wk6 Questionable (Ankle)"
+      ]
+    },
+    "summary_lines": [
+      "Jamel Dean (PIT) Jamel Dean 2026: PFF CB 2026 overall 83.1 on 357 snaps (CB rank 4; 238 coverage / 119 run-def snaps); PFR 2026 (6 games) coverage 38 targets / 21 completions / 287 yds / 0 TD / 1 INT; 25 tackles, 2 missed; 7 g / 357 def snaps; 19 solo + 11 ast tackles, 0 TFL, 1 INT, 8 PD, 3 FF; 0 accepted penalties",
+      "Jamel Dean 2025: PFF CB 2025 overall 80.6 on 661 snaps (CB rank 5; 443 coverage / 214 run-def snaps); PFR 2025 coverage 59 targets / 29 completions / 424 yds / 2 TD / passer rating 63.1 / 3 INT; 46 tackles, 1 missed; 14 g / 660 def snaps; 38 solo + 8 ast tackles, 1 TFL, 3 INT, 9 PD, 2 FF; 3 accepted penalties",
+      "Jamel Dean role: single CB list (no outside/slot split); roster position DB (CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/g...); roster position DB; Madden card CB (reference only)",
+      "Jamel Dean injury reports: wk12 Out (Hip); wk13 Questionable (Hip); wk18 Out (Shoulder); wk3 Questionable (Ankle); wk5 Out (Ankle); wk6 Questionable (Ankle); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF coverage/run-defense/tackling sub-grades and slot/outside splits are paywalled; no public tracking data for CB speed or separation; substitutes: PFF CB overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "CTH",
+      "JMP",
+      "TAK",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/cb/2026",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/cb/2025",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:12Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
