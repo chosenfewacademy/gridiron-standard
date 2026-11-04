@@ -1,0 +1,218 @@
+# DT_REAUDIT_BG_01 — Jeffery Simmons background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "DT_REAUDIT_BG_01_A1",
+  "task_id": "DT_REAUDIT_BG_01",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "player_id": "ext_00-0035643",
+  "players": [
+    "Jeffery Simmons"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Jeffery Simmons",
+    "player_id": "ext_00-0035643",
+    "team": "CHI",
+    "side_assignment": {
+      "DT": 285,
+      "DE": 211
+    },
+    "side_rule": "DT BUCKET (t46u): interior defensive linemen graded by PFF as DI (pff.com/grades/nfl/di), aligned at DT/NT or 3-4 DE (interior) in nflverse 2025-26 depth charts; edge-graded players belong to LEDGE/REDGE. DT has no left/right split.",
+    "pff": {
+      "2025": {
+        "team": "tennessee-titans",
+        "ovr": 88.3,
+        "snaps": 764,
+        "rank": 3,
+        "status": "A"
+      },
+      "2026": {
+        "team": "chicago-bears",
+        "ovr": 79.4,
+        "snaps": 480,
+        "rank": 4,
+        "status": "A"
+      }
+    },
+    "pressures": {
+      "2025": {
+        "tm": "TEN",
+        "pos": "DT",
+        "g": "15",
+        "prss": "32",
+        "hrry": "11",
+        "qbkd": "9",
+        "sk": "11",
+        "comb": "67",
+        "m_tkl": "7"
+      },
+      "2026": {
+        "def_pressures": 13.0,
+        "def_times_hurried": 5.0,
+        "def_times_hitqb": 4.0,
+        "def_sacks": 4.0,
+        "def_tackles_combined": 34.0,
+        "def_missed_tackles": 3.0,
+        "g": 6
+      }
+    },
+    "espn_win_rates": {
+      "prwr": {
+        "rank": 4,
+        "wins": 36,
+        "plays": 145,
+        "rate": 25,
+        "dt_pct": 84
+      },
+      "rswr": null
+    },
+    "snaps": {
+      "2025": {
+        "games": 15,
+        "defs": 764
+      },
+      "2026": {
+        "games": 8,
+        "defs": 480
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 37.0,
+        "def_tackle_assists": 28.0,
+        "def_tackles_for_loss": 17.0,
+        "def_fumbles_forced": 3.0,
+        "def_sacks": 11.0,
+        "def_qb_hits": 21.0,
+        "def_pass_defended": 3.0
+      },
+      "2026": {
+        "def_tackles_solo": 20.0,
+        "def_tackle_assists": 18.0,
+        "def_tackles_for_loss": 6.0,
+        "def_fumbles_forced": 1.0,
+        "def_sacks": 4.0,
+        "def_qb_hits": 9.0,
+        "def_pass_defended": 3.0
+      }
+    },
+    "penalties": {
+      "2025": 10,
+      "2026": 3
+    },
+    "injuries": {
+      "2025": [
+        "wk8 Out (Hamstring)",
+        "wk9 Out (Hamstring)",
+        "wk11 Questionable (Hamstring)"
+      ]
+    },
+    "summary_lines": [
+      "Jeffery Simmons (CHI) Jeffery Simmons 2026: PFF DI 2026 overall 79.4 on 480 snaps (DI rank 4); PFR 2026 13 pressures (5 hurries, 4 QB hits, 4.0 sacks) in 6 games, 34 tackles, 3 missed; 8 g / 480 def snaps; 4.0 sacks, 9 QB hits, 6 TFL, 1 FF, 3 PD; 3 accepted penalties; ESPN 2026 DT PRWR 25% (#4, 36/145, 84% snaps at DT); RSWR outside the published top 10",
+      "Jeffery Simmons 2025: PFF DI 2025 overall 88.3 on 764 snaps (DI rank 3); PFR 2025 32 pressures (11 hurries, 9 QB knockdowns, 11 sacks), 67 tackles, 7 missed; 15 g / 764 def snaps; 11.0 sacks, 21 QB hits, 17 TFL, 3 FF, 3 PD; 10 accepted penalties",
+      "Jeffery Simmons alignment: depth-chart interior snapshots 2025-26: 285 at DT/NT, 211 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket (DT BUCKET (t46u): interior defensive linemen graded by PFF as DI (pff.com/grades/nfl/di), aligned at DT/NT or 3-4 DE (in...); roster position DL; Madden card DT (reference only)",
+      "Jeffery Simmons injury reports: wk8 Out (Hamstring); wk9 Out (Hamstring); wk11 Questionable (Hamstring); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-rush and run-defense sub-grades and alignment splits are paywalled; substitutes: PFF DI overall + snap counts, ESPN DT PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PMV",
+      "FMV",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/di/2026",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/di/2025",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:41Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
