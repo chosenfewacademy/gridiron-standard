@@ -1,0 +1,205 @@
+{
+  "audit_id": "DT_REAUDIT_BG_11_A1",
+  "task_id": "DT_REAUDIT_BG_11",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "player_id": "ext_00-0038778",
+  "players": [
+    "Jalen Redmond"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Jalen Redmond",
+    "player_id": "ext_00-0038778",
+    "team": "MIN",
+    "side_assignment": {
+      "DT": 255,
+      "DE": 241
+    },
+    "side_rule": "DT BUCKET (t46u): interior defensive linemen graded by PFF as DI (pff.com/grades/nfl/di), aligned at DT/NT or 3-4 DE (interior) in nflverse 2025-26 depth charts; edge-graded players belong to LEDGE/REDGE. DT has no left/right split.",
+    "pff": {
+      "2025": {
+        "team": "minnesota-vikings",
+        "ovr": 72.8,
+        "snaps": 793,
+        "rank": 18,
+        "status": "A"
+      },
+      "2026": {
+        "team": "minnesota-vikings",
+        "ovr": 78,
+        "snaps": 351,
+        "rank": 10,
+        "status": "A"
+      }
+    },
+    "pressures": {
+      "2025": {
+        "tm": "MIN",
+        "pos": "DL",
+        "g": "17",
+        "prss": "11",
+        "hrry": "2",
+        "qbkd": "3",
+        "sk": "6",
+        "comb": "62",
+        "m_tkl": "4"
+      },
+      "2026": {
+        "def_pressures": 4,
+        "def_times_hurried": 3,
+        "def_times_hitqb": 0,
+        "def_sacks": 0.5,
+        "def_tackles_combined": 10,
+        "def_missed_tackles": 0,
+        "g": 3
+      }
+    },
+    "espn_win_rates": {
+      "prwr": null,
+      "rswr": null
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 793
+      },
+      "2026": {
+        "games": 7,
+        "defs": 351
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 30,
+        "def_tackle_assists": 29,
+        "def_tackles_for_loss": 12,
+        "def_fumbles_forced": 1,
+        "def_sacks": 6,
+        "def_qb_hits": 8,
+        "def_pass_defended": 5
+      },
+      "2026": {
+        "def_tackles_solo": 14,
+        "def_tackle_assists": 8,
+        "def_tackles_for_loss": 2,
+        "def_fumbles_forced": 1,
+        "def_sacks": 0.5,
+        "def_qb_hits": 1,
+        "def_pass_defended": 3
+      }
+    },
+    "penalties": {
+      "2025": 1,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk13 Questionable (Hip)"
+      ]
+    },
+    "summary_lines": [
+      "Jalen Redmond (MIN) Jalen Redmond 2026: PFF DI 2026 overall 78 on 351 snaps (DI rank 10); PFR 2026 4 pressures (3 hurries, 0 QB hits, 0.5 sacks) in 3 games, 10 tackles, 0 missed; 7 g / 351 def snaps; 0.5 sacks, 1 QB hits, 2 TFL, 1 FF, 3 PD; 0 accepted penalties; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+      "Jalen Redmond 2025: PFF DI 2025 overall 72.8 on 793 snaps (DI rank 18); PFR 2025 11 pressures (2 hurries, 3 QB knockdowns, 6 sacks), 62 tackles, 4 missed; 17 g / 793 def snaps; 6.0 sacks, 8 QB hits, 12 TFL, 1 FF, 5 PD; 1 accepted penalties",
+      "Jalen Redmond alignment: depth-chart interior snapshots 2025-26: 255 at DT/NT, 241 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket (DT BUCKET (t46u): interior defensive linemen graded by PFF as DI (pff.com/grades/nfl/di), aligned at DT/NT or 3-4 DE (in...); roster position DL; Madden card DT (reference only)",
+      "Jalen Redmond injury reports: wk13 Questionable (Hip); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-rush and run-defense sub-grades and alignment splits are paywalled; substitutes: PFF DI overall + snap counts, ESPN DT PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PMV",
+      "FMV",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/di/2026",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/di/2025",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:52Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
