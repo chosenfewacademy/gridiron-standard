@@ -7763,18 +7763,18 @@
         "REDGE_REAUDIT_TIEBREAK_02_A1",
         "REDGE_REAUDIT_TIEBREAK_03_A1",
         "REDGE_REAUDIT_TIEBREAK_04_A1",
-        "REDGE_REAUDIT_VARIANCE_AUDIT_A1"
+        "REDGE_REAUDIT_VARIANCE_AUDIT_A1",
+        "REDGE_REAUDIT_RATE_02_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "REDGE_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T04:37:52.751Z",
+      "updated_at": "2026-11-04T04:38:08.195Z",
       "last_result": {
-        "task_id": "REDGE_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
-        "errors": [],
-        "flags": [
-          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "task_id": "REDGE_REAUDIT_RATE_02",
+        "status": "REVISION_APPROVED",
+        "audit_id": "REDGE_REAUDIT_RATE_02_A2",
+        "supersedes": "REDGE_REAUDIT_RATE_02_A1",
+        "flags": []
       },
       "awaiting": null,
       "approvals": [
@@ -8081,6 +8081,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T04:37:52Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "REDGE_REAUDIT_RATE_02",
+          "audit_id": "REDGE_REAUDIT_RATE_02_A2",
+          "supersedes": "REDGE_REAUDIT_RATE_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T04:38:07Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (REDGE_REAUDIT_VARIANCE_AUDIT, t46u): STR 74->78 (12.5 sacks, 12 QB knockdowns, 264 run-defense snaps in 2025). OVR unchanged."
         }
       ]
     }
