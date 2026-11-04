@@ -1,0 +1,40 @@
+# C_REAUDIT_TIEBREAK_08 — Jared Wilson vs Jake Brendel (v1.1.2 head-to-head tiebreak; authorized by t46u/t50s441)
+
+```json
+{
+  "audit_id": "C_REAUDIT_TIEBREAK_08_A1",
+  "task_id": "C_REAUDIT_TIEBREAK_08",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "C",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Jared Wilson",
+    "Jake Brendel"
+  ],
+  "pair_result": {
+    "winner": "Jake Brendel",
+    "loser": "Jared Wilson",
+    "provisional_order_holds": false,
+    "reasoning": "Precautionary ceiling test vs #10. Wilson: ESPN IOL PBWR 94% and PFF 68.1 in 2026, but no 2025 qualifying grade and four 2025 Out designations. Brendel: 71.4/69.5 and PBWR 93%. Brendel's two-year body of work wins.",
+    "key_evidence_for_winner": [
+      "Jake Brendel (SF) ESPN 2026 win rates (thru Wk 8): IOL PBWR 93%; depth-chart side 2026 {'C': 226}; roster ACT",
+      "Jake Brendel 2026: PFF 69.5 (rank 6; 244 pass-block/173 run-block of 417 snaps); 7 g/417 snaps; penalties 0; injuries none",
+      "Jake Brendel 2025: PFF 71.4 (rank 8; 652 pass-block/414 run-block of 1066 snaps); 15 g/950 snaps; penalties 3; injuries ['wk8 Out (Hamstring)', 'wk9 Out (Hamstring)']"
+    ],
+    "key_evidence_for_loser": [
+      "Jared Wilson (NE) ESPN 2026 win rates (thru Wk 8): IOL PBWR 94%; depth-chart side 2026 {'C': 226}; roster ACT",
+      "Jared Wilson 2026: PFF 68.1 (rank 10; 296 pass-block/213 run-block of 509 snaps); 8 g/510 snaps; penalties 0; injuries none",
+      "Jared Wilson 2025: no PFF top-50 grade; 13 g/785 snaps; penalties 3; injuries ['wk4 Out (Ankle)', 'wk13 Out (Ankle)', 'wk17 Out (Concussion)', 'wk18 Out (Concussion)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
