@@ -1,0 +1,476 @@
+{
+  "audit_id": "CB_REAUDIT_RATE_02_A1",
+  "task_id": "CB_REAUDIT_RATE_02",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "player_id": "ext_00-0037191",
+  "players": [
+    "Trent McDuffie"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 90,
+    "ACC": 92,
+    "AGI": 92,
+    "COD": 92,
+    "STR": 58,
+    "AWR": 90,
+    "PRC": 90,
+    "MCV": 92,
+    "ZCV": 90,
+    "PRS": 86,
+    "CTH": 66,
+    "JMP": 82,
+    "TAK": 86,
+    "PUR": 84,
+    "INJ": 82,
+    "STA": 90,
+    "TGH": 84
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "MCV": "MEDIUM",
+    "ZCV": "MEDIUM",
+    "PRS": "MEDIUM",
+    "CTH": "MEDIUM",
+    "JMP": "LOW",
+    "TAK": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; range from PD/tackles in 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF. Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; range from PD/tackles in 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF. Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; range from PD/tackles in 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF. Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; range from PD/tackles in 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF. Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (press): PFF CB 2025 overall 75.6 on 688 snaps (CB rank 13; 404 coverage / 257 run-def snaps); PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps); PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed. Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 5/3; PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps). Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; PFF CB 2025 overall 75.6 on 688 snaps (CB rank 13; 404 coverage / 257 run-def snaps); PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps). Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; PFF CB 2025 overall 75.6 on 688 snaps (CB rank 13; 404 coverage / 257 run-def snaps); PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps). Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; PFF CB 2025 overall 75.6 on 688 snaps (CB rank 13; 404 coverage / 257 run-def snaps); PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps). Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (press): PFF CB 2025 overall 75.6 on 688 snaps (CB rank 13; 404 coverage / 257 run-def snaps); PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps); PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed. Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (ball skills): INT/PD: 13 g / 688 def snaps; 45 solo + 18 ast tackles, 2 TFL, 1 INT, 7 PD, 1 FF (2025); 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF (2026). Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (ball skills): INT/PD: 13 g / 688 def snaps; 45 solo + 18 ast tackles, 2 TFL, 1 INT, 7 PD, 1 FF (2025); 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF (2026). Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed. Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF CB 2025 overall 75.6 on 688 snaps (CB rank 13; 404 coverage / 257 run-def snaps); PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps); TFL/tackles in 13 g / 688 def snaps; 45 solo + 18 ast tackles, 2 TFL, 1 INT, 7 PD, 1 FF / 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF. Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Trent McDuffie injury reports: wk15 Questionable (Knee); wk16 Out (Knee); wk6 Questionable (Groin); wk7 Questionable (Groin); wk8 Questionable (Groin); roster status ACT; 13 g / 688 def snaps; 45 solo + 18 ast tackles, 2 TFL, 1 INT, 7 PD, 1 FF (2025), 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF (2026). Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 13 g / 688 def snaps; 45 solo + 18 ast tackles, 2 TFL, 1 INT, 7 PD, 1 FF (2025), 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF (2026). Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 13 g / 688 def snaps; 45 solo + 18 ast tackles, 2 TFL, 1 INT, 7 PD, 1 FF (2025), 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF (2026). Style: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "SPD": {
+      "tier": "ELITE",
+      "claim": "movement: PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; range from PD/tackles in 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "movement: PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; range from PD/tackles in 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "tier": "ELITE",
+      "claim": "movement: PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; range from PD/tackles in 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "tier": "ELITE",
+      "claim": "movement: PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; range from PD/tackles in 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "discipline: penalties 2025/2026 5/3; PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "tier": "ELITE",
+      "claim": "coverage: PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; PFF CB 2025 overall 75.6 on 688 snaps (CB rank 13; 404 coverage / 257 run-def snaps); PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "tier": "ELITE",
+      "claim": "coverage: PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; PFF CB 2025 overall 75.6 on 688 snaps (CB rank 13; 404 coverage / 257 run-def snaps); PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "tier": "ELITE",
+      "claim": "coverage: PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; PFF CB 2025 overall 75.6 on 688 snaps (CB rank 13; 404 coverage / 257 run-def snaps); PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: 13 g / 688 def snaps; 45 solo + 18 ast tackles, 2 TFL, 1 INT, 7 PD, 1 FF (2025), 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 89,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+  "style_profile": "Trent McDuffie: Elite cover corner: PFF 89.8 (#2 CB, 2026) allowing 7 completions for 42 yds on 21 targets with 2 INT / 8 PD; 75.6 on 688 snaps in 2025.",
+  "style_evidence": [
+    "Trent McDuffie (LA) Trent McDuffie 2026: PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps); PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF; 3 accepted penalties",
+    "Trent McDuffie 2025: PFF CB 2025 overall 75.6 on 688 snaps (CB rank 13; 404 coverage / 257 run-def snaps); PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; 13 g / 688 def snaps; 45 solo + 18 ast tackles, 2 TFL, 1 INT, 7 PD, 1 FF; 5 accepted penalties",
+    "Trent McDuffie role: single CB list (no outside/slot split); roster position DB (CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/g...); roster position DB; Madden card CB (reference only)",
+    "Trent McDuffie injury reports: wk15 Questionable (Knee); wk16 Out (Knee); wk6 Questionable (Groin); wk7 Questionable (Groin); wk8 Questionable (Groin); roster status ACT"
+  ],
+  "input_dossier": "CB_REAUDIT_BG_02_A1",
+  "weaknesses": [
+    "2025 grade (75.6, 95.5 rating allowed)",
+    "penalties (5 in 2025)"
+  ],
+  "limitations": [
+    "PFF coverage/run-defense/tackling sub-grades and slot/outside splits are paywalled; no public tracking data for CB speed or separation; substitutes: PFF CB overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+  ],
+  "role_assignment": "CB (single CB list (no outside/slot split); roster position DB)",
+  "madden_reference": [
+    {
+      "player": "Trent McDuffie",
+      "ovr": 96,
+      "madden_position": "CB",
+      "attributes": {
+        "SPD": 93,
+        "ACC": 94,
+        "AGI": 94,
+        "COD": 92,
+        "STR": 61,
+        "AWR": 96,
+        "PRC": 97,
+        "MCV": 96,
+        "ZCV": 94,
+        "PRS": 91,
+        "CTH": 69,
+        "JMP": 91,
+        "TAK": 74,
+        "PUR": 83,
+        "INJ": 91,
+        "STA": 91,
+        "TGH": 86
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -7,
+      "delta_attributes": {
+        "SPD": -3,
+        "ACC": -2,
+        "AGI": -2,
+        "COD": 0,
+        "STR": -3,
+        "AWR": -6,
+        "PRC": -7,
+        "MCV": -4,
+        "ZCV": -4,
+        "PRS": -5,
+        "CTH": -3,
+        "JMP": -9,
+        "TAK": 12,
+        "PUR": 1,
+        "INJ": -9,
+        "STA": -1,
+        "TGH": -2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 7,
+    "attribute_gaps_10plus": {
+      "TAK": 12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u",
+  "style_similarity": [
+    {
+      "player": "Devon Witherspoon",
+      "audit_id": "CB_REAUDIT_RATE_01_A1",
+      "corr": 0.903,
+      "mad": 3.1,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
