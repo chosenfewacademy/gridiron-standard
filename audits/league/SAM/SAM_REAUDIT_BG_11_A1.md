@@ -1,0 +1,234 @@
+# SAM_REAUDIT_BG_11 — Noah Sewell background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "SAM_REAUDIT_BG_11_A1",
+  "task_id": "SAM_REAUDIT_BG_11",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SAM",
+  "player_id": "ext_00-0038390",
+  "players": [
+    "Noah Sewell"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Noah Sewell",
+    "player_id": "ext_00-0038390",
+    "team": "CHI",
+    "role_assignment": {
+      "SAM25": 184,
+      "WILL25": 37,
+      "MIKE26": 274,
+      "MIKE": 71.0,
+      "WILL": 68.5,
+      "SAM": 340.5,
+      "EDGE": 0.0,
+      "assign": "SAM"
+    },
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "chicago-bears",
+        "ovr": 41.9,
+        "snaps": 408,
+        "rank": 81,
+        "rdef": 182,
+        "prsh": 32,
+        "cov": 194
+      },
+      "2026": {
+        "team": "chicago-bears",
+        "ovr": 75.8,
+        "snaps": 89,
+        "rank": null,
+        "rdef": 41,
+        "prsh": 9,
+        "cov": 39
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "CHI",
+        "pos": "LB",
+        "g": "13",
+        "tgt": "35",
+        "cmp": "29",
+        "yds": "274",
+        "rat": "127.9",
+        "int": "0",
+        "bltz": "15",
+        "prss": "2",
+        "sk": "0",
+        "comb": "59",
+        "m_tkl": "9"
+      },
+      "2026": {
+        "def_targets": 3.0,
+        "def_completions_allowed": 3.0,
+        "def_yards_allowed": 5.0,
+        "def_ints": 0.0,
+        "def_times_blitzed": 7.0,
+        "def_pressures": 0.0,
+        "def_sacks": 0.0,
+        "def_tackles_combined": 9.0,
+        "def_missed_tackles": 0.0,
+        "g": 3
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 12,
+        "defs": 409
+      },
+      "2026": {
+        "games": 3,
+        "defs": 71
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 32.0,
+        "def_tackle_assists": 26.0,
+        "def_tackles_for_loss": 3.0,
+        "def_fumbles_forced": 1.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 0.0,
+        "def_interceptions": 0.0
+      },
+      "2026": {
+        "def_tackles_solo": 6.0,
+        "def_tackle_assists": 3.0,
+        "def_tackles_for_loss": 1.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 0.0,
+        "def_interceptions": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 3,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk7 Out (Concussion)",
+        "wk12 Out (Elbow)",
+        "wk13 Out (Elbow)"
+      ],
+      "2026": [
+        "wk3 Out (Achilles)",
+        "wk4 Out (Achilles)",
+        "wk5 Questionable (Achilles)"
+      ]
+    },
+    "summary_lines": [
+      "Noah Sewell (CHI) Noah Sewell 2026: PFF LB 2026 overall 75.8 on 89 snaps (LB rank None; 41 run-def / 39 coverage / 9 pass-rush snaps); PFR 2026 (3 games) coverage 3 targets / 3 completions / 5 yds / 0 INT; 9 tackles, 0 missed; 0 pressures on 7 blitzes; 3 g / 71 def snaps; 6 solo + 3 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF; 0 accepted penalties",
+      "Noah Sewell 2025: PFF LB 2025 overall 41.9 on 408 snaps (LB rank 81; 182 run-def / 194 coverage / 32 pass-rush snaps); PFR 2025 coverage 35 targets / 29 completions / 274 yds / passer rating 127.9 / 0 INT; 59 tackles, 9 missed; 2 pressures on 15 blitzes, 0 sacks; 12 g / 409 def snaps; 32 solo + 26 ast tackles, 3 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF; 3 accepted penalties",
+      "Noah Sewell role: snap-weighted 2025-26 depth-chart role shares MIKE 71 / WILL 68 / SAM 340 / edge 0 (raw snapshots SAM25 184, WILL25 37, MIKE26 274) -> SAM (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card SAM (reference only)",
+      "Noah Sewell injury reports: wk7 Out (Concussion); wk12 Out (Elbow); wk13 Out (Elbow); wk3 Out (Achilles); wk4 Out (Achilles); wk5 Questionable (Achilles); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports",
+      "limited 2026 sample (reserve/IR/PUP)"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PUR",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2026",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2025",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:59Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
