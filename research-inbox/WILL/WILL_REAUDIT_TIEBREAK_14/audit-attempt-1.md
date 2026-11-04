@@ -1,0 +1,40 @@
+# WILL_REAUDIT_TIEBREAK_14 — Edgerrin Cooper vs Cody Barton (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "WILL_REAUDIT_TIEBREAK_14_A1",
+  "task_id": "WILL_REAUDIT_TIEBREAK_14",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Edgerrin Cooper",
+    "Cody Barton"
+  ],
+  "pair_result": {
+    "winner": "Edgerrin Cooper",
+    "loser": "Cody Barton",
+    "provisional_order_holds": true,
+    "reasoning": "Cooper holds #10 on the two-season body of work: PFF 75.8 on 1,089 snaps in 2025 (#17 LB) and 6 TFL / 3.0 sacks / 1 INT in 4 games of 2026 (PFF 60.1 on 227, RES), vs Cody Barton's PFF 52.5 in 2025; PFF 62.4 on 407 snaps in 2026. Cody Barton's ceiling hits (value, efficiency, negative_rate, availability) come from the two-year screen (snap-weighted PFF 55.2, 0.8 impact plays/game, 94.1% tackle success) where Cooper's injury-shortened 2026 (4 games) sets a low availability bar.",
+    "key_evidence_for_winner": [
+      "Edgerrin Cooper (GB) role snap-weighted 2025-26 depth-chart role shares MIKE 123 / WILL 1150 / SAM 0 / edge 0 (raw snapshots WILL25 195, MIKE25 26, WILL26 275) -> WILL; roster RES (LB); injuries wk4 Questionable (Shoulder)",
+      "Edgerrin Cooper 2026: Edgerrin Cooper 2026: PFF LB 2026 overall 60.1 on 227 snaps (LB rank 47; 99 run-def / 101 coverage / 27 pass-rush snaps); PFR 2026 (4 games) coverage 15 targets / 10 completions / 136 yds / 1 INT; 30 tackles, 2 missed; 3 pressures on 15 blitzes; 4 g / 227 def snaps; 15 solo + 12 ast tackles, 6 TFL, 3.0 sacks, 1 INT, 1 PD, 0 FF; 0 accepted penalties; PFR 2026 (4 games) coverage 15 targets / 10 completions / 136 yds / 1 INT; 30 tackles, 2 missed; 3 pressures on 15 blitzes",
+      "Edgerrin Cooper 2025: Edgerrin Cooper 2025: PFF LB 2025 overall 75.8 on 1089 snaps (LB rank 17; 445 run-def / 574 coverage / 70 pass-rush snaps); PFR 2025 coverage 69 targets / 54 completions / 332 yds / passer rating 96.4 / 0 INT; 118 tackles, 13 missed; 5 pressures on 40 blitzes, 0.5 sacks; 16 g / 1046 def snaps; 61 solo + 55 ast tackles, 4 TFL, 0.5 sacks, 0 INT, 4 PD, 2 FF; 0 accepted penalties; PFR 2025 coverage 69 targets / 54 completions / 332 yds / passer rating 96.4 / 0 INT; 118 tackles, 13 missed; 5 pressures on 40 blitzes, 0.5 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Cody Barton (TEN) role snap-weighted 2025-26 depth-chart role shares MIKE 396 / WILL 1013 / SAM 59 / edge 0 (raw snapshots MIKE25 10, WILL25 211, SAM26 40, MIKE26 235) -> WILL; roster ACT (LB); injuries no injury designation 2025-26",
+      "Cody Barton 2026: Cody Barton 2026: PFF LB 2026 overall 62.4 on 407 snaps (LB rank 38; 195 run-def / 191 coverage / 21 pass-rush snaps); PFR 2026 (7 games) coverage 20 targets / 14 completions / 181 yds / 0 INT; 31 tackles, 0 missed; 1 pressures on 6 blitzes; 8 g / 407 def snaps; 15 solo + 19 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties; PFR 2026 (7 games) coverage 20 targets / 14 completions / 181 yds / 0 INT; 31 tackles, 0 missed; 1 pressures on 6 blitzes",
+      "Cody Barton 2025: Cody Barton 2025: PFF LB 2025 overall 52.5 on 1060 snaps (LB rank 67; 425 run-def / 582 coverage / 53 pass-rush snaps); PFR 2025 coverage 54 targets / 30 completions / 303 yds / passer rating 67.1 / 3 INT; 81 tackles, 7 missed; 3 pressures on 33 blitzes, 1 sacks; 17 g / 1061 def snaps; 34 solo + 44 ast tackles, 4 TFL, 1.0 sacks, 3 INT, 11 PD, 0 FF; 0 accepted penalties; PFR 2025 coverage 54 targets / 30 completions / 303 yds / passer rating 67.1 / 3 INT; 81 tackles, 7 missed; 3 pressures on 33 blitzes, 1 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
