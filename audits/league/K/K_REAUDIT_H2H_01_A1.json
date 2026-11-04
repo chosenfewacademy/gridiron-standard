@@ -1,0 +1,37 @@
+{
+  "audit_id": "K_REAUDIT_H2H_01_A1",
+  "task_id": "K_REAUDIT_H2H_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Will Reichard",
+    "Ka'imi Fairbairn"
+  ],
+  "pair_result": {
+    "winner": "Will Reichard",
+    "loser": "Ka'imi Fairbairn",
+    "provisional_order_holds": true,
+    "reasoning": "Reichard's two-year FG EPA (+24.1, +11.4) edges Fairbairn's (+20.8, +13.2), with more range (16/20 from 50-59 plus 1/1 from 60+, long 62, vs 15/20 and long 58) and a perfect 41/41 on XPs; Fairbairn's 59/64 volume and steadier PFF (90.8/91.0 vs 93.8/85.1) keep it narrow.",
+    "key_evidence_for_winner": [
+      "Will Reichard (MIN) role placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K; roster ACT (K); injuries no injury designation 2025-26",
+      "Will Reichard 2026: PFF K 2026 overall 85.1 (K rank 3); 2026 kickoffs 35, touchback 2 (5.7%), return avg 25.1, 0 out of bounds; 0 accepted penalties; 2026 FG 18/20 (90%): 0-39 6/6, 40-49 6/6, 50-59 6/8, 60+ 0/0; long 56; 1 blocked; FG EPA +11.4; XP 10/10",
+      "Will Reichard 2025: PFF K 2025 overall 93.8 (K rank 2); 2025 kickoffs 83, touchback 15 (18.1%), return avg 25.3, 1 out of bounds; 2 accepted penalties; 2025 FG 33/35 (94%): 0-39 15/15, 40-49 7/7, 50-59 10/12, 60+ 1/1; long 62; 0 blocked; FG EPA +24.1; XP 31/31"
+    ],
+    "key_evidence_for_loser": [
+      "Ka'imi Fairbairn (HOU) role placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K; roster ACT (K); injuries wk10 Out (Quadricep); wk11 Out (Quadricep)",
+      "Ka'imi Fairbairn 2026: PFF K 2026 overall 91 (K rank 1); 2026 kickoffs 37, touchback 7 (18.9%), return avg 27.8, 0 out of bounds; 0 accepted penalties; 2026 FG 15/16 (94%): 0-39 6/6, 40-49 3/3, 50-59 6/7, 60+ 0/0; long 58; 0 blocked; FG EPA +13.2; XP 16/16",
+      "Ka'imi Fairbairn 2025: PFF K 2025 overall 90.8 (K rank 9); 2025 kickoffs 86, touchback 22 (25.6%), return avg 26.3, 0 out of bounds; 1 accepted penalties; 2025 FG 44/48 (92%): 0-39 19/19, 40-49 16/16, 50-59 9/13, 60+ 0/0; long 57; 1 blocked; FG EPA +20.8; XP 28/28"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
