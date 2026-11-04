@@ -1,0 +1,8 @@
+{
+ "kind": "ingame_validation_log",
+ "position": "P",
+ "policy": "add-only; append entries, never edit or delete; in-game OVR is ground truth",
+ "baseline_file": "data/baselines/P.reaudit-20261104.json",
+ "madden_order_verified": false,
+ "entries": []
+}
