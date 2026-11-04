@@ -9618,7 +9618,7 @@
         "position": "MIKE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/MIKE.reaudit.json",
       "baseline_file": null,
@@ -9677,7 +9677,8 @@
         "MIKE_REAUDIT_TIEBREAK_12",
         "MIKE_REAUDIT_TIEBREAK_13",
         "MIKE_REAUDIT_TIEBREAK_14",
-        "MIKE_REAUDIT_TIEBREAK_15"
+        "MIKE_REAUDIT_TIEBREAK_15",
+        "MIKE_REAUDIT_TIEBREAK_16"
       ],
       "audit_ids": [
         "MIKE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -9735,7 +9736,7 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "MIKE_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T11:44:44.461Z",
+      "updated_at": "2026-11-04T11:44:44.710Z",
       "last_result": {
         "task_id": "MIKE_REAUDIT_TIEBREAK_16",
         "status": "FLAGGED",
@@ -9743,17 +9744,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "MIKE_REAUDIT_TIEBREAK_16",
-        "audit_id": "MIKE_REAUDIT_TIEBREAK_16_A1",
-        "pending": [
-          {
-            "task_id": "MIKE_REAUDIT_TIEBREAK_16",
-            "audit_id": "MIKE_REAUDIT_TIEBREAK_16_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -10162,6 +10153,14 @@
           "audit_id": "MIKE_REAUDIT_TIEBREAK_15_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:44:43Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "MIKE_REAUDIT_TIEBREAK_16",
+          "audit_id": "MIKE_REAUDIT_TIEBREAK_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:44:44Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
