@@ -22301,7 +22301,7 @@
         "position": "CB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/CB.reaudit.json",
       "baseline_file": "data/baselines/CB.reaudit-20261104.json",
@@ -22311,7 +22311,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:34:37Z",
-      "updated_at": "2026-11-04T19:35:04.637Z",
+      "updated_at": "2026-11-04T19:35:50Z",
       "audit_ids": [
         "CB_REAUDIT_CANDIDATE_AUDIT_A1",
         "CB_REAUDIT_BG_01_A1",
@@ -22372,7 +22372,8 @@
         "CB_REAUDIT_TIEBREAK_22_A1",
         "CB_REAUDIT_VARIANCE_AUDIT_A2",
         "CB_REAUDIT_SCARCITY_A2",
-        "CB_REAUDIT_CROSS_AUDIT_A2"
+        "CB_REAUDIT_CROSS_AUDIT_A2",
+        "CB_REAUDIT_LOCK_20261104B"
       ],
       "completed_tasks": [
         "CB_REAUDIT_CANDIDATE_AUDIT",
@@ -23193,7 +23194,7 @@
           "note": "User-approved batch t56s532: re-run CB_REAUDIT_CROSS_AUDIT after the approved card revisions"
         }
       ],
-      "current_stage": "positional_cross_audit",
+      "current_stage": "lock",
       "current_task": "CB_REAUDIT_CROSS_AUDIT",
       "awaiting": null,
       "last_result": {
