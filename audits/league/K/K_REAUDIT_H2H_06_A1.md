@@ -1,0 +1,40 @@
+# K_REAUDIT_H2H_06 — Chris Boswell vs Eddy Pineiro (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "K_REAUDIT_H2H_06_A1",
+  "task_id": "K_REAUDIT_H2H_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Chris Boswell",
+    "Eddy Pineiro"
+  ],
+  "pair_result": {
+    "winner": "Chris Boswell",
+    "loser": "Eddy Pineiro",
+    "provisional_order_holds": true,
+    "reasoning": "Boswell's long range (12/17 from 50-59, long 60) and steadier 2026 (FG EPA -1.2, PFF 62.7) beat Pineiro's 2026 (FG EPA -4.1, PFF 42.9); Pineiro's 2025 FG EPA +22.3 vs +17.3 keeps it narrow.",
+    "key_evidence_for_winner": [
+      "Chris Boswell (PIT) role placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K; roster ACT (K); injuries no injury designation 2025-26",
+      "Chris Boswell 2026: PFF K 2026 overall 62.7 (K rank 20); 2026 kickoffs 41, touchback 7 (17.1%), return avg 27.6, 0 out of bounds; 0 accepted penalties; 2026 FG 18/23 (78%): 0-39 10/10, 40-49 4/6, 50-59 4/7, 60+ 0/0; long 58; 0 blocked; FG EPA -1.2; XP 16/16",
+      "Chris Boswell 2025: PFF K 2025 overall 92.5 (K rank 4); 2025 kickoffs 88, touchback 7 (8.0%), return avg 23.6, 1 out of bounds; 3 accepted penalties; 2025 FG 27/32 (84%): 0-39 8/10, 40-49 10/11, 50-59 8/10, 60+ 1/1; long 60; 1 blocked; FG EPA +17.3; XP 42/43"
+    ],
+    "key_evidence_for_loser": [
+      "Eddy Pineiro (SF) role placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K; roster ACT (K); injuries wk12 Out (Hamstring); wk13 Out (Hamstring); wk2 Questionable (Illness)",
+      "Eddy Pineiro 2026: PFF K 2026 overall 42.9 (K rank 31); 2026 kickoffs 38, touchback 7 (18.4%), return avg 26.9, 0 out of bounds; 0 accepted penalties; 2026 FG 6/9 (67%): 0-39 3/3, 40-49 1/1, 50-59 2/5, 60+ 0/0; long 57; 1 blocked; FG EPA -4.1; XP 21/25",
+      "Eddy Pineiro 2025: PFF K 2025 overall 88.7 (K rank 12); 2025 kickoffs 79, touchback 16 (20.3%), return avg 25.5, 1 out of bounds; 1 accepted penalties; 2025 FG 28/29 (97%): 0-39 12/12, 40-49 10/10, 50-59 6/6, 60+ 0/1; long 59; 0 blocked; FG EPA +22.3; XP 34/38"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
