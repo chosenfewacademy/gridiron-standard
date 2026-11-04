@@ -11904,7 +11904,7 @@
         "position": "FS",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/FS.reaudit.json",
       "baseline_file": null,
@@ -11997,19 +11997,23 @@
         "FS_REAUDIT_TIEBREAK_06_A1",
         "FS_REAUDIT_VARIANCE_AUDIT_A1",
         "FS_REAUDIT_RATE_01_A2",
-        "FS_REAUDIT_RATE_06_A2"
+        "FS_REAUDIT_RATE_06_A2",
+        "FS_REAUDIT_SCARCITY_A1"
       ],
-      "current_stage": "variance_audit",
-      "current_task": "FS_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T12:26:16.249Z",
+      "current_stage": "scarcity_audit",
+      "current_task": "FS_REAUDIT_SCARCITY",
+      "updated_at": "2026-11-04T12:26:22.322Z",
       "last_result": {
-        "task_id": "FS_REAUDIT_RATE_06",
-        "status": "REVISION_APPROVED",
-        "audit_id": "FS_REAUDIT_RATE_06_A2",
-        "supersedes": "FS_REAUDIT_RATE_06_A1",
+        "task_id": "FS_REAUDIT_SCARCITY",
+        "status": "VALIDATED",
+        "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "FS_REAUDIT_SCARCITY",
+        "audit_id": "FS_REAUDIT_SCARCITY_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
