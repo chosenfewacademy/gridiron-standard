@@ -10262,7 +10262,7 @@
         "position": "WILL",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/WILL.reaudit.json",
       "baseline_file": null,
@@ -10321,7 +10321,8 @@
         "WILL_REAUDIT_TIEBREAK_12",
         "WILL_REAUDIT_TIEBREAK_13",
         "WILL_REAUDIT_TIEBREAK_14",
-        "WILL_REAUDIT_TIEBREAK_15"
+        "WILL_REAUDIT_TIEBREAK_15",
+        "WILL_REAUDIT_CROSS_AUDIT"
       ],
       "audit_ids": [
         "WILL_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -10379,18 +10380,14 @@
       ],
       "current_stage": "positional_cross_audit",
       "current_task": "WILL_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T11:52:26.544Z",
+      "updated_at": "2026-11-04T11:52:26.828Z",
       "last_result": {
         "task_id": "WILL_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "WILL_REAUDIT_CROSS_AUDIT",
-        "audit_id": "WILL_REAUDIT_CROSS_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -10799,6 +10796,14 @@
           "audit_id": "WILL_REAUDIT_TIEBREAK_15_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:52:17Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WILL_REAUDIT_CROSS_AUDIT",
+          "audit_id": "WILL_REAUDIT_CROSS_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:52:26Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
