@@ -6618,7 +6618,7 @@
         "position": "RT",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/RT.reaudit.json",
       "baseline_file": null,
@@ -6685,18 +6685,23 @@
         "RT_REAUDIT_RATE_11_A1",
         "RT_REAUDIT_RATE_12_A1",
         "RT_REAUDIT_RATE_13_A1",
-        "RT_REAUDIT_H2H_01_A1"
+        "RT_REAUDIT_H2H_01_A1",
+        "RT_REAUDIT_H2H_02_A1"
       ],
       "current_stage": "pair_audits",
-      "current_task": "RT_REAUDIT_H2H_01",
-      "updated_at": "2026-11-04T04:03:31.420Z",
+      "current_task": "RT_REAUDIT_H2H_02",
+      "updated_at": "2026-11-04T04:03:37.410Z",
       "last_result": {
-        "task_id": "RT_REAUDIT_H2H_01",
+        "task_id": "RT_REAUDIT_H2H_02",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "RT_REAUDIT_H2H_02",
+        "audit_id": "RT_REAUDIT_H2H_02_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
