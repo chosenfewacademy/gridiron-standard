@@ -14,5 +14,5 @@ After entering, append the result to data/ingame-validation/K.json (template: da
 | 6 | Brandon Aubrey | 80 | 84 | 97 | 82 | 78 | 82 | 76 | 80 |
 | 7 | Jason Myers | 78 | 86 | 90 | 89 | 84 | 89 | 87 | 62 |
 | 8 | Joey Slye | 76 | 81 | 95 | 84 | 72 | 89 | 89 | 65 |
-| 9 | Cameron Dicker | 75 | 83 | 88 | 91 | 75 | 91 | 80 | 70 |
-| 10 | Chris Boswell | 74 | 88 | 94 | 82 | 88 | 83 | 79 | 51 |
+| 9 | Chris Boswell | 76 | 89 | 94 | 86 | 88 | 89 | 84 | 68 |
+| 10 | Cameron Dicker | 75 | 83 | 88 | 91 | 75 | 91 | 80 | 70 |
