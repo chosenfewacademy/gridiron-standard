@@ -1,0 +1,39 @@
+# TE_REAUDIT_TIEBREAK_41 — Daniel Bellinger vs Isaiah Likely (v1.1.2 head-to-head tiebreak; authorized by t45s389)
+
+```json
+{
+  "audit_id": "TE_REAUDIT_TIEBREAK_41_A1",
+  "task_id": "TE_REAUDIT_TIEBREAK_41",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Daniel Bellinger",
+    "Isaiah Likely"
+  ],
+  "pair_result": {
+    "winner": "Isaiah Likely",
+    "loser": "Daniel Bellinger",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s389). Daniel Bellinger: 2025 13 g, 26 tgt, 286 yds, 2 TD, EPA/tgt +0.869, PFF 62.5, YPRR 1.28, block share 0.6; 2026 8 g, 15 tgt, 70 yds, 0 TD, EPA/tgt -0.229, PFF outside PFF qualifiers, YPRR n/a, block share n/a. Isaiah Likely: 2025 12 g, 36 tgt, 307 yds, 1 TD, EPA/tgt +0.150, PFF outside PFF qualifiers, YPRR n/a, block share n/a; 2026 7 g, 64 tgt, 395 yds, 5 TD, EPA/tgt +0.223, PFF 77.3, YPRR 1.59, block share 0.33. Likely's 2026 (64 tgt, 395 yds, 5 TD, PFF 77.3, YPRR 1.59) outweighs PFF 62.5, 2026 15 targets and EPA/tgt -.229. Isaiah Likely holds first-out.",
+    "key_evidence_for_winner": [
+      "Isaiah Likely PFF TE overall grade 2026 77.3, 2025 None; 2026 PFF snaps {'off': '370', 'routes': '249', 'pblk': '4', 'rblk': '117'} (block share 0.33); 2025 PFF snaps None (block share None); age 26, 76 in 241 lb",
+      "Isaiah Likely (NYG) 2026: 7 g 64 tgt 395 yds 5 TD, EPA/tgt 0.223, YPRR 1.59, TPRR 0.257, NGS sep 2.73, aDOT 8.0, deep 6 tgt catch 0.33 EPA/tgt 0.73, short catch 0.72, YAC/rec 2.9, RZ tgt 10, 3rd/4th conv 10/18, fum lost 0",
+      "Isaiah Likely (BAL) 2025: 12 g 36 tgt 307 yds 1 TD, EPA/tgt 0.15, YPRR None, TPRR None, NGS sep None, aDOT 8.0, deep 3 tgt catch 0.67 EPA/tgt 0.86, short catch 0.83, YAC/rec 4.3, RZ tgt 6, 3rd/4th conv 5/12, fum lost 1"
+    ],
+    "key_evidence_for_loser": [
+      "Daniel Bellinger PFF TE overall grade 2026 None, 2025 62.5; 2026 PFF snaps None (block share None); 2025 PFF snaps {'off': '556', 'routes': '224', 'pblk': '51', 'rblk': '281'} (block share 0.6); age 26, 78 in 255 lb",
+      "Daniel Bellinger (TEN) 2026: 8 g 15 tgt 70 yds 0 TD, EPA/tgt -0.229, YPRR None, TPRR None, NGS sep None, aDOT 4.2, deep 1 tgt catch 0.0 EPA/tgt -1.4, short catch 0.62, YAC/rec 5.6, RZ tgt 1, 3rd/4th conv 1/5, fum lost 0",
+      "Daniel Bellinger (NYG) 2025: 13 g 26 tgt 286 yds 2 TD, EPA/tgt 0.869, YPRR 1.28, TPRR 0.116, NGS sep None, aDOT 9.4, deep 2 tgt catch 1.0 EPA/tgt 2.99, short catch 0.93, YAC/rec 6.9, RZ tgt 6, 3rd/4th conv 5/7, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
