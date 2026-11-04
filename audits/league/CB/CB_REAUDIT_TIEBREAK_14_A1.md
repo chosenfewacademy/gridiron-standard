@@ -1,0 +1,40 @@
+# CB_REAUDIT_TIEBREAK_14 — Jacob Parrish vs Keisean Nixon (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "CB_REAUDIT_TIEBREAK_14_A1",
+  "task_id": "CB_REAUDIT_TIEBREAK_14",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jacob Parrish",
+    "Keisean Nixon"
+  ],
+  "pair_result": {
+    "winner": "Jacob Parrish",
+    "loser": "Keisean Nixon",
+    "provisional_order_holds": true,
+    "reasoning": "Parrish holds #10 on current form: PFF 82.9 on 381 snaps in 2026 (#5 CB) with 13 PD and 2 INT, 23 completions allowed on 41 targets (PFR, 6 games), vs Keisean Nixon's PFF 70.2 on 549 snaps in 2026. Keisean Nixon's ceiling hits (value, efficiency, negative_rate, availability) come from the two-year screen (snap-weighted PFF 67.9, 1 INT+PD per game, 35.2% of targets not completed) where Parrish's 2025 (PFF 68.5, 55 completions on 77 targets) sets a low reference bar.",
+    "key_evidence_for_winner": [
+      "Jacob Parrish (TB) role single CB list (no outside/slot split); roster position DB; roster ACT (DB); injuries wk2 Questionable (Back); wk4 Questionable (Not injury related - personal matter)",
+      "Jacob Parrish 2026: Jacob Parrish 2026: PFF CB 2026 overall 82.9 on 381 snaps (CB rank 5; 251 coverage / 130 run-def snaps); PFR 2026 (6 games) coverage 41 targets / 23 completions / 283 yds / 1 TD / 1 INT; 29 tackles, 3 missed; 7 g / 381 def snaps; 30 solo + 6 ast tackles, 3 TFL, 2 INT, 13 PD, 0 FF; 2 accepted penalties; PFR 2026 (6 games) coverage 41 targets / 23 completions / 283 yds / 1 TD / 1 INT; 29 tackles, 3 missed",
+      "Jacob Parrish 2025: Jacob Parrish 2025: PFF CB 2025 overall 68.5 on 747 snaps (CB rank 31; 500 coverage / 217 run-def snaps); PFR 2025 coverage 77 targets / 55 completions / 562 yds / 2 TD / passer rating 89.9 / 2 INT; 76 tackles, 8 missed; 17 g / 746 def snaps; 50 solo + 26 ast tackles, 7 TFL, 2 INT, 7 PD, 0 FF; 3 accepted penalties; PFR 2025 coverage 77 targets / 55 completions / 562 yds / 2 TD / passer rating 89.9 / 2 INT; 76 tackles, 8 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Keisean Nixon (GB) role single CB list (no outside/slot split); roster position DB; roster ACT (DB); injuries wk7 Questionable (Illness); wk13 Questionable (Neck)",
+      "Keisean Nixon 2026: Keisean Nixon 2026: PFF CB 2026 overall 70.2 on 549 snaps (CB rank 20; 334 coverage / 209 run-def snaps); PFR 2026 (8 games) coverage 58 targets / 38 completions / 335 yds / 0 TD / 1 INT; 45 tackles, 4 missed; 8 g / 550 def snaps; 32 solo + 11 ast tackles, 5 TFL, 1 INT, 6 PD, 0 FF; 2 accepted penalties; PFR 2026 (8 games) coverage 58 targets / 38 completions / 335 yds / 0 TD / 1 INT; 45 tackles, 4 missed",
+      "Keisean Nixon 2025: Keisean Nixon 2025: PFF CB 2025 overall 66.7 on 1091 snaps (CB rank 37; 657 coverage / 432 run-def snaps); PFR 2025 coverage 87 targets / 56 completions / 651 yds / 6 TD / passer rating 105.1 / 1 INT; 72 tackles, 4 missed; 17 g / 1014 def snaps; 55 solo + 14 ast tackles, 3 TFL, 1 INT, 17 PD, 0 FF; 10 accepted penalties; PFR 2025 coverage 87 targets / 56 completions / 651 yds / 6 TD / passer rating 105.1 / 1 INT; 72 tackles, 4 missed"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
