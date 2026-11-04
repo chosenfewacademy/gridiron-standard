@@ -1,0 +1,37 @@
+{
+  "audit_id": "CB_REAUDIT_H2H_01_A1",
+  "task_id": "CB_REAUDIT_H2H_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Devon Witherspoon",
+    "Trent McDuffie"
+  ],
+  "pair_result": {
+    "winner": "Devon Witherspoon",
+    "loser": "Trent McDuffie",
+    "provisional_order_holds": true,
+    "reasoning": "Witherspoon has the bigger two-year body of work (PFF 90.1 on 902 snaps, #1 CB in 2025, then 75.5 on 500 in 2026 = 1,402 PFF snaps vs McDuffie's 1,050) and tackles better (3 missed on 72 tackles in 2025 vs 4 on 63). McDuffie owns 2026 (89.8, 7 completions for 42 yds on 21 targets) but his 2025 was 75.6 with a 95.5 passer rating allowed.",
+    "key_evidence_for_winner": [
+      "Devon Witherspoon (SEA) role single CB list (no outside/slot split); roster position DB; roster ACT (DB); injuries wk5 Out (Knee); wk6 Doubtful (Knee); wk7 Questionable (Knee)",
+      "Devon Witherspoon 2026: Devon Witherspoon 2026: PFF CB 2026 overall 75.5 on 500 snaps (CB rank 13; 287 coverage / 196 run-def snaps); PFR 2026 (7 games) coverage 41 targets / 26 completions / 175 yds / 0 TD / 0 INT; 41 tackles, 2 missed; 8 g / 499 def snaps; 24 solo + 17 ast tackles, 3 TFL, 0 INT, 3 PD, 0 FF; 2 accepted penalties; PFR 2026 (7 games) coverage 41 targets / 26 completions / 175 yds / 0 TD / 0 INT; 41 tackles, 2 missed",
+      "Devon Witherspoon 2025: Devon Witherspoon 2025: PFF CB 2025 overall 90.1 on 902 snaps (CB rank 1; 569 coverage / 305 run-def snaps); PFR 2025 coverage 59 targets / 41 completions / 375 yds / 2 TD / passer rating 90.7 / 1 INT; 72 tackles, 3 missed; 12 g / 721 def snaps; 48 solo + 24 ast tackles, 2 TFL, 1 INT, 7 PD, 0 FF; 2 accepted penalties; PFR 2025 coverage 59 targets / 41 completions / 375 yds / 2 TD / passer rating 90.7 / 1 INT; 72 tackles, 3 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Trent McDuffie (LA) role single CB list (no outside/slot split); roster position DB; roster ACT (DB); injuries wk15 Questionable (Knee); wk16 Out (Knee); wk6 Questionable (Groin); wk7 Questionable (Groin); wk8 Questionable (Groin)",
+      "Trent McDuffie 2026: Trent McDuffie 2026: PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps); PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF; 3 accepted penalties; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed",
+      "Trent McDuffie 2025: Trent McDuffie 2025: PFF CB 2025 overall 75.6 on 688 snaps (CB rank 13; 404 coverage / 257 run-def snaps); PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; 13 g / 688 def snaps; 45 solo + 18 ast tackles, 2 TFL, 1 INT, 7 PD, 1 FF; 5 accepted penalties; PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
