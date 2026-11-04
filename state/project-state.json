@@ -7676,7 +7676,7 @@
         "position": "REDGE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/REDGE.reaudit.json",
       "baseline_file": null,
@@ -7783,11 +7783,12 @@
         "REDGE_REAUDIT_TIEBREAK_09_A1",
         "REDGE_REAUDIT_TIEBREAK_10_A1",
         "REDGE_REAUDIT_TIEBREAK_11_A1",
-        "REDGE_REAUDIT_CROSS_AUDIT_A1"
+        "REDGE_REAUDIT_CROSS_AUDIT_A1",
+        "REDGE_REAUDIT_LOCK_20261104"
       ],
-      "current_stage": "positional_cross_audit",
+      "current_stage": "lock",
       "current_task": "REDGE_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T04:40:13.210Z",
+      "updated_at": "2026-11-04T04:41:17Z",
       "last_result": {
         "task_id": "REDGE_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
