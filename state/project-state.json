@@ -5164,16 +5164,17 @@
         "LG_REAUDIT_VARIANCE_AUDIT_A1",
         "LG_REAUDIT_RATE_05_A2",
         "LG_REAUDIT_RATE_06_A2",
-        "LG_REAUDIT_RATE_08_A2"
+        "LG_REAUDIT_RATE_08_A2",
+        "LG_REAUDIT_RATE_12_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "LG_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T03:20:57.421Z",
+      "updated_at": "2026-11-04T03:20:57.753Z",
       "last_result": {
-        "task_id": "LG_REAUDIT_RATE_08",
+        "task_id": "LG_REAUDIT_RATE_12",
         "status": "REVISION_APPROVED",
-        "audit_id": "LG_REAUDIT_RATE_08_A2",
-        "supersedes": "LG_REAUDIT_RATE_08_A1",
+        "audit_id": "LG_REAUDIT_RATE_12_A2",
+        "supersedes": "LG_REAUDIT_RATE_12_A1",
         "flags": []
       },
       "awaiting": null,
@@ -5540,6 +5541,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:20:57Z",
           "note": "Standing commissioner approval t46u/t50s441: Approved variance fix (LG_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): AWR 68->74 (7 penalties in 2025 but 0 in 2026). OVR unchanged."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LG_REAUDIT_RATE_12",
+          "audit_id": "LG_REAUDIT_RATE_12_A2",
+          "supersedes": "LG_REAUDIT_RATE_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:20:57Z",
+          "note": "Standing commissioner approval t46u/t50s441: Approved variance fix (LG_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): PBK 71->74 (2025 PFF 70.3 on 679 pass-block snaps). OVR unchanged."
         }
       ]
     }

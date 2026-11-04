@@ -1,0 +1,367 @@
+# LG_REAUDIT_RATE_12 revision A2 — David Edwards 71 (authorized t46u/t50s441)
+
+Approved variance fix (LG_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): PBK 71->74 (2025 PFF 70.3 on 679 pass-block snaps). OVR unchanged.
+
+```json
+{
+  "audit_id": "LG_REAUDIT_RATE_12_A2",
+  "task_id": "LG_REAUDIT_RATE_12",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "player_id": "ext_00-0035668",
+  "players": [
+    "David Edwards"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 82,
+    "SPD": 66,
+    "ACC": 68,
+    "AGI": 62,
+    "COD": 56,
+    "AWR": 80,
+    "INJ": 92,
+    "STA": 92,
+    "TGH": 88,
+    "PBK": 74,
+    "PBP": 72,
+    "PBF": 74,
+    "RBK": 80,
+    "RBP": 78,
+    "RBF": 82,
+    "IBL": 76,
+    "LBK": 82
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): David Edwards (NO) 2026: PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66); 7 g / 480 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'LG': 225}; David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Listed weakness area: 2026 pass protection, power",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10); pass/run snap mix PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10); pass/run snap mix PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10); pass/run snap mix PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10); pass/run snap mix PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 1 accepted penalties {'False Start': 1}, 2025 2 accepted penalties {'False Start': 2}; PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): David Edwards injury reports: none; roster status ACT; snaps 16 g / 1035 off snaps (2025), 7 g / 480 off snaps (2026). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 16 g / 1035 off snaps (2025), 7 g / 480 off snaps (2026). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 16 g / 1035 off snaps (2025), 7 g / 480 off snaps (2026). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10); PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66); PFF 2025 70.3 (rank 22, 1176 snaps: 679 pass-block / 497 run-block, pass share 0.58). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6. Revised 71->74: Approved variance fix (LG_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): PBK 71->74 (2025 PFF 70.3 on 679 pass-block snaps). OVR unchanged.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10); PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66); PFF 2025 70.3 (rank 22, 1176 snaps: 679 pass-block / 497 run-block, pass share 0.58). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10); PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66); PFF 2025 70.3 (rank 22, 1176 snaps: 679 pass-block / 497 run-block, pass share 0.58). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10); PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66); PFF 2025 70.3 (rank 22, 1176 snaps: 679 pass-block / 497 run-block, pass share 0.58). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10); PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66); PFF 2025 70.3 (rank 22, 1176 snaps: 679 pass-block / 497 run-block, pass share 0.58). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10); PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66); PFF 2025 70.3 (rank 22, 1176 snaps: 679 pass-block / 497 run-block, pass share 0.58). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10); PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66); PFF 2025 70.3 (rank 22, 1176 snaps: 679 pass-block / 497 run-block, pass share 0.58). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10); PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66); PFF 2025 70.3 (rank 22, 1176 snaps: 679 pass-block / 497 run-block, pass share 0.58). Style: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: David Edwards injury reports: none; roster status ACT; snaps 16 g / 1035 off snaps (2025), 7 g / 480 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 16 g / 1035 off snaps (2025), 7 g / 480 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 71,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6. Revision A2: Approved variance fix (LG_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): PBK 71->74 (2025 PFF 70.3 on 679 pass-block snaps). OVR unchanged.",
+  "style_profile": "David Edwards: Durable zone run blocker: ESPN IOL RBWR 77% (top 10), 1,176 PFF snaps in 2025 (70.3), never on an injury report; 2026 pass pro drop to PFF 59.6.",
+  "style_evidence": [
+    "David Edwards (NO) 2026: PFF 2026 59.6 (rank 50, 480 snaps: 316 pass-block / 164 run-block, pass share 0.66); 7 g / 480 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'LG': 225}",
+    "David Edwards 2025: PFF 2025 70.3 (rank 22, 1176 snaps: 679 pass-block / 497 run-block, pass share 0.58); 16 g / 1035 off snaps; 2 accepted penalties {'False Start': 2}; side {'LG': 1}",
+    "David Edwards ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10)",
+    "David Edwards injury reports: none; roster status ACT"
+  ],
+  "input_dossier": "LG_REAUDIT_BG_12_A1",
+  "weaknesses": [
+    "2026 pass protection",
+    "power"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "David Edwards",
+      "ovr": 77,
+      "attributes": {
+        "STR": 82,
+        "SPD": 67,
+        "ACC": 68,
+        "AGI": 61,
+        "COD": 52,
+        "AWR": 82,
+        "INJ": 92,
+        "STA": 90,
+        "TGH": 90,
+        "PBK": 83,
+        "PBP": 80,
+        "PBF": 84,
+        "RBK": 80,
+        "RBP": 78,
+        "RBF": 81,
+        "IBL": 81,
+        "LBK": 83
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -6,
+      "delta_attributes": {
+        "STR": 0,
+        "SPD": -1,
+        "ACC": 0,
+        "AGI": 1,
+        "COD": 4,
+        "AWR": -2,
+        "INJ": 0,
+        "STA": 2,
+        "TGH": -2,
+        "PBK": -9,
+        "PBP": -8,
+        "PBF": -10,
+        "RBK": 0,
+        "RBP": 0,
+        "RBF": 1,
+        "IBL": -5,
+        "LBK": -1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 G, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 6,
+    "attribute_gaps_10plus": {
+      "PBF": -10
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u/t50s441"
+}
+```
