@@ -1,0 +1,410 @@
+{
+  "audit_id": "REDGE_REAUDIT_RATE_05_A1",
+  "task_id": "REDGE_REAUDIT_RATE_05",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "player_id": "ext_00-0035642",
+  "players": [
+    "Josh Hines-Allen"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 80,
+    "ACC": 84,
+    "AGI": 76,
+    "COD": 76,
+    "STR": 84,
+    "AWR": 82,
+    "PRC": 82,
+    "TAK": 80,
+    "POW": 82,
+    "BSH": 84,
+    "PMV": 84,
+    "FMV": 78,
+    "PUR": 82,
+    "INJ": 92,
+    "STA": 94,
+    "TGH": 92
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PMV": "MEDIUM",
+    "FMV": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 46 pressures (20 hurries, 17 QB knockdowns, 8 sacks), 49 tackles, 9 missed; PFR 2026 12 pressures (4 hurries, 6 QB hits, 1.5 sacks) in 5 games, 17 tackles, 2 missed; ESPN 2026 edge PRWR 24% (#16, 27/113); RSWR outside the published top 10. Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 46 pressures (20 hurries, 17 QB knockdowns, 8 sacks), 49 tackles, 9 missed; PFR 2026 12 pressures (4 hurries, 6 QB hits, 1.5 sacks) in 5 games, 17 tackles, 2 missed; ESPN 2026 edge PRWR 24% (#16, 27/113); RSWR outside the published top 10. Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 46 pressures (20 hurries, 17 QB knockdowns, 8 sacks), 49 tackles, 9 missed; PFR 2026 12 pressures (4 hurries, 6 QB hits, 1.5 sacks) in 5 games, 17 tackles, 2 missed; ESPN 2026 edge PRWR 24% (#16, 27/113); RSWR outside the published top 10. Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 46 pressures (20 hurries, 17 QB knockdowns, 8 sacks), 49 tackles, 9 missed; PFR 2026 12 pressures (4 hurries, 6 QB hits, 1.5 sacks) in 5 games, 17 tackles, 2 missed; ESPN 2026 edge PRWR 24% (#16, 27/113); RSWR outside the published top 10. Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF edge 2026 overall 79.4 on 332 snaps (211 pass-rush, 96 run-defense, 25 coverage); ESPN 2026 edge PRWR 24% (#16, 27/113); RSWR outside the published top 10. Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 4/0; PFF edge 2026 overall 79.4 on 332 snaps (211 pass-rush, 96 run-defense, 25 coverage). Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR 24% (#16, 27/113); RSWR outside the published top 10; PFF edge 2025 overall 87.4 on 903 snaps (591 pass-rush, 271 run-defense, 41 coverage); PFF edge 2026 overall 79.4 on 332 snaps (211 pass-rush, 96 run-defense, 25 coverage); TFL in 17 g / 845 def snaps; 8.0 sacks, 28 QB hits, 12 TFL, 0 FF, 3 PD / 7 g / 332 def snaps; 2.0 sacks, 9 QB hits, 4 TFL, 1 FF, 1 PD. Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 46 pressures (20 hurries, 17 QB knockdowns, 8 sacks), 49 tackles, 9 missed; PFR 2026 12 pressures (4 hurries, 6 QB hits, 1.5 sacks) in 5 games, 17 tackles, 2 missed. Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 46 pressures (20 hurries, 17 QB knockdowns, 8 sacks), 49 tackles, 9 missed; PFR 2026 12 pressures (4 hurries, 6 QB hits, 1.5 sacks) in 5 games, 17 tackles, 2 missed. Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR 24% (#16, 27/113); RSWR outside the published top 10; PFF edge 2025 overall 87.4 on 903 snaps (591 pass-rush, 271 run-defense, 41 coverage); PFF edge 2026 overall 79.4 on 332 snaps (211 pass-rush, 96 run-defense, 25 coverage); TFL in 17 g / 845 def snaps; 8.0 sacks, 28 QB hits, 12 TFL, 0 FF, 3 PD / 7 g / 332 def snaps; 2.0 sacks, 9 QB hits, 4 TFL, 1 FF, 1 PD. Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR 24% (#16, 27/113); RSWR outside the published top 10; PFR 2025 46 pressures (20 hurries, 17 QB knockdowns, 8 sacks), 49 tackles, 9 missed; PFR 2026 12 pressures (4 hurries, 6 QB hits, 1.5 sacks) in 5 games, 17 tackles, 2 missed. Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "FMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR 24% (#16, 27/113); RSWR outside the published top 10; PFR 2025 46 pressures (20 hurries, 17 QB knockdowns, 8 sacks), 49 tackles, 9 missed; PFR 2026 12 pressures (4 hurries, 6 QB hits, 1.5 sacks) in 5 games, 17 tackles, 2 missed. Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR 24% (#16, 27/113); RSWR outside the published top 10; PFF edge 2025 overall 87.4 on 903 snaps (591 pass-rush, 271 run-defense, 41 coverage); PFF edge 2026 overall 79.4 on 332 snaps (211 pass-rush, 96 run-defense, 25 coverage); TFL in 17 g / 845 def snaps; 8.0 sacks, 28 QB hits, 12 TFL, 0 FF, 3 PD / 7 g / 332 def snaps; 2.0 sacks, 9 QB hits, 4 TFL, 1 FF, 1 PD. Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Josh Hines-Allen injury reports: no injury designation 2025-26; roster status ACT; 17 g / 845 def snaps; 8.0 sacks, 28 QB hits, 12 TFL, 0 FF, 3 PD (2025), 7 g / 332 def snaps; 2.0 sacks, 9 QB hits, 4 TFL, 1 FF, 1 PD (2026). Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 17 g / 845 def snaps; 8.0 sacks, 28 QB hits, 12 TFL, 0 FF, 3 PD (2025), 7 g / 332 def snaps; 2.0 sacks, 9 QB hits, 4 TFL, 1 FF, 1 PD (2026). Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 17 g / 845 def snaps; 8.0 sacks, 28 QB hits, 12 TFL, 0 FF, 3 PD (2025), 7 g / 332 def snaps; 2.0 sacks, 9 QB hits, 4 TFL, 1 FF, 1 PD (2026). Style: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Josh Hines-Allen injury reports: no injury designation 2025-26; roster status ACT; 17 g / 845 def snaps; 8.0 sacks, 28 QB hits, 12 TFL, 0 FF, 3 PD (2025), 7 g / 332 def snaps; 2.0 sacks, 9 QB hits, 4 TFL, 1 FF, 1 PD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 845 def snaps; 8.0 sacks, 28 QB hits, 12 TFL, 0 FF, 3 PD (2025), 7 g / 332 def snaps; 2.0 sacks, 9 QB hits, 4 TFL, 1 FF, 1 PD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 845 def snaps; 8.0 sacks, 28 QB hits, 12 TFL, 0 FF, 3 PD (2025), 7 g / 332 def snaps; 2.0 sacks, 9 QB hits, 4 TFL, 1 FF, 1 PD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 85,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+  "style_profile": "Josh Hines-Allen: Durable all-round power end: PFF 87.4 (2025) with 46 pressures, every game both years, PRWR 24%; no single elite tool but nothing missing.",
+  "style_evidence": [
+    "Josh Hines-Allen (JAX) Josh Hines-Allen 2026: PFF edge 2026 overall 79.4 on 332 snaps (211 pass-rush, 96 run-defense, 25 coverage); PFR 2026 12 pressures (4 hurries, 6 QB hits, 1.5 sacks) in 5 games, 17 tackles, 2 missed; 7 g / 332 def snaps; 2.0 sacks, 9 QB hits, 4 TFL, 1 FF, 1 PD; 0 accepted penalties; ESPN 2026 edge PRWR 24% (#16, 27/113); RSWR outside the published top 10",
+    "Josh Hines-Allen 2025: PFF edge 2025 overall 87.4 on 903 snaps (591 pass-rush, 271 run-defense, 41 coverage); PFR 2025 46 pressures (20 hurries, 17 QB knockdowns, 8 sacks), 49 tackles, 9 missed; 17 g / 845 def snaps; 8.0 sacks, 28 QB hits, 12 TFL, 0 FF, 3 PD; 4 accepted penalties",
+    "Josh Hines-Allen alignment: side snapshots 2025-26 left 221 / right 275 -> REDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position DL; Madden card REDG (reference only)",
+    "Josh Hines-Allen injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "REDGE_REAUDIT_BG_05_A1",
+  "weaknesses": [
+    "2026 sack rate (1.5)",
+    "bend"
+  ],
+  "limitations": [
+    "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+  ],
+  "side_assignment": "REDGE (side snapshots 2025-26 left 221 / right 275 -> REDGE)",
+  "madden_reference": [
+    {
+      "player": "Josh Hines-Allen",
+      "ovr": 89,
+      "madden_position": "REDG",
+      "attributes": {
+        "SPD": 87,
+        "ACC": 87,
+        "AGI": 84,
+        "COD": 73,
+        "STR": 84,
+        "AWR": 94,
+        "PRC": 92,
+        "TAK": 86,
+        "POW": 82,
+        "BSH": 82,
+        "PMV": 86,
+        "FMV": 90,
+        "PUR": 89,
+        "INJ": 93,
+        "STA": 89,
+        "TGH": 91
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -4,
+      "delta_attributes": {
+        "SPD": -7,
+        "ACC": -3,
+        "AGI": -8,
+        "COD": 3,
+        "STR": 0,
+        "AWR": -12,
+        "PRC": -10,
+        "TAK": -6,
+        "POW": 0,
+        "BSH": 2,
+        "PMV": -2,
+        "FMV": -12,
+        "PUR": -7,
+        "INJ": -1,
+        "STA": 5,
+        "TGH": 1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 4,
+    "attribute_gaps_10plus": {
+      "AWR": -12,
+      "PRC": -10,
+      "FMV": -12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u",
+  "style_similarity": [
+    {
+      "player": "Myles Garrett",
+      "audit_id": "REDGE_REAUDIT_RATE_01_A1",
+      "corr": 0.2,
+      "mad": 6.7,
+      "too_similar": false
+    },
+    {
+      "player": "Micah Parsons",
+      "audit_id": "REDGE_REAUDIT_RATE_02_A1",
+      "corr": -0.384,
+      "mad": 8.8,
+      "too_similar": false
+    },
+    {
+      "player": "Danielle Hunter",
+      "audit_id": "REDGE_REAUDIT_RATE_03_A1",
+      "corr": 0.495,
+      "mad": 4.6,
+      "too_similar": false
+    },
+    {
+      "player": "Abdul Carter",
+      "audit_id": "REDGE_REAUDIT_RATE_04_A1",
+      "corr": -0.03,
+      "mad": 7.3,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
