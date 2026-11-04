@@ -1,0 +1,224 @@
+# LEDGE_REAUDIT_BG_10 — Brian Burns background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "LEDGE_REAUDIT_BG_10_A1",
+  "task_id": "LEDGE_REAUDIT_BG_10",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "player_id": "ext_00-0035713",
+  "players": [
+    "Brian Burns"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Brian Burns",
+    "player_id": "ext_00-0035713",
+    "team": "NYG",
+    "side_assignment": {
+      "L25": 221,
+      "L26": 275,
+      "L": 496,
+      "R": 0,
+      "teams": [
+        "NYG"
+      ],
+      "assign": "LEDGE"
+    },
+    "side_rule": "EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LEDGE = defense's left edge (aligned over the offense's right tackle); REDGE = defense's right edge (over the offense's left tackle), matching the repo note 'Right-side edge (offense's left)'. Side evidence = nflverse weekly depth charts 2025 + 2026 (ESPN-sourced): each team-day snapshot counts once; LDE (4-3 or 3-4) or 3-4 WLB (ESPN 3-4 layout slot 4, left of LILB) = left; RDE or 3-4 SLB (slot 7, right of RILB) = right; 4-3 WLB/SLB are off-ball LBs and not counted. The side with more snapshots across both seasons wins; a player appears in only one list. PFF alignment splits (left/right snap counts) are paywalled and NGS publishes no side split, so depth charts are the side source; Madden 27's LEDG/REDG card label is reference only and does not decide side.",
+    "pff": {
+      "2025": {
+        "team": "new-york-giants",
+        "ovr": 75.8,
+        "snaps": 863,
+        "prsh": 471,
+        "rdef": 313,
+        "cov": 79,
+        "status": "IR"
+      },
+      "2026": {
+        "team": "new-york-giants",
+        "ovr": 72.1,
+        "snaps": 116,
+        "prsh": 64,
+        "rdef": 35,
+        "cov": 17,
+        "status": "IR"
+      }
+    },
+    "pressures": {
+      "2025": {
+        "tm": "NYG",
+        "pos": "OLB",
+        "g": "17",
+        "prss": "41",
+        "hrry": "10",
+        "qbkd": "14",
+        "sk": "16.5",
+        "comb": "67",
+        "m_tkl": "4"
+      },
+      "2026": {
+        "def_pressures": 5.0,
+        "def_times_hurried": 3.0,
+        "def_times_hitqb": 2.0,
+        "def_sacks": 0.0,
+        "def_tackles_combined": 4.0,
+        "def_missed_tackles": 1.0,
+        "g": 3
+      }
+    },
+    "espn_win_rates": {
+      "prwr": null,
+      "rswr": null
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 862
+      },
+      "2026": {
+        "games": 3,
+        "defs": 116
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 39.0,
+        "def_tackle_assists": 28.0,
+        "def_tackles_for_loss": 22.0,
+        "def_fumbles_forced": 3.0,
+        "def_sacks": 16.5,
+        "def_qb_hits": 31.0,
+        "def_pass_defended": 7.0
+      },
+      "2026": {
+        "def_tackles_solo": 4.0,
+        "def_tackle_assists": 0.0,
+        "def_tackles_for_loss": 0.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 2.0,
+        "def_pass_defended": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 1,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk8 Questionable (Hip)"
+      ],
+      "2026": [
+        "wk3 Questionable (Ankle)"
+      ]
+    },
+    "summary_lines": [
+      "Brian Burns (NYG) Brian Burns 2026: PFF edge 2026 overall 72.1 on 116 snaps (64 pass-rush, 35 run-defense, 17 coverage); PFR 2026 5 pressures (3 hurries, 2 QB hits, 0.0 sacks) in 3 games, 4 tackles, 1 missed; 3 g / 116 def snaps; 0.0 sacks, 2 QB hits, 0 TFL, 0 FF, 0 PD; 0 accepted penalties; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Brian Burns 2025: PFF edge 2025 overall 75.8 on 863 snaps (471 pass-rush, 313 run-defense, 79 coverage); PFR 2025 41 pressures (10 hurries, 14 QB knockdowns, 16.5 sacks), 67 tackles, 4 missed; 17 g / 862 def snaps; 16.5 sacks, 31 QB hits, 22 TFL, 3 FF, 7 PD; 1 accepted penalties",
+      "Brian Burns alignment: side snapshots 2025-26 left 496 / right 0 -> LEDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position LB; Madden card REDG (reference only)",
+      "Brian Burns injury reports: wk8 Questionable (Hip); wk3 Questionable (Ankle); roster status RES"
+    ],
+    "availability": {
+      "roster_status": "RES"
+    },
+    "limitations": [
+      "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports",
+      "limited 2026 sample (reserve/IR/PUP)"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PMV",
+      "FMV",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2026",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2025",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:03:35Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
