@@ -18770,7 +18770,7 @@
         "position": "WR",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/WR.reaudit.json",
       "baseline_file": "data/baselines/WR.reaudit-20261103.json",
@@ -18780,7 +18780,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:05:19Z",
-      "updated_at": "2026-11-04T19:06:03.266Z",
+      "updated_at": "2026-11-04T19:06:03.638Z",
       "audit_ids": [
         "WR_REAUDIT_CANDIDATE_AUDIT_A1",
         "WR_REAUDIT_BG_01_A1",
@@ -19036,7 +19036,8 @@
         "WR_REAUDIT_TIEBREAK_76",
         "WR_REAUDIT_TIEBREAK_77",
         "WR_REAUDIT_TIEBREAK_78",
-        "WR_REAUDIT_TIEBREAK_79"
+        "WR_REAUDIT_TIEBREAK_79",
+        "WR_REAUDIT_TIEBREAK_80"
       ],
       "approvals": [
         {
@@ -20776,21 +20777,19 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T19:05:19Z",
           "note": "User-approved card t56s532: Justin Jefferson AWR 86->90, CIT 82->88, OVR 82->84 (ties St. Brown 84; tiebreak decides #8/#9; Olave 83 drops to #10). Usage note fixed: 288 offensive snaps in 6 of 7 MIN games 20"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_80",
+          "audit_id": "WR_REAUDIT_TIEBREAK_80_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:06:03Z",
+          "note": "User-approved batch t56s532 (t56s540 engine: approved tiebreaks order tied players)"
         }
       ],
       "current_stage": "carry_forward",
       "current_task": null,
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "WR_REAUDIT_TIEBREAK_80",
-        "audit_id": "WR_REAUDIT_TIEBREAK_80_A1",
-        "pending": [
-          {
-            "task_id": "WR_REAUDIT_TIEBREAK_80",
-            "audit_id": "WR_REAUDIT_TIEBREAK_80_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "last_result": {
         "task_id": "WR_REAUDIT_TIEBREAK_80",
         "status": "FLAGGED",
