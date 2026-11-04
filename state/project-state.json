@@ -15891,7 +15891,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T14:14:53Z",
-      "updated_at": "2026-11-04T14:14:53Z",
+      "updated_at": "2026-11-04T14:14:53.755Z",
       "audit_ids": [
         "RB_REAUDIT_CANDIDATE_AUDIT_A1",
         "RB_REAUDIT_BG_01_A1",
@@ -15965,7 +15965,8 @@
         "RB_REAUDIT_TIEBREAK_19_A1",
         "RB_REAUDIT_TIEBREAK_20_A1",
         "RB_REAUDIT_TIEBREAK_21_A1",
-        "RB_REAUDIT_TIEBREAK_22_A1"
+        "RB_REAUDIT_TIEBREAK_22_A1",
+        "RB_REAUDIT_RATE_09_A3"
       ],
       "completed_tasks": [
         "RB_REAUDIT_CANDIDATE_AUDIT",
@@ -16991,21 +16992,26 @@
             "approved_by": "PhiXCrypto",
             "approved_at": "2026-11-03T13:49:42Z"
           }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RB_REAUDIT_RATE_09",
+          "audit_id": "RB_REAUDIT_RATE_09_A3",
+          "supersedes": "RB_REAUDIT_RATE_09_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:14:53Z",
+          "note": "User-approved card t56s532: Christian McCaffrey INJ 72->82, STA 84->90, OVR 83->84 (stays #5 behind Jaylen Warren). Durability marked down without missed games: played all 17 games in 2025 (week 14 bye) and a"
         }
       ],
       "current_stage": "carry_forward",
       "current_task": null,
       "awaiting": null,
       "last_result": {
-        "status": "CARRIED_FORWARD",
-        "carried_from": "RB_REAUDIT_LOCK_20261103",
-        "carried": 73,
-        "rerun": [
-          "RB_REAUDIT_VARIANCE_AUDIT",
-          "RB_REAUDIT_SCARCITY",
-          "RB_REAUDIT_CROSS_AUDIT",
-          "RB_REAUDIT_LOCK"
-        ]
+        "task_id": "RB_REAUDIT_RATE_09",
+        "status": "REVISION_APPROVED",
+        "audit_id": "RB_REAUDIT_RATE_09_A3",
+        "supersedes": "RB_REAUDIT_RATE_09_A2",
+        "flags": []
       }
     }
   ]
