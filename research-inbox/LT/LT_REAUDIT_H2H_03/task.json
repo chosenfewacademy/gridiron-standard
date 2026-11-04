@@ -2,7 +2,7 @@
   "type": "pair_audit",
   "task_id": "LT_REAUDIT_H2H_03",
   "players": [
-    "Tristan Wirfs",
+    "Garett Bolles",
     "Andrew Thomas"
   ],
   "baseline_controls": {
@@ -94,12 +94,12 @@
       },
       {
         "rank": 4,
-        "player": "Garett Bolles",
+        "player": "Tristan Wirfs",
         "overall": 86
       },
       {
         "rank": 5,
-        "player": "Tristan Wirfs",
+        "player": "Garett Bolles",
         "overall": 85
       },
       {
@@ -119,20 +119,20 @@
       },
       {
         "rank": 9,
-        "player": "Laremy Tunsil",
-        "overall": 78
+        "player": "Charles Cross",
+        "overall": 77
       },
       {
         "rank": 10,
-        "player": "Charles Cross",
-        "overall": 77
+        "player": "Dion Dawkins",
+        "overall": 76
       }
     ],
     "external_controls": [
-      "Dion Dawkins",
       "Paris Johnson Jr.",
       "Will Campbell",
-      "Kolton Miller"
+      "Kolton Miller",
+      "Laremy Tunsil"
     ]
   },
   "position": "LT",
