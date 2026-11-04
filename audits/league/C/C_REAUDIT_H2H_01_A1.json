@@ -1,0 +1,37 @@
+{
+  "audit_id": "C_REAUDIT_H2H_01_A1",
+  "task_id": "C_REAUDIT_H2H_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "C",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Creed Humphrey",
+    "Zach Frazier"
+  ],
+  "pair_result": {
+    "winner": "Creed Humphrey",
+    "loser": "Zach Frazier",
+    "provisional_order_holds": true,
+    "reasoning": "Humphrey's two-year body of work wins: PFF #1 C in 2025 (88.8 on 1,093 snaps, All-Pro) with 2 accepted penalties across 2025-26 and ESPN IOL PBWR 92% in 2026. Frazier is the better 2026 center (79.5 vs 64.9) and the stronger anchor, but one half-season does not overturn Humphrey's elite 2025 and multi-year track record.",
+    "key_evidence_for_winner": [
+      "Creed Humphrey (KC) ESPN 2026 win rates (thru Wk 8): IOL PBWR 92%; depth-chart side 2026 {'C': 226}; roster ACT",
+      "Creed Humphrey 2026: PFF 64.9 (rank 16; 270 pass-block/173 run-block of 443 snaps); 7 g/444 snaps; penalties 1; injuries none",
+      "Creed Humphrey 2025: PFF 88.8 (rank 1; 742 pass-block/351 run-block of 1093 snaps); 17 g/1093 snaps; penalties 1; injuries none"
+    ],
+    "key_evidence_for_loser": [
+      "Zach Frazier (PIT) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'C': 226}; roster ACT",
+      "Zach Frazier 2026: PFF 79.5 (rank 1; 343 pass-block/189 run-block of 532 snaps); 8 g/533 snaps; penalties 1; injuries none",
+      "Zach Frazier 2025: PFF 73.8 (rank 6; 673 pass-block/412 run-block of 1085 snaps); 16 g/976 snaps; penalties 3; injuries ['wk8 Questionable (Calf)']"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
