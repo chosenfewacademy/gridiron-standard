@@ -1,0 +1,482 @@
+{
+  "audit_id": "LT_REAUDIT_SCARCITY_A1",
+  "task_id": "LT_REAUDIT_SCARCITY",
+  "task_type": "scarcity_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Penei Sewell",
+    "Trent Williams",
+    "Jordan Mailata",
+    "Tristan Wirfs",
+    "Garett Bolles",
+    "Andrew Thomas",
+    "Alaric Jackson",
+    "Bernhard Raimann",
+    "Charles Cross",
+    "Dion Dawkins"
+  ],
+  "scarcity": {
+    "rules": "config/scarcity-rules.json (90+ elite, 95+ rare league-defining, 97+ extraordinary, 99 historic)",
+    "traits_90_plus": [
+      {
+        "player": "Penei Sewell",
+        "attr": "STR",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Penei Sewell",
+        "attr": "AWR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Penei Sewell",
+        "attr": "STA",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Penei Sewell",
+        "attr": "TGH",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Penei Sewell",
+        "attr": "PBK",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Penei Sewell",
+        "attr": "PBP",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Penei Sewell",
+        "attr": "RBK",
+        "v": 97,
+        "tier": "EXTRAORDINARY",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Penei Sewell",
+        "attr": "RBP",
+        "v": 97,
+        "tier": "EXTRAORDINARY",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Penei Sewell",
+        "attr": "RBF",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Penei Sewell",
+        "attr": "IBL",
+        "v": 96,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Penei Sewell",
+        "attr": "LBK",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Trent Williams",
+        "attr": "STR",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Trent Williams",
+        "attr": "AWR",
+        "v": 96,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Trent Williams",
+        "attr": "TGH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Trent Williams",
+        "attr": "PBK",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Trent Williams",
+        "attr": "PBP",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Trent Williams",
+        "attr": "PBF",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Trent Williams",
+        "attr": "RBK",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Trent Williams",
+        "attr": "RBP",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Trent Williams",
+        "attr": "RBF",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Trent Williams",
+        "attr": "IBL",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Trent Williams",
+        "attr": "LBK",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Jordan Mailata",
+        "attr": "STR",
+        "v": 97,
+        "tier": "EXTRAORDINARY",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Jordan Mailata",
+        "attr": "INJ",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jordan Mailata",
+        "attr": "STA",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jordan Mailata",
+        "attr": "TGH",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jordan Mailata",
+        "attr": "PBK",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jordan Mailata",
+        "attr": "PBP",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Jordan Mailata",
+        "attr": "RBP",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Tristan Wirfs",
+        "attr": "STR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Tristan Wirfs",
+        "attr": "TGH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Tristan Wirfs",
+        "attr": "IBL",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Garett Bolles",
+        "attr": "INJ",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Garett Bolles",
+        "attr": "STA",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Garett Bolles",
+        "attr": "PBF",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Andrew Thomas",
+        "attr": "AWR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Andrew Thomas",
+        "attr": "PBF",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Alaric Jackson",
+        "attr": "STR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Alaric Jackson",
+        "attr": "INJ",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Alaric Jackson",
+        "attr": "STA",
+        "v": 96,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Bernhard Raimann",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Dion Dawkins",
+        "attr": "STR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Dion Dawkins",
+        "attr": "TGH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Dion Dawkins",
+        "attr": "RBP",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      }
+    ],
+    "count_90_plus": 44,
+    "count_95_plus": 10,
+    "count_97_plus": 3,
+    "count_99": 0,
+    "traits_95_plus": [
+      "Penei Sewell STR 95 (LEAGUE_DEFINING)",
+      "Penei Sewell RBK 97 (EXTRAORDINARY)",
+      "Penei Sewell RBP 97 (EXTRAORDINARY)",
+      "Penei Sewell IBL 96 (LEAGUE_DEFINING)",
+      "Trent Williams AWR 96 (LEAGUE_DEFINING)",
+      "Trent Williams PBF 95 (LEAGUE_DEFINING)",
+      "Trent Williams RBF 95 (LEAGUE_DEFINING)",
+      "Jordan Mailata STR 97 (EXTRAORDINARY)",
+      "Jordan Mailata PBP 95 (LEAGUE_DEFINING)",
+      "Alaric Jackson STA 96 (LEAGUE_DEFINING)"
+    ],
+    "max_trait": "Penei Sewell RBK 97 (EXTRAORDINARY)",
+    "all_90_plus_have_tiered_sourced_evidence": true,
+    "league_defining_basis": {
+      "Penei Sewell STR 95 / RBK 97 / RBP 97 / IBL 96 / OVR 95": "PFF #1 tackle in both 2025 (95.1) and 2026 (91.1); ESPN RBWR 82% (#5 OT) and PBWR 90%; 397/202 run-block snaps at the highest grade in the league - the position's league-defining run blocker",
+      "Trent Williams AWR 96": "age-38 technician: PFF 91.1/86.2 (#2 2026), ESPN PBWR 92% (#2 OT), 4 penalties per season",
+      "Jordan Mailata STR 97": "PFF 87.7/84.6 with PBWR 90%; the largest LT in the league anchoring 601/328 pass-block snaps with no injury reports - extraordinary power"
+    },
+    "overall_90_plus": [
+      "Penei Sewell 95",
+      "Trent Williams 91"
+    ],
+    "overall_spread": "95 to 76 across top 10; star tier 95/91 then 88/86",
+    "style_rule": {
+      "pairs_checked": 91,
+      "too_similar": 0,
+      "highest_corr": [
+        0.932,
+        4.41,
+        "Jordan Mailata",
+        "Alaric Jackson"
+      ],
+      "min_mad": 3.29
+    },
+    "effective_ratings": {
+      "Penei Sewell": [
+        "LT_REAUDIT_RATE_01_A1",
+        95
+      ],
+      "Trent Williams": [
+        "LT_REAUDIT_RATE_02_A1",
+        91
+      ],
+      "Jordan Mailata": [
+        "LT_REAUDIT_RATE_03_A1",
+        88
+      ],
+      "Tristan Wirfs": [
+        "LT_REAUDIT_RATE_05_A2",
+        86
+      ],
+      "Garett Bolles": [
+        "LT_REAUDIT_RATE_04_A2",
+        85
+      ],
+      "Andrew Thomas": [
+        "LT_REAUDIT_RATE_06_A1",
+        82
+      ],
+      "Alaric Jackson": [
+        "LT_REAUDIT_RATE_07_A1",
+        79
+      ],
+      "Bernhard Raimann": [
+        "LT_REAUDIT_RATE_08_A1",
+        78
+      ],
+      "Charles Cross": [
+        "LT_REAUDIT_RATE_09_A1",
+        77
+      ],
+      "Dion Dawkins": [
+        "LT_REAUDIT_RATE_10_A1",
+        76
+      ],
+      "Paris Johnson Jr.": [
+        "LT_REAUDIT_RATE_12_A1",
+        75
+      ],
+      "Will Campbell": [
+        "LT_REAUDIT_RATE_13_A1",
+        74
+      ],
+      "Kolton Miller": [
+        "LT_REAUDIT_RATE_14_A2",
+        73
+      ],
+      "Laremy Tunsil": [
+        "LT_REAUDIT_RATE_11_A2",
+        72
+      ]
+    },
+    "note_for_commissioner": "10 traits at 95+ (Mailata STR 97 and Sewell RBK/RBP 97 tiered EXTRAORDINARY), each tiered and sourced.",
+    "result": "PASS: 10 95+ traits, all tiered (LEAGUE_DEFINING/EXTRAORDINARY) with sources; 44 90+ traits all tiered; overalls 90+: Penei Sewell 95, Trent Williams 91; style rule 91 pairs, 0 too similar"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
