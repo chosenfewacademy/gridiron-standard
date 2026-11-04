@@ -1,0 +1,40 @@
+# SS_REAUDIT_TIEBREAK_22 — Jaylinn Hawkins vs Michael Carter II (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "SS_REAUDIT_TIEBREAK_22_A1",
+  "task_id": "SS_REAUDIT_TIEBREAK_22",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jaylinn Hawkins",
+    "Michael Carter II"
+  ],
+  "pair_result": {
+    "winner": "Jaylinn Hawkins",
+    "loser": "Michael Carter II",
+    "provisional_order_holds": true,
+    "reasoning": "Hawkins holds #10 on graded play: PFF 74.9 on 1102 snaps in 2025 (S rank 15) with 4 INT and a 71.2 passer rating allowed, and 54.1 on 314 in 2026, vs Michael Carter II's no PFF S grade in 2025 and 70.7 on 132 snaps in 2026. Carter has only 132 graded safety snaps in 2026 and no 2025 safety grade. Michael Carter II's screen hits (pff, efficiency, availability) come from low reference bars: Christian Roland-Wallace's 345-snap sample (8 of 9 targets completed in 2026) sets the efficiency bar.",
+    "key_evidence_for_winner": [
+      "Jaylinn Hawkins (BAL) role snap-weighted 2025-26 depth-chart FS/SS shares FS 176 / SS 977 -> SS; roster INA (DB); injuries wk6 Out (Hamstring); wk7 Questionable (Hamstring); wk7 Out (Knee); wk8 Out (Knee)",
+      "Jaylinn Hawkins 2026: Jaylinn Hawkins 2026: PFF S 2026 overall 54.1 on 314 snaps (S rank 75; 211 coverage / 100 run-def snaps); PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed; 6 g / 315 def snaps; 17 solo + 13 ast tackles, 0 TFL, 0 INT, 0 PD, 0 FF; 1 accepted penalties; PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed",
+      "Jaylinn Hawkins 2025: Jaylinn Hawkins 2025: PFF S 2025 overall 74.9 on 1102 snaps (S rank 15; 659 coverage / 408 run-def snaps); PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed; 15 g / 838 def snaps; 44 solo + 26 ast tackles, 3 TFL, 4 INT, 6 PD, 1 FF; 3 accepted penalties; PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Michael Carter II (PHI) role snap-weighted 2025-26 depth-chart FS/SS shares FS 34 / SS 349 -> SS; roster ACT (DB); injuries wk5 Out (Concussion); wk6 Out (Concussion); wk7 Out (Concussion); wk6 Out (Abdomen); wk7 Out (Abdomen)",
+      "Michael Carter II 2026: Michael Carter II 2026: PFF S 2026 overall 70.7 on 132 snaps (S rank None; 95 coverage / 36 run-def snaps); PFR 2026 (3 games) coverage 9 targets / 4 completions / 22 yds / 0 TD / 0 INT; 14 tackles, 1 missed; 6 g / 132 def snaps; 6 solo + 9 ast tackles, 0 TFL, 0 INT, 3 PD, 0 FF; 0 accepted penalties; PFR 2026 (3 games) coverage 9 targets / 4 completions / 22 yds / 0 TD / 0 INT; 14 tackles, 1 missed",
+      "Michael Carter II 2025: Michael Carter II 2025: no PFF S grade 2025; PFR 2025 coverage 17 targets / 11 completions / 192 yds / 0 TD / passer rating 103.1 / 0 INT; 24 tackles, 5 missed; 13 g / 251 def snaps; 9 solo + 12 ast tackles, 1 TFL, 0 INT, 2 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 17 targets / 11 completions / 192 yds / 0 TD / passer rating 103.1 / 0 INT; 24 tackles, 5 missed"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
