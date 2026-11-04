@@ -17073,7 +17073,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "QUEUED_NOT_STARTED",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.reaudit-20261104.json",
@@ -17081,7 +17081,1649 @@
       "requested_by": "PhiXCrypto",
       "requested_at": "2026-11-04T14:17:31.540Z",
       "trigger": "COMMISSIONER_EXPLICIT",
-      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
+      "started_at": "2026-11-04T14:17:31Z",
+      "updated_at": "2026-11-04T14:17:31Z",
+      "audit_ids": [
+        "TE_REAUDIT_CANDIDATE_AUDIT_A1",
+        "TE_REAUDIT_BG_01_A1",
+        "TE_REAUDIT_BG_02_A1",
+        "TE_REAUDIT_BG_03_A1",
+        "TE_REAUDIT_BG_04_A1",
+        "TE_REAUDIT_BG_05_A1",
+        "TE_REAUDIT_BG_06_A1",
+        "TE_REAUDIT_BG_07_A1",
+        "TE_REAUDIT_BG_08_A1",
+        "TE_REAUDIT_BG_09_A1",
+        "TE_REAUDIT_BG_10_A1",
+        "TE_REAUDIT_BG_11_A1",
+        "TE_REAUDIT_BG_12_A1",
+        "TE_REAUDIT_BG_13_A1",
+        "TE_REAUDIT_BG_14_A1",
+        "TE_REAUDIT_BG_15_A1",
+        "TE_REAUDIT_RATE_01_A1",
+        "TE_REAUDIT_RATE_02_A1",
+        "TE_REAUDIT_RATE_03_A1",
+        "TE_REAUDIT_RATE_03_A2",
+        "TE_REAUDIT_RATE_04_A1",
+        "TE_REAUDIT_RATE_04_A2",
+        "TE_REAUDIT_RATE_05_A1",
+        "TE_REAUDIT_RATE_06_A1",
+        "TE_REAUDIT_RATE_07_A1",
+        "TE_REAUDIT_RATE_08_A1",
+        "TE_REAUDIT_RATE_09_A1",
+        "TE_REAUDIT_RATE_10_A1",
+        "TE_REAUDIT_RATE_11_A1",
+        "TE_REAUDIT_RATE_12_A1",
+        "TE_REAUDIT_RATE_13_A1",
+        "TE_REAUDIT_RATE_14_A1",
+        "TE_REAUDIT_RATE_15_A1",
+        "TE_REAUDIT_H2H_01_A1",
+        "TE_REAUDIT_TIEBREAK_11_A1",
+        "TE_REAUDIT_TIEBREAK_12_A1",
+        "TE_REAUDIT_TIEBREAK_13_A1",
+        "TE_REAUDIT_TIEBREAK_14_A1",
+        "TE_REAUDIT_TIEBREAK_15_A1",
+        "TE_REAUDIT_TIEBREAK_01_A1",
+        "TE_REAUDIT_TIEBREAK_02_A1",
+        "TE_REAUDIT_TIEBREAK_03_A1",
+        "TE_REAUDIT_TIEBREAK_04_A1",
+        "TE_REAUDIT_TIEBREAK_05_A1",
+        "TE_REAUDIT_TIEBREAK_06_A1",
+        "TE_REAUDIT_TIEBREAK_07_A1",
+        "TE_REAUDIT_TIEBREAK_08_A1",
+        "TE_REAUDIT_TIEBREAK_09_A1",
+        "TE_REAUDIT_TIEBREAK_10_A1",
+        "TE_REAUDIT_RATE_04_A3",
+        "TE_REAUDIT_RATE_03_A3",
+        "TE_REAUDIT_RATE_08_A2",
+        "TE_REAUDIT_RATE_11_A2",
+        "TE_REAUDIT_RATE_10_A2",
+        "TE_REAUDIT_RATE_14_A2",
+        "TE_REAUDIT_RATE_12_A2",
+        "TE_REAUDIT_RATE_13_A2",
+        "TE_REAUDIT_RATE_15_A2",
+        "TE_REAUDIT_H2H_02_A1",
+        "TE_REAUDIT_H2H_03_A1",
+        "TE_REAUDIT_H2H_04_A1",
+        "TE_REAUDIT_H2H_05_A1",
+        "TE_REAUDIT_H2H_06_A1",
+        "TE_REAUDIT_TIEBREAK_16_A1",
+        "TE_REAUDIT_TIEBREAK_17_A1",
+        "TE_REAUDIT_TIEBREAK_18_A1",
+        "TE_REAUDIT_TIEBREAK_19_A1",
+        "TE_REAUDIT_TIEBREAK_20_A1",
+        "TE_REAUDIT_TIEBREAK_21_A1",
+        "TE_REAUDIT_TIEBREAK_22_A1",
+        "TE_REAUDIT_TIEBREAK_23_A1",
+        "TE_REAUDIT_TIEBREAK_24_A1",
+        "TE_REAUDIT_TIEBREAK_25_A1",
+        "TE_REAUDIT_TIEBREAK_26_A1",
+        "TE_REAUDIT_TIEBREAK_27_A1",
+        "TE_REAUDIT_TIEBREAK_28_A1",
+        "TE_REAUDIT_TIEBREAK_29_A1",
+        "TE_REAUDIT_TIEBREAK_30_A1",
+        "TE_REAUDIT_TIEBREAK_31_A1",
+        "TE_REAUDIT_TIEBREAK_32_A1",
+        "TE_REAUDIT_TIEBREAK_33_A1",
+        "TE_REAUDIT_TIEBREAK_34_A1",
+        "TE_REAUDIT_TIEBREAK_35_A1",
+        "TE_REAUDIT_TIEBREAK_36_A1",
+        "TE_REAUDIT_TIEBREAK_37_A1",
+        "TE_REAUDIT_TIEBREAK_38_A1",
+        "TE_REAUDIT_TIEBREAK_39_A1",
+        "TE_REAUDIT_TIEBREAK_40_A1",
+        "TE_REAUDIT_TIEBREAK_41_A1",
+        "TE_REAUDIT_TIEBREAK_42_A1",
+        "TE_REAUDIT_TIEBREAK_43_A1",
+        "TE_REAUDIT_TIEBREAK_44_A1",
+        "TE_REAUDIT_TIEBREAK_45_A1",
+        "TE_REAUDIT_TIEBREAK_46_A1",
+        "TE_REAUDIT_TIEBREAK_47_A1",
+        "TE_REAUDIT_TIEBREAK_48_A1",
+        "TE_REAUDIT_TIEBREAK_49_A1",
+        "TE_REAUDIT_TIEBREAK_50_A1",
+        "TE_REAUDIT_TIEBREAK_51_A1",
+        "TE_REAUDIT_BG_16_A1",
+        "TE_REAUDIT_RATE_16_A1",
+        "TE_REAUDIT_RATE_16_A2",
+        "TE_REAUDIT_RATE_05_A2",
+        "TE_REAUDIT_RATE_10_A3",
+        "TE_REAUDIT_RATE_14_A3",
+        "TE_REAUDIT_RATE_12_A3",
+        "TE_REAUDIT_RATE_15_A3",
+        "TE_REAUDIT_RATE_16_A3"
+      ],
+      "completed_tasks": [
+        "TE_REAUDIT_CANDIDATE_AUDIT",
+        "TE_REAUDIT_BG_01",
+        "TE_REAUDIT_BG_02",
+        "TE_REAUDIT_BG_03",
+        "TE_REAUDIT_BG_04",
+        "TE_REAUDIT_BG_05",
+        "TE_REAUDIT_BG_06",
+        "TE_REAUDIT_BG_07",
+        "TE_REAUDIT_BG_08",
+        "TE_REAUDIT_BG_09",
+        "TE_REAUDIT_BG_10",
+        "TE_REAUDIT_BG_11",
+        "TE_REAUDIT_BG_12",
+        "TE_REAUDIT_BG_13",
+        "TE_REAUDIT_BG_14",
+        "TE_REAUDIT_BG_15",
+        "TE_REAUDIT_RATE_01",
+        "TE_REAUDIT_RATE_02",
+        "TE_REAUDIT_RATE_03",
+        "TE_REAUDIT_RATE_04",
+        "TE_REAUDIT_RATE_05",
+        "TE_REAUDIT_RATE_06",
+        "TE_REAUDIT_RATE_07",
+        "TE_REAUDIT_RATE_08",
+        "TE_REAUDIT_RATE_09",
+        "TE_REAUDIT_RATE_10",
+        "TE_REAUDIT_RATE_11",
+        "TE_REAUDIT_RATE_12",
+        "TE_REAUDIT_RATE_13",
+        "TE_REAUDIT_RATE_14",
+        "TE_REAUDIT_RATE_15",
+        "TE_REAUDIT_H2H_01",
+        "TE_REAUDIT_TIEBREAK_11",
+        "TE_REAUDIT_TIEBREAK_12",
+        "TE_REAUDIT_TIEBREAK_13",
+        "TE_REAUDIT_TIEBREAK_14",
+        "TE_REAUDIT_TIEBREAK_15",
+        "TE_REAUDIT_TIEBREAK_01",
+        "TE_REAUDIT_TIEBREAK_02",
+        "TE_REAUDIT_TIEBREAK_03",
+        "TE_REAUDIT_TIEBREAK_04",
+        "TE_REAUDIT_TIEBREAK_05",
+        "TE_REAUDIT_TIEBREAK_06",
+        "TE_REAUDIT_TIEBREAK_07",
+        "TE_REAUDIT_TIEBREAK_08",
+        "TE_REAUDIT_TIEBREAK_09",
+        "TE_REAUDIT_TIEBREAK_10",
+        "TE_REAUDIT_H2H_02",
+        "TE_REAUDIT_H2H_03",
+        "TE_REAUDIT_H2H_04",
+        "TE_REAUDIT_H2H_05",
+        "TE_REAUDIT_H2H_06",
+        "TE_REAUDIT_TIEBREAK_16",
+        "TE_REAUDIT_TIEBREAK_17",
+        "TE_REAUDIT_TIEBREAK_18",
+        "TE_REAUDIT_TIEBREAK_19",
+        "TE_REAUDIT_TIEBREAK_20",
+        "TE_REAUDIT_TIEBREAK_21",
+        "TE_REAUDIT_TIEBREAK_22",
+        "TE_REAUDIT_TIEBREAK_23",
+        "TE_REAUDIT_TIEBREAK_24",
+        "TE_REAUDIT_TIEBREAK_25",
+        "TE_REAUDIT_TIEBREAK_26",
+        "TE_REAUDIT_TIEBREAK_27",
+        "TE_REAUDIT_TIEBREAK_28",
+        "TE_REAUDIT_TIEBREAK_29",
+        "TE_REAUDIT_TIEBREAK_30",
+        "TE_REAUDIT_TIEBREAK_31",
+        "TE_REAUDIT_TIEBREAK_32",
+        "TE_REAUDIT_TIEBREAK_33",
+        "TE_REAUDIT_TIEBREAK_34",
+        "TE_REAUDIT_TIEBREAK_35",
+        "TE_REAUDIT_TIEBREAK_36",
+        "TE_REAUDIT_TIEBREAK_37",
+        "TE_REAUDIT_TIEBREAK_38",
+        "TE_REAUDIT_TIEBREAK_39",
+        "TE_REAUDIT_TIEBREAK_40",
+        "TE_REAUDIT_TIEBREAK_41",
+        "TE_REAUDIT_TIEBREAK_42",
+        "TE_REAUDIT_TIEBREAK_43",
+        "TE_REAUDIT_TIEBREAK_44",
+        "TE_REAUDIT_TIEBREAK_45",
+        "TE_REAUDIT_TIEBREAK_46",
+        "TE_REAUDIT_TIEBREAK_47",
+        "TE_REAUDIT_TIEBREAK_48",
+        "TE_REAUDIT_TIEBREAK_49",
+        "TE_REAUDIT_TIEBREAK_50",
+        "TE_REAUDIT_TIEBREAK_51",
+        "TE_REAUDIT_BG_16",
+        "TE_REAUDIT_RATE_16"
+      ],
+      "approvals": [
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_CANDIDATE_AUDIT",
+          "audit_id": "TE_REAUDIT_CANDIDATE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:13:41Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_01",
+          "audit_id": "TE_REAUDIT_BG_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:14:57Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_02",
+          "audit_id": "TE_REAUDIT_BG_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:14:58Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_03",
+          "audit_id": "TE_REAUDIT_BG_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:14:59Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_04",
+          "audit_id": "TE_REAUDIT_BG_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:01Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_05",
+          "audit_id": "TE_REAUDIT_BG_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:02Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_06",
+          "audit_id": "TE_REAUDIT_BG_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:03Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_07",
+          "audit_id": "TE_REAUDIT_BG_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:04Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_08",
+          "audit_id": "TE_REAUDIT_BG_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:05Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_09",
+          "audit_id": "TE_REAUDIT_BG_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:07Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_10",
+          "audit_id": "TE_REAUDIT_BG_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:08Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_11",
+          "audit_id": "TE_REAUDIT_BG_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:09Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_12",
+          "audit_id": "TE_REAUDIT_BG_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:10Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_13",
+          "audit_id": "TE_REAUDIT_BG_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:11Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_14",
+          "audit_id": "TE_REAUDIT_BG_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:12Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_15",
+          "audit_id": "TE_REAUDIT_BG_15_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:13Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_01",
+          "audit_id": "TE_REAUDIT_RATE_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:15Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_02",
+          "audit_id": "TE_REAUDIT_RATE_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:16Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_03",
+          "audit_id": "TE_REAUDIT_RATE_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:15:53Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_03",
+          "audit_id": "TE_REAUDIT_RATE_03_A2",
+          "supersedes": "TE_REAUDIT_RATE_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:16:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_04",
+          "audit_id": "TE_REAUDIT_RATE_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:16:47Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_04",
+          "audit_id": "TE_REAUDIT_RATE_04_A2",
+          "supersedes": "TE_REAUDIT_RATE_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:16:47Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_05",
+          "audit_id": "TE_REAUDIT_RATE_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:16:48Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_06",
+          "audit_id": "TE_REAUDIT_RATE_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:16:49Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_07",
+          "audit_id": "TE_REAUDIT_RATE_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:16:51Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_08",
+          "audit_id": "TE_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:16:52Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_09",
+          "audit_id": "TE_REAUDIT_RATE_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:16:53Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_10",
+          "audit_id": "TE_REAUDIT_RATE_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:16:54Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_11",
+          "audit_id": "TE_REAUDIT_RATE_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:16:55Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_12",
+          "audit_id": "TE_REAUDIT_RATE_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:16:57Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_13",
+          "audit_id": "TE_REAUDIT_RATE_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:16:58Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_14",
+          "audit_id": "TE_REAUDIT_RATE_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:16:59Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_15",
+          "audit_id": "TE_REAUDIT_RATE_15_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T21:17:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_H2H_01",
+          "audit_id": "TE_REAUDIT_H2H_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:28Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_11",
+          "audit_id": "TE_REAUDIT_TIEBREAK_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:29Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_12",
+          "audit_id": "TE_REAUDIT_TIEBREAK_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:29Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_13",
+          "audit_id": "TE_REAUDIT_TIEBREAK_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:30Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_14",
+          "audit_id": "TE_REAUDIT_TIEBREAK_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:30Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_15",
+          "audit_id": "TE_REAUDIT_TIEBREAK_15_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:31Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_01",
+          "audit_id": "TE_REAUDIT_TIEBREAK_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:31Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_02",
+          "audit_id": "TE_REAUDIT_TIEBREAK_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:32Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_03",
+          "audit_id": "TE_REAUDIT_TIEBREAK_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:32Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_04",
+          "audit_id": "TE_REAUDIT_TIEBREAK_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:33Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_05",
+          "audit_id": "TE_REAUDIT_TIEBREAK_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:33Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_06",
+          "audit_id": "TE_REAUDIT_TIEBREAK_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:33Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_07",
+          "audit_id": "TE_REAUDIT_TIEBREAK_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:34Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_08",
+          "audit_id": "TE_REAUDIT_TIEBREAK_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:34Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_09",
+          "audit_id": "TE_REAUDIT_TIEBREAK_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:35Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_10",
+          "audit_id": "TE_REAUDIT_TIEBREAK_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:13:35Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_04",
+          "audit_id": "TE_REAUDIT_RATE_04_A3",
+          "supersedes": "TE_REAUDIT_RATE_04_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:15Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_03",
+          "audit_id": "TE_REAUDIT_RATE_03_A3",
+          "supersedes": "TE_REAUDIT_RATE_03_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:15Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_08",
+          "audit_id": "TE_REAUDIT_RATE_08_A2",
+          "supersedes": "TE_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:16Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_11",
+          "audit_id": "TE_REAUDIT_RATE_11_A2",
+          "supersedes": "TE_REAUDIT_RATE_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:16Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_10",
+          "audit_id": "TE_REAUDIT_RATE_10_A2",
+          "supersedes": "TE_REAUDIT_RATE_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:16Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_14",
+          "audit_id": "TE_REAUDIT_RATE_14_A2",
+          "supersedes": "TE_REAUDIT_RATE_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:16Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_12",
+          "audit_id": "TE_REAUDIT_RATE_12_A2",
+          "supersedes": "TE_REAUDIT_RATE_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:17Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_13",
+          "audit_id": "TE_REAUDIT_RATE_13_A2",
+          "supersedes": "TE_REAUDIT_RATE_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:17Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_15",
+          "audit_id": "TE_REAUDIT_RATE_15_A2",
+          "supersedes": "TE_REAUDIT_RATE_15_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:17Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_H2H_02",
+          "audit_id": "TE_REAUDIT_H2H_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:33Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_H2H_03",
+          "audit_id": "TE_REAUDIT_H2H_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:35Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_H2H_04",
+          "audit_id": "TE_REAUDIT_H2H_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:36Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_H2H_05",
+          "audit_id": "TE_REAUDIT_H2H_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:37Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_H2H_06",
+          "audit_id": "TE_REAUDIT_H2H_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:14:38Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_16",
+          "audit_id": "TE_REAUDIT_TIEBREAK_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:28Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_17",
+          "audit_id": "TE_REAUDIT_TIEBREAK_17_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:28Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_18",
+          "audit_id": "TE_REAUDIT_TIEBREAK_18_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:29Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_19",
+          "audit_id": "TE_REAUDIT_TIEBREAK_19_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:30Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_20",
+          "audit_id": "TE_REAUDIT_TIEBREAK_20_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:31Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_21",
+          "audit_id": "TE_REAUDIT_TIEBREAK_21_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:32Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_22",
+          "audit_id": "TE_REAUDIT_TIEBREAK_22_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:33Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_23",
+          "audit_id": "TE_REAUDIT_TIEBREAK_23_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:33Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_24",
+          "audit_id": "TE_REAUDIT_TIEBREAK_24_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:34Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_25",
+          "audit_id": "TE_REAUDIT_TIEBREAK_25_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:35Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_26",
+          "audit_id": "TE_REAUDIT_TIEBREAK_26_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:36Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_27",
+          "audit_id": "TE_REAUDIT_TIEBREAK_27_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:37Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_28",
+          "audit_id": "TE_REAUDIT_TIEBREAK_28_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:37Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_29",
+          "audit_id": "TE_REAUDIT_TIEBREAK_29_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:38Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_30",
+          "audit_id": "TE_REAUDIT_TIEBREAK_30_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:39Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_31",
+          "audit_id": "TE_REAUDIT_TIEBREAK_31_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:40Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_32",
+          "audit_id": "TE_REAUDIT_TIEBREAK_32_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:41Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_33",
+          "audit_id": "TE_REAUDIT_TIEBREAK_33_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:41Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_34",
+          "audit_id": "TE_REAUDIT_TIEBREAK_34_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:42Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_35",
+          "audit_id": "TE_REAUDIT_TIEBREAK_35_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:43Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_36",
+          "audit_id": "TE_REAUDIT_TIEBREAK_36_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:44Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_37",
+          "audit_id": "TE_REAUDIT_TIEBREAK_37_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:45Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_38",
+          "audit_id": "TE_REAUDIT_TIEBREAK_38_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:45Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_39",
+          "audit_id": "TE_REAUDIT_TIEBREAK_39_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:46Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_40",
+          "audit_id": "TE_REAUDIT_TIEBREAK_40_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:47Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_41",
+          "audit_id": "TE_REAUDIT_TIEBREAK_41_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:48Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_42",
+          "audit_id": "TE_REAUDIT_TIEBREAK_42_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:48Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_43",
+          "audit_id": "TE_REAUDIT_TIEBREAK_43_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:49Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_44",
+          "audit_id": "TE_REAUDIT_TIEBREAK_44_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:50Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_45",
+          "audit_id": "TE_REAUDIT_TIEBREAK_45_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:51Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_46",
+          "audit_id": "TE_REAUDIT_TIEBREAK_46_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:51Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_47",
+          "audit_id": "TE_REAUDIT_TIEBREAK_47_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:52Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_48",
+          "audit_id": "TE_REAUDIT_TIEBREAK_48_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:53Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_49",
+          "audit_id": "TE_REAUDIT_TIEBREAK_49_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:54Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_50",
+          "audit_id": "TE_REAUDIT_TIEBREAK_50_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:54Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_51",
+          "audit_id": "TE_REAUDIT_TIEBREAK_51_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:18:55Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_BG_16",
+          "audit_id": "TE_REAUDIT_BG_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:19:54Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_16",
+          "audit_id": "TE_REAUDIT_RATE_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:20:11Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_16",
+          "audit_id": "TE_REAUDIT_RATE_16_A2",
+          "supersedes": "TE_REAUDIT_RATE_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T00:20:43Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_05",
+          "audit_id": "TE_REAUDIT_RATE_05_A2",
+          "supersedes": "TE_REAUDIT_RATE_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T01:26:17Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_10",
+          "audit_id": "TE_REAUDIT_RATE_10_A3",
+          "supersedes": "TE_REAUDIT_RATE_10_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T01:26:17Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_14",
+          "audit_id": "TE_REAUDIT_RATE_14_A3",
+          "supersedes": "TE_REAUDIT_RATE_14_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T01:26:18Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_12",
+          "audit_id": "TE_REAUDIT_RATE_12_A3",
+          "supersedes": "TE_REAUDIT_RATE_12_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T01:26:18Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_15",
+          "audit_id": "TE_REAUDIT_RATE_15_A3",
+          "supersedes": "TE_REAUDIT_RATE_15_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T01:26:18Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_16",
+          "audit_id": "TE_REAUDIT_RATE_16_A3",
+          "supersedes": "TE_REAUDIT_RATE_16_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "t56s532: carry forward approved TE player stages from TE_REAUDIT_LOCK_20261104",
+          "carried_from": "TE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T01:26:19Z"
+          }
+        }
+      ],
+      "current_stage": "carry_forward",
+      "current_task": null,
+      "awaiting": null,
+      "last_result": {
+        "status": "CARRIED_FORWARD",
+        "carried_from": "TE_REAUDIT_LOCK_20261104",
+        "carried": 108,
+        "rerun": [
+          "TE_REAUDIT_VARIANCE_AUDIT",
+          "TE_REAUDIT_SCARCITY",
+          "TE_REAUDIT_CROSS_AUDIT",
+          "TE_REAUDIT_LOCK"
+        ]
+      }
     }
   ]
 }
