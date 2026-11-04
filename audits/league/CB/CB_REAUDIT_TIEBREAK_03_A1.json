@@ -1,0 +1,39 @@
+{
+  "audit_id": "CB_REAUDIT_TIEBREAK_03_A1",
+  "task_id": "CB_REAUDIT_TIEBREAK_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Jaylen Watson",
+    "Quinyon Mitchell"
+  ],
+  "pair_result": {
+    "winner": "Jaylen Watson",
+    "loser": "Quinyon Mitchell",
+    "provisional_order_holds": true,
+    "reasoning": "Watson is better now (PFF 80.7 vs 67.9 in 2026, 9 PD vs 8); Mitchell's 2025 was better (80.3 vs 74.1, 17 PD vs 6), so current form decides a close call.",
+    "key_evidence_for_winner": [
+      "Jaylen Watson (LA) role single CB list (no outside/slot split); roster position DB; roster ACT (DB); injuries wk4 Out (Shoulder)",
+      "Jaylen Watson 2026: Jaylen Watson 2026: PFF CB 2026 overall 80.7 on 381 snaps (CB rank 7; 214 coverage / 157 run-def snaps); PFR 2026 (6 games) coverage 36 targets / 17 completions / 197 yds / 2 TD / 1 INT; 20 tackles, 3 missed; 7 g / 382 def snaps; 14 solo + 10 ast tackles, 2 TFL, 1 INT, 9 PD, 0 FF; 1 accepted penalties; PFR 2026 (6 games) coverage 36 targets / 17 completions / 197 yds / 2 TD / 1 INT; 20 tackles, 3 missed",
+      "Jaylen Watson 2025: Jaylen Watson 2025: PFF CB 2025 overall 74.1 on 867 snaps (CB rank 18; 511 coverage / 341 run-def snaps); PFR 2025 coverage 64 targets / 40 completions / 501 yds / 1 TD / passer rating 79 / 2 INT; 64 tackles, 1 missed; 15 g / 867 def snaps; 42 solo + 22 ast tackles, 3 TFL, 2 INT, 6 PD, 0 FF; 4 accepted penalties; PFR 2025 coverage 64 targets / 40 completions / 501 yds / 1 TD / passer rating 79 / 2 INT; 64 tackles, 1 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Quinyon Mitchell (PHI) role single CB list (no outside/slot split); roster position DB; roster ACT (DB); injuries no injury designation 2025-26",
+      "Quinyon Mitchell 2026: Quinyon Mitchell 2026: PFF CB 2026 overall 67.9 on 506 snaps (CB rank 28; 279 coverage / 226 run-def snaps); PFR 2026 (7 games) coverage 44 targets / 24 completions / 249 yds / 1 TD / 1 INT; 35 tackles, 1 missed; 8 g / 506 def snaps; 30 solo + 8 ast tackles, 2 TFL, 1 INT, 8 PD, 0 FF; 1 accepted penalties; PFR 2026 (7 games) coverage 44 targets / 24 completions / 249 yds / 1 TD / 1 INT; 35 tackles, 1 missed",
+      "Quinyon Mitchell 2025: Quinyon Mitchell 2025: PFF CB 2025 overall 80.3 on 1045 snaps (CB rank 6; 647 coverage / 398 run-def snaps); PFR 2025 coverage 88 targets / 39 completions / 453 yds / 1 TD / passer rating 64.3 / 0 INT; 45 tackles, 3 missed; 16 g / 986 def snaps; 35 solo + 10 ast tackles, 0 TFL, 0 INT, 17 PD, 0 FF; 6 accepted penalties; PFR 2025 coverage 88 targets / 39 completions / 453 yds / 1 TD / passer rating 64.3 / 0 INT; 45 tackles, 3 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
