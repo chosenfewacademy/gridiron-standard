@@ -1,0 +1,37 @@
+{
+  "audit_id": "RT_REAUDIT_H2H_06_A1",
+  "task_id": "RT_REAUDIT_H2H_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Jermaine Eluemunor",
+    "Zach Bako-Bewele"
+  ],
+  "pair_result": {
+    "winner": "Jermaine Eluemunor",
+    "loser": "Zach Bako-Bewele",
+    "provisional_order_holds": true,
+    "reasoning": "Cut line: Bako-Bewele (formerly Zach Tom) had the better 2025 (PFF 83.5) but has 71 snaps in 2026 (59.4) and is on reserve/IR; Eluemunor is a full-time 2026 starter at 72.1 with PBWR 91%. Current availability decides #10. Order holds.",
+    "key_evidence_for_winner": [
+      "Jermaine Eluemunor (NYG) ESPN 2026 win rates (thru Wk 8): OT PBWR 91%; depth-chart side 2026 {'RT': 226}; roster ACT",
+      "Jermaine Eluemunor 2026: PFF 72.1 (rank 20; 193 pass-block/175 run-block of 368 snaps); 6 g/368 snaps; penalties 4; injuries ['wk6 Questionable (Calf)', 'wk7 Questionable (Calf)']",
+      "Jermaine Eluemunor 2025: PFF 63.9 (rank 50; 639 pass-block/449 run-block of 1088 snaps); 16 g/1088 snaps; penalties 12; injuries ['wk6 Questionable (Back)', 'wk9 Doubtful (Pectoral)', 'wk10 Questionable (Pectoral)']"
+    ],
+    "key_evidence_for_loser": [
+      "Zach Bako-Bewele (GB) ESPN 2026 win rates (thru Wk 8): not in ESPN OT top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RT': 50}; roster RES",
+      "Zach Bako-Bewele 2026: PFF 59.4 (rank None; 49 pass-block/22 run-block of 71 snaps); 2 g/71 snaps; penalties 0; injuries ['wk1 Questionable (Knee)', 'wk2 Questionable (Knee)', 'wk3 Out (Knee)']",
+      "Zach Bako-Bewele 2025: PFF 83.5 (rank 10; 351 pass-block/253 run-block of 604 snaps); 1 g/63 snaps; penalties 0; injuries ['wk2 Questionable (Oblique)', 'wk3 Questionable (Oblique)', 'wk4 Out (Oblique)', 'wk6 Questionable (Oblique)', 'wk7 Questionable (Oblique)', 'wk10 Questionable (Back)', 'wk16 Questionable (Back)', 'wk17 Questionable (Back)', 'wk18 Questionable (Back)', 'wk19 Questionable (Back)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
