@@ -21579,7 +21579,7 @@
         "position": "LEDGE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LEDGE.reaudit.json",
       "baseline_file": "data/baselines/LEDGE.reaudit-20261104.json",
@@ -21589,7 +21589,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:32:25Z",
-      "updated_at": "2026-11-04T19:32:31.422Z",
+      "updated_at": "2026-11-04T19:32:31.747Z",
       "audit_ids": [
         "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1",
         "LEDGE_REAUDIT_BG_01_A1",
@@ -21678,7 +21678,8 @@
         "LEDGE_REAUDIT_TIEBREAK_05",
         "LEDGE_REAUDIT_TIEBREAK_06",
         "LEDGE_REAUDIT_TIEBREAK_07",
-        "LEDGE_REAUDIT_TIEBREAK_08"
+        "LEDGE_REAUDIT_TIEBREAK_08",
+        "LEDGE_REAUDIT_VARIANCE_AUDIT"
       ],
       "approvals": [
         {
@@ -22250,15 +22251,19 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T19:32:25Z",
           "note": "User-approved card t56s532: Maxx Crosby INJ 78->84, OVR 86 unchanged. Availability note corrected: 'never off the field' was inaccurate - he played 15 of 17 games in 2025 (wk14 Questionable, wk17 Out, knee) a"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "LEDGE_REAUDIT_VARIANCE_AUDIT_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:31Z",
+          "note": "User-approved batch t56s532: re-run LEDGE_REAUDIT_VARIANCE_AUDIT after the approved card revisions"
         }
       ],
       "current_stage": "variance_audit",
       "current_task": "LEDGE_REAUDIT_VARIANCE_AUDIT",
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LEDGE_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "LEDGE_REAUDIT_VARIANCE_AUDIT_A2"
-      },
+      "awaiting": null,
       "last_result": {
         "task_id": "LEDGE_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
