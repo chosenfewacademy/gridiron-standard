@@ -1,0 +1,39 @@
+{
+  "audit_id": "LEDGE_REAUDIT_TIEBREAK_02_A1",
+  "task_id": "LEDGE_REAUDIT_TIEBREAK_02",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Maxx Crosby",
+    "T.J. Watt"
+  ],
+  "pair_result": {
+    "winner": "Maxx Crosby",
+    "loser": "T.J. Watt",
+    "provisional_order_holds": true,
+    "reasoning": "Crosby PFF 79.7 / 85.5 on the heaviest workload (935 + 471 snaps), 54 pressures and 28 TFL in 2025; Watt 74.2 / 81.9. Order holds.",
+    "key_evidence_for_winner": [
+      "Maxx Crosby (LV) alignment side snapshots 2025-26 left 496 / right 0 -> LEDGE; roster ACT (DL); injuries wk14 Questionable (Knee); wk17 Out (Knee)",
+      "Maxx Crosby 2026: Maxx Crosby 2026: PFF edge 2026 overall 85.5 on 471 snaps (277 pass-rush, 193 run-defense, 1 coverage); PFR 2026 25 pressures (11 hurries, 11 QB hits, 2.0 sacks) in 7 games, 18 tackles, 2 missed; 8 g / 473 def snaps; 3.0 sacks, 18 QB hits, 4 TFL, 1 FF, 1 PD; 1 accepted penalties; PFR 2026 25 pressures (11 hurries, 11 QB hits, 2.0 sacks) in 7 games, 18 tackles, 2 missed; ESPN 2026 edge PRWR 24% (#15, 40/167); RSWR outside the published top 10",
+      "Maxx Crosby 2025: Maxx Crosby 2025: PFF edge 2025 overall 79.7 on 935 snaps (515 pass-rush, 410 run-defense, 10 coverage); PFR 2025 29 pressures (8 hurries, 11 QB knockdowns, 10 sacks), 73 tackles, 9 missed; 15 g / 935 def snaps; 10.0 sacks, 20 QB hits, 28 TFL, 2 FF, 6 PD; 7 accepted penalties; PFR 2025 29 pressures (8 hurries, 11 QB knockdowns, 10 sacks), 73 tackles, 9 missed"
+    ],
+    "key_evidence_for_loser": [
+      "T.J. Watt (PIT) alignment side snapshots 2025-26 left 496 / right 0 -> LEDGE; roster ACT (LB); injuries wk15 Out (Lung); wk16 Out (Lung); wk17 Out (Lung)",
+      "T.J. Watt 2026: T.J. Watt 2026: PFF edge 2026 overall 81.9 on 337 snaps (221 pass-rush, 105 run-defense, 11 coverage); PFR 2026 12 pressures (3 hurries, 3 QB hits, 5.5 sacks) in 6 games, 17 tackles, 1 missed; 8 g / 337 def snaps; 7.5 sacks, 12 QB hits, 9 TFL, 1 FF, 3 PD; 1 accepted penalties; PFR 2026 12 pressures (3 hurries, 3 QB hits, 5.5 sacks) in 6 games, 17 tackles, 1 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "T.J. Watt 2025: T.J. Watt 2025: PFF edge 2025 overall 74.2 on 863 snaps (490 pass-rush, 325 run-defense, 48 coverage); PFR 2025 27 pressures (9 hurries, 10 QB knockdowns, 7 sacks), 55 tackles, 5 missed; 14 g / 812 def snaps; 7.0 sacks, 19 QB hits, 10 TFL, 3 FF, 8 PD; 5 accepted penalties; PFR 2025 27 pressures (9 hurries, 10 QB knockdowns, 7 sacks), 55 tackles, 5 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
