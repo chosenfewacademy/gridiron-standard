@@ -9618,7 +9618,7 @@
         "position": "MIKE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/MIKE.reaudit.json",
       "baseline_file": null,
@@ -9635,18 +9635,23 @@
       "audit_ids": [
         "MIKE_REAUDIT_CANDIDATE_AUDIT_A1",
         "MIKE_REAUDIT_BG_01_A1",
-        "MIKE_REAUDIT_BG_02_A1"
+        "MIKE_REAUDIT_BG_02_A1",
+        "MIKE_REAUDIT_BG_03_A1"
       ],
       "current_stage": "background_analysis",
-      "current_task": "MIKE_REAUDIT_BG_02",
-      "updated_at": "2026-11-04T11:41:32.890Z",
+      "current_task": "MIKE_REAUDIT_BG_03",
+      "updated_at": "2026-11-04T11:41:33.704Z",
       "last_result": {
-        "task_id": "MIKE_REAUDIT_BG_02",
+        "task_id": "MIKE_REAUDIT_BG_03",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "MIKE_REAUDIT_BG_03",
+        "audit_id": "MIKE_REAUDIT_BG_03_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
