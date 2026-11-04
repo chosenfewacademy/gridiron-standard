@@ -1,0 +1,40 @@
+# LEDGE_REAUDIT_H2H_06 — Brian Burns vs Tuli Tuipulotu (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "LEDGE_REAUDIT_H2H_06_A1",
+  "task_id": "LEDGE_REAUDIT_H2H_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Brian Burns",
+    "Tuli Tuipulotu"
+  ],
+  "pair_result": {
+    "winner": "Brian Burns",
+    "loser": "Tuli Tuipulotu",
+    "provisional_order_holds": true,
+    "reasoning": "Burns: 16.5 sacks, 41 pressures, 22 TFL in 2025 vs Tuipulotu's 13 sacks (PFF 67.3) and 2026 RSWR #1 (PFF 73.3). Burns' pass-rush peak keeps him at #10 despite reserve status. Order holds.",
+    "key_evidence_for_winner": [
+      "Brian Burns (NYG) alignment side snapshots 2025-26 left 496 / right 0 -> LEDGE; roster RES (LB); injuries wk8 Questionable (Hip); wk3 Questionable (Ankle)",
+      "Brian Burns 2026: Brian Burns 2026: PFF edge 2026 overall 72.1 on 116 snaps (64 pass-rush, 35 run-defense, 17 coverage); PFR 2026 5 pressures (3 hurries, 2 QB hits, 0.0 sacks) in 3 games, 4 tackles, 1 missed; 3 g / 116 def snaps; 0.0 sacks, 2 QB hits, 0 TFL, 0 FF, 0 PD; 0 accepted penalties; PFR 2026 5 pressures (3 hurries, 2 QB hits, 0.0 sacks) in 3 games, 4 tackles, 1 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Brian Burns 2025: Brian Burns 2025: PFF edge 2025 overall 75.8 on 863 snaps (471 pass-rush, 313 run-defense, 79 coverage); PFR 2025 41 pressures (10 hurries, 14 QB knockdowns, 16.5 sacks), 67 tackles, 4 missed; 17 g / 862 def snaps; 16.5 sacks, 31 QB hits, 22 TFL, 3 FF, 7 PD; 1 accepted penalties; PFR 2025 41 pressures (10 hurries, 14 QB knockdowns, 16.5 sacks), 67 tackles, 4 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Tuli Tuipulotu (LAC) alignment side snapshots 2025-26 left 494 / right 0 -> LEDGE; roster ACT (LB); injuries wk1 Questionable (Hip)",
+      "Tuli Tuipulotu 2026: Tuli Tuipulotu 2026: PFF edge 2026 overall 73.3 on 365 snaps (160 pass-rush, 172 run-defense, 33 coverage); PFR 2026 9 pressures (1 hurries, 5 QB hits, 2.0 sacks) in 6 games, 26 tackles, 2 missed; 7 g / 365 def snaps; 3.0 sacks, 8 QB hits, 3 TFL, 2 FF, 3 PD; 1 accepted penalties; PFR 2026 9 pressures (1 hurries, 5 QB hits, 2.0 sacks) in 6 games, 26 tackles, 2 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR 35% (#1, 44/124)",
+      "Tuli Tuipulotu 2025: Tuli Tuipulotu 2025: PFF edge 2025 overall 67.3 on 791 snaps (446 pass-rush, 294 run-defense, 51 coverage); PFR 2025 32 pressures (9 hurries, 10 QB knockdowns, 13 sacks), 49 tackles, 3 missed; 16 g / 733 def snaps; 13.0 sacks, 23 QB hits, 20 TFL, 2 FF, 3 PD; 0 accepted penalties; PFR 2025 32 pressures (9 hurries, 10 QB knockdowns, 13 sacks), 49 tackles, 3 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
