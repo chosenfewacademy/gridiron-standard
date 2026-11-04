@@ -1,0 +1,39 @@
+{
+  "audit_id": "SS_REAUDIT_TIEBREAK_11_A1",
+  "task_id": "SS_REAUDIT_TIEBREAK_11",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jaylinn Hawkins",
+    "Javon Bullard"
+  ],
+  "pair_result": {
+    "winner": "Jaylinn Hawkins",
+    "loser": "Javon Bullard",
+    "provisional_order_holds": true,
+    "reasoning": "Hawkins holds #10 on graded play: PFF 74.9 on 1102 snaps in 2025 (S rank 15) with 4 INT and a 71.2 passer rating allowed, and 54.1 on 314 in 2026, vs Javon Bullard's 64.9 on 783 snaps in 2025 (S rank 44) and 65.7 on 410 snaps in 2026 (S rank 34). Bullard has graded in the 60s in both seasons, with 0 INT across 2025-26. Javon Bullard's screen hits (value, efficiency, availability) come from low reference bars: Christian Roland-Wallace's 345-snap sample (8 of 9 targets completed in 2026) sets the efficiency bar.",
+    "key_evidence_for_winner": [
+      "Jaylinn Hawkins (BAL) role snap-weighted 2025-26 depth-chart FS/SS shares FS 176 / SS 977 -> SS; roster INA (DB); injuries wk6 Out (Hamstring); wk7 Questionable (Hamstring); wk7 Out (Knee); wk8 Out (Knee)",
+      "Jaylinn Hawkins 2026: Jaylinn Hawkins 2026: PFF S 2026 overall 54.1 on 314 snaps (S rank 75; 211 coverage / 100 run-def snaps); PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed; 6 g / 315 def snaps; 17 solo + 13 ast tackles, 0 TFL, 0 INT, 0 PD, 0 FF; 1 accepted penalties; PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed",
+      "Jaylinn Hawkins 2025: Jaylinn Hawkins 2025: PFF S 2025 overall 74.9 on 1102 snaps (S rank 15; 659 coverage / 408 run-def snaps); PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed; 15 g / 838 def snaps; 44 solo + 26 ast tackles, 3 TFL, 4 INT, 6 PD, 1 FF; 3 accepted penalties; PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Javon Bullard (GB) role snap-weighted 2025-26 depth-chart FS/SS shares FS 193 / SS 531 -> SS; roster ACT (DB); injuries wk4 Questionable (Concussion); wk14 Questionable (Ankle); wk19 Questionable (Knee)",
+      "Javon Bullard 2026: Javon Bullard 2026: PFF S 2026 overall 65.7 on 410 snaps (S rank 34; 270 coverage / 117 run-def snaps); PFR 2026 (8 games) coverage 38 targets / 21 completions / 170 yds / 2 TD / 0 INT; 42 tackles, 2 missed; 8 g / 411 def snaps; 20 solo + 21 ast tackles, 4 TFL, 0 INT, 7 PD, 1 FF; 4 accepted penalties; PFR 2026 (8 games) coverage 38 targets / 21 completions / 170 yds / 2 TD / 0 INT; 42 tackles, 2 missed",
+      "Javon Bullard 2025: Javon Bullard 2025: PFF S 2025 overall 64.9 on 783 snaps (S rank 44; 502 coverage / 268 run-def snaps); PFR 2025 coverage 59 targets / 46 completions / 368 yds / 1 TD / passer rating 98.3 / 0 INT; 83 tackles, 6 missed; 17 g / 724 def snaps; 47 solo + 34 ast tackles, 2 TFL, 0 INT, 3 PD, 0 FF; 5 accepted penalties; PFR 2025 coverage 59 targets / 46 completions / 368 yds / 1 TD / passer rating 98.3 / 0 INT; 83 tackles, 6 missed"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
