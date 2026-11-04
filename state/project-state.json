@@ -20847,7 +20847,7 @@
         "position": "K",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/K.reaudit.json",
       "baseline_file": "data/baselines/K.reaudit-20261104.json",
@@ -20857,7 +20857,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:08:24Z",
-      "updated_at": "2026-11-04T19:30:23.570Z",
+      "updated_at": "2026-11-04T19:30:24.346Z",
       "audit_ids": [
         "K_REAUDIT_CANDIDATE_AUDIT_A1",
         "K_REAUDIT_BG_01_A1",
@@ -20905,7 +20905,8 @@
         "K_REAUDIT_RATE_10_A2",
         "K_REAUDIT_TIEBREAK_10_A1",
         "K_REAUDIT_TIEBREAK_11_A1",
-        "K_REAUDIT_VARIANCE_AUDIT_A2"
+        "K_REAUDIT_VARIANCE_AUDIT_A2",
+        "K_REAUDIT_SCARCITY_A2"
       ],
       "completed_tasks": [
         "K_REAUDIT_CANDIDATE_AUDIT",
@@ -21539,16 +21540,18 @@
           "note": "User-approved batch t56s532: re-run K_REAUDIT_VARIANCE_AUDIT after the approved card revisions"
         }
       ],
-      "current_stage": "variance_audit",
-      "current_task": "K_REAUDIT_VARIANCE_AUDIT",
-      "awaiting": null,
+      "current_stage": "scarcity_audit",
+      "current_task": "K_REAUDIT_SCARCITY",
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "K_REAUDIT_SCARCITY",
+        "audit_id": "K_REAUDIT_SCARCITY_A2"
+      },
       "last_result": {
-        "task_id": "K_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
+        "task_id": "K_REAUDIT_SCARCITY",
+        "status": "VALIDATED",
         "errors": [],
-        "flags": [
-          "COMMISSIONER_REVIEW: variance re-run after t56s532 card revisions (Boswell INJ 89,  STA 84,  KAC 86,  TGH 68 (style-similarity fix),  OVR 74->76; tiebreaks TB_10 Slye>Boswell,  TB_11 Boswell>Dicker)"
-        ]
+        "flags": []
       }
     }
   ]
