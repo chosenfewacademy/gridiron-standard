@@ -1,0 +1,420 @@
+# REDGE_REAUDIT_RATE_01 — Myles Garrett rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "REDGE_REAUDIT_RATE_01_A1",
+  "task_id": "REDGE_REAUDIT_RATE_01",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "player_id": "ext_00-0033868",
+  "players": [
+    "Myles Garrett"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "ratings": {
+    "SPD": 88,
+    "ACC": 92,
+    "AGI": 86,
+    "COD": 80,
+    "STR": 88,
+    "AWR": 90,
+    "PRC": 88,
+    "TAK": 86,
+    "POW": 88,
+    "BSH": 86,
+    "PMV": 93,
+    "FMV": 96,
+    "PUR": 88,
+    "INJ": 84,
+    "STA": 90,
+    "TGH": 92
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "LOW",
+    "PRC": "LOW",
+    "TAK": "LOW",
+    "POW": "LOW",
+    "BSH": "LOW",
+    "PMV": "LOW",
+    "FMV": "LOW",
+    "PUR": "LOW",
+    "INJ": "LOW",
+    "STA": "LOW",
+    "TGH": "LOW"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 53 pressures (14 hurries, 14 QB knockdowns, 23 sacks), 60 tackles, 2 missed; PFR 2026 1 pressures (1 hurries, 0 QB hits, 0.0 sacks) in 1 games, 0 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10. Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 53 pressures (14 hurries, 14 QB knockdowns, 23 sacks), 60 tackles, 2 missed; PFR 2026 1 pressures (1 hurries, 0 QB hits, 0.0 sacks) in 1 games, 0 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10. Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 53 pressures (14 hurries, 14 QB knockdowns, 23 sacks), 60 tackles, 2 missed; PFR 2026 1 pressures (1 hurries, 0 QB hits, 0.0 sacks) in 1 games, 0 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10. Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 53 pressures (14 hurries, 14 QB knockdowns, 23 sacks), 60 tackles, 2 missed; PFR 2026 1 pressures (1 hurries, 0 QB hits, 0.0 sacks) in 1 games, 0 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10. Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF edge 2026 overall 64.7 on 40 snaps (28 pass-rush, 12 run-defense, 0 coverage); ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10. Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 6/0; PFF edge 2026 overall 64.7 on 40 snaps (28 pass-rush, 12 run-defense, 0 coverage). Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10; PFF edge 2025 overall 92.7 on 869 snaps (507 pass-rush, 362 run-defense, 0 coverage); PFF edge 2026 overall 64.7 on 40 snaps (28 pass-rush, 12 run-defense, 0 coverage); TFL in 17 g / 868 def snaps; 23.0 sacks, 39 QB hits, 33 TFL, 3 FF, 1 PD / 1 g / 40 def snaps; no stats. Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Listed weakness area: 2026 availability (reserve/IR), run defense vs. pure stack-and-shed edges",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 53 pressures (14 hurries, 14 QB knockdowns, 23 sacks), 60 tackles, 2 missed; PFR 2026 1 pressures (1 hurries, 0 QB hits, 0.0 sacks) in 1 games, 0 tackles, 0 missed. Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 53 pressures (14 hurries, 14 QB knockdowns, 23 sacks), 60 tackles, 2 missed; PFR 2026 1 pressures (1 hurries, 0 QB hits, 0.0 sacks) in 1 games, 0 tackles, 0 missed. Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10; PFF edge 2025 overall 92.7 on 869 snaps (507 pass-rush, 362 run-defense, 0 coverage); PFF edge 2026 overall 64.7 on 40 snaps (28 pass-rush, 12 run-defense, 0 coverage); TFL in 17 g / 868 def snaps; 23.0 sacks, 39 QB hits, 33 TFL, 3 FF, 1 PD / 1 g / 40 def snaps; no stats. Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Listed weakness area: 2026 availability (reserve/IR), run defense vs. pure stack-and-shed edges",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10; PFR 2025 53 pressures (14 hurries, 14 QB knockdowns, 23 sacks), 60 tackles, 2 missed; PFR 2026 1 pressures (1 hurries, 0 QB hits, 0.0 sacks) in 1 games, 0 tackles, 0 missed. Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "FMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10; PFR 2025 53 pressures (14 hurries, 14 QB knockdowns, 23 sacks), 60 tackles, 2 missed; PFR 2026 1 pressures (1 hurries, 0 QB hits, 0.0 sacks) in 1 games, 0 tackles, 0 missed. Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10; PFF edge 2025 overall 92.7 on 869 snaps (507 pass-rush, 362 run-defense, 0 coverage); PFF edge 2026 overall 64.7 on 40 snaps (28 pass-rush, 12 run-defense, 0 coverage); TFL in 17 g / 868 def snaps; 23.0 sacks, 39 QB hits, 33 TFL, 3 FF, 1 PD / 1 g / 40 def snaps; no stats. Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Listed weakness area: 2026 availability (reserve/IR), run defense vs. pure stack-and-shed edges",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Myles Garrett injury reports: no injury designation 2025-26; roster status RES; 17 g / 868 def snaps; 23.0 sacks, 39 QB hits, 33 TFL, 3 FF, 1 PD (2025), 1 g / 40 def snaps; no stats (2026). Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 17 g / 868 def snaps; 23.0 sacks, 39 QB hits, 33 TFL, 3 FF, 1 PD (2025), 1 g / 40 def snaps; no stats (2026). Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 17 g / 868 def snaps; 23.0 sacks, 39 QB hits, 33 TFL, 3 FF, 1 PD (2025), 1 g / 40 def snaps; no stats (2026). Style: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "movement: PFR 2025 53 pressures (14 hurries, 14 QB knockdowns, 23 sacks), 60 tackles, 2 missed; PFR 2026 1 pressures (1 hurries, 0 QB hits, 0.0 sacks) in 1 games, 0 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "discipline: penalties 2025/2026 6/0; PFF edge 2026 overall 64.7 on 40 snaps (28 pass-rush, 12 run-defense, 0 coverage)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PMV": {
+      "tier": "ELITE",
+      "claim": "pass rush: ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10; PFR 2025 53 pressures (14 hurries, 14 QB knockdowns, 23 sacks), 60 tackles, 2 missed; PFR 2026 1 pressures (1 hurries, 0 QB hits, 0.0 sacks) in 1 games, 0 tackles, 0 missed",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "FMV": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "pass rush: ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10; PFR 2025 53 pressures (14 hurries, 14 QB knockdowns, 23 sacks), 60 tackles, 2 missed; PFR 2026 1 pressures (1 hurries, 0 QB hits, 0.0 sacks) in 1 games, 0 tackles, 0 missed",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 868 def snaps; 23.0 sacks, 39 QB hits, 33 TFL, 3 FF, 1 PD (2025), 1 g / 40 def snaps; no stats (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 868 def snaps; 23.0 sacks, 39 QB hits, 33 TFL, 3 FF, 1 PD (2025), 1 g / 40 def snaps; no stats (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 95,
+  "ovr_tier": "LEAGUE_DEFINING",
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+  "style_profile": "Myles Garrett: The league's most dominant edge and the clear #1: 23 sacks, 39 QB hits, 33 TFL and PFF 92.7 on 869 snaps in 2025 (53 PFR pressures, most among these edges), a bend-and-speed finesse rusher with power to match; traded to LA and on reserve/IR after 40 snaps in 2026, so availability is the only thing below elite.",
+  "style_evidence": [
+    "Myles Garrett (LA) Myles Garrett 2026: PFF edge 2026 overall 64.7 on 40 snaps (28 pass-rush, 12 run-defense, 0 coverage); PFR 2026 1 pressures (1 hurries, 0 QB hits, 0.0 sacks) in 1 games, 0 tackles, 0 missed; 1 g / 40 def snaps; no stats; 0 accepted penalties; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+    "Myles Garrett 2025: PFF edge 2025 overall 92.7 on 869 snaps (507 pass-rush, 362 run-defense, 0 coverage); PFR 2025 53 pressures (14 hurries, 14 QB knockdowns, 23 sacks), 60 tackles, 2 missed; 17 g / 868 def snaps; 23.0 sacks, 39 QB hits, 33 TFL, 3 FF, 1 PD; 6 accepted penalties",
+    "Myles Garrett alignment: side snapshots 2025-26 left 126 / right 370 -> REDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position LB; Madden card REDG (reference only)",
+    "Myles Garrett injury reports: no injury designation 2025-26; roster status RES"
+  ],
+  "input_dossier": "REDGE_REAUDIT_BG_01_A1",
+  "weaknesses": [
+    "2026 availability (reserve/IR)",
+    "run defense vs. pure stack-and-shed edges"
+  ],
+  "limitations": [
+    "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports",
+    "limited 2026 sample (reserve/IR/PUP)"
+  ],
+  "side_assignment": "REDGE (side snapshots 2025-26 left 126 / right 370 -> REDGE)",
+  "madden_reference": [
+    {
+      "player": "Myles Garrett",
+      "ovr": 99,
+      "madden_position": "REDG",
+      "attributes": {
+        "SPD": 86,
+        "ACC": 90,
+        "AGI": 86,
+        "COD": 71,
+        "STR": 96,
+        "AWR": 97,
+        "PRC": 94,
+        "TAK": 92,
+        "POW": 84,
+        "BSH": 96,
+        "PMV": 99,
+        "FMV": 92,
+        "PUR": 97,
+        "INJ": 93,
+        "STA": 93,
+        "TGH": 87
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -4,
+      "delta_attributes": {
+        "SPD": 2,
+        "ACC": 2,
+        "AGI": 0,
+        "COD": 9,
+        "STR": -8,
+        "AWR": -7,
+        "PRC": -6,
+        "TAK": -6,
+        "POW": 4,
+        "BSH": -10,
+        "PMV": -6,
+        "FMV": 4,
+        "PUR": -9,
+        "INJ": -9,
+        "STA": -3,
+        "TGH": 5
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 4,
+    "attribute_gaps_10plus": {
+      "BSH": -10
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
