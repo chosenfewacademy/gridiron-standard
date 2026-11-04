@@ -1,0 +1,115 @@
+{
+  "task_id": "DT_REAUDIT_BG_06",
+  "type": "background_analysis",
+  "players": [
+    "Leonard Williams"
+  ],
+  "player_id": "ext_00-0031933",
+  "team": "SEA",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Jeffery Simmons"
+      },
+      {
+        "rank": 2,
+        "player": "Cameron Heyward"
+      },
+      {
+        "rank": 3,
+        "player": "Quinnen Williams"
+      },
+      {
+        "rank": 4,
+        "player": "Zach Allen"
+      },
+      {
+        "rank": 5,
+        "player": "Dexter Lawrence"
+      },
+      {
+        "rank": 6,
+        "player": "Leonard Williams"
+      },
+      {
+        "rank": 7,
+        "player": "Kobie Turner"
+      },
+      {
+        "rank": 8,
+        "player": "Derrick Brown"
+      },
+      {
+        "rank": 9,
+        "player": "Poona Ford"
+      },
+      {
+        "rank": 10,
+        "player": "Alim McNeill"
+      }
+    ],
+    "external_controls": [
+      "Jalen Redmond",
+      "Travis Jones",
+      "DJ Reader"
+    ]
+  },
+  "position": "DT",
+  "stage": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 12,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "pass rush",
+      "run defense",
+      "tackling",
+      "pass-rush win rate",
+      "pressures",
+      "total pressures, sacks, hits, hurries"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks, QB hits",
+      "forced fumbles",
+      "batted passes"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (edge side / interior technique)",
+      "pass-rush snaps vs run snaps"
+    ],
+    "on_field_impact": [
+      "pass-rush win rate (ESPN)",
+      "run-stop win rate (ESPN)",
+      "pressure rate",
+      "run-stop %"
+    ],
+    "madden_attributes_informed": [
+      "PMV",
+      "FMV",
+      "BSH",
+      "PUR",
+      "PRC",
+      "TAK",
+      "POW",
+      "STR",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Interior (0-4i technique) snaps are primary."
+  }
+}
