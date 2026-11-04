@@ -1,0 +1,222 @@
+{
+  "audit_id": "WILL_REAUDIT_BG_09_A1",
+  "task_id": "WILL_REAUDIT_BG_09",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "player_id": "ext_00-0029607",
+  "players": [
+    "Demario Davis"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Demario Davis",
+    "player_id": "ext_00-0029607",
+    "team": "NYJ",
+    "role_assignment": {
+      "MIKE25": 5,
+      "WILL25": 216,
+      "WILL26": 203,
+      "MIKE26": 72,
+      "MIKE": 163.2,
+      "WILL": 1447.8,
+      "SAM": 0,
+      "EDGE": 0,
+      "assign": "WILL"
+    },
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "new-orleans-saints",
+        "ovr": 81.7,
+        "snaps": 1079,
+        "rank": 5,
+        "rdef": 492,
+        "prsh": 70,
+        "cov": 517
+      },
+      "2026": {
+        "team": "new-york-jets",
+        "ovr": 50.6,
+        "snaps": 530,
+        "rank": 64,
+        "rdef": 236,
+        "prsh": 62,
+        "cov": 232
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "NO",
+        "pos": "LB",
+        "g": "17",
+        "tgt": "41",
+        "cmp": "32",
+        "yds": "265",
+        "rat": "109.9",
+        "int": "0",
+        "bltz": "26",
+        "prss": "5",
+        "sk": "0.5",
+        "comb": "143",
+        "m_tkl": "14"
+      },
+      "2026": {
+        "def_targets": 28,
+        "def_completions_allowed": 19,
+        "def_yards_allowed": 179,
+        "def_ints": 0,
+        "def_times_blitzed": 32,
+        "def_pressures": 5,
+        "def_sacks": 2,
+        "def_tackles_combined": 46,
+        "def_missed_tackles": 5,
+        "g": 7
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 1081
+      },
+      "2026": {
+        "games": 8,
+        "defs": 530
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 61,
+        "def_tackle_assists": 79,
+        "def_tackles_for_loss": 6,
+        "def_fumbles_forced": 2,
+        "def_sacks": 0.5,
+        "def_qb_hits": 2,
+        "def_pass_defended": 3,
+        "def_interceptions": 0
+      },
+      "2026": {
+        "def_tackles_solo": 28,
+        "def_tackle_assists": 24,
+        "def_tackles_for_loss": 3,
+        "def_fumbles_forced": 0,
+        "def_sacks": 2,
+        "def_qb_hits": 3,
+        "def_pass_defended": 4,
+        "def_interceptions": 0
+      }
+    },
+    "penalties": {
+      "2025": 2,
+      "2026": 1
+    },
+    "injuries": {
+      "2025": [
+        "wk18 Questionable (Calf)"
+      ]
+    },
+    "summary_lines": [
+      "Demario Davis (NYJ) Demario Davis 2026: PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps); PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes; 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF; 1 accepted penalties",
+      "Demario Davis 2025: PFF LB 2025 overall 81.7 on 1079 snaps (LB rank 5; 492 run-def / 517 coverage / 70 pass-rush snaps); PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF; 2 accepted penalties",
+      "Demario Davis role: snap-weighted 2025-26 depth-chart role shares MIKE 163 / WILL 1448 / SAM 0 / edge 0 (raw snapshots MIKE25 5, WILL25 216, WILL26 203, MIKE26 72) -> WILL (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card MIKE (reference only)",
+      "Demario Davis injury reports: wk18 Questionable (Calf); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PUR",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2026",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2025",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:36Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
