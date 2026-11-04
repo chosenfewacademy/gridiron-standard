@@ -1,0 +1,378 @@
+# RT_REAUDIT_RATE_13 — Mike McGlinchey rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "RT_REAUDIT_RATE_13_A1",
+  "task_id": "RT_REAUDIT_RATE_13",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "player_id": "ext_00-0034847",
+  "players": [
+    "Mike McGlinchey"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 84,
+    "SPD": 66,
+    "ACC": 64,
+    "AGI": 62,
+    "COD": 50,
+    "AWR": 80,
+    "INJ": 90,
+    "STA": 94,
+    "TGH": 90,
+    "PBK": 72,
+    "PBP": 76,
+    "PBF": 70,
+    "RBK": 82,
+    "RBP": 84,
+    "RBF": 78,
+    "IBL": 84,
+    "LBK": 80
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Mike McGlinchey (DEN) 2026: PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); 8 g / 490 off snaps; 3 accepted penalties {'Illegal Formation': 1, 'Offensive Holding': 1, 'False Start': 1}; depth-chart side {'RT': 225}; Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists. Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 3 accepted penalties {'Illegal Formation': 1, 'Offensive Holding': 1, 'False Start': 1}, 2025 6 accepted penalties {'False Start': 4, 'Offensive Holding': 2}; PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Mike McGlinchey injury reports: {'2025': ['wk15 Questionable (Shoulder)']}; roster status ACT; snaps 17 g / 1127 off snaps (2025), 8 g / 490 off snaps (2026). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 17 g / 1127 off snaps (2025), 8 g / 490 off snaps (2026). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 17 g / 1127 off snaps (2025), 8 g / 490 off snaps (2026). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 78 (rank 18, 1259 snaps: 805 pass-block / 454 run-block, pass share 0.64). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Listed weakness area: pass protection, 2026 decline",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 78 (rank 18, 1259 snaps: 805 pass-block / 454 run-block, pass share 0.64). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Listed weakness area: pass protection, 2026 decline",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 78 (rank 18, 1259 snaps: 805 pass-block / 454 run-block, pass share 0.64). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Listed weakness area: pass protection, 2026 decline",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 78 (rank 18, 1259 snaps: 805 pass-block / 454 run-block, pass share 0.64). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 78 (rank 18, 1259 snaps: 805 pass-block / 454 run-block, pass share 0.64). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 78 (rank 18, 1259 snaps: 805 pass-block / 454 run-block, pass share 0.64). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 78 (rank 18, 1259 snaps: 805 pass-block / 454 run-block, pass share 0.64). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 78 (rank 18, 1259 snaps: 805 pass-block / 454 run-block, pass share 0.64). Style: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Mike McGlinchey injury reports: {'2025': ['wk15 Questionable (Shoulder)']}; roster status ACT; snaps 17 g / 1127 off snaps (2025), 8 g / 490 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 17 g / 1127 off snaps (2025), 8 g / 490 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 17 g / 1127 off snaps (2025), 8 g / 490 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 73,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+  "style_profile": "Mike McGlinchey: Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out.",
+  "style_evidence": [
+    "Mike McGlinchey (DEN) 2026: PFF 2026 62.4 (rank 47, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); 8 g / 490 off snaps; 3 accepted penalties {'Illegal Formation': 1, 'Offensive Holding': 1, 'False Start': 1}; depth-chart side {'RT': 225}",
+    "Mike McGlinchey 2025: PFF 2025 78 (rank 18, 1259 snaps: 805 pass-block / 454 run-block, pass share 0.64); 17 g / 1127 off snaps; 6 accepted penalties {'False Start': 4, 'Offensive Holding': 2}; side {'RT': 219}",
+    "Mike McGlinchey ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists",
+    "Mike McGlinchey injury reports: {'2025': ['wk15 Questionable (Shoulder)']}; roster status ACT"
+  ],
+  "input_dossier": "RT_REAUDIT_BG_13_A1",
+  "weaknesses": [
+    "pass protection",
+    "2026 decline"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Mike McGlinchey",
+      "ovr": 82,
+      "attributes": {
+        "STR": 88,
+        "SPD": 70,
+        "ACC": 66,
+        "AGI": 66,
+        "COD": 48,
+        "AWR": 96,
+        "INJ": 88,
+        "STA": 93,
+        "TGH": 95,
+        "PBK": 78,
+        "PBP": 82,
+        "PBF": 75,
+        "RBK": 85,
+        "RBP": 84,
+        "RBF": 86,
+        "IBL": 84,
+        "LBK": 85
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -9,
+      "delta_attributes": {
+        "STR": -4,
+        "SPD": -4,
+        "ACC": -2,
+        "AGI": -4,
+        "COD": 2,
+        "AWR": -16,
+        "INJ": 2,
+        "STA": 1,
+        "TGH": -5,
+        "PBK": -6,
+        "PBP": -6,
+        "PBF": -5,
+        "RBK": -3,
+        "RBP": 0,
+        "RBF": -8,
+        "IBL": 0,
+        "LBK": -5
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RT, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 9,
+    "attribute_gaps_10plus": {
+      "AWR": -16
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
