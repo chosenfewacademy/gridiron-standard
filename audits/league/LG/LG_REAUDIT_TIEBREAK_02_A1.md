@@ -1,0 +1,40 @@
+# LG_REAUDIT_TIEBREAK_02 — Steve Avila vs Peter Skoronski (v1.1.2 head-to-head tiebreak; authorized by t46u/t50s441)
+
+```json
+{
+  "audit_id": "LG_REAUDIT_TIEBREAK_02_A1",
+  "task_id": "LG_REAUDIT_TIEBREAK_02",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Steve Avila",
+    "Peter Skoronski"
+  ],
+  "pair_result": {
+    "winner": "Steve Avila",
+    "loser": "Peter Skoronski",
+    "provisional_order_holds": true,
+    "reasoning": "Adjacent #4/#5. Avila leads 2026 PFF (75.2 vs 66.3), two-year PFF average (75.1 vs 72.7) and 2025 discipline (0 vs 3). Skoronski leads 2025 PFF (79.0 #5 vs 75.0) and availability (17 g, no injury reports vs 13 g). Avila narrowly on consistency. Order holds.",
+    "key_evidence_for_winner": [
+      "Steve Avila (LA) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'LG': 226}; roster ACT",
+      "Steve Avila 2026: PFF 75.2 (rank 15; 348 pass-block/208 run-block of 556 snaps); 8 g/556 snaps; penalties 2; injuries none",
+      "Steve Avila 2025: PFF 75.0 (rank 10; 609 pass-block/441 run-block of 1050 snaps); 13 g/836 snaps; penalties 0; injuries ['wk2 Doubtful (Ankle)', 'wk3 Doubtful (Ankle)']"
+    ],
+    "key_evidence_for_loser": [
+      "Peter Skoronski (TEN) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'LG': 226}; roster ACT",
+      "Peter Skoronski 2026: PFF 66.3 (rank 28; 283 pass-block/175 run-block of 458 snaps); 8 g/459 snaps; penalties 0; injuries none",
+      "Peter Skoronski 2025: PFF 79.0 (rank 5; 694 pass-block/361 run-block of 1055 snaps); 17 g/1056 snaps; penalties 3; injuries none"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
