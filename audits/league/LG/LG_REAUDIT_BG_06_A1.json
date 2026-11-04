@@ -1,0 +1,156 @@
+{
+  "audit_id": "LG_REAUDIT_BG_06_A1",
+  "task_id": "LG_REAUDIT_BG_06",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "player_id": "ext_00-0037255",
+  "players": [
+    "Dylan Parham"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Dylan Parham",
+    "player_id": "ext_00-0037255",
+    "team": "NYJ",
+    "pff": {
+      "2025": {
+        "rank": 37,
+        "pff": 63.5,
+        "team": "LV",
+        "off": 843,
+        "pblk": 552,
+        "rblk": 291,
+        "age": "27.1"
+      },
+      "2026": {
+        "rank": 2,
+        "pff": 87.9,
+        "team": "NYJ",
+        "off": 243,
+        "pblk": 143,
+        "rblk": 100,
+        "age": "27.1"
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 15,
+        "off": 842
+      },
+      "2026": {
+        "games": 4,
+        "off": 243
+      }
+    },
+    "penalties": {
+      "2025": {
+        "total": 5,
+        "types": {
+          "Offensive Holding": 3,
+          "False Start": 2
+        }
+      },
+      "2026": {
+        "total": 1,
+        "types": {
+          "Offensive Holding": 1
+        }
+      }
+    },
+    "depth_chart_side": {
+      "2025": {
+        "LG": 1
+      },
+      "2026": {
+        "LG": 222
+      }
+    },
+    "espn_win_rates": "IOL RBWR 77% (top 10)",
+    "injuries": {
+      "2025": [
+        "wk14 Questionable (Back)",
+        "wk18 Out (Illness)"
+      ],
+      "2026": [
+        "wk4 Out (Knee)",
+        "wk5 Out (Knee)",
+        "wk6 Out (Knee)",
+        "wk7 Questionable (Knee)",
+        "wk8 Questionable (Knee)"
+      ]
+    },
+    "summary_lines": [
+      "Dylan Parham (NYJ) 2026: PFF 2026 87.9 (rank 2, 243 snaps: 143 pass-block / 100 run-block, pass share 0.59); 4 g / 243 off snaps; 1 accepted penalties {'Offensive Holding': 1}; depth-chart side {'LG': 222}",
+      "Dylan Parham 2025: PFF 2025 63.5 (rank 37, 843 snaps: 552 pass-block / 291 run-block, pass share 0.65); 15 g / 842 off snaps; 5 accepted penalties {'Offensive Holding': 3, 'False Start': 2}; side {'LG': 1}",
+      "Dylan Parham ESPN pass/run block win rate 2026 through Week 7: IOL RBWR 77% (top 10)",
+      "Dylan Parham injury reports: {'2025': ['wk14 Questionable (Back)', 'wk18 Out (Illness)'], '2026': ['wk4 Out (Knee)', 'wk5 Out (Knee)', 'wk6 Out (Knee)', 'wk7 Questionable (Knee)', 'wk8 Questionable (Knee)']}; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports",
+      "limited/absent 2026 sample"
+    ],
+    "attributes_informed": [
+      "STR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH",
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2026",
+        "retrieved_at": "2026-11-04T03:14:33Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2025",
+        "retrieved_at": "2026-11-04T03:14:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T03:14:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T03:14:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T03:14:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T03:14:33Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T03:14:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:14:33Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
