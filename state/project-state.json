@@ -14081,18 +14081,18 @@
         "LS_REAUDIT_TIEBREAK_04_A1",
         "LS_REAUDIT_TIEBREAK_05_A1",
         "LS_REAUDIT_TIEBREAK_06_A1",
-        "LS_REAUDIT_VARIANCE_AUDIT_A1"
+        "LS_REAUDIT_VARIANCE_AUDIT_A1",
+        "LS_REAUDIT_RATE_06_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "LS_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T13:07:29.521Z",
+      "updated_at": "2026-11-04T13:07:29.895Z",
       "last_result": {
-        "task_id": "LS_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
-        "errors": [],
-        "flags": [
-          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "task_id": "LS_REAUDIT_RATE_06",
+        "status": "REVISION_APPROVED",
+        "audit_id": "LS_REAUDIT_RATE_06_A2",
+        "supersedes": "LS_REAUDIT_RATE_06_A1",
+        "flags": []
       },
       "awaiting": null,
       "approvals": [
@@ -14415,6 +14415,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T13:07:29Z",
           "note": "Standing commissioner approval t46u: LS variance audit approved (1 ADJUST: Andrew DePaola AWR 86->80)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LS_REAUDIT_RATE_06",
+          "audit_id": "LS_REAUDIT_RATE_06_A2",
+          "supersedes": "LS_REAUDIT_RATE_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T13:07:29Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (LS_REAUDIT_VARIANCE_AUDIT, t46u): AWR 86->80 (0 aborted snaps supports reliability, but a 2026 block and -0.6 unit put him belo"
         }
       ]
     }
