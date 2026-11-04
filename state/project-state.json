@@ -22301,7 +22301,7 @@
         "position": "CB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/CB.reaudit.json",
       "baseline_file": "data/baselines/CB.reaudit-20261104.json",
@@ -22311,7 +22311,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:34:37Z",
-      "updated_at": "2026-11-04T19:35:03.223Z",
+      "updated_at": "2026-11-04T19:35:03.518Z",
       "audit_ids": [
         "CB_REAUDIT_CANDIDATE_AUDIT_A1",
         "CB_REAUDIT_BG_01_A1",
@@ -22429,7 +22429,8 @@
         "CB_REAUDIT_TIEBREAK_20",
         "CB_REAUDIT_TIEBREAK_21",
         "CB_REAUDIT_TIEBREAK_22",
-        "CB_REAUDIT_VARIANCE_AUDIT"
+        "CB_REAUDIT_VARIANCE_AUDIT",
+        "CB_REAUDIT_SCARCITY"
       ],
       "approvals": [
         {
@@ -23172,15 +23173,19 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T19:35:02Z",
           "note": "User-approved batch t56s532: re-run CB_REAUDIT_VARIANCE_AUDIT after the approved card revisions"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_SCARCITY",
+          "audit_id": "CB_REAUDIT_SCARCITY_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:35:03Z",
+          "note": "User-approved batch t56s532: re-run CB_REAUDIT_SCARCITY after the approved card revisions"
         }
       ],
       "current_stage": "scarcity_audit",
       "current_task": "CB_REAUDIT_SCARCITY",
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "CB_REAUDIT_SCARCITY",
-        "audit_id": "CB_REAUDIT_SCARCITY_A2"
-      },
+      "awaiting": null,
       "last_result": {
         "task_id": "CB_REAUDIT_SCARCITY",
         "status": "VALIDATED",
