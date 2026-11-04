@@ -11904,7 +11904,7 @@
         "position": "FS",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/FS.reaudit.json",
       "baseline_file": null,
@@ -11917,22 +11917,23 @@
         "FS_REAUDIT_CANDIDATE_AUDIT"
       ],
       "audit_ids": [
-        "FS_REAUDIT_CANDIDATE_AUDIT_A1"
+        "FS_REAUDIT_CANDIDATE_AUDIT_A1",
+        "FS_REAUDIT_BG_01_A1"
       ],
-      "current_stage": "candidate_audit",
-      "current_task": "FS_REAUDIT_CANDIDATE_AUDIT",
-      "updated_at": "2026-11-04T12:24:33.978Z",
+      "current_stage": "background_analysis",
+      "current_task": "FS_REAUDIT_BG_01",
+      "updated_at": "2026-11-04T12:24:34.927Z",
       "last_result": {
-        "task_id": "FS_REAUDIT_CANDIDATE_AUDIT",
+        "task_id": "FS_REAUDIT_BG_01",
         "status": "FLAGGED",
         "errors": [],
-        "flags": [
-          "NO_PRIOR_LOCK",
-          "DATA_GAP: PFF sub-grades and alignment splits paywalled",
-          "FS_SS_SPLIT_BY_DEPTH_CHART"
-        ]
+        "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "FS_REAUDIT_BG_01",
+        "audit_id": "FS_REAUDIT_BG_01_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
