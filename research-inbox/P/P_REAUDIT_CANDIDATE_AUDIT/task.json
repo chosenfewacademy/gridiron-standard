@@ -1,0 +1,243 @@
+{
+  "task_id": "P_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Michael Dickson"
+      },
+      {
+        "rank": 2,
+        "player": "J.K. Scott"
+      },
+      {
+        "rank": 3,
+        "player": "AJ Cole"
+      },
+      {
+        "rank": 4,
+        "player": "Jack Fox"
+      },
+      {
+        "rank": 5,
+        "player": "Jordan Stout"
+      },
+      {
+        "rank": 6,
+        "player": "Jeremy Crawshaw"
+      },
+      {
+        "rank": 7,
+        "player": "Ryan Wright"
+      },
+      {
+        "rank": 8,
+        "player": "Sam Martin"
+      },
+      {
+        "rank": 9,
+        "player": "Corliss Waitman"
+      },
+      {
+        "rank": 10,
+        "player": "Corey Bojorquez"
+      }
+    ],
+    "external_controls": [
+      "Tress Way",
+      "Kai Kroeger",
+      "Matt Araiza",
+      "Tommy Doman Jr.",
+      "Braden Mann",
+      "Austin McNamara",
+      "Ethan Evans",
+      "Rigoberto Sanchez",
+      "Jake Bailey",
+      "Daniel Whelan",
+      "Logan Cooke",
+      "Bryan Anger"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Michael Dickson",
+      "aliases": [],
+      "player_id": "ext_00-0034160",
+      "flags": []
+    },
+    {
+      "player": "J.K. Scott",
+      "aliases": [],
+      "player_id": "ext_00-0034162",
+      "flags": []
+    },
+    {
+      "player": "AJ Cole",
+      "aliases": [],
+      "player_id": "ext_00-0035190",
+      "flags": []
+    },
+    {
+      "player": "Jack Fox",
+      "aliases": [],
+      "player_id": "ext_00-0035156",
+      "flags": []
+    },
+    {
+      "player": "Jordan Stout",
+      "aliases": [],
+      "player_id": "ext_00-0038094",
+      "flags": []
+    },
+    {
+      "player": "Jeremy Crawshaw",
+      "aliases": [],
+      "player_id": "ext_00-0040223",
+      "flags": []
+    },
+    {
+      "player": "Ryan Wright",
+      "aliases": [],
+      "player_id": "ext_00-0037500",
+      "flags": []
+    },
+    {
+      "player": "Sam Martin",
+      "aliases": [],
+      "player_id": "ext_00-0030092",
+      "flags": []
+    },
+    {
+      "player": "Corliss Waitman",
+      "aliases": [],
+      "player_id": "ext_00-0035821",
+      "flags": []
+    },
+    {
+      "player": "Corey Bojorquez",
+      "aliases": [],
+      "player_id": "ext_00-0034721",
+      "flags": []
+    },
+    {
+      "player": "Tress Way",
+      "aliases": [],
+      "player_id": "ext_00-0030140",
+      "flags": []
+    },
+    {
+      "player": "Kai Kroeger",
+      "aliases": [],
+      "player_id": "ext_00-0040654",
+      "flags": []
+    },
+    {
+      "player": "Matt Araiza",
+      "aliases": [],
+      "player_id": "ext_00-0037284",
+      "flags": []
+    },
+    {
+      "player": "Tommy Doman Jr.",
+      "aliases": [],
+      "player_id": "ext_00-0041126",
+      "flags": []
+    },
+    {
+      "player": "Braden Mann",
+      "aliases": [],
+      "player_id": "ext_00-0036313",
+      "flags": []
+    },
+    {
+      "player": "Austin McNamara",
+      "aliases": [],
+      "player_id": "ext_00-0039634",
+      "flags": []
+    },
+    {
+      "player": "Ethan Evans",
+      "aliases": [],
+      "player_id": "ext_00-0039059",
+      "flags": []
+    },
+    {
+      "player": "Rigoberto Sanchez",
+      "aliases": [],
+      "player_id": "ext_00-0033269",
+      "flags": []
+    },
+    {
+      "player": "Jake Bailey",
+      "aliases": [],
+      "player_id": "ext_00-0035280",
+      "flags": []
+    },
+    {
+      "player": "Daniel Whelan",
+      "aliases": [],
+      "player_id": "ext_00-0037547",
+      "flags": []
+    },
+    {
+      "player": "Logan Cooke",
+      "aliases": [],
+      "player_id": "ext_00-0034437",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    },
+    {
+      "player": "Bryan Anger",
+      "aliases": [],
+      "player_id": "ext_00-0029692",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    }
+  ],
+  "position": "P",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 20,
+    "group": "Special Teams",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall punting grade"
+    ],
+    "position_stats": [
+      "punts, gross/net average",
+      "inside-20",
+      "touchbacks"
+    ],
+    "usage_snap_metrics": [
+      "punts"
+    ],
+    "on_field_impact": [
+      "punting EPA",
+      "hang time (NGS/charting)"
+    ],
+    "madden_attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR"
+    ],
+    "note": ""
+  }
+}
