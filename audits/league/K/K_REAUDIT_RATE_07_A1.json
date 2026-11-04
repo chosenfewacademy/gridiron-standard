@@ -1,0 +1,222 @@
+{
+  "audit_id": "K_REAUDIT_RATE_07_A1",
+  "task_id": "K_REAUDIT_RATE_07",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "player_id": "ext_00-0031492",
+  "players": [
+    "Jason Myers"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "KPW": 90,
+    "KAC": 89,
+    "AWR": 84,
+    "INJ": 89,
+    "STA": 87,
+    "TGH": 62
+  },
+  "trait_confidence": {
+    "KPW": "MEDIUM",
+    "KAC": "MEDIUM",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "KPW": {
+      "basis": "Judgment (leg): 2025 FG 41/48 (85%): 0-39 19/21, 40-49 13/15, 50-59 9/11, 60+ 0/1; long 57; 1 blocked; FG EPA +12.0; XP 48/48; 2025 kickoffs 103, touchback 18 (17.5%), return avg 22.8, 1 out of bounds; 2026 FG 14/15 (93%): 0-39 7/7, 40-49 4/5, 50-59 3/3, 60+ 0/0; long 57; 0 blocked; FG EPA +8.5; XP 16/17; 2026 kickoffs 39, touchback 8 (20.5%), return avg 27.1, 0 out of bounds. Style: Volume and long-range reliability: 55 of 63 FG with 12/14 from 50-59 and FG EPA +12.0 / +8.5.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "KAC": {
+      "basis": "Judgment (accuracy): 2025 FG 41/48 (85%): 0-39 19/21, 40-49 13/15, 50-59 9/11, 60+ 0/1; long 57; 1 blocked; FG EPA +12.0; XP 48/48; 2026 FG 14/15 (93%): 0-39 7/7, 40-49 4/5, 50-59 3/3, 60+ 0/0; long 57; 0 blocked; FG EPA +8.5; XP 16/17. Style: Volume and long-range reliability: 55 of 63 FG with 12/14 from 50-59 and FG EPA +12.0 / +8.5.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (decisions): PFF K 2025 overall 90.8 (K rank 9); 2025 FG 41/48 (85%): 0-39 19/21, 40-49 13/15, 50-59 9/11, 60+ 0/1; long 57; 1 blocked; FG EPA +12.0; XP 48/48; PFF K 2026 overall 60.6 (K rank 22); 2026 FG 14/15 (93%): 0-39 7/7, 40-49 4/5, 50-59 3/3, 60+ 0/0; long 57; 0 blocked; FG EPA +8.5; XP 16/17; penalties 3/2. Style: Volume and long-range reliability: 55 of 63 FG with 12/14 from 50-59 and FG EPA +12.0 / +8.5.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Jason Myers injury reports: no injury designation 2025-26; roster status ACT; 2025 kickoffs 103, touchback 18 (17.5%), return avg 22.8, 1 out of bounds; 2026 kickoffs 39, touchback 8 (20.5%), return avg 27.1, 0 out of bounds. Style: Volume and long-range reliability: 55 of 63 FG with 12/14 from 50-59 and FG EPA +12.0 / +8.5.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 2025 kickoffs 103, touchback 18 (17.5%), return avg 22.8, 1 out of bounds; 2026 kickoffs 39, touchback 8 (20.5%), return avg 27.1, 0 out of bounds. Style: Volume and long-range reliability: 55 of 63 FG with 12/14 from 50-59 and FG EPA +12.0 / +8.5.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 2025 kickoffs 103, touchback 18 (17.5%), return avg 22.8, 1 out of bounds; 2026 kickoffs 39, touchback 8 (20.5%), return avg 27.1, 0 out of bounds. Style: Volume and long-range reliability: 55 of 63 FG with 12/14 from 50-59 and FG EPA +12.0 / +8.5.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "KPW": {
+      "tier": "ELITE",
+      "claim": "leg: 2025 FG 41/48 (85%): 0-39 19/21, 40-49 13/15, 50-59 9/11, 60+ 0/1; long 57; 1 blocked; FG EPA +12.0; XP 48/48; 2025 kickoffs 103, touchback 18 (17.5%), return avg 22.8, 1 out of bounds; 2026 FG 14/15 (93%): 0-39 7/7, 40-49 4/5, 50-59 3/3, 60+ 0/0; long 57; 0 blocked; FG EPA +8.5; XP 16/17; 2026 kickoffs 39, touchback 8 (20.5%), return avg 27.1, 0 out of bounds",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 78,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Volume and long-range reliability: 55 of 63 FG with 12/14 from 50-59 and FG EPA +12.0 / +8.5.",
+  "style_profile": "Jason Myers: Volume and long-range reliability: 55 of 63 FG with 12/14 from 50-59 and FG EPA +12.0 / +8.5.",
+  "style_evidence": [
+    "Jason Myers (SEA) Jason Myers 2026: PFF K 2026 overall 60.6 (K rank 22); 2026 kickoffs 39, touchback 8 (20.5%), return avg 27.1, 0 out of bounds; 2 accepted penalties",
+    "Jason Myers 2025: PFF K 2025 overall 90.8 (K rank 9); 2025 kickoffs 103, touchback 18 (17.5%), return avg 22.8, 1 out of bounds; 3 accepted penalties",
+    "Jason Myers role: placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K (KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflve...); roster position K; Madden card K (reference only)",
+    "Jason Myers injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "K_REAUDIT_BG_07_A1",
+  "weaknesses": [
+    "2026 PFF drop (90.8 to 60.6)",
+    "long 57, no 60+ makes"
+  ],
+  "limitations": [
+    "No public kickoff hang time; PFF K sub-grades paywalled; substitutes: FG% by distance band, longest FG, FG EPA, XP%, kickoff touchback %/return average (nflverse pbp), PFF K overall"
+  ],
+  "role_assignment": "K (placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K)",
+  "madden_reference": [
+    {
+      "player": "Jason Myers",
+      "ovr": 82,
+      "madden_position": "K",
+      "attributes": {
+        "KPW": 95,
+        "KAC": 92,
+        "AWR": 68,
+        "INJ": 85,
+        "STA": 80,
+        "TGH": 50
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -4,
+      "delta_attributes": {
+        "KPW": -5,
+        "KAC": -3,
+        "AWR": 16,
+        "INJ": 4,
+        "STA": 7,
+        "TGH": 12
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 4,
+    "attribute_gaps_10plus": {
+      "AWR": 16,
+      "TGH": 12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u",
+  "style_similarity": [
+    {
+      "player": "Will Reichard",
+      "audit_id": "K_REAUDIT_RATE_01_A1",
+      "corr": 0.902,
+      "mad": 5.2,
+      "too_similar": false
+    },
+    {
+      "player": "Ka'imi Fairbairn",
+      "audit_id": "K_REAUDIT_RATE_02_A1",
+      "corr": 0.817,
+      "mad": 5.5,
+      "too_similar": false
+    },
+    {
+      "player": "Chase McLaughlin",
+      "audit_id": "K_REAUDIT_RATE_03_A1",
+      "corr": 0.34,
+      "mad": 6.8,
+      "too_similar": false
+    },
+    {
+      "player": "Evan McPherson",
+      "audit_id": "K_REAUDIT_RATE_04_A1",
+      "corr": 0.917,
+      "mad": 3.8,
+      "too_similar": false
+    },
+    {
+      "player": "Cam Little",
+      "audit_id": "K_REAUDIT_RATE_05_A1",
+      "corr": 0.693,
+      "mad": 6.7,
+      "too_similar": false
+    },
+    {
+      "player": "Brandon Aubrey",
+      "audit_id": "K_REAUDIT_RATE_06_A1",
+      "corr": 0.292,
+      "mad": 9.3,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
