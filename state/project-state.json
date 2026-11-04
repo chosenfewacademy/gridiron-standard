@@ -13052,7 +13052,7 @@
         "position": "K",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/K.reaudit.json",
       "baseline_file": null,
@@ -13141,19 +13141,25 @@
         "K_REAUDIT_TIEBREAK_03_A1",
         "K_REAUDIT_TIEBREAK_04_A1",
         "K_REAUDIT_TIEBREAK_05_A1",
-        "K_REAUDIT_TIEBREAK_06_A1"
+        "K_REAUDIT_TIEBREAK_06_A1",
+        "K_REAUDIT_VARIANCE_AUDIT_A1"
       ],
-      "current_stage": "pair_audits",
-      "current_task": "K_REAUDIT_H2H_06",
-      "updated_at": "2026-11-04T12:53:39.893Z",
+      "current_stage": "variance_audit",
+      "current_task": "K_REAUDIT_VARIANCE_AUDIT",
+      "updated_at": "2026-11-04T12:54:01.781Z",
       "last_result": {
-        "task_id": "K_REAUDIT_TIEBREAK_06",
+        "task_id": "K_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
+        "errors": [],
         "flags": [
-          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "K_REAUDIT_VARIANCE_AUDIT",
+        "audit_id": "K_REAUDIT_VARIANCE_AUDIT_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
