@@ -1,0 +1,215 @@
+# CB_REAUDIT_BG_03 — Denzel Ward background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "CB_REAUDIT_BG_03_A1",
+  "task_id": "CB_REAUDIT_BG_03",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "player_id": "ext_00-0034856",
+  "players": [
+    "Denzel Ward"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Denzel Ward",
+    "player_id": "ext_00-0034856",
+    "team": "CLE",
+    "role_assignment": "CB (single list)",
+    "side_rule": "CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/grades/nfl/cb) in the current 2026 season (2025 if no 2026 snaps); outside and slot corners compete in the same list; a player PFF grades at S in 2026 (e.g. Cooper DeJean) belongs to the safety list. Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "cleveland-browns",
+        "ovr": 59.2,
+        "snaps": 780,
+        "rank": 67,
+        "rdef": 325,
+        "cov": 452
+      },
+      "2026": {
+        "team": "cleveland-browns",
+        "ovr": 90,
+        "snaps": 514,
+        "rank": 1,
+        "rdef": 210,
+        "cov": 303
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "CLE",
+        "pos": "CB",
+        "g": "15",
+        "tgt": "62",
+        "cmp": "38",
+        "yds": "380",
+        "td": "3",
+        "rat": "88.1",
+        "int": "1",
+        "comb": "39",
+        "m_tkl": "8"
+      },
+      "2026": {
+        "def_targets": 40.0,
+        "def_completions_allowed": 16.0,
+        "def_yards_allowed": 210.0,
+        "def_ints": 2.0,
+        "def_receiving_td_allowed": 3.0,
+        "def_tackles_combined": 27.0,
+        "def_missed_tackles": 4.0,
+        "g": 7
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 15,
+        "defs": 779
+      },
+      "2026": {
+        "games": 8,
+        "defs": 515
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 27.0,
+        "def_tackle_assists": 10.0,
+        "def_tackles_for_loss": 2.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 9.0,
+        "def_interceptions": 1.0
+      },
+      "2026": {
+        "def_tackles_solo": 17.0,
+        "def_tackle_assists": 12.0,
+        "def_tackles_for_loss": 0.0,
+        "def_fumbles_forced": 2.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 1.0,
+        "def_pass_defended": 9.0,
+        "def_interceptions": 3.0
+      }
+    },
+    "penalties": {
+      "2025": 3,
+      "2026": 2
+    },
+    "injuries": {
+      "2025": [
+        "wk15 Out (Calf)",
+        "wk16 Out (Calf)"
+      ],
+      "2026": [
+        "wk7 Questionable (Hand)"
+      ]
+    },
+    "summary_lines": [
+      "Denzel Ward (CLE) Denzel Ward 2026: PFF CB 2026 overall 90 on 514 snaps (CB rank 1; 303 coverage / 210 run-def snaps); PFR 2026 (7 games) coverage 40 targets / 16 completions / 210 yds / 3 TD / 2 INT; 27 tackles, 4 missed; 8 g / 515 def snaps; 17 solo + 12 ast tackles, 0 TFL, 3 INT, 9 PD, 2 FF; 2 accepted penalties",
+      "Denzel Ward 2025: PFF CB 2025 overall 59.2 on 780 snaps (CB rank 67; 452 coverage / 325 run-def snaps); PFR 2025 coverage 62 targets / 38 completions / 380 yds / 3 TD / passer rating 88.1 / 1 INT; 39 tackles, 8 missed; 15 g / 779 def snaps; 27 solo + 10 ast tackles, 2 TFL, 1 INT, 9 PD, 0 FF; 3 accepted penalties",
+      "Denzel Ward role: single CB list (no outside/slot split); roster position DB (CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/g...); roster position DB; Madden card CB (reference only)",
+      "Denzel Ward injury reports: wk15 Out (Calf); wk16 Out (Calf); wk7 Questionable (Hand); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF coverage/run-defense/tackling sub-grades and slot/outside splits are paywalled; no public tracking data for CB speed or separation; substitutes: PFF CB overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "CTH",
+      "JMP",
+      "TAK",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/cb/2026",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/cb/2025",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:10Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
