@@ -1,0 +1,226 @@
+# WILL_REAUDIT_BG_02 — Roquan Smith background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "WILL_REAUDIT_BG_02_A1",
+  "task_id": "WILL_REAUDIT_BG_02",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "player_id": "ext_00-0034874",
+  "players": [
+    "Roquan Smith"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Roquan Smith",
+    "player_id": "ext_00-0034874",
+    "team": "BAL",
+    "role_assignment": {
+      "WILL25": 221,
+      "WILL26": 275,
+      "MIKE": 0.0,
+      "WILL": 1438.0,
+      "SAM": 0.0,
+      "EDGE": 0.0,
+      "assign": "WILL"
+    },
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "baltimore-ravens",
+        "ovr": 74.2,
+        "snaps": 953,
+        "rank": 22,
+        "rdef": 319,
+        "prsh": 86,
+        "cov": 548
+      },
+      "2026": {
+        "team": "baltimore-ravens",
+        "ovr": 72.5,
+        "snaps": 484,
+        "rank": 13,
+        "rdef": 180,
+        "prsh": 37,
+        "cov": 267
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "BAL",
+        "pos": "LB",
+        "g": "15",
+        "tgt": "67",
+        "cmp": "47",
+        "yds": "400",
+        "rat": "95.4",
+        "int": "0",
+        "bltz": "56",
+        "prss": "7",
+        "sk": "0",
+        "comb": "130",
+        "m_tkl": "11"
+      },
+      "2026": {
+        "def_targets": 26.0,
+        "def_completions_allowed": 14.0,
+        "def_yards_allowed": 166.0,
+        "def_ints": 1.0,
+        "def_times_blitzed": 22.0,
+        "def_pressures": 4.0,
+        "def_sacks": 2.0,
+        "def_tackles_combined": 55.0,
+        "def_missed_tackles": 2.0,
+        "g": 7
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 15,
+        "defs": 953
+      },
+      "2026": {
+        "games": 8,
+        "defs": 485
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 74.0,
+        "def_tackle_assists": 54.0,
+        "def_tackles_for_loss": 5.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 4.0,
+        "def_pass_defended": 3.0,
+        "def_interceptions": 0.0
+      },
+      "2026": {
+        "def_tackles_solo": 30.0,
+        "def_tackle_assists": 36.0,
+        "def_tackles_for_loss": 1.0,
+        "def_fumbles_forced": 2.0,
+        "def_sacks": 2.0,
+        "def_qb_hits": 4.0,
+        "def_pass_defended": 3.0,
+        "def_interceptions": 1.0
+      }
+    },
+    "penalties": {
+      "2025": 2,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk5 Out (Hamstring)",
+        "wk6 Out (Hamstring)"
+      ]
+    },
+    "summary_lines": [
+      "Roquan Smith (BAL) Roquan Smith 2026: PFF LB 2026 overall 72.5 on 484 snaps (LB rank 13; 180 run-def / 267 coverage / 37 pass-rush snaps); PFR 2026 (7 games) coverage 26 targets / 14 completions / 166 yds / 1 INT; 55 tackles, 2 missed; 4 pressures on 22 blitzes; 8 g / 485 def snaps; 30 solo + 36 ast tackles, 1 TFL, 2.0 sacks, 1 INT, 3 PD, 2 FF; 0 accepted penalties",
+      "Roquan Smith 2025: PFF LB 2025 overall 74.2 on 953 snaps (LB rank 22; 319 run-def / 548 coverage / 86 pass-rush snaps); PFR 2025 coverage 67 targets / 47 completions / 400 yds / passer rating 95.4 / 0 INT; 130 tackles, 11 missed; 7 pressures on 56 blitzes, 0 sacks; 15 g / 953 def snaps; 74 solo + 54 ast tackles, 5 TFL, 0.0 sacks, 0 INT, 3 PD, 0 FF; 2 accepted penalties",
+      "Roquan Smith role: snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1438 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card MIKE (reference only)",
+      "Roquan Smith injury reports: wk5 Out (Hamstring); wk6 Out (Hamstring); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PUR",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2026",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2025",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:28Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
