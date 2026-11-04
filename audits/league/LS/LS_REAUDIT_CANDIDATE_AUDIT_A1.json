@@ -1,0 +1,298 @@
+{
+  "audit_id": "LS_REAUDIT_CANDIDATE_AUDIT_A1",
+  "task_id": "LS_REAUDIT_CANDIDATE_AUDIT",
+  "task_type": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LS",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "membership_confirmed": true,
+  "missing_top_players": [],
+  "side_rule": "LONG SNAPPER ROLE CONVENTION (t46u): rated as LS = nflverse roster position LS with 2025-26 special-teams snaps; matched by name/gsis id. THIN DATA, documented: PFF publishes no public LS grade (pff.com/grades/nfl/ls renders no table) and the FootballKickingStats reported-snap-error table is script-loaded; substitutes: aborted/bad snaps parsed from nflverse pbp descriptions on every FG/XP/punt snap, kicks/punts blocked on his snaps, FG make rate on his snaps, FootballKickingStats long-snapper unit points (credits the whole unit), coverage tackles on punts/kickoffs (pbp), accepted penalties, availability. Madden position is reference only.",
+  "alignment": {
+    "Ross Matiscik": "long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS",
+    "Thomas Hennessy": "long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS",
+    "Chris Stoll": "long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS",
+    "William Wagner": "long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS",
+    "Austin Brinkman": "long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS",
+    "Andrew DePaola": "long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS",
+    "Luke Rhodes": "long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS",
+    "Christian Kuntz": "long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS",
+    "Trent Sieg": "long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS",
+    "Nick Moore": "long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS",
+    "Joe Cardona": "long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS",
+    "Mitchell Fraboni": "long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS",
+    "Rex Sunahara": "long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS"
+  },
+  "coverage_check": "League-wide screen of every LS with 2025-26 regular-season work (40 players in nflverse pbp/rosters/snap counts), incl. free agents, inactive players and rookies. LONG SNAPPER ROLE CONVENTION (t46u): rated as LS = nflverse roster position LS with 2025-26 special-teams snaps; matched by name/gsis id. THIN DATA, documented: PFF publishes no public LS grade (pff.com/grades/nfl/ls renders no table) and the FootballKickingStats reported-snap-error table is script-loaded; substitutes: aborted/bad snaps parsed from nflverse pbp descriptions on every FG/XP/punt snap, kicks/punts blocked on his snaps, FG make rate on his snaps, FootballKickingStats long-snapper unit points (credits the whole unit), coverage tackles on punts/kickoffs (pbp), accepted penalties, availability. Madden position is reference only.",
+  "contention_set": [
+    "Ross Matiscik",
+    "Thomas Hennessy",
+    "Chris Stoll",
+    "William Wagner",
+    "Austin Brinkman",
+    "Andrew DePaola",
+    "Luke Rhodes",
+    "Christian Kuntz",
+    "Trent Sieg",
+    "Nick Moore",
+    "Joe Cardona",
+    "Mitchell Fraboni",
+    "Rex Sunahara"
+  ],
+  "contention_basis": "Judgment, not formula: 10 proposed top-10 LSs plus three first-outs. Evidence (THIN): aborted/bad snaps from pbp, blocks on his snaps, FG make rate on his snaps, FootballKickingStats unit points, coverage tackles, penalties, availability; no public PFF LS grade.",
+  "contender_reasons": {
+    "Ross Matiscik": "Ross Matiscik 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 144 ST snaps; 4 coverage tackles (pbp); FootballKickingStats unit points 21.3 (rank 2); 0 accepted penalties; 2025 snaps on 34 FG attempts (30 made), 51 XP, 60 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | Ross Matiscik 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 6 g / 46 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points 4.3 (rank 10); 1 accepted penalties; 2026 snaps on 11 FG attempts (9 made), 19 XP, 23 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS | injuries: wk6 Out (Shoulder); roster ACT (JAX) - Best-in-class unit results: FootballKickingStats unit points 21.3 (rank 2, 2025), 0 aborted snaps and 0 blocks on his snaps in 2025-26, 6 coverage tackles. THIN DATA: no public LS grade.",
+    "Thomas Hennessy": "Thomas Hennessy 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 126 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points 27.5 (rank 1); 0 accepted penalties; 2025 snaps on 29 FG attempts (28 made), 22 XP, 71 punts; 1 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | Thomas Hennessy 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 65 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points -3.7 (rank 24); 0 accepted penalties; 2026 snaps on 19 FG attempts (17 made), 14 XP, 31 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS | injuries: no injury designation 2025-26; roster ACT (NYJ) - Clean volume snapper: unit points 27.5 (2025, highest in our screen), 0 blocks on his snaps, FG units 28/29 (2025). One aborted exchange on a 2025 punt-formation play (wk 14, upback fumble).",
+    "Chris Stoll": "Chris Stoll 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 150 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 4.1 (rank 14); 0 accepted penalties; 2025 snaps on 48 FG attempts (41 made), 48 XP, 52 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps | Chris Stoll 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 68 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 15.5 (rank 1); 0 accepted penalties; 2026 snaps on 15 FG attempts (14 made), 17 XP, 27 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS | injuries: no injury designation 2025-26; roster ACT (SEA) - Reliable, high-volume: snapped 48 FG attempts in 2025 and has unit points 15.5 in 2026; 0 aborted snaps.",
+    "William Wagner": "William Wagner 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 138 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points 14.7 (rank 5); 0 accepted penalties; 2025 snaps on 28 FG attempts (25 made), 44 XP, 65 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps | William Wagner 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 7 g / 56 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 4.1 (rank 11); 0 accepted penalties; 2026 snaps on 10 FG attempts (10 made), 24 XP, 22 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS | injuries: no injury designation 2025-26; roster ACT (CIN) - Consistent unit: points 14.7 / 4.1, 0 aborted snaps, perfect 10/10 FG unit in 2026.",
+    "Austin Brinkman": "Austin Brinkman 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 155 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 11.5 (rank 7); 0 accepted penalties; 2025 snaps on 52 FG attempts (48 made), 30 XP, 72 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps | Austin Brinkman 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 7 g / 63 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 4.5 (rank 9); 0 accepted penalties; 2026 snaps on 16 FG attempts (15 made), 16 XP, 29 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS | injuries: no injury designation 2025-26; roster ACT (HOU) - Accurate FG unit: 48 of 52 FG on his snaps in 2025, unit points 11.5 / 4.5, 0 aborted snaps.",
+    "Andrew DePaola": "Andrew DePaola 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 133 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 12.5 (rank 6); 0 accepted penalties; 2025 snaps on 35 FG attempts (33 made), 31 XP, 65 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | Andrew DePaola 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 7 g / 61 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -0.6 (rank 18); 0 accepted penalties; 2026 snaps on 20 FG attempts (18 made), 10 XP, 32 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps | long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS | injuries: no injury designation 2025-26; roster ACT (MIN) - Veteran with 0 aborted snaps: unit points 12.5 in 2025, FG units 33/35 and 18/20.",
+    "Luke Rhodes": "Luke Rhodes 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 131 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points 9.0 (rank 9); 0 accepted penalties; 2025 snaps on 36 FG attempts (34 made), 45 XP, 44 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | Luke Rhodes 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 64 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 0.2 (rank 15); 0 accepted penalties; 2026 snaps on 21 FG attempts (19 made), 15 XP, 25 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps | long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS | injuries: no injury designation 2025-26; roster ACT (IND) - Clean veteran: FG units 34/36 and 19/21, unit points 9.0 (2025), 0 aborted snaps, 3 coverage tackles.",
+    "Christian Kuntz": "Christian Kuntz 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 141 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points 9.8 (rank 8); 0 accepted penalties; 2025 snaps on 32 FG attempts (27 made), 43 XP, 62 punts; 0 aborted/bad snaps in pbp; 2 kicks/punts blocked on his snaps | Christian Kuntz 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 74 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 4.7 (rank 7); 0 accepted penalties; 2026 snaps on 23 FG attempts (18 made), 16 XP, 32 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS | injuries: wk16 Questionable (Knee); roster ACT (PIT) - Athletic snapper: unit points 9.8 / 4.7 with 3 coverage tackles.",
+    "Trent Sieg": "Trent Sieg 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 134 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 15.8 (rank 4); 0 accepted penalties; 2025 snaps on 42 FG attempts (36 made), 48 XP, 41 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | Trent Sieg 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 59 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points -1.3 (rank 19); 0 accepted penalties; 2026 snaps on 19 FG attempts (15 made), 21 XP, 19 punts; 0 aborted/bad snaps in pbp; 2 kicks/punts blocked on his snaps | long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS | injuries: no injury designation 2025-26; roster ACT (DAL) - Strong 2025: unit points 15.8 with 0 blocks; 2026 unit points -1.3 with 2 blocks.",
+    "Nick Moore": "Nick Moore 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 134 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 8.3 (rank 11); 0 accepted penalties; 2025 snaps on 34 FG attempts (30 made), 46 XP, 53 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | Nick Moore 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 69 ST snaps; 3 coverage tackles (pbp); FootballKickingStats unit points -3.5 (rank 23); 0 accepted penalties; 2026 snaps on 17 FG attempts (13 made), 18 XP, 34 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps | long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS | injuries: no injury designation 2025-26; roster ACT (BAL) - Coverage snapper: 3 coverage tackles in 2026, 0 aborted snaps, unit points 8.3 in 2025.",
+    "Joe Cardona": "Joe Cardona 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 128 ST snaps; 5 coverage tackles (pbp); FootballKickingStats unit points 17.1 (rank 3); 0 accepted penalties; 2025 snaps on 29 FG attempts (27 made), 35 XP, 63 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | Joe Cardona 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 7 g / 53 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -12.5 (rank 32); 0 accepted penalties; 2026 snaps on 10 FG attempts (6 made), 20 XP, 22 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps | long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS | injuries: wk8 Doubtful (Ankle); roster INA (LA) - Best coverage snapper: 5 tackles in 2025 (7 over two seasons), unit points 17.1 in 2025.",
+    "Mitchell Fraboni": "Mitchell Fraboni 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 146 ST snaps; 4 coverage tackles (pbp); FootballKickingStats unit points 0.2 (rank 19); 2 accepted penalties; 2025 snaps on 32 FG attempts (28 made), 39 XP, 75 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps | Mitchell Fraboni 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 73 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 1.4 (rank 14); 1 accepted penalties; 2026 snaps on 17 FG attempts (14 made), 14 XP, 41 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS | injuries: no injury designation 2025-26; roster ACT (DEN) - Coverage contributor: 4 tackles in 2025, 75 + 41 punt snaps, 0 aborted snaps.",
+    "Rex Sunahara": "Rex Sunahara 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 150 ST snaps; 7 coverage tackles (pbp); FootballKickingStats unit points -15.8 (rank 32); 0 accepted penalties; 2025 snaps on 27 FG attempts (24 made), 26 XP, 93 punts; 0 aborted/bad snaps in pbp; 2 kicks/punts blocked on his snaps | Rex Sunahara 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 71 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points 9.2 (rank 2); 0 accepted penalties; 2026 snaps on 18 FG attempts (16 made), 12 XP, 38 punts; 1 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps | long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS | injuries: no injury designation 2025-26; roster ACT (CLE) - Coverage leader: 7 coverage tackles in 2025 on 93 punt snaps; unit points 9.2 in 2026."
+  },
+  "proposed_order": [
+    "Ross Matiscik",
+    "Thomas Hennessy",
+    "Chris Stoll",
+    "William Wagner",
+    "Austin Brinkman",
+    "Andrew DePaola",
+    "Luke Rhodes",
+    "Christian Kuntz",
+    "Trent Sieg",
+    "Nick Moore"
+  ],
+  "first_outs": [
+    "Joe Cardona",
+    "Mitchell Fraboni",
+    "Rex Sunahara"
+  ],
+  "excluded": [
+    {
+      "player": "Scott Daly",
+      "reason": "Below pool cutoff (composite 0.86; sources nflverse_snaps_2025#7, fks_ls_2026#16). Re-include on request."
+    },
+    {
+      "player": "Liam McCullough",
+      "reason": "Below pool cutoff (composite 0.83; sources nflverse_snaps_2026#13, nflverse_snaps_2025#13). Re-include on request."
+    },
+    {
+      "player": "Beau Gardner",
+      "reason": "Below pool cutoff (composite 0.76; sources fks_ls_2026#7). Re-include on request."
+    },
+    {
+      "player": "Reid Ferguson",
+      "reason": "Below pool cutoff (composite 0.57; sources nflverse_snaps_2025#24, fks_ls_2026#13). Re-include on request."
+    },
+    {
+      "player": "Julian Ashby",
+      "reason": "Below pool cutoff (composite 0.50; sources nflverse_snaps_2026#23, nflverse_snaps_2025#10). Re-include on request."
+    },
+    {
+      "player": "James Winchester",
+      "reason": "Below pool cutoff (composite 0.50; sources nflverse_snaps_2026#24, nflverse_snaps_2025#20, fks_ls_2026#19). Re-include on request."
+    },
+    {
+      "player": "Zach Wood",
+      "reason": "Below pool cutoff (composite 0.22; sources nflverse_snaps_2025#17). Re-include on request."
+    },
+    {
+      "player": "Tyler Ott",
+      "reason": "Below pool cutoff (composite 0.16; sources nflverse_snaps_2026#22). Re-include on request."
+    },
+    {
+      "player": "Jon Weeks",
+      "reason": "4 blocks on his snaps over 2025-26; unit points -3.6 / -0.1"
+    },
+    {
+      "player": "Hogan Hatten",
+      "reason": "3 blocks on his snaps in 2025; unit points 2.0 / 4.5"
+    },
+    {
+      "player": "Casey Kreiter",
+      "reason": "unit points -22.1 / -10.6"
+    },
+    {
+      "player": "Evan Deckers",
+      "reason": "5 blocks on his snaps in 2025"
+    },
+    {
+      "player": "J.J. Jansen",
+      "reason": "unit points -3.1 / 2.4; 3 blocks on his snaps"
+    },
+    {
+      "player": "Morgan Cox",
+      "reason": "unit points -0.3 / 1.6"
+    },
+    {
+      "player": "Tucker Addington",
+      "reason": "one aborted punt snap (wk 2 2026); unit points -10.2"
+    }
+  ],
+  "old_lock_comparison": {
+    "note": "No LS lock exists (never locked; state PENDING). Compared against the approved candidate pool order (data/candidate-pools/LS.json).",
+    "legacy_names": [
+      "Rex Sunahara",
+      "Chris Stoll",
+      "Christian Kuntz",
+      "Ross Matiscik",
+      "Austin Brinkman",
+      "Jon Weeks",
+      "Nick Moore",
+      "Luke Rhodes",
+      "Hogan Hatten",
+      "Rocco Underwood"
+    ],
+    "in_proposed_top10": [
+      "Chris Stoll",
+      "Christian Kuntz",
+      "Ross Matiscik",
+      "Austin Brinkman",
+      "Nick Moore",
+      "Luke Rhodes"
+    ],
+    "now_first_out": [
+      "Rex Sunahara"
+    ],
+    "out": [
+      "Jon Weeks",
+      "Hogan Hatten",
+      "Rocco Underwood"
+    ]
+  },
+  "flags": {
+    "injured": [
+      "Joe Cardona (INA)"
+    ],
+    "free_agents": [],
+    "limited_sample": [],
+    "madden_side_differs": [],
+    "data_gaps": [
+      "THIN DATA: no public PFF LS grade",
+      "no public snap-accuracy charting (FKS snap-error table is script-loaded)",
+      "unit points credit the whole unit"
+    ]
+  },
+  "madden_reference": [
+    {
+      "player": "Ross Matiscik",
+      "ovr": 72,
+      "madden_position": "LS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Thomas Hennessy",
+      "ovr": 72,
+      "madden_position": "LS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Chris Stoll",
+      "ovr": 62,
+      "madden_position": "LS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "William Wagner",
+      "ovr": 63,
+      "madden_position": "LS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Austin Brinkman",
+      "ovr": 65,
+      "madden_position": "LS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Andrew DePaola",
+      "ovr": 80,
+      "madden_position": "LS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Luke Rhodes",
+      "ovr": 77,
+      "madden_position": "LS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Christian Kuntz",
+      "ovr": 62,
+      "madden_position": "LS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Trent Sieg",
+      "ovr": 78,
+      "madden_position": "LS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Nick Moore",
+      "ovr": 70,
+      "madden_position": "LS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Joe Cardona",
+      "ovr": 60,
+      "madden_position": "LS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Mitchell Fraboni",
+      "ovr": 68,
+      "madden_position": "LS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Rex Sunahara",
+      "ovr": 58,
+      "madden_position": "LS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    }
+  ],
+  "madden_order_verified": false,
+  "early_inputs": [],
+  "external_controls": [],
+  "major_flags": [
+    "NO_PRIOR_LOCK",
+    "THIN_DATA: no public PFF LS grade or snap charting"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

@@ -1,0 +1,316 @@
+{
+  "task_id": "LS_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Rex Sunahara"
+      },
+      {
+        "rank": 2,
+        "player": "Chris Stoll"
+      },
+      {
+        "rank": 3,
+        "player": "Christian Kuntz"
+      },
+      {
+        "rank": 4,
+        "player": "Ross Matiscik"
+      },
+      {
+        "rank": 5,
+        "player": "Austin Brinkman"
+      },
+      {
+        "rank": 6,
+        "player": "Jon Weeks"
+      },
+      {
+        "rank": 7,
+        "player": "Nick Moore"
+      },
+      {
+        "rank": 8,
+        "player": "Luke Rhodes"
+      },
+      {
+        "rank": 9,
+        "player": "Hogan Hatten"
+      },
+      {
+        "rank": 10,
+        "player": "Rocco Underwood"
+      }
+    ],
+    "external_controls": [
+      "Mitchell Fraboni",
+      "Ben Mann",
+      "Alex Ward",
+      "Andrew DePaola",
+      "William Wagner",
+      "Casey Kreiter",
+      "Evan Deckers",
+      "Matthew Orzech",
+      "J.J. Jansen",
+      "Morgan Cox",
+      "Thomas Hennessy",
+      "Trent Sieg",
+      "Joe Cardona"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Rex Sunahara",
+      "aliases": [],
+      "player_id": "ext_00-0036443",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Chris Stoll",
+      "aliases": [],
+      "player_id": "ext_00-0038769",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Christian Kuntz",
+      "aliases": [],
+      "player_id": "ext_00-0034051",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Ross Matiscik",
+      "aliases": [],
+      "player_id": "ext_00-0035827",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Austin Brinkman",
+      "aliases": [],
+      "player_id": "ext_00-0040409",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Jon Weeks",
+      "aliases": [],
+      "player_id": "ext_00-0027224",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Nick Moore",
+      "aliases": [],
+      "player_id": "ext_00-0035408",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Luke Rhodes",
+      "aliases": [],
+      "player_id": "ext_00-0032753",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Hogan Hatten",
+      "aliases": [],
+      "player_id": "ext_00-0039445",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Rocco Underwood",
+      "aliases": [],
+      "player_id": "ext_00-0040925",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Mitchell Fraboni",
+      "aliases": [],
+      "player_id": "ext_00-0036943",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Ben Mann",
+      "aliases": [],
+      "player_id": "ext_00-0041143",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Alex Ward",
+      "aliases": [],
+      "player_id": "ext_00-0038360",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Andrew DePaola",
+      "aliases": [],
+      "player_id": "ext_00-0029714",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "William Wagner",
+      "aliases": [],
+      "player_id": "ext_00-0040379",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Casey Kreiter",
+      "aliases": [],
+      "player_id": "ext_00-0030957",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Evan Deckers",
+      "aliases": [],
+      "player_id": "ext_00-0038817",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Matthew Orzech",
+      "aliases": [],
+      "player_id": "ext_00-0035118",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "J.J. Jansen",
+      "aliases": [],
+      "player_id": "ext_00-0026027",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Morgan Cox",
+      "aliases": [],
+      "player_id": "ext_00-0027557",
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "USAGE_ONLY_TRIAGE (snap volume shows who snaps, not snap quality)"
+      ]
+    },
+    {
+      "player": "Thomas Hennessy",
+      "aliases": [],
+      "player_id": "ext_00-0033260",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    },
+    {
+      "player": "Trent Sieg",
+      "aliases": [],
+      "player_id": "ext_00-0034198",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    },
+    {
+      "player": "Joe Cardona",
+      "aliases": [],
+      "player_id": "ext_00-0032228",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    }
+  ],
+  "position": "LS",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 22,
+    "group": "Special Teams",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "PFF long snapper grade (weekly special teams reports)"
+    ],
+    "position_stats": [
+      "punt/FG/XP snaps",
+      "bad or inaccurate snaps",
+      "coverage tackles"
+    ],
+    "usage_snap_metrics": [
+      "special-teams snaps (nflverse st_snaps)",
+      "games, seasons as starter"
+    ],
+    "on_field_impact": [
+      "unit points on snaps delivered (FG/XP/punt; credits whole unit)",
+      "blocked kicks/punts on his snaps"
+    ],
+    "madden_attributes_informed": [
+      "AWR",
+      "STR",
+      "RBK",
+      "PBK",
+      "SPD",
+      "TAK"
+    ],
+    "note": "v1.1 addendum bucket (docs/amendments/v1.1-addendum-fb-ls.md). Inputs only; NOT in config/position-sequence.json or state until the commissioner enacts the addendum."
+  }
+}

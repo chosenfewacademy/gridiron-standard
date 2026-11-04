@@ -13990,14 +13990,36 @@
         "position": "LS",
         "stage": "top10_reaudit"
       },
-      "status": "QUEUED_NOT_STARTED",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LS.reaudit.json",
       "baseline_file": null,
       "requested_by": "PhiXCrypto",
       "requested_at": "2026-11-04T13:05:15.617Z",
       "trigger": "COMMISSIONER_EXPLICIT",
-      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
+      "started_at": "2026-11-04T13:06:02.505Z",
+      "completed_tasks": [],
+      "audit_ids": [
+        "LS_REAUDIT_CANDIDATE_AUDIT_A1"
+      ],
+      "current_stage": "candidate_audit",
+      "current_task": "LS_REAUDIT_CANDIDATE_AUDIT",
+      "updated_at": "2026-11-04T13:06:02.522Z",
+      "last_result": {
+        "task_id": "LS_REAUDIT_CANDIDATE_AUDIT",
+        "status": "FLAGGED",
+        "errors": [],
+        "flags": [
+          "NO_PRIOR_LOCK",
+          "THIN_DATA: no public PFF LS grade or snap charting"
+        ]
+      },
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "LS_REAUDIT_CANDIDATE_AUDIT",
+        "audit_id": "LS_REAUDIT_CANDIDATE_AUDIT_A1"
+      }
     }
   ]
 }
