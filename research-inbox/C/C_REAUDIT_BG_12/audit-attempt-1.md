@@ -1,0 +1,148 @@
+# C_REAUDIT_BG_12 — Connor McGovern background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u/t50s441.
+
+```json
+{
+  "audit_id": "C_REAUDIT_BG_12_A1",
+  "task_id": "C_REAUDIT_BG_12",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "C",
+  "player_id": "ext_00-0035679",
+  "players": [
+    "Connor McGovern"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Connor McGovern",
+    "player_id": "ext_00-0035679",
+    "team": "BUF",
+    "pff": {
+      "2025": {
+        "rank": 9,
+        "pff": 70.9,
+        "team": "BUF",
+        "off": 1166,
+        "pblk": 670,
+        "rblk": 496,
+        "age": "29.0"
+      },
+      "2026": {
+        "rank": 13,
+        "pff": 66.0,
+        "team": "BUF",
+        "off": 465,
+        "pblk": 265,
+        "rblk": 200,
+        "age": "29.0"
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 16,
+        "off": 1037
+      },
+      "2026": {
+        "games": 7,
+        "off": 467
+      }
+    },
+    "penalties": {
+      "2025": {
+        "total": 3,
+        "types": {
+          "Offensive Holding": 2,
+          "False Start": 1
+        }
+      },
+      "2026": {
+        "total": 1,
+        "types": {
+          "Offensive Offside": 1
+        }
+      }
+    },
+    "depth_chart_side": {
+      "2025": {
+        "C": 1
+      },
+      "2026": {
+        "C": 226
+      }
+    },
+    "espn_win_rates": "IOL PBWR 91% (top 20), IOL RBWR 80% (top 10)",
+    "injuries": {},
+    "summary_lines": [
+      "Connor McGovern (BUF) 2026: PFF 2026 66.0 (rank 13, 465 snaps: 265 pass-block / 200 run-block, pass share 0.57); 7 g / 467 off snaps; 1 accepted penalties {'Offensive Offside': 1}; depth-chart side {'C': 226}",
+      "Connor McGovern 2025: PFF 2025 70.9 (rank 9, 1166 snaps: 670 pass-block / 496 run-block, pass share 0.57); 16 g / 1037 off snaps; 3 accepted penalties {'Offensive Holding': 2, 'False Start': 1}; side {'C': 1}",
+      "Connor McGovern ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 91% (top 20), IOL RBWR 80% (top 10)",
+      "Connor McGovern injury reports: none; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "STR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH",
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/c/2026",
+        "retrieved_at": "2026-11-04T03:29:27Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/c/2025",
+        "retrieved_at": "2026-11-04T03:29:27Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T03:29:27Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T03:29:27Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T03:29:27Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T03:29:27Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T03:29:27Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:29:27Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
