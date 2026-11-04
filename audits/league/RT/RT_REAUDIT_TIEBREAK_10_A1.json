@@ -1,0 +1,39 @@
+{
+  "audit_id": "RT_REAUDIT_TIEBREAK_10_A1",
+  "task_id": "RT_REAUDIT_TIEBREAK_10",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Troy Fautanu",
+    "Jermaine Eluemunor"
+  ],
+  "pair_result": {
+    "winner": "Jermaine Eluemunor",
+    "loser": "Troy Fautanu",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t46u). Fautanu: PFF 66.9 / 67.3, split RT 136 / LT 90, 4 penalties. Eluemunor: PFF 63.9 on 1,088 snaps (2025) then 72.1 on 368 (2026), ESPN OT PBWR 91%, full-time RT (226 snapshots), 16 penalties in two seasons. Eluemunor's 2026 grade (72.1) and PBWR list place hold. Jermaine Eluemunor holds #10.",
+    "key_evidence_for_winner": [
+      "Jermaine Eluemunor (NYG) ESPN 2026 win rates (thru Wk 8): OT PBWR 91%; depth-chart side 2026 {'RT': 226}; roster ACT",
+      "Jermaine Eluemunor 2026: PFF 72.1 (rank 20; 193 pass-block/175 run-block of 368 snaps); 6 g/368 snaps; penalties 4; injuries ['wk6 Questionable (Calf)', 'wk7 Questionable (Calf)']",
+      "Jermaine Eluemunor 2025: PFF 63.9 (rank 50; 639 pass-block/449 run-block of 1088 snaps); 16 g/1088 snaps; penalties 12; injuries ['wk6 Questionable (Back)', 'wk9 Doubtful (Pectoral)', 'wk10 Questionable (Pectoral)']"
+    ],
+    "key_evidence_for_loser": [
+      "Troy Fautanu (PIT) ESPN 2026 win rates (thru Wk 8): not in ESPN OT top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RT': 136, 'LT': 90}; roster ACT",
+      "Troy Fautanu 2026: PFF 67.3 (rank 37; 342 pass-block/189 run-block of 531 snaps); 8 g/532 snaps; penalties 2; injuries ['wk2 Questionable (Ankle)']",
+      "Troy Fautanu 2025: PFF 66.9 (rank 41; 673 pass-block/415 run-block of 1088 snaps); 17 g/1031 snaps; penalties 2; injuries none"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
