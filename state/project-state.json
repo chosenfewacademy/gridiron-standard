@@ -10816,7 +10816,7 @@
         "position": "SAM",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/SAM.reaudit.json",
       "baseline_file": null,
@@ -10851,7 +10851,8 @@
         "SAM_REAUDIT_RATE_09",
         "SAM_REAUDIT_RATE_10",
         "SAM_REAUDIT_RATE_11",
-        "SAM_REAUDIT_RATE_12"
+        "SAM_REAUDIT_RATE_12",
+        "SAM_REAUDIT_RATE_13"
       ],
       "audit_ids": [
         "SAM_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -10884,18 +10885,14 @@
       ],
       "current_stage": "player_rating",
       "current_task": "SAM_REAUDIT_RATE_13",
-      "updated_at": "2026-11-04T11:57:16.539Z",
+      "updated_at": "2026-11-04T11:57:17.061Z",
       "last_result": {
         "task_id": "SAM_REAUDIT_RATE_13",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "SAM_REAUDIT_RATE_13",
-        "audit_id": "SAM_REAUDIT_RATE_13_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -11103,6 +11100,14 @@
           "audit_id": "SAM_REAUDIT_RATE_12_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:57:15Z",
+          "note": "Standing commissioner approval t46u (run dossiers and ratings automatically)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "SAM_REAUDIT_RATE_13",
+          "audit_id": "SAM_REAUDIT_RATE_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:57:16Z",
           "note": "Standing commissioner approval t46u (run dossiers and ratings automatically)"
         }
       ]
