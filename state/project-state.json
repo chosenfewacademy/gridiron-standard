@@ -11290,7 +11290,7 @@
         "position": "CB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/CB.reaudit.json",
       "baseline_file": null,
@@ -11384,18 +11384,30 @@
         "CB_REAUDIT_TIEBREAK_06_A1",
         "CB_REAUDIT_VARIANCE_AUDIT_A1",
         "CB_REAUDIT_RATE_03_A2",
-        "CB_REAUDIT_SCARCITY_A1"
+        "CB_REAUDIT_SCARCITY_A1",
+        "CB_REAUDIT_TIEBREAK_07_A1"
       ],
       "current_stage": "scarcity_audit",
       "current_task": "CB_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T12:10:46.738Z",
+      "updated_at": "2026-11-04T12:11:20.231Z",
       "last_result": {
-        "task_id": "CB_REAUDIT_SCARCITY",
-        "status": "VALIDATED",
-        "errors": [],
-        "flags": []
+        "task_id": "CB_REAUDIT_TIEBREAK_07",
+        "status": "FLAGGED",
+        "flags": [
+          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+        ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "TIEBREAK_REVIEW",
+        "task_id": "CB_REAUDIT_TIEBREAK_07",
+        "audit_id": "CB_REAUDIT_TIEBREAK_07_A1",
+        "pending": [
+          {
+            "task_id": "CB_REAUDIT_TIEBREAK_07",
+            "audit_id": "CB_REAUDIT_TIEBREAK_07_A1"
+          }
+        ]
+      },
       "approvals": [
         {
           "decision": "APPROVED",
