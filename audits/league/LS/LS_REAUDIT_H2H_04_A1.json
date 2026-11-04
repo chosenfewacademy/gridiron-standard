@@ -1,0 +1,37 @@
+{
+  "audit_id": "LS_REAUDIT_H2H_04_A1",
+  "task_id": "LS_REAUDIT_H2H_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LS",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Luke Rhodes",
+    "Christian Kuntz"
+  ],
+  "pair_result": {
+    "winner": "Luke Rhodes",
+    "loser": "Christian Kuntz",
+    "provisional_order_holds": true,
+    "reasoning": "Thin data. Luke Rhodes has 0 aborted snaps and 1 block on his snaps (2026) with 53 of 57 FGs made on his snaps; Christian Kuntz has 0 aborted but 2 blocks (2025) and 45 of 55 FGs made. Kuntz's units score better (9.8/4.7 vs 9.0/0.2), which keeps it narrow.",
+    "key_evidence_for_winner": [
+      "Luke Rhodes (IND) role long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS; roster ACT (LS); injuries no injury designation 2025-26",
+      "Luke Rhodes 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 64 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 0.2 (rank 15); 0 accepted penalties; 2026 snaps on 21 FG attempts (19 made), 15 XP, 25 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps",
+      "Luke Rhodes 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 131 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points 9.0 (rank 9); 0 accepted penalties; 2025 snaps on 36 FG attempts (34 made), 45 XP, 44 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps"
+    ],
+    "key_evidence_for_loser": [
+      "Christian Kuntz (PIT) role long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS; roster ACT (LS); injuries wk16 Questionable (Knee)",
+      "Christian Kuntz 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 74 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 4.7 (rank 7); 0 accepted penalties; 2026 snaps on 23 FG attempts (18 made), 16 XP, 32 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps",
+      "Christian Kuntz 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 141 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points 9.8 (rank 8); 0 accepted penalties; 2025 snaps on 32 FG attempts (27 made), 43 XP, 62 punts; 0 aborted/bad snaps in pbp; 2 kicks/punts blocked on his snaps"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
