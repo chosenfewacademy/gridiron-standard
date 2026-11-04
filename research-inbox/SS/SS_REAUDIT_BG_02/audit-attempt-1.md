@@ -1,0 +1,213 @@
+# SS_REAUDIT_BG_02 — Evan Williams background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "SS_REAUDIT_BG_02_A1",
+  "task_id": "SS_REAUDIT_BG_02",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "player_id": "ext_00-0039813",
+  "players": [
+    "Evan Williams"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Evan Williams",
+    "player_id": "ext_00-0039813",
+    "team": "GB",
+    "role_assignment": "SS (snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1464 -> SS)",
+    "side_rule": "SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one of FS or SS by primary 2025-26 alignment = nflverse weekly depth-chart FS/SS slot counts per season weighted by that season's defensive snaps; larger share wins (ties to FS). No FS/SS depth-chart slot -> nflverse roster depth_chart_position. Matched by gsis/PFR id. Each player appears in one list only; Madden position is reference only. Cooper DeJean (2026 FS 103 / SS 108 slot-weeks, CB in 2025) -> SS.",
+    "pff": {
+      "2025": {
+        "team": "green-bay-packers",
+        "ovr": 70.2,
+        "snaps": 979,
+        "rank": 27,
+        "rdef": 368,
+        "cov": 600
+      },
+      "2026": {
+        "team": "green-bay-packers",
+        "ovr": 90.6,
+        "snaps": 560,
+        "rank": 1,
+        "rdef": 212,
+        "cov": 322
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "GB",
+        "pos": "S",
+        "g": "16",
+        "tgt": "44",
+        "cmp": "31",
+        "yds": "420",
+        "td": "3",
+        "rat": "94.9",
+        "int": "3",
+        "comb": "100",
+        "m_tkl": "6"
+      },
+      "2026": {
+        "def_targets": 34.0,
+        "def_completions_allowed": 17.0,
+        "def_yards_allowed": 182.0,
+        "def_ints": 2.0,
+        "def_receiving_td_allowed": 2.0,
+        "def_tackles_combined": 64.0,
+        "def_missed_tackles": 3.0,
+        "g": 7
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 16,
+        "defs": 903
+      },
+      "2026": {
+        "games": 8,
+        "defs": 561
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 46.0,
+        "def_tackle_assists": 52.0,
+        "def_tackles_for_loss": 4.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 5.0,
+        "def_interceptions": 3.0
+      },
+      "2026": {
+        "def_tackles_solo": 43.0,
+        "def_tackle_assists": 27.0,
+        "def_tackles_for_loss": 2.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 1.0,
+        "def_qb_hits": 4.0,
+        "def_pass_defended": 6.0,
+        "def_interceptions": 2.0
+      }
+    },
+    "penalties": {
+      "2025": 4,
+      "2026": 2
+    },
+    "injuries": {
+      "2025": [
+        "wk16 Questionable (Knee)",
+        "wk17 Questionable (Knee)"
+      ]
+    },
+    "summary_lines": [
+      "Evan Williams (GB) Evan Williams 2026: PFF S 2026 overall 90.6 on 560 snaps (S rank 1; 322 coverage / 212 run-def snaps); PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed; 8 g / 561 def snaps; 43 solo + 27 ast tackles, 2 TFL, 2 INT, 6 PD, 0 FF; 2 accepted penalties",
+      "Evan Williams 2025: PFF S 2025 overall 70.2 on 979 snaps (S rank 27; 600 coverage / 368 run-def snaps); PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed; 16 g / 903 def snaps; 46 solo + 52 ast tackles, 4 TFL, 3 INT, 5 PD, 0 FF; 4 accepted penalties",
+      "Evan Williams role: snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1464 -> SS (SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one o...); roster position DB; Madden card FS (reference only)",
+      "Evan Williams injury reports: wk16 Questionable (Knee); wk17 Questionable (Knee); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF coverage/run-defense/tackling sub-grades and box/slot/deep alignment splits are paywalled; no public tracking data for safety speed or range; substitutes: PFF S overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "CTH",
+      "JMP",
+      "TAK",
+      "POW",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/s/2026",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/s/2025",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:28:58Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
