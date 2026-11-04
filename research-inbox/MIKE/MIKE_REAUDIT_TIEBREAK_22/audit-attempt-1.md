@@ -1,0 +1,40 @@
+# MIKE_REAUDIT_TIEBREAK_22 — Omar Speights vs Jeremiah Trotter Jr. (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "MIKE_REAUDIT_TIEBREAK_22_A1",
+  "task_id": "MIKE_REAUDIT_TIEBREAK_22",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "MIKE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Omar Speights",
+    "Jeremiah Trotter Jr."
+  ],
+  "pair_result": {
+    "winner": "Omar Speights",
+    "loser": "Jeremiah Trotter Jr.",
+    "provisional_order_holds": true,
+    "reasoning": "Speights holds #10 on current form: PFF 79.9 on 231 snaps in 2026 (#4 LB) with 4 TFL / 2.0 sacks and 2 missed tackles (PFR, 7 games), vs Jeremiah Trotter Jr.'s PFF 74 on 196 snaps in 2026. Jeremiah Trotter Jr.'s ceiling hits (pff, efficiency, availability) come from the two-year screen (snap-weighted PFF 76.5, 0.23 impact plays/game, 92.1% tackle success) where Speights' 2025 (PFF 67.1, 0 TFL) sets a low reference bar.",
+    "key_evidence_for_winner": [
+      "Omar Speights (LA) role snap-weighted 2025-26 depth-chart role shares MIKE 905 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE25 221, MIKE26 275) -> MIKE; roster ACT (LB); injuries wk6 Doubtful (Ankle); wk18 Questionable (Ankle)",
+      "Omar Speights 2026: Omar Speights 2026: PFF LB 2026 overall 79.9 on 231 snaps (LB rank 4; 114 run-def / 92 coverage / 25 pass-rush snaps); PFR 2026 (7 games) coverage 13 targets / 9 completions / 79 yds / 0 INT; 32 tackles, 2 missed; 4 pressures on 13 blitzes; 8 g / 232 def snaps; 22 solo + 15 ast tackles, 4 TFL, 2.0 sacks, 0 INT, 2 PD, 1 FF; 1 accepted penalties; PFR 2026 (7 games) coverage 13 targets / 9 completions / 79 yds / 0 INT; 32 tackles, 2 missed; 4 pressures on 13 blitzes",
+      "Omar Speights 2025: Omar Speights 2025: PFF LB 2025 overall 67.1 on 826 snaps (LB rank 34; 384 run-def / 413 coverage / 29 pass-rush snaps); PFR 2025 coverage 44 targets / 28 completions / 214 yds / passer rating 75.4 / 0 INT; 85 tackles, 3 missed; 1 pressures on 9 blitzes, 0 sacks; 16 g / 673 def snaps; 43 solo + 40 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 44 targets / 28 completions / 214 yds / passer rating 75.4 / 0 INT; 85 tackles, 3 missed; 1 pressures on 9 blitzes, 0 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Jeremiah Trotter Jr. (PHI) role snap-weighted 2025-26 depth-chart role shares MIKE 284 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE25 221, MIKE26 274) -> MIKE; roster ACT (LB); injuries no injury designation 2025-26",
+      "Jeremiah Trotter Jr. 2026: Jeremiah Trotter Jr. 2026: PFF LB 2026 overall 74 on 196 snaps (LB rank 9; 81 run-def / 98 coverage / 17 pass-rush snaps); PFR 2026 (4 games) coverage 9 targets / 8 completions / 62 yds / 0 INT; 26 tackles, 2 missed; 1 pressures on 6 blitzes; 5 g / 196 def snaps; 27 solo + 13 ast tackles, 0 TFL, 0.5 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties; PFR 2026 (4 games) coverage 9 targets / 8 completions / 62 yds / 0 INT; 26 tackles, 2 missed; 1 pressures on 6 blitzes",
+      "Jeremiah Trotter Jr. 2025: Jeremiah Trotter Jr. 2025: PFF LB 2025 overall 82.1 on 88 snaps (LB rank None; 47 run-def / 36 coverage / 5 pass-rush snaps); PFR 2025 coverage 3 targets / 3 completions / 10 yds / passer rating 80.6 / 0 INT; 32 tackles, 3 missed; 2 pressures on 0 blitzes, 0 sacks; 6 g / 88 def snaps; 14 solo + 17 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF; 3 accepted penalties; PFR 2025 coverage 3 targets / 3 completions / 10 yds / passer rating 80.6 / 0 INT; 32 tackles, 3 missed; 2 pressures on 0 blitzes, 0 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```

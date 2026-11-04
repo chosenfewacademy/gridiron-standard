@@ -9618,7 +9618,7 @@
         "position": "MIKE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/MIKE.reaudit.json",
       "baseline_file": null,
@@ -9742,19 +9742,30 @@
         "MIKE_REAUDIT_TIEBREAK_18_A1",
         "MIKE_REAUDIT_TIEBREAK_19_A1",
         "MIKE_REAUDIT_TIEBREAK_20_A1",
-        "MIKE_REAUDIT_TIEBREAK_21_A1"
+        "MIKE_REAUDIT_TIEBREAK_21_A1",
+        "MIKE_REAUDIT_TIEBREAK_22_A1"
       ],
       "current_stage": "scarcity_audit",
       "current_task": "MIKE_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T11:44:48.500Z",
+      "updated_at": "2026-11-04T11:44:48.992Z",
       "last_result": {
-        "task_id": "MIKE_REAUDIT_TIEBREAK_21",
+        "task_id": "MIKE_REAUDIT_TIEBREAK_22",
         "status": "FLAGGED",
         "flags": [
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "TIEBREAK_REVIEW",
+        "task_id": "MIKE_REAUDIT_TIEBREAK_22",
+        "audit_id": "MIKE_REAUDIT_TIEBREAK_22_A1",
+        "pending": [
+          {
+            "task_id": "MIKE_REAUDIT_TIEBREAK_22",
+            "audit_id": "MIKE_REAUDIT_TIEBREAK_22_A1"
+          }
+        ]
+      },
       "approvals": [
         {
           "decision": "APPROVED",
