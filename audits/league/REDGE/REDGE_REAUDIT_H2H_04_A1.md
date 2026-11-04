@@ -1,0 +1,40 @@
+# REDGE_REAUDIT_H2H_04 — Chase Young vs Alex Highsmith (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "REDGE_REAUDIT_H2H_04_A1",
+  "task_id": "REDGE_REAUDIT_H2H_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Chase Young",
+    "Alex Highsmith"
+  ],
+  "pair_result": {
+    "winner": "Chase Young",
+    "loser": "Alex Highsmith",
+    "provisional_order_holds": true,
+    "reasoning": "Young: 2026 PFF 81.3, 7 sacks, PRWR #18, plus 2025 78.0 / 10 sacks; Highsmith 2026 75.1 with 7 pressures and outside PRWR top 20. Order holds.",
+    "key_evidence_for_winner": [
+      "Chase Young (NO) alignment side snapshots 2025-26 left 0 / right 495 -> REDGE; roster ACT (LB); injuries wk3 Out (Calf); wk4 Out (Calf); wk5 Out (Calf); wk2 Questionable (Calf)",
+      "Chase Young 2026: Chase Young 2026: PFF edge 2026 overall 81.3 on 340 snaps (197 pass-rush, 128 run-defense, 15 coverage); PFR 2026 14 pressures (3 hurries, 2 QB hits, 7.0 sacks) in 6 games, 10 tackles, 0 missed; 7 g / 340 def snaps; 7.0 sacks, 11 QB hits, 4 TFL, 1 FF, 3 PD; 1 accepted penalties; PFR 2026 14 pressures (3 hurries, 2 QB hits, 7.0 sacks) in 6 games, 10 tackles, 0 missed; ESPN 2026 edge PRWR 24% (#18, 25/106); RSWR outside the published top 10",
+      "Chase Young 2025: Chase Young 2025: PFF edge 2025 overall 78 on 542 snaps (285 pass-rush, 224 run-defense, 33 coverage); PFR 2025 30 pressures (15 hurries, 3 QB knockdowns, 10 sacks), 38 tackles, 3 missed; 12 g / 544 def snaps; 10.0 sacks, 15 QB hits, 11 TFL, 2 FF, 4 PD; 2 accepted penalties; PFR 2025 30 pressures (15 hurries, 3 QB knockdowns, 10 sacks), 38 tackles, 3 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Alex Highsmith (PIT) alignment side snapshots 2025-26 left 0 / right 496 -> REDGE; roster ACT (LB); injuries wk4 Out (Ankle); wk11 Out (Pectoral); wk12 Doubtful (Pectoral)",
+      "Alex Highsmith 2026: Alex Highsmith 2026: PFF edge 2026 overall 75.1 on 333 snaps (210 pass-rush, 104 run-defense, 19 coverage); PFR 2026 7 pressures (1 hurries, 3 QB hits, 3.0 sacks) in 6 games, 13 tackles, 1 missed; 8 g / 332 def snaps; 3.5 sacks, 9 QB hits, 5 TFL, 0 FF, 1 PD; 3 accepted penalties; PFR 2026 7 pressures (1 hurries, 3 QB hits, 3.0 sacks) in 6 games, 13 tackles, 1 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Alex Highsmith 2025: Alex Highsmith 2025: PFF edge 2025 overall 82.2 on 685 snaps (351 pass-rush, 261 run-defense, 73 coverage); PFR 2025 23 pressures (4 hurries, 9 QB knockdowns, 9.5 sacks), 50 tackles, 2 missed; 13 g / 634 def snaps; 9.5 sacks, 19 QB hits, 15 TFL, 1 FF, 3 PD; 3 accepted penalties; PFR 2025 23 pressures (4 hurries, 9 QB knockdowns, 9.5 sacks), 50 tackles, 2 missed"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
