@@ -11995,18 +11995,18 @@
         "FS_REAUDIT_TIEBREAK_04_A1",
         "FS_REAUDIT_TIEBREAK_05_A1",
         "FS_REAUDIT_TIEBREAK_06_A1",
-        "FS_REAUDIT_VARIANCE_AUDIT_A1"
+        "FS_REAUDIT_VARIANCE_AUDIT_A1",
+        "FS_REAUDIT_RATE_01_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "FS_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T12:26:15.632Z",
+      "updated_at": "2026-11-04T12:26:15.933Z",
       "last_result": {
-        "task_id": "FS_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
-        "errors": [],
-        "flags": [
-          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "task_id": "FS_REAUDIT_RATE_01",
+        "status": "REVISION_APPROVED",
+        "audit_id": "FS_REAUDIT_RATE_01_A2",
+        "supersedes": "FS_REAUDIT_RATE_01_A1",
+        "flags": []
       },
       "awaiting": null,
       "approvals": [
@@ -12329,6 +12329,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T12:26:15Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "FS_REAUDIT_RATE_01",
+          "audit_id": "FS_REAUDIT_RATE_01_A2",
+          "supersedes": "FS_REAUDIT_RATE_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:26:15Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (FS_REAUDIT_VARIANCE_AUDIT, t46u): TAK 84->80 (11 missed tackles on 74 in 2025 and 2 on 24 in 2026 per PFR). OVR unchanged."
         }
       ]
     }
