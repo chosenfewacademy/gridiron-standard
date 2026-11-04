@@ -5066,7 +5066,7 @@
         "position": "LG",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "IN_PROGRESS",
       "pool_file": "data/candidate-pools/LG.reaudit.json",
       "baseline_file": null,
@@ -5169,19 +5169,30 @@
         "LG_REAUDIT_RATE_08_A2",
         "LG_REAUDIT_RATE_12_A2",
         "LG_REAUDIT_SCARCITY_A1",
-        "LG_REAUDIT_TIEBREAK_09_A1"
+        "LG_REAUDIT_TIEBREAK_09_A1",
+        "LG_REAUDIT_TIEBREAK_10_A1"
       ],
       "current_stage": "scarcity_audit",
       "current_task": "LG_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T03:22:17.316Z",
+      "updated_at": "2026-11-04T03:22:17.850Z",
       "last_result": {
-        "task_id": "LG_REAUDIT_TIEBREAK_09",
+        "task_id": "LG_REAUDIT_TIEBREAK_10",
         "status": "FLAGGED",
         "flags": [
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "TIEBREAK_REVIEW",
+        "task_id": "LG_REAUDIT_TIEBREAK_10",
+        "audit_id": "LG_REAUDIT_TIEBREAK_10_A1",
+        "pending": [
+          {
+            "task_id": "LG_REAUDIT_TIEBREAK_10",
+            "audit_id": "LG_REAUDIT_TIEBREAK_10_A1"
+          }
+        ]
+      },
       "approvals": [
         {
           "decision": "APPROVED",
