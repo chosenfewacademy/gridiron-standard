@@ -10816,7 +10816,7 @@
         "position": "SAM",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/SAM.reaudit.json",
       "baseline_file": null,
@@ -10829,22 +10829,23 @@
         "SAM_REAUDIT_CANDIDATE_AUDIT"
       ],
       "audit_ids": [
-        "SAM_REAUDIT_CANDIDATE_AUDIT_A1"
+        "SAM_REAUDIT_CANDIDATE_AUDIT_A1",
+        "SAM_REAUDIT_BG_01_A1"
       ],
-      "current_stage": "candidate_audit",
-      "current_task": "SAM_REAUDIT_CANDIDATE_AUDIT",
-      "updated_at": "2026-11-04T11:56:48.578Z",
+      "current_stage": "background_analysis",
+      "current_task": "SAM_REAUDIT_BG_01",
+      "updated_at": "2026-11-04T11:56:49.480Z",
       "last_result": {
-        "task_id": "SAM_REAUDIT_CANDIDATE_AUDIT",
+        "task_id": "SAM_REAUDIT_BG_01",
         "status": "FLAGGED",
         "errors": [],
-        "flags": [
-          "NO_PRIOR_LOCK",
-          "DATA_GAP: PFF sub-grades and side splits paywalled",
-          "LB_ROLE_FROM_DEPTH_CHARTS"
-        ]
+        "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "SAM_REAUDIT_BG_01",
+        "audit_id": "SAM_REAUDIT_BG_01_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
