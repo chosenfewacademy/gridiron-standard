@@ -1,0 +1,395 @@
+{
+  "position": "K",
+  "version": "reaudit-20261104",
+  "architecture_version": "1.1.3",
+  "status": "LOCKED",
+  "top_10": [
+    {
+      "rank": 1,
+      "player": "Will Reichard",
+      "ovr": 91
+    },
+    {
+      "rank": 2,
+      "player": "Ka'imi Fairbairn",
+      "ovr": 88
+    },
+    {
+      "rank": 3,
+      "player": "Chase McLaughlin",
+      "ovr": 86
+    },
+    {
+      "rank": 4,
+      "player": "Evan McPherson",
+      "ovr": 84
+    },
+    {
+      "rank": 5,
+      "player": "Cam Little",
+      "ovr": 82
+    },
+    {
+      "rank": 6,
+      "player": "Brandon Aubrey",
+      "ovr": 80
+    },
+    {
+      "rank": 7,
+      "player": "Jason Myers",
+      "ovr": 78
+    },
+    {
+      "rank": 8,
+      "player": "Joey Slye",
+      "ovr": 76
+    },
+    {
+      "rank": 9,
+      "player": "Chris Boswell",
+      "ovr": 76
+    },
+    {
+      "rank": 10,
+      "player": "Cameron Dicker",
+      "ovr": 75
+    }
+  ],
+  "last_in": {
+    "player": "Cameron Dicker",
+    "ovr": 75
+  },
+  "first_out": {
+    "player": "Eddy Pineiro",
+    "ovr": 72
+  },
+  "external_controls": [
+    {
+      "player": "Eddy Pineiro",
+      "ovr": 72
+    },
+    {
+      "player": "Spencer Shrader",
+      "ovr": 71
+    },
+    {
+      "player": "Tyler Bass",
+      "ovr": 70
+    }
+  ],
+  "supersedes": {
+    "baseline_file": "data/baselines/K.reaudit-20261104.json",
+    "version": "reaudit-20261104"
+  },
+  "first_lock": true,
+  "control_source": "APPROVED_CANDIDATE_POOL",
+  "stage_audit_ids": [
+    "K_REAUDIT_CANDIDATE_AUDIT_A1",
+    "K_REAUDIT_BG_01_A1",
+    "K_REAUDIT_BG_02_A1",
+    "K_REAUDIT_BG_03_A1",
+    "K_REAUDIT_BG_04_A1",
+    "K_REAUDIT_BG_05_A1",
+    "K_REAUDIT_BG_06_A1",
+    "K_REAUDIT_BG_07_A1",
+    "K_REAUDIT_BG_08_A1",
+    "K_REAUDIT_BG_09_A1",
+    "K_REAUDIT_BG_10_A1",
+    "K_REAUDIT_BG_11_A1",
+    "K_REAUDIT_BG_12_A1",
+    "K_REAUDIT_BG_13_A1",
+    "K_REAUDIT_RATE_01_A1",
+    "K_REAUDIT_RATE_02_A1",
+    "K_REAUDIT_RATE_03_A1",
+    "K_REAUDIT_RATE_04_A1",
+    "K_REAUDIT_RATE_05_A1",
+    "K_REAUDIT_RATE_06_A1",
+    "K_REAUDIT_RATE_07_A1",
+    "K_REAUDIT_RATE_08_A1",
+    "K_REAUDIT_RATE_09_A1",
+    "K_REAUDIT_RATE_10_A1",
+    "K_REAUDIT_RATE_11_A1",
+    "K_REAUDIT_RATE_12_A1",
+    "K_REAUDIT_RATE_13_A1",
+    "K_REAUDIT_H2H_01_A1",
+    "K_REAUDIT_H2H_02_A1",
+    "K_REAUDIT_H2H_03_A1",
+    "K_REAUDIT_H2H_04_A1",
+    "K_REAUDIT_H2H_05_A1",
+    "K_REAUDIT_H2H_06_A1",
+    "K_REAUDIT_TIEBREAK_01_A1",
+    "K_REAUDIT_TIEBREAK_02_A1",
+    "K_REAUDIT_TIEBREAK_03_A1",
+    "K_REAUDIT_TIEBREAK_04_A1",
+    "K_REAUDIT_TIEBREAK_05_A1",
+    "K_REAUDIT_TIEBREAK_06_A1",
+    "K_REAUDIT_RATE_02_A2",
+    "K_REAUDIT_TIEBREAK_07_A1",
+    "K_REAUDIT_TIEBREAK_08_A1",
+    "K_REAUDIT_TIEBREAK_09_A1",
+    "K_REAUDIT_RATE_10_A2",
+    "K_REAUDIT_TIEBREAK_10_A1",
+    "K_REAUDIT_TIEBREAK_11_A1",
+    "K_REAUDIT_VARIANCE_AUDIT_A2",
+    "K_REAUDIT_SCARCITY_A2",
+    "K_REAUDIT_CROSS_AUDIT_A2"
+  ],
+  "madden_order_verified": false,
+  "locked_by": "PhiXCrypto",
+  "locked_at": "2026-11-04T19:31:14Z",
+  "scarcity": {
+    "rules": "config/scarcity-rules.json (90+ elite, 95+ rare league-defining, 97+ extraordinary, 99 historic)",
+    "traits_90_plus": [
+      {
+        "player": "Will Reichard",
+        "attr": "KPW",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Will Reichard",
+        "attr": "KAC",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Will Reichard",
+        "attr": "INJ",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Ka'imi Fairbairn",
+        "attr": "KPW",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Ka'imi Fairbairn",
+        "attr": "KAC",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Chase McLaughlin",
+        "attr": "KPW",
+        "v": 96,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Chase McLaughlin",
+        "attr": "KAC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Evan McPherson",
+        "attr": "KPW",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Evan McPherson",
+        "attr": "KAC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Evan McPherson",
+        "attr": "INJ",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Cam Little",
+        "attr": "KPW",
+        "v": 98,
+        "tier": "EXTRAORDINARY",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Brandon Aubrey",
+        "attr": "KPW",
+        "v": 97,
+        "tier": "EXTRAORDINARY",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jason Myers",
+        "attr": "KPW",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Joey Slye",
+        "attr": "KPW",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Chris Boswell",
+        "attr": "KPW",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Cameron Dicker",
+        "attr": "KAC",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Cameron Dicker",
+        "attr": "INJ",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Spencer Shrader",
+        "attr": "KPW",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Tyler Bass",
+        "attr": "KPW",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      }
+    ],
+    "count_90_plus": 19,
+    "count_95_plus": 5,
+    "count_97_plus": 2,
+    "count_99": 0,
+    "traits_95_plus": [
+      "Will Reichard KAC 95 (LEAGUE_DEFINING)",
+      "Chase McLaughlin KPW 96 (LEAGUE_DEFINING)",
+      "Cam Little KPW 98 (EXTRAORDINARY)",
+      "Brandon Aubrey KPW 97 (EXTRAORDINARY)",
+      "Joey Slye KPW 95 (LEAGUE_DEFINING)"
+    ],
+    "max_trait": "Cam Little KPW 98 (EXTRAORDINARY)",
+    "all_90_plus_have_tiered_sourced_evidence": true,
+    "league_defining_basis": {
+      "Cam Little KPW 98": "EXTRAORDINARY: league-long 68-yard FG, 3 of 4 from 60+ over 2025-26, 38.1% kickoff touchbacks in 2025",
+      "Brandon Aubrey KPW 97": "EXTRAORDINARY: 4 of 8 from 60+ over 2025-26 (most 60+ makes in the screen), long 64",
+      "Chase McLaughlin KPW 96": "LEAGUE_DEFINING: 65-yard long, 14 of 15 from 50-59",
+      "Will Reichard KAC 95": "LEAGUE_DEFINING: 51 of 55 FG, 41/41 XP, best two-year FG EPA (+35.5)",
+      "Joey Slye KPW 95": "LEAGUE_DEFINING: kickoff touchbacks 25.4%/22.2%, among the highest of full-time kickers"
+    },
+    "overall_90_plus": [
+      "Will Reichard 91"
+    ],
+    "overall_spread": "91 to 70 across 13 rated Ks (top 10: 91 to 75)",
+    "style_rule": {
+      "pairs_checked": 78,
+      "too_similar": 0,
+      "highest_corr": [
+        "Jason Myers",
+        "Chris Boswell",
+        0.939,
+        3.3,
+        false
+      ],
+      "lowest_mad": [
+        "Ka'imi Fairbairn",
+        "Chris Boswell",
+        0.853,
+        3.2,
+        false
+      ]
+    },
+    "effective_ratings": {
+      "Will Reichard": [
+        "K_REAUDIT_RATE_01_A1",
+        91
+      ],
+      "Ka'imi Fairbairn": [
+        "K_REAUDIT_RATE_02_A2",
+        88
+      ],
+      "Chase McLaughlin": [
+        "K_REAUDIT_RATE_03_A1",
+        86
+      ],
+      "Evan McPherson": [
+        "K_REAUDIT_RATE_04_A1",
+        84
+      ],
+      "Cam Little": [
+        "K_REAUDIT_RATE_05_A1",
+        82
+      ],
+      "Brandon Aubrey": [
+        "K_REAUDIT_RATE_06_A1",
+        80
+      ],
+      "Jason Myers": [
+        "K_REAUDIT_RATE_07_A1",
+        78
+      ],
+      "Joey Slye": [
+        "K_REAUDIT_RATE_08_A1",
+        76
+      ],
+      "Chris Boswell": [
+        "K_REAUDIT_RATE_10_A2",
+        76
+      ],
+      "Cameron Dicker": [
+        "K_REAUDIT_RATE_09_A1",
+        75
+      ],
+      "Eddy Pineiro": [
+        "K_REAUDIT_RATE_11_A1",
+        72
+      ],
+      "Spencer Shrader": [
+        "K_REAUDIT_RATE_12_A1",
+        71
+      ],
+      "Tyler Bass": [
+        "K_REAUDIT_RATE_13_A1",
+        70
+      ]
+    },
+    "note_for_commissioner": "Re-run after the t56s532 cards (Boswell INJ 89,  STA 84,  KAC 86,  TGH 68 (style-similarity fix),  OVR 74->76; tiebreaks TB_10 Slye>Boswell,  TB_11 Boswell>Dicker). PASS (superseding run R2, t56s532): 19 traits at 90+ all tiered and sourced; 5 at 95+ (Will Reichard KAC 95 (LEAGUE_DEFINING), Chase McLaughlin KPW 96 (LEAGUE_DEFINING), Cam Little KPW 98 (EXTRAORDINARY), Brandon Aubrey KPW 97 (EXTRAORDINARY), Joey Slye KPW 95 (LEAGUE_DEFINING)); overalls 90+: Will Reichard 91; style rule 78 pairs, 0 too similar.",
+    "result": "PASS (superseding run R2, t56s532): 19 traits at 90+ all tiered and sourced; 5 at 95+ (Will Reichard KAC 95 (LEAGUE_DEFINING), Chase McLaughlin KPW 96 (LEAGUE_DEFINING), Cam Little KPW 98 (EXTRAORDINARY), Brandon Aubrey KPW 97 (EXTRAORDINARY), Joey Slye KPW 95 (LEAGUE_DEFINING)); overalls 90+: Will Reichard 91; style rule 78 pairs, 0 too similar."
+  }
+}

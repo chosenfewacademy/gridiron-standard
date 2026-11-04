@@ -249,11 +249,18 @@
       "status": "LOCKED",
       "mutation_permission": "TOP10_REAUDIT_ONLY",
       "first_lock": true,
-      "baseline_file": "data/baselines/K.reaudit-20261104.json",
+      "baseline_file": "data/baselines/K.reaudit-20261104b.json",
       "version": "reaudit-20261104",
-      "locked_at": "2026-11-04T12:54:44Z",
-      "lock_audit_id": "K_REAUDIT_LOCK_20261104",
-      "history": []
+      "locked_at": "2026-11-04T19:31:14Z",
+      "lock_audit_id": "K_REAUDIT_LOCK_20261104B",
+      "history": [
+        {
+          "baseline_file": "data/baselines/K.reaudit-20261104.json",
+          "version": "reaudit-20261104",
+          "superseded_at": "2026-11-04T19:31:14Z",
+          "superseded_by": "K_REAUDIT_LOCK_20261104B"
+        }
+      ]
     },
     "P": {
       "status": "LOCKED",
