@@ -6216,16 +6216,17 @@
         "RG_REAUDIT_TIEBREAK_05_A1",
         "RG_REAUDIT_TIEBREAK_06_A1",
         "RG_REAUDIT_VARIANCE_AUDIT_A1",
-        "RG_REAUDIT_RATE_02_A2"
+        "RG_REAUDIT_RATE_02_A2",
+        "RG_REAUDIT_RATE_08_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "RG_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T03:50:22.471Z",
+      "updated_at": "2026-11-04T03:50:22.849Z",
       "last_result": {
-        "task_id": "RG_REAUDIT_RATE_02",
+        "task_id": "RG_REAUDIT_RATE_08",
         "status": "REVISION_APPROVED",
-        "audit_id": "RG_REAUDIT_RATE_02_A2",
-        "supersedes": "RG_REAUDIT_RATE_02_A1",
+        "audit_id": "RG_REAUDIT_RATE_08_A2",
+        "supersedes": "RG_REAUDIT_RATE_08_A1",
         "flags": []
       },
       "awaiting": null,
@@ -6558,6 +6559,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:50:22Z",
           "note": "Standing commissioner approval t46u: Approved variance fix (RG_REAUDIT_VARIANCE_AUDIT, t46u): RBF 82->88 (PFF #1 G 2025 on 442 run-block snaps; still power-first). OVR unchanged."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RG_REAUDIT_RATE_08",
+          "audit_id": "RG_REAUDIT_RATE_08_A2",
+          "supersedes": "RG_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:50:22Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (RG_REAUDIT_VARIANCE_AUDIT, t46u): AWR 78->82 (6 penalties over two seasons, same as Dotson). OVR unchanged."
         }
       ]
     }
