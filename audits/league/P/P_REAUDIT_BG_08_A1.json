@@ -1,0 +1,157 @@
+{
+  "audit_id": "P_REAUDIT_BG_08_A1",
+  "task_id": "P_REAUDIT_BG_08",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "P",
+  "player_id": "ext_00-0035821",
+  "players": [
+    "Corliss Waitman"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Corliss Waitman",
+    "player_id": "ext_00-0035821",
+    "team": "SF",
+    "role_assignment": "P (punter (punt attempts in nflverse pbp); roster position P)",
+    "side_rule": "PUNTER ROLE CONVENTION (t46u): rated as P = any player with 2025-26 punt attempts in nflverse play-by-play; matched by gsis id. Evidence: gross and net average, inside-20 count/rate, touchbacks, fair catches, return yards allowed, blocks, punt EPA (nflverse pbp), PFF P overall (2025-26). THIN DATA: no public punt hang time (not in pbp, PFF free tables or Next Gen Stats); fair catches and return yards are the proxy. Madden position is reference only.",
+    "seasons": {
+      "2025": {
+        "punt": {
+          "n": 62,
+          "gross": 45.5,
+          "net": 41.7,
+          "i20": 26,
+          "i20_pct": 41.9,
+          "tb": 3,
+          "fc": 22,
+          "ret_yds": 175,
+          "returned": 25,
+          "blocked": 0,
+          "long": 67,
+          "epa": -2.2,
+          "epa_per": -0.035,
+          "games": 17
+        },
+        "pffp": {
+          "ovr": 70.2,
+          "snaps": null,
+          "rank": 18
+        }
+      },
+      "2026": {
+        "punt": {
+          "n": 21,
+          "gross": 46.9,
+          "net": 44.1,
+          "i20": 10,
+          "i20_pct": 47.6,
+          "tb": 1,
+          "fc": 10,
+          "ret_yds": 38,
+          "returned": 5,
+          "blocked": 0,
+          "long": 61,
+          "epa": 5.4,
+          "epa_per": 0.259,
+          "games": 7
+        },
+        "pffp": {
+          "ovr": 75.7,
+          "snaps": null,
+          "rank": 11
+        }
+      }
+    },
+    "injuries": null,
+    "summary_lines": [
+      "Corliss Waitman (SF) Corliss Waitman 2026: PFF P 2026 overall 75.7 (P rank 11); 2026 7 games punting; 0 accepted penalties",
+      "Corliss Waitman 2025: PFF P 2025 overall 70.2 (P rank 18); 2025 17 games punting; 0 accepted penalties",
+      "Corliss Waitman role: punter (punt attempts in nflverse pbp); roster position P (PUNTER ROLE CONVENTION (t46u): rated as P = any player with 2025-26 punt attempts in nflverse play-by-play; matched by g...); roster position P; Madden card P (reference only)",
+      "Corliss Waitman injury reports: no injury designation 2025-26; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "No public punt hang time; PFF P sub-grades paywalled; substitutes: net/gross, inside-20, touchbacks, fair catches and return yards (hang proxy), punt EPA (nflverse pbp), PFF P overall"
+    ],
+    "attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "thin_data": false,
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/p/2026",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/p/2025",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:21Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
