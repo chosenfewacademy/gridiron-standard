@@ -11290,7 +11290,7 @@
         "position": "CB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/CB.reaudit.json",
       "baseline_file": null,
@@ -11335,18 +11335,23 @@
         "CB_REAUDIT_BG_13_A1",
         "CB_REAUDIT_RATE_01_A1",
         "CB_REAUDIT_RATE_02_A1",
-        "CB_REAUDIT_RATE_03_A1"
+        "CB_REAUDIT_RATE_03_A1",
+        "CB_REAUDIT_RATE_04_A1"
       ],
       "current_stage": "player_rating",
-      "current_task": "CB_REAUDIT_RATE_03",
-      "updated_at": "2026-11-04T12:08:26.479Z",
+      "current_task": "CB_REAUDIT_RATE_04",
+      "updated_at": "2026-11-04T12:08:27.311Z",
       "last_result": {
-        "task_id": "CB_REAUDIT_RATE_03",
+        "task_id": "CB_REAUDIT_RATE_04",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "CB_REAUDIT_RATE_04",
+        "audit_id": "CB_REAUDIT_RATE_04_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
