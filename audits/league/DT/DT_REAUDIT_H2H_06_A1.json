@@ -1,0 +1,37 @@
+{
+  "audit_id": "DT_REAUDIT_H2H_06_A1",
+  "task_id": "DT_REAUDIT_H2H_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Alim McNeill",
+    "Jalen Redmond"
+  ],
+  "pair_result": {
+    "winner": "Alim McNeill",
+    "loser": "Jalen Redmond",
+    "provisional_order_holds": true,
+    "reasoning": "McNeill's ESPN PRWR 27% (#1 DT) and 11 pressures / 4.5 sacks through 2026 beat Redmond's 4 pressures / 0.5 sacks; Redmond has the steadier two-year PFF (72.8 / 78.0) and 12 TFL in 2025, so narrow.",
+    "key_evidence_for_winner": [
+      "Alim McNeill (DET) alignment depth-chart interior snapshots 2025-26: 496 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; roster ACT (DL); injuries wk7 Questionable (Knee); wk17 Questionable (Abdomen); wk18 Out (Abdomen)",
+      "Alim McNeill 2026: Alim McNeill 2026: PFF DI 2026 overall 79 on 403 snaps (DI rank 7); PFR 2026 11 pressures (3 hurries, 4 QB hits, 3.5 sacks) in 6 games, 12 tackles, 0 missed; 7 g / 403 def snaps; 4.5 sacks, 9 QB hits, 5 TFL, 0 FF, 1 PD; 0 accepted penalties; PFR 2026 11 pressures (3 hurries, 4 QB hits, 3.5 sacks) in 6 games, 12 tackles, 0 missed; ESPN 2026 DT PRWR 27% (#1, 44/166, 85% snaps at DT); RSWR outside the published top 10",
+      "Alim McNeill 2025: Alim McNeill 2025: PFF DI 2025 overall 52.2 on 523 snaps (DI rank 89); PFR 2025 7 pressures (4 hurries, 2 QB knockdowns, 1 sacks), 14 tackles, 3 missed; 10 g / 524 def snaps; 1.0 sacks, 3 QB hits, 2 TFL, 1 FF, 1 PD; 2 accepted penalties; PFR 2025 7 pressures (4 hurries, 2 QB knockdowns, 1 sacks), 14 tackles, 3 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Jalen Redmond (MIN) alignment depth-chart interior snapshots 2025-26: 255 at DT/NT, 241 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; roster ACT (DL); injuries wk13 Questionable (Hip)",
+      "Jalen Redmond 2026: Jalen Redmond 2026: PFF DI 2026 overall 78 on 351 snaps (DI rank 10); PFR 2026 4 pressures (3 hurries, 0 QB hits, 0.5 sacks) in 3 games, 10 tackles, 0 missed; 7 g / 351 def snaps; 0.5 sacks, 1 QB hits, 2 TFL, 1 FF, 3 PD; 0 accepted penalties; PFR 2026 4 pressures (3 hurries, 0 QB hits, 0.5 sacks) in 3 games, 10 tackles, 0 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+      "Jalen Redmond 2025: Jalen Redmond 2025: PFF DI 2025 overall 72.8 on 793 snaps (DI rank 18); PFR 2025 11 pressures (2 hurries, 3 QB knockdowns, 6 sacks), 62 tackles, 4 missed; 17 g / 793 def snaps; 6.0 sacks, 8 QB hits, 12 TFL, 1 FF, 5 PD; 1 accepted penalties; PFR 2025 11 pressures (2 hurries, 3 QB knockdowns, 6 sacks), 62 tackles, 4 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
