@@ -1,0 +1,471 @@
+{
+  "audit_id": "FS_REAUDIT_RATE_10_A1",
+  "task_id": "FS_REAUDIT_RATE_10",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FS",
+  "player_id": "ext_00-0039660",
+  "players": [
+    "Thomas Harper"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "ratings": {
+    "SPD": 90,
+    "ACC": 92,
+    "AGI": 86,
+    "COD": 84,
+    "STR": 62,
+    "AWR": 72,
+    "PRC": 70,
+    "MCV": 80,
+    "ZCV": 76,
+    "PRS": 76,
+    "CTH": 70,
+    "JMP": 76,
+    "TAK": 80,
+    "POW": 72,
+    "PUR": 82,
+    "INJ": 64,
+    "STA": 80,
+    "TGH": 82
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "LOW",
+    "PRC": "LOW",
+    "MCV": "LOW",
+    "ZCV": "LOW",
+    "PRS": "LOW",
+    "CTH": "LOW",
+    "JMP": "LOW",
+    "TAK": "LOW",
+    "POW": "LOW",
+    "PUR": "LOW",
+    "INJ": "LOW",
+    "STA": "LOW",
+    "TGH": "LOW"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed; PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed; range from PD/tackles in 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF. Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed; PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed; range from PD/tackles in 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF. Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed; PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed; range from PD/tackles in 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF. Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed; PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed; range from PD/tackles in 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF. Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (press): PFF S 2025 overall 78 on 482 snaps (S rank 11; 285 coverage / 195 run-def snaps); PFF S 2026 overall 55.2 on 87 snaps (S rank None; 61 coverage / 22 run-def snaps); PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed. Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 0/0; PFF S 2026 overall 55.2 on 87 snaps (S rank None; 61 coverage / 22 run-def snaps). Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed; PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed; PFF S 2025 overall 78 on 482 snaps (S rank 11; 285 coverage / 195 run-def snaps); PFF S 2026 overall 55.2 on 87 snaps (S rank None; 61 coverage / 22 run-def snaps). Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Listed weakness area: availability (concussions, ankle; roster RES), coverage (194 yds on 18 targets in 2025)",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed; PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed; PFF S 2025 overall 78 on 482 snaps (S rank 11; 285 coverage / 195 run-def snaps); PFF S 2026 overall 55.2 on 87 snaps (S rank None; 61 coverage / 22 run-def snaps). Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Listed weakness area: availability (concussions, ankle; roster RES), coverage (194 yds on 18 targets in 2025)",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed; PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed; PFF S 2025 overall 78 on 482 snaps (S rank 11; 285 coverage / 195 run-def snaps); PFF S 2026 overall 55.2 on 87 snaps (S rank None; 61 coverage / 22 run-def snaps). Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Listed weakness area: availability (concussions, ankle; roster RES), coverage (194 yds on 18 targets in 2025)",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (press): PFF S 2025 overall 78 on 482 snaps (S rank 11; 285 coverage / 195 run-def snaps); PFF S 2026 overall 55.2 on 87 snaps (S rank None; 61 coverage / 22 run-def snaps); PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed. Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (ball skills): INT/PD: 10 g / 483 def snaps; 26 solo + 11 ast tackles, 1 TFL, 1 INT, 5 PD, 1 FF (2025); 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF (2026). Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (ball skills): INT/PD: 10 g / 483 def snaps; 26 solo + 11 ast tackles, 1 TFL, 1 INT, 5 PD, 1 FF (2025); 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF (2026). Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed; PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed. Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed; PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed. Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF S 2025 overall 78 on 482 snaps (S rank 11; 285 coverage / 195 run-def snaps); PFF S 2026 overall 55.2 on 87 snaps (S rank None; 61 coverage / 22 run-def snaps); TFL/tackles in 10 g / 483 def snaps; 26 solo + 11 ast tackles, 1 TFL, 1 INT, 5 PD, 1 FF / 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF. Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Thomas Harper injury reports: wk15 Out (Concussion); wk18 Out (Concussion); wk3 Out (Ankle); roster status RES; 10 g / 483 def snaps; 26 solo + 11 ast tackles, 1 TFL, 1 INT, 5 PD, 1 FF (2025), 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF (2026). Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Listed weakness area: availability (concussions, ankle; roster RES), coverage (194 yds on 18 targets in 2025)",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 10 g / 483 def snaps; 26 solo + 11 ast tackles, 1 TFL, 1 INT, 5 PD, 1 FF (2025), 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF (2026). Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 10 g / 483 def snaps; 26 solo + 11 ast tackles, 1 TFL, 1 INT, 5 PD, 1 FF (2025), 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF (2026). Style: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "SPD": {
+      "tier": "ELITE",
+      "claim": "movement: PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed; PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed; range from PD/tackles in 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "movement: PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed; PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed; range from PD/tackles in 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 75,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+  "style_profile": "Thomas Harper: Young free safety on reserve: PFF 78.0 on 482 snaps (2025) but 111.8 passer rating allowed; 87 snaps in 2026 before RES.",
+  "style_evidence": [
+    "Thomas Harper (DET) Thomas Harper 2026: PFF S 2026 overall 55.2 on 87 snaps (S rank None; 61 coverage / 22 run-def snaps); PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed; 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF; 0 accepted penalties",
+    "Thomas Harper 2025: PFF S 2025 overall 78 on 482 snaps (S rank 11; 285 coverage / 195 run-def snaps); PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed; 10 g / 483 def snaps; 26 solo + 11 ast tackles, 1 TFL, 1 INT, 5 PD, 1 FF; 0 accepted penalties",
+    "Thomas Harper role: snap-weighted 2025-26 depth-chart FS/SS shares FS 348 / SS 222 -> FS (SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one o...); roster position DB; Madden card FS (reference only)",
+    "Thomas Harper injury reports: wk15 Out (Concussion); wk18 Out (Concussion); wk3 Out (Ankle); roster status RES"
+  ],
+  "input_dossier": "FS_REAUDIT_BG_10_A1",
+  "weaknesses": [
+    "availability (concussions, ankle; roster RES)",
+    "coverage (194 yds on 18 targets in 2025)"
+  ],
+  "limitations": [
+    "PFF coverage/run-defense/tackling sub-grades and box/slot/deep alignment splits are paywalled; no public tracking data for safety speed or range; substitutes: PFF S overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports",
+    "limited 2026 sample (reserve/IR/PUP)"
+  ],
+  "role_assignment": "FS (snap-weighted 2025-26 depth-chart FS/SS shares FS 348 / SS 222 -> FS)",
+  "madden_reference": [
+    {
+      "player": "Thomas Harper",
+      "ovr": 70,
+      "madden_position": "FS",
+      "attributes": {
+        "SPD": 89,
+        "ACC": 94,
+        "AGI": 80,
+        "COD": 81,
+        "STR": 60,
+        "AWR": 65,
+        "PRC": 64,
+        "MCV": 73,
+        "ZCV": 71,
+        "PRS": 66,
+        "CTH": 57,
+        "JMP": 91,
+        "TAK": 68,
+        "POW": 55,
+        "PUR": 73,
+        "INJ": 77,
+        "STA": 89,
+        "TGH": 84
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 5,
+      "delta_attributes": {
+        "SPD": 1,
+        "ACC": -2,
+        "AGI": 6,
+        "COD": 3,
+        "STR": 2,
+        "AWR": 7,
+        "PRC": 6,
+        "MCV": 7,
+        "ZCV": 5,
+        "PRS": 10,
+        "CTH": 13,
+        "JMP": -15,
+        "TAK": 12,
+        "POW": 17,
+        "PUR": 9,
+        "INJ": -13,
+        "STA": -9,
+        "TGH": -2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 5,
+    "attribute_gaps_10plus": {
+      "PRS": 10,
+      "CTH": 13,
+      "JMP": -15,
+      "TAK": 12,
+      "POW": 17,
+      "INJ": -13
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u",
+  "style_similarity": [
+    {
+      "player": "Jalen Pitre",
+      "audit_id": "FS_REAUDIT_RATE_01_A1",
+      "corr": 0.695,
+      "mad": 6.8,
+      "too_similar": false
+    },
+    {
+      "player": "Minkah Fitzpatrick",
+      "audit_id": "FS_REAUDIT_RATE_02_A1",
+      "corr": 0.491,
+      "mad": 7.6,
+      "too_similar": false
+    },
+    {
+      "player": "Antonio Johnson",
+      "audit_id": "FS_REAUDIT_RATE_03_A1",
+      "corr": 0.538,
+      "mad": 6.8,
+      "too_similar": false
+    },
+    {
+      "player": "Julian Love",
+      "audit_id": "FS_REAUDIT_RATE_04_A1",
+      "corr": 0.625,
+      "mad": 5.6,
+      "too_similar": false
+    },
+    {
+      "player": "Xavier McKinney",
+      "audit_id": "FS_REAUDIT_RATE_05_A1",
+      "corr": 0.224,
+      "mad": 9,
+      "too_similar": false
+    },
+    {
+      "player": "Quentin Lake",
+      "audit_id": "FS_REAUDIT_RATE_06_A1",
+      "corr": 0.719,
+      "mad": 5.2,
+      "too_similar": false
+    },
+    {
+      "player": "Tykee Smith",
+      "audit_id": "FS_REAUDIT_RATE_07_A1",
+      "corr": 0.57,
+      "mad": 5.9,
+      "too_similar": false
+    },
+    {
+      "player": "Kevin Byard",
+      "audit_id": "FS_REAUDIT_RATE_08_A1",
+      "corr": 0.008,
+      "mad": 10,
+      "too_similar": false
+    },
+    {
+      "player": "Bryan Cook",
+      "audit_id": "FS_REAUDIT_RATE_09_A1",
+      "corr": 0.612,
+      "mad": 5.8,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
