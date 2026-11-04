@@ -1,0 +1,19 @@
+{
+ "kind": "ingame_validation_entry_template",
+ "note": "Copy one object into data/ingame-validation/<POS>.json `entries` (append only; never edit or delete). gap = in_game_ovr - our_ovr. In-game OVR is ground truth.",
+ "entry": {
+  "player": "Joe Burrow",
+  "position": "QB",
+  "source_audit_id": "QB_REAUDIT_RATE_01_A2",
+  "attributes_entered": { "SPD": 0, "ACC": 0, "THP": 0 },
+  "our_ovr": 90,
+  "estimated_ovr_precheck": 84,
+  "in_game_ovr": null,
+  "in_game_archetype": null,
+  "gap": null,
+  "madden_version": "Madden NFL 27 (roster/patch id)",
+  "entered_at": "2026-11-04T00:00:00-05:00",
+  "entered_by": "",
+  "notes": ""
+ }
+}

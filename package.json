@@ -42,7 +42,9 @@
     "reaudit:tiebreak": "tsx src/tiebreak.ts",
     "reaudit:lock": "tsx src/reaudit-lock.ts",
     "weekly:propose": "tsx src/weekly-update.ts propose",
-    "weekly:validate": "tsx src/weekly-update.ts validate"
+    "weekly:validate": "tsx src/weekly-update.ts validate",
+    "madden:ovr-check": "tsx src/madden-ovr-check.ts",
+    "ingame:scaffold": "tsx src/ingame-validation.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",
