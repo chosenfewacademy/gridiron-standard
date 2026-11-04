@@ -1,0 +1,365 @@
+# REDGE_REAUDIT_RATE_12 — Khalil Mack rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "REDGE_REAUDIT_RATE_12_A1",
+  "task_id": "REDGE_REAUDIT_RATE_12",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "player_id": "ext_00-0031040",
+  "players": [
+    "Khalil Mack"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 72,
+    "ACC": 74,
+    "AGI": 70,
+    "COD": 70,
+    "STR": 86,
+    "AWR": 92,
+    "PRC": 88,
+    "TAK": 82,
+    "POW": 84,
+    "BSH": 86,
+    "PMV": 88,
+    "FMV": 72,
+    "PUR": 74,
+    "INJ": 80,
+    "STA": 76,
+    "TGH": 88
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PMV": "MEDIUM",
+    "FMV": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 23 pressures (11 hurries, 6 QB knockdowns, 5.5 sacks), 32 tackles, 4 missed; PFR 2026 11 pressures (5 hurries, 3 QB hits, 3.0 sacks) in 5 games, 18 tackles, 1 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10. Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 23 pressures (11 hurries, 6 QB knockdowns, 5.5 sacks), 32 tackles, 4 missed; PFR 2026 11 pressures (5 hurries, 3 QB hits, 3.0 sacks) in 5 games, 18 tackles, 1 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10. Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 23 pressures (11 hurries, 6 QB knockdowns, 5.5 sacks), 32 tackles, 4 missed; PFR 2026 11 pressures (5 hurries, 3 QB hits, 3.0 sacks) in 5 games, 18 tackles, 1 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10. Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 23 pressures (11 hurries, 6 QB knockdowns, 5.5 sacks), 32 tackles, 4 missed; PFR 2026 11 pressures (5 hurries, 3 QB hits, 3.0 sacks) in 5 games, 18 tackles, 1 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10. Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF edge 2026 overall 74.2 on 311 snaps (167 pass-rush, 139 run-defense, 5 coverage); ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10. Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 0/0; PFF edge 2026 overall 74.2 on 311 snaps (167 pass-rush, 139 run-defense, 5 coverage). Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10; PFF edge 2025 overall 79.3 on 478 snaps (296 pass-rush, 167 run-defense, 15 coverage); PFF edge 2026 overall 74.2 on 311 snaps (167 pass-rush, 139 run-defense, 5 coverage); TFL in 12 g / 424 def snaps; 5.5 sacks, 11 QB hits, 6 TFL, 4 FF, 0 PD / 7 g / 311 def snaps; 3.0 sacks, 6 QB hits, 5 TFL, 0 FF, 0 PD. Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 23 pressures (11 hurries, 6 QB knockdowns, 5.5 sacks), 32 tackles, 4 missed; PFR 2026 11 pressures (5 hurries, 3 QB hits, 3.0 sacks) in 5 games, 18 tackles, 1 missed. Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 23 pressures (11 hurries, 6 QB knockdowns, 5.5 sacks), 32 tackles, 4 missed; PFR 2026 11 pressures (5 hurries, 3 QB hits, 3.0 sacks) in 5 games, 18 tackles, 1 missed. Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10; PFF edge 2025 overall 79.3 on 478 snaps (296 pass-rush, 167 run-defense, 15 coverage); PFF edge 2026 overall 74.2 on 311 snaps (167 pass-rush, 139 run-defense, 5 coverage); TFL in 12 g / 424 def snaps; 5.5 sacks, 11 QB hits, 6 TFL, 4 FF, 0 PD / 7 g / 311 def snaps; 3.0 sacks, 6 QB hits, 5 TFL, 0 FF, 0 PD. Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10; PFR 2025 23 pressures (11 hurries, 6 QB knockdowns, 5.5 sacks), 32 tackles, 4 missed; PFR 2026 11 pressures (5 hurries, 3 QB hits, 3.0 sacks) in 5 games, 18 tackles, 1 missed. Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "FMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10; PFR 2025 23 pressures (11 hurries, 6 QB knockdowns, 5.5 sacks), 32 tackles, 4 missed; PFR 2026 11 pressures (5 hurries, 3 QB hits, 3.0 sacks) in 5 games, 18 tackles, 1 missed. Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10; PFF edge 2025 overall 79.3 on 478 snaps (296 pass-rush, 167 run-defense, 15 coverage); PFF edge 2026 overall 74.2 on 311 snaps (167 pass-rush, 139 run-defense, 5 coverage); TFL in 12 g / 424 def snaps; 5.5 sacks, 11 QB hits, 6 TFL, 4 FF, 0 PD / 7 g / 311 def snaps; 3.0 sacks, 6 QB hits, 5 TFL, 0 FF, 0 PD. Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Khalil Mack injury reports: wk7 Questionable (Elbow); roster status ACT; 12 g / 424 def snaps; 5.5 sacks, 11 QB hits, 6 TFL, 4 FF, 0 PD (2025), 7 g / 311 def snaps; 3.0 sacks, 6 QB hits, 5 TFL, 0 FF, 0 PD (2026). Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated REDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 12 g / 424 def snaps; 5.5 sacks, 11 QB hits, 6 TFL, 4 FF, 0 PD (2025), 7 g / 311 def snaps; 3.0 sacks, 6 QB hits, 5 TFL, 0 FF, 0 PD (2026). Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Listed weakness area: age 35 / speed, bend",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 12 g / 424 def snaps; 5.5 sacks, 11 QB hits, 6 TFL, 4 FF, 0 PD (2025), 7 g / 311 def snaps; 3.0 sacks, 6 QB hits, 5 TFL, 0 FF, 0 PD (2026). Style: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+      "why_not_higher": "Listed weakness area: age 35 / speed, bend",
+      "why_not_lower": "Evidence keeps him above lower-rated REDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "discipline: penalties 2025/2026 0/0; PFF edge 2026 overall 74.2 on 311 snaps (167 pass-rush, 139 run-defense, 5 coverage)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 75,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+  "style_profile": "Khalil Mack: Age-35 power and IQ: PFF 79.3 / 74.2, 11 pressures and 3 sacks in 2026; still the best stack-and-shed in this group, burst gone - first-out.",
+  "style_evidence": [
+    "Khalil Mack (LAC) Khalil Mack 2026: PFF edge 2026 overall 74.2 on 311 snaps (167 pass-rush, 139 run-defense, 5 coverage); PFR 2026 11 pressures (5 hurries, 3 QB hits, 3.0 sacks) in 5 games, 18 tackles, 1 missed; 7 g / 311 def snaps; 3.0 sacks, 6 QB hits, 5 TFL, 0 FF, 0 PD; 0 accepted penalties; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+    "Khalil Mack 2025: PFF edge 2025 overall 79.3 on 478 snaps (296 pass-rush, 167 run-defense, 15 coverage); PFR 2025 23 pressures (11 hurries, 6 QB knockdowns, 5.5 sacks), 32 tackles, 4 missed; 12 g / 424 def snaps; 5.5 sacks, 11 QB hits, 6 TFL, 4 FF, 0 PD; 0 accepted penalties",
+    "Khalil Mack alignment: side snapshots 2025-26 left 0 / right 495 -> REDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position LB; Madden card REDG (reference only)",
+    "Khalil Mack injury reports: wk7 Questionable (Elbow); roster status ACT"
+  ],
+  "input_dossier": "REDGE_REAUDIT_BG_12_A1",
+  "weaknesses": [
+    "age 35 / speed",
+    "bend"
+  ],
+  "limitations": [
+    "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+  ],
+  "side_assignment": "REDGE (side snapshots 2025-26 left 0 / right 495 -> REDGE)",
+  "madden_reference": [
+    {
+      "player": "Khalil Mack",
+      "ovr": 86,
+      "madden_position": "REDG",
+      "attributes": {
+        "SPD": 84,
+        "ACC": 85,
+        "AGI": 84,
+        "COD": 69,
+        "STR": 87,
+        "AWR": 83,
+        "PRC": 85,
+        "TAK": 87,
+        "POW": 88,
+        "BSH": 90,
+        "PMV": 87,
+        "FMV": 84,
+        "PUR": 86,
+        "INJ": 92,
+        "STA": 87,
+        "TGH": 92
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -11,
+      "delta_attributes": {
+        "SPD": -12,
+        "ACC": -11,
+        "AGI": -14,
+        "COD": 1,
+        "STR": -1,
+        "AWR": 9,
+        "PRC": 3,
+        "TAK": -5,
+        "POW": -4,
+        "BSH": -4,
+        "PMV": 1,
+        "FMV": -12,
+        "PUR": -12,
+        "INJ": -12,
+        "STA": -11,
+        "TGH": -4
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 11,
+    "attribute_gaps_10plus": {
+      "SPD": -12,
+      "ACC": -11,
+      "AGI": -14,
+      "FMV": -12,
+      "PUR": -12,
+      "INJ": -12,
+      "STA": -11
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
