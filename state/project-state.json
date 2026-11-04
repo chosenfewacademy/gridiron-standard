@@ -13990,7 +13990,7 @@
         "position": "LS",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LS.reaudit.json",
       "baseline_file": null,
@@ -14027,18 +14027,23 @@
         "LS_REAUDIT_BG_09_A1",
         "LS_REAUDIT_BG_10_A1",
         "LS_REAUDIT_BG_11_A1",
-        "LS_REAUDIT_BG_12_A1"
+        "LS_REAUDIT_BG_12_A1",
+        "LS_REAUDIT_BG_13_A1"
       ],
       "current_stage": "background_analysis",
-      "current_task": "LS_REAUDIT_BG_12",
-      "updated_at": "2026-11-04T13:06:16.424Z",
+      "current_task": "LS_REAUDIT_BG_13",
+      "updated_at": "2026-11-04T13:06:17.284Z",
       "last_result": {
-        "task_id": "LS_REAUDIT_BG_12",
+        "task_id": "LS_REAUDIT_BG_13",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "LS_REAUDIT_BG_13",
+        "audit_id": "LS_REAUDIT_BG_13_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
