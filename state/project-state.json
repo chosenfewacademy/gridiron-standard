@@ -4341,7 +4341,7 @@
         "position": "LT",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/LT.reaudit.json",
       "baseline_file": "data/baselines/LT.json",
@@ -4408,7 +4408,8 @@
         "LT_REAUDIT_VARIANCE_AUDIT",
         "LT_REAUDIT_SCARCITY",
         "LT_REAUDIT_TIEBREAK_20",
-        "LT_REAUDIT_TIEBREAK_21"
+        "LT_REAUDIT_TIEBREAK_21",
+        "LT_REAUDIT_TIEBREAK_22"
       ],
       "audit_ids": [
         "LT_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -4477,7 +4478,7 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "LT_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T02:56:04.244Z",
+      "updated_at": "2026-11-04T02:56:04.506Z",
       "last_result": {
         "task_id": "LT_REAUDIT_TIEBREAK_22",
         "status": "FLAGGED",
@@ -4485,17 +4486,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "LT_REAUDIT_TIEBREAK_22",
-        "audit_id": "LT_REAUDIT_TIEBREAK_22_A1",
-        "pending": [
-          {
-            "task_id": "LT_REAUDIT_TIEBREAK_22",
-            "audit_id": "LT_REAUDIT_TIEBREAK_22_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -4995,6 +4986,14 @@
           "audit_id": "LT_REAUDIT_TIEBREAK_21_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T02:56:03Z",
+          "note": "Commissioner approval t45s413 (league ceiling check: tiebreaks for every LT flagged vs #10 Dawkins and first-out Johnson Jr.)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LT_REAUDIT_TIEBREAK_22",
+          "audit_id": "LT_REAUDIT_TIEBREAK_22_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T02:56:04Z",
           "note": "Commissioner approval t45s413 (league ceiling check: tiebreaks for every LT flagged vs #10 Dawkins and first-out Johnson Jr.)"
         }
       ]
