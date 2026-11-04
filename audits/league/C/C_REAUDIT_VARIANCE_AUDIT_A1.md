@@ -1,0 +1,630 @@
+# C_REAUDIT_VARIANCE_AUDIT (v1.1.2; authorized t46u/t50s441)
+
+```json
+{
+  "audit_id": "C_REAUDIT_VARIANCE_AUDIT_A1",
+  "task_id": "C_REAUDIT_VARIANCE_AUDIT",
+  "task_type": "variance_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "C",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Creed Humphrey",
+    "Zach Frazier",
+    "Aaron Brewer",
+    "Coleman Shelton",
+    "Tyler Linderbaum",
+    "Erik McCoy",
+    "Luke Wattenberg",
+    "Ryan Neuzil",
+    "Juice Scruggs",
+    "Jake Brendel",
+    "Cooper Beebe",
+    "Connor McGovern",
+    "Tanor Bortolini"
+  ],
+  "variance_gaps": [
+    {
+      "player": "Zach Frazier",
+      "attr": "RBF",
+      "madden": 93,
+      "ours": 82,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 73.8 (2025) / 79.5 (2026); pass/run-block snaps 2026 343/189",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 3 (2025) / 1 (2026); games 16 / 8; injuries {'2025': ['wk8 Questionable (Calf)']}"
+      ],
+      "basis": "ESPN RBWR + run share"
+    },
+    {
+      "player": "Zach Frazier",
+      "attr": "LBK",
+      "madden": 92,
+      "ours": 80,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 73.8 (2025) / 79.5 (2026); pass/run-block snaps 2026 343/189",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 3 (2025) / 1 (2026); games 16 / 8; injuries {'2025': ['wk8 Questionable (Calf)']}"
+      ],
+      "basis": "run share + RBWR"
+    },
+    {
+      "player": "Aaron Brewer",
+      "attr": "ACC",
+      "madden": 63,
+      "ours": 82,
+      "delta": 19,
+      "verdict": "ADJUST",
+      "key_stats": [
+        "PFF 87.3 (2025) / 69.4 (2026); pass/run-block snaps 2026 239/183",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 5 (2025) / 2 (2026); games 16 / 7; injuries {'2025': ['wk6 Questionable (Pectoral)', 'wk14 Questionable (Ankle)', 'wk17 Questionable (Neck)', 'wk18 Questionable (Neck)']}"
+      ],
+      "basis": "movement (no tracking data public); LOW confidence",
+      "proposed_revision": {
+        "attr": "ACC",
+        "from": 82,
+        "to": 72,
+        "why": "no public tracking data; a LOW-confidence movement trait cannot carry +19 - reach/climb wins in 2025 (PFF 87.3) support above-average burst, not 82",
+        "task_id": "C_REAUDIT_RATE_03",
+        "status": "PROPOSED_NOT_APPROVED"
+      }
+    },
+    {
+      "player": "Aaron Brewer",
+      "attr": "AGI",
+      "madden": 64,
+      "ours": 74,
+      "delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 87.3 (2025) / 69.4 (2026); pass/run-block snaps 2026 239/183",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 5 (2025) / 2 (2026); games 16 / 7; injuries {'2025': ['wk6 Questionable (Pectoral)', 'wk14 Questionable (Ankle)', 'wk17 Questionable (Neck)', 'wk18 Questionable (Neck)']}"
+      ],
+      "basis": "movement (no tracking data public); LOW confidence"
+    },
+    {
+      "player": "Aaron Brewer",
+      "attr": "COD",
+      "madden": 55,
+      "ours": 68,
+      "delta": 13,
+      "verdict": "ADJUST",
+      "key_stats": [
+        "PFF 87.3 (2025) / 69.4 (2026); pass/run-block snaps 2026 239/183",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 5 (2025) / 2 (2026); games 16 / 7; injuries {'2025': ['wk6 Questionable (Pectoral)', 'wk14 Questionable (Ankle)', 'wk17 Questionable (Neck)', 'wk18 Questionable (Neck)']}"
+      ],
+      "basis": "movement (no tracking data public); LOW confidence",
+      "proposed_revision": {
+        "attr": "COD",
+        "from": 68,
+        "to": 62,
+        "why": "no tracking data; +13 on a LOW-confidence movement trait trimmed to +7",
+        "task_id": "C_REAUDIT_RATE_03",
+        "status": "PROPOSED_NOT_APPROVED"
+      }
+    },
+    {
+      "player": "Aaron Brewer",
+      "attr": "AWR",
+      "madden": 95,
+      "ours": 80,
+      "delta": -15,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 87.3 (2025) / 69.4 (2026); pass/run-block snaps 2026 239/183",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 5 (2025) / 2 (2026); games 16 / 7; injuries {'2025': ['wk6 Questionable (Pectoral)', 'wk14 Questionable (Ankle)', 'wk17 Questionable (Neck)', 'wk18 Questionable (Neck)']}"
+      ],
+      "basis": "penalty count (discipline) and PFF overall"
+    },
+    {
+      "player": "Aaron Brewer",
+      "attr": "RBP",
+      "madden": 92,
+      "ours": 80,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 87.3 (2025) / 69.4 (2026); pass/run-block snaps 2026 239/183",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 5 (2025) / 2 (2026); games 16 / 7; injuries {'2025': ['wk6 Questionable (Pectoral)', 'wk14 Questionable (Ankle)', 'wk17 Questionable (Neck)', 'wk18 Questionable (Neck)']}"
+      ],
+      "basis": "ESPN RBWR + run share"
+    },
+    {
+      "player": "Coleman Shelton",
+      "attr": "PBP",
+      "madden": 72,
+      "ours": 82,
+      "delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 70.9 (2025) / 76.9 (2026); pass/run-block snaps 2026 348/211",
+        "ESPN 2026: IOL RBWR 77%",
+        "penalties 3 (2025) / 1 (2026); games 17 / 8; injuries {'2026': ['wk8 Questionable (Hip)']}"
+      ],
+      "basis": "PFF overall + ESPN PBWR + pass-pro share"
+    },
+    {
+      "player": "Tyler Linderbaum",
+      "attr": "AGI",
+      "madden": 69,
+      "ours": 80,
+      "delta": 11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 79.8 (2025) / 64.0 (2026); pass/run-block snaps 2026 338/204",
+        "ESPN 2026: IOL PBWR 94%",
+        "penalties 3 (2025) / 5 (2026); games 17 / 8; injuries none"
+      ],
+      "basis": "movement (no tracking data public); LOW confidence"
+    },
+    {
+      "player": "Tyler Linderbaum",
+      "attr": "COD",
+      "madden": 59,
+      "ours": 72,
+      "delta": 13,
+      "verdict": "ADJUST",
+      "key_stats": [
+        "PFF 79.8 (2025) / 64.0 (2026); pass/run-block snaps 2026 338/204",
+        "ESPN 2026: IOL PBWR 94%",
+        "penalties 3 (2025) / 5 (2026); games 17 / 8; injuries none"
+      ],
+      "basis": "movement (no tracking data public); LOW confidence",
+      "proposed_revision": {
+        "attr": "COD",
+        "from": 72,
+        "to": 64,
+        "why": "no tracking data; second-level range is real (PBWR 94%) but +13 COD is over-reach",
+        "task_id": "C_REAUDIT_RATE_05",
+        "status": "PROPOSED_NOT_APPROVED"
+      }
+    },
+    {
+      "player": "Tyler Linderbaum",
+      "attr": "AWR",
+      "madden": 94,
+      "ours": 78,
+      "delta": -16,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 79.8 (2025) / 64.0 (2026); pass/run-block snaps 2026 338/204",
+        "ESPN 2026: IOL PBWR 94%",
+        "penalties 3 (2025) / 5 (2026); games 17 / 8; injuries none"
+      ],
+      "basis": "penalty count (discipline) and PFF overall"
+    },
+    {
+      "player": "Tyler Linderbaum",
+      "attr": "RBK",
+      "madden": 91,
+      "ours": 80,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 79.8 (2025) / 64.0 (2026); pass/run-block snaps 2026 338/204",
+        "ESPN 2026: IOL PBWR 94%",
+        "penalties 3 (2025) / 5 (2026); games 17 / 8; injuries none"
+      ],
+      "basis": "PFF overall + ESPN RBWR + run share"
+    },
+    {
+      "player": "Tyler Linderbaum",
+      "attr": "RBP",
+      "madden": 88,
+      "ours": 74,
+      "delta": -14,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 79.8 (2025) / 64.0 (2026); pass/run-block snaps 2026 338/204",
+        "ESPN 2026: IOL PBWR 94%",
+        "penalties 3 (2025) / 5 (2026); games 17 / 8; injuries none"
+      ],
+      "basis": "ESPN RBWR + run share"
+    },
+    {
+      "player": "Erik McCoy",
+      "attr": "INJ",
+      "madden": 86,
+      "ours": 72,
+      "delta": -14,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 67.9 (2025) / 72.6 (2026); pass/run-block snaps 2026 316/162",
+        "ESPN 2026: IOL PBWR 94%, IOL RBWR 76%",
+        "penalties 2 (2025) / 0 (2026); games 7 / 7; injuries none"
+      ],
+      "basis": "availability: injury reports and games missed"
+    },
+    {
+      "player": "Luke Wattenberg",
+      "attr": "TGH",
+      "madden": 69,
+      "ours": 87,
+      "delta": 18,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 69.7 (2025) / 72.8 (2026); pass/run-block snaps 2026 296/196",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 5 (2025) / 2 (2026); games 15 / 8; injuries {'2025': ['wk17 Out (Shoulder)', 'wk21 Questionable (Shoulder)']}"
+      ],
+      "basis": "snaps/games played through injury reports"
+    },
+    {
+      "player": "Ryan Neuzil",
+      "attr": "AWR",
+      "madden": 95,
+      "ours": 82,
+      "delta": -13,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 77.4 (2025) / 65.3 (2026); pass/run-block snaps 2026 268/228",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 3 (2025) / 1 (2026); games 17 / 8; injuries none"
+      ],
+      "basis": "penalty count (discipline) and PFF overall"
+    },
+    {
+      "player": "Ryan Neuzil",
+      "attr": "RBP",
+      "madden": 89,
+      "ours": 78,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 77.4 (2025) / 65.3 (2026); pass/run-block snaps 2026 268/228",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 3 (2025) / 1 (2026); games 17 / 8; injuries none"
+      ],
+      "basis": "ESPN RBWR + run share"
+    },
+    {
+      "player": "Juice Scruggs",
+      "attr": "AGI",
+      "madden": 60,
+      "ours": 70,
+      "delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF None (2025) / 75.1 (2026); pass/run-block snaps 2026 231/160",
+        "ESPN 2026: IOL PBWR 93%",
+        "penalties 3 (2025) / 2 (2026); games 10 / 6; injuries none"
+      ],
+      "basis": "movement (no tracking data public); LOW confidence"
+    },
+    {
+      "player": "Juice Scruggs",
+      "attr": "PBK",
+      "madden": 78,
+      "ours": 88,
+      "delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF None (2025) / 75.1 (2026); pass/run-block snaps 2026 231/160",
+        "ESPN 2026: IOL PBWR 93%",
+        "penalties 3 (2025) / 2 (2026); games 10 / 6; injuries none"
+      ],
+      "basis": "PFF overall + ESPN PBWR"
+    },
+    {
+      "player": "Juice Scruggs",
+      "attr": "PBF",
+      "madden": 77,
+      "ours": 88,
+      "delta": 11,
+      "verdict": "ADJUST",
+      "key_stats": [
+        "PFF None (2025) / 75.1 (2026); pass/run-block snaps 2026 231/160",
+        "ESPN 2026: IOL PBWR 93%",
+        "penalties 3 (2025) / 2 (2026); games 10 / 6; injuries none"
+      ],
+      "basis": "ESPN PBWR + PFF overall",
+      "proposed_revision": {
+        "attr": "PBF",
+        "from": 88,
+        "to": 84,
+        "why": "PBWR 93% and PFF 75.1 on only 391 snaps with no 2025 grade cannot carry +11",
+        "task_id": "C_REAUDIT_RATE_09",
+        "status": "PROPOSED_NOT_APPROVED"
+      }
+    },
+    {
+      "player": "Juice Scruggs",
+      "attr": "IBL",
+      "madden": 86,
+      "ours": 76,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF None (2025) / 75.1 (2026); pass/run-block snaps 2026 231/160",
+        "ESPN 2026: IOL PBWR 93%",
+        "penalties 3 (2025) / 2 (2026); games 10 / 6; injuries none"
+      ],
+      "basis": "ESPN RBWR + PFF overall"
+    },
+    {
+      "player": "Cooper Beebe",
+      "attr": "INJ",
+      "madden": 90,
+      "ours": 76,
+      "delta": -14,
+      "verdict": "ADJUST",
+      "key_stats": [
+        "PFF 67.8 (2025) / 69.1 (2026); pass/run-block snaps 2026 357/188",
+        "ESPN 2026: IOL PBWR 92%",
+        "penalties 1 (2025) / 0 (2026); games 11 / 8; injuries {'2025': ['wk8 Questionable (Ankle)', 'wk9 Questionable (Ankle)']}"
+      ],
+      "basis": "availability: injury reports and games missed",
+      "proposed_revision": {
+        "attr": "INJ",
+        "from": 76,
+        "to": 80,
+        "why": "11 games in 2025 (ankle) but 8/8 in 2026 and no 2026 designation; 76 over-weights one season",
+        "task_id": "C_REAUDIT_RATE_11",
+        "status": "PROPOSED_NOT_APPROVED"
+      }
+    },
+    {
+      "player": "Cooper Beebe",
+      "attr": "PBP",
+      "madden": 76,
+      "ours": 87,
+      "delta": 11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 67.8 (2025) / 69.1 (2026); pass/run-block snaps 2026 357/188",
+        "ESPN 2026: IOL PBWR 92%",
+        "penalties 1 (2025) / 0 (2026); games 11 / 8; injuries {'2025': ['wk8 Questionable (Ankle)', 'wk9 Questionable (Ankle)']}"
+      ],
+      "basis": "PFF overall + ESPN PBWR + pass-pro share"
+    },
+    {
+      "player": "Cooper Beebe",
+      "attr": "RBF",
+      "madden": 85,
+      "ours": 72,
+      "delta": -13,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 67.8 (2025) / 69.1 (2026); pass/run-block snaps 2026 357/188",
+        "ESPN 2026: IOL PBWR 92%",
+        "penalties 1 (2025) / 0 (2026); games 11 / 8; injuries {'2025': ['wk8 Questionable (Ankle)', 'wk9 Questionable (Ankle)']}"
+      ],
+      "basis": "ESPN RBWR + run share"
+    },
+    {
+      "player": "Cooper Beebe",
+      "attr": "LBK",
+      "madden": 84,
+      "ours": 74,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 67.8 (2025) / 69.1 (2026); pass/run-block snaps 2026 357/188",
+        "ESPN 2026: IOL PBWR 92%",
+        "penalties 1 (2025) / 0 (2026); games 11 / 8; injuries {'2025': ['wk8 Questionable (Ankle)', 'wk9 Questionable (Ankle)']}"
+      ],
+      "basis": "run share + RBWR"
+    },
+    {
+      "player": "Connor McGovern",
+      "attr": "AWR",
+      "madden": 92,
+      "ours": 78,
+      "delta": -14,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 70.9 (2025) / 66.0 (2026); pass/run-block snaps 2026 265/200",
+        "ESPN 2026: IOL PBWR 91%, IOL RBWR 80%",
+        "penalties 3 (2025) / 1 (2026); games 16 / 7; injuries none"
+      ],
+      "basis": "penalty count (discipline) and PFF overall"
+    },
+    {
+      "player": "Connor McGovern",
+      "attr": "PBF",
+      "madden": 84,
+      "ours": 68,
+      "delta": -16,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 70.9 (2025) / 66.0 (2026); pass/run-block snaps 2026 265/200",
+        "ESPN 2026: IOL PBWR 91%, IOL RBWR 80%",
+        "penalties 3 (2025) / 1 (2026); games 16 / 7; injuries none"
+      ],
+      "basis": "ESPN PBWR + PFF overall"
+    },
+    {
+      "player": "Connor McGovern",
+      "attr": "RBP",
+      "madden": 81,
+      "ours": 91,
+      "delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 70.9 (2025) / 66.0 (2026); pass/run-block snaps 2026 265/200",
+        "ESPN 2026: IOL PBWR 91%, IOL RBWR 80%",
+        "penalties 3 (2025) / 1 (2026); games 16 / 7; injuries none"
+      ],
+      "basis": "ESPN RBWR + run share"
+    },
+    {
+      "player": "Tanor Bortolini",
+      "attr": "OVR",
+      "madden": 84,
+      "ours": 72,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 82.6 (2025) / 48.6 (2026); pass/run-block snaps 2026 312/212",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 2 (2025) / 6 (2026); games 16 / 8; injuries {'2025': ['wk17 Out (Concussion)']}",
+        "approved H2H/tiebreak chain (6 head-to-heads + 6 tiebreaks) sets the order"
+      ],
+      "basis": "OVR follows the approved head-to-head chain"
+    },
+    {
+      "player": "Tanor Bortolini",
+      "attr": "STR",
+      "madden": 88,
+      "ours": 76,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 82.6 (2025) / 48.6 (2026); pass/run-block snaps 2026 312/212",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 2 (2025) / 6 (2026); games 16 / 8; injuries {'2025': ['wk17 Out (Concussion)']}"
+      ],
+      "basis": "anchor/power profile from PFF + ESPN"
+    },
+    {
+      "player": "Tanor Bortolini",
+      "attr": "AWR",
+      "madden": 90,
+      "ours": 70,
+      "delta": -20,
+      "verdict": "ADJUST",
+      "key_stats": [
+        "PFF 82.6 (2025) / 48.6 (2026); pass/run-block snaps 2026 312/212",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 2 (2025) / 6 (2026); games 16 / 8; injuries {'2025': ['wk17 Out (Concussion)']}"
+      ],
+      "basis": "penalty count (discipline) and PFF overall",
+      "proposed_revision": {
+        "attr": "AWR",
+        "from": 70,
+        "to": 76,
+        "why": "6 penalties in 2026 but only 2 in 2025 on 937 snaps; 70 over-weights one half-season",
+        "task_id": "C_REAUDIT_RATE_13",
+        "status": "PROPOSED_NOT_APPROVED"
+      }
+    },
+    {
+      "player": "Tanor Bortolini",
+      "attr": "RBK",
+      "madden": 89,
+      "ours": 76,
+      "delta": -13,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 82.6 (2025) / 48.6 (2026); pass/run-block snaps 2026 312/212",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 2 (2025) / 6 (2026); games 16 / 8; injuries {'2025': ['wk17 Out (Concussion)']}"
+      ],
+      "basis": "PFF overall + ESPN RBWR + run share"
+    },
+    {
+      "player": "Tanor Bortolini",
+      "attr": "RBP",
+      "madden": 88,
+      "ours": 70,
+      "delta": -18,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 82.6 (2025) / 48.6 (2026); pass/run-block snaps 2026 312/212",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 2 (2025) / 6 (2026); games 16 / 8; injuries {'2025': ['wk17 Out (Concussion)']}"
+      ],
+      "basis": "ESPN RBWR + run share"
+    },
+    {
+      "player": "Tanor Bortolini",
+      "attr": "IBL",
+      "madden": 86,
+      "ours": 72,
+      "delta": -14,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 82.6 (2025) / 48.6 (2026); pass/run-block snaps 2026 312/212",
+        "ESPN 2026: outside ESPN IOL top-20 PBWR / top-10 RBWR",
+        "penalties 2 (2025) / 6 (2026); games 16 / 8; injuries {'2025': ['wk17 Out (Concussion)']}"
+      ],
+      "basis": "ESPN RBWR + PFF overall"
+    }
+  ],
+  "madden_used_as_evidence": false,
+  "madden_order_verified": false,
+  "variance_threshold": 10,
+  "metrics_used": [
+    "PFF C overall grades 2025-26",
+    "PFF pass-block/run-block snap counts (sub-grades, pressures and sacks allowed paywalled)",
+    "ESPN IOL PBWR/RBWR 2026 (top-20/top-10 lists)",
+    "accepted penalties (nflverse pbp)",
+    "games/snaps",
+    "injury reports and roster status",
+    "depth-chart C snapshots"
+  ],
+  "evidence_fixes_applied_before_audit": [],
+  "drafted_fixes_pending_review": [
+    {
+      "player": "Aaron Brewer",
+      "attr": "ACC",
+      "from": 82,
+      "to": 72,
+      "why": "no public tracking data; a LOW-confidence movement trait cannot carry +19 - reach/climb wins in 2025 (PFF 87.3) support above-average burst, not 82",
+      "task_id": "C_REAUDIT_RATE_03",
+      "status": "PROPOSED_NOT_APPROVED"
+    },
+    {
+      "player": "Aaron Brewer",
+      "attr": "COD",
+      "from": 68,
+      "to": 62,
+      "why": "no tracking data; +13 on a LOW-confidence movement trait trimmed to +7",
+      "task_id": "C_REAUDIT_RATE_03",
+      "status": "PROPOSED_NOT_APPROVED"
+    },
+    {
+      "player": "Tyler Linderbaum",
+      "attr": "COD",
+      "from": 72,
+      "to": 64,
+      "why": "no tracking data; second-level range is real (PBWR 94%) but +13 COD is over-reach",
+      "task_id": "C_REAUDIT_RATE_05",
+      "status": "PROPOSED_NOT_APPROVED"
+    },
+    {
+      "player": "Juice Scruggs",
+      "attr": "PBF",
+      "from": 88,
+      "to": 84,
+      "why": "PBWR 93% and PFF 75.1 on only 391 snaps with no 2025 grade cannot carry +11",
+      "task_id": "C_REAUDIT_RATE_09",
+      "status": "PROPOSED_NOT_APPROVED"
+    },
+    {
+      "player": "Cooper Beebe",
+      "attr": "INJ",
+      "from": 76,
+      "to": 80,
+      "why": "11 games in 2025 (ankle) but 8/8 in 2026 and no 2026 designation; 76 over-weights one season",
+      "task_id": "C_REAUDIT_RATE_11",
+      "status": "PROPOSED_NOT_APPROVED"
+    },
+    {
+      "player": "Tanor Bortolini",
+      "attr": "AWR",
+      "from": 70,
+      "to": 76,
+      "why": "6 penalties in 2026 but only 2 in 2025 on 937 snaps; 70 over-weights one half-season",
+      "task_id": "C_REAUDIT_RATE_13",
+      "status": "PROPOSED_NOT_APPROVED"
+    }
+  ],
+  "summary": "Every overall and attribute rating 10+ from Madden 27 audited (t46u/t50s441): 34 gaps (22 below Madden, 12 above). 28 SUPPORTED on C evidence; 6 ADJUST with drafted add-only revisions NOT approved or applied: Aaron Brewer ACC 82->72; Aaron Brewer COD 68->62; Tyler Linderbaum COD 72->64; Juice Scruggs PBF 88->84; Cooper Beebe INJ 76->80; Tanor Bortolini AWR 70->76. 1 OVR gaps: Tanor Bortolini -12. Overalls unchanged by the drafts. Madden is reference only.",
+  "major_flags": [
+    "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false
+}
+```
