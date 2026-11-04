@@ -3194,7 +3194,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.json",
@@ -3287,7 +3287,8 @@
         "TE_REAUDIT_TIEBREAK_42",
         "TE_REAUDIT_TIEBREAK_43",
         "TE_REAUDIT_TIEBREAK_44",
-        "TE_REAUDIT_TIEBREAK_45"
+        "TE_REAUDIT_TIEBREAK_45",
+        "TE_REAUDIT_TIEBREAK_46"
       ],
       "audit_ids": [
         "TE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -3389,7 +3390,7 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "TE_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T00:18:51.852Z",
+      "updated_at": "2026-11-04T00:18:52.090Z",
       "last_result": {
         "task_id": "TE_REAUDIT_TIEBREAK_46",
         "status": "FLAGGED",
@@ -3397,17 +3398,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "TE_REAUDIT_TIEBREAK_46",
-        "audit_id": "TE_REAUDIT_TIEBREAK_46_A1",
-        "pending": [
-          {
-            "task_id": "TE_REAUDIT_TIEBREAK_46",
-            "audit_id": "TE_REAUDIT_TIEBREAK_46_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -4176,6 +4167,14 @@
           "decision": "APPROVED",
           "task_id": "TE_REAUDIT_TIEBREAK_45",
           "audit_id": "TE_REAUDIT_TIEBREAK_45_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T00:18:51Z",
+          "note": "Commissioner approval t45s389 (league ceiling check: tiebreaks for every TE flagged vs #10 Kraft and first-out Likely)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_46",
+          "audit_id": "TE_REAUDIT_TIEBREAK_46_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T00:18:51Z",
           "note": "Commissioner approval t45s389 (league ceiling check: tiebreaks for every TE flagged vs #10 Kraft and first-out Likely)"
