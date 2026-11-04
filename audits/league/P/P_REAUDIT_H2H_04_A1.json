@@ -1,0 +1,37 @@
+{
+  "audit_id": "P_REAUDIT_H2H_04_A1",
+  "task_id": "P_REAUDIT_H2H_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "P",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Austin McNamara",
+    "Corliss Waitman"
+  ],
+  "pair_result": {
+    "winner": "Austin McNamara",
+    "loser": "Corliss Waitman",
+    "provisional_order_holds": true,
+    "reasoning": "Austin McNamara posted PFF 90.3 (P rank 2), 32 inside-20 and +6.8 EPA on 71 punts in 2025; Corliss Waitman was 70.2 / -2.2 EPA in 2025 before a better 2026 (net 44.1, +5.4 EPA vs McNamara's 41.2 / -5.8). The fuller 2025 body of work keeps McNamara ahead.",
+    "key_evidence_for_winner": [
+      "Austin McNamara (NYJ) role punter (punt attempts in nflverse pbp); roster position P; roster ACT (P); injuries no injury designation 2025-26",
+      "Austin McNamara 2026: PFF P 2026 overall 70.7 (P rank 16); 2026 8 games punting; 1 accepted penalties; 2026 31 punts, gross 47.3, net 41.2, inside-20 11 (35.5%), 2 TB, 10 fair catches, 11 returned for 150 yds, 0 blocked, long 62; punt EPA -5.8 (-0.187/punt)",
+      "Austin McNamara 2025: PFF P 2025 overall 90.3 (P rank 2); 2025 17 games punting; 2 accepted penalties; 2025 71 punts, gross 46.7, net 43.2, inside-20 32 (45.1%), 6 TB, 25 fair catches, 21 returned for 133 yds, 0 blocked, long 72; punt EPA +6.8 (+0.096/punt)"
+    ],
+    "key_evidence_for_loser": [
+      "Corliss Waitman (SF) role punter (punt attempts in nflverse pbp); roster position P; roster ACT (P); injuries no injury designation 2025-26",
+      "Corliss Waitman 2026: PFF P 2026 overall 75.7 (P rank 11); 2026 7 games punting; 0 accepted penalties; 2026 21 punts, gross 46.9, net 44.1, inside-20 10 (47.6%), 1 TB, 10 fair catches, 5 returned for 38 yds, 0 blocked, long 61; punt EPA +5.4 (+0.259/punt)",
+      "Corliss Waitman 2025: PFF P 2025 overall 70.2 (P rank 18); 2025 17 games punting; 0 accepted penalties; 2025 62 punts, gross 45.5, net 41.7, inside-20 26 (41.9%), 3 TB, 22 fair catches, 25 returned for 175 yds, 0 blocked, long 67; punt EPA -2.2 (-0.035/punt)"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
