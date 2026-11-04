@@ -1,0 +1,236 @@
+# LS_REAUDIT_RATE_06 — Andrew DePaola rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "LS_REAUDIT_RATE_06_A1",
+  "task_id": "LS_REAUDIT_RATE_06",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LS",
+  "player_id": "ext_00-0029714",
+  "players": [
+    "Andrew DePaola"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "AWR": 86,
+    "STR": 72,
+    "RBK": 64,
+    "PBK": 64,
+    "SPD": 65,
+    "TAK": 57,
+    "INJ": 89,
+    "STA": 65,
+    "TGH": 73
+  },
+  "trait_confidence": {
+    "AWR": "MEDIUM",
+    "STR": "LOW",
+    "RBK": "LOW",
+    "PBK": "LOW",
+    "SPD": "LOW",
+    "TAK": "LOW",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "AWR": {
+      "basis": "Judgment (snapping): 2025 snaps on 35 FG attempts (33 made), 31 XP, 65 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps; 2025 17 g / 133 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 12.5 (rank 6); 2026 snaps on 20 FG attempts (18 made), 10 XP, 32 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps; 2026 7 g / 61 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -0.6 (rank 18). Style: Veteran with 0 aborted snaps: unit points 12.5 in 2025, FG units 33/35 and 18/20.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (protection): 2025 snaps on 35 FG attempts (33 made), 31 XP, 65 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps; 2026 snaps on 20 FG attempts (18 made), 10 XP, 32 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps (blocks on his snaps are the only public protection proxy). Style: Veteran with 0 aborted snaps: unit points 12.5 in 2025, FG units 33/35 and 18/20.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (protection): 2025 snaps on 35 FG attempts (33 made), 31 XP, 65 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps; 2026 snaps on 20 FG attempts (18 made), 10 XP, 32 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps (blocks on his snaps are the only public protection proxy). Style: Veteran with 0 aborted snaps: unit points 12.5 in 2025, FG units 33/35 and 18/20.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (protection): 2025 snaps on 35 FG attempts (33 made), 31 XP, 65 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps; 2026 snaps on 20 FG attempts (18 made), 10 XP, 32 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps (blocks on his snaps are the only public protection proxy). Style: Veteran with 0 aborted snaps: unit points 12.5 in 2025, FG units 33/35 and 18/20.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (coverage): 2025 17 g / 133 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 12.5 (rank 6); 2026 7 g / 61 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -0.6 (rank 18). Style: Veteran with 0 aborted snaps: unit points 12.5 in 2025, FG units 33/35 and 18/20.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (coverage): 2025 17 g / 133 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 12.5 (rank 6); 2026 7 g / 61 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -0.6 (rank 18). Style: Veteran with 0 aborted snaps: unit points 12.5 in 2025, FG units 33/35 and 18/20.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Andrew DePaola injury reports: no injury designation 2025-26; roster status ACT; 2025 17 g / 133 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 12.5 (rank 6); 2026 7 g / 61 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -0.6 (rank 18). Style: Veteran with 0 aborted snaps: unit points 12.5 in 2025, FG units 33/35 and 18/20.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 2025 17 g / 133 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 12.5 (rank 6); 2026 7 g / 61 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -0.6 (rank 18). Style: Veteran with 0 aborted snaps: unit points 12.5 in 2025, FG units 33/35 and 18/20.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 2025 17 g / 133 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 12.5 (rank 6); 2026 7 g / 61 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -0.6 (rank 18). Style: Veteran with 0 aborted snaps: unit points 12.5 in 2025, FG units 33/35 and 18/20.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 71,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Veteran with 0 aborted snaps: unit points 12.5 in 2025, FG units 33/35 and 18/20.",
+  "style_profile": "Andrew DePaola: Veteran with 0 aborted snaps: unit points 12.5 in 2025, FG units 33/35 and 18/20.",
+  "style_evidence": [
+    "Andrew DePaola (MIN) Andrew DePaola 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 7 g / 61 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -0.6 (rank 18); 0 accepted penalties",
+    "Andrew DePaola 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 133 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 12.5 (rank 6); 0 accepted penalties",
+    "Andrew DePaola role: long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS (LONG SNAPPER ROLE CONVENTION (t46u): rated as LS = nflverse roster position LS with 2025-26 special-teams snaps; matched...); roster position LS; Madden card LS (reference only)",
+    "Andrew DePaola injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "LS_REAUDIT_BG_06_A1",
+  "weaknesses": [
+    "1 block on his snaps in 2026",
+    "2026 unit points -0.6"
+  ],
+  "limitations": [
+    "THIN DATA: no public PFF long-snapper grade and no public snap-accuracy charting; substitutes: aborted/bad snaps parsed from nflverse pbp text, blocks on his snaps, FG make rate on his snaps, FootballKickingStats unit points (whole-unit credit), coverage tackles, penalties, availability"
+  ],
+  "role_assignment": "LS (long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS)",
+  "madden_reference": [
+    {
+      "player": "Andrew DePaola",
+      "ovr": 80,
+      "madden_position": "LS",
+      "attributes": {
+        "AWR": 70,
+        "STR": 75,
+        "RBK": 69,
+        "PBK": 58,
+        "SPD": 74,
+        "TAK": 62,
+        "INJ": 90,
+        "STA": 68,
+        "TGH": 72
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -9,
+      "delta_attributes": {
+        "AWR": 16,
+        "STR": -3,
+        "RBK": -5,
+        "PBK": 6,
+        "SPD": -9,
+        "TAK": -5,
+        "INJ": -1,
+        "STA": -3,
+        "TGH": 1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 9,
+    "attribute_gaps_10plus": {
+      "AWR": 16
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
