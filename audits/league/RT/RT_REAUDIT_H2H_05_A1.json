@@ -1,0 +1,37 @@
+{
+  "audit_id": "RT_REAUDIT_H2H_05_A1",
+  "task_id": "RT_REAUDIT_H2H_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Spencer Brown",
+    "Jermaine Eluemunor"
+  ],
+  "pair_result": {
+    "winner": "Spencer Brown",
+    "loser": "Jermaine Eluemunor",
+    "provisional_order_holds": true,
+    "reasoning": "Brown's PFF 77.0 (987 snaps) / 70.6 beats Eluemunor's 63.9 (1,088) / 72.1 on two-year weight, with far fewer penalties (5 vs 16); Eluemunor's PBWR 91% and availability edge are not enough. Order holds.",
+    "key_evidence_for_winner": [
+      "Spencer Brown (BUF) ESPN 2026 win rates (thru Wk 8): OT PBWR 88%; depth-chart side 2026 {'RT': 226}; roster INA",
+      "Spencer Brown 2026: PFF 70.6 (rank 25; 199 pass-block/141 run-block of 340 snaps); 6 g/341 snaps; penalties 1; injuries ['wk8 Questionable (Back)']",
+      "Spencer Brown 2025: PFF 77 (rank 22; 578 pass-block/409 run-block of 987 snaps); 14 g/846 snaps; penalties 4; injuries ['wk4 Questionable (Calf)', 'wk5 Questionable (Calf)', 'wk13 Out (Shoulder)', 'wk14 Questionable (Shoulder)']"
+    ],
+    "key_evidence_for_loser": [
+      "Jermaine Eluemunor (NYG) ESPN 2026 win rates (thru Wk 8): OT PBWR 91%; depth-chart side 2026 {'RT': 226}; roster ACT",
+      "Jermaine Eluemunor 2026: PFF 72.1 (rank 20; 193 pass-block/175 run-block of 368 snaps); 6 g/368 snaps; penalties 4; injuries ['wk6 Questionable (Calf)', 'wk7 Questionable (Calf)']",
+      "Jermaine Eluemunor 2025: PFF 63.9 (rank 50; 639 pass-block/449 run-block of 1088 snaps); 16 g/1088 snaps; penalties 12; injuries ['wk6 Questionable (Back)', 'wk9 Doubtful (Pectoral)', 'wk10 Questionable (Pectoral)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
