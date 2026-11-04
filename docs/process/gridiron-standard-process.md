@@ -77,3 +77,7 @@ Audit history is in audits/league/{QB,RB,WR,TE,LT}. The original v1.0 baselines 
 ## Addendum 2026-11-04d (ET), t56s525 / t56s532 — superseding re-audit carry-forward
 - Details: docs/addendum-2026-11-04d-carry-forward.md. After re-triggering a re-audit-locked position, `reaudit:carry` re-records the superseded run's approved player stages (candidate, dossiers, ratings, head-to-heads, tiebreaks) on the new item with `carried_from`; variance, scarcity, cross-audit and lock re-run.
 - A superseding run (R2, R3, ...) uses run-scoped inbox files (`evidence-R2.json`, `audit-attempt-R2-1.md`, ...); earlier runs' inbox texts are add-only history. Push order per position: trigger alone, then the run, then the lock alone.
+
+## Addendum 2026-11-04e (ET), user t56s540 — approved tiebreaks order tied players
+- Details: docs/addendum-2026-11-04e-tiebreak-ordering.md. Rating order is OVR descending; within equal OVR, approved `<POS>_REAUDIT_TIEBREAK_nn` results set the relative order, and contention order is only the fallback (untested pairs or cycles). Tiebreaks never move players with different OVR.
+- Already-locked positions are not re-locked by this change; any order difference is reported to the commissioner for a separate decision.

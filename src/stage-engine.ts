@@ -234,9 +234,33 @@ export function contentionSet(cand: Record<string, any> | null): string[] {
   return set;
 }
 
-/** Rating order: approved proposed_ovr desc; ties keep contention order. Madden/EA reference is never read here. */
-export function ratingOrder(set: string[], overall: Record<string, number>): string[] {
-  return set.map((p, i) => ({ p, i, o: overall[p] })).sort((a, b) => (b.o - a.o) || (a.i - b.i)).map(x => x.p);
+export type TiebreakResult = { winner: string; loser: string };
+/** Approved `<POS>_REAUDIT_TIEBREAK_nn` results among the done tasks, in task-number order (addendum 2026-11-04e). */
+export function approvedTiebreaks(pos: string, done: Iterable<string>, opts: EngineOptions = {}): TiebreakResult[] {
+  const re = new RegExp(`^${pos}_REAUDIT_TIEBREAK_(\\d+)$`);
+  return [...done].filter(t => re.test(t)).sort((a, b) => Number(a.match(re)![1]) - Number(b.match(re)![1]))
+    .map(t => approvedOutput(pos, t, opts)?.pair_result).filter((r: any) => r?.winner && r?.loser).map((r: any) => ({ winner: String(r.winner), loser: String(r.loser) }));
+}
+/** Rating order: approved proposed_ovr desc. Within equal OVR, approved tiebreak results decide relative order
+ *  (addendum 2026-11-04e, t56s540); players not ordered by a tiebreak (or caught in a cycle) fall back to contention order.
+ *  Tiebreaks between players with different OVR never move anyone. Madden/EA reference is never read here. */
+export function ratingOrder(set: string[], overall: Record<string, number>, tiebreaks: TiebreakResult[] = []): string[] {
+  const base = set.map((p, i) => ({ p, i, o: overall[p] })).sort((a, b) => (b.o - a.o) || (a.i - b.i));
+  const key = (n: string) => normName(n);
+  const beats = new Map<string, string>(); // "a|b" (sorted) -> normalized winner; a later tiebreak on the same pair overrides
+  for (const t of tiebreaks) beats.set([key(t.winner), key(t.loser)].sort().join("|"), key(t.winner));
+  const out: string[] = [];
+  for (let s = 0; s < base.length;) {
+    let e = s; while (e < base.length && base[e].o === base[s].o) e++;
+    const rest = base.slice(s, e);
+    while (rest.length) {
+      const free = rest.filter(x => !rest.some(y => y !== x && beats.get([key(x.p), key(y.p)].sort().join("|")) === key(y.p)));
+      const pick = (free.length ? free : rest).reduce((a, b) => (b.i < a.i ? b : a));
+      out.push(pick.p); rest.splice(rest.indexOf(pick), 1);
+    }
+    s = e;
+  }
+  return out;
 }
 
 function planV112(pos: Position, done: Set<string>, I: ReturnType<typeof ids>, opts: EngineOptions,
@@ -272,7 +296,7 @@ function planV112(pos: Position, done: Set<string>, I: ReturnType<typeof ids>, o
     if (!Number.isFinite(o)) throw new Error(`${pos}: approved ${I.rate(i + 1)} must carry proposed_ovr (output of the attribute build).`);
     overall[set[i]] = o;
   }
-  const order = ratingOrder(set, overall);
+  const order = ratingOrder(set, overall, approvedTiebreaks(pos, done, opts));
   const rated = { ...controls, top_10: order.slice(0, 10).map((player, i) => ({ rank: i + 1, player, overall: overall[player] })), external_controls: order.slice(10) };
   // v1.1.2 head-to-heads use *_H2H_nn ids so they never collide with earlier-order *_PAIR_nn records (immutable history).
   const pair = generatePairs(I.lock.replace(/_LOCK$/, ""), order.slice(0, 10), order[10])

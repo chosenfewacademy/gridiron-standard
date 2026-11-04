@@ -39,7 +39,7 @@ export async function runRosterRefreshTests(test: T) {
 }
 
 import { evaluateLeagueCeiling, ceilingCheckErrors, ceilingConfig } from "../src/league-ceiling.js";
-import { planNext, generatePairs, stageOutputErrors, ids, ratingAttributes, usesOrderV112, LEGACY_ORDER_TASK } from "../src/stage-engine.js";
+import { planNext, generatePairs, stageOutputErrors, ids, ratingAttributes, usesOrderV112, LEGACY_ORDER_TASK, ratingOrder, approvedTiebreaks } from "../src/stage-engine.js";
 import { getNextTask } from "../src/state-machine.js";
 import { lockPosition } from "../src/position-lock.js";
 import { checkCoverage, checkReauditPool, requireApprovedPool, requireApprovedReauditPool, approvePool, normName } from "../src/coverage-gate.js";
@@ -323,5 +323,19 @@ export function runStageEngineTests(test: (n: string, f: () => void) => void) {
     assert.deepEqual(r.flagged.map(f => f.name), ["Hot"]); assert.deepEqual(r.closest.map(c => c.name), ["Meh"]); assert.deepEqual(r.rating_changes, []);
     assert.ok(ceilingCheckErrors({}).length && ceilingCheckErrors({ league_ceiling_check: { flagged: [{ name: "Hot" }], closest: [] } }).some(e => /Hot/.test(e)));
     assert.deepEqual(ceilingCheckErrors({ league_ceiling_check: { flagged: [], closest: [] } }), []);
+  });
+  test("addendum 2026-11-04e: approved tiebreaks order tied players before the contention-order fallback", () => {
+    const set = ["A", "Likely", "B", "Strange", "C"]; const o = { A: 90, Likely: 78, B: 78, Strange: 78, C: 70 };
+    assert.deepEqual(ratingOrder(set, o), ["A", "Likely", "B", "Strange", "C"], "no tiebreaks: contention order");
+    assert.deepEqual(ratingOrder(set, o, [{ winner: "Strange", loser: "Likely" }]), ["A", "B", "Strange", "Likely", "C"], "Strange above Likely; untested B keeps its contention slot first");
+    assert.deepEqual(ratingOrder(set, o, [{ winner: "Strange", loser: "B" }, { winner: "B", loser: "Likely" }]), ["A", "Strange", "B", "Likely", "C"], "chained tiebreaks");
+    assert.deepEqual(ratingOrder(set, o, [{ winner: "C", loser: "A" }]), ["A", "Likely", "B", "Strange", "C"], "different OVR never moves");
+    assert.deepEqual(ratingOrder(set, o, [{ winner: "Strange", loser: "Likely" }, { winner: "Likely", loser: "Strange" }]), ["A", "Likely", "B", "Strange", "C"], "later tiebreak on the same pair overrides");
+    assert.deepEqual(ratingOrder(set, o, [{ winner: "Likely", loser: "B" }, { winner: "B", loser: "Strange" }, { winner: "Strange", loser: "Likely" }]), ["A", "Likely", "B", "Strange", "C"], "cycle falls back to contention order");
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "tb-")); fs.mkdirSync(path.join(dir, "TE"));
+    const rec = (id: string, w: string, l: string, status = "FLAGGED") => fs.writeFileSync(path.join(dir, "TE", `${id}_A1.json`), JSON.stringify({ audit_id: `${id}_A1`, task_id: id, status, pair_result: { winner: w, loser: l } }));
+    rec("TE_REAUDIT_TIEBREAK_43", "Strange", "Likely"); rec("TE_REAUDIT_TIEBREAK_44", "B", "Strange");
+    const opts = { auditsRoot: dir, reaudit: { position: "TE", completed_tasks: [], approved_audit_ids: ["TE_REAUDIT_TIEBREAK_43_A1"] } } as any;
+    assert.deepEqual(approvedTiebreaks("TE", ["TE_REAUDIT_TIEBREAK_43", "TE_REAUDIT_TIEBREAK_44", "TE_REAUDIT_H2H_01"], opts), [{ winner: "Strange", loser: "Likely" }], "only approved tiebreak records count");
   });
 }
