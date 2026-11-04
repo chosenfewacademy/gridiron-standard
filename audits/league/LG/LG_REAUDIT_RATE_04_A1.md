@@ -1,0 +1,342 @@
+# LG_REAUDIT_RATE_04 — Steve Avila rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u/t50s441)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "LG_REAUDIT_RATE_04_A1",
+  "task_id": "LG_REAUDIT_RATE_04",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "player_id": "ext_00-0039058",
+  "players": [
+    "Steve Avila"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 88,
+    "SPD": 64,
+    "ACC": 73,
+    "AGI": 63,
+    "COD": 63,
+    "AWR": 84,
+    "INJ": 82,
+    "STA": 88,
+    "TGH": 88,
+    "PBK": 80,
+    "PBP": 79,
+    "PBF": 79,
+    "RBK": 85,
+    "RBP": 84,
+    "RBF": 84,
+    "IBL": 82,
+    "LBK": 74
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Steve Avila (LA) 2026: PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63); 8 g / 556 off snaps; 2 accepted penalties {'Offensive Holding': 1, 'Face Mask': 1}; depth-chart side {'LG': 226}; Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists. Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 2 accepted penalties {'Offensive Holding': 1, 'Face Mask': 1}, 2025 0 accepted penalties {}; PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Steve Avila injury reports: {'2025': ['wk2 Doubtful (Ankle)', 'wk3 Doubtful (Ankle)']}; roster status ACT; snaps 13 g / 836 off snaps (2025), 8 g / 556 off snaps (2026). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Listed weakness area: pass-pro finesse, availability 2025",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 13 g / 836 off snaps (2025), 8 g / 556 off snaps (2026). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 13 g / 836 off snaps (2025), 8 g / 556 off snaps (2026). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63); PFF 2025 75.0 (rank 10, 1050 snaps: 609 pass-block / 441 run-block, pass share 0.58). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63); PFF 2025 75.0 (rank 10, 1050 snaps: 609 pass-block / 441 run-block, pass share 0.58). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63); PFF 2025 75.0 (rank 10, 1050 snaps: 609 pass-block / 441 run-block, pass share 0.58). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63); PFF 2025 75.0 (rank 10, 1050 snaps: 609 pass-block / 441 run-block, pass share 0.58). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63); PFF 2025 75.0 (rank 10, 1050 snaps: 609 pass-block / 441 run-block, pass share 0.58). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63); PFF 2025 75.0 (rank 10, 1050 snaps: 609 pass-block / 441 run-block, pass share 0.58). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63); PFF 2025 75.0 (rank 10, 1050 snaps: 609 pass-block / 441 run-block, pass share 0.58). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63); PFF 2025 75.0 (rank 10, 1050 snaps: 609 pass-block / 441 run-block, pass share 0.58). Style: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 81,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+  "style_profile": "Steve Avila: Steady downhill run blocker: PFF 75.0 and 75.2 (most consistent in the group), run-heavy share (441 run-block snaps in 2025), 0 penalties in 2025; missed 4 games in 2025.",
+  "style_evidence": [
+    "Steve Avila (LA) 2026: PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63); 8 g / 556 off snaps; 2 accepted penalties {'Offensive Holding': 1, 'Face Mask': 1}; depth-chart side {'LG': 226}",
+    "Steve Avila 2025: PFF 2025 75.0 (rank 10, 1050 snaps: 609 pass-block / 441 run-block, pass share 0.58); 13 g / 836 off snaps; 0 accepted penalties {}; side {'LG': 1}",
+    "Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+    "Steve Avila injury reports: {'2025': ['wk2 Doubtful (Ankle)', 'wk3 Doubtful (Ankle)']}; roster status ACT"
+  ],
+  "input_dossier": "LG_REAUDIT_BG_04_A1",
+  "weaknesses": [
+    "pass-pro finesse",
+    "availability 2025"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Steve Avila",
+      "ovr": 82,
+      "attributes": {
+        "STR": 88,
+        "SPD": 65,
+        "ACC": 71,
+        "AGI": 56,
+        "COD": 56,
+        "AWR": 84,
+        "INJ": 91,
+        "STA": 87,
+        "TGH": 90,
+        "PBK": 80,
+        "PBP": 83,
+        "PBF": 77,
+        "RBK": 85,
+        "RBP": 87,
+        "RBF": 84,
+        "IBL": 90,
+        "LBK": 78
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -1,
+      "delta_attributes": {
+        "STR": 0,
+        "SPD": -1,
+        "ACC": 2,
+        "AGI": 7,
+        "COD": 7,
+        "AWR": 0,
+        "INJ": -9,
+        "STA": 1,
+        "TGH": -2,
+        "PBK": 0,
+        "PBP": -4,
+        "PBF": 2,
+        "RBK": 0,
+        "RBP": -3,
+        "RBF": 0,
+        "IBL": -8,
+        "LBK": -4
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 G, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 1,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u/t50s441"
+}
+```
