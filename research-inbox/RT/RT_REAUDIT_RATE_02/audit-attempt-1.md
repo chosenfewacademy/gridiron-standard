@@ -1,0 +1,398 @@
+# RT_REAUDIT_RATE_02 — Colton McKivitz rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "RT_REAUDIT_RATE_02_A1",
+  "task_id": "RT_REAUDIT_RATE_02",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "player_id": "ext_00-0036256",
+  "players": [
+    "Colton McKivitz"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 86,
+    "SPD": 70,
+    "ACC": 66,
+    "AGI": 54,
+    "COD": 48,
+    "AWR": 92,
+    "INJ": 94,
+    "STA": 95,
+    "TGH": 88,
+    "PBK": 92,
+    "PBP": 86,
+    "PBF": 92,
+    "RBK": 86,
+    "RBP": 84,
+    "RBF": 88,
+    "IBL": 82,
+    "LBK": 80
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Colton McKivitz (SF) 2026: PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58); 7 g / 425 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'RT': 226}; Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); pass/run snap mix PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Listed weakness area: movement skills, run-game power",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); pass/run snap mix PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Listed weakness area: movement skills, run-game power",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); pass/run snap mix PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Listed weakness area: movement skills, run-game power",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); pass/run snap mix PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Listed weakness area: movement skills, run-game power",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 1 accepted penalties {'False Start': 1}, 2025 5 accepted penalties {'False Start': 3, 'Offensive Holding': 1, 'Ineligible Downfield Pass': 1}; PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Colton McKivitz injury reports: none; roster status ACT; snaps 17 g / 1117 off snaps (2025), 7 g / 425 off snaps (2026). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 17 g / 1117 off snaps (2025), 7 g / 425 off snaps (2026). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 17 g / 1117 off snaps (2025), 7 g / 425 off snaps (2026). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58); PFF 2025 84.2 (rank 8, 1235 snaps: 740 pass-block / 495 run-block, pass share 0.6). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58); PFF 2025 84.2 (rank 8, 1235 snaps: 740 pass-block / 495 run-block, pass share 0.6). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58); PFF 2025 84.2 (rank 8, 1235 snaps: 740 pass-block / 495 run-block, pass share 0.6). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58); PFF 2025 84.2 (rank 8, 1235 snaps: 740 pass-block / 495 run-block, pass share 0.6). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58); PFF 2025 84.2 (rank 8, 1235 snaps: 740 pass-block / 495 run-block, pass share 0.6). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58); PFF 2025 84.2 (rank 8, 1235 snaps: 740 pass-block / 495 run-block, pass share 0.6). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58); PFF 2025 84.2 (rank 8, 1235 snaps: 740 pass-block / 495 run-block, pass share 0.6). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58); PFF 2025 84.2 (rank 8, 1235 snaps: 740 pass-block / 495 run-block, pass share 0.6). Style: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "discipline: penalties 2026 1 accepted penalties {'False Start': 1}, 2025 5 accepted penalties {'False Start': 3, 'Offensive Holding': 1, 'Ineligible Downfield Pass': 1}; PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Colton McKivitz injury reports: none; roster status ACT; snaps 17 g / 1117 off snaps (2025), 7 g / 425 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "usage: snaps 17 g / 1117 off snaps (2025), 7 g / 425 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "tier": "ELITE",
+      "claim": "pass pro: Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58); PFF 2025 84.2 (rank 8, 1235 snaps: 740 pass-block / 495 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "tier": "ELITE",
+      "claim": "pass pro: Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20); PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58); PFF 2025 84.2 (rank 8, 1235 snaps: 740 pass-block / 495 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 87,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+  "style_profile": "Colton McKivitz: Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+  "style_evidence": [
+    "Colton McKivitz (SF) 2026: PFF 2026 80 (rank 7, 425 snaps: 245 pass-block / 180 run-block, pass share 0.58); 7 g / 425 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'RT': 226}",
+    "Colton McKivitz 2025: PFF 2025 84.2 (rank 8, 1235 snaps: 740 pass-block / 495 run-block, pass share 0.6); 17 g / 1117 off snaps; 5 accepted penalties {'False Start': 3, 'Offensive Holding': 1, 'Ineligible Downfield Pass': 1}; side {'RT': 219}",
+    "Colton McKivitz ESPN pass/run block win rate 2026 through Week 8: OT PBWR 92% (top 20)",
+    "Colton McKivitz injury reports: none; roster status ACT"
+  ],
+  "input_dossier": "RT_REAUDIT_BG_02_A1",
+  "weaknesses": [
+    "movement skills",
+    "run-game power"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Colton McKivitz",
+      "ovr": 84,
+      "attributes": {
+        "STR": 84,
+        "SPD": 71,
+        "ACC": 67,
+        "AGI": 54,
+        "COD": 47,
+        "AWR": 90,
+        "INJ": 91,
+        "STA": 88,
+        "TGH": 88,
+        "PBK": 84,
+        "PBP": 82,
+        "PBF": 86,
+        "RBK": 90,
+        "RBP": 87,
+        "RBF": 91,
+        "IBL": 82,
+        "LBK": 85
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 3,
+      "delta_attributes": {
+        "STR": 2,
+        "SPD": -1,
+        "ACC": -1,
+        "AGI": 0,
+        "COD": 1,
+        "AWR": 2,
+        "INJ": 3,
+        "STA": 7,
+        "TGH": 0,
+        "PBK": 8,
+        "PBP": 4,
+        "PBF": 6,
+        "RBK": -4,
+        "RBP": -3,
+        "RBF": -3,
+        "IBL": 0,
+        "LBK": -5
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RT, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 3,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
