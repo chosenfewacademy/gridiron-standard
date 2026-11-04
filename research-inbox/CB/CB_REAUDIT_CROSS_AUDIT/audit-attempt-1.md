@@ -1,0 +1,769 @@
+# CB_REAUDIT_CROSS_AUDIT (v1.1.2; authorized t46u)
+
+```json
+{
+  "audit_id": "CB_REAUDIT_CROSS_AUDIT_A1",
+  "task_id": "CB_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Devon Witherspoon",
+    "Trent McDuffie",
+    "Denzel Ward",
+    "Jamel Dean",
+    "Isaiah Rodgers",
+    "Jaylen Watson",
+    "Quinyon Mitchell",
+    "Mike Jackson",
+    "Ja'Quan McMillian",
+    "Jacob Parrish"
+  ],
+  "cross_audit_result": "CONSISTENT: all 27 approved head-to-head/tiebreak verdicts agree with the final rating order; style rule passes for all 78 pairs of 13 rated CBs (0 too similar); league ceiling 15 raw flags, all resolved by approved tiebreaks (Jacob Parrish holds #10); variance audit 36 10+ gaps: 35 supported, 1 fixed via approved reaudit:revise (Denzel Ward TAK 70->62); Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Devon Witherspoon",
+      "ovr": 91,
+      "audit_id": "CB_REAUDIT_RATE_01_A1"
+    },
+    {
+      "rank": 2,
+      "player": "Trent McDuffie",
+      "ovr": 89,
+      "audit_id": "CB_REAUDIT_RATE_02_A1"
+    },
+    {
+      "rank": 3,
+      "player": "Denzel Ward",
+      "ovr": 86,
+      "audit_id": "CB_REAUDIT_RATE_03_A2"
+    },
+    {
+      "rank": 4,
+      "player": "Jamel Dean",
+      "ovr": 83,
+      "audit_id": "CB_REAUDIT_RATE_04_A1"
+    },
+    {
+      "rank": 5,
+      "player": "Isaiah Rodgers",
+      "ovr": 81,
+      "audit_id": "CB_REAUDIT_RATE_05_A1"
+    },
+    {
+      "rank": 6,
+      "player": "Jaylen Watson",
+      "ovr": 79,
+      "audit_id": "CB_REAUDIT_RATE_06_A1"
+    },
+    {
+      "rank": 7,
+      "player": "Quinyon Mitchell",
+      "ovr": 78,
+      "audit_id": "CB_REAUDIT_RATE_07_A1"
+    },
+    {
+      "rank": 8,
+      "player": "Mike Jackson",
+      "ovr": 77,
+      "audit_id": "CB_REAUDIT_RATE_08_A1"
+    },
+    {
+      "rank": 9,
+      "player": "Ja'Quan McMillian",
+      "ovr": 76,
+      "audit_id": "CB_REAUDIT_RATE_09_A1"
+    },
+    {
+      "rank": 10,
+      "player": "Jacob Parrish",
+      "ovr": 75,
+      "audit_id": "CB_REAUDIT_RATE_10_A1"
+    },
+    {
+      "rank": 11,
+      "player": "James Pierre",
+      "ovr": 74,
+      "audit_id": "CB_REAUDIT_RATE_11_A1"
+    },
+    {
+      "rank": 12,
+      "player": "DJ Turner II",
+      "ovr": 73,
+      "audit_id": "CB_REAUDIT_RATE_12_A1"
+    },
+    {
+      "rank": 13,
+      "player": "Josh Wallace",
+      "ovr": 72,
+      "audit_id": "CB_REAUDIT_RATE_13_A1"
+    }
+  ],
+  "pair_consistency": [
+    {
+      "audit_id": "CB_REAUDIT_H2H_01_A1",
+      "winner": "Devon Witherspoon",
+      "loser": "Trent McDuffie",
+      "consistent": true
+    },
+    {
+      "audit_id": "CB_REAUDIT_H2H_02_A1",
+      "winner": "Denzel Ward",
+      "loser": "Jamel Dean",
+      "consistent": true
+    },
+    {
+      "audit_id": "CB_REAUDIT_H2H_03_A1",
+      "winner": "Isaiah Rodgers",
+      "loser": "Jaylen Watson",
+      "consistent": true
+    },
+    {
+      "audit_id": "CB_REAUDIT_H2H_04_A1",
+      "winner": "Quinyon Mitchell",
+      "loser": "Mike Jackson",
+      "consistent": true
+    },
+    {
+      "audit_id": "CB_REAUDIT_H2H_05_A1",
+      "winner": "Ja'Quan McMillian",
+      "loser": "Jacob Parrish",
+      "consistent": true
+    },
+    {
+      "audit_id": "CB_REAUDIT_H2H_06_A1",
+      "winner": "Jacob Parrish",
+      "loser": "James Pierre",
+      "consistent": true
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_01_A1",
+      "winner": "Trent McDuffie",
+      "loser": "Denzel Ward",
+      "consistent": true
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_02_A1",
+      "winner": "Jamel Dean",
+      "loser": "Isaiah Rodgers",
+      "consistent": true
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_03_A1",
+      "winner": "Jaylen Watson",
+      "loser": "Quinyon Mitchell",
+      "consistent": true
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_04_A1",
+      "winner": "Mike Jackson",
+      "loser": "Ja'Quan McMillian",
+      "consistent": true
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_05_A1",
+      "winner": "James Pierre",
+      "loser": "DJ Turner II",
+      "consistent": true
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_06_A1",
+      "winner": "DJ Turner II",
+      "loser": "Josh Wallace",
+      "consistent": true
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_07_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Kamari Lassiter",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_08_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Benjamin St-Juste",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_09_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Chidobe Awuzie",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_10_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Carlton Davis III",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_11_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Rasul Douglas",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_12_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Joey Porter Jr.",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_13_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Kool-Aid McKinstry",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_14_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Keisean Nixon",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_15_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Riley Moss",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_16_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Emmanuel Forbes",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_17_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Dee Alford",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_18_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Marlon Humphrey",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_19_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Mansoor Delane",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_20_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Brandon Cisse",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "CB_REAUDIT_TIEBREAK_21_A1",
+      "winner": "Jacob Parrish",
+      "loser": "Will Lee III",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    }
+  ],
+  "style_rule": {
+    "pairs_checked": 78,
+    "too_similar": 0,
+    "highest_corr": [
+      0.946,
+      5.5,
+      "Isaiah Rodgers",
+      "DJ Turner II"
+    ],
+    "lowest_mad": [
+      0.903,
+      3.1,
+      "Trent McDuffie",
+      "Devon Witherspoon"
+    ]
+  },
+  "scarcity_note": "CB_REAUDIT_SCARCITY_A1 PASS (37 traits 90+, one at 95+: Quinyon Mitchell SPD 95, tagged LEAGUE_DEFINING; one overall 90+: Devon Witherspoon 91). Narrative text grep-verified before the stage ran.",
+  "eligibility_rule": "CB-eligible = PFF CB grade in 2026 (2025 if no 2026 snaps); one CB list; players graded at S in 2026 belong to the safety list.",
+  "side_convention": "CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/grades/nfl/cb) in the current 2026 season (2025 if no 2026 snaps); outside and slot corners compete in the same list; a player PFF grades at S in 2026 (e.g. Cooper DeJean) belongs to the safety list. Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+  "commissioner_fix_approvals": "Approved and applied under t46u: Denzel Ward TAK 70->62 (overall unchanged).",
+  "league_ceiling_check": {
+    "source": "research-inbox/CB/CB_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-t46u.json",
+    "references": [
+      "Jacob Parrish",
+      "James Pierre"
+    ],
+    "thresholds": {
+      "pff": 73.4,
+      "value": 1,
+      "efficiency": 33.9,
+      "negative_rate": 14.2,
+      "availability": 0.68
+    },
+    "scope": "Every cornerback league-wide (PFF CB grade in 2025 or 2026, sample 250+ snaps), incl. reserve/IR, inactive, practice squad and free agents; the 13 audited CBs excluded; Cooper DeJean (graded at S in 2026) screened in the safety list. Metrics: snap-weighted PFF CB grade (pff), INT + PD per game (value), share of targets not completed, PFR 2025 season + 2026 weekly (efficiency), missed tackles + accepted penalties per 1,000 nflverse defensive snaps (negative rate), games share (games/25).",
+    "raw_flags_before_resolution": [
+      {
+        "name": "Kamari Lassiter",
+        "team": "HOU",
+        "status": "ACT",
+        "snaps": 1425,
+        "pff": 72.1,
+        "value": 1.13,
+        "efficiency": 39.2,
+        "negative_rate": 11.9,
+        "availability": 0.92,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Benjamin St-Juste",
+        "team": "GB",
+        "status": "ACT",
+        "snaps": 357,
+        "pff": 76.4,
+        "value": 0.47,
+        "efficiency": 46.5,
+        "negative_rate": 14,
+        "availability": 0.68,
+        "hits": [
+          "pff",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Chidobe Awuzie",
+        "team": "BAL",
+        "status": "ACT",
+        "snaps": 685,
+        "pff": 75,
+        "value": 0.41,
+        "efficiency": 43.1,
+        "negative_rate": 11.7,
+        "availability": 0.88,
+        "hits": [
+          "pff",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Carlton Davis III",
+        "team": "NE",
+        "status": "ACT",
+        "snaps": 1151,
+        "pff": 74.4,
+        "value": 0.52,
+        "efficiency": 39.1,
+        "negative_rate": 14.8,
+        "availability": 0.84,
+        "hits": [
+          "pff",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Rasul Douglas",
+        "team": "WAS",
+        "status": "ACT",
+        "snaps": 1147,
+        "pff": 71.2,
+        "value": 1.05,
+        "efficiency": 45.5,
+        "negative_rate": 9.6,
+        "availability": 0.88,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Joey Porter Jr.",
+        "team": "DAL",
+        "status": "ACT",
+        "snaps": 1042,
+        "pff": 69.8,
+        "value": 1,
+        "efficiency": 54.7,
+        "negative_rate": 14.4,
+        "availability": 0.72,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Kool-Aid McKinstry",
+        "team": "NO",
+        "status": "ACT",
+        "snaps": 1504,
+        "pff": 67.4,
+        "value": 1.08,
+        "efficiency": 43.1,
+        "negative_rate": 8.6,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Keisean Nixon",
+        "team": "GB",
+        "status": "ACT",
+        "snaps": 1564,
+        "pff": 67.9,
+        "value": 1,
+        "efficiency": 35.2,
+        "negative_rate": 12.8,
+        "availability": 1,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Riley Moss",
+        "team": "DEN",
+        "status": "ACT",
+        "snaps": 1506,
+        "pff": 65.1,
+        "value": 1.17,
+        "efficiency": 43.8,
+        "negative_rate": 15.3,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Emmanuel Forbes",
+        "team": "LA",
+        "status": "ACT",
+        "snaps": 943,
+        "pff": 57.3,
+        "value": 1,
+        "efficiency": 44.4,
+        "negative_rate": 20.1,
+        "availability": 0.92,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Dee Alford",
+        "team": "BUF",
+        "status": "INA",
+        "snaps": 771,
+        "pff": 50.3,
+        "value": 1,
+        "efficiency": 35.6,
+        "negative_rate": 22,
+        "availability": 0.8,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Marlon Humphrey",
+        "team": "BAL",
+        "status": "ACT",
+        "snaps": 1290,
+        "pff": 54.2,
+        "value": 1.04,
+        "efficiency": 35.6,
+        "negative_rate": 15.5,
+        "availability": 0.92,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Mansoor Delane",
+        "team": "KC",
+        "status": "INA",
+        "snaps": 287,
+        "pff": 79.7,
+        "value": 1.2,
+        "efficiency": 32,
+        "negative_rate": 3.5,
+        "availability": 0.2,
+        "hits": [
+          "pff",
+          "value",
+          "negative_rate"
+        ]
+      },
+      {
+        "name": "Brandon Cisse",
+        "team": "GB",
+        "status": "ACT",
+        "snaps": 509,
+        "pff": 63.8,
+        "value": 1.12,
+        "efficiency": 42.1,
+        "negative_rate": 13.8,
+        "availability": 0.32,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate"
+        ]
+      },
+      {
+        "name": "Will Lee III",
+        "team": "CAR",
+        "status": "ACT",
+        "snaps": 347,
+        "pff": 59.6,
+        "value": 1,
+        "efficiency": 44.7,
+        "negative_rate": 11.5,
+        "availability": 0.28,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate"
+        ]
+      }
+    ],
+    "resolution": "Check (refs #10 Jacob Parrish 75 / first-out James Pierre 74) screened 243 non-pool CBs and raw-flagged 15: Kamari Lassiter, Benjamin St-Juste, Chidobe Awuzie, Carlton Davis III, Rasul Douglas, Joey Porter Jr., Kool-Aid McKinstry, Keisean Nixon, Riley Moss, Emmanuel Forbes, Dee Alford, Marlon Humphrey, Mansoor Delane, Brandon Cisse, Will Lee III. All resolved by approved tiebreaks CB_REAUDIT_TIEBREAK_07..21 (Jacob Parrish holds #10). Low reference bars come from Parrish's 2025 (66.1% completions allowed over 2025-26) and Pierre's rotational sample.",
+    "flagged": [],
+    "resolved_by_tiebreak": [
+      "CB_REAUDIT_TIEBREAK_07_A1",
+      "CB_REAUDIT_TIEBREAK_08_A1",
+      "CB_REAUDIT_TIEBREAK_09_A1",
+      "CB_REAUDIT_TIEBREAK_10_A1",
+      "CB_REAUDIT_TIEBREAK_11_A1",
+      "CB_REAUDIT_TIEBREAK_12_A1",
+      "CB_REAUDIT_TIEBREAK_13_A1",
+      "CB_REAUDIT_TIEBREAK_14_A1",
+      "CB_REAUDIT_TIEBREAK_15_A1",
+      "CB_REAUDIT_TIEBREAK_16_A1",
+      "CB_REAUDIT_TIEBREAK_17_A1",
+      "CB_REAUDIT_TIEBREAK_18_A1",
+      "CB_REAUDIT_TIEBREAK_19_A1",
+      "CB_REAUDIT_TIEBREAK_20_A1",
+      "CB_REAUDIT_TIEBREAK_21_A1"
+    ],
+    "closest": [
+      {
+        "name": "Derek Stingley Jr.",
+        "team": "HOU",
+        "status": "ACT",
+        "snaps": 1377,
+        "pff": 65.2,
+        "value": 0.96,
+        "efficiency": 55.2,
+        "negative_rate": 10.2,
+        "availability": 0.96,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Tyson Campbell",
+        "team": "CLE",
+        "status": "ACT",
+        "snaps": 1373,
+        "pff": 69.6,
+        "value": 0.92,
+        "efficiency": 42.6,
+        "negative_rate": 10.9,
+        "availability": 0.96,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "D.J. Reed",
+        "team": "DET",
+        "status": "ACT",
+        "snaps": 1056,
+        "pff": 70.3,
+        "value": 0.94,
+        "efficiency": 41.4,
+        "negative_rate": 10.4,
+        "availability": 0.72,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Donte Jackson",
+        "team": "LAC",
+        "status": "INA",
+        "snaps": 707,
+        "pff": 69.1,
+        "value": 0.86,
+        "efficiency": 53.4,
+        "negative_rate": 12.7,
+        "availability": 0.84,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Marcus Jones",
+        "team": "NE",
+        "status": "ACT",
+        "snaps": 1126,
+        "pff": 69.4,
+        "value": 0.84,
+        "efficiency": 33.9,
+        "negative_rate": 8,
+        "availability": 1,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      }
+    ],
+    "screened": 243,
+    "rating_changes": []
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Devon Witherspoon",
+      "ours": 91,
+      "madden": 91,
+      "madden_position": "CB",
+      "delta": 0
+    },
+    {
+      "player": "Trent McDuffie",
+      "ours": 89,
+      "madden": 96,
+      "madden_position": "CB",
+      "delta": -7
+    },
+    {
+      "player": "Denzel Ward",
+      "ours": 86,
+      "madden": 94,
+      "madden_position": "CB",
+      "delta": -8
+    },
+    {
+      "player": "Jamel Dean",
+      "ours": 83,
+      "madden": 87,
+      "madden_position": "CB",
+      "delta": -4
+    },
+    {
+      "player": "Isaiah Rodgers",
+      "ours": 81,
+      "madden": 86,
+      "madden_position": "CB",
+      "delta": -5
+    },
+    {
+      "player": "Jaylen Watson",
+      "ours": 79,
+      "madden": 81,
+      "madden_position": "CB",
+      "delta": -2
+    },
+    {
+      "player": "Quinyon Mitchell",
+      "ours": 78,
+      "madden": 90,
+      "madden_position": "CB",
+      "delta": -12
+    },
+    {
+      "player": "Mike Jackson",
+      "ours": 77,
+      "madden": 81,
+      "madden_position": "CB",
+      "delta": -4
+    },
+    {
+      "player": "Ja'Quan McMillian",
+      "ours": 76,
+      "madden": 79,
+      "madden_position": "CB",
+      "delta": -3
+    },
+    {
+      "player": "Jacob Parrish",
+      "ours": 75,
+      "madden": 81,
+      "madden_position": "CB",
+      "delta": -6
+    },
+    {
+      "player": "James Pierre",
+      "ours": 74,
+      "madden": 77,
+      "madden_position": "CB",
+      "delta": -3
+    },
+    {
+      "player": "DJ Turner II",
+      "ours": 73,
+      "madden": 84,
+      "madden_position": "CB",
+      "delta": -11
+    },
+    {
+      "player": "Josh Wallace",
+      "ours": 72,
+      "madden": 69,
+      "madden_position": "CB",
+      "delta": 3
+    }
+  ],
+  "madden_order_verified": false,
+  "madden_used_as_evidence": false,
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```

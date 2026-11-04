@@ -1,0 +1,180 @@
+{
+  "task_id": "CB_REAUDIT_CROSS_AUDIT",
+  "type": "positional_cross_audit",
+  "players": [
+    "Devon Witherspoon",
+    "Trent McDuffie",
+    "Denzel Ward",
+    "Jamel Dean",
+    "Isaiah Rodgers",
+    "Jaylen Watson",
+    "Quinyon Mitchell",
+    "Mike Jackson",
+    "Ja'Quan McMillian",
+    "Jacob Parrish"
+  ],
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Devon Witherspoon",
+        "overall": 91
+      },
+      {
+        "rank": 2,
+        "player": "Trent McDuffie",
+        "overall": 89
+      },
+      {
+        "rank": 3,
+        "player": "Denzel Ward",
+        "overall": 86
+      },
+      {
+        "rank": 4,
+        "player": "Jamel Dean",
+        "overall": 83
+      },
+      {
+        "rank": 5,
+        "player": "Isaiah Rodgers",
+        "overall": 81
+      },
+      {
+        "rank": 6,
+        "player": "Jaylen Watson",
+        "overall": 79
+      },
+      {
+        "rank": 7,
+        "player": "Quinyon Mitchell",
+        "overall": 78
+      },
+      {
+        "rank": 8,
+        "player": "Mike Jackson",
+        "overall": 77
+      },
+      {
+        "rank": 9,
+        "player": "Ja'Quan McMillian",
+        "overall": 76
+      },
+      {
+        "rank": 10,
+        "player": "Jacob Parrish",
+        "overall": 75
+      }
+    ],
+    "external_controls": [
+      "James Pierre",
+      "DJ Turner II",
+      "Josh Wallace"
+    ]
+  },
+  "league_ceiling_check_required": true,
+  "ceiling_references": [
+    {
+      "player": "Jacob Parrish",
+      "ovr": 75
+    },
+    {
+      "player": "James Pierre",
+      "ovr": 74
+    }
+  ],
+  "ceiling_config": {
+    "min_hits": 3,
+    "min_sample": 250,
+    "sample_key": "snaps",
+    "metrics": [
+      {
+        "key": "pff",
+        "label": "PFF overall grade (snap-weighted 2025-26)",
+        "better": "higher",
+        "production": true
+      },
+      {
+        "key": "value",
+        "label": "position value metric (EPA/WAR-type, see variance domains)",
+        "better": "higher",
+        "production": true
+      },
+      {
+        "key": "efficiency",
+        "label": "primary position efficiency metric",
+        "better": "higher"
+      },
+      {
+        "key": "negative_rate",
+        "label": "negative-play rate (penalties/pressures allowed/missed tackles as applicable)",
+        "better": "lower"
+      },
+      {
+        "key": "availability",
+        "label": "games played share",
+        "better": "higher"
+      }
+    ],
+    "scope": "Every rostered or free-agent player at the position outside the audited pool with meaningful 2025-26 snaps (starters, recent starters, notable backups, rookies)."
+  },
+  "position": "CB",
+  "stage": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 16,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "coverage",
+      "run defense",
+      "tackling",
+      "grade vs man/zone",
+      "forced incompletion rate"
+    ],
+    "position_stats": [
+      "INT, PBU",
+      "targets, receptions allowed, yards allowed, TD allowed",
+      "tackles, missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (outside/slot/box/deep)",
+      "man vs zone snap share",
+      "coverage snaps"
+    ],
+    "on_field_impact": [
+      "passer rating allowed",
+      "yards per coverage snap",
+      "EPA allowed per target"
+    ],
+    "madden_attributes_informed": [
+      "MCV",
+      "ZCV",
+      "PRS",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "PRC",
+      "TAK",
+      "HIT",
+      "PUR",
+      "CTH",
+      "JMP",
+      "AWR"
+    ],
+    "note": "Outside vs slot alignment documented; slot-heavy players flagged."
+  }
+}

@@ -1,0 +1,387 @@
+{
+ "position": "CB",
+ "references": [
+  {
+   "name": "Jacob Parrish",
+   "team": "TB",
+   "status": "ACT",
+   "snaps": 1127,
+   "pff": 73.4,
+   "value": 1,
+   "efficiency": 33.9,
+   "negative_rate": 14.2,
+   "availability": 0.96
+  },
+  {
+   "name": "James Pierre",
+   "team": "MIN",
+   "status": "ACT",
+   "snaps": 549,
+   "pff": 82.2,
+   "value": 1.06,
+   "efficiency": 54.5,
+   "negative_rate": 9.1,
+   "availability": 0.68
+  }
+ ],
+ "thresholds": {
+  "pff": 73.4,
+  "value": 1,
+  "efficiency": 33.9,
+  "negative_rate": 14.2,
+  "availability": 0.68
+ },
+ "flagged": [
+  {
+   "name": "Kamari Lassiter",
+   "team": "HOU",
+   "status": "ACT",
+   "snaps": 1425,
+   "pff": 72.1,
+   "value": 1.13,
+   "efficiency": 39.2,
+   "negative_rate": 11.9,
+   "availability": 0.92,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 2.4176775299705042
+  },
+  {
+   "name": "Benjamin St-Juste",
+   "team": "GB",
+   "status": "ACT",
+   "snaps": 357,
+   "pff": 76.4,
+   "value": 0.47,
+   "efficiency": 46.5,
+   "negative_rate": 14,
+   "availability": 0.68,
+   "hits": [
+    "pff",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -2.008224737379506
+  },
+  {
+   "name": "Chidobe Awuzie",
+   "team": "BAL",
+   "status": "ACT",
+   "snaps": 685,
+   "pff": 75,
+   "value": 0.41,
+   "efficiency": 43.1,
+   "negative_rate": 11.7,
+   "availability": 0.88,
+   "hits": [
+    "pff",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.1670980837171587
+  },
+  {
+   "name": "Carlton Davis III",
+   "team": "NE",
+   "status": "ACT",
+   "snaps": 1151,
+   "pff": 74.4,
+   "value": 0.52,
+   "efficiency": 39.1,
+   "negative_rate": 14.8,
+   "availability": 0.84,
+   "hits": [
+    "pff",
+    "efficiency",
+    "availability"
+   ],
+   "score": -2.180154939292575
+  },
+  {
+   "name": "Rasul Douglas",
+   "team": "WAS",
+   "status": "ACT",
+   "snaps": 1147,
+   "pff": 71.2,
+   "value": 1.05,
+   "efficiency": 45.5,
+   "negative_rate": 9.6,
+   "availability": 0.88,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 2.762686628049278
+  },
+  {
+   "name": "Joey Porter Jr.",
+   "team": "DAL",
+   "status": "ACT",
+   "snaps": 1042,
+   "pff": 69.8,
+   "value": 1,
+   "efficiency": 54.7,
+   "negative_rate": 14.4,
+   "availability": 0.72,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": 0.6945505474917224
+  },
+  {
+   "name": "Kool-Aid McKinstry",
+   "team": "NO",
+   "status": "ACT",
+   "snaps": 1504,
+   "pff": 67.4,
+   "value": 1.08,
+   "efficiency": 43.1,
+   "negative_rate": 8.6,
+   "availability": 0.96,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 2.764783759929391
+  },
+  {
+   "name": "Keisean Nixon",
+   "team": "GB",
+   "status": "ACT",
+   "snaps": 1564,
+   "pff": 67.9,
+   "value": 1,
+   "efficiency": 35.2,
+   "negative_rate": 12.8,
+   "availability": 1,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.7126166000380731
+  },
+  {
+   "name": "Riley Moss",
+   "team": "DEN",
+   "status": "ACT",
+   "snaps": 1506,
+   "pff": 65.1,
+   "value": 1.17,
+   "efficiency": 43.8,
+   "negative_rate": 15.3,
+   "availability": 0.96,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": 1.3217144315802205
+  },
+  {
+   "name": "Emmanuel Forbes",
+   "team": "LA",
+   "status": "ACT",
+   "snaps": 943,
+   "pff": 57.3,
+   "value": 1,
+   "efficiency": 44.4,
+   "negative_rate": 20.1,
+   "availability": 0.92,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -1.619556604636561
+  },
+  {
+   "name": "Dee Alford",
+   "team": "BUF",
+   "status": "INA",
+   "snaps": 771,
+   "pff": 50.3,
+   "value": 1,
+   "efficiency": 35.6,
+   "negative_rate": 22,
+   "availability": 0.8,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -3.6433160642897953
+  },
+  {
+   "name": "Marlon Humphrey",
+   "team": "BAL",
+   "status": "ACT",
+   "snaps": 1290,
+   "pff": 54.2,
+   "value": 1.04,
+   "efficiency": 35.6,
+   "negative_rate": 15.5,
+   "availability": 0.92,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -0.8303863469483127
+  },
+  {
+   "name": "Mansoor Delane",
+   "team": "KC",
+   "status": "INA",
+   "snaps": 287,
+   "pff": 79.7,
+   "value": 1.2,
+   "efficiency": 32,
+   "negative_rate": 3.5,
+   "availability": 0.2,
+   "hits": [
+    "pff",
+    "value",
+    "negative_rate"
+   ],
+   "score": 0.9093903669146379
+  },
+  {
+   "name": "Brandon Cisse",
+   "team": "GB",
+   "status": "ACT",
+   "snaps": 509,
+   "pff": 63.8,
+   "value": 1.12,
+   "efficiency": 42.1,
+   "negative_rate": 13.8,
+   "availability": 0.32,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": -0.9001337516471746
+  },
+  {
+   "name": "Will Lee III",
+   "team": "CAR",
+   "status": "ACT",
+   "snaps": 347,
+   "pff": 59.6,
+   "value": 1,
+   "efficiency": 44.7,
+   "negative_rate": 11.5,
+   "availability": 0.28,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": -1.9430696373871716
+  }
+ ],
+ "closest": [
+  {
+   "name": "Derek Stingley Jr.",
+   "team": "HOU",
+   "status": "ACT",
+   "snaps": 1377,
+   "pff": 65.2,
+   "value": 0.96,
+   "efficiency": 55.2,
+   "negative_rate": 10.2,
+   "availability": 0.96,
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.1858288770053471
+  },
+  {
+   "name": "Tyson Campbell",
+   "team": "CLE",
+   "status": "ACT",
+   "snaps": 1373,
+   "pff": 69.6,
+   "value": 0.92,
+   "efficiency": 42.6,
+   "negative_rate": 10.9,
+   "availability": 0.96,
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.30423740546527556
+  },
+  {
+   "name": "D.J. Reed",
+   "team": "DET",
+   "status": "ACT",
+   "snaps": 1056,
+   "pff": 70.3,
+   "value": 0.94,
+   "efficiency": 41.4,
+   "negative_rate": 10.4,
+   "availability": 0.72,
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.10023987529698714
+  },
+  {
+   "name": "Donte Jackson",
+   "team": "LAC",
+   "status": "INA",
+   "snaps": 707,
+   "pff": 69.1,
+   "value": 0.86,
+   "efficiency": 53.4,
+   "negative_rate": 12.7,
+   "availability": 0.84,
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.0098215367347292
+  },
+  {
+   "name": "Marcus Jones",
+   "team": "NE",
+   "status": "ACT",
+   "snaps": 1126,
+   "pff": 69.4,
+   "value": 0.84,
+   "efficiency": 33.9,
+   "negative_rate": 8,
+   "availability": 1,
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.1212121212121193
+  }
+ ],
+ "screened": 243,
+ "read_only": true,
+ "rating_changes": []
+}
