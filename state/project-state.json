@@ -6618,7 +6618,7 @@
         "position": "RT",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/RT.reaudit.json",
       "baseline_file": null,
@@ -6654,7 +6654,8 @@
         "RT_REAUDIT_RATE_10",
         "RT_REAUDIT_RATE_11",
         "RT_REAUDIT_RATE_12",
-        "RT_REAUDIT_RATE_13"
+        "RT_REAUDIT_RATE_13",
+        "RT_REAUDIT_H2H_01"
       ],
       "audit_ids": [
         "RT_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -6688,18 +6689,14 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "RT_REAUDIT_H2H_01",
-      "updated_at": "2026-11-04T04:03:31.169Z",
+      "updated_at": "2026-11-04T04:03:31.420Z",
       "last_result": {
         "task_id": "RT_REAUDIT_H2H_01",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "RT_REAUDIT_H2H_01",
-        "audit_id": "RT_REAUDIT_H2H_01_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -6916,6 +6913,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T04:03:01Z",
           "note": "Standing commissioner approval t46u (run dossiers and ratings automatically)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RT_REAUDIT_H2H_01",
+          "audit_id": "RT_REAUDIT_H2H_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T04:03:31Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
     }
