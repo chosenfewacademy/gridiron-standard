@@ -1,0 +1,213 @@
+# SS_REAUDIT_BG_11 — Christian Roland-Wallace background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "SS_REAUDIT_BG_11_A1",
+  "task_id": "SS_REAUDIT_BG_11",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "player_id": "ext_00-0039324",
+  "players": [
+    "Christian Roland-Wallace"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Christian Roland-Wallace",
+    "player_id": "ext_00-0039324",
+    "team": "KC",
+    "role_assignment": "SS (snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 0 -> SS (roster depth_chart_position SS))",
+    "side_rule": "SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one of FS or SS by primary 2025-26 alignment = nflverse weekly depth-chart FS/SS slot counts per season weighted by that season's defensive snaps; larger share wins (ties to FS). No FS/SS depth-chart slot -> nflverse roster depth_chart_position. Matched by gsis/PFR id. Each player appears in one list only; Madden position is reference only. Cooper DeJean (2026 FS 103 / SS 108 slot-weeks, CB in 2025) -> SS.",
+    "pff": {
+      "2025": {
+        "team": "kansas-city-chiefs",
+        "ovr": 78.8,
+        "snaps": 190,
+        "rank": null,
+        "rdef": 60,
+        "cov": 125
+      },
+      "2026": {
+        "team": "kansas-city-chiefs",
+        "ovr": 75.6,
+        "snaps": 155,
+        "rank": 14,
+        "rdef": 28,
+        "cov": 120
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "KC",
+        "pos": "CB",
+        "g": "11",
+        "tgt": "13",
+        "cmp": "10",
+        "yds": "124",
+        "td": "1",
+        "rat": "99.5",
+        "int": "1",
+        "comb": "34",
+        "m_tkl": "0"
+      },
+      "2026": {
+        "def_targets": 9.0,
+        "def_completions_allowed": 8.0,
+        "def_yards_allowed": 61.0,
+        "def_ints": 0.0,
+        "def_receiving_td_allowed": 0.0,
+        "def_tackles_combined": 13.0,
+        "def_missed_tackles": 0.0,
+        "g": 6
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 10,
+        "defs": 190
+      },
+      "2026": {
+        "games": 7,
+        "defs": 155
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 19.0,
+        "def_tackle_assists": 15.0,
+        "def_tackles_for_loss": 0.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 3.0,
+        "def_interceptions": 1.0
+      },
+      "2026": {
+        "def_tackles_solo": 12.0,
+        "def_tackle_assists": 6.0,
+        "def_tackles_for_loss": 2.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 2.0,
+        "def_interceptions": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 1,
+      "2026": 1
+    },
+    "injuries": {
+      "2025": [
+        "wk13 Out (Back)",
+        "wk14 Out (Back)"
+      ]
+    },
+    "summary_lines": [
+      "Christian Roland-Wallace (KC) Christian Roland-Wallace 2026: PFF S 2026 overall 75.6 on 155 snaps (S rank 14; 120 coverage / 28 run-def snaps); PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed; 7 g / 155 def snaps; 12 solo + 6 ast tackles, 2 TFL, 0 INT, 2 PD, 0 FF; 1 accepted penalties",
+      "Christian Roland-Wallace 2025: PFF S 2025 overall 78.8 on 190 snaps (S rank None; 125 coverage / 60 run-def snaps); PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed; 10 g / 190 def snaps; 19 solo + 15 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF; 1 accepted penalties",
+      "Christian Roland-Wallace role: snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 0 -> SS (roster depth_chart_position SS) (SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one o...); roster position DB; Madden card FS (reference only)",
+      "Christian Roland-Wallace injury reports: wk13 Out (Back); wk14 Out (Back); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF coverage/run-defense/tackling sub-grades and box/slot/deep alignment splits are paywalled; no public tracking data for safety speed or range; substitutes: PFF S overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "CTH",
+      "JMP",
+      "TAK",
+      "POW",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/s/2026",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/s/2025",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:08Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
