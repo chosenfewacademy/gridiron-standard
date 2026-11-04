@@ -6124,7 +6124,7 @@
         "position": "RG",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/RG.reaudit.json",
       "baseline_file": null,
@@ -6133,13 +6133,15 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T03:46:35.476Z",
-      "completed_tasks": [],
+      "completed_tasks": [
+        "RG_REAUDIT_CANDIDATE_AUDIT"
+      ],
       "audit_ids": [
         "RG_REAUDIT_CANDIDATE_AUDIT_A1"
       ],
       "current_stage": "candidate_audit",
       "current_task": "RG_REAUDIT_CANDIDATE_AUDIT",
-      "updated_at": "2026-11-04T03:46:35.488Z",
+      "updated_at": "2026-11-04T03:46:41.921Z",
       "last_result": {
         "task_id": "RG_REAUDIT_CANDIDATE_AUDIT",
         "status": "FLAGGED",
@@ -6151,11 +6153,17 @@
           "MADDEN_GAP_10PLUS: Trey Smith 93, Dotson 90, Onwenu 86 (Madden reference only)"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "RG_REAUDIT_CANDIDATE_AUDIT",
-        "audit_id": "RG_REAUDIT_CANDIDATE_AUDIT_A1"
-      }
+      "awaiting": null,
+      "approvals": [
+        {
+          "decision": "APPROVED",
+          "task_id": "RG_REAUDIT_CANDIDATE_AUDIT",
+          "audit_id": "RG_REAUDIT_CANDIDATE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:46:41Z",
+          "note": "Standing commissioner approval t46u: candidate audit (Ioane screened, LG/C-side pool members excluded)"
+        }
+      ]
     }
   ]
 }
