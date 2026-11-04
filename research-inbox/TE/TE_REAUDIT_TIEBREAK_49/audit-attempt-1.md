@@ -1,0 +1,39 @@
+# TE_REAUDIT_TIEBREAK_49 — Jackson Hawes vs Isaiah Likely (v1.1.2 head-to-head tiebreak; authorized by t45s389)
+
+```json
+{
+  "audit_id": "TE_REAUDIT_TIEBREAK_49_A1",
+  "task_id": "TE_REAUDIT_TIEBREAK_49",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jackson Hawes",
+    "Isaiah Likely"
+  ],
+  "pair_result": {
+    "winner": "Isaiah Likely",
+    "loser": "Jackson Hawes",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s389). Jackson Hawes: 2025 13 g, 19 tgt, 187 yds, 3 TD, EPA/tgt +0.781, PFF 83.2, YPRR 1.68, block share 0.79; no qualifying 2026 season. Isaiah Likely: 2025 12 g, 36 tgt, 307 yds, 1 TD, EPA/tgt +0.150, PFF outside PFF qualifiers, YPRR n/a, block share n/a; 2026 7 g, 64 tgt, 395 yds, 5 TD, EPA/tgt +0.223, PFF 77.3, YPRR 1.59, block share 0.33. Likely's 2026 (64 tgt, 395 yds, 5 TD, PFF 77.3, YPRR 1.59) outweighs 2025 PFF 83.2 and EPA/tgt +.781 on 19 targets as an inline blocker (block share .79); no 2026 receiving sample. Isaiah Likely holds first-out.",
+    "key_evidence_for_winner": [
+      "Isaiah Likely PFF TE overall grade 2026 77.3, 2025 None; 2026 PFF snaps {'off': '370', 'routes': '249', 'pblk': '4', 'rblk': '117'} (block share 0.33); 2025 PFF snaps None (block share None); age 26, 76 in 241 lb",
+      "Isaiah Likely (NYG) 2026: 7 g 64 tgt 395 yds 5 TD, EPA/tgt 0.223, YPRR 1.59, TPRR 0.257, NGS sep 2.73, aDOT 8.0, deep 6 tgt catch 0.33 EPA/tgt 0.73, short catch 0.72, YAC/rec 2.9, RZ tgt 10, 3rd/4th conv 10/18, fum lost 0",
+      "Isaiah Likely (BAL) 2025: 12 g 36 tgt 307 yds 1 TD, EPA/tgt 0.15, YPRR None, TPRR None, NGS sep None, aDOT 8.0, deep 3 tgt catch 0.67 EPA/tgt 0.86, short catch 0.83, YAC/rec 4.3, RZ tgt 6, 3rd/4th conv 5/12, fum lost 1"
+    ],
+    "key_evidence_for_loser": [
+      "Jackson Hawes PFF TE overall grade 2026 None, 2025 83.2; 2026 PFF snaps None (block share None); 2025 PFF snaps {'off': '534', 'routes': '111', 'pblk': '53', 'rblk': '370'} (block share 0.79); age 25, 76 in 253 lb",
+      "Jackson Hawes 2026: no qualifying targets",
+      "Jackson Hawes (BUF) 2025: 13 g 19 tgt 187 yds 3 TD, EPA/tgt 0.781, YPRR 1.68, TPRR 0.171, NGS sep None, aDOT 7.3, deep 3 tgt catch 0.67 EPA/tgt 0.69, short catch 0.92, YAC/rec 5.7, RZ tgt 3, 3rd/4th conv 2/4, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
