@@ -384,6 +384,28 @@
         "nflverse_snaps_2026#13",
         "nflverse_stats_2026#15"
       ]
+    },
+    {
+      "player": "Brenton Strange",
+      "player_id": "brenton_strange",
+      "team": "JAX",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 ACT/A01"
+      },
+      "flags": [
+        "COMMISSIONER_REINCLUDED",
+        "LEAGUE_CEILING_FLAG"
+      ],
+      "reasoning": "Re-included by commissioner (t45s389) after the league-wide ceiling check flagged him and he beat first-out Likely in TE_REAUDIT_TIEBREAK_42: EPA/tgt +.523 (2025) / +.405 (2026), YPRR 1.95 (2026), PFF 76.1 (2025).",
+      "citations": [
+        "pff_2025#11",
+        "nflverse_snaps_2026#18",
+        "nflverse_stats_2026#18"
+      ],
+      "added_by_amendment": "TE_POOL_AMEND_01"
     }
   ],
   "exclusions": [
@@ -692,5 +714,20 @@
   },
   "approved_by": "PhiXCrypto (commissioner)",
   "approved_at": "2026-11-02T04:29:56.844Z",
-  "approved_from": "data/candidate-pools/TE.reaudit.proposed.json"
+  "approved_from": "data/candidate-pools/TE.reaudit.proposed.json",
+  "amendments": [
+    {
+      "amendment_id": "TE_POOL_AMEND_01",
+      "type": "ADD_ONLY_CONTENTION_ADDITION",
+      "players": [
+        "Brenton Strange"
+      ],
+      "contention_additions": [
+        "Brenton Strange"
+      ],
+      "approved_by": "PhiXCrypto",
+      "approved_at": "2026-11-04T00:19:10Z",
+      "note": "Authorized by t45s389 (7:13 PM ET Nov 3): league ceiling check flagged Brenton Strange; he beat first-out Likely in TE_REAUDIT_TIEBREAK_42 and lost to #10 Kraft in TE_REAUDIT_TIEBREAK_41; rate fully and test. Already a pool candidate; contention addition only. Exclusion record kept as history."
+    }
+  ]
 }
