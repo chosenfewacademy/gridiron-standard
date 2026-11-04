@@ -1,0 +1,39 @@
+# TE_REAUDIT_TIEBREAK_26 — Dawson Knox vs Tucker Kraft (v1.1.2 head-to-head tiebreak; authorized by t45s389)
+
+```json
+{
+  "audit_id": "TE_REAUDIT_TIEBREAK_26_A1",
+  "task_id": "TE_REAUDIT_TIEBREAK_26",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Dawson Knox",
+    "Tucker Kraft"
+  ],
+  "pair_result": {
+    "winner": "Tucker Kraft",
+    "loser": "Dawson Knox",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s389). Dawson Knox: 2025 16 g, 50 tgt, 417 yds, 4 TD, EPA/tgt +0.350, PFF 67.7, YPRR 1.11, block share 0.49; 2026 7 g, 12 tgt, 42 yds, 1 TD, EPA/tgt -0.037, PFF outside PFF qualifiers, YPRR n/a, block share n/a. Tucker Kraft: 2025 8 g, 44 tgt, 489 yds, 6 TD, EPA/tgt +0.889, PFF 78.1, YPRR 2.2, block share 0.49; 2026 8 g, 49 tgt, 350 yds, 3 TD, EPA/tgt +0.442, PFF 64.5, YPRR 1.37, block share 0.41. Kraft's EPA/tgt (+.889 in 2025, +.442 in 2026), YAC/rec (10.8/5.3) and two-way usage (block share .49/.41) outweigh PFF 67.7, 2026 12 targets, EPA/tgt -.037. Tucker Kraft holds #10.",
+    "key_evidence_for_winner": [
+      "Tucker Kraft PFF TE overall grade 2026 64.5, 2025 78.1; 2026 PFF snaps {'off': '434', 'routes': '255', 'pblk': '40', 'rblk': '137'} (block share 0.41); 2025 PFF snaps {'off': '440', 'routes': '222', 'pblk': '33', 'rblk': '184'} (block share 0.49); age 26, 77 in 259 lb",
+      "Tucker Kraft (GB) 2026: 8 g 49 tgt 350 yds 3 TD, EPA/tgt 0.442, YPRR 1.37, TPRR 0.192, NGS sep 3.38, aDOT 5.7, deep 5 tgt catch 0.4 EPA/tgt 0.47, short catch 0.76, YAC/rec 5.3, RZ tgt 9, 3rd/4th conv 8/12, fum lost 0",
+      "Tucker Kraft (GB) 2025: 8 g 44 tgt 489 yds 6 TD, EPA/tgt 0.889, YPRR 2.2, TPRR 0.198, NGS sep None, aDOT 4.6, deep 2 tgt catch 0.5 EPA/tgt 0.22, short catch 0.71, YAC/rec 10.8, RZ tgt 12, 3rd/4th conv 11/15, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Dawson Knox PFF TE overall grade 2026 None, 2025 67.7; 2026 PFF snaps None (block share None); 2025 PFF snaps {'off': '733', 'routes': '375', 'pblk': '17', 'rblk': '341'} (block share 0.49); age 29, 76 in 254 lb",
+      "Dawson Knox (BUF) 2026: 7 g 12 tgt 42 yds 1 TD, EPA/tgt -0.037, YPRR None, TPRR None, NGS sep None, aDOT 4.0, deep 1 tgt catch 0.0 EPA/tgt -0.62, short catch 0.82, YAC/rec 2.8, RZ tgt 3, 3rd/4th conv 1/2, fum lost 0",
+      "Dawson Knox (BUF) 2025: 16 g 50 tgt 417 yds 4 TD, EPA/tgt 0.35, YPRR 1.11, TPRR 0.133, NGS sep 3.66, aDOT 6.7, deep 2 tgt catch 0.5 EPA/tgt 1.01, short catch 0.76, YAC/rec 5.1, RZ tgt 13, 3rd/4th conv 4/12, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
