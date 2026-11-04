@@ -1,0 +1,297 @@
+{
+ "position": "WILL",
+ "references": [
+  {
+   "name": "Edgerrin Cooper",
+   "team": "GB",
+   "status": "RES",
+   "snaps": 1273,
+   "pff": 73.1,
+   "value": 1.07,
+   "efficiency": 90.8,
+   "negative_rate": 11.8,
+   "availability": 0.8,
+   "role": "WILL"
+  },
+  {
+   "name": "Divine Deablo",
+   "team": "ATL",
+   "status": "INA",
+   "snaps": 1098,
+   "pff": 72.4,
+   "value": 0.79,
+   "efficiency": 94.5,
+   "negative_rate": 6.4,
+   "availability": 0.76,
+   "role": "WILL"
+  }
+ ],
+ "thresholds": {
+  "pff": 72.4,
+  "value": 0.79,
+  "efficiency": 90.8,
+  "negative_rate": 11.8,
+  "availability": 0.76
+ },
+ "flagged": [
+  {
+   "name": "Robert Spillane",
+   "team": "NE",
+   "status": "ACT",
+   "snaps": 1224,
+   "pff": 68.9,
+   "value": 0.81,
+   "efficiency": 91,
+   "negative_rate": 12.3,
+   "availability": 0.84,
+   "role": "WILL",
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -1.967109967109966
+  },
+  {
+   "name": "Nate Landman",
+   "team": "LA",
+   "status": "ACT",
+   "snaps": 1416,
+   "pff": 66.4,
+   "value": 1.15,
+   "efficiency": 92.9,
+   "negative_rate": 10.6,
+   "availability": 0.96,
+   "role": "WILL",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.21021021021020836
+  },
+  {
+   "name": "Alex Anzalone",
+   "team": "TB",
+   "status": "ACT",
+   "snaps": 1488,
+   "pff": 59.6,
+   "value": 1.06,
+   "efficiency": 91.6,
+   "negative_rate": 11.4,
+   "availability": 0.96,
+   "role": "WILL",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.7454239954239961
+  },
+  {
+   "name": "Tremaine Edmunds",
+   "team": "NYG",
+   "status": "RES",
+   "snaps": 1193,
+   "pff": 62.1,
+   "value": 1.26,
+   "efficiency": 94.7,
+   "negative_rate": 9.2,
+   "availability": 0.76,
+   "role": "WILL",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.5185185185185183
+  },
+  {
+   "name": "Germaine Pratt",
+   "team": "IND",
+   "status": "CUT",
+   "snaps": 933,
+   "pff": 62.3,
+   "value": 1.06,
+   "efficiency": 92.8,
+   "negative_rate": 11.8,
+   "availability": 0.68,
+   "role": "WILL",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": -3.4951737451737426
+  },
+  {
+   "name": "Daiyan Henley",
+   "team": "LAC",
+   "status": "ACT",
+   "snaps": 1313,
+   "pff": 54.1,
+   "value": 0.83,
+   "efficiency": 95.2,
+   "negative_rate": 7.6,
+   "availability": 0.92,
+   "role": "WILL",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.07936507936507975
+  },
+  {
+   "name": "Bobby Okereke",
+   "team": "CAR",
+   "status": "ACT",
+   "snaps": 1532,
+   "pff": 58.8,
+   "value": 1,
+   "efficiency": 95,
+   "negative_rate": 8.5,
+   "availability": 0.96,
+   "role": "WILL",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.36111111111111116
+  },
+  {
+   "name": "Cody Barton",
+   "team": "TEN",
+   "status": "ACT",
+   "snaps": 1468,
+   "pff": 55.2,
+   "value": 0.8,
+   "efficiency": 94.1,
+   "negative_rate": 4.8,
+   "availability": 1,
+   "role": "WILL",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.07239382239382408
+  },
+  {
+   "name": "Josiah Trotter",
+   "team": "TB",
+   "status": "ACT",
+   "snaps": 393,
+   "pff": 68.1,
+   "value": 1.14,
+   "efficiency": 95.4,
+   "negative_rate": 7.6,
+   "availability": 0.28,
+   "role": "WILL",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": -3.2222222222222223
+  }
+ ],
+ "closest": [
+  {
+   "name": "Akeem Davis-Gaither",
+   "team": "IND",
+   "status": "ACT",
+   "snaps": 1226,
+   "pff": 54.8,
+   "value": 0.52,
+   "efficiency": 94.1,
+   "negative_rate": 10.6,
+   "availability": 1,
+   "role": "WILL",
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.8501716001716018
+  },
+  {
+   "name": "Eric Wilson",
+   "team": "MIN",
+   "status": "ACT",
+   "snaps": 1369,
+   "pff": 58.4,
+   "value": 1.52,
+   "efficiency": 89,
+   "negative_rate": 13.9,
+   "availability": 0.96,
+   "role": "WILL",
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": -1.8753753753753744
+  },
+  {
+   "name": "Patrick Queen",
+   "team": "PIT",
+   "status": "ACT",
+   "snaps": 1619,
+   "pff": 49.2,
+   "value": 1.02,
+   "efficiency": 88.4,
+   "negative_rate": 14.8,
+   "availability": 1,
+   "role": "WILL",
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": -2.3827756327756298
+  },
+  {
+   "name": "Dee Winters",
+   "team": "DAL",
+   "status": "INA",
+   "snaps": 1236,
+   "pff": 58.6,
+   "value": 0.83,
+   "efficiency": 90.1,
+   "negative_rate": 13.8,
+   "availability": 0.92,
+   "role": "WILL",
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": -2.416702416702418
+  },
+  {
+   "name": "Tyrice Knight",
+   "team": "SEA",
+   "status": "ACT",
+   "snaps": 418,
+   "pff": 74.8,
+   "value": 0.69,
+   "efficiency": 92.4,
+   "negative_rate": 16.7,
+   "availability": 0.64,
+   "role": "WILL",
+   "hits": [
+    "pff",
+    "efficiency"
+   ],
+   "score": -2.8321178321178273
+  }
+ ],
+ "screened": 79,
+ "read_only": true,
+ "rating_changes": []
+}

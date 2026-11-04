@@ -1,0 +1,618 @@
+{
+  "audit_id": "WILL_REAUDIT_CROSS_AUDIT_A1",
+  "task_id": "WILL_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Zack Baun",
+    "Roquan Smith",
+    "Drue Tranquill",
+    "Jordyn Brooks",
+    "Blake Cashman",
+    "Arvell Reese",
+    "Foyesade Oluokun",
+    "Alex Singleton",
+    "Demario Davis",
+    "Edgerrin Cooper"
+  ],
+  "cross_audit_result": "CONSISTENT: all 21 approved head-to-head/tiebreak verdicts agree with the final rating order; style rule passes for all 78 pairs of 13 rated WILLs (0 too similar); league ceiling 9 raw flags, all resolved by approved tiebreaks (Cooper holds #10); variance audit 19 10+ gaps: 18 supported, 1 fixed via approved reaudit:revise; Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Zack Baun",
+      "ovr": 90,
+      "audit_id": "WILL_REAUDIT_RATE_01_A1"
+    },
+    {
+      "rank": 2,
+      "player": "Roquan Smith",
+      "ovr": 86,
+      "audit_id": "WILL_REAUDIT_RATE_02_A1"
+    },
+    {
+      "rank": 3,
+      "player": "Drue Tranquill",
+      "ovr": 85,
+      "audit_id": "WILL_REAUDIT_RATE_03_A1"
+    },
+    {
+      "rank": 4,
+      "player": "Jordyn Brooks",
+      "ovr": 84,
+      "audit_id": "WILL_REAUDIT_RATE_04_A1"
+    },
+    {
+      "rank": 5,
+      "player": "Blake Cashman",
+      "ovr": 83,
+      "audit_id": "WILL_REAUDIT_RATE_05_A2"
+    },
+    {
+      "rank": 6,
+      "player": "Arvell Reese",
+      "ovr": 82,
+      "audit_id": "WILL_REAUDIT_RATE_06_A1"
+    },
+    {
+      "rank": 7,
+      "player": "Foyesade Oluokun",
+      "ovr": 81,
+      "audit_id": "WILL_REAUDIT_RATE_07_A1"
+    },
+    {
+      "rank": 8,
+      "player": "Alex Singleton",
+      "ovr": 80,
+      "audit_id": "WILL_REAUDIT_RATE_08_A1"
+    },
+    {
+      "rank": 9,
+      "player": "Demario Davis",
+      "ovr": 79,
+      "audit_id": "WILL_REAUDIT_RATE_09_A1"
+    },
+    {
+      "rank": 10,
+      "player": "Edgerrin Cooper",
+      "ovr": 78,
+      "audit_id": "WILL_REAUDIT_RATE_10_A1"
+    },
+    {
+      "rank": 11,
+      "player": "Divine Deablo",
+      "ovr": 77,
+      "audit_id": "WILL_REAUDIT_RATE_11_A1"
+    },
+    {
+      "rank": 12,
+      "player": "Drake Thomas",
+      "ovr": 76,
+      "audit_id": "WILL_REAUDIT_RATE_12_A1"
+    },
+    {
+      "rank": 13,
+      "player": "Kaden Elliss",
+      "ovr": 75,
+      "audit_id": "WILL_REAUDIT_RATE_13_A1"
+    }
+  ],
+  "pair_consistency": [
+    {
+      "audit_id": "WILL_REAUDIT_H2H_01_A1",
+      "winner": "Zack Baun",
+      "loser": "Roquan Smith",
+      "consistent": true
+    },
+    {
+      "audit_id": "WILL_REAUDIT_H2H_02_A1",
+      "winner": "Drue Tranquill",
+      "loser": "Jordyn Brooks",
+      "consistent": true
+    },
+    {
+      "audit_id": "WILL_REAUDIT_H2H_03_A1",
+      "winner": "Blake Cashman",
+      "loser": "Arvell Reese",
+      "consistent": true
+    },
+    {
+      "audit_id": "WILL_REAUDIT_H2H_04_A1",
+      "winner": "Foyesade Oluokun",
+      "loser": "Alex Singleton",
+      "consistent": true
+    },
+    {
+      "audit_id": "WILL_REAUDIT_H2H_05_A1",
+      "winner": "Demario Davis",
+      "loser": "Edgerrin Cooper",
+      "consistent": true
+    },
+    {
+      "audit_id": "WILL_REAUDIT_H2H_06_A1",
+      "winner": "Edgerrin Cooper",
+      "loser": "Divine Deablo",
+      "consistent": true
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_01_A1",
+      "winner": "Roquan Smith",
+      "loser": "Drue Tranquill",
+      "consistent": true
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_02_A1",
+      "winner": "Jordyn Brooks",
+      "loser": "Blake Cashman",
+      "consistent": true
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_03_A1",
+      "winner": "Arvell Reese",
+      "loser": "Foyesade Oluokun",
+      "consistent": true
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_04_A1",
+      "winner": "Alex Singleton",
+      "loser": "Demario Davis",
+      "consistent": true
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_05_A1",
+      "winner": "Divine Deablo",
+      "loser": "Drake Thomas",
+      "consistent": true
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_06_A1",
+      "winner": "Drake Thomas",
+      "loser": "Kaden Elliss",
+      "consistent": true
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_07_A1",
+      "winner": "Edgerrin Cooper",
+      "loser": "Robert Spillane",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_08_A1",
+      "winner": "Edgerrin Cooper",
+      "loser": "Nate Landman",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_09_A1",
+      "winner": "Edgerrin Cooper",
+      "loser": "Alex Anzalone",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_10_A1",
+      "winner": "Edgerrin Cooper",
+      "loser": "Tremaine Edmunds",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_11_A1",
+      "winner": "Edgerrin Cooper",
+      "loser": "Germaine Pratt",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_12_A1",
+      "winner": "Edgerrin Cooper",
+      "loser": "Daiyan Henley",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_13_A1",
+      "winner": "Edgerrin Cooper",
+      "loser": "Bobby Okereke",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_14_A1",
+      "winner": "Edgerrin Cooper",
+      "loser": "Cody Barton",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "WILL_REAUDIT_TIEBREAK_15_A1",
+      "winner": "Edgerrin Cooper",
+      "loser": "Josiah Trotter",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    }
+  ],
+  "style_rule": {
+    "pairs_checked": 78,
+    "too_similar": 0,
+    "highest_corr": [
+      0.943,
+      3.8,
+      "Roquan Smith",
+      "Jordyn Brooks"
+    ],
+    "lowest_mad": [
+      0.845,
+      3.2,
+      "Divine Deablo",
+      "Edgerrin Cooper"
+    ]
+  },
+  "scarcity_note": "WILL_REAUDIT_SCARCITY_A1 PASS (Alex Singleton STA 96 and TGH 96 tagged LEAGUE_DEFINING; overall 90+: Baun 90 alone). Narrative text grep-verified before the stage ran.",
+  "eligibility_rule": "WILL-eligible = PFF LB grade (2025/2026) and primary 2025-26 role WILL under the LB role convention; edge-graded players belong to LEDGE/REDGE.",
+  "side_convention": "LB ROLE CONVENTION (t46u): each linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role. nflverse weekly depth-chart slots are mapped per team scheme - base 4-3: MLB->MIKE, WLB->WILL, SLB->SAM; base 3-4: RILB->MIKE, LILB->WILL (3-4 OLB/WLB/SLB are edge and belong to LEDGE/REDGE). Each season's slot shares are weighted by that season's defensive snaps; the largest share wins (ties -> MIKE, then WILL). Players matched by gsis/PFR ID. Each player appears in one list only.",
+  "commissioner_fix_approvals": "Approved and applied under t46u: Blake Cashman PRS 68->72 (overall unchanged).",
+  "league_ceiling_check": {
+    "source": "research-inbox/WILL/WILL_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-t46u.json",
+    "references": [
+      "Edgerrin Cooper",
+      "Divine Deablo"
+    ],
+    "thresholds": {
+      "pff": 72.4,
+      "value": 0.79,
+      "efficiency": 90.8,
+      "negative_rate": 11.8,
+      "availability": 0.76
+    },
+    "scope": "Every WILL-assigned linebacker league-wide (PFF LB grade in 2025 or 2026, sample 250+ snaps), incl. reserve/IR, inactive, practice squad and free agents; the 13 audited WILLs excluded; MIKE/SAM-assigned LBs screened in their own lists. Metrics: snap-weighted PFF LB grade (pff), impact plays per game = TFL+sacks+INT+PD+FF (value), tackle success % = tackles/(tackles+missed), PFR (efficiency), missed tackles + accepted penalties per 1,000 nflverse defensive snaps (negative rate), games share (games/25).",
+    "raw_flags_before_resolution": [
+      {
+        "name": "Robert Spillane",
+        "team": "NE",
+        "status": "ACT",
+        "snaps": 1224,
+        "pff": 68.9,
+        "value": 0.81,
+        "efficiency": 91,
+        "negative_rate": 12.3,
+        "availability": 0.84,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Nate Landman",
+        "team": "LA",
+        "status": "ACT",
+        "snaps": 1416,
+        "pff": 66.4,
+        "value": 1.15,
+        "efficiency": 92.9,
+        "negative_rate": 10.6,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Alex Anzalone",
+        "team": "TB",
+        "status": "ACT",
+        "snaps": 1488,
+        "pff": 59.6,
+        "value": 1.06,
+        "efficiency": 91.6,
+        "negative_rate": 11.4,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Tremaine Edmunds",
+        "team": "NYG",
+        "status": "RES",
+        "snaps": 1193,
+        "pff": 62.1,
+        "value": 1.26,
+        "efficiency": 94.7,
+        "negative_rate": 9.2,
+        "availability": 0.76,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Germaine Pratt",
+        "team": "IND",
+        "status": "CUT",
+        "snaps": 933,
+        "pff": 62.3,
+        "value": 1.06,
+        "efficiency": 92.8,
+        "negative_rate": 11.8,
+        "availability": 0.68,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate"
+        ]
+      },
+      {
+        "name": "Daiyan Henley",
+        "team": "LAC",
+        "status": "ACT",
+        "snaps": 1313,
+        "pff": 54.1,
+        "value": 0.83,
+        "efficiency": 95.2,
+        "negative_rate": 7.6,
+        "availability": 0.92,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Bobby Okereke",
+        "team": "CAR",
+        "status": "ACT",
+        "snaps": 1532,
+        "pff": 58.8,
+        "value": 1,
+        "efficiency": 95,
+        "negative_rate": 8.5,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Cody Barton",
+        "team": "TEN",
+        "status": "ACT",
+        "snaps": 1468,
+        "pff": 55.2,
+        "value": 0.8,
+        "efficiency": 94.1,
+        "negative_rate": 4.8,
+        "availability": 1,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Josiah Trotter",
+        "team": "TB",
+        "status": "ACT",
+        "snaps": 393,
+        "pff": 68.1,
+        "value": 1.14,
+        "efficiency": 95.4,
+        "negative_rate": 7.6,
+        "availability": 0.28,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate"
+        ]
+      }
+    ],
+    "resolution": "Check (refs #10 Cooper 78 / first-out Deablo 77) screened 79 non-pool WILLs and raw-flagged 9: Robert Spillane, Nate Landman, Alex Anzalone, Tremaine Edmunds, Germaine Pratt, Daiyan Henley, Bobby Okereke, Cody Barton, Josiah Trotter. All resolved by approved tiebreaks WILL_REAUDIT_TIEBREAK_07-15 (Cooper holds #10).",
+    "flagged": [],
+    "resolved_by_tiebreak": [
+      "WILL_REAUDIT_TIEBREAK_07_A1",
+      "WILL_REAUDIT_TIEBREAK_08_A1",
+      "WILL_REAUDIT_TIEBREAK_09_A1",
+      "WILL_REAUDIT_TIEBREAK_10_A1",
+      "WILL_REAUDIT_TIEBREAK_11_A1",
+      "WILL_REAUDIT_TIEBREAK_12_A1",
+      "WILL_REAUDIT_TIEBREAK_13_A1",
+      "WILL_REAUDIT_TIEBREAK_14_A1",
+      "WILL_REAUDIT_TIEBREAK_15_A1"
+    ],
+    "closest": [
+      {
+        "name": "Akeem Davis-Gaither",
+        "team": "IND",
+        "status": "ACT",
+        "snaps": 1226,
+        "pff": 54.8,
+        "value": 0.52,
+        "efficiency": 94.1,
+        "negative_rate": 10.6,
+        "availability": 1,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Eric Wilson",
+        "team": "MIN",
+        "status": "ACT",
+        "snaps": 1369,
+        "pff": 58.4,
+        "value": 1.52,
+        "efficiency": 89,
+        "negative_rate": 13.9,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "availability"
+        ]
+      },
+      {
+        "name": "Patrick Queen",
+        "team": "PIT",
+        "status": "ACT",
+        "snaps": 1619,
+        "pff": 49.2,
+        "value": 1.02,
+        "efficiency": 88.4,
+        "negative_rate": 14.8,
+        "availability": 1,
+        "hits": [
+          "value",
+          "availability"
+        ]
+      },
+      {
+        "name": "Dee Winters",
+        "team": "DAL",
+        "status": "INA",
+        "snaps": 1236,
+        "pff": 58.6,
+        "value": 0.83,
+        "efficiency": 90.1,
+        "negative_rate": 13.8,
+        "availability": 0.92,
+        "hits": [
+          "value",
+          "availability"
+        ]
+      },
+      {
+        "name": "Tyrice Knight",
+        "team": "SEA",
+        "status": "ACT",
+        "snaps": 418,
+        "pff": 74.8,
+        "value": 0.69,
+        "efficiency": 92.4,
+        "negative_rate": 16.7,
+        "availability": 0.64,
+        "hits": [
+          "pff",
+          "efficiency"
+        ]
+      }
+    ],
+    "screened": 79,
+    "rating_changes": []
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Zack Baun",
+      "ours": 90,
+      "madden": 93,
+      "madden_position": "WILL",
+      "delta": -3
+    },
+    {
+      "player": "Roquan Smith",
+      "ours": 86,
+      "madden": 93,
+      "madden_position": "MIKE",
+      "delta": -7
+    },
+    {
+      "player": "Drue Tranquill",
+      "ours": 85,
+      "madden": 89,
+      "madden_position": "WILL",
+      "delta": -4
+    },
+    {
+      "player": "Jordyn Brooks",
+      "ours": 84,
+      "madden": 88,
+      "madden_position": "WILL",
+      "delta": -4
+    },
+    {
+      "player": "Blake Cashman",
+      "ours": 83,
+      "madden": 88,
+      "madden_position": "MIKE",
+      "delta": -5
+    },
+    {
+      "player": "Arvell Reese",
+      "ours": 82,
+      "madden": 82,
+      "madden_position": "WILL",
+      "delta": 0
+    },
+    {
+      "player": "Foyesade Oluokun",
+      "ours": 81,
+      "madden": 87,
+      "madden_position": "MIKE",
+      "delta": -6
+    },
+    {
+      "player": "Alex Singleton",
+      "ours": 80,
+      "madden": 87,
+      "madden_position": "MIKE",
+      "delta": -7
+    },
+    {
+      "player": "Demario Davis",
+      "ours": 79,
+      "madden": 90,
+      "madden_position": "MIKE",
+      "delta": -11
+    },
+    {
+      "player": "Edgerrin Cooper",
+      "ours": 78,
+      "madden": 80,
+      "madden_position": "WILL",
+      "delta": -2
+    },
+    {
+      "player": "Divine Deablo",
+      "ours": 77,
+      "madden": 81,
+      "madden_position": "MIKE",
+      "delta": -4
+    },
+    {
+      "player": "Drake Thomas",
+      "ours": 76,
+      "madden": 76,
+      "madden_position": "WILL",
+      "delta": 0
+    },
+    {
+      "player": "Kaden Elliss",
+      "ours": 75,
+      "madden": 83,
+      "madden_position": "WILL",
+      "delta": -8
+    }
+  ],
+  "madden_order_verified": false,
+  "madden_used_as_evidence": false,
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

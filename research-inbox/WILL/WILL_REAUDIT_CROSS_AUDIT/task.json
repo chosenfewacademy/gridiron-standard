@@ -1,0 +1,179 @@
+{
+  "task_id": "WILL_REAUDIT_CROSS_AUDIT",
+  "type": "positional_cross_audit",
+  "players": [
+    "Zack Baun",
+    "Roquan Smith",
+    "Drue Tranquill",
+    "Jordyn Brooks",
+    "Blake Cashman",
+    "Arvell Reese",
+    "Foyesade Oluokun",
+    "Alex Singleton",
+    "Demario Davis",
+    "Edgerrin Cooper"
+  ],
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Zack Baun",
+        "overall": 90
+      },
+      {
+        "rank": 2,
+        "player": "Roquan Smith",
+        "overall": 86
+      },
+      {
+        "rank": 3,
+        "player": "Drue Tranquill",
+        "overall": 85
+      },
+      {
+        "rank": 4,
+        "player": "Jordyn Brooks",
+        "overall": 84
+      },
+      {
+        "rank": 5,
+        "player": "Blake Cashman",
+        "overall": 83
+      },
+      {
+        "rank": 6,
+        "player": "Arvell Reese",
+        "overall": 82
+      },
+      {
+        "rank": 7,
+        "player": "Foyesade Oluokun",
+        "overall": 81
+      },
+      {
+        "rank": 8,
+        "player": "Alex Singleton",
+        "overall": 80
+      },
+      {
+        "rank": 9,
+        "player": "Demario Davis",
+        "overall": 79
+      },
+      {
+        "rank": 10,
+        "player": "Edgerrin Cooper",
+        "overall": 78
+      }
+    ],
+    "external_controls": [
+      "Divine Deablo",
+      "Drake Thomas",
+      "Kaden Elliss"
+    ]
+  },
+  "league_ceiling_check_required": true,
+  "ceiling_references": [
+    {
+      "player": "Edgerrin Cooper",
+      "ovr": 78
+    },
+    {
+      "player": "Divine Deablo",
+      "ovr": 77
+    }
+  ],
+  "ceiling_config": {
+    "min_hits": 3,
+    "min_sample": 250,
+    "sample_key": "snaps",
+    "metrics": [
+      {
+        "key": "pff",
+        "label": "PFF overall grade (snap-weighted 2025-26)",
+        "better": "higher",
+        "production": true
+      },
+      {
+        "key": "value",
+        "label": "position value metric (EPA/WAR-type, see variance domains)",
+        "better": "higher",
+        "production": true
+      },
+      {
+        "key": "efficiency",
+        "label": "primary position efficiency metric",
+        "better": "higher"
+      },
+      {
+        "key": "negative_rate",
+        "label": "negative-play rate (penalties/pressures allowed/missed tackles as applicable)",
+        "better": "lower"
+      },
+      {
+        "key": "availability",
+        "label": "games played share",
+        "better": "higher"
+      }
+    ],
+    "scope": "Every rostered or free-agent player at the position outside the audited pool with meaningful 2025-26 snaps (starters, recent starters, notable backups, rookies)."
+  },
+  "position": "WILL",
+  "stage": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 14,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "run defense",
+      "coverage",
+      "pass rush",
+      "tackling",
+      "missed tackle %"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks",
+      "INT, PBU",
+      "missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by role (MIKE/WILL/SAM)",
+      "coverage snaps",
+      "blitz rate",
+      "box vs slot alignment"
+    ],
+    "on_field_impact": [
+      "run-stop %",
+      "yards per coverage snap allowed",
+      "passer rating allowed"
+    ],
+    "madden_attributes_informed": [
+      "TAK",
+      "HIT",
+      "PUR",
+      "PRC",
+      "BSH",
+      "MCV",
+      "ZCV",
+      "PMV",
+      "FMV",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Weak-side role."
+  }
+}
