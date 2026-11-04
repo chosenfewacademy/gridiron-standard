@@ -1,0 +1,40 @@
+# SS_REAUDIT_TIEBREAK_05 — Christian Roland-Wallace vs Coby Bryant (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "SS_REAUDIT_TIEBREAK_05_A1",
+  "task_id": "SS_REAUDIT_TIEBREAK_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Christian Roland-Wallace",
+    "Coby Bryant"
+  ],
+  "pair_result": {
+    "winner": "Christian Roland-Wallace",
+    "loser": "Coby Bryant",
+    "provisional_order_holds": true,
+    "reasoning": "Roland-Wallace has graded 78.8 and 75.6 on part-time snaps (190 and 155) with 0 missed tackles on 47. Bryant had a full 2025 (70.2 on 1163 snaps, 4 INT, a 54.0 passer rating allowed) but 18 missed tackles, and has no 2026 snaps (reserve, knee injury). Narrow.",
+    "key_evidence_for_winner": [
+      "Christian Roland-Wallace (KC) role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 0 -> SS (roster depth_chart_position SS); roster ACT (DB); injuries wk13 Out (Back); wk14 Out (Back)",
+      "Christian Roland-Wallace 2026: Christian Roland-Wallace 2026: PFF S 2026 overall 75.6 on 155 snaps (S rank 14; 120 coverage / 28 run-def snaps); PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed; 7 g / 155 def snaps; 12 solo + 6 ast tackles, 2 TFL, 0 INT, 2 PD, 0 FF; 1 accepted penalties; PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed",
+      "Christian Roland-Wallace 2025: Christian Roland-Wallace 2025: PFF S 2025 overall 78.8 on 190 snaps (S rank None; 125 coverage / 60 run-def snaps); PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed; 10 g / 190 def snaps; 19 solo + 15 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Coby Bryant (CHI) role snap-weighted 2025-26 depth-chart FS/SS shares FS 19 / SS 959 -> SS; roster RES (DB); injuries wk17 Out (Knee); wk18 Doubtful (Knee)",
+      "Coby Bryant 2026: Coby Bryant 2026: no PFF S grade 2026; no PFR 2026 line; no snaps; no stats; 0 accepted penalties; no PFR 2026 line",
+      "Coby Bryant 2025: Coby Bryant 2025: PFF S 2025 overall 70.2 on 1163 snaps (S rank 27; 768 coverage / 388 run-def snaps); PFR 2025 coverage 39 targets / 23 completions / 316 yds / 1 TD / passer rating 54 / 4 INT; 66 tackles, 18 missed; 15 g / 977 def snaps; 37 solo + 27 ast tackles, 4 TFL, 4 INT, 7 PD, 1 FF; 0 accepted penalties; PFR 2025 coverage 39 targets / 23 completions / 316 yds / 1 TD / passer rating 54 / 4 INT; 66 tackles, 18 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
