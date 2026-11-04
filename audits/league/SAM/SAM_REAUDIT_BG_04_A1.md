@@ -1,0 +1,230 @@
+# SAM_REAUDIT_BG_04 — D'Marco Jackson background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "SAM_REAUDIT_BG_04_A1",
+  "task_id": "SAM_REAUDIT_BG_04",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SAM",
+  "player_id": "ext_00-0037271",
+  "players": [
+    "D'Marco Jackson"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "D'Marco Jackson",
+    "player_id": "ext_00-0037271",
+    "team": "CHI",
+    "role_assignment": {
+      "SAM25": 171,
+      "MIKE25": 26,
+      "WILL25": 24,
+      "SAM26": 274,
+      "MIKE": 30.7,
+      "WILL": 28.3,
+      "SAM": 419.0,
+      "EDGE": 0.0,
+      "assign": "SAM"
+    },
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "chicago-bears",
+        "ovr": 76.4,
+        "snaps": 370,
+        "rank": 14,
+        "rdef": 155,
+        "prsh": 31,
+        "cov": 184
+      },
+      "2026": {
+        "team": "chicago-bears",
+        "ovr": 56.8,
+        "snaps": 217,
+        "rank": 53,
+        "rdef": 87,
+        "prsh": 24,
+        "cov": 106
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "CHI",
+        "pos": "LB",
+        "g": "16",
+        "tgt": "12",
+        "cmp": "8",
+        "yds": "28",
+        "rat": "35.4",
+        "int": "1",
+        "bltz": "11",
+        "prss": "2",
+        "sk": "1",
+        "comb": "43",
+        "m_tkl": "0"
+      },
+      "2026": {
+        "def_targets": 9.0,
+        "def_completions_allowed": 4.0,
+        "def_yards_allowed": 36.0,
+        "def_ints": 1.0,
+        "def_times_blitzed": 9.0,
+        "def_pressures": 0.0,
+        "def_sacks": 0.0,
+        "def_tackles_combined": 15.0,
+        "def_missed_tackles": 2.0,
+        "g": 5
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 11,
+        "defs": 261
+      },
+      "2026": {
+        "games": 7,
+        "defs": 217
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 18.0,
+        "def_tackle_assists": 25.0,
+        "def_tackles_for_loss": 2.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 1.0,
+        "def_qb_hits": 1.0,
+        "def_pass_defended": 3.0,
+        "def_interceptions": 1.0
+      },
+      "2026": {
+        "def_tackles_solo": 7.0,
+        "def_tackle_assists": 14.0,
+        "def_tackles_for_loss": 0.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 1.0,
+        "def_interceptions": 1.0
+      }
+    },
+    "penalties": {
+      "2025": 2,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk3 Questionable (Hamstring)"
+      ],
+      "2026": [
+        "wk8 Questionable (Ankle)"
+      ]
+    },
+    "summary_lines": [
+      "D'Marco Jackson (CHI) D'Marco Jackson 2026: PFF LB 2026 overall 56.8 on 217 snaps (LB rank 53; 87 run-def / 106 coverage / 24 pass-rush snaps); PFR 2026 (5 games) coverage 9 targets / 4 completions / 36 yds / 1 INT; 15 tackles, 2 missed; 0 pressures on 9 blitzes; 7 g / 217 def snaps; 7 solo + 14 ast tackles, 0 TFL, 0.0 sacks, 1 INT, 1 PD, 0 FF; 0 accepted penalties",
+      "D'Marco Jackson 2025: PFF LB 2025 overall 76.4 on 370 snaps (LB rank 14; 155 run-def / 184 coverage / 31 pass-rush snaps); PFR 2025 coverage 12 targets / 8 completions / 28 yds / passer rating 35.4 / 1 INT; 43 tackles, 0 missed; 2 pressures on 11 blitzes, 1 sacks; 11 g / 261 def snaps; 18 solo + 25 ast tackles, 2 TFL, 1.0 sacks, 1 INT, 3 PD, 0 FF; 2 accepted penalties",
+      "D'Marco Jackson role: snap-weighted 2025-26 depth-chart role shares MIKE 31 / WILL 28 / SAM 419 / edge 0 (raw snapshots SAM25 171, MIKE25 26, WILL25 24, SAM26 274) -> SAM (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card WILL (reference only)",
+      "D'Marco Jackson injury reports: wk3 Questionable (Hamstring); wk8 Questionable (Ankle); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PUR",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2026",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2025",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:52Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
