@@ -1,0 +1,166 @@
+# P_REAUDIT_BG_05 — Tress Way background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "P_REAUDIT_BG_05_A1",
+  "task_id": "P_REAUDIT_BG_05",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "P",
+  "player_id": "ext_00-0030140",
+  "players": [
+    "Tress Way"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Tress Way",
+    "player_id": "ext_00-0030140",
+    "team": "WAS",
+    "role_assignment": "P (punter (punt attempts in nflverse pbp); roster position P)",
+    "side_rule": "PUNTER ROLE CONVENTION (t46u): rated as P = any player with 2025-26 punt attempts in nflverse play-by-play; matched by gsis id. Evidence: gross and net average, inside-20 count/rate, touchbacks, fair catches, return yards allowed, blocks, punt EPA (nflverse pbp), PFF P overall (2025-26). THIN DATA: no public punt hang time (not in pbp, PFF free tables or Next Gen Stats); fair catches and return yards are the proxy. Madden position is reference only.",
+    "seasons": {
+      "2025": {
+        "punt": {
+          "n": 56,
+          "gross": 47.3,
+          "net": 43.9,
+          "i20": 29,
+          "i20_pct": 51.8,
+          "tb": 4,
+          "fc": 18,
+          "ret_yds": 114,
+          "returned": 25,
+          "blocked": 0,
+          "long": 71,
+          "epa": 6.1,
+          "epa_per": 0.109,
+          "games": 17
+        },
+        "pffp": {
+          "ovr": 44,
+          "snaps": null,
+          "rank": 32
+        }
+      },
+      "2026": {
+        "punt": {
+          "n": 31,
+          "gross": 49.0,
+          "net": 43.1,
+          "i20": 10,
+          "i20_pct": 32.3,
+          "tb": 2,
+          "fc": 12,
+          "ret_yds": 141,
+          "returned": 14,
+          "blocked": 0,
+          "long": 60,
+          "epa": -1.0,
+          "epa_per": -0.034,
+          "games": 7
+        },
+        "pffp": {
+          "ovr": 48.2,
+          "snaps": null,
+          "rank": 33
+        }
+      }
+    },
+    "injuries": {
+      "2025": [
+        "wk2 Questionable (Back)"
+      ]
+    },
+    "summary_lines": [
+      "Tress Way (WAS) Tress Way 2026: PFF P 2026 overall 48.2 (P rank 33); 2026 7 games punting; 0 accepted penalties",
+      "Tress Way 2025: PFF P 2025 overall 44 (P rank 32); 2025 17 games punting; 0 accepted penalties",
+      "Tress Way role: punter (punt attempts in nflverse pbp); roster position P (PUNTER ROLE CONVENTION (t46u): rated as P = any player with 2025-26 punt attempts in nflverse play-by-play; matched by g...); roster position P; Madden card P (reference only)",
+      "Tress Way injury reports: wk2 Questionable (Back); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "No public punt hang time; PFF P sub-grades paywalled; substitutes: net/gross, inside-20, touchbacks, fair catches and return yards (hang proxy), punt EPA (nflverse pbp), PFF P overall"
+    ],
+    "attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "thin_data": false,
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/p/2026",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/p/2025",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:18Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
