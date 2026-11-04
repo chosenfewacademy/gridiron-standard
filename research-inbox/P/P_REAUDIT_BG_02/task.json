@@ -1,0 +1,98 @@
+{
+  "task_id": "P_REAUDIT_BG_02",
+  "type": "background_analysis",
+  "players": [
+    "Jordan Stout"
+  ],
+  "player_id": "ext_00-0038094",
+  "team": "NYG",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Michael Dickson"
+      },
+      {
+        "rank": 2,
+        "player": "Jordan Stout"
+      },
+      {
+        "rank": 3,
+        "player": "Daniel Whelan"
+      },
+      {
+        "rank": 4,
+        "player": "Logan Cooke"
+      },
+      {
+        "rank": 5,
+        "player": "Tress Way"
+      },
+      {
+        "rank": 6,
+        "player": "Jack Fox"
+      },
+      {
+        "rank": 7,
+        "player": "Austin McNamara"
+      },
+      {
+        "rank": 8,
+        "player": "Corliss Waitman"
+      },
+      {
+        "rank": 9,
+        "player": "J.K. Scott"
+      },
+      {
+        "rank": 10,
+        "player": "Braden Mann"
+      }
+    ],
+    "external_controls": [
+      "Bryan Anger",
+      "Jeremy Crawshaw",
+      "Ryan Wright"
+    ]
+  },
+  "position": "P",
+  "stage": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 20,
+    "group": "Special Teams",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall punting grade"
+    ],
+    "position_stats": [
+      "punts, gross/net average",
+      "inside-20",
+      "touchbacks"
+    ],
+    "usage_snap_metrics": [
+      "punts"
+    ],
+    "on_field_impact": [
+      "punting EPA",
+      "hang time (NGS/charting)"
+    ],
+    "madden_attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR"
+    ],
+    "note": ""
+  }
+}
