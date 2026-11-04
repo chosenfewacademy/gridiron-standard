@@ -8200,7 +8200,7 @@
         "position": "LEDGE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LEDGE.reaudit.json",
       "baseline_file": null,
@@ -8213,7 +8213,8 @@
         "LEDGE_REAUDIT_CANDIDATE_AUDIT",
         "LEDGE_REAUDIT_BG_01",
         "LEDGE_REAUDIT_BG_02",
-        "LEDGE_REAUDIT_BG_03"
+        "LEDGE_REAUDIT_BG_03",
+        "LEDGE_REAUDIT_BG_04"
       ],
       "audit_ids": [
         "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -8224,18 +8225,14 @@
       ],
       "current_stage": "background_analysis",
       "current_task": "LEDGE_REAUDIT_BG_04",
-      "updated_at": "2026-11-04T11:06:28.718Z",
+      "updated_at": "2026-11-04T11:06:28.983Z",
       "last_result": {
         "task_id": "LEDGE_REAUDIT_BG_04",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LEDGE_REAUDIT_BG_04",
-        "audit_id": "LEDGE_REAUDIT_BG_04_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -8267,6 +8264,14 @@
           "audit_id": "LEDGE_REAUDIT_BG_03_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:06:27Z",
+          "note": "Standing commissioner approval t46u (run dossiers and ratings automatically)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_04",
+          "audit_id": "LEDGE_REAUDIT_BG_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:06:28Z",
           "note": "Standing commissioner approval t46u (run dossiers and ratings automatically)"
         }
       ]
