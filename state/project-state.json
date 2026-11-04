@@ -3194,7 +3194,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.json",
@@ -3237,7 +3237,8 @@
         "TE_REAUDIT_RATE_15",
         "TE_REAUDIT_H2H_01",
         "TE_REAUDIT_TIEBREAK_11",
-        "TE_REAUDIT_TIEBREAK_12"
+        "TE_REAUDIT_TIEBREAK_12",
+        "TE_REAUDIT_TIEBREAK_13"
       ],
       "audit_ids": [
         "TE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -3280,7 +3281,7 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "TE_REAUDIT_H2H_01",
-      "updated_at": "2026-11-04T00:13:30.012Z",
+      "updated_at": "2026-11-04T00:13:30.251Z",
       "last_result": {
         "task_id": "TE_REAUDIT_TIEBREAK_13",
         "status": "FLAGGED",
@@ -3288,17 +3289,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "TE_REAUDIT_TIEBREAK_13",
-        "audit_id": "TE_REAUDIT_TIEBREAK_13_A1",
-        "pending": [
-          {
-            "task_id": "TE_REAUDIT_TIEBREAK_13",
-            "audit_id": "TE_REAUDIT_TIEBREAK_13_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -3588,6 +3579,14 @@
           "audit_id": "TE_REAUDIT_TIEBREAK_12_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T00:13:29Z",
+          "note": "Commissioner approval t45s389 (approve all 6 TE head-to-heads, 10 tiebreaks and 9 rating changes)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_13",
+          "audit_id": "TE_REAUDIT_TIEBREAK_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T00:13:30Z",
           "note": "Commissioner approval t45s389 (approve all 6 TE head-to-heads, 10 tiebreaks and 9 rating changes)"
         }
       ]
