@@ -1,0 +1,40 @@
+# C_REAUDIT_TIEBREAK_05 — Cooper Beebe vs Connor McGovern (v1.1.2 head-to-head tiebreak; authorized by t46u/t50s441)
+
+```json
+{
+  "audit_id": "C_REAUDIT_TIEBREAK_05_A1",
+  "task_id": "C_REAUDIT_TIEBREAK_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "C",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Cooper Beebe",
+    "Connor McGovern"
+  ],
+  "pair_result": {
+    "winner": "Cooper Beebe",
+    "loser": "Connor McGovern",
+    "provisional_order_holds": true,
+    "reasoning": "McGovern has more 2025 volume (70.9 on 1,166) and RBWR 80%, but Beebe leads in 2026 (69.1 vs 66.0), has 1 penalty in two seasons vs 4, and a 92% PBWR.",
+    "key_evidence_for_winner": [
+      "Cooper Beebe (DAL) ESPN 2026 win rates (thru Wk 8): IOL PBWR 92%; depth-chart side 2026 {'C': 226}; roster ACT",
+      "Cooper Beebe 2026: PFF 69.1 (rank 8; 357 pass-block/188 run-block of 545 snaps); 8 g/545 snaps; penalties 0; injuries none",
+      "Cooper Beebe 2025: PFF 67.8 (rank 16; 484 pass-block/283 run-block of 767 snaps); 11 g/767 snaps; penalties 1; injuries ['wk8 Questionable (Ankle)', 'wk9 Questionable (Ankle)']"
+    ],
+    "key_evidence_for_loser": [
+      "Connor McGovern (BUF) ESPN 2026 win rates (thru Wk 8): IOL PBWR 91%, IOL RBWR 80%; depth-chart side 2026 {'C': 226}; roster ACT",
+      "Connor McGovern 2026: PFF 66.0 (rank 13; 265 pass-block/200 run-block of 465 snaps); 7 g/467 snaps; penalties 1; injuries none",
+      "Connor McGovern 2025: PFF 70.9 (rank 9; 670 pass-block/496 run-block of 1166 snaps); 16 g/1037 snaps; penalties 3; injuries none"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
