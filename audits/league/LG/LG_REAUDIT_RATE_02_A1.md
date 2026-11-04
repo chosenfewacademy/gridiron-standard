@@ -1,0 +1,378 @@
+# LG_REAUDIT_RATE_02 — Damien Lewis rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u/t50s441)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "LG_REAUDIT_RATE_02_A1",
+  "task_id": "LG_REAUDIT_RATE_02",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "player_id": "ext_00-0036417",
+  "players": [
+    "Damien Lewis"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 92,
+    "SPD": 64,
+    "ACC": 66,
+    "AGI": 58,
+    "COD": 52,
+    "AWR": 86,
+    "INJ": 74,
+    "STA": 86,
+    "TGH": 95,
+    "PBK": 85,
+    "PBP": 89,
+    "PBF": 80,
+    "RBK": 86,
+    "RBP": 90,
+    "RBF": 80,
+    "IBL": 88,
+    "LBK": 82
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Damien Lewis (CAR) 2026: PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65); 5 g / 309 off snaps; 0 accepted penalties {}; depth-chart side {'LG': 210}; Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists. Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 0 accepted penalties {}, 2025 5 accepted penalties {'Offensive Holding': 3, 'False Start': 2}; PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Damien Lewis injury reports: {'2025': ['wk7 Questionable (Shoulder)', 'wk9 Questionable (Oblique)'], '2026': ['wk4 Out (Elbow)', 'wk6 Questionable (Elbow)', 'wk8 Out (Knee)']}; roster status INA; snaps 16 g / 988 off snaps (2025), 5 g / 309 off snaps (2026). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Listed weakness area: availability (inactive, 3 injury reports in 2026), lateral agility",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 16 g / 988 off snaps (2025), 5 g / 309 off snaps (2026). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 16 g / 988 off snaps (2025), 5 g / 309 off snaps (2026). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65); PFF 2025 77.3 (rank 7, 1054 snaps: 638 pass-block / 416 run-block, pass share 0.61). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65); PFF 2025 77.3 (rank 7, 1054 snaps: 638 pass-block / 416 run-block, pass share 0.61). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65); PFF 2025 77.3 (rank 7, 1054 snaps: 638 pass-block / 416 run-block, pass share 0.61). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65); PFF 2025 77.3 (rank 7, 1054 snaps: 638 pass-block / 416 run-block, pass share 0.61). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65); PFF 2025 77.3 (rank 7, 1054 snaps: 638 pass-block / 416 run-block, pass share 0.61). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65); PFF 2025 77.3 (rank 7, 1054 snaps: 638 pass-block / 416 run-block, pass share 0.61). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65); PFF 2025 77.3 (rank 7, 1054 snaps: 638 pass-block / 416 run-block, pass share 0.61). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65); PFF 2025 77.3 (rank 7, 1054 snaps: 638 pass-block / 416 run-block, pass share 0.61). Style: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "ELITE",
+      "claim": "power: Damien Lewis (CAR) 2026: PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65); 5 g / 309 off snaps; 0 accepted penalties {}; depth-chart side {'LG': 210}; Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "usage: snaps 16 g / 988 off snaps (2025), 5 g / 309 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "tier": "ELITE",
+      "claim": "run block: Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65); PFF 2025 77.3 (rank 7, 1054 snaps: 638 pass-block / 416 run-block, pass share 0.61)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 85,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+  "style_profile": "Damien Lewis: Heavy-handed, nasty power guard: PFF 77.3 (#7, 1,054 snaps) and 80.7 in 2026, 0 penalties in 2026; three 2026 injury reports and currently inactive drag availability.",
+  "style_evidence": [
+    "Damien Lewis (CAR) 2026: PFF 2026 80.7 (rank 9, 309 snaps: 202 pass-block / 107 run-block, pass share 0.65); 5 g / 309 off snaps; 0 accepted penalties {}; depth-chart side {'LG': 210}",
+    "Damien Lewis 2025: PFF 2025 77.3 (rank 7, 1054 snaps: 638 pass-block / 416 run-block, pass share 0.61); 16 g / 988 off snaps; 5 accepted penalties {'Offensive Holding': 3, 'False Start': 2}; side {'LG': 1}",
+    "Damien Lewis ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+    "Damien Lewis injury reports: {'2025': ['wk7 Questionable (Shoulder)', 'wk9 Questionable (Oblique)'], '2026': ['wk4 Out (Elbow)', 'wk6 Questionable (Elbow)', 'wk8 Out (Knee)']}; roster status INA"
+  ],
+  "input_dossier": "LG_REAUDIT_BG_02_A1",
+  "weaknesses": [
+    "availability (inactive, 3 injury reports in 2026)",
+    "lateral agility"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Damien Lewis",
+      "ovr": 87,
+      "attributes": {
+        "STR": 89,
+        "SPD": 67,
+        "ACC": 64,
+        "AGI": 55,
+        "COD": 46,
+        "AWR": 92,
+        "INJ": 91,
+        "STA": 88,
+        "TGH": 94,
+        "PBK": 88,
+        "PBP": 90,
+        "PBF": 85,
+        "RBK": 88,
+        "RBP": 90,
+        "RBF": 85,
+        "IBL": 89,
+        "LBK": 83
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -2,
+      "delta_attributes": {
+        "STR": 3,
+        "SPD": -3,
+        "ACC": 2,
+        "AGI": 3,
+        "COD": 6,
+        "AWR": -6,
+        "INJ": -17,
+        "STA": -2,
+        "TGH": 1,
+        "PBK": -3,
+        "PBP": -1,
+        "PBF": -5,
+        "RBK": -2,
+        "RBP": 0,
+        "RBF": -5,
+        "IBL": -1,
+        "LBK": -1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 G, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 2,
+    "attribute_gaps_10plus": {
+      "INJ": -17
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u/t50s441"
+}
+```
