@@ -1,0 +1,219 @@
+# FS_REAUDIT_BG_04 — Julian Love background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "FS_REAUDIT_BG_04_A1",
+  "task_id": "FS_REAUDIT_BG_04",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FS",
+  "player_id": "ext_00-0034974",
+  "players": [
+    "Julian Love"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Julian Love",
+    "player_id": "ext_00-0034974",
+    "team": "SEA",
+    "role_assignment": "FS (snap-weighted 2025-26 depth-chart FS/SS shares FS 885 / SS 0 -> FS)",
+    "side_rule": "SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one of FS or SS by primary 2025-26 alignment = nflverse weekly depth-chart FS/SS slot counts per season weighted by that season's defensive snaps; larger share wins (ties to FS). No FS/SS depth-chart slot -> nflverse roster depth_chart_position. Matched by gsis/PFR id. Each player appears in one list only; Madden position is reference only. Cooper DeJean (2026 FS 103 / SS 108 slot-weeks, CB in 2025) -> SS.",
+    "pff": {
+      "2025": {
+        "team": "seattle-seahawks",
+        "ovr": 79.9,
+        "snaps": 634,
+        "rank": 6,
+        "rdef": 217,
+        "cov": 403
+      },
+      "2026": {
+        "team": "seattle-seahawks",
+        "ovr": 73.2,
+        "snaps": 428,
+        "rank": 18,
+        "rdef": 160,
+        "cov": 257
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "SEA",
+        "pos": "FS",
+        "g": "8",
+        "tgt": "19",
+        "cmp": "9",
+        "yds": "100",
+        "td": "0",
+        "rat": "41.6",
+        "int": "1",
+        "comb": "34",
+        "m_tkl": "2"
+      },
+      "2026": {
+        "def_targets": 13.0,
+        "def_completions_allowed": 5.0,
+        "def_yards_allowed": 59.0,
+        "def_ints": 2.0,
+        "def_receiving_td_allowed": 0.0,
+        "def_tackles_combined": 24.0,
+        "def_missed_tackles": 1.0,
+        "g": 6
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 8,
+        "defs": 458
+      },
+      "2026": {
+        "games": 7,
+        "defs": 427
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 22.0,
+        "def_tackle_assists": 11.0,
+        "def_tackles_for_loss": 1.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 1.0,
+        "def_qb_hits": 1.0,
+        "def_pass_defended": 6.0,
+        "def_interceptions": 1.0
+      },
+      "2026": {
+        "def_tackles_solo": 16.0,
+        "def_tackle_assists": 8.0,
+        "def_tackles_for_loss": 2.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 6.0,
+        "def_interceptions": 2.0
+      }
+    },
+    "penalties": {
+      "2025": 1,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk3 Doubtful (Hamstring)",
+        "wk5 Out (Hamstring)",
+        "wk6 Doubtful (Hamstring)",
+        "wk7 Questionable (Hamstring)",
+        "wk9 Out (Hamstring)"
+      ],
+      "2026": [
+        "wk3 Out (Calf)"
+      ]
+    },
+    "summary_lines": [
+      "Julian Love (SEA) Julian Love 2026: PFF S 2026 overall 73.2 on 428 snaps (S rank 18; 257 coverage / 160 run-def snaps); PFR 2026 (6 games) coverage 13 targets / 5 completions / 59 yds / 0 TD / 2 INT; 24 tackles, 1 missed; 7 g / 427 def snaps; 16 solo + 8 ast tackles, 2 TFL, 2 INT, 6 PD, 0 FF; 0 accepted penalties",
+      "Julian Love 2025: PFF S 2025 overall 79.9 on 634 snaps (S rank 6; 403 coverage / 217 run-def snaps); PFR 2025 coverage 19 targets / 9 completions / 100 yds / 0 TD / passer rating 41.6 / 1 INT; 34 tackles, 2 missed; 8 g / 458 def snaps; 22 solo + 11 ast tackles, 1 TFL, 1 INT, 6 PD, 0 FF; 1 accepted penalties",
+      "Julian Love role: snap-weighted 2025-26 depth-chart FS/SS shares FS 885 / SS 0 -> FS (SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one o...); roster position DB; Madden card FS (reference only)",
+      "Julian Love injury reports: wk6 Doubtful (Hamstring); wk7 Questionable (Hamstring); wk9 Out (Hamstring); wk3 Out (Calf); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF coverage/run-defense/tackling sub-grades and box/slot/deep alignment splits are paywalled; no public tracking data for safety speed or range; substitutes: PFF S overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "CTH",
+      "JMP",
+      "TAK",
+      "POW",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/s/2026",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/s/2025",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:37Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
