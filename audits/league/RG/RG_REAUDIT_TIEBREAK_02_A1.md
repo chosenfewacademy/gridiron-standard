@@ -1,0 +1,40 @@
+# RG_REAUDIT_TIEBREAK_02 — Tyler Booker vs Dalton Risner (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "RG_REAUDIT_TIEBREAK_02_A1",
+  "task_id": "RG_REAUDIT_TIEBREAK_02",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Tyler Booker",
+    "Dalton Risner"
+  ],
+  "pair_result": {
+    "winner": "Tyler Booker",
+    "loser": "Dalton Risner",
+    "provisional_order_holds": true,
+    "reasoning": "Booker: PFF 72.0 on 1,003 / 83.1 (#6). Risner: 69.4 on 767 / 81.4 (#8), with RBWR 82%. Booker is higher both years on a bigger workload; his 9 penalties and Risner's run win rate keep the gap small.",
+    "key_evidence_for_winner": [
+      "Tyler Booker (DAL) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 225}; roster ACT",
+      "Tyler Booker 2026: PFF 83.1 (rank 6; 357 pass-block/188 run-block of 545 snaps); 8 g/545 snaps; penalties 4; injuries none",
+      "Tyler Booker 2025: PFF 72 (rank 19; 631 pass-block/372 run-block of 1003 snaps); 14 g/1002 snaps; penalties 5; injuries ['wk4 Out (Ankle)', 'wk5 Out (Ankle)', 'wk6 Out (Ankle)', 'wk17 Questionable (Ankle)']"
+    ],
+    "key_evidence_for_loser": [
+      "Dalton Risner (CIN) ESPN 2026 win rates (thru Wk 8): IOL RBWR 82%; depth-chart side 2026 {'RG': 226}; roster ACT",
+      "Dalton Risner 2026: PFF 81.4 (rank 8; 303 pass-block/142 run-block of 445 snaps); 7 g/446 snaps; penalties 1; injuries ['wk4 Questionable (Knee)']",
+      "Dalton Risner 2025: PFF 69.4 (rank 25; 503 pass-block/264 run-block of 767 snaps); 14 g/768 snaps; penalties 4; injuries ['wk9 Questionable (Illness)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
