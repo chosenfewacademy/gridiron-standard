@@ -15881,7 +15881,7 @@
         "position": "RB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/RB.reaudit.json",
       "baseline_file": "data/baselines/RB.reaudit-20261103.json",
@@ -15891,7 +15891,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T14:14:53Z",
-      "updated_at": "2026-11-04T14:15:21.755Z",
+      "updated_at": "2026-11-04T14:15:22.048Z",
       "audit_ids": [
         "RB_REAUDIT_CANDIDATE_AUDIT_A1",
         "RB_REAUDIT_BG_01_A1",
@@ -16032,7 +16032,8 @@
         "RB_REAUDIT_TIEBREAK_20",
         "RB_REAUDIT_TIEBREAK_21",
         "RB_REAUDIT_TIEBREAK_22",
-        "RB_REAUDIT_VARIANCE_AUDIT"
+        "RB_REAUDIT_VARIANCE_AUDIT",
+        "RB_REAUDIT_SCARCITY"
       ],
       "approvals": [
         {
@@ -17032,15 +17033,19 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T14:15:20Z",
           "note": "User-approved batch t56s532: re-run RB_REAUDIT_VARIANCE_AUDIT after the approved card revisions"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RB_REAUDIT_SCARCITY",
+          "audit_id": "RB_REAUDIT_SCARCITY_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:15:21Z",
+          "note": "User-approved batch t56s532: re-run RB_REAUDIT_SCARCITY after the approved card revisions"
         }
       ],
       "current_stage": "scarcity_audit",
       "current_task": "RB_REAUDIT_SCARCITY",
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "RB_REAUDIT_SCARCITY",
-        "audit_id": "RB_REAUDIT_SCARCITY_A2"
-      },
+      "awaiting": null,
       "last_result": {
         "task_id": "RB_REAUDIT_SCARCITY",
         "status": "VALIDATED",
