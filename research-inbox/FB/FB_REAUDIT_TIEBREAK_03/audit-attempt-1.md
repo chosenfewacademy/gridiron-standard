@@ -1,0 +1,40 @@
+# FB_REAUDIT_TIEBREAK_03 — Michael Burton vs Reggie Gilliam (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "FB_REAUDIT_TIEBREAK_03_A1",
+  "task_id": "FB_REAUDIT_TIEBREAK_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Michael Burton",
+    "Reggie Gilliam"
+  ],
+  "pair_result": {
+    "winner": "Michael Burton",
+    "loser": "Reggie Gilliam",
+    "provisional_order_holds": true,
+    "reasoning": "Gilliam has the better 2025 grade (72.2) but is on reserve/IR after 52.3 on 58 snaps in 2026; Burton is healthy, CLE's FB1 and graded 63.2 in 2026. Current availability and 2026 form edge Burton.",
+    "key_evidence_for_winner": [
+      "Michael Burton (CLE) FB depth-chart snapshots 2026 {'rank1': 235}; roster ACT (RB)",
+      "Michael Burton 2026: PFF FB 63.2 (rank 2; 47 run/lead-block, 11 pass-block, 12 routes, 1 carries of 71 snaps); 8 g/70 snaps; 1-2 rush, 0-0 rec, 0 TD; penalties 0; injuries none",
+      "Michael Burton 2025: no PFF FB-alignment grade; no snaps; no touches; penalties 0; injuries none"
+    ],
+    "key_evidence_for_loser": [
+      "Reggie Gilliam (NE) FB depth-chart snapshots 2026 {'rank1': 275}; roster RES (RB)",
+      "Reggie Gilliam 2026: PFF FB 52.3 (rank 7; 41 run/lead-block, 4 pass-block, 13 routes, 0 carries of 58 snaps); 4 g/58 snaps; 0-0 rush, 1-4 rec, 0 TD; penalties 0; injuries ['wk4 Questionable (Knee)', 'wk5 Out (Ankle)']",
+      "Reggie Gilliam 2025: PFF FB 72.2 (rank 1; 189 run/lead-block, 28 pass-block, 40 routes, 2 carries of 259 snaps); 17 g/235 snaps; 2-4 rush, 2-24 rec, 0 TD; penalties 0; injuries none"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
