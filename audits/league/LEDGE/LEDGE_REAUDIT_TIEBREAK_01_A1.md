@@ -1,0 +1,40 @@
+# LEDGE_REAUDIT_TIEBREAK_01 — Will Anderson Jr. vs Greg Rousseau (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "LEDGE_REAUDIT_TIEBREAK_01_A1",
+  "task_id": "LEDGE_REAUDIT_TIEBREAK_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Will Anderson Jr.",
+    "Greg Rousseau"
+  ],
+  "pair_result": {
+    "winner": "Will Anderson Jr.",
+    "loser": "Greg Rousseau",
+    "provisional_order_holds": true,
+    "reasoning": "Anderson PFF 93.4 / 90.8 with 19.5 sacks and 30 TFL over two seasons vs Rousseau 86.3 / 86.5. Order holds.",
+    "key_evidence_for_winner": [
+      "Will Anderson Jr. (HOU) alignment side snapshots 2025-26 left 437 / right 59 -> LEDGE; roster ACT (DL); injuries no injury designation 2025-26",
+      "Will Anderson Jr. 2026: Will Anderson Jr. 2026: PFF edge 2026 overall 90.8 on 365 snaps (234 pass-rush, 130 run-defense, 1 coverage); PFR 2026 18 pressures (2 hurries, 7 QB hits, 7.5 sacks) in 6 games, 28 tackles, 0 missed; 7 g / 367 def snaps; 7.5 sacks, 15 QB hits, 10 TFL, 1 FF, 1 PD; 1 accepted penalties; PFR 2026 18 pressures (2 hurries, 7 QB hits, 7.5 sacks) in 6 games, 28 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR 30% (#10, 32/108)",
+      "Will Anderson Jr. 2025: Will Anderson Jr. 2025: PFF edge 2025 overall 93.4 on 779 snaps (529 pass-rush, 248 run-defense, 2 coverage); PFR 2025 36 pressures (15 hurries, 8 QB knockdowns, 12 sacks), 54 tackles, 3 missed; 17 g / 694 def snaps; 12.0 sacks, 23 QB hits, 20 TFL, 3 FF, 3 PD; 6 accepted penalties; PFR 2025 36 pressures (15 hurries, 8 QB knockdowns, 12 sacks), 54 tackles, 3 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Greg Rousseau (BUF) alignment side snapshots 2025-26 left 488 / right 8 -> LEDGE; roster ACT (LB); injuries no injury designation 2025-26",
+      "Greg Rousseau 2026: Greg Rousseau 2026: PFF edge 2026 overall 86.5 on 374 snaps (245 pass-rush, 121 run-defense, 8 coverage); PFR 2026 25 pressures (8 hurries, 11 QB hits, 6.0 sacks) in 6 games, 21 tackles, 1 missed; 7 g / 374 def snaps; 7.0 sacks, 22 QB hits, 9 TFL, 3 FF, 7 PD; 1 accepted penalties; PFR 2026 25 pressures (8 hurries, 11 QB hits, 6.0 sacks) in 6 games, 21 tackles, 1 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Greg Rousseau 2025: Greg Rousseau 2025: PFF edge 2025 overall 86.3 on 729 snaps (428 pass-rush, 266 run-defense, 35 coverage); PFR 2025 29 pressures (7 hurries, 13 QB knockdowns, 7 sacks), 46 tackles, 2 missed; 16 g / 629 def snaps; 7.0 sacks, 23 QB hits, 6 TFL, 1 FF, 2 PD; 1 accepted penalties; PFR 2025 29 pressures (7 hurries, 13 QB knockdowns, 7 sacks), 46 tackles, 2 missed"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
