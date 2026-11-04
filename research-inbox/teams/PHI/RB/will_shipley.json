@@ -1,0 +1,300 @@
+{
+  "record_type": "team_room_rating",
+  "team": "PHI",
+  "position": "RB",
+  "player": "Will Shipley",
+  "player_id": "will_shipley",
+  "roster_status": "Reserve/Injured (foot, placed Week 6)",
+  "authorized_by": "t48u",
+  "rated_at": "2026-11-03T22:40:00-05:00",
+  "methodology_version": "1.1.0",
+  "audit_order": "1.1.2",
+  "status": "PROPOSED_UNLOCKED",
+  "overall": 61,
+  "ratings": {
+    "SPD": 84,
+    "ACC": 86,
+    "AGI": 86,
+    "COD": 86,
+    "STR": 66,
+    "AWR": 66,
+    "CAR": 74,
+    "BCV": 70,
+    "BTK": 68,
+    "TRK": 62,
+    "SFA": 64,
+    "SPM": 66,
+    "JKM": 76,
+    "CTH": 70,
+    "CIT": 50,
+    "SRR": 62,
+    "MRR": 52,
+    "DRR": 44,
+    "RLS": 52,
+    "JMP": 82,
+    "INJ": 72,
+    "STA": 84,
+    "TGH": 82
+  },
+  "confidence": "LOW",
+  "style_profile": "Special-teams-first change-of-pace back: shifty and quick in space with check-down hands, but has not produced as a runner (sub-3.5 ypc every NFL season)",
+  "style_evidence": [
+    "2024 PHI: 30 car, 82 yds, 2.73 ypc; 4 rec 35 yds",
+    "2025 PHI: 14 car, 49 yds, 3.50 ypc, 1 fumble lost; 9/12 rec 56 yds; 116 off / 245 ST snaps",
+    "2026 PHI (5 g): 20 car, 57 yds, 2.85 ypc, 1 TD, EPA/rush -.297, success 25%; 5/8 rec 31 yds; foot injury in Week 5, IR"
+  ],
+  "key_stats": [
+    "2024 PHI: 30 car, 82 yds, 2.73 ypc; 4 rec 35 yds",
+    "2025 PHI: 14 car, 49 yds, 3.50 ypc, 1 fumble lost; 9/12 rec 56 yds; 116 off / 245 ST snaps",
+    "2026 PHI (5 g): 20 car, 57 yds, 2.85 ypc, 1 TD, EPA/rush -.297, success 25%; 5/8 rec 31 yds; foot injury in Week 5, IR"
+  ],
+  "top10_calibration": {
+    "baseline": "data/baselines/RB.reaudit-20261103.json",
+    "madden_order_verified": false,
+    "calibrated_against": [
+      "James Cook",
+      "Tony Pollard"
+    ],
+    "placement": "Far below the top 10; light space-back shape like James Cook/Tony Pollard but without their rushing efficiency; ranks just under Blue on speed"
+  },
+  "madden27_reference": {
+    "policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+    "source": "https://www.ea.com/games/madden-nfl/ratings",
+    "retrieved_at": "2026-11-03T22:20:00-05:00",
+    "available": true,
+    "table": [
+      {
+        "attribute": "OVR",
+        "ours": 61,
+        "madden": 72,
+        "delta": -11
+      },
+      {
+        "attribute": "SPD",
+        "ours": 84,
+        "madden": 91,
+        "delta": -7
+      },
+      {
+        "attribute": "ACC",
+        "ours": 86,
+        "madden": 91,
+        "delta": -5
+      },
+      {
+        "attribute": "AGI",
+        "ours": 86,
+        "madden": 87,
+        "delta": -1
+      },
+      {
+        "attribute": "COD",
+        "ours": 86,
+        "madden": 89,
+        "delta": -3
+      },
+      {
+        "attribute": "STR",
+        "ours": 66,
+        "madden": 68,
+        "delta": -2
+      },
+      {
+        "attribute": "AWR",
+        "ours": 66,
+        "madden": 71,
+        "delta": -5
+      },
+      {
+        "attribute": "CAR",
+        "ours": 74,
+        "madden": 83,
+        "delta": -9
+      },
+      {
+        "attribute": "BCV",
+        "ours": 70,
+        "madden": 80,
+        "delta": -10
+      },
+      {
+        "attribute": "BTK",
+        "ours": 68,
+        "madden": 74,
+        "delta": -6
+      },
+      {
+        "attribute": "TRK",
+        "ours": 62,
+        "madden": 76,
+        "delta": -14
+      },
+      {
+        "attribute": "SFA",
+        "ours": 64,
+        "madden": 73,
+        "delta": -9
+      },
+      {
+        "attribute": "SPM",
+        "ours": 66,
+        "madden": 74,
+        "delta": -8
+      },
+      {
+        "attribute": "JKM",
+        "ours": 76,
+        "madden": 83,
+        "delta": -7
+      },
+      {
+        "attribute": "CTH",
+        "ours": 70,
+        "madden": 64,
+        "delta": 6
+      },
+      {
+        "attribute": "CIT",
+        "ours": 50,
+        "madden": 52,
+        "delta": -2
+      },
+      {
+        "attribute": "SRR",
+        "ours": 62,
+        "madden": 67,
+        "delta": -5
+      },
+      {
+        "attribute": "MRR",
+        "ours": 52,
+        "madden": 62,
+        "delta": -10
+      },
+      {
+        "attribute": "DRR",
+        "ours": 44,
+        "madden": 55,
+        "delta": -11
+      },
+      {
+        "attribute": "RLS",
+        "ours": 52,
+        "madden": 58,
+        "delta": -6
+      },
+      {
+        "attribute": "JMP",
+        "ours": 82,
+        "madden": 90,
+        "delta": -8
+      },
+      {
+        "attribute": "INJ",
+        "ours": 72,
+        "madden": 83,
+        "delta": -11
+      },
+      {
+        "attribute": "STA",
+        "ours": 84,
+        "madden": 90,
+        "delta": -6
+      },
+      {
+        "attribute": "TGH",
+        "ours": 82,
+        "madden": 83,
+        "delta": -1
+      }
+    ]
+  },
+  "variance_audit": {
+    "threshold": 10,
+    "gaps": [
+      {
+        "attribute": "OVR",
+        "ours": 61,
+        "madden": 72,
+        "delta": -11,
+        "verdict": "SUPPORTED",
+        "explanation": "-11 vs Madden 72: 2.73/3.50/2.85 ypc in 2024/25/26; 2026 EPA/rush -.297, success 25% - SUPPORTED"
+      },
+      {
+        "attribute": "BCV",
+        "ours": 70,
+        "madden": 80,
+        "delta": -10,
+        "verdict": "SUPPORTED",
+        "explanation": "-10 vs Madden 80: success 20%/29%/25% across 2024-26 - SUPPORTED"
+      },
+      {
+        "attribute": "TRK",
+        "ours": 62,
+        "madden": 76,
+        "delta": -14,
+        "verdict": "SUPPORTED",
+        "explanation": "-14 vs Madden 76: 209 lb, 0 SY conversions - SUPPORTED"
+      },
+      {
+        "attribute": "MRR",
+        "ours": 52,
+        "madden": 62,
+        "delta": -10,
+        "verdict": "SUPPORTED",
+        "explanation": "-10 vs Madden 62: targets are checkdowns (9/12, 56 yds 2025) - SUPPORTED"
+      },
+      {
+        "attribute": "DRR",
+        "ours": 44,
+        "madden": 55,
+        "delta": -11,
+        "verdict": "SUPPORTED",
+        "explanation": "-11 vs Madden 55: no deep targets 2024-26 - SUPPORTED"
+      },
+      {
+        "attribute": "INJ",
+        "ours": 72,
+        "madden": 83,
+        "delta": -11,
+        "verdict": "SUPPORTED",
+        "explanation": "-11 vs Madden 83: partial foot injury, IR Week 6 2026 - SUPPORTED"
+      }
+    ]
+  },
+  "style_similarity_check": {
+    "rule": "corr>=0.95 or mad<=3 flags STYLE_PROFILE_TOO_SIMILAR",
+    "compared_against": "15 approved RB re-audit ratings + PHI RB room",
+    "max_corr": [
+      "Bhayshul Tuten",
+      0.943,
+      5.26
+    ],
+    "min_mad": [
+      "Elijah Mitchell",
+      0.895,
+      4.35
+    ],
+    "flags": [],
+    "result": "PASS"
+  },
+  "ceiling_check": {
+    "locked_top10_floor": "Jonathan Taylor 78 (RB.reaudit-20261103 LOCKED)",
+    "rule": "non-top-10 RB must rate <=78 and below Taylor in judgment",
+    "result": "PASS",
+    "overall": 61
+  },
+  "sources": [
+    "https://www.philadelphiaeagles.com/team/players-roster/",
+    "https://www.philadelphiaeagles.com/news/eagles-sign-rb-jaydon-blue-to-the-active-roster-add-three-to-the-practice-squad-dameon-pierce",
+    "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/dameon-pierce-saquon-barkley-tank-bigsby-injured-reserve/762463/",
+    "https://sports.yahoo.com/articles/eagles-running-back-crisis-deepens-005001624.html",
+    "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2024.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+    "https://www.pff.com/grades/nfl/hb/2026",
+    "https://www.ea.com/games/madden-nfl/ratings"
+  ]
+}

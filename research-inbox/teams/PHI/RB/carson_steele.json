@@ -1,0 +1,251 @@
+{
+  "record_type": "team_room_rating",
+  "team": "PHI",
+  "position": "RB",
+  "player": "Carson Steele",
+  "player_id": "carson_steele",
+  "roster_status": "Reserve/Injured (waived/injured, reverted to IR after injury vs CAR)",
+  "authorized_by": "t48u",
+  "rated_at": "2026-11-03T22:40:00-05:00",
+  "methodology_version": "1.1.0",
+  "audit_order": "1.1.2",
+  "status": "PROPOSED_UNLOCKED",
+  "overall": 56,
+  "ratings": {
+    "SPD": 78,
+    "ACC": 78,
+    "AGI": 66,
+    "COD": 64,
+    "STR": 84,
+    "AWR": 64,
+    "CAR": 66,
+    "BCV": 64,
+    "BTK": 70,
+    "TRK": 80,
+    "SFA": 72,
+    "SPM": 54,
+    "JKM": 58,
+    "CTH": 62,
+    "CIT": 56,
+    "SRR": 50,
+    "MRR": 40,
+    "DRR": 32,
+    "RLS": 46,
+    "JMP": 70,
+    "INJ": 74,
+    "STA": 72,
+    "TGH": 84
+  },
+  "confidence": "LOW",
+  "style_profile": "Bruising FB/RB hybrid and special-teamer: north-south short-yardage pusher with no wiggle and a fumble problem",
+  "style_evidence": [
+    "2024 KC: 56 car, 183 yds, 3.27 ypc, success 46%, SY 6/8, 2 fumbles lost; 7 rec 26 yds",
+    "2026 PHI: 3 off / 29 ST snaps; 1 rec 4 yds",
+    "No Madden 27 entry found in EA ratings API on 2026-11-03 (released/IR) - Madden comparison N/A"
+  ],
+  "key_stats": [
+    "2024 KC: 56 car, 183 yds, 3.27 ypc, success 46%, SY 6/8, 2 fumbles lost; 7 rec 26 yds",
+    "2026 PHI: 3 off / 29 ST snaps; 1 rec 4 yds",
+    "No Madden 27 entry found in EA ratings API on 2026-11-03 (released/IR) - Madden comparison N/A"
+  ],
+  "top10_calibration": {
+    "baseline": "data/baselines/RB.reaudit-20261103.json",
+    "madden_order_verified": false,
+    "calibrated_against": [
+      "Derrick Henry",
+      "Braelon Allen"
+    ],
+    "placement": "Far below the top 10; power-only shape compared with Derrick Henry/Braelon Allen on TRK/STR but with no evidence of creation"
+  },
+  "madden27_reference": {
+    "policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+    "source": "https://www.ea.com/games/madden-nfl/ratings",
+    "retrieved_at": "2026-11-03T22:20:00-05:00",
+    "available": false,
+    "table": [
+      {
+        "attribute": "OVR",
+        "ours": 56,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "SPD",
+        "ours": 78,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "ACC",
+        "ours": 78,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "AGI",
+        "ours": 66,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "COD",
+        "ours": 64,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "STR",
+        "ours": 84,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "AWR",
+        "ours": 64,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "CAR",
+        "ours": 66,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "BCV",
+        "ours": 64,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "BTK",
+        "ours": 70,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "TRK",
+        "ours": 80,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "SFA",
+        "ours": 72,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "SPM",
+        "ours": 54,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "JKM",
+        "ours": 58,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "CTH",
+        "ours": 62,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "CIT",
+        "ours": 56,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "SRR",
+        "ours": 50,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "MRR",
+        "ours": 40,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "DRR",
+        "ours": 32,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "RLS",
+        "ours": 46,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "JMP",
+        "ours": 70,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "INJ",
+        "ours": 74,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "STA",
+        "ours": 72,
+        "madden": null,
+        "delta": null
+      },
+      {
+        "attribute": "TGH",
+        "ours": 84,
+        "madden": null,
+        "delta": null
+      }
+    ]
+  },
+  "variance_audit": {
+    "threshold": 10,
+    "gaps": []
+  },
+  "style_similarity_check": {
+    "rule": "corr>=0.95 or mad<=3 flags STYLE_PROFILE_TOO_SIMILAR",
+    "compared_against": "15 approved RB re-audit ratings + PHI RB room",
+    "max_corr": [
+      "Dameon Pierce",
+      0.927,
+      6.7
+    ],
+    "min_mad": [
+      "Dameon Pierce",
+      0.927,
+      6.7
+    ],
+    "flags": [],
+    "result": "PASS"
+  },
+  "ceiling_check": {
+    "locked_top10_floor": "Jonathan Taylor 78 (RB.reaudit-20261103 LOCKED)",
+    "rule": "non-top-10 RB must rate <=78 and below Taylor in judgment",
+    "result": "PASS",
+    "overall": 56
+  },
+  "sources": [
+    "https://www.philadelphiaeagles.com/team/players-roster/",
+    "https://www.philadelphiaeagles.com/news/eagles-sign-rb-jaydon-blue-to-the-active-roster-add-three-to-the-practice-squad-dameon-pierce",
+    "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/dameon-pierce-saquon-barkley-tank-bigsby-injured-reserve/762463/",
+    "https://sports.yahoo.com/articles/eagles-running-back-crisis-deepens-005001624.html",
+    "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2024.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+    "https://www.pff.com/grades/nfl/hb/2026",
+    "https://www.ea.com/games/madden-nfl/ratings"
+  ]
+}

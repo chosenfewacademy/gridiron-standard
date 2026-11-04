@@ -1,0 +1,294 @@
+{
+  "record_type": "team_room_rating",
+  "team": "PHI",
+  "position": "RB",
+  "player": "Tank Bigsby",
+  "player_id": "tank_bigsby",
+  "roster_status": "Reserve/Injured (injured Week 4 vs LAR)",
+  "authorized_by": "t48u",
+  "rated_at": "2026-11-03T22:40:00-05:00",
+  "methodology_version": "1.1.0",
+  "audit_order": "1.1.2",
+  "status": "PROPOSED_UNLOCKED",
+  "overall": 68,
+  "ratings": {
+    "SPD": 88,
+    "ACC": 88,
+    "AGI": 80,
+    "COD": 80,
+    "STR": 80,
+    "AWR": 66,
+    "CAR": 74,
+    "BCV": 72,
+    "BTK": 86,
+    "TRK": 82,
+    "SFA": 78,
+    "SPM": 70,
+    "JKM": 76,
+    "CTH": 56,
+    "CIT": 42,
+    "SRR": 50,
+    "MRR": 42,
+    "DRR": 36,
+    "RLS": 42,
+    "JMP": 72,
+    "INJ": 72,
+    "STA": 82,
+    "TGH": 88
+  },
+  "confidence": "MEDIUM",
+  "style_profile": "Contact-first one-cut power slasher: breaks tackles and finishes runs, explosive on limited 2025 volume, but little receiving value and ball-security lapses",
+  "style_evidence": [
+    "2024 JAX: 168 car, 766 yds, 4.56 ypc, 7 TD, EPA/rush -.005, success 38%, SY 13/21; 7 rec 54 yds; 1 fumble lost",
+    "2025 JAX/PHI: 63 car, 356 yds, 5.65 ypc, 2 TD, EPA/rush +.115, success 48%, stuff 12.7%, 10+ rate 20.6%; 139 off / 50 ST snaps",
+    "2026 PHI (4 g): 28 car, 91 yds, 3.25 ypc, 1 TD, EPA/rush -.171, 10+ rate 3.6%, 3 rec 10 yds, 1 fumble lost; IR after Week 4 injury",
+    "Receiving: 14 career-window targets 2024-26; pass-pro/YPRR not public (PFF premium) - LOW-MEDIUM confidence on route attrs"
+  ],
+  "key_stats": [
+    "2024 JAX: 168 car, 766 yds, 4.56 ypc, 7 TD, EPA/rush -.005, success 38%, SY 13/21; 7 rec 54 yds; 1 fumble lost",
+    "2025 JAX/PHI: 63 car, 356 yds, 5.65 ypc, 2 TD, EPA/rush +.115, success 48%, stuff 12.7%, 10+ rate 20.6%; 139 off / 50 ST snaps",
+    "2026 PHI (4 g): 28 car, 91 yds, 3.25 ypc, 1 TD, EPA/rush -.171, 10+ rate 3.6%, 3 rec 10 yds, 1 fumble lost; IR after Week 4 injury",
+    "Receiving: 14 career-window targets 2024-26; pass-pro/YPRR not public (PFF premium) - LOW-MEDIUM confidence on route attrs"
+  ],
+  "top10_calibration": {
+    "baseline": "data/baselines/RB.reaudit-20261103.json",
+    "madden_order_verified": false,
+    "calibrated_against": [
+      "Jonathan Taylor",
+      "Braelon Allen"
+    ],
+    "placement": "Well below the top 10; nearest top-10 analogue by attributes is Jonathan Taylor (78) for the power-slash build but every component trails (BCV 74 vs 82, CAR 80 vs 78 aside); calibrated under external control Braelon Allen 75 (similar TRK/BTK profile, more proven RYOE)"
+  },
+  "madden27_reference": {
+    "policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+    "source": "https://www.ea.com/games/madden-nfl/ratings",
+    "retrieved_at": "2026-11-03T22:20:00-05:00",
+    "available": true,
+    "table": [
+      {
+        "attribute": "OVR",
+        "ours": 68,
+        "madden": 78,
+        "delta": -10
+      },
+      {
+        "attribute": "SPD",
+        "ours": 88,
+        "madden": 92,
+        "delta": -4
+      },
+      {
+        "attribute": "ACC",
+        "ours": 88,
+        "madden": 92,
+        "delta": -4
+      },
+      {
+        "attribute": "AGI",
+        "ours": 80,
+        "madden": 84,
+        "delta": -4
+      },
+      {
+        "attribute": "COD",
+        "ours": 80,
+        "madden": 86,
+        "delta": -6
+      },
+      {
+        "attribute": "STR",
+        "ours": 80,
+        "madden": 75,
+        "delta": 5
+      },
+      {
+        "attribute": "AWR",
+        "ours": 66,
+        "madden": 80,
+        "delta": -14
+      },
+      {
+        "attribute": "CAR",
+        "ours": 74,
+        "madden": 88,
+        "delta": -14
+      },
+      {
+        "attribute": "BCV",
+        "ours": 72,
+        "madden": 85,
+        "delta": -13
+      },
+      {
+        "attribute": "BTK",
+        "ours": 86,
+        "madden": 84,
+        "delta": 2
+      },
+      {
+        "attribute": "TRK",
+        "ours": 82,
+        "madden": 85,
+        "delta": -3
+      },
+      {
+        "attribute": "SFA",
+        "ours": 78,
+        "madden": 78,
+        "delta": 0
+      },
+      {
+        "attribute": "SPM",
+        "ours": 70,
+        "madden": 72,
+        "delta": -2
+      },
+      {
+        "attribute": "JKM",
+        "ours": 76,
+        "madden": 84,
+        "delta": -8
+      },
+      {
+        "attribute": "CTH",
+        "ours": 56,
+        "madden": 62,
+        "delta": -6
+      },
+      {
+        "attribute": "CIT",
+        "ours": 42,
+        "madden": 51,
+        "delta": -9
+      },
+      {
+        "attribute": "SRR",
+        "ours": 50,
+        "madden": 56,
+        "delta": -6
+      },
+      {
+        "attribute": "MRR",
+        "ours": 42,
+        "madden": 48,
+        "delta": -6
+      },
+      {
+        "attribute": "DRR",
+        "ours": 36,
+        "madden": 40,
+        "delta": -4
+      },
+      {
+        "attribute": "RLS",
+        "ours": 42,
+        "madden": 51,
+        "delta": -9
+      },
+      {
+        "attribute": "JMP",
+        "ours": 72,
+        "madden": 81,
+        "delta": -9
+      },
+      {
+        "attribute": "INJ",
+        "ours": 72,
+        "madden": 92,
+        "delta": -20
+      },
+      {
+        "attribute": "STA",
+        "ours": 82,
+        "madden": 86,
+        "delta": -4
+      },
+      {
+        "attribute": "TGH",
+        "ours": 88,
+        "madden": 88,
+        "delta": 0
+      }
+    ]
+  },
+  "variance_audit": {
+    "threshold": 10,
+    "gaps": [
+      {
+        "attribute": "OVR",
+        "ours": 68,
+        "madden": 78,
+        "delta": -10,
+        "verdict": "SUPPORTED",
+        "explanation": "-10 vs Madden 78: 2026 3.25 ypc, EPA/rush -.171 on 28 car before IR; strong 2025 (5.65 ypc) came on 63 car; ceiling is Taylor 78 and he sits under Allen 75 - SUPPORTED"
+      },
+      {
+        "attribute": "AWR",
+        "ours": 66,
+        "madden": 80,
+        "delta": -14,
+        "verdict": "SUPPORTED",
+        "explanation": "-14 vs Madden 80: success 38% (2024), 36% (2026); limited pass-game role (14 tgt in 3 seasons) - SUPPORTED"
+      },
+      {
+        "attribute": "CAR",
+        "ours": 74,
+        "madden": 88,
+        "delta": -14,
+        "verdict": "SUPPORTED",
+        "explanation": "-14 vs Madden 88: fumble lost 2024 and on 28 carries in 2026; Madden 88 overstates - SUPPORTED"
+      },
+      {
+        "attribute": "BCV",
+        "ours": 72,
+        "madden": 85,
+        "delta": -13,
+        "verdict": "SUPPORTED",
+        "explanation": "-13 vs Madden 85: 2026 10+ rate 3.6%, stuff 17.9%; 2024 success 38% - power runner, not a vision back - SUPPORTED"
+      },
+      {
+        "attribute": "INJ",
+        "ours": 72,
+        "madden": 92,
+        "delta": -20,
+        "verdict": "SUPPORTED",
+        "explanation": "-20 vs Madden 92: on IR from Week 4 2026 injury - SUPPORTED"
+      }
+    ]
+  },
+  "style_similarity_check": {
+    "rule": "corr>=0.95 or mad<=3 flags STYLE_PROFILE_TOO_SIMILAR",
+    "compared_against": "15 approved RB re-audit ratings + PHI RB room",
+    "max_corr": [
+      "Kenneth Walker III",
+      0.941,
+      7.35
+    ],
+    "min_mad": [
+      "Braelon Allen",
+      0.924,
+      6.13
+    ],
+    "flags": [],
+    "result": "PASS"
+  },
+  "ceiling_check": {
+    "locked_top10_floor": "Jonathan Taylor 78 (RB.reaudit-20261103 LOCKED)",
+    "rule": "non-top-10 RB must rate <=78 and below Taylor in judgment",
+    "result": "PASS",
+    "overall": 68
+  },
+  "sources": [
+    "https://www.philadelphiaeagles.com/team/players-roster/",
+    "https://www.philadelphiaeagles.com/news/eagles-sign-rb-jaydon-blue-to-the-active-roster-add-three-to-the-practice-squad-dameon-pierce",
+    "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/dameon-pierce-saquon-barkley-tank-bigsby-injured-reserve/762463/",
+    "https://sports.yahoo.com/articles/eagles-running-back-crisis-deepens-005001624.html",
+    "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2024.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+    "https://www.pff.com/grades/nfl/hb/2026",
+    "https://www.ea.com/games/madden-nfl/ratings"
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "record_type": "team_room_rating",
+  "team": "PHI",
+  "position": "RB",
+  "player": "Saquon Barkley",
+  "player_id": "saquon_barkley",
+  "roster_status": "Active (#26; stinger, hamstring and back injuries in 2026, missed 2 games; played Week 8 vs WAS)",
+  "authorized_by": "t48u",
+  "rated_at": "2026-11-03T22:40:00-05:00",
+  "methodology_version": "1.1.0",
+  "audit_order": "1.1.2",
+  "status": "PROPOSED_UNLOCKED",
+  "overall": 75,
+  "ratings": {
+    "SPD": 89,
+    "ACC": 88,
+    "AGI": 86,
+    "COD": 84,
+    "STR": 82,
+    "AWR": 84,
+    "CAR": 88,
+    "BCV": 80,
+    "BTK": 82,
+    "TRK": 80,
+    "SFA": 82,
+    "SPM": 80,
+    "JKM": 84,
+    "CTH": 72,
+    "CIT": 56,
+    "SRR": 70,
+    "MRR": 60,
+    "DRR": 54,
+    "RLS": 58,
+    "JMP": 88,
+    "INJ": 66,
+    "STA": 80,
+    "TGH": 86
+  },
+  "confidence": "MEDIUM",
+  "style_profile": "Aging big-play feature back: hurdle/jump-cut creator with power and long speed still there in flashes, but 2025 efficiency fell off (stuff 24%) and a 2026 injury run keeps him off the field",
+  "style_evidence": [
+    "2024 PHI: 348 car, 2011 yds, 5.78 ypc, 13 TD, EPA/rush +.107, success 45%, 17 runs of 20+, 3rd/4th-and-<=2 8/15 (nflverse pbp)",
+    "2025 PHI: 281 car, 1142 yds, 4.06 ypc, 7 TD, EPA/rush -.086, success 38%, stuff 24.2%, 10+ rate 10%, 4 runs of 20+, SY 5/6; 37/51 rec 273 yds, 8.0 YAC/rec, rec EPA -5.0; 1 fumble lost; 773 off snaps",
+    "2026 (6 g, 123 off snaps): 56 car, 274 yds, 4.89 ypc, 2 TD, EPA/rush +.018, success 39%, stuff 19.6%, RYOE/att +1.01, 2 runs of 20+; 7/10 rec 41 yds; 0 fumbles lost",
+    "PFF HB 2026 71.6 (repo RB_REAUDIT_BG_01); league ceiling screen snap-weighted PFF 68.5, availability .88, not flagged above Taylor (RB_REAUDIT_LEAGUE_CEILING_CHECK)",
+    "Injuries 2026: stinger, hamstring (missed 2 games), back locked up after 10 snaps vs DAL (NBC Sports Philadelphia); age 29"
+  ],
+  "key_stats": [
+    "2024 PHI: 348 car, 2011 yds, 5.78 ypc, 13 TD, EPA/rush +.107, success 45%, 17 runs of 20+, 3rd/4th-and-<=2 8/15 (nflverse pbp)",
+    "2025 PHI: 281 car, 1142 yds, 4.06 ypc, 7 TD, EPA/rush -.086, success 38%, stuff 24.2%, 10+ rate 10%, 4 runs of 20+, SY 5/6; 37/51 rec 273 yds, 8.0 YAC/rec, rec EPA -5.0; 1 fumble lost; 773 off snaps",
+    "2026 (6 g, 123 off snaps): 56 car, 274 yds, 4.89 ypc, 2 TD, EPA/rush +.018, success 39%, stuff 19.6%, RYOE/att +1.01, 2 runs of 20+; 7/10 rec 41 yds; 0 fumbles lost",
+    "PFF HB 2026 71.6 (repo RB_REAUDIT_BG_01); league ceiling screen snap-weighted PFF 68.5, availability .88, not flagged above Taylor (RB_REAUDIT_LEAGUE_CEILING_CHECK)",
+    "Injuries 2026: stinger, hamstring (missed 2 games), back locked up after 10 snaps vs DAL (NBC Sports Philadelphia); age 29"
+  ],
+  "top10_calibration": {
+    "baseline": "data/baselines/RB.reaudit-20261103.json",
+    "madden_order_verified": false,
+    "calibrated_against": [
+      "Jonathan Taylor",
+      "Derrick Henry",
+      "Braelon Allen"
+    ],
+    "placement": "Below Jonathan Taylor (#10, 78) and in line with external controls Derrick Henry 76 / Braelon Allen 75: Barkley's 2026 sample (56 car, 123 snaps) is too small and his 2025 (4.06 ypc, EPA/rush -.086, success 38%, stuff 24%) is below Taylor's workload-backed profile; his SPD/JKM/JMP sit near Taylor (90/76/80) while BCV 80 trails Taylor 82 and INJ 66 is far below Taylor 86"
+  },
+  "madden27_reference": {
+    "policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+    "source": "https://www.ea.com/games/madden-nfl/ratings",
+    "retrieved_at": "2026-11-03T22:20:00-05:00",
+    "available": true,
+    "table": [
+      {
+        "attribute": "OVR",
+        "ours": 75,
+        "madden": 99,
+        "delta": -24
+      },
+      {
+        "attribute": "SPD",
+        "ours": 89,
+        "madden": 95,
+        "delta": -6
+      },
+      {
+        "attribute": "ACC",
+        "ours": 88,
+        "madden": 94,
+        "delta": -6
+      },
+      {
+        "attribute": "AGI",
+        "ours": 86,
+        "madden": 95,
+        "delta": -9
+      },
+      {
+        "attribute": "COD",
+        "ours": 84,
+        "madden": 94,
+        "delta": -10
+      },
+      {
+        "attribute": "STR",
+        "ours": 82,
+        "madden": 81,
+        "delta": 1
+      },
+      {
+        "attribute": "AWR",
+        "ours": 84,
+        "madden": 99,
+        "delta": -15
+      },
+      {
+        "attribute": "CAR",
+        "ours": 88,
+        "madden": 97,
+        "delta": -9
+      },
+      {
+        "attribute": "BCV",
+        "ours": 80,
+        "madden": 87,
+        "delta": -7
+      },
+      {
+        "attribute": "BTK",
+        "ours": 82,
+        "madden": 90,
+        "delta": -8
+      },
+      {
+        "attribute": "TRK",
+        "ours": 80,
+        "madden": 84,
+        "delta": -4
+      },
+      {
+        "attribute": "SFA",
+        "ours": 82,
+        "madden": 88,
+        "delta": -6
+      },
+      {
+        "attribute": "SPM",
+        "ours": 80,
+        "madden": 95,
+        "delta": -15
+      },
+      {
+        "attribute": "JKM",
+        "ours": 84,
+        "madden": 96,
+        "delta": -12
+      },
+      {
+        "attribute": "CTH",
+        "ours": 72,
+        "madden": 74,
+        "delta": -2
+      },
+      {
+        "attribute": "CIT",
+        "ours": 56,
+        "madden": 62,
+        "delta": -6
+      },
+      {
+        "attribute": "SRR",
+        "ours": 70,
+        "madden": 75,
+        "delta": -5
+      },
+      {
+        "attribute": "MRR",
+        "ours": 60,
+        "madden": 67,
+        "delta": -7
+      },
+      {
+        "attribute": "DRR",
+        "ours": 54,
+        "madden": 65,
+        "delta": -11
+      },
+      {
+        "attribute": "RLS",
+        "ours": 58,
+        "madden": 69,
+        "delta": -11
+      },
+      {
+        "attribute": "JMP",
+        "ours": 88,
+        "madden": 96,
+        "delta": -8
+      },
+      {
+        "attribute": "INJ",
+        "ours": 66,
+        "madden": 91,
+        "delta": -25
+      },
+      {
+        "attribute": "STA",
+        "ours": 80,
+        "madden": 94,
+        "delta": -14
+      },
+      {
+        "attribute": "TGH",
+        "ours": 86,
+        "madden": 90,
+        "delta": -4
+      }
+    ]
+  },
+  "variance_audit": {
+    "threshold": 10,
+    "gaps": [
+      {
+        "attribute": "OVR",
+        "ours": 75,
+        "madden": 99,
+        "delta": -24,
+        "verdict": "SUPPORTED",
+        "explanation": "-24 vs Madden 99: Madden 99 is a reputation/2024 rating; 2025 4.06 ypc, EPA/rush -.086, stuff 24%; 2026 only 123 snaps with 3 injuries; locked ceiling forces <=78 and the league ceiling screen did not flag him above Taylor - SUPPORTED"
+      },
+      {
+        "attribute": "COD",
+        "ours": 84,
+        "madden": 94,
+        "delta": -10,
+        "verdict": "SUPPORTED",
+        "explanation": "-10 vs Madden 94: age 29 with hamstring/back injuries in 2026; 10+ run rate fell from 13% (2024) to 10% (2025) - SUPPORTED"
+      },
+      {
+        "attribute": "AWR",
+        "ours": 84,
+        "madden": 99,
+        "delta": -15,
+        "verdict": "SUPPORTED",
+        "explanation": "-15 vs Madden 99: success 38% (2025) and 39% (2026), BCV-type reads lag 2024; 99 is unsupported - SUPPORTED"
+      },
+      {
+        "attribute": "SPM",
+        "ours": 80,
+        "madden": 95,
+        "delta": -15,
+        "verdict": "SUPPORTED",
+        "explanation": "-15 vs Madden 95: spin is not a defining move in his tape-era stats; 2025 stuff 24% shows fewer evasions - SUPPORTED"
+      },
+      {
+        "attribute": "JKM",
+        "ours": 84,
+        "madden": 96,
+        "delta": -12,
+        "verdict": "SUPPORTED",
+        "explanation": "-12 vs Madden 96: jump-cut remains signature (RYOE +1.01 small 2026 sample) but 2025 10+ rate 10% vs 13% 2024 - SUPPORTED"
+      },
+      {
+        "attribute": "DRR",
+        "ours": 54,
+        "madden": 65,
+        "delta": -11,
+        "verdict": "SUPPORTED",
+        "explanation": "-11 vs Madden 65: deep route usage minimal (51 tgt 2025, 8.0 YAC/rec mostly screens) - SUPPORTED"
+      },
+      {
+        "attribute": "RLS",
+        "ours": 58,
+        "madden": 69,
+        "delta": -11,
+        "verdict": "SUPPORTED",
+        "explanation": "-11 vs Madden 69: 51 tgt in 2025 mostly screens/checkdowns (8.0 YAC/rec, rec EPA -5.0); release vs press rarely tested - SUPPORTED"
+      },
+      {
+        "attribute": "INJ",
+        "ours": 66,
+        "madden": 91,
+        "delta": -25,
+        "verdict": "SUPPORTED",
+        "explanation": "-25 vs Madden 91: stinger, hamstring (2 games missed) and back injury in 2026, age 29 - SUPPORTED"
+      },
+      {
+        "attribute": "STA",
+        "ours": 80,
+        "madden": 94,
+        "delta": -14,
+        "verdict": "SUPPORTED",
+        "explanation": "-14 vs Madden 94: 123 off snaps in 6 games 2026, left DAL after 10 snaps - SUPPORTED"
+      }
+    ]
+  },
+  "style_similarity_check": {
+    "rule": "corr>=0.95 or mad<=3 flags STYLE_PROFILE_TOO_SIMILAR",
+    "compared_against": "15 approved RB re-audit ratings + PHI RB room",
+    "max_corr": [
+      "Elijah Mitchell",
+      0.933,
+      7.43
+    ],
+    "min_mad": [
+      "Jonathan Taylor",
+      0.841,
+      4.3
+    ],
+    "flags": [],
+    "result": "PASS"
+  },
+  "ceiling_check": {
+    "locked_top10_floor": "Jonathan Taylor 78 (RB.reaudit-20261103 LOCKED)",
+    "rule": "non-top-10 RB must rate <=78 and below Taylor in judgment",
+    "result": "PASS",
+    "overall": 75
+  },
+  "sources": [
+    "https://www.philadelphiaeagles.com/team/players-roster/",
+    "https://www.philadelphiaeagles.com/news/eagles-sign-rb-jaydon-blue-to-the-active-roster-add-three-to-the-practice-squad-dameon-pierce",
+    "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/dameon-pierce-saquon-barkley-tank-bigsby-injured-reserve/762463/",
+    "https://sports.yahoo.com/articles/eagles-running-back-crisis-deepens-005001624.html",
+    "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2024.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+    "https://www.pff.com/grades/nfl/hb/2026",
+    "https://www.ea.com/games/madden-nfl/ratings"
+  ]
+}

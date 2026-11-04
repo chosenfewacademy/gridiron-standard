@@ -1,0 +1,342 @@
+{
+  "record_type": "team_room_rating",
+  "team": "PHI",
+  "position": "RB",
+  "player": "Dameon Pierce",
+  "player_id": "dameon_pierce",
+  "roster_status": "Reserve/Injured (placed 2026-10-28; injured vs DAL)",
+  "authorized_by": "t48u",
+  "rated_at": "2026-11-03T22:40:00-05:00",
+  "methodology_version": "1.1.0",
+  "audit_order": "1.1.2",
+  "status": "PROPOSED_UNLOCKED",
+  "overall": 64,
+  "ratings": {
+    "SPD": 82,
+    "ACC": 88,
+    "AGI": 76,
+    "COD": 74,
+    "STR": 86,
+    "AWR": 70,
+    "CAR": 88,
+    "BCV": 64,
+    "BTK": 78,
+    "TRK": 88,
+    "SFA": 86,
+    "SPM": 56,
+    "JKM": 66,
+    "CTH": 50,
+    "CIT": 50,
+    "SRR": 46,
+    "MRR": 38,
+    "DRR": 30,
+    "RLS": 38,
+    "JMP": 80,
+    "INJ": 74,
+    "STA": 72,
+    "TGH": 90
+  },
+  "confidence": "MEDIUM",
+  "style_profile": "Downhill short-yardage grinder: low-pad power finisher who converted goal-line and short-yardage work, but frequently stuffed and nearly no receiving value",
+  "style_evidence": [
+    "2022 rookie HOU: 939 yds in 13 g; 2024 HOU: 40 car, 293 yds, 7.32 ypc (philadelphiaeagles.com / nflverse)",
+    "2025 HOU/KC: 14 car, 36 yds, 2.57 ypc; 28 off snaps",
+    "2026 PHI (3 g, 151 off snaps): 37 car, 96 yds, 2.59 ypc, 2 TD, EPA/rush -.159, success 38%, stuff 35.1%, 10+ rate 2.7%, SY 2/2; 7/11 rec 14 yds, 3.57 YAC/rec, rec EPA -7.6",
+    "IR 2026-10-28 after injury vs DAL"
+  ],
+  "key_stats": [
+    "2022 rookie HOU: 939 yds in 13 g; 2024 HOU: 40 car, 293 yds, 7.32 ypc (philadelphiaeagles.com / nflverse)",
+    "2025 HOU/KC: 14 car, 36 yds, 2.57 ypc; 28 off snaps",
+    "2026 PHI (3 g, 151 off snaps): 37 car, 96 yds, 2.59 ypc, 2 TD, EPA/rush -.159, success 38%, stuff 35.1%, 10+ rate 2.7%, SY 2/2; 7/11 rec 14 yds, 3.57 YAC/rec, rec EPA -7.6",
+    "IR 2026-10-28 after injury vs DAL"
+  ],
+  "top10_calibration": {
+    "baseline": "data/baselines/RB.reaudit-20261103.json",
+    "madden_order_verified": false,
+    "calibrated_against": [
+      "Derrick Henry",
+      "Josh Jacobs"
+    ],
+    "placement": "Far below the top 10; power profile mirrors Josh Jacobs/Derrick Henry shape (TRK/STR) at a much lower level; kept under Bigsby on 2026 efficiency (2.59 ypc, stuff 35%)"
+  },
+  "madden27_reference": {
+    "policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+    "source": "https://www.ea.com/games/madden-nfl/ratings",
+    "retrieved_at": "2026-11-03T22:20:00-05:00",
+    "available": true,
+    "table": [
+      {
+        "attribute": "OVR",
+        "ours": 64,
+        "madden": 75,
+        "delta": -11
+      },
+      {
+        "attribute": "SPD",
+        "ours": 82,
+        "madden": 90,
+        "delta": -8
+      },
+      {
+        "attribute": "ACC",
+        "ours": 88,
+        "madden": 89,
+        "delta": -1
+      },
+      {
+        "attribute": "AGI",
+        "ours": 76,
+        "madden": 82,
+        "delta": -6
+      },
+      {
+        "attribute": "COD",
+        "ours": 74,
+        "madden": 81,
+        "delta": -7
+      },
+      {
+        "attribute": "STR",
+        "ours": 86,
+        "madden": 84,
+        "delta": 2
+      },
+      {
+        "attribute": "AWR",
+        "ours": 70,
+        "madden": 68,
+        "delta": 2
+      },
+      {
+        "attribute": "CAR",
+        "ours": 88,
+        "madden": 89,
+        "delta": -1
+      },
+      {
+        "attribute": "BCV",
+        "ours": 64,
+        "madden": 80,
+        "delta": -16
+      },
+      {
+        "attribute": "BTK",
+        "ours": 78,
+        "madden": 85,
+        "delta": -7
+      },
+      {
+        "attribute": "TRK",
+        "ours": 88,
+        "madden": 89,
+        "delta": -1
+      },
+      {
+        "attribute": "SFA",
+        "ours": 86,
+        "madden": 82,
+        "delta": 4
+      },
+      {
+        "attribute": "SPM",
+        "ours": 56,
+        "madden": 72,
+        "delta": -16
+      },
+      {
+        "attribute": "JKM",
+        "ours": 66,
+        "madden": 82,
+        "delta": -16
+      },
+      {
+        "attribute": "CTH",
+        "ours": 50,
+        "madden": 67,
+        "delta": -17
+      },
+      {
+        "attribute": "CIT",
+        "ours": 50,
+        "madden": 54,
+        "delta": -4
+      },
+      {
+        "attribute": "SRR",
+        "ours": 46,
+        "madden": 60,
+        "delta": -14
+      },
+      {
+        "attribute": "MRR",
+        "ours": 38,
+        "madden": 52,
+        "delta": -14
+      },
+      {
+        "attribute": "DRR",
+        "ours": 30,
+        "madden": 44,
+        "delta": -14
+      },
+      {
+        "attribute": "RLS",
+        "ours": 38,
+        "madden": 49,
+        "delta": -11
+      },
+      {
+        "attribute": "JMP",
+        "ours": 80,
+        "madden": 82,
+        "delta": -2
+      },
+      {
+        "attribute": "INJ",
+        "ours": 74,
+        "madden": 96,
+        "delta": -22
+      },
+      {
+        "attribute": "STA",
+        "ours": 72,
+        "madden": 86,
+        "delta": -14
+      },
+      {
+        "attribute": "TGH",
+        "ours": 90,
+        "madden": 91,
+        "delta": -1
+      }
+    ]
+  },
+  "variance_audit": {
+    "threshold": 10,
+    "gaps": [
+      {
+        "attribute": "OVR",
+        "ours": 64,
+        "madden": 75,
+        "delta": -11,
+        "verdict": "SUPPORTED",
+        "explanation": "-11 vs Madden 75: 2026 2.59 ypc, EPA/rush -.159, stuff 35.1% on 37 car; 2025 28 snaps - SUPPORTED"
+      },
+      {
+        "attribute": "BCV",
+        "ours": 64,
+        "madden": 80,
+        "delta": -16,
+        "verdict": "SUPPORTED",
+        "explanation": "-16 vs Madden 80: stuff 35.1%, 10+ rate 2.7% (2026) - SUPPORTED"
+      },
+      {
+        "attribute": "SPM",
+        "ours": 56,
+        "madden": 72,
+        "delta": -16,
+        "verdict": "SUPPORTED",
+        "explanation": "-16 vs Madden 72: no evasion evidence; 35% stuffed - SUPPORTED"
+      },
+      {
+        "attribute": "JKM",
+        "ours": 66,
+        "madden": 82,
+        "delta": -16,
+        "verdict": "SUPPORTED",
+        "explanation": "-16 vs Madden 82: 10+ rate 2.7% (2026); one-speed downhill runner - SUPPORTED"
+      },
+      {
+        "attribute": "CTH",
+        "ours": 50,
+        "madden": 67,
+        "delta": -17,
+        "verdict": "SUPPORTED",
+        "explanation": "-17 vs Madden 67: 7/11 for 14 yds 2026, 2/4 in 2024 - SUPPORTED"
+      },
+      {
+        "attribute": "SRR",
+        "ours": 46,
+        "madden": 60,
+        "delta": -14,
+        "verdict": "SUPPORTED",
+        "explanation": "-14 vs Madden 60: 7 rec at 3.57 YAC/rec, rec EPA -7.6 (2026) - SUPPORTED"
+      },
+      {
+        "attribute": "MRR",
+        "ours": 38,
+        "madden": 52,
+        "delta": -14,
+        "verdict": "SUPPORTED",
+        "explanation": "-14 vs Madden 52: no intermediate route targets in 2024-26 pbp - SUPPORTED"
+      },
+      {
+        "attribute": "DRR",
+        "ours": 30,
+        "madden": 44,
+        "delta": -14,
+        "verdict": "SUPPORTED",
+        "explanation": "-14 vs Madden 44: no deep targets 2024-26 - SUPPORTED"
+      },
+      {
+        "attribute": "RLS",
+        "ours": 38,
+        "madden": 49,
+        "delta": -11,
+        "verdict": "SUPPORTED",
+        "explanation": "-11 vs Madden 49: backfield-only usage - SUPPORTED"
+      },
+      {
+        "attribute": "INJ",
+        "ours": 74,
+        "madden": 96,
+        "delta": -22,
+        "verdict": "SUPPORTED",
+        "explanation": "-22 vs Madden 96: IR 2026-10-28 plus 2025 HOU/KC limited availability - SUPPORTED"
+      },
+      {
+        "attribute": "STA",
+        "ours": 72,
+        "madden": 86,
+        "delta": -14,
+        "verdict": "SUPPORTED",
+        "explanation": "-14 vs Madden 86: 151 off snaps across 3 games as a rotational/short-yardage back - SUPPORTED"
+      }
+    ]
+  },
+  "style_similarity_check": {
+    "rule": "corr>=0.95 or mad<=3 flags STYLE_PROFILE_TOO_SIMILAR",
+    "compared_against": "15 approved RB re-audit ratings + PHI RB room",
+    "max_corr": [
+      "Braelon Allen",
+      0.945,
+      6.39
+    ],
+    "min_mad": [
+      "Braelon Allen",
+      0.945,
+      6.39
+    ],
+    "flags": [],
+    "result": "PASS"
+  },
+  "ceiling_check": {
+    "locked_top10_floor": "Jonathan Taylor 78 (RB.reaudit-20261103 LOCKED)",
+    "rule": "non-top-10 RB must rate <=78 and below Taylor in judgment",
+    "result": "PASS",
+    "overall": 64
+  },
+  "sources": [
+    "https://www.philadelphiaeagles.com/team/players-roster/",
+    "https://www.philadelphiaeagles.com/news/eagles-sign-rb-jaydon-blue-to-the-active-roster-add-three-to-the-practice-squad-dameon-pierce",
+    "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/dameon-pierce-saquon-barkley-tank-bigsby-injured-reserve/762463/",
+    "https://sports.yahoo.com/articles/eagles-running-back-crisis-deepens-005001624.html",
+    "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2024.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+    "https://www.pff.com/grades/nfl/hb/2026",
+    "https://www.ea.com/games/madden-nfl/ratings"
+  ]
+}

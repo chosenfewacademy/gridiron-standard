@@ -1,0 +1,28 @@
+{
+  "team": "PHI",
+  "position": "RB",
+  "as_of": "2026-11-03T22:40:00-05:00",
+  "authorized_by": "t48u",
+  "active": [
+    "Saquon Barkley (#26, starter)",
+    "Jaydon Blue (#30)"
+  ],
+  "practice_squad": [
+    "Elijah Mitchell (#49, elevated Week 8)"
+  ],
+  "reserve_injured": [
+    "Tank Bigsby (#8, Week 4 injury)",
+    "Dameon Pierce (#39, IR 2026-10-28)",
+    "Will Shipley (#28, foot, IR Week 6)",
+    "Carson Steele (#34, waived/injured, reverted to IR)"
+  ],
+  "notes": [
+    "No FB on the roster per philadelphiaeagles.com (2026-11-03).",
+    "nflverse roster_2026 lists Elijah Mitchell ACT and Carson Steele CUT; team roster page (authoritative) shows Mitchell on practice squad and Steele on Reserve/Injured.",
+    "Not rated: Jordan Mims, Ian Wheeler, Ja'Quinden Jackson (CUT in nflverse, not on team roster page)."
+  ],
+  "sources": [
+    "https://www.philadelphiaeagles.com/team/players-roster/",
+    "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "record_type": "team_room_rating",
+  "team": "PHI",
+  "position": "RB",
+  "player": "Elijah Mitchell",
+  "player_id": "elijah_mitchell",
+  "roster_status": "Practice squad (elevated for Week 8 vs WAS)",
+  "authorized_by": "t48u",
+  "rated_at": "2026-11-03T22:40:00-05:00",
+  "methodology_version": "1.1.0",
+  "audit_order": "1.1.2",
+  "status": "PROPOSED_UNLOCKED",
+  "overall": 63,
+  "ratings": {
+    "SPD": 88,
+    "ACC": 88,
+    "AGI": 82,
+    "COD": 80,
+    "STR": 70,
+    "AWR": 66,
+    "CAR": 86,
+    "BCV": 76,
+    "BTK": 72,
+    "TRK": 66,
+    "SFA": 66,
+    "SPM": 74,
+    "JKM": 78,
+    "CTH": 66,
+    "CIT": 52,
+    "SRR": 60,
+    "MRR": 52,
+    "DRR": 44,
+    "RLS": 50,
+    "JMP": 84,
+    "INJ": 58,
+    "STA": 74,
+    "TGH": 76
+  },
+  "confidence": "LOW",
+  "style_profile": "One-cut zone runner with real burst whose career has been swallowed by injuries; now a check-down/space back on a short leash",
+  "style_evidence": [
+    "2021 SF rookie: 963 rush yds (career high); multiple injury-shortened seasons since (missed all of 2024 per reports)",
+    "2025: 7 off snaps, 0 carries (nflverse snap counts)",
+    "2026 PHI (2 g, 53 off snaps): 14 car, 45 yds, 3.21 ypc, EPA/rush -.231, success 43%, stuff 28.6%, SY 1/1; 7/10 rec 26 yds, 8.1 YAC/rec",
+    "Signed to PS 2026-10-20, elevated 2026-10-31 (philadelphiaeagles.com)"
+  ],
+  "key_stats": [
+    "2021 SF rookie: 963 rush yds (career high); multiple injury-shortened seasons since (missed all of 2024 per reports)",
+    "2025: 7 off snaps, 0 carries (nflverse snap counts)",
+    "2026 PHI (2 g, 53 off snaps): 14 car, 45 yds, 3.21 ypc, EPA/rush -.231, success 43%, stuff 28.6%, SY 1/1; 7/10 rec 26 yds, 8.1 YAC/rec",
+    "Signed to PS 2026-10-20, elevated 2026-10-31 (philadelphiaeagles.com)"
+  ],
+  "top10_calibration": {
+    "baseline": "data/baselines/RB.reaudit-20261103.json",
+    "madden_order_verified": false,
+    "calibrated_against": [
+      "Tony Pollard",
+      "James Cook"
+    ],
+    "placement": "Far below the top 10; zone one-cut shape closest to Tony Pollard (external control 74) and James Cook at a much lower level; INJ held lowest in the room for his medical history"
+  },
+  "madden27_reference": {
+    "policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+    "source": "https://www.ea.com/games/madden-nfl/ratings",
+    "retrieved_at": "2026-11-03T22:20:00-05:00",
+    "available": true,
+    "table": [
+      {
+        "attribute": "OVR",
+        "ours": 63,
+        "madden": 74,
+        "delta": -11
+      },
+      {
+        "attribute": "SPD",
+        "ours": 88,
+        "madden": 88,
+        "delta": 0
+      },
+      {
+        "attribute": "ACC",
+        "ours": 88,
+        "madden": 91,
+        "delta": -3
+      },
+      {
+        "attribute": "AGI",
+        "ours": 82,
+        "madden": 86,
+        "delta": -4
+      },
+      {
+        "attribute": "COD",
+        "ours": 80,
+        "madden": 86,
+        "delta": -6
+      },
+      {
+        "attribute": "STR",
+        "ours": 70,
+        "madden": 71,
+        "delta": -1
+      },
+      {
+        "attribute": "AWR",
+        "ours": 66,
+        "madden": 67,
+        "delta": -1
+      },
+      {
+        "attribute": "CAR",
+        "ours": 86,
+        "madden": 93,
+        "delta": -7
+      },
+      {
+        "attribute": "BCV",
+        "ours": 76,
+        "madden": 82,
+        "delta": -6
+      },
+      {
+        "attribute": "BTK",
+        "ours": 72,
+        "madden": 80,
+        "delta": -8
+      },
+      {
+        "attribute": "TRK",
+        "ours": 66,
+        "madden": 79,
+        "delta": -13
+      },
+      {
+        "attribute": "SFA",
+        "ours": 66,
+        "madden": 74,
+        "delta": -8
+      },
+      {
+        "attribute": "SPM",
+        "ours": 74,
+        "madden": 77,
+        "delta": -3
+      },
+      {
+        "attribute": "JKM",
+        "ours": 78,
+        "madden": 83,
+        "delta": -5
+      },
+      {
+        "attribute": "CTH",
+        "ours": 66,
+        "madden": 69,
+        "delta": -3
+      },
+      {
+        "attribute": "CIT",
+        "ours": 52,
+        "madden": 57,
+        "delta": -5
+      },
+      {
+        "attribute": "SRR",
+        "ours": 60,
+        "madden": 64,
+        "delta": -4
+      },
+      {
+        "attribute": "MRR",
+        "ours": 52,
+        "madden": 57,
+        "delta": -5
+      },
+      {
+        "attribute": "DRR",
+        "ours": 44,
+        "madden": 50,
+        "delta": -6
+      },
+      {
+        "attribute": "RLS",
+        "ours": 50,
+        "madden": 54,
+        "delta": -4
+      },
+      {
+        "attribute": "JMP",
+        "ours": 84,
+        "madden": 88,
+        "delta": -4
+      },
+      {
+        "attribute": "INJ",
+        "ours": 58,
+        "madden": 84,
+        "delta": -26
+      },
+      {
+        "attribute": "STA",
+        "ours": 74,
+        "madden": 90,
+        "delta": -16
+      },
+      {
+        "attribute": "TGH",
+        "ours": 76,
+        "madden": 81,
+        "delta": -5
+      }
+    ]
+  },
+  "variance_audit": {
+    "threshold": 10,
+    "gaps": [
+      {
+        "attribute": "OVR",
+        "ours": 63,
+        "madden": 74,
+        "delta": -11,
+        "verdict": "SUPPORTED",
+        "explanation": "-11 vs Madden 74: 14 car 3.21 ypc, EPA/rush -.231 (2026); 0 car 2025; practice squad - SUPPORTED"
+      },
+      {
+        "attribute": "TRK",
+        "ours": 66,
+        "madden": 79,
+        "delta": -13,
+        "verdict": "SUPPORTED",
+        "explanation": "-13 vs Madden 79: 200 lb, 2026 stuff 28.6%; never a power back - SUPPORTED"
+      },
+      {
+        "attribute": "INJ",
+        "ours": 58,
+        "madden": 84,
+        "delta": -26,
+        "verdict": "SUPPORTED",
+        "explanation": "-26 vs Madden 84: repeated multi-month injuries since 2021 incl. lost 2024 season; 7 off snaps in 2025 - SUPPORTED"
+      },
+      {
+        "attribute": "STA",
+        "ours": 74,
+        "madden": 90,
+        "delta": -16,
+        "verdict": "SUPPORTED",
+        "explanation": "-16 vs Madden 90: 53 off snaps in 2 games 2026; no workload since 2021 - SUPPORTED"
+      }
+    ]
+  },
+  "style_similarity_check": {
+    "rule": "corr>=0.95 or mad<=3 flags STYLE_PROFILE_TOO_SIMILAR",
+    "compared_against": "15 approved RB re-audit ratings + PHI RB room",
+    "max_corr": [
+      "Saquon Barkley",
+      0.933,
+      7.43
+    ],
+    "min_mad": [
+      "Will Shipley",
+      0.895,
+      4.35
+    ],
+    "flags": [],
+    "result": "PASS"
+  },
+  "ceiling_check": {
+    "locked_top10_floor": "Jonathan Taylor 78 (RB.reaudit-20261103 LOCKED)",
+    "rule": "non-top-10 RB must rate <=78 and below Taylor in judgment",
+    "result": "PASS",
+    "overall": 63
+  },
+  "sources": [
+    "https://www.philadelphiaeagles.com/team/players-roster/",
+    "https://www.philadelphiaeagles.com/news/eagles-sign-rb-jaydon-blue-to-the-active-roster-add-three-to-the-practice-squad-dameon-pierce",
+    "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/dameon-pierce-saquon-barkley-tank-bigsby-injured-reserve/762463/",
+    "https://sports.yahoo.com/articles/eagles-running-back-crisis-deepens-005001624.html",
+    "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2024.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+    "https://www.pff.com/grades/nfl/hb/2026",
+    "https://www.ea.com/games/madden-nfl/ratings"
+  ]
+}
