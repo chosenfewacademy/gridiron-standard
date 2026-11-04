@@ -1,0 +1,322 @@
+# P_REAUDIT_CROSS_AUDIT (v1.1.2; authorized t46u)
+
+```json
+{
+  "audit_id": "P_REAUDIT_CROSS_AUDIT_A1",
+  "task_id": "P_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "P",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Michael Dickson",
+    "Jordan Stout",
+    "Daniel Whelan",
+    "Logan Cooke",
+    "Tress Way",
+    "Jack Fox",
+    "Austin McNamara",
+    "Corliss Waitman",
+    "J.K. Scott",
+    "Braden Mann"
+  ],
+  "cross_audit_result": "CONSISTENT: all 12 approved head-to-head/tiebreak verdicts agree with the final rating order; style rule passes for all 78 pairs of 13 rated Ps (0 too similar); league ceiling 0 raw flags (28 screened); variance audit 20 10+ gaps: 19 supported, 1 fixed via approved reaudit:revise (Tress Way AWR 89->80); Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Michael Dickson",
+      "ovr": 90,
+      "audit_id": "P_REAUDIT_RATE_01_A1"
+    },
+    {
+      "rank": 2,
+      "player": "Jordan Stout",
+      "ovr": 86,
+      "audit_id": "P_REAUDIT_RATE_02_A1"
+    },
+    {
+      "rank": 3,
+      "player": "Daniel Whelan",
+      "ovr": 85,
+      "audit_id": "P_REAUDIT_RATE_03_A1"
+    },
+    {
+      "rank": 4,
+      "player": "Logan Cooke",
+      "ovr": 83,
+      "audit_id": "P_REAUDIT_RATE_04_A1"
+    },
+    {
+      "rank": 5,
+      "player": "Tress Way",
+      "ovr": 81,
+      "audit_id": "P_REAUDIT_RATE_05_A2"
+    },
+    {
+      "rank": 6,
+      "player": "Jack Fox",
+      "ovr": 79,
+      "audit_id": "P_REAUDIT_RATE_06_A1"
+    },
+    {
+      "rank": 7,
+      "player": "Austin McNamara",
+      "ovr": 77,
+      "audit_id": "P_REAUDIT_RATE_07_A1"
+    },
+    {
+      "rank": 8,
+      "player": "Corliss Waitman",
+      "ovr": 76,
+      "audit_id": "P_REAUDIT_RATE_08_A1"
+    },
+    {
+      "rank": 9,
+      "player": "J.K. Scott",
+      "ovr": 75,
+      "audit_id": "P_REAUDIT_RATE_09_A1"
+    },
+    {
+      "rank": 10,
+      "player": "Braden Mann",
+      "ovr": 74,
+      "audit_id": "P_REAUDIT_RATE_10_A1"
+    },
+    {
+      "rank": 11,
+      "player": "Bryan Anger",
+      "ovr": 73,
+      "audit_id": "P_REAUDIT_RATE_11_A1"
+    },
+    {
+      "rank": 12,
+      "player": "Jeremy Crawshaw",
+      "ovr": 72,
+      "audit_id": "P_REAUDIT_RATE_12_A1"
+    },
+    {
+      "rank": 13,
+      "player": "Ryan Wright",
+      "ovr": 71,
+      "audit_id": "P_REAUDIT_RATE_13_A1"
+    }
+  ],
+  "pair_consistency": [
+    {
+      "audit_id": "P_REAUDIT_H2H_01_A1",
+      "winner": "Michael Dickson",
+      "loser": "Jordan Stout",
+      "consistent": true
+    },
+    {
+      "audit_id": "P_REAUDIT_H2H_02_A1",
+      "winner": "Daniel Whelan",
+      "loser": "Logan Cooke",
+      "consistent": true
+    },
+    {
+      "audit_id": "P_REAUDIT_H2H_03_A1",
+      "winner": "Tress Way",
+      "loser": "Jack Fox",
+      "consistent": true
+    },
+    {
+      "audit_id": "P_REAUDIT_H2H_04_A1",
+      "winner": "Austin McNamara",
+      "loser": "Corliss Waitman",
+      "consistent": true
+    },
+    {
+      "audit_id": "P_REAUDIT_H2H_05_A1",
+      "winner": "J.K. Scott",
+      "loser": "Braden Mann",
+      "consistent": true
+    },
+    {
+      "audit_id": "P_REAUDIT_H2H_06_A1",
+      "winner": "Braden Mann",
+      "loser": "Bryan Anger",
+      "consistent": true
+    },
+    {
+      "audit_id": "P_REAUDIT_TIEBREAK_01_A1",
+      "winner": "Jordan Stout",
+      "loser": "Daniel Whelan",
+      "consistent": true
+    },
+    {
+      "audit_id": "P_REAUDIT_TIEBREAK_02_A1",
+      "winner": "Logan Cooke",
+      "loser": "Tress Way",
+      "consistent": true
+    },
+    {
+      "audit_id": "P_REAUDIT_TIEBREAK_03_A1",
+      "winner": "Jack Fox",
+      "loser": "Austin McNamara",
+      "consistent": true
+    },
+    {
+      "audit_id": "P_REAUDIT_TIEBREAK_04_A1",
+      "winner": "Corliss Waitman",
+      "loser": "J.K. Scott",
+      "consistent": true
+    },
+    {
+      "audit_id": "P_REAUDIT_TIEBREAK_05_A1",
+      "winner": "Bryan Anger",
+      "loser": "Jeremy Crawshaw",
+      "consistent": true
+    },
+    {
+      "audit_id": "P_REAUDIT_TIEBREAK_06_A1",
+      "winner": "Jeremy Crawshaw",
+      "loser": "Ryan Wright",
+      "consistent": true
+    }
+  ],
+  "style_rule": {
+    "pairs_checked": 78,
+    "too_similar": 0,
+    "highest_corr": [
+      0.941,
+      3.7,
+      "Bryan Anger",
+      "Tress Way"
+    ],
+    "lowest_mad": [
+      0.941,
+      3.7,
+      "Bryan Anger",
+      "Tress Way"
+    ]
+  },
+  "scarcity_note": "P_REAUDIT_SCARCITY_A1 PASS (3 traits 95+: Michael Dickson KAC 95, Jordan Stout KPW 95, Daniel Whelan KPW 95, all LEAGUE_DEFINING; Michael Dickson 90 the lone overall 90+). Narrative text grep-verified before the stage ran.",
+  "eligibility_rule": "P-eligible = any player with 2025-26 punts in nflverse play-by-play.",
+  "side_convention": "PUNTER ROLE CONVENTION (t46u): rated as P = any player with 2025-26 punt attempts in nflverse play-by-play; matched by gsis id. Evidence: gross and net average, inside-20 count/rate, touchbacks, fair catches, return yards allowed, blocks, punt EPA (nflverse pbp), PFF P overall (2025-26). THIN DATA: no public punt hang time (not in pbp, PFF free tables or Next Gen Stats); fair catches and return yards are the proxy. Madden position is reference only.",
+  "commissioner_fix_approvals": [
+    "P_REAUDIT_RATE_05_A2 (Tress Way AWR 89->80) approved via reaudit:revise under t46u"
+  ],
+  "league_ceiling_check": {
+    "source": "research-inbox/P/P_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-t46u.json",
+    "references": [
+      "Braden Mann",
+      "Bryan Anger"
+    ],
+    "thresholds": {
+      "pff": 68.3,
+      "value": -0.97,
+      "efficiency": 42.3,
+      "negative_rate": 88.5,
+      "availability": 1
+    },
+    "scope": "Every punter league-wide with 2025-26 punts in nflverse pbp (41), incl. free agents; the 13 audited Ps excluded (28 screened). Sample = punts over 2025-26; config min 250 is above any punter's two-year volume (max 116), so no punter is sample-eligible and the screen runs on all non-pool punters (structural limit of the position). Metrics: punt-weighted PFF P (pff), punt EPA per 100 punts (value), net average with 20+ punts (efficiency), touchbacks + blocks per 1,000 punts (negative rate), games share (availability).",
+    "raw_flags_before_resolution": [],
+    "resolution": "Check (refs #10 Braden Mann 74 / first-out Bryan Anger 73) screened 28 non-pool punters and raw-flagged 0. No pool or rating change.",
+    "flagged": [],
+    "resolved_by_tiebreak": [],
+    "closest": [],
+    "screened": 28,
+    "rating_changes": []
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Michael Dickson",
+      "ours": 90,
+      "madden": 85,
+      "madden_position": "P",
+      "delta": 5
+    },
+    {
+      "player": "Jordan Stout",
+      "ours": 86,
+      "madden": 76,
+      "madden_position": "P",
+      "delta": 10
+    },
+    {
+      "player": "Daniel Whelan",
+      "ours": 85,
+      "madden": 74,
+      "madden_position": "P",
+      "delta": 11
+    },
+    {
+      "player": "Logan Cooke",
+      "ours": 83,
+      "madden": 76,
+      "madden_position": "P",
+      "delta": 7
+    },
+    {
+      "player": "Tress Way",
+      "ours": 81,
+      "madden": 74,
+      "madden_position": "P",
+      "delta": 7
+    },
+    {
+      "player": "Jack Fox",
+      "ours": 79,
+      "madden": 79,
+      "madden_position": "P",
+      "delta": 0
+    },
+    {
+      "player": "Austin McNamara",
+      "ours": 77,
+      "madden": 75,
+      "madden_position": "P",
+      "delta": 2
+    },
+    {
+      "player": "Corliss Waitman",
+      "ours": 76,
+      "madden": 77,
+      "madden_position": "P",
+      "delta": -1
+    },
+    {
+      "player": "J.K. Scott",
+      "ours": 75,
+      "madden": 81,
+      "madden_position": "P",
+      "delta": -6
+    },
+    {
+      "player": "Braden Mann",
+      "ours": 74,
+      "madden": 79,
+      "madden_position": "P",
+      "delta": -5
+    },
+    {
+      "player": "Bryan Anger",
+      "ours": 73,
+      "madden": 79,
+      "madden_position": "P",
+      "delta": -6
+    },
+    {
+      "player": "Jeremy Crawshaw",
+      "ours": 72,
+      "madden": 82,
+      "madden_position": "P",
+      "delta": -10
+    },
+    {
+      "player": "Ryan Wright",
+      "ours": 71,
+      "madden": 75,
+      "madden_position": "P",
+      "delta": -4
+    }
+  ],
+  "madden_order_verified": false,
+  "madden_used_as_evidence": false,
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```

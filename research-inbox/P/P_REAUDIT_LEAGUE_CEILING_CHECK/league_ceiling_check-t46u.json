@@ -1,0 +1,39 @@
+{
+ "position": "P",
+ "references": [
+  {
+   "name": "Braden Mann",
+   "team": "PHI",
+   "status": "ACT",
+   "snaps": 113,
+   "pff": 78.2,
+   "value": -0.97,
+   "efficiency": 42.3,
+   "negative_rate": 88.5,
+   "availability": 1
+  },
+  {
+   "name": "Bryan Anger",
+   "team": "DAL",
+   "status": "ACT",
+   "snaps": 60,
+   "pff": 68.3,
+   "value": 2.33,
+   "efficiency": 42.6,
+   "negative_rate": 0,
+   "availability": 1
+  }
+ ],
+ "thresholds": {
+  "pff": 68.3,
+  "value": -0.97,
+  "efficiency": 42.3,
+  "negative_rate": 88.5,
+  "availability": 1
+ },
+ "flagged": [],
+ "closest": [],
+ "screened": 28,
+ "read_only": true,
+ "rating_changes": []
+}

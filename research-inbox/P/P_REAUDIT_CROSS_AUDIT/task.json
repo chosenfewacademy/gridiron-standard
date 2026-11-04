@@ -1,0 +1,161 @@
+{
+  "task_id": "P_REAUDIT_CROSS_AUDIT",
+  "type": "positional_cross_audit",
+  "players": [
+    "Michael Dickson",
+    "Jordan Stout",
+    "Daniel Whelan",
+    "Logan Cooke",
+    "Tress Way",
+    "Jack Fox",
+    "Austin McNamara",
+    "Corliss Waitman",
+    "J.K. Scott",
+    "Braden Mann"
+  ],
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Michael Dickson",
+        "overall": 90
+      },
+      {
+        "rank": 2,
+        "player": "Jordan Stout",
+        "overall": 86
+      },
+      {
+        "rank": 3,
+        "player": "Daniel Whelan",
+        "overall": 85
+      },
+      {
+        "rank": 4,
+        "player": "Logan Cooke",
+        "overall": 83
+      },
+      {
+        "rank": 5,
+        "player": "Tress Way",
+        "overall": 81
+      },
+      {
+        "rank": 6,
+        "player": "Jack Fox",
+        "overall": 79
+      },
+      {
+        "rank": 7,
+        "player": "Austin McNamara",
+        "overall": 77
+      },
+      {
+        "rank": 8,
+        "player": "Corliss Waitman",
+        "overall": 76
+      },
+      {
+        "rank": 9,
+        "player": "J.K. Scott",
+        "overall": 75
+      },
+      {
+        "rank": 10,
+        "player": "Braden Mann",
+        "overall": 74
+      }
+    ],
+    "external_controls": [
+      "Bryan Anger",
+      "Jeremy Crawshaw",
+      "Ryan Wright"
+    ]
+  },
+  "league_ceiling_check_required": true,
+  "ceiling_references": [
+    {
+      "player": "Braden Mann",
+      "ovr": 74
+    },
+    {
+      "player": "Bryan Anger",
+      "ovr": 73
+    }
+  ],
+  "ceiling_config": {
+    "min_hits": 3,
+    "min_sample": 250,
+    "sample_key": "snaps",
+    "metrics": [
+      {
+        "key": "pff",
+        "label": "PFF overall grade (snap-weighted 2025-26)",
+        "better": "higher",
+        "production": true
+      },
+      {
+        "key": "value",
+        "label": "position value metric (EPA/WAR-type, see variance domains)",
+        "better": "higher",
+        "production": true
+      },
+      {
+        "key": "efficiency",
+        "label": "primary position efficiency metric",
+        "better": "higher"
+      },
+      {
+        "key": "negative_rate",
+        "label": "negative-play rate (penalties/pressures allowed/missed tackles as applicable)",
+        "better": "lower"
+      },
+      {
+        "key": "availability",
+        "label": "games played share",
+        "better": "higher"
+      }
+    ],
+    "scope": "Every rostered or free-agent player at the position outside the audited pool with meaningful 2025-26 snaps (starters, recent starters, notable backups, rookies)."
+  },
+  "position": "P",
+  "stage": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 20,
+    "group": "Special Teams",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall punting grade"
+    ],
+    "position_stats": [
+      "punts, gross/net average",
+      "inside-20",
+      "touchbacks"
+    ],
+    "usage_snap_metrics": [
+      "punts"
+    ],
+    "on_field_impact": [
+      "punting EPA",
+      "hang time (NGS/charting)"
+    ],
+    "madden_attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR"
+    ],
+    "note": ""
+  }
+}
