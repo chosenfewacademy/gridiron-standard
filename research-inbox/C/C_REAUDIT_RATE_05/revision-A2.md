@@ -1,0 +1,403 @@
+# C_REAUDIT_RATE_05 revision A2 — Tyler Linderbaum 81 (authorized t46u/t50s441)
+
+Approved variance fix (C_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): COD 72->64 (no tracking data). OVR unchanged.
+
+```json
+{
+  "audit_id": "C_REAUDIT_RATE_05_A2",
+  "task_id": "C_REAUDIT_RATE_05",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "C",
+  "player_id": "ext_00-0037825",
+  "players": [
+    "Tyler Linderbaum"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 80,
+    "SPD": 80,
+    "ACC": 86,
+    "AGI": 80,
+    "COD": 64,
+    "AWR": 78,
+    "INJ": 92,
+    "STA": 92,
+    "TGH": 86,
+    "PBK": 90,
+    "PBP": 80,
+    "PBF": 92,
+    "RBK": 80,
+    "RBP": 74,
+    "RBF": 88,
+    "IBL": 78,
+    "LBK": 92
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Tyler Linderbaum (LV) 2026: PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62); 8 g / 542 off snaps; 5 accepted penalties {'False Start': 2, 'Offensive Offside': 2, 'Offensive Holding': 1}; depth-chart side {'C': 226}; Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Listed weakness area: power anchor, 2026 penalties/grade",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); pass/run snap mix PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); pass/run snap mix PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); pass/run snap mix PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); pass/run snap mix PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor. Revised 72->64: Approved variance fix (C_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): COD 72->64 (no tracking data). OVR unchanged.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 5 accepted penalties {'False Start': 2, 'Offensive Offside': 2, 'Offensive Holding': 1}, 2025 3 accepted penalties {'Offensive Holding': 2, 'Illegal Block Above the Waist': 1}; PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Tyler Linderbaum injury reports: none; roster status ACT; snaps 17 g / 1007 off snaps (2025), 8 g / 542 off snaps (2026). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 17 g / 1007 off snaps (2025), 8 g / 542 off snaps (2026). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 17 g / 1007 off snaps (2025), 8 g / 542 off snaps (2026). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62); PFF 2025 79.8 (rank 4, 1007 snaps: 536 pass-block / 471 run-block, pass share 0.53). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62); PFF 2025 79.8 (rank 4, 1007 snaps: 536 pass-block / 471 run-block, pass share 0.53). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62); PFF 2025 79.8 (rank 4, 1007 snaps: 536 pass-block / 471 run-block, pass share 0.53). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62); PFF 2025 79.8 (rank 4, 1007 snaps: 536 pass-block / 471 run-block, pass share 0.53). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62); PFF 2025 79.8 (rank 4, 1007 snaps: 536 pass-block / 471 run-block, pass share 0.53). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62); PFF 2025 79.8 (rank 4, 1007 snaps: 536 pass-block / 471 run-block, pass share 0.53). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62); PFF 2025 79.8 (rank 4, 1007 snaps: 536 pass-block / 471 run-block, pass share 0.53). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62); PFF 2025 79.8 (rank 4, 1007 snaps: 536 pass-block / 471 run-block, pass share 0.53). Style: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Tyler Linderbaum injury reports: none; roster status ACT; snaps 17 g / 1007 off snaps (2025), 8 g / 542 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 17 g / 1007 off snaps (2025), 8 g / 542 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "tier": "ELITE",
+      "claim": "pass pro: Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62); PFF 2025 79.8 (rank 4, 1007 snaps: 536 pass-block / 471 run-block, pass share 0.53)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "tier": "ELITE",
+      "claim": "pass pro: Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62); PFF 2025 79.8 (rank 4, 1007 snaps: 536 pass-block / 471 run-block, pass share 0.53)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "tier": "ELITE",
+      "claim": "run block: Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20); PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62); PFF 2025 79.8 (rank 4, 1007 snaps: 536 pass-block / 471 run-block, pass share 0.53)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 81,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor. Revision A2: Approved variance fix (C_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): COD 72->64 (no tracking data). OVR unchanged.",
+  "style_profile": "Tyler Linderbaum: Explosive, athletic pass-pro center: ESPN IOL PBWR 94% (tied #1 IOL), PFF 79.8 (#4) in 2025, best get-off and second-level range at the position; 2026 PFF 64.0 with 5 penalties (2 false starts, 2 offside) and light anchor.",
+  "style_evidence": [
+    "Tyler Linderbaum (LV) 2026: PFF 2026 64.0 (rank 18, 542 snaps: 338 pass-block / 204 run-block, pass share 0.62); 8 g / 542 off snaps; 5 accepted penalties {'False Start': 2, 'Offensive Offside': 2, 'Offensive Holding': 1}; depth-chart side {'C': 226}",
+    "Tyler Linderbaum 2025: PFF 2025 79.8 (rank 4, 1007 snaps: 536 pass-block / 471 run-block, pass share 0.53); 17 g / 1007 off snaps; 3 accepted penalties {'Offensive Holding': 2, 'Illegal Block Above the Waist': 1}; side {'C': 1}",
+    "Tyler Linderbaum ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 94% (top 20)",
+    "Tyler Linderbaum injury reports: none; roster status ACT"
+  ],
+  "input_dossier": "C_REAUDIT_BG_05_A1",
+  "weaknesses": [
+    "power anchor",
+    "2026 penalties/grade"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Tyler Linderbaum",
+      "ovr": 88,
+      "attributes": {
+        "STR": 85,
+        "SPD": 78,
+        "ACC": 81,
+        "AGI": 69,
+        "COD": 59,
+        "AWR": 94,
+        "INJ": 92,
+        "STA": 92,
+        "TGH": 93,
+        "PBK": 83,
+        "PBP": 80,
+        "PBF": 83,
+        "RBK": 91,
+        "RBP": 88,
+        "RBF": 93,
+        "IBL": 86,
+        "LBK": 95
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -7,
+      "delta_attributes": {
+        "STR": -5,
+        "SPD": 2,
+        "ACC": 5,
+        "AGI": 11,
+        "COD": 5,
+        "AWR": -16,
+        "INJ": 0,
+        "STA": 0,
+        "TGH": -7,
+        "PBK": 7,
+        "PBP": 0,
+        "PBF": 9,
+        "RBK": -11,
+        "RBP": -14,
+        "RBF": -5,
+        "IBL": -8,
+        "LBK": -3
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 C, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 7,
+    "attribute_gaps_10plus": {
+      "AGI": 11,
+      "AWR": -16,
+      "RBK": -11,
+      "RBP": -14
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u/t50s441"
+}
+```

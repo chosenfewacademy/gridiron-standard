@@ -5692,16 +5692,17 @@
         "C_REAUDIT_TIEBREAK_05_A1",
         "C_REAUDIT_TIEBREAK_06_A1",
         "C_REAUDIT_VARIANCE_AUDIT_A1",
-        "C_REAUDIT_RATE_03_A2"
+        "C_REAUDIT_RATE_03_A2",
+        "C_REAUDIT_RATE_05_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "C_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T03:34:22.923Z",
+      "updated_at": "2026-11-04T03:34:23.246Z",
       "last_result": {
-        "task_id": "C_REAUDIT_RATE_03",
+        "task_id": "C_REAUDIT_RATE_05",
         "status": "REVISION_APPROVED",
-        "audit_id": "C_REAUDIT_RATE_03_A2",
-        "supersedes": "C_REAUDIT_RATE_03_A1",
+        "audit_id": "C_REAUDIT_RATE_05_A2",
+        "supersedes": "C_REAUDIT_RATE_05_A1",
         "flags": []
       },
       "awaiting": null,
@@ -6034,6 +6035,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:34:22Z",
           "note": "Standing commissioner approval t46u/t50s441: Approved variance fix (C_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): ACC 82->72, COD 68->62 (no tracking data; LOW-confidence movement traits). OVR unchang"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "C_REAUDIT_RATE_05",
+          "audit_id": "C_REAUDIT_RATE_05_A2",
+          "supersedes": "C_REAUDIT_RATE_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:34:23Z",
+          "note": "Standing commissioner approval t46u/t50s441: Approved variance fix (C_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): COD 72->64 (no tracking data). OVR unchanged."
         }
       ]
     }
