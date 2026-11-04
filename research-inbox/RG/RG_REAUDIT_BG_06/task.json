@@ -1,0 +1,115 @@
+{
+  "task_id": "RG_REAUDIT_BG_06",
+  "type": "background_analysis",
+  "players": [
+    "Joe Tippmann"
+  ],
+  "player_id": "ext_00-0039145",
+  "team": "NYJ",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Chris Lindstrom"
+      },
+      {
+        "rank": 2,
+        "player": "Quinn Meinerz"
+      },
+      {
+        "rank": 3,
+        "player": "Jonah Jackson"
+      },
+      {
+        "rank": 4,
+        "player": "Tyler Booker"
+      },
+      {
+        "rank": 5,
+        "player": "Dalton Risner"
+      },
+      {
+        "rank": 6,
+        "player": "Joe Tippmann"
+      },
+      {
+        "rank": 7,
+        "player": "Sam Cosmi"
+      },
+      {
+        "rank": 8,
+        "player": "Trey Smith"
+      },
+      {
+        "rank": 9,
+        "player": "Mason McCormick"
+      },
+      {
+        "rank": 10,
+        "player": "Dominick Puni"
+      }
+    ],
+    "external_controls": [
+      "Mike Onwenu",
+      "Kevin Dotson",
+      "Ed Ingram"
+    ]
+  },
+  "position": "RG",
+  "stage": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 8,
+    "group": "Offense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "pass blocking",
+      "run blocking",
+      "zone/gap run-block grades",
+      "pressures allowed",
+      "sacks allowed",
+      "penalties"
+    ],
+    "position_stats": [
+      "games/snaps started at the exact bucket",
+      "penalties (holding, false start)"
+    ],
+    "usage_snap_metrics": [
+      "snaps by exact alignment (LT/LG/C/RG/RT)",
+      "pass-block vs run-block snap split",
+      "true pass sets"
+    ],
+    "on_field_impact": [
+      "pass-block win rate (ESPN)",
+      "run-block win rate (ESPN)",
+      "pressure rate allowed"
+    ],
+    "madden_attributes_informed": [
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK",
+      "STR",
+      "AWR",
+      "AGI",
+      "ACC"
+    ],
+    "note": "Exact-side bucket: only snaps at this alignment count as primary evidence; snaps elsewhere are context."
+  }
+}

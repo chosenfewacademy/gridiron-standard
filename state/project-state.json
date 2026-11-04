@@ -6215,18 +6215,18 @@
         "RG_REAUDIT_TIEBREAK_04_A1",
         "RG_REAUDIT_TIEBREAK_05_A1",
         "RG_REAUDIT_TIEBREAK_06_A1",
-        "RG_REAUDIT_VARIANCE_AUDIT_A1"
+        "RG_REAUDIT_VARIANCE_AUDIT_A1",
+        "RG_REAUDIT_RATE_02_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "RG_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T03:50:15.622Z",
+      "updated_at": "2026-11-04T03:50:22.471Z",
       "last_result": {
-        "task_id": "RG_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
-        "errors": [],
-        "flags": [
-          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "task_id": "RG_REAUDIT_RATE_02",
+        "status": "REVISION_APPROVED",
+        "audit_id": "RG_REAUDIT_RATE_02_A2",
+        "supersedes": "RG_REAUDIT_RATE_02_A1",
+        "flags": []
       },
       "awaiting": null,
       "approvals": [
@@ -6549,6 +6549,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:50:15Z",
           "note": "Standing commissioner approval t46u: variance audit; drafted fixes approved (Meinerz RBF 82->88, Trey Smith AWR 78->82)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RG_REAUDIT_RATE_02",
+          "audit_id": "RG_REAUDIT_RATE_02_A2",
+          "supersedes": "RG_REAUDIT_RATE_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:50:22Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (RG_REAUDIT_VARIANCE_AUDIT, t46u): RBF 82->88 (PFF #1 G 2025 on 442 run-block snaps; still power-first). OVR unchanged."
         }
       ]
     }

@@ -1,0 +1,165 @@
+# RG_REAUDIT_BG_13 — Ed Ingram background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "RG_REAUDIT_BG_13_A1",
+  "task_id": "RG_REAUDIT_BG_13",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "player_id": "ext_00-0038131",
+  "players": [
+    "Ed Ingram"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Ed Ingram",
+    "player_id": "ext_00-0038131",
+    "team": "HOU",
+    "pff": {
+      "2025": {
+        "rank": 12,
+        "pff": 73.9,
+        "team": "houston-texans",
+        "off": 1072,
+        "pblk": 635,
+        "rblk": 437,
+        "age": 27.7,
+        "qual": true,
+        "roster": "A"
+      },
+      "2026": {
+        "rank": 26,
+        "pff": 68.5,
+        "team": "houston-texans",
+        "off": 317,
+        "pblk": 196,
+        "rblk": 121,
+        "age": 27.7,
+        "qual": true,
+        "roster": "A"
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 14,
+        "off": 929
+      },
+      "2026": {
+        "games": 5,
+        "off": 317
+      }
+    },
+    "penalties": {
+      "2025": {
+        "total": 2,
+        "types": {
+          "Illegal Blindside Block": 1,
+          "Ineligible Downfield Pass": 1
+        }
+      },
+      "2026": {
+        "total": 2,
+        "types": {
+          "Offensive Holding": 1,
+          "False Start": 1
+        }
+      }
+    },
+    "depth_chart_side": {
+      "2025": {
+        "RG": 192
+      },
+      "2026": {
+        "RG": 155
+      }
+    },
+    "espn_win_rates": "not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+    "injuries": {
+      "2025": [
+        "wk1 Questionable (Abdomen)",
+        "wk10 Out (Knee)",
+        "wk11 Questionable (Knee)"
+      ],
+      "2026": [
+        "wk2 Out (Groin)",
+        "wk3 Out (Groin)",
+        "wk4 Questionable (Groin)",
+        "wk5 Questionable (Illness)"
+      ]
+    },
+    "summary_lines": [
+      "Ed Ingram (HOU) 2026: PFF 2026 68.5 (rank 26, 317 snaps: 196 pass-block / 121 run-block, pass share 0.62); 5 g / 317 off snaps; 2 accepted penalties {'Offensive Holding': 1, 'False Start': 1}; depth-chart side {'RG': 155}",
+      "Ed Ingram 2025: PFF 2025 73.9 (rank 12, 1072 snaps: 635 pass-block / 437 run-block, pass share 0.59); 14 g / 929 off snaps; 2 accepted penalties {'Illegal Blindside Block': 1, 'Ineligible Downfield Pass': 1}; side {'RG': 192}",
+      "Ed Ingram ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+      "Ed Ingram injury reports: {'2025': ['wk1 Questionable (Abdomen)', 'wk10 Out (Knee)', 'wk11 Questionable (Knee)'], '2026': ['wk2 Out (Groin)', 'wk3 Out (Groin)', 'wk4 Questionable (Groin)', 'wk5 Questionable (Illness)']}; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "STR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH",
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/g/2026",
+        "retrieved_at": "2026-11-04T03:45:04Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/g/2025",
+        "retrieved_at": "2026-11-04T03:45:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T03:45:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T03:45:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T03:45:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T03:45:04Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T03:45:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:45:04Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```

@@ -1,0 +1,393 @@
+# RG_REAUDIT_RATE_08 — Trey Smith rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "RG_REAUDIT_RATE_08_A1",
+  "task_id": "RG_REAUDIT_RATE_08",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "player_id": "ext_00-0036660",
+  "players": [
+    "Trey Smith"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 94,
+    "SPD": 72,
+    "ACC": 72,
+    "AGI": 68,
+    "COD": 52,
+    "AWR": 78,
+    "INJ": 76,
+    "STA": 86,
+    "TGH": 90,
+    "PBK": 80,
+    "PBP": 86,
+    "PBF": 76,
+    "RBK": 84,
+    "RBP": 90,
+    "RBF": 80,
+    "IBL": 92,
+    "LBK": 86
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Trey Smith (KC) 2026: PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); 7 g / 444 off snaps; 4 accepted penalties {'Offensive Holding': 2, 'Chop Block': 1, 'Illegal Use of Hands': 1}; depth-chart side {'RG': 225}; Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists. Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 4 accepted penalties {'Offensive Holding': 2, 'Chop Block': 1, 'Illegal Use of Hands': 1}, 2025 2 accepted penalties {'False Start': 2}; PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Trey Smith injury reports: {'2025': ['wk8 Doubtful (Back)', 'wk9 Questionable (Back)', 'wk13 Out (Ankle)', 'wk14 Doubtful (Ankle)', 'wk15 Out (Ankle)', 'wk18 Out (Ankle)']}; roster status ACT; snaps 12 g / 665 off snaps (2025), 7 g / 444 off snaps (2026). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Listed weakness area: availability (2025 ankle/back), 2026 penalties, pass-pro finesse",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 12 g / 665 off snaps (2025), 7 g / 444 off snaps (2026). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 12 g / 665 off snaps (2025), 7 g / 444 off snaps (2026). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 68.5 (rank 27, 665 snaps: 459 pass-block / 206 run-block, pass share 0.69). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 68.5 (rank 27, 665 snaps: 459 pass-block / 206 run-block, pass share 0.69). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 68.5 (rank 27, 665 snaps: 459 pass-block / 206 run-block, pass share 0.69). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 68.5 (rank 27, 665 snaps: 459 pass-block / 206 run-block, pass share 0.69). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 68.5 (rank 27, 665 snaps: 459 pass-block / 206 run-block, pass share 0.69). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 68.5 (rank 27, 665 snaps: 459 pass-block / 206 run-block, pass share 0.69). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 68.5 (rank 27, 665 snaps: 459 pass-block / 206 run-block, pass share 0.69). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 68.5 (rank 27, 665 snaps: 459 pass-block / 206 run-block, pass share 0.69). Style: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "ELITE",
+      "claim": "power: Trey Smith (KC) 2026: PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); 7 g / 444 off snaps; 4 accepted penalties {'Offensive Holding': 2, 'Chop Block': 1, 'Illegal Use of Hands': 1}; depth-chart side {'RG': 225}; Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 12 g / 665 off snaps (2025), 7 g / 444 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "tier": "ELITE",
+      "claim": "run block: Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 68.5 (rank 27, 665 snaps: 459 pass-block / 206 run-block, pass share 0.69)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "tier": "ELITE",
+      "claim": "run block: Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 68.5 (rank 27, 665 snaps: 459 pass-block / 206 run-block, pass share 0.69)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 78,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+  "style_profile": "Trey Smith: Big-body power blocker: PFF 68.5 on 665 snaps (2025, back/ankle, Out wk13/15/18) and 77.0 (#11 G) in 2026; drives defenders in the run game but 4 penalties in 2026 and inconsistent pass sets keep him well below Madden's 93.",
+  "style_evidence": [
+    "Trey Smith (KC) 2026: PFF 2026 77 (rank 11, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); 7 g / 444 off snaps; 4 accepted penalties {'Offensive Holding': 2, 'Chop Block': 1, 'Illegal Use of Hands': 1}; depth-chart side {'RG': 225}",
+    "Trey Smith 2025: PFF 2025 68.5 (rank 27, 665 snaps: 459 pass-block / 206 run-block, pass share 0.69); 12 g / 665 off snaps; 2 accepted penalties {'False Start': 2}; side {'RG': 219}",
+    "Trey Smith ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+    "Trey Smith injury reports: {'2025': ['wk8 Doubtful (Back)', 'wk9 Questionable (Back)', 'wk13 Out (Ankle)', 'wk14 Doubtful (Ankle)', 'wk15 Out (Ankle)', 'wk18 Out (Ankle)']}; roster status ACT"
+  ],
+  "input_dossier": "RG_REAUDIT_BG_08_A1",
+  "weaknesses": [
+    "availability (2025 ankle/back)",
+    "2026 penalties",
+    "pass-pro finesse"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Trey Smith",
+      "ovr": 93,
+      "attributes": {
+        "STR": 95,
+        "SPD": 71,
+        "ACC": 75,
+        "AGI": 69,
+        "COD": 53,
+        "AWR": 93,
+        "INJ": 92,
+        "STA": 90,
+        "TGH": 92,
+        "PBK": 85,
+        "PBP": 89,
+        "PBF": 81,
+        "RBK": 94,
+        "RBP": 92,
+        "RBF": 95,
+        "IBL": 96,
+        "LBK": 95
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -15,
+      "delta_attributes": {
+        "STR": -1,
+        "SPD": 1,
+        "ACC": -3,
+        "AGI": -1,
+        "COD": -1,
+        "AWR": -15,
+        "INJ": -16,
+        "STA": -4,
+        "TGH": -2,
+        "PBK": -5,
+        "PBP": -3,
+        "PBF": -5,
+        "RBK": -10,
+        "RBP": -2,
+        "RBF": -15,
+        "IBL": -4,
+        "LBK": -9
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RG, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 15,
+    "attribute_gaps_10plus": {
+      "AWR": -15,
+      "INJ": -16,
+      "RBK": -10,
+      "RBF": -15
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```

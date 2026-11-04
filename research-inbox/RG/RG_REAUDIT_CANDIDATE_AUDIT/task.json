@@ -1,0 +1,330 @@
+{
+  "task_id": "RG_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Chris Lindstrom"
+      },
+      {
+        "rank": 2,
+        "player": "Quinn Meinerz"
+      },
+      {
+        "rank": 3,
+        "player": "Damien Lewis"
+      },
+      {
+        "rank": 4,
+        "player": "Dylan Parham"
+      },
+      {
+        "rank": 5,
+        "player": "Sam Cosmi"
+      },
+      {
+        "rank": 6,
+        "player": "Tyler Booker"
+      },
+      {
+        "rank": 7,
+        "player": "Joe Tippmann"
+      },
+      {
+        "rank": 8,
+        "player": "Jonah Jackson"
+      },
+      {
+        "rank": 9,
+        "player": "Dalton Risner"
+      },
+      {
+        "rank": 10,
+        "player": "Mason McCormick"
+      }
+    ],
+    "external_controls": [
+      "Christian Mahogany",
+      "Kevin Dotson",
+      "Peter Skoronski",
+      "Trey Smith",
+      "Dominick Puni",
+      "Mike Onwenu",
+      "Corey Bullock",
+      "Kevin Zeitler",
+      "Ed Ingram",
+      "Jon Runyan",
+      "Brett Toth",
+      "Robert Hunt",
+      "David Edwards",
+      "Olaivavega Ioane"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Chris Lindstrom",
+      "aliases": [],
+      "player_id": "ext_00-0035630",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Quinn Meinerz",
+      "aliases": [],
+      "player_id": "ext_00-0037001",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Damien Lewis",
+      "aliases": [],
+      "player_id": "ext_00-0036417",
+      "flags": [
+        "ROSTER_STATUS_INA",
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Dylan Parham",
+      "aliases": [],
+      "player_id": "ext_00-0037255",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Sam Cosmi",
+      "aliases": [],
+      "player_id": "ext_00-0036618",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Tyler Booker",
+      "aliases": [],
+      "player_id": "ext_00-0040007",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Joe Tippmann",
+      "aliases": [],
+      "player_id": "ext_00-0039145",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Jonah Jackson",
+      "aliases": [],
+      "player_id": "ext_00-0036258",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Dalton Risner",
+      "aliases": [],
+      "player_id": "ext_00-0035702",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Mason McCormick",
+      "aliases": [],
+      "player_id": "ext_00-0039358",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Christian Mahogany",
+      "aliases": [],
+      "player_id": "ext_00-0039408",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Kevin Dotson",
+      "aliases": [],
+      "player_id": "ext_00-0036339",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Peter Skoronski",
+      "aliases": [],
+      "player_id": "ext_00-0039034",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Trey Smith",
+      "aliases": [],
+      "player_id": "ext_00-0036660",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Dominick Puni",
+      "aliases": [],
+      "player_id": "ext_00-0039351",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Mike Onwenu",
+      "aliases": [],
+      "player_id": "ext_00-0036198",
+      "flags": [
+        "INJURED_RESERVE",
+        "SIDE_UNVERIFIED (nflverse labels G/T only)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Corey Bullock",
+      "aliases": [],
+      "player_id": "ext_00-0039242",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Kevin Zeitler",
+      "aliases": [],
+      "player_id": "ext_00-0029592",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Ed Ingram",
+      "aliases": [],
+      "player_id": "ext_00-0038131",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Jon Runyan",
+      "aliases": [],
+      "player_id": "ext_00-0036246",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Brett Toth",
+      "aliases": [],
+      "player_id": "ext_00-0035743",
+      "flags": [
+        "INJURED_RESERVE",
+        "SIDE_UNVERIFIED (nflverse labels G/T only)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Robert Hunt",
+      "aliases": [],
+      "player_id": "ext_00-0036325",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "David Edwards",
+      "aliases": [],
+      "player_id": "ext_00-0035668",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only)"
+      ]
+    },
+    {
+      "player": "Olaivavega Ioane",
+      "aliases": [
+        "Vega Ioane"
+      ],
+      "player_id": "ext_00-0040866",
+      "flags": [
+        "ROSTER_LABEL_G; graded in PFF C list (67.9, 403 snaps); 2026 depth chart RG 115 / LG 66 / C 10",
+        "ROSTER_STATUS_INA"
+      ]
+    }
+  ],
+  "position": "RG",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 8,
+    "group": "Offense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "pass blocking",
+      "run blocking",
+      "zone/gap run-block grades",
+      "pressures allowed",
+      "sacks allowed",
+      "penalties"
+    ],
+    "position_stats": [
+      "games/snaps started at the exact bucket",
+      "penalties (holding, false start)"
+    ],
+    "usage_snap_metrics": [
+      "snaps by exact alignment (LT/LG/C/RG/RT)",
+      "pass-block vs run-block snap split",
+      "true pass sets"
+    ],
+    "on_field_impact": [
+      "pass-block win rate (ESPN)",
+      "run-block win rate (ESPN)",
+      "pressure rate allowed"
+    ],
+    "madden_attributes_informed": [
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK",
+      "STR",
+      "AWR",
+      "AGI",
+      "ACC"
+    ],
+    "note": "Exact-side bucket: only snaps at this alignment count as primary evidence; snaps elsewhere are context."
+  }
+}

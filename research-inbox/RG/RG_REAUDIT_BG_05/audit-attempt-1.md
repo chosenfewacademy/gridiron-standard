@@ -1,0 +1,159 @@
+# RG_REAUDIT_BG_05 — Dalton Risner background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "RG_REAUDIT_BG_05_A1",
+  "task_id": "RG_REAUDIT_BG_05",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "player_id": "ext_00-0035702",
+  "players": [
+    "Dalton Risner"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Dalton Risner",
+    "player_id": "ext_00-0035702",
+    "team": "CIN",
+    "pff": {
+      "2025": {
+        "rank": 25,
+        "pff": 69.4,
+        "team": "cincinnati-bengals",
+        "off": 767,
+        "pblk": 503,
+        "rblk": 264,
+        "age": 31.3,
+        "qual": true,
+        "roster": "A"
+      },
+      "2026": {
+        "rank": 8,
+        "pff": 81.4,
+        "team": "cincinnati-bengals",
+        "off": 445,
+        "pblk": 303,
+        "rblk": 142,
+        "age": 31.3,
+        "qual": true,
+        "roster": "A"
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 14,
+        "off": 768
+      },
+      "2026": {
+        "games": 7,
+        "off": 446
+      }
+    },
+    "penalties": {
+      "2025": {
+        "total": 4,
+        "types": {
+          "False Start": 3,
+          "Offensive Offside": 1
+        }
+      },
+      "2026": {
+        "total": 1,
+        "types": {
+          "False Start": 1
+        }
+      }
+    },
+    "depth_chart_side": {
+      "2025": {
+        "RG": 78
+      },
+      "2026": {
+        "RG": 226
+      }
+    },
+    "espn_win_rates": "IOL RBWR 82% (top 10)",
+    "injuries": {
+      "2025": [
+        "wk9 Questionable (Illness)"
+      ],
+      "2026": [
+        "wk4 Questionable (Knee)"
+      ]
+    },
+    "summary_lines": [
+      "Dalton Risner (CIN) 2026: PFF 2026 81.4 (rank 8, 445 snaps: 303 pass-block / 142 run-block, pass share 0.68); 7 g / 446 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'RG': 226}",
+      "Dalton Risner 2025: PFF 2025 69.4 (rank 25, 767 snaps: 503 pass-block / 264 run-block, pass share 0.66); 14 g / 768 off snaps; 4 accepted penalties {'False Start': 3, 'Offensive Offside': 1}; side {'RG': 78}",
+      "Dalton Risner ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 82% (top 10)",
+      "Dalton Risner injury reports: {'2025': ['wk9 Questionable (Illness)'], '2026': ['wk4 Questionable (Knee)']}; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "STR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH",
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/g/2026",
+        "retrieved_at": "2026-11-04T03:44:55Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/g/2025",
+        "retrieved_at": "2026-11-04T03:44:55Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T03:44:55Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T03:44:55Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T03:44:55Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T03:44:55Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T03:44:55Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:44:55Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
