@@ -5695,16 +5695,17 @@
         "C_REAUDIT_RATE_03_A2",
         "C_REAUDIT_RATE_05_A2",
         "C_REAUDIT_RATE_09_A2",
-        "C_REAUDIT_RATE_11_A2"
+        "C_REAUDIT_RATE_11_A2",
+        "C_REAUDIT_RATE_13_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "C_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T03:34:23.860Z",
+      "updated_at": "2026-11-04T03:34:24.169Z",
       "last_result": {
-        "task_id": "C_REAUDIT_RATE_11",
+        "task_id": "C_REAUDIT_RATE_13",
         "status": "REVISION_APPROVED",
-        "audit_id": "C_REAUDIT_RATE_11_A2",
-        "supersedes": "C_REAUDIT_RATE_11_A1",
+        "audit_id": "C_REAUDIT_RATE_13_A2",
+        "supersedes": "C_REAUDIT_RATE_13_A1",
         "flags": []
       },
       "awaiting": null,
@@ -6064,6 +6065,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:34:23Z",
           "note": "Standing commissioner approval t46u/t50s441: Approved variance fix (C_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): INJ 76->80 (8/8 games in 2026). OVR unchanged."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "C_REAUDIT_RATE_13",
+          "audit_id": "C_REAUDIT_RATE_13_A2",
+          "supersedes": "C_REAUDIT_RATE_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:34:23Z",
+          "note": "Standing commissioner approval t46u/t50s441: Approved variance fix (C_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): AWR 70->76 (2 penalties in 2025 on 937 snaps). OVR unchanged."
         }
       ]
     }
