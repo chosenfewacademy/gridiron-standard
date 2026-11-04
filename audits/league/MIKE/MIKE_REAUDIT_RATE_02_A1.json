@@ -1,0 +1,438 @@
+{
+  "audit_id": "MIKE_REAUDIT_RATE_02_A1",
+  "task_id": "MIKE_REAUDIT_RATE_02",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "MIKE",
+  "player_id": "ext_00-0039018",
+  "players": [
+    "Jack Campbell"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 85,
+    "ACC": 88,
+    "AGI": 80,
+    "COD": 74,
+    "STR": 84,
+    "AWR": 88,
+    "PRC": 88,
+    "TAK": 92,
+    "POW": 90,
+    "BSH": 84,
+    "PUR": 92,
+    "MCV": 62,
+    "ZCV": 74,
+    "PRS": 62,
+    "INJ": 92,
+    "STA": 92,
+    "TGH": 94
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PUR": "MEDIUM",
+    "MCV": "MEDIUM",
+    "ZCV": "MEDIUM",
+    "PRS": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 62 targets / 42 completions / 358 yds / passer rating 98.7 / 0 INT; 176 tackles, 7 missed; 12 pressures on 65 blitzes, 5 sacks; PFR 2026 (6 games) coverage 41 targets / 30 completions / 335 yds / 0 INT; 55 tackles, 1 missed; 4 pressures on 37 blitzes; range from tackles/PD in 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 62 targets / 42 completions / 358 yds / passer rating 98.7 / 0 INT; 176 tackles, 7 missed; 12 pressures on 65 blitzes, 5 sacks; PFR 2026 (6 games) coverage 41 targets / 30 completions / 335 yds / 0 INT; 55 tackles, 1 missed; 4 pressures on 37 blitzes; range from tackles/PD in 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 62 targets / 42 completions / 358 yds / passer rating 98.7 / 0 INT; 176 tackles, 7 missed; 12 pressures on 65 blitzes, 5 sacks; PFR 2026 (6 games) coverage 41 targets / 30 completions / 335 yds / 0 INT; 55 tackles, 1 missed; 4 pressures on 37 blitzes; range from tackles/PD in 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 62 targets / 42 completions / 358 yds / passer rating 98.7 / 0 INT; 176 tackles, 7 missed; 12 pressures on 65 blitzes, 5 sacks; PFR 2026 (6 games) coverage 41 targets / 30 completions / 335 yds / 0 INT; 55 tackles, 1 missed; 4 pressures on 37 blitzes; range from tackles/PD in 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF LB 2026 overall 58.9 on 486 snaps (LB rank 50; 149 run-def / 292 coverage / 45 pass-rush snaps); TFL/sacks in 17 g / 1097 def snaps; 87 solo + 87 ast tackles, 9 TFL, 5.0 sacks, 0 INT, 4 PD, 3 FF / 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 2/1; PFF LB 2026 overall 58.9 on 486 snaps (LB rank 50; 149 run-def / 292 coverage / 45 pass-rush snaps). Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 90.3 on 1096 snaps (LB rank 2; 410 run-def / 608 coverage / 78 pass-rush snaps); PFF LB 2026 overall 58.9 on 486 snaps (LB rank 50; 149 run-def / 292 coverage / 45 pass-rush snaps); TFL in 17 g / 1097 def snaps; 87 solo + 87 ast tackles, 9 TFL, 5.0 sacks, 0 INT, 4 PD, 3 FF / 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 62 targets / 42 completions / 358 yds / passer rating 98.7 / 0 INT; 176 tackles, 7 missed; 12 pressures on 65 blitzes, 5 sacks; PFR 2026 (6 games) coverage 41 targets / 30 completions / 335 yds / 0 INT; 55 tackles, 1 missed; 4 pressures on 37 blitzes. Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 62 targets / 42 completions / 358 yds / passer rating 98.7 / 0 INT; 176 tackles, 7 missed; 12 pressures on 65 blitzes, 5 sacks; PFR 2026 (6 games) coverage 41 targets / 30 completions / 335 yds / 0 INT; 55 tackles, 1 missed; 4 pressures on 37 blitzes. Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 90.3 on 1096 snaps (LB rank 2; 410 run-def / 608 coverage / 78 pass-rush snaps); PFF LB 2026 overall 58.9 on 486 snaps (LB rank 50; 149 run-def / 292 coverage / 45 pass-rush snaps); TFL in 17 g / 1097 def snaps; 87 solo + 87 ast tackles, 9 TFL, 5.0 sacks, 0 INT, 4 PD, 3 FF / 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 90.3 on 1096 snaps (LB rank 2; 410 run-def / 608 coverage / 78 pass-rush snaps); PFF LB 2026 overall 58.9 on 486 snaps (LB rank 50; 149 run-def / 292 coverage / 45 pass-rush snaps); TFL in 17 g / 1097 def snaps; 87 solo + 87 ast tackles, 9 TFL, 5.0 sacks, 0 INT, 4 PD, 3 FF / 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 62 targets / 42 completions / 358 yds / passer rating 98.7 / 0 INT; 176 tackles, 7 missed; 12 pressures on 65 blitzes, 5 sacks; PFR 2026 (6 games) coverage 41 targets / 30 completions / 335 yds / 0 INT; 55 tackles, 1 missed; 4 pressures on 37 blitzes; PFF LB 2025 overall 90.3 on 1096 snaps (LB rank 2; 410 run-def / 608 coverage / 78 pass-rush snaps); PFF LB 2026 overall 58.9 on 486 snaps (LB rank 50; 149 run-def / 292 coverage / 45 pass-rush snaps). Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 62 targets / 42 completions / 358 yds / passer rating 98.7 / 0 INT; 176 tackles, 7 missed; 12 pressures on 65 blitzes, 5 sacks; PFR 2026 (6 games) coverage 41 targets / 30 completions / 335 yds / 0 INT; 55 tackles, 1 missed; 4 pressures on 37 blitzes; PFF LB 2025 overall 90.3 on 1096 snaps (LB rank 2; 410 run-def / 608 coverage / 78 pass-rush snaps); PFF LB 2026 overall 58.9 on 486 snaps (LB rank 50; 149 run-def / 292 coverage / 45 pass-rush snaps). Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (pass rush): blitz/pressure lines: PFR 2025 coverage 62 targets / 42 completions / 358 yds / passer rating 98.7 / 0 INT; 176 tackles, 7 missed; 12 pressures on 65 blitzes, 5 sacks; PFR 2026 (6 games) coverage 41 targets / 30 completions / 335 yds / 0 INT; 55 tackles, 1 missed; 4 pressures on 37 blitzes; sacks in 17 g / 1097 def snaps; 87 solo + 87 ast tackles, 9 TFL, 5.0 sacks, 0 INT, 4 PD, 3 FF / 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Jack Campbell injury reports: wk3 Questionable (Ankle); roster status ACT; 17 g / 1097 def snaps; 87 solo + 87 ast tackles, 9 TFL, 5.0 sacks, 0 INT, 4 PD, 3 FF (2025), 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF (2026). Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 17 g / 1097 def snaps; 87 solo + 87 ast tackles, 9 TFL, 5.0 sacks, 0 INT, 4 PD, 3 FF (2025), 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF (2026). Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 17 g / 1097 def snaps; 87 solo + 87 ast tackles, 9 TFL, 5.0 sacks, 0 INT, 4 PD, 3 FF (2025), 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF (2026). Style: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "TAK": {
+      "tier": "ELITE",
+      "claim": "tackling: PFR 2025 coverage 62 targets / 42 completions / 358 yds / passer rating 98.7 / 0 INT; 176 tackles, 7 missed; 12 pressures on 65 blitzes, 5 sacks; PFR 2026 (6 games) coverage 41 targets / 30 completions / 335 yds / 0 INT; 55 tackles, 1 missed; 4 pressures on 37 blitzes",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "tier": "ELITE",
+      "claim": "tackling: PFR 2025 coverage 62 targets / 42 completions / 358 yds / passer rating 98.7 / 0 INT; 176 tackles, 7 missed; 12 pressures on 65 blitzes, 5 sacks; PFR 2026 (6 games) coverage 41 targets / 30 completions / 335 yds / 0 INT; 55 tackles, 1 missed; 4 pressures on 37 blitzes",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "tier": "ELITE",
+      "claim": "run defense: PFF LB 2025 overall 90.3 on 1096 snaps (LB rank 2; 410 run-def / 608 coverage / 78 pass-rush snaps); PFF LB 2026 overall 58.9 on 486 snaps (LB rank 50; 149 run-def / 292 coverage / 45 pass-rush snaps); TFL in 17 g / 1097 def snaps; 87 solo + 87 ast tackles, 9 TFL, 5.0 sacks, 0 INT, 4 PD, 3 FF / 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Jack Campbell injury reports: wk3 Questionable (Ankle); roster status ACT; 17 g / 1097 def snaps; 87 solo + 87 ast tackles, 9 TFL, 5.0 sacks, 0 INT, 4 PD, 3 FF (2025), 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 1097 def snaps; 87 solo + 87 ast tackles, 9 TFL, 5.0 sacks, 0 INT, 4 PD, 3 FF (2025), 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 1097 def snaps; 87 solo + 87 ast tackles, 9 TFL, 5.0 sacks, 0 INT, 4 PD, 3 FF (2025), 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 87,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+  "style_profile": "Jack Campbell: Downhill three-down MIKE: PFF 90.3 on 1,096 snaps (2025), 176 tackles, 9 TFL, 5 sacks; physical tackler and blitzer whose 2026 grade dipped to 58.9.",
+  "style_evidence": [
+    "Jack Campbell (DET) Jack Campbell 2026: PFF LB 2026 overall 58.9 on 486 snaps (LB rank 50; 149 run-def / 292 coverage / 45 pass-rush snaps); PFR 2026 (6 games) coverage 41 targets / 30 completions / 335 yds / 0 INT; 55 tackles, 1 missed; 4 pressures on 37 blitzes; 7 g / 486 def snaps; 30 solo + 28 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF; 1 accepted penalties",
+    "Jack Campbell 2025: PFF LB 2025 overall 90.3 on 1096 snaps (LB rank 2; 410 run-def / 608 coverage / 78 pass-rush snaps); PFR 2025 coverage 62 targets / 42 completions / 358 yds / passer rating 98.7 / 0 INT; 176 tackles, 7 missed; 12 pressures on 65 blitzes, 5 sacks; 17 g / 1097 def snaps; 87 solo + 87 ast tackles, 9 TFL, 5.0 sacks, 0 INT, 4 PD, 3 FF; 2 accepted penalties",
+    "Jack Campbell role: snap-weighted 2025-26 depth-chart role shares MIKE 1583 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE25 221, MIKE26 275) -> MIKE (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card MIKE (reference only)",
+    "Jack Campbell injury reports: wk3 Questionable (Ankle); roster status ACT"
+  ],
+  "input_dossier": "MIKE_REAUDIT_BG_02_A1",
+  "weaknesses": [
+    "2026 grade drop (58.9)",
+    "man coverage"
+  ],
+  "limitations": [
+    "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+  ],
+  "role_assignment": "MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 1583 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE25 221, MIKE26 275) -> MIKE)",
+  "madden_reference": [
+    {
+      "player": "Jack Campbell",
+      "ovr": 86,
+      "madden_position": "MIKE",
+      "attributes": {
+        "SPD": 85,
+        "ACC": 90,
+        "AGI": 87,
+        "COD": 77,
+        "STR": 76,
+        "AWR": 87,
+        "PRC": 87,
+        "TAK": 91,
+        "POW": 87,
+        "BSH": 78,
+        "PUR": 91,
+        "MCV": 68,
+        "ZCV": 73,
+        "PRS": 66,
+        "INJ": 92,
+        "STA": 90,
+        "TGH": 96
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 1,
+      "delta_attributes": {
+        "SPD": 0,
+        "ACC": -2,
+        "AGI": -7,
+        "COD": -3,
+        "STR": 8,
+        "AWR": 1,
+        "PRC": 1,
+        "TAK": 1,
+        "POW": 3,
+        "BSH": 6,
+        "PUR": 1,
+        "MCV": -6,
+        "ZCV": 1,
+        "PRS": -4,
+        "INJ": 0,
+        "STA": 2,
+        "TGH": -2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 1,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u",
+  "style_similarity": [
+    {
+      "player": "Fred Warner",
+      "audit_id": "MIKE_REAUDIT_RATE_01_A1",
+      "corr": 0.684,
+      "mad": 5.8,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
