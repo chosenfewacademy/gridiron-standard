@@ -5066,7 +5066,7 @@
         "position": "LG",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "IN_PROGRESS",
       "pool_file": "data/candidate-pools/LG.reaudit.json",
       "baseline_file": null,
@@ -5076,7 +5076,8 @@
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T03:12:21.992Z",
       "completed_tasks": [
-        "LG_REAUDIT_CANDIDATE_AUDIT"
+        "LG_REAUDIT_CANDIDATE_AUDIT",
+        "LG_REAUDIT_BG_01"
       ],
       "audit_ids": [
         "LG_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -5084,18 +5085,14 @@
       ],
       "current_stage": "background_analysis",
       "current_task": "LG_REAUDIT_BG_01",
-      "updated_at": "2026-11-04T03:17:28.094Z",
+      "updated_at": "2026-11-04T03:17:28.363Z",
       "last_result": {
         "task_id": "LG_REAUDIT_BG_01",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LG_REAUDIT_BG_01",
-        "audit_id": "LG_REAUDIT_BG_01_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -5104,6 +5101,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:12:26Z",
           "note": "Approved under t50s441/t46u: never-locked LG candidate audit vs approved-pool controls (addendum 2026-11-04); Vera-Tucker first-out via LG_POOL_AMEND_02; McCormick excluded (RG 136 / LG 90)."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LG_REAUDIT_BG_01",
+          "audit_id": "LG_REAUDIT_BG_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:17:28Z",
+          "note": "Standing commissioner approval t46u/t50s441 (run dossiers and ratings automatically)"
         }
       ]
     }
