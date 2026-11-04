@@ -1,0 +1,40 @@
+# RG_REAUDIT_TIEBREAK_08 — Ezra Cleveland vs Dominick Puni (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "RG_REAUDIT_TIEBREAK_08_A1",
+  "task_id": "RG_REAUDIT_TIEBREAK_08",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Ezra Cleveland",
+    "Dominick Puni"
+  ],
+  "pair_result": {
+    "winner": "Dominick Puni",
+    "loser": "Ezra Cleveland",
+    "provisional_order_holds": false,
+    "reasoning": "Cleveland (JAX) has PFF 70.1 over 1,448 snaps but split LG/RG in 2026 (more LG snapshots), with more penalties per snap and missed time; Puni is a full-time RG with 24/25 games, comparable grade and better ESPN-era consistency. Puni holds #10.",
+    "key_evidence_for_winner": [
+      "Dominick Puni (SF) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 226}; roster ACT",
+      "Dominick Puni 2026: PFF 76.2 (rank 13; 244 pass-block/175 run-block of 419 snaps); 7 g/419 snaps; penalties 1; injuries none",
+      "Dominick Puni 2025: PFF 69.2 (rank 26; 739 pass-block/496 run-block of 1235 snaps); 17 g/1120 snaps; penalties 4; injuries none"
+    ],
+    "key_evidence_for_loser": [
+      "Ezra Cleveland (JAX) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'LG': 149, 'RG': 77}; roster ACT",
+      "Ezra Cleveland 2026: PFF 71.6 (rank 22; 223 pass-block/166 run-block of 389 snaps); 7 g/389 snaps; penalties 1; injuries none",
+      "Ezra Cleveland 2025: PFF 69.6 (rank 24; 684 pass-block/426 run-block of 1110 snaps); 16 g/1059 snaps; penalties 1; injuries ['wk3 Questionable (Ankle)', 'wk10 Out (Knee)']"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
