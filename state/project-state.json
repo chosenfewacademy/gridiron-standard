@@ -7285,16 +7285,17 @@
         "FB_REAUDIT_TIEBREAK_06_A1",
         "FB_REAUDIT_VARIANCE_AUDIT_A1",
         "FB_REAUDIT_RATE_04_A2",
-        "FB_REAUDIT_RATE_06_A2"
+        "FB_REAUDIT_RATE_06_A2",
+        "FB_REAUDIT_RATE_10_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "FB_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T04:20:10.102Z",
+      "updated_at": "2026-11-04T04:20:10.400Z",
       "last_result": {
-        "task_id": "FB_REAUDIT_RATE_06",
+        "task_id": "FB_REAUDIT_RATE_10",
         "status": "REVISION_APPROVED",
-        "audit_id": "FB_REAUDIT_RATE_06_A2",
-        "supersedes": "FB_REAUDIT_RATE_06_A1",
+        "audit_id": "FB_REAUDIT_RATE_10_A2",
+        "supersedes": "FB_REAUDIT_RATE_10_A1",
         "flags": []
       },
       "awaiting": null,
@@ -7636,6 +7637,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T04:20:09Z",
           "note": "Standing commissioner approval t46u: Approved variance fix (FB_REAUDIT_VARIANCE_AUDIT, t46u): AWR 82->76 (0 penalties but only 71 FB snaps in 2026 after a backup year; small sample). OVR "
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "FB_REAUDIT_RATE_10",
+          "audit_id": "FB_REAUDIT_RATE_10_A2",
+          "supersedes": "FB_REAUDIT_RATE_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T04:20:10Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (FB_REAUDIT_VARIANCE_AUDIT, t46u): TRK 50->44 (0 carries in 2025-26; consistent with CAR 40 / BTK 30). OVR unchanged."
         }
       ]
     }

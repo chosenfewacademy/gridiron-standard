@@ -1,0 +1,542 @@
+{
+  "audit_id": "FB_REAUDIT_RATE_10_A2",
+  "task_id": "FB_REAUDIT_RATE_10",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "player_id": "ext_00-0038614",
+  "players": [
+    "Scott Matlock"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 70,
+    "ACC": 76,
+    "AGI": 66,
+    "COD": 58,
+    "STR": 90,
+    "AWR": 72,
+    "CAR": 40,
+    "BCV": 30,
+    "TRK": 44,
+    "BTK": 30,
+    "SFA": 40,
+    "CTH": 58,
+    "CIT": 50,
+    "SRR": 46,
+    "RBK": 72,
+    "RBP": 84,
+    "RBF": 56,
+    "PBK": 74,
+    "IBL": 84,
+    "LBK": 84,
+    "INJ": 82,
+    "STA": 74,
+    "TGH": 80
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "CAR": "MEDIUM",
+    "BCV": "LOW",
+    "TRK": "MEDIUM",
+    "BTK": "LOW",
+    "SFA": "LOW",
+    "CTH": "MEDIUM",
+    "CIT": "MEDIUM",
+    "SRR": "MEDIUM",
+    "RBK": "MEDIUM",
+    "RBP": "MEDIUM",
+    "RBF": "LOW",
+    "PBK": "MEDIUM",
+    "IBL": "MEDIUM",
+    "LBK": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025); 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026); PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025); 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026); PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025); 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026); PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025); 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026); PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84); PFF FB 2025 50.5 (rank 6, 347 snaps: 237 run/lead-block, 68 pass-block, 42 routes, 0 carries; block share 0.88). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 0/1; PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball carrier): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025); 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Listed weakness area: ball skills, 2026 role, grades",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "BCV": {
+      "basis": "Judgment (ball carrier): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025); 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Listed weakness area: ball skills, 2026 role, grades",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TRK": {
+      "basis": "Judgment (ball carrier): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025); 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value. Revised 50->44: Approved variance fix (FB_REAUDIT_VARIANCE_AUDIT, t46u): TRK 50->44 (0 carries in 2025-26; consistent with CAR 40 / BTK 30). OVR unchanged.",
+      "why_not_higher": "Listed weakness area: ball skills, 2026 role, grades",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (ball carrier): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025); 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Listed weakness area: ball skills, 2026 role, grades",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SFA": {
+      "basis": "Judgment (ball carrier): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025); 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Listed weakness area: ball skills, 2026 role, grades",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (receiving): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025); 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026); routes in PFF FB 2025 50.5 (rank 6, 347 snaps: 237 run/lead-block, 68 pass-block, 42 routes, 0 carries; block share 0.88). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (receiving): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025); 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026); routes in PFF FB 2025 50.5 (rank 6, 347 snaps: 237 run/lead-block, 68 pass-block, 42 routes, 0 carries; block share 0.88). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (receiving): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025); 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026); routes in PFF FB 2025 50.5 (rank 6, 347 snaps: 237 run/lead-block, 68 pass-block, 42 routes, 0 carries; block share 0.88). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (lead block): PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84); PFF FB 2025 50.5 (rank 6, 347 snaps: 237 run/lead-block, 68 pass-block, 42 routes, 0 carries; block share 0.88). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (lead block): PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84); PFF FB 2025 50.5 (rank 6, 347 snaps: 237 run/lead-block, 68 pass-block, 42 routes, 0 carries; block share 0.88). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (lead block): PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84); PFF FB 2025 50.5 (rank 6, 347 snaps: 237 run/lead-block, 68 pass-block, 42 routes, 0 carries; block share 0.88). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84); PFF FB 2025 50.5 (rank 6, 347 snaps: 237 run/lead-block, 68 pass-block, 42 routes, 0 carries; block share 0.88). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (lead block): PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84); PFF FB 2025 50.5 (rank 6, 347 snaps: 237 run/lead-block, 68 pass-block, 42 routes, 0 carries; block share 0.88). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (lead block): PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84); PFF FB 2025 50.5 (rank 6, 347 snaps: 237 run/lead-block, 68 pass-block, 42 routes, 0 carries; block share 0.88). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Scott Matlock injury reports: {'2025': ['wk6 Questionable (Ankle)', 'wk11 Questionable (Chest)'], '2026': ['wk5 Questionable (Foot)']}; roster status ACT; 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025), 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025), 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD (2025), 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD (2026). Style: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "ELITE",
+      "claim": "power: PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84); PFF FB 2025 50.5 (rank 6, 347 snaps: 237 run/lead-block, 68 pass-block, 42 routes, 0 carries; block share 0.88)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 69,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value. Revision A2: Approved variance fix (FB_REAUDIT_VARIANCE_AUDIT, t46u): TRK 50->44 (0 carries in 2025-26; consistent with CAR 40 / BTK 30). OVR unchanged.",
+  "style_profile": "Scott Matlock: Converted defensive lineman (Madden still lists him DT): 296-lb power blocker, 347 FB snaps in 2025 (237 run-block, 68 pass-block - most pass-pro of any FB) with PFF 50.5, 45.9 on 50 in 2026 behind Ingold; no ball-carrier value.",
+  "style_evidence": [
+    "Scott Matlock (LAC) 2026: PFF FB 2026 45.9 (rank 9, 50 snaps: 28 run/lead-block, 14 pass-block, 8 routes, 0 carries; block share 0.84); 3 g / 50 off snaps; 0-0 rushing, 0/0 tgt for 0 yds, 0 TD; 1 penalties; FB depth-chart snapshots {'rank1': 35, 'rank2': 239}",
+    "Scott Matlock 2025: PFF FB 2025 50.5 (rank 6, 347 snaps: 237 run/lead-block, 68 pass-block, 42 routes, 0 carries; block share 0.88); 16 g / 334 off snaps; 0-0 rushing, 4/4 tgt for 12 yds, 1 TD; 0 penalties; FB depth-chart snapshots {'rank2': 6, 'rank1': 214}",
+    "Scott Matlock usage (FB eligibility rule: PFF FB alignment / depth-chart FB / roster FB): roster position RB, depth-chart position FB",
+    "Scott Matlock injury reports: {'2025': ['wk6 Questionable (Ankle)', 'wk11 Questionable (Chest)'], '2026': ['wk5 Questionable (Foot)']}; roster status ACT"
+  ],
+  "input_dossier": "FB_REAUDIT_BG_10_A1",
+  "weaknesses": [
+    "ball skills",
+    "2026 role",
+    "grades"
+  ],
+  "limitations": [
+    "PFF FB run/pass-block sub-grades, lead-block win data and 21/22-personnel share are paywalled or unpublished; substitutes: PFF FB overall + run-block/pass-block/route/carry snap counts, nflverse snaps, rushing/receiving, penalties, FB depth-chart role, injury reports",
+    "Madden card lists him at DT (reference only)"
+  ],
+  "attribute_set_note": "config/madden-entry-order.json has no FB key (protected, madden_order_verified=false); FB attributes follow the Madden 27 FB card (speed/ball-carrier/receiving/blocking/durability).",
+  "madden_reference": [
+    {
+      "player": "Scott Matlock",
+      "ovr": 68,
+      "madden_position": "DT",
+      "attributes": {
+        "SPD": 74,
+        "ACC": 81,
+        "AGI": 73,
+        "COD": 61,
+        "STR": 85,
+        "AWR": 74,
+        "CAR": 70,
+        "BCV": 26,
+        "TRK": 40,
+        "BTK": 30,
+        "SFA": 35,
+        "CTH": 68,
+        "CIT": 55,
+        "SRR": 58,
+        "RBK": 70,
+        "RBP": 61,
+        "RBF": 58,
+        "PBK": 66,
+        "IBL": 78,
+        "LBK": 87,
+        "INJ": 89,
+        "STA": 74,
+        "TGH": 79
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 1,
+      "delta_attributes": {
+        "SPD": -4,
+        "ACC": -5,
+        "AGI": -7,
+        "COD": -3,
+        "STR": 5,
+        "AWR": -2,
+        "CAR": -30,
+        "BCV": 4,
+        "TRK": 4,
+        "BTK": 0,
+        "SFA": 5,
+        "CTH": -10,
+        "CIT": -5,
+        "SRR": -12,
+        "RBK": 2,
+        "RBP": 23,
+        "RBF": -2,
+        "PBK": 8,
+        "IBL": 6,
+        "LBK": -3,
+        "INJ": -7,
+        "STA": 0,
+        "TGH": 1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 1,
+    "attribute_gaps_10plus": {
+      "CAR": -30,
+      "CTH": -10,
+      "SRR": -12,
+      "RBP": 23
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u",
+  "revision": 2,
+  "supersedes": "FB_REAUDIT_RATE_10_A1",
+  "style_similarity": [
+    {
+      "player": "Kyle Juszczyk",
+      "audit_id": "FB_REAUDIT_RATE_01_A1",
+      "corr": 0.103,
+      "mad": 20.7,
+      "too_similar": false
+    },
+    {
+      "player": "Patrick Ricard",
+      "audit_id": "FB_REAUDIT_RATE_02_A1",
+      "corr": 0.874,
+      "mad": 9.9,
+      "too_similar": false
+    },
+    {
+      "player": "Hunter Luepke",
+      "audit_id": "FB_REAUDIT_RATE_03_A1",
+      "corr": 0.17,
+      "mad": 18.6,
+      "too_similar": false
+    },
+    {
+      "player": "Connor Heyward",
+      "audit_id": "FB_REAUDIT_RATE_04_A2",
+      "corr": -0.158,
+      "mad": 20,
+      "too_similar": false
+    },
+    {
+      "player": "Adam Prentice",
+      "audit_id": "FB_REAUDIT_RATE_05_A1",
+      "corr": 0.899,
+      "mad": 10,
+      "too_similar": false
+    },
+    {
+      "player": "Michael Burton",
+      "audit_id": "FB_REAUDIT_RATE_06_A2",
+      "corr": 0.768,
+      "mad": 9,
+      "too_similar": false
+    },
+    {
+      "player": "Reggie Gilliam",
+      "audit_id": "FB_REAUDIT_RATE_07_A1",
+      "corr": 0.868,
+      "mad": 12.6,
+      "too_similar": false
+    },
+    {
+      "player": "Alec Ingold",
+      "audit_id": "FB_REAUDIT_RATE_08_A1",
+      "corr": 0.586,
+      "mad": 13.9,
+      "too_similar": false
+    },
+    {
+      "player": "Andrew Beck",
+      "audit_id": "FB_REAUDIT_RATE_09_A1",
+      "corr": 0.532,
+      "mad": 15.2,
+      "too_similar": false
+    },
+    {
+      "player": "Brady Russell",
+      "audit_id": "FB_REAUDIT_RATE_11_A1",
+      "corr": 0.362,
+      "mad": 15.8,
+      "too_similar": false
+    },
+    {
+      "player": "Max Bredeson",
+      "audit_id": "FB_REAUDIT_RATE_12_A1",
+      "corr": 0.675,
+      "mad": 12.3,
+      "too_similar": false
+    },
+    {
+      "player": "DJ Herman",
+      "audit_id": "FB_REAUDIT_RATE_13_A1",
+      "corr": 0.464,
+      "mad": 14.2,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
