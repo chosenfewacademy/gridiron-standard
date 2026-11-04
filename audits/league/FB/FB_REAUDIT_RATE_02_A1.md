@@ -1,0 +1,502 @@
+# FB_REAUDIT_RATE_02 — Patrick Ricard rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "FB_REAUDIT_RATE_02_A1",
+  "task_id": "FB_REAUDIT_RATE_02",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "player_id": "ext_00-0033376",
+  "players": [
+    "Patrick Ricard"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 70,
+    "ACC": 74,
+    "AGI": 66,
+    "COD": 58,
+    "STR": 92,
+    "AWR": 86,
+    "CAR": 60,
+    "BCV": 56,
+    "TRK": 72,
+    "BTK": 50,
+    "SFA": 62,
+    "CTH": 64,
+    "CIT": 50,
+    "SRR": 50,
+    "RBK": 84,
+    "RBP": 92,
+    "RBF": 66,
+    "PBK": 82,
+    "IBL": 92,
+    "LBK": 96,
+    "INJ": 80,
+    "STA": 84,
+    "TGH": 94
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "CAR": "MEDIUM",
+    "BCV": "LOW",
+    "TRK": "MEDIUM",
+    "BTK": "LOW",
+    "SFA": "LOW",
+    "CTH": "MEDIUM",
+    "CIT": "MEDIUM",
+    "SRR": "MEDIUM",
+    "RBK": "MEDIUM",
+    "RBP": "MEDIUM",
+    "RBF": "LOW",
+    "PBK": "MEDIUM",
+    "IBL": "MEDIUM",
+    "LBK": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025); 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026); PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Listed weakness area: receiving / ball skills, movement, 2026 grade dip (52.6)",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025); 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026); PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Listed weakness area: receiving / ball skills, movement, 2026 grade dip (52.6)",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025); 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026); PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Listed weakness area: receiving / ball skills, movement, 2026 grade dip (52.6)",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025); 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026); PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Listed weakness area: receiving / ball skills, movement, 2026 grade dip (52.6)",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9); PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 1/0; PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball carrier): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025); 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "BCV": {
+      "basis": "Judgment (ball carrier): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025); 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TRK": {
+      "basis": "Judgment (ball carrier): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025); 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (ball carrier): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025); 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SFA": {
+      "basis": "Judgment (ball carrier): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025); 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (receiving): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025); 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026); routes in PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Listed weakness area: receiving / ball skills, movement, 2026 grade dip (52.6)",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (receiving): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025); 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026); routes in PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Listed weakness area: receiving / ball skills, movement, 2026 grade dip (52.6)",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (receiving): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025); 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026); routes in PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Listed weakness area: receiving / ball skills, movement, 2026 grade dip (52.6)",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (lead block): PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9); PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (lead block): PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9); PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (lead block): PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9); PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9); PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (lead block): PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9); PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (lead block): PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9); PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Patrick Ricard injury reports: {'2025': ['wk1 Out (Calf)', 'wk2 Out (Calf)', 'wk3 Out (Calf)', 'wk4 Out (Calf)', 'wk5 Out (Calf)', 'wk6 Out (Calf)']}; roster status ACT; 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025), 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025), 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025), 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026). Style: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "ELITE",
+      "claim": "power: PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9); PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "tier": "ELITE",
+      "claim": "lead block: PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9); PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "tier": "ELITE",
+      "claim": "lead block: PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9); PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "lead block: PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9); PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD (2025), 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 85,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+  "style_profile": "Patrick Ricard: The premier point-of-attack lead blocker: 2025 All-Pro, PFF 68.5 (#2 FB) with 193 run-block snaps on 274, then 137 run-block snaps (most at FB) in 2026 at NYG; 300-pound mauler who erases linebackers, almost no ball-carrier or receiving role (1-8 in 2025).",
+  "style_evidence": [
+    "Patrick Ricard (NYG) 2026: PFF FB 2026 52.6 (rank 6, 182 snaps: 137 run/lead-block, 27 pass-block, 18 routes, 0 carries; block share 0.9); 7 g / 182 off snaps; 0-0 rushing, 1/3 tgt for 1 yds, 0 TD; 0 penalties; FB depth-chart snapshots {'rank1': 275}",
+    "Patrick Ricard 2025: PFF FB 2025 68.5 (rank 2, 274 snaps: 193 run/lead-block, 48 pass-block, 31 routes, 2 carries; block share 0.88); 11 g / 274 off snaps; 1-3 rushing, 1/2 tgt for 8 yds, 0 TD; 1 penalties; FB depth-chart snapshots {'rank1': 221}",
+    "Patrick Ricard usage (FB eligibility rule: PFF FB alignment / depth-chart FB / roster FB): roster position RB, depth-chart position FB",
+    "Patrick Ricard injury reports: {'2025': ['wk1 Out (Calf)', 'wk2 Out (Calf)', 'wk3 Out (Calf)', 'wk4 Out (Calf)', 'wk5 Out (Calf)', 'wk6 Out (Calf)']}; roster status ACT"
+  ],
+  "input_dossier": "FB_REAUDIT_BG_02_A1",
+  "weaknesses": [
+    "receiving / ball skills",
+    "movement",
+    "2026 grade dip (52.6)"
+  ],
+  "limitations": [
+    "PFF FB run/pass-block sub-grades, lead-block win data and 21/22-personnel share are paywalled or unpublished; substitutes: PFF FB overall + run-block/pass-block/route/carry snap counts, nflverse snaps, rushing/receiving, penalties, FB depth-chart role, injury reports"
+  ],
+  "attribute_set_note": "config/madden-entry-order.json has no FB key (protected, madden_order_verified=false); FB attributes follow the Madden 27 FB card (speed/ball-carrier/receiving/blocking/durability).",
+  "madden_reference": [
+    {
+      "player": "Patrick Ricard",
+      "ovr": 84,
+      "madden_position": "FB",
+      "attributes": {
+        "SPD": 72,
+        "ACC": 75,
+        "AGI": 71,
+        "COD": 60,
+        "STR": 88,
+        "AWR": 86,
+        "CAR": 68,
+        "BCV": 64,
+        "TRK": 68,
+        "BTK": 56,
+        "SFA": 69,
+        "CTH": 70,
+        "CIT": 45,
+        "SRR": 54,
+        "RBK": 73,
+        "RBP": 63,
+        "RBF": 60,
+        "PBK": 70,
+        "IBL": 80,
+        "LBK": 99,
+        "INJ": 84,
+        "STA": 86,
+        "TGH": 90
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 1,
+      "delta_attributes": {
+        "SPD": -2,
+        "ACC": -1,
+        "AGI": -5,
+        "COD": -2,
+        "STR": 4,
+        "AWR": 0,
+        "CAR": -8,
+        "BCV": -8,
+        "TRK": 4,
+        "BTK": -6,
+        "SFA": -7,
+        "CTH": -6,
+        "CIT": 5,
+        "SRR": -4,
+        "RBK": 11,
+        "RBP": 29,
+        "RBF": 6,
+        "PBK": 12,
+        "IBL": 12,
+        "LBK": -3,
+        "INJ": -4,
+        "STA": -2,
+        "TGH": 4
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 1,
+    "attribute_gaps_10plus": {
+      "RBK": 11,
+      "RBP": 29,
+      "PBK": 12,
+      "IBL": 12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
