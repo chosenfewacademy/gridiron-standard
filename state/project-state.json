@@ -6124,7 +6124,7 @@
         "position": "RG",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/RG.reaudit.json",
       "baseline_file": null,
@@ -6137,23 +6137,23 @@
         "RG_REAUDIT_CANDIDATE_AUDIT"
       ],
       "audit_ids": [
-        "RG_REAUDIT_CANDIDATE_AUDIT_A1"
+        "RG_REAUDIT_CANDIDATE_AUDIT_A1",
+        "RG_REAUDIT_BG_01_A1"
       ],
-      "current_stage": "candidate_audit",
-      "current_task": "RG_REAUDIT_CANDIDATE_AUDIT",
-      "updated_at": "2026-11-04T03:46:41.921Z",
+      "current_stage": "background_analysis",
+      "current_task": "RG_REAUDIT_BG_01",
+      "updated_at": "2026-11-04T03:47:51.820Z",
       "last_result": {
-        "task_id": "RG_REAUDIT_CANDIDATE_AUDIT",
+        "task_id": "RG_REAUDIT_BG_01",
         "status": "FLAGGED",
         "errors": [],
-        "flags": [
-          "POOL_POSITION_MISMATCH: 7 pool members LG-side, Corey Bullock C-side",
-          "NO_PRIOR_LOCK",
-          "DATA_GAP: PFF sub-grades paywalled",
-          "MADDEN_GAP_10PLUS: Trey Smith 93, Dotson 90, Onwenu 86 (Madden reference only)"
-        ]
+        "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "RG_REAUDIT_BG_01",
+        "audit_id": "RG_REAUDIT_BG_01_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
