@@ -20847,7 +20847,7 @@
         "position": "K",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/K.reaudit.json",
       "baseline_file": "data/baselines/K.reaudit-20261104.json",
@@ -20857,7 +20857,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:08:24Z",
-      "updated_at": "2026-11-04T19:30:23.261Z",
+      "updated_at": "2026-11-04T19:30:23.570Z",
       "audit_ids": [
         "K_REAUDIT_CANDIDATE_AUDIT_A1",
         "K_REAUDIT_BG_01_A1",
@@ -20951,7 +20951,8 @@
         "K_REAUDIT_TIEBREAK_08",
         "K_REAUDIT_TIEBREAK_09",
         "K_REAUDIT_TIEBREAK_10",
-        "K_REAUDIT_TIEBREAK_11"
+        "K_REAUDIT_TIEBREAK_11",
+        "K_REAUDIT_VARIANCE_AUDIT"
       ],
       "approvals": [
         {
@@ -21528,15 +21529,19 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T19:30:16Z",
           "note": "User-approved batch t56s532 (t56s540 engine: approved tiebreaks order tied players)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "K_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "K_REAUDIT_VARIANCE_AUDIT_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:30:23Z",
+          "note": "User-approved batch t56s532: re-run K_REAUDIT_VARIANCE_AUDIT after the approved card revisions"
         }
       ],
       "current_stage": "variance_audit",
       "current_task": "K_REAUDIT_VARIANCE_AUDIT",
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "K_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "K_REAUDIT_VARIANCE_AUDIT_A2"
-      },
+      "awaiting": null,
       "last_result": {
         "task_id": "K_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
