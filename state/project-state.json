@@ -5066,7 +5066,7 @@
         "position": "LG",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "position_state_at_trigger": "IN_PROGRESS",
       "pool_file": "data/candidate-pools/LG.reaudit.json",
       "baseline_file": null,
@@ -5173,11 +5173,12 @@
         "LG_REAUDIT_SCARCITY_A1",
         "LG_REAUDIT_TIEBREAK_09_A1",
         "LG_REAUDIT_TIEBREAK_10_A1",
-        "LG_REAUDIT_CROSS_AUDIT_A1"
+        "LG_REAUDIT_CROSS_AUDIT_A1",
+        "LG_REAUDIT_LOCK_20261104"
       ],
-      "current_stage": "positional_cross_audit",
+      "current_stage": "lock",
       "current_task": "LG_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T03:22:46.979Z",
+      "updated_at": "2026-11-04T03:24:04Z",
       "last_result": {
         "task_id": "LG_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
