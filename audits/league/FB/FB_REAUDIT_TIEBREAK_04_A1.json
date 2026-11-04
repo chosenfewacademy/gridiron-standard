@@ -1,0 +1,39 @@
+{
+  "audit_id": "FB_REAUDIT_TIEBREAK_04_A1",
+  "task_id": "FB_REAUDIT_TIEBREAK_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Alec Ingold",
+    "Andrew Beck"
+  ],
+  "pair_result": {
+    "winner": "Alec Ingold",
+    "loser": "Andrew Beck",
+    "provisional_order_holds": true,
+    "reasoning": "Ingold: 362 + 118 FB snaps (most usage after Juszczyk), 126 routes and 8-52 in 2025, 3-35 in 2026 before IR; Beck graded higher in 2025 (66.1) but on 112 snaps and played 24 in 2026. Workload and two-season role keep Ingold ahead despite IR.",
+    "key_evidence_for_winner": [
+      "Alec Ingold (LAC) FB depth-chart snapshots 2026 {'rank2': 35, 'rank1': 239}; roster RES (RB)",
+      "Alec Ingold 2026: PFF FB 50 (rank 8; 73 run/lead-block, 18 pass-block, 27 routes, 0 carries of 118 snaps); 5 g/118 snaps; 0-0 rush, 3-35 rec, 0 TD; penalties 0; injuries none",
+      "Alec Ingold 2025: PFF FB 50.1 (rank 7; 190 run/lead-block, 44 pass-block, 126 routes, 2 carries of 362 snaps); 17 g/362 snaps; 2-9 rush, 8-52 rec, 0 TD; penalties 1; injuries none"
+    ],
+    "key_evidence_for_loser": [
+      "Andrew Beck (NYJ) FB depth-chart snapshots 2026 {'rank1': 182}; roster ACT (RB)",
+      "Andrew Beck 2026: PFF FB 50.5 (rank None; 16 run/lead-block, 2 pass-block, 5 routes, 1 carries of 24 snaps); 6 g/24 snaps; 1--1 rush, 0-0 rec, 0 TD; penalties 0; injuries none",
+      "Andrew Beck 2025: PFF FB 66.1 (rank None; 75 run/lead-block, 6 pass-block, 30 routes, 1 carries of 112 snaps); 17 g/110 snaps; 1-5 rush, 6-45 rec, 2 TD; penalties 0; injuries none"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
