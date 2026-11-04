@@ -1,0 +1,39 @@
+{
+  "audit_id": "LG_REAUDIT_TIEBREAK_03_A1",
+  "task_id": "LG_REAUDIT_TIEBREAK_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Dylan Parham",
+    "Christian Mahogany"
+  ],
+  "pair_result": {
+    "winner": "Dylan Parham",
+    "loser": "Christian Mahogany",
+    "provisional_order_holds": true,
+    "reasoning": "Adjacent #6/#7. Parham leads PFF both years (63.5/87.9 vs 59.1/79.6), ESPN IOL RBWR (77%, top 10, vs unlisted) and 2025 workload (842 vs 699 snaps). Mahogany leads 2026 availability (6 g vs 4 g; Parham five 2026 injury reports). Order holds.",
+    "key_evidence_for_winner": [
+      "Dylan Parham (NYJ) ESPN 2026 win rates (thru Wk 8): IOL RBWR 77%; depth-chart side 2026 {'LG': 222}; roster ACT",
+      "Dylan Parham 2026: PFF 87.9 (rank 2; 143 pass-block/100 run-block of 243 snaps); 4 g/243 snaps; penalties 1; injuries ['wk4 Out (Knee)', 'wk5 Out (Knee)', 'wk6 Out (Knee)', 'wk7 Questionable (Knee)', 'wk8 Questionable (Knee)']",
+      "Dylan Parham 2025: PFF 63.5 (rank 37; 552 pass-block/291 run-block of 843 snaps); 15 g/842 snaps; penalties 5; injuries ['wk14 Questionable (Back)', 'wk18 Out (Illness)']"
+    ],
+    "key_evidence_for_loser": [
+      "Christian Mahogany (DET) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'LG': 224}; roster ACT",
+      "Christian Mahogany 2026: PFF 79.6 (rank 10; 197 pass-block/156 run-block of 353 snaps); 6 g/353 snaps; penalties 1; injuries ['wk2 Out (Hip)']",
+      "Christian Mahogany 2025: PFF 59.1 (rank 47; 407 pass-block/292 run-block of 699 snaps); 11 g/699 snaps; penalties 2; injuries ['wk15 Out (Fibula)', 'wk16 Questionable (Fibula)', 'wk17 Questionable (Fibula)', 'wk18 Questionable (Illness)']"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
