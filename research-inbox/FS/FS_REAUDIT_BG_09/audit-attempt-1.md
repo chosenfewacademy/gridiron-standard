@@ -1,0 +1,213 @@
+# FS_REAUDIT_BG_09 — Bryan Cook background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "FS_REAUDIT_BG_09_A1",
+  "task_id": "FS_REAUDIT_BG_09",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FS",
+  "player_id": "ext_00-0037193",
+  "players": [
+    "Bryan Cook"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Bryan Cook",
+    "player_id": "ext_00-0037193",
+    "team": "CIN",
+    "role_assignment": "FS (snap-weighted 2025-26 depth-chart FS/SS shares FS 1218 / SS 0 -> FS)",
+    "side_rule": "SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one of FS or SS by primary 2025-26 alignment = nflverse weekly depth-chart FS/SS slot counts per season weighted by that season's defensive snaps; larger share wins (ties to FS). No FS/SS depth-chart slot -> nflverse roster depth_chart_position. Matched by gsis/PFR id. Each player appears in one list only; Madden position is reference only. Cooper DeJean (2026 FS 103 / SS 108 slot-weeks, CB in 2025) -> SS.",
+    "pff": {
+      "2025": {
+        "team": "kansas-city-chiefs",
+        "ovr": 83.3,
+        "snaps": 857,
+        "rank": 4,
+        "rdef": 355,
+        "cov": 501
+      },
+      "2026": {
+        "team": "cincinnati-bengals",
+        "ovr": 44.7,
+        "snaps": 361,
+        "rank": 92,
+        "rdef": 118,
+        "cov": 235
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "KC",
+        "pos": "S",
+        "g": "17",
+        "tgt": "53",
+        "cmp": "37",
+        "yds": "468",
+        "td": "5",
+        "rat": "128.5",
+        "int": "0",
+        "comb": "85",
+        "m_tkl": "4"
+      },
+      "2026": {
+        "def_targets": 9.0,
+        "def_completions_allowed": 4.0,
+        "def_yards_allowed": 89.0,
+        "def_ints": 0.0,
+        "def_receiving_td_allowed": 0.0,
+        "def_tackles_combined": 26.0,
+        "def_missed_tackles": 4.0,
+        "g": 5
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 857
+      },
+      "2026": {
+        "games": 6,
+        "defs": 361
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 49.0,
+        "def_tackle_assists": 35.0,
+        "def_tackles_for_loss": 1.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 6.0,
+        "def_interceptions": 0.0
+      },
+      "2026": {
+        "def_tackles_solo": 21.0,
+        "def_tackle_assists": 10.0,
+        "def_tackles_for_loss": 0.0,
+        "def_fumbles_forced": 1.0,
+        "def_sacks": 0.5,
+        "def_qb_hits": 1.0,
+        "def_pass_defended": 0.0,
+        "def_interceptions": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 1,
+      "2026": 1
+    },
+    "injuries": {
+      "2026": [
+        "wk4 Questionable (Ankle)",
+        "wk5 Questionable (Ankle)"
+      ]
+    },
+    "summary_lines": [
+      "Bryan Cook (CIN) Bryan Cook 2026: PFF S 2026 overall 44.7 on 361 snaps (S rank 92; 235 coverage / 118 run-def snaps); PFR 2026 (5 games) coverage 9 targets / 4 completions / 89 yds / 0 TD / 0 INT; 26 tackles, 4 missed; 6 g / 361 def snaps; 21 solo + 10 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF; 1 accepted penalties",
+      "Bryan Cook 2025: PFF S 2025 overall 83.3 on 857 snaps (S rank 4; 501 coverage / 355 run-def snaps); PFR 2025 coverage 53 targets / 37 completions / 468 yds / 5 TD / passer rating 128.5 / 0 INT; 85 tackles, 4 missed; 17 g / 857 def snaps; 49 solo + 35 ast tackles, 1 TFL, 0 INT, 6 PD, 0 FF; 1 accepted penalties",
+      "Bryan Cook role: snap-weighted 2025-26 depth-chart FS/SS shares FS 1218 / SS 0 -> FS (SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one o...); roster position DB; Madden card FS (reference only)",
+      "Bryan Cook injury reports: wk4 Questionable (Ankle); wk5 Questionable (Ankle); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF coverage/run-defense/tackling sub-grades and box/slot/deep alignment splits are paywalled; no public tracking data for safety speed or range; substitutes: PFF S overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "CTH",
+      "JMP",
+      "TAK",
+      "POW",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/s/2026",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/s/2025",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:21:43Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
