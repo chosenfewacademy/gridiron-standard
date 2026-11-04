@@ -1,0 +1,373 @@
+{
+  "audit_id": "DT_REAUDIT_VARIANCE_AUDIT_A1",
+  "task_id": "DT_REAUDIT_VARIANCE_AUDIT",
+  "task_type": "variance_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jeffery Simmons",
+    "Cameron Heyward",
+    "Quinnen Williams",
+    "Zach Allen",
+    "Dexter Lawrence",
+    "Leonard Williams",
+    "Kobie Turner",
+    "Derrick Brown",
+    "Poona Ford",
+    "Alim McNeill",
+    "Jalen Redmond",
+    "Travis Jones",
+    "DJ Reader"
+  ],
+  "variance_gaps": [
+    {
+      "player": "Zach Allen",
+      "attr": "PRC",
+      "madden": 95,
+      "ours": 84,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Zach Allen 2025: PFF DI 2025 overall 63.1 on 888 snaps (DI rank 47); PFR 2025 50 pressures (7 hurries, 32 QB knockdowns, 7 sacks), 38 tackles, 5 missed; 17 g / 797 def snaps; 7.0 sacks, 47 QB hits, 4 TFL, 0 FF, 6 PD; 2 accepted penalties",
+        "Zach Allen 2026: PFF DI 2026 overall 79.2 on 392 snaps (DI rank 5); PFR 2026 18 pressures (1 hurries, 12 QB hits, 4.5 sacks) in 7 games, 24 tackles, 0 missed; 8 g / 392 def snaps; 4.5 sacks, 20 QB hits, 4 TFL, 1 FF, 3 PD; 2 accepted penalties",
+        "PFR 2025 50 pressures (7 hurries, 32 QB knockdowns, 7 sacks), 38 tackles, 5 missed; PFR 2026 18 pressures (1 hurries, 12 QB hits, 4.5 sacks) in 7 games, 24 tackles, 0 missed",
+        "ESPN 2026 DT PRWR 21% (#7, 33/155, 80% snaps at DT); RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 0 at DT/NT, 495 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries wk8 Questionable (Hamstring); roster ACT"
+      ],
+      "basis": "TFL, ESPN RSWR, PFF DI overall"
+    },
+    {
+      "player": "Dexter Lawrence",
+      "attr": "PUR",
+      "madden": 91,
+      "ours": 80,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Dexter Lawrence 2025: PFF DI 2025 overall 75.6 on 754 snaps (DI rank 11); PFR 2025 12 pressures (4 hurries, 7 QB knockdowns, 0.5 sacks), 31 tackles, 4 missed; 17 g / 754 def snaps; 0.5 sacks, 8 QB hits, 4 TFL, 0 FF, 4 PD; 5 accepted penalties",
+        "Dexter Lawrence 2026: PFF DI 2026 overall 86.8 on 323 snaps (DI rank 2); PFR 2026 10 pressures (3 hurries, 3 QB hits, 4.0 sacks) in 6 games, 18 tackles, 0 missed; 7 g / 322 def snaps; 5.0 sacks, 8 QB hits, 8 TFL, 0 FF, 1 PD; 2 accepted penalties",
+        "PFR 2025 12 pressures (4 hurries, 7 QB knockdowns, 0.5 sacks), 31 tackles, 4 missed; PFR 2026 10 pressures (3 hurries, 3 QB hits, 4.0 sacks) in 6 games, 18 tackles, 0 missed",
+        "ESPN 2026 DT PRWR 18% (#13, 22/124, 88% snaps at DT); RSWR 38% (#10, 37/98, 51% snaps at DT)",
+        "alignment depth-chart interior snapshots 2025-26: 496 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries wk5 Questionable (Illness); wk15 Questionable (Hamstring); roster ACT"
+      ],
+      "basis": "tackles, TFL, snaps"
+    },
+    {
+      "player": "Leonard Williams",
+      "attr": "AWR",
+      "madden": 98,
+      "ours": 88,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Leonard Williams 2025: PFF DI 2025 overall 76.2 on 948 snaps (DI rank 9); PFR 2025 29 pressures (8 hurries, 12 QB knockdowns, 7 sacks), 62 tackles, 7 missed; 17 g / 812 def snaps; 7.0 sacks, 22 QB hits, 9 TFL, 0 FF, 1 PD; 5 accepted penalties",
+        "Leonard Williams 2026: PFF DI 2026 overall 74.9 on 358 snaps (DI rank 15); PFR 2026 13 pressures (4 hurries, 6 QB hits, 3.0 sacks) in 7 games, 22 tackles, 2 missed; 8 g / 358 def snaps; 3.0 sacks, 9 QB hits, 7 TFL, 0 FF, 1 PD; 0 accepted penalties",
+        "PFR 2025 29 pressures (8 hurries, 12 QB knockdowns, 7 sacks), 62 tackles, 7 missed; PFR 2026 13 pressures (4 hurries, 6 QB hits, 3.0 sacks) in 7 games, 22 tackles, 2 missed",
+        "ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 44 at DT/NT, 452 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries no injury designation 2025-26; roster ACT"
+      ],
+      "basis": "PFF overall + penalties + missed tackles"
+    },
+    {
+      "player": "Leonard Williams",
+      "attr": "PRC",
+      "madden": 96,
+      "ours": 86,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Leonard Williams 2025: PFF DI 2025 overall 76.2 on 948 snaps (DI rank 9); PFR 2025 29 pressures (8 hurries, 12 QB knockdowns, 7 sacks), 62 tackles, 7 missed; 17 g / 812 def snaps; 7.0 sacks, 22 QB hits, 9 TFL, 0 FF, 1 PD; 5 accepted penalties",
+        "Leonard Williams 2026: PFF DI 2026 overall 74.9 on 358 snaps (DI rank 15); PFR 2026 13 pressures (4 hurries, 6 QB hits, 3.0 sacks) in 7 games, 22 tackles, 2 missed; 8 g / 358 def snaps; 3.0 sacks, 9 QB hits, 7 TFL, 0 FF, 1 PD; 0 accepted penalties",
+        "PFR 2025 29 pressures (8 hurries, 12 QB knockdowns, 7 sacks), 62 tackles, 7 missed; PFR 2026 13 pressures (4 hurries, 6 QB hits, 3.0 sacks) in 7 games, 22 tackles, 2 missed",
+        "ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 44 at DT/NT, 452 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries no injury designation 2025-26; roster ACT"
+      ],
+      "basis": "TFL, ESPN RSWR, PFF DI overall"
+    },
+    {
+      "player": "Kobie Turner",
+      "attr": "INJ",
+      "madden": 89,
+      "ours": 76,
+      "delta": -13,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Kobie Turner 2025: PFF DI 2025 overall 80.4 on 896 snaps (DI rank 6); PFR 2025 20 pressures (7 hurries, 5 QB knockdowns, 7 sacks), 48 tackles, 4 missed; 17 g / 750 def snaps; 7.0 sacks, 14 QB hits, 9 TFL, 0 FF, 3 PD; 3 accepted penalties",
+        "Kobie Turner 2026: PFF DI 2026 overall 66.8 on 232 snaps (DI rank 33); PFR 2026 3 pressures (2 hurries, 1 QB hits, 0.0 sacks) in 3 games, 8 tackles, 1 missed; 6 g / 232 def snaps; 0.0 sacks, 1 QB hits, 0 TFL, 0 FF, 2 PD; 1 accepted penalties",
+        "PFR 2025 20 pressures (7 hurries, 5 QB knockdowns, 7 sacks), 48 tackles, 4 missed; PFR 2026 3 pressures (2 hurries, 1 QB hits, 0.0 sacks) in 3 games, 8 tackles, 1 missed",
+        "ESPN 2026 DT PRWR outside the published top 20; RSWR 43% (#3, 35/80, 39% snaps at DT)",
+        "alignment depth-chart interior snapshots 2025-26: 0 at DT/NT, 496 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries wk11 Questionable (Back); roster RES"
+      ],
+      "basis": "availability: injury reports, reserve/IR, games"
+    },
+    {
+      "player": "Derrick Brown",
+      "attr": "OVR",
+      "madden": 96,
+      "ours": 81,
+      "delta": -15,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Derrick Brown 2025: PFF DI 2025 overall 72.9 on 881 snaps (DI rank 17); PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD; 3 accepted penalties",
+        "Derrick Brown 2026: PFF DI 2026 overall 76.5 on 333 snaps (DI rank 11); PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed; 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD; 2 accepted penalties",
+        "PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed",
+        "ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 0 at DT/NT, 495 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries no injury designation 2025-26; roster ACT",
+        "approved H2H/tiebreak chain (6 head-to-heads + 6 tiebreaks) sets the order"
+      ],
+      "basis": "OVR follows the approved head-to-head chain"
+    },
+    {
+      "player": "Derrick Brown",
+      "attr": "AWR",
+      "madden": 97,
+      "ours": 82,
+      "delta": -15,
+      "verdict": "ADJUST",
+      "key_stats": [
+        "Derrick Brown 2025: PFF DI 2025 overall 72.9 on 881 snaps (DI rank 17); PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD; 3 accepted penalties",
+        "Derrick Brown 2026: PFF DI 2026 overall 76.5 on 333 snaps (DI rank 11); PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed; 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD; 2 accepted penalties",
+        "PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed",
+        "ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 0 at DT/NT, 495 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries no injury designation 2025-26; roster ACT"
+      ],
+      "basis": "PFF overall + penalties + missed tackles",
+      "proposed_revision": {
+        "attr": "AWR",
+        "from": 82,
+        "to": 86,
+        "why": "AWR 82->86: 73 tackles with 3 missed (PFR 2025) and 3 + 2 accepted penalties over 1,214 snaps - disciplined, under-credited at 82. OVR unchanged.",
+        "task_id": "DT_REAUDIT_RATE_08",
+        "status": "PROPOSED_NOT_APPROVED"
+      }
+    },
+    {
+      "player": "Derrick Brown",
+      "attr": "PRC",
+      "madden": 95,
+      "ours": 84,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Derrick Brown 2025: PFF DI 2025 overall 72.9 on 881 snaps (DI rank 17); PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD; 3 accepted penalties",
+        "Derrick Brown 2026: PFF DI 2026 overall 76.5 on 333 snaps (DI rank 11); PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed; 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD; 2 accepted penalties",
+        "PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed",
+        "ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 0 at DT/NT, 495 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries no injury designation 2025-26; roster ACT"
+      ],
+      "basis": "TFL, ESPN RSWR, PFF DI overall"
+    },
+    {
+      "player": "Poona Ford",
+      "attr": "INJ",
+      "madden": 91,
+      "ours": 80,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Poona Ford 2025: PFF DI 2025 overall 86.1 on 626 snaps (DI rank 4); PFR 2025 9 pressures (4 hurries, 3 QB knockdowns, 2 sacks), 47 tackles, 3 missed; 17 g / 508 def snaps; 2.0 sacks, 5 QB hits, 4 TFL, 0 FF, 1 PD; 0 accepted penalties",
+        "Poona Ford 2026: PFF DI 2026 overall 69.1 on 151 snaps (DI rank 27); PFR 2026 1 pressures (0 hurries, 1 QB hits, 0.0 sacks) in 1 games, 2 tackles, 0 missed; 6 g / 152 def snaps; 0.0 sacks, 1 QB hits, 1 TFL, 0 FF, 1 PD; 0 accepted penalties",
+        "PFR 2025 9 pressures (4 hurries, 3 QB knockdowns, 2 sacks), 47 tackles, 3 missed; PFR 2026 1 pressures (0 hurries, 1 QB hits, 0.0 sacks) in 1 games, 2 tackles, 0 missed",
+        "ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 496 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries wk13 Questionable (Calf); wk14 Questionable (Calf); roster RES"
+      ],
+      "basis": "availability: injury reports, reserve/IR, games"
+    },
+    {
+      "player": "Alim McNeill",
+      "attr": "STR",
+      "madden": 95,
+      "ours": 84,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Alim McNeill 2025: PFF DI 2025 overall 52.2 on 523 snaps (DI rank 89); PFR 2025 7 pressures (4 hurries, 2 QB knockdowns, 1 sacks), 14 tackles, 3 missed; 10 g / 524 def snaps; 1.0 sacks, 3 QB hits, 2 TFL, 1 FF, 1 PD; 2 accepted penalties",
+        "Alim McNeill 2026: PFF DI 2026 overall 79 on 403 snaps (DI rank 7); PFR 2026 11 pressures (3 hurries, 4 QB hits, 3.5 sacks) in 6 games, 12 tackles, 0 missed; 7 g / 403 def snaps; 4.5 sacks, 9 QB hits, 5 TFL, 0 FF, 1 PD; 0 accepted penalties",
+        "PFR 2025 7 pressures (4 hurries, 2 QB knockdowns, 1 sacks), 14 tackles, 3 missed; PFR 2026 11 pressures (3 hurries, 4 QB hits, 3.5 sacks) in 6 games, 12 tackles, 0 missed",
+        "ESPN 2026 DT PRWR 27% (#1, 44/166, 85% snaps at DT); RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 496 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries wk7 Questionable (Knee); wk17 Questionable (Abdomen); wk18 Out (Abdomen); roster ACT"
+      ],
+      "basis": "point-of-attack profile: PFF DI overall, ESPN RSWR, QB knockdowns, nose/3-tech alignment"
+    },
+    {
+      "player": "Alim McNeill",
+      "attr": "AWR",
+      "madden": 96,
+      "ours": 80,
+      "delta": -16,
+      "verdict": "ADJUST",
+      "key_stats": [
+        "Alim McNeill 2025: PFF DI 2025 overall 52.2 on 523 snaps (DI rank 89); PFR 2025 7 pressures (4 hurries, 2 QB knockdowns, 1 sacks), 14 tackles, 3 missed; 10 g / 524 def snaps; 1.0 sacks, 3 QB hits, 2 TFL, 1 FF, 1 PD; 2 accepted penalties",
+        "Alim McNeill 2026: PFF DI 2026 overall 79 on 403 snaps (DI rank 7); PFR 2026 11 pressures (3 hurries, 4 QB hits, 3.5 sacks) in 6 games, 12 tackles, 0 missed; 7 g / 403 def snaps; 4.5 sacks, 9 QB hits, 5 TFL, 0 FF, 1 PD; 0 accepted penalties",
+        "PFR 2025 7 pressures (4 hurries, 2 QB knockdowns, 1 sacks), 14 tackles, 3 missed; PFR 2026 11 pressures (3 hurries, 4 QB hits, 3.5 sacks) in 6 games, 12 tackles, 0 missed",
+        "ESPN 2026 DT PRWR 27% (#1, 44/166, 85% snaps at DT); RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 496 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries wk7 Questionable (Knee); wk17 Questionable (Abdomen); wk18 Out (Abdomen); roster ACT"
+      ],
+      "basis": "PFF overall + penalties + missed tackles",
+      "proposed_revision": {
+        "attr": "AWR",
+        "from": 80,
+        "to": 84,
+        "why": "AWR 80->84: 0 accepted penalties and 0 missed tackles in 2026 (403 snaps, PFF 79.0) - 80 leaned on the injury-hit 2025. OVR unchanged.",
+        "task_id": "DT_REAUDIT_RATE_10",
+        "status": "PROPOSED_NOT_APPROVED"
+      }
+    },
+    {
+      "player": "Alim McNeill",
+      "attr": "PRC",
+      "madden": 96,
+      "ours": 80,
+      "delta": -16,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Alim McNeill 2025: PFF DI 2025 overall 52.2 on 523 snaps (DI rank 89); PFR 2025 7 pressures (4 hurries, 2 QB knockdowns, 1 sacks), 14 tackles, 3 missed; 10 g / 524 def snaps; 1.0 sacks, 3 QB hits, 2 TFL, 1 FF, 1 PD; 2 accepted penalties",
+        "Alim McNeill 2026: PFF DI 2026 overall 79 on 403 snaps (DI rank 7); PFR 2026 11 pressures (3 hurries, 4 QB hits, 3.5 sacks) in 6 games, 12 tackles, 0 missed; 7 g / 403 def snaps; 4.5 sacks, 9 QB hits, 5 TFL, 0 FF, 1 PD; 0 accepted penalties",
+        "PFR 2025 7 pressures (4 hurries, 2 QB knockdowns, 1 sacks), 14 tackles, 3 missed; PFR 2026 11 pressures (3 hurries, 4 QB hits, 3.5 sacks) in 6 games, 12 tackles, 0 missed",
+        "ESPN 2026 DT PRWR 27% (#1, 44/166, 85% snaps at DT); RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 496 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries wk7 Questionable (Knee); wk17 Questionable (Abdomen); wk18 Out (Abdomen); roster ACT"
+      ],
+      "basis": "TFL, ESPN RSWR, PFF DI overall"
+    },
+    {
+      "player": "Alim McNeill",
+      "attr": "INJ",
+      "madden": 90,
+      "ours": 74,
+      "delta": -16,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Alim McNeill 2025: PFF DI 2025 overall 52.2 on 523 snaps (DI rank 89); PFR 2025 7 pressures (4 hurries, 2 QB knockdowns, 1 sacks), 14 tackles, 3 missed; 10 g / 524 def snaps; 1.0 sacks, 3 QB hits, 2 TFL, 1 FF, 1 PD; 2 accepted penalties",
+        "Alim McNeill 2026: PFF DI 2026 overall 79 on 403 snaps (DI rank 7); PFR 2026 11 pressures (3 hurries, 4 QB hits, 3.5 sacks) in 6 games, 12 tackles, 0 missed; 7 g / 403 def snaps; 4.5 sacks, 9 QB hits, 5 TFL, 0 FF, 1 PD; 0 accepted penalties",
+        "PFR 2025 7 pressures (4 hurries, 2 QB knockdowns, 1 sacks), 14 tackles, 3 missed; PFR 2026 11 pressures (3 hurries, 4 QB hits, 3.5 sacks) in 6 games, 12 tackles, 0 missed",
+        "ESPN 2026 DT PRWR 27% (#1, 44/166, 85% snaps at DT); RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 496 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries wk7 Questionable (Knee); wk17 Questionable (Abdomen); wk18 Out (Abdomen); roster ACT"
+      ],
+      "basis": "availability: injury reports, reserve/IR, games"
+    },
+    {
+      "player": "Jalen Redmond",
+      "attr": "PRC",
+      "madden": 89,
+      "ours": 78,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Jalen Redmond 2025: PFF DI 2025 overall 72.8 on 793 snaps (DI rank 18); PFR 2025 11 pressures (2 hurries, 3 QB knockdowns, 6 sacks), 62 tackles, 4 missed; 17 g / 793 def snaps; 6.0 sacks, 8 QB hits, 12 TFL, 1 FF, 5 PD; 1 accepted penalties",
+        "Jalen Redmond 2026: PFF DI 2026 overall 78 on 351 snaps (DI rank 10); PFR 2026 4 pressures (3 hurries, 0 QB hits, 0.5 sacks) in 3 games, 10 tackles, 0 missed; 7 g / 351 def snaps; 0.5 sacks, 1 QB hits, 2 TFL, 1 FF, 3 PD; 0 accepted penalties",
+        "PFR 2025 11 pressures (2 hurries, 3 QB knockdowns, 6 sacks), 62 tackles, 4 missed; PFR 2026 4 pressures (3 hurries, 0 QB hits, 0.5 sacks) in 3 games, 10 tackles, 0 missed",
+        "ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 255 at DT/NT, 241 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries wk13 Questionable (Hip); roster ACT"
+      ],
+      "basis": "TFL, ESPN RSWR, PFF DI overall"
+    },
+    {
+      "player": "Travis Jones",
+      "attr": "TAK",
+      "madden": 86,
+      "ours": 76,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Travis Jones 2025: PFF DI 2025 overall 80.1 on 743 snaps (DI rank 7); PFR 2025 12 pressures (3 hurries, 3 QB knockdowns, 5 sacks), 47 tackles, 2 missed; 16 g / 743 def snaps; 5.0 sacks, 9 QB hits, 9 TFL, 1 FF, 2 PD; 1 accepted penalties",
+        "Travis Jones 2026: PFF DI 2026 overall 69.2 on 294 snaps (DI rank 25); PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 5 tackles, 3 missed; 8 g / 295 def snaps; 0.0 sacks, 2 QB hits, 5 TFL, 1 FF, 1 PD; 0 accepted penalties",
+        "PFR 2025 12 pressures (3 hurries, 3 QB knockdowns, 5 sacks), 47 tackles, 2 missed; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 5 tackles, 3 missed",
+        "ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 338 at DT/NT, 158 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries wk4 Questionable (Knee); roster ACT"
+      ],
+      "basis": "tackles vs missed tackles (PFR)"
+    },
+    {
+      "player": "DJ Reader",
+      "attr": "SPD",
+      "madden": 70,
+      "ours": 58,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "DJ Reader 2025: PFF DI 2025 overall 68.9 on 583 snaps (DI rank 32); PFR 2025 8 pressures (4 hurries, 4 QB knockdowns, 0 sacks), 28 tackles, 1 missed; 17 g / 583 def snaps; 0.0 sacks, 4 QB hits, 0 TFL, 0 FF, 0 PD; 2 accepted penalties",
+        "DJ Reader 2026: PFF DI 2026 overall 90.4 on 251 snaps (DI rank 1); PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 7 tackles, 1 missed; 7 g / 252 def snaps; 0.0 sacks, 2 QB hits, 1 TFL, 0 FF, 0 PD; 0 accepted penalties",
+        "PFR 2025 8 pressures (4 hurries, 4 QB knockdowns, 0 sacks), 28 tackles, 1 missed; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 7 tackles, 1 missed",
+        "ESPN 2026 DT PRWR 23% (#5, 16/71, 73% snaps at DT); RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 445 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries wk7 Questionable (Back); roster ACT"
+      ],
+      "basis": "movement (no public tracking data); LOW confidence"
+    },
+    {
+      "player": "DJ Reader",
+      "attr": "PUR",
+      "madden": 87,
+      "ours": 66,
+      "delta": -21,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "DJ Reader 2025: PFF DI 2025 overall 68.9 on 583 snaps (DI rank 32); PFR 2025 8 pressures (4 hurries, 4 QB knockdowns, 0 sacks), 28 tackles, 1 missed; 17 g / 583 def snaps; 0.0 sacks, 4 QB hits, 0 TFL, 0 FF, 0 PD; 2 accepted penalties",
+        "DJ Reader 2026: PFF DI 2026 overall 90.4 on 251 snaps (DI rank 1); PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 7 tackles, 1 missed; 7 g / 252 def snaps; 0.0 sacks, 2 QB hits, 1 TFL, 0 FF, 0 PD; 0 accepted penalties",
+        "PFR 2025 8 pressures (4 hurries, 4 QB knockdowns, 0 sacks), 28 tackles, 1 missed; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 7 tackles, 1 missed",
+        "ESPN 2026 DT PRWR 23% (#5, 16/71, 73% snaps at DT); RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 445 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries wk7 Questionable (Back); roster ACT"
+      ],
+      "basis": "tackles, TFL, snaps"
+    },
+    {
+      "player": "DJ Reader",
+      "attr": "STA",
+      "madden": 82,
+      "ours": 66,
+      "delta": -16,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "DJ Reader 2025: PFF DI 2025 overall 68.9 on 583 snaps (DI rank 32); PFR 2025 8 pressures (4 hurries, 4 QB knockdowns, 0 sacks), 28 tackles, 1 missed; 17 g / 583 def snaps; 0.0 sacks, 4 QB hits, 0 TFL, 0 FF, 0 PD; 2 accepted penalties",
+        "DJ Reader 2026: PFF DI 2026 overall 90.4 on 251 snaps (DI rank 1); PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 7 tackles, 1 missed; 7 g / 252 def snaps; 0.0 sacks, 2 QB hits, 1 TFL, 0 FF, 0 PD; 0 accepted penalties",
+        "PFR 2025 8 pressures (4 hurries, 4 QB knockdowns, 0 sacks), 28 tackles, 1 missed; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 7 tackles, 1 missed",
+        "ESPN 2026 DT PRWR 23% (#5, 16/71, 73% snaps at DT); RSWR outside the published top 10",
+        "alignment depth-chart interior snapshots 2025-26: 445 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; injuries wk7 Questionable (Back); roster ACT"
+      ],
+      "basis": "snaps per game"
+    }
+  ],
+  "madden_used_as_evidence": false,
+  "madden_order_verified": false,
+  "variance_threshold": 10,
+  "metrics_used": [
+    "PFF DI overall grades 2025-26",
+    "PFF DI snap counts (sub-grades paywalled)",
+    "ESPN pass-rush win rate and run-stop win rate",
+    "PFR pressures/hurries/QB knockdowns/sacks/missed tackles",
+    "nflverse sacks/QB hits/TFL",
+    "accepted penalties",
+    "games/snaps",
+    "injury reports and roster status",
+    "depth-chart side"
+  ],
+  "evidence_fixes_applied_before_audit": [],
+  "drafted_fixes_pending_review": [
+    {
+      "player": "Derrick Brown",
+      "attr": "AWR",
+      "from": 82,
+      "to": 86,
+      "why": "AWR 82->86: 73 tackles with 3 missed (PFR 2025) and 3 + 2 accepted penalties over 1,214 snaps - disciplined, under-credited at 82. OVR unchanged.",
+      "task_id": "DT_REAUDIT_RATE_08",
+      "status": "PROPOSED_NOT_APPROVED"
+    },
+    {
+      "player": "Alim McNeill",
+      "attr": "AWR",
+      "from": 80,
+      "to": 84,
+      "why": "AWR 80->84: 0 accepted penalties and 0 missed tackles in 2026 (403 snaps, PFF 79.0) - 80 leaned on the injury-hit 2025. OVR unchanged.",
+      "task_id": "DT_REAUDIT_RATE_10",
+      "status": "PROPOSED_NOT_APPROVED"
+    }
+  ],
+  "summary": "Every overall and attribute rating 10+ from Madden 27 audited (t46u): 18 gaps (18 below Madden, 0 above). 16 SUPPORTED on DT evidence; 2 ADJUST with drafted add-only revisions NOT approved or applied: Derrick Brown AWR 82->86; Alim McNeill AWR 80->84. 1 OVR gaps: Derrick Brown -15. Overalls unchanged by the drafts. Madden is reference only.",
+  "major_flags": [
+    "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
