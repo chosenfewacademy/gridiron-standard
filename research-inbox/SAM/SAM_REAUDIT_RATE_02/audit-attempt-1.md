@@ -1,0 +1,361 @@
+# SAM_REAUDIT_RATE_02 — Isaiah McDuffie rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "SAM_REAUDIT_RATE_02_A1",
+  "task_id": "SAM_REAUDIT_RATE_02",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SAM",
+  "player_id": "ext_00-0036658",
+  "players": [
+    "Isaiah McDuffie"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 84,
+    "ACC": 86,
+    "AGI": 78,
+    "COD": 66,
+    "STR": 72,
+    "AWR": 78,
+    "PRC": 80,
+    "TAK": 88,
+    "POW": 74,
+    "BSH": 70,
+    "PUR": 84,
+    "MCV": 70,
+    "ZCV": 76,
+    "PRS": 44,
+    "INJ": 86,
+    "STA": 80,
+    "TGH": 80
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PUR": "MEDIUM",
+    "MCV": "MEDIUM",
+    "ZCV": "MEDIUM",
+    "PRS": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 32 targets / 22 completions / 173 yds / passer rating 79.3 / 1 INT; 92 tackles, 6 missed; 3 pressures on 13 blitzes, 1 sacks; PFR 2026 (5 games) coverage 14 targets / 11 completions / 82 yds / 0 INT; 36 tackles, 2 missed; 1 pressures on 18 blitzes; range from tackles/PD in 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF. Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 32 targets / 22 completions / 173 yds / passer rating 79.3 / 1 INT; 92 tackles, 6 missed; 3 pressures on 13 blitzes, 1 sacks; PFR 2026 (5 games) coverage 14 targets / 11 completions / 82 yds / 0 INT; 36 tackles, 2 missed; 1 pressures on 18 blitzes; range from tackles/PD in 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF. Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 32 targets / 22 completions / 173 yds / passer rating 79.3 / 1 INT; 92 tackles, 6 missed; 3 pressures on 13 blitzes, 1 sacks; PFR 2026 (5 games) coverage 14 targets / 11 completions / 82 yds / 0 INT; 36 tackles, 2 missed; 1 pressures on 18 blitzes; range from tackles/PD in 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF. Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 32 targets / 22 completions / 173 yds / passer rating 79.3 / 1 INT; 92 tackles, 6 missed; 3 pressures on 13 blitzes, 1 sacks; PFR 2026 (5 games) coverage 14 targets / 11 completions / 82 yds / 0 INT; 36 tackles, 2 missed; 1 pressures on 18 blitzes; range from tackles/PD in 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF. Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF LB 2026 overall 72.9 on 259 snaps (LB rank 12; 89 run-def / 144 coverage / 26 pass-rush snaps); TFL/sacks in 17 g / 505 def snaps; 46 solo + 45 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 1 PD, 0 FF / 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF. Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 2/0; PFF LB 2026 overall 72.9 on 259 snaps (LB rank 12; 89 run-def / 144 coverage / 26 pass-rush snaps). Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 65.5 on 551 snaps (LB rank 37; 283 run-def / 237 coverage / 31 pass-rush snaps); PFF LB 2026 overall 72.9 on 259 snaps (LB rank 12; 89 run-def / 144 coverage / 26 pass-rush snaps); TFL in 17 g / 505 def snaps; 46 solo + 45 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 1 PD, 0 FF / 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF. Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 32 targets / 22 completions / 173 yds / passer rating 79.3 / 1 INT; 92 tackles, 6 missed; 3 pressures on 13 blitzes, 1 sacks; PFR 2026 (5 games) coverage 14 targets / 11 completions / 82 yds / 0 INT; 36 tackles, 2 missed; 1 pressures on 18 blitzes. Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 32 targets / 22 completions / 173 yds / passer rating 79.3 / 1 INT; 92 tackles, 6 missed; 3 pressures on 13 blitzes, 1 sacks; PFR 2026 (5 games) coverage 14 targets / 11 completions / 82 yds / 0 INT; 36 tackles, 2 missed; 1 pressures on 18 blitzes. Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 65.5 on 551 snaps (LB rank 37; 283 run-def / 237 coverage / 31 pass-rush snaps); PFF LB 2026 overall 72.9 on 259 snaps (LB rank 12; 89 run-def / 144 coverage / 26 pass-rush snaps); TFL in 17 g / 505 def snaps; 46 solo + 45 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 1 PD, 0 FF / 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF. Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 65.5 on 551 snaps (LB rank 37; 283 run-def / 237 coverage / 31 pass-rush snaps); PFF LB 2026 overall 72.9 on 259 snaps (LB rank 12; 89 run-def / 144 coverage / 26 pass-rush snaps); TFL in 17 g / 505 def snaps; 46 solo + 45 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 1 PD, 0 FF / 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF. Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 32 targets / 22 completions / 173 yds / passer rating 79.3 / 1 INT; 92 tackles, 6 missed; 3 pressures on 13 blitzes, 1 sacks; PFR 2026 (5 games) coverage 14 targets / 11 completions / 82 yds / 0 INT; 36 tackles, 2 missed; 1 pressures on 18 blitzes; PFF LB 2025 overall 65.5 on 551 snaps (LB rank 37; 283 run-def / 237 coverage / 31 pass-rush snaps); PFF LB 2026 overall 72.9 on 259 snaps (LB rank 12; 89 run-def / 144 coverage / 26 pass-rush snaps). Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Listed weakness area: pass rush, coverage range",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 32 targets / 22 completions / 173 yds / passer rating 79.3 / 1 INT; 92 tackles, 6 missed; 3 pressures on 13 blitzes, 1 sacks; PFR 2026 (5 games) coverage 14 targets / 11 completions / 82 yds / 0 INT; 36 tackles, 2 missed; 1 pressures on 18 blitzes; PFF LB 2025 overall 65.5 on 551 snaps (LB rank 37; 283 run-def / 237 coverage / 31 pass-rush snaps); PFF LB 2026 overall 72.9 on 259 snaps (LB rank 12; 89 run-def / 144 coverage / 26 pass-rush snaps). Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Listed weakness area: pass rush, coverage range",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (pass rush): blitz/pressure lines: PFR 2025 coverage 32 targets / 22 completions / 173 yds / passer rating 79.3 / 1 INT; 92 tackles, 6 missed; 3 pressures on 13 blitzes, 1 sacks; PFR 2026 (5 games) coverage 14 targets / 11 completions / 82 yds / 0 INT; 36 tackles, 2 missed; 1 pressures on 18 blitzes; sacks in 17 g / 505 def snaps; 46 solo + 45 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 1 PD, 0 FF / 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF. Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Listed weakness area: pass rush, coverage range",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Isaiah McDuffie injury reports: no injury designation 2025-26; roster status ACT; 17 g / 505 def snaps; 46 solo + 45 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 1 PD, 0 FF (2025), 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF (2026). Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 17 g / 505 def snaps; 46 solo + 45 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 1 PD, 0 FF (2025), 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF (2026). Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 17 g / 505 def snaps; 46 solo + 45 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 1 PD, 0 FF (2025), 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF (2026). Style: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 79,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+  "style_profile": "Isaiah McDuffie: Sure-tackling SAM: PFF 65.5 -> 72.9, 92 tackles (2025); solid but unspectacular.",
+  "style_evidence": [
+    "Isaiah McDuffie (GB) Isaiah McDuffie 2026: PFF LB 2026 overall 72.9 on 259 snaps (LB rank 12; 89 run-def / 144 coverage / 26 pass-rush snaps); PFR 2026 (5 games) coverage 14 targets / 11 completions / 82 yds / 0 INT; 36 tackles, 2 missed; 1 pressures on 18 blitzes; 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF; 0 accepted penalties",
+    "Isaiah McDuffie 2025: PFF LB 2025 overall 65.5 on 551 snaps (LB rank 37; 283 run-def / 237 coverage / 31 pass-rush snaps); PFR 2025 coverage 32 targets / 22 completions / 173 yds / passer rating 79.3 / 1 INT; 92 tackles, 6 missed; 3 pressures on 13 blitzes, 1 sacks; 17 g / 505 def snaps; 46 solo + 45 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 1 PD, 0 FF; 2 accepted penalties",
+    "Isaiah McDuffie role: snap-weighted 2025-26 depth-chart role shares MIKE 252 / WILL 31 / SAM 482 / edge 0 (raw snapshots MIKE25 10, SAM25 211, MIKE26 242, WILL26 33) -> SAM (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card SAM (reference only)",
+    "Isaiah McDuffie injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "SAM_REAUDIT_BG_02_A1",
+  "weaknesses": [
+    "pass rush",
+    "coverage range"
+  ],
+  "limitations": [
+    "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+  ],
+  "role_assignment": "SAM (snap-weighted 2025-26 depth-chart role shares MIKE 252 / WILL 31 / SAM 482 / edge 0 (raw snapshots MIKE25 10, SAM25 211, MIKE26 242, WILL26 33) -> SAM)",
+  "madden_reference": [
+    {
+      "player": "Isaiah McDuffie",
+      "ovr": 78,
+      "madden_position": "SAM",
+      "attributes": {
+        "SPD": 88,
+        "ACC": 88,
+        "AGI": 75,
+        "COD": 69,
+        "STR": 73,
+        "AWR": 76,
+        "PRC": 76,
+        "TAK": 90,
+        "POW": 79,
+        "BSH": 74,
+        "PUR": 87,
+        "MCV": 70,
+        "ZCV": 69,
+        "PRS": 42,
+        "INJ": 87,
+        "STA": 79,
+        "TGH": 78
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 1,
+      "delta_attributes": {
+        "SPD": -4,
+        "ACC": -2,
+        "AGI": 3,
+        "COD": -3,
+        "STR": -1,
+        "AWR": 2,
+        "PRC": 4,
+        "TAK": -2,
+        "POW": -5,
+        "BSH": -4,
+        "PUR": -3,
+        "MCV": 0,
+        "ZCV": 7,
+        "PRS": 2,
+        "INJ": -1,
+        "STA": 1,
+        "TGH": 2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 1,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
