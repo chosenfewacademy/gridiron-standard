@@ -1,0 +1,318 @@
+{
+  "audit_id": "LS_REAUDIT_CROSS_AUDIT_A1",
+  "task_id": "LS_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LS",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Ross Matiscik",
+    "Thomas Hennessy",
+    "Chris Stoll",
+    "William Wagner",
+    "Austin Brinkman",
+    "Andrew DePaola",
+    "Luke Rhodes",
+    "Christian Kuntz",
+    "Trent Sieg",
+    "Nick Moore"
+  ],
+  "cross_audit_result": "CONSISTENT: all 12 approved head-to-head/tiebreak verdicts agree with the final rating order; style rule passes for all 78 pairs of 13 rated LSs (0 too similar); league ceiling 0 raw flags (27 screened; thin data, no PFF criterion); variance audit 29 10+ gaps: 28 supported, 1 fixed via approved reaudit:revise (Andrew DePaola AWR 86->80); Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Ross Matiscik",
+      "ovr": 78,
+      "audit_id": "LS_REAUDIT_RATE_01_A1"
+    },
+    {
+      "rank": 2,
+      "player": "Thomas Hennessy",
+      "ovr": 76,
+      "audit_id": "LS_REAUDIT_RATE_02_A1"
+    },
+    {
+      "rank": 3,
+      "player": "Chris Stoll",
+      "ovr": 74,
+      "audit_id": "LS_REAUDIT_RATE_03_A1"
+    },
+    {
+      "rank": 4,
+      "player": "William Wagner",
+      "ovr": 73,
+      "audit_id": "LS_REAUDIT_RATE_04_A1"
+    },
+    {
+      "rank": 5,
+      "player": "Austin Brinkman",
+      "ovr": 72,
+      "audit_id": "LS_REAUDIT_RATE_05_A1"
+    },
+    {
+      "rank": 6,
+      "player": "Andrew DePaola",
+      "ovr": 71,
+      "audit_id": "LS_REAUDIT_RATE_06_A2"
+    },
+    {
+      "rank": 7,
+      "player": "Luke Rhodes",
+      "ovr": 70,
+      "audit_id": "LS_REAUDIT_RATE_07_A1"
+    },
+    {
+      "rank": 8,
+      "player": "Christian Kuntz",
+      "ovr": 69,
+      "audit_id": "LS_REAUDIT_RATE_08_A1"
+    },
+    {
+      "rank": 9,
+      "player": "Trent Sieg",
+      "ovr": 68,
+      "audit_id": "LS_REAUDIT_RATE_09_A1"
+    },
+    {
+      "rank": 10,
+      "player": "Nick Moore",
+      "ovr": 67,
+      "audit_id": "LS_REAUDIT_RATE_10_A1"
+    },
+    {
+      "rank": 11,
+      "player": "Joe Cardona",
+      "ovr": 66,
+      "audit_id": "LS_REAUDIT_RATE_11_A1"
+    },
+    {
+      "rank": 12,
+      "player": "Mitchell Fraboni",
+      "ovr": 65,
+      "audit_id": "LS_REAUDIT_RATE_12_A1"
+    },
+    {
+      "rank": 13,
+      "player": "Rex Sunahara",
+      "ovr": 64,
+      "audit_id": "LS_REAUDIT_RATE_13_A1"
+    }
+  ],
+  "pair_consistency": [
+    {
+      "audit_id": "LS_REAUDIT_H2H_01_A1",
+      "winner": "Ross Matiscik",
+      "loser": "Thomas Hennessy",
+      "consistent": true
+    },
+    {
+      "audit_id": "LS_REAUDIT_H2H_02_A1",
+      "winner": "Chris Stoll",
+      "loser": "William Wagner",
+      "consistent": true
+    },
+    {
+      "audit_id": "LS_REAUDIT_H2H_03_A1",
+      "winner": "Austin Brinkman",
+      "loser": "Andrew DePaola",
+      "consistent": true
+    },
+    {
+      "audit_id": "LS_REAUDIT_H2H_04_A1",
+      "winner": "Luke Rhodes",
+      "loser": "Christian Kuntz",
+      "consistent": true
+    },
+    {
+      "audit_id": "LS_REAUDIT_H2H_05_A1",
+      "winner": "Trent Sieg",
+      "loser": "Nick Moore",
+      "consistent": true
+    },
+    {
+      "audit_id": "LS_REAUDIT_H2H_06_A1",
+      "winner": "Nick Moore",
+      "loser": "Joe Cardona",
+      "consistent": true
+    },
+    {
+      "audit_id": "LS_REAUDIT_TIEBREAK_01_A1",
+      "winner": "Thomas Hennessy",
+      "loser": "Chris Stoll",
+      "consistent": true
+    },
+    {
+      "audit_id": "LS_REAUDIT_TIEBREAK_02_A1",
+      "winner": "William Wagner",
+      "loser": "Austin Brinkman",
+      "consistent": true
+    },
+    {
+      "audit_id": "LS_REAUDIT_TIEBREAK_03_A1",
+      "winner": "Andrew DePaola",
+      "loser": "Luke Rhodes",
+      "consistent": true
+    },
+    {
+      "audit_id": "LS_REAUDIT_TIEBREAK_04_A1",
+      "winner": "Christian Kuntz",
+      "loser": "Trent Sieg",
+      "consistent": true
+    },
+    {
+      "audit_id": "LS_REAUDIT_TIEBREAK_05_A1",
+      "winner": "Joe Cardona",
+      "loser": "Mitchell Fraboni",
+      "consistent": true
+    },
+    {
+      "audit_id": "LS_REAUDIT_TIEBREAK_06_A1",
+      "winner": "Mitchell Fraboni",
+      "loser": "Rex Sunahara",
+      "consistent": true
+    }
+  ],
+  "style_rule": {
+    "pairs_checked": 78,
+    "too_similar": 0,
+    "highest_corr": [
+      0.938,
+      5.2,
+      "William Wagner",
+      "Ross Matiscik"
+    ],
+    "lowest_mad": [
+      0.917,
+      4,
+      "Mitchell Fraboni",
+      "Nick Moore"
+    ]
+  },
+  "scarcity_note": "LS_REAUDIT_SCARCITY_A1 PASS (0 traits 95+; 7 INJ availability traits 90-94 all tiered and sourced; no overall 80+). Narrative text grep-verified before the stage ran.",
+  "eligibility_rule": "LS-eligible = nflverse roster position LS with 2025-26 special-teams snaps.",
+  "side_convention": "LONG SNAPPER ROLE CONVENTION (t46u): rated as LS = nflverse roster position LS with 2025-26 special-teams snaps; matched by name/gsis id. THIN DATA, documented: PFF publishes no public LS grade (pff.com/grades/nfl/ls renders no table) and the FootballKickingStats reported-snap-error table is script-loaded; substitutes: aborted/bad snaps parsed from nflverse pbp descriptions on every FG/XP/punt snap, kicks/punts blocked on his snaps, FG make rate on his snaps, FootballKickingStats long-snapper unit points (credits the whole unit), coverage tackles on punts/kickoffs (pbp), accepted penalties, availability. Madden position is reference only.",
+  "commissioner_fix_approvals": [
+    "LS_REAUDIT_RATE_06_A2 (Andrew DePaola AWR 86->80) approved via reaudit:revise under t46u"
+  ],
+  "league_ceiling_check": {
+    "source": "research-inbox/LS/LS_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-t46u.json",
+    "references": [
+      "Nick Moore",
+      "Joe Cardona"
+    ],
+    "thresholds": {
+      "value": 0.19,
+      "efficiency": 84.3,
+      "negative_rate": 5.5,
+      "availability": 0.96
+    },
+    "scope": "Every long snapper league-wide with 2025-26 special-teams snaps on punt/FG/XP plays (40), incl. free agents; the 13 audited LSs excluded (27 screened). Sample = ST snaps over 2025-26; config min 250 is above any LS's two-year volume (max 221), so no LS is sample-eligible and the screen runs on all non-pool snappers. No public PFF LS grade exists, so pff is not a criterion. Metrics: FootballKickingStats unit points per game (value), FG make rate on his snaps with 20+ attempts (efficiency), aborted snaps + blocks + accepted penalties per 1,000 ST snaps (negative rate), games share (availability). THIN DATA.",
+    "raw_flags_before_resolution": [],
+    "resolution": "Check (refs #10 Nick Moore 67 / first-out Joe Cardona 66) screened 27 non-pool long snappers and raw-flagged 0. No pool or rating change.",
+    "flagged": [],
+    "resolved_by_tiebreak": [],
+    "closest": [],
+    "screened": 27,
+    "rating_changes": []
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Ross Matiscik",
+      "ours": 78,
+      "madden": 72,
+      "madden_position": "LS",
+      "delta": 6
+    },
+    {
+      "player": "Thomas Hennessy",
+      "ours": 76,
+      "madden": 72,
+      "madden_position": "LS",
+      "delta": 4
+    },
+    {
+      "player": "Chris Stoll",
+      "ours": 74,
+      "madden": 62,
+      "madden_position": "LS",
+      "delta": 12
+    },
+    {
+      "player": "William Wagner",
+      "ours": 73,
+      "madden": 63,
+      "madden_position": "LS",
+      "delta": 10
+    },
+    {
+      "player": "Austin Brinkman",
+      "ours": 72,
+      "madden": 65,
+      "madden_position": "LS",
+      "delta": 7
+    },
+    {
+      "player": "Andrew DePaola",
+      "ours": 71,
+      "madden": 80,
+      "madden_position": "LS",
+      "delta": -9
+    },
+    {
+      "player": "Luke Rhodes",
+      "ours": 70,
+      "madden": 77,
+      "madden_position": "LS",
+      "delta": -7
+    },
+    {
+      "player": "Christian Kuntz",
+      "ours": 69,
+      "madden": 62,
+      "madden_position": "LS",
+      "delta": 7
+    },
+    {
+      "player": "Trent Sieg",
+      "ours": 68,
+      "madden": 78,
+      "madden_position": "LS",
+      "delta": -10
+    },
+    {
+      "player": "Nick Moore",
+      "ours": 67,
+      "madden": 70,
+      "madden_position": "LS",
+      "delta": -3
+    },
+    {
+      "player": "Joe Cardona",
+      "ours": 66,
+      "madden": 60,
+      "madden_position": "LS",
+      "delta": 6
+    },
+    {
+      "player": "Mitchell Fraboni",
+      "ours": 65,
+      "madden": 68,
+      "madden_position": "LS",
+      "delta": -3
+    },
+    {
+      "player": "Rex Sunahara",
+      "ours": 64,
+      "madden": 58,
+      "madden_position": "LS",
+      "delta": 6
+    }
+  ],
+  "madden_order_verified": false,
+  "madden_used_as_evidence": false,
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

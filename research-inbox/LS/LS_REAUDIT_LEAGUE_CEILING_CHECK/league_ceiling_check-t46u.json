@@ -1,0 +1,38 @@
+{
+ "position": "LS",
+ "references": [
+  {
+   "name": "Nick Moore",
+   "team": "BAL",
+   "status": "ACT",
+   "snaps": 203,
+   "pff": null,
+   "value": 0.19,
+   "efficiency": 84.3,
+   "negative_rate": 4.9,
+   "availability": 1
+  },
+  {
+   "name": "Joe Cardona",
+   "team": "LA",
+   "status": "INA",
+   "snaps": 181,
+   "pff": null,
+   "value": 0.19,
+   "efficiency": 84.6,
+   "negative_rate": 5.5,
+   "availability": 0.96
+  }
+ ],
+ "thresholds": {
+  "value": 0.19,
+  "efficiency": 84.3,
+  "negative_rate": 5.5,
+  "availability": 0.96
+ },
+ "flagged": [],
+ "closest": [],
+ "screened": 27,
+ "read_only": true,
+ "rating_changes": []
+}
