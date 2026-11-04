@@ -11290,7 +11290,7 @@
         "position": "CB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/CB.reaudit.json",
       "baseline_file": null,
@@ -11404,19 +11404,30 @@
         "CB_REAUDIT_TIEBREAK_13_A1",
         "CB_REAUDIT_TIEBREAK_14_A1",
         "CB_REAUDIT_TIEBREAK_15_A1",
-        "CB_REAUDIT_TIEBREAK_16_A1"
+        "CB_REAUDIT_TIEBREAK_16_A1",
+        "CB_REAUDIT_TIEBREAK_17_A1"
       ],
       "current_stage": "scarcity_audit",
       "current_task": "CB_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T12:11:27.268Z",
+      "updated_at": "2026-11-04T12:11:27.776Z",
       "last_result": {
-        "task_id": "CB_REAUDIT_TIEBREAK_16",
+        "task_id": "CB_REAUDIT_TIEBREAK_17",
         "status": "FLAGGED",
         "flags": [
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "TIEBREAK_REVIEW",
+        "task_id": "CB_REAUDIT_TIEBREAK_17",
+        "audit_id": "CB_REAUDIT_TIEBREAK_17_A1",
+        "pending": [
+          {
+            "task_id": "CB_REAUDIT_TIEBREAK_17",
+            "audit_id": "CB_REAUDIT_TIEBREAK_17_A1"
+          }
+        ]
+      },
       "approvals": [
         {
           "decision": "APPROVED",
