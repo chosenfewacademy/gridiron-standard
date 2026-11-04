@@ -1,0 +1,213 @@
+# CB_REAUDIT_BG_11 — James Pierre background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "CB_REAUDIT_BG_11_A1",
+  "task_id": "CB_REAUDIT_BG_11",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "player_id": "ext_00-0035795",
+  "players": [
+    "James Pierre"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "James Pierre",
+    "player_id": "ext_00-0035795",
+    "team": "MIN",
+    "role_assignment": "CB (single list)",
+    "side_rule": "CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/grades/nfl/cb) in the current 2026 season (2025 if no 2026 snaps); outside and slot corners compete in the same list; a player PFF grades at S in 2026 (e.g. Cooper DeJean) belongs to the safety list. Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "pittsburgh-steelers",
+        "ovr": 84.9,
+        "snaps": 408,
+        "rank": 2,
+        "rdef": 153,
+        "cov": 255
+      },
+      "2026": {
+        "team": "minnesota-vikings",
+        "ovr": 75.9,
+        "snaps": 173,
+        "rank": 12,
+        "rdef": 55,
+        "cov": 117
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "PIT",
+        "pos": "CB",
+        "g": "14",
+        "tgt": "35",
+        "cmp": "15",
+        "yds": "130",
+        "td": "0",
+        "rat": "41.4",
+        "int": "1",
+        "comb": "30",
+        "m_tkl": "5"
+      },
+      "2026": {
+        "def_targets": 20.0,
+        "def_completions_allowed": 10.0,
+        "def_yards_allowed": 91.0,
+        "def_ints": 1.0,
+        "def_receiving_td_allowed": 0.0,
+        "def_tackles_combined": 22.0,
+        "def_missed_tackles": 0.0,
+        "g": 6
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 10,
+        "defs": 376
+      },
+      "2026": {
+        "games": 7,
+        "defs": 173
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 14.0,
+        "def_tackle_assists": 16.0,
+        "def_tackles_for_loss": 1.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 11.0,
+        "def_interceptions": 1.0
+      },
+      "2026": {
+        "def_tackles_solo": 20.0,
+        "def_tackle_assists": 4.0,
+        "def_tackles_for_loss": 0.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 4.0,
+        "def_interceptions": 2.0
+      }
+    },
+    "penalties": {
+      "2025": 0,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk15 Out (Calf)",
+        "wk16 Out (Calf)",
+        "wk17 Out (Calf)"
+      ]
+    },
+    "summary_lines": [
+      "James Pierre (MIN) James Pierre 2026: PFF CB 2026 overall 75.9 on 173 snaps (CB rank 12; 117 coverage / 55 run-def snaps); PFR 2026 (6 games) coverage 20 targets / 10 completions / 91 yds / 0 TD / 1 INT; 22 tackles, 0 missed; 7 g / 173 def snaps; 20 solo + 4 ast tackles, 0 TFL, 2 INT, 4 PD, 0 FF; 0 accepted penalties",
+      "James Pierre 2025: PFF CB 2025 overall 84.9 on 408 snaps (CB rank 2; 255 coverage / 153 run-def snaps); PFR 2025 coverage 35 targets / 15 completions / 130 yds / 0 TD / passer rating 41.4 / 1 INT; 30 tackles, 5 missed; 10 g / 376 def snaps; 14 solo + 16 ast tackles, 1 TFL, 1 INT, 11 PD, 0 FF; 0 accepted penalties",
+      "James Pierre role: single CB list (no outside/slot split); roster position DB (CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/g...); roster position DB; Madden card CB (reference only)",
+      "James Pierre injury reports: wk15 Out (Calf); wk16 Out (Calf); wk17 Out (Calf); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF coverage/run-defense/tackling sub-grades and slot/outside splits are paywalled; no public tracking data for CB speed or separation; substitutes: PFF CB overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "CTH",
+      "JMP",
+      "TAK",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/cb/2026",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/cb/2025",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:20Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
