@@ -5066,7 +5066,7 @@
         "position": "LG",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "IN_PROGRESS",
       "pool_file": "data/candidate-pools/LG.reaudit.json",
       "baseline_file": null,
@@ -5159,19 +5159,25 @@
         "LG_REAUDIT_TIEBREAK_05_A1",
         "LG_REAUDIT_TIEBREAK_06_A1",
         "LG_REAUDIT_TIEBREAK_07_A1",
-        "LG_REAUDIT_TIEBREAK_08_A1"
+        "LG_REAUDIT_TIEBREAK_08_A1",
+        "LG_REAUDIT_VARIANCE_AUDIT_A1"
       ],
-      "current_stage": "pair_audits",
-      "current_task": "LG_REAUDIT_H2H_06",
-      "updated_at": "2026-11-04T03:19:45.423Z",
+      "current_stage": "variance_audit",
+      "current_task": "LG_REAUDIT_VARIANCE_AUDIT",
+      "updated_at": "2026-11-04T03:20:37.205Z",
       "last_result": {
-        "task_id": "LG_REAUDIT_TIEBREAK_08",
+        "task_id": "LG_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
+        "errors": [],
         "flags": [
-          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "LG_REAUDIT_VARIANCE_AUDIT",
+        "audit_id": "LG_REAUDIT_VARIANCE_AUDIT_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
