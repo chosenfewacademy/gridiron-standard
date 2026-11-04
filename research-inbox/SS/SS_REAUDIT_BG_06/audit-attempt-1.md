@@ -1,0 +1,214 @@
+# SS_REAUDIT_BG_06 — Antoine Winfield Jr. background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "SS_REAUDIT_BG_06_A1",
+  "task_id": "SS_REAUDIT_BG_06",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "player_id": "ext_00-0036411",
+  "players": [
+    "Antoine Winfield Jr."
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Antoine Winfield Jr.",
+    "player_id": "ext_00-0036411",
+    "team": "TB",
+    "role_assignment": "SS (snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS)",
+    "side_rule": "SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one of FS or SS by primary 2025-26 alignment = nflverse weekly depth-chart FS/SS slot counts per season weighted by that season's defensive snaps; larger share wins (ties to FS). No FS/SS depth-chart slot -> nflverse roster depth_chart_position. Matched by gsis/PFR id. Each player appears in one list only; Madden position is reference only. Cooper DeJean (2026 FS 103 / SS 108 slot-weeks, CB in 2025) -> SS.",
+    "pff": {
+      "2025": {
+        "team": "tampa-bay-buccaneers",
+        "ovr": 74.4,
+        "snaps": 1038,
+        "rank": 17,
+        "rdef": 353,
+        "cov": 620
+      },
+      "2026": {
+        "team": "tampa-bay-buccaneers",
+        "ovr": 75,
+        "snaps": 285,
+        "rank": 16,
+        "rdef": 114,
+        "cov": 161
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "TB",
+        "pos": "S",
+        "g": "17",
+        "tgt": "58",
+        "cmp": "33",
+        "yds": "580",
+        "td": "3",
+        "rat": "94",
+        "int": "2",
+        "comb": "93",
+        "m_tkl": "4"
+      },
+      "2026": {
+        "def_targets": 7.0,
+        "def_completions_allowed": 4.0,
+        "def_yards_allowed": 70.0,
+        "def_ints": 0.0,
+        "def_receiving_td_allowed": 0.0,
+        "def_tackles_combined": 24.0,
+        "def_missed_tackles": 1.0,
+        "g": 4
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 1038
+      },
+      "2026": {
+        "games": 5,
+        "defs": 285
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 53.0,
+        "def_tackle_assists": 40.0,
+        "def_tackles_for_loss": 4.0,
+        "def_fumbles_forced": 1.0,
+        "def_sacks": 1.0,
+        "def_qb_hits": 4.0,
+        "def_pass_defended": 8.0,
+        "def_interceptions": 2.0
+      },
+      "2026": {
+        "def_tackles_solo": 20.0,
+        "def_tackle_assists": 11.0,
+        "def_tackles_for_loss": 0.0,
+        "def_fumbles_forced": 1.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 1.0,
+        "def_pass_defended": 0.0,
+        "def_interceptions": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 0,
+      "2026": 0
+    },
+    "injuries": {
+      "2026": [
+        "wk5 Out (Rib)",
+        "wk6 Out (Rib)",
+        "wk7 Out (Rib)"
+      ]
+    },
+    "summary_lines": [
+      "Antoine Winfield Jr. (TB) Antoine Winfield Jr. 2026: PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF; 0 accepted penalties",
+      "Antoine Winfield Jr. 2025: PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF; 0 accepted penalties",
+      "Antoine Winfield Jr. role: snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS (SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one o...); roster position DB; Madden card FS (reference only)",
+      "Antoine Winfield Jr. injury reports: wk5 Out (Rib); wk6 Out (Rib); wk7 Out (Rib); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF coverage/run-defense/tackling sub-grades and box/slot/deep alignment splits are paywalled; no public tracking data for safety speed or range; substitutes: PFF S overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "CTH",
+      "JMP",
+      "TAK",
+      "POW",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/s/2026",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/s/2025",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:29:02Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
