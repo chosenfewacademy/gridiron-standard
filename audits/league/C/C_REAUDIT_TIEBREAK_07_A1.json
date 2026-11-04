@@ -1,0 +1,39 @@
+{
+  "audit_id": "C_REAUDIT_TIEBREAK_07_A1",
+  "task_id": "C_REAUDIT_TIEBREAK_07",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "C",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Hjalte Froholdt",
+    "Jake Brendel"
+  ],
+  "pair_result": {
+    "winner": "Jake Brendel",
+    "loser": "Hjalte Froholdt",
+    "provisional_order_holds": false,
+    "reasoning": "Precautionary ceiling test vs #10. Froholdt: PFF 69.4/68.3 on 1,706 snaps, 6 penalties, not on ESPN IOL lists. Brendel: 71.4/69.5, PBWR 93%, 0 penalties in 2026. Brendel better in both seasons.",
+    "key_evidence_for_winner": [
+      "Jake Brendel (SF) ESPN 2026 win rates (thru Wk 8): IOL PBWR 93%; depth-chart side 2026 {'C': 226}; roster ACT",
+      "Jake Brendel 2026: PFF 69.5 (rank 6; 244 pass-block/173 run-block of 417 snaps); 7 g/417 snaps; penalties 0; injuries none",
+      "Jake Brendel 2025: PFF 71.4 (rank 8; 652 pass-block/414 run-block of 1066 snaps); 15 g/950 snaps; penalties 3; injuries ['wk8 Out (Hamstring)', 'wk9 Out (Hamstring)']"
+    ],
+    "key_evidence_for_loser": [
+      "Hjalte Froholdt (ARI) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'C': 225}; roster ACT",
+      "Hjalte Froholdt 2026: PFF 68.3 (rank 9; 381 pass-block/203 run-block of 584 snaps); 8 g/585 snaps; penalties 3; injuries ['wk8 Questionable (Knee)']",
+      "Hjalte Froholdt 2025: PFF 69.4 (rank 14; 788 pass-block/333 run-block of 1121 snaps); 17 g/1121 snaps; penalties 3; injuries ['wk17 Questionable (Elbow)']"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
