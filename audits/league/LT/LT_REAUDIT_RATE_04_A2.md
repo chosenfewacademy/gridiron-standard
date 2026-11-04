@@ -1,0 +1,380 @@
+# LT_REAUDIT_RATE_04 revision A2 — Garett Bolles 85 (authorized t45s413)
+
+TIEBREAK_02 loses to Wirfs (penalties 6/5, outside ESPN PBWR top 20, 2026 PFF 81.1); TIEBREAK_14 beats Thomas
+
+```json
+{
+  "audit_id": "LT_REAUDIT_RATE_04_A2",
+  "task_id": "LT_REAUDIT_RATE_04",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "player_id": "garett_bolles",
+  "players": [
+    "Garett Bolles"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 82,
+    "SPD": 76,
+    "ACC": 78,
+    "AGI": 78,
+    "COD": 74,
+    "AWR": 85,
+    "INJ": 92,
+    "STA": 94,
+    "TGH": 86,
+    "PBK": 87,
+    "PBP": 82,
+    "PBF": 92,
+    "RBK": 85,
+    "RBP": 80,
+    "RBF": 88,
+    "IBL": 82,
+    "LBK": 86
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Garett Bolles (DEN) 2026: PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); 8 g / 490 off snaps; 5 accepted penalties {'Offensive Holding': 2, 'False Start': 2, 'Illegal Formation': 1}; depth-chart side {'LT': 225}; Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists. Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Listed weakness area: power anchor, penalties",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 5 accepted penalties {'Offensive Holding': 2, 'False Start': 2, 'Illegal Formation': 1}, 2025 6 accepted penalties {'False Start': 3, 'Offensive Holding': 2, 'Face Mask': 1}; PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34. Revised 86->85: TIEBREAK_02 loses to Wirfs (penalties 6/5, outside ESPN PBWR top 20, 2026 PFF 81.1); TIEBREAK_14 beats Thomas",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Garett Bolles injury reports: {'2026': ['wk8 Questionable (Hip)']}; roster status ACT; snaps 17 g / 1125 off snaps (2025), 8 g / 490 off snaps (2026). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 17 g / 1125 off snaps (2025), 8 g / 490 off snaps (2026). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 17 g / 1125 off snaps (2025), 8 g / 490 off snaps (2026). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 90.3 (rank 4, 1256 snaps: 802 pass-block / 453 run-block, pass share 0.64). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34. Revised 88->87: TIEBREAK_02 loses to Wirfs (penalties 6/5, outside ESPN PBWR top 20, 2026 PFF 81.1); TIEBREAK_14 beats Thomas",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 90.3 (rank 4, 1256 snaps: 802 pass-block / 453 run-block, pass share 0.64). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 90.3 (rank 4, 1256 snaps: 802 pass-block / 453 run-block, pass share 0.64). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 90.3 (rank 4, 1256 snaps: 802 pass-block / 453 run-block, pass share 0.64). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 90.3 (rank 4, 1256 snaps: 802 pass-block / 453 run-block, pass share 0.64). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 90.3 (rank 4, 1256 snaps: 802 pass-block / 453 run-block, pass share 0.64). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 90.3 (rank 4, 1256 snaps: 802 pass-block / 453 run-block, pass share 0.64). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 90.3 (rank 4, 1256 snaps: 802 pass-block / 453 run-block, pass share 0.64). Style: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Garett Bolles injury reports: {'2026': ['wk8 Questionable (Hip)']}; roster status ACT; snaps 17 g / 1125 off snaps (2025), 8 g / 490 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 17 g / 1125 off snaps (2025), 8 g / 490 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "tier": "ELITE",
+      "claim": "pass pro: Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 90.3 (rank 4, 1256 snaps: 802 pass-block / 453 run-block, pass share 0.64)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 85,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34. Revision A2: TIEBREAK_02 loses to Wirfs (penalties 6/5, outside ESPN PBWR top 20, 2026 PFF 81.1); TIEBREAK_14 beats Thomas",
+  "style_profile": "Garett Bolles: Athletic finesse LT: 2025 All-Pro (PFF 90.3, 17 g) with movement-zone run blocking; 2026 dip to 81.1, outside ESPN top-20 PBWR, penalties (6/5) and age 34.",
+  "style_evidence": [
+    "Garett Bolles (DEN) 2026: PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); 8 g / 490 off snaps; 5 accepted penalties {'Offensive Holding': 2, 'False Start': 2, 'Illegal Formation': 1}; depth-chart side {'LT': 225}",
+    "Garett Bolles 2025: PFF 2025 90.3 (rank 4, 1256 snaps: 802 pass-block / 453 run-block, pass share 0.64); 17 g / 1125 off snaps; 6 accepted penalties {'False Start': 3, 'Offensive Holding': 2, 'Face Mask': 1}; side {'LT': 1}",
+    "Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists",
+    "Garett Bolles injury reports: {'2026': ['wk8 Questionable (Hip)']}; roster status ACT"
+  ],
+  "input_dossier": "LT_REAUDIT_BG_04_A1",
+  "weaknesses": [
+    "power anchor",
+    "penalties"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Garett Bolles",
+      "ovr": 96,
+      "attributes": {
+        "STR": 87,
+        "SPD": 74,
+        "ACC": 75,
+        "AGI": 72,
+        "COD": 56,
+        "AWR": 97,
+        "INJ": 88,
+        "STA": 95,
+        "TGH": 88,
+        "PBK": 96,
+        "PBP": 94,
+        "PBF": 98,
+        "RBK": 90,
+        "RBP": 88,
+        "RBF": 91,
+        "IBL": 86,
+        "LBK": 82
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -11,
+      "delta_attributes": {
+        "STR": -5,
+        "SPD": 2,
+        "ACC": 3,
+        "AGI": 6,
+        "COD": 18,
+        "AWR": -12,
+        "INJ": 4,
+        "STA": -1,
+        "TGH": -2,
+        "PBK": -9,
+        "PBP": -12,
+        "PBF": -6,
+        "RBK": -5,
+        "RBP": -8,
+        "RBF": -3,
+        "IBL": -4,
+        "LBK": 4
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 OT, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 11,
+    "attribute_gaps_10plus": {
+      "COD": 18,
+      "AWR": -12,
+      "PBP": -12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t45s413"
+}
+```
