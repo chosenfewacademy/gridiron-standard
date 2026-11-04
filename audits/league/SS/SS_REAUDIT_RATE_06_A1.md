@@ -1,0 +1,422 @@
+# SS_REAUDIT_RATE_06 — Antoine Winfield Jr. rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "SS_REAUDIT_RATE_06_A1",
+  "task_id": "SS_REAUDIT_RATE_06",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "player_id": "ext_00-0036411",
+  "players": [
+    "Antoine Winfield Jr."
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 86,
+    "ACC": 88,
+    "AGI": 88,
+    "COD": 86,
+    "STR": 70,
+    "AWR": 84,
+    "PRC": 84,
+    "MCV": 76,
+    "ZCV": 82,
+    "PRS": 72,
+    "CTH": 72,
+    "JMP": 78,
+    "TAK": 92,
+    "POW": 82,
+    "PUR": 90,
+    "INJ": 76,
+    "STA": 90,
+    "TGH": 86
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "MCV": "MEDIUM",
+    "ZCV": "MEDIUM",
+    "PRS": "MEDIUM",
+    "CTH": "MEDIUM",
+    "JMP": "LOW",
+    "TAK": "MEDIUM",
+    "POW": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; range from PD/tackles in 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF. Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; range from PD/tackles in 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF. Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; range from PD/tackles in 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF. Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; range from PD/tackles in 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF. Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (press): PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed. Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 0/0; PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps). Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps). Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Listed weakness area: coverage yards (580 allowed in 2025), rib injury (out wks 5-7, 2026)",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps). Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Listed weakness area: coverage yards (580 allowed in 2025), rib injury (out wks 5-7, 2026)",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps). Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Listed weakness area: coverage yards (580 allowed in 2025), rib injury (out wks 5-7, 2026)",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (press): PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed. Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (ball skills): INT/PD: 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF (2025); 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF (2026). Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (ball skills): INT/PD: 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF (2025); 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF (2026). Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed. Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed. Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); TFL/tackles in 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF / 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF. Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Antoine Winfield Jr. injury reports: wk5 Out (Rib); wk6 Out (Rib); wk7 Out (Rib); roster status ACT; 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF (2025), 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF (2026). Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF (2025), 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF (2026). Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF (2025), 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF (2026). Style: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "TAK": {
+      "tier": "ELITE",
+      "claim": "tackling: PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "tier": "ELITE",
+      "claim": "run defense: PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); TFL/tackles in 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF / 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF (2025), 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 82,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+  "style_profile": "Antoine Winfield Jr.: Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+  "style_evidence": [
+    "Antoine Winfield Jr. (TB) Antoine Winfield Jr. 2026: PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF; 0 accepted penalties",
+    "Antoine Winfield Jr. 2025: PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF; 0 accepted penalties",
+    "Antoine Winfield Jr. role: snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS (SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one o...); roster position DB; Madden card FS (reference only)",
+    "Antoine Winfield Jr. injury reports: wk5 Out (Rib); wk6 Out (Rib); wk7 Out (Rib); roster status ACT"
+  ],
+  "input_dossier": "SS_REAUDIT_BG_06_A1",
+  "weaknesses": [
+    "coverage yards (580 allowed in 2025)",
+    "rib injury (out wks 5-7, 2026)"
+  ],
+  "limitations": [
+    "PFF coverage/run-defense/tackling sub-grades and box/slot/deep alignment splits are paywalled; no public tracking data for safety speed or range; substitutes: PFF S overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+  ],
+  "role_assignment": "SS (snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS)",
+  "madden_reference": [
+    {
+      "player": "Antoine Winfield Jr.",
+      "ovr": 93,
+      "madden_position": "FS",
+      "attributes": {
+        "SPD": 93,
+        "ACC": 91,
+        "AGI": 88,
+        "COD": 85,
+        "STR": 59,
+        "AWR": 95,
+        "PRC": 96,
+        "MCV": 81,
+        "ZCV": 88,
+        "PRS": 68,
+        "CTH": 77,
+        "JMP": 89,
+        "TAK": 80,
+        "POW": 86,
+        "PUR": 90,
+        "INJ": 88,
+        "STA": 94,
+        "TGH": 87
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -11,
+      "delta_attributes": {
+        "SPD": -7,
+        "ACC": -3,
+        "AGI": 0,
+        "COD": 1,
+        "STR": 11,
+        "AWR": -11,
+        "PRC": -12,
+        "MCV": -5,
+        "ZCV": -6,
+        "PRS": 4,
+        "CTH": -5,
+        "JMP": -11,
+        "TAK": 12,
+        "POW": -4,
+        "PUR": 0,
+        "INJ": -12,
+        "STA": -4,
+        "TGH": -1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 11,
+    "attribute_gaps_10plus": {
+      "STR": 11,
+      "AWR": -11,
+      "PRC": -12,
+      "JMP": -11,
+      "TAK": 12,
+      "INJ": -12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
