@@ -1,0 +1,271 @@
+{
+  "task_id": "CB_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Quinyon Mitchell"
+      },
+      {
+        "rank": 2,
+        "player": "Denzel Ward"
+      },
+      {
+        "rank": 3,
+        "player": "Trent McDuffie"
+      },
+      {
+        "rank": 4,
+        "player": "Jamel Dean"
+      },
+      {
+        "rank": 5,
+        "player": "Devon Witherspoon"
+      },
+      {
+        "rank": 6,
+        "player": "Jacob Parrish"
+      },
+      {
+        "rank": 7,
+        "player": "Jaylen Watson"
+      },
+      {
+        "rank": 8,
+        "player": "James Pierre"
+      },
+      {
+        "rank": 9,
+        "player": "Derek Stingley Jr."
+      },
+      {
+        "rank": 10,
+        "player": "Isaiah Rodgers"
+      }
+    ],
+    "external_controls": [
+      "Pat Surtain II",
+      "Jaycee Horn",
+      "Nehemiah Pritchett",
+      "D.J. Reed",
+      "Mansoor Delane",
+      "Kamari Lassiter",
+      "Josh Wallace",
+      "Renardo Green",
+      "Ja'Quan McMillian",
+      "Carlton Davis III",
+      "Mike Jackson",
+      "DJ Turner II"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Quinyon Mitchell",
+      "aliases": [],
+      "player_id": "ext_00-0039888",
+      "flags": []
+    },
+    {
+      "player": "Denzel Ward",
+      "aliases": [],
+      "player_id": "ext_00-0034856",
+      "flags": []
+    },
+    {
+      "player": "Trent McDuffie",
+      "aliases": [],
+      "player_id": "ext_00-0037191",
+      "flags": []
+    },
+    {
+      "player": "Jamel Dean",
+      "aliases": [],
+      "player_id": "ext_00-0035699",
+      "flags": []
+    },
+    {
+      "player": "Devon Witherspoon",
+      "aliases": [],
+      "player_id": "ext_00-0039169",
+      "flags": []
+    },
+    {
+      "player": "Jacob Parrish",
+      "aliases": [],
+      "player_id": "ext_00-0040143",
+      "flags": []
+    },
+    {
+      "player": "Jaylen Watson",
+      "aliases": [],
+      "player_id": "ext_00-0037195",
+      "flags": []
+    },
+    {
+      "player": "James Pierre",
+      "aliases": [],
+      "player_id": "ext_00-0035795",
+      "flags": []
+    },
+    {
+      "player": "Derek Stingley Jr.",
+      "aliases": [],
+      "player_id": "ext_00-0037237",
+      "flags": []
+    },
+    {
+      "player": "Isaiah Rodgers",
+      "aliases": [],
+      "player_id": "ext_00-0036222",
+      "flags": []
+    },
+    {
+      "player": "Pat Surtain II",
+      "aliases": [
+        "Patrick Surtain II"
+      ],
+      "player_id": "ext_00-0036874",
+      "flags": [
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Jaycee Horn",
+      "aliases": [],
+      "player_id": "ext_00-0036944",
+      "flags": [
+        "INJURED_RESERVE"
+      ]
+    },
+    {
+      "player": "Nehemiah Pritchett",
+      "aliases": [],
+      "player_id": "ext_00-0039795",
+      "flags": []
+    },
+    {
+      "player": "D.J. Reed",
+      "aliases": [],
+      "player_id": "ext_00-0034384",
+      "flags": []
+    },
+    {
+      "player": "Mansoor Delane",
+      "aliases": [],
+      "player_id": "ext_00-0041543",
+      "flags": []
+    },
+    {
+      "player": "Kamari Lassiter",
+      "aliases": [],
+      "player_id": "ext_00-0039343",
+      "flags": [
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Josh Wallace",
+      "aliases": [],
+      "player_id": "ext_00-0039772",
+      "flags": []
+    },
+    {
+      "player": "Renardo Green",
+      "aliases": [],
+      "player_id": "ext_00-0039345",
+      "flags": []
+    },
+    {
+      "player": "Ja'Quan McMillian",
+      "aliases": [],
+      "player_id": "ext_00-0037384",
+      "flags": []
+    },
+    {
+      "player": "Carlton Davis III",
+      "aliases": [],
+      "player_id": "ext_00-0034778",
+      "flags": []
+    },
+    {
+      "player": "Mike Jackson",
+      "aliases": [],
+      "player_id": "ext_00-0035277",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)",
+        "INJURED_RESERVE"
+      ]
+    },
+    {
+      "player": "DJ Turner II",
+      "aliases": [],
+      "player_id": "ext_00-0038549",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    }
+  ],
+  "position": "CB",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 16,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "coverage",
+      "run defense",
+      "tackling",
+      "grade vs man/zone",
+      "forced incompletion rate"
+    ],
+    "position_stats": [
+      "INT, PBU",
+      "targets, receptions allowed, yards allowed, TD allowed",
+      "tackles, missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (outside/slot/box/deep)",
+      "man vs zone snap share",
+      "coverage snaps"
+    ],
+    "on_field_impact": [
+      "passer rating allowed",
+      "yards per coverage snap",
+      "EPA allowed per target"
+    ],
+    "madden_attributes_informed": [
+      "MCV",
+      "ZCV",
+      "PRS",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "PRC",
+      "TAK",
+      "HIT",
+      "PUR",
+      "CTH",
+      "JMP",
+      "AWR"
+    ],
+    "note": "Outside vs slot alignment documented; slot-heavy players flagged."
+  }
+}
