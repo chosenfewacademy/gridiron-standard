@@ -10262,7 +10262,7 @@
         "position": "WILL",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/WILL.reaudit.json",
       "baseline_file": null,
@@ -10331,18 +10331,23 @@
         "WILL_REAUDIT_RATE_12_A1",
         "WILL_REAUDIT_RATE_13_A1",
         "WILL_REAUDIT_H2H_01_A1",
-        "WILL_REAUDIT_H2H_02_A1"
+        "WILL_REAUDIT_H2H_02_A1",
+        "WILL_REAUDIT_H2H_03_A1"
       ],
       "current_stage": "pair_audits",
-      "current_task": "WILL_REAUDIT_H2H_02",
-      "updated_at": "2026-11-04T11:51:12.158Z",
+      "current_task": "WILL_REAUDIT_H2H_03",
+      "updated_at": "2026-11-04T11:51:12.982Z",
       "last_result": {
-        "task_id": "WILL_REAUDIT_H2H_02",
+        "task_id": "WILL_REAUDIT_H2H_03",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "WILL_REAUDIT_H2H_03",
+        "audit_id": "WILL_REAUDIT_H2H_03_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
