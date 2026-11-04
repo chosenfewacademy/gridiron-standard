@@ -1,0 +1,155 @@
+# LT_REAUDIT_BG_04 — Garett Bolles background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t45s401.
+
+```json
+{
+  "audit_id": "LT_REAUDIT_BG_04_A1",
+  "task_id": "LT_REAUDIT_BG_04",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "player_id": "garett_bolles",
+  "players": [
+    "Garett Bolles"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Garett Bolles",
+    "player_id": "garett_bolles",
+    "team": "DEN",
+    "pff": {
+      "2025": {
+        "rank": 4,
+        "pff": 90.3,
+        "team": "DEN",
+        "off": 1256,
+        "pblk": 802,
+        "rblk": 453,
+        "age": "34.4"
+      },
+      "2026": {
+        "rank": 5,
+        "pff": 81.1,
+        "team": "DEN",
+        "off": 492,
+        "pblk": 296,
+        "rblk": 196,
+        "age": "34.4"
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "off": 1125
+      },
+      "2026": {
+        "games": 8,
+        "off": 490
+      }
+    },
+    "penalties": {
+      "2025": {
+        "total": 6,
+        "types": {
+          "False Start": 3,
+          "Offensive Holding": 2,
+          "Face Mask": 1
+        }
+      },
+      "2026": {
+        "total": 5,
+        "types": {
+          "Offensive Holding": 2,
+          "False Start": 2,
+          "Illegal Formation": 1
+        }
+      }
+    },
+    "depth_chart_side": {
+      "2025": {
+        "LT": 1
+      },
+      "2026": {
+        "LT": 225
+      }
+    },
+    "espn_win_rates": "not in ESPN OT top-20 PBWR / top-10 RBWR lists",
+    "injuries": {
+      "2026": [
+        "wk8 Questionable (Hip)"
+      ]
+    },
+    "summary_lines": [
+      "Garett Bolles (DEN) 2026: PFF 2026 81.1 (rank 5, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); 8 g / 490 off snaps; 5 accepted penalties {'Offensive Holding': 2, 'False Start': 2, 'Illegal Formation': 1}; depth-chart side {'LT': 225}",
+      "Garett Bolles 2025: PFF 2025 90.3 (rank 4, 1256 snaps: 802 pass-block / 453 run-block, pass share 0.64); 17 g / 1125 off snaps; 6 accepted penalties {'False Start': 3, 'Offensive Holding': 2, 'Face Mask': 1}; side {'LT': 1}",
+      "Garett Bolles ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists",
+      "Garett Bolles injury reports: {'2026': ['wk8 Questionable (Hip)']}; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "STR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH",
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2026",
+        "retrieved_at": "2026-11-04T01:53:53Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2025",
+        "retrieved_at": "2026-11-04T01:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T01:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T01:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T01:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T01:53:53Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T01:53:53Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T01:53:53Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
