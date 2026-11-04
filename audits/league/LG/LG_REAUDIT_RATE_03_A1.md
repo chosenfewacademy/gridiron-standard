@@ -1,0 +1,411 @@
+# LG_REAUDIT_RATE_03 — Joe Thuney rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u/t50s441)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "LG_REAUDIT_RATE_03_A1",
+  "task_id": "LG_REAUDIT_RATE_03",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "player_id": "ext_00-0032391",
+  "players": [
+    "Joe Thuney"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 84,
+    "SPD": 66,
+    "ACC": 70,
+    "AGI": 70,
+    "COD": 62,
+    "AWR": 96,
+    "INJ": 94,
+    "STA": 96,
+    "TGH": 90,
+    "PBK": 92,
+    "PBP": 86,
+    "PBF": 93,
+    "RBK": 78,
+    "RBP": 74,
+    "RBF": 82,
+    "IBL": 78,
+    "LBK": 72
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Joe Thuney (CHI) 2026: PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); 8 g / 599 off snaps; 0 accepted penalties {}; depth-chart side {'LG': 225}; Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); pass/run snap mix PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); pass/run snap mix PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); pass/run snap mix PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); pass/run snap mix PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 0 accepted penalties {}, 2025 2 accepted penalties {'False Start': 2}; PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Joe Thuney injury reports: none; roster status ACT; snaps 17 g / 1149 off snaps (2025), 8 g / 599 off snaps (2026). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 17 g / 1149 off snaps (2025), 8 g / 599 off snaps (2026). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 17 g / 1149 off snaps (2025), 8 g / 599 off snaps (2026). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 77.8 (rank 6, 1308 snaps: 788 pass-block / 520 run-block, pass share 0.6). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 77.8 (rank 6, 1308 snaps: 788 pass-block / 520 run-block, pass share 0.6). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 77.8 (rank 6, 1308 snaps: 788 pass-block / 520 run-block, pass share 0.6). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 77.8 (rank 6, 1308 snaps: 788 pass-block / 520 run-block, pass share 0.6). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 77.8 (rank 6, 1308 snaps: 788 pass-block / 520 run-block, pass share 0.6). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 77.8 (rank 6, 1308 snaps: 788 pass-block / 520 run-block, pass share 0.6). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 77.8 (rank 6, 1308 snaps: 788 pass-block / 520 run-block, pass share 0.6). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 77.8 (rank 6, 1308 snaps: 788 pass-block / 520 run-block, pass share 0.6). Style: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "AWR": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "discipline: penalties 2026 0 accepted penalties {}, 2025 2 accepted penalties {'False Start': 2}; PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Joe Thuney injury reports: none; roster status ACT; snaps 17 g / 1149 off snaps (2025), 8 g / 599 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "usage: snaps 17 g / 1149 off snaps (2025), 8 g / 599 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 17 g / 1149 off snaps (2025), 8 g / 599 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "tier": "ELITE",
+      "claim": "pass pro: Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 77.8 (rank 6, 1308 snaps: 788 pass-block / 520 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "tier": "ELITE",
+      "claim": "pass pro: Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20); PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 77.8 (rank 6, 1308 snaps: 788 pass-block / 520 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 84,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+  "style_profile": "Joe Thuney: Elite pass-pro technician: ESPN IOL PBWR 93% (top 10), 1,308 PFF snaps in 2025 (77.8, #6), 0 penalties in 2026, never on an injury report; age 34 and 2026 PFF 70.7 with average run push.",
+  "style_evidence": [
+    "Joe Thuney (CHI) 2026: PFF 2026 70.7 (rank 23, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); 8 g / 599 off snaps; 0 accepted penalties {}; depth-chart side {'LG': 225}",
+    "Joe Thuney 2025: PFF 2025 77.8 (rank 6, 1308 snaps: 788 pass-block / 520 run-block, pass share 0.6); 17 g / 1149 off snaps; 2 accepted penalties {'False Start': 2}; side {'LG': 1}",
+    "Joe Thuney ESPN pass/run block win rate 2026 through Week 7: IOL PBWR 93% (top 20)",
+    "Joe Thuney injury reports: none; roster status ACT"
+  ],
+  "input_dossier": "LG_REAUDIT_BG_03_A1",
+  "weaknesses": [
+    "run-block power",
+    "age/2026 decline"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Joe Thuney",
+      "ovr": 96,
+      "attributes": {
+        "STR": 90,
+        "SPD": 72,
+        "ACC": 75,
+        "AGI": 67,
+        "COD": 56,
+        "AWR": 99,
+        "INJ": 97,
+        "STA": 97,
+        "TGH": 94,
+        "PBK": 94,
+        "PBP": 94,
+        "PBF": 94,
+        "RBK": 85,
+        "RBP": 83,
+        "RBF": 87,
+        "IBL": 90,
+        "LBK": 79
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -12,
+      "delta_attributes": {
+        "STR": -6,
+        "SPD": -6,
+        "ACC": -5,
+        "AGI": 3,
+        "COD": 6,
+        "AWR": -3,
+        "INJ": -3,
+        "STA": -1,
+        "TGH": -4,
+        "PBK": -2,
+        "PBP": -8,
+        "PBF": -1,
+        "RBK": -7,
+        "RBP": -9,
+        "RBF": -5,
+        "IBL": -12,
+        "LBK": -7
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 G, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 12,
+    "attribute_gaps_10plus": {
+      "IBL": -12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u/t50s441"
+}
+```
