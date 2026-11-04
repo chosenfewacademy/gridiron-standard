@@ -1,0 +1,154 @@
+# LG_REAUDIT_BG_08 — Tyler Smith background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u/t50s441.
+
+```json
+{
+  "audit_id": "LG_REAUDIT_BG_08_A1",
+  "task_id": "LG_REAUDIT_BG_08",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "player_id": "ext_00-0037243",
+  "players": [
+    "Tyler Smith"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Tyler Smith",
+    "player_id": "ext_00-0037243",
+    "team": "DAL",
+    "pff": {
+      "2025": {
+        "rank": 14,
+        "pff": 73.4,
+        "team": "DAL",
+        "off": 1110,
+        "pblk": 700,
+        "rblk": 410,
+        "age": "25.5"
+      },
+      "2026": {
+        "rank": 19,
+        "pff": 71.9,
+        "team": "DAL",
+        "off": 280,
+        "pblk": 177,
+        "rblk": 102,
+        "age": "25.5"
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 16,
+        "off": 1109
+      },
+      "2026": {
+        "games": 4,
+        "off": 280
+      }
+    },
+    "penalties": {
+      "2025": {
+        "total": 7,
+        "types": {
+          "False Start": 4,
+          "Offensive Holding": 3
+        }
+      },
+      "2026": {
+        "total": 0,
+        "types": {}
+      }
+    },
+    "depth_chart_side": {
+      "2025": {
+        "LG": 1
+      },
+      "2026": {
+        "LG": 142
+      }
+    },
+    "espn_win_rates": "not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+    "injuries": {
+      "2025": [
+        "wk5 Questionable (Knee)",
+        "wk6 Questionable (Knee)"
+      ],
+      "2026": [
+        "wk5 Questionable (Thumb)"
+      ]
+    },
+    "summary_lines": [
+      "Tyler Smith (DAL) 2026: PFF 2026 71.9 (rank 19, 280 snaps: 177 pass-block / 102 run-block, pass share 0.63); 4 g / 280 off snaps; 0 accepted penalties {}; depth-chart side {'LG': 142}",
+      "Tyler Smith 2025: PFF 2025 73.4 (rank 14, 1110 snaps: 700 pass-block / 410 run-block, pass share 0.63); 16 g / 1109 off snaps; 7 accepted penalties {'False Start': 4, 'Offensive Holding': 3}; side {'LG': 1}",
+      "Tyler Smith ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+      "Tyler Smith injury reports: {'2025': ['wk5 Questionable (Knee)', 'wk6 Questionable (Knee)'], '2026': ['wk5 Questionable (Thumb)']}; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "STR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH",
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2026",
+        "retrieved_at": "2026-11-04T03:14:36Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2025",
+        "retrieved_at": "2026-11-04T03:14:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T03:14:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T03:14:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T03:14:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T03:14:36Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T03:14:36Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:14:36Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
