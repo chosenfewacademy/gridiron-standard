@@ -4341,7 +4341,7 @@
         "position": "LT",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/LT.reaudit.json",
       "baseline_file": "data/baselines/LT.json",
@@ -4462,18 +4462,23 @@
         "LT_REAUDIT_H2H_02_A1",
         "LT_REAUDIT_H2H_03_A1",
         "LT_REAUDIT_H2H_04_A1",
-        "LT_REAUDIT_H2H_05_A1"
+        "LT_REAUDIT_H2H_05_A1",
+        "LT_REAUDIT_H2H_06_A1"
       ],
       "current_stage": "pair_audits",
-      "current_task": "LT_REAUDIT_H2H_05",
-      "updated_at": "2026-11-04T02:53:01.902Z",
+      "current_task": "LT_REAUDIT_H2H_06",
+      "updated_at": "2026-11-04T02:53:02.865Z",
       "last_result": {
-        "task_id": "LT_REAUDIT_H2H_05",
+        "task_id": "LT_REAUDIT_H2H_06",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "LT_REAUDIT_H2H_06",
+        "audit_id": "LT_REAUDIT_H2H_06_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
