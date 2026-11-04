@@ -1,0 +1,389 @@
+# MIKE_REAUDIT_RATE_11 — Sonny Styles rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "MIKE_REAUDIT_RATE_11_A1",
+  "task_id": "MIKE_REAUDIT_RATE_11",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "MIKE",
+  "player_id": "ext_00-0041028",
+  "players": [
+    "Sonny Styles"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 90,
+    "ACC": 92,
+    "AGI": 86,
+    "COD": 82,
+    "STR": 74,
+    "AWR": 70,
+    "PRC": 70,
+    "TAK": 76,
+    "POW": 80,
+    "BSH": 62,
+    "PUR": 84,
+    "MCV": 72,
+    "ZCV": 74,
+    "PRS": 52,
+    "INJ": 86,
+    "STA": 86,
+    "TGH": 84
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PUR": "MEDIUM",
+    "MCV": "MEDIUM",
+    "ZCV": "MEDIUM",
+    "PRS": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): no PFR 2025 line; PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes; range from tackles/PD in 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF. Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): no PFR 2025 line; PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes; range from tackles/PD in 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF. Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): no PFR 2025 line; PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes; range from tackles/PD in 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF. Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): no PFR 2025 line; PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes; range from tackles/PD in 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF. Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF LB 2026 overall 70.5 on 429 snaps (LB rank 19; 141 run-def / 242 coverage / 46 pass-rush snaps); TFL/sacks in no snaps; no stats / 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF. Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 0/0; PFF LB 2026 overall 70.5 on 429 snaps (LB rank 19; 141 run-def / 242 coverage / 46 pass-rush snaps). Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): no PFF LB grade 2025; PFF LB 2026 overall 70.5 on 429 snaps (LB rank 19; 141 run-def / 242 coverage / 46 pass-rush snaps); TFL in no snaps; no stats / 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF. Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): no PFR 2025 line; PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes. Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): no PFR 2025 line; PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes. Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): no PFF LB grade 2025; PFF LB 2026 overall 70.5 on 429 snaps (LB rank 19; 141 run-def / 242 coverage / 46 pass-rush snaps); TFL in no snaps; no stats / 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF. Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): no PFF LB grade 2025; PFF LB 2026 overall 70.5 on 429 snaps (LB rank 19; 141 run-def / 242 coverage / 46 pass-rush snaps); TFL in no snaps; no stats / 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF. Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): no PFR 2025 line; PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes; no PFF LB grade 2025; PFF LB 2026 overall 70.5 on 429 snaps (LB rank 19; 141 run-def / 242 coverage / 46 pass-rush snaps). Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): no PFR 2025 line; PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes; no PFF LB grade 2025; PFF LB 2026 overall 70.5 on 429 snaps (LB rank 19; 141 run-def / 242 coverage / 46 pass-rush snaps). Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (pass rush): blitz/pressure lines: no PFR 2025 line; PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes; sacks in no snaps; no stats / 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF. Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Sonny Styles injury reports: no injury designation 2025-26; roster status ACT; no snaps; no stats (2025), 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF (2026). Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): no snaps; no stats (2025), 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF (2026). Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): no snaps; no stats (2025), 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF (2026). Style: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "SPD": {
+      "tier": "ELITE",
+      "claim": "movement: no PFR 2025 line; PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes; range from tackles/PD in 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "movement: no PFR 2025 line; PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes; range from tackles/PD in 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 76,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+  "style_profile": "Sonny Styles: Rookie athlete: PFF 70.5 on 429 snaps (2026), 4 PD and an INT; speed and size, still raw reading the run.",
+  "style_evidence": [
+    "Sonny Styles (WAS) Sonny Styles 2026: PFF LB 2026 overall 70.5 on 429 snaps (LB rank 19; 141 run-def / 242 coverage / 46 pass-rush snaps); PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes; 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF; 0 accepted penalties",
+    "Sonny Styles 2025: no PFF LB grade 2025; no PFR 2025 line; no snaps; no stats; 0 accepted penalties",
+    "Sonny Styles role: snap-weighted 2025-26 depth-chart role shares MIKE 429 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE26 240) -> MIKE (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card MIKE (reference only)",
+    "Sonny Styles injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "MIKE_REAUDIT_BG_11_A1",
+  "weaknesses": [
+    "recognition",
+    "block shedding"
+  ],
+  "limitations": [
+    "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+  ],
+  "role_assignment": "MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 429 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE26 240) -> MIKE)",
+  "madden_reference": [
+    {
+      "player": "Sonny Styles",
+      "ovr": 81,
+      "madden_position": "MIKE",
+      "attributes": {
+        "SPD": 90,
+        "ACC": 92,
+        "AGI": 81,
+        "COD": 77,
+        "STR": 74,
+        "AWR": 83,
+        "PRC": 83,
+        "TAK": 84,
+        "POW": 84,
+        "BSH": 67,
+        "PUR": 89,
+        "MCV": 68,
+        "ZCV": 73,
+        "PRS": 54,
+        "INJ": 87,
+        "STA": 90,
+        "TGH": 86
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -5,
+      "delta_attributes": {
+        "SPD": 0,
+        "ACC": 0,
+        "AGI": 5,
+        "COD": 5,
+        "STR": 0,
+        "AWR": -13,
+        "PRC": -13,
+        "TAK": -8,
+        "POW": -4,
+        "BSH": -5,
+        "PUR": -5,
+        "MCV": 4,
+        "ZCV": 1,
+        "PRS": -2,
+        "INJ": -1,
+        "STA": -4,
+        "TGH": -2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 5,
+    "attribute_gaps_10plus": {
+      "AWR": -13,
+      "PRC": -13
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
