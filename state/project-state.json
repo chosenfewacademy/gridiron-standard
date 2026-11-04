@@ -11904,7 +11904,7 @@
         "position": "FS",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/FS.reaudit.json",
       "baseline_file": null,
@@ -11952,7 +11952,8 @@
         "FS_REAUDIT_TIEBREAK_03",
         "FS_REAUDIT_TIEBREAK_04",
         "FS_REAUDIT_TIEBREAK_05",
-        "FS_REAUDIT_TIEBREAK_06"
+        "FS_REAUDIT_TIEBREAK_06",
+        "FS_REAUDIT_VARIANCE_AUDIT"
       ],
       "audit_ids": [
         "FS_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -11998,7 +11999,7 @@
       ],
       "current_stage": "variance_audit",
       "current_task": "FS_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T12:26:08.953Z",
+      "updated_at": "2026-11-04T12:26:15.632Z",
       "last_result": {
         "task_id": "FS_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
@@ -12007,11 +12008,7 @@
           "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "FS_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "FS_REAUDIT_VARIANCE_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -12323,6 +12320,14 @@
           "audit_id": "FS_REAUDIT_TIEBREAK_06_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T12:25:46Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "FS_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "FS_REAUDIT_VARIANCE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:26:15Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
