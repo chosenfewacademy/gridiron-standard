@@ -8785,18 +8785,18 @@
         "DT_REAUDIT_TIEBREAK_04_A1",
         "DT_REAUDIT_TIEBREAK_05_A1",
         "DT_REAUDIT_TIEBREAK_06_A1",
-        "DT_REAUDIT_VARIANCE_AUDIT_A1"
+        "DT_REAUDIT_VARIANCE_AUDIT_A1",
+        "DT_REAUDIT_RATE_08_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "DT_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T11:24:46.856Z",
+      "updated_at": "2026-11-04T11:24:47.187Z",
       "last_result": {
-        "task_id": "DT_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
-        "errors": [],
-        "flags": [
-          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "task_id": "DT_REAUDIT_RATE_08",
+        "status": "REVISION_APPROVED",
+        "audit_id": "DT_REAUDIT_RATE_08_A2",
+        "supersedes": "DT_REAUDIT_RATE_08_A1",
+        "flags": []
       },
       "awaiting": null,
       "approvals": [
@@ -9119,6 +9119,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:24:46Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "DT_REAUDIT_RATE_08",
+          "audit_id": "DT_REAUDIT_RATE_08_A2",
+          "supersedes": "DT_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:24:46Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (DT_REAUDIT_VARIANCE_AUDIT, t46u): AWR 82->86 (73 tackles, 3 missed in 2025; 3 + 2 accepted penalties over 1,214 snaps). OVR unc"
         }
       ]
     }
