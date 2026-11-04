@@ -1,0 +1,40 @@
+# MIKE_REAUDIT_TIEBREAK_12 — Omar Speights vs Jack Gibbens (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "MIKE_REAUDIT_TIEBREAK_12_A1",
+  "task_id": "MIKE_REAUDIT_TIEBREAK_12",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "MIKE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Omar Speights",
+    "Jack Gibbens"
+  ],
+  "pair_result": {
+    "winner": "Omar Speights",
+    "loser": "Jack Gibbens",
+    "provisional_order_holds": true,
+    "reasoning": "Speights holds #10 on current form: PFF 79.9 on 231 snaps in 2026 (#4 LB) with 4 TFL / 2.0 sacks and 2 missed tackles (PFR, 7 games), vs Jack Gibbens's PFF 51.6 on 431 snaps in 2026. Jack Gibbens's ceiling hits (value, efficiency, negative_rate, availability) come from the two-year screen (snap-weighted PFF 58.4, 0.66 impact plays/game, 93.5% tackle success) where Speights' 2025 (PFF 67.1, 0 TFL) sets a low reference bar.",
+    "key_evidence_for_winner": [
+      "Omar Speights (LA) role snap-weighted 2025-26 depth-chart role shares MIKE 905 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE25 221, MIKE26 275) -> MIKE; roster ACT (LB); injuries wk6 Doubtful (Ankle); wk18 Questionable (Ankle)",
+      "Omar Speights 2026: Omar Speights 2026: PFF LB 2026 overall 79.9 on 231 snaps (LB rank 4; 114 run-def / 92 coverage / 25 pass-rush snaps); PFR 2026 (7 games) coverage 13 targets / 9 completions / 79 yds / 0 INT; 32 tackles, 2 missed; 4 pressures on 13 blitzes; 8 g / 232 def snaps; 22 solo + 15 ast tackles, 4 TFL, 2.0 sacks, 0 INT, 2 PD, 1 FF; 1 accepted penalties; PFR 2026 (7 games) coverage 13 targets / 9 completions / 79 yds / 0 INT; 32 tackles, 2 missed; 4 pressures on 13 blitzes",
+      "Omar Speights 2025: Omar Speights 2025: PFF LB 2025 overall 67.1 on 826 snaps (LB rank 34; 384 run-def / 413 coverage / 29 pass-rush snaps); PFR 2025 coverage 44 targets / 28 completions / 214 yds / passer rating 75.4 / 0 INT; 85 tackles, 3 missed; 1 pressures on 9 blitzes, 0 sacks; 16 g / 673 def snaps; 43 solo + 40 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 44 targets / 28 completions / 214 yds / passer rating 75.4 / 0 INT; 85 tackles, 3 missed; 1 pressures on 9 blitzes, 0 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Jack Gibbens (ARI) role snap-weighted 2025-26 depth-chart role shares MIKE 567 / WILL 355 / SAM 0 / edge 0 (raw snapshots WILL25 86, MIKE25 132, WILL26 103, MIKE26 172) -> MIKE; roster ACT (LB); injuries no injury designation 2025-26",
+      "Jack Gibbens 2026: Jack Gibbens 2026: PFF LB 2026 overall 51.6 on 431 snaps (LB rank 62; 197 run-def / 212 coverage / 22 pass-rush snaps); PFR 2026 (7 games) coverage 24 targets / 16 completions / 178 yds / 0 INT; 49 tackles, 4 missed; 3 pressures on 11 blitzes; 8 g / 431 def snaps; 24 solo + 36 ast tackles, 1 TFL, 0.5 sacks, 0 INT, 1 PD, 0 FF; 1 accepted penalties; PFR 2026 (7 games) coverage 24 targets / 16 completions / 178 yds / 0 INT; 49 tackles, 4 missed; 3 pressures on 11 blitzes",
+      "Jack Gibbens 2025: Jack Gibbens 2025: PFF LB 2025 overall 63.2 on 607 snaps (LB rank 41; 299 run-def / 267 coverage / 41 pass-rush snaps); PFR 2025 coverage 29 targets / 25 completions / 195 yds / passer rating 106.2 / 0 INT; 81 tackles, 5 missed; 4 pressures on 19 blitzes, 1 sacks; 17 g / 491 def snaps; 41 solo + 38 ast tackles, 8 TFL, 1.0 sacks, 0 INT, 4 PD, 1 FF; 2 accepted penalties; PFR 2025 coverage 29 targets / 25 completions / 195 yds / passer rating 106.2 / 0 INT; 81 tackles, 5 missed; 4 pressures on 19 blitzes, 1 sacks"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
