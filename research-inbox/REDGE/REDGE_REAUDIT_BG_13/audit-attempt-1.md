@@ -1,0 +1,237 @@
+# REDGE_REAUDIT_BG_13 — Trey Hendrickson background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "REDGE_REAUDIT_BG_13_A1",
+  "task_id": "REDGE_REAUDIT_BG_13",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "player_id": "ext_00-0033935",
+  "players": [
+    "Trey Hendrickson"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Trey Hendrickson",
+    "player_id": "ext_00-0033935",
+    "team": "BAL",
+    "side_assignment": {
+      "R25": 220,
+      "R26": 275,
+      "L": 0,
+      "R": 495,
+      "teams": [
+        "BAL",
+        "CIN"
+      ],
+      "assign": "REDGE"
+    },
+    "side_rule": "EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LEDGE = defense's left edge (aligned over the offense's right tackle); REDGE = defense's right edge (over the offense's left tackle), matching the repo note 'Right-side edge (offense's left)'. Side evidence = nflverse weekly depth charts 2025 + 2026 (ESPN-sourced): each team-day snapshot counts once; LDE (4-3 or 3-4) or 3-4 WLB (ESPN 3-4 layout slot 4, left of LILB) = left; RDE or 3-4 SLB (slot 7, right of RILB) = right; 4-3 WLB/SLB are off-ball LBs and not counted. The side with more snapshots across both seasons wins; a player appears in only one list. PFF alignment splits (left/right snap counts) are paywalled and NGS publishes no side split, so depth charts are the side source; Madden 27's LEDG/REDG card label is reference only and does not decide side.",
+    "pff": {
+      "2025": {
+        "team": "cincinnati-bengals",
+        "ovr": 82.8,
+        "snaps": 285,
+        "prsh": 177,
+        "rdef": 95,
+        "cov": 13,
+        "status": "A"
+      },
+      "2026": {
+        "team": "baltimore-ravens",
+        "ovr": 67.5,
+        "snaps": 240,
+        "prsh": 164,
+        "rdef": 64,
+        "cov": 12,
+        "status": "A"
+      }
+    },
+    "pressures": {
+      "2025": {
+        "tm": "CIN",
+        "pos": "DE",
+        "g": "7",
+        "prss": "12",
+        "hrry": "3",
+        "qbkd": "5",
+        "sk": "4",
+        "comb": "16",
+        "m_tkl": "2"
+      },
+      "2026": {
+        "def_pressures": 6.0,
+        "def_times_hurried": 1.0,
+        "def_times_hitqb": 3.0,
+        "def_sacks": 2.0,
+        "def_tackles_combined": 4.0,
+        "def_missed_tackles": 1.0,
+        "g": 4
+      }
+    },
+    "espn_win_rates": {
+      "prwr": {
+        "rank": 4,
+        "wins": 27,
+        "plays": 99,
+        "rate": 27
+      },
+      "rswr": null
+    },
+    "snaps": {
+      "2025": {
+        "games": 7,
+        "defs": 285
+      },
+      "2026": {
+        "games": 6,
+        "defs": 240
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 11.0,
+        "def_tackle_assists": 5.0,
+        "def_tackles_for_loss": 3.0,
+        "def_fumbles_forced": 1.0,
+        "def_sacks": 4.0,
+        "def_qb_hits": 8.0,
+        "def_pass_defended": 1.0
+      },
+      "2026": {
+        "def_tackles_solo": 7.0,
+        "def_tackle_assists": 2.0,
+        "def_tackles_for_loss": 2.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 2.0,
+        "def_qb_hits": 7.0,
+        "def_pass_defended": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 2,
+      "2026": 1
+    },
+    "injuries": {
+      "2025": [
+        "wk7 Questionable (Hip)",
+        "wk8 Questionable (Hip)",
+        "wk9 Doubtful (Hip)",
+        "wk11 Out (Hip)",
+        "wk12 Out (Hip)",
+        "wk13 Out (Hip)",
+        "wk14 Out (Hip)"
+      ],
+      "2026": [
+        "wk2 Questionable (Finger)",
+        "wk4 Out (Finger)",
+        "wk5 Out (Finger)"
+      ]
+    },
+    "summary_lines": [
+      "Trey Hendrickson (BAL) Trey Hendrickson 2026: PFF edge 2026 overall 67.5 on 240 snaps (164 pass-rush, 64 run-defense, 12 coverage); PFR 2026 6 pressures (1 hurries, 3 QB hits, 2.0 sacks) in 4 games, 4 tackles, 1 missed; 6 g / 240 def snaps; 2.0 sacks, 7 QB hits, 2 TFL, 0 FF, 0 PD; 1 accepted penalties; ESPN 2026 edge PRWR 27% (#4, 27/99); RSWR outside the published top 10",
+      "Trey Hendrickson 2025: PFF edge 2025 overall 82.8 on 285 snaps (177 pass-rush, 95 run-defense, 13 coverage); PFR 2025 12 pressures (3 hurries, 5 QB knockdowns, 4 sacks), 16 tackles, 2 missed; 7 g / 285 def snaps; 4.0 sacks, 8 QB hits, 3 TFL, 1 FF, 1 PD; 2 accepted penalties",
+      "Trey Hendrickson alignment: side snapshots 2025-26 left 0 / right 495 -> REDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position LB; Madden card REDG (reference only)",
+      "Trey Hendrickson injury reports: wk12 Out (Hip); wk13 Out (Hip); wk14 Out (Hip); wk2 Questionable (Finger); wk4 Out (Finger); wk5 Out (Finger); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PMV",
+      "FMV",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2026",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2025",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:43Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
