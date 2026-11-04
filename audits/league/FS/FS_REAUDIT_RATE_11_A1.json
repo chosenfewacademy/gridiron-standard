@@ -1,0 +1,448 @@
+{
+  "audit_id": "FS_REAUDIT_RATE_11_A1",
+  "task_id": "FS_REAUDIT_RATE_11",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FS",
+  "player_id": "ext_00-0033294",
+  "players": [
+    "Chuck Clark"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 80,
+    "ACC": 82,
+    "AGI": 82,
+    "COD": 80,
+    "STR": 72,
+    "AWR": 84,
+    "PRC": 82,
+    "MCV": 70,
+    "ZCV": 80,
+    "PRS": 64,
+    "CTH": 66,
+    "JMP": 72,
+    "TAK": 86,
+    "POW": 80,
+    "PUR": 82,
+    "INJ": 82,
+    "STA": 86,
+    "TGH": 88
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "MCV": "MEDIUM",
+    "ZCV": "MEDIUM",
+    "PRS": "MEDIUM",
+    "CTH": "MEDIUM",
+    "JMP": "LOW",
+    "TAK": "MEDIUM",
+    "POW": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 31 targets / 23 completions / 356 yds / 4 TD / passer rating 151.3 / 0 INT; 51 tackles, 4 missed; PFR 2026 (6 games) coverage 26 targets / 12 completions / 159 yds / 0 TD / 1 INT; 40 tackles, 2 missed; range from PD/tackles in 7 g / 426 def snaps; 24 solo + 19 ast tackles, 1 TFL, 1 INT, 2 PD, 1 FF. Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 31 targets / 23 completions / 356 yds / 4 TD / passer rating 151.3 / 0 INT; 51 tackles, 4 missed; PFR 2026 (6 games) coverage 26 targets / 12 completions / 159 yds / 0 TD / 1 INT; 40 tackles, 2 missed; range from PD/tackles in 7 g / 426 def snaps; 24 solo + 19 ast tackles, 1 TFL, 1 INT, 2 PD, 1 FF. Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 31 targets / 23 completions / 356 yds / 4 TD / passer rating 151.3 / 0 INT; 51 tackles, 4 missed; PFR 2026 (6 games) coverage 26 targets / 12 completions / 159 yds / 0 TD / 1 INT; 40 tackles, 2 missed; range from PD/tackles in 7 g / 426 def snaps; 24 solo + 19 ast tackles, 1 TFL, 1 INT, 2 PD, 1 FF. Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 31 targets / 23 completions / 356 yds / 4 TD / passer rating 151.3 / 0 INT; 51 tackles, 4 missed; PFR 2026 (6 games) coverage 26 targets / 12 completions / 159 yds / 0 TD / 1 INT; 40 tackles, 2 missed; range from PD/tackles in 7 g / 426 def snaps; 24 solo + 19 ast tackles, 1 TFL, 1 INT, 2 PD, 1 FF. Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (press): PFF S 2025 overall 74.6 on 470 snaps (S rank 16; 292 coverage / 174 run-def snaps); PFF S 2026 overall 68.8 on 426 snaps (S rank 29; 279 coverage / 140 run-def snaps); PFR 2025 coverage 31 targets / 23 completions / 356 yds / 4 TD / passer rating 151.3 / 0 INT; 51 tackles, 4 missed. Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 0/0; PFF S 2026 overall 68.8 on 426 snaps (S rank 29; 279 coverage / 140 run-def snaps). Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 31 targets / 23 completions / 356 yds / 4 TD / passer rating 151.3 / 0 INT; 51 tackles, 4 missed; PFR 2026 (6 games) coverage 26 targets / 12 completions / 159 yds / 0 TD / 1 INT; 40 tackles, 2 missed; PFF S 2025 overall 74.6 on 470 snaps (S rank 16; 292 coverage / 174 run-def snaps); PFF S 2026 overall 68.8 on 426 snaps (S rank 29; 279 coverage / 140 run-def snaps). Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Listed weakness area: coverage (4 TD allowed in 2025), speed / range",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 31 targets / 23 completions / 356 yds / 4 TD / passer rating 151.3 / 0 INT; 51 tackles, 4 missed; PFR 2026 (6 games) coverage 26 targets / 12 completions / 159 yds / 0 TD / 1 INT; 40 tackles, 2 missed; PFF S 2025 overall 74.6 on 470 snaps (S rank 16; 292 coverage / 174 run-def snaps); PFF S 2026 overall 68.8 on 426 snaps (S rank 29; 279 coverage / 140 run-def snaps). Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Listed weakness area: coverage (4 TD allowed in 2025), speed / range",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 31 targets / 23 completions / 356 yds / 4 TD / passer rating 151.3 / 0 INT; 51 tackles, 4 missed; PFR 2026 (6 games) coverage 26 targets / 12 completions / 159 yds / 0 TD / 1 INT; 40 tackles, 2 missed; PFF S 2025 overall 74.6 on 470 snaps (S rank 16; 292 coverage / 174 run-def snaps); PFF S 2026 overall 68.8 on 426 snaps (S rank 29; 279 coverage / 140 run-def snaps). Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Listed weakness area: coverage (4 TD allowed in 2025), speed / range",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (press): PFF S 2025 overall 74.6 on 470 snaps (S rank 16; 292 coverage / 174 run-def snaps); PFF S 2026 overall 68.8 on 426 snaps (S rank 29; 279 coverage / 140 run-def snaps); PFR 2025 coverage 31 targets / 23 completions / 356 yds / 4 TD / passer rating 151.3 / 0 INT; 51 tackles, 4 missed. Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (ball skills): INT/PD: 12 g / 437 def snaps; 29 solo + 20 ast tackles, 2 TFL, 0 INT, 3 PD, 1 FF (2025); 7 g / 426 def snaps; 24 solo + 19 ast tackles, 1 TFL, 1 INT, 2 PD, 1 FF (2026). Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (ball skills): INT/PD: 12 g / 437 def snaps; 29 solo + 20 ast tackles, 2 TFL, 0 INT, 3 PD, 1 FF (2025); 7 g / 426 def snaps; 24 solo + 19 ast tackles, 1 TFL, 1 INT, 2 PD, 1 FF (2026). Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 31 targets / 23 completions / 356 yds / 4 TD / passer rating 151.3 / 0 INT; 51 tackles, 4 missed; PFR 2026 (6 games) coverage 26 targets / 12 completions / 159 yds / 0 TD / 1 INT; 40 tackles, 2 missed. Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 31 targets / 23 completions / 356 yds / 4 TD / passer rating 151.3 / 0 INT; 51 tackles, 4 missed; PFR 2026 (6 games) coverage 26 targets / 12 completions / 159 yds / 0 TD / 1 INT; 40 tackles, 2 missed. Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF S 2025 overall 74.6 on 470 snaps (S rank 16; 292 coverage / 174 run-def snaps); PFF S 2026 overall 68.8 on 426 snaps (S rank 29; 279 coverage / 140 run-def snaps); TFL/tackles in 12 g / 437 def snaps; 29 solo + 20 ast tackles, 2 TFL, 0 INT, 3 PD, 1 FF / 7 g / 426 def snaps; 24 solo + 19 ast tackles, 1 TFL, 1 INT, 2 PD, 1 FF. Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Chuck Clark injury reports: wk9 Questionable (Illness); roster status ACT; 12 g / 437 def snaps; 29 solo + 20 ast tackles, 2 TFL, 0 INT, 3 PD, 1 FF (2025), 7 g / 426 def snaps; 24 solo + 19 ast tackles, 1 TFL, 1 INT, 2 PD, 1 FF (2026). Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 12 g / 437 def snaps; 29 solo + 20 ast tackles, 2 TFL, 0 INT, 3 PD, 1 FF (2025), 7 g / 426 def snaps; 24 solo + 19 ast tackles, 1 TFL, 1 INT, 2 PD, 1 FF (2026). Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 12 g / 437 def snaps; 29 solo + 20 ast tackles, 2 TFL, 0 INT, 3 PD, 1 FF (2025), 7 g / 426 def snaps; 24 solo + 19 ast tackles, 1 TFL, 1 INT, 2 PD, 1 FF (2026). Style: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 74,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+  "style_profile": "Chuck Clark: Veteran two-way safety: PFF 74.6 (2025) and 68.8 (2026) with 2 missed tackles on 40 in 2026 but a 151.3 passer rating allowed in 2025.",
+  "style_evidence": [
+    "Chuck Clark (DET) Chuck Clark 2026: PFF S 2026 overall 68.8 on 426 snaps (S rank 29; 279 coverage / 140 run-def snaps); PFR 2026 (6 games) coverage 26 targets / 12 completions / 159 yds / 0 TD / 1 INT; 40 tackles, 2 missed; 7 g / 426 def snaps; 24 solo + 19 ast tackles, 1 TFL, 1 INT, 2 PD, 1 FF; 0 accepted penalties",
+    "Chuck Clark 2025: PFF S 2025 overall 74.6 on 470 snaps (S rank 16; 292 coverage / 174 run-def snaps); PFR 2025 coverage 31 targets / 23 completions / 356 yds / 4 TD / passer rating 151.3 / 0 INT; 51 tackles, 4 missed; 12 g / 437 def snaps; 29 solo + 20 ast tackles, 2 TFL, 0 INT, 3 PD, 1 FF; 0 accepted penalties",
+    "Chuck Clark role: snap-weighted 2025-26 depth-chart FS/SS shares FS 610 / SS 253 -> FS (SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one o...); roster position DB; Madden card FS (reference only)",
+    "Chuck Clark injury reports: wk9 Questionable (Illness); roster status ACT"
+  ],
+  "input_dossier": "FS_REAUDIT_BG_11_A1",
+  "weaknesses": [
+    "coverage (4 TD allowed in 2025)",
+    "speed / range"
+  ],
+  "limitations": [
+    "PFF coverage/run-defense/tackling sub-grades and box/slot/deep alignment splits are paywalled; no public tracking data for safety speed or range; substitutes: PFF S overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+  ],
+  "role_assignment": "FS (snap-weighted 2025-26 depth-chart FS/SS shares FS 610 / SS 253 -> FS)",
+  "madden_reference": [
+    {
+      "player": "Chuck Clark",
+      "ovr": 78,
+      "madden_position": "FS",
+      "attributes": {
+        "SPD": 87,
+        "ACC": 89,
+        "AGI": 84,
+        "COD": 83,
+        "STR": 67,
+        "AWR": 82,
+        "PRC": 80,
+        "MCV": 72,
+        "ZCV": 74,
+        "PRS": 65,
+        "CTH": 68,
+        "JMP": 82,
+        "TAK": 78,
+        "POW": 84,
+        "PUR": 78,
+        "INJ": 94,
+        "STA": 93,
+        "TGH": 92
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -4,
+      "delta_attributes": {
+        "SPD": -7,
+        "ACC": -7,
+        "AGI": -2,
+        "COD": -3,
+        "STR": 5,
+        "AWR": 2,
+        "PRC": 2,
+        "MCV": -2,
+        "ZCV": 6,
+        "PRS": -1,
+        "CTH": -2,
+        "JMP": -10,
+        "TAK": 8,
+        "POW": -4,
+        "PUR": 4,
+        "INJ": -12,
+        "STA": -7,
+        "TGH": -4
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 4,
+    "attribute_gaps_10plus": {
+      "JMP": -10,
+      "INJ": -12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u",
+  "style_similarity": [
+    {
+      "player": "Jalen Pitre",
+      "audit_id": "FS_REAUDIT_RATE_01_A1",
+      "corr": 0.59,
+      "mad": 6.8,
+      "too_similar": false
+    },
+    {
+      "player": "Minkah Fitzpatrick",
+      "audit_id": "FS_REAUDIT_RATE_02_A1",
+      "corr": 0.871,
+      "mad": 4.7,
+      "too_similar": false
+    },
+    {
+      "player": "Antonio Johnson",
+      "audit_id": "FS_REAUDIT_RATE_03_A1",
+      "corr": 0.633,
+      "mad": 5,
+      "too_similar": false
+    },
+    {
+      "player": "Julian Love",
+      "audit_id": "FS_REAUDIT_RATE_04_A1",
+      "corr": 0.444,
+      "mad": 6.7,
+      "too_similar": false
+    },
+    {
+      "player": "Xavier McKinney",
+      "audit_id": "FS_REAUDIT_RATE_05_A1",
+      "corr": 0.734,
+      "mad": 5.2,
+      "too_similar": false
+    },
+    {
+      "player": "Quentin Lake",
+      "audit_id": "FS_REAUDIT_RATE_06_A1",
+      "corr": 0.346,
+      "mad": 6.1,
+      "too_similar": false
+    },
+    {
+      "player": "Tykee Smith",
+      "audit_id": "FS_REAUDIT_RATE_07_A1",
+      "corr": 0.711,
+      "mad": 4.1,
+      "too_similar": false
+    },
+    {
+      "player": "Kevin Byard",
+      "audit_id": "FS_REAUDIT_RATE_08_A1",
+      "corr": 0.73,
+      "mad": 4,
+      "too_similar": false
+    },
+    {
+      "player": "Bryan Cook",
+      "audit_id": "FS_REAUDIT_RATE_09_A1",
+      "corr": 0.741,
+      "mad": 4.4,
+      "too_similar": false
+    },
+    {
+      "player": "Thomas Harper",
+      "audit_id": "FS_REAUDIT_RATE_10_A1",
+      "corr": 0.305,
+      "mad": 7.8,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
