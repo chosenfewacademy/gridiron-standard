@@ -1,0 +1,452 @@
+# FB_REAUDIT_RATE_03 — Hunter Luepke rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "FB_REAUDIT_RATE_03_A1",
+  "task_id": "FB_REAUDIT_RATE_03",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "player_id": "ext_00-0038738",
+  "players": [
+    "Hunter Luepke"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 88,
+    "ACC": 90,
+    "AGI": 84,
+    "COD": 76,
+    "STR": 72,
+    "AWR": 72,
+    "CAR": 80,
+    "BCV": 78,
+    "TRK": 76,
+    "BTK": 62,
+    "SFA": 70,
+    "CTH": 78,
+    "CIT": 68,
+    "SRR": 68,
+    "RBK": 62,
+    "RBP": 64,
+    "RBF": 64,
+    "PBK": 60,
+    "IBL": 66,
+    "LBK": 76,
+    "INJ": 88,
+    "STA": 84,
+    "TGH": 86
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "CAR": "MEDIUM",
+    "BCV": "LOW",
+    "TRK": "MEDIUM",
+    "BTK": "LOW",
+    "SFA": "LOW",
+    "CTH": "MEDIUM",
+    "CIT": "MEDIUM",
+    "SRR": "MEDIUM",
+    "RBK": "MEDIUM",
+    "RBP": "MEDIUM",
+    "RBF": "LOW",
+    "PBK": "MEDIUM",
+    "IBL": "MEDIUM",
+    "LBK": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026); PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026); PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026); PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026); PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58); PFF FB 2025 60.5 (rank 5, 252 snaps: 106 run/lead-block, 38 pass-block, 92 routes, 16 carries; block share 0.57). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 1/0; PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball carrier): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "BCV": {
+      "basis": "Judgment (ball carrier): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TRK": {
+      "basis": "Judgment (ball carrier): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (ball carrier): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SFA": {
+      "basis": "Judgment (ball carrier): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (receiving): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026); routes in PFF FB 2025 60.5 (rank 5, 252 snaps: 106 run/lead-block, 38 pass-block, 92 routes, 16 carries; block share 0.57). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (receiving): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026); routes in PFF FB 2025 60.5 (rank 5, 252 snaps: 106 run/lead-block, 38 pass-block, 92 routes, 16 carries; block share 0.57). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (receiving): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026); routes in PFF FB 2025 60.5 (rank 5, 252 snaps: 106 run/lead-block, 38 pass-block, 92 routes, 16 carries; block share 0.57). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (lead block): PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58); PFF FB 2025 60.5 (rank 5, 252 snaps: 106 run/lead-block, 38 pass-block, 92 routes, 16 carries; block share 0.57). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (lead block): PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58); PFF FB 2025 60.5 (rank 5, 252 snaps: 106 run/lead-block, 38 pass-block, 92 routes, 16 carries; block share 0.57). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (lead block): PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58); PFF FB 2025 60.5 (rank 5, 252 snaps: 106 run/lead-block, 38 pass-block, 92 routes, 16 carries; block share 0.57). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58); PFF FB 2025 60.5 (rank 5, 252 snaps: 106 run/lead-block, 38 pass-block, 92 routes, 16 carries; block share 0.57). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (lead block): PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58); PFF FB 2025 60.5 (rank 5, 252 snaps: 106 run/lead-block, 38 pass-block, 92 routes, 16 carries; block share 0.57). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (lead block): PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58); PFF FB 2025 60.5 (rank 5, 252 snaps: 106 run/lead-block, 38 pass-block, 92 routes, 16 carries; block share 0.57). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Hunter Luepke injury reports: {'2025': ['wk16 Questionable (Concussion)']}; roster status ACT; 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025), 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025), 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025), 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026). Style: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+      "why_not_higher": "Evidence does not separate him from higher-rated fullbacks in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated fullbacks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "movement: 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD (2025); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD (2026); PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/fb/2026",
+        "https://www.pff.com/grades/nfl/fb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 78,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+  "style_profile": "Hunter Luepke: Athletic, multi-use fullback: 16-71 rushing and 13-109 receiving (2025, most touches of any true FB), PFF 60.5 on 252 snaps then 54.5 on 95; explosive and quick, a ball-handling FB whose blocking is solid but not dominant.",
+  "style_evidence": [
+    "Hunter Luepke (DAL) 2026: PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD; 0 penalties; FB depth-chart snapshots {'rank1': 275}",
+    "Hunter Luepke 2025: PFF FB 2025 60.5 (rank 5, 252 snaps: 106 run/lead-block, 38 pass-block, 92 routes, 16 carries; block share 0.57); 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD; 1 penalties; FB depth-chart snapshots {'rank1': 221}",
+    "Hunter Luepke usage (FB eligibility rule: PFF FB alignment / depth-chart FB / roster FB): roster position RB, depth-chart position FB",
+    "Hunter Luepke injury reports: {'2025': ['wk16 Questionable (Concussion)']}; roster status ACT"
+  ],
+  "input_dossier": "FB_REAUDIT_BG_03_A1",
+  "weaknesses": [
+    "lead-block power",
+    "2026 snap share"
+  ],
+  "limitations": [
+    "PFF FB run/pass-block sub-grades, lead-block win data and 21/22-personnel share are paywalled or unpublished; substitutes: PFF FB overall + run-block/pass-block/route/carry snap counts, nflverse snaps, rushing/receiving, penalties, FB depth-chart role, injury reports"
+  ],
+  "attribute_set_note": "config/madden-entry-order.json has no FB key (protected, madden_order_verified=false); FB attributes follow the Madden 27 FB card (speed/ball-carrier/receiving/blocking/durability).",
+  "madden_reference": [
+    {
+      "player": "Hunter Luepke",
+      "ovr": 72,
+      "madden_position": "FB",
+      "attributes": {
+        "SPD": 86,
+        "ACC": 91,
+        "AGI": 83,
+        "COD": 72,
+        "STR": 69,
+        "AWR": 70,
+        "CAR": 74,
+        "BCV": 72,
+        "TRK": 71,
+        "BTK": 53,
+        "SFA": 68,
+        "CTH": 76,
+        "CIT": 68,
+        "SRR": 66,
+        "RBK": 60,
+        "RBP": 59,
+        "RBF": 56,
+        "PBK": 57,
+        "IBL": 63,
+        "LBK": 69,
+        "INJ": 87,
+        "STA": 84,
+        "TGH": 87
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 6,
+      "delta_attributes": {
+        "SPD": 2,
+        "ACC": -1,
+        "AGI": 1,
+        "COD": 4,
+        "STR": 3,
+        "AWR": 2,
+        "CAR": 6,
+        "BCV": 6,
+        "TRK": 5,
+        "BTK": 9,
+        "SFA": 2,
+        "CTH": 2,
+        "CIT": 0,
+        "SRR": 2,
+        "RBK": 2,
+        "RBP": 5,
+        "RBF": 8,
+        "PBK": 3,
+        "IBL": 3,
+        "LBK": 7,
+        "INJ": 1,
+        "STA": 0,
+        "TGH": -1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 6,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
