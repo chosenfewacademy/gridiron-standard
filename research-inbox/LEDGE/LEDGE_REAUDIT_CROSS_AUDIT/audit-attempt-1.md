@@ -1,0 +1,482 @@
+# LEDGE_REAUDIT_CROSS_AUDIT (v1.1.2; authorized t46u)
+
+```json
+{
+  "audit_id": "LEDGE_REAUDIT_CROSS_AUDIT_A1",
+  "task_id": "LEDGE_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Aidan Hutchinson",
+    "Will Anderson Jr.",
+    "Greg Rousseau",
+    "Maxx Crosby",
+    "T.J. Watt",
+    "DeMarcus Lawrence",
+    "Byron Young",
+    "George Karlaftis",
+    "Boye Mafe",
+    "Brian Burns"
+  ],
+  "cross_audit_result": "CONSISTENT: all 14 approved head-to-head/tiebreak verdicts agree with the final rating order; style rule passes for all 78 pairs of 13 rated LEDGEs (0 too similar); league ceiling 4 raw flags, all resolved by approved tiebreaks (Burns holds #10); variance audit 33 10+ gaps: 31 supported, 2 fixed via approved reaudit:revise; Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Aidan Hutchinson",
+      "ovr": 94,
+      "audit_id": "LEDGE_REAUDIT_RATE_01_A1"
+    },
+    {
+      "rank": 2,
+      "player": "Will Anderson Jr.",
+      "ovr": 93,
+      "audit_id": "LEDGE_REAUDIT_RATE_02_A2"
+    },
+    {
+      "rank": 3,
+      "player": "Greg Rousseau",
+      "ovr": 87,
+      "audit_id": "LEDGE_REAUDIT_RATE_03_A1"
+    },
+    {
+      "rank": 4,
+      "player": "Maxx Crosby",
+      "ovr": 86,
+      "audit_id": "LEDGE_REAUDIT_RATE_04_A1"
+    },
+    {
+      "rank": 5,
+      "player": "T.J. Watt",
+      "ovr": 84,
+      "audit_id": "LEDGE_REAUDIT_RATE_05_A1"
+    },
+    {
+      "rank": 6,
+      "player": "DeMarcus Lawrence",
+      "ovr": 82,
+      "audit_id": "LEDGE_REAUDIT_RATE_06_A1"
+    },
+    {
+      "rank": 7,
+      "player": "Byron Young",
+      "ovr": 81,
+      "audit_id": "LEDGE_REAUDIT_RATE_07_A2"
+    },
+    {
+      "rank": 8,
+      "player": "George Karlaftis",
+      "ovr": 80,
+      "audit_id": "LEDGE_REAUDIT_RATE_08_A1"
+    },
+    {
+      "rank": 9,
+      "player": "Boye Mafe",
+      "ovr": 79,
+      "audit_id": "LEDGE_REAUDIT_RATE_09_A1"
+    },
+    {
+      "rank": 10,
+      "player": "Brian Burns",
+      "ovr": 78,
+      "audit_id": "LEDGE_REAUDIT_RATE_10_A1"
+    },
+    {
+      "rank": 11,
+      "player": "Tuli Tuipulotu",
+      "ovr": 77,
+      "audit_id": "LEDGE_REAUDIT_RATE_11_A1"
+    },
+    {
+      "rank": 12,
+      "player": "Cameron Thomas",
+      "ovr": 75,
+      "audit_id": "LEDGE_REAUDIT_RATE_12_A1"
+    },
+    {
+      "rank": 13,
+      "player": "Gabe Jacas",
+      "ovr": 74,
+      "audit_id": "LEDGE_REAUDIT_RATE_13_A1"
+    }
+  ],
+  "pair_consistency": [
+    {
+      "audit_id": "LEDGE_REAUDIT_H2H_01_A1",
+      "winner": "Aidan Hutchinson",
+      "loser": "Will Anderson Jr.",
+      "consistent": true
+    },
+    {
+      "audit_id": "LEDGE_REAUDIT_H2H_02_A1",
+      "winner": "Greg Rousseau",
+      "loser": "Maxx Crosby",
+      "consistent": true
+    },
+    {
+      "audit_id": "LEDGE_REAUDIT_H2H_03_A1",
+      "winner": "T.J. Watt",
+      "loser": "DeMarcus Lawrence",
+      "consistent": true
+    },
+    {
+      "audit_id": "LEDGE_REAUDIT_H2H_04_A1",
+      "winner": "Byron Young",
+      "loser": "George Karlaftis",
+      "consistent": true
+    },
+    {
+      "audit_id": "LEDGE_REAUDIT_H2H_05_A1",
+      "winner": "Boye Mafe",
+      "loser": "Brian Burns",
+      "consistent": true
+    },
+    {
+      "audit_id": "LEDGE_REAUDIT_H2H_06_A1",
+      "winner": "Brian Burns",
+      "loser": "Tuli Tuipulotu",
+      "consistent": true
+    },
+    {
+      "audit_id": "LEDGE_REAUDIT_TIEBREAK_01_A1",
+      "winner": "Will Anderson Jr.",
+      "loser": "Greg Rousseau",
+      "consistent": true
+    },
+    {
+      "audit_id": "LEDGE_REAUDIT_TIEBREAK_02_A1",
+      "winner": "Maxx Crosby",
+      "loser": "T.J. Watt",
+      "consistent": true
+    },
+    {
+      "audit_id": "LEDGE_REAUDIT_TIEBREAK_03_A1",
+      "winner": "DeMarcus Lawrence",
+      "loser": "Byron Young",
+      "consistent": true
+    },
+    {
+      "audit_id": "LEDGE_REAUDIT_TIEBREAK_04_A1",
+      "winner": "George Karlaftis",
+      "loser": "Boye Mafe",
+      "consistent": true
+    },
+    {
+      "audit_id": "LEDGE_REAUDIT_TIEBREAK_05_A1",
+      "winner": "Brian Burns",
+      "loser": "Josh Sweat",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "LEDGE_REAUDIT_TIEBREAK_06_A1",
+      "winner": "Brian Burns",
+      "loser": "Montez Sweat",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "LEDGE_REAUDIT_TIEBREAK_07_A1",
+      "winner": "Brian Burns",
+      "loser": "Odafe Oweh",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "LEDGE_REAUDIT_TIEBREAK_08_A1",
+      "winner": "Brian Burns",
+      "loser": "Cameron Jordan",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    }
+  ],
+  "style_rule": {
+    "pairs_checked": 78,
+    "too_similar": 0,
+    "highest_corr": [
+      0.82,
+      4,
+      "DeMarcus Lawrence",
+      "Greg Rousseau"
+    ],
+    "lowest_mad": [
+      0.578,
+      3.8,
+      "Gabe Jacas",
+      "Boye Mafe"
+    ]
+  },
+  "scarcity_note": "LEDGE_REAUDIT_SCARCITY_A1 PASS (32 traits 90+, 4 at 95+: Hutchinson STA 96, Crosby PUR/STA/TGH 96, all LEAGUE_DEFINING; no 97+; overall 90+: Hutchinson 94, Anderson 93). Narrative text grep-verified before the stage ran.",
+  "eligibility_rule": "Edge-eligible = PFF edge grade (2025/2026); side assigned by majority 2025-26 depth-chart snapshots (see side_convention); players assigned to REDGE (locked REDGE_REAUDIT_LOCK_20261104) are excluded; a player appears in only one list.",
+  "side_convention": "EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LEDGE = defense's left edge (aligned over the offense's right tackle); REDGE = defense's right edge (over the offense's left tackle), matching the repo note 'Right-side edge (offense's left)'. Side evidence = nflverse weekly depth charts 2025 + 2026 (ESPN-sourced): each team-day snapshot counts once; LDE (4-3 or 3-4) or 3-4 WLB (ESPN 3-4 layout slot 4, left of LILB) = left; RDE or 3-4 SLB (slot 7, right of RILB) = right; 4-3 WLB/SLB are off-ball LBs and not counted. The side with more snapshots across both seasons wins; a player appears in only one list. PFF alignment splits (left/right snap counts) are paywalled and NGS publishes no side split, so depth charts are the side source; Madden 27's LEDG/REDG card label is reference only and does not decide side.",
+  "commissioner_fix_approvals": "Approved and applied under t46u/t54s495: Anderson FMV 84->88, Byron Young PRC 78->82 (overalls unchanged).",
+  "league_ceiling_check": {
+    "source": "research-inbox/LEDGE/LEDGE_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-t46u.json",
+    "references": [
+      "Brian Burns",
+      "Tuli Tuipulotu"
+    ],
+    "thresholds": {
+      "pff": 69.2,
+      "value": 1.78,
+      "efficiency": 6.8,
+      "negative_rate": 6.1,
+      "availability": 0.8
+    },
+    "scope": "Every edge-eligible player league-wide (PFF edge grade in 2025 or 2026) whose majority 2025-26 depth-chart side is the defense's left (LEDGE), incl. reserve/IR, inactive, practice squad and free agents; the 13 audited LEDGEs and every REDGE-assigned player excluded. Metrics: snap-weighted PFF edge grade, PFR pressures per game (value), pressures per 100 PFF pass-rush snaps (efficiency), missed tackles + accepted penalties per 1,000 snaps (negative rate), games share.",
+    "raw_flags_before_resolution": [
+      {
+        "name": "Cameron Jordan",
+        "team": "NO",
+        "status": "ACT",
+        "snaps": 778,
+        "pff": 69.7,
+        "value": 1,
+        "efficiency": 5.1,
+        "negative_rate": 3.9,
+        "availability": 0.92,
+        "hits": [
+          "pff",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Odafe Oweh",
+        "team": "WAS",
+        "status": "ACT",
+        "snaps": 810,
+        "pff": 70.2,
+        "value": 1.38,
+        "efficiency": 6,
+        "negative_rate": 3.7,
+        "availability": 0.96,
+        "hits": [
+          "pff",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Josh Sweat",
+        "team": "ARI",
+        "status": "ACT",
+        "snaps": 831,
+        "pff": 71,
+        "value": 1.44,
+        "efficiency": 6.6,
+        "negative_rate": 6,
+        "availability": 1,
+        "hits": [
+          "pff",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Montez Sweat",
+        "team": "CHI",
+        "status": "ACT",
+        "snaps": 1005,
+        "pff": 70.2,
+        "value": 1.52,
+        "efficiency": 5,
+        "negative_rate": 6,
+        "availability": 0.92,
+        "hits": [
+          "pff",
+          "negative_rate",
+          "availability"
+        ]
+      }
+    ],
+    "resolution": "Check (refs #10 Burns 78 / first-out Tuipulotu 77) screened 109 non-pool left-side edges and raw-flagged 4: Josh Sweat, Montez Sweat, Odafe Oweh, Cameron Jordan (PFF/negative-rate/availability; none beats the refs on pressure value or efficiency). Each was resolved by an approved add-only tiebreak against Burns (LEDGE_REAUDIT_TIEBREAK_05..08), all won by Burns; Josh Sweat closest (NARROW). Burns 78 stands as the ceiling; no pool amendment or rating change.",
+    "flagged": [],
+    "resolved_by_tiebreak": [
+      "LEDGE_REAUDIT_TIEBREAK_05_A1",
+      "LEDGE_REAUDIT_TIEBREAK_06_A1",
+      "LEDGE_REAUDIT_TIEBREAK_07_A1",
+      "LEDGE_REAUDIT_TIEBREAK_08_A1"
+    ],
+    "closest": [
+      {
+        "name": "Travon Walker",
+        "team": "JAX",
+        "status": "ACT",
+        "snaps": 855,
+        "pff": 66.8,
+        "value": 1.38,
+        "efficiency": 5,
+        "negative_rate": 5.8,
+        "availability": 0.84,
+        "hits": [
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Barryn Sorrell",
+        "team": "GB",
+        "status": "ACT",
+        "snaps": 448,
+        "pff": 65.6,
+        "value": 0.57,
+        "efficiency": 4.6,
+        "negative_rate": 2.2,
+        "availability": 0.84,
+        "hits": [
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "James Lynch",
+        "team": "CHI",
+        "status": "ACT",
+        "snaps": 529,
+        "pff": 61.8,
+        "value": 0.25,
+        "efficiency": 4.9,
+        "negative_rate": 3.8,
+        "availability": 0.96,
+        "hits": [
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Keion White",
+        "team": "SF",
+        "status": "ACT",
+        "snaps": 743,
+        "pff": 58.6,
+        "value": 1,
+        "efficiency": 3.9,
+        "negative_rate": 5.4,
+        "availability": 0.84,
+        "hits": [
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Dennis Gardeck",
+        "team": "JAX",
+        "status": "ACT",
+        "snaps": 601,
+        "pff": 66.6,
+        "value": 0.67,
+        "efficiency": 21.1,
+        "negative_rate": 10,
+        "availability": 0.96,
+        "hits": [
+          "efficiency",
+          "availability"
+        ]
+      }
+    ],
+    "screened": 109,
+    "rating_changes": []
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Aidan Hutchinson",
+      "ours": 94,
+      "madden": 94,
+      "madden_position": "LEDG",
+      "delta": 0
+    },
+    {
+      "player": "Will Anderson Jr.",
+      "ours": 93,
+      "madden": 95,
+      "madden_position": "LEDG",
+      "delta": -2
+    },
+    {
+      "player": "Greg Rousseau",
+      "ours": 87,
+      "madden": 90,
+      "madden_position": "LEDG",
+      "delta": -3
+    },
+    {
+      "player": "Maxx Crosby",
+      "ours": 86,
+      "madden": 97,
+      "madden_position": "LEDG",
+      "delta": -11
+    },
+    {
+      "player": "T.J. Watt",
+      "ours": 84,
+      "madden": 96,
+      "madden_position": "LEDG",
+      "delta": -12
+    },
+    {
+      "player": "DeMarcus Lawrence",
+      "ours": 82,
+      "madden": 87,
+      "madden_position": "LEDG",
+      "delta": -5
+    },
+    {
+      "player": "Byron Young",
+      "ours": 81,
+      "madden": 85,
+      "madden_position": "LEDG",
+      "delta": -4
+    },
+    {
+      "player": "George Karlaftis",
+      "ours": 80,
+      "madden": 83,
+      "madden_position": "LEDG",
+      "delta": -3
+    },
+    {
+      "player": "Boye Mafe",
+      "ours": 79,
+      "madden": 80,
+      "madden_position": "REDG",
+      "delta": -1
+    },
+    {
+      "player": "Brian Burns",
+      "ours": 78,
+      "madden": 89,
+      "madden_position": "REDG",
+      "delta": -11
+    },
+    {
+      "player": "Tuli Tuipulotu",
+      "ours": 77,
+      "madden": 79,
+      "madden_position": "LEDG",
+      "delta": -2
+    },
+    {
+      "player": "Cameron Thomas",
+      "ours": 75,
+      "madden": 74,
+      "madden_position": "REDG",
+      "delta": 1
+    },
+    {
+      "player": "Gabe Jacas",
+      "ours": 74,
+      "madden": 77,
+      "madden_position": "LEDG",
+      "delta": -3
+    }
+  ],
+  "madden_order_verified": false,
+  "madden_used_as_evidence": false,
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```

@@ -1,0 +1,308 @@
+{
+ "position": "LEDGE",
+ "references": [
+  {
+   "name": "Brian Burns",
+   "team": "NYG",
+   "status": "RES",
+   "snaps": 978,
+   "pff": 75.4,
+   "value": 2.3,
+   "efficiency": 8.6,
+   "negative_rate": 6.1,
+   "availability": 0.8,
+   "side": {
+    "L25": 221,
+    "L26": 275,
+    "L": 496,
+    "R": 0,
+    "teams": [
+     "NYG"
+    ],
+    "assign": "LEDGE"
+   }
+  },
+  {
+   "name": "Tuli Tuipulotu",
+   "team": "LAC",
+   "status": "ACT",
+   "snaps": 1098,
+   "pff": 69.2,
+   "value": 1.78,
+   "efficiency": 6.8,
+   "negative_rate": 5.5,
+   "availability": 0.92,
+   "side": {
+    "L25": 220,
+    "L26": 274,
+    "L": 494,
+    "R": 0,
+    "teams": [
+     "LAC"
+    ],
+    "assign": "LEDGE"
+   }
+  }
+ ],
+ "thresholds": {
+  "pff": 69.2,
+  "value": 1.78,
+  "efficiency": 6.8,
+  "negative_rate": 6.1,
+  "availability": 0.8
+ },
+ "flagged": [
+  {
+   "name": "Cameron Jordan",
+   "team": "NO",
+   "status": "ACT",
+   "snaps": 778,
+   "pff": 69.7,
+   "value": 1,
+   "efficiency": 5.1,
+   "negative_rate": 3.9,
+   "availability": 0.92,
+   "side": {
+    "L25": 217,
+    "L26": 186,
+    "L": 403,
+    "R": 0,
+    "teams": [
+     "NO"
+    ],
+    "assign": "LEDGE"
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.3637992831541226
+  },
+  {
+   "name": "Odafe Oweh",
+   "team": "WAS",
+   "status": "ACT",
+   "snaps": 810,
+   "pff": 70.2,
+   "value": 1.38,
+   "efficiency": 6,
+   "negative_rate": 3.7,
+   "availability": 0.96,
+   "side": {
+    "L25": 67,
+    "R25": 153,
+    "L26": 275,
+    "L": 342,
+    "R": 153,
+    "teams": [
+     "BAL",
+     "LAC",
+     "WAS"
+    ],
+    "assign": "LEDGE"
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.9476151089054308
+  },
+  {
+   "name": "Josh Sweat",
+   "team": "ARI",
+   "status": "ACT",
+   "snaps": 831,
+   "pff": 71,
+   "value": 1.44,
+   "efficiency": 6.6,
+   "negative_rate": 6,
+   "availability": 1,
+   "side": {
+    "L25": 221,
+    "L26": 275,
+    "L": 496,
+    "R": 0,
+    "teams": [
+     "ARI"
+    ],
+    "assign": "LEDGE"
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.6920319823545613
+  },
+  {
+   "name": "Montez Sweat",
+   "team": "CHI",
+   "status": "ACT",
+   "snaps": 1005,
+   "pff": 70.2,
+   "value": 1.52,
+   "efficiency": 5,
+   "negative_rate": 6,
+   "availability": 0.92,
+   "side": {
+    "L25": 221,
+    "L26": 274,
+    "L": 495,
+    "R": 0,
+    "teams": [
+     "CHI"
+    ],
+    "assign": "LEDGE"
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.1720430107526889
+  }
+ ],
+ "closest": [
+  {
+   "name": "Travon Walker",
+   "team": "JAX",
+   "status": "ACT",
+   "snaps": 855,
+   "pff": 66.8,
+   "value": 1.38,
+   "efficiency": 5,
+   "negative_rate": 5.8,
+   "availability": 0.84,
+   "side": {
+    "R25": 221,
+    "L26": 275,
+    "L": 275,
+    "R": 221,
+    "teams": [
+     "JAX"
+    ],
+    "assign": "LEDGE"
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.3229942100909864
+  },
+  {
+   "name": "Barryn Sorrell",
+   "team": "GB",
+   "status": "ACT",
+   "snaps": 448,
+   "pff": 65.6,
+   "value": 0.57,
+   "efficiency": 4.6,
+   "negative_rate": 2.2,
+   "availability": 0.84,
+   "side": {
+    "L25": 118,
+    "R25": 103,
+    "R26": 132,
+    "L26": 143,
+    "L": 261,
+    "R": 235,
+    "teams": [
+     "GB"
+    ],
+    "assign": "LEDGE"
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": -2.796457127102292
+  },
+  {
+   "name": "James Lynch",
+   "team": "CHI",
+   "status": "ACT",
+   "snaps": 529,
+   "pff": 61.8,
+   "value": 0.25,
+   "efficiency": 4.9,
+   "negative_rate": 3.8,
+   "availability": 0.96,
+   "side": {
+    "L25": 181,
+    "R25": 24,
+    "R26": 87,
+    "L": 181,
+    "R": 111,
+    "teams": [
+     "CHI",
+     "TEN"
+    ],
+    "assign": "LEDGE"
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": -3.191411634960023
+  },
+  {
+   "name": "Keion White",
+   "team": "SF",
+   "status": "ACT",
+   "snaps": 743,
+   "pff": 58.6,
+   "value": 1,
+   "efficiency": 3.9,
+   "negative_rate": 5.4,
+   "availability": 0.84,
+   "side": {
+    "R25": 15,
+    "L25": 206,
+    "L26": 103,
+    "R26": 172,
+    "L": 309,
+    "R": 187,
+    "teams": [
+     "NE",
+     "SF"
+    ],
+    "assign": "LEDGE"
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": -3.487455197132618
+  },
+  {
+   "name": "Dennis Gardeck",
+   "team": "JAX",
+   "status": "ACT",
+   "snaps": 601,
+   "pff": 66.6,
+   "value": 0.67,
+   "efficiency": 21.1,
+   "negative_rate": 10,
+   "availability": 0.96,
+   "side": {
+    "L26": 172,
+    "L": 172,
+    "R": 0,
+    "teams": [
+     "JAX"
+    ],
+    "assign": "LEDGE"
+   },
+   "hits": [
+    "efficiency",
+    "availability"
+   ],
+   "score": -3.553970223325064
+  }
+ ],
+ "screened": 109,
+ "read_only": true,
+ "rating_changes": []
+}
