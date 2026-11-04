@@ -14454,7 +14454,7 @@
         "position": "QB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/QB.reaudit.json",
       "baseline_file": "data/baselines/QB.reaudit-20261102.json",
@@ -14464,7 +14464,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T14:00:00Z",
-      "updated_at": "2026-11-04T14:11:57.423Z",
+      "updated_at": "2026-11-04T14:12:04.096Z",
       "audit_ids": [
         "QB_REAUDIT_PROVISIONAL_TOP10_A1",
         "QB_REAUDIT_PAIR_01_A1",
@@ -14557,7 +14557,8 @@
         "QB_REAUDIT_TIEBREAK_11_A1",
         "QB_REAUDIT_TIEBREAK_12_A1",
         "QB_REAUDIT_RATE_05_A4",
-        "QB_REAUDIT_VARIANCE_AUDIT_A2"
+        "QB_REAUDIT_VARIANCE_AUDIT_A2",
+        "QB_REAUDIT_SCARCITY_A2"
       ],
       "completed_tasks": [
         "QB_REAUDIT_PROVISIONAL_TOP10",
@@ -15841,16 +15842,18 @@
           "note": "User-approved batch t56s532: re-run QB_REAUDIT_VARIANCE_AUDIT after the approved card revisions"
         }
       ],
-      "current_stage": "variance_audit",
-      "current_task": "QB_REAUDIT_VARIANCE_AUDIT",
-      "awaiting": null,
+      "current_stage": "scarcity_audit",
+      "current_task": "QB_REAUDIT_SCARCITY",
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "QB_REAUDIT_SCARCITY",
+        "audit_id": "QB_REAUDIT_SCARCITY_A2"
+      },
       "last_result": {
-        "task_id": "QB_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
+        "task_id": "QB_REAUDIT_SCARCITY",
+        "status": "VALIDATED",
         "errors": [],
-        "flags": [
-          "COMMISSIONER_REVIEW: variance re-run after t56s532 card revisions (Josh Allen)"
-        ]
+        "flags": []
       }
     }
   ]
