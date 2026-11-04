@@ -9618,7 +9618,7 @@
         "position": "MIKE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/MIKE.reaudit.json",
       "baseline_file": null,
@@ -9661,7 +9661,8 @@
         "MIKE_REAUDIT_H2H_04",
         "MIKE_REAUDIT_H2H_05",
         "MIKE_REAUDIT_H2H_06",
-        "MIKE_REAUDIT_TIEBREAK_01"
+        "MIKE_REAUDIT_TIEBREAK_01",
+        "MIKE_REAUDIT_TIEBREAK_02"
       ],
       "audit_ids": [
         "MIKE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -9702,7 +9703,7 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "MIKE_REAUDIT_H2H_06",
-      "updated_at": "2026-11-04T11:43:04.009Z",
+      "updated_at": "2026-11-04T11:43:04.261Z",
       "last_result": {
         "task_id": "MIKE_REAUDIT_TIEBREAK_02",
         "status": "FLAGGED",
@@ -9710,17 +9711,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "MIKE_REAUDIT_TIEBREAK_02",
-        "audit_id": "MIKE_REAUDIT_TIEBREAK_02_A1",
-        "pending": [
-          {
-            "task_id": "MIKE_REAUDIT_TIEBREAK_02",
-            "audit_id": "MIKE_REAUDIT_TIEBREAK_02_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -9992,6 +9983,14 @@
           "audit_id": "MIKE_REAUDIT_TIEBREAK_01_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:43:03Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "MIKE_REAUDIT_TIEBREAK_02",
+          "audit_id": "MIKE_REAUDIT_TIEBREAK_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:43:04Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
