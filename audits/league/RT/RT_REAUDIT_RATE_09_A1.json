@@ -1,0 +1,413 @@
+{
+  "audit_id": "RT_REAUDIT_RATE_09_A1",
+  "task_id": "RT_REAUDIT_RATE_09",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "player_id": "ext_00-0036976",
+  "players": [
+    "Spencer Brown"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 90,
+    "SPD": 70,
+    "ACC": 72,
+    "AGI": 64,
+    "COD": 54,
+    "AWR": 82,
+    "INJ": 76,
+    "STA": 82,
+    "TGH": 86,
+    "PBK": 84,
+    "PBP": 88,
+    "PBF": 78,
+    "RBK": 76,
+    "RBP": 84,
+    "RBF": 74,
+    "IBL": 84,
+    "LBK": 78
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Spencer Brown (BUF) 2026: PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59); 6 g / 341 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'RT': 226}; Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20); pass/run snap mix PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20); pass/run snap mix PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20); pass/run snap mix PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20); pass/run snap mix PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 1 accepted penalties {'False Start': 1}, 2025 4 accepted penalties {'Offensive Holding': 3, 'Unnecessary Roughness': 1}; PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Spencer Brown injury reports: {'2025': ['wk4 Questionable (Calf)', 'wk5 Questionable (Calf)', 'wk13 Out (Shoulder)', 'wk14 Questionable (Shoulder)'], '2026': ['wk8 Questionable (Back)']}; roster status INA; snaps 14 g / 846 off snaps (2025), 6 g / 341 off snaps (2026). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 14 g / 846 off snaps (2025), 6 g / 341 off snaps (2026). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 14 g / 846 off snaps (2025), 6 g / 341 off snaps (2026). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20); PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59); PFF 2025 77 (rank 22, 987 snaps: 578 pass-block / 409 run-block, pass share 0.59). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20); PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59); PFF 2025 77 (rank 22, 987 snaps: 578 pass-block / 409 run-block, pass share 0.59). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20); PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59); PFF 2025 77 (rank 22, 987 snaps: 578 pass-block / 409 run-block, pass share 0.59). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20); PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59); PFF 2025 77 (rank 22, 987 snaps: 578 pass-block / 409 run-block, pass share 0.59). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20); PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59); PFF 2025 77 (rank 22, 987 snaps: 578 pass-block / 409 run-block, pass share 0.59). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20); PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59); PFF 2025 77 (rank 22, 987 snaps: 578 pass-block / 409 run-block, pass share 0.59). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20); PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59); PFF 2025 77 (rank 22, 987 snaps: 578 pass-block / 409 run-block, pass share 0.59). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20); PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59); PFF 2025 77 (rank 22, 987 snaps: 578 pass-block / 409 run-block, pass share 0.59). Style: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "ELITE",
+      "claim": "power: Spencer Brown (BUF) 2026: PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59); 6 g / 341 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'RT': 226}; Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 77,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+  "style_profile": "Spencer Brown: Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+  "style_evidence": [
+    "Spencer Brown (BUF) 2026: PFF 2026 70.6 (rank 25, 340 snaps: 199 pass-block / 141 run-block, pass share 0.59); 6 g / 341 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'RT': 226}",
+    "Spencer Brown 2025: PFF 2025 77 (rank 22, 987 snaps: 578 pass-block / 409 run-block, pass share 0.59); 14 g / 846 off snaps; 4 accepted penalties {'Offensive Holding': 3, 'Unnecessary Roughness': 1}; side {'RT': 219}",
+    "Spencer Brown ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20)",
+    "Spencer Brown injury reports: {'2025': ['wk4 Questionable (Calf)', 'wk5 Questionable (Calf)', 'wk13 Out (Shoulder)', 'wk14 Questionable (Shoulder)'], '2026': ['wk8 Questionable (Back)']}; roster status INA"
+  ],
+  "input_dossier": "RT_REAUDIT_BG_09_A1",
+  "weaknesses": [
+    "back injury / availability",
+    "pass-pro finesse"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Spencer Brown",
+      "ovr": 85,
+      "attributes": {
+        "STR": 91,
+        "SPD": 73,
+        "ACC": 79,
+        "AGI": 74,
+        "COD": 56,
+        "AWR": 85,
+        "INJ": 89,
+        "STA": 86,
+        "TGH": 85,
+        "PBK": 80,
+        "PBP": 83,
+        "PBF": 78,
+        "RBK": 88,
+        "RBP": 89,
+        "RBF": 87,
+        "IBL": 91,
+        "LBK": 89
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -8,
+      "delta_attributes": {
+        "STR": -1,
+        "SPD": -3,
+        "ACC": -7,
+        "AGI": -10,
+        "COD": -2,
+        "AWR": -3,
+        "INJ": -13,
+        "STA": -4,
+        "TGH": 1,
+        "PBK": 4,
+        "PBP": 5,
+        "PBF": 0,
+        "RBK": -12,
+        "RBP": -5,
+        "RBF": -13,
+        "IBL": -7,
+        "LBK": -11
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RT, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 8,
+    "attribute_gaps_10plus": {
+      "AGI": -10,
+      "INJ": -13,
+      "RBK": -12,
+      "RBF": -13,
+      "LBK": -11
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u",
+  "style_similarity": [
+    {
+      "player": "Darnell Wright",
+      "audit_id": "RT_REAUDIT_RATE_01_A1",
+      "corr": 0.924,
+      "mad": 7.9,
+      "too_similar": false
+    },
+    {
+      "player": "Colton McKivitz",
+      "audit_id": "RT_REAUDIT_RATE_02_A1",
+      "corr": 0.808,
+      "mad": 7.1,
+      "too_similar": false
+    },
+    {
+      "player": "Brian O'Neill",
+      "audit_id": "RT_REAUDIT_RATE_03_A1",
+      "corr": 0.641,
+      "mad": 7.2,
+      "too_similar": false
+    },
+    {
+      "player": "Abraham Lucas",
+      "audit_id": "RT_REAUDIT_RATE_04_A1",
+      "corr": 0.818,
+      "mad": 5.4,
+      "too_similar": false
+    },
+    {
+      "player": "Joe Alt",
+      "audit_id": "RT_REAUDIT_RATE_05_A1",
+      "corr": 0.888,
+      "mad": 4.4,
+      "too_similar": false
+    },
+    {
+      "player": "Warren McClendon Jr.",
+      "audit_id": "RT_REAUDIT_RATE_06_A1",
+      "corr": 0.656,
+      "mad": 6.6,
+      "too_similar": false
+    },
+    {
+      "player": "Luke Goedeke",
+      "audit_id": "RT_REAUDIT_RATE_07_A1",
+      "corr": 0.886,
+      "mad": 4.9,
+      "too_similar": false
+    },
+    {
+      "player": "Armand Membou",
+      "audit_id": "RT_REAUDIT_RATE_08_A1",
+      "corr": 0.749,
+      "mad": 6,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
