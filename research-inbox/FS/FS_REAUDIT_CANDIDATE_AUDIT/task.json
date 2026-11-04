@@ -1,0 +1,272 @@
+{
+  "task_id": "FS_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Xavier McKinney"
+      },
+      {
+        "rank": 2,
+        "player": "Julian Love"
+      },
+      {
+        "rank": 3,
+        "player": "Jevon Holland"
+      },
+      {
+        "rank": 4,
+        "player": "Quentin Lake"
+      },
+      {
+        "rank": 5,
+        "player": "Kevin Byard"
+      },
+      {
+        "rank": 6,
+        "player": "Emmanuel McNeil-Warren"
+      },
+      {
+        "rank": 7,
+        "player": "Jalen Pitre"
+      },
+      {
+        "rank": 8,
+        "player": "Minkah Fitzpatrick"
+      },
+      {
+        "rank": 9,
+        "player": "Brandon Jones"
+      },
+      {
+        "rank": 10,
+        "player": "Malik Mustapha"
+      }
+    ],
+    "external_controls": [
+      "Antonio Johnson",
+      "Robert Spears-Jennings",
+      "Bryan Cook",
+      "Julian Blackmon",
+      "Tykee Smith",
+      "Thomas Harper",
+      "Chuck Clark",
+      "Kamren Kinchens"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Xavier McKinney",
+      "aliases": [],
+      "player_id": "ext_00-0036388",
+      "flags": [
+        "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Julian Love",
+      "aliases": [],
+      "player_id": "ext_00-0034974",
+      "flags": [
+        "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Jevon Holland",
+      "aliases": [],
+      "player_id": "ext_00-0036998",
+      "flags": [
+        "ROSTER_STATUS_INA",
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Quentin Lake",
+      "aliases": [],
+      "player_id": "ext_00-0037841",
+      "flags": [
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Kevin Byard",
+      "aliases": [],
+      "player_id": "ext_00-0033132",
+      "flags": [
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Emmanuel McNeil-Warren",
+      "aliases": [],
+      "player_id": "ext_00-0041471",
+      "flags": [
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Jalen Pitre",
+      "aliases": [],
+      "player_id": "ext_00-0037246",
+      "flags": [
+        "ROSTER_STATUS_INA",
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Minkah Fitzpatrick",
+      "aliases": [],
+      "player_id": "ext_00-0034789",
+      "flags": [
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Brandon Jones",
+      "aliases": [],
+      "player_id": "ext_00-0036221",
+      "flags": [
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Malik Mustapha",
+      "aliases": [],
+      "player_id": "ext_00-0039360",
+      "flags": [
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Antonio Johnson",
+      "aliases": [],
+      "player_id": "ext_00-0038596",
+      "flags": [
+        "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Robert Spears-Jennings",
+      "aliases": [],
+      "player_id": "ext_00-0041401",
+      "flags": [
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Bryan Cook",
+      "aliases": [],
+      "player_id": "ext_00-0037193",
+      "flags": [
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Julian Blackmon",
+      "aliases": [],
+      "player_id": "ext_00-0036253",
+      "flags": [
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Tykee Smith",
+      "aliases": [],
+      "player_id": "ext_00-0039846",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    },
+    {
+      "player": "Thomas Harper",
+      "aliases": [],
+      "player_id": "ext_00-0039660",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)",
+        "INJURED_RESERVE"
+      ]
+    },
+    {
+      "player": "Chuck Clark",
+      "aliases": [],
+      "player_id": "ext_00-0033294",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    },
+    {
+      "player": "Kamren Kinchens",
+      "aliases": [],
+      "player_id": "ext_00-0039834",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    }
+  ],
+  "position": "FS",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 17,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "coverage",
+      "run defense",
+      "tackling",
+      "grade vs man/zone",
+      "forced incompletion rate"
+    ],
+    "position_stats": [
+      "INT, PBU",
+      "targets, receptions allowed, yards allowed, TD allowed",
+      "tackles, missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (outside/slot/box/deep)",
+      "man vs zone snap share",
+      "coverage snaps"
+    ],
+    "on_field_impact": [
+      "passer rating allowed",
+      "yards per coverage snap",
+      "EPA allowed per target"
+    ],
+    "madden_attributes_informed": [
+      "MCV",
+      "ZCV",
+      "PRS",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "PRC",
+      "TAK",
+      "HIT",
+      "PUR",
+      "CTH",
+      "JMP",
+      "AWR"
+    ],
+    "note": "Deep-alignment snaps primary."
+  }
+}
