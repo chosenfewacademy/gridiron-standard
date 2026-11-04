@@ -1,0 +1,59 @@
+{
+ "position": "FB",
+ "references": [
+  {
+   "name": "Scott Matlock",
+   "team": "LAC",
+   "status": "ACT",
+   "snaps": 384,
+   "pff": 49.9,
+   "value": 13.9,
+   "efficiency": 3.1,
+   "negative_rate": 2.6,
+   "availability": 0.76,
+   "fb_depth": {
+    "2025": {
+     "rank2": 6,
+     "rank1": 214
+    },
+    "2026": {
+     "rank1": 35,
+     "rank2": 239
+    }
+   }
+  },
+  {
+   "name": "Brady Russell",
+   "team": "SEA",
+   "status": "ACT",
+   "snaps": 171,
+   "pff": 43.5,
+   "value": 6.7,
+   "efficiency": 23.4,
+   "negative_rate": 11.7,
+   "availability": 0.8,
+   "fb_depth": {
+    "2025": {
+     "rank2": 162,
+     "rank1": 58
+    },
+    "2026": {
+     "rank1": 131,
+     "rank2": 143
+    }
+   }
+  }
+ ],
+ "thresholds": {
+  "pff": 43.5,
+  "value": 6.7,
+  "efficiency": 3.1,
+  "negative_rate": 11.7,
+  "availability": 0.76
+ },
+ "flagged": [],
+ "closest": [],
+ "screened": 18,
+ "read_only": true,
+ "rating_changes": []
+}

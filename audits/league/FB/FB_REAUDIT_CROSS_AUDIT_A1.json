@@ -1,0 +1,302 @@
+{
+  "audit_id": "FB_REAUDIT_CROSS_AUDIT_A1",
+  "task_id": "FB_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Kyle Juszczyk",
+    "Patrick Ricard",
+    "Hunter Luepke",
+    "Connor Heyward",
+    "Adam Prentice",
+    "Michael Burton",
+    "Reggie Gilliam",
+    "Alec Ingold",
+    "Andrew Beck",
+    "Scott Matlock"
+  ],
+  "cross_audit_result": "CONSISTENT: all 12 approved head-to-head/tiebreak verdicts agree with the final rating order; style rule passes for all 78 pairs of 13 rated FBs (0 too similar); league ceiling flags 0 (18 FB-eligibles screened); variance audit 23 10+ gaps: 20 supported, 3 fixed via approved reaudit:revise; Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Kyle Juszczyk",
+      "ovr": 90,
+      "audit_id": "FB_REAUDIT_RATE_01_A1"
+    },
+    {
+      "rank": 2,
+      "player": "Patrick Ricard",
+      "ovr": 85,
+      "audit_id": "FB_REAUDIT_RATE_02_A1"
+    },
+    {
+      "rank": 3,
+      "player": "Hunter Luepke",
+      "ovr": 78,
+      "audit_id": "FB_REAUDIT_RATE_03_A1"
+    },
+    {
+      "rank": 4,
+      "player": "Connor Heyward",
+      "ovr": 77,
+      "audit_id": "FB_REAUDIT_RATE_04_A2"
+    },
+    {
+      "rank": 5,
+      "player": "Adam Prentice",
+      "ovr": 75,
+      "audit_id": "FB_REAUDIT_RATE_05_A1"
+    },
+    {
+      "rank": 6,
+      "player": "Michael Burton",
+      "ovr": 74,
+      "audit_id": "FB_REAUDIT_RATE_06_A2"
+    },
+    {
+      "rank": 7,
+      "player": "Reggie Gilliam",
+      "ovr": 73,
+      "audit_id": "FB_REAUDIT_RATE_07_A1"
+    },
+    {
+      "rank": 8,
+      "player": "Alec Ingold",
+      "ovr": 72,
+      "audit_id": "FB_REAUDIT_RATE_08_A1"
+    },
+    {
+      "rank": 9,
+      "player": "Andrew Beck",
+      "ovr": 70,
+      "audit_id": "FB_REAUDIT_RATE_09_A1"
+    },
+    {
+      "rank": 10,
+      "player": "Scott Matlock",
+      "ovr": 69,
+      "audit_id": "FB_REAUDIT_RATE_10_A2"
+    },
+    {
+      "rank": 11,
+      "player": "Brady Russell",
+      "ovr": 67,
+      "audit_id": "FB_REAUDIT_RATE_11_A1"
+    },
+    {
+      "rank": 12,
+      "player": "Max Bredeson",
+      "ovr": 65,
+      "audit_id": "FB_REAUDIT_RATE_12_A1"
+    },
+    {
+      "rank": 13,
+      "player": "DJ Herman",
+      "ovr": 63,
+      "audit_id": "FB_REAUDIT_RATE_13_A1"
+    }
+  ],
+  "pair_consistency": [
+    {
+      "audit_id": "FB_REAUDIT_H2H_01_A1",
+      "winner": "Kyle Juszczyk",
+      "loser": "Patrick Ricard",
+      "consistent": true
+    },
+    {
+      "audit_id": "FB_REAUDIT_H2H_02_A1",
+      "winner": "Hunter Luepke",
+      "loser": "Connor Heyward",
+      "consistent": true
+    },
+    {
+      "audit_id": "FB_REAUDIT_H2H_03_A1",
+      "winner": "Adam Prentice",
+      "loser": "Michael Burton",
+      "consistent": true
+    },
+    {
+      "audit_id": "FB_REAUDIT_H2H_04_A1",
+      "winner": "Reggie Gilliam",
+      "loser": "Alec Ingold",
+      "consistent": true
+    },
+    {
+      "audit_id": "FB_REAUDIT_H2H_05_A1",
+      "winner": "Andrew Beck",
+      "loser": "Scott Matlock",
+      "consistent": true
+    },
+    {
+      "audit_id": "FB_REAUDIT_H2H_06_A1",
+      "winner": "Scott Matlock",
+      "loser": "Brady Russell",
+      "consistent": true
+    },
+    {
+      "audit_id": "FB_REAUDIT_TIEBREAK_01_A1",
+      "winner": "Patrick Ricard",
+      "loser": "Hunter Luepke",
+      "consistent": true
+    },
+    {
+      "audit_id": "FB_REAUDIT_TIEBREAK_02_A1",
+      "winner": "Connor Heyward",
+      "loser": "Adam Prentice",
+      "consistent": true
+    },
+    {
+      "audit_id": "FB_REAUDIT_TIEBREAK_03_A1",
+      "winner": "Michael Burton",
+      "loser": "Reggie Gilliam",
+      "consistent": true
+    },
+    {
+      "audit_id": "FB_REAUDIT_TIEBREAK_04_A1",
+      "winner": "Alec Ingold",
+      "loser": "Andrew Beck",
+      "consistent": true
+    },
+    {
+      "audit_id": "FB_REAUDIT_TIEBREAK_05_A1",
+      "winner": "Brady Russell",
+      "loser": "Max Bredeson",
+      "consistent": true
+    },
+    {
+      "audit_id": "FB_REAUDIT_TIEBREAK_06_A1",
+      "winner": "Max Bredeson",
+      "loser": "DJ Herman",
+      "consistent": true
+    }
+  ],
+  "style_rule": {
+    "pairs_checked": 78,
+    "too_similar": 0,
+    "highest_corr": [
+      0.926,
+      3.5,
+      "Max Bredeson",
+      "DJ Herman"
+    ],
+    "lowest_mad": [
+      0.926,
+      3.5,
+      "Max Bredeson",
+      "DJ Herman"
+    ]
+  },
+  "scarcity_note": "FB_REAUDIT_SCARCITY_A1 PASS (13 traits 90+, 1 at 95+: Ricard LBK 96 LEAGUE_DEFINING; no 97+; overall 90+: Juszczyk 90). Narrative text verified before the stage ran (no carried-over text from other positions).",
+  "eligibility_rule": "FB-eligible = PFF FB-alignment grade (2025/2026), or any nflverse depth-chart FB slot (2025/2026), or roster depth_chart_position FB; TE/H-backs used at FB screened under the same rule (Heyward, Beck, Russell, Herman, Westover, Sims, Myarick, Gurd).",
+  "commissioner_fix_approvals": "Approved and applied under t46u: Heyward SRR 78->74, Burton AWR 82->76, Matlock TRK 50->44 (overalls unchanged).",
+  "league_ceiling_check": {
+    "source": "research-inbox/FB/FB_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-t46u-t50s441.json",
+    "references": [
+      "Scott Matlock",
+      "Brady Russell"
+    ],
+    "thresholds": {
+      "pff": 43.5,
+      "value": 6.7,
+      "efficiency": 3.1,
+      "negative_rate": 11.7,
+      "availability": 0.76
+    },
+    "scope": "Every FB-eligible player league-wide under the FB eligibility rule (PFF FB-alignment grade, any nflverse depth-chart FB slot, or roster FB in 2025/2026), incl. reserve/IR, inactive, practice squad, cut, free agents and retired; the 13 audited fullbacks excluded as in-pool. Metrics: snap-weighted PFF FB grade, run/lead-block snaps per game (value), scrimmage yards per 100 snaps (efficiency), penalties per 1,000 snaps, games share.",
+    "raw_flags_before_resolution": [],
+    "resolution": "Check (refs #10 Matlock 69 / first-out Russell 67) screened 18 non-pool FB-eligibles and flagged 0. Closest by grade, all below the 250-snap sample floor or off a 2026 roster: British Brooks 78.2 on 73 (HOU RB, reserve), C.J. Ham 61.5 on 184 (retired), Jakob Johnson 60.9 on 86 (free agent), Ben VanSumeren 60.0 on 5 (inactive), Robbie Ouzts 48.5 on 213 (reserve/IR), Jack Westover 45.4 on 316 (practice squad, 2025 only). Matlock 69 stands as the ceiling; no pool amendment or rating change.",
+    "flagged": [],
+    "closest": [],
+    "screened": 18,
+    "rating_changes": []
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Kyle Juszczyk",
+      "ours": 90,
+      "madden": 88,
+      "delta": 2
+    },
+    {
+      "player": "Patrick Ricard",
+      "ours": 85,
+      "madden": 84,
+      "delta": 1
+    },
+    {
+      "player": "Hunter Luepke",
+      "ours": 78,
+      "madden": 72,
+      "delta": 6
+    },
+    {
+      "player": "Connor Heyward",
+      "ours": 77,
+      "madden": 74,
+      "delta": 3
+    },
+    {
+      "player": "Adam Prentice",
+      "ours": 75,
+      "madden": 69,
+      "delta": 6
+    },
+    {
+      "player": "Michael Burton",
+      "ours": 74,
+      "madden": 66,
+      "delta": 8
+    },
+    {
+      "player": "Reggie Gilliam",
+      "ours": 73,
+      "madden": 83,
+      "delta": -10
+    },
+    {
+      "player": "Alec Ingold",
+      "ours": 72,
+      "madden": 73,
+      "delta": -1
+    },
+    {
+      "player": "Andrew Beck",
+      "ours": 70,
+      "madden": 68,
+      "delta": 2
+    },
+    {
+      "player": "Scott Matlock",
+      "ours": 69,
+      "madden": 68,
+      "delta": 1
+    },
+    {
+      "player": "Brady Russell",
+      "ours": 67,
+      "madden": 65,
+      "delta": 2
+    },
+    {
+      "player": "Max Bredeson",
+      "ours": 65,
+      "madden": 71,
+      "delta": -6
+    },
+    {
+      "player": "DJ Herman",
+      "ours": 63,
+      "madden": 66,
+      "delta": -3
+    }
+  ],
+  "madden_order_verified": false,
+  "madden_used_as_evidence": false,
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
