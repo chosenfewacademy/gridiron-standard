@@ -1,0 +1,40 @@
+# WILL_REAUDIT_TIEBREAK_08 — Edgerrin Cooper vs Nate Landman (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "WILL_REAUDIT_TIEBREAK_08_A1",
+  "task_id": "WILL_REAUDIT_TIEBREAK_08",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Edgerrin Cooper",
+    "Nate Landman"
+  ],
+  "pair_result": {
+    "winner": "Edgerrin Cooper",
+    "loser": "Nate Landman",
+    "provisional_order_holds": true,
+    "reasoning": "Cooper holds #10 on the two-season body of work: PFF 75.8 on 1,089 snaps in 2025 (#17 LB) and 6 TFL / 3.0 sacks / 1 INT in 4 games of 2026 (PFF 60.1 on 227, RES), vs Nate Landman's PFF 68.6 in 2025; PFF 59.6 on 398 snaps in 2026. Nate Landman's ceiling hits (value, efficiency, negative_rate, availability) come from the two-year screen (snap-weighted PFF 66.4, 1.15 impact plays/game, 92.9% tackle success) where Cooper's injury-shortened 2026 (4 games) sets a low availability bar.",
+    "key_evidence_for_winner": [
+      "Edgerrin Cooper (GB) role snap-weighted 2025-26 depth-chart role shares MIKE 123 / WILL 1150 / SAM 0 / edge 0 (raw snapshots WILL25 195, MIKE25 26, WILL26 275) -> WILL; roster RES (LB); injuries wk4 Questionable (Shoulder)",
+      "Edgerrin Cooper 2026: Edgerrin Cooper 2026: PFF LB 2026 overall 60.1 on 227 snaps (LB rank 47; 99 run-def / 101 coverage / 27 pass-rush snaps); PFR 2026 (4 games) coverage 15 targets / 10 completions / 136 yds / 1 INT; 30 tackles, 2 missed; 3 pressures on 15 blitzes; 4 g / 227 def snaps; 15 solo + 12 ast tackles, 6 TFL, 3.0 sacks, 1 INT, 1 PD, 0 FF; 0 accepted penalties; PFR 2026 (4 games) coverage 15 targets / 10 completions / 136 yds / 1 INT; 30 tackles, 2 missed; 3 pressures on 15 blitzes",
+      "Edgerrin Cooper 2025: Edgerrin Cooper 2025: PFF LB 2025 overall 75.8 on 1089 snaps (LB rank 17; 445 run-def / 574 coverage / 70 pass-rush snaps); PFR 2025 coverage 69 targets / 54 completions / 332 yds / passer rating 96.4 / 0 INT; 118 tackles, 13 missed; 5 pressures on 40 blitzes, 0.5 sacks; 16 g / 1046 def snaps; 61 solo + 55 ast tackles, 4 TFL, 0.5 sacks, 0 INT, 4 PD, 2 FF; 0 accepted penalties; PFR 2025 coverage 69 targets / 54 completions / 332 yds / passer rating 96.4 / 0 INT; 118 tackles, 13 missed; 5 pressures on 40 blitzes, 0.5 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Nate Landman (LA) role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1416 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL; roster ACT (LB); injuries wk7 Out (Concussion)",
+      "Nate Landman 2026: Nate Landman 2026: PFF LB 2026 overall 59.6 on 398 snaps (LB rank 49; 188 run-def / 189 coverage / 21 pass-rush snaps); PFR 2026 (6 games) coverage 18 targets / 11 completions / 57 yds / 0 INT; 51 tackles, 2 missed; 1 pressures on 19 blitzes; 7 g / 399 def snaps; 33 solo + 25 ast tackles, 3 TFL, 0.0 sacks, 0 INT, 1 PD, 2 FF; 1 accepted penalties; PFR 2026 (6 games) coverage 18 targets / 11 completions / 57 yds / 0 INT; 51 tackles, 2 missed; 1 pressures on 19 blitzes",
+      "Nate Landman 2025: Nate Landman 2025: PFF LB 2025 overall 68.6 on 1224 snaps (LB rank 29; 482 run-def / 662 coverage / 80 pass-rush snaps); PFR 2025 coverage 56 targets / 39 completions / 381 yds / passer rating 110.8 / 1 INT; 132 tackles, 12 missed; 11 pressures on 31 blitzes, 2.5 sacks; 17 g / 1017 def snaps; 62 solo + 68 ast tackles, 8 TFL, 2.5 sacks, 1 INT, 6 PD, 4 FF; 0 accepted penalties; PFR 2025 coverage 56 targets / 39 completions / 381 yds / passer rating 110.8 / 1 INT; 132 tackles, 12 missed; 11 pressures on 31 blitzes, 2.5 sacks"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
