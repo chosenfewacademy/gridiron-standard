@@ -11290,7 +11290,7 @@
         "position": "CB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/CB.reaudit.json",
       "baseline_file": null,
@@ -11343,7 +11343,8 @@
         "CB_REAUDIT_SCARCITY",
         "CB_REAUDIT_TIEBREAK_07",
         "CB_REAUDIT_TIEBREAK_08",
-        "CB_REAUDIT_TIEBREAK_09"
+        "CB_REAUDIT_TIEBREAK_09",
+        "CB_REAUDIT_TIEBREAK_10"
       ],
       "audit_ids": [
         "CB_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -11395,7 +11396,7 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "CB_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T12:11:22.499Z",
+      "updated_at": "2026-11-04T12:11:22.737Z",
       "last_result": {
         "task_id": "CB_REAUDIT_TIEBREAK_10",
         "status": "FLAGGED",
@@ -11403,17 +11404,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "CB_REAUDIT_TIEBREAK_10",
-        "audit_id": "CB_REAUDIT_TIEBREAK_10_A1",
-        "pending": [
-          {
-            "task_id": "CB_REAUDIT_TIEBREAK_10",
-            "audit_id": "CB_REAUDIT_TIEBREAK_10_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -11774,6 +11765,14 @@
           "audit_id": "CB_REAUDIT_TIEBREAK_09_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T12:11:21Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_10",
+          "audit_id": "CB_REAUDIT_TIEBREAK_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:11:22Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
