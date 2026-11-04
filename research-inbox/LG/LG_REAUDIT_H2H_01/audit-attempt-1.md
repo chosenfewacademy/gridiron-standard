@@ -1,0 +1,40 @@
+# LG_REAUDIT_H2H_01 — Quenton Nelson vs Damien Lewis (v1.1.2 head-to-head; authorized by t46u/t50s441)
+
+```json
+{
+  "audit_id": "LG_REAUDIT_H2H_01_A1",
+  "task_id": "LG_REAUDIT_H2H_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Quenton Nelson",
+    "Damien Lewis"
+  ],
+  "pair_result": {
+    "winner": "Quenton Nelson",
+    "loser": "Damien Lewis",
+    "provisional_order_holds": true,
+    "reasoning": "Nelson leads PFF both years (84.7 #4 / 87.5 #3 vs 77.3 #7 / 80.7 #9), availability (17 g + 8 g, no injury reports vs 16 g + 5 g with three 2026 reports and currently inactive) and discipline (2/1 vs 5/0 penalties). Lewis matches him only in 2026 penalty count. Order holds.",
+    "key_evidence_for_winner": [
+      "Quenton Nelson (SEA) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'LG': 225}; roster ACT",
+      "Quenton Nelson 2026: PFF 87.5 (rank 3; 321 pass-block/210 run-block of 531 snaps); 8 g/531 snaps; penalties 1; injuries none",
+      "Quenton Nelson 2025: PFF 84.7 (rank 4; 637 pass-block/402 run-block of 1039 snaps); 17 g/1038 snaps; penalties 2; injuries none"
+    ],
+    "key_evidence_for_loser": [
+      "Damien Lewis (CAR) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'LG': 210}; roster INA",
+      "Damien Lewis 2026: PFF 80.7 (rank 9; 202 pass-block/107 run-block of 309 snaps); 5 g/309 snaps; penalties 0; injuries ['wk4 Out (Elbow)', 'wk6 Questionable (Elbow)', 'wk8 Out (Knee)']",
+      "Damien Lewis 2025: PFF 77.3 (rank 7; 638 pass-block/416 run-block of 1054 snaps); 16 g/988 snaps; penalties 5; injuries ['wk7 Questionable (Shoulder)', 'wk9 Questionable (Oblique)']"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
