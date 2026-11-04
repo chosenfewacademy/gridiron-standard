@@ -1,0 +1,40 @@
+# CB_REAUDIT_TIEBREAK_04 — Mike Jackson vs Ja'Quan McMillian (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "CB_REAUDIT_TIEBREAK_04_A1",
+  "task_id": "CB_REAUDIT_TIEBREAK_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Mike Jackson",
+    "Ja'Quan McMillian"
+  ],
+  "pair_result": {
+    "winner": "Mike Jackson",
+    "loser": "Ja'Quan McMillian",
+    "provisional_order_holds": true,
+    "reasoning": "Both fell off in 2026 (Jackson 60.9 on 149 snaps before reserve; McMillian 66.8 on 372). Jackson's 2025 was bigger: PFF 83.5 on 1,117 snaps with 4 INT and 19 PD vs McMillian's 80.8 on 826 with 2 INT and 9 PD.",
+    "key_evidence_for_winner": [
+      "Mike Jackson (CAR) role single CB list (no outside/slot split); roster position DB; roster RES (DB); injuries wk6 Questionable (Ribs)",
+      "Mike Jackson 2026: Mike Jackson 2026: PFF CB 2026 overall 60.9 on 149 snaps (CB rank 57; 82 coverage / 67 run-def snaps); PFR 2026 (3 games) coverage 6 targets / 4 completions / 33 yds / 0 TD / 0 INT; 6 tackles, 1 missed; 3 g / 149 def snaps; 4 solo + 2 ast tackles, 0 TFL, 0 INT, 0 PD, 0 FF; 1 accepted penalties; PFR 2026 (3 games) coverage 6 targets / 4 completions / 33 yds / 0 TD / 0 INT; 6 tackles, 1 missed",
+      "Mike Jackson 2025: Mike Jackson 2025: PFF CB 2025 overall 83.5 on 1117 snaps (CB rank 3; 632 coverage / 479 run-def snaps); PFR 2025 coverage 100 targets / 56 completions / 711 yds / 4 TD / passer rating 75 / 4 INT; 68 tackles, 5 missed; 17 g / 1041 def snaps; 52 solo + 14 ast tackles, 4 TFL, 4 INT, 19 PD, 1 FF; 2 accepted penalties; PFR 2025 coverage 100 targets / 56 completions / 711 yds / 4 TD / passer rating 75 / 4 INT; 68 tackles, 5 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Ja'Quan McMillian (DEN) role single CB list (no outside/slot split); roster position DB; roster ACT (DB); injuries no injury designation 2025-26",
+      "Ja'Quan McMillian 2026: Ja'Quan McMillian 2026: PFF CB 2026 overall 66.8 on 372 snaps (CB rank 33; 263 coverage / 97 run-def snaps); PFR 2026 (7 games) coverage 33 targets / 17 completions / 250 yds / 0 TD / 1 INT; 21 tackles, 6 missed; 8 g / 372 def snaps; 18 solo + 7 ast tackles, 2 TFL, 1 INT, 7 PD, 0 FF; 0 accepted penalties; PFR 2026 (7 games) coverage 33 targets / 17 completions / 250 yds / 0 TD / 1 INT; 21 tackles, 6 missed",
+      "Ja'Quan McMillian 2025: Ja'Quan McMillian 2025: PFF CB 2025 overall 80.8 on 826 snaps (CB rank 4; 588 coverage / 198 run-def snaps); PFR 2025 coverage 79 targets / 47 completions / 467 yds / 2 TD / passer rating 74.2 / 2 INT; 56 tackles, 5 missed; 17 g / 742 def snaps; 40 solo + 16 ast tackles, 5 TFL, 2 INT, 9 PD, 2 FF; 2 accepted penalties; PFR 2025 coverage 79 targets / 47 completions / 467 yds / 2 TD / passer rating 74.2 / 2 INT; 56 tackles, 5 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
