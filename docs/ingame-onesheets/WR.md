@@ -1,6 +1,6 @@
 # WR — Madden 27 entry one-sheet (locked top 10)
 
-Generated 2026-11-03 from the effective approved ratings. Enter these values exactly; do NOT set OVR manually.
+Generated 2026-11-04 from the effective approved ratings. Enter these values exactly; do NOT set OVR manually.
 Column order follows config/madden-entry-order.json (madden_order_verified=false; confirm against the edit-player UI). Est. = pre-check estimate (not verified).
 After entering, append the result to data/ingame-validation/WR.json (template: data/ingame-validation/TEMPLATE.json).
 
@@ -14,5 +14,5 @@ After entering, append the result to data/ingame-validation/WR.json (template: d
 | 6 | Drake London | 86 | 82 | 82 | 84 | 80 | 80 | 84 | 85 | 90 | 93 | 88 | 82 | 87 | 78 | 84 | 88 | 88 | 82 | 58 | 66 | 78 | 86 | 90 |
 | 7 | Zay Flowers | 85 | 84 | 94 | 95 | 94 | 94 | 58 | 82 | 84 | 74 | 78 | 89 | 86 | 90 | 86 | 78 | 72 | 72 | 78 | 86 | 88 | 86 | 80 |
 | 8 | Amon-Ra St. Brown | 84 | 86 | 84 | 88 | 90 | 90 | 74 | 92 | 93 | 92 | 76 | 94 | 90 | 70 | 86 | 74 | 90 | 78 | 66 | 78 | 90 | 90 | 92 |
-| 9 | Chris Olave | 83 | 81 | 93 | 92 | 88 | 88 | 62 | 83 | 82 | 74 | 80 | 84 | 87 | 90 | 88 | 82 | 84 | 62 | 58 | 70 | 72 | 84 | 78 |
-| 10 | Justin Jefferson | 82 | 86 | 88 | 90 | 90 | 92 | 68 | 86 | 86 | 82 | 92 | 88 | 86 | 92 | 94 | 92 | 84 | 70 | 66 | 80 | 84 | 88 | 80 |
+| 9 | Justin Jefferson | 84 | 87 | 88 | 90 | 90 | 92 | 68 | 90 | 86 | 88 | 92 | 88 | 86 | 92 | 94 | 92 | 84 | 70 | 66 | 80 | 84 | 88 | 80 |
+| 10 | Chris Olave | 83 | 81 | 93 | 92 | 88 | 88 | 62 | 83 | 82 | 74 | 80 | 84 | 87 | 90 | 88 | 82 | 84 | 62 | 58 | 70 | 72 | 84 | 78 |
