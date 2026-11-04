@@ -8694,7 +8694,7 @@
         "position": "DT",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/DT.reaudit.json",
       "baseline_file": null,
@@ -8739,7 +8739,8 @@
         "DT_REAUDIT_H2H_06",
         "DT_REAUDIT_TIEBREAK_01",
         "DT_REAUDIT_TIEBREAK_02",
-        "DT_REAUDIT_TIEBREAK_03"
+        "DT_REAUDIT_TIEBREAK_03",
+        "DT_REAUDIT_TIEBREAK_04"
       ],
       "audit_ids": [
         "DT_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -8782,7 +8783,7 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "DT_REAUDIT_H2H_06",
-      "updated_at": "2026-11-04T11:23:56.975Z",
+      "updated_at": "2026-11-04T11:23:57.204Z",
       "last_result": {
         "task_id": "DT_REAUDIT_TIEBREAK_04",
         "status": "FLAGGED",
@@ -8790,17 +8791,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "DT_REAUDIT_TIEBREAK_04",
-        "audit_id": "DT_REAUDIT_TIEBREAK_04_A1",
-        "pending": [
-          {
-            "task_id": "DT_REAUDIT_TIEBREAK_04",
-            "audit_id": "DT_REAUDIT_TIEBREAK_04_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -9088,6 +9079,14 @@
           "audit_id": "DT_REAUDIT_TIEBREAK_03_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:23:56Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "DT_REAUDIT_TIEBREAK_04",
+          "audit_id": "DT_REAUDIT_TIEBREAK_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:23:57Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
