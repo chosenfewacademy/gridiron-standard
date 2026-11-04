@@ -10816,7 +10816,7 @@
         "position": "SAM",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/SAM.reaudit.json",
       "baseline_file": null,
@@ -10910,18 +10910,30 @@
         "SAM_REAUDIT_TIEBREAK_06_A1",
         "SAM_REAUDIT_VARIANCE_AUDIT_A1",
         "SAM_REAUDIT_RATE_06_A2",
-        "SAM_REAUDIT_SCARCITY_A1"
+        "SAM_REAUDIT_SCARCITY_A1",
+        "SAM_REAUDIT_TIEBREAK_07_A1"
       ],
       "current_stage": "scarcity_audit",
       "current_task": "SAM_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T11:58:06.504Z",
+      "updated_at": "2026-11-04T11:58:21.951Z",
       "last_result": {
-        "task_id": "SAM_REAUDIT_SCARCITY",
-        "status": "VALIDATED",
-        "errors": [],
-        "flags": []
+        "task_id": "SAM_REAUDIT_TIEBREAK_07",
+        "status": "FLAGGED",
+        "flags": [
+          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+        ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "TIEBREAK_REVIEW",
+        "task_id": "SAM_REAUDIT_TIEBREAK_07",
+        "audit_id": "SAM_REAUDIT_TIEBREAK_07_A1",
+        "pending": [
+          {
+            "task_id": "SAM_REAUDIT_TIEBREAK_07",
+            "audit_id": "SAM_REAUDIT_TIEBREAK_07_A1"
+          }
+        ]
+      },
       "approvals": [
         {
           "decision": "APPROVED",
