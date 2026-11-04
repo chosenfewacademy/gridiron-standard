@@ -7192,7 +7192,7 @@
         "position": "FB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/FB.reaudit.json",
       "baseline_file": null,
@@ -7219,18 +7219,23 @@
         "FB_REAUDIT_BG_04_A1",
         "FB_REAUDIT_BG_05_A1",
         "FB_REAUDIT_BG_06_A1",
-        "FB_REAUDIT_BG_07_A1"
+        "FB_REAUDIT_BG_07_A1",
+        "FB_REAUDIT_BG_08_A1"
       ],
       "current_stage": "background_analysis",
-      "current_task": "FB_REAUDIT_BG_07",
-      "updated_at": "2026-11-04T04:17:36.166Z",
+      "current_task": "FB_REAUDIT_BG_08",
+      "updated_at": "2026-11-04T04:17:36.995Z",
       "last_result": {
-        "task_id": "FB_REAUDIT_BG_07",
+        "task_id": "FB_REAUDIT_BG_08",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "FB_REAUDIT_BG_08",
+        "audit_id": "FB_REAUDIT_BG_08_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
