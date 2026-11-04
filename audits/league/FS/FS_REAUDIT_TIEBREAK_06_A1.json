@@ -1,0 +1,39 @@
+{
+  "audit_id": "FS_REAUDIT_TIEBREAK_06_A1",
+  "task_id": "FS_REAUDIT_TIEBREAK_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FS",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jevon Holland",
+    "Kamren Kinchens"
+  ],
+  "pair_result": {
+    "winner": "Jevon Holland",
+    "loser": "Kamren Kinchens",
+    "provisional_order_holds": true,
+    "reasoning": "Holland rose to 83.2 on 380 PFF snaps in 2026 while Kinchens fell to 48.0 on 268 with 2 TD allowed on 11 targets; Kinchens' 77.2 in 2025 beats Holland's 58.4, but the current-season gap is decisive.",
+    "key_evidence_for_winner": [
+      "Jevon Holland (NYG) role snap-weighted 2025-26 depth-chart FS/SS shares FS 1213 / SS 0 -> FS; roster INA (DB); injuries wk9 Questionable (Knee); wk10 Questionable (Knee); wk18 Out (Knee); wk7 Out (Concussion)",
+      "Jevon Holland 2026: Jevon Holland 2026: PFF S 2026 overall 83.2 on 380 snaps (S rank 5; 217 coverage / 151 run-def snaps); PFR 2026 (6 games) coverage 19 targets / 7 completions / 121 yds / 1 TD / 3 INT; 30 tackles, 3 missed; 6 g / 380 def snaps; 19 solo + 11 ast tackles, 1 TFL, 3 INT, 5 PD, 2 FF; 1 accepted penalties; PFR 2026 (6 games) coverage 19 targets / 7 completions / 121 yds / 1 TD / 3 INT; 30 tackles, 3 missed",
+      "Jevon Holland 2025: Jevon Holland 2025: PFF S 2025 overall 58.4 on 835 snaps (S rank 70; 512 coverage / 315 run-def snaps); PFR 2025 coverage 35 targets / 18 completions / 239 yds / 1 TD / passer rating 71 / 1 INT; 63 tackles, 2 missed; 14 g / 833 def snaps; 38 solo + 25 ast tackles, 0 TFL, 1 INT, 5 PD, 0 FF; 3 accepted penalties; PFR 2025 coverage 35 targets / 18 completions / 239 yds / 1 TD / passer rating 71 / 1 INT; 63 tackles, 2 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Kamren Kinchens (LA) role snap-weighted 2025-26 depth-chart FS/SS shares FS 936 / SS 174 -> FS; roster ACT (DB); injuries wk13 Questionable (Shoulder); wk2 Out (Hamstring); wk3 Doubtful (Hamstring)",
+      "Kamren Kinchens 2026: Kamren Kinchens 2026: PFF S 2026 overall 48 on 268 snaps (S rank 87; 172 coverage / 89 run-def snaps); PFR 2026 (5 games) coverage 11 targets / 9 completions / 134 yds / 2 TD / 0 INT; 31 tackles, 3 missed; 6 g / 268 def snaps; 20 solo + 18 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF; 0 accepted penalties; PFR 2026 (5 games) coverage 11 targets / 9 completions / 134 yds / 2 TD / 0 INT; 31 tackles, 3 missed",
+      "Kamren Kinchens 2025: Kamren Kinchens 2025: PFF S 2025 overall 77.2 on 975 snaps (S rank 13; 668 coverage / 291 run-def snaps); PFR 2025 coverage 43 targets / 34 completions / 346 yds / 4 TD / passer rating 111.8 / 2 INT; 84 tackles, 6 missed; 17 g / 842 def snaps; 54 solo + 28 ast tackles, 0 TFL, 2 INT, 6 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 43 targets / 34 completions / 346 yds / 4 TD / passer rating 111.8 / 2 INT; 84 tackles, 6 missed"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}

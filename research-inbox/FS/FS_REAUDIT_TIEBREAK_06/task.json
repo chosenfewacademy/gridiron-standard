@@ -1,0 +1,128 @@
+{
+  "type": "pair_audit",
+  "task_id": "FS_REAUDIT_TIEBREAK_06",
+  "players": [
+    "Jevon Holland",
+    "Kamren Kinchens"
+  ],
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Jalen Pitre",
+        "overall": 88
+      },
+      {
+        "rank": 2,
+        "player": "Minkah Fitzpatrick",
+        "overall": 86
+      },
+      {
+        "rank": 3,
+        "player": "Antonio Johnson",
+        "overall": 84
+      },
+      {
+        "rank": 4,
+        "player": "Julian Love",
+        "overall": 83
+      },
+      {
+        "rank": 5,
+        "player": "Xavier McKinney",
+        "overall": 82
+      },
+      {
+        "rank": 6,
+        "player": "Quentin Lake",
+        "overall": 80
+      },
+      {
+        "rank": 7,
+        "player": "Tykee Smith",
+        "overall": 78
+      },
+      {
+        "rank": 8,
+        "player": "Kevin Byard",
+        "overall": 77
+      },
+      {
+        "rank": 9,
+        "player": "Bryan Cook",
+        "overall": 76
+      },
+      {
+        "rank": 10,
+        "player": "Thomas Harper",
+        "overall": 75
+      }
+    ],
+    "external_controls": [
+      "Chuck Clark",
+      "Jevon Holland",
+      "Kamren Kinchens"
+    ]
+  },
+  "position": "FS",
+  "stage": "pair_audits",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 17,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "coverage",
+      "run defense",
+      "tackling",
+      "grade vs man/zone",
+      "forced incompletion rate"
+    ],
+    "position_stats": [
+      "INT, PBU",
+      "targets, receptions allowed, yards allowed, TD allowed",
+      "tackles, missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (outside/slot/box/deep)",
+      "man vs zone snap share",
+      "coverage snaps"
+    ],
+    "on_field_impact": [
+      "passer rating allowed",
+      "yards per coverage snap",
+      "EPA allowed per target"
+    ],
+    "madden_attributes_informed": [
+      "MCV",
+      "ZCV",
+      "PRS",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "PRC",
+      "TAK",
+      "HIT",
+      "PUR",
+      "CTH",
+      "JMP",
+      "AWR"
+    ],
+    "note": "Deep-alignment snaps primary."
+  },
+  "tiebreak": true,
+  "note": "Add-only tiebreak for an untested adjacent tie/close call (authorized by t46u)."
+}
