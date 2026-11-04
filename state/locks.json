@@ -63,17 +63,23 @@
     },
     "TE": {
       "status": "LOCKED",
-      "baseline_file": "data/baselines/TE.reaudit-20261104.json",
+      "baseline_file": "data/baselines/TE.reaudit-20261104b.json",
       "mutation_permission": "TOP10_REAUDIT_ONLY",
       "version": "reaudit-20261104",
-      "locked_at": "2026-11-04T01:26:33Z",
-      "lock_audit_id": "TE_REAUDIT_LOCK_20261104",
+      "locked_at": "2026-11-04T19:01:47Z",
+      "lock_audit_id": "TE_REAUDIT_LOCK_20261104B",
       "history": [
         {
           "baseline_file": "data/baselines/TE.json",
           "version": "bootstrap-2026-08-30",
           "superseded_at": "2026-11-04T01:26:33Z",
           "superseded_by": "TE_REAUDIT_LOCK_20261104"
+        },
+        {
+          "baseline_file": "data/baselines/TE.reaudit-20261104.json",
+          "version": "reaudit-20261104",
+          "superseded_at": "2026-11-04T19:01:47Z",
+          "superseded_by": "TE_REAUDIT_LOCK_20261104B"
         }
       ]
     },
