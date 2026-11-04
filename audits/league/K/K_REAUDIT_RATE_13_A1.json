@@ -1,0 +1,263 @@
+{
+  "audit_id": "K_REAUDIT_RATE_13_A1",
+  "task_id": "K_REAUDIT_RATE_13",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "player_id": "ext_00-0036162",
+  "players": [
+    "Tyler Bass"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "KPW": 94,
+    "KAC": 86,
+    "AWR": 68,
+    "INJ": 69,
+    "STA": 88,
+    "TGH": 61
+  },
+  "trait_confidence": {
+    "KPW": "MEDIUM",
+    "KAC": "MEDIUM",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "KPW": {
+      "basis": "Judgment (leg): no 2025 field-goal attempts; no 2025 kickoffs; 2026 FG 16/16 (100%): 0-39 9/9, 40-49 5/5, 50-59 2/2, 60+ 0/0; long 56; 0 blocked; FG EPA +11.3; XP 21/23; 2026 kickoffs 49, touchback 3 (6.1%), return avg 25.7, 0 out of bounds. Style: Perfect 2026: 16 of 16 FG (2/2 from 50-59, long 56), FG EPA +11.3, PFF 72.8; no 2025 regular-season kicks in nflverse pbp.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "KAC": {
+      "basis": "Judgment (accuracy): no 2025 field-goal attempts; 2026 FG 16/16 (100%): 0-39 9/9, 40-49 5/5, 50-59 2/2, 60+ 0/0; long 56; 0 blocked; FG EPA +11.3; XP 21/23. Style: Perfect 2026: 16 of 16 FG (2/2 from 50-59, long 56), FG EPA +11.3, PFF 72.8; no 2025 regular-season kicks in nflverse pbp.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (decisions): no PFF K grade 2025; no 2025 field-goal attempts; PFF K 2026 overall 72.8 (K rank 15); 2026 FG 16/16 (100%): 0-39 9/9, 40-49 5/5, 50-59 2/2, 60+ 0/0; long 56; 0 blocked; FG EPA +11.3; XP 21/23; penalties 0/1. Style: Perfect 2026: 16 of 16 FG (2/2 from 50-59, long 56), FG EPA +11.3, PFF 72.8; no 2025 regular-season kicks in nflverse pbp.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Tyler Bass injury reports: wk1 Out (Hip); roster status ACT; no 2025 kickoffs; 2026 kickoffs 49, touchback 3 (6.1%), return avg 25.7, 0 out of bounds. Style: Perfect 2026: 16 of 16 FG (2/2 from 50-59, long 56), FG EPA +11.3, PFF 72.8; no 2025 regular-season kicks in nflverse pbp.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): no 2025 kickoffs; 2026 kickoffs 49, touchback 3 (6.1%), return avg 25.7, 0 out of bounds. Style: Perfect 2026: 16 of 16 FG (2/2 from 50-59, long 56), FG EPA +11.3, PFF 72.8; no 2025 regular-season kicks in nflverse pbp.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): no 2025 kickoffs; 2026 kickoffs 49, touchback 3 (6.1%), return avg 25.7, 0 out of bounds. Style: Perfect 2026: 16 of 16 FG (2/2 from 50-59, long 56), FG EPA +11.3, PFF 72.8; no 2025 regular-season kicks in nflverse pbp.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "KPW": {
+      "tier": "ELITE",
+      "claim": "leg: no 2025 field-goal attempts; no 2025 kickoffs; 2026 FG 16/16 (100%): 0-39 9/9, 40-49 5/5, 50-59 2/2, 60+ 0/0; long 56; 0 blocked; FG EPA +11.3; XP 21/23; 2026 kickoffs 49, touchback 3 (6.1%), return avg 25.7, 0 out of bounds",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 70,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Perfect 2026: 16 of 16 FG (2/2 from 50-59, long 56), FG EPA +11.3, PFF 72.8; no 2025 regular-season kicks in nflverse pbp.",
+  "style_profile": "Tyler Bass: Perfect 2026: 16 of 16 FG (2/2 from 50-59, long 56), FG EPA +11.3, PFF 72.8; no 2025 regular-season kicks in nflverse pbp.",
+  "style_evidence": [
+    "Tyler Bass (BUF) Tyler Bass 2026: PFF K 2026 overall 72.8 (K rank 15); 2026 kickoffs 49, touchback 3 (6.1%), return avg 25.7, 0 out of bounds; 1 accepted penalties",
+    "Tyler Bass 2025: no PFF K grade 2025; no 2025 kickoffs; 0 accepted penalties",
+    "Tyler Bass role: placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K (KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflve...); roster position K; Madden card K (reference only)",
+    "Tyler Bass injury reports: wk1 Out (Hip); roster status ACT"
+  ],
+  "input_dossier": "K_REAUDIT_BG_13_A1",
+  "weaknesses": [
+    "one-season sample",
+    "kickoff touchbacks (6.1%)"
+  ],
+  "limitations": [
+    "No public kickoff hang time; PFF K sub-grades paywalled; substitutes: FG% by distance band, longest FG, FG EPA, XP%, kickoff touchback %/return average (nflverse pbp), PFF K overall"
+  ],
+  "role_assignment": "K (placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K)",
+  "madden_reference": [
+    {
+      "player": "Tyler Bass",
+      "ovr": 74,
+      "madden_position": "K",
+      "attributes": {
+        "KPW": 97,
+        "KAC": 77,
+        "AWR": 59,
+        "INJ": 86,
+        "STA": 87,
+        "TGH": 60
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -4,
+      "delta_attributes": {
+        "KPW": -3,
+        "KAC": 9,
+        "AWR": 9,
+        "INJ": -17,
+        "STA": 1,
+        "TGH": 1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 4,
+    "attribute_gaps_10plus": {
+      "INJ": -17
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u",
+  "style_similarity": [
+    {
+      "player": "Will Reichard",
+      "audit_id": "K_REAUDIT_RATE_01_A1",
+      "corr": 0.621,
+      "mad": 11.7,
+      "too_similar": false
+    },
+    {
+      "player": "Ka'imi Fairbairn",
+      "audit_id": "K_REAUDIT_RATE_02_A1",
+      "corr": 0.609,
+      "mad": 9.7,
+      "too_similar": false
+    },
+    {
+      "player": "Chase McLaughlin",
+      "audit_id": "K_REAUDIT_RATE_03_A1",
+      "corr": 0.529,
+      "mad": 11.3,
+      "too_similar": false
+    },
+    {
+      "player": "Evan McPherson",
+      "audit_id": "K_REAUDIT_RATE_04_A1",
+      "corr": 0.564,
+      "mad": 8.7,
+      "too_similar": false
+    },
+    {
+      "player": "Cam Little",
+      "audit_id": "K_REAUDIT_RATE_05_A1",
+      "corr": 0.845,
+      "mad": 7.5,
+      "too_similar": false
+    },
+    {
+      "player": "Brandon Aubrey",
+      "audit_id": "K_REAUDIT_RATE_06_A1",
+      "corr": 0.511,
+      "mad": 10.2,
+      "too_similar": false
+    },
+    {
+      "player": "Jason Myers",
+      "audit_id": "K_REAUDIT_RATE_07_A1",
+      "corr": 0.689,
+      "mad": 7.5,
+      "too_similar": false
+    },
+    {
+      "player": "Joey Slye",
+      "audit_id": "K_REAUDIT_RATE_08_A1",
+      "corr": 0.811,
+      "mad": 5.3,
+      "too_similar": false
+    },
+    {
+      "player": "Cameron Dicker",
+      "audit_id": "K_REAUDIT_RATE_09_A1",
+      "corr": 0.578,
+      "mad": 9.5,
+      "too_similar": false
+    },
+    {
+      "player": "Chris Boswell",
+      "audit_id": "K_REAUDIT_RATE_10_A1",
+      "corr": 0.618,
+      "mad": 9.5,
+      "too_similar": false
+    },
+    {
+      "player": "Eddy Pineiro",
+      "audit_id": "K_REAUDIT_RATE_11_A1",
+      "corr": 0.477,
+      "mad": 8.7,
+      "too_similar": false
+    },
+    {
+      "player": "Spencer Shrader",
+      "audit_id": "K_REAUDIT_RATE_12_A1",
+      "corr": 0.745,
+      "mad": 6.2,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
