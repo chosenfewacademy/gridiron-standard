@@ -7192,7 +7192,7 @@
         "position": "FB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/FB.reaudit.json",
       "baseline_file": null,
@@ -7290,11 +7290,12 @@
         "FB_REAUDIT_RATE_06_A2",
         "FB_REAUDIT_RATE_10_A2",
         "FB_REAUDIT_SCARCITY_A1",
-        "FB_REAUDIT_CROSS_AUDIT_A1"
+        "FB_REAUDIT_CROSS_AUDIT_A1",
+        "FB_REAUDIT_LOCK_20261104"
       ],
-      "current_stage": "positional_cross_audit",
+      "current_stage": "lock",
       "current_task": "FB_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T04:21:37.331Z",
+      "updated_at": "2026-11-04T04:22:39Z",
       "last_result": {
         "task_id": "FB_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
