@@ -550,6 +550,29 @@
         "nflverse_depth_charts_2026"
       ],
       "added_by_amendment": "LG_POOL_AMEND_01"
+    },
+    {
+      "player": "Alijah Vera-Tucker",
+      "player_id": "ext_00-0036979",
+      "team": "NYJ",
+      "status": "IR",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:04:42Z",
+        "note": "nflverse roster_2026 RES (hamstring)"
+      },
+      "flags": [
+        "COMMISSIONER_REINCLUDED",
+        "FIRST_OUT",
+        "INJURED"
+      ],
+      "reasoning": "Added as a first-out (t50s441): LG starter when healthy; PFF 2025 68.2 on 362 snaps, ESPN PBWR 92%; currently on reserve (hamstring), so availability keeps him outside the top 10.",
+      "citations": [
+        "pff_2025",
+        "espn_win_rates_2026",
+        "nflverse_rosters_2026"
+      ],
+      "added_by_amendment": "LG_POOL_AMEND_02"
     }
   ],
   "exclusions": [
@@ -716,6 +739,16 @@
       "status_as_of": "2026-11-01",
       "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
       "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.24, sources pff_2025#13"
+    },
+    {
+      "player": "Alijah Vera-Tucker",
+      "player_id": "ext_00-0036979",
+      "team": "NYJ",
+      "status": "IR",
+      "in_pool": true,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 RES (hamstring); added by LG_POOL_AMEND_02"
     }
   ],
   "coverage_sources": [
@@ -969,6 +1002,19 @@
       "approved_by": "PhiXCrypto",
       "approved_at": "2026-11-04T03:04:42Z",
       "note": "Authorized by t46u (standing authorization, Nov 3 ~10:04 PM ET): add LG-side depth-chart starters excluded as BELOW_CUTOFF (exclusions kept as history)."
+    },
+    {
+      "amendment_id": "LG_POOL_AMEND_02",
+      "type": "ADD_ONLY_CONTENTION_ADDITION",
+      "players": [
+        "Alijah Vera-Tucker"
+      ],
+      "contention_additions": [
+        "Alijah Vera-Tucker"
+      ],
+      "approved_by": "PhiXCrypto",
+      "approved_at": "2026-11-04T04:10:00Z",
+      "note": "Authorized by t50s441 (Nov 3 2026 ET): add Vera-Tucker as a first-out. McCormick reviewed and stays excluded from contention: 2026 depth chart RG 136 / LG 90 (majority RG)."
     }
   ]
 }

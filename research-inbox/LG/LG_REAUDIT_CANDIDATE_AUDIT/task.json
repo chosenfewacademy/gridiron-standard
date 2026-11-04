@@ -2,6 +2,72 @@
   "task_id": "LG_REAUDIT_CANDIDATE_AUDIT",
   "type": "candidate_audit",
   "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Quenton Nelson"
+      },
+      {
+        "rank": 2,
+        "player": "Quinn Meinerz"
+      },
+      {
+        "rank": 3,
+        "player": "Chris Lindstrom"
+      },
+      {
+        "rank": 4,
+        "player": "Joe Thuney"
+      },
+      {
+        "rank": 5,
+        "player": "Damien Lewis"
+      },
+      {
+        "rank": 6,
+        "player": "Dylan Parham"
+      },
+      {
+        "rank": 7,
+        "player": "Sam Cosmi"
+      },
+      {
+        "rank": 8,
+        "player": "Tyler Booker"
+      },
+      {
+        "rank": 9,
+        "player": "Joe Tippmann"
+      },
+      {
+        "rank": 10,
+        "player": "Jonah Jackson"
+      }
+    ],
+    "external_controls": [
+      "Dalton Risner",
+      "Mason McCormick",
+      "Steve Avila",
+      "Christian Mahogany",
+      "Kevin Dotson",
+      "Peter Skoronski",
+      "Trey Smith",
+      "Dominick Puni",
+      "Mike Onwenu",
+      "Corey Bullock",
+      "Kevin Zeitler",
+      "Ed Ingram",
+      "Tyler Smith",
+      "Matthew Bergeron",
+      "Ezra Cleveland",
+      "Isaac Seumalo",
+      "David Edwards",
+      "Alijah Vera-Tucker"
+    ]
+  },
   "candidate_pool": [
     {
       "player": "Quenton Nelson",
@@ -227,6 +293,16 @@
       "flags": [
         "COMMISSIONER_REINCLUDED",
         "LG_SIDE_STARTER"
+      ]
+    },
+    {
+      "player": "Alijah Vera-Tucker",
+      "aliases": [],
+      "player_id": "ext_00-0036979",
+      "flags": [
+        "COMMISSIONER_REINCLUDED",
+        "FIRST_OUT",
+        "INJURED"
       ]
     }
   ],

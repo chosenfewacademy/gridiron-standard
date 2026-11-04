@@ -27,9 +27,10 @@ Authorized by t45s419 / t46u. Madden 27 is reference only. madden_order_verified
     "Matthew Bergeron",
     "Ezra Cleveland",
     "Isaac Seumalo",
-    "David Edwards"
+    "David Edwards",
+    "Alijah Vera-Tucker"
   ],
-  "contention_basis": "Judgment, not formula: 10 proposed top-10 LGs plus first-outs Seumalo and Edwards. Evidence: PFF overall (2025 + 2026 thru Week 8), pass/run-block snaps, ESPN IOL win rates, penalties, LG-side snaps, availability.",
+  "contention_basis": "Judgment, not formula: 10 proposed top-10 LGs plus first-outs Seumalo, Edwards and Vera-Tucker (LG_POOL_AMEND_02). McCormick excluded: 2026 depth chart RG 136 / LG 90. Evidence: PFF overall (2025 + 2026 thru Week 8), pass/run-block snaps, ESPN IOL win rates, penalties, LG-side snaps, availability.",
   "contender_reasons": {
     "Quenton Nelson": "PFF 84.7 (2025, 1,039 snaps) / 87.5 (2026, #2 G, 531 snaps); 25 of 25 games; 3 penalties in two seasons; no injury designations; LG 225/225 depth snapshots - clear #1",
     "Damien Lewis": "PFF 77.3 (1,054) / 80.7 (309 snaps); 0 penalties in 2026; elbow (out wk4) and knee (out wk8), roster INA - top-3 talent, availability flag",
@@ -42,7 +43,8 @@ Authorized by t45s419 / t46u. Madden 27 is reference only. madden_order_verified
     "Matthew Bergeron": "PFF 70.8/71.9; 23 of 25 games; 3 penalties; LG 226/226 - re-included by amendment",
     "Ezra Cleveland": "PFF 69.6/71.6; 2 penalties; LG 149 / RG 77 snapshots (mostly LG) - re-included by amendment",
     "Isaac Seumalo": "PFF 73.3 (2025) / 63.2 (2026); 5 penalties in 2026 (4 false starts); age 32 - first-out (decline)",
-    "David Edwards": "PFF 70.3 / 59.6; ESPN IOL RBWR 77%; 3 penalties; durable - first-out (run-game only)"
+    "David Edwards": "PFF 70.3 / 59.6; ESPN IOL RBWR 77%; 3 penalties; durable - first-out (run-game only)",
+    "Alijah Vera-Tucker": "LG (214 depth snapshots); PFF 68.2 on 362 snaps, ESPN PBWR 92%; on reserve (hamstring) - first-out by LG_POOL_AMEND_02 (t50s441), availability keeps him out of the top 10"
   },
   "proposed_order": [
     "Quenton Nelson",
@@ -58,7 +60,8 @@ Authorized by t45s419 / t46u. Madden 27 is reference only. madden_order_verified
   ],
   "first_outs": [
     "Isaac Seumalo",
-    "David Edwards"
+    "David Edwards",
+    "Alijah Vera-Tucker"
   ],
   "excluded": [
     {
@@ -120,10 +123,6 @@ Authorized by t45s419 / t46u. Madden 27 is reference only. madden_order_verified
     {
       "player": "Corey Bullock",
       "reason": "LG only 14 snapshots, 162 snaps in 2026 (PFF 73.6); sample too small"
-    },
-    {
-      "player": "Alijah Vera-Tucker",
-      "reason": "LG (214) but on reserve (hamstring); PFF 68.2 on 362 snaps, PBWR 92%; not in pool - ceiling check will screen"
     },
     {
       "player": "Landon Dickerson",
