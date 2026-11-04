@@ -13990,7 +13990,7 @@
         "position": "LS",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LS.reaudit.json",
       "baseline_file": null,
@@ -14003,21 +14003,23 @@
         "LS_REAUDIT_CANDIDATE_AUDIT"
       ],
       "audit_ids": [
-        "LS_REAUDIT_CANDIDATE_AUDIT_A1"
+        "LS_REAUDIT_CANDIDATE_AUDIT_A1",
+        "LS_REAUDIT_BG_01_A1"
       ],
-      "current_stage": "candidate_audit",
-      "current_task": "LS_REAUDIT_CANDIDATE_AUDIT",
-      "updated_at": "2026-11-04T13:06:02.849Z",
+      "current_stage": "background_analysis",
+      "current_task": "LS_REAUDIT_BG_01",
+      "updated_at": "2026-11-04T13:06:03.757Z",
       "last_result": {
-        "task_id": "LS_REAUDIT_CANDIDATE_AUDIT",
+        "task_id": "LS_REAUDIT_BG_01",
         "status": "FLAGGED",
         "errors": [],
-        "flags": [
-          "NO_PRIOR_LOCK",
-          "THIN_DATA: no public PFF LS grade or snap charting"
-        ]
+        "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "LS_REAUDIT_BG_01",
+        "audit_id": "LS_REAUDIT_BG_01_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
