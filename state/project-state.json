@@ -4479,16 +4479,17 @@
         "LT_REAUDIT_TIEBREAK_22_A1",
         "LT_REAUDIT_TIEBREAK_23_A1",
         "LT_REAUDIT_CROSS_AUDIT_A1",
-        "LT_REAUDIT_RATE_03_A2"
+        "LT_REAUDIT_RATE_03_A2",
+        "LT_REAUDIT_RATE_08_A2"
       ],
       "current_stage": "positional_cross_audit",
       "current_task": "LT_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T03:02:01.433Z",
+      "updated_at": "2026-11-04T03:02:01.731Z",
       "last_result": {
-        "task_id": "LT_REAUDIT_RATE_03",
+        "task_id": "LT_REAUDIT_RATE_08",
         "status": "REVISION_APPROVED",
-        "audit_id": "LT_REAUDIT_RATE_03_A2",
-        "supersedes": "LT_REAUDIT_RATE_03_A1",
+        "audit_id": "LT_REAUDIT_RATE_08_A2",
+        "supersedes": "LT_REAUDIT_RATE_08_A1",
         "flags": []
       },
       "awaiting": null,
@@ -5025,6 +5026,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:02:01Z",
           "note": "Commissioner approval t45s419: Approved variance fix (LT_REAUDIT_VARIANCE_AUDIT, t45s419): RBF 80->84 (ESPN RBWR 80%, #10 OT); LBK 84->88 (top-10 RBWR, 443 run-block snaps in 2025)."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LT_REAUDIT_RATE_08",
+          "audit_id": "LT_REAUDIT_RATE_08_A2",
+          "supersedes": "LT_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:02:01Z",
+          "note": "Commissioner approval t45s419: Approved variance fix (LT_REAUDIT_VARIANCE_AUDIT, t45s419): PBK 76->79 (309 of 517 2026 snaps in pass pro at PFF 76.5, 1 penalty). OVR unchanged."
         }
       ]
     },
