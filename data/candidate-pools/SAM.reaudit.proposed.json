@@ -1,0 +1,785 @@
+{
+  "position": "SAM",
+  "status": "PROPOSED",
+  "generated_at": "2026-11-04T06:40:08-05:00",
+  "generator": "copy of approved data/candidate-pools/SAM.json split by the t46u LB role convention",
+  "note": "Re-audit pool for never-locked SAM. LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only. Players from the shared MIKE/WILL/SAM pool whose primary role is another LB spot are excluded as OTHER_POSITION; role-screen contenders added. PROPOSED for commissioner approval. Composite is a triage order, not a rating.",
+  "candidates": [
+    {
+      "player": "Quincy Williams",
+      "player_id": "ext_00-0035680",
+      "team": "CLE",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 0 / SAM 1285 -> SAM)"
+      ],
+      "composite": 1.007,
+      "reasoning": "PFF 2026 overall 78.1 (#6); 443 snaps in 7 games (2026); 2026 stat score 55.5 (solo + 0.5*assists + 2*TFL + 3*INT + PD)",
+      "citations": [
+        "pff_2026#6",
+        "nflverse_snaps_2026#10",
+        "nflverse_stats_2026#17"
+      ]
+    },
+    {
+      "player": "Devin Bush",
+      "player_id": "ext_00-0035525",
+      "team": "CHI",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T06:40:08-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 432 / SAM 851 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a SAM contender by the t46u role screen: PFF LB 2025 87.6 on 873 snaps, 2026 62.8 on 412; PFR 2025 tackles 125, missed 9",
+      "citations": [
+        "pff_lb_2025",
+        "pff_lb_2026",
+        "pfr_advstats_def",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "Isaiah McDuffie",
+      "player_id": "ext_00-0036658",
+      "team": "GB",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T06:40:08-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 252 / WILL 31 / SAM 482 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a SAM contender by the t46u role screen: PFF LB 2025 65.5 on 551 snaps, 2026 72.9 on 259; PFR 2025 tackles 92, missed 6",
+      "citations": [
+        "pff_lb_2025",
+        "pff_lb_2026",
+        "pfr_advstats_def",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "D'Marco Jackson",
+      "player_id": "ext_00-0037271",
+      "team": "CHI",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T06:40:08-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 31 / WILL 28 / SAM 419 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a SAM contender by the t46u role screen: PFF LB 2025 76.4 on 370 snaps, 2026 56.8 on 217; PFR 2025 tackles 43, missed 0",
+      "citations": [
+        "pff_lb_2025",
+        "pff_lb_2026",
+        "pfr_advstats_def",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "Leo Chenal",
+      "player_id": "ext_00-0037819",
+      "team": "WAS",
+      "status": "RES",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T06:40:08-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 69 / WILL 21 / SAM 432 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a SAM contender by the t46u role screen: PFF LB 2025 75.3 on 440 snaps, 2026 37.8 on 84; PFR 2025 tackles 58, missed 3",
+      "citations": [
+        "pff_lb_2025",
+        "pff_lb_2026",
+        "pfr_advstats_def",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "Derrick Barnes",
+      "player_id": "ext_00-0036964",
+      "team": "DET",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T06:40:08-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 408 / SAM 940 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a SAM contender by the t46u role screen: PFF LB 2025 62.3 on 939 snaps, 2026 61 on 408; PFR 2025 tackles 78, missed 5",
+      "citations": [
+        "pff_lb_2025",
+        "pff_lb_2026",
+        "pfr_advstats_def",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "Dorian Williams",
+      "player_id": "ext_00-0038557",
+      "team": "BUF",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T06:40:08-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 20 / WILL 324 / SAM 414 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a SAM contender by the t46u role screen: PFF LB 2025 55.3 on 454 snaps, 2026 64.7 on 324; PFR 2025 tackles 63, missed 6",
+      "citations": [
+        "pff_lb_2025",
+        "pff_lb_2026",
+        "pfr_advstats_def",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "Dennis Gardeck",
+      "player_id": "ext_00-0034473",
+      "team": "JAX",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T06:40:08-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 0 / SAM 601 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a SAM contender by the t46u role screen: PFF LB 2025 56.5 on 446 snaps, 2026 None on None; PFR 2025 tackles 48, missed 1",
+      "citations": [
+        "pff_lb_2025",
+        "pff_lb_2026",
+        "pfr_advstats_def",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "E.J. Speed",
+      "player_id": "ext_00-0034987",
+      "team": "HOU",
+      "status": "RES",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T06:40:08-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 2 / SAM 428 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a SAM contender by the t46u role screen: PFF LB 2025 55.6 on 444 snaps, 2026 None on None; PFR 2025 tackles 62, missed 6",
+      "citations": [
+        "pff_lb_2025",
+        "pff_lb_2026",
+        "pfr_advstats_def",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "Malcolm Rodriguez",
+      "player_id": "ext_00-0037289",
+      "team": "DET",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T06:40:08-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 72 / SAM 120 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a SAM contender by the t46u role screen: PFF LB 2025 28.4 on 72 snaps, 2026 82.7 on 120; PFR 2025 tackles 12, missed 3",
+      "citations": [
+        "pff_lb_2025",
+        "pff_lb_2026",
+        "pfr_advstats_def",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "Noah Sewell",
+      "player_id": "ext_00-0038390",
+      "team": "CHI",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T06:40:08-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 71 / WILL 68 / SAM 340 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a SAM contender by the t46u role screen: PFF LB 2025 41.9 on 408 snaps, 2026 75.8 on 89; PFR 2025 tackles 59, missed 9",
+      "citations": [
+        "pff_lb_2025",
+        "pff_lb_2026",
+        "pfr_advstats_def",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "Jack Sanborn",
+      "player_id": "ext_00-0037109",
+      "team": "CHI",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T06:40:08-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 119 / WILL 0 / SAM 120 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a SAM contender by the t46u role screen: PFF LB 2025 56 on 229 snaps, 2026 81.1 on 9; PFR 2025 tackles 34, missed 6",
+      "citations": [
+        "pff_lb_2025",
+        "pff_lb_2026",
+        "pfr_advstats_def",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "Devin White",
+      "player_id": "ext_00-0035707",
+      "team": "DET",
+      "status": "RES",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T06:40:08-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 28 / WILL 5 / SAM 1152 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a SAM contender by the t46u role screen: PFF LB 2025 40.7 on 1118 snaps, 2026 47.3 on 67; PFR 2025 tackles 174, missed 19",
+      "citations": [
+        "pff_lb_2025",
+        "pff_lb_2026",
+        "pfr_advstats_def",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "player": "Fred Warner",
+      "player_id": "ext_00-0034815",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 782 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Jack Campbell",
+      "player_id": "ext_00-0039018",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 1583 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Devin Lloyd",
+      "player_id": "ext_00-0037244",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 690 / WILL 393 / SAM 0 -> MIKE); appears only in the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Blake Cashman",
+      "player_id": "ext_00-0035276",
+      "reason": "Assigned to WILL by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 406 / WILL 794 / SAM 0 -> WILL); appears only in the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Alex Singleton",
+      "player_id": "ext_00-0031898",
+      "reason": "Assigned to WILL by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1610 / SAM 0 -> WILL); appears only in the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Ernest Jones",
+      "player_id": "ext_00-0036994",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 1407 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Zack Baun",
+      "player_id": "ext_00-0036418",
+      "reason": "Assigned to WILL by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1506 / SAM 0 -> WILL); appears only in the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Arvell Reese",
+      "player_id": "ext_00-0041509",
+      "reason": "Assigned to WILL by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 438 / SAM 0 -> WILL); appears only in the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Jordyn Brooks",
+      "player_id": "ext_00-0036409",
+      "reason": "Assigned to WILL by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 4 / WILL 1384 / SAM 0 -> WILL); appears only in the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Ventrell Miller",
+      "player_id": "ext_00-0038570",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 509 / WILL 0 / SAM 26 -> MIKE); appears only in the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Omar Speights",
+      "player_id": "ext_00-0039774",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 905 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Payton Wilson",
+      "player_id": "ext_00-0039741",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 868 / WILL 303 / SAM 0 -> MIKE); appears only in the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Nakobe Dean",
+      "player_id": "ext_00-0037615",
+      "reason": "Assigned to WILL by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 394 / WILL 542 / SAM 0 -> WILL); appears only in the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Nick Bolton",
+      "player_id": "ext_00-0036621",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 1482 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Dre Greenlaw",
+      "player_id": "ext_00-0034982",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 321 / WILL 290 / SAM 0 -> MIKE); appears only in the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Drue Tranquill",
+      "player_id": "ext_00-0035262",
+      "reason": "Assigned to WILL by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1300 / SAM 0 -> WILL); appears only in the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Anthony Hill Jr.",
+      "player_id": "ext_00-0041479",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 561 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Trenton Simpson",
+      "player_id": "ext_00-0038504",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 728 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Demario Davis",
+      "player_id": "ext_00-0029607",
+      "reason": "Assigned to WILL by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 163 / WILL 1448 / SAM 0 -> WILL); appears only in the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Jamien Sherwood",
+      "player_id": "ext_00-0036500",
+      "reason": "Below pool cutoff (composite 0.55; PFF 2026 grade 66.6; sources nflverse_snaps_2026#8, nflverse_stats_2026#8). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 1615 / WILL 6 / SAM 0 -> MIKE; belongs to the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Carson Schwesinger",
+      "player_id": "ext_00-0040579",
+      "reason": "Below pool cutoff (composite 0.46; PFF 2026 grade 66.0; sources pff_2025#19, nflverse_snaps_2026#6, nflverse_stats_2026#14). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 1472 / WILL 4 / SAM 0 -> MIKE; belongs to the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Cedric Gray",
+      "player_id": "ext_00-0039858",
+      "reason": "Below pool cutoff (composite 0.42; PFF 2026 grade n/a; sources pff_2025#7). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 755 / WILL 395 / SAM 0 -> MIKE; belongs to the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Jeremiah Trotter Jr.",
+      "player_id": "ext_00-0039826",
+      "reason": "Below pool cutoff (composite 0.40; PFF 2026 grade 72.7; sources pff_2026#13). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 284 / WILL 0 / SAM 0 -> MIKE; belongs to the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Tyrice Knight",
+      "player_id": "ext_00-0039815",
+      "reason": "Below pool cutoff (composite 0.36; PFF 2026 grade n/a; sources pff_2025#9). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 8 / WILL 372 / SAM 38 -> WILL; belongs to the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Josiah Trotter",
+      "player_id": "ext_00-0041502",
+      "reason": "Below pool cutoff (composite 0.36; PFF 2026 grade 66.6; sources nflverse_stats_2026#9). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 192 / WILL 201 / SAM 0 -> WILL; belongs to the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Kaden Elliss",
+      "player_id": "ext_00-0035316",
+      "reason": "Below pool cutoff (composite 0.35; PFF 2026 grade 72.2; sources pff_2026#14). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 524 / WILL 848 / SAM 0 -> WILL; belongs to the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Christian Elliss",
+      "player_id": "ext_00-0036813",
+      "reason": "Below pool cutoff (composite 0.31; PFF 2026 grade 71.8; sources pff_2026#15, nflverse_snaps_2026#20). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 512 / WILL 474 / SAM 0 -> MIKE; belongs to the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Bobby Okereke",
+      "player_id": "ext_00-0035687",
+      "reason": "Below pool cutoff (composite 0.30; PFF 2026 grade 64.1; sources nflverse_snaps_2026#16, nflverse_stats_2026#13). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 424 / WILL 1108 / SAM 0 -> WILL; belongs to the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Quay Walker",
+      "player_id": "ext_00-0037074",
+      "reason": "Below pool cutoff (composite 0.29; PFF 2026 grade n/a; sources nflverse_snaps_2026#3, nflverse_stats_2026#19). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 1328 / WILL 106 / SAM 0 -> MIKE; belongs to the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Divine Deablo",
+      "player_id": "ext_00-0036990",
+      "reason": "Below pool cutoff (composite 0.27; PFF 2026 grade 60.9; sources pff_2025#12). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 441 / WILL 657 / SAM 0 -> WILL; belongs to the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Jacob Rodriguez",
+      "player_id": "ext_00-0041522",
+      "reason": "Below pool cutoff (composite 0.27; PFF 2026 grade n/a; sources nflverse_stats_2026#12). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 236 / WILL 194 / SAM 0 -> MIKE; belongs to the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Roquan Smith",
+      "player_id": "ext_00-0034874",
+      "reason": "Below pool cutoff (composite 0.25; PFF 2026 grade 68.6; sources nflverse_snaps_2026#13, nflverse_stats_2026#16). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1438 / SAM 0 -> WILL; belongs to the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Jihaad Campbell",
+      "player_id": "ext_00-0040708",
+      "reason": "Below pool cutoff (composite 0.18; PFF 2026 grade n/a; sources pff_2025#15). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 805 / WILL 93 / SAM 0 -> MIKE; belongs to the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Kendal Daniels",
+      "player_id": "ext_00-0041066",
+      "reason": "Below pool cutoff (composite 0.18; PFF 2026 grade 66.6; sources nflverse_stats_2026#15). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 174 / WILL 186 / SAM 0 -> WILL; belongs to the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Sonny Styles",
+      "player_id": "ext_00-0041028",
+      "reason": "Below pool cutoff (composite 0.15; PFF 2026 grade 69.8; sources pff_2026#18). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 429 / WILL 0 / SAM 0 -> MIKE; belongs to the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Patrick Queen",
+      "player_id": "ext_00-0036323",
+      "reason": "Below pool cutoff (composite 0.12; PFF 2026 grade 62.2; sources nflverse_snaps_2026#11). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 494 / WILL 1125 / SAM 0 -> WILL; belongs to the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Jake Hansen",
+      "player_id": "ext_00-0037457",
+      "reason": "Below pool cutoff (composite 0.10; PFF 2026 grade 69.2; sources pff_2026#19). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 32 / WILL 190 / SAM 106 -> WILL; belongs to the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Azeez Al-Shaair",
+      "player_id": "ext_00-0035166",
+      "reason": "Below pool cutoff (composite 0.09; PFF 2026 grade n/a; sources pff_2025#18). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 1286 / WILL 0 / SAM 0 -> MIKE; belongs to the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Akeem Davis-Gaither",
+      "player_id": "ext_00-0036298",
+      "reason": "Below pool cutoff (composite 0.09; PFF 2026 grade 62.7; sources nflverse_stats_2026#18). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 144 / WILL 1082 / SAM 0 -> WILL; belongs to the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Alex Anzalone",
+      "player_id": "ext_00-0033914",
+      "reason": "Below pool cutoff (composite 0.07; PFF 2026 grade n/a; sources nflverse_snaps_2026#15). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1479 / SAM 0 -> WILL; belongs to the WILL list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Mack Wilson",
+      "player_id": "ext_00-0035144",
+      "reason": "Below pool cutoff (composite 0.05; PFF 2026 grade n/a; sources nflverse_snaps_2026#17). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Justin Strnad",
+      "player_id": "ext_00-0036428",
+      "reason": "Below pool cutoff (composite 0.04; PFF 2026 grade 62.4; sources nflverse_snaps_2026#18). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 920 / WILL 125 / SAM 0 -> MIKE; belongs to the MIKE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Robert Spillane",
+      "player_id": "ext_00-0034720",
+      "reason": "Below pool cutoff (composite 0.03; PFF 2026 grade 60.9; sources nflverse_snaps_2026#19). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 478 / WILL 746 / SAM 0 -> WILL; belongs to the WILL list.",
+      "code": "OTHER_POSITION"
+    }
+  ],
+  "free_agents": [
+    {
+      "player": "Bobby Wagner",
+      "player_id": "ext_00-0029255",
+      "status": "FREE_AGENT",
+      "last_team": "WAS",
+      "status_as_of": "2026-10-31",
+      "source_url": "https://www.profootballrumors.com/2026/02/bobby-wagner-plans-to-play-in-2026",
+      "note": "Unsigned after 2025 with WAS; said he plans to play in 2026 and has not retired (still unsigned per Oct 2026 reports).",
+      "reason_listed": "composite 0.33; sources pff_2025#10; PFF 2025 overall 78.7 (#10)"
+    }
+  ],
+  "injured": [
+    {
+      "player": "Edgerrin Cooper",
+      "player_id": "ext_00-0039850",
+      "team": "GB",
+      "status": "IR",
+      "in_pool": false,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.12, sources pff_2025#17"
+    },
+    {
+      "player": "Leo Chenal",
+      "player_id": "ext_00-0037819",
+      "team": "WAS",
+      "status": "IR",
+      "in_pool": true,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.03, sources pff_2025#20"
+    },
+    {
+      "player": "E.J. Speed",
+      "player_id": "ext_00-0034987",
+      "team": "HOU",
+      "status": "IR",
+      "in_pool": true,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES; reserve list, kept in pool per screen-everyone rule"
+    },
+    {
+      "player": "Devin White",
+      "player_id": "ext_00-0035707",
+      "team": "DET",
+      "status": "IR",
+      "in_pool": true,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES; reserve list, kept in pool per screen-everyone rule"
+    }
+  ],
+  "coverage_sources": [
+    {
+      "id": "pff_2026",
+      "name": "PFF 2026 season overall grades (lb)",
+      "publisher": "PFF",
+      "kind": "grades",
+      "season": 2026,
+      "url": "https://www.pff.com/grades/nfl/lb/2026",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Ventrell Miller",
+        "Blake Cashman",
+        "Fred Warner",
+        "Omar Speights",
+        "Zack Baun",
+        "Quincy Williams",
+        "Arvell Reese",
+        "Trenton Simpson",
+        "Alex Singleton",
+        "Dre Greenlaw",
+        "Isaiah McDuffie",
+        "Drue Tranquill",
+        "Jeremiah Trotter Jr.",
+        "Kaden Elliss",
+        "Christian Elliss",
+        "Payton Wilson",
+        "Devin Lloyd",
+        "Sonny Styles",
+        "Jake Hansen",
+        "Nick Bolton"
+      ]
+    },
+    {
+      "id": "pff_2025",
+      "name": "PFF 2025 season overall grades (lb)",
+      "publisher": "PFF",
+      "kind": "grades",
+      "season": 2025,
+      "url": "https://www.pff.com/grades/nfl/lb/2025",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Fred Warner",
+        "Jack Campbell",
+        "Devin Lloyd",
+        "Devin Bush",
+        "Demario Davis",
+        "Zack Baun",
+        "Cedric Gray",
+        "Nick Bolton",
+        "Tyrice Knight",
+        "Bobby Wagner",
+        "Jordyn Brooks",
+        "Divine Deablo",
+        "Drue Tranquill",
+        "D'Marco Jackson",
+        "Jihaad Campbell",
+        "Dre Greenlaw",
+        "Edgerrin Cooper",
+        "Azeez Al-Shaair",
+        "Carson Schwesinger",
+        "Leo Chenal"
+      ]
+    },
+    {
+      "id": "allpro_2025",
+      "name": "2025 All-Pro (AP, PFWA, TSN)",
+      "publisher": "AP/PFWA/TSN via Wikipedia",
+      "kind": "honors",
+      "season": 2025,
+      "url": "https://en.wikipedia.org/wiki/2025_All-Pro_Team",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Jordyn Brooks",
+        "Jack Campbell",
+        "Ernest Jones IV",
+        "Devin Lloyd"
+      ]
+    },
+    {
+      "id": "nflverse_snaps_2026",
+      "name": "nflverse 2026 total snaps, roster depth ['ILB', 'MLB', 'OLB'] (weeks 1-8)",
+      "publisher": "nflverse",
+      "kind": "usage",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Alex Singleton",
+        "Anthony Hill Jr.",
+        "Quay Walker",
+        "Nakobe Dean",
+        "Demario Davis",
+        "Carson Schwesinger",
+        "Fred Warner",
+        "Jamien Sherwood",
+        "Jack Campbell",
+        "Quincy Williams",
+        "Patrick Queen",
+        "Arvell Reese",
+        "Roquan Smith",
+        "Ernest Jones",
+        "Alex Anzalone",
+        "Bobby Okereke",
+        "Mack Wilson",
+        "Justin Strnad",
+        "Robert Spillane",
+        "Christian Elliss"
+      ]
+    },
+    {
+      "id": "nflverse_stats_2026",
+      "name": "nflverse 2026 regular-season stats: solo + 0.5*assists + 2*TFL + 3*INT + PD",
+      "publisher": "nflverse",
+      "kind": "stats",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Alex Singleton",
+        "Nakobe Dean",
+        "Payton Wilson",
+        "Blake Cashman",
+        "Ernest Jones",
+        "Anthony Hill Jr.",
+        "Arvell Reese",
+        "Jamien Sherwood",
+        "Josiah Trotter",
+        "Fred Warner",
+        "Nick Bolton",
+        "Jacob Rodriguez",
+        "Bobby Okereke",
+        "Carson Schwesinger",
+        "Kendal Daniels",
+        "Roquan Smith",
+        "Quincy Williams",
+        "Akeem Davis-Gaither",
+        "Quay Walker",
+        "Trenton Simpson"
+      ]
+    }
+  ],
+  "reaudit": {
+    "target_position_state": "PENDING",
+    "requires_trigger": "TOP10_REAUDIT",
+    "never_locked": true,
+    "note": "Proposed re-audit pool only, for a never-locked PENDING position. Does not modify baselines, locks or audit history; needs the commissioner TOP10_REAUDIT trigger.",
+    "compared_against": "approved candidate pool data/candidate-pools/SAM.json (shared MIKE/WILL/SAM pool; never locked)",
+    "compared_list": [
+      "Fred Warner",
+      "Jack Campbell",
+      "Devin Lloyd",
+      "Blake Cashman",
+      "Alex Singleton",
+      "Ernest Jones",
+      "Zack Baun",
+      "Arvell Reese",
+      "Jordyn Brooks",
+      "Quincy Williams"
+    ],
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "flags": [
+      "LB_ROLE_FROM_DEPTH_CHARTS (PFF alignment/role splits paywalled)",
+      "PFF_RUN_DEF_COVERAGE_SUBGRADES_PAYWALLED (free table gives overall + run-defense/coverage/pass-rush snap counts)"
+    ]
+  }
+}
