@@ -3194,7 +3194,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.json",
@@ -3255,7 +3255,8 @@
         "TE_REAUDIT_H2H_03",
         "TE_REAUDIT_H2H_04",
         "TE_REAUDIT_H2H_05",
-        "TE_REAUDIT_H2H_06"
+        "TE_REAUDIT_H2H_06",
+        "TE_REAUDIT_VARIANCE_AUDIT"
       ],
       "audit_ids": [
         "TE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -3325,7 +3326,7 @@
       ],
       "current_stage": "variance_audit",
       "current_task": "TE_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T00:16:10.673Z",
+      "updated_at": "2026-11-04T00:16:21.232Z",
       "last_result": {
         "task_id": "TE_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
@@ -3334,11 +3335,7 @@
           "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "TE_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "TE_REAUDIT_VARIANCE_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -3854,6 +3851,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T00:14:38Z",
           "note": "Commissioner approval t45s389 (approve all 6 TE head-to-heads, 10 tiebreaks and 9 rating changes)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "TE_REAUDIT_VARIANCE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T00:16:21Z",
+          "note": "Commissioner approval t45s389 (run the variance audit): audit findings recorded; the 6 ADJUST variance fixes remain DRAFTED and are NOT approved or applied (commissioner review)"
         }
       ]
     },
