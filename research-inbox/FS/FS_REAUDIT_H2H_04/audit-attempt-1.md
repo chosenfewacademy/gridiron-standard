@@ -1,0 +1,40 @@
+# FS_REAUDIT_H2H_04 — Tykee Smith vs Kevin Byard (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "FS_REAUDIT_H2H_04_A1",
+  "task_id": "FS_REAUDIT_H2H_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FS",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Tykee Smith",
+    "Kevin Byard"
+  ],
+  "pair_result": {
+    "winner": "Tykee Smith",
+    "loser": "Kevin Byard",
+    "provisional_order_holds": true,
+    "reasoning": "Smith is ascending (PFF 65.8 -> 77.9, S rank 10 in 2026) while Byard fell from 75.4 to 55.2 with 4 penalties. Byard's 7 INT in 2025 vs Smith's 1 keep it close; Smith adds run value (6 TFL, 100 tackles in 2025).",
+    "key_evidence_for_winner": [
+      "Tykee Smith (TB) role snap-weighted 2025-26 depth-chart FS/SS shares FS 881 / SS 478 -> FS; roster ACT (DB); injuries wk15 Doubtful (Neck)",
+      "Tykee Smith 2026: Tykee Smith 2026: PFF S 2026 overall 77.9 on 466 snaps (S rank 10; 287 coverage / 159 run-def snaps); PFR 2026 (7 games) coverage 36 targets / 17 completions / 233 yds / 3 TD / 1 INT; 41 tackles, 2 missed; 8 g / 466 def snaps; 21 solo + 21 ast tackles, 3 TFL, 1 INT, 2 PD, 1 FF; 1 accepted penalties; PFR 2026 (7 games) coverage 36 targets / 17 completions / 233 yds / 3 TD / 1 INT; 41 tackles, 2 missed",
+      "Tykee Smith 2025: Tykee Smith 2025: PFF S 2025 overall 65.8 on 892 snaps (S rank 42; 580 coverage / 278 run-def snaps); PFR 2025 coverage 53 targets / 35 completions / 480 yds / 3 TD / passer rating 105.9 / 1 INT; 100 tackles, 9 missed; 16 g / 893 def snaps; 60 solo + 39 ast tackles, 6 TFL, 1 INT, 13 PD, 0 FF; 0 accepted penalties; PFR 2025 coverage 53 targets / 35 completions / 480 yds / 3 TD / passer rating 105.9 / 1 INT; 100 tackles, 9 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Kevin Byard (NE) role snap-weighted 2025-26 depth-chart FS/SS shares FS 1551 / SS 0 -> FS; roster ACT (DB); injuries wk7 Questionable (Chest)",
+      "Kevin Byard 2026: Kevin Byard 2026: PFF S 2026 overall 55.2 on 480 snaps (S rank 71; 286 coverage / 182 run-def snaps); PFR 2026 (7 games) coverage 19 targets / 12 completions / 179 yds / 1 TD / 0 INT; 33 tackles, 3 missed; 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF; 4 accepted penalties; PFR 2026 (7 games) coverage 19 targets / 12 completions / 179 yds / 1 TD / 0 INT; 33 tackles, 3 missed",
+      "Kevin Byard 2025: Kevin Byard 2025: PFF S 2025 overall 75.4 on 1219 snaps (S rank 14; 720 coverage / 487 run-def snaps); PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed; 17 g / 1071 def snaps; 58 solo + 32 ast tackles, 4 TFL, 7 INT, 8 PD, 0 FF; 0 accepted penalties; PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
