@@ -8694,7 +8694,7 @@
         "position": "DT",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/DT.reaudit.json",
       "baseline_file": null,
@@ -8879,19 +8879,23 @@
         "DT_REAUDIT_TIEBREAK_48_A1",
         "DT_REAUDIT_TIEBREAK_49_A1",
         "DT_REAUDIT_TIEBREAK_50_A1",
-        "DT_REAUDIT_TIEBREAK_51_A1"
+        "DT_REAUDIT_TIEBREAK_51_A1",
+        "DT_REAUDIT_CROSS_AUDIT_A1"
       ],
-      "current_stage": "scarcity_audit",
-      "current_task": "DT_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T11:27:52.013Z",
+      "current_stage": "positional_cross_audit",
+      "current_task": "DT_REAUDIT_CROSS_AUDIT",
+      "updated_at": "2026-11-04T11:28:36.923Z",
       "last_result": {
-        "task_id": "DT_REAUDIT_TIEBREAK_51",
+        "task_id": "DT_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
-        "flags": [
-          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "errors": [],
+        "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "DT_REAUDIT_CROSS_AUDIT",
+        "audit_id": "DT_REAUDIT_CROSS_AUDIT_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",

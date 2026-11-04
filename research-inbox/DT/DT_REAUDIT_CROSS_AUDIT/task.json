@@ -1,0 +1,178 @@
+{
+  "task_id": "DT_REAUDIT_CROSS_AUDIT",
+  "type": "positional_cross_audit",
+  "players": [
+    "Jeffery Simmons",
+    "Cameron Heyward",
+    "Quinnen Williams",
+    "Zach Allen",
+    "Dexter Lawrence",
+    "Leonard Williams",
+    "Kobie Turner",
+    "Derrick Brown",
+    "Poona Ford",
+    "Alim McNeill"
+  ],
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Jeffery Simmons",
+        "overall": 93
+      },
+      {
+        "rank": 2,
+        "player": "Cameron Heyward",
+        "overall": 88
+      },
+      {
+        "rank": 3,
+        "player": "Quinnen Williams",
+        "overall": 87
+      },
+      {
+        "rank": 4,
+        "player": "Zach Allen",
+        "overall": 86
+      },
+      {
+        "rank": 5,
+        "player": "Dexter Lawrence",
+        "overall": 85
+      },
+      {
+        "rank": 6,
+        "player": "Leonard Williams",
+        "overall": 84
+      },
+      {
+        "rank": 7,
+        "player": "Kobie Turner",
+        "overall": 82
+      },
+      {
+        "rank": 8,
+        "player": "Derrick Brown",
+        "overall": 81
+      },
+      {
+        "rank": 9,
+        "player": "Poona Ford",
+        "overall": 80
+      },
+      {
+        "rank": 10,
+        "player": "Alim McNeill",
+        "overall": 79
+      }
+    ],
+    "external_controls": [
+      "Jalen Redmond",
+      "Travis Jones",
+      "DJ Reader"
+    ]
+  },
+  "league_ceiling_check_required": true,
+  "ceiling_references": [
+    {
+      "player": "Alim McNeill",
+      "ovr": 79
+    },
+    {
+      "player": "Jalen Redmond",
+      "ovr": 78
+    }
+  ],
+  "ceiling_config": {
+    "min_hits": 3,
+    "min_sample": 250,
+    "sample_key": "snaps",
+    "metrics": [
+      {
+        "key": "pff",
+        "label": "PFF overall grade (snap-weighted 2025-26)",
+        "better": "higher",
+        "production": true
+      },
+      {
+        "key": "value",
+        "label": "position value metric (EPA/WAR-type, see variance domains)",
+        "better": "higher",
+        "production": true
+      },
+      {
+        "key": "efficiency",
+        "label": "primary position efficiency metric",
+        "better": "higher"
+      },
+      {
+        "key": "negative_rate",
+        "label": "negative-play rate (penalties/pressures allowed/missed tackles as applicable)",
+        "better": "lower"
+      },
+      {
+        "key": "availability",
+        "label": "games played share",
+        "better": "higher"
+      }
+    ],
+    "scope": "Every rostered or free-agent player at the position outside the audited pool with meaningful 2025-26 snaps (starters, recent starters, notable backups, rookies)."
+  },
+  "position": "DT",
+  "stage": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 12,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "pass rush",
+      "run defense",
+      "tackling",
+      "pass-rush win rate",
+      "pressures",
+      "total pressures, sacks, hits, hurries"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks, QB hits",
+      "forced fumbles",
+      "batted passes"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (edge side / interior technique)",
+      "pass-rush snaps vs run snaps"
+    ],
+    "on_field_impact": [
+      "pass-rush win rate (ESPN)",
+      "run-stop win rate (ESPN)",
+      "pressure rate",
+      "run-stop %"
+    ],
+    "madden_attributes_informed": [
+      "PMV",
+      "FMV",
+      "BSH",
+      "PUR",
+      "PRC",
+      "TAK",
+      "POW",
+      "STR",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Interior (0-4i technique) snaps are primary."
+  }
+}

@@ -1,0 +1,1499 @@
+{
+  "audit_id": "DT_REAUDIT_CROSS_AUDIT_A1",
+  "task_id": "DT_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jeffery Simmons",
+    "Cameron Heyward",
+    "Quinnen Williams",
+    "Zach Allen",
+    "Dexter Lawrence",
+    "Leonard Williams",
+    "Kobie Turner",
+    "Derrick Brown",
+    "Poona Ford",
+    "Alim McNeill"
+  ],
+  "cross_audit_result": "CONSISTENT: all 57 approved head-to-head/tiebreak verdicts agree with the final rating order; style rule passes for all 78 pairs of 13 rated DTs (0 too similar); league ceiling 45 raw flags, all resolved by approved tiebreaks (McNeill holds #10); variance audit 18 10+ gaps: 16 supported, 2 fixed via approved reaudit:revise; Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Jeffery Simmons",
+      "ovr": 93,
+      "audit_id": "DT_REAUDIT_RATE_01_A1"
+    },
+    {
+      "rank": 2,
+      "player": "Cameron Heyward",
+      "ovr": 88,
+      "audit_id": "DT_REAUDIT_RATE_02_A1"
+    },
+    {
+      "rank": 3,
+      "player": "Quinnen Williams",
+      "ovr": 87,
+      "audit_id": "DT_REAUDIT_RATE_03_A1"
+    },
+    {
+      "rank": 4,
+      "player": "Zach Allen",
+      "ovr": 86,
+      "audit_id": "DT_REAUDIT_RATE_04_A1"
+    },
+    {
+      "rank": 5,
+      "player": "Dexter Lawrence",
+      "ovr": 85,
+      "audit_id": "DT_REAUDIT_RATE_05_A1"
+    },
+    {
+      "rank": 6,
+      "player": "Leonard Williams",
+      "ovr": 84,
+      "audit_id": "DT_REAUDIT_RATE_06_A1"
+    },
+    {
+      "rank": 7,
+      "player": "Kobie Turner",
+      "ovr": 82,
+      "audit_id": "DT_REAUDIT_RATE_07_A1"
+    },
+    {
+      "rank": 8,
+      "player": "Derrick Brown",
+      "ovr": 81,
+      "audit_id": "DT_REAUDIT_RATE_08_A2"
+    },
+    {
+      "rank": 9,
+      "player": "Poona Ford",
+      "ovr": 80,
+      "audit_id": "DT_REAUDIT_RATE_09_A1"
+    },
+    {
+      "rank": 10,
+      "player": "Alim McNeill",
+      "ovr": 79,
+      "audit_id": "DT_REAUDIT_RATE_10_A2"
+    },
+    {
+      "rank": 11,
+      "player": "Jalen Redmond",
+      "ovr": 78,
+      "audit_id": "DT_REAUDIT_RATE_11_A1"
+    },
+    {
+      "rank": 12,
+      "player": "Travis Jones",
+      "ovr": 77,
+      "audit_id": "DT_REAUDIT_RATE_12_A1"
+    },
+    {
+      "rank": 13,
+      "player": "DJ Reader",
+      "ovr": 76,
+      "audit_id": "DT_REAUDIT_RATE_13_A1"
+    }
+  ],
+  "pair_consistency": [
+    {
+      "audit_id": "DT_REAUDIT_H2H_01_A1",
+      "winner": "Jeffery Simmons",
+      "loser": "Cameron Heyward",
+      "consistent": true
+    },
+    {
+      "audit_id": "DT_REAUDIT_H2H_02_A1",
+      "winner": "Quinnen Williams",
+      "loser": "Zach Allen",
+      "consistent": true
+    },
+    {
+      "audit_id": "DT_REAUDIT_H2H_03_A1",
+      "winner": "Dexter Lawrence",
+      "loser": "Leonard Williams",
+      "consistent": true
+    },
+    {
+      "audit_id": "DT_REAUDIT_H2H_04_A1",
+      "winner": "Kobie Turner",
+      "loser": "Derrick Brown",
+      "consistent": true
+    },
+    {
+      "audit_id": "DT_REAUDIT_H2H_05_A1",
+      "winner": "Poona Ford",
+      "loser": "Alim McNeill",
+      "consistent": true
+    },
+    {
+      "audit_id": "DT_REAUDIT_H2H_06_A1",
+      "winner": "Alim McNeill",
+      "loser": "Jalen Redmond",
+      "consistent": true
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_01_A1",
+      "winner": "Cameron Heyward",
+      "loser": "Quinnen Williams",
+      "consistent": true
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_02_A1",
+      "winner": "Zach Allen",
+      "loser": "Dexter Lawrence",
+      "consistent": true
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_03_A1",
+      "winner": "Leonard Williams",
+      "loser": "Kobie Turner",
+      "consistent": true
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_04_A1",
+      "winner": "Derrick Brown",
+      "loser": "Poona Ford",
+      "consistent": true
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_05_A1",
+      "winner": "Jalen Redmond",
+      "loser": "Travis Jones",
+      "consistent": true
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_06_A1",
+      "winner": "Travis Jones",
+      "loser": "DJ Reader",
+      "consistent": true
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_07_A1",
+      "winner": "Alim McNeill",
+      "loser": "T'Vondre Sweat",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_08_A1",
+      "winner": "Alim McNeill",
+      "loser": "David Onyemata",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_09_A1",
+      "winner": "Alim McNeill",
+      "loser": "Tommy Togiai",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_10_A1",
+      "winner": "Alim McNeill",
+      "loser": "Maliek Collins",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_11_A1",
+      "winner": "Alim McNeill",
+      "loser": "DeForest Buckner",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_12_A1",
+      "winner": "Alim McNeill",
+      "loser": "Harrison Phillips",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_13_A1",
+      "winner": "Alim McNeill",
+      "loser": "Milton Williams",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_14_A1",
+      "winner": "Alim McNeill",
+      "loser": "Calais Campbell",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_15_A1",
+      "winner": "Alim McNeill",
+      "loser": "DaQuan Jones",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_16_A1",
+      "winner": "Alim McNeill",
+      "loser": "Vita Vea",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_17_A1",
+      "winner": "Alim McNeill",
+      "loser": "Sheldon Rankins",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_18_A1",
+      "winner": "Alim McNeill",
+      "loser": "LaCale London",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_19_A1",
+      "winner": "Alim McNeill",
+      "loser": "Moro Ojomo",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_20_A1",
+      "winner": "Alim McNeill",
+      "loser": "Chris Jones",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_21_A1",
+      "winner": "Alim McNeill",
+      "loser": "Roy Lopez",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_22_A1",
+      "winner": "Alim McNeill",
+      "loser": "B.J. Hill",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_23_A1",
+      "winner": "Alim McNeill",
+      "loser": "Javon Hargrave",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_24_A1",
+      "winner": "Alim McNeill",
+      "loser": "Kenny Clark",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_25_A1",
+      "winner": "Alim McNeill",
+      "loser": "Logan Hall",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_26_A1",
+      "winner": "Alim McNeill",
+      "loser": "Sebastian Joseph-Day",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_27_A1",
+      "winner": "Alim McNeill",
+      "loser": "Osa Odighizuwa",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_28_A1",
+      "winner": "Alim McNeill",
+      "loser": "Zach Harrison",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_29_A1",
+      "winner": "Alim McNeill",
+      "loser": "Brandon Dorlus",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_30_A1",
+      "winner": "Alim McNeill",
+      "loser": "Arik Armstead",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_31_A1",
+      "winner": "Alim McNeill",
+      "loser": "John Franklin-Myers",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_32_A1",
+      "winner": "Alim McNeill",
+      "loser": "Malcolm Roach",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_33_A1",
+      "winner": "Alim McNeill",
+      "loser": "Nathan Shepherd",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_34_A1",
+      "winner": "Alim McNeill",
+      "loser": "Zach Sieler",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_35_A1",
+      "winner": "Alim McNeill",
+      "loser": "Deone Walker",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_36_A1",
+      "winner": "Alim McNeill",
+      "loser": "Keeanu Benton",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_37_A1",
+      "winner": "Alim McNeill",
+      "loser": "Justin Eboigbe",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_38_A1",
+      "winner": "Alim McNeill",
+      "loser": "Braden Fiske",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_39_A1",
+      "winner": "Alim McNeill",
+      "loser": "Grady Jarrett",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_40_A1",
+      "winner": "Alim McNeill",
+      "loser": "Jalen Carter",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_41_A1",
+      "winner": "Alim McNeill",
+      "loser": "Christian Barmore",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_42_A1",
+      "winner": "Alim McNeill",
+      "loser": "Jonathan Allen",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_43_A1",
+      "winner": "Alim McNeill",
+      "loser": "Devonte Wyatt",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_44_A1",
+      "winner": "Alim McNeill",
+      "loser": "Roy Robertson-Harris",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_45_A1",
+      "winner": "Alim McNeill",
+      "loser": "Adetomiwa Adebawore",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_46_A1",
+      "winner": "Alim McNeill",
+      "loser": "Darius Alexander",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_47_A1",
+      "winner": "Alim McNeill",
+      "loser": "Walter Nolen",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_48_A1",
+      "winner": "Alim McNeill",
+      "loser": "Nnamdi Madubuike",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_49_A1",
+      "winner": "Alim McNeill",
+      "loser": "Tonka Hemingway",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_50_A1",
+      "winner": "Alim McNeill",
+      "loser": "Charles Omenihu",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "DT_REAUDIT_TIEBREAK_51_A1",
+      "winner": "Alim McNeill",
+      "loser": "Jihad Ward",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    }
+  ],
+  "style_rule": {
+    "pairs_checked": 78,
+    "too_similar": 0,
+    "highest_corr": [
+      0.927,
+      4.1,
+      "Cameron Heyward",
+      "Leonard Williams"
+    ],
+    "lowest_mad": [
+      0.911,
+      3.2,
+      "Zach Allen",
+      "Leonard Williams"
+    ]
+  },
+  "scarcity_note": "DT_REAUDIT_SCARCITY_A1 PASS (31 traits 90+, none at 95+, so no LEAGUE_DEFINING tag needed; overall 90+: Simmons 93 alone). Narrative text grep-verified before the stage ran.",
+  "eligibility_rule": "DT-eligible = PFF DI grade (2025/2026); edge-graded players belong to LEDGE/REDGE (both locked 2026-11-04).",
+  "side_convention": "DT BUCKET (t46u): interior defensive linemen graded by PFF as DI (pff.com/grades/nfl/di), aligned at DT/NT or 3-4 DE (interior) in nflverse 2025-26 depth charts; edge-graded players belong to LEDGE/REDGE. DT has no left/right split.",
+  "commissioner_fix_approvals": "Approved and applied under t46u: Derrick Brown AWR 82->86, Alim McNeill AWR 80->84 (overalls unchanged).",
+  "league_ceiling_check": {
+    "source": "research-inbox/DT/DT_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-t46u.json",
+    "references": [
+      "Alim McNeill",
+      "Jalen Redmond"
+    ],
+    "thresholds": {
+      "pff": 63.9,
+      "value": 0.62,
+      "efficiency": 1.3,
+      "negative_rate": 5.4,
+      "availability": 0.68
+    },
+    "scope": "Every DT-eligible player league-wide (PFF DI grade in 2025 or 2026, sample 250+ snaps), incl. reserve/IR, inactive, practice squad and free agents; the 13 audited DTs excluded; Byron Young excluded from the screen as a name collision with the LA edge Byron Young (merged PFR/nflverse lines). Metrics: snap-weighted PFF DI grade, PFR pressures per game (value), pressures per 100 nflverse defensive snaps (efficiency; PFF DI pass-rush snap split not in the free table), missed tackles + accepted penalties per 1,000 snaps (negative rate), games share (games/25).",
+    "raw_flags_before_resolution": [
+      {
+        "name": "T'Vondre Sweat",
+        "team": "NYJ",
+        "status": "RES",
+        "snaps": 610,
+        "pff": 79.2,
+        "value": 0.05,
+        "efficiency": 0.2,
+        "negative_rate": 1.6,
+        "availability": 0.76,
+        "hits": [
+          "pff",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "David Onyemata",
+        "team": "NYJ",
+        "status": "RES",
+        "snaps": 682,
+        "pff": 76.6,
+        "value": 0.47,
+        "efficiency": 1.3,
+        "negative_rate": 5.9,
+        "availability": 0.76,
+        "hits": [
+          "pff",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Tommy Togiai",
+        "team": "HOU",
+        "status": "ACT",
+        "snaps": 767,
+        "pff": 73.9,
+        "value": 0.32,
+        "efficiency": 0.9,
+        "negative_rate": 3.9,
+        "availability": 0.88,
+        "hits": [
+          "pff",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Maliek Collins",
+        "team": "CLE",
+        "status": "ACT",
+        "snaps": 800,
+        "pff": 69.7,
+        "value": 1.2,
+        "efficiency": 3,
+        "negative_rate": 16.2,
+        "availability": 0.8,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "DeForest Buckner",
+        "team": "IND",
+        "status": "INA",
+        "snaps": 822,
+        "pff": 69.3,
+        "value": 1.76,
+        "efficiency": 3.6,
+        "negative_rate": 4.9,
+        "availability": 0.68,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Harrison Phillips",
+        "team": "NYJ",
+        "status": "ACT",
+        "snaps": 998,
+        "pff": 65.5,
+        "value": 0.28,
+        "efficiency": 0.7,
+        "negative_rate": 3,
+        "availability": 1,
+        "hits": [
+          "pff",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Milton Williams",
+        "team": "NE",
+        "status": "ACT",
+        "snaps": 765,
+        "pff": 68.4,
+        "value": 0.75,
+        "efficiency": 2,
+        "negative_rate": 6.5,
+        "availability": 0.8,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Calais Campbell",
+        "team": "BAL",
+        "status": "ACT",
+        "snaps": 766,
+        "pff": 68,
+        "value": 0.92,
+        "efficiency": 3,
+        "negative_rate": 10.4,
+        "availability": 1,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "DaQuan Jones",
+        "team": "NE",
+        "status": "ACT",
+        "snaps": 556,
+        "pff": 66,
+        "value": 0.74,
+        "efficiency": 2.5,
+        "negative_rate": 1.8,
+        "availability": 0.76,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Vita Vea",
+        "team": "TB",
+        "status": "ACT",
+        "snaps": 1112,
+        "pff": 66.7,
+        "value": 0.8,
+        "efficiency": 1.8,
+        "negative_rate": 7.2,
+        "availability": 1,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Sheldon Rankins",
+        "team": "HOU",
+        "status": "ACT",
+        "snaps": 946,
+        "pff": 67.6,
+        "value": 0.83,
+        "efficiency": 2.1,
+        "negative_rate": 4.2,
+        "availability": 0.96,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "LaCale London",
+        "team": "ATL",
+        "status": "ACT",
+        "snaps": 509,
+        "pff": 67.2,
+        "value": 0.48,
+        "efficiency": 2,
+        "negative_rate": 11.8,
+        "availability": 0.84,
+        "hits": [
+          "pff",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Moro Ojomo",
+        "team": "PHI",
+        "status": "ACT",
+        "snaps": 1075,
+        "pff": 66.7,
+        "value": 1.24,
+        "efficiency": 2.9,
+        "negative_rate": 6.5,
+        "availability": 1,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Chris Jones",
+        "team": "KC",
+        "status": "ACT",
+        "snaps": 1096,
+        "pff": 65.9,
+        "value": 1.58,
+        "efficiency": 3.5,
+        "negative_rate": 11.9,
+        "availability": 0.96,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Roy Lopez",
+        "team": "ARI",
+        "status": "ACT",
+        "snaps": 674,
+        "pff": 69.6,
+        "value": 0.36,
+        "efficiency": 1.3,
+        "negative_rate": 5.9,
+        "availability": 1,
+        "hits": [
+          "pff",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "B.J. Hill",
+        "team": "CIN",
+        "status": "ACT",
+        "snaps": 790,
+        "pff": 70.2,
+        "value": 0.05,
+        "efficiency": 0.1,
+        "negative_rate": 3.8,
+        "availability": 0.84,
+        "hits": [
+          "pff",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Javon Hargrave",
+        "team": "GB",
+        "status": "RES",
+        "snaps": 660,
+        "pff": 69.4,
+        "value": 0.65,
+        "efficiency": 2,
+        "negative_rate": 6.1,
+        "availability": 0.8,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Kenny Clark",
+        "team": "DAL",
+        "status": "ACT",
+        "snaps": 1115,
+        "pff": 65.3,
+        "value": 0.76,
+        "efficiency": 1.7,
+        "negative_rate": 4.5,
+        "availability": 1,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Logan Hall",
+        "team": "HOU",
+        "status": "ACT",
+        "snaps": 770,
+        "pff": 63.9,
+        "value": 0.62,
+        "efficiency": 1.9,
+        "negative_rate": 13,
+        "availability": 0.96,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Sebastian Joseph-Day",
+        "team": "PIT",
+        "status": "RES",
+        "snaps": 542,
+        "pff": 64.9,
+        "value": 0.43,
+        "efficiency": 1.7,
+        "negative_rate": 7.4,
+        "availability": 0.84,
+        "hits": [
+          "pff",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Osa Odighizuwa",
+        "team": "SF",
+        "status": "ACT",
+        "snaps": 1037,
+        "pff": 59.6,
+        "value": 1.75,
+        "efficiency": 4.1,
+        "negative_rate": 8.7,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Zach Harrison",
+        "team": "ATL",
+        "status": "ACT",
+        "snaps": 411,
+        "pff": 62.3,
+        "value": 0.71,
+        "efficiency": 2.4,
+        "negative_rate": 4.9,
+        "availability": 0.56,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate"
+        ]
+      },
+      {
+        "name": "Brandon Dorlus",
+        "team": "ATL",
+        "status": "ACT",
+        "snaps": 766,
+        "pff": 65.2,
+        "value": 1.09,
+        "efficiency": 3.3,
+        "negative_rate": 3.9,
+        "availability": 0.92,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Arik Armstead",
+        "team": "JAX",
+        "status": "ACT",
+        "snaps": 914,
+        "pff": 59,
+        "value": 0.83,
+        "efficiency": 2.1,
+        "negative_rate": 5.5,
+        "availability": 0.92,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "John Franklin-Myers",
+        "team": "TEN",
+        "status": "ACT",
+        "snaps": 811,
+        "pff": 63.7,
+        "value": 1.38,
+        "efficiency": 4.1,
+        "negative_rate": 9.9,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Malcolm Roach",
+        "team": "DEN",
+        "status": "ACT",
+        "snaps": 722,
+        "pff": 63.6,
+        "value": 0.95,
+        "efficiency": 2.6,
+        "negative_rate": 15.2,
+        "availability": 0.8,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Nathan Shepherd",
+        "team": "NO",
+        "status": "INA",
+        "snaps": 871,
+        "pff": 56.8,
+        "value": 0.85,
+        "efficiency": 2,
+        "negative_rate": 9.2,
+        "availability": 0.8,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Zach Sieler",
+        "team": "MIA",
+        "status": "ACT",
+        "snaps": 1112,
+        "pff": 55.8,
+        "value": 0.75,
+        "efficiency": 1.6,
+        "negative_rate": 8.1,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Deone Walker",
+        "team": "BUF",
+        "status": "ACT",
+        "snaps": 807,
+        "pff": 66.6,
+        "value": 0.67,
+        "efficiency": 2,
+        "negative_rate": 11.2,
+        "availability": 0.96,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Keeanu Benton",
+        "team": "PIT",
+        "status": "ACT",
+        "snaps": 1056,
+        "pff": 63.3,
+        "value": 0.72,
+        "efficiency": 1.7,
+        "negative_rate": 7.6,
+        "availability": 1,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Justin Eboigbe",
+        "team": "LAC",
+        "status": "ACT",
+        "snaps": 637,
+        "pff": 57.9,
+        "value": 0.62,
+        "efficiency": 2.4,
+        "negative_rate": 9.4,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Braden Fiske",
+        "team": "LA",
+        "status": "ACT",
+        "snaps": 830,
+        "pff": 54.5,
+        "value": 1.04,
+        "efficiency": 3.1,
+        "negative_rate": 12,
+        "availability": 1,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Grady Jarrett",
+        "team": "CHI",
+        "status": "ACT",
+        "snaps": 908,
+        "pff": 56.3,
+        "value": 0.82,
+        "efficiency": 2,
+        "negative_rate": 5.5,
+        "availability": 0.88,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Jalen Carter",
+        "team": "PHI",
+        "status": "ACT",
+        "snaps": 1107,
+        "pff": 56.3,
+        "value": 1.42,
+        "efficiency": 2.4,
+        "negative_rate": 11.7,
+        "availability": 0.76,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Christian Barmore",
+        "team": "NE",
+        "status": "ACT",
+        "snaps": 882,
+        "pff": 56.7,
+        "value": 0.88,
+        "efficiency": 2.4,
+        "negative_rate": 4.5,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Jonathan Allen",
+        "team": "CIN",
+        "status": "ACT",
+        "snaps": 1104,
+        "pff": 54.7,
+        "value": 1.12,
+        "efficiency": 2.4,
+        "negative_rate": 13.6,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Devonte Wyatt",
+        "team": "GB",
+        "status": "ACT",
+        "snaps": 656,
+        "pff": 49.9,
+        "value": 0.67,
+        "efficiency": 1.8,
+        "negative_rate": 9.1,
+        "availability": 0.72,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Roy Robertson-Harris",
+        "team": "NYG",
+        "status": "RES",
+        "snaps": 628,
+        "pff": 51.8,
+        "value": 0.65,
+        "efficiency": 1.8,
+        "negative_rate": 6.4,
+        "availability": 0.68,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Adetomiwa Adebawore",
+        "team": "IND",
+        "status": "ACT",
+        "snaps": 748,
+        "pff": 56.9,
+        "value": 0.92,
+        "efficiency": 3.1,
+        "negative_rate": 13.4,
+        "availability": 1,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Darius Alexander",
+        "team": "NYG",
+        "status": "ACT",
+        "snaps": 562,
+        "pff": 45.6,
+        "value": 0.64,
+        "efficiency": 2.5,
+        "negative_rate": 7.1,
+        "availability": 0.88,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Walter Nolen",
+        "team": "ARI",
+        "status": "INA",
+        "snaps": 397,
+        "pff": 59.7,
+        "value": 1,
+        "efficiency": 3,
+        "negative_rate": 5,
+        "availability": 0.48,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate"
+        ]
+      },
+      {
+        "name": "Nnamdi Madubuike",
+        "team": "BAL",
+        "status": "ACT",
+        "snaps": 393,
+        "pff": 73.5,
+        "value": 1.12,
+        "efficiency": 2.3,
+        "negative_rate": 7.6,
+        "availability": 0.32,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency"
+        ]
+      },
+      {
+        "name": "Tonka Hemingway",
+        "team": "LV",
+        "status": "ACT",
+        "snaps": 399,
+        "pff": 45.7,
+        "value": 0.75,
+        "efficiency": 3,
+        "negative_rate": 5,
+        "availability": 0.64,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate"
+        ]
+      },
+      {
+        "name": "Charles Omenihu",
+        "team": "WAS",
+        "status": "ACT",
+        "snaps": 721,
+        "pff": 57.2,
+        "value": 0.91,
+        "efficiency": 2.8,
+        "negative_rate": 11.1,
+        "availability": 0.88,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Jihad Ward",
+        "team": "MIN",
+        "status": "DEV",
+        "snaps": 749,
+        "pff": 38.3,
+        "value": 1.42,
+        "efficiency": 3.6,
+        "negative_rate": 12,
+        "availability": 0.76,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      }
+    ],
+    "resolution": "Check (refs #10 McNeill 79 / first-out Redmond 78) screened 249 non-pool DTs and raw-flagged 45: T'Vondre Sweat, David Onyemata, Tommy Togiai, Maliek Collins, DeForest Buckner, Harrison Phillips, Milton Williams, Calais Campbell, DaQuan Jones, Vita Vea, Sheldon Rankins, LaCale London, Moro Ojomo, Chris Jones, Roy Lopez, B.J. Hill, Javon Hargrave, Kenny Clark, Logan Hall, Sebastian Joseph-Day, Osa Odighizuwa, Zach Harrison, Brandon Dorlus, Arik Armstead, John Franklin-Myers, Malcolm Roach, Nathan Shepherd, Zach Sieler, Deone Walker, Keeanu Benton, Justin Eboigbe, Braden Fiske, Grady Jarrett, Jalen Carter, Christian Barmore, Jonathan Allen, Devonte Wyatt, Roy Robertson-Harris, Adetomiwa Adebawore, Darius Alexander, Walter Nolen, Nnamdi Madubuike, Tonka Hemingway, Charles Omenihu, Jihad Ward. The reference bar is low because McNeill's ACL-hit 2025 (PFF 52.2, 10 games, 7 pressures) and Redmond's 2026 (4 pressures) set the minimums. Each flag was resolved by an approved add-only tiebreak against McNeill (DT_REAUDIT_TIEBREAK_07..51), all won by McNeill on 2026 form (PFF 79.0, ESPN PRWR 27% #1 DT, 11 pressures / 4.5 sacks); closest calls (NARROW): Chris Jones, DeForest Buckner, Osa Odighizuwa, Maliek Collins, Nnamdi Madubuike, Calais Campbell. McNeill 79 stands as the ceiling; no pool amendment or rating change.",
+    "flagged": [],
+    "resolved_by_tiebreak": [
+      "DT_REAUDIT_TIEBREAK_07_A1",
+      "DT_REAUDIT_TIEBREAK_08_A1",
+      "DT_REAUDIT_TIEBREAK_09_A1",
+      "DT_REAUDIT_TIEBREAK_10_A1",
+      "DT_REAUDIT_TIEBREAK_11_A1",
+      "DT_REAUDIT_TIEBREAK_12_A1",
+      "DT_REAUDIT_TIEBREAK_13_A1",
+      "DT_REAUDIT_TIEBREAK_14_A1",
+      "DT_REAUDIT_TIEBREAK_15_A1",
+      "DT_REAUDIT_TIEBREAK_16_A1",
+      "DT_REAUDIT_TIEBREAK_17_A1",
+      "DT_REAUDIT_TIEBREAK_18_A1",
+      "DT_REAUDIT_TIEBREAK_19_A1",
+      "DT_REAUDIT_TIEBREAK_20_A1",
+      "DT_REAUDIT_TIEBREAK_21_A1",
+      "DT_REAUDIT_TIEBREAK_22_A1",
+      "DT_REAUDIT_TIEBREAK_23_A1",
+      "DT_REAUDIT_TIEBREAK_24_A1",
+      "DT_REAUDIT_TIEBREAK_25_A1",
+      "DT_REAUDIT_TIEBREAK_26_A1",
+      "DT_REAUDIT_TIEBREAK_27_A1",
+      "DT_REAUDIT_TIEBREAK_28_A1",
+      "DT_REAUDIT_TIEBREAK_29_A1",
+      "DT_REAUDIT_TIEBREAK_30_A1",
+      "DT_REAUDIT_TIEBREAK_31_A1",
+      "DT_REAUDIT_TIEBREAK_32_A1",
+      "DT_REAUDIT_TIEBREAK_33_A1",
+      "DT_REAUDIT_TIEBREAK_34_A1",
+      "DT_REAUDIT_TIEBREAK_35_A1",
+      "DT_REAUDIT_TIEBREAK_36_A1",
+      "DT_REAUDIT_TIEBREAK_37_A1",
+      "DT_REAUDIT_TIEBREAK_38_A1",
+      "DT_REAUDIT_TIEBREAK_39_A1",
+      "DT_REAUDIT_TIEBREAK_40_A1",
+      "DT_REAUDIT_TIEBREAK_41_A1",
+      "DT_REAUDIT_TIEBREAK_42_A1",
+      "DT_REAUDIT_TIEBREAK_43_A1",
+      "DT_REAUDIT_TIEBREAK_44_A1",
+      "DT_REAUDIT_TIEBREAK_45_A1",
+      "DT_REAUDIT_TIEBREAK_46_A1",
+      "DT_REAUDIT_TIEBREAK_47_A1",
+      "DT_REAUDIT_TIEBREAK_48_A1",
+      "DT_REAUDIT_TIEBREAK_49_A1",
+      "DT_REAUDIT_TIEBREAK_50_A1",
+      "DT_REAUDIT_TIEBREAK_51_A1"
+    ],
+    "closest": [
+      {
+        "name": "Jarran Reed",
+        "team": "SEA",
+        "status": "ACT",
+        "snaps": 635,
+        "pff": 60.8,
+        "value": 0.52,
+        "efficiency": 1.7,
+        "negative_rate": 3.1,
+        "availability": 0.84,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Elijah Roberts",
+        "team": "TB",
+        "status": "ACT",
+        "snaps": 613,
+        "pff": 52.9,
+        "value": 0.44,
+        "efficiency": 1.8,
+        "negative_rate": 4.9,
+        "availability": 1,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Kenneth Grant",
+        "team": "MIA",
+        "status": "ACT",
+        "snaps": 619,
+        "pff": 47.4,
+        "value": 0.5,
+        "efficiency": 1.6,
+        "negative_rate": 1.6,
+        "availability": 0.8,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Ruke Orhorhoro",
+        "team": "JAX",
+        "status": "ACT",
+        "snaps": 789,
+        "pff": 42.3,
+        "value": 0.5,
+        "efficiency": 1.5,
+        "negative_rate": 3.8,
+        "availability": 0.96,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Tyleik Williams",
+        "team": "DET",
+        "status": "ACT",
+        "snaps": 702,
+        "pff": 62.5,
+        "value": 0.29,
+        "efficiency": 1,
+        "negative_rate": 2.8,
+        "availability": 0.96,
+        "hits": [
+          "negative_rate",
+          "availability"
+        ]
+      }
+    ],
+    "screened": 249,
+    "rating_changes": []
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Jeffery Simmons",
+      "ours": 93,
+      "madden": 96,
+      "madden_position": "DT",
+      "delta": -3
+    },
+    {
+      "player": "Cameron Heyward",
+      "ours": 88,
+      "madden": 95,
+      "madden_position": "DT",
+      "delta": -7
+    },
+    {
+      "player": "Quinnen Williams",
+      "ours": 87,
+      "madden": 91,
+      "madden_position": "DT",
+      "delta": -4
+    },
+    {
+      "player": "Zach Allen",
+      "ours": 86,
+      "madden": 89,
+      "madden_position": "DT",
+      "delta": -3
+    },
+    {
+      "player": "Dexter Lawrence",
+      "ours": 85,
+      "madden": 93,
+      "madden_position": "DT",
+      "delta": -8
+    },
+    {
+      "player": "Leonard Williams",
+      "ours": 84,
+      "madden": 90,
+      "madden_position": "DT",
+      "delta": -6
+    },
+    {
+      "player": "Kobie Turner",
+      "ours": 82,
+      "madden": 85,
+      "madden_position": "DT",
+      "delta": -3
+    },
+    {
+      "player": "Derrick Brown",
+      "ours": 81,
+      "madden": 96,
+      "madden_position": "DT",
+      "delta": -15
+    },
+    {
+      "player": "Poona Ford",
+      "ours": 80,
+      "madden": 83,
+      "madden_position": "DT",
+      "delta": -3
+    },
+    {
+      "player": "Alim McNeill",
+      "ours": 79,
+      "madden": 87,
+      "madden_position": "DT",
+      "delta": -8
+    },
+    {
+      "player": "Jalen Redmond",
+      "ours": 78,
+      "madden": 84,
+      "madden_position": "DT",
+      "delta": -6
+    },
+    {
+      "player": "Travis Jones",
+      "ours": 77,
+      "madden": 79,
+      "madden_position": "DT",
+      "delta": -2
+    },
+    {
+      "player": "DJ Reader",
+      "ours": 76,
+      "madden": 84,
+      "madden_position": "DT",
+      "delta": -8
+    }
+  ],
+  "madden_order_verified": false,
+  "madden_used_as_evidence": false,
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
