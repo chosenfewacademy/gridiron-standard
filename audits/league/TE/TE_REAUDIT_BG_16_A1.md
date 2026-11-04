@@ -1,0 +1,188 @@
+# TE_REAUDIT_BG_16 — Brenton Strange background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t45s377.
+
+```json
+{
+  "audit_id": "TE_REAUDIT_BG_16_A1",
+  "task_id": "TE_REAUDIT_BG_16",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "player_id": "brenton_strange",
+  "players": [
+    "Brenton Strange"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Brenton Strange",
+    "player_id": "brenton_strange",
+    "team": "JAX",
+    "age": 25,
+    "size": {
+      "ht_in": "76",
+      "wt_lb": "253"
+    },
+    "pff": {
+      "2026": {
+        "grade": 62.8,
+        "rank": 41,
+        "snaps": {
+          "off": "328",
+          "routes": "171",
+          "pblk": "21",
+          "rblk": "136"
+        }
+      },
+      "2025": {
+        "grade": 76.1,
+        "snaps": {
+          "off": "640",
+          "routes": "364",
+          "pblk": "31",
+          "rblk": "245"
+        }
+      }
+    },
+    "stats_2026": {
+      "team": "JAX",
+      "games": 7,
+      "tgt": 35,
+      "rec": 28,
+      "yds": 334,
+      "td": 1,
+      "epa_tgt": 0.405,
+      "rz_tgt": 3,
+      "adot": 7.9,
+      "sep": 3.39,
+      "yac_oe": -0.06,
+      "pff": 62.8,
+      "pff_rank": 41,
+      "off": 328,
+      "routes": 171,
+      "pblk": 21,
+      "rblk": 136,
+      "yprr": 1.95,
+      "tprr": 0.205,
+      "block_share": 0.48
+    },
+    "stats_2025": {
+      "team": "JAX",
+      "games": 12,
+      "tgt": 60,
+      "rec": 46,
+      "yds": 540,
+      "td": 3,
+      "epa_tgt": 0.523,
+      "rz_tgt": 10,
+      "adot": 6.9,
+      "sep": 3.89,
+      "yac_oe": -0.11,
+      "pff": 76.1,
+      "pff_rank": 11,
+      "off": 640,
+      "routes": 364,
+      "pblk": 31,
+      "rblk": 245,
+      "yprr": 1.48,
+      "tprr": 0.165,
+      "block_share": 0.43
+    },
+    "splits_2026": {
+      "deep_tgt": 2,
+      "deep_catch": 1.0,
+      "deep_epa_tgt": 2.0,
+      "yac_rec": 4.9,
+      "short_catch": 0.9,
+      "rz_tgt": 3,
+      "third_down_conv": "5/9",
+      "fum_lost": 0
+    },
+    "splits_2025": {
+      "deep_tgt": 4,
+      "deep_catch": 0.75,
+      "deep_epa_tgt": 1.46,
+      "yac_rec": 5.4,
+      "short_catch": 0.79,
+      "rz_tgt": 10,
+      "third_down_conv": "7/13",
+      "fum_lost": 0
+    },
+    "usage_2026": {
+      "offensive_snaps": 329,
+      "games": 7
+    },
+    "summary_lines": [
+      "Brenton Strange (JAX) 2026: 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0",
+      "Brenton Strange (JAX) 2025: 12 g, 60 tgt, 46 rec, 540 yds, 3 TD, EPA/tgt 0.523, aDOT 6.9, NGS separation 3.89, YAC over expected -0.11, YPRR 1.48, TPRR 0.165, routes 364; deep (20+ air yds) 4 tgt catch 0.75 EPA/tgt 1.46, short (<10) catch 0.79, YAC/rec 5.4, red-zone tgt 10, 3rd/4th-down conv 7/13, fumbles lost 0",
+      "Brenton Strange PFF TE offense grade 2026 62.8 (rank 41), 2025 76.1; 2026 PFF snaps {'off': '328', 'routes': '171', 'pblk': '21', 'rblk': '136'}",
+      "Brenton Strange 2026 usage: 329 offensive snaps in 7 games (nflverse snap_counts); age 25, 76 in, 253 lb; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF receiving/run-block/pass-block sub-grades are paywalled (PFF+) and inline/slot/wide alignment splits are not public; per commissioner t45s377 blocking traits are judged from PFF overall grade plus PFF run-block/pass-block/route snap counts (block share), with film-consensus style"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "DRR",
+      "RLS",
+      "JMP",
+      "CAR",
+      "BTK",
+      "RBK",
+      "IBL",
+      "PBK",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/te/2026",
+        "retrieved_at": "2026-11-04T00:16:54Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/te/2025",
+        "retrieved_at": "2026-11-04T00:16:54Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T00:16:54Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T00:16:54Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
+        "retrieved_at": "2026-11-04T00:16:54Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T00:16:54Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T00:16:54Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
