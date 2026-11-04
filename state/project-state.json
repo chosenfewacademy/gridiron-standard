@@ -12428,7 +12428,7 @@
         "position": "SS",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/SS.reaudit.json",
       "baseline_file": null,
@@ -12485,7 +12485,8 @@
         "SS_REAUDIT_TIEBREAK_10",
         "SS_REAUDIT_TIEBREAK_11",
         "SS_REAUDIT_TIEBREAK_12",
-        "SS_REAUDIT_TIEBREAK_13"
+        "SS_REAUDIT_TIEBREAK_13",
+        "SS_REAUDIT_TIEBREAK_14"
       ],
       "audit_ids": [
         "SS_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -12541,7 +12542,7 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "SS_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T12:34:40.595Z",
+      "updated_at": "2026-11-04T12:34:40.843Z",
       "last_result": {
         "task_id": "SS_REAUDIT_TIEBREAK_14",
         "status": "FLAGGED",
@@ -12549,17 +12550,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "SS_REAUDIT_TIEBREAK_14",
-        "audit_id": "SS_REAUDIT_TIEBREAK_14_A1",
-        "pending": [
-          {
-            "task_id": "SS_REAUDIT_TIEBREAK_14",
-            "audit_id": "SS_REAUDIT_TIEBREAK_14_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -12952,6 +12943,14 @@
           "audit_id": "SS_REAUDIT_TIEBREAK_13_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T12:34:39Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "SS_REAUDIT_TIEBREAK_14",
+          "audit_id": "SS_REAUDIT_TIEBREAK_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:34:40Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
