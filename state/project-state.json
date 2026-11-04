@@ -8694,7 +8694,7 @@
         "position": "DT",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/DT.reaudit.json",
       "baseline_file": null,
@@ -8743,7 +8743,8 @@
         "DT_REAUDIT_TIEBREAK_04",
         "DT_REAUDIT_TIEBREAK_05",
         "DT_REAUDIT_TIEBREAK_06",
-        "DT_REAUDIT_VARIANCE_AUDIT"
+        "DT_REAUDIT_VARIANCE_AUDIT",
+        "DT_REAUDIT_SCARCITY"
       ],
       "audit_ids": [
         "DT_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -8792,18 +8793,14 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "DT_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T11:25:00.205Z",
+      "updated_at": "2026-11-04T11:25:11.927Z",
       "last_result": {
         "task_id": "DT_REAUDIT_SCARCITY",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "DT_REAUDIT_SCARCITY",
-        "audit_id": "DT_REAUDIT_SCARCITY_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -9142,6 +9139,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:24:47Z",
           "note": "Standing commissioner approval t46u: Approved variance fix (DT_REAUDIT_VARIANCE_AUDIT, t46u): AWR 80->84 (0 accepted penalties and 0 missed tackles on 403 snaps in 2026). OVR unchanged."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "DT_REAUDIT_SCARCITY",
+          "audit_id": "DT_REAUDIT_SCARCITY_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:25:11Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
     }
