@@ -3194,7 +3194,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.json",
@@ -3294,7 +3294,8 @@
         "TE_REAUDIT_TIEBREAK_49",
         "TE_REAUDIT_TIEBREAK_50",
         "TE_REAUDIT_TIEBREAK_51",
-        "TE_REAUDIT_BG_16"
+        "TE_REAUDIT_BG_16",
+        "TE_REAUDIT_RATE_16"
       ],
       "audit_ids": [
         "TE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -3403,7 +3404,7 @@
       ],
       "current_stage": "player_rating",
       "current_task": "TE_REAUDIT_RATE_16",
-      "updated_at": "2026-11-04T00:19:56.300Z",
+      "updated_at": "2026-11-04T00:20:11.845Z",
       "last_result": {
         "task_id": "TE_REAUDIT_RATE_16",
         "status": "FLAGGED",
@@ -3412,11 +3413,7 @@
           "STYLE_PROFILE_TOO_SIMILAR:Tucker Kraft(corr 0.729, mad 2.8)"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "TE_REAUDIT_RATE_16",
-        "audit_id": "TE_REAUDIT_RATE_16_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -4244,6 +4241,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T00:19:54Z",
           "note": "Commissioner approval t45s389 (league ceiling winner: fully rate and test)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_16",
+          "audit_id": "TE_REAUDIT_RATE_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T00:20:11Z",
+          "note": "Commissioner approval t45s389 (league ceiling winner: fully rate and test); style flag vs Kraft resolved by revision A2"
         }
       ]
     },
