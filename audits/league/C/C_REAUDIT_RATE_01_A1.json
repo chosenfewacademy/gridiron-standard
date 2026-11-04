@@ -1,0 +1,449 @@
+{
+  "audit_id": "C_REAUDIT_RATE_01_A1",
+  "task_id": "C_REAUDIT_RATE_01",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "C",
+  "player_id": "ext_00-0036623",
+  "players": [
+    "Creed Humphrey"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 90,
+    "SPD": 74,
+    "ACC": 80,
+    "AGI": 70,
+    "COD": 64,
+    "AWR": 96,
+    "INJ": 95,
+    "STA": 95,
+    "TGH": 92,
+    "PBK": 92,
+    "PBP": 89,
+    "PBF": 93,
+    "RBK": 90,
+    "RBP": 86,
+    "RBF": 94,
+    "IBL": 88,
+    "LBK": 90
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Creed Humphrey (KC) 2026: PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); 7 g / 444 off snaps; 1 accepted penalties {'Illegal Block Above the Waist': 1}; depth-chart side {'C': 226}; Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); pass/run snap mix PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); pass/run snap mix PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); pass/run snap mix PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); pass/run snap mix PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 1 accepted penalties {'Illegal Block Above the Waist': 1}, 2025 1 accepted penalties {'Offensive Holding': 1}; PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Creed Humphrey injury reports: none; roster status ACT; snaps 17 g / 1093 off snaps (2025), 7 g / 444 off snaps (2026). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 17 g / 1093 off snaps (2025), 7 g / 444 off snaps (2026). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 17 g / 1093 off snaps (2025), 7 g / 444 off snaps (2026). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68). Style: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "ELITE",
+      "claim": "power: Creed Humphrey (KC) 2026: PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); 7 g / 444 off snaps; 1 accepted penalties {'Illegal Block Above the Waist': 1}; depth-chart side {'C': 226}; Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "discipline: penalties 2026 1 accepted penalties {'Illegal Block Above the Waist': 1}, 2025 1 accepted penalties {'Offensive Holding': 1}; PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "availability: Creed Humphrey injury reports: none; roster status ACT; snaps 17 g / 1093 off snaps (2025), 7 g / 444 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "usage: snaps 17 g / 1093 off snaps (2025), 7 g / 444 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 17 g / 1093 off snaps (2025), 7 g / 444 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "tier": "ELITE",
+      "claim": "pass pro: Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "tier": "ELITE",
+      "claim": "pass pro: Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "tier": "ELITE",
+      "claim": "run block: Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "tier": "ELITE",
+      "claim": "run block: Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "tier": "ELITE",
+      "claim": "run block: Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20); PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 91,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+  "style_profile": "Creed Humphrey: Cerebral, light-footed technician and the league's best center over 2024-25: PFF #1 C in 2025 (88.8, 1,093 snaps, All-Pro), ESPN IOL PBWR 92% in 2026, 1 accepted penalty in each season, 24/24 games; wins with hand timing and zone reach rather than raw power. 2026 PFF 64.9 is a real dip.",
+  "style_evidence": [
+    "Creed Humphrey (KC) 2026: PFF 2026 64.9 (rank 16, 443 snaps: 270 pass-block / 173 run-block, pass share 0.61); 7 g / 444 off snaps; 1 accepted penalties {'Illegal Block Above the Waist': 1}; depth-chart side {'C': 226}",
+    "Creed Humphrey 2025: PFF 2025 88.8 (rank 1, 1093 snaps: 742 pass-block / 351 run-block, pass share 0.68); 17 g / 1093 off snaps; 1 accepted penalties {'Offensive Holding': 1}; side {'C': 1}",
+    "Creed Humphrey ESPN pass/run block win rate 2026 through Week 8: IOL PBWR 92% (top 20)",
+    "Creed Humphrey injury reports: none; roster status ACT"
+  ],
+  "input_dossier": "C_REAUDIT_BG_01_A1",
+  "weaknesses": [
+    "2026 grade dip (64.9)",
+    "raw anchor vs heavy nose tackles"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Creed Humphrey",
+      "ovr": 96,
+      "attributes": {
+        "STR": 90,
+        "SPD": 73,
+        "ACC": 78,
+        "AGI": 66,
+        "COD": 57,
+        "AWR": 97,
+        "INJ": 94,
+        "STA": 94,
+        "TGH": 98,
+        "PBK": 93,
+        "PBP": 96,
+        "PBF": 90,
+        "RBK": 96,
+        "RBP": 93,
+        "RBF": 97,
+        "IBL": 93,
+        "LBK": 93
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -5,
+      "delta_attributes": {
+        "STR": 0,
+        "SPD": 1,
+        "ACC": 2,
+        "AGI": 4,
+        "COD": 7,
+        "AWR": -1,
+        "INJ": 1,
+        "STA": 1,
+        "TGH": -6,
+        "PBK": -1,
+        "PBP": -7,
+        "PBF": 3,
+        "RBK": -6,
+        "RBP": -7,
+        "RBF": -3,
+        "IBL": -5,
+        "LBK": -3
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 C, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 5,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u/t50s441",
+  "style_similarity": [],
+  "status": "FLAGGED"
+}
