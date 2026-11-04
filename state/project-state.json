@@ -4341,7 +4341,7 @@
         "position": "LT",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/LT.reaudit.json",
       "baseline_file": "data/baselines/LT.json",
@@ -4399,7 +4399,8 @@
         "LT_REAUDIT_TIEBREAK_11",
         "LT_REAUDIT_TIEBREAK_12",
         "LT_REAUDIT_TIEBREAK_13",
-        "LT_REAUDIT_TIEBREAK_14"
+        "LT_REAUDIT_TIEBREAK_14",
+        "LT_REAUDIT_H2H_02"
       ],
       "audit_ids": [
         "LT_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -4459,18 +4460,14 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "LT_REAUDIT_H2H_02",
-      "updated_at": "2026-11-04T02:52:58.016Z",
+      "updated_at": "2026-11-04T02:52:58.272Z",
       "last_result": {
         "task_id": "LT_REAUDIT_H2H_02",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LT_REAUDIT_H2H_02",
-        "audit_id": "LT_REAUDIT_H2H_02_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -4899,6 +4896,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T02:52:30Z",
           "note": "Commissioner approval t45s413: TIEBREAK_09 loses 74 tie to Campbell (2026 PFF 69.8 vs 76.8, no RBWR listing); TIEBREAK_12 beats Tunsil"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LT_REAUDIT_H2H_02",
+          "audit_id": "LT_REAUDIT_H2H_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T02:52:58Z",
+          "note": "Commissioner approval t45s413 (approve all 20 LT head-to-heads and tiebreaks and the 4 rating changes)"
         }
       ]
     },
