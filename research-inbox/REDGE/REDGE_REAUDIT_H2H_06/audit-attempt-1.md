@@ -1,0 +1,40 @@
+# REDGE_REAUDIT_H2H_06 — Laiatu Latu vs Al-Quadin Muhammad (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "REDGE_REAUDIT_H2H_06_A1",
+  "task_id": "REDGE_REAUDIT_H2H_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Laiatu Latu",
+    "Al-Quadin Muhammad"
+  ],
+  "pair_result": {
+    "winner": "Laiatu Latu",
+    "loser": "Al-Quadin Muhammad",
+    "provisional_order_holds": true,
+    "reasoning": "Latu's 755-snap 2025 (PFF 84.1, 8.5 sacks, 12 TFL) and every-down run role outweigh Muhammad's efficient rotational usage (PFF 81.0 on 206 snaps in 2026; 457 snaps in 2025, 83 run-defense snaps). Order holds.",
+    "key_evidence_for_winner": [
+      "Laiatu Latu (IND) alignment side snapshots 2025-26 left 0 / right 496 -> REDGE; roster ACT (DL); injuries wk2 Questionable (Hamstring)",
+      "Laiatu Latu 2026: Laiatu Latu 2026: PFF edge 2026 overall 66.6 on 370 snaps (194 pass-rush, 145 run-defense, 31 coverage); PFR 2026 9 pressures (3 hurries, 4 QB hits, 1.0 sacks) in 7 games, 17 tackles, 0 missed; 8 g / 370 def snaps; 2.0 sacks, 8 QB hits, 1 TFL, 0 FF, 2 PD; 1 accepted penalties; PFR 2026 9 pressures (3 hurries, 4 QB hits, 1.0 sacks) in 7 games, 17 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Laiatu Latu 2025: Laiatu Latu 2025: PFF edge 2025 overall 84.1 on 755 snaps (437 pass-rush, 253 run-defense, 65 coverage); PFR 2025 26 pressures (7 hurries, 9 QB knockdowns, 8.5 sacks), 45 tackles, 8 missed; 16 g / 756 def snaps; 8.5 sacks, 20 QB hits, 12 TFL, 1 FF, 5 PD; 2 accepted penalties; PFR 2025 26 pressures (7 hurries, 9 QB knockdowns, 8.5 sacks), 45 tackles, 8 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Al-Quadin Muhammad (TB) alignment side snapshots 2025-26 left 161 / right 332 -> REDGE; roster ACT (LB); injuries wk4 Questionable (Knee); wk17 Questionable (Knee)",
+      "Al-Quadin Muhammad 2026: Al-Quadin Muhammad 2026: PFF edge 2026 overall 81 on 206 snaps (119 pass-rush, 68 run-defense, 19 coverage); PFR 2026 6 pressures (2 hurries, 2 QB hits, 2.0 sacks) in 5 games, 5 tackles, 0 missed; 8 g / 206 def snaps; 2.0 sacks, 4 QB hits, 2 TFL, 1 FF, 1 PD; 0 accepted penalties; PFR 2026 6 pressures (2 hurries, 2 QB hits, 2.0 sacks) in 5 games, 5 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Al-Quadin Muhammad 2025: Al-Quadin Muhammad 2025: PFF edge 2025 overall 74.5 on 457 snaps (353 pass-rush, 83 run-defense, 21 coverage); PFR 2025 26 pressures (6 hurries, 8 QB knockdowns, 11 sacks), 25 tackles, 0 missed; 17 g / 457 def snaps; 11.0 sacks, 20 QB hits, 9 TFL, 0 FF, 0 PD; 0 accepted penalties; PFR 2025 26 pressures (6 hurries, 8 QB knockdowns, 11 sacks), 25 tackles, 0 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
