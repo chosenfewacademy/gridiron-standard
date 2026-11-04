@@ -12,6 +12,10 @@ import { TIEBREAK_TASK } from "../src/tiebreak.js";
 import { buildLock, applyLock } from "../src/reaudit-lock.js";
 import { ORDER_V112, varianceMetrics } from "../src/stage-engine.js";
 import { triggerTop10Reaudit } from "../src/top10-reaudit.js";
+import { carryForward } from "../src/reaudit-carry.js";
+import { reauditRunTag } from "../src/reaudit-executor.js";
+import { runScoped, GrokBotFileAuditAdapter } from "../src/grok-bot-transport.js";
+import { carriedApprovalsOk, queueUpdateAllowed } from "../scripts/protected-paths-check.mjs";
 
 const J = (o: any) => JSON.stringify(o, null, 2);
 const NOW = "2026-11-02T13:30:00-05:00";
@@ -308,6 +312,45 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     assert.equal(buildLock(inp, root).record.audit_id, "R_REAUDIT_LOCK_20261104C");
     const fl = { status: "LOCKED", first_lock: true, baseline_file: "data/baselines/S.reaudit-20261104b.json", lock_audit_id: "S_REAUDIT_LOCK_20261104B", history: [] };
     assert.equal(locksChangeAllowed(JSON.stringify(locks0), JSON.stringify({ ...locks0, positions: { ...locks0.positions, S: fl } })).ok, false);
+  });
+  test("addendum 2026-11-04d (t56s525/t56s532): reaudit:carry re-records the superseded run's approved player stages; position-wide stages re-run with run-scoped inbox files", async () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "carry-")); fs.mkdirSync(path.join(root, "state"));
+    const A = (t: string, a: string) => ({ decision: "APPROVED", task_id: t, audit_id: a, approved_by: "PhiXCrypto", approved_at: "2026-11-04T10:00:00Z" });
+    const tasks = [["R_REAUDIT_CANDIDATE_AUDIT", "R_REAUDIT_CANDIDATE_AUDIT_A1"], ["R_REAUDIT_RATE_01", "R_REAUDIT_RATE_01_A1"], ["R_REAUDIT_RATE_01", "R_REAUDIT_RATE_01_A2"],
+      ["R_REAUDIT_TIEBREAK_01", "R_REAUDIT_TIEBREAK_01_A1"], ["R_REAUDIT_VARIANCE_AUDIT", "R_REAUDIT_VARIANCE_AUDIT_A1"], ["R_REAUDIT_SCARCITY", "R_REAUDIT_SCARCITY_A1"], ["R_REAUDIT_CROSS_AUDIT", "R_REAUDIT_CROSS_AUDIT_A1"]];
+    const prior = { type: "TOP10_REAUDIT", position: "R", status: "COMPLETED", completed_tasks: [...new Set(tasks.map(x => x[0]))], audit_ids: [...tasks.map(x => x[1]), "R_REAUDIT_LOCK_20261104"],
+      approvals: [...tasks.map(([t, a]) => A(t, a)), { decision: "REJECTED", task_id: "R_REAUDIT_RATE_01", audit_id: "R_REAUDIT_RATE_01_A9" }] };
+    const fresh = { type: "TOP10_REAUDIT", position: "R", status: "QUEUED_NOT_STARTED", supersedes_lock_audit_id: "R_REAUDIT_LOCK_20261104", requested_by: "PhiXCrypto" };
+    const st0 = { positions: { R: "PENDING" }, pending_reaudit_queue: [prior, fresh] };
+    fs.writeFileSync(path.join(root, "state/project-state.json"), JSON.stringify(st0));
+    assert.equal(reauditRunTag(st0, "R"), "R2");
+    assert.throws(() => carryForward("R", { approved_by: "PhiXCrypto", approved_at: "2026-11-04T14:00:00Z", note: "" }, root), /required/);
+    const r = carryForward("R", { approved_by: "PhiXCrypto", approved_at: "2026-11-04T14:00:00Z", note: "t56s532 carry" }, root);
+    assert.equal(r.carried, 4, "candidate, rating + revision, tiebreak carried; variance/scarcity/cross not; rejected never");
+    const st1 = JSON.parse(fs.readFileSync(path.join(root, "state/project-state.json"), "utf8")); const it = st1.pending_reaudit_queue[1];
+    assert.equal(it.status, "IN_PROGRESS"); assert.deepEqual(it.completed_tasks, ["R_REAUDIT_CANDIDATE_AUDIT", "R_REAUDIT_RATE_01", "R_REAUDIT_TIEBREAK_01"]);
+    assert.ok(it.approvals.every((a: any) => a.carried_from === "R_REAUDIT_LOCK_20261104" && a.original_approval.approved_by === "PhiXCrypto"));
+    assert.deepEqual(st1.pending_reaudit_queue[0], prior, "superseded item untouched");
+    assert.throws(() => carryForward("R", { approved_by: "PhiXCrypto", approved_at: "2026-11-04T14:00:00Z", note: "x" }, root), /freshly triggered/, "carry once");
+    // guard: the carry passes the queue rules; forged or position-wide carried approvals fail
+    assert.equal(queueUpdateAllowed(st0.pending_reaudit_queue, st1.pending_reaudit_queue).ok, true);
+    const forge = (ap: any) => { const q = JSON.parse(JSON.stringify(st1.pending_reaudit_queue)); q[1].approvals.push(ap); q[1].audit_ids.push(ap.audit_id); if (!q[1].completed_tasks.includes(ap.task_id)) q[1].completed_tasks.push(ap.task_id); return q; };
+    const base = { decision: "APPROVED", approved_by: "PhiXCrypto", approved_at: "x", carried_from: "R_REAUDIT_LOCK_20261104" };
+    assert.equal(carriedApprovalsOk(st0.pending_reaudit_queue, forge({ ...base, task_id: "R_REAUDIT_VARIANCE_AUDIT", audit_id: "R_REAUDIT_VARIANCE_AUDIT_A1" })).ok, false);
+    assert.equal(carriedApprovalsOk(st0.pending_reaudit_queue, forge({ ...base, task_id: "R_REAUDIT_RATE_01", audit_id: "R_REAUDIT_RATE_01_A9" })).ok, false, "rejected record cannot be carried");
+    assert.equal(carriedApprovalsOk(st0.pending_reaudit_queue, forge({ ...base, carried_from: "R_REAUDIT_LOCK_20261103", task_id: "R_REAUDIT_RATE_01", audit_id: "R_REAUDIT_RATE_01_A1" })).ok, false);
+    // run-scoped inbox names; plan tags the task; the analyst reads only the run-scoped attempt
+    assert.equal(runScoped({ inbox_run: "R2" }, "audit-attempt", "-1.md"), "audit-attempt-R2-1.md"); assert.equal(runScoped({}, "evidence", ".json"), "evidence.json");
+    const inbox = path.join(root, "research-inbox"); fs.mkdirSync(path.join(inbox, "R/R_REAUDIT_VARIANCE_AUDIT"), { recursive: true });
+    fs.writeFileSync(path.join(inbox, "R/R_REAUDIT_VARIANCE_AUDIT/audit-attempt-1.md"), "OLD");
+    await assert.rejects(() => new GrokBotFileAuditAdapter(inbox).runAudit({ task: { position: "R", task_id: "R_REAUDIT_VARIANCE_AUDIT", inbox_run: "R2" } } as any), /audit-attempt-R2-1\.md/);
+    fs.writeFileSync(path.join(inbox, "R/R_REAUDIT_VARIANCE_AUDIT/audit-attempt-R2-1.md"), "NEW");
+    assert.equal((await new GrokBotFileAuditAdapter(inbox).runAudit({ task: { position: "R", task_id: "R_REAUDIT_VARIANCE_AUDIT", inbox_run: "R2" } } as any)).text, "NEW");
+    // guard: authored inbox texts and run-scoped files are add-only
+    assert.equal(violations(["A\tresearch-inbox/R/R_REAUDIT_VARIANCE_AUDIT/audit-attempt-R2-1.md"]).length, 0);
+    assert.equal(violations(["M\tresearch-inbox/R/R_REAUDIT_VARIANCE_AUDIT/audit-attempt-1.md"]).length, 1);
+    assert.equal(violations(["M\tresearch-inbox/R/R_REAUDIT_RATE_01/evidence-R2.json"]).length, 1);
+    assert.equal(violations(["M\tresearch-inbox/R/R_REAUDIT_RATE_01/evidence.json"]).length, 0, "first-run evidence refresh unchanged");
   });
   test("guard sixth exception (t33s4): lock outputs only; variance_audit is position-wide", () => {
     assert.ok(isPositionWideTask({ type: "variance_audit" } as any));

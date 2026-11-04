@@ -15,6 +15,10 @@ export const PROTECTED = [
 ];
 // Existing evidence logs may receive NEW files (propose-research-artifact) but never edits/deletes.
 const APPEND_ONLY = /^logs\/qb-reconstruction\//;
+// Addendum 2026-11-04d: authored audit texts (audit-attempt-*.md, revision-A*.md) and every run-scoped inbox file
+// (*-R<n>.json / *-R<n>-<k>.md) are history: new files only, never edited, deleted or renamed. A superseding run writes
+// run-scoped names instead of reusing the earlier run's files.
+export const INBOX_APPEND_ONLY = /^research-inbox\/.+\/(audit-attempt-[^/]+\.md|revision-A\d+\.md|[^/]+-R\d+(-\d+)?\.(json|md))$/;
 
 // NARROW EXCEPTION (commissioner-approved 2026-11-01): state/project-state.json may change only by APPENDING
 // TOP10_REAUDIT items with status QUEUED_NOT_STARTED to pending_reaudit_queue. Every other key must be identical
@@ -129,10 +133,30 @@ export function lockBaselineAddAllowed(status, p, jsonText, locksHeadText) {
   } catch { return false; }
 }
 
+// EIGHTH NARROW EXCEPTION (addendum 2026-11-04d, commissioner t56s525/t56s532): reaudit:carry may append approvals with
+// `carried_from` to a superseding item. Each must name the item's supersedes_lock_audit_id, and re-record an APPROVED approval
+// (same task_id + audit_id) of the COMPLETED item of that position whose last audit id is that lock. Variance, scarcity,
+// cross-audit and lock tasks are never carried (they re-run under the new item).
+export const CARRY_RERUN_RE = /_REAUDIT_(VARIANCE_AUDIT|SCARCITY|CROSS_AUDIT|LOCK)$/;
+export function carriedApprovalsOk(qa = [], qb = []) {
+  for (let i = 0; i < qb.length; i++) {
+    const y = qb[i], old = (qa[i]?.approvals ?? []).length;
+    for (const ap of (y?.approvals ?? []).slice(old)) {
+      if (!ap || ap.carried_from === undefined) continue;
+      if (ap.carried_from !== y.supersedes_lock_audit_id) return { ok: false, reason: `queue item ${i}: carried_from must equal supersedes_lock_audit_id` };
+      if (CARRY_RERUN_RE.test(String(ap.task_id))) return { ok: false, reason: `queue item ${i}: ${ap.task_id} must re-run, not be carried` };
+      const prior = qb.find(x => x?.type === "TOP10_REAUDIT" && x.position === y.position && x.status === "COMPLETED" && (x.audit_ids ?? []).at(-1) === ap.carried_from);
+      if (!prior || !(prior.approvals ?? []).some(p => p?.decision === "APPROVED" && p.task_id === ap.task_id && p.audit_id === ap.audit_id))
+        return { ok: false, reason: `queue item ${i}: carried ${ap.audit_id} is not an approved record of ${ap.carried_from}` };
+    }
+  }
+  return { ok: true };
+}
 export function queueUpdateAllowed(qa = [], qb) {
   if (!Array.isArray(qa) || !Array.isArray(qb)) return { ok: false, reason: "pending_reaudit_queue must be an array" };
   if (qb.length < qa.length) return { ok: false, reason: "queue items may not be removed" };
   for (let i = 0; i < qa.length; i++) { const r = reauditItemUpdate(qa[i], qb[i]); if (!r.ok) return { ok: false, reason: `queue item ${i}: ${r.reason}` }; }
+  const c = carriedApprovalsOk(qa, qb); if (!c.ok) return c;
   for (const it of qb.slice(qa.length))
     if (!it || it.type !== "TOP10_REAUDIT" || it.status !== "QUEUED_NOT_STARTED" || typeof it.position !== "string")
       return { ok: false, reason: "appended items must be TOP10_REAUDIT with status QUEUED_NOT_STARTED" };
@@ -176,6 +200,7 @@ export function violations(lines, allowState = () => false, allowAudit = () => f
       if (hit && status === "A" && LOCK_BASELINE_RE.test(p) && allowBaseline(status, p)) continue;
       if (hit) out.push(`${status} ${p} (${hit.why})`);
       else if (APPEND_ONLY.test(p) && status[0] !== "A") out.push(`${status} ${p} (append-only research history)`);
+      else if (INBOX_APPEND_ONLY.test(p) && status[0] !== "A") out.push(`${status} ${p} (append-only inbox audit text / run-scoped file)`);
     }
   }
   return out;

@@ -41,6 +41,7 @@
     "reaudit:revise": "tsx src/rating-revision.ts",
     "reaudit:tiebreak": "tsx src/tiebreak.ts",
     "reaudit:lock": "tsx src/reaudit-lock.ts",
+    "reaudit:carry": "tsx src/reaudit-carry.ts",
     "weekly:propose": "tsx src/weekly-update.ts propose",
     "weekly:validate": "tsx src/weekly-update.ts validate",
     "madden:ovr-check": "tsx src/madden-ovr-check.ts",

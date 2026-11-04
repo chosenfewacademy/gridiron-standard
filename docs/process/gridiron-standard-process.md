@@ -73,3 +73,7 @@ Audit history is in audits/league/{QB,RB,WR,TE,LT}. The original v1.0 baselines 
 ## Addendum 2026-11-04c (ET), user t56s525 — same-day re-lock and superseding re-audit
 - Details: docs/addendum-2026-11-04c-same-day-relock.md. A second lock of the same position on the same day gets a letter suffix (`<POS>_REAUDIT_LOCK_<date>B` -> `data/baselines/<POS>.reaudit-<date>b.json`, then C..Z), with `supersedes` pointing at the prior baseline; the prior baseline is kept and appended to history (add-only).
 - A re-audit-locked position (PENDING in state, locks entry LOCKED with a `_REAUDIT_LOCK_` id) may be re-triggered with `reaudit:trigger` for a superseding re-audit; the new item is IN_PROGRESS so revise/tiebreak apply. New stage records need the next free `_A#` IDs.
+
+## Addendum 2026-11-04d (ET), t56s525 / t56s532 — superseding re-audit carry-forward
+- Details: docs/addendum-2026-11-04d-carry-forward.md. After re-triggering a re-audit-locked position, `reaudit:carry` re-records the superseded run's approved player stages (candidate, dossiers, ratings, head-to-heads, tiebreaks) on the new item with `carried_from`; variance, scarcity, cross-audit and lock re-run.
+- A superseding run (R2, R3, ...) uses run-scoped inbox files (`evidence-R2.json`, `audit-attempt-R2-1.md`, ...); earlier runs' inbox texts are add-only history. Push order per position: trigger alone, then the run, then the lock alone.

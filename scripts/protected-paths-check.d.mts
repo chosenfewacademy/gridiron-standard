@@ -15,3 +15,6 @@ export declare const LOCKS_PATH: string;
 export declare function lockCompletionOk(x: any, y: any): { ok: boolean; reason?: string };
 export declare function locksChangeAllowed(baseText: string, headText: string): { ok: boolean; reason?: string; position?: string; baseline_file?: string };
 export declare function lockBaselineAddAllowed(status: string, p: string, jsonText: string, locksHeadText: string): boolean;
+export declare const CARRY_RERUN_RE: RegExp;
+export declare function carriedApprovalsOk(qa: any[], qb: any[]): { ok: boolean; reason?: string };
+export declare const INBOX_APPEND_ONLY: RegExp;

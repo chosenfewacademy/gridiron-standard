@@ -38,12 +38,24 @@ export function lockedBaselineControls(pos: string, root = process.cwd()) {
   return { top_10: (b.top_10 ?? []).map((x: any) => ({ rank: x.rank, player: x.player })), external_controls: b.external_controls ?? [] };
 }
 
+/** Addendum 2026-11-04d (t56s525/t56s532): run tag of the active item ("R2", "R3", ...) when it supersedes an earlier
+ *  re-audit lock, else undefined. Inbox files of such a run are run-scoped (evidence-R2.json, audit-attempt-R2-<n>.md, ...),
+ *  so a superseding re-audit never reads or overwrites the committed inbox files of the earlier run. */
+export function reauditRunTag(state: any, pos: string): string | undefined {
+  const q: any[] = state.pending_reaudit_queue ?? []; const { index, item } = findReauditItem(state, pos);
+  if (!item?.supersedes_lock_audit_id) return undefined;
+  return "R" + q.slice(0, index + 1).filter(x => x?.type === "TOP10_REAUDIT" && x.position === pos).length;
+}
+
 export function planReaudit(state: any, pos: string, root = process.cwd()) {
   const { item } = findReauditItem(state, pos);
   if (!item) throw new Error(`${pos}: no active TOP10_REAUDIT queue item (trigger with npm run reaudit:trigger).`);
-  return planNext(state, { root, auditsRoot: path.join(root, "audits/league"), metricsPath: path.join(root, "config/position-metrics.json"),
+  const run = reauditRunTag(state, pos);
+  const plan = planNext(state, { root, auditsRoot: path.join(root, "audits/league"), metricsPath: path.join(root, "config/position-metrics.json"),
     reaudit: { position: pos, completed_tasks: item.completed_tasks ?? [], baseline_controls: lockedBaselineControls(pos, root),
       approved_audit_ids: (item.approvals ?? []).filter((a: any) => a.decision === "APPROVED").map((a: any) => a.audit_id) } });
+  if (run && plan.task) (plan.task as any).inbox_run = run;
+  return plan;
 }
 
 /** Records a commissioner approval of the awaiting re-audit stage (append-only). Never touches locks/baselines/cards/pointers. */

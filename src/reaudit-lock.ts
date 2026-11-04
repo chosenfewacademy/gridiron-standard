@@ -91,7 +91,8 @@ if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) {
   const inp: LockInput = { position: pos, confirm: flag("--confirm") ?? "", approved_by: flag("--by") ?? "", approved_at: flag("--at") ?? "",
     final_order: plan.task?.final_order ?? [], next_stage: plan.stage,
     pending_review: item.status !== "IN_PROGRESS" || !!item.awaiting, stage_audit_ids: item.audit_ids ?? [],
-    scarcity: approvedOutput(`${pos}_REAUDIT`, `${pos}_REAUDIT_SCARCITY`)?.scarcity };
+    // Addendum 2026-11-04d: the approved scarcity record of THIS run (latest approved), not the earlier baseline's summary.
+    scarcity: approvedOutput(pos, `${pos}_REAUDIT_SCARCITY`, { reaudit: { position: pos, approved_audit_ids: (item.approvals ?? []).map((x: any) => x.audit_id) } } as any)?.scarcity };
   const out = a.includes("--dry-run") ? buildLock(inp) : applyLock(inp);
   console.log(JSON.stringify({ dry_run: a.includes("--dry-run"), file: out.file, lock_audit_id: out.record.audit_id, top_10: out.baseline.top_10 }, null, 2));
 }

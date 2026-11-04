@@ -17,12 +17,17 @@ export function inboxDir(task: Record<string, unknown>, root = INBOX_ROOT): stri
   return dir;
 }
 const readJson = (file: string) => JSON.parse(fs.readFileSync(file, "utf8"));
+/** Addendum 2026-11-04d: a superseding re-audit run (task.inbox_run "R2", ...) uses run-scoped inbox file names. */
+export const runScoped = (task: Record<string, unknown>, base: string, ext: string) => {
+  const r = typeof task.inbox_run === "string" && /^R\d+$/.test(task.inbox_run) ? task.inbox_run : "";
+  return r ? `${base}-${r}${ext}` : `${base}${ext}`;
+};
 
 export class GrokBotFileResearchAdapter implements ResearchAdapter {
   constructor(private readonly root = INBOX_ROOT, private readonly now = () => new Date().toISOString()) {}
   async gather(task: Record<string, unknown>): Promise<EvidencePackage> {
     const dir = inboxDir(task, this.root);
-    const evidenceFile = path.join(dir, "evidence.json"), provFile = path.join(dir, "provenance.json");
+    const evidenceFile = path.join(dir, runScoped(task, "evidence", ".json")), provFile = path.join(dir, runScoped(task, "provenance", ".json"));
     const base: EvidencePackage = { task_id: String(task.task_id ?? ""), position: String(task.position ?? ""),
       researched_at: this.now(), sources: [], normalized: {}, conflicts: [], minimum_evidence_met: false, missing_evidence: [] };
     // Missing file = research not yet delivered: stop before any audit record or queue mutation.
@@ -62,10 +67,10 @@ export class GrokBotFileAuditAdapter {
     const dir = inboxDir(input.task, this.root);
     if (input.revision_feedback?.length) {
       fs.mkdirSync(dir, { recursive: true });
-      const fb = path.join(dir, `feedback-attempt-${this.attempt - 1}.json`);
+      const fb = path.join(dir, runScoped(input.task, "feedback-attempt", `-${this.attempt - 1}.json`));
       if (!fs.existsSync(fb)) fs.writeFileSync(fb, JSON.stringify({ attempt: this.attempt - 1, errors: input.revision_feedback }, null, 2) + "\n");
     }
-    const file = path.join(dir, `audit-attempt-${this.attempt}.md`);
+    const file = path.join(dir, runScoped(input.task, "audit-attempt", `-${this.attempt}.md`));
     if (!fs.existsSync(file)) throw new AwaitingGrokBotAuditError(path.relative(process.cwd(), file));
     const text = fs.readFileSync(file, "utf8");
     return { raw: { transport: "GROK_BOT_FILE_TRANSPORT", file }, text };

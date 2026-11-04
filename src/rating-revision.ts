@@ -16,7 +16,7 @@ import { withTransportChecks } from "./high-trait-evidence.js";
 import { parseAuditJson } from "./audit-parser.js";
 import { validateAudit } from "./audit-validator.js";
 import { saveAuditRecord } from "./persistence.js";
-import { findReauditItem } from "./reaudit-executor.js";
+import { findReauditItem, reauditRunTag } from "./reaudit-executor.js";
 
 /** Effective rating per task: the newest approved revision; superseded records are excluded. */
 export function effectiveRatings(pos: string, item: any, root = process.cwd()) {
@@ -42,6 +42,8 @@ export async function reviseRating(pos: string, o: { task_id: string; revision: 
   if (!prior) throw new Error(`${o.task_id}: no approved effective rating to supersede.`);
   const dir = path.join(root, "research-inbox", pos, o.task_id);
   const task = JSON.parse(fs.readFileSync(path.join(dir, "task.json"), "utf8"));
+  // Addendum 2026-11-04d: a superseding run reads its fresh run-scoped evidence (evidence-R2.json), never the earlier run's file.
+  const run = reauditRunTag(state, pos); if (run) task.inbox_run = run;
   const text = fs.readFileSync(path.join(dir, `revision-A${o.revision}.md`), "utf8");
   const cwd = process.cwd();
   try {
