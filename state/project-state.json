@@ -5066,7 +5066,7 @@
         "position": "LG",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "IN_PROGRESS",
       "pool_file": "data/candidate-pools/LG.reaudit.json",
       "baseline_file": null,
@@ -5117,7 +5117,8 @@
         "LG_REAUDIT_TIEBREAK_06",
         "LG_REAUDIT_TIEBREAK_07",
         "LG_REAUDIT_TIEBREAK_08",
-        "LG_REAUDIT_VARIANCE_AUDIT"
+        "LG_REAUDIT_VARIANCE_AUDIT",
+        "LG_REAUDIT_SCARCITY"
       ],
       "audit_ids": [
         "LG_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -5170,18 +5171,14 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "LG_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T03:21:13.256Z",
+      "updated_at": "2026-11-04T03:21:13.522Z",
       "last_result": {
         "task_id": "LG_REAUDIT_SCARCITY",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LG_REAUDIT_SCARCITY",
-        "audit_id": "LG_REAUDIT_SCARCITY_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -5554,6 +5551,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:20:57Z",
           "note": "Standing commissioner approval t46u/t50s441: Approved variance fix (LG_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): PBK 71->74 (2025 PFF 70.3 on 679 pass-block snaps). OVR unchanged."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LG_REAUDIT_SCARCITY",
+          "audit_id": "LG_REAUDIT_SCARCITY_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:21:13Z",
+          "note": "Standing commissioner approval t46u/t50s441: scarcity audit approved"
         }
       ]
     }
