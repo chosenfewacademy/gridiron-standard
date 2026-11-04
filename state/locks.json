@@ -169,11 +169,18 @@
       "status": "LOCKED",
       "mutation_permission": "TOP10_REAUDIT_ONLY",
       "first_lock": true,
-      "baseline_file": "data/baselines/LEDGE.reaudit-20261104.json",
+      "baseline_file": "data/baselines/LEDGE.reaudit-20261104b.json",
       "version": "reaudit-20261104",
-      "locked_at": "2026-11-04T11:12:37Z",
-      "lock_audit_id": "LEDGE_REAUDIT_LOCK_20261104",
-      "history": []
+      "locked_at": "2026-11-04T19:33:20Z",
+      "lock_audit_id": "LEDGE_REAUDIT_LOCK_20261104B",
+      "history": [
+        {
+          "baseline_file": "data/baselines/LEDGE.reaudit-20261104.json",
+          "version": "reaudit-20261104",
+          "superseded_at": "2026-11-04T19:33:20Z",
+          "superseded_by": "LEDGE_REAUDIT_LOCK_20261104B"
+        }
+      ]
     },
     "DT": {
       "status": "LOCKED",
