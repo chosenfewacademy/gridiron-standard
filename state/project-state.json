@@ -7676,7 +7676,7 @@
         "position": "REDGE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/REDGE.reaudit.json",
       "baseline_file": null,
@@ -7775,19 +7775,30 @@
         "REDGE_REAUDIT_TIEBREAK_05_A1",
         "REDGE_REAUDIT_TIEBREAK_06_A1",
         "REDGE_REAUDIT_TIEBREAK_07_A1",
-        "REDGE_REAUDIT_TIEBREAK_08_A1"
+        "REDGE_REAUDIT_TIEBREAK_08_A1",
+        "REDGE_REAUDIT_TIEBREAK_09_A1"
       ],
       "current_stage": "scarcity_audit",
       "current_task": "REDGE_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T04:39:21.463Z",
+      "updated_at": "2026-11-04T04:39:22.009Z",
       "last_result": {
-        "task_id": "REDGE_REAUDIT_TIEBREAK_08",
+        "task_id": "REDGE_REAUDIT_TIEBREAK_09",
         "status": "FLAGGED",
         "flags": [
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "TIEBREAK_REVIEW",
+        "task_id": "REDGE_REAUDIT_TIEBREAK_09",
+        "audit_id": "REDGE_REAUDIT_TIEBREAK_09_A1",
+        "pending": [
+          {
+            "task_id": "REDGE_REAUDIT_TIEBREAK_09",
+            "audit_id": "REDGE_REAUDIT_TIEBREAK_09_A1"
+          }
+        ]
+      },
       "approvals": [
         {
           "decision": "APPROVED",
