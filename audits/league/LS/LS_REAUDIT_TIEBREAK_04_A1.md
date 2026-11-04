@@ -1,0 +1,40 @@
+# LS_REAUDIT_TIEBREAK_04 — Christian Kuntz vs Trent Sieg (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "LS_REAUDIT_TIEBREAK_04_A1",
+  "task_id": "LS_REAUDIT_TIEBREAK_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LS",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Christian Kuntz",
+    "Trent Sieg"
+  ],
+  "pair_result": {
+    "winner": "Christian Kuntz",
+    "loser": "Trent Sieg",
+    "provisional_order_holds": true,
+    "reasoning": "Thin data. Both have 0 aborted snaps and 2 blocks on their snaps. Christian Kuntz's units are positive both years (9.8/4.7) where Trent Sieg's went 15.8 to -1.3; Kuntz has 3 coverage tackles to Sieg's 1.",
+    "key_evidence_for_winner": [
+      "Christian Kuntz (PIT) role long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS; roster ACT (LS); injuries wk16 Questionable (Knee)",
+      "Christian Kuntz 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 74 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 4.7 (rank 7); 0 accepted penalties; 2026 snaps on 23 FG attempts (18 made), 16 XP, 32 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps",
+      "Christian Kuntz 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 141 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points 9.8 (rank 8); 0 accepted penalties; 2025 snaps on 32 FG attempts (27 made), 43 XP, 62 punts; 0 aborted/bad snaps in pbp; 2 kicks/punts blocked on his snaps"
+    ],
+    "key_evidence_for_loser": [
+      "Trent Sieg (DAL) role long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS; roster ACT (LS); injuries no injury designation 2025-26",
+      "Trent Sieg 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 59 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points -1.3 (rank 19); 0 accepted penalties; 2026 snaps on 19 FG attempts (15 made), 21 XP, 19 punts; 0 aborted/bad snaps in pbp; 2 kicks/punts blocked on his snaps",
+      "Trent Sieg 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 134 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 15.8 (rank 4); 0 accepted penalties; 2025 snaps on 42 FG attempts (36 made), 48 XP, 41 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
