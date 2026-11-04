@@ -60,3 +60,7 @@ Audit history is in audits/league/{QB,RB,WR,TE,LT}. The original v1.0 baselines 
 - push.sh (/workspace/push.sh, outside the repo) hard-codes `cd /workspace/gridiron-standard`, so pushes from a worktree must use an equivalent fast-forward-only push.
 - README "Current bootstrap state" still lists LG / Pair Audit 3 as the current workflow.
 - The TE and LT lock IDs carry UTC dates (20261104) for locks made on the evening of Nov 3 ET.
+
+## Addendum 2026-11-03 (ET), card t47u / t50u
+- Discrepancy 1 (cadence/scope) is **RESOLVED**. docs/weekly-update.md now has a 2026-11-03 addendum: every other Tuesday at about 10 AM ET from Nov 17, 2026, all locked positions, covering both weeks since the last run, proposals only.
+- Discrepancy 4 (stale README) is **RESOLVED**. README "Current bootstrap state" now lists the five re-audit locks and says LG runs the full re-audit through the never-locked-position engine change.

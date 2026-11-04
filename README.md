@@ -6,17 +6,17 @@ This repository implements the frozen Gridiron Standard architecture.
 
 ## Current bootstrap state
 
-Locked existing positions:
-- QB
-- RB
-- WR
-- TE
-- LT
+Locked positions (top-10 re-audit locks; see docs/process/gridiron-standard-process.md section E):
+- QB (QB_REAUDIT_LOCK_20261102)
+- RB (RB_REAUDIT_LOCK_20261103)
+- WR (WR_REAUDIT_LOCK_20261103)
+- TE (TE_REAUDIT_LOCK_20261104)
+- LT (LT_REAUDIT_LOCK_20261104)
 
 Current workflow:
-- LG
-- Pair Audit 3
-- Steve Avila vs Tyler Smith
+- LG: runs the full top-10 re-audit pathway through the never-locked-position engine change (in progress).
+- Team-by-team position rooms for the locked positions.
+- In-season updates every other Tuesday at about 10 AM ET from Nov 17, 2026 (docs/weekly-update.md, 2026-11-03 addendum).
 
 Remaining sequence:
 LG -> C -> RG -> RT -> REDGE -> LEDGE -> DT -> MIKE -> WILL -> SAM -> CB -> FS -> SS -> K -> P

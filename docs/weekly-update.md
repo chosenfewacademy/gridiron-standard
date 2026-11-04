@@ -37,3 +37,10 @@ Baseline: `data/baselines/QB.reaudit-20261102.json` (QB_REAUDIT_LOCK_20261102). 
 4. `npm run weekly:validate -- QB --week N` must print OK.
 5. Run typecheck, test and preflight, then commit the proposal (add-only) and push fast-forward.
 6. Report the proposed changes to the commissioner. Lock only on explicit confirmation.
+
+## Addendum 2026-11-03 (ET): cadence and scope (commissioner PhiXCrypto, cards t47u / t50u)
+Add-only. The text above is unchanged except where this addendum overrides it.
+- **Cadence:** in-season updates run **every other Tuesday at about 10 AM ET, starting Nov 17, 2026**. This replaces the weekly run after Monday night's game.
+- **Scope:** every **locked position**, not just QB. Today that means QB, RB, WR, TE and LT, plus any position locked later. Run `weekly:propose` / `weekly:validate` per position against that position's current locked re-audit baseline.
+- **Window:** each run covers **both weeks since the last run**. The 15% single-week weight cap, the shrinkage toward baseline and the movement caps above still apply. Never overreact to one week. OVR drift greater than 5 still flags a full TOP10_REAUDIT.
+- **Proposals only:** nothing locks without the commissioner's explicit OK through `reaudit:lock`.
