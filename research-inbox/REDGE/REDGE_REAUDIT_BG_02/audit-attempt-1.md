@@ -1,0 +1,194 @@
+# REDGE_REAUDIT_BG_02 — Micah Parsons background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "REDGE_REAUDIT_BG_02_A1",
+  "task_id": "REDGE_REAUDIT_BG_02",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "player_id": "ext_00-0036932",
+  "players": [
+    "Micah Parsons"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Micah Parsons",
+    "player_id": "ext_00-0036932",
+    "team": "GB",
+    "side_assignment": {
+      "R25": 221,
+      "R26": 275,
+      "L": 0,
+      "R": 496,
+      "teams": [
+        "DAL",
+        "GB"
+      ],
+      "assign": "REDGE"
+    },
+    "side_rule": "EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LEDGE = defense's left edge (aligned over the offense's right tackle); REDGE = defense's right edge (over the offense's left tackle), matching the repo note 'Right-side edge (offense's left)'. Side evidence = nflverse weekly depth charts 2025 + 2026 (ESPN-sourced): each team-day snapshot counts once; LDE (4-3 or 3-4) or 3-4 WLB (ESPN 3-4 layout slot 4, left of LILB) = left; RDE or 3-4 SLB (slot 7, right of RILB) = right; 4-3 WLB/SLB are off-ball LBs and not counted. The side with more snapshots across both seasons wins; a player appears in only one list. PFF alignment splits (left/right snap counts) are paywalled and NGS publishes no side split, so depth charts are the side source; Madden 27's LEDG/REDG card label is reference only and does not decide side.",
+    "pff": {
+      "2025": {
+        "team": "green-bay-packers",
+        "ovr": 91.9,
+        "snaps": 707,
+        "prsh": 436,
+        "rdef": 264,
+        "cov": 7,
+        "status": "RPUP"
+      },
+      "2026": null
+    },
+    "pressures": {
+      "2025": {
+        "tm": "GB",
+        "pos": "DL",
+        "g": "14",
+        "prss": "48",
+        "hrry": "22",
+        "qbkd": "12",
+        "sk": "12.5",
+        "comb": "41",
+        "m_tkl": "3"
+      },
+      "2026": null
+    },
+    "espn_win_rates": {
+      "prwr": null,
+      "rswr": null
+    },
+    "snaps": {
+      "2025": {
+        "games": 14,
+        "defs": 707
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 17.0,
+        "def_tackle_assists": 22.0,
+        "def_tackles_for_loss": 12.0,
+        "def_fumbles_forced": 2.0,
+        "def_sacks": 12.5,
+        "def_qb_hits": 27.0,
+        "def_pass_defended": 1.0
+      }
+    },
+    "penalties": {
+      "2025": 6,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk1 Questionable (Back)",
+        "wk2 Questionable (Back)"
+      ]
+    },
+    "summary_lines": [
+      "Micah Parsons (GB) Micah Parsons 2026: no PFF edge grade 2026; no PFR 2026 pressure line; no snaps; no stats; 0 accepted penalties; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Micah Parsons 2025: PFF edge 2025 overall 91.9 on 707 snaps (436 pass-rush, 264 run-defense, 7 coverage); PFR 2025 48 pressures (22 hurries, 12 QB knockdowns, 12.5 sacks), 41 tackles, 3 missed; 14 g / 707 def snaps; 12.5 sacks, 27 QB hits, 12 TFL, 2 FF, 1 PD; 6 accepted penalties",
+      "Micah Parsons alignment: side snapshots 2025-26 left 0 / right 496 -> REDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position LB; Madden card REDG (reference only)",
+      "Micah Parsons injury reports: wk1 Questionable (Back); wk2 Questionable (Back); roster status RES"
+    ],
+    "availability": {
+      "roster_status": "RES"
+    },
+    "limitations": [
+      "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports",
+      "limited 2026 sample (reserve/IR/PUP)"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PMV",
+      "FMV",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2026",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2025",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:30Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
