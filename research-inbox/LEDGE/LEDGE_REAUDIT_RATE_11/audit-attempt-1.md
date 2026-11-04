@@ -1,0 +1,372 @@
+# LEDGE_REAUDIT_RATE_11 — Tuli Tuipulotu rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "LEDGE_REAUDIT_RATE_11_A1",
+  "task_id": "LEDGE_REAUDIT_RATE_11",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "player_id": "ext_00-0039111",
+  "players": [
+    "Tuli Tuipulotu"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 76,
+    "ACC": 78,
+    "AGI": 76,
+    "COD": 70,
+    "STR": 80,
+    "AWR": 82,
+    "PRC": 82,
+    "TAK": 90,
+    "POW": 80,
+    "BSH": 80,
+    "PMV": 76,
+    "FMV": 70,
+    "PUR": 84,
+    "INJ": 88,
+    "STA": 90,
+    "TGH": 86
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PMV": "MEDIUM",
+    "FMV": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 32 pressures (9 hurries, 10 QB knockdowns, 13 sacks), 49 tackles, 3 missed; PFR 2026 9 pressures (1 hurries, 5 QB hits, 2.0 sacks) in 6 games, 26 tackles, 2 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR 35% (#1, 44/124). Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 32 pressures (9 hurries, 10 QB knockdowns, 13 sacks), 49 tackles, 3 missed; PFR 2026 9 pressures (1 hurries, 5 QB hits, 2.0 sacks) in 6 games, 26 tackles, 2 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR 35% (#1, 44/124). Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 32 pressures (9 hurries, 10 QB knockdowns, 13 sacks), 49 tackles, 3 missed; PFR 2026 9 pressures (1 hurries, 5 QB hits, 2.0 sacks) in 6 games, 26 tackles, 2 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR 35% (#1, 44/124). Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 32 pressures (9 hurries, 10 QB knockdowns, 13 sacks), 49 tackles, 3 missed; PFR 2026 9 pressures (1 hurries, 5 QB hits, 2.0 sacks) in 6 games, 26 tackles, 2 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR 35% (#1, 44/124). Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF edge 2026 overall 73.3 on 365 snaps (160 pass-rush, 172 run-defense, 33 coverage); ESPN 2026 edge PRWR outside the published top 20; RSWR 35% (#1, 44/124). Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 0/1; PFF edge 2026 overall 73.3 on 365 snaps (160 pass-rush, 172 run-defense, 33 coverage). Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR outside the published top 20; RSWR 35% (#1, 44/124); PFF edge 2025 overall 67.3 on 791 snaps (446 pass-rush, 294 run-defense, 51 coverage); PFF edge 2026 overall 73.3 on 365 snaps (160 pass-rush, 172 run-defense, 33 coverage); TFL in 16 g / 733 def snaps; 13.0 sacks, 23 QB hits, 20 TFL, 2 FF, 3 PD / 7 g / 365 def snaps; 3.0 sacks, 8 QB hits, 3 TFL, 2 FF, 3 PD. Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 32 pressures (9 hurries, 10 QB knockdowns, 13 sacks), 49 tackles, 3 missed; PFR 2026 9 pressures (1 hurries, 5 QB hits, 2.0 sacks) in 6 games, 26 tackles, 2 missed. Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 32 pressures (9 hurries, 10 QB knockdowns, 13 sacks), 49 tackles, 3 missed; PFR 2026 9 pressures (1 hurries, 5 QB hits, 2.0 sacks) in 6 games, 26 tackles, 2 missed. Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR outside the published top 20; RSWR 35% (#1, 44/124); PFF edge 2025 overall 67.3 on 791 snaps (446 pass-rush, 294 run-defense, 51 coverage); PFF edge 2026 overall 73.3 on 365 snaps (160 pass-rush, 172 run-defense, 33 coverage); TFL in 16 g / 733 def snaps; 13.0 sacks, 23 QB hits, 20 TFL, 2 FF, 3 PD / 7 g / 365 def snaps; 3.0 sacks, 8 QB hits, 3 TFL, 2 FF, 3 PD. Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR outside the published top 20; RSWR 35% (#1, 44/124); PFR 2025 32 pressures (9 hurries, 10 QB knockdowns, 13 sacks), 49 tackles, 3 missed; PFR 2026 9 pressures (1 hurries, 5 QB hits, 2.0 sacks) in 6 games, 26 tackles, 2 missed. Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "FMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR outside the published top 20; RSWR 35% (#1, 44/124); PFR 2025 32 pressures (9 hurries, 10 QB knockdowns, 13 sacks), 49 tackles, 3 missed; PFR 2026 9 pressures (1 hurries, 5 QB hits, 2.0 sacks) in 6 games, 26 tackles, 2 missed. Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR outside the published top 20; RSWR 35% (#1, 44/124); PFF edge 2025 overall 67.3 on 791 snaps (446 pass-rush, 294 run-defense, 51 coverage); PFF edge 2026 overall 73.3 on 365 snaps (160 pass-rush, 172 run-defense, 33 coverage); TFL in 16 g / 733 def snaps; 13.0 sacks, 23 QB hits, 20 TFL, 2 FF, 3 PD / 7 g / 365 def snaps; 3.0 sacks, 8 QB hits, 3 TFL, 2 FF, 3 PD. Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Tuli Tuipulotu injury reports: wk1 Questionable (Hip); roster status ACT; 16 g / 733 def snaps; 13.0 sacks, 23 QB hits, 20 TFL, 2 FF, 3 PD (2025), 7 g / 365 def snaps; 3.0 sacks, 8 QB hits, 3 TFL, 2 FF, 3 PD (2026). Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 16 g / 733 def snaps; 13.0 sacks, 23 QB hits, 20 TFL, 2 FF, 3 PD (2025), 7 g / 365 def snaps; 3.0 sacks, 8 QB hits, 3 TFL, 2 FF, 3 PD (2026). Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 16 g / 733 def snaps; 13.0 sacks, 23 QB hits, 20 TFL, 2 FF, 3 PD (2025), 7 g / 365 def snaps; 3.0 sacks, 8 QB hits, 3 TFL, 2 FF, 3 PD (2026). Style: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "TAK": {
+      "tier": "ELITE",
+      "claim": "tackling: PFR 2025 32 pressures (9 hurries, 10 QB knockdowns, 13 sacks), 49 tackles, 3 missed; PFR 2026 9 pressures (1 hurries, 5 QB hits, 2.0 sacks) in 6 games, 26 tackles, 2 missed",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: 16 g / 733 def snaps; 13.0 sacks, 23 QB hits, 20 TFL, 2 FF, 3 PD (2025), 7 g / 365 def snaps; 3.0 sacks, 8 QB hits, 3 TFL, 2 FF, 3 PD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 77,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+  "style_profile": "Tuli Tuipulotu: Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+  "style_evidence": [
+    "Tuli Tuipulotu (LAC) Tuli Tuipulotu 2026: PFF edge 2026 overall 73.3 on 365 snaps (160 pass-rush, 172 run-defense, 33 coverage); PFR 2026 9 pressures (1 hurries, 5 QB hits, 2.0 sacks) in 6 games, 26 tackles, 2 missed; 7 g / 365 def snaps; 3.0 sacks, 8 QB hits, 3 TFL, 2 FF, 3 PD; 1 accepted penalties; ESPN 2026 edge PRWR outside the published top 20; RSWR 35% (#1, 44/124)",
+    "Tuli Tuipulotu 2025: PFF edge 2025 overall 67.3 on 791 snaps (446 pass-rush, 294 run-defense, 51 coverage); PFR 2025 32 pressures (9 hurries, 10 QB knockdowns, 13 sacks), 49 tackles, 3 missed; 16 g / 733 def snaps; 13.0 sacks, 23 QB hits, 20 TFL, 2 FF, 3 PD; 0 accepted penalties",
+    "Tuli Tuipulotu alignment: side snapshots 2025-26 left 494 / right 0 -> LEDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position LB; Madden card LEDG (reference only)",
+    "Tuli Tuipulotu injury reports: wk1 Questionable (Hip); roster status ACT"
+  ],
+  "input_dossier": "LEDGE_REAUDIT_BG_11_A1",
+  "weaknesses": [
+    "pass-rush moves",
+    "PFF grade"
+  ],
+  "limitations": [
+    "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+  ],
+  "side_assignment": "LEDGE (side snapshots 2025-26 left 494 / right 0 -> LEDGE)",
+  "madden_reference": [
+    {
+      "player": "Tuli Tuipulotu",
+      "ovr": 79,
+      "madden_position": "LEDG",
+      "attributes": {
+        "SPD": 77,
+        "ACC": 83,
+        "AGI": 71,
+        "COD": 65,
+        "STR": 88,
+        "AWR": 87,
+        "PRC": 84,
+        "TAK": 80,
+        "POW": 83,
+        "BSH": 80,
+        "PMV": 76,
+        "FMV": 83,
+        "PUR": 85,
+        "INJ": 92,
+        "STA": 81,
+        "TGH": 90
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -2,
+      "delta_attributes": {
+        "SPD": -1,
+        "ACC": -5,
+        "AGI": 5,
+        "COD": 5,
+        "STR": -8,
+        "AWR": -5,
+        "PRC": -2,
+        "TAK": 10,
+        "POW": -3,
+        "BSH": 0,
+        "PMV": 0,
+        "FMV": -13,
+        "PUR": -1,
+        "INJ": -4,
+        "STA": 9,
+        "TGH": -4
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 2,
+    "attribute_gaps_10plus": {
+      "TAK": 10,
+      "FMV": -13
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
