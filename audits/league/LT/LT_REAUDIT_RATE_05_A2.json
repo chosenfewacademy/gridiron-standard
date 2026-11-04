@@ -1,0 +1,470 @@
+{
+  "audit_id": "LT_REAUDIT_RATE_05_A2",
+  "task_id": "LT_REAUDIT_RATE_05",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "player_id": "tristan_wirfs",
+  "players": [
+    "Tristan Wirfs"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 92,
+    "SPD": 78,
+    "ACC": 82,
+    "AGI": 80,
+    "COD": 76,
+    "AWR": 88,
+    "INJ": 72,
+    "STA": 86,
+    "TGH": 90,
+    "PBK": 88,
+    "PBP": 88,
+    "PBF": 88,
+    "RBK": 88,
+    "RBP": 89,
+    "RBF": 86,
+    "IBL": 90,
+    "LBK": 88
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Tristan Wirfs (TB) 2026: PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54); 8 g / 514 off snaps; 3 accepted penalties {'False Start': 3}; depth-chart side {'LT': 225}; Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT); pass/run snap mix PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT); pass/run snap mix PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT); pass/run snap mix PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT); pass/run snap mix PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 3 accepted penalties {'False Start': 3}, 2025 4 accepted penalties {'Offensive Holding': 2, 'False Start': 2}; PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Tristan Wirfs injury reports: {'2025': ['wk1 Out (Knee)', 'wk2 Out (Knee)', 'wk3 Out (Knee)', 'wk4 Questionable (Knee)', 'wk14 Questionable (Oblique)', 'wk17 Out (Toe)']}; roster status ACT; snaps 12 g / 777 off snaps (2025), 8 g / 514 off snaps (2026). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Listed weakness area: availability, 2026 decline",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 12 g / 777 off snaps (2025), 8 g / 514 off snaps (2026). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 12 g / 777 off snaps (2025), 8 g / 514 off snaps (2026). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT); PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54); PFF 2025 92.7 (rank 2, 778 snaps: 474 pass-block / 303 run-block, pass share 0.61). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability. Revised 87->88: TIEBREAK_02 beats Bolles (2025 PFF 92.7 vs 90.3, ESPN PBWR 92% #6 OT, penalties 4/3 vs 6/5); TIEBREAK_13 loses to Mailata",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT); PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54); PFF 2025 92.7 (rank 2, 778 snaps: 474 pass-block / 303 run-block, pass share 0.61). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT); PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54); PFF 2025 92.7 (rank 2, 778 snaps: 474 pass-block / 303 run-block, pass share 0.61). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability. Revised 87->88: TIEBREAK_02 beats Bolles (2025 PFF 92.7 vs 90.3, ESPN PBWR 92% #6 OT, penalties 4/3 vs 6/5); TIEBREAK_13 loses to Mailata",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT); PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54); PFF 2025 92.7 (rank 2, 778 snaps: 474 pass-block / 303 run-block, pass share 0.61). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT); PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54); PFF 2025 92.7 (rank 2, 778 snaps: 474 pass-block / 303 run-block, pass share 0.61). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT); PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54); PFF 2025 92.7 (rank 2, 778 snaps: 474 pass-block / 303 run-block, pass share 0.61). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT); PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54); PFF 2025 92.7 (rank 2, 778 snaps: 474 pass-block / 303 run-block, pass share 0.61). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT); PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54); PFF 2025 92.7 (rank 2, 778 snaps: 474 pass-block / 303 run-block, pass share 0.61). Style: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "ELITE",
+      "claim": "power: Tristan Wirfs (TB) 2026: PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54); 8 g / 514 off snaps; 3 accepted penalties {'False Start': 3}; depth-chart side {'LT': 225}; Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 12 g / 777 off snaps (2025), 8 g / 514 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "tier": "ELITE",
+      "claim": "run block: Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT); PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54); PFF 2025 92.7 (rank 2, 778 snaps: 474 pass-block / 303 run-block, pass share 0.61)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 86,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability. Revision A2: TIEBREAK_02 beats Bolles (2025 PFF 92.7 vs 90.3, ESPN PBWR 92% #6 OT, penalties 4/3 vs 6/5); TIEBREAK_13 loses to Mailata",
+  "style_profile": "Tristan Wirfs: Explosive power-athlete: PFF 92.7 in 2025 but 78.8 in 2026, ESPN PBWR 92%; can win with strength or movement, knee/toe absences (12 g in 2025) limit durability.",
+  "style_evidence": [
+    "Tristan Wirfs (TB) 2026: PFF 2026 78.8 (rank 9, 513 snaps: 279 pass-block / 234 run-block, pass share 0.54); 8 g / 514 off snaps; 3 accepted penalties {'False Start': 3}; depth-chart side {'LT': 225}",
+    "Tristan Wirfs 2025: PFF 2025 92.7 (rank 2, 778 snaps: 474 pass-block / 303 run-block, pass share 0.61); 12 g / 777 off snaps; 4 accepted penalties {'Offensive Holding': 2, 'False Start': 2}; side {'LT': 1}",
+    "Tristan Wirfs ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#6 OT)",
+    "Tristan Wirfs injury reports: {'2025': ['wk1 Out (Knee)', 'wk2 Out (Knee)', 'wk3 Out (Knee)', 'wk4 Questionable (Knee)', 'wk14 Questionable (Oblique)', 'wk17 Out (Toe)']}; roster status ACT"
+  ],
+  "input_dossier": "LT_REAUDIT_BG_05_A1",
+  "weaknesses": [
+    "availability",
+    "2026 decline"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Tristan Wirfs",
+      "ovr": 94,
+      "attributes": {
+        "STR": 94,
+        "SPD": 76,
+        "ACC": 77,
+        "AGI": 65,
+        "COD": 57,
+        "AWR": 93,
+        "INJ": 95,
+        "STA": 93,
+        "TGH": 93,
+        "PBK": 93,
+        "PBP": 93,
+        "PBF": 95,
+        "RBK": 90,
+        "RBP": 87,
+        "RBF": 90,
+        "IBL": 95,
+        "LBK": 93
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -8,
+      "delta_attributes": {
+        "STR": -2,
+        "SPD": 2,
+        "ACC": 5,
+        "AGI": 15,
+        "COD": 19,
+        "AWR": -5,
+        "INJ": -23,
+        "STA": -7,
+        "TGH": -3,
+        "PBK": -5,
+        "PBP": -5,
+        "PBF": -7,
+        "RBK": -2,
+        "RBP": 2,
+        "RBF": -4,
+        "IBL": -5,
+        "LBK": -5
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 OT, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 8,
+    "attribute_gaps_10plus": {
+      "AGI": 15,
+      "COD": 19,
+      "INJ": -23
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t45s413",
+  "revision": 2,
+  "supersedes": "LT_REAUDIT_RATE_05_A1",
+  "style_similarity": [
+    {
+      "player": "Penei Sewell",
+      "audit_id": "LT_REAUDIT_RATE_01_A1",
+      "corr": 0.736,
+      "mad": 6.9,
+      "too_similar": false
+    },
+    {
+      "player": "Trent Williams",
+      "audit_id": "LT_REAUDIT_RATE_02_A1",
+      "corr": 0.838,
+      "mad": 5.1,
+      "too_similar": false
+    },
+    {
+      "player": "Jordan Mailata",
+      "audit_id": "LT_REAUDIT_RATE_03_A1",
+      "corr": 0.584,
+      "mad": 7.4,
+      "too_similar": false
+    },
+    {
+      "player": "Garett Bolles",
+      "audit_id": "LT_REAUDIT_RATE_04_A1",
+      "corr": 0.229,
+      "mad": 5.2,
+      "too_similar": false
+    },
+    {
+      "player": "Andrew Thomas",
+      "audit_id": "LT_REAUDIT_RATE_06_A1",
+      "corr": 0.815,
+      "mad": 6.5,
+      "too_similar": false
+    },
+    {
+      "player": "Alaric Jackson",
+      "audit_id": "LT_REAUDIT_RATE_07_A1",
+      "corr": 0.466,
+      "mad": 9.2,
+      "too_similar": false
+    },
+    {
+      "player": "Bernhard Raimann",
+      "audit_id": "LT_REAUDIT_RATE_08_A1",
+      "corr": 0.067,
+      "mad": 6.8,
+      "too_similar": false
+    },
+    {
+      "player": "Charles Cross",
+      "audit_id": "LT_REAUDIT_RATE_09_A1",
+      "corr": 0.662,
+      "mad": 6.6,
+      "too_similar": false
+    },
+    {
+      "player": "Dion Dawkins",
+      "audit_id": "LT_REAUDIT_RATE_10_A1",
+      "corr": 0.545,
+      "mad": 7.4,
+      "too_similar": false
+    },
+    {
+      "player": "Laremy Tunsil",
+      "audit_id": "LT_REAUDIT_RATE_11_A1",
+      "corr": 0.854,
+      "mad": 7.4,
+      "too_similar": false
+    },
+    {
+      "player": "Paris Johnson Jr.",
+      "audit_id": "LT_REAUDIT_RATE_12_A1",
+      "corr": 0.753,
+      "mad": 9.2,
+      "too_similar": false
+    },
+    {
+      "player": "Will Campbell",
+      "audit_id": "LT_REAUDIT_RATE_13_A1",
+      "corr": -0.241,
+      "mad": 8.1,
+      "too_similar": false
+    },
+    {
+      "player": "Kolton Miller",
+      "audit_id": "LT_REAUDIT_RATE_14_A1",
+      "corr": 0.357,
+      "mad": 8.2,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
