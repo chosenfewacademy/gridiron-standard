@@ -1,0 +1,37 @@
+{
+  "audit_id": "SS_REAUDIT_H2H_05_A1",
+  "task_id": "SS_REAUDIT_H2H_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Tony Jefferson",
+    "Jaylinn Hawkins"
+  ],
+  "pair_result": {
+    "winner": "Tony Jefferson",
+    "loser": "Jaylinn Hawkins",
+    "provisional_order_holds": true,
+    "reasoning": "Jefferson holds his level in both years (PFF 70.8 in 2025, 70.6 in 2026; 4 INT with a 62.3 passer rating allowed in 2025; 1 missed tackle in 2026). Hawkins' 2025 was better and larger (74.9 on 1102 snaps, 4 INT), but his 2026 fell to 54.1 on 314 snaps (213 yards on 18 targets, 0 PD) and he is inactive with a knee injury. Narrow, on current form.",
+    "key_evidence_for_winner": [
+      "Tony Jefferson (LAC) role snap-weighted 2025-26 depth-chart FS/SS shares FS 197 / SS 590 -> SS; roster ACT (DB); injuries wk9 Out (Hamstring)",
+      "Tony Jefferson 2026: Tony Jefferson 2026: PFF S 2026 overall 70.6 on 297 snaps (S rank 22; 135 coverage / 152 run-def snaps); PFR 2026 (6 games) coverage 13 targets / 9 completions / 91 yds / 1 TD / 0 INT; 24 tackles, 1 missed; 7 g / 297 def snaps; 16 solo + 15 ast tackles, 1 TFL, 0 INT, 2 PD, 0 FF; 1 accepted penalties; PFR 2026 (6 games) coverage 13 targets / 9 completions / 91 yds / 1 TD / 0 INT; 24 tackles, 1 missed",
+      "Tony Jefferson 2025: Tony Jefferson 2025: PFF S 2025 overall 70.8 on 533 snaps (S rank 24; 346 coverage / 175 run-def snaps); PFR 2025 coverage 22 targets / 16 completions / 207 yds / 0 TD / passer rating 62.3 / 4 INT; 57 tackles, 7 missed; 13 g / 490 def snaps; 36 solo + 20 ast tackles, 1 TFL, 4 INT, 7 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 22 targets / 16 completions / 207 yds / 0 TD / passer rating 62.3 / 4 INT; 57 tackles, 7 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Jaylinn Hawkins (BAL) role snap-weighted 2025-26 depth-chart FS/SS shares FS 176 / SS 977 -> SS; roster INA (DB); injuries wk6 Out (Hamstring); wk7 Questionable (Hamstring); wk7 Out (Knee); wk8 Out (Knee)",
+      "Jaylinn Hawkins 2026: Jaylinn Hawkins 2026: PFF S 2026 overall 54.1 on 314 snaps (S rank 75; 211 coverage / 100 run-def snaps); PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed; 6 g / 315 def snaps; 17 solo + 13 ast tackles, 0 TFL, 0 INT, 0 PD, 0 FF; 1 accepted penalties; PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed",
+      "Jaylinn Hawkins 2025: Jaylinn Hawkins 2025: PFF S 2025 overall 74.9 on 1102 snaps (S rank 15; 659 coverage / 408 run-def snaps); PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed; 15 g / 838 def snaps; 44 solo + 26 ast tackles, 3 TFL, 4 INT, 6 PD, 1 FF; 3 accepted penalties; PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
