@@ -1,0 +1,39 @@
+{
+  "audit_id": "WILL_REAUDIT_TIEBREAK_07_A1",
+  "task_id": "WILL_REAUDIT_TIEBREAK_07",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Edgerrin Cooper",
+    "Robert Spillane"
+  ],
+  "pair_result": {
+    "winner": "Edgerrin Cooper",
+    "loser": "Robert Spillane",
+    "provisional_order_holds": true,
+    "reasoning": "Cooper holds #10 on the two-season body of work: PFF 75.8 on 1,089 snaps in 2025 (#17 LB) and 6 TFL / 3.0 sacks / 1 INT in 4 games of 2026 (PFF 60.1 on 227, RES), vs Robert Spillane's PFF 72.5 in 2025; PFF 61.8 on 484 snaps in 2026. Robert Spillane's ceiling hits (value, efficiency, availability) come from the two-year screen (snap-weighted PFF 68.9, 0.81 impact plays/game, 91% tackle success) where Cooper's injury-shortened 2026 (4 games) sets a low availability bar.",
+    "key_evidence_for_winner": [
+      "Edgerrin Cooper (GB) role snap-weighted 2025-26 depth-chart role shares MIKE 123 / WILL 1150 / SAM 0 / edge 0 (raw snapshots WILL25 195, MIKE25 26, WILL26 275) -> WILL; roster RES (LB); injuries wk4 Questionable (Shoulder)",
+      "Edgerrin Cooper 2026: Edgerrin Cooper 2026: PFF LB 2026 overall 60.1 on 227 snaps (LB rank 47; 99 run-def / 101 coverage / 27 pass-rush snaps); PFR 2026 (4 games) coverage 15 targets / 10 completions / 136 yds / 1 INT; 30 tackles, 2 missed; 3 pressures on 15 blitzes; 4 g / 227 def snaps; 15 solo + 12 ast tackles, 6 TFL, 3.0 sacks, 1 INT, 1 PD, 0 FF; 0 accepted penalties; PFR 2026 (4 games) coverage 15 targets / 10 completions / 136 yds / 1 INT; 30 tackles, 2 missed; 3 pressures on 15 blitzes",
+      "Edgerrin Cooper 2025: Edgerrin Cooper 2025: PFF LB 2025 overall 75.8 on 1089 snaps (LB rank 17; 445 run-def / 574 coverage / 70 pass-rush snaps); PFR 2025 coverage 69 targets / 54 completions / 332 yds / passer rating 96.4 / 0 INT; 118 tackles, 13 missed; 5 pressures on 40 blitzes, 0.5 sacks; 16 g / 1046 def snaps; 61 solo + 55 ast tackles, 4 TFL, 0.5 sacks, 0 INT, 4 PD, 2 FF; 0 accepted penalties; PFR 2025 coverage 69 targets / 54 completions / 332 yds / passer rating 96.4 / 0 INT; 118 tackles, 13 missed; 5 pressures on 40 blitzes, 0.5 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Robert Spillane (NE) role snap-weighted 2025-26 depth-chart role shares MIKE 478 / WILL 746 / SAM 0 / edge 0 (raw snapshots WILL25 220, MIKE25 1, MIKE26 270, WILL26 5) -> WILL; roster ACT (LB); injuries wk17 Out (Ankle); wk18 Out (Ankle); wk22 Questionable (Ankle)",
+      "Robert Spillane 2026: Robert Spillane 2026: PFF LB 2026 overall 61.8 on 484 snaps (LB rank 42; 185 run-def / 250 coverage / 49 pass-rush snaps); PFR 2026 (7 games) coverage 20 targets / 14 completions / 148 yds / 0 INT; 44 tackles, 5 missed; 3 pressures on 33 blitzes; 8 g / 484 def snaps; 20 solo + 27 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 2 PD, 1 FF; 1 accepted penalties; PFR 2026 (7 games) coverage 20 targets / 14 completions / 148 yds / 0 INT; 44 tackles, 5 missed; 3 pressures on 33 blitzes",
+      "Robert Spillane 2025: Robert Spillane 2025: PFF LB 2025 overall 72.5 on 955 snaps (LB rank 24; 325 run-def / 562 coverage / 68 pass-rush snaps); PFR 2025 coverage 48 targets / 39 completions / 374 yds / passer rating 81.8 / 2 INT; 97 tackles, 9 missed; 4 pressures on 31 blitzes, 1 sacks; 13 g / 740 def snaps; 47 solo + 49 ast tackles, 4 TFL, 1.0 sacks, 2 INT, 5 PD, 1 FF; 0 accepted penalties; PFR 2025 coverage 48 targets / 39 completions / 374 yds / passer rating 81.8 / 2 INT; 97 tackles, 9 missed; 4 pressures on 31 blitzes, 1 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
