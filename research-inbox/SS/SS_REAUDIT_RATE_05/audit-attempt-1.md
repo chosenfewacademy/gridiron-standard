@@ -1,0 +1,380 @@
+# SS_REAUDIT_RATE_05 — Derwin James rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "SS_REAUDIT_RATE_05_A1",
+  "task_id": "SS_REAUDIT_RATE_05",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "player_id": "ext_00-0034790",
+  "players": [
+    "Derwin James"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 86,
+    "ACC": 86,
+    "AGI": 84,
+    "COD": 82,
+    "STR": 80,
+    "AWR": 86,
+    "PRC": 88,
+    "MCV": 84,
+    "ZCV": 84,
+    "PRS": 82,
+    "CTH": 78,
+    "JMP": 86,
+    "TAK": 86,
+    "POW": 88,
+    "PUR": 86,
+    "INJ": 72,
+    "STA": 86,
+    "TGH": 88
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "MCV": "MEDIUM",
+    "ZCV": "MEDIUM",
+    "PRS": "MEDIUM",
+    "CTH": "MEDIUM",
+    "JMP": "LOW",
+    "TAK": "MEDIUM",
+    "POW": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed; range from PD/tackles in 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF. Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed; range from PD/tackles in 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF. Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed; range from PD/tackles in 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF. Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed; range from PD/tackles in 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF. Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (press): PFF S 2025 overall 78.8 on 959 snaps (S rank 9; 527 coverage / 356 run-def snaps); PFF S 2026 overall 61 on 193 snaps (S rank 46; 98 coverage / 88 run-def snaps); PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed. Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 3/0; PFF S 2026 overall 61 on 193 snaps (S rank 46; 98 coverage / 88 run-def snaps). Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed; PFF S 2025 overall 78.8 on 959 snaps (S rank 9; 527 coverage / 356 run-def snaps); PFF S 2026 overall 61 on 193 snaps (S rank 46; 98 coverage / 88 run-def snaps). Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed; PFF S 2025 overall 78.8 on 959 snaps (S rank 9; 527 coverage / 356 run-def snaps); PFF S 2026 overall 61 on 193 snaps (S rank 46; 98 coverage / 88 run-def snaps). Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed; PFF S 2025 overall 78.8 on 959 snaps (S rank 9; 527 coverage / 356 run-def snaps); PFF S 2026 overall 61 on 193 snaps (S rank 46; 98 coverage / 88 run-def snaps). Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (press): PFF S 2025 overall 78.8 on 959 snaps (S rank 9; 527 coverage / 356 run-def snaps); PFF S 2026 overall 61 on 193 snaps (S rank 46; 98 coverage / 88 run-def snaps); PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed. Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (ball skills): INT/PD: 16 g / 893 def snaps; 49 solo + 44 ast tackles, 6 TFL, 3 INT, 7 PD, 1 FF (2025); 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF (2026). Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (ball skills): INT/PD: 16 g / 893 def snaps; 49 solo + 44 ast tackles, 6 TFL, 3 INT, 7 PD, 1 FF (2025); 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF (2026). Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed. Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed. Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF S 2025 overall 78.8 on 959 snaps (S rank 9; 527 coverage / 356 run-def snaps); PFF S 2026 overall 61 on 193 snaps (S rank 46; 98 coverage / 88 run-def snaps); TFL/tackles in 16 g / 893 def snaps; 49 solo + 44 ast tackles, 6 TFL, 3 INT, 7 PD, 1 FF / 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF. Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Derwin James injury reports: wk5 Out (Hamstring); wk6 Out (Hamstring); wk8 Out (Hamstring); roster status RES; 16 g / 893 def snaps; 49 solo + 44 ast tackles, 6 TFL, 3 INT, 7 PD, 1 FF (2025), 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF (2026). Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Listed weakness area: availability (hamstring; roster RES), 2026 grade (61.0)",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 16 g / 893 def snaps; 49 solo + 44 ast tackles, 6 TFL, 3 INT, 7 PD, 1 FF (2025), 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF (2026). Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 16 g / 893 def snaps; 49 solo + 44 ast tackles, 6 TFL, 3 INT, 7 PD, 1 FF (2025), 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF (2026). Style: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 84,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+  "style_profile": "Derwin James: Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+  "style_evidence": [
+    "Derwin James (LAC) Derwin James 2026: PFF S 2026 overall 61 on 193 snaps (S rank 46; 98 coverage / 88 run-def snaps); PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed; 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF; 0 accepted penalties",
+    "Derwin James 2025: PFF S 2025 overall 78.8 on 959 snaps (S rank 9; 527 coverage / 356 run-def snaps); PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; 16 g / 893 def snaps; 49 solo + 44 ast tackles, 6 TFL, 3 INT, 7 PD, 1 FF; 3 accepted penalties",
+    "Derwin James role: snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1086 -> SS (SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one o...); roster position DB; Madden card SS (reference only)",
+    "Derwin James injury reports: wk5 Out (Hamstring); wk6 Out (Hamstring); wk8 Out (Hamstring); roster status RES"
+  ],
+  "input_dossier": "SS_REAUDIT_BG_05_A1",
+  "weaknesses": [
+    "availability (hamstring; roster RES)",
+    "2026 grade (61.0)"
+  ],
+  "limitations": [
+    "PFF coverage/run-defense/tackling sub-grades and box/slot/deep alignment splits are paywalled; no public tracking data for safety speed or range; substitutes: PFF S overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+  ],
+  "role_assignment": "SS (snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1086 -> SS)",
+  "madden_reference": [
+    {
+      "player": "Derwin James",
+      "ovr": 93,
+      "madden_position": "SS",
+      "attributes": {
+        "SPD": 90,
+        "ACC": 91,
+        "AGI": 87,
+        "COD": 85,
+        "STR": 80,
+        "AWR": 93,
+        "PRC": 92,
+        "MCV": 86,
+        "ZCV": 85,
+        "PRS": 83,
+        "CTH": 78,
+        "JMP": 93,
+        "TAK": 78,
+        "POW": 92,
+        "PUR": 91,
+        "INJ": 90,
+        "STA": 95,
+        "TGH": 91
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -9,
+      "delta_attributes": {
+        "SPD": -4,
+        "ACC": -5,
+        "AGI": -3,
+        "COD": -3,
+        "STR": 0,
+        "AWR": -7,
+        "PRC": -4,
+        "MCV": -2,
+        "ZCV": -1,
+        "PRS": -1,
+        "CTH": 0,
+        "JMP": -7,
+        "TAK": 8,
+        "POW": -4,
+        "PUR": -5,
+        "INJ": -18,
+        "STA": -9,
+        "TGH": -3
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 9,
+    "attribute_gaps_10plus": {
+      "INJ": -18
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```

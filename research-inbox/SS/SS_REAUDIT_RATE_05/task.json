@@ -1,0 +1,118 @@
+{
+  "task_id": "SS_REAUDIT_RATE_05",
+  "type": "player_rating",
+  "players": [
+    "Derwin James"
+  ],
+  "player_id": "ext_00-0034790",
+  "team": "LAC",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Kyle Hamilton"
+      },
+      {
+        "rank": 2,
+        "player": "Evan Williams"
+      },
+      {
+        "rank": 3,
+        "player": "Jessie Bates"
+      },
+      {
+        "rank": 4,
+        "player": "Brian Branch"
+      },
+      {
+        "rank": 5,
+        "player": "Derwin James"
+      },
+      {
+        "rank": 6,
+        "player": "Antoine Winfield Jr."
+      },
+      {
+        "rank": 7,
+        "player": "Kamren Curl"
+      },
+      {
+        "rank": 8,
+        "player": "Talanoa Hufanga"
+      },
+      {
+        "rank": 9,
+        "player": "Tony Jefferson"
+      },
+      {
+        "rank": 10,
+        "player": "Jaylinn Hawkins"
+      }
+    ],
+    "external_controls": [
+      "Christian Roland-Wallace",
+      "Coby Bryant",
+      "Cooper DeJean"
+    ]
+  },
+  "madden_reference_policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+  "position": "SS",
+  "stage": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 18,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "coverage",
+      "run defense",
+      "tackling",
+      "grade vs man/zone",
+      "forced incompletion rate"
+    ],
+    "position_stats": [
+      "INT, PBU",
+      "targets, receptions allowed, yards allowed, TD allowed",
+      "tackles, missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (outside/slot/box/deep)",
+      "man vs zone snap share",
+      "coverage snaps"
+    ],
+    "on_field_impact": [
+      "passer rating allowed",
+      "yards per coverage snap",
+      "EPA allowed per target"
+    ],
+    "madden_attributes_informed": [
+      "MCV",
+      "ZCV",
+      "PRS",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "PRC",
+      "TAK",
+      "HIT",
+      "PUR",
+      "CTH",
+      "JMP",
+      "AWR"
+    ],
+    "note": "Box/slot/deep split documented."
+  }
+}
