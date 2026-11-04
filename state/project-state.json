@@ -8694,7 +8694,7 @@
         "position": "DT",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/DT.reaudit.json",
       "baseline_file": null,
@@ -8742,7 +8742,8 @@
         "DT_REAUDIT_TIEBREAK_03",
         "DT_REAUDIT_TIEBREAK_04",
         "DT_REAUDIT_TIEBREAK_05",
-        "DT_REAUDIT_TIEBREAK_06"
+        "DT_REAUDIT_TIEBREAK_06",
+        "DT_REAUDIT_VARIANCE_AUDIT"
       ],
       "audit_ids": [
         "DT_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -8788,7 +8789,7 @@
       ],
       "current_stage": "variance_audit",
       "current_task": "DT_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T11:24:39.067Z",
+      "updated_at": "2026-11-04T11:24:46.856Z",
       "last_result": {
         "task_id": "DT_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
@@ -8797,11 +8798,7 @@
           "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "DT_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "DT_REAUDIT_VARIANCE_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -9113,6 +9110,14 @@
           "audit_id": "DT_REAUDIT_TIEBREAK_06_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:23:58Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "DT_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "DT_REAUDIT_VARIANCE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:24:46Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
