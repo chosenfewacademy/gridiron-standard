@@ -18,7 +18,7 @@
     "winner": "Will Campbell",
     "loser": "Laremy Tunsil",
     "provisional_order_holds": true,
-    "reasoning": "Campbell leads 2026 play (8 g/475 snaps, PFF 76.8, RBWR 81%) vs Tunsil none (reserve). Tunsil leads 2025 PFF (84.7 vs 66.7) and penalties (5 vs 5 even). Campbell on availability.",
+    "reasoning": "Campbell leads 2026 play (8 g/475 snaps, PFF 76.8, RBWR 81%) vs Tunsil none (reserve). Tunsil leads 2025 PFF (84.7 vs 66.7) ; 2025 penalties level (5 each). Campbell on availability.",
     "key_evidence_for_winner": [
       "Will Campbell (NE) ESPN 2026 win rates (thru Wk 7): RBWR 81%; depth-chart side 2026 {'LT': 178}; roster ACT",
       "Will Campbell 2026: PFF 76.8 (rank 12; 274 pass-block/200 run-block of 474 snaps); 8 g/475 snaps; penalties 5; injuries ['wk6 Questionable (Knee)']",

@@ -18,7 +18,7 @@
     "winner": "Dion Dawkins",
     "loser": "Will Campbell",
     "provisional_order_holds": true,
-    "reasoning": "#10 vs first-out. Dawkins leads PFF both years (71.7/80.3 vs 66.7/76.8) and ESPN PBWR (88% vs unlisted); RBWR level (82% vs 81%). Campbell leads 2026 penalties (5 vs 4 is even) and age (23 vs 32). Order holds.",
+    "reasoning": "#10 vs first-out. Dawkins leads PFF both years (71.7/80.3 vs 66.7/76.8) and ESPN PBWR (88% vs unlisted); RBWR level (82% vs 81%). Campbell leads age (23 vs 32) and 2026 growth (+10.1 PFF); penalties similar (5/5 vs 10/4). Order holds.",
     "key_evidence_for_winner": [
       "Dion Dawkins (BUF) ESPN 2026 win rates (thru Wk 7): PBWR 88%, RBWR 82%; depth-chart side 2026 {'LT': 226}; roster ACT",
       "Dion Dawkins 2026: PFF 80.3 (rank 6; 265 pass-block/200 run-block of 465 snaps); 7 g/467 snaps; penalties 4; injuries none",
