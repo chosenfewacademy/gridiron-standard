@@ -1,6 +1,7 @@
 /**
  * TOP10_REAUDIT lock (addendum v1.1.3, commissioner card t31s9). Applies REAUDIT_REPLACE_BASELINE_<POS>:
- *  - writes a NEW baseline file data/baselines/<POS>.reaudit-<YYYYMMDD>.json (add-only; never overwrites),
+ *  - writes a NEW baseline file data/baselines/<POS>.reaudit-<YYYYMMDD>[b-z].json (add-only; never overwrites; same-day
+ *    re-locks get the next suffix, addendum 2026-11-04c t56s525),
  *  - keeps the old baseline file untouched and records it in state/locks.json positions.<POS>.history (append-only),
  *  - points positions.<POS>.baseline_file at the new file, writes an add-only lock audit record,
  *  - marks the queue item COMPLETED with the lock audit id.
@@ -18,6 +19,15 @@ export interface LockInput {
   scarcity?: unknown; stage_audit_ids: string[]; pending_review?: boolean; next_stage?: string;
 }
 
+/** "" for the first lock of <day>, else the next free letter B..Z (baseline file and lock record both checked). */
+export function sameDaySuffix(pos: string, day: string, root = process.cwd()): string {
+  const taken = (s: string) => fs.existsSync(path.join(root, `data/baselines/${pos}.reaudit-${day}${s.toLowerCase()}.json`))
+    || fs.existsSync(path.join(root, `audits/league/${pos}/${pos}_REAUDIT_LOCK_${day}${s}.json`));
+  if (!taken("")) return "";
+  for (const s of "BCDEFGHIJKLMNOPQRSTUVWXYZ") if (!taken(s)) return s;
+  throw new Error(`${pos}: no free same-day lock suffix for ${day}`);
+}
+
 export function buildLock(inp: LockInput, root = process.cwd()) {
   const pos = inp.position;
   if (inp.confirm !== `REAUDIT_REPLACE_BASELINE_${pos}`) throw new Error(`lock requires --confirm REAUDIT_REPLACE_BASELINE_${pos}`);
@@ -33,8 +43,13 @@ export function buildLock(inp: LockInput, root = process.cwd()) {
   const first = !cur;
   if (cur && cur.status !== "LOCKED") throw new Error(`${pos}: no LOCKED entry in state/locks.json`);
   const day = inp.approved_at.slice(0, 10).replace(/-/g, "");
-  const file = `data/baselines/${pos}.reaudit-${day}.json`;
+  // Addendum 2026-11-04c (t56s525): a second (third, ...) re-audit lock of the same position on the same day gets the next
+  // free suffix B..Z: <POS>_REAUDIT_LOCK_<YYYYMMDD>B -> data/baselines/<POS>.reaudit-<YYYYMMDD>b.json. The first lock of a day
+  // keeps the unsuffixed id/file. Existing baselines and lock records are never overwritten.
+  const suffix = sameDaySuffix(pos, day, root);
+  const file = `data/baselines/${pos}.reaudit-${day}${suffix.toLowerCase()}.json`;
   if (fs.existsSync(path.join(root, file))) throw new Error(`${file} already exists (add-only)`);
+  if (suffix && (!cur || !cur.baseline_file)) throw new Error(`${pos}: same-day re-lock requires an existing LOCKED entry to supersede`);
   const old = first ? { position: pos, version: null } : JSON.parse(fs.readFileSync(path.join(root, cur.baseline_file), "utf8"));
   const top = inp.final_order.slice(0, 10).map((p, i) => ({ rank: i + 1, player: p.player, ovr: p.ovr }));
   const baseline = { ...old, architecture_version: "1.1.3", status: "LOCKED", version: `reaudit-${day}`, top_10: top,
@@ -42,7 +57,7 @@ export function buildLock(inp: LockInput, root = process.cwd()) {
     external_controls: inp.final_order.slice(10).map(p => ({ player: p.player, ovr: p.ovr })), scarcity: inp.scarcity ?? old.scarcity,
     supersedes: first ? null : { baseline_file: cur.baseline_file, version: old.version }, ...(first ? { first_lock: true, control_source: "APPROVED_CANDIDATE_POOL" } : {}), stage_audit_ids: inp.stage_audit_ids,
     madden_order_verified: false, locked_by: inp.approved_by, locked_at: inp.approved_at };
-  const lockId = `${pos}_REAUDIT_LOCK_${day}`;
+  const lockId = `${pos}_REAUDIT_LOCK_${day}${suffix}`;
   const newEntry = first ? { status: "LOCKED", mutation_permission: "TOP10_REAUDIT_ONLY", first_lock: true, baseline_file: file, version: baseline.version, locked_at: inp.approved_at, lock_audit_id: lockId, history: [] } : { ...cur, baseline_file: file, version: baseline.version, locked_at: inp.approved_at, lock_audit_id: lockId,
     history: [...(cur!.history ?? []), { baseline_file: cur!.baseline_file, version: old.version, superseded_at: inp.approved_at, superseded_by: lockId }] };
   const record = { audit_id: lockId, task_id: `${pos}_REAUDIT_LOCK`, task_type: "lock", audit_type: "TOP10_REAUDIT", position: pos, status: "APPROVED", confirmation: inp.confirm,

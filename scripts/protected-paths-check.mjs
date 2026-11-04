@@ -81,12 +81,14 @@ export function reauditItemUpdate(x, y) {
 // current_stage is "lock"; (2) ADD data/baselines/<POS>.reaudit-<YYYYMMDD>.json; (3) in state/locks.json change only that
 // position's baseline_file pointer (to the new file) + version/locked_at/lock_audit_id and APPEND one history entry
 // naming the previous baseline file. Existing baseline files are never modified or deleted.
-export const LOCK_BASELINE_RE = /^data\/baselines\/([A-Z]{1,5})\.reaudit-(\d{8})\.json$/;
+// Addendum 2026-11-04c (t56s525): optional same-day suffix b..z on the baseline file, B..Z on the lock id (second+ lock that day).
+export const LOCK_BASELINE_RE = /^data\/baselines\/([A-Z]{1,5})\.reaudit-(\d{8})([b-z]?)\.json$/;
+const lockIdFor = (k, m) => `${k}_REAUDIT_LOCK_${m[2]}${m[3].toUpperCase()}`;
 export const LOCKS_PATH = "state/locks.json";
 export function lockCompletionOk(x, y) {
   if (x?.status !== "IN_PROGRESS" || y?.status !== "COMPLETED") return { ok: false, reason: "COMPLETED only from IN_PROGRESS via the re-audit lock" };
   const last = (y.audit_ids ?? []).at(-1);
-  if ((y.audit_ids ?? []).length !== (x.audit_ids ?? []).length + 1 || !new RegExp(`^${x.position}_REAUDIT_LOCK_\\d{8}$`).test(String(last)) || y.current_stage !== "lock")
+  if ((y.audit_ids ?? []).length !== (x.audit_ids ?? []).length + 1 || !new RegExp(`^${x.position}_REAUDIT_LOCK_\\d{8}[B-Z]?$`).test(String(last)) || y.current_stage !== "lock")
     return { ok: false, reason: "COMPLETED requires exactly one appended lock audit id <POS>_REAUDIT_LOCK_<YYYYMMDD> and current_stage lock" };
   return { ok: true };
 }
@@ -100,7 +102,7 @@ export function locksChangeAllowed(baseText, headText) {
   const added = Object.keys(pb).filter(k => !(k in pa));
   if (added.length === 1 && Object.keys(pa).every(k => canon(pa[k]) === canon(pb[k]))) {
     const k = added[0], n = pb[k], m = LOCK_BASELINE_RE.exec(n?.baseline_file ?? "");
-    if (!m || m[1] !== k || n.status !== "LOCKED" || n.first_lock !== true || (n.history ?? []).length || n.lock_audit_id !== `${k}_REAUDIT_LOCK_${m[2]}`)
+    if (!m || m[1] !== k || n.status !== "LOCKED" || n.first_lock !== true || (n.history ?? []).length || n.lock_audit_id !== `${k}_REAUDIT_LOCK_${m[2]}` || m[3])
       return { ok: false, reason: "first lock entry must be LOCKED, first_lock, empty history, dated baseline + matching lock_audit_id" };
     return { ok: true, position: k, baseline_file: n.baseline_file, first_lock: true };
   }
@@ -110,7 +112,7 @@ export function locksChangeAllowed(baseText, headText) {
   const k = changed[0], o = pa[k], n = pb[k], m = LOCK_BASELINE_RE.exec(n.baseline_file ?? "");
   if (!m || m[1] !== k) return { ok: false, reason: `baseline_file must point at data/baselines/${k}.reaudit-<YYYYMMDD>.json` };
   if (n.status !== "LOCKED" || n.mutation_permission !== o.mutation_permission) return { ok: false, reason: "status/mutation_permission must stay" };
-  if (n.lock_audit_id !== `${k}_REAUDIT_LOCK_${m[2]}`) return { ok: false, reason: "lock_audit_id must match the new baseline date" };
+  if (n.lock_audit_id !== lockIdFor(k, m)) return { ok: false, reason: "lock_audit_id must match the new baseline date" };
   const strip = e => { const c = { ...e }; for (const x of ["baseline_file", "version", "locked_at", "lock_audit_id", "history"]) delete c[x]; return canon(c); };
   if (strip(o) !== strip(n)) return { ok: false, reason: "only baseline_file/version/locked_at/lock_audit_id/history may change" };
   const h = n.history ?? [];

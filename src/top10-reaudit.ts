@@ -14,13 +14,18 @@ export function triggerTop10Reaudit(pos: string, by: string, root = process.cwd(
   // taken through the TOP10_REAUDIT pathway against its approved candidate pool, ending in a first lock (addendum 2026-11-04).
   const locksFile = path.join(root, "state/locks.json");
   const neverLocked = posState === "PENDING" && !(fs.existsSync(locksFile) && JSON.parse(fs.readFileSync(locksFile, "utf8")).positions?.[pos]);
-  if (posState !== "LOCKED" && posState !== "IN_PROGRESS" && !neverLocked) throw new Error(`${pos} is ${posState}; TOP10_REAUDIT applies to LOCKED, IN_PROGRESS or never-locked PENDING positions`);
+  // Addendum 2026-11-04c (t56s525): a position whose current lock came from a completed TOP10_REAUDIT (locks entry LOCKED with a
+  // <POS>_REAUDIT_LOCK_* id) may be re-triggered for a superseding re-audit; its lock then appends history (never edits the old baseline).
+  const lockEntry = fs.existsSync(locksFile) ? JSON.parse(fs.readFileSync(locksFile, "utf8")).positions?.[pos] : undefined;
+  const reauditLocked = !!lockEntry && lockEntry.status === "LOCKED" && new RegExp(`^${pos}_REAUDIT_LOCK_\\d{8}[B-Z]?$`).test(String(lockEntry.lock_audit_id ?? ""));
+  if (posState !== "LOCKED" && posState !== "IN_PROGRESS" && !neverLocked && !reauditLocked) throw new Error(`${pos} is ${posState}; TOP10_REAUDIT applies to LOCKED, IN_PROGRESS, re-audit-locked or never-locked PENDING positions`);
   const dup = (state.pending_reaudit_queue ?? []).find((q: any) => q.type === "TOP10_REAUDIT" && q.position === pos && q.status !== "COMPLETED");
   if (dup) throw new Error(`${pos} already has a queued TOP10_REAUDIT (${dup.requested_at})`);
   requireApprovedReauditPool(pos, root);
   const item = { type: "TOP10_REAUDIT", position: pos, task: { position: pos, stage: "top10_reaudit" }, status: "QUEUED_NOT_STARTED",
     position_state_at_trigger: posState, pool_file: `data/candidate-pools/${pos}.reaudit.json`,
-    baseline_file: posState === "LOCKED" ? `data/baselines/${pos}.json` : null,
+    baseline_file: reauditLocked ? lockEntry.baseline_file : posState === "LOCKED" ? `data/baselines/${pos}.json` : null,
+    ...(reauditLocked ? { supersedes_lock_audit_id: lockEntry.lock_audit_id } : {}),
     requested_by: by, requested_at: now.toISOString(), trigger: "COMMISSIONER_EXPLICIT",
     note: "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved." };
   const cwd = process.cwd();

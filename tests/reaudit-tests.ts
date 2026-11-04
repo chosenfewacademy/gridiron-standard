@@ -244,7 +244,10 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     const l = JSON.parse(fs.readFileSync(path.join(root, "state/locks.json"), "utf8")).positions.Z;
     assert.equal(l.baseline_file, b.file); assert.equal(l.history[0].baseline_file, "data/baselines/Z.json");
     assert.equal(JSON.parse(fs.readFileSync(path.join(root, "state/project-state.json"), "utf8")).pending_reaudit_queue[0].status, "COMPLETED");
-    assert.throws(() => applyLock(inp, root), /already exists/, "add-only: no overwrite");
+    const first = fs.readFileSync(path.join(root, b.file), "utf8");
+    // addendum 2026-11-04c (t56s525): a same-day repeat no longer overwrites or throws; it takes suffix B and leaves the first file intact
+    assert.equal(applyLock(inp, root).file, "data/baselines/Z.reaudit-20261103b.json", "add-only: no overwrite (suffixed)");
+    assert.equal(fs.readFileSync(path.join(root, b.file), "utf8"), first);
   });
   test("addendum 2026-11-04 (t50s441): first lock of a never-locked position adds a baseline + locks entry, no fabricated history", () => {
     const root = fs.mkdtempSync(path.join(os.tmpdir(), "lock1-")); fs.mkdirSync(path.join(root, "data/baselines"), { recursive: true }); fs.mkdirSync(path.join(root, "state"));
@@ -272,6 +275,39 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     assert.throws(() => triggerTop10Reaudit("N", "PhiXCrypto", root), /COVERAGE_GATE_BLOCKED/, "never-locked PENDING passes the state check, still needs an approved re-audit pool");
     assert.throws(() => triggerTop10Reaudit("Z", "PhiXCrypto", root), /TOP10_REAUDIT applies to/, "PENDING with a locks entry is refused");
     assert.throws(() => triggerTop10Reaudit("Q", "PhiXCrypto", root), /not a position/);
+  });
+  test("addendum 2026-11-04c (t56s525): same-day re-lock gets suffix B, supersedes the prior baseline; re-audit-locked position can be re-triggered", () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "relock-")); for (const d of ["data/baselines", "state", "audits/league/R", "data/candidate-pools"]) fs.mkdirSync(path.join(root, d), { recursive: true });
+    const first = { position: "R", status: "LOCKED", version: "reaudit-20261104", top_10: [], madden_order_verified: false };
+    fs.writeFileSync(path.join(root, "data/baselines/R.reaudit-20261104.json"), JSON.stringify(first));
+    fs.writeFileSync(path.join(root, "audits/league/R/R_REAUDIT_LOCK_20261104.json"), "{}");
+    const e0 = { status: "LOCKED", mutation_permission: "TOP10_REAUDIT_ONLY", first_lock: true, baseline_file: "data/baselines/R.reaudit-20261104.json", version: "reaudit-20261104", locked_at: "2026-11-04T12:00:00Z", lock_audit_id: "R_REAUDIT_LOCK_20261104", history: [] };
+    const locks0 = { rule: "r", positions: { R: e0 } };
+    fs.writeFileSync(path.join(root, "state/locks.json"), JSON.stringify(locks0));
+    fs.writeFileSync(path.join(root, "state/project-state.json"), JSON.stringify({ positions: { R: "PENDING" }, pending_reaudit_queue: [{ type: "TOP10_REAUDIT", position: "R", status: "COMPLETED", audit_ids: ["R_REAUDIT_LOCK_20261104"] }] }));
+    // re-trigger: passes the state check (then needs an approved re-audit pool), and is not a duplicate of the COMPLETED item
+    assert.throws(() => triggerTop10Reaudit("R", "PhiXCrypto", root), /COVERAGE_GATE_BLOCKED/, "re-audit-locked position passes the state check");
+    fs.writeFileSync(path.join(root, "state/project-state.json"), JSON.stringify({ positions: { R: "PENDING" }, pending_reaudit_queue: [{ type: "TOP10_REAUDIT", position: "R", status: "IN_PROGRESS", audit_ids: ["a1"] }] }));
+    const inp = { position: "R", confirm: "REAUDIT_REPLACE_BASELINE_R", approved_by: "PhiXCrypto", approved_at: "2026-11-04T18:00:00Z", next_stage: "lock", pending_review: false,
+      stage_audit_ids: ["a1"], final_order: Array.from({ length: 12 }, (_, i) => ({ player: `P${i + 1}`, ovr: 90 - i })) };
+    const b = applyLock(inp, root);
+    assert.equal(b.file, "data/baselines/R.reaudit-20261104b.json"); assert.equal(b.record.audit_id, "R_REAUDIT_LOCK_20261104B");
+    const nb = JSON.parse(fs.readFileSync(path.join(root, b.file), "utf8"));
+    assert.deepEqual(nb.supersedes, { baseline_file: "data/baselines/R.reaudit-20261104.json", version: "reaudit-20261104" });
+    assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root, "data/baselines/R.reaudit-20261104.json"), "utf8")), first, "prior baseline untouched");
+    const L1 = JSON.parse(fs.readFileSync(path.join(root, "state/locks.json"), "utf8"));
+    assert.equal(L1.positions.R.lock_audit_id, "R_REAUDIT_LOCK_20261104B"); assert.equal(L1.positions.R.history.at(-1).baseline_file, "data/baselines/R.reaudit-20261104.json");
+    assert.equal(locksChangeAllowed(JSON.stringify(locks0), JSON.stringify(L1)).ok, true);
+    assert.equal(lockBaselineAddAllowed("A", b.file, JSON.stringify(nb), JSON.stringify(L1)), true);
+    assert.equal(locksChangeAllowed(JSON.stringify(locks0), JSON.stringify({ ...L1, positions: { R: { ...L1.positions.R, lock_audit_id: "R_REAUDIT_LOCK_20261104" } } })).ok, false, "suffix must match");
+    const x = { type: "TOP10_REAUDIT", position: "R", status: "IN_PROGRESS", audit_ids: ["a1"], current_stage: "positional_cross_audit" };
+    assert.equal(lockCompletionOk(x, { ...x, status: "COMPLETED", audit_ids: ["a1", "R_REAUDIT_LOCK_20261104B"], current_stage: "lock" }).ok, true);
+    assert.equal(lockCompletionOk(x, { ...x, status: "COMPLETED", audit_ids: ["a1", "R_REAUDIT_LOCK_20261104BB"], current_stage: "lock" }).ok, false);
+    // third same-day lock -> C; a suffixed first lock is refused by the guard
+    fs.writeFileSync(path.join(root, "state/project-state.json"), JSON.stringify({ positions: { R: "PENDING" }, pending_reaudit_queue: [] }));
+    assert.equal(buildLock(inp, root).record.audit_id, "R_REAUDIT_LOCK_20261104C");
+    const fl = { status: "LOCKED", first_lock: true, baseline_file: "data/baselines/S.reaudit-20261104b.json", lock_audit_id: "S_REAUDIT_LOCK_20261104B", history: [] };
+    assert.equal(locksChangeAllowed(JSON.stringify(locks0), JSON.stringify({ ...locks0, positions: { ...locks0.positions, S: fl } })).ok, false);
   });
   test("guard sixth exception (t33s4): lock outputs only; variance_audit is position-wide", () => {
     assert.ok(isPositionWideTask({ type: "variance_audit" } as any));

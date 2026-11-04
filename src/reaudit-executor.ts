@@ -28,8 +28,12 @@ export function findReauditItem(state: any, pos: string) {
 }
 
 export function lockedBaselineControls(pos: string, root = process.cwd()) {
-  const f = path.join(root, "data/baselines", `${pos}.json`);
-  if (!fs.existsSync(f)) return undefined;
+  let f = path.join(root, "data/baselines", `${pos}.json`);
+  // Addendum 2026-11-04c (t56s525): a re-audit-locked position (no <POS>.json) uses its current locked baseline as controls.
+  if (!fs.existsSync(f)) {
+    const lf = path.join(root, "state/locks.json"); const bf = fs.existsSync(lf) ? JSON.parse(fs.readFileSync(lf, "utf8")).positions?.[pos]?.baseline_file : undefined;
+    if (!bf || !fs.existsSync(path.join(root, bf))) return undefined; f = path.join(root, bf);
+  }
   const b = JSON.parse(fs.readFileSync(f, "utf8"));
   return { top_10: (b.top_10 ?? []).map((x: any) => ({ rank: x.rank, player: x.player })), external_controls: b.external_controls ?? [] };
 }
