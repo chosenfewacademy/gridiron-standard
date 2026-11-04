@@ -6710,16 +6710,17 @@
         "RT_REAUDIT_TIEBREAK_05_A1",
         "RT_REAUDIT_TIEBREAK_06_A1",
         "RT_REAUDIT_VARIANCE_AUDIT_A1",
-        "RT_REAUDIT_RATE_06_A2"
+        "RT_REAUDIT_RATE_06_A2",
+        "RT_REAUDIT_RATE_11_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "RT_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T04:04:51.055Z",
+      "updated_at": "2026-11-04T04:04:51.359Z",
       "last_result": {
-        "task_id": "RT_REAUDIT_RATE_06",
+        "task_id": "RT_REAUDIT_RATE_11",
         "status": "REVISION_APPROVED",
-        "audit_id": "RT_REAUDIT_RATE_06_A2",
-        "supersedes": "RT_REAUDIT_RATE_06_A1",
+        "audit_id": "RT_REAUDIT_RATE_11_A2",
+        "supersedes": "RT_REAUDIT_RATE_11_A1",
         "flags": []
       },
       "awaiting": null,
@@ -7052,6 +7053,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T04:04:50Z",
           "note": "Standing commissioner approval t46u: Approved variance fix (RT_REAUDIT_VARIANCE_AUDIT, t46u): STR 78->82 (0 penalties 2025, RBWR 83% #2 OT; leverage blocker, not a liability at the point "
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RT_REAUDIT_RATE_11",
+          "audit_id": "RT_REAUDIT_RATE_11_A2",
+          "supersedes": "RT_REAUDIT_RATE_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T04:04:51Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (RT_REAUDIT_VARIANCE_AUDIT, t46u): PBF 80->86 (PFF 83.5, #10 T in 2025, mostly pass sets; injury discount stays in INJ/STA). OVR"
         }
       ]
     }
