@@ -1,0 +1,97 @@
+{
+ "position": "SAM",
+ "references": [
+  {
+   "name": "Malcolm Rodriguez",
+   "team": "DET",
+   "status": "ACT",
+   "snaps": 192,
+   "pff": 62.3,
+   "value": 0.12,
+   "efficiency": 89.3,
+   "negative_rate": 20.8,
+   "availability": 0.48,
+   "role": "SAM"
+  },
+  {
+   "name": "Noah Sewell",
+   "team": "CHI",
+   "status": "ACT",
+   "snaps": 480,
+   "pff": 48,
+   "value": 0.33,
+   "efficiency": 88.3,
+   "negative_rate": 25,
+   "availability": 0.6,
+   "role": "SAM"
+  }
+ ],
+ "thresholds": {
+  "pff": 48,
+  "value": 0.12,
+  "efficiency": 88.3,
+  "negative_rate": 25,
+  "availability": 0.48
+ },
+ "flagged": [
+  {
+   "name": "Curtis Robinson",
+   "team": "DAL",
+   "status": "DEV",
+   "snaps": 250,
+   "pff": 51.3,
+   "value": 0.25,
+   "efficiency": 93.3,
+   "negative_rate": 16,
+   "availability": 0.32,
+   "role": "SAM",
+   "hits": [
+    "pff",
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": 1.5164835164835162
+  }
+ ],
+ "closest": [
+  {
+   "name": "Austin Ajiake",
+   "team": "IND",
+   "status": "ACT",
+   "snaps": 251,
+   "pff": 46.1,
+   "value": 0.03,
+   "efficiency": 95.2,
+   "negative_rate": 12,
+   "availability": 0.76,
+   "role": "SAM",
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 2.4385614385614387
+  },
+  {
+   "name": "Oren Burks",
+   "team": "CIN",
+   "status": "ACT",
+   "snaps": 388,
+   "pff": 32.9,
+   "value": 0.14,
+   "efficiency": 83.1,
+   "negative_rate": 30.9,
+   "availability": 0.88,
+   "role": "SAM",
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": -4.365467865467865
+  }
+ ],
+ "screened": 17,
+ "read_only": true,
+ "rating_changes": []
+}

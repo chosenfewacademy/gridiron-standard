@@ -1,0 +1,376 @@
+{
+  "audit_id": "SAM_REAUDIT_CROSS_AUDIT_A1",
+  "task_id": "SAM_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SAM",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Devin Bush",
+    "Isaiah McDuffie",
+    "Quincy Williams",
+    "D'Marco Jackson",
+    "Leo Chenal",
+    "Derrick Barnes",
+    "Dorian Williams",
+    "Dennis Gardeck",
+    "E.J. Speed",
+    "Malcolm Rodriguez"
+  ],
+  "cross_audit_result": "CONSISTENT: all 13 approved head-to-head/tiebreak verdicts agree with the final rating order; style rule passes for all 78 pairs of 13 rated SAMs (0 too similar); league ceiling 1 raw flag, resolved by an approved tiebreak (Rodriguez holds #10); variance audit 10 10+ gaps: 9 supported, 1 fixed via approved reaudit:revise; Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Devin Bush",
+      "ovr": 84,
+      "audit_id": "SAM_REAUDIT_RATE_01_A1"
+    },
+    {
+      "rank": 2,
+      "player": "Isaiah McDuffie",
+      "ovr": 79,
+      "audit_id": "SAM_REAUDIT_RATE_02_A1"
+    },
+    {
+      "rank": 3,
+      "player": "Quincy Williams",
+      "ovr": 78,
+      "audit_id": "SAM_REAUDIT_RATE_03_A1"
+    },
+    {
+      "rank": 4,
+      "player": "D'Marco Jackson",
+      "ovr": 77,
+      "audit_id": "SAM_REAUDIT_RATE_04_A1"
+    },
+    {
+      "rank": 5,
+      "player": "Leo Chenal",
+      "ovr": 76,
+      "audit_id": "SAM_REAUDIT_RATE_05_A1"
+    },
+    {
+      "rank": 6,
+      "player": "Derrick Barnes",
+      "ovr": 75,
+      "audit_id": "SAM_REAUDIT_RATE_06_A2"
+    },
+    {
+      "rank": 7,
+      "player": "Dorian Williams",
+      "ovr": 74,
+      "audit_id": "SAM_REAUDIT_RATE_07_A1"
+    },
+    {
+      "rank": 8,
+      "player": "Dennis Gardeck",
+      "ovr": 73,
+      "audit_id": "SAM_REAUDIT_RATE_08_A1"
+    },
+    {
+      "rank": 9,
+      "player": "E.J. Speed",
+      "ovr": 72,
+      "audit_id": "SAM_REAUDIT_RATE_09_A1"
+    },
+    {
+      "rank": 10,
+      "player": "Malcolm Rodriguez",
+      "ovr": 71,
+      "audit_id": "SAM_REAUDIT_RATE_10_A1"
+    },
+    {
+      "rank": 11,
+      "player": "Noah Sewell",
+      "ovr": 70,
+      "audit_id": "SAM_REAUDIT_RATE_11_A1"
+    },
+    {
+      "rank": 12,
+      "player": "Jack Sanborn",
+      "ovr": 69,
+      "audit_id": "SAM_REAUDIT_RATE_12_A1"
+    },
+    {
+      "rank": 13,
+      "player": "Devin White",
+      "ovr": 68,
+      "audit_id": "SAM_REAUDIT_RATE_13_A1"
+    }
+  ],
+  "pair_consistency": [
+    {
+      "audit_id": "SAM_REAUDIT_H2H_01_A1",
+      "winner": "Devin Bush",
+      "loser": "Isaiah McDuffie",
+      "consistent": true
+    },
+    {
+      "audit_id": "SAM_REAUDIT_H2H_02_A1",
+      "winner": "Quincy Williams",
+      "loser": "D'Marco Jackson",
+      "consistent": true
+    },
+    {
+      "audit_id": "SAM_REAUDIT_H2H_03_A1",
+      "winner": "Leo Chenal",
+      "loser": "Derrick Barnes",
+      "consistent": true
+    },
+    {
+      "audit_id": "SAM_REAUDIT_H2H_04_A1",
+      "winner": "Dorian Williams",
+      "loser": "Dennis Gardeck",
+      "consistent": true
+    },
+    {
+      "audit_id": "SAM_REAUDIT_H2H_05_A1",
+      "winner": "E.J. Speed",
+      "loser": "Malcolm Rodriguez",
+      "consistent": true
+    },
+    {
+      "audit_id": "SAM_REAUDIT_H2H_06_A1",
+      "winner": "Malcolm Rodriguez",
+      "loser": "Noah Sewell",
+      "consistent": true
+    },
+    {
+      "audit_id": "SAM_REAUDIT_TIEBREAK_01_A1",
+      "winner": "Isaiah McDuffie",
+      "loser": "Quincy Williams",
+      "consistent": true
+    },
+    {
+      "audit_id": "SAM_REAUDIT_TIEBREAK_02_A1",
+      "winner": "D'Marco Jackson",
+      "loser": "Leo Chenal",
+      "consistent": true
+    },
+    {
+      "audit_id": "SAM_REAUDIT_TIEBREAK_03_A1",
+      "winner": "Derrick Barnes",
+      "loser": "Dorian Williams",
+      "consistent": true
+    },
+    {
+      "audit_id": "SAM_REAUDIT_TIEBREAK_04_A1",
+      "winner": "Dennis Gardeck",
+      "loser": "E.J. Speed",
+      "consistent": true
+    },
+    {
+      "audit_id": "SAM_REAUDIT_TIEBREAK_05_A1",
+      "winner": "Noah Sewell",
+      "loser": "Jack Sanborn",
+      "consistent": true
+    },
+    {
+      "audit_id": "SAM_REAUDIT_TIEBREAK_06_A1",
+      "winner": "Jack Sanborn",
+      "loser": "Devin White",
+      "consistent": true
+    },
+    {
+      "audit_id": "SAM_REAUDIT_TIEBREAK_07_A1",
+      "winner": "Malcolm Rodriguez",
+      "loser": "Curtis Robinson",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    }
+  ],
+  "style_rule": {
+    "pairs_checked": 78,
+    "too_similar": 0,
+    "highest_corr": [
+      0.925,
+      3.8,
+      "D'Marco Jackson",
+      "Isaiah McDuffie"
+    ],
+    "lowest_mad": [
+      0.925,
+      3.8,
+      "D'Marco Jackson",
+      "Isaiah McDuffie"
+    ]
+  },
+  "scarcity_note": "SAM_REAUDIT_SCARCITY_A1 PASS (6 traits 90+, none at 95+, so no LEAGUE_DEFINING tag needed; no overall 90+: Bush 84 tops the list). Narrative text grep-verified before the stage ran.",
+  "eligibility_rule": "SAM-eligible = PFF LB grade (2025/2026) and primary 2025-26 role SAM under the LB role convention; edge-graded players belong to LEDGE/REDGE.",
+  "side_convention": "LB ROLE CONVENTION (t46u): each linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role. nflverse weekly depth-chart slots are mapped per team scheme - base 4-3: MLB->MIKE, WLB->WILL, SLB->SAM; base 3-4: RILB->MIKE, LILB->WILL (3-4 OLB/WLB/SLB are edge and belong to LEDGE/REDGE). Each season's slot shares are weighted by that season's defensive snaps; the largest share wins (ties -> MIKE, then WILL). Players matched by gsis/PFR ID. Each player appears in one list only.",
+  "commissioner_fix_approvals": "Approved and applied under t46u: Derrick Barnes PRS 60->66 (overall unchanged).",
+  "league_ceiling_check": {
+    "source": "research-inbox/SAM/SAM_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-t46u.json",
+    "references": [
+      "Malcolm Rodriguez",
+      "Noah Sewell"
+    ],
+    "thresholds": {
+      "pff": 48,
+      "value": 0.12,
+      "efficiency": 88.3,
+      "negative_rate": 25,
+      "availability": 0.48
+    },
+    "scope": "Every SAM-assigned linebacker league-wide (PFF LB grade in 2025 or 2026, sample 250+ snaps), incl. reserve/IR, inactive, practice squad and free agents; the 13 audited SAMs excluded; MIKE/WILL-assigned LBs screened in their own lists. Metrics: snap-weighted PFF LB grade (pff), impact plays per game = TFL+sacks+INT+PD+FF (value), tackle success % = tackles/(tackles+missed), PFR (efficiency), missed tackles + accepted penalties per 1,000 nflverse defensive snaps (negative rate), games share (games/25).",
+    "raw_flags_before_resolution": [
+      {
+        "name": "Curtis Robinson",
+        "team": "DAL",
+        "status": "DEV",
+        "snaps": 250,
+        "pff": 51.3,
+        "value": 0.25,
+        "efficiency": 93.3,
+        "negative_rate": 16,
+        "availability": 0.32,
+        "hits": [
+          "pff",
+          "value",
+          "efficiency",
+          "negative_rate"
+        ]
+      }
+    ],
+    "resolution": "Check (refs #10 Rodriguez 71 / first-out Sewell 70) screened 17 non-pool SAMs and raw-flagged 1: Curtis Robinson (DAL, practice squad). Resolved by approved tiebreak SAM_REAUDIT_TIEBREAK_07 (Rodriguez holds #10).",
+    "flagged": [],
+    "resolved_by_tiebreak": [
+      "SAM_REAUDIT_TIEBREAK_07_A1"
+    ],
+    "closest": [
+      {
+        "name": "Austin Ajiake",
+        "team": "IND",
+        "status": "ACT",
+        "snaps": 251,
+        "pff": 46.1,
+        "value": 0.03,
+        "efficiency": 95.2,
+        "negative_rate": 12,
+        "availability": 0.76,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Oren Burks",
+        "team": "CIN",
+        "status": "ACT",
+        "snaps": 388,
+        "pff": 32.9,
+        "value": 0.14,
+        "efficiency": 83.1,
+        "negative_rate": 30.9,
+        "availability": 0.88,
+        "hits": [
+          "value",
+          "availability"
+        ]
+      }
+    ],
+    "screened": 17,
+    "rating_changes": []
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Devin Bush",
+      "ours": 84,
+      "madden": 86,
+      "madden_position": "MIKE",
+      "delta": -2
+    },
+    {
+      "player": "Isaiah McDuffie",
+      "ours": 79,
+      "madden": 78,
+      "madden_position": "SAM",
+      "delta": 1
+    },
+    {
+      "player": "Quincy Williams",
+      "ours": 78,
+      "madden": 83,
+      "madden_position": "WILL",
+      "delta": -5
+    },
+    {
+      "player": "D'Marco Jackson",
+      "ours": 77,
+      "madden": 71,
+      "madden_position": "WILL",
+      "delta": 6
+    },
+    {
+      "player": "Leo Chenal",
+      "ours": 76,
+      "madden": 82,
+      "madden_position": "MIKE",
+      "delta": -6
+    },
+    {
+      "player": "Derrick Barnes",
+      "ours": 75,
+      "madden": 75,
+      "madden_position": "WILL",
+      "delta": 0
+    },
+    {
+      "player": "Dorian Williams",
+      "ours": 74,
+      "madden": 74,
+      "madden_position": "WILL",
+      "delta": 0
+    },
+    {
+      "player": "Dennis Gardeck",
+      "ours": 73,
+      "madden": 74,
+      "madden_position": "SAM",
+      "delta": -1
+    },
+    {
+      "player": "E.J. Speed",
+      "ours": 72,
+      "madden": 75,
+      "madden_position": "SAM",
+      "delta": -3
+    },
+    {
+      "player": "Malcolm Rodriguez",
+      "ours": 71,
+      "madden": 74,
+      "madden_position": "SAM",
+      "delta": -3
+    },
+    {
+      "player": "Noah Sewell",
+      "ours": 70,
+      "madden": 70,
+      "madden_position": "SAM",
+      "delta": 0
+    },
+    {
+      "player": "Jack Sanborn",
+      "ours": 69,
+      "madden": 71,
+      "madden_position": "MIKE",
+      "delta": -2
+    },
+    {
+      "player": "Devin White",
+      "ours": 68,
+      "madden": 73,
+      "madden_position": "WILL",
+      "delta": -5
+    }
+  ],
+  "madden_order_verified": false,
+  "madden_used_as_evidence": false,
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

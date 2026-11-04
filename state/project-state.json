@@ -10816,7 +10816,7 @@
         "position": "SAM",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/SAM.reaudit.json",
       "baseline_file": null,
@@ -10912,19 +10912,23 @@
         "SAM_REAUDIT_VARIANCE_AUDIT_A1",
         "SAM_REAUDIT_RATE_06_A2",
         "SAM_REAUDIT_SCARCITY_A1",
-        "SAM_REAUDIT_TIEBREAK_07_A1"
+        "SAM_REAUDIT_TIEBREAK_07_A1",
+        "SAM_REAUDIT_CROSS_AUDIT_A1"
       ],
-      "current_stage": "scarcity_audit",
-      "current_task": "SAM_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T11:58:22.191Z",
+      "current_stage": "positional_cross_audit",
+      "current_task": "SAM_REAUDIT_CROSS_AUDIT",
+      "updated_at": "2026-11-04T11:58:23.078Z",
       "last_result": {
-        "task_id": "SAM_REAUDIT_TIEBREAK_07",
+        "task_id": "SAM_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
-        "flags": [
-          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "errors": [],
+        "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "SAM_REAUDIT_CROSS_AUDIT",
+        "audit_id": "SAM_REAUDIT_CROSS_AUDIT_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
