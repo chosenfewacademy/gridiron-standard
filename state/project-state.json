@@ -10907,18 +10907,18 @@
         "SAM_REAUDIT_TIEBREAK_04_A1",
         "SAM_REAUDIT_TIEBREAK_05_A1",
         "SAM_REAUDIT_TIEBREAK_06_A1",
-        "SAM_REAUDIT_VARIANCE_AUDIT_A1"
+        "SAM_REAUDIT_VARIANCE_AUDIT_A1",
+        "SAM_REAUDIT_RATE_06_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "SAM_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T11:58:05.024Z",
+      "updated_at": "2026-11-04T11:58:05.345Z",
       "last_result": {
-        "task_id": "SAM_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
-        "errors": [],
-        "flags": [
-          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "task_id": "SAM_REAUDIT_RATE_06",
+        "status": "REVISION_APPROVED",
+        "audit_id": "SAM_REAUDIT_RATE_06_A2",
+        "supersedes": "SAM_REAUDIT_RATE_06_A1",
+        "flags": []
       },
       "awaiting": null,
       "approvals": [
@@ -11241,6 +11241,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:58:04Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "SAM_REAUDIT_RATE_06",
+          "audit_id": "SAM_REAUDIT_RATE_06_A2",
+          "supersedes": "SAM_REAUDIT_RATE_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:58:05Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (SAM_REAUDIT_VARIANCE_AUDIT, t46u): PRS 60->66 (7 sacks across 2025-26 on 235 PFF pass-rush snaps). OVR unchanged."
         }
       ]
     }
