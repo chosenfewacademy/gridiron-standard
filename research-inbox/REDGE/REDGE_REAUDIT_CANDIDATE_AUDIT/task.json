@@ -1,0 +1,254 @@
+{
+  "task_id": "REDGE_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Danielle Hunter"
+      },
+      {
+        "rank": 2,
+        "player": "Nik Bonitto"
+      },
+      {
+        "rank": 3,
+        "player": "Myles Garrett"
+      },
+      {
+        "rank": 4,
+        "player": "Micah Parsons"
+      },
+      {
+        "rank": 5,
+        "player": "Abdul Carter"
+      },
+      {
+        "rank": 6,
+        "player": "Chase Young"
+      },
+      {
+        "rank": 7,
+        "player": "Josh Hines-Allen"
+      },
+      {
+        "rank": 8,
+        "player": "Al-Quadin Muhammad"
+      },
+      {
+        "rank": 9,
+        "player": "Dallas Turner"
+      },
+      {
+        "rank": 10,
+        "player": "Jacob Martin"
+      }
+    ],
+    "external_controls": [
+      "Nick Herbig",
+      "Alex Highsmith",
+      "Laiatu Latu",
+      "Khalil Mack",
+      "Trey Hendrickson"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Danielle Hunter",
+      "aliases": [],
+      "player_id": "ext_00-0031565",
+      "flags": [
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 59 / right 437 (L25 59, L26 0, R25 162, R26 275) -> REDGE)"
+      ]
+    },
+    {
+      "player": "Nik Bonitto",
+      "aliases": [],
+      "player_id": "ext_00-0037249",
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 1 / right 494 (L25 1, L26 0, R25 220, R26 274) -> REDGE)"
+      ]
+    },
+    {
+      "player": "Myles Garrett",
+      "aliases": [],
+      "player_id": "ext_00-0033868",
+      "flags": [
+        "INJURED_RESERVE",
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 126 / right 370 (L25 126, L26 0, R25 95, R26 275) -> REDGE)"
+      ]
+    },
+    {
+      "player": "Micah Parsons",
+      "aliases": [],
+      "player_id": "ext_00-0036932",
+      "flags": [
+        "INJURED_RESERVE",
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 0 / right 496 (L25 0, L26 0, R25 221, R26 275) -> REDGE)"
+      ]
+    },
+    {
+      "player": "Abdul Carter",
+      "aliases": [],
+      "player_id": "ext_00-0040677",
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 225 / right 271 (L25 220, L26 5, R25 1, R26 270) -> REDGE)"
+      ]
+    },
+    {
+      "player": "Chase Young",
+      "aliases": [],
+      "player_id": "ext_00-0036321",
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 0 / right 495 (L25 0, L26 0, R25 221, R26 274) -> REDGE)"
+      ]
+    },
+    {
+      "player": "Josh Hines-Allen",
+      "aliases": [],
+      "player_id": "ext_00-0035642",
+      "flags": [
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 221 / right 275 (L25 221, L26 0, R25 0, R26 275) -> REDGE)"
+      ]
+    },
+    {
+      "player": "Al-Quadin Muhammad",
+      "aliases": [],
+      "player_id": "ext_00-0033964",
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 161 / right 332 (L25 51, L26 110, R25 168, R26 164) -> REDGE)"
+      ]
+    },
+    {
+      "player": "Dallas Turner",
+      "aliases": [],
+      "player_id": "ext_00-0039924",
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 92 / right 404 (L25 87, L26 5, R25 134, R26 270) -> REDGE)"
+      ]
+    },
+    {
+      "player": "Jacob Martin",
+      "aliases": [],
+      "player_id": "ext_00-0034163",
+      "flags": [
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 5 / right 277 (L25 1, L26 4, R25 6, R26 271) -> REDGE)"
+      ]
+    },
+    {
+      "player": "Nick Herbig",
+      "aliases": [],
+      "player_id": "ext_00-0038577",
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 138 / right 358 (L25 1, L26 137, R25 220, R26 138) -> REDGE)"
+      ]
+    },
+    {
+      "player": "Alex Highsmith",
+      "aliases": [],
+      "player_id": "ext_00-0036333",
+      "flags": [
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 0 / right 496 (L25 0, L26 0, R25 221, R26 275) -> REDGE)",
+        "ADDED_BY_SIDE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Laiatu Latu",
+      "aliases": [],
+      "player_id": "ext_00-0039340",
+      "flags": [
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 0 / right 496 (L25 0, L26 0, R25 221, R26 275) -> REDGE)",
+        "ADDED_BY_SIDE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Khalil Mack",
+      "aliases": [],
+      "player_id": "ext_00-0031040",
+      "flags": [
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 0 / right 495 (L25 0, L26 0, R25 220, R26 275) -> REDGE)",
+        "ADDED_BY_SIDE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Trey Hendrickson",
+      "aliases": [],
+      "player_id": "ext_00-0033935",
+      "flags": [
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 0 / right 495 (L25 0, L26 0, R25 220, R26 275) -> REDGE)",
+        "ADDED_BY_SIDE_SCREEN (t46u contender screen)"
+      ]
+    }
+  ],
+  "position": "REDGE",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 10,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "pass rush",
+      "run defense",
+      "tackling",
+      "pass-rush win rate",
+      "pressures",
+      "total pressures, sacks, hits, hurries"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks, QB hits",
+      "forced fumbles",
+      "batted passes"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (edge side / interior technique)",
+      "pass-rush snaps vs run snaps"
+    ],
+    "on_field_impact": [
+      "pass-rush win rate (ESPN)",
+      "run-stop win rate (ESPN)",
+      "pressure rate",
+      "run-stop %"
+    ],
+    "madden_attributes_informed": [
+      "PMV",
+      "FMV",
+      "BSH",
+      "PUR",
+      "PRC",
+      "TAK",
+      "POW",
+      "STR",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Right-side edge (offense's left): only right-edge alignment snaps are primary."
+  }
+}
