@@ -1,0 +1,593 @@
+{
+  "audit_id": "SS_REAUDIT_VARIANCE_AUDIT_A1",
+  "task_id": "SS_REAUDIT_VARIANCE_AUDIT",
+  "task_type": "variance_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Kyle Hamilton",
+    "Evan Williams",
+    "Jessie Bates",
+    "Brian Branch",
+    "Derwin James",
+    "Antoine Winfield Jr.",
+    "Kamren Curl",
+    "Talanoa Hufanga",
+    "Tony Jefferson",
+    "Jaylinn Hawkins",
+    "Christian Roland-Wallace",
+    "Coby Bryant",
+    "Cooper DeJean"
+  ],
+  "variance_gaps": [
+    {
+      "player": "Evan Williams",
+      "attr": "STR",
+      "madden": 62,
+      "ours": 72,
+      "delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Evan Williams 2025: PFF S 2025 overall 70.2 on 979 snaps (S rank 27; 600 coverage / 368 run-def snaps); PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed; 16 g / 903 def snaps; 46 solo + 52 ast tackles, 4 TFL, 3 INT, 5 PD, 0 FF; 4 accepted penalties",
+        "Evan Williams 2026: PFF S 2026 overall 90.6 on 560 snaps (S rank 1; 322 coverage / 212 run-def snaps); PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed; 8 g / 561 def snaps; 43 solo + 27 ast tackles, 2 TFL, 2 INT, 6 PD, 0 FF; 2 accepted penalties",
+        "PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed; PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1464 -> SS; injuries wk16 Questionable (Knee); wk17 Questionable (Knee); roster ACT"
+      ],
+      "basis": "press/run-support profile: PFF S run-def snaps, tackles, missed tackles"
+    },
+    {
+      "player": "Evan Williams",
+      "attr": "ZCV",
+      "madden": 82,
+      "ours": 92,
+      "delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Evan Williams 2025: PFF S 2025 overall 70.2 on 979 snaps (S rank 27; 600 coverage / 368 run-def snaps); PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed; 16 g / 903 def snaps; 46 solo + 52 ast tackles, 4 TFL, 3 INT, 5 PD, 0 FF; 4 accepted penalties",
+        "Evan Williams 2026: PFF S 2026 overall 90.6 on 560 snaps (S rank 1; 322 coverage / 212 run-def snaps); PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed; 8 g / 561 def snaps; 43 solo + 27 ast tackles, 2 TFL, 2 INT, 6 PD, 0 FF; 2 accepted penalties",
+        "PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed; PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1464 -> SS; injuries wk16 Questionable (Knee); wk17 Questionable (Knee); roster ACT"
+      ],
+      "basis": "PFR coverage allowed, INT/PD, coverage snaps"
+    },
+    {
+      "player": "Evan Williams",
+      "attr": "JMP",
+      "madden": 94,
+      "ours": 82,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Evan Williams 2025: PFF S 2025 overall 70.2 on 979 snaps (S rank 27; 600 coverage / 368 run-def snaps); PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed; 16 g / 903 def snaps; 46 solo + 52 ast tackles, 4 TFL, 3 INT, 5 PD, 0 FF; 4 accepted penalties",
+        "Evan Williams 2026: PFF S 2026 overall 90.6 on 560 snaps (S rank 1; 322 coverage / 212 run-def snaps); PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed; 8 g / 561 def snaps; 43 solo + 27 ast tackles, 2 TFL, 2 INT, 6 PD, 0 FF; 2 accepted penalties",
+        "PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed; PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1464 -> SS; injuries wk16 Questionable (Knee); wk17 Questionable (Knee); roster ACT"
+      ],
+      "basis": "PD and INT totals; LOW confidence (no tracking data)"
+    },
+    {
+      "player": "Evan Williams",
+      "attr": "TAK",
+      "madden": 79,
+      "ours": 92,
+      "delta": 13,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Evan Williams 2025: PFF S 2025 overall 70.2 on 979 snaps (S rank 27; 600 coverage / 368 run-def snaps); PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed; 16 g / 903 def snaps; 46 solo + 52 ast tackles, 4 TFL, 3 INT, 5 PD, 0 FF; 4 accepted penalties",
+        "Evan Williams 2026: PFF S 2026 overall 90.6 on 560 snaps (S rank 1; 322 coverage / 212 run-def snaps); PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed; 8 g / 561 def snaps; 43 solo + 27 ast tackles, 2 TFL, 2 INT, 6 PD, 0 FF; 2 accepted penalties",
+        "PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed; PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1464 -> SS; injuries wk16 Questionable (Knee); wk17 Questionable (Knee); roster ACT"
+      ],
+      "basis": "tackles vs missed tackles (PFR)"
+    },
+    {
+      "player": "Brian Branch",
+      "attr": "STR",
+      "madden": 60,
+      "ours": 70,
+      "delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Brian Branch 2025: PFF S 2025 overall 77.8 on 746 snaps (S rank 12; 436 coverage / 292 run-def snaps); PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; 12 g / 747 def snaps; 46 solo + 27 ast tackles, 5 TFL, 0 INT, 9 PD, 1 FF; 7 accepted penalties",
+        "Brian Branch 2026: PFF S 2026 overall 82.2 on 68 snaps (S rank None; 45 coverage / 20 run-def snaps); PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 3 / SS 812 -> SS; injuries wk6 Questionable (Ankle); wk14 Questionable (Toe); wk15 Out (Achilles); wk5 Out (Achilles); wk7 Questionable (Achilles); roster ACT"
+      ],
+      "basis": "press/run-support profile: PFF S run-def snaps, tackles, missed tackles"
+    },
+    {
+      "player": "Brian Branch",
+      "attr": "PRS",
+      "madden": 74,
+      "ours": 86,
+      "delta": 12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Brian Branch 2025: PFF S 2025 overall 77.8 on 746 snaps (S rank 12; 436 coverage / 292 run-def snaps); PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; 12 g / 747 def snaps; 46 solo + 27 ast tackles, 5 TFL, 0 INT, 9 PD, 1 FF; 7 accepted penalties",
+        "Brian Branch 2026: PFF S 2026 overall 82.2 on 68 snaps (S rank None; 45 coverage / 20 run-def snaps); PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 3 / SS 812 -> SS; injuries wk6 Questionable (Ankle); wk14 Questionable (Toe); wk15 Out (Achilles); wk5 Out (Achilles); wk7 Questionable (Achilles); roster ACT"
+      ],
+      "basis": "slot/man profile from coverage results, PD and penalties (alignment splits paywalled)"
+    },
+    {
+      "player": "Brian Branch",
+      "attr": "JMP",
+      "madden": 89,
+      "ours": 78,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Brian Branch 2025: PFF S 2025 overall 77.8 on 746 snaps (S rank 12; 436 coverage / 292 run-def snaps); PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; 12 g / 747 def snaps; 46 solo + 27 ast tackles, 5 TFL, 0 INT, 9 PD, 1 FF; 7 accepted penalties",
+        "Brian Branch 2026: PFF S 2026 overall 82.2 on 68 snaps (S rank None; 45 coverage / 20 run-def snaps); PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 3 / SS 812 -> SS; injuries wk6 Questionable (Ankle); wk14 Questionable (Toe); wk15 Out (Achilles); wk5 Out (Achilles); wk7 Questionable (Achilles); roster ACT"
+      ],
+      "basis": "PD and INT totals; LOW confidence (no tracking data)"
+    },
+    {
+      "player": "Brian Branch",
+      "attr": "INJ",
+      "madden": 92,
+      "ours": 66,
+      "delta": -26,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Brian Branch 2025: PFF S 2025 overall 77.8 on 746 snaps (S rank 12; 436 coverage / 292 run-def snaps); PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; 12 g / 747 def snaps; 46 solo + 27 ast tackles, 5 TFL, 0 INT, 9 PD, 1 FF; 7 accepted penalties",
+        "Brian Branch 2026: PFF S 2026 overall 82.2 on 68 snaps (S rank None; 45 coverage / 20 run-def snaps); PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 3 / SS 812 -> SS; injuries wk6 Questionable (Ankle); wk14 Questionable (Toe); wk15 Out (Achilles); wk5 Out (Achilles); wk7 Questionable (Achilles); roster ACT"
+      ],
+      "basis": "availability: injury reports, reserve/IR, games"
+    },
+    {
+      "player": "Derwin James",
+      "attr": "INJ",
+      "madden": 90,
+      "ours": 72,
+      "delta": -18,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Derwin James 2025: PFF S 2025 overall 78.8 on 959 snaps (S rank 9; 527 coverage / 356 run-def snaps); PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; 16 g / 893 def snaps; 49 solo + 44 ast tackles, 6 TFL, 3 INT, 7 PD, 1 FF; 3 accepted penalties",
+        "Derwin James 2026: PFF S 2026 overall 61 on 193 snaps (S rank 46; 98 coverage / 88 run-def snaps); PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed; 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF; 0 accepted penalties",
+        "PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1086 -> SS; injuries wk5 Out (Hamstring); wk6 Out (Hamstring); wk8 Out (Hamstring); roster RES"
+      ],
+      "basis": "availability: injury reports, reserve/IR, games"
+    },
+    {
+      "player": "Antoine Winfield Jr.",
+      "attr": "OVR",
+      "madden": 93,
+      "ours": 82,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Antoine Winfield Jr. 2025: PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF; 0 accepted penalties",
+        "Antoine Winfield Jr. 2026: PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF; 0 accepted penalties",
+        "PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS; injuries wk5 Out (Rib); wk6 Out (Rib); wk7 Out (Rib); roster ACT",
+        "approved H2H/tiebreak chain (6 head-to-heads + 6 tiebreaks) sets the order"
+      ],
+      "basis": "OVR follows the approved head-to-head chain"
+    },
+    {
+      "player": "Antoine Winfield Jr.",
+      "attr": "STR",
+      "madden": 59,
+      "ours": 70,
+      "delta": 11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Antoine Winfield Jr. 2025: PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF; 0 accepted penalties",
+        "Antoine Winfield Jr. 2026: PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF; 0 accepted penalties",
+        "PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS; injuries wk5 Out (Rib); wk6 Out (Rib); wk7 Out (Rib); roster ACT"
+      ],
+      "basis": "press/run-support profile: PFF S run-def snaps, tackles, missed tackles"
+    },
+    {
+      "player": "Antoine Winfield Jr.",
+      "attr": "AWR",
+      "madden": 95,
+      "ours": 84,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Antoine Winfield Jr. 2025: PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF; 0 accepted penalties",
+        "Antoine Winfield Jr. 2026: PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF; 0 accepted penalties",
+        "PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS; injuries wk5 Out (Rib); wk6 Out (Rib); wk7 Out (Rib); roster ACT"
+      ],
+      "basis": "PFF S overall + penalties + passer rating allowed"
+    },
+    {
+      "player": "Antoine Winfield Jr.",
+      "attr": "PRC",
+      "madden": 96,
+      "ours": 84,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Antoine Winfield Jr. 2025: PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF; 0 accepted penalties",
+        "Antoine Winfield Jr. 2026: PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF; 0 accepted penalties",
+        "PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS; injuries wk5 Out (Rib); wk6 Out (Rib); wk7 Out (Rib); roster ACT"
+      ],
+      "basis": "INT/PD, completions allowed, PFF S overall"
+    },
+    {
+      "player": "Antoine Winfield Jr.",
+      "attr": "JMP",
+      "madden": 89,
+      "ours": 78,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Antoine Winfield Jr. 2025: PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF; 0 accepted penalties",
+        "Antoine Winfield Jr. 2026: PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF; 0 accepted penalties",
+        "PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS; injuries wk5 Out (Rib); wk6 Out (Rib); wk7 Out (Rib); roster ACT"
+      ],
+      "basis": "PD and INT totals; LOW confidence (no tracking data)"
+    },
+    {
+      "player": "Antoine Winfield Jr.",
+      "attr": "TAK",
+      "madden": 80,
+      "ours": 92,
+      "delta": 12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Antoine Winfield Jr. 2025: PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF; 0 accepted penalties",
+        "Antoine Winfield Jr. 2026: PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF; 0 accepted penalties",
+        "PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS; injuries wk5 Out (Rib); wk6 Out (Rib); wk7 Out (Rib); roster ACT"
+      ],
+      "basis": "tackles vs missed tackles (PFR)"
+    },
+    {
+      "player": "Antoine Winfield Jr.",
+      "attr": "INJ",
+      "madden": 88,
+      "ours": 76,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Antoine Winfield Jr. 2025: PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF; 0 accepted penalties",
+        "Antoine Winfield Jr. 2026: PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF; 0 accepted penalties",
+        "PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS; injuries wk5 Out (Rib); wk6 Out (Rib); wk7 Out (Rib); roster ACT"
+      ],
+      "basis": "availability: injury reports, reserve/IR, games"
+    },
+    {
+      "player": "Talanoa Hufanga",
+      "attr": "OVR",
+      "madden": 89,
+      "ours": 79,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Talanoa Hufanga 2025: PFF S 2025 overall 70.9 on 1225 snaps (S rank 22; 758 coverage / 429 run-def snaps); PFR 2025 coverage 58 targets / 35 completions / 470 yds / 3 TD / passer rating 103.4 / 0 INT; 106 tackles, 10 missed; 17 g / 1083 def snaps; 67 solo + 39 ast tackles, 6 TFL, 0 INT, 11 PD, 1 FF; 4 accepted penalties",
+        "Talanoa Hufanga 2026: PFF S 2026 overall 70.5 on 322 snaps (S rank 23; 171 coverage / 137 run-def snaps); PFR 2026 (5 games) coverage 15 targets / 6 completions / 73 yds / 0 TD / 2 INT; 23 tackles, 6 missed; 5 g / 321 def snaps; 12 solo + 10 ast tackles, 3 TFL, 2 INT, 3 PD, 1 FF; 1 accepted penalties",
+        "PFR 2025 coverage 58 targets / 35 completions / 470 yds / 3 TD / passer rating 103.4 / 0 INT; 106 tackles, 10 missed; PFR 2026 (5 games) coverage 15 targets / 6 completions / 73 yds / 0 TD / 2 INT; 23 tackles, 6 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1404 -> SS; injuries wk6 Out (Ankle); wk7 Out (Ankle); wk8 Out (Ankle); roster INA",
+        "approved H2H/tiebreak chain (6 head-to-heads + 6 tiebreaks) sets the order"
+      ],
+      "basis": "OVR follows the approved head-to-head chain"
+    },
+    {
+      "player": "Talanoa Hufanga",
+      "attr": "STR",
+      "madden": 58,
+      "ours": 76,
+      "delta": 18,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Talanoa Hufanga 2025: PFF S 2025 overall 70.9 on 1225 snaps (S rank 22; 758 coverage / 429 run-def snaps); PFR 2025 coverage 58 targets / 35 completions / 470 yds / 3 TD / passer rating 103.4 / 0 INT; 106 tackles, 10 missed; 17 g / 1083 def snaps; 67 solo + 39 ast tackles, 6 TFL, 0 INT, 11 PD, 1 FF; 4 accepted penalties",
+        "Talanoa Hufanga 2026: PFF S 2026 overall 70.5 on 322 snaps (S rank 23; 171 coverage / 137 run-def snaps); PFR 2026 (5 games) coverage 15 targets / 6 completions / 73 yds / 0 TD / 2 INT; 23 tackles, 6 missed; 5 g / 321 def snaps; 12 solo + 10 ast tackles, 3 TFL, 2 INT, 3 PD, 1 FF; 1 accepted penalties",
+        "PFR 2025 coverage 58 targets / 35 completions / 470 yds / 3 TD / passer rating 103.4 / 0 INT; 106 tackles, 10 missed; PFR 2026 (5 games) coverage 15 targets / 6 completions / 73 yds / 0 TD / 2 INT; 23 tackles, 6 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1404 -> SS; injuries wk6 Out (Ankle); wk7 Out (Ankle); wk8 Out (Ankle); roster INA"
+      ],
+      "basis": "press/run-support profile: PFF S run-def snaps, tackles, missed tackles"
+    },
+    {
+      "player": "Talanoa Hufanga",
+      "attr": "AWR",
+      "madden": 92,
+      "ours": 80,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Talanoa Hufanga 2025: PFF S 2025 overall 70.9 on 1225 snaps (S rank 22; 758 coverage / 429 run-def snaps); PFR 2025 coverage 58 targets / 35 completions / 470 yds / 3 TD / passer rating 103.4 / 0 INT; 106 tackles, 10 missed; 17 g / 1083 def snaps; 67 solo + 39 ast tackles, 6 TFL, 0 INT, 11 PD, 1 FF; 4 accepted penalties",
+        "Talanoa Hufanga 2026: PFF S 2026 overall 70.5 on 322 snaps (S rank 23; 171 coverage / 137 run-def snaps); PFR 2026 (5 games) coverage 15 targets / 6 completions / 73 yds / 0 TD / 2 INT; 23 tackles, 6 missed; 5 g / 321 def snaps; 12 solo + 10 ast tackles, 3 TFL, 2 INT, 3 PD, 1 FF; 1 accepted penalties",
+        "PFR 2025 coverage 58 targets / 35 completions / 470 yds / 3 TD / passer rating 103.4 / 0 INT; 106 tackles, 10 missed; PFR 2026 (5 games) coverage 15 targets / 6 completions / 73 yds / 0 TD / 2 INT; 23 tackles, 6 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1404 -> SS; injuries wk6 Out (Ankle); wk7 Out (Ankle); wk8 Out (Ankle); roster INA"
+      ],
+      "basis": "PFF S overall + penalties + passer rating allowed"
+    },
+    {
+      "player": "Talanoa Hufanga",
+      "attr": "PRC",
+      "madden": 94,
+      "ours": 82,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Talanoa Hufanga 2025: PFF S 2025 overall 70.9 on 1225 snaps (S rank 22; 758 coverage / 429 run-def snaps); PFR 2025 coverage 58 targets / 35 completions / 470 yds / 3 TD / passer rating 103.4 / 0 INT; 106 tackles, 10 missed; 17 g / 1083 def snaps; 67 solo + 39 ast tackles, 6 TFL, 0 INT, 11 PD, 1 FF; 4 accepted penalties",
+        "Talanoa Hufanga 2026: PFF S 2026 overall 70.5 on 322 snaps (S rank 23; 171 coverage / 137 run-def snaps); PFR 2026 (5 games) coverage 15 targets / 6 completions / 73 yds / 0 TD / 2 INT; 23 tackles, 6 missed; 5 g / 321 def snaps; 12 solo + 10 ast tackles, 3 TFL, 2 INT, 3 PD, 1 FF; 1 accepted penalties",
+        "PFR 2025 coverage 58 targets / 35 completions / 470 yds / 3 TD / passer rating 103.4 / 0 INT; 106 tackles, 10 missed; PFR 2026 (5 games) coverage 15 targets / 6 completions / 73 yds / 0 TD / 2 INT; 23 tackles, 6 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1404 -> SS; injuries wk6 Out (Ankle); wk7 Out (Ankle); wk8 Out (Ankle); roster INA"
+      ],
+      "basis": "INT/PD, completions allowed, PFF S overall"
+    },
+    {
+      "player": "Talanoa Hufanga",
+      "attr": "INJ",
+      "madden": 84,
+      "ours": 70,
+      "delta": -14,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Talanoa Hufanga 2025: PFF S 2025 overall 70.9 on 1225 snaps (S rank 22; 758 coverage / 429 run-def snaps); PFR 2025 coverage 58 targets / 35 completions / 470 yds / 3 TD / passer rating 103.4 / 0 INT; 106 tackles, 10 missed; 17 g / 1083 def snaps; 67 solo + 39 ast tackles, 6 TFL, 0 INT, 11 PD, 1 FF; 4 accepted penalties",
+        "Talanoa Hufanga 2026: PFF S 2026 overall 70.5 on 322 snaps (S rank 23; 171 coverage / 137 run-def snaps); PFR 2026 (5 games) coverage 15 targets / 6 completions / 73 yds / 0 TD / 2 INT; 23 tackles, 6 missed; 5 g / 321 def snaps; 12 solo + 10 ast tackles, 3 TFL, 2 INT, 3 PD, 1 FF; 1 accepted penalties",
+        "PFR 2025 coverage 58 targets / 35 completions / 470 yds / 3 TD / passer rating 103.4 / 0 INT; 106 tackles, 10 missed; PFR 2026 (5 games) coverage 15 targets / 6 completions / 73 yds / 0 TD / 2 INT; 23 tackles, 6 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1404 -> SS; injuries wk6 Out (Ankle); wk7 Out (Ankle); wk8 Out (Ankle); roster INA"
+      ],
+      "basis": "availability: injury reports, reserve/IR, games"
+    },
+    {
+      "player": "Tony Jefferson",
+      "attr": "CTH",
+      "madden": 67,
+      "ours": 84,
+      "delta": 17,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Tony Jefferson 2025: PFF S 2025 overall 70.8 on 533 snaps (S rank 24; 346 coverage / 175 run-def snaps); PFR 2025 coverage 22 targets / 16 completions / 207 yds / 0 TD / passer rating 62.3 / 4 INT; 57 tackles, 7 missed; 13 g / 490 def snaps; 36 solo + 20 ast tackles, 1 TFL, 4 INT, 7 PD, 0 FF; 1 accepted penalties",
+        "Tony Jefferson 2026: PFF S 2026 overall 70.6 on 297 snaps (S rank 22; 135 coverage / 152 run-def snaps); PFR 2026 (6 games) coverage 13 targets / 9 completions / 91 yds / 1 TD / 0 INT; 24 tackles, 1 missed; 7 g / 297 def snaps; 16 solo + 15 ast tackles, 1 TFL, 0 INT, 2 PD, 0 FF; 1 accepted penalties",
+        "PFR 2025 coverage 22 targets / 16 completions / 207 yds / 0 TD / passer rating 62.3 / 4 INT; 57 tackles, 7 missed; PFR 2026 (6 games) coverage 13 targets / 9 completions / 91 yds / 1 TD / 0 INT; 24 tackles, 1 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 197 / SS 590 -> SS; injuries wk9 Out (Hamstring); roster ACT"
+      ],
+      "basis": "INT totals (PFR + nflverse) 2025-26"
+    },
+    {
+      "player": "Tony Jefferson",
+      "attr": "POW",
+      "madden": 90,
+      "ours": 80,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Tony Jefferson 2025: PFF S 2025 overall 70.8 on 533 snaps (S rank 24; 346 coverage / 175 run-def snaps); PFR 2025 coverage 22 targets / 16 completions / 207 yds / 0 TD / passer rating 62.3 / 4 INT; 57 tackles, 7 missed; 13 g / 490 def snaps; 36 solo + 20 ast tackles, 1 TFL, 4 INT, 7 PD, 0 FF; 1 accepted penalties",
+        "Tony Jefferson 2026: PFF S 2026 overall 70.6 on 297 snaps (S rank 22; 135 coverage / 152 run-def snaps); PFR 2026 (6 games) coverage 13 targets / 9 completions / 91 yds / 1 TD / 0 INT; 24 tackles, 1 missed; 7 g / 297 def snaps; 16 solo + 15 ast tackles, 1 TFL, 0 INT, 2 PD, 0 FF; 1 accepted penalties",
+        "PFR 2025 coverage 22 targets / 16 completions / 207 yds / 0 TD / passer rating 62.3 / 4 INT; 57 tackles, 7 missed; PFR 2026 (6 games) coverage 13 targets / 9 completions / 91 yds / 1 TD / 0 INT; 24 tackles, 1 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 197 / SS 590 -> SS; injuries wk9 Out (Hamstring); roster ACT"
+      ],
+      "basis": "hit power: TFL, forced fumbles, run-def snaps, tackle volume"
+    },
+    {
+      "player": "Jaylinn Hawkins",
+      "attr": "POW",
+      "madden": 87,
+      "ours": 72,
+      "delta": -15,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Jaylinn Hawkins 2025: PFF S 2025 overall 74.9 on 1102 snaps (S rank 15; 659 coverage / 408 run-def snaps); PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed; 15 g / 838 def snaps; 44 solo + 26 ast tackles, 3 TFL, 4 INT, 6 PD, 1 FF; 3 accepted penalties",
+        "Jaylinn Hawkins 2026: PFF S 2026 overall 54.1 on 314 snaps (S rank 75; 211 coverage / 100 run-def snaps); PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed; 6 g / 315 def snaps; 17 solo + 13 ast tackles, 0 TFL, 0 INT, 0 PD, 0 FF; 1 accepted penalties",
+        "PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed; PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 176 / SS 977 -> SS; injuries wk6 Out (Hamstring); wk7 Questionable (Hamstring); wk7 Out (Knee); wk8 Out (Knee); roster INA"
+      ],
+      "basis": "hit power: TFL, forced fumbles, run-def snaps, tackle volume"
+    },
+    {
+      "player": "Jaylinn Hawkins",
+      "attr": "INJ",
+      "madden": 88,
+      "ours": 70,
+      "delta": -18,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Jaylinn Hawkins 2025: PFF S 2025 overall 74.9 on 1102 snaps (S rank 15; 659 coverage / 408 run-def snaps); PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed; 15 g / 838 def snaps; 44 solo + 26 ast tackles, 3 TFL, 4 INT, 6 PD, 1 FF; 3 accepted penalties",
+        "Jaylinn Hawkins 2026: PFF S 2026 overall 54.1 on 314 snaps (S rank 75; 211 coverage / 100 run-def snaps); PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed; 6 g / 315 def snaps; 17 solo + 13 ast tackles, 0 TFL, 0 INT, 0 PD, 0 FF; 1 accepted penalties",
+        "PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed; PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 176 / SS 977 -> SS; injuries wk6 Out (Hamstring); wk7 Questionable (Hamstring); wk7 Out (Knee); wk8 Out (Knee); roster INA"
+      ],
+      "basis": "availability: injury reports, reserve/IR, games"
+    },
+    {
+      "player": "Christian Roland-Wallace",
+      "attr": "COD",
+      "madden": 73,
+      "ours": 84,
+      "delta": 11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Christian Roland-Wallace 2025: PFF S 2025 overall 78.8 on 190 snaps (S rank None; 125 coverage / 60 run-def snaps); PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed; 10 g / 190 def snaps; 19 solo + 15 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF; 1 accepted penalties",
+        "Christian Roland-Wallace 2026: PFF S 2026 overall 75.6 on 155 snaps (S rank 14; 120 coverage / 28 run-def snaps); PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed; 7 g / 155 def snaps; 12 solo + 6 ast tackles, 2 TFL, 0 INT, 2 PD, 0 FF; 1 accepted penalties",
+        "PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed; PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 0 -> SS (roster depth_chart_position SS); injuries wk13 Out (Back); wk14 Out (Back); roster ACT"
+      ],
+      "basis": "movement (no public tracking data); LOW confidence"
+    },
+    {
+      "player": "Christian Roland-Wallace",
+      "attr": "PRS",
+      "madden": 65,
+      "ours": 76,
+      "delta": 11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Christian Roland-Wallace 2025: PFF S 2025 overall 78.8 on 190 snaps (S rank None; 125 coverage / 60 run-def snaps); PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed; 10 g / 190 def snaps; 19 solo + 15 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF; 1 accepted penalties",
+        "Christian Roland-Wallace 2026: PFF S 2026 overall 75.6 on 155 snaps (S rank 14; 120 coverage / 28 run-def snaps); PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed; 7 g / 155 def snaps; 12 solo + 6 ast tackles, 2 TFL, 0 INT, 2 PD, 0 FF; 1 accepted penalties",
+        "PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed; PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 0 -> SS (roster depth_chart_position SS); injuries wk13 Out (Back); wk14 Out (Back); roster ACT"
+      ],
+      "basis": "slot/man profile from coverage results, PD and penalties (alignment splits paywalled)"
+    },
+    {
+      "player": "Christian Roland-Wallace",
+      "attr": "TAK",
+      "madden": 56,
+      "ours": 88,
+      "delta": 32,
+      "verdict": "ADJUST",
+      "key_stats": [
+        "Christian Roland-Wallace 2025: PFF S 2025 overall 78.8 on 190 snaps (S rank None; 125 coverage / 60 run-def snaps); PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed; 10 g / 190 def snaps; 19 solo + 15 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF; 1 accepted penalties",
+        "Christian Roland-Wallace 2026: PFF S 2026 overall 75.6 on 155 snaps (S rank 14; 120 coverage / 28 run-def snaps); PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed; 7 g / 155 def snaps; 12 solo + 6 ast tackles, 2 TFL, 0 INT, 2 PD, 0 FF; 1 accepted penalties",
+        "PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed; PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 0 -> SS (roster depth_chart_position SS); injuries wk13 Out (Back); wk14 Out (Back); roster ACT"
+      ],
+      "basis": "tackles vs missed tackles (PFR)",
+      "proposed_revision": {
+        "attr": "TAK",
+        "from": 88,
+        "to": 82,
+        "why": "0 missed tackles on 47 (34 in 2025, 13 in 2026, PFR) is a small part-time sample (190 and 155 snaps); 88 would be the highest TAK in the SS top 13 on the least volume; OVR unchanged",
+        "task_id": "SS_REAUDIT_RATE_11",
+        "status": "PROPOSED_NOT_APPROVED"
+      }
+    },
+    {
+      "player": "Christian Roland-Wallace",
+      "attr": "POW",
+      "madden": 50,
+      "ours": 72,
+      "delta": 22,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Christian Roland-Wallace 2025: PFF S 2025 overall 78.8 on 190 snaps (S rank None; 125 coverage / 60 run-def snaps); PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed; 10 g / 190 def snaps; 19 solo + 15 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF; 1 accepted penalties",
+        "Christian Roland-Wallace 2026: PFF S 2026 overall 75.6 on 155 snaps (S rank 14; 120 coverage / 28 run-def snaps); PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed; 7 g / 155 def snaps; 12 solo + 6 ast tackles, 2 TFL, 0 INT, 2 PD, 0 FF; 1 accepted penalties",
+        "PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed; PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 0 -> SS (roster depth_chart_position SS); injuries wk13 Out (Back); wk14 Out (Back); roster ACT"
+      ],
+      "basis": "hit power: TFL, forced fumbles, run-def snaps, tackle volume"
+    },
+    {
+      "player": "Christian Roland-Wallace",
+      "attr": "STA",
+      "madden": 90,
+      "ours": 76,
+      "delta": -14,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Christian Roland-Wallace 2025: PFF S 2025 overall 78.8 on 190 snaps (S rank None; 125 coverage / 60 run-def snaps); PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed; 10 g / 190 def snaps; 19 solo + 15 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF; 1 accepted penalties",
+        "Christian Roland-Wallace 2026: PFF S 2026 overall 75.6 on 155 snaps (S rank 14; 120 coverage / 28 run-def snaps); PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed; 7 g / 155 def snaps; 12 solo + 6 ast tackles, 2 TFL, 0 INT, 2 PD, 0 FF; 1 accepted penalties",
+        "PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed; PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 0 -> SS (roster depth_chart_position SS); injuries wk13 Out (Back); wk14 Out (Back); roster ACT"
+      ],
+      "basis": "snaps per game"
+    },
+    {
+      "player": "Coby Bryant",
+      "attr": "CTH",
+      "madden": 75,
+      "ours": 86,
+      "delta": 11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Coby Bryant 2025: PFF S 2025 overall 70.2 on 1163 snaps (S rank 27; 768 coverage / 388 run-def snaps); PFR 2025 coverage 39 targets / 23 completions / 316 yds / 1 TD / passer rating 54 / 4 INT; 66 tackles, 18 missed; 15 g / 977 def snaps; 37 solo + 27 ast tackles, 4 TFL, 4 INT, 7 PD, 1 FF; 0 accepted penalties",
+        "Coby Bryant 2026: no PFF S grade 2026; no PFR 2026 line; no snaps; no stats; 0 accepted penalties",
+        "PFR 2025 coverage 39 targets / 23 completions / 316 yds / 1 TD / passer rating 54 / 4 INT; 66 tackles, 18 missed; no PFR 2026 line",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 19 / SS 959 -> SS; injuries wk17 Out (Knee); wk18 Doubtful (Knee); roster RES"
+      ],
+      "basis": "INT totals (PFR + nflverse) 2025-26"
+    },
+    {
+      "player": "Coby Bryant",
+      "attr": "POW",
+      "madden": 63,
+      "ours": 74,
+      "delta": 11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Coby Bryant 2025: PFF S 2025 overall 70.2 on 1163 snaps (S rank 27; 768 coverage / 388 run-def snaps); PFR 2025 coverage 39 targets / 23 completions / 316 yds / 1 TD / passer rating 54 / 4 INT; 66 tackles, 18 missed; 15 g / 977 def snaps; 37 solo + 27 ast tackles, 4 TFL, 4 INT, 7 PD, 1 FF; 0 accepted penalties",
+        "Coby Bryant 2026: no PFF S grade 2026; no PFR 2026 line; no snaps; no stats; 0 accepted penalties",
+        "PFR 2025 coverage 39 targets / 23 completions / 316 yds / 1 TD / passer rating 54 / 4 INT; 66 tackles, 18 missed; no PFR 2026 line",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 19 / SS 959 -> SS; injuries wk17 Out (Knee); wk18 Doubtful (Knee); roster RES"
+      ],
+      "basis": "hit power: TFL, forced fumbles, run-def snaps, tackle volume"
+    },
+    {
+      "player": "Coby Bryant",
+      "attr": "INJ",
+      "madden": 91,
+      "ours": 64,
+      "delta": -27,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Coby Bryant 2025: PFF S 2025 overall 70.2 on 1163 snaps (S rank 27; 768 coverage / 388 run-def snaps); PFR 2025 coverage 39 targets / 23 completions / 316 yds / 1 TD / passer rating 54 / 4 INT; 66 tackles, 18 missed; 15 g / 977 def snaps; 37 solo + 27 ast tackles, 4 TFL, 4 INT, 7 PD, 1 FF; 0 accepted penalties",
+        "Coby Bryant 2026: no PFF S grade 2026; no PFR 2026 line; no snaps; no stats; 0 accepted penalties",
+        "PFR 2025 coverage 39 targets / 23 completions / 316 yds / 1 TD / passer rating 54 / 4 INT; 66 tackles, 18 missed; no PFR 2026 line",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 19 / SS 959 -> SS; injuries wk17 Out (Knee); wk18 Doubtful (Knee); roster RES"
+      ],
+      "basis": "availability: injury reports, reserve/IR, games"
+    },
+    {
+      "player": "Cooper DeJean",
+      "attr": "OVR",
+      "madden": 84,
+      "ours": 73,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Cooper DeJean 2025: no PFF S grade 2025; PFR 2025 coverage 81 targets / 49 completions / 586 yds / 1 TD / passer rating 76.5 / 2 INT; 93 tackles, 6 missed; 16 g / 1037 def snaps; 63 solo + 29 ast tackles, 4 TFL, 2 INT, 16 PD, 1 FF; 2 accepted penalties",
+        "Cooper DeJean 2026: PFF S 2026 overall 54.6 on 554 snaps (S rank 73; 300 coverage / 237 run-def snaps); PFR 2026 (7 games) coverage 37 targets / 22 completions / 237 yds / 4 TD / 1 INT; 46 tackles, 7 missed; 8 g / 554 def snaps; 25 solo + 22 ast tackles, 4 TFL, 1 INT, 5 PD, 0 FF; 4 accepted penalties",
+        "PFR 2025 coverage 81 targets / 49 completions / 586 yds / 1 TD / passer rating 76.5 / 2 INT; 93 tackles, 6 missed; PFR 2026 (7 games) coverage 37 targets / 22 completions / 237 yds / 4 TD / 1 INT; 46 tackles, 7 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 270 / SS 284 -> SS; injuries no injury designation 2025-26; roster ACT",
+        "approved H2H/tiebreak chain (6 head-to-heads + 6 tiebreaks) sets the order"
+      ],
+      "basis": "OVR follows the approved head-to-head chain"
+    },
+    {
+      "player": "Cooper DeJean",
+      "attr": "JMP",
+      "madden": 91,
+      "ours": 80,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "Cooper DeJean 2025: no PFF S grade 2025; PFR 2025 coverage 81 targets / 49 completions / 586 yds / 1 TD / passer rating 76.5 / 2 INT; 93 tackles, 6 missed; 16 g / 1037 def snaps; 63 solo + 29 ast tackles, 4 TFL, 2 INT, 16 PD, 1 FF; 2 accepted penalties",
+        "Cooper DeJean 2026: PFF S 2026 overall 54.6 on 554 snaps (S rank 73; 300 coverage / 237 run-def snaps); PFR 2026 (7 games) coverage 37 targets / 22 completions / 237 yds / 4 TD / 1 INT; 46 tackles, 7 missed; 8 g / 554 def snaps; 25 solo + 22 ast tackles, 4 TFL, 1 INT, 5 PD, 0 FF; 4 accepted penalties",
+        "PFR 2025 coverage 81 targets / 49 completions / 586 yds / 1 TD / passer rating 76.5 / 2 INT; 93 tackles, 6 missed; PFR 2026 (7 games) coverage 37 targets / 22 completions / 237 yds / 4 TD / 1 INT; 46 tackles, 7 missed",
+        "role snap-weighted 2025-26 depth-chart FS/SS shares FS 270 / SS 284 -> SS; injuries no injury designation 2025-26; roster ACT"
+      ],
+      "basis": "PD and INT totals; LOW confidence (no tracking data)"
+    }
+  ],
+  "madden_used_as_evidence": false,
+  "madden_order_verified": false,
+  "variance_threshold": 10,
+  "metrics_used": [
+    "PFF S overall grades 2025-26",
+    "PFF S coverage/run-def snap counts (sub-grades paywalled)",
+    "PFR coverage allowed (targets/completions/yards/TD/passer rating), tackles/missed tackles",
+    "nflverse tackles/TFL/INT/PD/FF",
+    "accepted penalties",
+    "games/snaps",
+    "injury reports and roster status"
+  ],
+  "evidence_fixes_applied_before_audit": [],
+  "drafted_fixes_pending_review": [
+    {
+      "player": "Christian Roland-Wallace",
+      "attr": "TAK",
+      "from": 88,
+      "to": 82,
+      "why": "0 missed tackles on 47 (34 in 2025, 13 in 2026, PFR) is a small part-time sample (190 and 155 snaps); 88 would be the highest TAK in the SS top 13 on the least volume; OVR unchanged",
+      "task_id": "SS_REAUDIT_RATE_11",
+      "status": "PROPOSED_NOT_APPROVED"
+    }
+  ],
+  "summary": "Every overall and attribute rating 10+ from Madden 27 audited (t46u): 35 gaps (20 below Madden, 15 above). 34 SUPPORTED on safety evidence; 1 ADJUST with drafted add-only revisions NOT approved or applied: Christian Roland-Wallace TAK 88->82. 3 OVR gaps: Antoine Winfield Jr. -11, Talanoa Hufanga -10, Cooper DeJean -11. Overalls unchanged by the drafts. Madden is reference only.",
+  "major_flags": [
+    "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
