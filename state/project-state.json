@@ -13990,7 +13990,7 @@
         "position": "LS",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LS.reaudit.json",
       "baseline_file": null,
@@ -14038,7 +14038,8 @@
         "LS_REAUDIT_TIEBREAK_03",
         "LS_REAUDIT_TIEBREAK_04",
         "LS_REAUDIT_TIEBREAK_05",
-        "LS_REAUDIT_TIEBREAK_06"
+        "LS_REAUDIT_TIEBREAK_06",
+        "LS_REAUDIT_VARIANCE_AUDIT"
       ],
       "audit_ids": [
         "LS_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -14084,7 +14085,7 @@
       ],
       "current_stage": "variance_audit",
       "current_task": "LS_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T13:07:29.211Z",
+      "updated_at": "2026-11-04T13:07:29.521Z",
       "last_result": {
         "task_id": "LS_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
@@ -14093,11 +14094,7 @@
           "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LS_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "LS_REAUDIT_VARIANCE_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -14410,6 +14407,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T13:07:09Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LS_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "LS_REAUDIT_VARIANCE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T13:07:29Z",
+          "note": "Standing commissioner approval t46u: LS variance audit approved (1 ADJUST: Andrew DePaola AWR 86->80)"
         }
       ]
     }
