@@ -11996,16 +11996,17 @@
         "FS_REAUDIT_TIEBREAK_05_A1",
         "FS_REAUDIT_TIEBREAK_06_A1",
         "FS_REAUDIT_VARIANCE_AUDIT_A1",
-        "FS_REAUDIT_RATE_01_A2"
+        "FS_REAUDIT_RATE_01_A2",
+        "FS_REAUDIT_RATE_06_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "FS_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T12:26:15.933Z",
+      "updated_at": "2026-11-04T12:26:16.249Z",
       "last_result": {
-        "task_id": "FS_REAUDIT_RATE_01",
+        "task_id": "FS_REAUDIT_RATE_06",
         "status": "REVISION_APPROVED",
-        "audit_id": "FS_REAUDIT_RATE_01_A2",
-        "supersedes": "FS_REAUDIT_RATE_01_A1",
+        "audit_id": "FS_REAUDIT_RATE_06_A2",
+        "supersedes": "FS_REAUDIT_RATE_06_A1",
         "flags": []
       },
       "awaiting": null,
@@ -12338,6 +12339,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T12:26:15Z",
           "note": "Standing commissioner approval t46u: Approved variance fix (FS_REAUDIT_VARIANCE_AUDIT, t46u): TAK 84->80 (11 missed tackles on 74 in 2025 and 2 on 24 in 2026 per PFR). OVR unchanged."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "FS_REAUDIT_RATE_06",
+          "audit_id": "FS_REAUDIT_RATE_06_A2",
+          "supersedes": "FS_REAUDIT_RATE_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:26:16Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (FS_REAUDIT_VARIANCE_AUDIT, t46u): AGI 92->86 (movement trait, LOW confidence, no public tracking data; 2026 coverage results su"
         }
       ]
     }
