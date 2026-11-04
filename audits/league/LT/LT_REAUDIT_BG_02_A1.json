@@ -1,0 +1,152 @@
+{
+  "audit_id": "LT_REAUDIT_BG_02_A1",
+  "task_id": "LT_REAUDIT_BG_02",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "player_id": "trent_williams",
+  "players": [
+    "Trent Williams"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Trent Williams",
+    "player_id": "trent_williams",
+    "team": "SF",
+    "pff": {
+      "2025": {
+        "rank": 3,
+        "pff": 91.1,
+        "team": "SF",
+        "off": 1112,
+        "pblk": 668,
+        "rblk": 444,
+        "age": "38.2"
+      },
+      "2026": {
+        "rank": 2,
+        "pff": 86.2,
+        "team": "SF",
+        "off": 395,
+        "pblk": 233,
+        "rblk": 162,
+        "age": "38.2"
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 16,
+        "off": 997
+      },
+      "2026": {
+        "games": 7,
+        "off": 395
+      }
+    },
+    "penalties": {
+      "2025": {
+        "total": 4,
+        "types": {
+          "Offensive Holding": 1,
+          "Unnecessary Roughness": 1,
+          "Ineligible Downfield Pass": 1,
+          "False Start": 1
+        }
+      },
+      "2026": {
+        "total": 4,
+        "types": {
+          "Offensive Holding": 3,
+          "False Start": 1
+        }
+      }
+    },
+    "depth_chart_side": {
+      "2025": {
+        "LT": 1
+      },
+      "2026": {
+        "LT": 226
+      }
+    },
+    "espn_win_rates": "PBWR 92% (#2 OT)",
+    "injuries": {
+      "2025": [
+        "wk2 Questionable (Knee)",
+        "wk18 Questionable (Hamstring)",
+        "wk19 Questionable (Hamstring)"
+      ]
+    },
+    "summary_lines": [
+      "Trent Williams (SF) 2026: PFF 2026 86.2 (rank 2, 395 snaps: 233 pass-block / 162 run-block, pass share 0.59); 7 g / 395 off snaps; 4 accepted penalties {'Offensive Holding': 3, 'False Start': 1}; depth-chart side {'LT': 226}",
+      "Trent Williams 2025: PFF 2025 91.1 (rank 3, 1112 snaps: 668 pass-block / 444 run-block, pass share 0.6); 16 g / 997 off snaps; 4 accepted penalties {'Offensive Holding': 1, 'Unnecessary Roughness': 1, 'Ineligible Downfield Pass': 1, 'False Start': 1}; side {'LT': 1}",
+      "Trent Williams ESPN pass/run block win rate 2026 through Week 7: PBWR 92% (#2 OT)",
+      "Trent Williams injury reports: {'2025': ['wk2 Questionable (Knee)', 'wk18 Questionable (Hamstring)', 'wk19 Questionable (Hamstring)']}; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "STR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH",
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2026",
+        "retrieved_at": "2026-11-04T01:53:51Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2025",
+        "retrieved_at": "2026-11-04T01:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T01:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T01:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T01:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T01:53:51Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T01:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T01:53:51Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

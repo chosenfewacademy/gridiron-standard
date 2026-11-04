@@ -1,0 +1,186 @@
+{
+  "task_id": "LT_REAUDIT_BG_02",
+  "type": "background_analysis",
+  "players": [
+    "Trent Williams"
+  ],
+  "player_id": "trent_williams",
+  "team": "SF",
+  "baseline_controls": {
+    "locked_baseline": {
+      "top_10": [
+        {
+          "rank": 1,
+          "player": "Tristan Wirfs"
+        },
+        {
+          "rank": 2,
+          "player": "Penei Sewell"
+        },
+        {
+          "rank": 3,
+          "player": "Garett Bolles"
+        },
+        {
+          "rank": 4,
+          "player": "Trent Williams"
+        },
+        {
+          "rank": 5,
+          "player": "Jordan Mailata"
+        },
+        {
+          "rank": 6,
+          "player": "Andrew Thomas"
+        },
+        {
+          "rank": 7,
+          "player": "Laremy Tunsil"
+        },
+        {
+          "rank": 8,
+          "player": "Bernhard Raimann"
+        },
+        {
+          "rank": 9,
+          "player": "Alaric Jackson"
+        },
+        {
+          "rank": 10,
+          "player": "Kolton Miller"
+        }
+      ],
+      "external_controls": [
+        {
+          "player": "Rashawn Slater",
+          "ovr": 84
+        },
+        {
+          "player": "Charles Cross",
+          "ovr": 83
+        },
+        {
+          "player": "Christian Darrisaw",
+          "ovr": "82-83"
+        },
+        {
+          "player": "Dion Dawkins",
+          "ovr": "82-83"
+        },
+        {
+          "player": "Jake Matthews",
+          "ovr": "81-82"
+        },
+        {
+          "player": "Paris Johnson Jr.",
+          "ovr": "81-82"
+        }
+      ]
+    },
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Penei Sewell"
+      },
+      {
+        "rank": 2,
+        "player": "Trent Williams"
+      },
+      {
+        "rank": 3,
+        "player": "Jordan Mailata"
+      },
+      {
+        "rank": 4,
+        "player": "Garett Bolles"
+      },
+      {
+        "rank": 5,
+        "player": "Tristan Wirfs"
+      },
+      {
+        "rank": 6,
+        "player": "Andrew Thomas"
+      },
+      {
+        "rank": 7,
+        "player": "Alaric Jackson"
+      },
+      {
+        "rank": 8,
+        "player": "Bernhard Raimann"
+      },
+      {
+        "rank": 9,
+        "player": "Charles Cross"
+      },
+      {
+        "rank": 10,
+        "player": "Dion Dawkins"
+      }
+    ],
+    "external_controls": [
+      "Laremy Tunsil",
+      "Paris Johnson Jr.",
+      "Will Campbell",
+      "Kolton Miller"
+    ]
+  },
+  "position": "LT",
+  "stage": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 5,
+    "group": "Offense",
+    "current_status": "LOCKED",
+    "pff_cited_inputs": [
+      "overall",
+      "pass blocking",
+      "run blocking",
+      "zone/gap run-block grades",
+      "pressures allowed",
+      "sacks allowed",
+      "penalties"
+    ],
+    "position_stats": [
+      "games/snaps started at the exact bucket",
+      "penalties (holding, false start)"
+    ],
+    "usage_snap_metrics": [
+      "snaps by exact alignment (LT/LG/C/RG/RT)",
+      "pass-block vs run-block snap split",
+      "true pass sets"
+    ],
+    "on_field_impact": [
+      "pass-block win rate (ESPN)",
+      "run-block win rate (ESPN)",
+      "pressure rate allowed"
+    ],
+    "madden_attributes_informed": [
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK",
+      "STR",
+      "AWR",
+      "AGI",
+      "ACC"
+    ],
+    "note": "Exact-side bucket: only snaps at this alignment count as primary evidence; snaps elsewhere are context."
+  }
+}
