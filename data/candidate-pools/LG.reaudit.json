@@ -445,6 +445,111 @@
       "citations": [
         "pff_2025#12"
       ]
+    },
+    {
+      "player": "Tyler Smith",
+      "player_id": "ext_00-0037243",
+      "team": "DAL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:04:42Z",
+        "note": "nflverse roster_2026 ACT"
+      },
+      "flags": [
+        "COMMISSIONER_REINCLUDED",
+        "LG_SIDE_STARTER"
+      ],
+      "reasoning": "Re-included (t46u): 2026 depth-chart LG starter {'LG': 142}; PFF 2025 73.4 / 2026 71.9; the approved pool holds only 8 LG-side players (14 are RG-side), so LG-side starters are needed for a top 10 plus first-outs.",
+      "citations": [
+        "pff_2026",
+        "nflverse_depth_charts_2026"
+      ],
+      "added_by_amendment": "LG_POOL_AMEND_01"
+    },
+    {
+      "player": "Matthew Bergeron",
+      "player_id": "ext_00-0039048",
+      "team": "ATL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:04:42Z",
+        "note": "nflverse roster_2026 ACT"
+      },
+      "flags": [
+        "COMMISSIONER_REINCLUDED",
+        "LG_SIDE_STARTER"
+      ],
+      "reasoning": "Re-included (t46u): 2026 depth-chart LG starter {'LG': 226}; PFF 2025 70.8 / 2026 71.9; the approved pool holds only 8 LG-side players (14 are RG-side), so LG-side starters are needed for a top 10 plus first-outs.",
+      "citations": [
+        "pff_2026",
+        "nflverse_depth_charts_2026"
+      ],
+      "added_by_amendment": "LG_POOL_AMEND_01"
+    },
+    {
+      "player": "Ezra Cleveland",
+      "player_id": "ext_00-0036327",
+      "team": "JAX",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:04:42Z",
+        "note": "nflverse roster_2026 ACT"
+      },
+      "flags": [
+        "COMMISSIONER_REINCLUDED",
+        "LG_SIDE_STARTER"
+      ],
+      "reasoning": "Re-included (t46u): 2026 depth-chart LG starter {'RG': 77, 'LG': 149}; PFF 2025 69.6 / 2026 71.6; the approved pool holds only 8 LG-side players (14 are RG-side), so LG-side starters are needed for a top 10 plus first-outs.",
+      "citations": [
+        "pff_2026",
+        "nflverse_depth_charts_2026"
+      ],
+      "added_by_amendment": "LG_POOL_AMEND_01"
+    },
+    {
+      "player": "Isaac Seumalo",
+      "player_id": "ext_00-0032954",
+      "team": "ARI",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:04:42Z",
+        "note": "nflverse roster_2026 ACT"
+      },
+      "flags": [
+        "COMMISSIONER_REINCLUDED",
+        "LG_SIDE_STARTER"
+      ],
+      "reasoning": "Re-included (t46u): 2026 depth-chart LG starter {'LG': 225}; PFF 2025 73.3 / 2026 63.2; the approved pool holds only 8 LG-side players (14 are RG-side), so LG-side starters are needed for a top 10 plus first-outs.",
+      "citations": [
+        "pff_2026",
+        "nflverse_depth_charts_2026"
+      ],
+      "added_by_amendment": "LG_POOL_AMEND_01"
+    },
+    {
+      "player": "David Edwards",
+      "player_id": "ext_00-0035668",
+      "team": "NO",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:04:42Z",
+        "note": "nflverse roster_2026 ACT"
+      },
+      "flags": [
+        "COMMISSIONER_REINCLUDED",
+        "LG_SIDE_STARTER"
+      ],
+      "reasoning": "Re-included (t46u): 2026 depth-chart LG starter {'LG': 225}; PFF 2025 70.3 / 2026 59.6; the approved pool holds only 8 LG-side players (14 are RG-side), so LG-side starters are needed for a top 10 plus first-outs.",
+      "citations": [
+        "pff_2026",
+        "nflverse_depth_charts_2026"
+      ],
+      "added_by_amendment": "LG_POOL_AMEND_01"
     }
   ],
   "exclusions": [
@@ -842,5 +947,28 @@
   },
   "approved_by": "PhiXCrypto (commissioner)",
   "approved_at": "2026-11-02T04:29:56.746Z",
-  "approved_from": "data/candidate-pools/LG.reaudit.proposed.json"
+  "approved_from": "data/candidate-pools/LG.reaudit.proposed.json",
+  "amendments": [
+    {
+      "amendment_id": "LG_POOL_AMEND_01",
+      "type": "ADD_ONLY_CONTENTION_ADDITION",
+      "players": [
+        "Tyler Smith",
+        "Matthew Bergeron",
+        "Ezra Cleveland",
+        "Isaac Seumalo",
+        "David Edwards"
+      ],
+      "contention_additions": [
+        "Tyler Smith",
+        "Matthew Bergeron",
+        "Ezra Cleveland",
+        "Isaac Seumalo",
+        "David Edwards"
+      ],
+      "approved_by": "PhiXCrypto",
+      "approved_at": "2026-11-04T03:04:42Z",
+      "note": "Authorized by t46u (standing authorization, Nov 3 ~10:04 PM ET): add LG-side depth-chart starters excluded as BELOW_CUTOFF (exclusions kept as history)."
+    }
+  ]
 }
