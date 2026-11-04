@@ -12420,6 +12420,22 @@
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
+    },
+    {
+      "type": "TOP10_REAUDIT",
+      "position": "SS",
+      "task": {
+        "position": "SS",
+        "stage": "top10_reaudit"
+      },
+      "status": "QUEUED_NOT_STARTED",
+      "position_state_at_trigger": "PENDING",
+      "pool_file": "data/candidate-pools/SS.reaudit.json",
+      "baseline_file": null,
+      "requested_by": "PhiXCrypto",
+      "requested_at": "2026-11-04T12:31:02.427Z",
+      "trigger": "COMMISSIONER_EXPLICIT",
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
     }
   ]
 }
