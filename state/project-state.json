@@ -11904,7 +11904,7 @@
         "position": "FS",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/FS.reaudit.json",
       "baseline_file": null,
@@ -11956,7 +11956,8 @@
         "FS_REAUDIT_VARIANCE_AUDIT",
         "FS_REAUDIT_SCARCITY",
         "FS_REAUDIT_TIEBREAK_07",
-        "FS_REAUDIT_TIEBREAK_08"
+        "FS_REAUDIT_TIEBREAK_08",
+        "FS_REAUDIT_TIEBREAK_09"
       ],
       "audit_ids": [
         "FS_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -12008,7 +12009,7 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "FS_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T12:26:41.737Z",
+      "updated_at": "2026-11-04T12:26:41.993Z",
       "last_result": {
         "task_id": "FS_REAUDIT_TIEBREAK_09",
         "status": "FLAGGED",
@@ -12016,17 +12017,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "FS_REAUDIT_TIEBREAK_09",
-        "audit_id": "FS_REAUDIT_TIEBREAK_09_A1",
-        "pending": [
-          {
-            "task_id": "FS_REAUDIT_TIEBREAK_09",
-            "audit_id": "FS_REAUDIT_TIEBREAK_09_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -12386,6 +12377,14 @@
           "decision": "APPROVED",
           "task_id": "FS_REAUDIT_TIEBREAK_08",
           "audit_id": "FS_REAUDIT_TIEBREAK_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:26:41Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "FS_REAUDIT_TIEBREAK_09",
+          "audit_id": "FS_REAUDIT_TIEBREAK_09_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T12:26:41Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
