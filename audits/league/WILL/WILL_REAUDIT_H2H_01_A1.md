@@ -1,0 +1,40 @@
+# WILL_REAUDIT_H2H_01 — Zack Baun vs Roquan Smith (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "WILL_REAUDIT_H2H_01_A1",
+  "task_id": "WILL_REAUDIT_H2H_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Zack Baun",
+    "Roquan Smith"
+  ],
+  "pair_result": {
+    "winner": "Zack Baun",
+    "loser": "Roquan Smith",
+    "provisional_order_holds": true,
+    "reasoning": "Baun is the only WILL graded top 6 by PFF in both seasons (80.6 on 1,098 snaps in 2025, 79.7 on 468 in 2026) with 12 TFL, 3.5 sacks, 2 INT and 12 PD across 2025-26; Smith graded 74.2 / 72.5 with 6 TFL.",
+    "key_evidence_for_winner": [
+      "Zack Baun (PHI) role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1506 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL; roster ACT (LB); injuries wk4 Out (Concussion)",
+      "Zack Baun 2026: Zack Baun 2026: PFF LB 2026 overall 79.7 on 468 snaps (LB rank 6; 207 run-def / 215 coverage / 46 pass-rush snaps); PFR 2026 (6 games) coverage 26 targets / 15 completions / 131 yds / 0 INT; 51 tackles, 7 missed; 6 pressures on 23 blitzes; 7 g / 468 def snaps; 25 solo + 30 ast tackles, 5 TFL, 0.0 sacks, 0 INT, 5 PD, 0 FF; 0 accepted penalties; PFR 2026 (6 games) coverage 26 targets / 15 completions / 131 yds / 0 INT; 51 tackles, 7 missed; 6 pressures on 23 blitzes",
+      "Zack Baun 2025: Zack Baun 2025: PFF LB 2025 overall 80.6 on 1098 snaps (LB rank 6; 425 run-def / 589 coverage / 84 pass-rush snaps); PFR 2025 coverage 59 targets / 38 completions / 248 yds / passer rating 64.8 / 2 INT; 123 tackles, 14 missed; 7 pressures on 49 blitzes, 3.5 sacks; 16 g / 1038 def snaps; 63 solo + 59 ast tackles, 7 TFL, 3.5 sacks, 2 INT, 7 PD, 1 FF; 1 accepted penalties; PFR 2025 coverage 59 targets / 38 completions / 248 yds / passer rating 64.8 / 2 INT; 123 tackles, 14 missed; 7 pressures on 49 blitzes, 3.5 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Roquan Smith (BAL) role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1438 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL; roster ACT (LB); injuries wk5 Out (Hamstring); wk6 Out (Hamstring)",
+      "Roquan Smith 2026: Roquan Smith 2026: PFF LB 2026 overall 72.5 on 484 snaps (LB rank 13; 180 run-def / 267 coverage / 37 pass-rush snaps); PFR 2026 (7 games) coverage 26 targets / 14 completions / 166 yds / 1 INT; 55 tackles, 2 missed; 4 pressures on 22 blitzes; 8 g / 485 def snaps; 30 solo + 36 ast tackles, 1 TFL, 2.0 sacks, 1 INT, 3 PD, 2 FF; 0 accepted penalties; PFR 2026 (7 games) coverage 26 targets / 14 completions / 166 yds / 1 INT; 55 tackles, 2 missed; 4 pressures on 22 blitzes",
+      "Roquan Smith 2025: Roquan Smith 2025: PFF LB 2025 overall 74.2 on 953 snaps (LB rank 22; 319 run-def / 548 coverage / 86 pass-rush snaps); PFR 2025 coverage 67 targets / 47 completions / 400 yds / passer rating 95.4 / 0 INT; 130 tackles, 11 missed; 7 pressures on 56 blitzes, 0 sacks; 15 g / 953 def snaps; 74 solo + 54 ast tackles, 5 TFL, 0.0 sacks, 0 INT, 3 PD, 0 FF; 2 accepted penalties; PFR 2025 coverage 67 targets / 47 completions / 400 yds / passer rating 95.4 / 0 INT; 130 tackles, 11 missed; 7 pressures on 56 blitzes, 0 sacks"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
