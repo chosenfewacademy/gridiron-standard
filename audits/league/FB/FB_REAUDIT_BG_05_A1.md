@@ -1,0 +1,180 @@
+# FB_REAUDIT_BG_05 — Adam Prentice background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "FB_REAUDIT_BG_05_A1",
+  "task_id": "FB_REAUDIT_BG_05",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "player_id": "ext_00-0036727",
+  "players": [
+    "Adam Prentice"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Adam Prentice",
+    "player_id": "ext_00-0036727",
+    "team": "DEN",
+    "eligibility": "Adam Prentice usage (FB eligibility rule: PFF FB alignment / depth-chart FB / roster FB): roster position RB, depth-chart position FB",
+    "pff": {
+      "2025": {
+        "rank": 8,
+        "pff": 50,
+        "team": "denver-broncos",
+        "off": 231,
+        "run": 11,
+        "recv": 65,
+        "rblk": 130,
+        "pblk": 25,
+        "age": null,
+        "wt": 245
+      },
+      "2026": {
+        "rank": 4,
+        "pff": 59.9,
+        "team": "denver-broncos",
+        "off": 59,
+        "run": 1,
+        "recv": 21,
+        "rblk": 30,
+        "pblk": 7,
+        "age": null,
+        "wt": 245
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "off": 211,
+        "st": 213
+      },
+      "2026": {
+        "games": 8,
+        "off": 59,
+        "st": 152
+      }
+    },
+    "touches": {
+      "2025": {
+        "carries": 10.0,
+        "rushing_yards": 44.0,
+        "rushing_tds": 0.0,
+        "receptions": 6.0,
+        "targets": 8.0,
+        "receiving_yards": 53.0,
+        "receiving_tds": 0.0,
+        "rushing_fumbles_lost": 0.0,
+        "receiving_fumbles_lost": 0.0
+      },
+      "2026": {
+        "carries": 1.0,
+        "rushing_yards": 3.0,
+        "rushing_tds": 0.0,
+        "receptions": 2.0,
+        "targets": 2.0,
+        "receiving_yards": 12.0,
+        "receiving_tds": 0.0,
+        "rushing_fumbles_lost": 0.0,
+        "receiving_fumbles_lost": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 0,
+      "2026": 0
+    },
+    "fb_depth_chart": {
+      "2025": {
+        "rank1": 148,
+        "rank2": 36
+      },
+      "2026": {
+        "rank1": 231
+      }
+    },
+    "injuries": {},
+    "summary_lines": [
+      "Adam Prentice (DEN) 2026: PFF FB 2026 59.9 (rank 4, 59 snaps: 30 run/lead-block, 7 pass-block, 21 routes, 1 carries; block share 0.63); 8 g / 59 off snaps; 1-3 rushing, 2/2 tgt for 12 yds, 0 TD; 0 penalties; FB depth-chart snapshots {'rank1': 231}",
+      "Adam Prentice 2025: PFF FB 2025 50 (rank 8, 231 snaps: 130 run/lead-block, 25 pass-block, 65 routes, 11 carries; block share 0.67); 17 g / 211 off snaps; 10-44 rushing, 6/8 tgt for 53 yds, 0 TD; 0 penalties; FB depth-chart snapshots {'rank1': 148, 'rank2': 36}",
+      "Adam Prentice usage (FB eligibility rule: PFF FB alignment / depth-chart FB / roster FB): roster position RB, depth-chart position FB",
+      "Adam Prentice injury reports: none; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF FB run/pass-block sub-grades, lead-block win data and 21/22-personnel share are paywalled or unpublished; substitutes: PFF FB overall + run-block/pass-block/route/carry snap counts, nflverse snaps, rushing/receiving, penalties, FB depth-chart role, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CAR",
+      "BCV",
+      "TRK",
+      "BTK",
+      "SFA",
+      "CTH",
+      "CIT",
+      "SRR",
+      "RBK",
+      "RBP",
+      "RBF",
+      "PBK",
+      "IBL",
+      "LBK",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/fb/2026",
+        "retrieved_at": "2026-11-04T04:14:33Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/fb/2025",
+        "retrieved_at": "2026-11-04T04:14:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T04:14:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T04:14:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:33Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:33Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
