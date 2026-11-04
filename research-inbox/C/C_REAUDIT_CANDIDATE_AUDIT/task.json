@@ -1,0 +1,248 @@
+{
+  "task_id": "C_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Creed Humphrey"
+      },
+      {
+        "rank": 2,
+        "player": "Aaron Brewer"
+      },
+      {
+        "rank": 3,
+        "player": "Zach Frazier"
+      },
+      {
+        "rank": 4,
+        "player": "Coleman Shelton"
+      },
+      {
+        "rank": 5,
+        "player": "Erik McCoy"
+      },
+      {
+        "rank": 6,
+        "player": "Cooper Beebe"
+      },
+      {
+        "rank": 7,
+        "player": "Luke Wattenberg"
+      },
+      {
+        "rank": 8,
+        "player": "Jake Brendel"
+      },
+      {
+        "rank": 9,
+        "player": "Juice Scruggs"
+      },
+      {
+        "rank": 10,
+        "player": "Tyler Linderbaum"
+      }
+    ],
+    "external_controls": [
+      "Hjalte Froholdt",
+      "Tanor Bortolini",
+      "Ryan Neuzil",
+      "Connor McGovern",
+      "Olaivavega Ioane",
+      "Bryan Hudson",
+      "Jared Wilson",
+      "Austin Schlottmann",
+      "Blake Brandel",
+      "Luke Fortner"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Creed Humphrey",
+      "aliases": [],
+      "player_id": "ext_00-0036623",
+      "flags": []
+    },
+    {
+      "player": "Aaron Brewer",
+      "aliases": [],
+      "player_id": "ext_00-0036171",
+      "flags": []
+    },
+    {
+      "player": "Zach Frazier",
+      "aliases": [],
+      "player_id": "ext_00-0039896",
+      "flags": []
+    },
+    {
+      "player": "Coleman Shelton",
+      "aliases": [],
+      "player_id": "ext_00-0034114",
+      "flags": []
+    },
+    {
+      "player": "Erik McCoy",
+      "aliases": [],
+      "player_id": "ext_00-0035242",
+      "flags": []
+    },
+    {
+      "player": "Cooper Beebe",
+      "aliases": [],
+      "player_id": "ext_00-0039348",
+      "flags": []
+    },
+    {
+      "player": "Luke Wattenberg",
+      "aliases": [],
+      "player_id": "ext_00-0037278",
+      "flags": []
+    },
+    {
+      "player": "Jake Brendel",
+      "aliases": [],
+      "player_id": "ext_00-0032701",
+      "flags": []
+    },
+    {
+      "player": "Juice Scruggs",
+      "aliases": [],
+      "player_id": "ext_00-0038936",
+      "flags": [
+        "ROSTER_LABEL_G (two-way/position change; confirm bucket)"
+      ]
+    },
+    {
+      "player": "Tyler Linderbaum",
+      "aliases": [],
+      "player_id": "ext_00-0037825",
+      "flags": []
+    },
+    {
+      "player": "Hjalte Froholdt",
+      "aliases": [],
+      "player_id": "ext_00-0035258",
+      "flags": []
+    },
+    {
+      "player": "Tanor Bortolini",
+      "aliases": [],
+      "player_id": "ext_00-0039744",
+      "flags": []
+    },
+    {
+      "player": "Ryan Neuzil",
+      "aliases": [],
+      "player_id": "ext_00-0036833",
+      "flags": []
+    },
+    {
+      "player": "Connor McGovern",
+      "aliases": [],
+      "player_id": "ext_00-0035679",
+      "flags": []
+    },
+    {
+      "player": "Olaivavega Ioane",
+      "aliases": [
+        "Vega Ioane"
+      ],
+      "player_id": "ext_00-0040866",
+      "flags": [
+        "ROSTER_LABEL_G (two-way/position change; confirm bucket)"
+      ]
+    },
+    {
+      "player": "Bryan Hudson",
+      "aliases": [],
+      "player_id": "ext_00-0039446",
+      "flags": []
+    },
+    {
+      "player": "Jared Wilson",
+      "aliases": [],
+      "player_id": "ext_00-0040147",
+      "flags": []
+    },
+    {
+      "player": "Austin Schlottmann",
+      "aliases": [],
+      "player_id": "ext_00-0034112",
+      "flags": []
+    },
+    {
+      "player": "Blake Brandel",
+      "aliases": [],
+      "player_id": "ext_00-0036347",
+      "flags": []
+    },
+    {
+      "player": "Luke Fortner",
+      "aliases": [],
+      "player_id": "ext_00-0037814",
+      "flags": []
+    }
+  ],
+  "position": "C",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 7,
+    "group": "Offense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "pass blocking",
+      "run blocking",
+      "zone/gap run-block grades",
+      "pressures allowed",
+      "sacks allowed",
+      "penalties"
+    ],
+    "position_stats": [
+      "games/snaps started at the exact bucket",
+      "penalties (holding, false start)"
+    ],
+    "usage_snap_metrics": [
+      "snaps by exact alignment (LT/LG/C/RG/RT)",
+      "pass-block vs run-block snap split",
+      "true pass sets"
+    ],
+    "on_field_impact": [
+      "pass-block win rate (ESPN)",
+      "run-block win rate (ESPN)",
+      "pressure rate allowed"
+    ],
+    "madden_attributes_informed": [
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK",
+      "STR",
+      "AWR",
+      "AGI",
+      "ACC"
+    ],
+    "note": "Center: snapping/line-call responsibilities are context only unless documented."
+  }
+}
