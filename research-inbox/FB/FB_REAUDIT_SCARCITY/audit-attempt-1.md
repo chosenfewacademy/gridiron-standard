@@ -1,0 +1,221 @@
+# FB_REAUDIT_SCARCITY (v1.1.2; authorized t46u)
+
+```json
+{
+  "audit_id": "FB_REAUDIT_SCARCITY_A1",
+  "task_id": "FB_REAUDIT_SCARCITY",
+  "task_type": "scarcity_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Kyle Juszczyk",
+    "Patrick Ricard",
+    "Hunter Luepke",
+    "Connor Heyward",
+    "Adam Prentice",
+    "Michael Burton",
+    "Reggie Gilliam",
+    "Alec Ingold",
+    "Andrew Beck",
+    "Scott Matlock"
+  ],
+  "scarcity": {
+    "rules": "config/scarcity-rules.json (90+ elite, 95+ rare league-defining, 97+ extraordinary, 99 historic)",
+    "traits_90_plus": [
+      {
+        "player": "Kyle Juszczyk",
+        "attr": "AWR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Kyle Juszczyk",
+        "attr": "LBK",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Kyle Juszczyk",
+        "attr": "STA",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Patrick Ricard",
+        "attr": "STR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Patrick Ricard",
+        "attr": "RBP",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Patrick Ricard",
+        "attr": "IBL",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Patrick Ricard",
+        "attr": "LBK",
+        "v": 96,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Patrick Ricard",
+        "attr": "TGH",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Hunter Luepke",
+        "attr": "ACC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Connor Heyward",
+        "attr": "INJ",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Adam Prentice",
+        "attr": "INJ",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Reggie Gilliam",
+        "attr": "TGH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Scott Matlock",
+        "attr": "STR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      }
+    ],
+    "count_90_plus": 13,
+    "count_95_plus": 1,
+    "count_97_plus": 0,
+    "count_99": 0,
+    "traits_95_plus": [
+      "Patrick Ricard LBK 96 (LEAGUE_DEFINING)"
+    ],
+    "max_trait": "Patrick Ricard LBK 96 (LEAGUE_DEFINING)",
+    "all_90_plus_have_tiered_sourced_evidence": true,
+    "league_defining_basis": {
+      "Patrick Ricard LBK 96 (LEAGUE_DEFINING)": "2025 All-Pro fullback; PFF FB 68.5 (#2) with 193 run/lead-block snaps of 274 in 2025 and the most run-block snaps at FB in 2026 (137 of 182, NYG); the league's defining point-of-attack lead blocker (Madden LBK 99, reference only)"
+    },
+    "overall_90_plus": [
+      "Kyle Juszczyk 90"
+    ],
+    "overall_spread": "90 to 69 across top 10; star tier Juszczyk 90 / Ricard 85, then Luepke 78; 7-point gap from #2 to #3 (only the two 2025 All-Pros sustained a featured FB role across both seasons)",
+    "style_rule": {
+      "pairs_checked": 78,
+      "too_similar": 0,
+      "highest_corr": [
+        0.926,
+        3.48,
+        "Max Bredeson",
+        "DJ Herman"
+      ],
+      "min_mad": 3.48
+    },
+    "effective_ratings": {
+      "Kyle Juszczyk": [
+        "FB_REAUDIT_RATE_01_A1",
+        90
+      ],
+      "Patrick Ricard": [
+        "FB_REAUDIT_RATE_02_A1",
+        85
+      ],
+      "Hunter Luepke": [
+        "FB_REAUDIT_RATE_03_A1",
+        78
+      ],
+      "Connor Heyward": [
+        "FB_REAUDIT_RATE_04_A2",
+        77
+      ],
+      "Adam Prentice": [
+        "FB_REAUDIT_RATE_05_A1",
+        75
+      ],
+      "Michael Burton": [
+        "FB_REAUDIT_RATE_06_A2",
+        74
+      ],
+      "Reggie Gilliam": [
+        "FB_REAUDIT_RATE_07_A1",
+        73
+      ],
+      "Alec Ingold": [
+        "FB_REAUDIT_RATE_08_A1",
+        72
+      ],
+      "Andrew Beck": [
+        "FB_REAUDIT_RATE_09_A1",
+        70
+      ],
+      "Scott Matlock": [
+        "FB_REAUDIT_RATE_10_A2",
+        69
+      ],
+      "Brady Russell": [
+        "FB_REAUDIT_RATE_11_A1",
+        67
+      ],
+      "Max Bredeson": [
+        "FB_REAUDIT_RATE_12_A1",
+        65
+      ],
+      "DJ Herman": [
+        "FB_REAUDIT_RATE_13_A1",
+        63
+      ]
+    },
+    "note_for_commissioner": "1 trait(s) at 95+ (Ricard LBK 96, LEAGUE_DEFINING; no 97+), each tiered and sourced.",
+    "result": "PASS: 1 95+ traits, all tiered (LEAGUE_DEFINING/EXTRAORDINARY) with sources; 13 90+ traits all tiered; overalls 90+: Kyle Juszczyk 90; style rule 78 pairs, 0 too similar"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
