@@ -1,0 +1,401 @@
+{
+ "position": "REDGE",
+ "references": [
+  {
+   "name": "Laiatu Latu",
+   "team": "IND",
+   "status": "ACT",
+   "snaps": 1126,
+   "pff": 78.3,
+   "value": 1.46,
+   "efficiency": 5.5,
+   "negative_rate": 9.8,
+   "availability": 0.96,
+   "side": {
+    "R25": 221,
+    "R26": 275,
+    "L": 0,
+    "R": 496,
+    "teams": [
+     "IND"
+    ],
+    "assign": "REDGE"
+   }
+  },
+  {
+   "name": "Al-Quadin Muhammad",
+   "team": "TB",
+   "status": "ACT",
+   "snaps": 663,
+   "pff": 76.5,
+   "value": 1.28,
+   "efficiency": 6.8,
+   "negative_rate": 0,
+   "availability": 1,
+   "side": {
+    "L25": 51,
+    "R25": 168,
+    "L26": 110,
+    "R26": 164,
+    "L": 161,
+    "R": 332,
+    "teams": [
+     "DET",
+     "TB"
+    ],
+    "assign": "REDGE"
+   }
+  }
+ ],
+ "thresholds": {
+  "pff": 76.5,
+  "value": 1.28,
+  "efficiency": 5.5,
+  "negative_rate": 9.8,
+  "availability": 0.96
+ },
+ "flagged": [
+  {
+   "name": "Jaelan Phillips",
+   "team": "CAR",
+   "status": "INA",
+   "snaps": 1045,
+   "pff": 73.1,
+   "value": 2.05,
+   "efficiency": 8.1,
+   "negative_rate": 7.7,
+   "availability": 0.88,
+   "side": {
+    "R25": 5,
+    "L25": 125,
+    "R26": 273,
+    "L": 125,
+    "R": 278,
+    "teams": [
+     "CAR",
+     "MIA",
+     "PHI"
+    ],
+    "assign": "REDGE"
+   },
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": -1.674603174603178
+  },
+  {
+   "name": "Donovan Ezeiruaku",
+   "team": "DAL",
+   "status": "ACT",
+   "snaps": 971,
+   "pff": 69.8,
+   "value": 1.48,
+   "efficiency": 7,
+   "negative_rate": 9.3,
+   "availability": 1,
+   "side": {
+    "R25": 60,
+    "L25": 161,
+    "R26": 275,
+    "L": 161,
+    "R": 335,
+    "teams": [
+     "DAL"
+    ],
+    "assign": "REDGE"
+   },
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.05102040816326525
+  },
+  {
+   "name": "Jalyx Hunt",
+   "team": "PHI",
+   "status": "ACT",
+   "snaps": 981,
+   "pff": 65.6,
+   "value": 1.5,
+   "efficiency": 7.1,
+   "negative_rate": 9.2,
+   "availability": 0.96,
+   "side": {
+    "R25": 221,
+    "R26": 274,
+    "L": 0,
+    "R": 495,
+    "teams": [
+     "PHI"
+    ],
+    "assign": "REDGE"
+   },
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.9387755102040815
+  },
+  {
+   "name": "Dallas Turner",
+   "team": "MIN",
+   "status": "ACT",
+   "snaps": 1045,
+   "pff": 68,
+   "value": 2.04,
+   "efficiency": 10.2,
+   "negative_rate": 14.4,
+   "availability": 0.96,
+   "side": {
+    "L25": 87,
+    "R25": 134,
+    "R26": 270,
+    "L26": 5,
+    "L": 92,
+    "R": 404,
+    "teams": [
+     "MIN"
+    ],
+    "assign": "REDGE"
+   },
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -1.4693877551020407
+  },
+  {
+   "name": "Arden Key",
+   "team": "IND",
+   "status": "RES",
+   "snaps": 620,
+   "pff": 63.1,
+   "value": 1.38,
+   "efficiency": 5.7,
+   "negative_rate": 9.7,
+   "availability": 0.64,
+   "side": {
+    "R25": 221,
+    "L26": 131,
+    "R26": 144,
+    "L": 131,
+    "R": 365,
+    "teams": [
+     "IND",
+     "TEN"
+    ],
+    "assign": "REDGE"
+   },
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": -5.280394208965637
+  },
+  {
+   "name": "Jacob Martin",
+   "team": "TEN",
+   "status": "ACT",
+   "snaps": 1032,
+   "pff": 55.5,
+   "value": 1.56,
+   "efficiency": 6.2,
+   "negative_rate": 10.7,
+   "availability": 1,
+   "side": {
+    "R25": 6,
+    "L25": 1,
+    "L26": 4,
+    "R26": 271,
+    "L": 5,
+    "R": 277,
+    "teams": [
+     "TEN",
+     "WAS"
+    ],
+    "assign": "REDGE"
+   },
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -0.5533751962323386
+  },
+  {
+   "name": "Bradley Chubb",
+   "team": "BUF",
+   "status": "ACT",
+   "snaps": 1109,
+   "pff": 55.2,
+   "value": 1.33,
+   "efficiency": 5.5,
+   "negative_rate": 15.3,
+   "availability": 0.96,
+   "side": {
+    "R25": 198,
+    "R26": 275,
+    "L": 0,
+    "R": 473,
+    "teams": [
+     "BUF",
+     "MIA"
+    ],
+    "assign": "REDGE"
+   },
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -3.28344671201814
+  }
+ ],
+ "closest": [
+  {
+   "name": "Jared Verse",
+   "team": "CLE",
+   "status": "ACT",
+   "snaps": 1199,
+   "pff": 75.2,
+   "value": 1.6,
+   "efficiency": 4.8,
+   "negative_rate": 10,
+   "availability": 1,
+   "side": {
+    "R25": 221,
+    "R26": 275,
+    "L": 0,
+    "R": 496,
+    "teams": [
+     "CLE",
+     "LA"
+    ],
+    "assign": "REDGE"
+   },
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": 0.7189080760509335
+  },
+  {
+   "name": "Joey Bosa",
+   "team": "buffalo-bills",
+   "status": null,
+   "snaps": 562,
+   "pff": 74.6,
+   "value": 1.6,
+   "efficiency": 6,
+   "negative_rate": 10.7,
+   "availability": 0.6,
+   "side": {
+    "L25": 6,
+    "R25": 211,
+    "L": 6,
+    "R": 211,
+    "teams": [
+     "BUF"
+    ],
+    "assign": "REDGE"
+   },
+   "hits": [
+    "value",
+    "efficiency"
+   ],
+   "score": -2.762776905634053
+  },
+  {
+   "name": "Mike Green",
+   "team": "BAL",
+   "status": "ACT",
+   "snaps": 968,
+   "pff": 53,
+   "value": 1.08,
+   "efficiency": 4.9,
+   "negative_rate": 6.2,
+   "availability": 1,
+   "side": {
+    "L25": 150,
+    "R25": 71,
+    "L26": 55,
+    "R26": 220,
+    "L": 205,
+    "R": 291,
+    "teams": [
+     "BAL"
+    ],
+    "assign": "REDGE"
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": -3.2053026338740622
+  },
+  {
+   "name": "Uchenna Nwosu",
+   "team": "SEA",
+   "status": "ACT",
+   "snaps": 805,
+   "pff": 59.3,
+   "value": 1.35,
+   "efficiency": 5.6,
+   "negative_rate": 9.9,
+   "availability": 0.92,
+   "side": {
+    "R25": 177,
+    "R26": 275,
+    "L": 0,
+    "R": 452,
+    "teams": [
+     "SEA"
+    ],
+    "assign": "REDGE"
+   },
+   "hits": [
+    "value",
+    "efficiency"
+   ],
+   "score": -3.5443921158206844
+  },
+  {
+   "name": "Malcolm Koonce",
+   "team": "LV",
+   "status": "ACT",
+   "snaps": 741,
+   "pff": 60.6,
+   "value": 0.96,
+   "efficiency": 4.9,
+   "negative_rate": 6.7,
+   "availability": 1,
+   "side": {
+    "R25": 221,
+    "L26": 130,
+    "R26": 145,
+    "L": 130,
+    "R": 366,
+    "teams": [
+     "LV"
+    ],
+    "assign": "REDGE"
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": -3.9229897087039953
+  }
+ ],
+ "screened": 102,
+ "read_only": true,
+ "rating_changes": []
+}
