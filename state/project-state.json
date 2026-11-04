@@ -8200,7 +8200,7 @@
         "position": "LEDGE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LEDGE.reaudit.json",
       "baseline_file": null,
@@ -8247,7 +8247,8 @@
         "LEDGE_REAUDIT_TIEBREAK_02",
         "LEDGE_REAUDIT_TIEBREAK_03",
         "LEDGE_REAUDIT_TIEBREAK_04",
-        "LEDGE_REAUDIT_VARIANCE_AUDIT"
+        "LEDGE_REAUDIT_VARIANCE_AUDIT",
+        "LEDGE_REAUDIT_SCARCITY"
       ],
       "audit_ids": [
         "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -8294,18 +8295,14 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "LEDGE_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T11:10:08.545Z",
+      "updated_at": "2026-11-04T11:10:08.820Z",
       "last_result": {
         "task_id": "LEDGE_REAUDIT_SCARCITY",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LEDGE_REAUDIT_SCARCITY",
-        "audit_id": "LEDGE_REAUDIT_SCARCITY_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -8628,6 +8625,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:09:52Z",
           "note": "Standing commissioner approval t46u: Approved variance fix (LEDGE_REAUDIT_VARIANCE_AUDIT, t46u): PRC 78->82 (82 tackles / 3 missed, 357 run-defense snaps in 2025). OVR unchanged."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_SCARCITY",
+          "audit_id": "LEDGE_REAUDIT_SCARCITY_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:10:08Z",
+          "note": "Standing commissioner approval t46u / t54s495 (approve every stage on the same pathway)"
         }
       ]
     }
