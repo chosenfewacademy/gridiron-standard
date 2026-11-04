@@ -1,0 +1,116 @@
+{
+  "task_id": "LEDGE_REAUDIT_RATE_01",
+  "type": "player_rating",
+  "players": [
+    "Aidan Hutchinson"
+  ],
+  "player_id": "ext_00-0037236",
+  "team": "DET",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Aidan Hutchinson"
+      },
+      {
+        "rank": 2,
+        "player": "Will Anderson Jr."
+      },
+      {
+        "rank": 3,
+        "player": "Greg Rousseau"
+      },
+      {
+        "rank": 4,
+        "player": "Maxx Crosby"
+      },
+      {
+        "rank": 5,
+        "player": "T.J. Watt"
+      },
+      {
+        "rank": 6,
+        "player": "DeMarcus Lawrence"
+      },
+      {
+        "rank": 7,
+        "player": "Byron Young"
+      },
+      {
+        "rank": 8,
+        "player": "George Karlaftis"
+      },
+      {
+        "rank": 9,
+        "player": "Boye Mafe"
+      },
+      {
+        "rank": 10,
+        "player": "Brian Burns"
+      }
+    ],
+    "external_controls": [
+      "Tuli Tuipulotu",
+      "Cameron Thomas",
+      "Gabe Jacas"
+    ]
+  },
+  "madden_reference_policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+  "position": "LEDGE",
+  "stage": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 11,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "pass rush",
+      "run defense",
+      "tackling",
+      "pass-rush win rate",
+      "pressures",
+      "total pressures, sacks, hits, hurries"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks, QB hits",
+      "forced fumbles",
+      "batted passes"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (edge side / interior technique)",
+      "pass-rush snaps vs run snaps"
+    ],
+    "on_field_impact": [
+      "pass-rush win rate (ESPN)",
+      "run-stop win rate (ESPN)",
+      "pressure rate",
+      "run-stop %"
+    ],
+    "madden_attributes_informed": [
+      "PMV",
+      "FMV",
+      "BSH",
+      "PUR",
+      "PRC",
+      "TAK",
+      "POW",
+      "STR",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Left-side edge: only left-edge alignment snaps are primary."
+  }
+}

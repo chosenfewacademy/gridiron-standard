@@ -1,0 +1,425 @@
+{
+  "audit_id": "LEDGE_REAUDIT_RATE_01_A1",
+  "task_id": "LEDGE_REAUDIT_RATE_01",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "player_id": "ext_00-0037236",
+  "players": [
+    "Aidan Hutchinson"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 86,
+    "ACC": 90,
+    "AGI": 86,
+    "COD": 80,
+    "STR": 84,
+    "AWR": 92,
+    "PRC": 90,
+    "TAK": 84,
+    "POW": 84,
+    "BSH": 84,
+    "PMV": 84,
+    "FMV": 94,
+    "PUR": 92,
+    "INJ": 88,
+    "STA": 96,
+    "TGH": 92
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PMV": "MEDIUM",
+    "FMV": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed; PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed; ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10. Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed; PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed; ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10. Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed; PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed; ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10. Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed; PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed; ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10. Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF edge 2026 overall 91.7 on 446 snaps (306 pass-rush, 130 run-defense, 10 coverage); ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10. Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 5/0; PFF edge 2026 overall 91.7 on 446 snaps (306 pass-rush, 130 run-defense, 10 coverage). Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10; PFF edge 2025 overall 91.7 on 1005 snaps (622 pass-rush, 374 run-defense, 9 coverage); PFF edge 2026 overall 91.7 on 446 snaps (306 pass-rush, 130 run-defense, 10 coverage); TFL in 17 g / 1005 def snaps; 14.5 sacks, 35 QB hits, 14 TFL, 4 FF, 3 PD / 7 g / 446 def snaps; 5.0 sacks, 17 QB hits, 5 TFL, 1 FF, 1 PD. Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed; PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed. Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed; PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed. Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10; PFF edge 2025 overall 91.7 on 1005 snaps (622 pass-rush, 374 run-defense, 9 coverage); PFF edge 2026 overall 91.7 on 446 snaps (306 pass-rush, 130 run-defense, 10 coverage); TFL in 17 g / 1005 def snaps; 14.5 sacks, 35 QB hits, 14 TFL, 4 FF, 3 PD / 7 g / 446 def snaps; 5.0 sacks, 17 QB hits, 5 TFL, 1 FF, 1 PD. Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10; PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed; PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed. Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "FMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10; PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed; PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed. Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10; PFF edge 2025 overall 91.7 on 1005 snaps (622 pass-rush, 374 run-defense, 9 coverage); PFF edge 2026 overall 91.7 on 446 snaps (306 pass-rush, 130 run-defense, 10 coverage); TFL in 17 g / 1005 def snaps; 14.5 sacks, 35 QB hits, 14 TFL, 4 FF, 3 PD / 7 g / 446 def snaps; 5.0 sacks, 17 QB hits, 5 TFL, 1 FF, 1 PD. Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Aidan Hutchinson injury reports: no injury designation 2025-26; roster status ACT; 17 g / 1005 def snaps; 14.5 sacks, 35 QB hits, 14 TFL, 4 FF, 3 PD (2025), 7 g / 446 def snaps; 5.0 sacks, 17 QB hits, 5 TFL, 1 FF, 1 PD (2026). Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 17 g / 1005 def snaps; 14.5 sacks, 35 QB hits, 14 TFL, 4 FF, 3 PD (2025), 7 g / 446 def snaps; 5.0 sacks, 17 QB hits, 5 TFL, 1 FF, 1 PD (2026). Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 17 g / 1005 def snaps; 14.5 sacks, 35 QB hits, 14 TFL, 4 FF, 3 PD (2025), 7 g / 446 def snaps; 5.0 sacks, 17 QB hits, 5 TFL, 1 FF, 1 PD (2026). Style: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "movement: PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed; PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed; ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "discipline: penalties 2025/2026 5/0; PFF edge 2026 overall 91.7 on 446 snaps (306 pass-rush, 130 run-defense, 10 coverage)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PRC": {
+      "tier": "ELITE",
+      "claim": "run defense: ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10; PFF edge 2025 overall 91.7 on 1005 snaps (622 pass-rush, 374 run-defense, 9 coverage); PFF edge 2026 overall 91.7 on 446 snaps (306 pass-rush, 130 run-defense, 10 coverage); TFL in 17 g / 1005 def snaps; 14.5 sacks, 35 QB hits, 14 TFL, 4 FF, 3 PD / 7 g / 446 def snaps; 5.0 sacks, 17 QB hits, 5 TFL, 1 FF, 1 PD",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "FMV": {
+      "tier": "ELITE",
+      "claim": "pass rush: ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10; PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed; PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PUR": {
+      "tier": "ELITE",
+      "claim": "run defense: ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10; PFF edge 2025 overall 91.7 on 1005 snaps (622 pass-rush, 374 run-defense, 9 coverage); PFF edge 2026 overall 91.7 on 446 snaps (306 pass-rush, 130 run-defense, 10 coverage); TFL in 17 g / 1005 def snaps; 14.5 sacks, 35 QB hits, 14 TFL, 4 FF, 3 PD / 7 g / 446 def snaps; 5.0 sacks, 17 QB hits, 5 TFL, 1 FF, 1 PD",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "usage: 17 g / 1005 def snaps; 14.5 sacks, 35 QB hits, 14 TFL, 4 FF, 3 PD (2025), 7 g / 446 def snaps; 5.0 sacks, 17 QB hits, 5 TFL, 1 FF, 1 PD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 1005 def snaps; 14.5 sacks, 35 QB hits, 14 TFL, 4 FF, 3 PD (2025), 7 g / 446 def snaps; 5.0 sacks, 17 QB hits, 5 TFL, 1 FF, 1 PD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 94,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+  "style_profile": "Aidan Hutchinson: The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+  "style_evidence": [
+    "Aidan Hutchinson (DET) Aidan Hutchinson 2026: PFF edge 2026 overall 91.7 on 446 snaps (306 pass-rush, 130 run-defense, 10 coverage); PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed; 7 g / 446 def snaps; 5.0 sacks, 17 QB hits, 5 TFL, 1 FF, 1 PD; 0 accepted penalties; ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10",
+    "Aidan Hutchinson 2025: PFF edge 2025 overall 91.7 on 1005 snaps (622 pass-rush, 374 run-defense, 9 coverage); PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed; 17 g / 1005 def snaps; 14.5 sacks, 35 QB hits, 14 TFL, 4 FF, 3 PD; 5 accepted penalties",
+    "Aidan Hutchinson alignment: side snapshots 2025-26 left 496 / right 0 -> LEDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position DL; Madden card LEDG (reference only)",
+    "Aidan Hutchinson injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "LEDGE_REAUDIT_BG_01_A1",
+  "weaknesses": [
+    "pure speed vs. Anderson",
+    "PRWR 23% (rank 19)"
+  ],
+  "limitations": [
+    "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+  ],
+  "side_assignment": "LEDGE (side snapshots 2025-26 left 496 / right 0 -> LEDGE)",
+  "madden_reference": [
+    {
+      "player": "Aidan Hutchinson",
+      "ovr": 94,
+      "madden_position": "LEDG",
+      "attributes": {
+        "SPD": 83,
+        "ACC": 88,
+        "AGI": 86,
+        "COD": 72,
+        "STR": 87,
+        "AWR": 97,
+        "PRC": 95,
+        "TAK": 91,
+        "POW": 86,
+        "BSH": 86,
+        "PMV": 91,
+        "FMV": 96,
+        "PUR": 93,
+        "INJ": 91,
+        "STA": 96,
+        "TGH": 92
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 0,
+      "delta_attributes": {
+        "SPD": 3,
+        "ACC": 2,
+        "AGI": 0,
+        "COD": 8,
+        "STR": -3,
+        "AWR": -5,
+        "PRC": -5,
+        "TAK": -7,
+        "POW": -2,
+        "BSH": -2,
+        "PMV": -7,
+        "FMV": -2,
+        "PUR": -1,
+        "INJ": -3,
+        "STA": 0,
+        "TGH": 0
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 0,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u",
+  "style_similarity": [],
+  "status": "FLAGGED"
+}
