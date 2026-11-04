@@ -1,0 +1,134 @@
+{
+  "position": "LEDGE",
+  "version": "reaudit-20261104",
+  "architecture_version": "1.1.3",
+  "status": "LOCKED",
+  "top_10": [
+    {
+      "rank": 1,
+      "player": "Aidan Hutchinson",
+      "ovr": 94
+    },
+    {
+      "rank": 2,
+      "player": "Will Anderson Jr.",
+      "ovr": 93
+    },
+    {
+      "rank": 3,
+      "player": "Greg Rousseau",
+      "ovr": 87
+    },
+    {
+      "rank": 4,
+      "player": "Maxx Crosby",
+      "ovr": 86
+    },
+    {
+      "rank": 5,
+      "player": "T.J. Watt",
+      "ovr": 84
+    },
+    {
+      "rank": 6,
+      "player": "DeMarcus Lawrence",
+      "ovr": 82
+    },
+    {
+      "rank": 7,
+      "player": "Byron Young",
+      "ovr": 81
+    },
+    {
+      "rank": 8,
+      "player": "George Karlaftis",
+      "ovr": 80
+    },
+    {
+      "rank": 9,
+      "player": "Boye Mafe",
+      "ovr": 79
+    },
+    {
+      "rank": 10,
+      "player": "Brian Burns",
+      "ovr": 78
+    }
+  ],
+  "last_in": {
+    "player": "Brian Burns",
+    "ovr": 78
+  },
+  "first_out": {
+    "player": "Tuli Tuipulotu",
+    "ovr": 77
+  },
+  "external_controls": [
+    {
+      "player": "Tuli Tuipulotu",
+      "ovr": 77
+    },
+    {
+      "player": "Cameron Thomas",
+      "ovr": 75
+    },
+    {
+      "player": "Gabe Jacas",
+      "ovr": 74
+    }
+  ],
+  "supersedes": null,
+  "first_lock": true,
+  "control_source": "APPROVED_CANDIDATE_POOL",
+  "stage_audit_ids": [
+    "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1",
+    "LEDGE_REAUDIT_BG_01_A1",
+    "LEDGE_REAUDIT_BG_02_A1",
+    "LEDGE_REAUDIT_BG_03_A1",
+    "LEDGE_REAUDIT_BG_04_A1",
+    "LEDGE_REAUDIT_BG_05_A1",
+    "LEDGE_REAUDIT_BG_06_A1",
+    "LEDGE_REAUDIT_BG_07_A1",
+    "LEDGE_REAUDIT_BG_08_A1",
+    "LEDGE_REAUDIT_BG_09_A1",
+    "LEDGE_REAUDIT_BG_10_A1",
+    "LEDGE_REAUDIT_BG_11_A1",
+    "LEDGE_REAUDIT_BG_12_A1",
+    "LEDGE_REAUDIT_BG_13_A1",
+    "LEDGE_REAUDIT_RATE_01_A1",
+    "LEDGE_REAUDIT_RATE_02_A1",
+    "LEDGE_REAUDIT_RATE_03_A1",
+    "LEDGE_REAUDIT_RATE_04_A1",
+    "LEDGE_REAUDIT_RATE_05_A1",
+    "LEDGE_REAUDIT_RATE_06_A1",
+    "LEDGE_REAUDIT_RATE_07_A1",
+    "LEDGE_REAUDIT_RATE_08_A1",
+    "LEDGE_REAUDIT_RATE_09_A1",
+    "LEDGE_REAUDIT_RATE_10_A1",
+    "LEDGE_REAUDIT_RATE_11_A1",
+    "LEDGE_REAUDIT_RATE_12_A1",
+    "LEDGE_REAUDIT_RATE_13_A1",
+    "LEDGE_REAUDIT_H2H_01_A1",
+    "LEDGE_REAUDIT_H2H_02_A1",
+    "LEDGE_REAUDIT_H2H_03_A1",
+    "LEDGE_REAUDIT_H2H_04_A1",
+    "LEDGE_REAUDIT_H2H_05_A1",
+    "LEDGE_REAUDIT_H2H_06_A1",
+    "LEDGE_REAUDIT_TIEBREAK_01_A1",
+    "LEDGE_REAUDIT_TIEBREAK_02_A1",
+    "LEDGE_REAUDIT_TIEBREAK_03_A1",
+    "LEDGE_REAUDIT_TIEBREAK_04_A1",
+    "LEDGE_REAUDIT_VARIANCE_AUDIT_A1",
+    "LEDGE_REAUDIT_RATE_02_A2",
+    "LEDGE_REAUDIT_RATE_07_A2",
+    "LEDGE_REAUDIT_SCARCITY_A1",
+    "LEDGE_REAUDIT_TIEBREAK_05_A1",
+    "LEDGE_REAUDIT_TIEBREAK_06_A1",
+    "LEDGE_REAUDIT_TIEBREAK_07_A1",
+    "LEDGE_REAUDIT_TIEBREAK_08_A1",
+    "LEDGE_REAUDIT_CROSS_AUDIT_A1"
+  ],
+  "madden_order_verified": false,
+  "locked_by": "PhiXCrypto",
+  "locked_at": "2026-11-04T11:12:37Z"
+}
