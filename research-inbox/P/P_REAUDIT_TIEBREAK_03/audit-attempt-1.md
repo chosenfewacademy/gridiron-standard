@@ -1,0 +1,40 @@
+# P_REAUDIT_TIEBREAK_03 — Jack Fox vs Austin McNamara (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "P_REAUDIT_TIEBREAK_03_A1",
+  "task_id": "P_REAUDIT_TIEBREAK_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "P",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Jack Fox",
+    "Austin McNamara"
+  ],
+  "pair_result": {
+    "winner": "Jack Fox",
+    "loser": "Austin McNamara",
+    "provisional_order_holds": true,
+    "reasoning": "Jack Fox's 2026 (PFF 88.3, net 43.7, +1.1 EPA) and 28 inside-20 in 2025 edge Austin McNamara, whose 2026 dipped (net 41.2, -5.8 EPA) after a PFF 90.3 2025. McNamara also has 3 accepted penalties to Fox's 0.",
+    "key_evidence_for_winner": [
+      "Jack Fox (DET) role punter (punt attempts in nflverse pbp); roster position P; roster ACT (P); injuries no injury designation 2025-26",
+      "Jack Fox 2026: PFF P 2026 overall 88.3 (P rank 3); 2026 7 games punting; 0 accepted penalties; 2026 25 punts, gross 47.9, net 43.7, inside-20 12 (48.0%), 2 TB, 10 fair catches, 9 returned for 65 yds, 0 blocked, long 65; punt EPA +1.1 (+0.044/punt)",
+      "Jack Fox 2025: PFF P 2025 overall 64 (P rank 25); 2025 16 games punting; 0 accepted penalties; 2025 56 punts, gross 46.6, net 42.8, inside-20 28 (50.0%), 2 TB, 26 fair catches, 22 returned for 173 yds, 0 blocked, long 70; punt EPA -2.7 (-0.048/punt)"
+    ],
+    "key_evidence_for_loser": [
+      "Austin McNamara (NYJ) role punter (punt attempts in nflverse pbp); roster position P; roster ACT (P); injuries no injury designation 2025-26",
+      "Austin McNamara 2026: PFF P 2026 overall 70.7 (P rank 16); 2026 8 games punting; 1 accepted penalties; 2026 31 punts, gross 47.3, net 41.2, inside-20 11 (35.5%), 2 TB, 10 fair catches, 11 returned for 150 yds, 0 blocked, long 62; punt EPA -5.8 (-0.187/punt)",
+      "Austin McNamara 2025: PFF P 2025 overall 90.3 (P rank 2); 2025 17 games punting; 2 accepted penalties; 2025 71 punts, gross 46.7, net 43.2, inside-20 32 (45.1%), 6 TB, 25 fair catches, 21 returned for 133 yds, 0 blocked, long 72; punt EPA +6.8 (+0.096/punt)"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
