@@ -200,6 +200,16 @@
       "locked_at": "2026-11-04T12:15:28Z",
       "lock_audit_id": "CB_REAUDIT_LOCK_20261104",
       "history": []
+    },
+    "FS": {
+      "status": "LOCKED",
+      "mutation_permission": "TOP10_REAUDIT_ONLY",
+      "first_lock": true,
+      "baseline_file": "data/baselines/FS.reaudit-20261104.json",
+      "version": "reaudit-20261104",
+      "locked_at": "2026-11-04T12:27:07Z",
+      "lock_audit_id": "FS_REAUDIT_LOCK_20261104",
+      "history": []
     }
   }
 }

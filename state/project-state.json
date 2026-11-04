@@ -11904,7 +11904,7 @@
         "position": "FS",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/FS.reaudit.json",
       "baseline_file": null,
@@ -12011,11 +12011,12 @@
         "FS_REAUDIT_TIEBREAK_09_A1",
         "FS_REAUDIT_TIEBREAK_10_A1",
         "FS_REAUDIT_TIEBREAK_11_A1",
-        "FS_REAUDIT_CROSS_AUDIT_A1"
+        "FS_REAUDIT_CROSS_AUDIT_A1",
+        "FS_REAUDIT_LOCK_20261104"
       ],
-      "current_stage": "positional_cross_audit",
+      "current_stage": "lock",
       "current_task": "FS_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T12:27:00.459Z",
+      "updated_at": "2026-11-04T12:27:07Z",
       "last_result": {
         "task_id": "FS_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
