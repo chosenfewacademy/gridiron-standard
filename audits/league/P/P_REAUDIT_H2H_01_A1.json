@@ -1,0 +1,37 @@
+{
+  "audit_id": "P_REAUDIT_H2H_01_A1",
+  "task_id": "P_REAUDIT_H2H_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "P",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Michael Dickson",
+    "Jordan Stout"
+  ],
+  "pair_result": {
+    "winner": "Michael Dickson",
+    "loser": "Jordan Stout",
+    "provisional_order_holds": true,
+    "reasoning": "Michael Dickson pairs PFF 91.2 (P rank 1) in 2025 with 48.1% inside-20 and +13.0 punt EPA in 2026; Jordan Stout has the bigger leg (gross 50.1/51.6, net 44.9/43.6) but PFF 53.9 in 2025 and +2.5/+2.4 EPA. Dickson's placement and directional control carry the top spot.",
+    "key_evidence_for_winner": [
+      "Michael Dickson (SEA) role punter (punt attempts in nflverse pbp); roster position P; roster ACT (P); injuries no injury designation 2025-26",
+      "Michael Dickson 2026: PFF P 2026 overall 76.9 (P rank 9); 2026 7 games punting; 0 accepted penalties; 2026 27 punts, gross 43.6, net 42.5, inside-20 13 (48.1%), 1 TB, 11 fair catches, 4 returned for 11 yds, 0 blocked, long 58; punt EPA +13.0 (+0.481/punt)",
+      "Michael Dickson 2025: PFF P 2025 overall 91.2 (P rank 1); 2025 16 games punting; 0 accepted penalties; 2025 52 punts, gross 49.0, net 42.2, inside-20 20 (38.5%), 3 TB, 17 fair catches, 19 returned for 295 yds, 0 blocked, long 60; punt EPA -6.8 (-0.131/punt)"
+    ],
+    "key_evidence_for_loser": [
+      "Jordan Stout (NYG) role punter (punt attempts in nflverse pbp); roster position P; roster ACT (P); injuries no injury designation 2025-26",
+      "Jordan Stout 2026: PFF P 2026 overall 68.6 (P rank 22); 2026 7 games punting; 0 accepted penalties; 2026 27 punts, gross 51.6, net 43.6, inside-20 12 (44.4%), 2 TB, 5 fair catches, 17 returned for 177 yds, 0 blocked, long 78; punt EPA +2.4 (+0.088/punt)",
+      "Jordan Stout 2025: PFF P 2025 overall 53.9 (P rank 31); 2025 17 games punting; 0 accepted penalties; 2025 53 punts, gross 50.1, net 44.9, inside-20 24 (45.3%), 6 TB, 6 fair catches, 23 returned for 159 yds, 0 blocked, long 74; punt EPA +2.5 (+0.047/punt)"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
