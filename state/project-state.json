@@ -7192,7 +7192,7 @@
         "position": "FB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/FB.reaudit.json",
       "baseline_file": null,
@@ -7242,7 +7242,8 @@
         "FB_REAUDIT_TIEBREAK_05",
         "FB_REAUDIT_TIEBREAK_06",
         "FB_REAUDIT_VARIANCE_AUDIT",
-        "FB_REAUDIT_SCARCITY"
+        "FB_REAUDIT_SCARCITY",
+        "FB_REAUDIT_CROSS_AUDIT"
       ],
       "audit_ids": [
         "FB_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -7293,18 +7294,14 @@
       ],
       "current_stage": "positional_cross_audit",
       "current_task": "FB_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T04:21:32.228Z",
+      "updated_at": "2026-11-04T04:21:37.331Z",
       "last_result": {
         "task_id": "FB_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "FB_REAUDIT_CROSS_AUDIT",
-        "audit_id": "FB_REAUDIT_CROSS_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -7659,6 +7656,14 @@
           "audit_id": "FB_REAUDIT_SCARCITY_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T04:20:54Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "FB_REAUDIT_CROSS_AUDIT",
+          "audit_id": "FB_REAUDIT_CROSS_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T04:21:37Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
