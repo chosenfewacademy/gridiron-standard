@@ -1,0 +1,40 @@
+# DT_REAUDIT_H2H_01 — Jeffery Simmons vs Cameron Heyward (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "DT_REAUDIT_H2H_01_A1",
+  "task_id": "DT_REAUDIT_H2H_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jeffery Simmons",
+    "Cameron Heyward"
+  ],
+  "pair_result": {
+    "winner": "Jeffery Simmons",
+    "loser": "Cameron Heyward",
+    "provisional_order_holds": true,
+    "reasoning": "Simmons is the more complete and far more productive DT: 32 + 13 PFR pressures and 11 sacks / 17 TFL (2025) vs Heyward's 12 + 8 pressures and 3.5 sacks, ESPN PRWR 25% (#4) vs unranked; Heyward's 90.4 PFF (2025) leads on grade, but the 2026 grades are level (79.4 vs 79.2) and Simmons is 10 years younger.",
+    "key_evidence_for_winner": [
+      "Jeffery Simmons (CHI) alignment depth-chart interior snapshots 2025-26: 285 at DT/NT, 211 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; roster ACT (DL); injuries wk8 Out (Hamstring); wk9 Out (Hamstring); wk11 Questionable (Hamstring)",
+      "Jeffery Simmons 2026: Jeffery Simmons 2026: PFF DI 2026 overall 79.4 on 480 snaps (DI rank 4); PFR 2026 13 pressures (5 hurries, 4 QB hits, 4.0 sacks) in 6 games, 34 tackles, 3 missed; 8 g / 480 def snaps; 4.0 sacks, 9 QB hits, 6 TFL, 1 FF, 3 PD; 3 accepted penalties; PFR 2026 13 pressures (5 hurries, 4 QB hits, 4.0 sacks) in 6 games, 34 tackles, 3 missed; ESPN 2026 DT PRWR 25% (#4, 36/145, 84% snaps at DT); RSWR outside the published top 10",
+      "Jeffery Simmons 2025: Jeffery Simmons 2025: PFF DI 2025 overall 88.3 on 764 snaps (DI rank 3); PFR 2025 32 pressures (11 hurries, 9 QB knockdowns, 11 sacks), 67 tackles, 7 missed; 15 g / 764 def snaps; 11.0 sacks, 21 QB hits, 17 TFL, 3 FF, 3 PD; 10 accepted penalties; PFR 2025 32 pressures (11 hurries, 9 QB knockdowns, 11 sacks), 67 tackles, 7 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Cameron Heyward (PIT) alignment depth-chart interior snapshots 2025-26: 0 at DT/NT, 496 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; roster ACT (DL); injuries wk12 Questionable (Not injury related - resting player)",
+      "Cameron Heyward 2026: Cameron Heyward 2026: PFF DI 2026 overall 79.2 on 319 snaps (DI rank 5); PFR 2026 8 pressures (2 hurries, 5 QB hits, 1.0 sacks) in 6 games, 19 tackles, 1 missed; 8 g / 318 def snaps; 2.5 sacks, 8 QB hits, 3 TFL, 1 FF, 6 PD; 0 accepted penalties; PFR 2026 8 pressures (2 hurries, 5 QB hits, 1.0 sacks) in 6 games, 19 tackles, 1 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+      "Cameron Heyward 2025: Cameron Heyward 2025: PFF DI 2025 overall 90.4 on 873 snaps (DI rank 1); PFR 2025 12 pressures (5 hurries, 3 QB knockdowns, 3.5 sacks), 78 tackles, 3 missed; 17 g / 823 def snaps; 3.5 sacks, 9 QB hits, 9 TFL, 1 FF, 6 PD; 4 accepted penalties; PFR 2025 12 pressures (5 hurries, 3 QB knockdowns, 3.5 sacks), 78 tackles, 3 missed"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
