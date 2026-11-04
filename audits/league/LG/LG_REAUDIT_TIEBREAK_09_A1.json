@@ -1,0 +1,39 @@
+{
+  "audit_id": "LG_REAUDIT_TIEBREAK_09_A1",
+  "task_id": "LG_REAUDIT_TIEBREAK_09",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Chris Paul",
+    "Ezra Cleveland"
+  ],
+  "pair_result": {
+    "winner": "Ezra Cleveland",
+    "loser": "Chris Paul",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling precaution (t46u/t50s441; not code-flagged: 2 of 5 hits, no production hit). Paul (WAS): ESPN IOL PBWR 93% (top 10) and 16 g + 7 g, but no PFF top-50 guard grade in 2025 or 2026 and 5 accepted penalties. Cleveland: PFF 69.6/71.6 (#24/#22) on 1,110 + 389 snaps, 2 penalties. Cleveland's graded body of work in both phases outweighs Paul's pass-block win rate alone. Ezra Cleveland holds #10.",
+    "key_evidence_for_winner": [
+      "Ezra Cleveland (JAX) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 77, 'LG': 149}; roster ACT",
+      "Ezra Cleveland 2026: PFF 71.6 (rank 22; 223 pass-block/166 run-block of 389 snaps); 7 g/389 snaps; penalties 1; injuries none",
+      "Ezra Cleveland 2025: PFF 69.6 (rank 24; 684 pass-block/426 run-block of 1110 snaps); 16 g/1059 snaps; penalties 1; injuries ['wk3 Questionable (Ankle)', 'wk10 Out (Knee)']"
+    ],
+    "key_evidence_for_loser": [
+      "Chris Paul (WAS) ESPN 2026 win rates (thru Wk 8): IOL PBWR 93%; depth-chart side 2026 {'LG': 226}; roster ACT",
+      "Chris Paul 2026: no PFF top-50 grade; 7 g/463 snaps; penalties 3; injuries none",
+      "Chris Paul 2025: no PFF top-50 grade; 16 g/926 snaps; penalties 2; injuries ['wk18 Questionable (Illness)']"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
