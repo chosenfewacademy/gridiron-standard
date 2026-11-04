@@ -1,0 +1,40 @@
+# SS_REAUDIT_H2H_01 — Kyle Hamilton vs Evan Williams (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "SS_REAUDIT_H2H_01_A1",
+  "task_id": "SS_REAUDIT_H2H_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Kyle Hamilton",
+    "Evan Williams"
+  ],
+  "pair_result": {
+    "winner": "Kyle Hamilton",
+    "loser": "Evan Williams",
+    "provisional_order_holds": true,
+    "reasoning": "Hamilton's two-year body of work wins: PFF 86.3 on 1003 snaps in 2025 (S rank 2) and 77.3 on 502 in 2026, with 7 TFL in 2025 and 8 TFL in 2026 from the box plus 9 PD in 2025. Williams' 2026 is the best safety season this year (PFF 90.6, S rank 1; 17 of 34 targets completed, 2 INT, 3 missed tackles), but his 2025 was 70.2 on 979 snaps (S rank 27). Two-year sustained star play over one elite half-season.",
+    "key_evidence_for_winner": [
+      "Kyle Hamilton (BAL) role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1506 -> SS; roster ACT (DB); injuries wk5 Questionable (Groin); wk16 Questionable (Ankle)",
+      "Kyle Hamilton 2026: Kyle Hamilton 2026: PFF S 2026 overall 77.3 on 502 snaps (S rank 11; 263 coverage / 189 run-def snaps); PFR 2026 (7 games) coverage 28 targets / 19 completions / 208 yds / 1 TD / 1 INT; 50 tackles, 5 missed; 8 g / 503 def snaps; 38 solo + 17 ast tackles, 8 TFL, 1 INT, 4 PD, 1 FF; 3 accepted penalties; PFR 2026 (7 games) coverage 28 targets / 19 completions / 208 yds / 1 TD / 1 INT; 50 tackles, 5 missed",
+      "Kyle Hamilton 2025: Kyle Hamilton 2025: PFF S 2025 overall 86.3 on 1003 snaps (S rank 2; 590 coverage / 344 run-def snaps); PFR 2025 coverage 57 targets / 35 completions / 301 yds / 4 TD / passer rating 98.6 / 0 INT; 105 tackles, 9 missed; 16 g / 1003 def snaps; 59 solo + 46 ast tackles, 7 TFL, 0 INT, 9 PD, 2 FF; 4 accepted penalties; PFR 2025 coverage 57 targets / 35 completions / 301 yds / 4 TD / passer rating 98.6 / 0 INT; 105 tackles, 9 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Evan Williams (GB) role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1464 -> SS; roster ACT (DB); injuries wk16 Questionable (Knee); wk17 Questionable (Knee)",
+      "Evan Williams 2026: Evan Williams 2026: PFF S 2026 overall 90.6 on 560 snaps (S rank 1; 322 coverage / 212 run-def snaps); PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed; 8 g / 561 def snaps; 43 solo + 27 ast tackles, 2 TFL, 2 INT, 6 PD, 0 FF; 2 accepted penalties; PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed",
+      "Evan Williams 2025: Evan Williams 2025: PFF S 2025 overall 70.2 on 979 snaps (S rank 27; 600 coverage / 368 run-def snaps); PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed; 16 g / 903 def snaps; 46 solo + 52 ast tackles, 4 TFL, 3 INT, 5 PD, 0 FF; 4 accepted penalties; PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
