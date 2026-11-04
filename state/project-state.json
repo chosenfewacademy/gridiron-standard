@@ -13052,7 +13052,7 @@
         "position": "K",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/K.reaudit.json",
       "baseline_file": null,
@@ -13101,7 +13101,8 @@
         "K_REAUDIT_TIEBREAK_04",
         "K_REAUDIT_TIEBREAK_05",
         "K_REAUDIT_TIEBREAK_06",
-        "K_REAUDIT_VARIANCE_AUDIT"
+        "K_REAUDIT_VARIANCE_AUDIT",
+        "K_REAUDIT_SCARCITY"
       ],
       "audit_ids": [
         "K_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -13149,18 +13150,14 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "K_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T12:54:14.866Z",
+      "updated_at": "2026-11-04T12:54:15.163Z",
       "last_result": {
         "task_id": "K_REAUDIT_SCARCITY",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "K_REAUDIT_SCARCITY",
-        "audit_id": "K_REAUDIT_SCARCITY_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -13490,6 +13487,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T12:54:02Z",
           "note": "Standing commissioner approval t46u: Approved variance fix (K_REAUDIT_VARIANCE_AUDIT, t46u): AWR 94->88 (PFF 90.8/91.0 and FG EPA +20.8/+13.2 support top-tier decisions but not above Will"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "K_REAUDIT_SCARCITY",
+          "audit_id": "K_REAUDIT_SCARCITY_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:54:14Z",
+          "note": "Standing commissioner approval t46u: K scarcity audit approved"
         }
       ]
     }
