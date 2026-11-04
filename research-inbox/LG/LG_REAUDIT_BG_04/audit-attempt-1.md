@@ -1,0 +1,151 @@
+# LG_REAUDIT_BG_04 — Steve Avila background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u/t50s441.
+
+```json
+{
+  "audit_id": "LG_REAUDIT_BG_04_A1",
+  "task_id": "LG_REAUDIT_BG_04",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "player_id": "ext_00-0039058",
+  "players": [
+    "Steve Avila"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Steve Avila",
+    "player_id": "ext_00-0039058",
+    "team": "LA",
+    "pff": {
+      "2025": {
+        "rank": 10,
+        "pff": 75.0,
+        "team": "LA",
+        "off": 1050,
+        "pblk": 609,
+        "rblk": 441,
+        "age": "27.0"
+      },
+      "2026": {
+        "rank": 15,
+        "pff": 75.2,
+        "team": "LA",
+        "off": 556,
+        "pblk": 348,
+        "rblk": 208,
+        "age": "27.0"
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 13,
+        "off": 836
+      },
+      "2026": {
+        "games": 8,
+        "off": 556
+      }
+    },
+    "penalties": {
+      "2025": {
+        "total": 0,
+        "types": {}
+      },
+      "2026": {
+        "total": 2,
+        "types": {
+          "Offensive Holding": 1,
+          "Face Mask": 1
+        }
+      }
+    },
+    "depth_chart_side": {
+      "2025": {
+        "LG": 1
+      },
+      "2026": {
+        "LG": 226
+      }
+    },
+    "espn_win_rates": "not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+    "injuries": {
+      "2025": [
+        "wk2 Doubtful (Ankle)",
+        "wk3 Doubtful (Ankle)"
+      ]
+    },
+    "summary_lines": [
+      "Steve Avila (LA) 2026: PFF 2026 75.2 (rank 15, 556 snaps: 348 pass-block / 208 run-block, pass share 0.63); 8 g / 556 off snaps; 2 accepted penalties {'Offensive Holding': 1, 'Face Mask': 1}; depth-chart side {'LG': 226}",
+      "Steve Avila 2025: PFF 2025 75.0 (rank 10, 1050 snaps: 609 pass-block / 441 run-block, pass share 0.58); 13 g / 836 off snaps; 0 accepted penalties {}; side {'LG': 1}",
+      "Steve Avila ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+      "Steve Avila injury reports: {'2025': ['wk2 Doubtful (Ankle)', 'wk3 Doubtful (Ankle)']}; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "STR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH",
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2026",
+        "retrieved_at": "2026-11-04T03:14:31Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2025",
+        "retrieved_at": "2026-11-04T03:14:31Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T03:14:31Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T03:14:31Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T03:14:31Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T03:14:31Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T03:14:31Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:14:31Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
