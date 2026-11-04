@@ -1,0 +1,40 @@
+# MIKE_REAUDIT_TIEBREAK_05 — Sonny Styles vs Jamien Sherwood (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "MIKE_REAUDIT_TIEBREAK_05_A1",
+  "task_id": "MIKE_REAUDIT_TIEBREAK_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "MIKE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Sonny Styles",
+    "Jamien Sherwood"
+  ],
+  "pair_result": {
+    "winner": "Sonny Styles",
+    "loser": "Jamien Sherwood",
+    "provisional_order_holds": true,
+    "reasoning": "Styles' 2026 PFF 70.5 (#19) with 1 INT / 4 PD vs Sherwood's 65.8 / 66.2 across 1,621 snaps; Sherwood is the durable every-down player, but Styles grades higher now.",
+    "key_evidence_for_winner": [
+      "Sonny Styles (WAS) role snap-weighted 2025-26 depth-chart role shares MIKE 429 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE26 240) -> MIKE; roster ACT (LB); injuries no injury designation 2025-26",
+      "Sonny Styles 2026: Sonny Styles 2026: PFF LB 2026 overall 70.5 on 429 snaps (LB rank 19; 141 run-def / 242 coverage / 46 pass-rush snaps); PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes; 7 g / 429 def snaps; 24 solo + 28 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 4 PD, 1 FF; 0 accepted penalties; PFR 2026 (6 games) coverage 25 targets / 16 completions / 162 yds / 1 INT; 46 tackles, 6 missed; 5 pressures on 27 blitzes",
+      "Sonny Styles 2025: Sonny Styles 2025: no PFF LB grade 2025; no PFR 2025 line; no snaps; no stats; 0 accepted penalties; no PFR 2025 line"
+    ],
+    "key_evidence_for_loser": [
+      "Jamien Sherwood (NYJ) role snap-weighted 2025-26 depth-chart role shares MIKE 1615 / WILL 6 / SAM 0 / edge 2 (raw snapshots MIKE25 221, MIKE26 271, EDGE26 1, WILL26 3) -> MIKE; roster ACT (LB); injuries no injury designation 2025-26",
+      "Jamien Sherwood 2026: Jamien Sherwood 2026: PFF LB 2026 overall 65.8 on 511 snaps (LB rank 31; 235 run-def / 221 coverage / 55 pass-rush snaps); PFR 2026 (7 games) coverage 30 targets / 21 completions / 219 yds / 0 INT; 54 tackles, 4 missed; 4 pressures on 25 blitzes; 8 g / 511 def snaps; 29 solo + 36 ast tackles, 5 TFL, 0.0 sacks, 0 INT, 5 PD, 2 FF; 0 accepted penalties; PFR 2026 (7 games) coverage 30 targets / 21 completions / 219 yds / 0 INT; 54 tackles, 4 missed; 4 pressures on 25 blitzes",
+      "Jamien Sherwood 2025: Jamien Sherwood 2025: PFF LB 2025 overall 66.2 on 1110 snaps (LB rank 35; 498 run-def / 547 coverage / 65 pass-rush snaps); PFR 2025 coverage 61 targets / 44 completions / 461 yds / passer rating 110.1 / 0 INT; 154 tackles, 10 missed; 7 pressures on 51 blitzes, 2 sacks; 17 g / 1111 def snaps; 68 solo + 83 ast tackles, 8 TFL, 2.0 sacks, 0 INT, 8 PD, 0 FF; 2 accepted penalties; PFR 2025 coverage 61 targets / 44 completions / 461 yds / passer rating 110.1 / 0 INT; 154 tackles, 10 missed; 7 pressures on 51 blitzes, 2 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
