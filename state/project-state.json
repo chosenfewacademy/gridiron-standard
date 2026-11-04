@@ -7676,7 +7676,7 @@
         "position": "REDGE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/REDGE.reaudit.json",
       "baseline_file": null,
@@ -7689,7 +7689,8 @@
         "REDGE_REAUDIT_CANDIDATE_AUDIT",
         "REDGE_REAUDIT_BG_01",
         "REDGE_REAUDIT_BG_02",
-        "REDGE_REAUDIT_BG_03"
+        "REDGE_REAUDIT_BG_03",
+        "REDGE_REAUDIT_BG_04"
       ],
       "audit_ids": [
         "REDGE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -7700,18 +7701,14 @@
       ],
       "current_stage": "background_analysis",
       "current_task": "REDGE_REAUDIT_BG_04",
-      "updated_at": "2026-11-04T04:34:33.350Z",
+      "updated_at": "2026-11-04T04:34:33.623Z",
       "last_result": {
         "task_id": "REDGE_REAUDIT_BG_04",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "REDGE_REAUDIT_BG_04",
-        "audit_id": "REDGE_REAUDIT_BG_04_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -7743,6 +7740,14 @@
           "audit_id": "REDGE_REAUDIT_BG_03_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T04:34:32Z",
+          "note": "Standing commissioner approval t46u (run dossiers and ratings automatically)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "REDGE_REAUDIT_BG_04",
+          "audit_id": "REDGE_REAUDIT_BG_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T04:34:33Z",
           "note": "Standing commissioner approval t46u (run dossiers and ratings automatically)"
         }
       ]
