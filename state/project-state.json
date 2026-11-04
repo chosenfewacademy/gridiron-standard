@@ -10816,7 +10816,7 @@
         "position": "SAM",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/SAM.reaudit.json",
       "baseline_file": null,
@@ -10862,7 +10862,8 @@
         "SAM_REAUDIT_TIEBREAK_01",
         "SAM_REAUDIT_TIEBREAK_02",
         "SAM_REAUDIT_TIEBREAK_03",
-        "SAM_REAUDIT_TIEBREAK_04"
+        "SAM_REAUDIT_TIEBREAK_04",
+        "SAM_REAUDIT_TIEBREAK_05"
       ],
       "audit_ids": [
         "SAM_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -10906,7 +10907,7 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "SAM_REAUDIT_H2H_06",
-      "updated_at": "2026-11-04T11:57:50.254Z",
+      "updated_at": "2026-11-04T11:57:50.492Z",
       "last_result": {
         "task_id": "SAM_REAUDIT_TIEBREAK_05",
         "status": "FLAGGED",
@@ -10914,17 +10915,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "SAM_REAUDIT_TIEBREAK_05",
-        "audit_id": "SAM_REAUDIT_TIEBREAK_05_A1",
-        "pending": [
-          {
-            "task_id": "SAM_REAUDIT_TIEBREAK_05",
-            "audit_id": "SAM_REAUDIT_TIEBREAK_05_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -11220,6 +11211,14 @@
           "audit_id": "SAM_REAUDIT_TIEBREAK_04_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:57:49Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "SAM_REAUDIT_TIEBREAK_05",
+          "audit_id": "SAM_REAUDIT_TIEBREAK_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:57:50Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
