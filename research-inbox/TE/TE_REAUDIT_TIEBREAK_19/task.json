@@ -1,0 +1,182 @@
+{
+  "type": "pair_audit",
+  "task_id": "TE_REAUDIT_TIEBREAK_19",
+  "players": [
+    "Tyler Higbee",
+    "Isaiah Likely"
+  ],
+  "baseline_controls": {
+    "locked_baseline": {
+      "top_10": [
+        {
+          "rank": 1,
+          "player": "Trey McBride"
+        },
+        {
+          "rank": 2,
+          "player": "George Kittle"
+        },
+        {
+          "rank": 3,
+          "player": "Brock Bowers"
+        },
+        {
+          "rank": 4,
+          "player": "Dalton Kincaid"
+        },
+        {
+          "rank": 5,
+          "player": "Sam LaPorta"
+        },
+        {
+          "rank": 6,
+          "player": "Colston Loveland"
+        },
+        {
+          "rank": 7,
+          "player": "Kyle Pitts"
+        },
+        {
+          "rank": 8,
+          "player": "Tucker Kraft"
+        },
+        {
+          "rank": 9,
+          "player": "Hunter Henry"
+        },
+        {
+          "rank": 10,
+          "player": "Travis Kelce"
+        }
+      ],
+      "external_controls": [
+        {
+          "player": "Tyler Warren",
+          "ovr": 83
+        },
+        {
+          "player": "Brenton Strange",
+          "ovr": 83
+        }
+      ]
+    },
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Brock Bowers",
+        "overall": 93
+      },
+      {
+        "rank": 2,
+        "player": "George Kittle",
+        "overall": 90
+      },
+      {
+        "rank": 3,
+        "player": "Trey McBride",
+        "overall": 88
+      },
+      {
+        "rank": 4,
+        "player": "Dalton Kincaid",
+        "overall": 86
+      },
+      {
+        "rank": 5,
+        "player": "Sam LaPorta",
+        "overall": 85
+      },
+      {
+        "rank": 6,
+        "player": "T.J. Hockenson",
+        "overall": 84
+      },
+      {
+        "rank": 7,
+        "player": "Darnell Washington",
+        "overall": 82
+      },
+      {
+        "rank": 8,
+        "player": "Travis Kelce",
+        "overall": 82
+      },
+      {
+        "rank": 9,
+        "player": "Hunter Henry",
+        "overall": 80
+      },
+      {
+        "rank": 10,
+        "player": "Isaiah Likely",
+        "overall": 79
+      }
+    ],
+    "external_controls": [
+      "Tucker Kraft",
+      "Dallas Goedert",
+      "Colston Loveland",
+      "Michael Mayer",
+      "Kyle Pitts"
+    ]
+  },
+  "position": "TE",
+  "stage": "pair_audits",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 4,
+    "group": "Offense",
+    "current_status": "LOCKED",
+    "pff_cited_inputs": [
+      "overall",
+      "receiving",
+      "run blocking",
+      "pass blocking",
+      "yards per route run"
+    ],
+    "position_stats": [
+      "targets, receptions, yards, TD",
+      "YAC"
+    ],
+    "usage_snap_metrics": [
+      "inline/slot/wide alignment %",
+      "route participation",
+      "run-block snaps",
+      "pass-block snaps"
+    ],
+    "on_field_impact": [
+      "EPA/target",
+      "run-block win rate (ESPN)"
+    ],
+    "madden_attributes_informed": [
+      "CTH",
+      "CIT",
+      "SPC",
+      "SRR",
+      "MRR",
+      "RBK",
+      "RBP",
+      "RBF",
+      "PBK",
+      "LBK",
+      "IBL",
+      "STR",
+      "SPD",
+      "AWR"
+    ],
+    "note": ""
+  },
+  "tiebreak": true,
+  "note": "Add-only tiebreak for an untested adjacent tie/close call (authorized by t45s389)."
+}

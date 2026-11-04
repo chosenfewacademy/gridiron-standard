@@ -1,0 +1,39 @@
+# TE_REAUDIT_TIEBREAK_19 — Tyler Higbee vs Isaiah Likely (v1.1.2 head-to-head tiebreak; authorized by t45s389)
+
+```json
+{
+  "audit_id": "TE_REAUDIT_TIEBREAK_19_A1",
+  "task_id": "TE_REAUDIT_TIEBREAK_19",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Tyler Higbee",
+    "Isaiah Likely"
+  ],
+  "pair_result": {
+    "winner": "Isaiah Likely",
+    "loser": "Tyler Higbee",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s389). Tyler Higbee: 2025 10 g, 36 tgt, 281 yds, 3 TD, EPA/tgt +0.261, PFF 68.4, YPRR 1.2, block share 0.45; 2026 7 g, 34 tgt, 274 yds, 1 TD, EPA/tgt +0.181, PFF 61.5, YPRR 1.32, block share 0.4. Isaiah Likely: 2025 12 g, 36 tgt, 307 yds, 1 TD, EPA/tgt +0.150, PFF outside PFF qualifiers, YPRR n/a, block share n/a; 2026 7 g, 64 tgt, 395 yds, 5 TD, EPA/tgt +0.223, PFF 77.3, YPRR 1.59, block share 0.33. Likely's 2026 (64 tgt, 395 yds, 5 TD, PFF 77.3, YPRR 1.59) outweighs age 33, PFF 68.4/61.5, EPA/tgt +.261/+.181. Isaiah Likely holds first-out.",
+    "key_evidence_for_winner": [
+      "Isaiah Likely PFF TE overall grade 2026 77.3, 2025 None; 2026 PFF snaps {'off': '370', 'routes': '249', 'pblk': '4', 'rblk': '117'} (block share 0.33); 2025 PFF snaps None (block share None); age 26, 76 in 241 lb",
+      "Isaiah Likely (NYG) 2026: 7 g 64 tgt 395 yds 5 TD, EPA/tgt 0.223, YPRR 1.59, TPRR 0.257, NGS sep 2.73, aDOT 8.0, deep 6 tgt catch 0.33 EPA/tgt 0.73, short catch 0.72, YAC/rec 2.9, RZ tgt 10, 3rd/4th conv 10/18, fum lost 0",
+      "Isaiah Likely (BAL) 2025: 12 g 36 tgt 307 yds 1 TD, EPA/tgt 0.15, YPRR None, TPRR None, NGS sep None, aDOT 8.0, deep 3 tgt catch 0.67 EPA/tgt 0.86, short catch 0.83, YAC/rec 4.3, RZ tgt 6, 3rd/4th conv 5/12, fum lost 1"
+    ],
+    "key_evidence_for_loser": [
+      "Tyler Higbee PFF TE overall grade 2026 61.5, 2025 68.4; 2026 PFF snaps {'off': '345', 'routes': '207', 'pblk': '9', 'rblk': '129'} (block share 0.4); 2025 PFF snaps {'off': '424', 'routes': '234', 'pblk': '20', 'rblk': '170'} (block share 0.45); age 33, 78 in 253 lb",
+      "Tyler Higbee (LA) 2026: 7 g 34 tgt 274 yds 1 TD, EPA/tgt 0.181, YPRR 1.32, TPRR 0.164, NGS sep 2.81, aDOT 7.9, deep 1 tgt catch 0.0 EPA/tgt -0.88, short catch 0.83, YAC/rec 3.0, RZ tgt 2, 3rd/4th conv 5/7, fum lost 2",
+      "Tyler Higbee (LA) 2025: 10 g 36 tgt 281 yds 3 TD, EPA/tgt 0.261, YPRR 1.2, TPRR 0.154, NGS sep None, aDOT 6.1, deep 3 tgt catch 1.0 EPA/tgt 2.04, short catch 0.76, YAC/rec 5.6, RZ tgt 8, 3rd/4th conv 5/13, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
