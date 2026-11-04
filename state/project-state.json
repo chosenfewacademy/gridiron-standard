@@ -13526,7 +13526,7 @@
         "position": "P",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/P.reaudit.json",
       "baseline_file": null,
@@ -13566,7 +13566,8 @@
         "P_REAUDIT_H2H_01",
         "P_REAUDIT_H2H_02",
         "P_REAUDIT_H2H_03",
-        "P_REAUDIT_H2H_04"
+        "P_REAUDIT_H2H_04",
+        "P_REAUDIT_H2H_05"
       ],
       "audit_ids": [
         "P_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -13604,18 +13605,14 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "P_REAUDIT_H2H_05",
-      "updated_at": "2026-11-04T13:00:21.093Z",
+      "updated_at": "2026-11-04T13:00:21.369Z",
       "last_result": {
         "task_id": "P_REAUDIT_H2H_05",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "P_REAUDIT_H2H_05",
-        "audit_id": "P_REAUDIT_H2H_05_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -13863,6 +13860,14 @@
           "audit_id": "P_REAUDIT_H2H_04_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T13:00:20Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "P_REAUDIT_H2H_05",
+          "audit_id": "P_REAUDIT_H2H_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T13:00:21Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
