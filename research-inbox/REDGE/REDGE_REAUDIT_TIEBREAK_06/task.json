@@ -1,0 +1,126 @@
+{
+  "type": "pair_audit",
+  "task_id": "REDGE_REAUDIT_TIEBREAK_06",
+  "players": [
+    "Laiatu Latu",
+    "Jaelan Phillips"
+  ],
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Myles Garrett",
+        "overall": 95
+      },
+      {
+        "rank": 2,
+        "player": "Micah Parsons",
+        "overall": 91
+      },
+      {
+        "rank": 3,
+        "player": "Danielle Hunter",
+        "overall": 87
+      },
+      {
+        "rank": 4,
+        "player": "Abdul Carter",
+        "overall": 86
+      },
+      {
+        "rank": 5,
+        "player": "Josh Hines-Allen",
+        "overall": 85
+      },
+      {
+        "rank": 6,
+        "player": "Nik Bonitto",
+        "overall": 84
+      },
+      {
+        "rank": 7,
+        "player": "Chase Young",
+        "overall": 82
+      },
+      {
+        "rank": 8,
+        "player": "Alex Highsmith",
+        "overall": 80
+      },
+      {
+        "rank": 9,
+        "player": "Nick Herbig",
+        "overall": 79
+      },
+      {
+        "rank": 10,
+        "player": "Laiatu Latu",
+        "overall": 78
+      }
+    ],
+    "external_controls": [
+      "Al-Quadin Muhammad",
+      "Khalil Mack",
+      "Trey Hendrickson"
+    ]
+  },
+  "position": "REDGE",
+  "stage": "pair_audits",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 10,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "pass rush",
+      "run defense",
+      "tackling",
+      "pass-rush win rate",
+      "pressures",
+      "total pressures, sacks, hits, hurries"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks, QB hits",
+      "forced fumbles",
+      "batted passes"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (edge side / interior technique)",
+      "pass-rush snaps vs run snaps"
+    ],
+    "on_field_impact": [
+      "pass-rush win rate (ESPN)",
+      "run-stop win rate (ESPN)",
+      "pressure rate",
+      "run-stop %"
+    ],
+    "madden_attributes_informed": [
+      "PMV",
+      "FMV",
+      "BSH",
+      "PUR",
+      "PRC",
+      "TAK",
+      "POW",
+      "STR",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Right-side edge (offense's left): only right-edge alignment snaps are primary."
+  },
+  "tiebreak": true,
+  "note": "Add-only tiebreak for an untested adjacent tie/close call (authorized by t46u)."
+}
