@@ -6711,16 +6711,17 @@
         "RT_REAUDIT_TIEBREAK_06_A1",
         "RT_REAUDIT_VARIANCE_AUDIT_A1",
         "RT_REAUDIT_RATE_06_A2",
-        "RT_REAUDIT_RATE_11_A2"
+        "RT_REAUDIT_RATE_11_A2",
+        "RT_REAUDIT_RATE_12_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "RT_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T04:04:51.359Z",
+      "updated_at": "2026-11-04T04:04:51.649Z",
       "last_result": {
-        "task_id": "RT_REAUDIT_RATE_11",
+        "task_id": "RT_REAUDIT_RATE_12",
         "status": "REVISION_APPROVED",
-        "audit_id": "RT_REAUDIT_RATE_11_A2",
-        "supersedes": "RT_REAUDIT_RATE_11_A1",
+        "audit_id": "RT_REAUDIT_RATE_12_A2",
+        "supersedes": "RT_REAUDIT_RATE_12_A1",
         "flags": []
       },
       "awaiting": null,
@@ -7062,6 +7063,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T04:04:51Z",
           "note": "Standing commissioner approval t46u: Approved variance fix (RT_REAUDIT_VARIANCE_AUDIT, t46u): PBF 80->86 (PFF 83.5, #10 T in 2025, mostly pass sets; injury discount stays in INJ/STA). OVR"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RT_REAUDIT_RATE_12",
+          "audit_id": "RT_REAUDIT_RATE_12_A2",
+          "supersedes": "RT_REAUDIT_RATE_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T04:04:51Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (RT_REAUDIT_VARIANCE_AUDIT, t46u): STA 82->88 (968 snaps in 2025; 2026 IR already priced in INJ 70). OVR unchanged."
         }
       ]
     }
