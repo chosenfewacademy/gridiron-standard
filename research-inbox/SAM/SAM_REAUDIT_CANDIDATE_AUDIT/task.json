@@ -1,0 +1,232 @@
+{
+  "task_id": "SAM_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Quincy Williams"
+      },
+      {
+        "rank": 2,
+        "player": "Devin Bush"
+      },
+      {
+        "rank": 3,
+        "player": "Isaiah McDuffie"
+      },
+      {
+        "rank": 4,
+        "player": "D'Marco Jackson"
+      },
+      {
+        "rank": 5,
+        "player": "Leo Chenal"
+      },
+      {
+        "rank": 6,
+        "player": "Derrick Barnes"
+      },
+      {
+        "rank": 7,
+        "player": "Dorian Williams"
+      },
+      {
+        "rank": 8,
+        "player": "Dennis Gardeck"
+      },
+      {
+        "rank": 9,
+        "player": "E.J. Speed"
+      },
+      {
+        "rank": 10,
+        "player": "Malcolm Rodriguez"
+      }
+    ],
+    "external_controls": [
+      "Noah Sewell",
+      "Jack Sanborn",
+      "Devin White"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Quincy Williams",
+      "aliases": [],
+      "player_id": "ext_00-0035680",
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 0 / SAM 1285 -> SAM)"
+      ]
+    },
+    {
+      "player": "Devin Bush",
+      "aliases": [],
+      "player_id": "ext_00-0035525",
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 432 / SAM 851 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Isaiah McDuffie",
+      "aliases": [],
+      "player_id": "ext_00-0036658",
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 252 / WILL 31 / SAM 482 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "D'Marco Jackson",
+      "aliases": [],
+      "player_id": "ext_00-0037271",
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 31 / WILL 28 / SAM 419 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Leo Chenal",
+      "aliases": [],
+      "player_id": "ext_00-0037819",
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 69 / WILL 21 / SAM 432 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Derrick Barnes",
+      "aliases": [],
+      "player_id": "ext_00-0036964",
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 408 / SAM 940 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Dorian Williams",
+      "aliases": [],
+      "player_id": "ext_00-0038557",
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 20 / WILL 324 / SAM 414 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Dennis Gardeck",
+      "aliases": [],
+      "player_id": "ext_00-0034473",
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 0 / SAM 601 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "E.J. Speed",
+      "aliases": [],
+      "player_id": "ext_00-0034987",
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 2 / SAM 428 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Malcolm Rodriguez",
+      "aliases": [],
+      "player_id": "ext_00-0037289",
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 72 / SAM 120 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Noah Sewell",
+      "aliases": [],
+      "player_id": "ext_00-0038390",
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 71 / WILL 68 / SAM 340 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Jack Sanborn",
+      "aliases": [],
+      "player_id": "ext_00-0037109",
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 119 / WILL 0 / SAM 120 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Devin White",
+      "aliases": [],
+      "player_id": "ext_00-0035707",
+      "flags": [
+        "LB_ROLE_ASSIGNED SAM (snap-weighted 2025-26 depth-chart role shares MIKE 28 / WILL 5 / SAM 1152 -> SAM)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    }
+  ],
+  "position": "SAM",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 15,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "run defense",
+      "coverage",
+      "pass rush",
+      "tackling",
+      "missed tackle %"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks",
+      "INT, PBU",
+      "missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by role (MIKE/WILL/SAM)",
+      "coverage snaps",
+      "blitz rate",
+      "box vs slot alignment"
+    ],
+    "on_field_impact": [
+      "run-stop %",
+      "yards per coverage snap allowed",
+      "passer rating allowed"
+    ],
+    "madden_attributes_informed": [
+      "TAK",
+      "HIT",
+      "PUR",
+      "PRC",
+      "BSH",
+      "MCV",
+      "ZCV",
+      "PMV",
+      "FMV",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Strong-side role; edge/on-ball snaps documented separately."
+  }
+}
