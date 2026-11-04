@@ -1,0 +1,916 @@
+# WR_REAUDIT_SCARCITY — superseding run R2 (v1.1.2; authorized t56s532)
+
+```json
+{
+  "audit_id": "WR_REAUDIT_SCARCITY_A2",
+  "task_id": "WR_REAUDIT_SCARCITY",
+  "task_type": "scarcity_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jaxon Smith-Njigba",
+    "Puka Nacua",
+    "Ja'Marr Chase",
+    "CeeDee Lamb",
+    "Tee Higgins",
+    "Drake London",
+    "Zay Flowers",
+    "Amon-Ra St. Brown",
+    "Justin Jefferson",
+    "Chris Olave"
+  ],
+  "scarcity": {
+    "rules": "config/scarcity-rules.json (90+ elite, 95+ rare league-defining, 97+ extraordinary, 99 historic)",
+    "traits_90_plus": [
+      {
+        "player": "Jaxon Smith-Njigba",
+        "attr": "SPD",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "attr": "ACC",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "attr": "AGI",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "attr": "COD",
+        "v": 96,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "attr": "AWR",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "attr": "CTH",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "attr": "SRR",
+        "v": 97,
+        "tier": "EXTRAORDINARY",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "attr": "MRR",
+        "v": 97,
+        "tier": "EXTRAORDINARY",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "attr": "DRR",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "attr": "RLS",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "attr": "STA",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Puka Nacua",
+        "attr": "ACC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Puka Nacua",
+        "attr": "COD",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Puka Nacua",
+        "attr": "AWR",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Puka Nacua",
+        "attr": "CTH",
+        "v": 96,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Puka Nacua",
+        "attr": "CIT",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Puka Nacua",
+        "attr": "SRR",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Puka Nacua",
+        "attr": "MRR",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Puka Nacua",
+        "attr": "CAR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Puka Nacua",
+        "attr": "STA",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Puka Nacua",
+        "attr": "TGH",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "attr": "SPD",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "attr": "ACC",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "attr": "AGI",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "attr": "COD",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "attr": "CTH",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "attr": "RLS",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "attr": "JMP",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "attr": "CAR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "attr": "INJ",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "CeeDee Lamb",
+        "attr": "SPD",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "CeeDee Lamb",
+        "attr": "ACC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "CeeDee Lamb",
+        "attr": "COD",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "CeeDee Lamb",
+        "attr": "SRR",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "CeeDee Lamb",
+        "attr": "MRR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "CeeDee Lamb",
+        "attr": "INJ",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "CeeDee Lamb",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "CeeDee Lamb",
+        "attr": "TGH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Tee Higgins",
+        "attr": "CIT",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Tee Higgins",
+        "attr": "SPC",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Tee Higgins",
+        "attr": "JMP",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Drake London",
+        "attr": "CTH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Drake London",
+        "attr": "CIT",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Drake London",
+        "attr": "TGH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Zay Flowers",
+        "attr": "SPD",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Zay Flowers",
+        "attr": "ACC",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Zay Flowers",
+        "attr": "AGI",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Zay Flowers",
+        "attr": "COD",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Zay Flowers",
+        "attr": "DRR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "attr": "AGI",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "attr": "COD",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "attr": "AWR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "attr": "CTH",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "attr": "CIT",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "attr": "SRR",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "attr": "MRR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "attr": "CAR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "attr": "INJ",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "attr": "TGH",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Justin Jefferson",
+        "attr": "ACC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Justin Jefferson",
+        "attr": "AGI",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Justin Jefferson",
+        "attr": "COD",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Justin Jefferson",
+        "attr": "AWR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Justin Jefferson",
+        "attr": "SPC",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Justin Jefferson",
+        "attr": "DRR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Justin Jefferson",
+        "attr": "RLS",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Justin Jefferson",
+        "attr": "JMP",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Chris Olave",
+        "attr": "SPD",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Chris Olave",
+        "attr": "ACC",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Chris Olave",
+        "attr": "DRR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Christian Watson",
+        "attr": "SPD",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Christian Watson",
+        "attr": "ACC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Christian Watson",
+        "attr": "DRR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Christian Watson",
+        "attr": "JMP",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "George Pickens",
+        "attr": "SPC",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "George Pickens",
+        "attr": "JMP",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Malik Nabers",
+        "attr": "SPD",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Malik Nabers",
+        "attr": "ACC",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Malik Nabers",
+        "attr": "AGI",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Malik Nabers",
+        "attr": "COD",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Nico Collins",
+        "attr": "SPD",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Nico Collins",
+        "attr": "DRR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Mike Evans",
+        "attr": "AWR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Mike Evans",
+        "attr": "CIT",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Mike Evans",
+        "attr": "SPC",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Mike Evans",
+        "attr": "JMP",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Mike Evans",
+        "attr": "CAR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Mike Evans",
+        "attr": "TGH",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "DeVonta Smith",
+        "attr": "AGI",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "DeVonta Smith",
+        "attr": "COD",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "DeVonta Smith",
+        "attr": "CTH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "DeVonta Smith",
+        "attr": "SRR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "DeVonta Smith",
+        "attr": "RLS",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      }
+    ],
+    "count_90_plus": 95,
+    "count_95_plus": 11,
+    "count_97_plus": 2,
+    "count_99": 0,
+    "traits_95_plus": [
+      "Jaxon Smith-Njigba ACC 95 (LEAGUE_DEFINING)",
+      "Jaxon Smith-Njigba AGI 95 (LEAGUE_DEFINING)",
+      "Jaxon Smith-Njigba COD 96 (LEAGUE_DEFINING)",
+      "Jaxon Smith-Njigba AWR 95 (LEAGUE_DEFINING)",
+      "Jaxon Smith-Njigba SRR 97 (EXTRAORDINARY)",
+      "Jaxon Smith-Njigba MRR 97 (EXTRAORDINARY)",
+      "Jaxon Smith-Njigba DRR 95 (LEAGUE_DEFINING)",
+      "Puka Nacua CTH 96 (LEAGUE_DEFINING)",
+      "Puka Nacua MRR 95 (LEAGUE_DEFINING)",
+      "Ja'Marr Chase SPD 95 (LEAGUE_DEFINING)",
+      "Zay Flowers ACC 95 (LEAGUE_DEFINING)"
+    ],
+    "max_trait": "Jaxon Smith-Njigba SRR 97 (EXTRAORDINARY)",
+    "all_90_plus_have_tiered_sourced_evidence": true,
+    "league_defining_basis": {
+      "Jaxon Smith-Njigba": "2026 PFF 93.2 (1st of all WRs), YPRR 3.03, EPA/tgt +.751; 2025 1,793 yds (league lead) and PFF 92.9; 7 of his 95+ traits route/separation/awareness, the defining WR profile of 2025-26",
+      "Puka Nacua": "CTH 96 / MRR 95: 2025 PFF 96.2 (1st), short catch 90% and TPRR .332 (2026), the league's highest target earner per route",
+      "Ja'Marr Chase": "SPD 95: deep EPA/tgt +0.73 (2026), 2025 1,412 yds on 185 targets; long-speed reference among WRs",
+      "Zay Flowers": "ACC 95: YPRR 3.00 and deep EPA/tgt +1.56 in 2026, YAC/rec 7.8; burst is his defining trait"
+    },
+    "overall_90_plus": [
+      "Jaxon Smith-Njigba 95",
+      "Puka Nacua 93",
+      "Ja'Marr Chase 90"
+    ],
+    "overall_spread": "95 to 77 across 17 rated WRs (top 10: 95 to 83)",
+    "style_rule": {
+      "pairs_checked": 136,
+      "too_similar": 0,
+      "highest_corr": [
+        "Tee Higgins",
+        "Drake London",
+        0.919,
+        3.6,
+        false
+      ],
+      "lowest_mad": [
+        "Ja'Marr Chase",
+        "CeeDee Lamb",
+        0.687,
+        3.3,
+        false
+      ]
+    },
+    "effective_ratings": {
+      "Jaxon Smith-Njigba": [
+        "WR_REAUDIT_RATE_01_A2",
+        95
+      ],
+      "Puka Nacua": [
+        "WR_REAUDIT_RATE_02_A2",
+        93
+      ],
+      "Ja'Marr Chase": [
+        "WR_REAUDIT_RATE_03_A2",
+        90
+      ],
+      "CeeDee Lamb": [
+        "WR_REAUDIT_RATE_05_A3",
+        88
+      ],
+      "Tee Higgins": [
+        "WR_REAUDIT_RATE_04_A2",
+        87
+      ],
+      "Drake London": [
+        "WR_REAUDIT_RATE_06_A2",
+        86
+      ],
+      "Zay Flowers": [
+        "WR_REAUDIT_RATE_08_A3",
+        85
+      ],
+      "Amon-Ra St. Brown": [
+        "WR_REAUDIT_RATE_07_A1",
+        84
+      ],
+      "Justin Jefferson": [
+        "WR_REAUDIT_RATE_12_A2",
+        84
+      ],
+      "Chris Olave": [
+        "WR_REAUDIT_RATE_09_A2",
+        83
+      ],
+      "Christian Watson": [
+        "WR_REAUDIT_RATE_16_A1",
+        82
+      ],
+      "Parker Washington": [
+        "WR_REAUDIT_RATE_17_A1",
+        82
+      ],
+      "George Pickens": [
+        "WR_REAUDIT_RATE_10_A1",
+        81
+      ],
+      "Malik Nabers": [
+        "WR_REAUDIT_RATE_14_A1",
+        80
+      ],
+      "Nico Collins": [
+        "WR_REAUDIT_RATE_11_A2",
+        79
+      ],
+      "Mike Evans": [
+        "WR_REAUDIT_RATE_15_A2",
+        78
+      ],
+      "DeVonta Smith": [
+        "WR_REAUDIT_RATE_13_A2",
+        77
+      ]
+    },
+    "note_for_commissioner": "Re-run after the t56s532 cards (Justin Jefferson). PASS (superseding run R2, t56s532): 95 traits at 90+ all tiered and sourced; 11 at 95+ (Jaxon Smith-Njigba ACC 95 (LEAGUE_DEFINING), Jaxon Smith-Njigba AGI 95 (LEAGUE_DEFINING), Jaxon Smith-Njigba COD 96 (LEAGUE_DEFINING), Jaxon Smith-Njigba AWR 95 (LEAGUE_DEFINING), Jaxon Smith-Njigba SRR 97 (EXTRAORDINARY), Jaxon Smith-Njigba MRR 97 (EXTRAORDINARY), Jaxon Smith-Njigba DRR 95 (LEAGUE_DEFINING), Puka Nacua CTH 96 (LEAGUE_DEFINING), Puka Nacua MRR 95 (LEAGUE_DEFINING), Ja'Marr Chase SPD 95 (LEAGUE_DEFINING), Zay Flowers ACC 95 (LEAGUE_DEFINING)); overalls 90+: Jaxon Smith-Njigba 95, Puka Nacua 93, Ja'Marr Chase 90; style rule 136 pairs, 0 too similar.",
+    "result": "PASS (superseding run R2, t56s532): 95 traits at 90+ all tiered and sourced; 11 at 95+ (Jaxon Smith-Njigba ACC 95 (LEAGUE_DEFINING), Jaxon Smith-Njigba AGI 95 (LEAGUE_DEFINING), Jaxon Smith-Njigba COD 96 (LEAGUE_DEFINING), Jaxon Smith-Njigba AWR 95 (LEAGUE_DEFINING), Jaxon Smith-Njigba SRR 97 (EXTRAORDINARY), Jaxon Smith-Njigba MRR 97 (EXTRAORDINARY), Jaxon Smith-Njigba DRR 95 (LEAGUE_DEFINING), Puka Nacua CTH 96 (LEAGUE_DEFINING), Puka Nacua MRR 95 (LEAGUE_DEFINING), Ja'Marr Chase SPD 95 (LEAGUE_DEFINING), Zay Flowers ACC 95 (LEAGUE_DEFINING)); overalls 90+: Jaxon Smith-Njigba 95, Puka Nacua 93, Ja'Marr Chase 90; style rule 136 pairs, 0 too similar."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "authorized_by": "t56s532",
+  "supersedes_run_record": "WR_REAUDIT_SCARCITY_A1"
+}
+```
