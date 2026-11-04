@@ -1,0 +1,40 @@
+# P_REAUDIT_TIEBREAK_02 — Logan Cooke vs Tress Way (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "P_REAUDIT_TIEBREAK_02_A1",
+  "task_id": "P_REAUDIT_TIEBREAK_02",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "P",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Logan Cooke",
+    "Tress Way"
+  ],
+  "pair_result": {
+    "winner": "Logan Cooke",
+    "loser": "Tress Way",
+    "provisional_order_holds": true,
+    "reasoning": "Logan Cooke's positive EPA in both seasons (+4.0/+3.4) and steadier PFF (70.3/66.3 vs 44.0/48.2) edge Tress Way, whose 2026 inside-20 rate fell to 32.3% with -1.0 EPA. Nets are close (43.0/42.9 vs 43.9/43.1).",
+    "key_evidence_for_winner": [
+      "Logan Cooke (JAX) role punter (punt attempts in nflverse pbp); roster position P; roster ACT (P); injuries no injury designation 2025-26",
+      "Logan Cooke 2026: PFF P 2026 overall 66.3 (P rank 26); 2026 7 games punting; 0 accepted penalties; 2026 25 punts, gross 47.8, net 42.9, inside-20 10 (40.0%), 1 TB, 6 fair catches, 13 returned for 104 yds, 0 blocked, long 60; punt EPA +3.4 (+0.137/punt)",
+      "Logan Cooke 2025: PFF P 2025 overall 70.3 (P rank 17); 2025 16 games punting; 0 accepted penalties; 2025 60 punts, gross 48.0, net 43.0, inside-20 22 (36.7%), 6 TB, 9 fair catches, 27 returned for 178 yds, 0 blocked, long 66; punt EPA +4.0 (+0.066/punt)"
+    ],
+    "key_evidence_for_loser": [
+      "Tress Way (WAS) role punter (punt attempts in nflverse pbp); roster position P; roster ACT (P); injuries wk2 Questionable (Back)",
+      "Tress Way 2026: PFF P 2026 overall 48.2 (P rank 33); 2026 7 games punting; 0 accepted penalties; 2026 31 punts, gross 49.0, net 43.1, inside-20 10 (32.3%), 2 TB, 12 fair catches, 14 returned for 141 yds, 0 blocked, long 60; punt EPA -1.0 (-0.034/punt)",
+      "Tress Way 2025: PFF P 2025 overall 44 (P rank 32); 2025 17 games punting; 0 accepted penalties; 2025 56 punts, gross 47.3, net 43.9, inside-20 29 (51.8%), 4 TB, 18 fair catches, 25 returned for 114 yds, 0 blocked, long 71; punt EPA +6.1 (+0.109/punt)"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
