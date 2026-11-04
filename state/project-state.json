@@ -5066,7 +5066,7 @@
         "position": "LG",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "IN_PROGRESS",
       "pool_file": "data/candidate-pools/LG.reaudit.json",
       "baseline_file": null,
@@ -5086,7 +5086,8 @@
         "LG_REAUDIT_BG_07",
         "LG_REAUDIT_BG_08",
         "LG_REAUDIT_BG_09",
-        "LG_REAUDIT_BG_10"
+        "LG_REAUDIT_BG_10",
+        "LG_REAUDIT_BG_11"
       ],
       "audit_ids": [
         "LG_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -5104,18 +5105,14 @@
       ],
       "current_stage": "background_analysis",
       "current_task": "LG_REAUDIT_BG_11",
-      "updated_at": "2026-11-04T03:17:40.117Z",
+      "updated_at": "2026-11-04T03:17:40.408Z",
       "last_result": {
         "task_id": "LG_REAUDIT_BG_11",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LG_REAUDIT_BG_11",
-        "audit_id": "LG_REAUDIT_BG_11_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -5203,6 +5200,14 @@
           "audit_id": "LG_REAUDIT_BG_10_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:17:39Z",
+          "note": "Standing commissioner approval t46u/t50s441 (run dossiers and ratings automatically)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LG_REAUDIT_BG_11",
+          "audit_id": "LG_REAUDIT_BG_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:17:40Z",
           "note": "Standing commissioner approval t46u/t50s441 (run dossiers and ratings automatically)"
         }
       ]
