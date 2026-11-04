@@ -11290,7 +11290,7 @@
         "position": "CB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/CB.reaudit.json",
       "baseline_file": null,
@@ -11300,7 +11300,8 @@
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T12:08:03.432Z",
       "completed_tasks": [
-        "CB_REAUDIT_CANDIDATE_AUDIT"
+        "CB_REAUDIT_CANDIDATE_AUDIT",
+        "CB_REAUDIT_BG_01"
       ],
       "audit_ids": [
         "CB_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -11308,18 +11309,14 @@
       ],
       "current_stage": "background_analysis",
       "current_task": "CB_REAUDIT_BG_01",
-      "updated_at": "2026-11-04T12:08:09.240Z",
+      "updated_at": "2026-11-04T12:08:09.502Z",
       "last_result": {
         "task_id": "CB_REAUDIT_BG_01",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "CB_REAUDIT_BG_01",
-        "audit_id": "CB_REAUDIT_BG_01_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -11328,6 +11325,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T12:08:08Z",
           "note": "Standing commissioner approval t46u"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_01",
+          "audit_id": "CB_REAUDIT_BG_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:08:09Z",
+          "note": "Standing commissioner approval t46u (run dossiers and ratings automatically)"
         }
       ]
     }
