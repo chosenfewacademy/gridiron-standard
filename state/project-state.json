@@ -8694,7 +8694,7 @@
         "position": "DT",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/DT.reaudit.json",
       "baseline_file": null,
@@ -8745,18 +8745,23 @@
         "DT_REAUDIT_RATE_03_A1",
         "DT_REAUDIT_RATE_04_A1",
         "DT_REAUDIT_RATE_05_A1",
-        "DT_REAUDIT_RATE_06_A1"
+        "DT_REAUDIT_RATE_06_A1",
+        "DT_REAUDIT_RATE_07_A1"
       ],
       "current_stage": "player_rating",
-      "current_task": "DT_REAUDIT_RATE_06",
-      "updated_at": "2026-11-04T11:22:01.398Z",
+      "current_task": "DT_REAUDIT_RATE_07",
+      "updated_at": "2026-11-04T11:22:02.216Z",
       "last_result": {
-        "task_id": "DT_REAUDIT_RATE_06",
+        "task_id": "DT_REAUDIT_RATE_07",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "DT_REAUDIT_RATE_07",
+        "audit_id": "DT_REAUDIT_RATE_07_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
