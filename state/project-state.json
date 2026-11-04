@@ -17083,7 +17083,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T14:17:31Z",
-      "updated_at": "2026-11-04T14:17:31Z",
+      "updated_at": "2026-11-04T14:17:32.241Z",
       "audit_ids": [
         "TE_REAUDIT_CANDIDATE_AUDIT_A1",
         "TE_REAUDIT_BG_01_A1",
@@ -17192,7 +17192,8 @@
         "TE_REAUDIT_RATE_14_A3",
         "TE_REAUDIT_RATE_12_A3",
         "TE_REAUDIT_RATE_15_A3",
-        "TE_REAUDIT_RATE_16_A3"
+        "TE_REAUDIT_RATE_16_A3",
+        "TE_REAUDIT_RATE_08_A3"
       ],
       "completed_tasks": [
         "TE_REAUDIT_CANDIDATE_AUDIT",
@@ -18708,21 +18709,26 @@
             "approved_by": "PhiXCrypto",
             "approved_at": "2026-11-04T01:26:19Z"
           }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_08",
+          "audit_id": "TE_REAUDIT_RATE_08_A3",
+          "supersedes": "TE_REAUDIT_RATE_08_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:17:31Z",
+          "note": "User-approved card t56s532: Travis Kelce INJ 82->90, STA 78->84, OVR 81->82 (stays #8 behind Darnell Washington per the approved H2H_04). STA reason fixed: the earlier 80->78 cut was a tiebreak lever, not a u"
         }
       ],
       "current_stage": "carry_forward",
       "current_task": null,
       "awaiting": null,
       "last_result": {
-        "status": "CARRIED_FORWARD",
-        "carried_from": "TE_REAUDIT_LOCK_20261104",
-        "carried": 108,
-        "rerun": [
-          "TE_REAUDIT_VARIANCE_AUDIT",
-          "TE_REAUDIT_SCARCITY",
-          "TE_REAUDIT_CROSS_AUDIT",
-          "TE_REAUDIT_LOCK"
-        ]
+        "task_id": "TE_REAUDIT_RATE_08",
+        "status": "REVISION_APPROVED",
+        "audit_id": "TE_REAUDIT_RATE_08_A3",
+        "supersedes": "TE_REAUDIT_RATE_08_A2",
+        "flags": []
       }
     }
   ]
