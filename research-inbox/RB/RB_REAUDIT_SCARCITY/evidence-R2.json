@@ -1,0 +1,1403 @@
+{
+  "task_id": "RB_REAUDIT_SCARCITY",
+  "position": "RB",
+  "researched_at": "2026-11-04T14:12:21Z",
+  "sources": [
+    {
+      "name": "NFL.com 2026 week 9 schedule",
+      "url": "https://www.nfl.com/schedules/2026/reg9/",
+      "retrieved_at": "2026-11-04T14:12:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "p26",
+      "url": "https://www.pff.com/grades/nfl/hb/2026",
+      "retrieved_at": "2026-11-04T14:12:21Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "p25",
+      "url": "https://www.pff.com/grades/nfl/hb/2025",
+      "retrieved_at": "2026-11-04T14:12:21Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "pbp",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+      "retrieved_at": "2026-11-04T14:12:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "pbp25",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+      "retrieved_at": "2026-11-04T14:12:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "ngs",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+      "retrieved_at": "2026-11-04T14:12:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "ros",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "retrieved_at": "2026-11-04T14:12:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "ach",
+      "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-28/devon-achane-suffered-torn-acl-in-loss-to-chiefs",
+      "retrieved_at": "2026-11-04T14:12:21Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "jac",
+      "url": "https://www.nfl.com/news/packers-activate-rb-josh-jacobs-from-exempt-list-ahead-of-sunday-s-game-vs-lions",
+      "retrieved_at": "2026-11-04T14:12:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "cha",
+      "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-02/charbonnet-price-officially-active-for-week-8",
+      "retrieved_at": "2026-11-04T14:12:21Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "inj",
+      "url": "http://www.espn.com/nfl/injuries",
+      "retrieved_at": "2026-11-04T14:12:21Z",
+      "published_at": null,
+      "authority_tier": 2,
+      "claims": [
+        "see normalized items"
+      ]
+    },
+    {
+      "name": "sn",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-04T14:12:21Z",
+      "published_at": null,
+      "authority_tier": 1,
+      "claims": [
+        "see normalized items"
+      ]
+    }
+  ],
+  "normalized": {
+    "performance_summary": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF HB overall (wk1-8): Bhayshul Tuten 91.9, Kenneth Walker III 91.0, Jahmyr Gibbs 89.9, Jaylen Warren 87.3, Bijan Robinson 86.4, Tony Pollard 85.6, Chuba Hubbard 84.1, Braelon Allen 82.4, Kyren Williams 81.0, Blake Corum 80.7, Sione Vaki 78.4, Emmett Johnson 77.8, Chris Rodriguez Jr. 77.7, Rhamondre Stevenson 77.4, Derrick Henry 74.8, Brian Robinson 74.6, Kyle Monangai 74.6, Bucky Irving 73.4, Christian McCaffrey 73.0, Kenneth Gainwell 71.8, Saquon Barkley 71.6, Samaje Perine 71.1, Javonte Williams 70.6, Ollie Gordon II 70.6",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Bijan Robinson (ATL) 2026: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 189 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jahmyr Gibbs (DET) 2026: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 276 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kenneth Walker III (KC) 2026: 141 car 770 yds 5.46 ypc 6 TD, EPA/rush +0.075, success 45%, 10+ run rate 14%, RYOE/att 1.83610818622167, fumbles lost 0, 33 tgt 131 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaylen Warren (PIT) 2026: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 294 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Bhayshul Tuten (JAX) 2026: 110 car 492 yds 4.47 ypc 3 TD, EPA/rush -0.003, success 42%, 10+ run rate 11%, RYOE/att 0.14915434335394, fumbles lost 0, 16 tgt 181 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "James Cook (BUF) 2026: 138 car 707 yds 5.12 ypc 7 TD, EPA/rush +0.054, success 51%, 10+ run rate 17%, RYOE/att 0.777245610294994, fumbles lost 2, 17 tgt 110 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Derrick Henry (BAL) 2026: 159 car 634 yds 3.99 ypc 8 TD, EPA/rush -0.113, success 39%, 10+ run rate 9%, RYOE/att 0.113544344600919, fumbles lost 1, 14 tgt 75 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jonathan Taylor (IND) 2026: 148 car 610 yds 4.12 ypc 8 TD, EPA/rush -0.059, success 40%, 10+ run rate 12%, RYOE/att 0.0186975241390724, fumbles lost 2, 31 tgt 202 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Christian McCaffrey (SF) 2026: 84 car 389 yds 4.63 ypc 8 TD, EPA/rush +0.144, success 54%, 10+ run rate 13%, RYOE/att 0.363628911385265, fumbles lost 0, 42 tgt 251 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 548 yds 4.89 ypc 6 TD, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.525853288570479, fumbles lost 2, 42 tgt 242 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 68 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Tony Pollard (TEN) 2026: 133 car 595 yds 4.47 ypc 6 TD, EPA/rush -0.062, success 41%, 10+ run rate 10%, RYOE/att 0.610102575733367, fumbles lost 0, 21 tgt 70 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Chuba Hubbard (CAR) 2026: 119 car 540 yds 4.54 ypc 5 TD, EPA/rush +0.058, success 46%, 10+ run rate 11%, RYOE/att 0.759220894945315, fumbles lost 0, 26 tgt 150 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Braelon Allen (NYJ) 2026: 112 car 565 yds 5.04 ypc 3 TD, EPA/rush +0.007, success 44%, 10+ run rate 17%, RYOE/att 1.2164295737576, fumbles lost 0, 22 tgt 81 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "postseason_context": {
+      "status": "not_applicable",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 postseason has not started (week 9 in progress)",
+          "source_url": "https://www.nfl.com/schedules/2026/reg9/",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "CURRENT_CONTEXT"
+        }
+      ],
+      "limitations": [],
+      "not_applicable_reason": "Current season postseason not yet played."
+    },
+    "multi_year_trend": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams (LA) 2025: 259 car 4.83 ypc, EPA/rush +0.019, success 50%, 10+ run rate 10%, RYOE/att 0.55, stuff 12.4%, short-yd 17/30, fumbles lost 2, 281 rec yds (rec EPA +8.5), YAC/rec 4.31",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2025: 234 car 3.97 ypc, EPA/rush -0.063, success 44%, 10+ run rate 10%, RYOE/att -0.03, stuff 17.9%, short-yd 14/26, fumbles lost 2, 282 rec yds (rec EPA +11.8), YAC/rec 8.44",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF HB overall (wk1-8): Bhayshul Tuten 91.9, Kenneth Walker III 91.0, Jahmyr Gibbs 89.9, Jaylen Warren 87.3, Bijan Robinson 86.4, Tony Pollard 85.6, Chuba Hubbard 84.1, Braelon Allen 82.4, Kyren Williams 81.0, Blake Corum 80.7, Sione Vaki 78.4, Emmett Johnson 77.8, Chris Rodriguez Jr. 77.7, Rhamondre Stevenson 77.4, Derrick Henry 74.8, Brian Robinson 74.6, Kyle Monangai 74.6, Bucky Irving 73.4, Christian McCaffrey 73.0, Kenneth Gainwell 71.8, Saquon Barkley 71.6, Samaje Perine 71.1, Javonte Williams 70.6, Ollie Gordon II 70.6",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2025 PFF HB overall: Kenneth Walker III 91.4, De'Von Achane 88.9, Bijan Robinson 86.7, Josh Jacobs 85.8, Jahmyr Gibbs 85.6, Kyren Williams 85.2, Zach Charbonnet 85.1, Breece Hall 83.5, D'Andre Swift 83.0, Jaylen Warren 81.0, Rachaad White 80.9, Cam Skattebo 80.5, Derrick Henry 80.4, James Cook 80.4, Blake Corum 78.5, Jonathan Taylor 78.1, Rhamondre Stevenson 77.5, Omarion Hampton 77.3, Christian McCaffrey 77.2, J.K. Dobbins 76.8",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2025",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Bijan Robinson (ATL) 2025: 288 car 1480 yds 5.14 ypc 7 TD, EPA/rush -0.043, success 41%, 10+ run rate 12%, RYOE/att 0.879670845539487, fumbles lost 2, 103 tgt 820 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jahmyr Gibbs (DET) 2025: 243 car 1223 yds 5.03 ypc 13 TD, EPA/rush -0.011, success 40%, 10+ run rate 11%, RYOE/att 0.701787767836512, fumbles lost 1, 94 tgt 613 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kenneth Walker III (KC) 2025: 221 car 1027 yds 4.65 ypc 5 TD, EPA/rush -0.065, success 38%, 10+ run rate 15%, RYOE/att 0.250191930866234, fumbles lost 0, 36 tgt 282 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaylen Warren (PIT) 2025: 211 car 958 yds 4.54 ypc 6 TD, EPA/rush -0.002, success 43%, 10+ run rate 11%, RYOE/att 0.800823869744857, fumbles lost 0, 45 tgt 333 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Bhayshul Tuten (JAX) 2025: 84 car 307 yds 3.65 ypc 5 TD, EPA/rush -0.121, success 46%, 10+ run rate 6%, RYOE/att None, fumbles lost 1, 14 tgt 79 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "James Cook (BUF) 2025: 309 car 1621 yds 5.25 ypc 12 TD, EPA/rush +0.018, success 46%, 10+ run rate 13%, RYOE/att 1.13499448918256, fumbles lost 3, 40 tgt 291 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Derrick Henry (BAL) 2025: 307 car 1595 yds 5.2 ypc 16 TD, EPA/rush +0.030, success 42%, 10+ run rate 12%, RYOE/att 1.05118757261297, fumbles lost 3, 21 tgt 150 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jonathan Taylor (IND) 2025: 324 car 1587 yds 4.9 ypc 18 TD, EPA/rush +0.058, success 44%, 10+ run rate 11%, RYOE/att 0.597979944784815, fumbles lost 1, 56 tgt 378 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Christian McCaffrey (SF) 2025: 311 car 1202 yds 3.86 ypc 10 TD, EPA/rush -0.068, success 39%, 10+ run rate 9%, RYOE/att -0.54120338670271, fumbles lost 0, 129 tgt 904 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2025: 259 car 1252 yds 4.83 ypc 10 TD, EPA/rush +0.019, success 50%, 10+ run rate 10%, RYOE/att 0.55189016145212, fumbles lost 2, 50 tgt 281 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2025: 234 car 929 yds 3.97 ypc 13 TD, EPA/rush -0.063, success 44%, 10+ run rate 10%, RYOE/att -0.0274118869332625, fumbles lost 2, 44 tgt 282 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Tony Pollard (TEN) 2025: 242 car 1082 yds 4.47 ypc 5 TD, EPA/rush -0.090, success 39%, 10+ run rate 11%, RYOE/att 0.488804396577282, fumbles lost 2, 41 tgt 206 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Chuba Hubbard (CAR) 2025: 135 car 511 yds 3.79 ypc 1 TD, EPA/rush -0.116, success 41%, 10+ run rate 6%, RYOE/att -0.219934038203447, fumbles lost 1, 39 tgt 223 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Braelon Allen 2025: no qualifying carries",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2025,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "current_role": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF HB overall (wk1-8): Bhayshul Tuten 91.9, Kenneth Walker III 91.0, Jahmyr Gibbs 89.9, Jaylen Warren 87.3, Bijan Robinson 86.4, Tony Pollard 85.6, Chuba Hubbard 84.1, Braelon Allen 82.4, Kyren Williams 81.0, Blake Corum 80.7, Sione Vaki 78.4, Emmett Johnson 77.8, Chris Rodriguez Jr. 77.7, Rhamondre Stevenson 77.4, Derrick Henry 74.8, Brian Robinson 74.6, Kyle Monangai 74.6, Bucky Irving 73.4, Christian McCaffrey 73.0, Kenneth Gainwell 71.8, Saquon Barkley 71.6, Samaje Perine 71.1, Javonte Williams 70.6, Ollie Gordon II 70.6",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Bijan Robinson (ATL) 2026: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 189 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jahmyr Gibbs (DET) 2026: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 276 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kenneth Walker III (KC) 2026: 141 car 770 yds 5.46 ypc 6 TD, EPA/rush +0.075, success 45%, 10+ run rate 14%, RYOE/att 1.83610818622167, fumbles lost 0, 33 tgt 131 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaylen Warren (PIT) 2026: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 294 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "roster_depth_chart": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF HB overall (wk1-8): Bhayshul Tuten 91.9, Kenneth Walker III 91.0, Jahmyr Gibbs 89.9, Jaylen Warren 87.3, Bijan Robinson 86.4, Tony Pollard 85.6, Chuba Hubbard 84.1, Braelon Allen 82.4, Kyren Williams 81.0, Blake Corum 80.7, Sione Vaki 78.4, Emmett Johnson 77.8, Chris Rodriguez Jr. 77.7, Rhamondre Stevenson 77.4, Derrick Henry 74.8, Brian Robinson 74.6, Kyle Monangai 74.6, Bucky Irving 73.4, Christian McCaffrey 73.0, Kenneth Gainwell 71.8, Saquon Barkley 71.6, Samaje Perine 71.1, Javonte Williams 70.6, Ollie Gordon II 70.6",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Bijan Robinson (ATL) 2026: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 189 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jahmyr Gibbs (DET) 2026: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 276 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kenneth Walker III (KC) 2026: 141 car 770 yds 5.46 ypc 6 TD, EPA/rush +0.075, success 45%, 10+ run rate 14%, RYOE/att 1.83610818622167, fumbles lost 0, 33 tgt 131 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaylen Warren (PIT) 2026: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 294 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "injury_practice_status": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "De'Von Achane: torn ACL Week 3, IR, out for 2026 season",
+          "source_url": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-28/devon-achane-suffered-torn-acl-in-loss-to-chiefs",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs: Commissioner's Exempt List weeks 1-6, activated Oct 24 (32 carries 2026)",
+          "source_url": "https://www.nfl.com/news/packers-activate-rb-josh-jacobs-from-exempt-list-ahead-of-sunday-s-game-vs-lions",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Zach Charbonnet: ACL late 2025, season debut Week 8 (no 2026 sample)",
+          "source_url": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-02/charbonnet-price-officially-active-for-week-8",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "age_career_trajectory": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF HB overall (wk1-8): Bhayshul Tuten 91.9, Kenneth Walker III 91.0, Jahmyr Gibbs 89.9, Jaylen Warren 87.3, Bijan Robinson 86.4, Tony Pollard 85.6, Chuba Hubbard 84.1, Braelon Allen 82.4, Kyren Williams 81.0, Blake Corum 80.7, Sione Vaki 78.4, Emmett Johnson 77.8, Chris Rodriguez Jr. 77.7, Rhamondre Stevenson 77.4, Derrick Henry 74.8, Brian Robinson 74.6, Kyle Monangai 74.6, Bucky Irving 73.4, Christian McCaffrey 73.0, Kenneth Gainwell 71.8, Saquon Barkley 71.6, Samaje Perine 71.1, Javonte Williams 70.6, Ollie Gordon II 70.6",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Bijan Robinson (ATL) 2026: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 189 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jahmyr Gibbs (DET) 2026: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 276 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kenneth Walker III (KC) 2026: 141 car 770 yds 5.46 ypc 6 TD, EPA/rush +0.075, success 45%, 10+ run rate 14%, RYOE/att 1.83610818622167, fumbles lost 0, 33 tgt 131 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaylen Warren (PIT) 2026: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 294 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "team_system_context": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF HB overall (wk1-8): Bhayshul Tuten 91.9, Kenneth Walker III 91.0, Jahmyr Gibbs 89.9, Jaylen Warren 87.3, Bijan Robinson 86.4, Tony Pollard 85.6, Chuba Hubbard 84.1, Braelon Allen 82.4, Kyren Williams 81.0, Blake Corum 80.7, Sione Vaki 78.4, Emmett Johnson 77.8, Chris Rodriguez Jr. 77.7, Rhamondre Stevenson 77.4, Derrick Henry 74.8, Brian Robinson 74.6, Kyle Monangai 74.6, Bucky Irving 73.4, Christian McCaffrey 73.0, Kenneth Gainwell 71.8, Saquon Barkley 71.6, Samaje Perine 71.1, Javonte Williams 70.6, Ollie Gordon II 70.6",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Bijan Robinson (ATL) 2026: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 189 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jahmyr Gibbs (DET) 2026: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 276 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kenneth Walker III (KC) 2026: 141 car 770 yds 5.46 ypc 6 TD, EPA/rush +0.075, success 45%, 10+ run rate 14%, RYOE/att 1.83610818622167, fumbles lost 0, 33 tgt 131 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaylen Warren (PIT) 2026: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 294 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "preseason_participation": {
+      "status": "not_applicable",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF HB overall (wk1-8): Bhayshul Tuten 91.9, Kenneth Walker III 91.0, Jahmyr Gibbs 89.9, Jaylen Warren 87.3, Bijan Robinson 86.4, Tony Pollard 85.6, Chuba Hubbard 84.1, Braelon Allen 82.4, Kyren Williams 81.0, Blake Corum 80.7, Sione Vaki 78.4, Emmett Johnson 77.8, Chris Rodriguez Jr. 77.7, Rhamondre Stevenson 77.4, Derrick Henry 74.8, Brian Robinson 74.6, Kyle Monangai 74.6, Bucky Irving 73.4, Christian McCaffrey 73.0, Kenneth Gainwell 71.8, Saquon Barkley 71.6, Samaje Perine 71.1, Javonte Williams 70.6, Ollie Gordon II 70.6",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Bijan Robinson (ATL) 2026: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 189 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jahmyr Gibbs (DET) 2026: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 276 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kenneth Walker III (KC) 2026: 141 car 770 yds 5.46 ypc 6 TD, EPA/rush +0.075, success 45%, 10+ run rate 14%, RYOE/att 1.83610818622167, fumbles lost 0, 33 tgt 131 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaylen Warren (PIT) 2026: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 294 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [],
+      "not_applicable_reason": "Regular season established."
+    },
+    "current_season_performance": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF HB overall (wk1-8): Bhayshul Tuten 91.9, Kenneth Walker III 91.0, Jahmyr Gibbs 89.9, Jaylen Warren 87.3, Bijan Robinson 86.4, Tony Pollard 85.6, Chuba Hubbard 84.1, Braelon Allen 82.4, Kyren Williams 81.0, Blake Corum 80.7, Sione Vaki 78.4, Emmett Johnson 77.8, Chris Rodriguez Jr. 77.7, Rhamondre Stevenson 77.4, Derrick Henry 74.8, Brian Robinson 74.6, Kyle Monangai 74.6, Bucky Irving 73.4, Christian McCaffrey 73.0, Kenneth Gainwell 71.8, Saquon Barkley 71.6, Samaje Perine 71.1, Javonte Williams 70.6, Ollie Gordon II 70.6",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Bijan Robinson (ATL) 2026: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 189 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jahmyr Gibbs (DET) 2026: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 276 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kenneth Walker III (KC) 2026: 141 car 770 yds 5.46 ypc 6 TD, EPA/rush +0.075, success 45%, 10+ run rate 14%, RYOE/att 1.83610818622167, fumbles lost 0, 33 tgt 131 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaylen Warren (PIT) 2026: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 294 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "durability_availability": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "De'Von Achane: torn ACL Week 3, IR, out for 2026 season",
+          "source_url": "https://www.nbcsports.com/fantasy/football/player-news/2026-09-28/devon-achane-suffered-torn-acl-in-loss-to-chiefs",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs: Commissioner's Exempt List weeks 1-6, activated Oct 24 (32 carries 2026)",
+          "source_url": "https://www.nfl.com/news/packers-activate-rb-josh-jacobs-from-exempt-list-ahead-of-sunday-s-game-vs-lions",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Zach Charbonnet: ACL late 2025, season debut Week 8 (no 2026 sample)",
+          "source_url": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-02/charbonnet-price-officially-active-for-week-8",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "recent_performance_trend": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF HB overall (wk1-8): Bhayshul Tuten 91.9, Kenneth Walker III 91.0, Jahmyr Gibbs 89.9, Jaylen Warren 87.3, Bijan Robinson 86.4, Tony Pollard 85.6, Chuba Hubbard 84.1, Braelon Allen 82.4, Kyren Williams 81.0, Blake Corum 80.7, Sione Vaki 78.4, Emmett Johnson 77.8, Chris Rodriguez Jr. 77.7, Rhamondre Stevenson 77.4, Derrick Henry 74.8, Brian Robinson 74.6, Kyle Monangai 74.6, Bucky Irving 73.4, Christian McCaffrey 73.0, Kenneth Gainwell 71.8, Saquon Barkley 71.6, Samaje Perine 71.1, Javonte Williams 70.6, Ollie Gordon II 70.6",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Bijan Robinson (ATL) 2026: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 189 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jahmyr Gibbs (DET) 2026: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 276 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kenneth Walker III (KC) 2026: 141 car 770 yds 5.46 ypc 6 TD, EPA/rush +0.075, success 45%, 10+ run rate 14%, RYOE/att 1.83610818622167, fumbles lost 0, 33 tgt 131 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaylen Warren (PIT) 2026: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 294 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    },
+    "locked_control_comparisons": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Locked RB top 10 (data/baselines/RB.json): Bijan Robinson, Jahmyr Gibbs, De'Von Achane, Kenneth Walker III, Derrick Henry, Christian McCaffrey, James Cook, Jonathan Taylor, Josh Jacobs, Kyren Williams; 2026 PFF: Bijan Robinson 86.4, Jahmyr Gibbs 89.9, De'Von Achane None, Kenneth Walker III 91.0, Derrick Henry 74.8, Christian McCaffrey 73.0, James Cook 64.8, Jonathan Taylor 62.8, Josh Jacobs None, Kyren Williams 81.0",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Bijan Robinson (ATL) 2026: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 189 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jahmyr Gibbs (DET) 2026: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 276 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "De'Von Achane (MIA) 2026: 34 car 127 yds 3.74 ypc 0 TD, EPA/rush -0.171, success 35%, 10+ run rate 9%, RYOE/att None, fumbles lost 0, 12 tgt 49 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kenneth Walker III (KC) 2026: 141 car 770 yds 5.46 ypc 6 TD, EPA/rush +0.075, success 45%, 10+ run rate 14%, RYOE/att 1.83610818622167, fumbles lost 0, 33 tgt 131 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Derrick Henry (BAL) 2026: 159 car 634 yds 3.99 ypc 8 TD, EPA/rush -0.113, success 39%, 10+ run rate 9%, RYOE/att 0.113544344600919, fumbles lost 1, 14 tgt 75 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Christian McCaffrey (SF) 2026: 84 car 389 yds 4.63 ypc 8 TD, EPA/rush +0.144, success 54%, 10+ run rate 13%, RYOE/att 0.363628911385265, fumbles lost 0, 42 tgt 251 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "James Cook (BUF) 2026: 138 car 707 yds 5.12 ypc 7 TD, EPA/rush +0.054, success 51%, 10+ run rate 17%, RYOE/att 0.777245610294994, fumbles lost 2, 17 tgt 110 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jonathan Taylor (IND) 2026: 148 car 610 yds 4.12 ypc 8 TD, EPA/rush -0.059, success 40%, 10+ run rate 12%, RYOE/att 0.0186975241390724, fumbles lost 2, 31 tgt 202 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 75 yds 2.34 ypc 1 TD, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, fumbles lost 0, 13 tgt 68 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 548 yds 4.89 ypc 6 TD, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.525853288570479, fumbles lost 2, 42 tgt 242 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [],
+      "compared_controls": [
+        "Bhayshul Tuten",
+        "Bijan Robinson",
+        "Christian McCaffrey",
+        "Chuba Hubbard",
+        "De'Von Achane",
+        "Derrick Henry",
+        "Jahmyr Gibbs",
+        "James Cook",
+        "Jaylen Warren",
+        "Jonathan Taylor",
+        "Josh Jacobs",
+        "Kenneth Walker III",
+        "Kyren Williams"
+      ]
+    },
+    "outside_control_comparisons": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Breece Hall (NYJ) 2026: 51 car 163 yds 3.2 ypc 1 TD, EPA/rush -0.173, success 33%, 10+ run rate 10%, RYOE/att -0.1506336433389, fumbles lost 0, 10 tgt 102 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Saquon Barkley (PHI) 2026: 56 car 274 yds 4.89 ypc 2 TD, EPA/rush +0.018, success 39%, 10+ run rate 11%, RYOE/att 1.00902123586388, fumbles lost 0, 10 tgt 41 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Chase Brown (CIN) 2026: 94 car 340 yds 3.62 ypc 1 TD, EPA/rush -0.166, success 37%, 10+ run rate 7%, RYOE/att -0.399622044473735, fumbles lost 1, 42 tgt 189 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Rhamondre Stevenson (NE) 2026: 96 car 367 yds 3.82 ypc 2 TD, EPA/rush -0.054, success 40%, 10+ run rate 7%, RYOE/att 0.169736378435903, fumbles lost 0, 28 tgt 212 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Breece Hall 2026 PFF 63.9 (2025 83.5); Saquon Barkley 2026 PFF 71.6",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": [],
+      "compared_controls": [
+        "Braelon Allen",
+        "Breece Hall",
+        "Chase Brown",
+        "Chuba Hubbard",
+        "Derrick Henry",
+        "Josh Jacobs",
+        "Saquon Barkley",
+        "Tony Pollard"
+      ]
+    },
+    "position_specific_traits": {
+      "status": "satisfied",
+      "confidence": "MEDIUM",
+      "items": [
+        {
+          "claim": "Kyren Williams PFF HB overall 2026 81.0, 2025 85.2; 2026 PFF snaps {'off': '380', 'run': '116', 'route': '192', 'pblk': '68'}; age 26, 207 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs PFF HB overall 2026 None, 2025 85.8; 2026 PFF snaps {'off': None, 'run': None, 'route': None, 'pblk': None}; age 28, 220 lb",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kyren Williams (LA) 2026: 112 car 4.89 ypc, EPA/rush +0.002, success 42%, 10+ run rate 8%, RYOE/att 0.53, stuff 8.9%, short-yd 10/12, fumbles lost 2, 242 rec yds (rec EPA -1.8), YAC/rec 5.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Josh Jacobs (GB) 2026: 32 car 2.34 ypc, EPA/rush -0.153, success 38%, 10+ run rate 3%, RYOE/att None, stuff 18.8%, short-yd 2/2, fumbles lost 0, 68 rec yds (rec EPA +2.7), YAC/rec 4.09",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "2026 PFF HB overall (wk1-8): Bhayshul Tuten 91.9, Kenneth Walker III 91.0, Jahmyr Gibbs 89.9, Jaylen Warren 87.3, Bijan Robinson 86.4, Tony Pollard 85.6, Chuba Hubbard 84.1, Braelon Allen 82.4, Kyren Williams 81.0, Blake Corum 80.7, Sione Vaki 78.4, Emmett Johnson 77.8, Chris Rodriguez Jr. 77.7, Rhamondre Stevenson 77.4, Derrick Henry 74.8, Brian Robinson 74.6, Kyle Monangai 74.6, Bucky Irving 73.4, Christian McCaffrey 73.0, Kenneth Gainwell 71.8, Saquon Barkley 71.6, Samaje Perine 71.1, Javonte Williams 70.6, Ollie Gordon II 70.6",
+          "source_url": "https://www.pff.com/grades/nfl/hb/2026",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Bijan Robinson (ATL) 2026: 150 car 780 yds 5.2 ypc 4 TD, EPA/rush -0.025, success 45%, 10+ run rate 12%, RYOE/att 1.21282406671969, fumbles lost 0, 33 tgt 189 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jahmyr Gibbs (DET) 2026: 158 car 773 yds 4.89 ypc 8 TD, EPA/rush -0.025, success 49%, 10+ run rate 17%, RYOE/att 0.797281193112224, fumbles lost 1, 44 tgt 276 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Kenneth Walker III (KC) 2026: 141 car 770 yds 5.46 ypc 6 TD, EPA/rush +0.075, success 45%, 10+ run rate 14%, RYOE/att 1.83610818622167, fumbles lost 0, 33 tgt 131 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        },
+        {
+          "claim": "Jaylen Warren (PIT) 2026: 119 car 704 yds 5.92 ypc 2 TD, EPA/rush +0.128, success 48%, 10+ run rate 13%, RYOE/att 1.93427213353781, fumbles lost 0, 37 tgt 294 rec yds",
+          "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+          "retrieved_at": "2026-11-04T14:12:21Z",
+          "season": 2026,
+          "period": "REGULAR_SEASON"
+        }
+      ],
+      "limitations": []
+    }
+  },
+  "conflicts": [],
+  "minimum_evidence_met": false,
+  "missing_evidence": [],
+  "calendar": {
+    "nfl_season": 2026,
+    "player_id": "POSITION_WIDE:RB",
+    "team": "NFL",
+    "valid_from": "2026-08-01T00:00:00Z",
+    "valid_until": "2027-03-01T00:00:00Z",
+    "preseason_start": "2026-08-07T00:00:00Z",
+    "regular_season_start": "2026-09-10T00:20:00Z",
+    "postseason_start": "2027-01-16T05:00:00Z",
+    "season_end": "2027-02-15T05:00:00Z",
+    "current_season_games_available": 8,
+    "current_season_games_played": 8,
+    "regular_season_games_scheduled": 17,
+    "regular_season_complete": false,
+    "postseason_complete": false,
+    "sources": [
+      {
+        "url": "https://media.nfl.com/news-and-releases/2026-nfl-regular-season-to-kick-off-wednesday--sept--9-in-seattl",
+        "retrieved_at": "2026-11-04T14:12:21Z",
+        "claims": [
+          "NFL release: the 2026 NFL regular season kicks off Wednesday, Sept. 9, 2026 at 8:20 PM ET in Seattle"
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/news/nfl-make-your-plan-to-watch-the-2026-nfl-preseason",
+        "retrieved_at": "2026-11-04T14:12:21Z",
+        "claims": [
+          "2026 preseason opens with the Hall of Fame Game Thursday, Aug. 6, 2026, 8 PM ET"
+        ]
+      },
+      {
+        "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+        "retrieved_at": "2026-11-04T14:12:21Z",
+        "claims": [
+          "Week 18 Jan 9-10, 2027; Wild Card Jan 16-18, 2027; Divisional Jan 23-24; Conference Championships Jan 31; Super Bowl LXI Sunday Feb 14, 2027 (season end)"
+        ]
+      },
+      {
+        "url": "https://www.nfl.com/schedules/2026/reg9/",
+        "retrieved_at": "2026-11-04T14:12:21Z",
+        "claims": [
+          "2026 regular season Week 9 in progress; 8 weeks completed; 17-game schedule"
+        ]
+      }
+    ]
+  },
+  "calendar_web_search_observed": true
+}
