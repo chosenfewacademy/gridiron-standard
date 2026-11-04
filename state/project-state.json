@@ -13052,7 +13052,7 @@
         "position": "K",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/K.reaudit.json",
       "baseline_file": null,
@@ -13100,7 +13100,8 @@
         "K_REAUDIT_TIEBREAK_03",
         "K_REAUDIT_TIEBREAK_04",
         "K_REAUDIT_TIEBREAK_05",
-        "K_REAUDIT_TIEBREAK_06"
+        "K_REAUDIT_TIEBREAK_06",
+        "K_REAUDIT_VARIANCE_AUDIT"
       ],
       "audit_ids": [
         "K_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -13146,7 +13147,7 @@
       ],
       "current_stage": "variance_audit",
       "current_task": "K_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T12:54:01.781Z",
+      "updated_at": "2026-11-04T12:54:02.084Z",
       "last_result": {
         "task_id": "K_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
@@ -13155,11 +13156,7 @@
           "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "K_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "K_REAUDIT_VARIANCE_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -13472,6 +13469,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T12:53:39Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "K_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "K_REAUDIT_VARIANCE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:54:01Z",
+          "note": "Standing commissioner approval t46u: K variance audit approved, drafted fix approved"
         }
       ]
     }
