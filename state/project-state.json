@@ -5163,16 +5163,17 @@
         "LG_REAUDIT_TIEBREAK_08_A1",
         "LG_REAUDIT_VARIANCE_AUDIT_A1",
         "LG_REAUDIT_RATE_05_A2",
-        "LG_REAUDIT_RATE_06_A2"
+        "LG_REAUDIT_RATE_06_A2",
+        "LG_REAUDIT_RATE_08_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "LG_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T03:20:57.103Z",
+      "updated_at": "2026-11-04T03:20:57.421Z",
       "last_result": {
-        "task_id": "LG_REAUDIT_RATE_06",
+        "task_id": "LG_REAUDIT_RATE_08",
         "status": "REVISION_APPROVED",
-        "audit_id": "LG_REAUDIT_RATE_06_A2",
-        "supersedes": "LG_REAUDIT_RATE_06_A1",
+        "audit_id": "LG_REAUDIT_RATE_08_A2",
+        "supersedes": "LG_REAUDIT_RATE_08_A1",
         "flags": []
       },
       "awaiting": null,
@@ -5530,6 +5531,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:20:56Z",
           "note": "Standing commissioner approval t46u/t50s441: Approved variance fix (LG_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): AGI 72->66 (243 2026 snaps, no tracking data). OVR unchanged."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LG_REAUDIT_RATE_08",
+          "audit_id": "LG_REAUDIT_RATE_08_A2",
+          "supersedes": "LG_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:20:57Z",
+          "note": "Standing commissioner approval t46u/t50s441: Approved variance fix (LG_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): AWR 68->74 (7 penalties in 2025 but 0 in 2026). OVR unchanged."
         }
       ]
     }
