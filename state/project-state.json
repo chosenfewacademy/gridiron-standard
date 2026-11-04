@@ -11290,7 +11290,7 @@
         "position": "CB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/CB.reaudit.json",
       "baseline_file": null,
@@ -11416,11 +11416,12 @@
         "CB_REAUDIT_TIEBREAK_19_A1",
         "CB_REAUDIT_TIEBREAK_20_A1",
         "CB_REAUDIT_TIEBREAK_21_A1",
-        "CB_REAUDIT_CROSS_AUDIT_A1"
+        "CB_REAUDIT_CROSS_AUDIT_A1",
+        "CB_REAUDIT_LOCK_20261104"
       ],
-      "current_stage": "positional_cross_audit",
+      "current_stage": "lock",
       "current_task": "CB_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T12:11:54.637Z",
+      "updated_at": "2026-11-04T12:15:28Z",
       "last_result": {
         "task_id": "CB_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
