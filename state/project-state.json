@@ -21579,7 +21579,7 @@
         "position": "LEDGE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LEDGE.reaudit.json",
       "baseline_file": "data/baselines/LEDGE.reaudit-20261104.json",
@@ -21589,7 +21589,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:32:25Z",
-      "updated_at": "2026-11-04T19:32:32.540Z",
+      "updated_at": "2026-11-04T19:32:32.875Z",
       "audit_ids": [
         "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1",
         "LEDGE_REAUDIT_BG_01_A1",
@@ -21680,7 +21680,8 @@
         "LEDGE_REAUDIT_TIEBREAK_06",
         "LEDGE_REAUDIT_TIEBREAK_07",
         "LEDGE_REAUDIT_TIEBREAK_08",
-        "LEDGE_REAUDIT_VARIANCE_AUDIT"
+        "LEDGE_REAUDIT_VARIANCE_AUDIT",
+        "LEDGE_REAUDIT_SCARCITY"
       ],
       "approvals": [
         {
@@ -22260,15 +22261,19 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T19:32:31Z",
           "note": "User-approved batch t56s532: re-run LEDGE_REAUDIT_VARIANCE_AUDIT after the approved card revisions"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_SCARCITY",
+          "audit_id": "LEDGE_REAUDIT_SCARCITY_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:32Z",
+          "note": "User-approved batch t56s532: re-run LEDGE_REAUDIT_SCARCITY after the approved card revisions"
         }
       ],
       "current_stage": "scarcity_audit",
       "current_task": "LEDGE_REAUDIT_SCARCITY",
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LEDGE_REAUDIT_SCARCITY",
-        "audit_id": "LEDGE_REAUDIT_SCARCITY_A2"
-      },
+      "awaiting": null,
       "last_result": {
         "task_id": "LEDGE_REAUDIT_SCARCITY",
         "status": "VALIDATED",
