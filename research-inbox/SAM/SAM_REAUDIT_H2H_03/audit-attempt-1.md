@@ -1,0 +1,40 @@
+# SAM_REAUDIT_H2H_03 — Leo Chenal vs Derrick Barnes (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "SAM_REAUDIT_H2H_03_A1",
+  "task_id": "SAM_REAUDIT_H2H_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SAM",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Leo Chenal",
+    "Derrick Barnes"
+  ],
+  "pair_result": {
+    "winner": "Leo Chenal",
+    "loser": "Derrick Barnes",
+    "provisional_order_holds": true,
+    "reasoning": "Chenal's 2025 PFF 75.3 (#18) on 440 snaps with 108 pass-rush snaps vs Barnes' 62.3 / 61.0; Barnes is healthier (25 games, 7 sacks across 2025-26) while Chenal is RES after 3 games in 2026, so narrow.",
+    "key_evidence_for_winner": [
+      "Leo Chenal (WAS) role snap-weighted 2025-26 depth-chart role shares MIKE 69 / WILL 21 / SAM 432 / edge 2 (raw snapshots MIKE25 3, EDGE25 1, SAM25 217, MIKE26 207, WILL26 68) -> SAM; roster RES (LB); injuries wk16 Out (Shoulder)",
+      "Leo Chenal 2026: Leo Chenal 2026: PFF LB 2026 overall 37.8 on 84 snaps (LB rank None; 34 run-def / 41 coverage / 9 pass-rush snaps); PFR 2026 (3 games) coverage 6 targets / 5 completions / 27 yds / 0 INT; 18 tackles, 2 missed; 0 pressures on 6 blitzes; 3 g / 84 def snaps; 9 solo + 9 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF; 0 accepted penalties; PFR 2026 (3 games) coverage 6 targets / 5 completions / 27 yds / 0 INT; 18 tackles, 2 missed; 0 pressures on 6 blitzes",
+      "Leo Chenal 2025: Leo Chenal 2025: PFF LB 2025 overall 75.3 on 440 snaps (LB rank 18; 202 run-def / 130 coverage / 108 pass-rush snaps); PFR 2025 coverage 14 targets / 11 completions / 93 yds / passer rating 88.4 / 1 INT; 58 tackles, 3 missed; 6 pressures on 32 blitzes, 2 sacks; 14 g / 440 def snaps; 25 solo + 33 ast tackles, 2 TFL, 2.0 sacks, 1 INT, 2 PD, 0 FF; 0 accepted penalties; PFR 2025 coverage 14 targets / 11 completions / 93 yds / passer rating 88.4 / 1 INT; 58 tackles, 3 missed; 6 pressures on 32 blitzes, 2 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Derrick Barnes (DET) role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 408 / SAM 940 / edge 0 (raw snapshots SAM25 221, WILL26 275) -> SAM; roster ACT (LB); injuries no injury designation 2025-26",
+      "Derrick Barnes 2026: Derrick Barnes 2026: PFF LB 2026 overall 61 on 408 snaps (LB rank 44; 121 run-def / 240 coverage / 47 pass-rush snaps); PFR 2026 (6 games) coverage 28 targets / 15 completions / 213 yds / 1 INT; 33 tackles, 1 missed; 3 pressures on 25 blitzes; 7 g / 408 def snaps; 21 solo + 13 ast tackles, 4 TFL, 3.0 sacks, 1 INT, 2 PD, 0 FF; 1 accepted penalties; PFR 2026 (6 games) coverage 28 targets / 15 completions / 213 yds / 1 INT; 33 tackles, 1 missed; 3 pressures on 25 blitzes",
+      "Derrick Barnes 2025: Derrick Barnes 2025: PFF LB 2025 overall 62.3 on 939 snaps (LB rank 44; 382 run-def / 369 coverage / 188 pass-rush snaps); PFR 2025 coverage 27 targets / 24 completions / 216 yds / passer rating 121.6 / 1 INT; 78 tackles, 5 missed; 7 pressures on 53 blitzes, 4 sacks; 17 g / 940 def snaps; 40 solo + 38 ast tackles, 6 TFL, 4.0 sacks, 1 INT, 3 PD, 0 FF; 0 accepted penalties; PFR 2025 coverage 27 targets / 24 completions / 216 yds / passer rating 121.6 / 1 INT; 78 tackles, 5 missed; 7 pressures on 53 blitzes, 4 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
