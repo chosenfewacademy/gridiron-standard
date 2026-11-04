@@ -1,0 +1,39 @@
+{
+  "audit_id": "SS_REAUDIT_TIEBREAK_06_A1",
+  "task_id": "SS_REAUDIT_TIEBREAK_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Coby Bryant",
+    "Cooper DeJean"
+  ],
+  "pair_result": {
+    "winner": "Coby Bryant",
+    "loser": "Cooper DeJean",
+    "provisional_order_holds": true,
+    "reasoning": "At safety, DeJean's 2026 is PFF 54.6 on 554 snaps (S rank 73) with 4 TD allowed on 37 targets, 7 missed tackles and 4 accepted penalties. His strong 2025 came at slot CB (16 PD, 76.5 rating allowed), not at safety. Bryant's 2025 safety season (70.2 on 1163, 4 INT, 54.0 rating) is the better safety evidence despite his 2026 reserve status.",
+    "key_evidence_for_winner": [
+      "Coby Bryant (CHI) role snap-weighted 2025-26 depth-chart FS/SS shares FS 19 / SS 959 -> SS; roster RES (DB); injuries wk17 Out (Knee); wk18 Doubtful (Knee)",
+      "Coby Bryant 2026: Coby Bryant 2026: no PFF S grade 2026; no PFR 2026 line; no snaps; no stats; 0 accepted penalties; no PFR 2026 line",
+      "Coby Bryant 2025: Coby Bryant 2025: PFF S 2025 overall 70.2 on 1163 snaps (S rank 27; 768 coverage / 388 run-def snaps); PFR 2025 coverage 39 targets / 23 completions / 316 yds / 1 TD / passer rating 54 / 4 INT; 66 tackles, 18 missed; 15 g / 977 def snaps; 37 solo + 27 ast tackles, 4 TFL, 4 INT, 7 PD, 1 FF; 0 accepted penalties; PFR 2025 coverage 39 targets / 23 completions / 316 yds / 1 TD / passer rating 54 / 4 INT; 66 tackles, 18 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Cooper DeJean (PHI) role snap-weighted 2025-26 depth-chart FS/SS shares FS 270 / SS 284 -> SS; roster ACT (DB); injuries no injury designation 2025-26",
+      "Cooper DeJean 2026: Cooper DeJean 2026: PFF S 2026 overall 54.6 on 554 snaps (S rank 73; 300 coverage / 237 run-def snaps); PFR 2026 (7 games) coverage 37 targets / 22 completions / 237 yds / 4 TD / 1 INT; 46 tackles, 7 missed; 8 g / 554 def snaps; 25 solo + 22 ast tackles, 4 TFL, 1 INT, 5 PD, 0 FF; 4 accepted penalties; PFR 2026 (7 games) coverage 37 targets / 22 completions / 237 yds / 4 TD / 1 INT; 46 tackles, 7 missed",
+      "Cooper DeJean 2025: Cooper DeJean 2025: no PFF S grade 2025; PFR 2025 coverage 81 targets / 49 completions / 586 yds / 1 TD / passer rating 76.5 / 2 INT; 93 tackles, 6 missed; 16 g / 1037 def snaps; 63 solo + 29 ast tackles, 4 TFL, 2 INT, 16 PD, 1 FF; 2 accepted penalties; PFR 2025 coverage 81 targets / 49 completions / 586 yds / 1 TD / passer rating 76.5 / 2 INT; 93 tackles, 6 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
