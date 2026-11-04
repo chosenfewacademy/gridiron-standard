@@ -1,0 +1,181 @@
+# FB_REAUDIT_BG_11 — Brady Russell background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "FB_REAUDIT_BG_11_A1",
+  "task_id": "FB_REAUDIT_BG_11",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "player_id": "ext_00-0038488",
+  "players": [
+    "Brady Russell"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Brady Russell",
+    "player_id": "ext_00-0038488",
+    "team": "SEA",
+    "eligibility": "Brady Russell usage (FB eligibility rule: PFF FB alignment / depth-chart FB / roster FB): roster position RB, depth-chart position FB",
+    "pff": {
+      "2025": {
+        "rank": null,
+        "pff": 40.7,
+        "team": "seattle-seahawks",
+        "off": 66,
+        "run": 0,
+        "recv": 5,
+        "rblk": 53,
+        "pblk": 8,
+        "age": null,
+        "wt": 247
+      },
+      "2026": {
+        "rank": 10,
+        "pff": 45.1,
+        "team": "seattle-seahawks",
+        "off": 113,
+        "run": 0,
+        "recv": 23,
+        "rblk": 81,
+        "pblk": 9,
+        "age": null,
+        "wt": 247
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 12,
+        "off": 58,
+        "st": 396
+      },
+      "2026": {
+        "games": 8,
+        "off": 113,
+        "st": 190
+      }
+    },
+    "touches": {
+      "2025": {
+        "carries": 0.0,
+        "rushing_yards": 0.0,
+        "rushing_tds": 0.0,
+        "receptions": 0.0,
+        "targets": 1.0,
+        "receiving_yards": 0.0,
+        "receiving_tds": 0.0,
+        "rushing_fumbles_lost": 0.0,
+        "receiving_fumbles_lost": 0.0
+      },
+      "2026": {
+        "carries": 0.0,
+        "rushing_yards": 0.0,
+        "rushing_tds": 0.0,
+        "receptions": 3.0,
+        "targets": 3.0,
+        "receiving_yards": 40.0,
+        "receiving_tds": 0.0,
+        "rushing_fumbles_lost": 0.0,
+        "receiving_fumbles_lost": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 1,
+      "2026": 1
+    },
+    "fb_depth_chart": {
+      "2025": {
+        "rank2": 162,
+        "rank1": 58
+      },
+      "2026": {
+        "rank1": 131,
+        "rank2": 143
+      }
+    },
+    "injuries": {},
+    "summary_lines": [
+      "Brady Russell (SEA) 2026: PFF FB 2026 45.1 (rank 10, 113 snaps: 81 run/lead-block, 9 pass-block, 23 routes, 0 carries; block share 0.8); 8 g / 113 off snaps; 0-0 rushing, 3/3 tgt for 40 yds, 0 TD; 1 penalties; FB depth-chart snapshots {'rank1': 131, 'rank2': 143}",
+      "Brady Russell 2025: PFF FB 2025 40.7 (rank None, 66 snaps: 53 run/lead-block, 8 pass-block, 5 routes, 0 carries; block share 0.92); 12 g / 58 off snaps; 0-0 rushing, 0/1 tgt for 0 yds, 0 TD; 1 penalties; FB depth-chart snapshots {'rank2': 162, 'rank1': 58}",
+      "Brady Russell usage (FB eligibility rule: PFF FB alignment / depth-chart FB / roster FB): roster position RB, depth-chart position FB",
+      "Brady Russell injury reports: none; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF FB run/pass-block sub-grades, lead-block win data and 21/22-personnel share are paywalled or unpublished; substitutes: PFF FB overall + run-block/pass-block/route/carry snap counts, nflverse snaps, rushing/receiving, penalties, FB depth-chart role, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CAR",
+      "BCV",
+      "TRK",
+      "BTK",
+      "SFA",
+      "CTH",
+      "CIT",
+      "SRR",
+      "RBK",
+      "RBP",
+      "RBF",
+      "PBK",
+      "IBL",
+      "LBK",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/fb/2026",
+        "retrieved_at": "2026-11-04T04:14:39Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/fb/2025",
+        "retrieved_at": "2026-11-04T04:14:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T04:14:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T04:14:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:39Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
