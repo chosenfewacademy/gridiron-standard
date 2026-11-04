@@ -1,0 +1,1108 @@
+# WR_REAUDIT_CROSS_AUDIT — superseding run R2 (v1.1.2; authorized t56s532)
+
+```json
+{
+  "audit_id": "WR_REAUDIT_CROSS_AUDIT_A2",
+  "task_id": "WR_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WR",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jaxon Smith-Njigba",
+    "Puka Nacua",
+    "Ja'Marr Chase",
+    "CeeDee Lamb",
+    "Tee Higgins",
+    "Drake London",
+    "Zay Flowers",
+    "Amon-Ra St. Brown",
+    "Justin Jefferson",
+    "Chris Olave"
+  ],
+  "cross_audit_result": "CONSISTENT (superseding run R2, t56s532): all 86 approved head-to-head/tiebreak verdicts agree with the final rating order (ties ordered by approved tiebreaks, then contention order — addendum 2026-11-04e); style rule passes for all 136 pairs of 17 rated WRs (0 too similar); league ceiling screen unchanged; Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Jaxon Smith-Njigba",
+      "ovr": 95,
+      "audit_id": "WR_REAUDIT_RATE_01_A2"
+    },
+    {
+      "rank": 2,
+      "player": "Puka Nacua",
+      "ovr": 93,
+      "audit_id": "WR_REAUDIT_RATE_02_A2"
+    },
+    {
+      "rank": 3,
+      "player": "Ja'Marr Chase",
+      "ovr": 90,
+      "audit_id": "WR_REAUDIT_RATE_03_A2"
+    },
+    {
+      "rank": 4,
+      "player": "CeeDee Lamb",
+      "ovr": 88,
+      "audit_id": "WR_REAUDIT_RATE_05_A3"
+    },
+    {
+      "rank": 5,
+      "player": "Tee Higgins",
+      "ovr": 87,
+      "audit_id": "WR_REAUDIT_RATE_04_A2"
+    },
+    {
+      "rank": 6,
+      "player": "Drake London",
+      "ovr": 86,
+      "audit_id": "WR_REAUDIT_RATE_06_A2"
+    },
+    {
+      "rank": 7,
+      "player": "Zay Flowers",
+      "ovr": 85,
+      "audit_id": "WR_REAUDIT_RATE_08_A3"
+    },
+    {
+      "rank": 8,
+      "player": "Amon-Ra St. Brown",
+      "ovr": 84,
+      "audit_id": "WR_REAUDIT_RATE_07_A1"
+    },
+    {
+      "rank": 9,
+      "player": "Justin Jefferson",
+      "ovr": 84,
+      "audit_id": "WR_REAUDIT_RATE_12_A2"
+    },
+    {
+      "rank": 10,
+      "player": "Chris Olave",
+      "ovr": 83,
+      "audit_id": "WR_REAUDIT_RATE_09_A2"
+    },
+    {
+      "rank": 11,
+      "player": "Christian Watson",
+      "ovr": 82,
+      "audit_id": "WR_REAUDIT_RATE_16_A1"
+    },
+    {
+      "rank": 12,
+      "player": "Parker Washington",
+      "ovr": 82,
+      "audit_id": "WR_REAUDIT_RATE_17_A1"
+    },
+    {
+      "rank": 13,
+      "player": "George Pickens",
+      "ovr": 81,
+      "audit_id": "WR_REAUDIT_RATE_10_A1"
+    },
+    {
+      "rank": 14,
+      "player": "Malik Nabers",
+      "ovr": 80,
+      "audit_id": "WR_REAUDIT_RATE_14_A1"
+    },
+    {
+      "rank": 15,
+      "player": "Nico Collins",
+      "ovr": 79,
+      "audit_id": "WR_REAUDIT_RATE_11_A2"
+    },
+    {
+      "rank": 16,
+      "player": "Mike Evans",
+      "ovr": 78,
+      "audit_id": "WR_REAUDIT_RATE_15_A2"
+    },
+    {
+      "rank": 17,
+      "player": "DeVonta Smith",
+      "ovr": 77,
+      "audit_id": "WR_REAUDIT_RATE_13_A2"
+    }
+  ],
+  "pair_consistency": [
+    {
+      "audit_id": "WR_REAUDIT_H2H_01_A1",
+      "winner": "Jaxon Smith-Njigba",
+      "loser": "Puka Nacua",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_H2H_02_A1",
+      "winner": "Ja'Marr Chase",
+      "loser": "CeeDee Lamb",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_H2H_03_A1",
+      "winner": "Tee Higgins",
+      "loser": "Drake London",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_H2H_04_A1",
+      "winner": "Zay Flowers",
+      "loser": "Amon-Ra St. Brown",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_H2H_05_A1",
+      "winner": "Chris Olave",
+      "loser": "Justin Jefferson",
+      "consistent": true,
+      "superseded_by": "WR_REAUDIT_TIEBREAK_81_A1"
+    },
+    {
+      "audit_id": "WR_REAUDIT_H2H_06_A1",
+      "winner": "Justin Jefferson",
+      "loser": "George Pickens",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_01_A1",
+      "winner": "CeeDee Lamb",
+      "loser": "Tee Higgins",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_02_A1",
+      "winner": "Drake London",
+      "loser": "Zay Flowers",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_03_A1",
+      "winner": "Amon-Ra St. Brown",
+      "loser": "Chris Olave",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_05_A1",
+      "winner": "George Pickens",
+      "loser": "Malik Nabers",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_06_A1",
+      "winner": "Nico Collins",
+      "loser": "Mike Evans",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_07_A1",
+      "winner": "Puka Nacua",
+      "loser": "Ja'Marr Chase",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_08_A1",
+      "winner": "Drake London",
+      "loser": "Amon-Ra St. Brown",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_09_A1",
+      "winner": "Chris Olave",
+      "loser": "George Pickens",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_10_A1",
+      "winner": "George Pickens",
+      "loser": "Nico Collins",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_11_A1",
+      "winner": "Malik Nabers",
+      "loser": "Nico Collins",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_12_A1",
+      "winner": "Mike Evans",
+      "loser": "DeVonta Smith",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_13_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Keenan Allen",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_14_A1",
+      "winner": "George Pickens",
+      "loser": "Keenan Allen",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_15_A1",
+      "winner": "Justin Jefferson",
+      "loser": "DeAndre Hopkins",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_16_A1",
+      "winner": "George Pickens",
+      "loser": "DeAndre Hopkins",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_17_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Davante Adams",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_18_A1",
+      "winner": "George Pickens",
+      "loser": "Davante Adams",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_19_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Stefon Diggs",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_20_A1",
+      "winner": "George Pickens",
+      "loser": "Stefon Diggs",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_21_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Cooper Kupp",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_22_A1",
+      "winner": "George Pickens",
+      "loser": "Cooper Kupp",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_23_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Courtland Sutton",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_24_A1",
+      "winner": "George Pickens",
+      "loser": "Courtland Sutton",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_25_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Jakobi Meyers",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_26_A1",
+      "winner": "George Pickens",
+      "loser": "Jakobi Meyers",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_27_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Terry McLaurin",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_28_A1",
+      "winner": "George Pickens",
+      "loser": "Terry McLaurin",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_29_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Jaylen Waddle",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_30_A1",
+      "winner": "George Pickens",
+      "loser": "Jaylen Waddle",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_31_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Jameson Williams",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_32_A1",
+      "winner": "George Pickens",
+      "loser": "Jameson Williams",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_33_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Alec Pierce",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_34_A1",
+      "winner": "George Pickens",
+      "loser": "Alec Pierce",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_35_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Christian Watson",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_36_A1",
+      "winner": "Christian Watson",
+      "loser": "George Pickens",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_37_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Parker Washington",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_38_A1",
+      "winner": "Parker Washington",
+      "loser": "George Pickens",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_39_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Xavier Hutchinson",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_40_A1",
+      "winner": "George Pickens",
+      "loser": "Xavier Hutchinson",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_41_A1",
+      "winner": "Justin Jefferson",
+      "loser": "DeMario Douglas",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_42_A1",
+      "winner": "George Pickens",
+      "loser": "DeMario Douglas",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_43_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Rashee Rice",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_44_A1",
+      "winner": "George Pickens",
+      "loser": "Rashee Rice",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_45_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Tetairoa McMillan",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_46_A1",
+      "winner": "George Pickens",
+      "loser": "Tetairoa McMillan",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_47_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Jayden Higgins",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_48_A1",
+      "winner": "George Pickens",
+      "loser": "Jayden Higgins",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_49_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Luther Burden III",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_50_A1",
+      "winner": "George Pickens",
+      "loser": "Luther Burden III",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_51_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Antonio Williams",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_52_A1",
+      "winner": "George Pickens",
+      "loser": "Antonio Williams",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_53_A1",
+      "winner": "Justin Jefferson",
+      "loser": "KC Concepcion",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_54_A1",
+      "winner": "George Pickens",
+      "loser": "KC Concepcion",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_55_A1",
+      "winner": "Christian Watson",
+      "loser": "Parker Washington",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_56_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Kalif Raymond",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_57_A1",
+      "winner": "Christian Watson",
+      "loser": "Kalif Raymond",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_58_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Kendrick Bourne",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_59_A1",
+      "winner": "Christian Watson",
+      "loser": "Kendrick Bourne",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_60_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Mack Hollins",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_61_A1",
+      "winner": "Christian Watson",
+      "loser": "Mack Hollins",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_62_A1",
+      "winner": "Justin Jefferson",
+      "loser": "A.J. Brown",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_63_A1",
+      "winner": "Christian Watson",
+      "loser": "A.J. Brown",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_64_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Rashod Bateman",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_65_A1",
+      "winner": "Christian Watson",
+      "loser": "Rashod Bateman",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_66_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Romeo Doubs",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_67_A1",
+      "winner": "Christian Watson",
+      "loser": "Romeo Doubs",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_68_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Dontayvion Wicks",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_69_A1",
+      "winner": "Christian Watson",
+      "loser": "Dontayvion Wicks",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_70_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Kayshon Boutte",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_71_A1",
+      "winner": "Christian Watson",
+      "loser": "Kayshon Boutte",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_72_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Ryan Flournoy",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_73_A1",
+      "winner": "Christian Watson",
+      "loser": "Ryan Flournoy",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_74_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Keon Coleman",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_75_A1",
+      "winner": "Christian Watson",
+      "loser": "Keon Coleman",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_76_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Tre Harris",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_77_A1",
+      "winner": "Christian Watson",
+      "loser": "Tre Harris",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_78_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Carnell Tate",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_79_A1",
+      "winner": "Christian Watson",
+      "loser": "Carnell Tate",
+      "consistent": true,
+      "note": "loser outside the rated pool"
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_80_A1",
+      "winner": "Amon-Ra St. Brown",
+      "loser": "Justin Jefferson",
+      "consistent": true
+    },
+    {
+      "audit_id": "WR_REAUDIT_TIEBREAK_81_A1",
+      "winner": "Justin Jefferson",
+      "loser": "Chris Olave",
+      "consistent": true
+    }
+  ],
+  "style_rule": {
+    "pairs_checked": 136,
+    "too_similar": 0,
+    "highest_corr": [
+      "Tee Higgins",
+      "Drake London",
+      0.919,
+      3.6,
+      false
+    ],
+    "lowest_mad": [
+      "Ja'Marr Chase",
+      "CeeDee Lamb",
+      0.687,
+      3.3,
+      false
+    ]
+  },
+  "scarcity_note": "Scarcity re-run in this superseding run (R2) and approved before this cross-audit; see the newest approved WR_REAUDIT_SCARCITY record.",
+  "new_player_variance_gaps": [
+    {
+      "player": "Christian Watson",
+      "attr": "STR",
+      "ours": 76,
+      "madden_delta": 11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "215 lb at 6-4; contested/deep catch work (deep EPA/tgt +1.32 in 2026)"
+      ]
+    },
+    {
+      "player": "Christian Watson",
+      "attr": "CTH",
+      "ours": 78,
+      "madden_delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "short catch rate .69-.72; PFF 74.8 in 2026"
+      ]
+    },
+    {
+      "player": "Christian Watson",
+      "attr": "SRR",
+      "ours": 74,
+      "madden_delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "aDOT 13.4-17.8, vertical-heavy tree; short TPRR .186"
+      ]
+    },
+    {
+      "player": "Christian Watson",
+      "attr": "CAR",
+      "ours": 86,
+      "madden_delta": 12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "1 fumble lost across ~70 receptions 2025-26"
+      ]
+    },
+    {
+      "player": "Christian Watson",
+      "attr": "SPM",
+      "ours": 58,
+      "madden_delta": -13,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "YAC/rec 3.4-4.7; few broken tackles"
+      ]
+    },
+    {
+      "player": "Christian Watson",
+      "attr": "JKM",
+      "ours": 66,
+      "madden_delta": -14,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "YAC/rec 3.4-4.7; YAC comes from speed, not elusiveness"
+      ]
+    },
+    {
+      "player": "Christian Watson",
+      "attr": "INJ",
+      "ours": 66,
+      "madden_delta": -18,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "torn ACL Jan 2025, 10 g in 2025, recurring hamstring 2022-24"
+      ]
+    },
+    {
+      "player": "Parker Washington",
+      "attr": "STR",
+      "ours": 80,
+      "madden_delta": 14,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "204 lb, YAC/rec 4.6-5.0 through contact"
+      ]
+    },
+    {
+      "player": "Parker Washington",
+      "attr": "AWR",
+      "ours": 82,
+      "madden_delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 82.1 (2025) and 81.0 (2026)"
+      ]
+    },
+    {
+      "player": "Parker Washington",
+      "attr": "SPC",
+      "ours": 78,
+      "madden_delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "5-10; deep catch rate .36-.43"
+      ]
+    },
+    {
+      "player": "Parker Washington",
+      "attr": "JMP",
+      "ours": 78,
+      "madden_delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "5-10; catch radius limited, few high-point wins"
+      ]
+    },
+    {
+      "player": "Parker Washington",
+      "attr": "CAR",
+      "ours": 88,
+      "madden_delta": 13,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "0 fumbles lost in 2025-26"
+      ]
+    }
+  ],
+  "commissioner_fix_approvals": "Variance fixes approved by commissioner t45s365: Chase AWR 88 (RATE_03_A2), JSN SPC 89 (RATE_01_A2), Flowers SPC 78 (RATE_08_A3), Lamb DRR 87 (RATE_05_A3), Nacua JKM 80 (RATE_02_A2)",
+  "league_ceiling_check": {
+    "source": "research-inbox/WR/WR_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-rerun-t45s365.json",
+    "references": [
+      {
+        "player": "Justin Jefferson",
+        "ovr": 82
+      },
+      {
+        "player": "Christian Watson",
+        "ovr": 82
+      }
+    ],
+    "thresholds": {
+      "pff": 79.1,
+      "value": 0.043,
+      "efficiency": 1.82,
+      "negative_rate": 49.727,
+      "availability": 0.72
+    },
+    "raw_flags_before_resolution": [
+      "Keenan Allen",
+      "DeAndre Hopkins",
+      "Davante Adams",
+      "Stefon Diggs",
+      "Kalif Raymond",
+      "Kendrick Bourne",
+      "Mack Hollins",
+      "Cooper Kupp",
+      "Courtland Sutton",
+      "Jakobi Meyers",
+      "Terry McLaurin",
+      "A.J. Brown",
+      "Rashod Bateman",
+      "Jaylen Waddle",
+      "Jameson Williams",
+      "Alec Pierce",
+      "Romeo Doubs",
+      "Dontayvion Wicks",
+      "Kayshon Boutte",
+      "Xavier Hutchinson",
+      "DeMario Douglas",
+      "Rashee Rice",
+      "Ryan Flournoy",
+      "Keon Coleman",
+      "Tetairoa McMillan",
+      "Jayden Higgins",
+      "Tre Harris",
+      "Luther Burden III",
+      "Antonio Williams",
+      "Carnell Tate",
+      "KC Concepcion"
+    ],
+    "resolution": "First check (t45s353 refs Jefferson/Pickens) flagged 21: tested vs Jefferson and Pickens under t45s359 (TIEBREAK_13-54); Watson and Washington beat Pickens, were added (WR_POOL_AMEND_01) and rated 82 (RATE_16/17), ordered by TIEBREAK_55. Recheck with refs Jefferson/Watson flagged 31: the 19 prior losers stay resolved; 12 new flags tested vs Jefferson and Watson under t45s365 (TIEBREAK_56-79), all lost. This rerun flags only previously-tested players, so all are commissioner-resolved.",
+    "flagged": [],
+    "closest": [
+      {
+        "name": "Isaac TeSlaa",
+        "snaps": 275,
+        "pff": null,
+        "value": 0.532,
+        "efficiency": null,
+        "negative_rate": 50,
+        "availability": 0.833,
+        "hits": [
+          "value",
+          "availability"
+        ]
+      },
+      {
+        "name": "Laquon Treadwell",
+        "snaps": 401,
+        "pff": null,
+        "value": 0.091,
+        "efficiency": null,
+        "negative_rate": 50,
+        "availability": 1,
+        "hits": [
+          "value",
+          "availability"
+        ]
+      },
+      {
+        "name": "Isaiah Williams",
+        "snaps": 265,
+        "pff": null,
+        "value": 0.208,
+        "efficiency": null,
+        "negative_rate": 50.98,
+        "availability": 0.92,
+        "hits": [
+          "value",
+          "availability"
+        ]
+      },
+      {
+        "name": "Tre Tucker",
+        "snaps": 362,
+        "pff": null,
+        "value": 0.304,
+        "efficiency": null,
+        "negative_rate": 52.857,
+        "availability": 1,
+        "hits": [
+          "value",
+          "availability"
+        ]
+      },
+      {
+        "name": "Jalen Nailor",
+        "snaps": 260,
+        "pff": null,
+        "value": 0.13,
+        "efficiency": null,
+        "negative_rate": 50.633,
+        "availability": 0.92,
+        "hits": [
+          "value",
+          "availability"
+        ]
+      }
+    ],
+    "screened": 149,
+    "rating_changes": [],
+    "rerun_note": "Re-checked for run R2 (t56s532): the contention pool and the stats feeding the ceiling screen are unchanged; only approved card values changed, so the screen result (flagged: 0) stands."
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Jaxon Smith-Njigba",
+      "ours": 95,
+      "madden": 99,
+      "delta": -4,
+      "old_baseline": 92
+    },
+    {
+      "player": "Puka Nacua",
+      "ours": 93,
+      "madden": 98,
+      "delta": -5,
+      "old_baseline": 94
+    },
+    {
+      "player": "Ja'Marr Chase",
+      "ours": 90,
+      "madden": 99,
+      "delta": -9,
+      "old_baseline": 93
+    },
+    {
+      "player": "CeeDee Lamb",
+      "ours": 88,
+      "madden": 96,
+      "delta": -8,
+      "old_baseline": null
+    },
+    {
+      "player": "Tee Higgins",
+      "ours": 87,
+      "madden": 89,
+      "delta": -2,
+      "old_baseline": null
+    },
+    {
+      "player": "Drake London",
+      "ours": 86,
+      "madden": 93,
+      "delta": -7,
+      "old_baseline": 87
+    },
+    {
+      "player": "Zay Flowers",
+      "ours": 85,
+      "madden": 90,
+      "delta": -5,
+      "old_baseline": null
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "ours": 84,
+      "madden": 95,
+      "delta": -11,
+      "old_baseline": 91
+    },
+    {
+      "player": "Justin Jefferson",
+      "ours": 84,
+      "madden": 97,
+      "delta": -13,
+      "old_baseline": 86
+    },
+    {
+      "player": "Chris Olave",
+      "ours": 83,
+      "madden": 89,
+      "delta": -6,
+      "old_baseline": null
+    },
+    {
+      "player": "Christian Watson",
+      "ours": 82,
+      "madden": 85,
+      "delta": -3,
+      "old_baseline": null
+    },
+    {
+      "player": "Parker Washington",
+      "ours": 82,
+      "madden": 84,
+      "delta": -2,
+      "old_baseline": null
+    },
+    {
+      "player": "George Pickens",
+      "ours": 81,
+      "madden": 88,
+      "delta": -7,
+      "old_baseline": 88
+    },
+    {
+      "player": "Malik Nabers",
+      "ours": 80,
+      "madden": 88,
+      "delta": -8,
+      "old_baseline": null
+    },
+    {
+      "player": "Nico Collins",
+      "ours": 79,
+      "madden": 90,
+      "delta": -11,
+      "old_baseline": 87
+    },
+    {
+      "player": "Mike Evans",
+      "ours": 78,
+      "madden": 91,
+      "delta": -13,
+      "old_baseline": null
+    },
+    {
+      "player": "DeVonta Smith",
+      "ours": 77,
+      "madden": 92,
+      "delta": -15,
+      "old_baseline": null
+    }
+  ],
+  "madden_order_verified": false,
+  "madden_used_as_evidence": false,
+  "major_flags": [
+    "COMMISSIONER_REVIEW: positional cross-audit re-run (t56s532)"
+  ],
+  "locked_control_conflict": false,
+  "authorized_by": "t56s532",
+  "supersedes_run_record": "WR_REAUDIT_CROSS_AUDIT_A1"
+}
+```
