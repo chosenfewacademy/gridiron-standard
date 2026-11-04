@@ -1,0 +1,287 @@
+{
+  "audit_id": "RT_REAUDIT_CANDIDATE_AUDIT_A1",
+  "task_id": "RT_REAUDIT_CANDIDATE_AUDIT",
+  "task_type": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "membership_confirmed": true,
+  "missing_top_players": [],
+  "coverage_check": "League-wide screen of every right tackle: all 134 (2025) / 107 (2026) PFF tackle grades, every team's depth-chart RT starter (nflverse depth_charts 2025/2026) - 58 RT-side players - including reserve/IR (Bako-Bewele, Moton, Harrison), inactive (Lane Johnson, Spencer Brown, Blake Fisher, Charlie Heck) and free agents/retired (Conklin, Havenstein, Jonah Williams, Beachum, Pipkins). Side from depth-chart snapshots, not Madden. Zach Tom appears as Zach Bako-Bewele (same nflverse id 00-0037817). PAYWALLED GAPS: PFF pass/run-block sub-grades, pressures/sacks allowed (PFF+). Substitutes: ESPN OT PBWR (top 20)/RBWR (top 10) through Week 8, PFF overall + pass/run-block snaps, nflverse pbp penalties, snap counts, injury reports.",
+  "contention_set": [
+    "Darnell Wright",
+    "Colton McKivitz",
+    "Brian O'Neill",
+    "Abraham Lucas",
+    "Joe Alt",
+    "Warren McClendon Jr.",
+    "Luke Goedeke",
+    "Armand Membou",
+    "Spencer Brown",
+    "Jermaine Eluemunor",
+    "Zach Bako-Bewele",
+    "Taylor Moton",
+    "Mike McGlinchey"
+  ],
+  "contention_basis": "Judgment, not formula: 10 proposed top-10 right tackles plus first-outs Bako-Bewele, Moton and McGlinchey. Evidence: PFF overall (2025 + 2026 thru Week 8), pass/run-block snaps, ESPN OT win rates, penalties, RT depth-chart snapshots, availability.",
+  "contender_reasons": {
+    "Darnell Wright": "PFF 2025 80.3 on 1233 snaps; PFF 2026 82.8 on 600 snaps; penalties 2025/2026 12/3; RT depth snapshots 2026 {'RT': 225}; roster ACT - Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+    "Colton McKivitz": "PFF 2025 84.2 on 1235 snaps; PFF 2026 80 on 425 snaps; penalties 2025/2026 5/1; RT depth snapshots 2026 {'RT': 226}; roster ACT - Polished pass-protection technician: PFF 84.2 on 1,235 snaps (2025) and 80.0 in 2026, ESPN OT PBWR 92%, 1 penalty in 2026 and no injury designations in two seasons; sets, hands and timing over raw power.",
+    "Brian O'Neill": "PFF 2025 81.6 on 734 snaps; PFF 2026 67.1 on 434 snaps; penalties 2025/2026 5/3; RT depth snapshots 2026 {'RT': 226}; roster ACT - Athletic zone tackle: on both ESPN OT lists (PBWR 93% - best RT - and RBWR 81%), PFF 81.6 (2025, 734 snaps) then 67.1 in 2026; quick feet and reach blocks, lighter anchor; 2025 injuries cost snaps.",
+    "Abraham Lucas": "PFF 2025 81 on 1252 snaps; PFF 2026 70.2 on 527 snaps; penalties 2025/2026 3/3; RT depth snapshots 2026 {'RT': 224}; roster ACT - Balanced, mobile starter: PFF 81.0 on 1,252 snaps (2025) then 70.2 on 527 in 2026, 6 penalties in two seasons, no injury designations; good movement and second-level work, no dominant trait.",
+    "Joe Alt": "PFF 2025 79 on 312 snaps; PFF 2026 75.4 on 278 snaps; penalties 2025/2026 1/6; RT depth snapshots 2026 {'RT': 223, 'LT': 2}; roster ACT - Young, technically advanced tackle: PFF 79.0 (2025, mostly LT, 312 snaps) and 75.4 (2026 at RT, 278 snaps), ESPN OT PBWR 90%; talent is star-level but injuries kept both samples small and 6 penalties in 2026.",
+    "Warren McClendon Jr.": "PFF 2025 78.7 on 882 snaps; PFF 2026 69.7 on 559 snaps; penalties 2025/2026 0/4; RT depth snapshots 2026 {'RT': 226}; roster ACT - Light, savvy run-game tackle: on both ESPN OT lists (PBWR 90%, RBWR 83%), PFF 78.7 (882 snaps, 2025) and 69.7 (559, 2026), 0 penalties in 2025, no designations; positioning and leverage over mass.",
+    "Luke Goedeke": "PFF 2025 75.7 on 676 snaps; PFF 2026 75.3 on 459 snaps; penalties 2025/2026 6/5; RT depth snapshots 2026 {'RT': 224}; roster ACT - Tough, physical, steady: PFF 75.7 (2025) and 75.3 (2026), ESPN OT PBWR 88%; plays with edge and power in the run game, 11 penalties in two seasons and limited range.",
+    "Armand Membou": "PFF 2025 72.8 on 1045 snaps; PFF 2026 71 on 493 snaps; penalties 2025/2026 8/1; RT depth snapshots 2026 {'RT': 226}; roster ACT - Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+    "Spencer Brown": "PFF 2025 77 on 987 snaps; PFF 2026 70.6 on 340 snaps; penalties 2025/2026 4/1; RT depth snapshots 2026 {'RT': 226}; roster INA - Long, powerful tackle: PFF 77.0 on 987 snaps (2025) and 70.6 on 340 (2026), ESPN OT PBWR 88%; back injury (Questionable wk8) and inactive status cap availability.",
+    "Jermaine Eluemunor": "PFF 2025 63.9 on 1088 snaps; PFF 2026 72.1 on 368 snaps; penalties 2025/2026 12/4; RT depth snapshots 2026 {'RT': 226}; roster ACT - Durable pass-set anchor: ESPN OT PBWR 91% and PFF 72.1 (2026) after 63.9 on 1,088 snaps (2025); 16 penalties in two seasons and limited run-game movement.",
+    "Zach Bako-Bewele": "PFF 2025 83.5 on 604 snaps; PFF 2026 59.4 on 71 snaps; penalties 2025/2026 0/0; RT depth snapshots 2026 {'RT': 50}; roster RES - Formerly Zach Tom: quick, smart zone tackle, PFF 83.5 (#10 T, 604 snaps) in 2025 but 59.4 on 71 snaps in 2026 and now on reserve/IR after 13 injury designations in two seasons - first-out.",
+    "Taylor Moton": "PFF 2025 80.8 on 968 snaps; PFF 2026 68.1 on 102 snaps; penalties 2025/2026 5/0; RT depth snapshots 2026 {'RT': 168}; roster RES - Veteran power tackle: PFF 80.8 on 968 snaps (2025) but 68.1 on 102 snaps in 2026 and on reserve/IR - first-out.",
+    "Mike McGlinchey": "PFF 2025 78 on 1259 snaps; PFF 2026 62.4 on 492 snaps; penalties 2025/2026 6/3; RT depth snapshots 2026 {'RT': 225}; roster ACT - Durable run-first tackle: PFF 78.0 on 1,259 snaps (2025) then 62.4 on 492 (2026), 9 penalties in two seasons; pass protection is the weak half - first-out."
+  },
+  "proposed_order": [
+    "Darnell Wright",
+    "Colton McKivitz",
+    "Brian O'Neill",
+    "Abraham Lucas",
+    "Joe Alt",
+    "Warren McClendon Jr.",
+    "Luke Goedeke",
+    "Armand Membou",
+    "Spencer Brown",
+    "Jermaine Eluemunor"
+  ],
+  "first_outs": [
+    "Zach Bako-Bewele",
+    "Taylor Moton",
+    "Mike McGlinchey"
+  ],
+  "excluded": [
+    {
+      "player": "Penei Sewell",
+      "reason": "in the locked LT baseline (2026 depth chart LT 193 / RT 33); RT in 2025 only - audited at LT, not an RT candidate"
+    },
+    {
+      "player": "Lane Johnson",
+      "reason": "PFF 77.4 on 449 snaps (2025) / 79.8 on 181 snaps (3 games, 2026); now inactive, age 36, 8 injury designations in 2025, no Madden 27 card - grades are elite but the two-season sample (630 snaps) and current inactive status keep him out of the top 13"
+    },
+    {
+      "player": "Anton Harrison",
+      "reason": "reserve/IR (JAX); PFF 73.2 / 68.8 on 282 snaps; ESPN OT RBWR 83% - below the active contenders and the first-outs"
+    },
+    {
+      "player": "Morgan Moses",
+      "reason": "PFF 76.5 (1,294) then 60.3 (2026), 12 penalties, age 35 - below McGlinchey"
+    },
+    {
+      "player": "Roger Rosengarten",
+      "reason": "PFF 74.4 then 60.8 (2026)"
+    },
+    {
+      "player": "Amarius Mims",
+      "reason": "PFF 67.6 / 67.7, ESPN OT PBWR 90% - grades below the top 13"
+    },
+    {
+      "player": "Dylan Cook",
+      "reason": "PFF 77.4 / 76.4 on only 348 / 135 snaps (LT in 2025, RT 53 snapshots 2026) - backup-level sample"
+    },
+    {
+      "player": "Blake Fisher",
+      "reason": "inactive; PFF 72.8 on 65 snaps (2026)"
+    },
+    {
+      "player": "Jalen Travis",
+      "reason": "PFF 72.2 (316) / 67.5 (528)"
+    },
+    {
+      "player": "Troy Fautanu",
+      "reason": "PFF 66.9 / 67.3, RT 136 / LT 90 snapshots"
+    },
+    {
+      "player": "DJ Glaze",
+      "reason": "PFF 60.6 / 67.8 (ESPN OT PBWR 91%) - grades below the top 13"
+    },
+    {
+      "player": "JC Latham",
+      "reason": "PFF 65.5 / 69.1, 19 penalties in two seasons"
+    },
+    {
+      "player": "Blake Miller",
+      "reason": "rookie, PFF 61.0, ESPN PBWR 91%"
+    },
+    {
+      "player": "LT-side pool members",
+      "reason": "Will Campbell, Jordan Morgan, Rasheed Walker, Aireontae Ersery, Tyler Guyton, Spencer Fano, Cole Van Lanen, Taliese Fuaga-level checks: 2026 depth-chart side LT/LG majority (or RT grades below the top 13: Fuaga 56.7, Steele 54.7) - not RT contenders"
+    },
+    {
+      "player": "Free agents/retired",
+      "reason": "Jack Conklin, Rob Havenstein, Jonah Williams, Kelvin Beachum, Trey Pipkins III: no 2026 roster, 2025 PFF 49.9-57.4"
+    }
+  ],
+  "old_lock_comparison": {
+    "note": "No RT lock exists (RT never locked; state RT PENDING). Compared against the approved candidate pool order (addendum 2026-11-04/04b).",
+    "legacy_names": [
+      "Darnell Wright",
+      "Colton McKivitz",
+      "Lane Johnson",
+      "Abraham Lucas",
+      "Will Campbell",
+      "Zach Bako-Bewele",
+      "Joe Alt",
+      "Brian O'Neill",
+      "Luke Goedeke",
+      "Jordan Morgan"
+    ],
+    "in_proposed_top10": [
+      "Darnell Wright",
+      "Colton McKivitz",
+      "Abraham Lucas",
+      "Joe Alt",
+      "Brian O'Neill",
+      "Luke Goedeke"
+    ],
+    "now_first_out": [
+      "Zach Bako-Bewele"
+    ],
+    "out": [
+      "Lane Johnson",
+      "Will Campbell",
+      "Jordan Morgan"
+    ]
+  },
+  "flags": {
+    "injured": [
+      "Zach Bako-Bewele (reserve/IR)",
+      "Taylor Moton (reserve/IR)",
+      "Spencer Brown (back, Questionable wk8; inactive)",
+      "Joe Alt (2025-26 injuries, small samples)"
+    ],
+    "free_agents": [
+      "Conklin, Havenstein, Jonah Williams, Beachum, Pipkins (no 2026 roster)"
+    ],
+    "limited_sample": [
+      "Joe Alt: 312 / 278 PFF snaps",
+      "Bako-Bewele: 71 snaps in 2026",
+      "Moton: 102 snaps in 2026"
+    ],
+    "sharp_decline": [
+      "Brian O'Neill (81.6 to 67.1)",
+      "Abraham Lucas (81.0 to 70.2)",
+      "Mike McGlinchey (78.0 to 62.4)"
+    ],
+    "sharp_rise": [
+      "Jermaine Eluemunor (63.9 to 72.1)"
+    ],
+    "data_gaps": [
+      "PFF sub-grades, pressures/sacks allowed paywalled",
+      "ESPN OT lists mix LT and RT",
+      "nflverse snap counts have no alignment; side from depth-chart snapshots"
+    ]
+  },
+  "madden_reference": [
+    {
+      "player": "Darnell Wright",
+      "ovr": 91,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Colton McKivitz",
+      "ovr": 84,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Brian O'Neill",
+      "ovr": 88,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Abraham Lucas",
+      "ovr": 83,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Joe Alt",
+      "ovr": 86,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Warren McClendon Jr.",
+      "ovr": 73,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Luke Goedeke",
+      "ovr": 84,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Armand Membou",
+      "ovr": 83,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Spencer Brown",
+      "ovr": 85,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Jermaine Eluemunor",
+      "ovr": 83,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Zach Bako-Bewele",
+      "ovr": 87,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Taylor Moton",
+      "ovr": 84,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Mike McGlinchey",
+      "ovr": 82,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    }
+  ],
+  "madden_order_verified": false,
+  "early_inputs": [],
+  "external_controls": [],
+  "major_flags": [
+    "POOL_POSITION_MISMATCH: 8 pool members LT-side",
+    "NO_PRIOR_LOCK",
+    "DATA_GAP: PFF sub-grades paywalled",
+    "MADDEN_GAP_10PLUS: Bako-Bewele 87, McGlinchey 82 (Madden reference only)"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
