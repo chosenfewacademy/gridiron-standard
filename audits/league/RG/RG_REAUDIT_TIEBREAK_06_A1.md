@@ -1,0 +1,40 @@
+# RG_REAUDIT_TIEBREAK_06 — Kevin Dotson vs Ed Ingram (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "RG_REAUDIT_TIEBREAK_06_A1",
+  "task_id": "RG_REAUDIT_TIEBREAK_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Kevin Dotson",
+    "Ed Ingram"
+  ],
+  "pair_result": {
+    "winner": "Kevin Dotson",
+    "loser": "Ed Ingram",
+    "provisional_order_holds": true,
+    "reasoning": "Dotson: PFF 87.3 / 60.8. Ingram: 73.9 / 68.5 on 317 snaps with groin and knee absences. Dotson's elite 2025 and full 2026 workload edge Ingram's slightly better 2026 grade.",
+    "key_evidence_for_winner": [
+      "Kevin Dotson (LA) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 226}; roster ACT",
+      "Kevin Dotson 2026: PFF 60.8 (rank 41; 347 pass-block/206 run-block of 553 snaps); 8 g/553 snaps; penalties 3; injuries none",
+      "Kevin Dotson 2025: PFF 87.3 (rank 3; 608 pass-block/416 run-block of 1024 snaps); 15 g/886 snaps; penalties 3; injuries ['wk17 Out (Ankle)', 'wk18 Out (Ankle)', 'wk19 Out (Ankle)']"
+    ],
+    "key_evidence_for_loser": [
+      "Ed Ingram (HOU) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 155}; roster ACT",
+      "Ed Ingram 2026: PFF 68.5 (rank 26; 196 pass-block/121 run-block of 317 snaps); 5 g/317 snaps; penalties 2; injuries ['wk2 Out (Groin)', 'wk3 Out (Groin)', 'wk4 Questionable (Groin)', 'wk5 Questionable (Illness)']",
+      "Ed Ingram 2025: PFF 73.9 (rank 12; 635 pass-block/437 run-block of 1072 snaps); 14 g/929 snaps; penalties 2; injuries ['wk1 Questionable (Abdomen)', 'wk10 Out (Knee)', 'wk11 Questionable (Knee)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
