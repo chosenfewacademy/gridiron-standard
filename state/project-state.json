@@ -5691,18 +5691,18 @@
         "C_REAUDIT_TIEBREAK_04_A1",
         "C_REAUDIT_TIEBREAK_05_A1",
         "C_REAUDIT_TIEBREAK_06_A1",
-        "C_REAUDIT_VARIANCE_AUDIT_A1"
+        "C_REAUDIT_VARIANCE_AUDIT_A1",
+        "C_REAUDIT_RATE_03_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "C_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T03:34:19.102Z",
+      "updated_at": "2026-11-04T03:34:22.923Z",
       "last_result": {
-        "task_id": "C_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
-        "errors": [],
-        "flags": [
-          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "task_id": "C_REAUDIT_RATE_03",
+        "status": "REVISION_APPROVED",
+        "audit_id": "C_REAUDIT_RATE_03_A2",
+        "supersedes": "C_REAUDIT_RATE_03_A1",
+        "flags": []
       },
       "awaiting": null,
       "approvals": [
@@ -6025,6 +6025,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:34:18Z",
           "note": "Standing commissioner approval t46u/t50s441: variance audit approved; apply the 6 drafted fixes via reaudit:revise"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "C_REAUDIT_RATE_03",
+          "audit_id": "C_REAUDIT_RATE_03_A2",
+          "supersedes": "C_REAUDIT_RATE_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:34:22Z",
+          "note": "Standing commissioner approval t46u/t50s441: Approved variance fix (C_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): ACC 82->72, COD 68->62 (no tracking data; LOW-confidence movement traits). OVR unchang"
         }
       ]
     }
