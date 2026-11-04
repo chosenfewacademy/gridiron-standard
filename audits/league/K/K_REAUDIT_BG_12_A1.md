@@ -1,0 +1,207 @@
+# K_REAUDIT_BG_12 — Spencer Shrader background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "K_REAUDIT_BG_12_A1",
+  "task_id": "K_REAUDIT_BG_12",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "player_id": "ext_00-0039576",
+  "players": [
+    "Spencer Shrader"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Spencer Shrader",
+    "player_id": "ext_00-0039576",
+    "team": "IND",
+    "role_assignment": "K (placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K)",
+    "side_rule": "KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflverse play-by-play (kickoff specialists included); matched by gsis id. Evidence: FG% by distance band (0-39/40-49/50-59/60+), longest FG, FG EPA (nflverse pbp), XP%, kickoff touchback %, return average and out-of-bounds, PFF K overall (2025-26). THIN DATA: no public kickoff hang time (NFL Next Gen Stats does not publish it); kickoff EPA in pbp is noise-dominated by coverage and was not used to rank. Madden position is reference only.",
+    "seasons": {
+      "2025": {
+        "fg": {
+          "0-39": [
+            10,
+            10
+          ],
+          "40-49": [
+            2,
+            2
+          ],
+          "50-59": [
+            1,
+            2
+          ],
+          "60+": [
+            0,
+            0
+          ],
+          "fgm": 13,
+          "fga": 14,
+          "long": 52,
+          "blocked": 0,
+          "fg_epa": 2.5,
+          "games": 4
+        },
+        "xp": [
+          14,
+          14
+        ],
+        "xp_epa": 0.9,
+        "ko": {
+          "n": 27,
+          "tb": 2,
+          "tb_pct": 7.4,
+          "ret_avg": 24.0,
+          "oob": 0,
+          "epa": -8.8,
+          "games": 5
+        },
+        "pen": 1,
+        "pffk": {
+          "ovr": 72.8,
+          "snaps": null,
+          "rank": 24
+        }
+      },
+      "2026": {
+        "fg": {
+          "0-39": [
+            6,
+            6
+          ],
+          "40-49": [
+            7,
+            8
+          ],
+          "50-59": [
+            6,
+            7
+          ],
+          "60+": [
+            0,
+            0
+          ],
+          "fgm": 19,
+          "fga": 21,
+          "long": 58,
+          "blocked": 0,
+          "fg_epa": 12.9,
+          "games": 7
+        },
+        "xp": [
+          14,
+          15
+        ],
+        "xp_epa": 0.0,
+        "ko": {
+          "n": 18,
+          "tb": 3,
+          "tb_pct": 16.7,
+          "ret_avg": 28.5,
+          "oob": 0,
+          "epa": -4.2,
+          "games": 5
+        },
+        "pffk": {
+          "ovr": 79.3,
+          "snaps": null,
+          "rank": 8
+        }
+      }
+    },
+    "injuries": null,
+    "summary_lines": [
+      "Spencer Shrader (IND) Spencer Shrader 2026: PFF K 2026 overall 79.3 (K rank 8); 2026 kickoffs 18, touchback 3 (16.7%), return avg 28.5, 0 out of bounds; 0 accepted penalties",
+      "Spencer Shrader 2025: PFF K 2025 overall 72.8 (K rank 24); 2025 kickoffs 27, touchback 2 (7.4%), return avg 24.0, 0 out of bounds; 1 accepted penalties",
+      "Spencer Shrader role: placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K (KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflve...); roster position K; Madden card K (reference only)",
+      "Spencer Shrader injury reports: no injury designation 2025-26; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "No public kickoff hang time; PFF K sub-grades paywalled; substitutes: FG% by distance band, longest FG, FG EPA, XP%, kickoff touchback %/return average (nflverse pbp), PFF K overall"
+    ],
+    "attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "thin_data": false,
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/k/2026",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/k/2025",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:41Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
