@@ -1,0 +1,39 @@
+{
+  "audit_id": "CB_REAUDIT_TIEBREAK_06_A1",
+  "task_id": "CB_REAUDIT_TIEBREAK_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "DJ Turner II",
+    "Josh Wallace"
+  ],
+  "pair_result": {
+    "winner": "DJ Turner II",
+    "loser": "Josh Wallace",
+    "provisional_order_holds": true,
+    "reasoning": "Turner has two seasons as a starter (PFF 73.3 on 974 snaps, 74.3 on 444) with 18 PD in 2025; Wallace's 77.3 comes on 377 PFF snaps after only 270 defensive snaps in 2025.",
+    "key_evidence_for_winner": [
+      "DJ Turner II (CIN) role single CB list (no outside/slot split); roster position DB; roster ACT (DB); injuries wk3 Questionable (Hamstring); wk16 Questionable (Illness)",
+      "DJ Turner II 2026: DJ Turner II 2026: PFF CB 2026 overall 74.3 on 444 snaps (CB rank 15; 286 coverage / 158 run-def snaps); PFR 2026 (6 games) coverage 24 targets / 13 completions / 143 yds / 1 TD / 0 INT; 14 tackles, 2 missed; 7 g / 444 def snaps; 12 solo + 5 ast tackles, 0 TFL, 0 INT, 5 PD, 2 FF; 2 accepted penalties; PFR 2026 (6 games) coverage 24 targets / 13 completions / 143 yds / 1 TD / 0 INT; 14 tackles, 2 missed",
+      "DJ Turner II 2025: DJ Turner II 2025: PFF CB 2025 overall 73.3 on 974 snaps (CB rank 22; 580 coverage / 394 run-def snaps); PFR 2025 coverage 73 targets / 35 completions / 468 yds / 4 TD / passer rating 75.6 / 2 INT; 40 tackles, 6 missed; 17 g / 974 def snaps; 27 solo + 12 ast tackles, 2 TFL, 2 INT, 18 PD, 2 FF; 2 accepted penalties; PFR 2025 coverage 73 targets / 35 completions / 468 yds / 4 TD / passer rating 75.6 / 2 INT; 40 tackles, 6 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Josh Wallace (LA) role single CB list (no outside/slot split); roster position DB; roster ACT (DB); injuries wk17 Out (Ankle); wk18 Out (Ankle); wk19 Questionable (Ankle)",
+      "Josh Wallace 2026: Josh Wallace 2026: PFF CB 2026 overall 77.3 on 377 snaps (CB rank 9; 245 coverage / 129 run-def snaps); PFR 2026 (6 games) coverage 26 targets / 13 completions / 93 yds / 0 TD / 1 INT; 25 tackles, 1 missed; 8 g / 377 def snaps; 20 solo + 9 ast tackles, 1 TFL, 1 INT, 5 PD, 0 FF; 5 accepted penalties; PFR 2026 (6 games) coverage 26 targets / 13 completions / 93 yds / 0 TD / 1 INT; 25 tackles, 1 missed",
+      "Josh Wallace 2025: Josh Wallace 2025: no PFF CB grade 2025; PFR 2025 coverage 23 targets / 16 completions / 162 yds / 1 TD / passer rating 85.8 / 1 INT; 20 tackles, 1 missed; 11 g / 270 def snaps; 18 solo + 2 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF; 4 accepted penalties; PFR 2025 coverage 23 targets / 16 completions / 162 yds / 1 TD / passer rating 85.8 / 1 INT; 20 tackles, 1 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
