@@ -1,0 +1,167 @@
+# K_REAUDIT_BG_13 — Tyler Bass background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "K_REAUDIT_BG_13_A1",
+  "task_id": "K_REAUDIT_BG_13",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "player_id": "ext_00-0036162",
+  "players": [
+    "Tyler Bass"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Tyler Bass",
+    "player_id": "ext_00-0036162",
+    "team": "BUF",
+    "role_assignment": "K (placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K)",
+    "side_rule": "KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflverse play-by-play (kickoff specialists included); matched by gsis id. Evidence: FG% by distance band (0-39/40-49/50-59/60+), longest FG, FG EPA (nflverse pbp), XP%, kickoff touchback %, return average and out-of-bounds, PFF K overall (2025-26). THIN DATA: no public kickoff hang time (NFL Next Gen Stats does not publish it); kickoff EPA in pbp is noise-dominated by coverage and was not used to rank. Madden position is reference only.",
+    "seasons": {
+      "2025": null,
+      "2026": {
+        "fg": {
+          "0-39": [
+            9,
+            9
+          ],
+          "40-49": [
+            5,
+            5
+          ],
+          "50-59": [
+            2,
+            2
+          ],
+          "60+": [
+            0,
+            0
+          ],
+          "fgm": 16,
+          "fga": 16,
+          "long": 56,
+          "blocked": 0,
+          "fg_epa": 11.3,
+          "games": 6
+        },
+        "xp": [
+          21,
+          23
+        ],
+        "xp_epa": -0.4,
+        "ko": {
+          "n": 49,
+          "tb": 3,
+          "tb_pct": 6.1,
+          "ret_avg": 25.7,
+          "oob": 0,
+          "epa": -12.7,
+          "games": 7
+        },
+        "pen": 1,
+        "pffk": {
+          "ovr": 72.8,
+          "snaps": null,
+          "rank": 15
+        }
+      }
+    },
+    "injuries": {
+      "2025": [
+        "wk1 Out (Hip)"
+      ]
+    },
+    "summary_lines": [
+      "Tyler Bass (BUF) Tyler Bass 2026: PFF K 2026 overall 72.8 (K rank 15); 2026 kickoffs 49, touchback 3 (6.1%), return avg 25.7, 0 out of bounds; 1 accepted penalties",
+      "Tyler Bass 2025: no PFF K grade 2025; no 2025 kickoffs; 0 accepted penalties",
+      "Tyler Bass role: placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K (KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflve...); roster position K; Madden card K (reference only)",
+      "Tyler Bass injury reports: wk1 Out (Hip); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "No public kickoff hang time; PFF K sub-grades paywalled; substitutes: FG% by distance band, longest FG, FG EPA, XP%, kickoff touchback %/return average (nflverse pbp), PFF K overall"
+    ],
+    "attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "thin_data": false,
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/k/2026",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/k/2025",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:42Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
