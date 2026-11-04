@@ -1,0 +1,37 @@
+{
+  "audit_id": "WILL_REAUDIT_H2H_02_A1",
+  "task_id": "WILL_REAUDIT_H2H_02",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Drue Tranquill",
+    "Jordyn Brooks"
+  ],
+  "pair_result": {
+    "winner": "Drue Tranquill",
+    "loser": "Jordyn Brooks",
+    "provisional_order_holds": true,
+    "reasoning": "Tranquill: PFF 76.6 / 71.2 vs Brooks 77.9 / 67.3 - Tranquill is better in 2026 (16 targets / 81 yds allowed vs 24 / 161) and has 15 TFL across 2025-26 vs Brooks' 15; Brooks' 180-tackle 2025 and 0 missed tackles in 2026 keep it narrow.",
+    "key_evidence_for_winner": [
+      "Drue Tranquill (KC) role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1300 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL; roster ACT (LB); injuries no injury designation 2025-26",
+      "Drue Tranquill 2026: Drue Tranquill 2026: PFF LB 2026 overall 71.2 on 418 snaps (LB rank 17; 178 run-def / 184 coverage / 56 pass-rush snaps); PFR 2026 (6 games) coverage 16 targets / 7 completions / 81 yds / 0 INT; 48 tackles, 1 missed; 4 pressures on 36 blitzes; 7 g / 417 def snaps; 25 solo + 27 ast tackles, 5 TFL, 0.0 sacks, 0 INT, 2 PD, 0 FF; 1 accepted penalties; PFR 2026 (6 games) coverage 16 targets / 7 completions / 81 yds / 0 INT; 48 tackles, 1 missed; 4 pressures on 36 blitzes",
+      "Drue Tranquill 2025: Drue Tranquill 2025: PFF LB 2025 overall 76.6 on 884 snaps (LB rank 13; 386 run-def / 387 coverage / 111 pass-rush snaps); PFR 2025 coverage 36 targets / 33 completions / 369 yds / passer rating 127.9 / 0 INT; 103 tackles, 2 missed; 5 pressures on 85 blitzes, 2 sacks; 17 g / 883 def snaps; 52 solo + 48 ast tackles, 10 TFL, 2.0 sacks, 0 INT, 1 PD, 1 FF; 0 accepted penalties; PFR 2025 coverage 36 targets / 33 completions / 369 yds / passer rating 127.9 / 0 INT; 103 tackles, 2 missed; 5 pressures on 85 blitzes, 2 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Jordyn Brooks (MIA) role snap-weighted 2025-26 depth-chart role shares MIKE 4 / WILL 1384 / SAM 0 / edge 0 (raw snapshots WILL25 220, MIKE25 1, WILL26 275) -> WILL; roster ACT (LB); injuries wk16 Questionable (Foot); wk18 Questionable (Hamstring)",
+      "Jordyn Brooks 2026: Jordyn Brooks 2026: PFF LB 2026 overall 67.3 on 405 snaps (LB rank 26; 184 run-def / 192 coverage / 29 pass-rush snaps); PFR 2026 (6 games) coverage 24 targets / 18 completions / 161 yds / 0 INT; 52 tackles, 0 missed; 1 pressures on 15 blitzes; 7 g / 405 def snaps; 28 solo + 35 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties; PFR 2026 (6 games) coverage 24 targets / 18 completions / 161 yds / 0 INT; 52 tackles, 0 missed; 1 pressures on 15 blitzes",
+      "Jordyn Brooks 2025: Jordyn Brooks 2025: PFF LB 2025 overall 77.9 on 985 snaps (LB rank 11; 415 run-def / 487 coverage / 83 pass-rush snaps); PFR 2025 coverage 86 targets / 66 completions / 665 yds / passer rating 109.9 / 0 INT; 183 tackles, 10 missed; 7 pressures on 33 blitzes, 3.5 sacks; 17 g / 984 def snaps; 96 solo + 84 ast tackles, 13 TFL, 3.5 sacks, 0 INT, 3 PD, 1 FF; 3 accepted penalties; PFR 2025 coverage 86 targets / 66 completions / 665 yds / passer rating 109.9 / 0 INT; 183 tackles, 10 missed; 7 pressures on 33 blitzes, 3.5 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
