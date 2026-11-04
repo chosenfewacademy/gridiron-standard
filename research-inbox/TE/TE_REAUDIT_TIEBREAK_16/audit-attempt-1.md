@@ -1,0 +1,39 @@
+# TE_REAUDIT_TIEBREAK_16 — Austin Hooper vs Tucker Kraft (v1.1.2 head-to-head tiebreak; authorized by t45s389)
+
+```json
+{
+  "audit_id": "TE_REAUDIT_TIEBREAK_16_A1",
+  "task_id": "TE_REAUDIT_TIEBREAK_16",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Austin Hooper",
+    "Tucker Kraft"
+  ],
+  "pair_result": {
+    "winner": "Tucker Kraft",
+    "loser": "Austin Hooper",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s389). Austin Hooper: 2025 13 g, 26 tgt, 263 yds, 2 TD, EPA/tgt +0.646, PFF 65.3, YPRR 1.04, block share 0.6; 2026 6 g, 11 tgt, 76 yds, 1 TD, EPA/tgt +0.756, PFF outside PFF qualifiers, YPRR n/a, block share n/a. Tucker Kraft: 2025 8 g, 44 tgt, 489 yds, 6 TD, EPA/tgt +0.889, PFF 78.1, YPRR 2.2, block share 0.49; 2026 8 g, 49 tgt, 350 yds, 3 TD, EPA/tgt +0.442, PFF 64.5, YPRR 1.37, block share 0.41. Kraft's EPA/tgt (+.889 in 2025, +.442 in 2026), YAC/rec (10.8/5.3) and two-way usage (block share .49/.41) outweigh age 32, 37 targets over two seasons; EPA/tgt is a low-volume rate and PFF 65.3. Tucker Kraft holds #10.",
+    "key_evidence_for_winner": [
+      "Tucker Kraft PFF TE overall grade 2026 64.5, 2025 78.1; 2026 PFF snaps {'off': '434', 'routes': '255', 'pblk': '40', 'rblk': '137'} (block share 0.41); 2025 PFF snaps {'off': '440', 'routes': '222', 'pblk': '33', 'rblk': '184'} (block share 0.49); age 26, 77 in 259 lb",
+      "Tucker Kraft (GB) 2026: 8 g 49 tgt 350 yds 3 TD, EPA/tgt 0.442, YPRR 1.37, TPRR 0.192, NGS sep 3.38, aDOT 5.7, deep 5 tgt catch 0.4 EPA/tgt 0.47, short catch 0.76, YAC/rec 5.3, RZ tgt 9, 3rd/4th conv 8/12, fum lost 0",
+      "Tucker Kraft (GB) 2025: 8 g 44 tgt 489 yds 6 TD, EPA/tgt 0.889, YPRR 2.2, TPRR 0.198, NGS sep None, aDOT 4.6, deep 2 tgt catch 0.5 EPA/tgt 0.22, short catch 0.71, YAC/rec 10.8, RZ tgt 12, 3rd/4th conv 11/15, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Austin Hooper PFF TE overall grade 2026 None, 2025 65.3; 2026 PFF snaps None (block share None); 2025 PFF snaps {'off': '628', 'routes': '254', 'pblk': '38', 'rblk': '336'} (block share 0.6); age 32, 76 in 254 lb",
+      "Austin Hooper (ATL) 2026: 6 g 11 tgt 76 yds 1 TD, EPA/tgt 0.756, YPRR None, TPRR None, NGS sep None, aDOT 3.7, deep 0 tgt catch None EPA/tgt None, short catch 0.82, YAC/rec 4.8, RZ tgt 1, 3rd/4th conv 2/4, fum lost 0",
+      "Austin Hooper (NE) 2025: 13 g 26 tgt 263 yds 2 TD, EPA/tgt 0.646, YPRR 1.04, TPRR 0.102, NGS sep None, aDOT 9.0, deep 3 tgt catch 1.0 EPA/tgt 1.98, short catch 0.93, YAC/rec 4.1, RZ tgt 5, 3rd/4th conv 1/2, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
