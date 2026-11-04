@@ -9618,7 +9618,7 @@
         "position": "MIKE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/MIKE.reaudit.json",
       "baseline_file": null,
@@ -9686,7 +9686,8 @@
         "MIKE_REAUDIT_TIEBREAK_21",
         "MIKE_REAUDIT_TIEBREAK_22",
         "MIKE_REAUDIT_TIEBREAK_23",
-        "MIKE_REAUDIT_TIEBREAK_24"
+        "MIKE_REAUDIT_TIEBREAK_24",
+        "MIKE_REAUDIT_CROSS_AUDIT"
       ],
       "audit_ids": [
         "MIKE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -9753,18 +9754,14 @@
       ],
       "current_stage": "positional_cross_audit",
       "current_task": "MIKE_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T11:45:09.252Z",
+      "updated_at": "2026-11-04T11:45:14.334Z",
       "last_result": {
         "task_id": "MIKE_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "MIKE_REAUDIT_CROSS_AUDIT",
-        "audit_id": "MIKE_REAUDIT_CROSS_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -10245,6 +10242,14 @@
           "audit_id": "MIKE_REAUDIT_TIEBREAK_24_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:44:50Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "MIKE_REAUDIT_CROSS_AUDIT",
+          "audit_id": "MIKE_REAUDIT_CROSS_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:45:14Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
