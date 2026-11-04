@@ -5592,6 +5592,22 @@
           "note": "Standing commissioner approval t46u/t50s441: cross-audit approved"
         }
       ]
+    },
+    {
+      "type": "TOP10_REAUDIT",
+      "position": "C",
+      "task": {
+        "position": "C",
+        "stage": "top10_reaudit"
+      },
+      "status": "QUEUED_NOT_STARTED",
+      "position_state_at_trigger": "PENDING",
+      "pool_file": "data/candidate-pools/C.reaudit.json",
+      "baseline_file": null,
+      "requested_by": "PhiXCrypto",
+      "requested_at": "2026-11-04T03:26:46.001Z",
+      "trigger": "COMMISSIONER_EXPLICIT",
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
     }
   ]
 }
