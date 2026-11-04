@@ -11381,18 +11381,18 @@
         "CB_REAUDIT_TIEBREAK_04_A1",
         "CB_REAUDIT_TIEBREAK_05_A1",
         "CB_REAUDIT_TIEBREAK_06_A1",
-        "CB_REAUDIT_VARIANCE_AUDIT_A1"
+        "CB_REAUDIT_VARIANCE_AUDIT_A1",
+        "CB_REAUDIT_RATE_03_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "CB_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T12:10:19.404Z",
+      "updated_at": "2026-11-04T12:10:19.730Z",
       "last_result": {
-        "task_id": "CB_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
-        "errors": [],
-        "flags": [
-          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "task_id": "CB_REAUDIT_RATE_03",
+        "status": "REVISION_APPROVED",
+        "audit_id": "CB_REAUDIT_RATE_03_A2",
+        "supersedes": "CB_REAUDIT_RATE_03_A1",
+        "flags": []
       },
       "awaiting": null,
       "approvals": [
@@ -11715,6 +11715,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T12:10:19Z",
           "note": "Standing commissioner approval t46u"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_03",
+          "audit_id": "CB_REAUDIT_RATE_03_A2",
+          "supersedes": "CB_REAUDIT_RATE_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:10:19Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (CB_REAUDIT_VARIANCE_AUDIT, t46u): TAK 70->62 (12 missed tackles on 66 combined across 2025-26 per PFR: 8 on 39 in 2025, 4 on 27"
         }
       ]
     }
