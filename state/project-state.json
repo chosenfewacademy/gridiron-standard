@@ -4481,16 +4481,17 @@
         "LT_REAUDIT_CROSS_AUDIT_A1",
         "LT_REAUDIT_RATE_03_A2",
         "LT_REAUDIT_RATE_08_A2",
-        "LT_REAUDIT_RATE_10_A2"
+        "LT_REAUDIT_RATE_10_A2",
+        "LT_REAUDIT_RATE_14_A3"
       ],
       "current_stage": "positional_cross_audit",
       "current_task": "LT_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T03:02:02.041Z",
+      "updated_at": "2026-11-04T03:02:02.336Z",
       "last_result": {
-        "task_id": "LT_REAUDIT_RATE_10",
+        "task_id": "LT_REAUDIT_RATE_14",
         "status": "REVISION_APPROVED",
-        "audit_id": "LT_REAUDIT_RATE_10_A2",
-        "supersedes": "LT_REAUDIT_RATE_10_A1",
+        "audit_id": "LT_REAUDIT_RATE_14_A3",
+        "supersedes": "LT_REAUDIT_RATE_14_A2",
         "flags": []
       },
       "awaiting": null,
@@ -5045,6 +5046,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:02:01Z",
           "note": "Commissioner approval t45s419: Approved variance fix (LT_REAUDIT_VARIANCE_AUDIT, t45s419): AWR 70->74 (penalties 10 -> 4 on 2026 pace, PFF up to 80.3); PBF 74->80 (ESPN PBWR 88%). O"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LT_REAUDIT_RATE_14",
+          "audit_id": "LT_REAUDIT_RATE_14_A3",
+          "supersedes": "LT_REAUDIT_RATE_14_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:02:02Z",
+          "note": "Commissioner approval t45s419: Approved variance fix (LT_REAUDIT_VARIANCE_AUDIT, t45s419): AWR 85->88 (0 accepted penalties 2025-26, PBWR 92% #5 OT). OVR unchanged."
         }
       ]
     },
