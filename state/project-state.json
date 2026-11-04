@@ -13990,7 +13990,7 @@
         "position": "LS",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LS.reaudit.json",
       "baseline_file": null,
@@ -14040,7 +14040,8 @@
         "LS_REAUDIT_TIEBREAK_05",
         "LS_REAUDIT_TIEBREAK_06",
         "LS_REAUDIT_VARIANCE_AUDIT",
-        "LS_REAUDIT_SCARCITY"
+        "LS_REAUDIT_SCARCITY",
+        "LS_REAUDIT_CROSS_AUDIT"
       ],
       "audit_ids": [
         "LS_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -14089,18 +14090,14 @@
       ],
       "current_stage": "positional_cross_audit",
       "current_task": "LS_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T13:08:01.724Z",
+      "updated_at": "2026-11-04T13:08:02.085Z",
       "last_result": {
         "task_id": "LS_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LS_REAUDIT_CROSS_AUDIT",
-        "audit_id": "LS_REAUDIT_CROSS_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -14438,6 +14435,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T13:07:38Z",
           "note": "Standing commissioner approval t46u: LS scarcity audit approved"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LS_REAUDIT_CROSS_AUDIT",
+          "audit_id": "LS_REAUDIT_CROSS_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T13:08:01Z",
+          "note": "Standing commissioner approval t46u: LS positional cross-audit approved"
         }
       ]
     }
