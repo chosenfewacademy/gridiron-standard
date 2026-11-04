@@ -1,0 +1,217 @@
+# CB_REAUDIT_BG_02 — Trent McDuffie background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "CB_REAUDIT_BG_02_A1",
+  "task_id": "CB_REAUDIT_BG_02",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "player_id": "ext_00-0037191",
+  "players": [
+    "Trent McDuffie"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Trent McDuffie",
+    "player_id": "ext_00-0037191",
+    "team": "LA",
+    "role_assignment": "CB (single list)",
+    "side_rule": "CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/grades/nfl/cb) in the current 2026 season (2025 if no 2026 snaps); outside and slot corners compete in the same list; a player PFF grades at S in 2026 (e.g. Cooper DeJean) belongs to the safety list. Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "kansas-city-chiefs",
+        "ovr": 75.6,
+        "snaps": 688,
+        "rank": 13,
+        "rdef": 257,
+        "cov": 404
+      },
+      "2026": {
+        "team": "los-angeles-rams",
+        "ovr": 89.8,
+        "snaps": 362,
+        "rank": 2,
+        "rdef": 155,
+        "cov": 200
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "KC",
+        "pos": "CB",
+        "g": "13",
+        "tgt": "60",
+        "cmp": "38",
+        "yds": "365",
+        "td": "4",
+        "rat": "95.5",
+        "int": "1",
+        "comb": "63",
+        "m_tkl": "4"
+      },
+      "2026": {
+        "def_targets": 21.0,
+        "def_completions_allowed": 7.0,
+        "def_yards_allowed": 42.0,
+        "def_ints": 1.0,
+        "def_receiving_td_allowed": 0.0,
+        "def_tackles_combined": 16.0,
+        "def_missed_tackles": 1.0,
+        "g": 5
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 13,
+        "defs": 688
+      },
+      "2026": {
+        "games": 6,
+        "defs": 363
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 45.0,
+        "def_tackle_assists": 18.0,
+        "def_tackles_for_loss": 2.0,
+        "def_fumbles_forced": 1.0,
+        "def_sacks": 1.0,
+        "def_qb_hits": 1.0,
+        "def_pass_defended": 7.0,
+        "def_interceptions": 1.0
+      },
+      "2026": {
+        "def_tackles_solo": 18.0,
+        "def_tackle_assists": 7.0,
+        "def_tackles_for_loss": 3.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 8.0,
+        "def_interceptions": 2.0
+      }
+    },
+    "penalties": {
+      "2025": 5,
+      "2026": 3
+    },
+    "injuries": {
+      "2025": [
+        "wk15 Questionable (Knee)",
+        "wk16 Out (Knee)"
+      ],
+      "2026": [
+        "wk6 Questionable (Groin)",
+        "wk7 Questionable (Groin)",
+        "wk8 Questionable (Groin)"
+      ]
+    },
+    "summary_lines": [
+      "Trent McDuffie (LA) Trent McDuffie 2026: PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps); PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF; 3 accepted penalties",
+      "Trent McDuffie 2025: PFF CB 2025 overall 75.6 on 688 snaps (CB rank 13; 404 coverage / 257 run-def snaps); PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; 13 g / 688 def snaps; 45 solo + 18 ast tackles, 2 TFL, 1 INT, 7 PD, 1 FF; 5 accepted penalties",
+      "Trent McDuffie role: single CB list (no outside/slot split); roster position DB (CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/g...); roster position DB; Madden card CB (reference only)",
+      "Trent McDuffie injury reports: wk15 Questionable (Knee); wk16 Out (Knee); wk6 Questionable (Groin); wk7 Questionable (Groin); wk8 Questionable (Groin); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF coverage/run-defense/tackling sub-grades and slot/outside splits are paywalled; no public tracking data for CB speed or separation; substitutes: PFF CB overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "CTH",
+      "JMP",
+      "TAK",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/cb/2026",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/cb/2025",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:09Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
