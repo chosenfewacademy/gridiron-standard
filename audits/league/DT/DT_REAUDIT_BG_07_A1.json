@@ -1,0 +1,211 @@
+{
+  "audit_id": "DT_REAUDIT_BG_07_A1",
+  "task_id": "DT_REAUDIT_BG_07",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "player_id": "ext_00-0039138",
+  "players": [
+    "Kobie Turner"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Kobie Turner",
+    "player_id": "ext_00-0039138",
+    "team": "LA",
+    "side_assignment": {
+      "DT": 0,
+      "DE": 496
+    },
+    "side_rule": "DT BUCKET (t46u): interior defensive linemen graded by PFF as DI (pff.com/grades/nfl/di), aligned at DT/NT or 3-4 DE (interior) in nflverse 2025-26 depth charts; edge-graded players belong to LEDGE/REDGE. DT has no left/right split.",
+    "pff": {
+      "2025": {
+        "team": "los-angeles-rams",
+        "ovr": 80.4,
+        "snaps": 896,
+        "rank": 6,
+        "status": "IR"
+      },
+      "2026": {
+        "team": "los-angeles-rams",
+        "ovr": 66.8,
+        "snaps": 232,
+        "rank": 33,
+        "status": "IR"
+      }
+    },
+    "pressures": {
+      "2025": {
+        "tm": "LA",
+        "pos": "DE",
+        "g": "17",
+        "prss": "20",
+        "hrry": "7",
+        "qbkd": "5",
+        "sk": "7",
+        "comb": "48",
+        "m_tkl": "4"
+      },
+      "2026": {
+        "def_pressures": 3,
+        "def_times_hurried": 2,
+        "def_times_hitqb": 1,
+        "def_sacks": 0,
+        "def_tackles_combined": 8,
+        "def_missed_tackles": 1,
+        "g": 3
+      }
+    },
+    "espn_win_rates": {
+      "prwr": null,
+      "rswr": {
+        "rank": 3,
+        "wins": 35,
+        "plays": 80,
+        "rate": 43,
+        "dt_pct": 39
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 750
+      },
+      "2026": {
+        "games": 6,
+        "defs": 232
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 23,
+        "def_tackle_assists": 24,
+        "def_tackles_for_loss": 9,
+        "def_fumbles_forced": 0,
+        "def_sacks": 7,
+        "def_qb_hits": 14,
+        "def_pass_defended": 3
+      },
+      "2026": {
+        "def_tackles_solo": 7,
+        "def_tackle_assists": 15,
+        "def_tackles_for_loss": 0,
+        "def_fumbles_forced": 0,
+        "def_sacks": 0,
+        "def_qb_hits": 1,
+        "def_pass_defended": 2
+      }
+    },
+    "penalties": {
+      "2025": 3,
+      "2026": 1
+    },
+    "injuries": {
+      "2025": [
+        "wk11 Questionable (Back)"
+      ]
+    },
+    "summary_lines": [
+      "Kobie Turner (LA) Kobie Turner 2026: PFF DI 2026 overall 66.8 on 232 snaps (DI rank 33); PFR 2026 3 pressures (2 hurries, 1 QB hits, 0.0 sacks) in 3 games, 8 tackles, 1 missed; 6 g / 232 def snaps; 0.0 sacks, 1 QB hits, 0 TFL, 0 FF, 2 PD; 1 accepted penalties; ESPN 2026 DT PRWR outside the published top 20; RSWR 43% (#3, 35/80, 39% snaps at DT)",
+      "Kobie Turner 2025: PFF DI 2025 overall 80.4 on 896 snaps (DI rank 6); PFR 2025 20 pressures (7 hurries, 5 QB knockdowns, 7 sacks), 48 tackles, 4 missed; 17 g / 750 def snaps; 7.0 sacks, 14 QB hits, 9 TFL, 0 FF, 3 PD; 3 accepted penalties",
+      "Kobie Turner alignment: depth-chart interior snapshots 2025-26: 0 at DT/NT, 496 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket (DT BUCKET (t46u): interior defensive linemen graded by PFF as DI (pff.com/grades/nfl/di), aligned at DT/NT or 3-4 DE (in...); roster position DL; Madden card DT (reference only)",
+      "Kobie Turner injury reports: wk11 Questionable (Back); roster status RES"
+    ],
+    "availability": {
+      "roster_status": "RES"
+    },
+    "limitations": [
+      "PFF pass-rush and run-defense sub-grades and alignment splits are paywalled; substitutes: PFF DI overall + snap counts, ESPN DT PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PMV",
+      "FMV",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/di/2026",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/di/2025",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:18:47Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
