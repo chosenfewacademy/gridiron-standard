@@ -1,0 +1,39 @@
+{
+  "audit_id": "SS_REAUDIT_TIEBREAK_01_A1",
+  "task_id": "SS_REAUDIT_TIEBREAK_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Evan Williams",
+    "Jessie Bates"
+  ],
+  "pair_result": {
+    "winner": "Evan Williams",
+    "loser": "Jessie Bates",
+    "provisional_order_holds": true,
+    "reasoning": "Williams' 2026 is the class of the position: PFF 90.6 on 560 snaps (S rank 1) against Bates' 84.1 on 532 (S rank 4). Williams allowed 17 of 34 targets for 182 yards and 2 TD with 2 INT; Bates allowed 16 of 26 for 215 yards and 5 TD. Bates' 2025 (64.5 on 1091) also trails Williams' (70.2 on 979).",
+    "key_evidence_for_winner": [
+      "Evan Williams (GB) role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1464 -> SS; roster ACT (DB); injuries wk16 Questionable (Knee); wk17 Questionable (Knee)",
+      "Evan Williams 2026: Evan Williams 2026: PFF S 2026 overall 90.6 on 560 snaps (S rank 1; 322 coverage / 212 run-def snaps); PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed; 8 g / 561 def snaps; 43 solo + 27 ast tackles, 2 TFL, 2 INT, 6 PD, 0 FF; 2 accepted penalties; PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed",
+      "Evan Williams 2025: Evan Williams 2025: PFF S 2025 overall 70.2 on 979 snaps (S rank 27; 600 coverage / 368 run-def snaps); PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed; 16 g / 903 def snaps; 46 solo + 52 ast tackles, 4 TFL, 3 INT, 5 PD, 0 FF; 4 accepted penalties; PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Jessie Bates (ATL) role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1624 -> SS; roster ACT (DB); injuries wk9 Questionable (Knee)",
+      "Jessie Bates 2026: Jessie Bates 2026: PFF S 2026 overall 84.1 on 532 snaps (S rank 4; 320 coverage / 206 run-def snaps); PFR 2026 (7 games) coverage 26 targets / 16 completions / 215 yds / 5 TD / 1 INT; 39 tackles, 1 missed; 8 g / 532 def snaps; 24 solo + 21 ast tackles, 0 TFL, 1 INT, 4 PD, 3 FF; 0 accepted penalties; PFR 2026 (7 games) coverage 26 targets / 16 completions / 215 yds / 5 TD / 1 INT; 39 tackles, 1 missed",
+      "Jessie Bates 2025: Jessie Bates 2025: PFF S 2025 overall 64.5 on 1091 snaps (S rank 47; 656 coverage / 424 run-def snaps); PFR 2025 coverage 48 targets / 27 completions / 345 yds / 3 TD / passer rating 73.7 / 3 INT; 98 tackles, 8 missed; 17 g / 1092 def snaps; 56 solo + 41 ast tackles, 1 TFL, 3 INT, 6 PD, 1 FF; 1 accepted penalties; PFR 2025 coverage 48 targets / 27 completions / 345 yds / 3 TD / passer rating 73.7 / 3 INT; 98 tackles, 8 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
