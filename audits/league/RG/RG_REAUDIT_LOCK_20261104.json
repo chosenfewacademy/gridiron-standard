@@ -1,0 +1,14 @@
+{
+  "audit_id": "RG_REAUDIT_LOCK_20261104",
+  "task_id": "RG_REAUDIT_LOCK",
+  "task_type": "lock",
+  "audit_type": "TOP10_REAUDIT",
+  "position": "RG",
+  "status": "APPROVED",
+  "confirmation": "REAUDIT_REPLACE_BASELINE_RG",
+  "approved_by": "PhiXCrypto",
+  "created_at": "2026-11-04T03:53:12Z",
+  "new_baseline_file": "data/baselines/RG.reaudit-20261104.json",
+  "previous_baseline_file": null,
+  "first_lock": true
+}

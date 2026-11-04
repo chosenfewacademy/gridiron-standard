@@ -6124,7 +6124,7 @@
         "position": "RG",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/RG.reaudit.json",
       "baseline_file": null,
@@ -6225,11 +6225,12 @@
         "RG_REAUDIT_SCARCITY_A1",
         "RG_REAUDIT_TIEBREAK_07_A1",
         "RG_REAUDIT_TIEBREAK_08_A1",
-        "RG_REAUDIT_CROSS_AUDIT_A1"
+        "RG_REAUDIT_CROSS_AUDIT_A1",
+        "RG_REAUDIT_LOCK_20261104"
       ],
-      "current_stage": "positional_cross_audit",
+      "current_stage": "lock",
       "current_task": "RG_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T03:52:13.072Z",
+      "updated_at": "2026-11-04T03:53:12Z",
       "last_result": {
         "task_id": "RG_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
