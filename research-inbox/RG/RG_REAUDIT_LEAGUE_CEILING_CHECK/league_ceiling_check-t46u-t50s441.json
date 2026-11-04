@@ -1,0 +1,163 @@
+{
+ "position": "RG",
+ "references": [
+  {
+   "name": "Dominick Puni",
+   "team": "SF",
+   "status": "ACT",
+   "snaps": 1539,
+   "pff": 71,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 3.25,
+   "availability": 0.96,
+   "side2026": {
+    "RG": 226
+   },
+   "side2025": {
+    "RG": 219
+   }
+  },
+  {
+   "name": "Mike Onwenu",
+   "team": "NE",
+   "status": "RES",
+   "snaps": 1168,
+   "pff": 76.9,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 2.57,
+   "availability": 0.76,
+   "side2026": {
+    "RG": 184
+   },
+   "side2025": {
+    "RG": 219
+   }
+  }
+ ],
+ "thresholds": {
+  "pff": 71,
+  "negative_rate": 3.25,
+  "availability": 0.76
+ },
+ "flagged": [],
+ "closest": [
+  {
+   "name": "Ezra Cleveland",
+   "team": "JAX",
+   "status": "ACT",
+   "snaps": 1448,
+   "pff": 70.1,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 1.38,
+   "availability": 0.92,
+   "side2026": {
+    "LG": 149,
+    "RG": 77
+   },
+   "side2025": {
+    "LG": 219
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.6474576271186436
+  },
+  {
+   "name": "Teven Jenkins",
+   "team": "CLE",
+   "status": "RES",
+   "snaps": 323,
+   "pff": 77.8,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 0,
+   "availability": 0.64,
+   "side2026": {
+    "RG": 195
+   },
+   "side2025": {
+    "RG": 45
+   },
+   "hits": [
+    "pff",
+    "negative_rate"
+   ],
+   "score": 1.4
+  },
+  {
+   "name": "O'Cyrus Torrence",
+   "team": "BUF",
+   "status": "ACT",
+   "snaps": 1600,
+   "pff": 59.6,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 2.5,
+   "availability": 0.96,
+   "side2026": {
+    "RG": 226
+   },
+   "side2025": {
+    "RG": 219
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.06779661016949357
+  },
+  {
+   "name": "Greg Van Roten",
+   "team": "NE",
+   "status": "RES",
+   "snaps": 1214,
+   "pff": 63.2,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 1.65,
+   "availability": 0.8,
+   "side2026": {
+    "RG": 7
+   },
+   "side2025": {
+    "RG": 215
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.12203389830508277
+  },
+  {
+   "name": "Jonah Savaiinaea",
+   "team": "MIA",
+   "status": "ACT",
+   "snaps": 1356,
+   "pff": 33.8,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 2.95,
+   "availability": 0.96,
+   "side2026": {
+    "RG": 187,
+    "LG": 39
+   },
+   "side2025": {
+    "LG": 218,
+    "RG": 1
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.558823529411765
+  }
+ ],
+ "screened": 50,
+ "read_only": true,
+ "rating_changes": []
+}
