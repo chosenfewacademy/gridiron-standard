@@ -1,0 +1,238 @@
+# LS_REAUDIT_RATE_11 — Joe Cardona rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "LS_REAUDIT_RATE_11_A1",
+  "task_id": "LS_REAUDIT_RATE_11",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LS",
+  "player_id": "ext_00-0032228",
+  "players": [
+    "Joe Cardona"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "AWR": 70,
+    "STR": 77,
+    "RBK": 46,
+    "PBK": 59,
+    "SPD": 80,
+    "TAK": 74,
+    "INJ": 84,
+    "STA": 75,
+    "TGH": 85
+  },
+  "trait_confidence": {
+    "AWR": "MEDIUM",
+    "STR": "LOW",
+    "RBK": "LOW",
+    "PBK": "LOW",
+    "SPD": "LOW",
+    "TAK": "LOW",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "AWR": {
+      "basis": "Judgment (snapping): 2025 snaps on 29 FG attempts (27 made), 35 XP, 63 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps; 2025 17 g / 128 ST snaps; 5 coverage tackles (pbp); FootballKickingStats unit points 17.1 (rank 3); 2026 snaps on 10 FG attempts (6 made), 20 XP, 22 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps; 2026 7 g / 53 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -12.5 (rank 32). Style: Best coverage snapper: 5 tackles in 2025 (7 over two seasons), unit points 17.1 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (protection): 2025 snaps on 29 FG attempts (27 made), 35 XP, 63 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps; 2026 snaps on 10 FG attempts (6 made), 20 XP, 22 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps (blocks on his snaps are the only public protection proxy). Style: Best coverage snapper: 5 tackles in 2025 (7 over two seasons), unit points 17.1 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (protection): 2025 snaps on 29 FG attempts (27 made), 35 XP, 63 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps; 2026 snaps on 10 FG attempts (6 made), 20 XP, 22 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps (blocks on his snaps are the only public protection proxy). Style: Best coverage snapper: 5 tackles in 2025 (7 over two seasons), unit points 17.1 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (protection): 2025 snaps on 29 FG attempts (27 made), 35 XP, 63 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps; 2026 snaps on 10 FG attempts (6 made), 20 XP, 22 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps (blocks on his snaps are the only public protection proxy). Style: Best coverage snapper: 5 tackles in 2025 (7 over two seasons), unit points 17.1 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (coverage): 2025 17 g / 128 ST snaps; 5 coverage tackles (pbp); FootballKickingStats unit points 17.1 (rank 3); 2026 7 g / 53 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -12.5 (rank 32). Style: Best coverage snapper: 5 tackles in 2025 (7 over two seasons), unit points 17.1 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (coverage): 2025 17 g / 128 ST snaps; 5 coverage tackles (pbp); FootballKickingStats unit points 17.1 (rank 3); 2026 7 g / 53 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -12.5 (rank 32). Style: Best coverage snapper: 5 tackles in 2025 (7 over two seasons), unit points 17.1 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Joe Cardona injury reports: wk8 Doubtful (Ankle); roster status INA; 2025 17 g / 128 ST snaps; 5 coverage tackles (pbp); FootballKickingStats unit points 17.1 (rank 3); 2026 7 g / 53 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -12.5 (rank 32). Style: Best coverage snapper: 5 tackles in 2025 (7 over two seasons), unit points 17.1 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 2025 17 g / 128 ST snaps; 5 coverage tackles (pbp); FootballKickingStats unit points 17.1 (rank 3); 2026 7 g / 53 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -12.5 (rank 32). Style: Best coverage snapper: 5 tackles in 2025 (7 over two seasons), unit points 17.1 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 2025 17 g / 128 ST snaps; 5 coverage tackles (pbp); FootballKickingStats unit points 17.1 (rank 3); 2026 7 g / 53 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -12.5 (rank 32). Style: Best coverage snapper: 5 tackles in 2025 (7 over two seasons), unit points 17.1 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 66,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Best coverage snapper: 5 tackles in 2025 (7 over two seasons), unit points 17.1 in 2025.",
+  "style_profile": "Joe Cardona: Best coverage snapper: 5 tackles in 2025 (7 over two seasons), unit points 17.1 in 2025.",
+  "style_evidence": [
+    "Joe Cardona (LA) Joe Cardona 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 7 g / 53 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points -12.5 (rank 32); 0 accepted penalties",
+    "Joe Cardona 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 128 ST snaps; 5 coverage tackles (pbp); FootballKickingStats unit points 17.1 (rank 3); 0 accepted penalties",
+    "Joe Cardona role: long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS (LONG SNAPPER ROLE CONVENTION (t46u): rated as LS = nflverse roster position LS with 2025-26 special-teams snaps; matched...); roster position LS; Madden card LS (reference only)",
+    "Joe Cardona injury reports: wk8 Doubtful (Ankle); roster status INA"
+  ],
+  "input_dossier": "LS_REAUDIT_BG_11_A1",
+  "weaknesses": [
+    "2026 unit points -12.5",
+    "inactive (ankle)"
+  ],
+  "limitations": [
+    "THIN DATA: no public PFF long-snapper grade and no public snap-accuracy charting; substitutes: aborted/bad snaps parsed from nflverse pbp text, blocks on his snaps, FG make rate on his snaps, FootballKickingStats unit points (whole-unit credit), coverage tackles, penalties, availability"
+  ],
+  "role_assignment": "LS (long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS)",
+  "madden_reference": [
+    {
+      "player": "Joe Cardona",
+      "ovr": 60,
+      "madden_position": "LS",
+      "attributes": {
+        "AWR": 48,
+        "STR": 80,
+        "RBK": 45,
+        "PBK": 57,
+        "SPD": 74,
+        "TAK": 44,
+        "INJ": 94,
+        "STA": 69,
+        "TGH": 88
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 6,
+      "delta_attributes": {
+        "AWR": 22,
+        "STR": -3,
+        "RBK": 1,
+        "PBK": 2,
+        "SPD": 6,
+        "TAK": 30,
+        "INJ": -10,
+        "STA": 6,
+        "TGH": -3
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 6,
+    "attribute_gaps_10plus": {
+      "AWR": 22,
+      "TAK": 30,
+      "INJ": -10
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
