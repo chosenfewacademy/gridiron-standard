@@ -1,0 +1,258 @@
+{
+  "architecture_version": "1.1.3",
+  "methodology_version": "1.0.0",
+  "status": "LOCKED",
+  "mutation_policy": "IMMUTABLE_UNLESS_EXPLICIT_CURRENT_DATA_TOP10_REAUDIT",
+  "historical_cards_policy": "Do not fabricate missing historical full-card attributes.",
+  "position": "TE",
+  "version": "reaudit-20261104",
+  "top_10": [
+    {
+      "rank": 1,
+      "player": "Brock Bowers",
+      "ovr": 93
+    },
+    {
+      "rank": 2,
+      "player": "George Kittle",
+      "ovr": 90
+    },
+    {
+      "rank": 3,
+      "player": "Dalton Kincaid",
+      "ovr": 88
+    },
+    {
+      "rank": 4,
+      "player": "Trey McBride",
+      "ovr": 87
+    },
+    {
+      "rank": 5,
+      "player": "Sam LaPorta",
+      "ovr": 85
+    },
+    {
+      "rank": 6,
+      "player": "T.J. Hockenson",
+      "ovr": 84
+    },
+    {
+      "rank": 7,
+      "player": "Darnell Washington",
+      "ovr": 82
+    },
+    {
+      "rank": 8,
+      "player": "Travis Kelce",
+      "ovr": 81
+    },
+    {
+      "rank": 9,
+      "player": "Hunter Henry",
+      "ovr": 80
+    },
+    {
+      "rank": 10,
+      "player": "Tucker Kraft",
+      "ovr": 79
+    }
+  ],
+  "last_in": {
+    "player": "Tucker Kraft",
+    "ovr": 79
+  },
+  "first_out": {
+    "player": "Isaiah Likely",
+    "ovr": 78
+  },
+  "external_controls": [
+    {
+      "player": "Isaiah Likely",
+      "ovr": 78
+    },
+    {
+      "player": "Brenton Strange",
+      "ovr": 78
+    },
+    {
+      "player": "Dallas Goedert",
+      "ovr": 77
+    },
+    {
+      "player": "Colston Loveland",
+      "ovr": 76
+    },
+    {
+      "player": "Michael Mayer",
+      "ovr": 75
+    },
+    {
+      "player": "Kyle Pitts",
+      "ovr": 74
+    }
+  ],
+  "scarcity": {
+    "99": [],
+    "95_plus": [
+      {
+        "player": "Trey McBride",
+        "attribute": "CTH",
+        "rating": 96
+      },
+      {
+        "player": "Trey McBride",
+        "attribute": "CIT",
+        "rating": 96
+      },
+      {
+        "player": "Trey McBride",
+        "attribute": "STA",
+        "rating": 96
+      },
+      {
+        "player": "George Kittle",
+        "attribute": "RBK",
+        "rating": 96
+      },
+      {
+        "player": "George Kittle",
+        "attribute": "IBL",
+        "rating": 95
+      },
+      {
+        "player": "Brock Bowers",
+        "attribute": "COD",
+        "rating": 95
+      },
+      {
+        "player": "Tucker Kraft",
+        "attribute": "BTK",
+        "rating": 95
+      }
+    ],
+    "97_plus": [],
+    "98_plus": []
+  },
+  "full_cards_import_status": "NOT_YET_IMPORTED",
+  "supersedes": {
+    "baseline_file": "data/baselines/TE.json",
+    "version": "bootstrap-2026-08-30"
+  },
+  "stage_audit_ids": [
+    "TE_REAUDIT_CANDIDATE_AUDIT_A1",
+    "TE_REAUDIT_BG_01_A1",
+    "TE_REAUDIT_BG_02_A1",
+    "TE_REAUDIT_BG_03_A1",
+    "TE_REAUDIT_BG_04_A1",
+    "TE_REAUDIT_BG_05_A1",
+    "TE_REAUDIT_BG_06_A1",
+    "TE_REAUDIT_BG_07_A1",
+    "TE_REAUDIT_BG_08_A1",
+    "TE_REAUDIT_BG_09_A1",
+    "TE_REAUDIT_BG_10_A1",
+    "TE_REAUDIT_BG_11_A1",
+    "TE_REAUDIT_BG_12_A1",
+    "TE_REAUDIT_BG_13_A1",
+    "TE_REAUDIT_BG_14_A1",
+    "TE_REAUDIT_BG_15_A1",
+    "TE_REAUDIT_RATE_01_A1",
+    "TE_REAUDIT_RATE_02_A1",
+    "TE_REAUDIT_RATE_03_A1",
+    "TE_REAUDIT_RATE_03_A2",
+    "TE_REAUDIT_RATE_04_A1",
+    "TE_REAUDIT_RATE_04_A2",
+    "TE_REAUDIT_RATE_05_A1",
+    "TE_REAUDIT_RATE_06_A1",
+    "TE_REAUDIT_RATE_07_A1",
+    "TE_REAUDIT_RATE_08_A1",
+    "TE_REAUDIT_RATE_09_A1",
+    "TE_REAUDIT_RATE_10_A1",
+    "TE_REAUDIT_RATE_11_A1",
+    "TE_REAUDIT_RATE_12_A1",
+    "TE_REAUDIT_RATE_13_A1",
+    "TE_REAUDIT_RATE_14_A1",
+    "TE_REAUDIT_RATE_15_A1",
+    "TE_REAUDIT_H2H_01_A1",
+    "TE_REAUDIT_TIEBREAK_11_A1",
+    "TE_REAUDIT_TIEBREAK_12_A1",
+    "TE_REAUDIT_TIEBREAK_13_A1",
+    "TE_REAUDIT_TIEBREAK_14_A1",
+    "TE_REAUDIT_TIEBREAK_15_A1",
+    "TE_REAUDIT_TIEBREAK_01_A1",
+    "TE_REAUDIT_TIEBREAK_02_A1",
+    "TE_REAUDIT_TIEBREAK_03_A1",
+    "TE_REAUDIT_TIEBREAK_04_A1",
+    "TE_REAUDIT_TIEBREAK_05_A1",
+    "TE_REAUDIT_TIEBREAK_06_A1",
+    "TE_REAUDIT_TIEBREAK_07_A1",
+    "TE_REAUDIT_TIEBREAK_08_A1",
+    "TE_REAUDIT_TIEBREAK_09_A1",
+    "TE_REAUDIT_TIEBREAK_10_A1",
+    "TE_REAUDIT_RATE_04_A3",
+    "TE_REAUDIT_RATE_03_A3",
+    "TE_REAUDIT_RATE_08_A2",
+    "TE_REAUDIT_RATE_11_A2",
+    "TE_REAUDIT_RATE_10_A2",
+    "TE_REAUDIT_RATE_14_A2",
+    "TE_REAUDIT_RATE_12_A2",
+    "TE_REAUDIT_RATE_13_A2",
+    "TE_REAUDIT_RATE_15_A2",
+    "TE_REAUDIT_H2H_02_A1",
+    "TE_REAUDIT_H2H_03_A1",
+    "TE_REAUDIT_H2H_04_A1",
+    "TE_REAUDIT_H2H_05_A1",
+    "TE_REAUDIT_H2H_06_A1",
+    "TE_REAUDIT_VARIANCE_AUDIT_A1",
+    "TE_REAUDIT_SCARCITY_A1",
+    "TE_REAUDIT_TIEBREAK_16_A1",
+    "TE_REAUDIT_TIEBREAK_17_A1",
+    "TE_REAUDIT_TIEBREAK_18_A1",
+    "TE_REAUDIT_TIEBREAK_19_A1",
+    "TE_REAUDIT_TIEBREAK_20_A1",
+    "TE_REAUDIT_TIEBREAK_21_A1",
+    "TE_REAUDIT_TIEBREAK_22_A1",
+    "TE_REAUDIT_TIEBREAK_23_A1",
+    "TE_REAUDIT_TIEBREAK_24_A1",
+    "TE_REAUDIT_TIEBREAK_25_A1",
+    "TE_REAUDIT_TIEBREAK_26_A1",
+    "TE_REAUDIT_TIEBREAK_27_A1",
+    "TE_REAUDIT_TIEBREAK_28_A1",
+    "TE_REAUDIT_TIEBREAK_29_A1",
+    "TE_REAUDIT_TIEBREAK_30_A1",
+    "TE_REAUDIT_TIEBREAK_31_A1",
+    "TE_REAUDIT_TIEBREAK_32_A1",
+    "TE_REAUDIT_TIEBREAK_33_A1",
+    "TE_REAUDIT_TIEBREAK_34_A1",
+    "TE_REAUDIT_TIEBREAK_35_A1",
+    "TE_REAUDIT_TIEBREAK_36_A1",
+    "TE_REAUDIT_TIEBREAK_37_A1",
+    "TE_REAUDIT_TIEBREAK_38_A1",
+    "TE_REAUDIT_TIEBREAK_39_A1",
+    "TE_REAUDIT_TIEBREAK_40_A1",
+    "TE_REAUDIT_TIEBREAK_41_A1",
+    "TE_REAUDIT_TIEBREAK_42_A1",
+    "TE_REAUDIT_TIEBREAK_43_A1",
+    "TE_REAUDIT_TIEBREAK_44_A1",
+    "TE_REAUDIT_TIEBREAK_45_A1",
+    "TE_REAUDIT_TIEBREAK_46_A1",
+    "TE_REAUDIT_TIEBREAK_47_A1",
+    "TE_REAUDIT_TIEBREAK_48_A1",
+    "TE_REAUDIT_TIEBREAK_49_A1",
+    "TE_REAUDIT_TIEBREAK_50_A1",
+    "TE_REAUDIT_TIEBREAK_51_A1",
+    "TE_REAUDIT_BG_16_A1",
+    "TE_REAUDIT_RATE_16_A1",
+    "TE_REAUDIT_RATE_16_A2",
+    "TE_REAUDIT_CROSS_AUDIT_A1",
+    "TE_REAUDIT_RATE_05_A2",
+    "TE_REAUDIT_RATE_10_A3",
+    "TE_REAUDIT_RATE_14_A3",
+    "TE_REAUDIT_RATE_12_A3",
+    "TE_REAUDIT_RATE_15_A3",
+    "TE_REAUDIT_RATE_16_A3"
+  ],
+  "madden_order_verified": false,
+  "locked_by": "PhiXCrypto",
+  "locked_at": "2026-11-04T01:26:33Z"
+}

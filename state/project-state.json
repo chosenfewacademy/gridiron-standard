@@ -3194,7 +3194,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.json",
@@ -3409,11 +3409,12 @@
         "TE_REAUDIT_RATE_14_A3",
         "TE_REAUDIT_RATE_12_A3",
         "TE_REAUDIT_RATE_15_A3",
-        "TE_REAUDIT_RATE_16_A3"
+        "TE_REAUDIT_RATE_16_A3",
+        "TE_REAUDIT_LOCK_20261104"
       ],
-      "current_stage": "positional_cross_audit",
+      "current_stage": "lock",
       "current_task": "TE_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T01:26:19.224Z",
+      "updated_at": "2026-11-04T01:26:33Z",
       "last_result": {
         "task_id": "TE_REAUDIT_RATE_16",
         "status": "REVISION_APPROVED",
