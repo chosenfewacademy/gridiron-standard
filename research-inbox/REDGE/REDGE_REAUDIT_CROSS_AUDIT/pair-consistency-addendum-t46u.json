@@ -1,0 +1,119 @@
+{
+ "kind": "cross_audit_addendum",
+ "position": "REDGE",
+ "supplements": "REDGE_REAUDIT_CROSS_AUDIT_A1",
+ "authorized_by": "t46u",
+ "reason": "Add-only correction: the A1 cross-audit's pair-consistency scan used an un-interpolated glob and found 0 approved pair audits; re-run with the corrected path. Ratings, order and every other A1 finding are unchanged.",
+ "cross_audit_result": "CONSISTENT: all 17 approved head-to-head/tiebreak verdicts agree with the final rating order; style rule passes for all 78 pairs of 13 rated REDGEs (0 too similar); league ceiling 7 raw flags, all resolved by approved tiebreaks (Latu holds #10); variance audit 49 10+ gaps: 47 supported, 2 fixed via approved reaudit:revise; Madden reference only.",
+ "pair_consistency": [
+  {
+   "audit_id": "REDGE_REAUDIT_H2H_01_A1",
+   "winner": "Myles Garrett",
+   "loser": "Micah Parsons",
+   "consistent": true
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_H2H_02_A1",
+   "winner": "Danielle Hunter",
+   "loser": "Abdul Carter",
+   "consistent": true
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_H2H_03_A1",
+   "winner": "Josh Hines-Allen",
+   "loser": "Nik Bonitto",
+   "consistent": true
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_H2H_04_A1",
+   "winner": "Chase Young",
+   "loser": "Alex Highsmith",
+   "consistent": true
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_H2H_05_A1",
+   "winner": "Nick Herbig",
+   "loser": "Laiatu Latu",
+   "consistent": true
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_H2H_06_A1",
+   "winner": "Laiatu Latu",
+   "loser": "Al-Quadin Muhammad",
+   "consistent": true
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_TIEBREAK_01_A1",
+   "winner": "Micah Parsons",
+   "loser": "Danielle Hunter",
+   "consistent": true
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_TIEBREAK_02_A1",
+   "winner": "Abdul Carter",
+   "loser": "Josh Hines-Allen",
+   "consistent": true
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_TIEBREAK_03_A1",
+   "winner": "Nik Bonitto",
+   "loser": "Chase Young",
+   "consistent": true
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_TIEBREAK_04_A1",
+   "winner": "Alex Highsmith",
+   "loser": "Nick Herbig",
+   "consistent": true
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_TIEBREAK_05_A1",
+   "winner": "Laiatu Latu",
+   "loser": "Dallas Turner",
+   "consistent": true,
+   "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_TIEBREAK_06_A1",
+   "winner": "Laiatu Latu",
+   "loser": "Jaelan Phillips",
+   "consistent": true,
+   "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_TIEBREAK_07_A1",
+   "winner": "Laiatu Latu",
+   "loser": "Donovan Ezeiruaku",
+   "consistent": true,
+   "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_TIEBREAK_08_A1",
+   "winner": "Laiatu Latu",
+   "loser": "Jalyx Hunt",
+   "consistent": true,
+   "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_TIEBREAK_09_A1",
+   "winner": "Laiatu Latu",
+   "loser": "Arden Key",
+   "consistent": true,
+   "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_TIEBREAK_10_A1",
+   "winner": "Laiatu Latu",
+   "loser": "Jacob Martin",
+   "consistent": true,
+   "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+  },
+  {
+   "audit_id": "REDGE_REAUDIT_TIEBREAK_11_A1",
+   "winner": "Laiatu Latu",
+   "loser": "Bradley Chubb",
+   "consistent": true,
+   "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+  }
+ ]
+}
