@@ -1,0 +1,468 @@
+{
+ "position": "MIKE",
+ "references": [
+  {
+   "name": "Omar Speights",
+   "team": "LA",
+   "status": "ACT",
+   "snaps": 905,
+   "pff": 69.9,
+   "value": 0.42,
+   "efficiency": 95.9,
+   "negative_rate": 7.7,
+   "availability": 0.96,
+   "role": "MIKE"
+  },
+  {
+   "name": "Sonny Styles",
+   "team": "WAS",
+   "status": "ACT",
+   "snaps": 429,
+   "pff": 70.5,
+   "value": 1.43,
+   "efficiency": 88.5,
+   "negative_rate": 14,
+   "availability": 0.28,
+   "role": "MIKE"
+  }
+ ],
+ "thresholds": {
+  "pff": 69.9,
+  "value": 0.42,
+  "efficiency": 88.5,
+  "negative_rate": 14,
+  "availability": 0.28
+ },
+ "flagged": [
+  {
+   "name": "Bobby Wagner",
+   "team": "WAS",
+   "status": "FA(2026 unrostered)",
+   "snaps": 1132,
+   "pff": 78.7,
+   "value": 1.09,
+   "efficiency": 95.9,
+   "negative_rate": 7.1,
+   "availability": 0.68,
+   "role": "MIKE",
+   "hits": [
+    "pff",
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 4.251601630751311
+  },
+  {
+   "name": "Jihaad Campbell",
+   "team": "PHI",
+   "status": "INA",
+   "snaps": 1120,
+   "pff": 66.3,
+   "value": 0.43,
+   "efficiency": 94.9,
+   "negative_rate": 8,
+   "availability": 0.92,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.23167672206693724
+  },
+  {
+   "name": "Azeez Al-Shaair",
+   "team": "HOU",
+   "status": "ACT",
+   "snaps": 1286,
+   "pff": 67.9,
+   "value": 0.73,
+   "efficiency": 91.5,
+   "negative_rate": 14,
+   "availability": 0.88,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.4053109603488174
+  },
+  {
+   "name": "Justin Strnad",
+   "team": "DEN",
+   "status": "ACT",
+   "snaps": 1045,
+   "pff": 67.4,
+   "value": 0.83,
+   "efficiency": 93.1,
+   "negative_rate": 7.7,
+   "availability": 0.92,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.03126131373073837
+  },
+  {
+   "name": "Christian Elliss",
+   "team": "NE",
+   "status": "ACT",
+   "snaps": 987,
+   "pff": 66.3,
+   "value": 0.5,
+   "efficiency": 93.5,
+   "negative_rate": 12.2,
+   "availability": 0.92,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.0182256472297246
+  },
+  {
+   "name": "Jack Gibbens",
+   "team": "ARI",
+   "status": "ACT",
+   "snaps": 922,
+   "pff": 58.4,
+   "value": 0.66,
+   "efficiency": 93.5,
+   "negative_rate": 13,
+   "availability": 1,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.9279704032179286
+  },
+  {
+   "name": "Ernest Jones",
+   "team": "SEA",
+   "status": "ACT",
+   "snaps": 1407,
+   "pff": 59.3,
+   "value": 1.15,
+   "efficiency": 93.7,
+   "negative_rate": 11.4,
+   "availability": 0.92,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.2206501367829269
+  },
+  {
+   "name": "Troy Dye",
+   "team": "LAC",
+   "status": "ACT",
+   "snaps": 553,
+   "pff": 62.5,
+   "value": 0.76,
+   "efficiency": 89,
+   "negative_rate": 21.7,
+   "availability": 0.92,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -2.8768445207000823
+  },
+  {
+   "name": "Trevin Wallace",
+   "team": "NYJ",
+   "status": "ACT",
+   "snaps": 624,
+   "pff": 56.4,
+   "value": 0.92,
+   "efficiency": 89.7,
+   "negative_rate": 11.2,
+   "availability": 0.48,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.6042262413840747
+  },
+  {
+   "name": "Tyrel Dodson",
+   "team": "CAR",
+   "status": "ACT",
+   "snaps": 961,
+   "pff": 56.5,
+   "value": 1.11,
+   "efficiency": 91.8,
+   "negative_rate": 15.6,
+   "availability": 0.72,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -1.4777951676612138
+  },
+  {
+   "name": "Payton Wilson",
+   "team": "PIT",
+   "status": "ACT",
+   "snaps": 1171,
+   "pff": 60.5,
+   "value": 0.92,
+   "efficiency": 91.7,
+   "negative_rate": 18.8,
+   "availability": 1,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -1.8344228245218348
+  },
+  {
+   "name": "Lavonte David",
+   "team": "TB",
+   "status": "FA(2026 unrostered)",
+   "snaps": 1023,
+   "pff": 52.5,
+   "value": 1.03,
+   "efficiency": 89.8,
+   "negative_rate": 14.7,
+   "availability": 0.68,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -1.743239745278185
+  },
+  {
+   "name": "Tatum Bethune",
+   "team": "SF",
+   "status": "ACT",
+   "snaps": 499,
+   "pff": 52,
+   "value": 0.9,
+   "efficiency": 94.9,
+   "negative_rate": 18,
+   "availability": 0.4,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -2.118337657068001
+  },
+  {
+   "name": "Terrel Bernard",
+   "team": "BUF",
+   "status": "ACT",
+   "snaps": 1069,
+   "pff": 51.1,
+   "value": 0.74,
+   "efficiency": 90.2,
+   "negative_rate": 13.1,
+   "availability": 0.76,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.604699091303634
+  },
+  {
+   "name": "Quay Walker",
+   "team": "LV",
+   "status": "ACT",
+   "snaps": 1434,
+   "pff": 46.1,
+   "value": 1.07,
+   "efficiency": 96.3,
+   "negative_rate": 8.4,
+   "availability": 0.88,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.4148061865010032
+  },
+  {
+   "name": "Jeremiah Trotter Jr.",
+   "team": "PHI",
+   "status": "ACT",
+   "snaps": 284,
+   "pff": 76.5,
+   "value": 0.23,
+   "efficiency": 92.1,
+   "negative_rate": 28.2,
+   "availability": 0.44,
+   "role": "MIKE",
+   "hits": [
+    "pff",
+    "efficiency",
+    "availability"
+   ],
+   "score": -0.7203064617158978
+  },
+  {
+   "name": "Jacob Rodriguez",
+   "team": "MIA",
+   "status": "ACT",
+   "snaps": 430,
+   "pff": 60.3,
+   "value": 0.86,
+   "efficiency": 92.4,
+   "negative_rate": 11.6,
+   "availability": 0.28,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.6563770276641558
+  },
+  {
+   "name": "Anthony Hill Jr.",
+   "team": "TEN",
+   "status": "ACT",
+   "snaps": 561,
+   "pff": 53.3,
+   "value": 0.62,
+   "efficiency": 98.6,
+   "negative_rate": 1.8,
+   "availability": 0.32,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.7431566686080371
+  }
+ ],
+ "closest": [
+  {
+   "name": "Shemar James",
+   "team": "DAL",
+   "status": "ACT",
+   "snaps": 855,
+   "pff": 44.9,
+   "value": 0.31,
+   "efficiency": 94.6,
+   "negative_rate": 10.5,
+   "availability": 0.84,
+   "role": "MIKE",
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.9055015994445248
+  },
+  {
+   "name": "Teddye Buchanan",
+   "team": "BAL",
+   "status": "ACT",
+   "snaps": 744,
+   "pff": 59.2,
+   "value": 0.38,
+   "efficiency": 93.2,
+   "negative_rate": 9.4,
+   "availability": 0.8,
+   "role": "MIKE",
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.9096042127492331
+  },
+  {
+   "name": "Logan Wilson",
+   "team": "DAL",
+   "status": "FA(2026 unrostered)",
+   "snaps": 586,
+   "pff": 52.6,
+   "value": 0.4,
+   "efficiency": 89.7,
+   "negative_rate": 13.7,
+   "availability": 0.6,
+   "role": "MIKE",
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -2.339432535122692
+  },
+  {
+   "name": "Darius Muasau",
+   "team": "NE",
+   "status": "ACT",
+   "snaps": 486,
+   "pff": 51.9,
+   "value": 0.29,
+   "efficiency": 90.3,
+   "negative_rate": 14.4,
+   "availability": 0.68,
+   "role": "MIKE",
+   "hits": [
+    "efficiency",
+    "availability"
+   ],
+   "score": -2.360726397418303
+  },
+  {
+   "name": "Pete Werner",
+   "team": "NO",
+   "status": "ACT",
+   "snaps": 1053,
+   "pff": 59,
+   "value": 0.79,
+   "efficiency": 87.7,
+   "negative_rate": 18,
+   "availability": 0.96,
+   "role": "MIKE",
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": -2.376692109365376
+  }
+ ],
+ "screened": 72,
+ "read_only": true,
+ "rating_changes": []
+}

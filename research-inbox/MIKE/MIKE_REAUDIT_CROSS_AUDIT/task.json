@@ -1,0 +1,179 @@
+{
+  "task_id": "MIKE_REAUDIT_CROSS_AUDIT",
+  "type": "positional_cross_audit",
+  "players": [
+    "Fred Warner",
+    "Jack Campbell",
+    "Devin Lloyd",
+    "Ventrell Miller",
+    "Nick Bolton",
+    "Carson Schwesinger",
+    "Trenton Simpson",
+    "Cedric Gray",
+    "Dre Greenlaw",
+    "Omar Speights"
+  ],
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Fred Warner",
+        "overall": 92
+      },
+      {
+        "rank": 2,
+        "player": "Jack Campbell",
+        "overall": 87
+      },
+      {
+        "rank": 3,
+        "player": "Devin Lloyd",
+        "overall": 86
+      },
+      {
+        "rank": 4,
+        "player": "Ventrell Miller",
+        "overall": 83
+      },
+      {
+        "rank": 5,
+        "player": "Nick Bolton",
+        "overall": 82
+      },
+      {
+        "rank": 6,
+        "player": "Carson Schwesinger",
+        "overall": 81
+      },
+      {
+        "rank": 7,
+        "player": "Trenton Simpson",
+        "overall": 80
+      },
+      {
+        "rank": 8,
+        "player": "Cedric Gray",
+        "overall": 79
+      },
+      {
+        "rank": 9,
+        "player": "Dre Greenlaw",
+        "overall": 78
+      },
+      {
+        "rank": 10,
+        "player": "Omar Speights",
+        "overall": 77
+      }
+    ],
+    "external_controls": [
+      "Sonny Styles",
+      "Jamien Sherwood",
+      "T.J. Edwards"
+    ]
+  },
+  "league_ceiling_check_required": true,
+  "ceiling_references": [
+    {
+      "player": "Omar Speights",
+      "ovr": 77
+    },
+    {
+      "player": "Sonny Styles",
+      "ovr": 76
+    }
+  ],
+  "ceiling_config": {
+    "min_hits": 3,
+    "min_sample": 250,
+    "sample_key": "snaps",
+    "metrics": [
+      {
+        "key": "pff",
+        "label": "PFF overall grade (snap-weighted 2025-26)",
+        "better": "higher",
+        "production": true
+      },
+      {
+        "key": "value",
+        "label": "position value metric (EPA/WAR-type, see variance domains)",
+        "better": "higher",
+        "production": true
+      },
+      {
+        "key": "efficiency",
+        "label": "primary position efficiency metric",
+        "better": "higher"
+      },
+      {
+        "key": "negative_rate",
+        "label": "negative-play rate (penalties/pressures allowed/missed tackles as applicable)",
+        "better": "lower"
+      },
+      {
+        "key": "availability",
+        "label": "games played share",
+        "better": "higher"
+      }
+    ],
+    "scope": "Every rostered or free-agent player at the position outside the audited pool with meaningful 2025-26 snaps (starters, recent starters, notable backups, rookies)."
+  },
+  "position": "MIKE",
+  "stage": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 13,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "run defense",
+      "coverage",
+      "pass rush",
+      "tackling",
+      "missed tackle %"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks",
+      "INT, PBU",
+      "missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by role (MIKE/WILL/SAM)",
+      "coverage snaps",
+      "blitz rate",
+      "box vs slot alignment"
+    ],
+    "on_field_impact": [
+      "run-stop %",
+      "yards per coverage snap allowed",
+      "passer rating allowed"
+    ],
+    "madden_attributes_informed": [
+      "TAK",
+      "HIT",
+      "PUR",
+      "PRC",
+      "BSH",
+      "MCV",
+      "ZCV",
+      "PMV",
+      "FMV",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Middle/green-dot role; play-calling responsibility is context only."
+  }
+}
