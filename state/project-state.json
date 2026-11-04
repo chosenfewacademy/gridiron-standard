@@ -11904,7 +11904,7 @@
         "position": "FS",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/FS.reaudit.json",
       "baseline_file": null,
@@ -11913,13 +11913,15 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T12:24:29.609Z",
-      "completed_tasks": [],
+      "completed_tasks": [
+        "FS_REAUDIT_CANDIDATE_AUDIT"
+      ],
       "audit_ids": [
         "FS_REAUDIT_CANDIDATE_AUDIT_A1"
       ],
       "current_stage": "candidate_audit",
       "current_task": "FS_REAUDIT_CANDIDATE_AUDIT",
-      "updated_at": "2026-11-04T12:24:29.628Z",
+      "updated_at": "2026-11-04T12:24:33.978Z",
       "last_result": {
         "task_id": "FS_REAUDIT_CANDIDATE_AUDIT",
         "status": "FLAGGED",
@@ -11930,11 +11932,17 @@
           "FS_SS_SPLIT_BY_DEPTH_CHART"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "FS_REAUDIT_CANDIDATE_AUDIT",
-        "audit_id": "FS_REAUDIT_CANDIDATE_AUDIT_A1"
-      }
+      "awaiting": null,
+      "approvals": [
+        {
+          "decision": "APPROVED",
+          "task_id": "FS_REAUDIT_CANDIDATE_AUDIT",
+          "audit_id": "FS_REAUDIT_CANDIDATE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:24:33Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        }
+      ]
     }
   ]
 }
