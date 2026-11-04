@@ -1,0 +1,40 @@
+# K_REAUDIT_H2H_05 — Cameron Dicker vs Chris Boswell (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "K_REAUDIT_H2H_05_A1",
+  "task_id": "K_REAUDIT_H2H_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Cameron Dicker",
+    "Chris Boswell"
+  ],
+  "pair_result": {
+    "winner": "Cameron Dicker",
+    "loser": "Chris Boswell",
+    "provisional_order_holds": true,
+    "reasoning": "Dicker's 50/55 (91%) with 29/30 from 0-39 beats Boswell's 45/55 (82%); both dipped in 2026 (FG EPA -1.3 vs -1.2), and Boswell's 50+ range (12/17, long 60) keeps it narrow.",
+    "key_evidence_for_winner": [
+      "Cameron Dicker (LAC) role placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K; roster ACT (K); injuries no injury designation 2025-26",
+      "Cameron Dicker 2026: PFF K 2026 overall 62.3 (K rank 21); 2026 kickoffs 27, touchback 5 (18.5%), return avg 23.2, 0 out of bounds; 0 accepted penalties; 2026 FG 12/14 (86%): 0-39 8/8, 40-49 4/5, 50-59 0/1, 60+ 0/0; long 46; 0 blocked; FG EPA -1.3; XP 9/9",
+      "Cameron Dicker 2025: PFF K 2025 overall 91 (K rank 8); 2025 kickoffs 90, touchback 16 (17.8%), return avg 26.6, 2 out of bounds; 3 accepted penalties; 2025 FG 38/41 (93%): 0-39 21/22, 40-49 12/13, 50-59 5/6, 60+ 0/0; long 59; 0 blocked; FG EPA +17.0; XP 34/35"
+    ],
+    "key_evidence_for_loser": [
+      "Chris Boswell (PIT) role placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K; roster ACT (K); injuries no injury designation 2025-26",
+      "Chris Boswell 2026: PFF K 2026 overall 62.7 (K rank 20); 2026 kickoffs 41, touchback 7 (17.1%), return avg 27.6, 0 out of bounds; 0 accepted penalties; 2026 FG 18/23 (78%): 0-39 10/10, 40-49 4/6, 50-59 4/7, 60+ 0/0; long 58; 0 blocked; FG EPA -1.2; XP 16/16",
+      "Chris Boswell 2025: PFF K 2025 overall 92.5 (K rank 4); 2025 kickoffs 88, touchback 7 (8.0%), return avg 23.6, 1 out of bounds; 3 accepted penalties; 2025 FG 27/32 (84%): 0-39 8/10, 40-49 10/11, 50-59 8/10, 60+ 1/1; long 60; 1 blocked; FG EPA +17.3; XP 42/43"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
