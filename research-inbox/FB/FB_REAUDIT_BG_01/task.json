@@ -1,0 +1,111 @@
+{
+  "task_id": "FB_REAUDIT_BG_01",
+  "type": "background_analysis",
+  "players": [
+    "Kyle Juszczyk"
+  ],
+  "player_id": "ext_00-0029892",
+  "team": "SF",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Kyle Juszczyk"
+      },
+      {
+        "rank": 2,
+        "player": "Patrick Ricard"
+      },
+      {
+        "rank": 3,
+        "player": "Hunter Luepke"
+      },
+      {
+        "rank": 4,
+        "player": "Connor Heyward"
+      },
+      {
+        "rank": 5,
+        "player": "Adam Prentice"
+      },
+      {
+        "rank": 6,
+        "player": "Michael Burton"
+      },
+      {
+        "rank": 7,
+        "player": "Reggie Gilliam"
+      },
+      {
+        "rank": 8,
+        "player": "Alec Ingold"
+      },
+      {
+        "rank": 9,
+        "player": "Andrew Beck"
+      },
+      {
+        "rank": 10,
+        "player": "Scott Matlock"
+      }
+    ],
+    "external_controls": [
+      "Brady Russell",
+      "Max Bredeson",
+      "DJ Herman"
+    ]
+  },
+  "position": "FB",
+  "stage": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 21,
+    "group": "Offense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall offense grade (player page)",
+      "run blocking",
+      "pass blocking",
+      "receiving"
+    ],
+    "position_stats": [
+      "carries, yards, TD",
+      "targets, receptions, yards",
+      "short-yardage/goal-line touches"
+    ],
+    "usage_snap_metrics": [
+      "offensive snaps and snap share at FB alignment",
+      "21/22-personnel share",
+      "lead-block snaps"
+    ],
+    "on_field_impact": [
+      "team rush EPA/success rate with FB on field",
+      "short-yardage conversion rate"
+    ],
+    "madden_attributes_informed": [
+      "RBK",
+      "PBK",
+      "IBL",
+      "LBK",
+      "STR",
+      "IMP",
+      "TRK",
+      "CAR",
+      "CTH",
+      "SPD",
+      "AWR"
+    ],
+    "note": "v1.1 addendum bucket (docs/amendments/v1.1-addendum-fb-ls.md). Inputs only; NOT in config/position-sequence.json or state until the commissioner enacts the addendum."
+  }
+}
