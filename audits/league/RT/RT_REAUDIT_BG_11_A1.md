@@ -1,0 +1,164 @@
+# RT_REAUDIT_BG_11 — Zach Bako-Bewele background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "RT_REAUDIT_BG_11_A1",
+  "task_id": "RT_REAUDIT_BG_11",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "player_id": "ext_00-0037817",
+  "players": [
+    "Zach Bako-Bewele"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Zach Bako-Bewele",
+    "player_id": "ext_00-0037817",
+    "team": "GB",
+    "pff": {
+      "2025": {
+        "rank": 10,
+        "pff": 83.5,
+        "team": "green-bay-packers",
+        "off": 604,
+        "pblk": 351,
+        "rblk": 253,
+        "age": 27.6,
+        "qual": true,
+        "roster": "IR"
+      },
+      "2026": {
+        "rank": null,
+        "pff": 59.4,
+        "team": "green-bay-packers",
+        "off": 71,
+        "pblk": 49,
+        "rblk": 22,
+        "age": 27.6,
+        "qual": false,
+        "roster": "IR"
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 1,
+        "off": 63
+      },
+      "2026": {
+        "games": 2,
+        "off": 71
+      }
+    },
+    "penalties": {
+      "2025": {
+        "total": 0,
+        "types": {}
+      },
+      "2026": {
+        "total": 0,
+        "types": {}
+      }
+    },
+    "depth_chart_side": {
+      "2025": {},
+      "2026": {
+        "RT": 50
+      }
+    },
+    "espn_win_rates": "not in ESPN OT top-20 PBWR / top-10 RBWR lists",
+    "injuries": {
+      "2025": [
+        "wk2 Questionable (Oblique)",
+        "wk3 Questionable (Oblique)",
+        "wk4 Out (Oblique)",
+        "wk6 Questionable (Oblique)",
+        "wk7 Questionable (Oblique)",
+        "wk10 Questionable (Back)",
+        "wk16 Questionable (Back)",
+        "wk17 Questionable (Back)",
+        "wk18 Questionable (Back)",
+        "wk19 Questionable (Back)"
+      ],
+      "2026": [
+        "wk1 Questionable (Knee)",
+        "wk2 Questionable (Knee)",
+        "wk3 Out (Knee)"
+      ]
+    },
+    "summary_lines": [
+      "Zach Bako-Bewele (GB) 2026: PFF 2026 59.4 (rank None, 71 snaps: 49 pass-block / 22 run-block, pass share 0.69); 2 g / 71 off snaps; 0 accepted penalties {}; depth-chart side {'RT': 50}",
+      "Zach Bako-Bewele 2025: PFF 2025 83.5 (rank 10, 604 snaps: 351 pass-block / 253 run-block, pass share 0.58); 1 g / 63 off snaps; 0 accepted penalties {}; side {}",
+      "Zach Bako-Bewele ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists",
+      "Zach Bako-Bewele injury reports: {'2025': ['wk2 Questionable (Oblique)', 'wk3 Questionable (Oblique)', 'wk4 Out (Oblique)', 'wk6 Questionable (Oblique)', 'wk7 Questionable (Oblique)', 'wk10 Questionable (Back)', 'wk16 Questionable (Back)', 'wk17 Questionable (Back)', 'wk18 Questionable (Back)', 'wk19 Questionable (Back)'], '2026': ['wk1 Questionable (Knee)', 'wk2 Questionable (Knee)', 'wk3 Out (Knee)']}; roster status RES"
+    ],
+    "availability": {
+      "roster_status": "RES"
+    },
+    "limitations": [
+      "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports",
+      "limited/absent 2026 sample"
+    ],
+    "attributes_informed": [
+      "STR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH",
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2026",
+        "retrieved_at": "2026-11-04T03:59:45Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2025",
+        "retrieved_at": "2026-11-04T03:59:45Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T03:59:45Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T03:59:45Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T03:59:45Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T03:59:45Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T03:59:45Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:59:45Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
