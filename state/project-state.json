@@ -5600,7 +5600,7 @@
         "position": "C",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/C.reaudit.json",
       "baseline_file": null,
@@ -5649,7 +5649,8 @@
         "C_REAUDIT_TIEBREAK_04",
         "C_REAUDIT_TIEBREAK_05",
         "C_REAUDIT_TIEBREAK_06",
-        "C_REAUDIT_VARIANCE_AUDIT"
+        "C_REAUDIT_VARIANCE_AUDIT",
+        "C_REAUDIT_SCARCITY"
       ],
       "audit_ids": [
         "C_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -5701,18 +5702,14 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "C_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T03:34:35.172Z",
+      "updated_at": "2026-11-04T03:34:41.129Z",
       "last_result": {
         "task_id": "C_REAUDIT_SCARCITY",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "C_REAUDIT_SCARCITY",
-        "audit_id": "C_REAUDIT_SCARCITY_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -6078,6 +6075,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:34:23Z",
           "note": "Standing commissioner approval t46u/t50s441: Approved variance fix (C_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): AWR 70->76 (2 penalties in 2025 on 937 snaps). OVR unchanged."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "C_REAUDIT_SCARCITY",
+          "audit_id": "C_REAUDIT_SCARCITY_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:34:40Z",
+          "note": "Standing commissioner approval t46u/t50s441: scarcity PASS"
         }
       ]
     }
