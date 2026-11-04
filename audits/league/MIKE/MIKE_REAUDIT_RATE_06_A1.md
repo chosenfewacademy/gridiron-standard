@@ -1,0 +1,398 @@
+# MIKE_REAUDIT_RATE_06 — Carson Schwesinger rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "MIKE_REAUDIT_RATE_06_A1",
+  "task_id": "MIKE_REAUDIT_RATE_06",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "MIKE",
+  "player_id": "ext_00-0040579",
+  "players": [
+    "Carson Schwesinger"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 86,
+    "ACC": 88,
+    "AGI": 82,
+    "COD": 80,
+    "STR": 74,
+    "AWR": 80,
+    "PRC": 82,
+    "TAK": 80,
+    "POW": 80,
+    "BSH": 78,
+    "PUR": 90,
+    "MCV": 66,
+    "ZCV": 74,
+    "PRS": 60,
+    "INJ": 90,
+    "STA": 90,
+    "TGH": 88
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PUR": "MEDIUM",
+    "MCV": "MEDIUM",
+    "ZCV": "MEDIUM",
+    "PRS": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks; PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes; range from tackles/PD in 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF. Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks; PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes; range from tackles/PD in 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF. Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks; PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes; range from tackles/PD in 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF. Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks; PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes; range from tackles/PD in 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF. Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF LB 2026 overall 66 on 519 snaps (LB rank 30; 213 run-def / 264 coverage / 42 pass-rush snaps); TFL/sacks in 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF / 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF. Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 1/0; PFF LB 2026 overall 66 on 519 snaps (LB rank 30; 213 run-def / 264 coverage / 42 pass-rush snaps). Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 75.3 on 958 snaps (LB rank 18; 410 run-def / 475 coverage / 73 pass-rush snaps); PFF LB 2026 overall 66 on 519 snaps (LB rank 30; 213 run-def / 264 coverage / 42 pass-rush snaps); TFL in 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF / 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF. Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks; PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes. Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks; PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes. Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 75.3 on 958 snaps (LB rank 18; 410 run-def / 475 coverage / 73 pass-rush snaps); PFF LB 2026 overall 66 on 519 snaps (LB rank 30; 213 run-def / 264 coverage / 42 pass-rush snaps); TFL in 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF / 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF. Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 75.3 on 958 snaps (LB rank 18; 410 run-def / 475 coverage / 73 pass-rush snaps); PFF LB 2026 overall 66 on 519 snaps (LB rank 30; 213 run-def / 264 coverage / 42 pass-rush snaps); TFL in 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF / 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF. Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks; PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes; PFF LB 2025 overall 75.3 on 958 snaps (LB rank 18; 410 run-def / 475 coverage / 73 pass-rush snaps); PFF LB 2026 overall 66 on 519 snaps (LB rank 30; 213 run-def / 264 coverage / 42 pass-rush snaps). Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Listed weakness area: 2026 grade (66.0), coverage (104 rating allowed 2025)",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks; PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes; PFF LB 2025 overall 75.3 on 958 snaps (LB rank 18; 410 run-def / 475 coverage / 73 pass-rush snaps); PFF LB 2026 overall 66 on 519 snaps (LB rank 30; 213 run-def / 264 coverage / 42 pass-rush snaps). Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Listed weakness area: 2026 grade (66.0), coverage (104 rating allowed 2025)",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (pass rush): blitz/pressure lines: PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks; PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes; sacks in 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF / 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF. Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Carson Schwesinger injury reports: wk10 Questionable (Ankle); wk18 Out (Ankle); wk6 Questionable (Ankle); roster status ACT; 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF (2025), 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF (2026). Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF (2025), 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF (2026). Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF (2025), 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF (2026). Style: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+      "why_not_higher": "Evidence does not separate him from higher-rated MIKEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated MIKEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "PUR": {
+      "tier": "ELITE",
+      "claim": "run defense: PFF LB 2025 overall 75.3 on 958 snaps (LB rank 18; 410 run-def / 475 coverage / 73 pass-rush snaps); PFF LB 2026 overall 66 on 519 snaps (LB rank 30; 213 run-def / 264 coverage / 42 pass-rush snaps); TFL in 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF / 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Carson Schwesinger injury reports: wk10 Questionable (Ankle); wk18 Out (Ankle); wk6 Questionable (Ankle); roster status ACT; 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF (2025), 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF (2025), 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 81,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+  "style_profile": "Carson Schwesinger: Rangy second-year MIKE: 156 tackles and 11 TFL as a 2025 rookie (PFF 75.3), 66.0 in 2026, 1,477 snaps without an injury designation.",
+  "style_evidence": [
+    "Carson Schwesinger (CLE) Carson Schwesinger 2026: PFF LB 2026 overall 66 on 519 snaps (LB rank 30; 213 run-def / 264 coverage / 42 pass-rush snaps); PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes; 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF; 0 accepted penalties",
+    "Carson Schwesinger 2025: PFF LB 2025 overall 75.3 on 958 snaps (LB rank 18; 410 run-def / 475 coverage / 73 pass-rush snaps); PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks; 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF; 1 accepted penalties",
+    "Carson Schwesinger role: snap-weighted 2025-26 depth-chart role shares MIKE 1472 / WILL 4 / SAM 0 / edge 0 (raw snapshots MIKE25 220, WILL25 1, MIKE26 275) -> MIKE (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card MIKE (reference only)",
+    "Carson Schwesinger injury reports: wk10 Questionable (Ankle); wk18 Out (Ankle); wk6 Questionable (Ankle); roster status ACT"
+  ],
+  "input_dossier": "MIKE_REAUDIT_BG_06_A1",
+  "weaknesses": [
+    "2026 grade (66.0)",
+    "coverage (104 rating allowed 2025)"
+  ],
+  "limitations": [
+    "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+  ],
+  "role_assignment": "MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 1472 / WILL 4 / SAM 0 / edge 0 (raw snapshots MIKE25 220, WILL25 1, MIKE26 275) -> MIKE)",
+  "madden_reference": [
+    {
+      "player": "Carson Schwesinger",
+      "ovr": 85,
+      "madden_position": "MIKE",
+      "attributes": {
+        "SPD": 87,
+        "ACC": 90,
+        "AGI": 83,
+        "COD": 79,
+        "STR": 75,
+        "AWR": 89,
+        "PRC": 87,
+        "TAK": 87,
+        "POW": 83,
+        "BSH": 75,
+        "PUR": 90,
+        "MCV": 69,
+        "ZCV": 74,
+        "PRS": 52,
+        "INJ": 90,
+        "STA": 88,
+        "TGH": 90
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -4,
+      "delta_attributes": {
+        "SPD": -1,
+        "ACC": -2,
+        "AGI": -1,
+        "COD": 1,
+        "STR": -1,
+        "AWR": -9,
+        "PRC": -5,
+        "TAK": -7,
+        "POW": -3,
+        "BSH": 3,
+        "PUR": 0,
+        "MCV": -3,
+        "ZCV": 0,
+        "PRS": 8,
+        "INJ": 0,
+        "STA": 2,
+        "TGH": -2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 4,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
