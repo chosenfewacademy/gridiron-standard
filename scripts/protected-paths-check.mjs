@@ -154,7 +154,7 @@ export function stateChangeAllowed(baseText, headText) {
 // FOURTH NARROW EXCEPTION (commissioner-approved 2026-11-02 1:36 PM ET): NEW audit record files for TOP10_REAUDIT
 // tasks may be added under audits/league/<POS>/<POS>_REAUDIT_*.{json,md}. Status must be "A" (added); existing audit
 // files can never be modified, renamed or deleted. JSON records must declare audit_type TOP10_REAUDIT (checked by allowAudit).
-export const REAUDIT_AUDIT_RE = /^audits\/league\/([A-Z]{1,4})\/\1_REAUDIT_[A-Z0-9_]+\.(json|md)$/;
+export const REAUDIT_AUDIT_RE = /^audits\/league\/([A-Z]{1,5})\/\1_REAUDIT_[A-Z0-9_]+\.(json|md)$/;
 export function reauditAuditAddAllowed(status, p, jsonText) {
   if (status !== "A" || !REAUDIT_AUDIT_RE.test(p)) return false;
   if (p.endsWith(".json")) { try { return JSON.parse(jsonText).audit_type === "TOP10_REAUDIT"; } catch { return false; } }
