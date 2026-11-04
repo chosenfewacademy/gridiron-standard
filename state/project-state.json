@@ -8200,7 +8200,7 @@
         "position": "LEDGE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LEDGE.reaudit.json",
       "baseline_file": null,
@@ -8273,18 +8273,23 @@
         "LEDGE_REAUDIT_H2H_01_A1",
         "LEDGE_REAUDIT_H2H_02_A1",
         "LEDGE_REAUDIT_H2H_03_A1",
-        "LEDGE_REAUDIT_H2H_04_A1"
+        "LEDGE_REAUDIT_H2H_04_A1",
+        "LEDGE_REAUDIT_H2H_05_A1"
       ],
       "current_stage": "pair_audits",
-      "current_task": "LEDGE_REAUDIT_H2H_04",
-      "updated_at": "2026-11-04T11:09:01.034Z",
+      "current_task": "LEDGE_REAUDIT_H2H_05",
+      "updated_at": "2026-11-04T11:09:01.928Z",
       "last_result": {
-        "task_id": "LEDGE_REAUDIT_H2H_04",
+        "task_id": "LEDGE_REAUDIT_H2H_05",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "LEDGE_REAUDIT_H2H_05",
+        "audit_id": "LEDGE_REAUDIT_H2H_05_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
