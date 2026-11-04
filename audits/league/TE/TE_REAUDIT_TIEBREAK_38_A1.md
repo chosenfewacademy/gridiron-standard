@@ -1,0 +1,39 @@
+# TE_REAUDIT_TIEBREAK_38 — Charlie Kolar vs Tucker Kraft (v1.1.2 head-to-head tiebreak; authorized by t45s389)
+
+```json
+{
+  "audit_id": "TE_REAUDIT_TIEBREAK_38_A1",
+  "task_id": "TE_REAUDIT_TIEBREAK_38",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Charlie Kolar",
+    "Tucker Kraft"
+  ],
+  "pair_result": {
+    "winner": "Tucker Kraft",
+    "loser": "Charlie Kolar",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s389). Charlie Kolar: 2025 13 g, 15 tgt, 142 yds, 2 TD, EPA/tgt +0.344, PFF 77.5, YPRR 1.35, block share 0.74; 2026 5 g, 17 tgt, 98 yds, 0 TD, EPA/tgt -0.896, PFF 64.1, YPRR 1.04, block share 0.54. Tucker Kraft: 2025 8 g, 44 tgt, 489 yds, 6 TD, EPA/tgt +0.889, PFF 78.1, YPRR 2.2, block share 0.49; 2026 8 g, 49 tgt, 350 yds, 3 TD, EPA/tgt +0.442, PFF 64.5, YPRR 1.37, block share 0.41. Kraft's EPA/tgt (+.889 in 2025, +.442 in 2026), YAC/rec (10.8/5.3) and two-way usage (block share .49/.41) outweigh blocking specialist (block share .74/.54) with 32 targets over two seasons and 2026 EPA/tgt -.896. Tucker Kraft holds #10.",
+    "key_evidence_for_winner": [
+      "Tucker Kraft PFF TE overall grade 2026 64.5, 2025 78.1; 2026 PFF snaps {'off': '434', 'routes': '255', 'pblk': '40', 'rblk': '137'} (block share 0.41); 2025 PFF snaps {'off': '440', 'routes': '222', 'pblk': '33', 'rblk': '184'} (block share 0.49); age 26, 77 in 259 lb",
+      "Tucker Kraft (GB) 2026: 8 g 49 tgt 350 yds 3 TD, EPA/tgt 0.442, YPRR 1.37, TPRR 0.192, NGS sep 3.38, aDOT 5.7, deep 5 tgt catch 0.4 EPA/tgt 0.47, short catch 0.76, YAC/rec 5.3, RZ tgt 9, 3rd/4th conv 8/12, fum lost 0",
+      "Tucker Kraft (GB) 2025: 8 g 44 tgt 489 yds 6 TD, EPA/tgt 0.889, YPRR 2.2, TPRR 0.198, NGS sep None, aDOT 4.6, deep 2 tgt catch 0.5 EPA/tgt 0.22, short catch 0.71, YAC/rec 10.8, RZ tgt 12, 3rd/4th conv 11/15, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Charlie Kolar PFF TE overall grade 2026 64.1, 2025 77.5; 2026 PFF snaps {'off': '206', 'routes': '94', 'pblk': '16', 'rblk': '96'} (block share 0.54); 2025 PFF snaps {'off': '402', 'routes': '105', 'pblk': '22', 'rblk': '275'} (block share 0.74); age 27, 78 in 250 lb",
+      "Charlie Kolar (LAC) 2026: 5 g 17 tgt 98 yds 0 TD, EPA/tgt -0.896, YPRR 1.04, TPRR 0.181, NGS sep None, aDOT 5.4, deep 0 tgt catch None EPA/tgt None, short catch 0.54, YAC/rec 2.9, RZ tgt 2, 3rd/4th conv 2/5, fum lost 1",
+      "Charlie Kolar (BAL) 2025: 13 g 15 tgt 142 yds 2 TD, EPA/tgt 0.344, YPRR 1.35, TPRR 0.143, NGS sep None, aDOT 7.1, deep 0 tgt catch None EPA/tgt None, short catch 0.56, YAC/rec 5.2, RZ tgt 3, 3rd/4th conv 1/2, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
