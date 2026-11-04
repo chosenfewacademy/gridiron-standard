@@ -311,3 +311,7 @@ npm run roster:refresh -- 2026 --from-file research-inbox/_cache/roster_2026.csv
 
 `--add-only` never modifies existing registry entries (no team/position/ID rewrites), so it is safe while
 positions are locked. `--dry-run` writes nothing. Commit registry changes only when they purely add players.
+
+## Process
+
+Locked operating process (add-only): [docs/process/gridiron-standard-process.md](docs/process/gridiron-standard-process.md)
