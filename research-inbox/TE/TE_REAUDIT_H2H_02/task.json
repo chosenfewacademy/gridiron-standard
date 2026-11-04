@@ -2,8 +2,8 @@
   "type": "pair_audit",
   "task_id": "TE_REAUDIT_H2H_02",
   "players": [
-    "Trey McBride",
-    "Dalton Kincaid"
+    "Dalton Kincaid",
+    "Trey McBride"
   ],
   "baseline_controls": {
     "locked_baseline": {
@@ -73,13 +73,13 @@
       },
       {
         "rank": 3,
-        "player": "Trey McBride",
+        "player": "Dalton Kincaid",
         "overall": 88
       },
       {
         "rank": 4,
-        "player": "Dalton Kincaid",
-        "overall": 86
+        "player": "Trey McBride",
+        "overall": 87
       },
       {
         "rank": 5,
@@ -99,7 +99,7 @@
       {
         "rank": 8,
         "player": "Travis Kelce",
-        "overall": 82
+        "overall": 81
       },
       {
         "rank": 9,
@@ -108,12 +108,12 @@
       },
       {
         "rank": 10,
-        "player": "Isaiah Likely",
+        "player": "Tucker Kraft",
         "overall": 79
       }
     ],
     "external_controls": [
-      "Tucker Kraft",
+      "Isaiah Likely",
       "Dallas Goedert",
       "Colston Loveland",
       "Michael Mayer",

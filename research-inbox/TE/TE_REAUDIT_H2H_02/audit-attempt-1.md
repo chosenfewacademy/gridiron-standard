@@ -1,4 +1,4 @@
-# TE_REAUDIT_H2H_02 — Trey McBride vs Dalton Kincaid (v1.1.2 head-to-head; authorized by t45s383)
+# TE_REAUDIT_H2H_02 — Dalton Kincaid vs Trey McBride (v1.1.2 head-to-head; authorized by t45s389)
 
 ```json
 {
@@ -11,13 +11,13 @@
   "methodology_version": "1.1.0",
   "confidence": "LOW",
   "players": [
-    "Trey McBride",
-    "Dalton Kincaid"
+    "Dalton Kincaid",
+    "Trey McBride"
   ],
   "pair_result": {
     "winner": "Dalton Kincaid",
     "loser": "Trey McBride",
-    "provisional_order_holds": false,
+    "provisional_order_holds": true,
     "reasoning": "Order flips. Kincaid leads efficiency in both years: EPA/tgt (+.788/+.481 vs +.428/+.293), YPRR (2.12/2.29 vs 1.68/1.53), PFF overall (86.7/77.0 vs 81.7/74.2) and YAC (6.6/5.6 vs 4.6/3.0). McBride leads volume and availability (170 tgt, 1,239 yds, 11 TD, 34 RZ tgt in 17 g in 2025; 86 tgt in 2026) and 3rd-down (22/37). Kincaid narrowly; proposed Kincaid 88, McBride 87.",
     "key_evidence_for_winner": [
       "Dalton Kincaid PFF TE overall grade 2026 77.0, 2025 86.7; 2026 PFF snaps {'off': '310', 'routes': '175', 'pblk': '8', 'rblk': '127'} (block share 0.44); 2025 PFF snaps {'off': '368', 'routes': '269', 'pblk': '3', 'rblk': '96'} (block share 0.27); age 27, 75 in 246 lb",
