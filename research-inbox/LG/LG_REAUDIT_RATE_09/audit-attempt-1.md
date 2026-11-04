@@ -1,0 +1,342 @@
+# LG_REAUDIT_RATE_09 — Matthew Bergeron rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u/t50s441)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "LG_REAUDIT_RATE_09_A1",
+  "task_id": "LG_REAUDIT_RATE_09",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "player_id": "ext_00-0039048",
+  "players": [
+    "Matthew Bergeron"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 84,
+    "SPD": 66,
+    "ACC": 74,
+    "AGI": 73,
+    "COD": 64,
+    "AWR": 80,
+    "INJ": 86,
+    "STA": 88,
+    "TGH": 86,
+    "PBK": 76,
+    "PBP": 78,
+    "PBF": 75,
+    "RBK": 80,
+    "RBP": 76,
+    "RBF": 84,
+    "IBL": 80,
+    "LBK": 82
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Matthew Bergeron (ATL) 2026: PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54); 8 g / 497 off snaps; 1 accepted penalties {'Offensive Holding': 1}; depth-chart side {'LG': 226}; Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists. Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Listed weakness area: power anchor, pass pro vs power",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 1 accepted penalties {'Offensive Holding': 1}, 2025 2 accepted penalties {'Ineligible Downfield Pass': 1, 'Offensive Holding': 1}; PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Matthew Bergeron injury reports: {'2025': ['wk10 Out (Ankle)', 'wk11 Out (Ankle)', 'wk12 Questionable (Ankle)']}; roster status ACT; snaps 15 g / 912 off snaps (2025), 8 g / 497 off snaps (2026). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 15 g / 912 off snaps (2025), 8 g / 497 off snaps (2026). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 15 g / 912 off snaps (2025), 8 g / 497 off snaps (2026). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54); PFF 2025 70.8 (rank 20, 912 snaps: 519 pass-block / 393 run-block, pass share 0.57). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Listed weakness area: power anchor, pass pro vs power",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54); PFF 2025 70.8 (rank 20, 912 snaps: 519 pass-block / 393 run-block, pass share 0.57). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Listed weakness area: power anchor, pass pro vs power",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54); PFF 2025 70.8 (rank 20, 912 snaps: 519 pass-block / 393 run-block, pass share 0.57). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Listed weakness area: power anchor, pass pro vs power",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54); PFF 2025 70.8 (rank 20, 912 snaps: 519 pass-block / 393 run-block, pass share 0.57). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54); PFF 2025 70.8 (rank 20, 912 snaps: 519 pass-block / 393 run-block, pass share 0.57). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54); PFF 2025 70.8 (rank 20, 912 snaps: 519 pass-block / 393 run-block, pass share 0.57). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54); PFF 2025 70.8 (rank 20, 912 snaps: 519 pass-block / 393 run-block, pass share 0.57). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54); PFF 2025 70.8 (rank 20, 912 snaps: 519 pass-block / 393 run-block, pass share 0.57). Style: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 75,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+  "style_profile": "Matthew Bergeron: Agile reach-and-climb guard: PFF 70.8 then 71.9, near-even pass/run split (268/228 in 2026), 2 and 1 penalties; lighter anchor.",
+  "style_evidence": [
+    "Matthew Bergeron (ATL) 2026: PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54); 8 g / 497 off snaps; 1 accepted penalties {'Offensive Holding': 1}; depth-chart side {'LG': 226}",
+    "Matthew Bergeron 2025: PFF 2025 70.8 (rank 20, 912 snaps: 519 pass-block / 393 run-block, pass share 0.57); 15 g / 912 off snaps; 2 accepted penalties {'Ineligible Downfield Pass': 1, 'Offensive Holding': 1}; side {'LG': 1}",
+    "Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+    "Matthew Bergeron injury reports: {'2025': ['wk10 Out (Ankle)', 'wk11 Out (Ankle)', 'wk12 Questionable (Ankle)']}; roster status ACT"
+  ],
+  "input_dossier": "LG_REAUDIT_BG_09_A1",
+  "weaknesses": [
+    "power anchor",
+    "pass pro vs power"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Matthew Bergeron",
+      "ovr": 80,
+      "attributes": {
+        "STR": 89,
+        "SPD": 63,
+        "ACC": 75,
+        "AGI": 71,
+        "COD": 59,
+        "AWR": 84,
+        "INJ": 93,
+        "STA": 86,
+        "TGH": 88,
+        "PBK": 80,
+        "PBP": 83,
+        "PBF": 78,
+        "RBK": 83,
+        "RBP": 79,
+        "RBF": 84,
+        "IBL": 88,
+        "LBK": 79
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -5,
+      "delta_attributes": {
+        "STR": -5,
+        "SPD": 3,
+        "ACC": -1,
+        "AGI": 2,
+        "COD": 5,
+        "AWR": -4,
+        "INJ": -7,
+        "STA": 2,
+        "TGH": -2,
+        "PBK": -4,
+        "PBP": -5,
+        "PBF": -3,
+        "RBK": -3,
+        "RBP": -3,
+        "RBF": 0,
+        "IBL": -8,
+        "LBK": 3
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 G, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 5,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u/t50s441"
+}
+```
