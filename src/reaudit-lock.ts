@@ -28,22 +28,25 @@ export function buildLock(inp: LockInput, root = process.cwd()) {
   const locksPath = path.join(root, "state/locks.json");
   const locks = JSON.parse(fs.readFileSync(locksPath, "utf8"));
   const cur = locks.positions?.[pos];
-  if (!cur || cur.status !== "LOCKED") throw new Error(`${pos}: no LOCKED entry in state/locks.json`);
+  // Addendum 2026-11-04 (t50s441): FIRST lock of a never-locked position (no locks entry, no baseline). Writes only a new
+  // dated baseline + a new locks entry with empty history; never fabricates a previous baseline.
+  const first = !cur;
+  if (cur && cur.status !== "LOCKED") throw new Error(`${pos}: no LOCKED entry in state/locks.json`);
   const day = inp.approved_at.slice(0, 10).replace(/-/g, "");
   const file = `data/baselines/${pos}.reaudit-${day}.json`;
   if (fs.existsSync(path.join(root, file))) throw new Error(`${file} already exists (add-only)`);
-  const old = JSON.parse(fs.readFileSync(path.join(root, cur.baseline_file), "utf8"));
+  const old = first ? { position: pos, version: null } : JSON.parse(fs.readFileSync(path.join(root, cur.baseline_file), "utf8"));
   const top = inp.final_order.slice(0, 10).map((p, i) => ({ rank: i + 1, player: p.player, ovr: p.ovr }));
   const baseline = { ...old, architecture_version: "1.1.3", status: "LOCKED", version: `reaudit-${day}`, top_10: top,
     last_in: { player: top[9].player, ovr: top[9].ovr }, first_out: { player: inp.final_order[10].player, ovr: inp.final_order[10].ovr },
     external_controls: inp.final_order.slice(10).map(p => ({ player: p.player, ovr: p.ovr })), scarcity: inp.scarcity ?? old.scarcity,
-    supersedes: { baseline_file: cur.baseline_file, version: old.version }, stage_audit_ids: inp.stage_audit_ids,
+    supersedes: first ? null : { baseline_file: cur.baseline_file, version: old.version }, ...(first ? { first_lock: true, control_source: "APPROVED_CANDIDATE_POOL" } : {}), stage_audit_ids: inp.stage_audit_ids,
     madden_order_verified: false, locked_by: inp.approved_by, locked_at: inp.approved_at };
   const lockId = `${pos}_REAUDIT_LOCK_${day}`;
-  const newEntry = { ...cur, baseline_file: file, version: baseline.version, locked_at: inp.approved_at, lock_audit_id: lockId,
-    history: [...(cur.history ?? []), { baseline_file: cur.baseline_file, version: old.version, superseded_at: inp.approved_at, superseded_by: lockId }] };
+  const newEntry = first ? { status: "LOCKED", mutation_permission: "TOP10_REAUDIT_ONLY", first_lock: true, baseline_file: file, version: baseline.version, locked_at: inp.approved_at, lock_audit_id: lockId, history: [] } : { ...cur, baseline_file: file, version: baseline.version, locked_at: inp.approved_at, lock_audit_id: lockId,
+    history: [...(cur!.history ?? []), { baseline_file: cur!.baseline_file, version: old.version, superseded_at: inp.approved_at, superseded_by: lockId }] };
   const record = { audit_id: lockId, task_id: `${pos}_REAUDIT_LOCK`, task_type: "lock", audit_type: "TOP10_REAUDIT", position: pos, status: "APPROVED", confirmation: inp.confirm,
-    approved_by: inp.approved_by, created_at: inp.approved_at, new_baseline_file: file, previous_baseline_file: cur.baseline_file };
+    approved_by: inp.approved_by, created_at: inp.approved_at, new_baseline_file: file, previous_baseline_file: first ? null : cur.baseline_file, ...(first ? { first_lock: true } : {}) };
   return { file, baseline, locksPath, locks: { ...locks, positions: { ...locks.positions, [pos]: newEntry } }, record,
     recordPath: path.join(root, `audits/league/${pos}/${lockId}.json`) };
 }

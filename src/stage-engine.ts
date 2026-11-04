@@ -243,7 +243,11 @@ function planV112(pos: Position, done: Set<string>, I: ReturnType<typeof ids>, o
   mk: (stage: Stage, t: Record<string, unknown>) => StagePlan): StagePlan {
   const ra = opts.reaudit;
   const pool = ra ? requireApprovedReauditPool(pos, opts.root) : requireApprovedPool(pos, opts.root); // coverage gate
-  const locked = ra?.baseline_controls ? { baseline_controls: ra.baseline_controls } : {};
+  // Addendum 2026-11-04 (t50s441/t46u): a never-locked position has no baseline; its candidate audit is compared against
+  // the approved candidate pool instead (top 10 = first 10 approved candidates, rest = first-outs). Locked positions are unchanged.
+  const locked = ra?.baseline_controls ? { baseline_controls: ra.baseline_controls }
+    : ra ? { baseline_controls: { control_source: "APPROVED_CANDIDATE_POOL", never_locked: true,
+        top_10: pool.candidates.slice(0, 10).map((c, i) => ({ rank: i + 1, player: c.player })), external_controls: pool.candidates.slice(10).map(c => c.player) } } : {};
   if (!done.has(I.candidate)) return mk("candidate_audit", { task_id: I.candidate, type: "candidate_audit", audit_order: "1.1.2", ...locked,
     candidate_pool: pool.candidates.map(c => ({ player: c.player, aliases: c.aliases ?? [], player_id: c.player_id, flags: c.flags ?? [] })) });
   const cand = approvedOutput(pos, I.candidate, opts);

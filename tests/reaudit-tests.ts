@@ -245,6 +245,25 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     assert.equal(JSON.parse(fs.readFileSync(path.join(root, "state/project-state.json"), "utf8")).pending_reaudit_queue[0].status, "COMPLETED");
     assert.throws(() => applyLock(inp, root), /already exists/, "add-only: no overwrite");
   });
+  test("addendum 2026-11-04 (t50s441): first lock of a never-locked position adds a baseline + locks entry, no fabricated history", () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "lock1-")); fs.mkdirSync(path.join(root, "data/baselines"), { recursive: true }); fs.mkdirSync(path.join(root, "state"));
+    const locks0 = { rule: "r", positions: { Z: { status: "LOCKED", baseline_file: "data/baselines/Z.json", mutation_permission: "TOP10_REAUDIT_ONLY" } } };
+    fs.writeFileSync(path.join(root, "state/locks.json"), JSON.stringify(locks0));
+    fs.writeFileSync(path.join(root, "state/project-state.json"), JSON.stringify({ pending_reaudit_queue: [{ type: "TOP10_REAUDIT", position: "N", status: "IN_PROGRESS", audit_ids: ["a1"] }] }));
+    const inp = { position: "N", confirm: "REAUDIT_REPLACE_BASELINE_N", approved_by: "PhiXCrypto", approved_at: "2026-11-04T12:00:00Z", next_stage: "lock", pending_review: false,
+      stage_audit_ids: ["a1"], final_order: Array.from({ length: 12 }, (_, i) => ({ player: `P${i + 1}`, ovr: 90 - i })) };
+    const b = applyLock(inp, root);
+    const nb = JSON.parse(fs.readFileSync(path.join(root, b.file), "utf8"));
+    assert.equal(nb.first_lock, true); assert.equal(nb.supersedes, null); assert.equal(nb.position, "N"); assert.equal(nb.madden_order_verified, false);
+    const L1 = JSON.parse(fs.readFileSync(path.join(root, "state/locks.json"), "utf8"));
+    assert.deepEqual(L1.positions.Z, locks0.positions.Z, "existing locks untouched"); assert.deepEqual(L1.positions.N.history, []);
+    assert.equal(locksChangeAllowed(JSON.stringify(locks0), JSON.stringify(L1)).ok, true);
+    assert.equal(lockBaselineAddAllowed("A", b.file, JSON.stringify(nb), JSON.stringify(L1)), true);
+    assert.equal(locksChangeAllowed(JSON.stringify(locks0), JSON.stringify({ ...L1, positions: { ...L1.positions, N: { ...L1.positions.N, first_lock: false } } })).ok, false);
+    assert.equal(locksChangeAllowed(JSON.stringify(locks0), JSON.stringify({ ...L1, positions: { ...L1.positions, N: { ...L1.positions.N, history: [{ baseline_file: "fake" }] } } })).ok, false, "no fabricated history");
+    assert.equal(locksChangeAllowed(JSON.stringify(locks0), JSON.stringify({ ...L1, positions: { ...L1.positions, Z: { ...locks0.positions.Z, status: "X" } } })).ok, false, "existing entry may not change alongside");
+    assert.equal(lockBaselineAddAllowed("A", b.file, JSON.stringify({ ...nb, first_lock: undefined }), JSON.stringify(L1)), false);
+  });
   test("guard sixth exception (t33s4): lock outputs only; variance_audit is position-wide", () => {
     assert.ok(isPositionWideTask({ type: "variance_audit" } as any));
     const L = (pos: any) => JSON.stringify({ rule: "r", positions: { QB: pos, RB: { status: "LOCKED", baseline_file: "data/baselines/RB.json", mutation_permission: "TOP10_REAUDIT_ONLY" } } });

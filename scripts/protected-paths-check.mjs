@@ -95,6 +95,15 @@ export function locksChangeAllowed(baseText, headText) {
   const rest = o => { const c = { ...o }; delete c.positions; return canon(c); };
   if (rest(a) !== rest(b)) return { ok: false, reason: "locks keys other than positions changed" };
   const pa = a.positions ?? {}, pb = b.positions ?? {};
+  // SEVENTH NARROW EXCEPTION (commissioner t50s441, 2026-11-04): the FIRST re-audit lock of a never-locked position may ADD
+  // exactly one positions key whose entry is a first_lock with empty history pointing at its new dated baseline.
+  const added = Object.keys(pb).filter(k => !(k in pa));
+  if (added.length === 1 && Object.keys(pa).every(k => canon(pa[k]) === canon(pb[k]))) {
+    const k = added[0], n = pb[k], m = LOCK_BASELINE_RE.exec(n?.baseline_file ?? "");
+    if (!m || m[1] !== k || n.status !== "LOCKED" || n.first_lock !== true || (n.history ?? []).length || n.lock_audit_id !== `${k}_REAUDIT_LOCK_${m[2]}`)
+      return { ok: false, reason: "first lock entry must be LOCKED, first_lock, empty history, dated baseline + matching lock_audit_id" };
+    return { ok: true, position: k, baseline_file: n.baseline_file, first_lock: true };
+  }
   if (canon(Object.keys(pa).sort()) !== canon(Object.keys(pb).sort())) return { ok: false, reason: "locks positions added/removed" };
   const changed = Object.keys(pa).filter(k => canon(pa[k]) !== canon(pb[k]));
   if (changed.length !== 1) return { ok: false, reason: "exactly one position lock may change" };
@@ -113,7 +122,8 @@ export function lockBaselineAddAllowed(status, p, jsonText, locksHeadText) {
   const m = LOCK_BASELINE_RE.exec(p); if (status !== "A" || !m) return false;
   try {
     const j = JSON.parse(jsonText), l = JSON.parse(locksHeadText).positions?.[m[1]];
-    return j.status === "LOCKED" && j.position === m[1] && j.madden_order_verified === false && !!j.supersedes?.baseline_file && l?.baseline_file === p;
+    return j.status === "LOCKED" && j.position === m[1] && j.madden_order_verified === false && l?.baseline_file === p
+      && (!!j.supersedes?.baseline_file || (j.first_lock === true && j.supersedes === null && l?.first_lock === true));
   } catch { return false; }
 }
 
