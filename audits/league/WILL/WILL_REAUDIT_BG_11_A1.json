@@ -1,0 +1,228 @@
+{
+  "audit_id": "WILL_REAUDIT_BG_11_A1",
+  "task_id": "WILL_REAUDIT_BG_11",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "player_id": "ext_00-0036990",
+  "players": [
+    "Divine Deablo"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Divine Deablo",
+    "player_id": "ext_00-0036990",
+    "team": "ATL",
+    "role_assignment": {
+      "WILL25": 129,
+      "MIKE25": 92,
+      "MIKE26": 102,
+      "WILL26": 173,
+      "MIKE": 441.3,
+      "WILL": 656.7,
+      "SAM": 0,
+      "EDGE": 0,
+      "assign": "WILL"
+    },
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "atlanta-falcons",
+        "ovr": 77.8,
+        "snaps": 750,
+        "rank": 12,
+        "rdef": 270,
+        "prsh": 50,
+        "cov": 430
+      },
+      "2026": {
+        "team": "atlanta-falcons",
+        "ovr": 60.9,
+        "snaps": 349,
+        "rank": 45,
+        "rdef": 104,
+        "prsh": 19,
+        "cov": 226
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "ATL",
+        "pos": "LB",
+        "g": "13",
+        "tgt": "33",
+        "cmp": "24",
+        "yds": "212",
+        "rat": "89.5",
+        "int": "0",
+        "bltz": "22",
+        "prss": "4",
+        "sk": "1",
+        "comb": "73",
+        "m_tkl": "5"
+      },
+      "2026": {
+        "def_targets": 18,
+        "def_completions_allowed": 16,
+        "def_yards_allowed": 186,
+        "def_ints": 0,
+        "def_times_blitzed": 13,
+        "def_pressures": 2,
+        "def_sacks": 0,
+        "def_tackles_combined": 30,
+        "def_missed_tackles": 1,
+        "g": 6
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 13,
+        "defs": 750
+      },
+      "2026": {
+        "games": 6,
+        "defs": 348
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 36,
+        "def_tackle_assists": 35,
+        "def_tackles_for_loss": 5,
+        "def_fumbles_forced": 0,
+        "def_sacks": 1,
+        "def_qb_hits": 2,
+        "def_pass_defended": 7,
+        "def_interceptions": 0
+      },
+      "2026": {
+        "def_tackles_solo": 14,
+        "def_tackle_assists": 15,
+        "def_tackles_for_loss": 1,
+        "def_fumbles_forced": 0,
+        "def_sacks": 0,
+        "def_qb_hits": 2,
+        "def_pass_defended": 1,
+        "def_interceptions": 0
+      }
+    },
+    "penalties": {
+      "2025": 1,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk8 Out (Forearm)"
+      ],
+      "2026": [
+        "wk4 Questionable (Hamstring)",
+        "wk5 Questionable (Hamstring)",
+        "wk7 Out (Forearm)",
+        "wk8 Questionable (Forearm)"
+      ]
+    },
+    "summary_lines": [
+      "Divine Deablo (ATL) Divine Deablo 2026: PFF LB 2026 overall 60.9 on 349 snaps (LB rank 45; 104 run-def / 226 coverage / 19 pass-rush snaps); PFR 2026 (6 games) coverage 18 targets / 16 completions / 186 yds / 0 INT; 30 tackles, 1 missed; 2 pressures on 13 blitzes; 6 g / 348 def snaps; 14 solo + 15 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties",
+      "Divine Deablo 2025: PFF LB 2025 overall 77.8 on 750 snaps (LB rank 12; 270 run-def / 430 coverage / 50 pass-rush snaps); PFR 2025 coverage 33 targets / 24 completions / 212 yds / passer rating 89.5 / 0 INT; 73 tackles, 5 missed; 4 pressures on 22 blitzes, 1 sacks; 13 g / 750 def snaps; 36 solo + 35 ast tackles, 5 TFL, 1.0 sacks, 0 INT, 7 PD, 0 FF; 1 accepted penalties",
+      "Divine Deablo role: snap-weighted 2025-26 depth-chart role shares MIKE 441 / WILL 657 / SAM 0 / edge 0 (raw snapshots WILL25 129, MIKE25 92, MIKE26 102, WILL26 173) -> WILL (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card MIKE (reference only)",
+      "Divine Deablo injury reports: wk8 Out (Forearm); wk5 Questionable (Hamstring); wk7 Out (Forearm); wk8 Questionable (Forearm); roster status INA"
+    ],
+    "availability": {
+      "roster_status": "INA"
+    },
+    "limitations": [
+      "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PUR",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2026",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2025",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:38Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
