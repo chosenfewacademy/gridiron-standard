@@ -1,4 +1,4 @@
-# TE_REAUDIT_H2H_05 — Hunter Henry vs Isaiah Likely (v1.1.2 head-to-head; authorized by t45s383)
+# TE_REAUDIT_H2H_05 — Hunter Henry vs Tucker Kraft (v1.1.2 head-to-head; authorized by t45s389)
 
 ```json
 {
@@ -9,27 +9,27 @@
   "audit_order": "1.1.2",
   "position": "TE",
   "methodology_version": "1.1.0",
-  "confidence": "MEDIUM",
+  "confidence": "LOW",
   "players": [
     "Hunter Henry",
-    "Isaiah Likely"
+    "Tucker Kraft"
   ],
   "pair_result": {
     "winner": "Hunter Henry",
-    "loser": "Isaiah Likely",
+    "loser": "Tucker Kraft",
     "provisional_order_holds": true,
-    "reasoning": "Henry leads 2026 EPA/tgt (+.554 vs +.223), YPRR (1.68 vs 1.59), YAC (6.3 vs 2.9), block share (.44 vs .33; 152 vs 121 block snaps) and 2025 (768 yds, 7 TD, PFF 72.5, EPA/tgt +.433 vs 307 yds, +.150). Likely leads 2026 PFF (77.3 vs 75.2), volume (64 vs 34 tgt) and TD (5 vs 2). Order holds.",
+    "reasoning": "Untested 9v10 after drafted flip (80/79). Henry leads 2026 PFF (75.2 vs 64.5), EPA/tgt (+.554 vs +.442), YPRR (1.68 vs 1.37), YAC (6.3 vs 5.3) and 2025 availability (17 g vs 8). Kraft leads 2025 efficiency (EPA/tgt +.889, YPRR 2.20, PFF 78.1 vs 72.5) and blocking share (.49 vs .44 in 2025). Henry on current season. Order holds.",
     "key_evidence_for_winner": [
       "Hunter Henry PFF TE overall grade 2026 75.2, 2025 72.5; 2026 PFF snaps {'off': '346', 'routes': '194', 'pblk': '35', 'rblk': '117'} (block share 0.44); 2025 PFF snaps {'off': '1066', 'routes': '601', 'pblk': '67', 'rblk': '398'} (block share 0.44); age 31, 77 in 250 lb",
       "Hunter Henry (NE) 2026: 8 g 34 tgt 326 yds 2 TD, EPA/tgt 0.554, YPRR 1.68, TPRR 0.175, NGS sep 4.35, aDOT 6.0, deep 1 tgt catch 0.0 EPA/tgt -4.12, short catch 0.91, YAC/rec 6.3, RZ tgt 5, 3rd/4th conv 5/8, fum lost 0",
       "Hunter Henry (NE) 2025: 17 g 87 tgt 768 yds 7 TD, EPA/tgt 0.433, YPRR 1.28, TPRR 0.145, NGS sep 2.99, aDOT 8.2, deep 8 tgt catch 0.38 EPA/tgt -0.17, short catch 0.7, YAC/rec 5.6, RZ tgt 22, 3rd/4th conv 14/27, fum lost 0"
     ],
     "key_evidence_for_loser": [
-      "Isaiah Likely PFF TE overall grade 2026 77.3, 2025 None; 2026 PFF snaps {'off': '370', 'routes': '249', 'pblk': '4', 'rblk': '117'} (block share 0.33); 2025 PFF snaps None (block share None); age 26, 76 in 241 lb",
-      "Isaiah Likely (NYG) 2026: 7 g 64 tgt 395 yds 5 TD, EPA/tgt 0.223, YPRR 1.59, TPRR 0.257, NGS sep 2.73, aDOT 8.0, deep 6 tgt catch 0.33 EPA/tgt 0.73, short catch 0.72, YAC/rec 2.9, RZ tgt 10, 3rd/4th conv 10/18, fum lost 0",
-      "Isaiah Likely (BAL) 2025: 12 g 36 tgt 307 yds 1 TD, EPA/tgt 0.15, YPRR None, TPRR None, NGS sep None, aDOT 8.0, deep 3 tgt catch 0.67 EPA/tgt 0.86, short catch 0.83, YAC/rec 4.3, RZ tgt 6, 3rd/4th conv 5/12, fum lost 1"
+      "Tucker Kraft PFF TE overall grade 2026 64.5, 2025 78.1; 2026 PFF snaps {'off': '434', 'routes': '255', 'pblk': '40', 'rblk': '137'} (block share 0.41); 2025 PFF snaps {'off': '440', 'routes': '222', 'pblk': '33', 'rblk': '184'} (block share 0.49); age 26, 77 in 259 lb",
+      "Tucker Kraft (GB) 2026: 8 g 49 tgt 350 yds 3 TD, EPA/tgt 0.442, YPRR 1.37, TPRR 0.192, NGS sep 3.38, aDOT 5.7, deep 5 tgt catch 0.4 EPA/tgt 0.47, short catch 0.76, YAC/rec 5.3, RZ tgt 9, 3rd/4th conv 8/12, fum lost 0",
+      "Tucker Kraft (GB) 2025: 8 g 44 tgt 489 yds 6 TD, EPA/tgt 0.889, YPRR 2.2, TPRR 0.198, NGS sep None, aDOT 4.6, deep 2 tgt catch 0.5 EPA/tgt 0.22, short catch 0.71, YAC/rec 10.8, RZ tgt 12, 3rd/4th conv 11/15, fum lost 0"
     ],
-    "margin": "MODERATE",
+    "margin": "NARROW",
     "proposed_rating_adjustment": null,
     "adjustment_status": null
   },

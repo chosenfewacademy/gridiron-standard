@@ -1,0 +1,36 @@
+{
+  "audit_id": "TE_REAUDIT_H2H_05_A1",
+  "task_id": "TE_REAUDIT_H2H_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Hunter Henry",
+    "Tucker Kraft"
+  ],
+  "pair_result": {
+    "winner": "Hunter Henry",
+    "loser": "Tucker Kraft",
+    "provisional_order_holds": true,
+    "reasoning": "Untested 9v10 after drafted flip (80/79). Henry leads 2026 PFF (75.2 vs 64.5), EPA/tgt (+.554 vs +.442), YPRR (1.68 vs 1.37), YAC (6.3 vs 5.3) and 2025 availability (17 g vs 8). Kraft leads 2025 efficiency (EPA/tgt +.889, YPRR 2.20, PFF 78.1 vs 72.5) and blocking share (.49 vs .44 in 2025). Henry on current season. Order holds.",
+    "key_evidence_for_winner": [
+      "Hunter Henry PFF TE overall grade 2026 75.2, 2025 72.5; 2026 PFF snaps {'off': '346', 'routes': '194', 'pblk': '35', 'rblk': '117'} (block share 0.44); 2025 PFF snaps {'off': '1066', 'routes': '601', 'pblk': '67', 'rblk': '398'} (block share 0.44); age 31, 77 in 250 lb",
+      "Hunter Henry (NE) 2026: 8 g 34 tgt 326 yds 2 TD, EPA/tgt 0.554, YPRR 1.68, TPRR 0.175, NGS sep 4.35, aDOT 6.0, deep 1 tgt catch 0.0 EPA/tgt -4.12, short catch 0.91, YAC/rec 6.3, RZ tgt 5, 3rd/4th conv 5/8, fum lost 0",
+      "Hunter Henry (NE) 2025: 17 g 87 tgt 768 yds 7 TD, EPA/tgt 0.433, YPRR 1.28, TPRR 0.145, NGS sep 2.99, aDOT 8.2, deep 8 tgt catch 0.38 EPA/tgt -0.17, short catch 0.7, YAC/rec 5.6, RZ tgt 22, 3rd/4th conv 14/27, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Tucker Kraft PFF TE overall grade 2026 64.5, 2025 78.1; 2026 PFF snaps {'off': '434', 'routes': '255', 'pblk': '40', 'rblk': '137'} (block share 0.41); 2025 PFF snaps {'off': '440', 'routes': '222', 'pblk': '33', 'rblk': '184'} (block share 0.49); age 26, 77 in 259 lb",
+      "Tucker Kraft (GB) 2026: 8 g 49 tgt 350 yds 3 TD, EPA/tgt 0.442, YPRR 1.37, TPRR 0.192, NGS sep 3.38, aDOT 5.7, deep 5 tgt catch 0.4 EPA/tgt 0.47, short catch 0.76, YAC/rec 5.3, RZ tgt 9, 3rd/4th conv 8/12, fum lost 0",
+      "Tucker Kraft (GB) 2025: 8 g 44 tgt 489 yds 6 TD, EPA/tgt 0.889, YPRR 2.2, TPRR 0.198, NGS sep None, aDOT 4.6, deep 2 tgt catch 0.5 EPA/tgt 0.22, short catch 0.71, YAC/rec 10.8, RZ tgt 12, 3rd/4th conv 11/15, fum lost 0"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "VALIDATED"
+}
