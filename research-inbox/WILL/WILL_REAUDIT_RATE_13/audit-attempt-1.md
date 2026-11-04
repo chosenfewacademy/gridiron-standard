@@ -1,0 +1,366 @@
+# WILL_REAUDIT_RATE_13 — Kaden Elliss rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "WILL_REAUDIT_RATE_13_A1",
+  "task_id": "WILL_REAUDIT_RATE_13",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "player_id": "ext_00-0035316",
+  "players": [
+    "Kaden Elliss"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 82,
+    "ACC": 82,
+    "AGI": 78,
+    "COD": 74,
+    "STR": 78,
+    "AWR": 80,
+    "PRC": 80,
+    "TAK": 80,
+    "POW": 82,
+    "BSH": 80,
+    "PUR": 82,
+    "MCV": 56,
+    "ZCV": 64,
+    "PRS": 72,
+    "INJ": 88,
+    "STA": 86,
+    "TGH": 84
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PUR": "MEDIUM",
+    "MCV": "MEDIUM",
+    "ZCV": "MEDIUM",
+    "PRS": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes; range from tackles/PD in 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF. Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes; range from tackles/PD in 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF. Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes; range from tackles/PD in 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF. Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes; range from tackles/PD in 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF. Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF LB 2026 overall 72.2 on 269 snaps (LB rank 14; 109 run-def / 125 coverage / 35 pass-rush snaps); TFL/sacks in 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF / 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF. Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 0/0; PFF LB 2026 overall 72.2 on 269 snaps (LB rank 14; 109 run-def / 125 coverage / 35 pass-rush snaps). Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 67.8 on 1102 snaps (LB rank 31; 432 run-def / 496 coverage / 174 pass-rush snaps); PFF LB 2026 overall 72.2 on 269 snaps (LB rank 14; 109 run-def / 125 coverage / 35 pass-rush snaps); TFL in 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF / 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF. Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes. Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes. Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 67.8 on 1102 snaps (LB rank 31; 432 run-def / 496 coverage / 174 pass-rush snaps); PFF LB 2026 overall 72.2 on 269 snaps (LB rank 14; 109 run-def / 125 coverage / 35 pass-rush snaps); TFL in 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF / 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF. Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 67.8 on 1102 snaps (LB rank 31; 432 run-def / 496 coverage / 174 pass-rush snaps); PFF LB 2026 overall 72.2 on 269 snaps (LB rank 14; 109 run-def / 125 coverage / 35 pass-rush snaps); TFL in 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF / 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF. Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes; PFF LB 2025 overall 67.8 on 1102 snaps (LB rank 31; 432 run-def / 496 coverage / 174 pass-rush snaps); PFF LB 2026 overall 72.2 on 269 snaps (LB rank 14; 109 run-def / 125 coverage / 35 pass-rush snaps). Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes; PFF LB 2025 overall 67.8 on 1102 snaps (LB rank 31; 432 run-def / 496 coverage / 174 pass-rush snaps); PFF LB 2026 overall 72.2 on 269 snaps (LB rank 14; 109 run-def / 125 coverage / 35 pass-rush snaps). Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (pass rush): blitz/pressure lines: PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes; sacks in 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF / 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF. Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Kaden Elliss injury reports: wk4 Out (Calf); wk5 Out (Calf); wk6 Out (Calf); roster status ACT; 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF (2025), 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF (2026). Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF (2025), 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF (2026). Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF (2025), 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF (2026). Style: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 75,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+  "style_profile": "Kaden Elliss: Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited.",
+  "style_evidence": [
+    "Kaden Elliss (NO) Kaden Elliss 2026: PFF LB 2026 overall 72.2 on 269 snaps (LB rank 14; 109 run-def / 125 coverage / 35 pass-rush snaps); PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes; 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties",
+    "Kaden Elliss 2025: PFF LB 2025 overall 67.8 on 1102 snaps (LB rank 31; 432 run-def / 496 coverage / 174 pass-rush snaps); PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF; 0 accepted penalties",
+    "Kaden Elliss role: snap-weighted 2025-26 depth-chart role shares MIKE 524 / WILL 848 / SAM 0 / edge 0 (raw snapshots WILL25 116, MIKE25 105, WILL26 275) -> WILL (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card WILL (reference only)",
+    "Kaden Elliss injury reports: wk4 Out (Calf); wk5 Out (Calf); wk6 Out (Calf); roster status ACT"
+  ],
+  "input_dossier": "WILL_REAUDIT_BG_13_A1",
+  "weaknesses": [
+    "man coverage",
+    "zone coverage"
+  ],
+  "limitations": [
+    "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+  ],
+  "role_assignment": "WILL (snap-weighted 2025-26 depth-chart role shares MIKE 524 / WILL 848 / SAM 0 / edge 0 (raw snapshots WILL25 116, MIKE25 105, WILL26 275) -> WILL)",
+  "madden_reference": [
+    {
+      "player": "Kaden Elliss",
+      "ovr": 83,
+      "madden_position": "WILL",
+      "attributes": {
+        "SPD": 85,
+        "ACC": 86,
+        "AGI": 85,
+        "COD": 75,
+        "STR": 75,
+        "AWR": 90,
+        "PRC": 89,
+        "TAK": 88,
+        "POW": 85,
+        "BSH": 75,
+        "PUR": 88,
+        "MCV": 66,
+        "ZCV": 74,
+        "PRS": 45,
+        "INJ": 91,
+        "STA": 91,
+        "TGH": 87
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -8,
+      "delta_attributes": {
+        "SPD": -3,
+        "ACC": -4,
+        "AGI": -7,
+        "COD": -1,
+        "STR": 3,
+        "AWR": -10,
+        "PRC": -9,
+        "TAK": -8,
+        "POW": -3,
+        "BSH": 5,
+        "PUR": -6,
+        "MCV": -10,
+        "ZCV": -10,
+        "PRS": 27,
+        "INJ": -3,
+        "STA": -5,
+        "TGH": -3
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 8,
+    "attribute_gaps_10plus": {
+      "AWR": -10,
+      "MCV": -10,
+      "ZCV": -10,
+      "PRS": 27
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
