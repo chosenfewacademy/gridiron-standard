@@ -4341,7 +4341,7 @@
         "position": "LT",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/LT.reaudit.json",
       "baseline_file": "data/baselines/LT.json",
@@ -4353,7 +4353,8 @@
       "completed_tasks": [
         "LT_REAUDIT_CANDIDATE_AUDIT",
         "LT_REAUDIT_BG_01",
-        "LT_REAUDIT_BG_02"
+        "LT_REAUDIT_BG_02",
+        "LT_REAUDIT_BG_03"
       ],
       "audit_ids": [
         "LT_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -4363,18 +4364,14 @@
       ],
       "current_stage": "background_analysis",
       "current_task": "LT_REAUDIT_BG_03",
-      "updated_at": "2026-11-04T01:56:53.316Z",
+      "updated_at": "2026-11-04T01:56:53.570Z",
       "last_result": {
         "task_id": "LT_REAUDIT_BG_03",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LT_REAUDIT_BG_03",
-        "audit_id": "LT_REAUDIT_BG_03_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -4398,6 +4395,14 @@
           "audit_id": "LT_REAUDIT_BG_02_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T01:56:52Z",
+          "note": "Commissioner approval t45s401 (run LT dossiers and ratings automatically)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LT_REAUDIT_BG_03",
+          "audit_id": "LT_REAUDIT_BG_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T01:56:53Z",
           "note": "Commissioner approval t45s401 (run LT dossiers and ratings automatically)"
         }
       ]
