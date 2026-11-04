@@ -9618,7 +9618,7 @@
         "position": "MIKE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/MIKE.reaudit.json",
       "baseline_file": null,
@@ -9628,7 +9628,8 @@
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T11:41:08.803Z",
       "completed_tasks": [
-        "MIKE_REAUDIT_CANDIDATE_AUDIT"
+        "MIKE_REAUDIT_CANDIDATE_AUDIT",
+        "MIKE_REAUDIT_BG_01"
       ],
       "audit_ids": [
         "MIKE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -9636,18 +9637,14 @@
       ],
       "current_stage": "background_analysis",
       "current_task": "MIKE_REAUDIT_BG_01",
-      "updated_at": "2026-11-04T11:41:31.499Z",
+      "updated_at": "2026-11-04T11:41:31.763Z",
       "last_result": {
         "task_id": "MIKE_REAUDIT_BG_01",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "MIKE_REAUDIT_BG_01",
-        "audit_id": "MIKE_REAUDIT_BG_01_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -9656,6 +9653,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:41:13Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "MIKE_REAUDIT_BG_01",
+          "audit_id": "MIKE_REAUDIT_BG_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:41:31Z",
+          "note": "Standing commissioner approval t46u (run dossiers and ratings automatically)"
         }
       ]
     }
