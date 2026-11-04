@@ -1,0 +1,313 @@
+# SS_REAUDIT_SCARCITY (v1.1.2; authorized t46u)
+
+```json
+{
+  "audit_id": "SS_REAUDIT_SCARCITY_A1",
+  "task_id": "SS_REAUDIT_SCARCITY",
+  "task_type": "scarcity_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Kyle Hamilton",
+    "Evan Williams",
+    "Jessie Bates",
+    "Brian Branch",
+    "Derwin James",
+    "Antoine Winfield Jr.",
+    "Kamren Curl",
+    "Talanoa Hufanga",
+    "Tony Jefferson",
+    "Jaylinn Hawkins"
+  ],
+  "scarcity": {
+    "rules": "config/scarcity-rules.json (90+ elite, 95+ rare league-defining, 97+ extraordinary, 99 historic)",
+    "traits_90_plus": [
+      {
+        "player": "Kyle Hamilton",
+        "attr": "SPD",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 6
+      },
+      {
+        "player": "Kyle Hamilton",
+        "attr": "ACC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 6
+      },
+      {
+        "player": "Kyle Hamilton",
+        "attr": "AWR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Kyle Hamilton",
+        "attr": "PRC",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Kyle Hamilton",
+        "attr": "ZCV",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Kyle Hamilton",
+        "attr": "JMP",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 6
+      },
+      {
+        "player": "Kyle Hamilton",
+        "attr": "TAK",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Kyle Hamilton",
+        "attr": "PUR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Kyle Hamilton",
+        "attr": "STA",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Kyle Hamilton",
+        "attr": "TGH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Evan Williams",
+        "attr": "ZCV",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Evan Williams",
+        "attr": "TAK",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Evan Williams",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Jessie Bates",
+        "attr": "AWR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Jessie Bates",
+        "attr": "PRC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Jessie Bates",
+        "attr": "INJ",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Jessie Bates",
+        "attr": "STA",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Brian Branch",
+        "attr": "AGI",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 6
+      },
+      {
+        "player": "Brian Branch",
+        "attr": "COD",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 6
+      },
+      {
+        "player": "Antoine Winfield Jr.",
+        "attr": "TAK",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Antoine Winfield Jr.",
+        "attr": "PUR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Antoine Winfield Jr.",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Kamren Curl",
+        "attr": "STA",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Kamren Curl",
+        "attr": "TGH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Talanoa Hufanga",
+        "attr": "PUR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      }
+    ],
+    "count_90_plus": 25,
+    "count_95_plus": 0,
+    "count_97_plus": 0,
+    "count_99": 0,
+    "traits_95_plus": [],
+    "max_trait": "Kyle Hamilton AWR 92 (ELITE)",
+    "all_90_plus_have_tiered_sourced_evidence": true,
+    "league_defining_basis": {},
+    "overall_90_plus": [
+      "Kyle Hamilton 94"
+    ],
+    "overall_spread": "94 to 76 across top 10: Kyle Hamilton 94 (PFF 86.3 on 1003 snaps in 2025, S rank 2; 77.3 in 2026) is the lone star, 6 points clear of Evan Williams 88 (PFF 90.6 in 2026, S rank 1); 18 points from #1 to #10 Jaylinn Hawkins 76. No trait reaches 95 (highest is Hamilton at 92), so no LEAGUE_DEFINING tags.",
+    "style_rule": {
+      "pairs_checked": 78,
+      "too_similar": 0,
+      "highest_corr": [
+        0.822,
+        5.11,
+        "Kyle Hamilton",
+        "Evan Williams"
+      ],
+      "min_mad": 3.33
+    },
+    "effective_ratings": {
+      "Kyle Hamilton": [
+        "SS_REAUDIT_RATE_01_A1",
+        94
+      ],
+      "Evan Williams": [
+        "SS_REAUDIT_RATE_02_A1",
+        88
+      ],
+      "Jessie Bates": [
+        "SS_REAUDIT_RATE_03_A1",
+        87
+      ],
+      "Brian Branch": [
+        "SS_REAUDIT_RATE_04_A1",
+        85
+      ],
+      "Derwin James": [
+        "SS_REAUDIT_RATE_05_A1",
+        84
+      ],
+      "Antoine Winfield Jr.": [
+        "SS_REAUDIT_RATE_06_A1",
+        82
+      ],
+      "Kamren Curl": [
+        "SS_REAUDIT_RATE_07_A1",
+        80
+      ],
+      "Talanoa Hufanga": [
+        "SS_REAUDIT_RATE_08_A1",
+        79
+      ],
+      "Tony Jefferson": [
+        "SS_REAUDIT_RATE_09_A1",
+        77
+      ],
+      "Jaylinn Hawkins": [
+        "SS_REAUDIT_RATE_10_A1",
+        76
+      ],
+      "Christian Roland-Wallace": [
+        "SS_REAUDIT_RATE_11_A2",
+        75
+      ],
+      "Coby Bryant": [
+        "SS_REAUDIT_RATE_12_A1",
+        74
+      ],
+      "Cooper DeJean": [
+        "SS_REAUDIT_RATE_13_A1",
+        73
+      ]
+    },
+    "note_for_commissioner": "0 trait(s) at 95+ (; no 97+), each tiered and sourced.",
+    "result": "PASS: 0 95+ traits, all tiered (LEAGUE_DEFINING/EXTRAORDINARY) with sources; 25 90+ traits all tiered; overalls 90+: Kyle Hamilton 94; style rule 78 pairs, 0 too similar"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
