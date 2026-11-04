@@ -13052,7 +13052,7 @@
         "position": "K",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/K.reaudit.json",
       "baseline_file": null,
@@ -13061,13 +13061,15 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T12:52:23.494Z",
-      "completed_tasks": [],
+      "completed_tasks": [
+        "K_REAUDIT_CANDIDATE_AUDIT"
+      ],
       "audit_ids": [
         "K_REAUDIT_CANDIDATE_AUDIT_A1"
       ],
       "current_stage": "candidate_audit",
       "current_task": "K_REAUDIT_CANDIDATE_AUDIT",
-      "updated_at": "2026-11-04T12:52:23.515Z",
+      "updated_at": "2026-11-04T12:52:28.109Z",
       "last_result": {
         "task_id": "K_REAUDIT_CANDIDATE_AUDIT",
         "status": "FLAGGED",
@@ -13077,11 +13079,17 @@
           "DATA_GAP: no public kickoff hang time"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "K_REAUDIT_CANDIDATE_AUDIT",
-        "audit_id": "K_REAUDIT_CANDIDATE_AUDIT_A1"
-      }
+      "awaiting": null,
+      "approvals": [
+        {
+          "decision": "APPROVED",
+          "task_id": "K_REAUDIT_CANDIDATE_AUDIT",
+          "audit_id": "K_REAUDIT_CANDIDATE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:52:27Z",
+          "note": "Standing commissioner approval t46u: K contention set and first-outs approved"
+        }
+      ]
     }
   ]
 }
