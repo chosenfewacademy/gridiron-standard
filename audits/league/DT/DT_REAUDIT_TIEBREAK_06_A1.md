@@ -1,0 +1,40 @@
+# DT_REAUDIT_TIEBREAK_06 — Travis Jones vs DJ Reader (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "DT_REAUDIT_TIEBREAK_06_A1",
+  "task_id": "DT_REAUDIT_TIEBREAK_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Travis Jones",
+    "DJ Reader"
+  ],
+  "pair_result": {
+    "winner": "Travis Jones",
+    "loser": "DJ Reader",
+    "provisional_order_holds": true,
+    "reasoning": "Jones' 2025 (PFF 80.1 on 743, 5 sacks, 9 TFL) beats Reader's 68.9 with 0 sacks / 0 TFL; Reader's 90.4 on 251 snaps in 2026 and PRWR 23% are the better small sample.",
+    "key_evidence_for_winner": [
+      "Travis Jones (BAL) alignment depth-chart interior snapshots 2025-26: 338 at DT/NT, 158 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; roster ACT (DL); injuries wk4 Questionable (Knee)",
+      "Travis Jones 2026: Travis Jones 2026: PFF DI 2026 overall 69.2 on 294 snaps (DI rank 25); PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 5 tackles, 3 missed; 8 g / 295 def snaps; 0.0 sacks, 2 QB hits, 5 TFL, 1 FF, 1 PD; 0 accepted penalties; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 5 tackles, 3 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+      "Travis Jones 2025: Travis Jones 2025: PFF DI 2025 overall 80.1 on 743 snaps (DI rank 7); PFR 2025 12 pressures (3 hurries, 3 QB knockdowns, 5 sacks), 47 tackles, 2 missed; 16 g / 743 def snaps; 5.0 sacks, 9 QB hits, 9 TFL, 1 FF, 2 PD; 1 accepted penalties; PFR 2025 12 pressures (3 hurries, 3 QB knockdowns, 5 sacks), 47 tackles, 2 missed"
+    ],
+    "key_evidence_for_loser": [
+      "DJ Reader (NYG) alignment depth-chart interior snapshots 2025-26: 445 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; roster ACT (DL); injuries wk7 Questionable (Back)",
+      "DJ Reader 2026: DJ Reader 2026: PFF DI 2026 overall 90.4 on 251 snaps (DI rank 1); PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 7 tackles, 1 missed; 7 g / 252 def snaps; 0.0 sacks, 2 QB hits, 1 TFL, 0 FF, 0 PD; 0 accepted penalties; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 7 tackles, 1 missed; ESPN 2026 DT PRWR 23% (#5, 16/71, 73% snaps at DT); RSWR outside the published top 10",
+      "DJ Reader 2025: DJ Reader 2025: PFF DI 2025 overall 68.9 on 583 snaps (DI rank 32); PFR 2025 8 pressures (4 hurries, 4 QB knockdowns, 0 sacks), 28 tackles, 1 missed; 17 g / 583 def snaps; 0.0 sacks, 4 QB hits, 0 TFL, 0 FF, 0 PD; 2 accepted penalties; PFR 2025 8 pressures (4 hurries, 4 QB knockdowns, 0 sacks), 28 tackles, 1 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
