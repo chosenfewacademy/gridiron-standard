@@ -1,0 +1,40 @@
+# SAM_REAUDIT_TIEBREAK_01 — Isaiah McDuffie vs Quincy Williams (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "SAM_REAUDIT_TIEBREAK_01_A1",
+  "task_id": "SAM_REAUDIT_TIEBREAK_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SAM",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Isaiah McDuffie",
+    "Quincy Williams"
+  ],
+  "pair_result": {
+    "winner": "Isaiah McDuffie",
+    "loser": "Quincy Williams",
+    "provisional_order_holds": true,
+    "reasoning": "McDuffie: PFF 65.5 / 72.9 vs Q. Williams' 45.6 / 79.9 - Williams is clearly better in 2026 (#4 LB, 4 FF), but his 2025 graded #77 on 783 snaps; McDuffie has been steadier across both seasons with 17 games in 2025 and 2 missed tackles in 2026.",
+    "key_evidence_for_winner": [
+      "Isaiah McDuffie (GB) role snap-weighted 2025-26 depth-chart role shares MIKE 252 / WILL 31 / SAM 482 / edge 0 (raw snapshots MIKE25 10, SAM25 211, MIKE26 242, WILL26 33) -> SAM; roster ACT (LB); injuries no injury designation 2025-26",
+      "Isaiah McDuffie 2026: Isaiah McDuffie 2026: PFF LB 2026 overall 72.9 on 259 snaps (LB rank 12; 89 run-def / 144 coverage / 26 pass-rush snaps); PFR 2026 (5 games) coverage 14 targets / 11 completions / 82 yds / 0 INT; 36 tackles, 2 missed; 1 pressures on 18 blitzes; 7 g / 260 def snaps; 18 solo + 24 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 1 FF; 0 accepted penalties; PFR 2026 (5 games) coverage 14 targets / 11 completions / 82 yds / 0 INT; 36 tackles, 2 missed; 1 pressures on 18 blitzes",
+      "Isaiah McDuffie 2025: Isaiah McDuffie 2025: PFF LB 2025 overall 65.5 on 551 snaps (LB rank 37; 283 run-def / 237 coverage / 31 pass-rush snaps); PFR 2025 coverage 32 targets / 22 completions / 173 yds / passer rating 79.3 / 1 INT; 92 tackles, 6 missed; 3 pressures on 13 blitzes, 1 sacks; 17 g / 505 def snaps; 46 solo + 45 ast tackles, 3 TFL, 1.0 sacks, 1 INT, 1 PD, 0 FF; 2 accepted penalties; PFR 2025 coverage 32 targets / 22 completions / 173 yds / passer rating 79.3 / 1 INT; 92 tackles, 6 missed; 3 pressures on 13 blitzes, 1 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Quincy Williams (CLE) role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 0 / SAM 1285 / edge 0 (raw snapshots SAM25 221, SAM26 275) -> SAM; roster ACT (LB); injuries wk8 Questionable (Shoulder); wk7 Questionable (Neck)",
+      "Quincy Williams 2026: Quincy Williams 2026: PFF LB 2026 overall 79.9 on 500 snaps (LB rank 4; 210 run-def / 252 coverage / 38 pass-rush snaps); PFR 2026 (7 games) coverage 29 targets / 21 completions / 107 yds / 0 INT; 50 tackles, 4 missed; 6 pressures on 17 blitzes; 8 g / 501 def snaps; 29 solo + 23 ast tackles, 6 TFL, 1.0 sacks, 0 INT, 3 PD, 4 FF; 1 accepted penalties; PFR 2026 (7 games) coverage 29 targets / 21 completions / 107 yds / 0 INT; 50 tackles, 4 missed; 6 pressures on 17 blitzes",
+      "Quincy Williams 2025: Quincy Williams 2025: PFF LB 2025 overall 45.6 on 783 snaps (LB rank 77; 347 run-def / 382 coverage / 54 pass-rush snaps); PFR 2025 coverage 48 targets / 35 completions / 373 yds / passer rating 129.9 / 0 INT; 83 tackles, 15 missed; 5 pressures on 36 blitzes, 3.5 sacks; 13 g / 784 def snaps; 43 solo + 38 ast tackles, 8 TFL, 3.5 sacks, 0 INT, 7 PD, 0 FF; 2 accepted penalties; PFR 2025 coverage 48 targets / 35 completions / 373 yds / passer rating 129.9 / 0 INT; 83 tackles, 15 missed; 5 pressures on 36 blitzes, 3.5 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
