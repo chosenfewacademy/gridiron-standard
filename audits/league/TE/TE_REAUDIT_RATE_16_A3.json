@@ -1,0 +1,533 @@
+{
+  "audit_id": "TE_REAUDIT_RATE_16_A3",
+  "task_id": "TE_REAUDIT_RATE_16",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "player_id": "brenton_strange",
+  "players": [
+    "Brenton Strange"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 84,
+    "ACC": 86,
+    "AGI": 82,
+    "COD": 76,
+    "STR": 76,
+    "AWR": 78,
+    "CTH": 89,
+    "CIT": 76,
+    "SPC": 74,
+    "SRR": 82,
+    "MRR": 82,
+    "DRR": 64,
+    "RLS": 76,
+    "JMP": 78,
+    "CAR": 80,
+    "BTK": 78,
+    "RBK": 79,
+    "IBL": 78,
+    "PBK": 74,
+    "INJ": 78,
+    "STA": 84,
+    "TGH": 82
+  },
+  "trait_confidence": {
+    "SPD": "MEDIUM",
+    "ACC": "MEDIUM",
+    "AGI": "MEDIUM",
+    "COD": "MEDIUM",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "CTH": "MEDIUM",
+    "CIT": "LOW",
+    "SPC": "LOW",
+    "SRR": "MEDIUM",
+    "MRR": "MEDIUM",
+    "DRR": "MEDIUM",
+    "RLS": "MEDIUM",
+    "JMP": "LOW",
+    "CAR": "MEDIUM",
+    "BTK": "MEDIUM",
+    "RBK": "LOW",
+    "IBL": "LOW",
+    "PBK": "LOW",
+    "INJ": "LOW",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026).",
+      "why_not_higher": "Listed weakness area: volume, vertical threat, red-zone production",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (vertical/explosive): deep targets/aDOT/separation: 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026).",
+      "why_not_higher": "Listed weakness area: volume, vertical threat, red-zone production",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026). Revised 80->82: Re-judged for a distinct style (A1 too similar to Kraft, mad 2.8): Strange is a hands-and-separation intermediate target rather than a YAC battering ram (YAC/rec 5.4/4.9 vs Kraft 10.8/5.3), so BTK/TGH/CAR come down and CTH/AGI/COD/SRR go up; contested-catch and spectacular-catch reps are limited (1 TD in 2026), and his block share .43/.48 supports a better run-block grade than A1.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (separation): NGS separation, TPRR, short catch rate: 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026). Revised 78->81: Re-judged for a distinct style (A1 too similar to Kraft, mad 2.8): Strange is a hands-and-separation intermediate target rather than a YAC battering ram (YAC/rec 5.4/4.9 vs Kraft 10.8/5.3), so BTK/TGH/CAR come down and CTH/AGI/COD/SRR go up; contested-catch and spectacular-catch reps are limited (1 TD in 2026), and his block share .43/.48 supports a better run-block grade than A1. Revised 81->76: Approved variance fix (TE_REAUDIT_VARIANCE_AUDIT, t45s395): (cross-audit drafts) COD 81->76 (YAC/rec 5.4/4.9), DRR 70->64 (aDOT under 8 both seasons), JMP 72->78 (A2 lowered JMP for style only; restored toward evidence-neutral).",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (physical): size 76 in / 253 lb, PFF snap usage 328 off snaps, 171 routes, 136 run-block, 21 pass-block (block share 0.48). Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (processing): 3rd-down conv, EPA/tgt, PFF grade: Brenton Strange PFF TE offense grade 2026 62.8 (rank 41), 2025 76.1; 2026 PFF snaps {'off': '328', 'routes': '171', 'pblk': '21', 'rblk': '136'}. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026). Revised 80->78: Re-judged for a distinct style (A1 too similar to Kraft, mad 2.8): Strange is a hands-and-separation intermediate target rather than a YAC battering ram (YAC/rec 5.4/4.9 vs Kraft 10.8/5.3), so BTK/TGH/CAR come down and CTH/AGI/COD/SRR go up; contested-catch and spectacular-catch reps are limited (1 TD in 2026), and his block share .43/.48 supports a better run-block grade than A1.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (hands): short catch rate, PFF grade: 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026). Revised 88->89: Re-judged for a distinct style (A1 too similar to Kraft, mad 2.8): Strange is a hands-and-separation intermediate target rather than a YAC battering ram (YAC/rec 5.4/4.9 vs Kraft 10.8/5.3), so BTK/TGH/CAR come down and CTH/AGI/COD/SRR go up; contested-catch and spectacular-catch reps are limited (1 TD in 2026), and his block share .43/.48 supports a better run-block grade than A1.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CIT": {
+      "basis": "Judgment (contested): deep/red-zone results and size (253 lb): 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026). Revised 80->76: Re-judged for a distinct style (A1 too similar to Kraft, mad 2.8): Strange is a hands-and-separation intermediate target rather than a YAC battering ram (YAC/rec 5.4/4.9 vs Kraft 10.8/5.3), so BTK/TGH/CAR come down and CTH/AGI/COD/SRR go up; contested-catch and spectacular-catch reps are limited (1 TD in 2026), and his block share .43/.48 supports a better run-block grade than A1.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SPC": {
+      "basis": "Judgment (contested): deep/red-zone results and size (253 lb): 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026). Revised 78->74: Re-judged for a distinct style (A1 too similar to Kraft, mad 2.8): Strange is a hands-and-separation intermediate target rather than a YAC battering ram (YAC/rec 5.4/4.9 vs Kraft 10.8/5.3), so BTK/TGH/CAR come down and CTH/AGI/COD/SRR go up; contested-catch and spectacular-catch reps are limited (1 TD in 2026), and his block share .43/.48 supports a better run-block grade than A1.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "SRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026). Revised 80->82: Re-judged for a distinct style (A1 too similar to Kraft, mad 2.8): Strange is a hands-and-separation intermediate target rather than a YAC battering ram (YAC/rec 5.4/4.9 vs Kraft 10.8/5.3), so BTK/TGH/CAR come down and CTH/AGI/COD/SRR go up; contested-catch and spectacular-catch reps are limited (1 TD in 2026), and his block share .43/.48 supports a better run-block grade than A1.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "MRR": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "DRR": {
+      "basis": "Judgment (deep): deep catch rate and deep EPA/tgt: 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0; 2025: 12 g, 60 tgt, 46 rec, 540 yds, 3 TD, EPA/tgt 0.523, aDOT 6.9, NGS separation 3.89, YAC over expected -0.11, YPRR 1.48, TPRR 0.165, routes 364; deep (20+ air yds) 4 tgt catch 0.75 EPA/tgt 1.46, short (<10) catch 0.79, YAC/rec 5.4, red-zone tgt 10, 3rd/4th-down conv 7/13, fumbles lost 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026). Revised 72->70: Re-judged for a distinct style (A1 too similar to Kraft, mad 2.8): Strange is a hands-and-separation intermediate target rather than a YAC battering ram (YAC/rec 5.4/4.9 vs Kraft 10.8/5.3), so BTK/TGH/CAR come down and CTH/AGI/COD/SRR go up; contested-catch and spectacular-catch reps are limited (1 TD in 2026), and his block share .43/.48 supports a better run-block grade than A1. Revised 70->64: Approved variance fix (TE_REAUDIT_VARIANCE_AUDIT, t45s395): (cross-audit drafts) COD 81->76 (YAC/rec 5.4/4.9), DRR 70->64 (aDOT under 8 both seasons), JMP 72->78 (A2 lowered JMP for style only; restored toward evidence-neutral).",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RLS": {
+      "basis": "Judgment (route): YPRR/TPRR/3rd-down conversion: 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (contested): deep/red-zone results and size (253 lb): 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026). Revised 76->72: Re-judged for a distinct style (A1 too similar to Kraft, mad 2.8): Strange is a hands-and-separation intermediate target rather than a YAC battering ram (YAC/rec 5.4/4.9 vs Kraft 10.8/5.3), so BTK/TGH/CAR come down and CTH/AGI/COD/SRR go up; contested-catch and spectacular-catch reps are limited (1 TD in 2026), and his block share .43/.48 supports a better run-block grade than A1. Revised 72->78: Approved variance fix (TE_REAUDIT_VARIANCE_AUDIT, t45s395): (cross-audit drafts) COD 81->76 (YAC/rec 5.4/4.9), DRR 70->64 (aDOT under 8 both seasons), JMP 72->78 (A2 lowered JMP for style only; restored toward evidence-neutral).",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "CAR": {
+      "basis": "Judgment (ball security): fumbles lost 2026 0, 2025 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "BTK": {
+      "basis": "Judgment (after catch): YAC/rec, YAC over expected: 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026). Revised 82->78: Re-judged for a distinct style (A1 too similar to Kraft, mad 2.8): Strange is a hands-and-separation intermediate target rather than a YAC battering ram (YAC/rec 5.4/4.9 vs Kraft 10.8/5.3), so BTK/TGH/CAR come down and CTH/AGI/COD/SRR go up; contested-catch and spectacular-catch reps are limited (1 TD in 2026), and his block share .43/.48 supports a better run-block grade than A1.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run blocking): PFF overall grade 2026 62.8 / 2025 76.1; PFF snap usage 2026: 328 off snaps, 171 routes, 136 run-block, 21 pass-block (block share 0.48); 2025: 640 off snaps, 364 routes, 245 run-block, 31 pass-block (block share 0.43); size 76 in / 253 lb (block-share substitute for paywalled sub-grades, t45s377). Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026). Revised 76->79: Re-judged for a distinct style (A1 too similar to Kraft, mad 2.8): Strange is a hands-and-separation intermediate target rather than a YAC battering ram (YAC/rec 5.4/4.9 vs Kraft 10.8/5.3), so BTK/TGH/CAR come down and CTH/AGI/COD/SRR go up; contested-catch and spectacular-catch reps are limited (1 TD in 2026), and his block share .43/.48 supports a better run-block grade than A1.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run blocking): PFF overall grade 2026 62.8 / 2025 76.1; PFF snap usage 2026: 328 off snaps, 171 routes, 136 run-block, 21 pass-block (block share 0.48); 2025: 640 off snaps, 364 routes, 245 run-block, 31 pass-block (block share 0.43); size 76 in / 253 lb (block-share substitute for paywalled sub-grades, t45s377). Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass blocking): PFF overall grade 2026 62.8 / 2025 76.1; PFF snap usage 2026: 328 off snaps, 171 routes, 136 run-block, 21 pass-block (block share 0.48); 2025: 640 off snaps, 364 routes, 245 run-block, 31 pass-block (block share 0.43); size 76 in / 253 lb (block-share substitute for paywalled sub-grades, t45s377). Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Brenton Strange 2026 usage: 329 offensive snaps in 7 games (nflverse snap_counts); age 25, 76 in, 253 lb; roster status ACT; 2025 games 12. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): Brenton Strange 2026 usage: 329 offensive snaps in 7 games (nflverse snap_counts); age 25, 76 in, 253 lb; roster status ACT; PFF snaps {'off': '328', 'routes': '171', 'pblk': '21', 'rblk': '136'}. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): Brenton Strange 2026 usage: 329 offensive snaps in 7 games (nflverse snap_counts); age 25, 76 in, 253 lb; roster status ACT; PFF snaps {'off': '328', 'routes': '171', 'pblk': '21', 'rblk': '136'}. Style: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026). Revised 86->82: Re-judged for a distinct style (A1 too similar to Kraft, mad 2.8): Strange is a hands-and-separation intermediate target rather than a YAC battering ram (YAC/rec 5.4/4.9 vs Kraft 10.8/5.3), so BTK/TGH/CAR come down and CTH/AGI/COD/SRR go up; contested-catch and spectacular-catch reps are limited (1 TD in 2026), and his block share .43/.48 supports a better run-block grade than A1.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tight ends in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tight ends in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/te/2026",
+        "https://www.pff.com/grades/nfl/te/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 78,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026). Revision A2: Re-judged for a distinct style (A1 too similar to Kraft, mad 2.8): Strange is a hands-and-separation intermediate target rather than a YAC battering ram (YAC/rec 5.4/4.9 vs Kraft 10.8/5.3), so BTK/TGH/CAR come down and CTH/AGI/COD/SRR go up; contested-catch and spectacular-catch reps are limited (1 TD in 2026), and his block share .43/.48 supports a better run-block grade than A1. Revision A3: Approved variance fix (TE_REAUDIT_VARIANCE_AUDIT, t45s395): (cross-audit drafts) COD 81->76 (YAC/rec 5.4/4.9), DRR 70->64 (aDOT under 8 both seasons), JMP 72->78 (A2 lowered JMP for style only; restored toward evidence-neutral).",
+  "style_profile": "Brenton Strange: Efficient two-way intermediate target: EPA/tgt +.523/+.405 and 2026 YPRR 1.95 on modest volume (35 tgt), reliable hands, block share .43/.48 as a functional in-line/move blocker; limited vertical juice and TD output (1 in 2026).",
+  "style_evidence": [
+    "Brenton Strange (JAX) 2026: 7 g, 35 tgt, 28 rec, 334 yds, 1 TD, EPA/tgt 0.405, aDOT 7.9, NGS separation 3.39, YAC over expected -0.06, YPRR 1.95, TPRR 0.205, routes 171; deep (20+ air yds) 2 tgt catch 1.0 EPA/tgt 2.0, short (<10) catch 0.9, YAC/rec 4.9, red-zone tgt 3, 3rd/4th-down conv 5/9, fumbles lost 0",
+    "Brenton Strange (JAX) 2025: 12 g, 60 tgt, 46 rec, 540 yds, 3 TD, EPA/tgt 0.523, aDOT 6.9, NGS separation 3.89, YAC over expected -0.11, YPRR 1.48, TPRR 0.165, routes 364; deep (20+ air yds) 4 tgt catch 0.75 EPA/tgt 1.46, short (<10) catch 0.79, YAC/rec 5.4, red-zone tgt 10, 3rd/4th-down conv 7/13, fumbles lost 0",
+    "Brenton Strange PFF TE offense grade 2026 62.8 (rank 41), 2025 76.1; 2026 PFF snaps {'off': '328', 'routes': '171', 'pblk': '21', 'rblk': '136'}",
+    "Brenton Strange 2026 usage: 329 offensive snaps in 7 games (nflverse snap_counts); age 25, 76 in, 253 lb; roster status ACT"
+  ],
+  "input_dossier": "TE_REAUDIT_BG_16_A1",
+  "weaknesses": [
+    "volume",
+    "vertical threat",
+    "red-zone production"
+  ],
+  "madden_reference": [
+    {
+      "player": "Brenton Strange",
+      "ovr": 79,
+      "attributes": {
+        "SPD": 83,
+        "ACC": 87,
+        "AGI": 75,
+        "COD": 69,
+        "STR": 77,
+        "AWR": 78,
+        "CTH": 89,
+        "CIT": 81,
+        "SPC": 78,
+        "SRR": 72,
+        "MRR": 64,
+        "DRR": 58,
+        "RLS": 67,
+        "JMP": 84,
+        "CAR": 74,
+        "BTK": 68,
+        "RBK": 68,
+        "IBL": 69,
+        "PBK": 64,
+        "INJ": 89,
+        "STA": 88,
+        "TGH": 89
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -1,
+      "delta_attributes": {
+        "SPD": 1,
+        "ACC": -1,
+        "AGI": 7,
+        "COD": 7,
+        "STR": -1,
+        "AWR": 0,
+        "CTH": 0,
+        "CIT": -5,
+        "SPC": -4,
+        "SRR": 10,
+        "MRR": 18,
+        "DRR": 6,
+        "RLS": 9,
+        "JMP": -6,
+        "CAR": 6,
+        "BTK": 10,
+        "RBK": 11,
+        "IBL": 9,
+        "PBK": 10,
+        "INJ": -11,
+        "STA": -4,
+        "TGH": -7
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 TE, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 1,
+    "attribute_gaps_10plus": {
+      "SRR": 10,
+      "MRR": 18,
+      "BTK": 10,
+      "RBK": 11,
+      "PBK": 10,
+      "INJ": -11
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [
+    "STYLE_PROFILE_TOO_SIMILAR:Tucker Kraft(corr 0.729, mad 2.8)"
+  ],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t45s395",
+  "revision": 3,
+  "supersedes": "TE_REAUDIT_RATE_16_A2",
+  "style_similarity": [
+    {
+      "player": "Brock Bowers",
+      "audit_id": "TE_REAUDIT_RATE_01_A1",
+      "corr": 0.364,
+      "mad": 8.9,
+      "too_similar": false
+    },
+    {
+      "player": "George Kittle",
+      "audit_id": "TE_REAUDIT_RATE_02_A1",
+      "corr": 0.359,
+      "mad": 7.1,
+      "too_similar": false
+    },
+    {
+      "player": "Trey McBride",
+      "audit_id": "TE_REAUDIT_RATE_03_A3",
+      "corr": 0.495,
+      "mad": 7.4,
+      "too_similar": false
+    },
+    {
+      "player": "Dalton Kincaid",
+      "audit_id": "TE_REAUDIT_RATE_04_A3",
+      "corr": 0.285,
+      "mad": 8.9,
+      "too_similar": false
+    },
+    {
+      "player": "Sam LaPorta",
+      "audit_id": "TE_REAUDIT_RATE_05_A2",
+      "corr": 0.64,
+      "mad": 4.5,
+      "too_similar": false
+    },
+    {
+      "player": "T.J. Hockenson",
+      "audit_id": "TE_REAUDIT_RATE_06_A1",
+      "corr": 0.576,
+      "mad": 4.3,
+      "too_similar": false
+    },
+    {
+      "player": "Darnell Washington",
+      "audit_id": "TE_REAUDIT_RATE_07_A1",
+      "corr": 0.232,
+      "mad": 8.1,
+      "too_similar": false
+    },
+    {
+      "player": "Travis Kelce",
+      "audit_id": "TE_REAUDIT_RATE_08_A2",
+      "corr": 0.363,
+      "mad": 6.4,
+      "too_similar": false
+    },
+    {
+      "player": "Hunter Henry",
+      "audit_id": "TE_REAUDIT_RATE_09_A1",
+      "corr": 0.354,
+      "mad": 5.1,
+      "too_similar": false
+    },
+    {
+      "player": "Isaiah Likely",
+      "audit_id": "TE_REAUDIT_RATE_10_A3",
+      "corr": 0.496,
+      "mad": 5.5,
+      "too_similar": false
+    },
+    {
+      "player": "Tucker Kraft",
+      "audit_id": "TE_REAUDIT_RATE_11_A2",
+      "corr": 0.535,
+      "mad": 4,
+      "too_similar": false
+    },
+    {
+      "player": "Colston Loveland",
+      "audit_id": "TE_REAUDIT_RATE_12_A3",
+      "corr": 0.521,
+      "mad": 3.5,
+      "too_similar": false
+    },
+    {
+      "player": "Michael Mayer",
+      "audit_id": "TE_REAUDIT_RATE_13_A2",
+      "corr": 0.418,
+      "mad": 5.1,
+      "too_similar": false
+    },
+    {
+      "player": "Dallas Goedert",
+      "audit_id": "TE_REAUDIT_RATE_14_A3",
+      "corr": 0.514,
+      "mad": 4.2,
+      "too_similar": false
+    },
+    {
+      "player": "Kyle Pitts",
+      "audit_id": "TE_REAUDIT_RATE_15_A3",
+      "corr": 0.264,
+      "mad": 8.3,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}

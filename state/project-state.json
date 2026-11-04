@@ -3408,17 +3408,20 @@
         "TE_REAUDIT_RATE_10_A3",
         "TE_REAUDIT_RATE_14_A3",
         "TE_REAUDIT_RATE_12_A3",
-        "TE_REAUDIT_RATE_15_A3"
+        "TE_REAUDIT_RATE_15_A3",
+        "TE_REAUDIT_RATE_16_A3"
       ],
       "current_stage": "positional_cross_audit",
       "current_task": "TE_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T01:26:18.932Z",
+      "updated_at": "2026-11-04T01:26:19.224Z",
       "last_result": {
-        "task_id": "TE_REAUDIT_RATE_15",
+        "task_id": "TE_REAUDIT_RATE_16",
         "status": "REVISION_APPROVED",
-        "audit_id": "TE_REAUDIT_RATE_15_A3",
-        "supersedes": "TE_REAUDIT_RATE_15_A2",
-        "flags": []
+        "audit_id": "TE_REAUDIT_RATE_16_A3",
+        "supersedes": "TE_REAUDIT_RATE_16_A2",
+        "flags": [
+          "STYLE_PROFILE_TOO_SIMILAR:Tucker Kraft(corr 0.729, mad 2.8)"
+        ]
       },
       "awaiting": null,
       "approvals": [
@@ -4318,6 +4321,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T01:26:18Z",
           "note": "Commissioner approval t45s395: Approved variance fix (TE_REAUDIT_VARIANCE_AUDIT, t45s395): DRR 80->72 (deep EPA/tgt -1.27 in 2026, -0.44 in 2025) and INJ 80->88 (all 17 games in 202"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_16",
+          "audit_id": "TE_REAUDIT_RATE_16_A3",
+          "supersedes": "TE_REAUDIT_RATE_16_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T01:26:19Z",
+          "note": "Commissioner approval t45s395: Approved variance fix (TE_REAUDIT_VARIANCE_AUDIT, t45s395): (cross-audit drafts) COD 81->76 (YAC/rec 5.4/4.9), DRR 70->64 (aDOT under 8 both seasons),"
         }
       ]
     },
