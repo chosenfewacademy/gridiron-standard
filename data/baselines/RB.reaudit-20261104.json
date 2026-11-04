@@ -1,0 +1,645 @@
+{
+  "architecture_version": "1.1.3",
+  "methodology_version": "1.0.0",
+  "status": "LOCKED",
+  "mutation_policy": "IMMUTABLE_UNLESS_EXPLICIT_CURRENT_DATA_TOP10_REAUDIT",
+  "historical_cards_policy": "Do not fabricate missing historical full-card attributes.",
+  "position": "RB",
+  "version": "reaudit-20261104",
+  "top_10": [
+    {
+      "rank": 1,
+      "player": "Bijan Robinson",
+      "ovr": 92
+    },
+    {
+      "rank": 2,
+      "player": "Kenneth Walker III",
+      "ovr": 90
+    },
+    {
+      "rank": 3,
+      "player": "Jahmyr Gibbs",
+      "ovr": 89
+    },
+    {
+      "rank": 4,
+      "player": "Jaylen Warren",
+      "ovr": 84
+    },
+    {
+      "rank": 5,
+      "player": "Christian McCaffrey",
+      "ovr": 84
+    },
+    {
+      "rank": 6,
+      "player": "James Cook",
+      "ovr": 82
+    },
+    {
+      "rank": 7,
+      "player": "De'Von Achane",
+      "ovr": 82
+    },
+    {
+      "rank": 8,
+      "player": "Kyren Williams",
+      "ovr": 81
+    },
+    {
+      "rank": 9,
+      "player": "Bhayshul Tuten",
+      "ovr": 79
+    },
+    {
+      "rank": 10,
+      "player": "Jonathan Taylor",
+      "ovr": 78
+    }
+  ],
+  "last_in": {
+    "player": "Jonathan Taylor",
+    "ovr": 78
+  },
+  "first_out": {
+    "player": "Chuba Hubbard",
+    "ovr": 77
+  },
+  "external_controls": [
+    {
+      "player": "Chuba Hubbard",
+      "ovr": 77
+    },
+    {
+      "player": "Derrick Henry",
+      "ovr": 76
+    },
+    {
+      "player": "Braelon Allen",
+      "ovr": 75
+    },
+    {
+      "player": "Tony Pollard",
+      "ovr": 74
+    },
+    {
+      "player": "Josh Jacobs",
+      "ovr": 73
+    }
+  ],
+  "scarcity": {
+    "rules": "config/scarcity-rules.json (90+ elite, 95+ rare, 97+ extraordinary, 99 historic)",
+    "traits_90_plus": [
+      {
+        "player": "Bijan Robinson",
+        "attr": "SPD",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Bijan Robinson",
+        "attr": "ACC",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Bijan Robinson",
+        "attr": "AGI",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Bijan Robinson",
+        "attr": "COD",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Bijan Robinson",
+        "attr": "BCV",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Bijan Robinson",
+        "attr": "JKM",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Bijan Robinson",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Kenneth Walker III",
+        "attr": "SPD",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Kenneth Walker III",
+        "attr": "ACC",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Kenneth Walker III",
+        "attr": "AGI",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Kenneth Walker III",
+        "attr": "CAR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Kenneth Walker III",
+        "attr": "BCV",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Kenneth Walker III",
+        "attr": "BTK",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "attr": "SPD",
+        "v": 96,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "attr": "ACC",
+        "v": 95,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "attr": "AGI",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "attr": "COD",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "attr": "JKM",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jaylen Warren",
+        "attr": "ACC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jaylen Warren",
+        "attr": "CAR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Christian McCaffrey",
+        "attr": "AWR",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Christian McCaffrey",
+        "attr": "CAR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Christian McCaffrey",
+        "attr": "BCV",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Christian McCaffrey",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "James Cook",
+        "attr": "SPD",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "James Cook",
+        "attr": "ACC",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "James Cook",
+        "attr": "AGI",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "De'Von Achane",
+        "attr": "SPD",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "De'Von Achane",
+        "attr": "ACC",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "De'Von Achane",
+        "attr": "AGI",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "De'Von Achane",
+        "attr": "CAR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "De'Von Achane",
+        "attr": "JKM",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Kyren Williams",
+        "attr": "AWR",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Kyren Williams",
+        "attr": "BCV",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Kyren Williams",
+        "attr": "STA",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Bhayshul Tuten",
+        "attr": "SPD",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Bhayshul Tuten",
+        "attr": "ACC",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Bhayshul Tuten",
+        "attr": "JMP",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      },
+      {
+        "player": "Jonathan Taylor",
+        "attr": "SPD",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Jonathan Taylor",
+        "attr": "STA",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Derrick Henry",
+        "attr": "STR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Derrick Henry",
+        "attr": "TRK",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Derrick Henry",
+        "attr": "SFA",
+        "v": 96,
+        "tier": "LEAGUE_DEFINING",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Tony Pollard",
+        "attr": "ACC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 5
+      },
+      {
+        "player": "Josh Jacobs",
+        "attr": "TGH",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 5
+      }
+    ],
+    "count_90_plus": 45,
+    "count_95_plus": 3,
+    "count_97_plus": 0,
+    "count_99": 0,
+    "traits_95_plus": [
+      "Jahmyr Gibbs SPD 96 (LEAGUE_DEFINING)",
+      "Jahmyr Gibbs ACC 95 (LEAGUE_DEFINING)",
+      "Derrick Henry SFA 96 (LEAGUE_DEFINING)"
+    ],
+    "max_trait": "Jahmyr Gibbs SPD 96 (LEAGUE_DEFINING)",
+    "all_90_plus_have_tiered_sourced_evidence": true,
+    "confidence_note": "90+ traits carry MEDIUM trait_confidence (LOW for Tuten); PFF elusive/MTF sub-metrics paywalled",
+    "overall_90_plus": [
+      "Bijan Robinson 92",
+      "Kenneth Walker III 90"
+    ],
+    "overall_spread": "92 to 73 across 15 rated RBs (top 10: 92 to 78)",
+    "style_rule": {
+      "pairs_checked": 105,
+      "too_similar": 0,
+      "highest_corr": [
+        "Derrick Henry",
+        "Josh Jacobs",
+        0.947,
+        6,
+        false
+      ],
+      "lowest_mad": [
+        "Jonathan Taylor",
+        "Kyren Williams",
+        0.934,
+        3.3,
+        false
+      ]
+    },
+    "effective_ratings": {
+      "Bijan Robinson": [
+        "RB_REAUDIT_RATE_01_A1",
+        92
+      ],
+      "Kenneth Walker III": [
+        "RB_REAUDIT_RATE_03_A2",
+        90
+      ],
+      "Jahmyr Gibbs": [
+        "RB_REAUDIT_RATE_02_A3",
+        89
+      ],
+      "Jaylen Warren": [
+        "RB_REAUDIT_RATE_04_A2",
+        84
+      ],
+      "Christian McCaffrey": [
+        "RB_REAUDIT_RATE_09_A4",
+        84
+      ],
+      "James Cook": [
+        "RB_REAUDIT_RATE_06_A2",
+        82
+      ],
+      "De'Von Achane": [
+        "RB_REAUDIT_RATE_15_A1",
+        82
+      ],
+      "Kyren Williams": [
+        "RB_REAUDIT_RATE_10_A3",
+        81
+      ],
+      "Bhayshul Tuten": [
+        "RB_REAUDIT_RATE_05_A2",
+        79
+      ],
+      "Jonathan Taylor": [
+        "RB_REAUDIT_RATE_08_A3",
+        78
+      ],
+      "Chuba Hubbard": [
+        "RB_REAUDIT_RATE_13_A2",
+        77
+      ],
+      "Derrick Henry": [
+        "RB_REAUDIT_RATE_07_A2",
+        76
+      ],
+      "Braelon Allen": [
+        "RB_REAUDIT_RATE_14_A2",
+        75
+      ],
+      "Tony Pollard": [
+        "RB_REAUDIT_RATE_12_A2",
+        74
+      ],
+      "Josh Jacobs": [
+        "RB_REAUDIT_RATE_11_A2",
+        73
+      ]
+    },
+    "pre_audit_fix": "Tuten ACC 95->93 (RB_REAUDIT_RATE_05_A2): 95+ tier not supported by LOW-confidence sample",
+    "result": "PASS (superseding run R2, t56s532): 45 traits at 90+ all tiered and sourced; 3 at 95+ (Jahmyr Gibbs SPD 96 (LEAGUE_DEFINING), Jahmyr Gibbs ACC 95 (LEAGUE_DEFINING), Derrick Henry SFA 96 (LEAGUE_DEFINING)); overalls 90+: Bijan Robinson 92, Kenneth Walker III 90; style rule 105 pairs, 0 too similar.",
+    "note_for_commissioner": "Re-run after the t56s532 cards (Christian McCaffrey, Kyren Williams). PASS (superseding run R2, t56s532): 45 traits at 90+ all tiered and sourced; 3 at 95+ (Jahmyr Gibbs SPD 96 (LEAGUE_DEFINING), Jahmyr Gibbs ACC 95 (LEAGUE_DEFINING), Derrick Henry SFA 96 (LEAGUE_DEFINING)); overalls 90+: Bijan Robinson 92, Kenneth Walker III 90; style rule 105 pairs, 0 too similar."
+  },
+  "full_cards_import_status": "NOT_YET_IMPORTED",
+  "supersedes": {
+    "baseline_file": "data/baselines/RB.reaudit-20261103.json",
+    "version": "reaudit-20261103"
+  },
+  "stage_audit_ids": [
+    "RB_REAUDIT_CANDIDATE_AUDIT_A1",
+    "RB_REAUDIT_BG_01_A1",
+    "RB_REAUDIT_BG_02_A1",
+    "RB_REAUDIT_BG_03_A1",
+    "RB_REAUDIT_BG_04_A1",
+    "RB_REAUDIT_BG_05_A1",
+    "RB_REAUDIT_BG_06_A1",
+    "RB_REAUDIT_BG_07_A1",
+    "RB_REAUDIT_BG_08_A1",
+    "RB_REAUDIT_BG_09_A1",
+    "RB_REAUDIT_BG_10_A1",
+    "RB_REAUDIT_BG_11_A1",
+    "RB_REAUDIT_BG_12_A1",
+    "RB_REAUDIT_BG_13_A1",
+    "RB_REAUDIT_BG_14_A1",
+    "RB_REAUDIT_RATE_01_A1",
+    "RB_REAUDIT_RATE_02_A2",
+    "RB_REAUDIT_RATE_03_A1",
+    "RB_REAUDIT_RATE_04_A1",
+    "RB_REAUDIT_RATE_05_A1",
+    "RB_REAUDIT_RATE_06_A1",
+    "RB_REAUDIT_RATE_07_A1",
+    "RB_REAUDIT_RATE_08_A1",
+    "RB_REAUDIT_RATE_09_A1",
+    "RB_REAUDIT_RATE_10_A1",
+    "RB_REAUDIT_RATE_11_A1",
+    "RB_REAUDIT_RATE_12_A1",
+    "RB_REAUDIT_RATE_13_A1",
+    "RB_REAUDIT_RATE_14_A1",
+    "RB_REAUDIT_H2H_01_A1",
+    "RB_REAUDIT_H2H_02_A1",
+    "RB_REAUDIT_H2H_03_A1",
+    "RB_REAUDIT_H2H_04_A1",
+    "RB_REAUDIT_H2H_05_A1",
+    "RB_REAUDIT_H2H_06_A1",
+    "RB_REAUDIT_TIEBREAK_01_A1",
+    "RB_REAUDIT_TIEBREAK_02_A1",
+    "RB_REAUDIT_TIEBREAK_03_A1",
+    "RB_REAUDIT_TIEBREAK_04_A1",
+    "RB_REAUDIT_TIEBREAK_05_A1",
+    "RB_REAUDIT_TIEBREAK_06_A1",
+    "RB_REAUDIT_TIEBREAK_07_A1",
+    "RB_REAUDIT_TIEBREAK_08_A1",
+    "RB_REAUDIT_TIEBREAK_09_A1",
+    "RB_REAUDIT_TIEBREAK_10_A1",
+    "RB_REAUDIT_TIEBREAK_11_A1",
+    "RB_REAUDIT_TIEBREAK_12_A1",
+    "RB_REAUDIT_TIEBREAK_13_A1",
+    "RB_REAUDIT_RATE_03_A2",
+    "RB_REAUDIT_RATE_02_A3",
+    "RB_REAUDIT_RATE_04_A2",
+    "RB_REAUDIT_RATE_09_A2",
+    "RB_REAUDIT_RATE_10_A2",
+    "RB_REAUDIT_RATE_08_A2",
+    "RB_REAUDIT_RATE_07_A2",
+    "RB_REAUDIT_RATE_13_A2",
+    "RB_REAUDIT_RATE_11_A2",
+    "RB_REAUDIT_RATE_14_A2",
+    "RB_REAUDIT_RATE_12_A2",
+    "RB_REAUDIT_RATE_06_A2",
+    "RB_REAUDIT_RATE_08_A3",
+    "RB_REAUDIT_RATE_05_A2",
+    "RB_REAUDIT_BG_15_A1",
+    "RB_REAUDIT_RATE_15_A1",
+    "RB_REAUDIT_TIEBREAK_14_A1",
+    "RB_REAUDIT_TIEBREAK_15_A1",
+    "RB_REAUDIT_TIEBREAK_16_A1",
+    "RB_REAUDIT_TIEBREAK_17_A1",
+    "RB_REAUDIT_TIEBREAK_18_A1",
+    "RB_REAUDIT_TIEBREAK_19_A1",
+    "RB_REAUDIT_TIEBREAK_20_A1",
+    "RB_REAUDIT_TIEBREAK_21_A1",
+    "RB_REAUDIT_TIEBREAK_22_A1",
+    "RB_REAUDIT_RATE_09_A3",
+    "RB_REAUDIT_RATE_10_A3",
+    "RB_REAUDIT_RATE_09_A4",
+    "RB_REAUDIT_VARIANCE_AUDIT_A2",
+    "RB_REAUDIT_SCARCITY_A2",
+    "RB_REAUDIT_CROSS_AUDIT_A2"
+  ],
+  "madden_order_verified": false,
+  "locked_by": "PhiXCrypto",
+  "locked_at": "2026-11-04T14:16:10Z"
+}
