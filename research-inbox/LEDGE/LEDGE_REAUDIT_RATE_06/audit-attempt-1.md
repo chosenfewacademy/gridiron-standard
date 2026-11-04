@@ -1,0 +1,373 @@
+# LEDGE_REAUDIT_RATE_06 — DeMarcus Lawrence rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "LEDGE_REAUDIT_RATE_06_A1",
+  "task_id": "LEDGE_REAUDIT_RATE_06",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "player_id": "ext_00-0031411",
+  "players": [
+    "DeMarcus Lawrence"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 74,
+    "ACC": 78,
+    "AGI": 74,
+    "COD": 70,
+    "STR": 88,
+    "AWR": 90,
+    "PRC": 88,
+    "TAK": 86,
+    "POW": 84,
+    "BSH": 92,
+    "PMV": 88,
+    "FMV": 74,
+    "PUR": 72,
+    "INJ": 80,
+    "STA": 78,
+    "TGH": 86
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PMV": "MEDIUM",
+    "FMV": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 39 pressures (19 hurries, 12 QB knockdowns, 6 sacks), 53 tackles, 6 missed; PFR 2026 12 pressures (6 hurries, 6 QB hits, 0.0 sacks) in 7 games, 14 tackles, 3 missed; ESPN 2026 edge PRWR 25% (#7, 22/87); RSWR outside the published top 10. Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 39 pressures (19 hurries, 12 QB knockdowns, 6 sacks), 53 tackles, 6 missed; PFR 2026 12 pressures (6 hurries, 6 QB hits, 0.0 sacks) in 7 games, 14 tackles, 3 missed; ESPN 2026 edge PRWR 25% (#7, 22/87); RSWR outside the published top 10. Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 39 pressures (19 hurries, 12 QB knockdowns, 6 sacks), 53 tackles, 6 missed; PFR 2026 12 pressures (6 hurries, 6 QB hits, 0.0 sacks) in 7 games, 14 tackles, 3 missed; ESPN 2026 edge PRWR 25% (#7, 22/87); RSWR outside the published top 10. Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 39 pressures (19 hurries, 12 QB knockdowns, 6 sacks), 53 tackles, 6 missed; PFR 2026 12 pressures (6 hurries, 6 QB hits, 0.0 sacks) in 7 games, 14 tackles, 3 missed; ESPN 2026 edge PRWR 25% (#7, 22/87); RSWR outside the published top 10. Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF edge 2026 overall 81.5 on 314 snaps (181 pass-rush, 123 run-defense, 10 coverage); ESPN 2026 edge PRWR 25% (#7, 22/87); RSWR outside the published top 10. Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 1/1; PFF edge 2026 overall 81.5 on 314 snaps (181 pass-rush, 123 run-defense, 10 coverage). Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR 25% (#7, 22/87); RSWR outside the published top 10; PFF edge 2025 overall 82.1 on 744 snaps (487 pass-rush, 242 run-defense, 15 coverage); PFF edge 2026 overall 81.5 on 314 snaps (181 pass-rush, 123 run-defense, 10 coverage); TFL in 16 g / 626 def snaps; 6.0 sacks, 20 QB hits, 11 TFL, 3 FF, 1 PD / 8 g / 313 def snaps; 0.0 sacks, 6 QB hits, 3 TFL, 0 FF, 2 PD. Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 39 pressures (19 hurries, 12 QB knockdowns, 6 sacks), 53 tackles, 6 missed; PFR 2026 12 pressures (6 hurries, 6 QB hits, 0.0 sacks) in 7 games, 14 tackles, 3 missed. Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 39 pressures (19 hurries, 12 QB knockdowns, 6 sacks), 53 tackles, 6 missed; PFR 2026 12 pressures (6 hurries, 6 QB hits, 0.0 sacks) in 7 games, 14 tackles, 3 missed. Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR 25% (#7, 22/87); RSWR outside the published top 10; PFF edge 2025 overall 82.1 on 744 snaps (487 pass-rush, 242 run-defense, 15 coverage); PFF edge 2026 overall 81.5 on 314 snaps (181 pass-rush, 123 run-defense, 10 coverage); TFL in 16 g / 626 def snaps; 6.0 sacks, 20 QB hits, 11 TFL, 3 FF, 1 PD / 8 g / 313 def snaps; 0.0 sacks, 6 QB hits, 3 TFL, 0 FF, 2 PD. Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR 25% (#7, 22/87); RSWR outside the published top 10; PFR 2025 39 pressures (19 hurries, 12 QB knockdowns, 6 sacks), 53 tackles, 6 missed; PFR 2026 12 pressures (6 hurries, 6 QB hits, 0.0 sacks) in 7 games, 14 tackles, 3 missed. Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "FMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 edge PRWR 25% (#7, 22/87); RSWR outside the published top 10; PFR 2025 39 pressures (19 hurries, 12 QB knockdowns, 6 sacks), 53 tackles, 6 missed; PFR 2026 12 pressures (6 hurries, 6 QB hits, 0.0 sacks) in 7 games, 14 tackles, 3 missed. Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): ESPN 2026 edge PRWR 25% (#7, 22/87); RSWR outside the published top 10; PFF edge 2025 overall 82.1 on 744 snaps (487 pass-rush, 242 run-defense, 15 coverage); PFF edge 2026 overall 81.5 on 314 snaps (181 pass-rush, 123 run-defense, 10 coverage); TFL in 16 g / 626 def snaps; 6.0 sacks, 20 QB hits, 11 TFL, 3 FF, 1 PD / 8 g / 313 def snaps; 0.0 sacks, 6 QB hits, 3 TFL, 0 FF, 2 PD. Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): DeMarcus Lawrence injury reports: wk5 Out (Quadricep); wk7 Questionable (Knee); roster status ACT; 16 g / 626 def snaps; 6.0 sacks, 20 QB hits, 11 TFL, 3 FF, 1 PD (2025), 8 g / 313 def snaps; 0.0 sacks, 6 QB hits, 3 TFL, 0 FF, 2 PD (2026). Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 16 g / 626 def snaps; 6.0 sacks, 20 QB hits, 11 TFL, 3 FF, 1 PD (2025), 8 g / 313 def snaps; 0.0 sacks, 6 QB hits, 3 TFL, 0 FF, 2 PD (2026). Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 16 g / 626 def snaps; 6.0 sacks, 20 QB hits, 11 TFL, 3 FF, 1 PD (2025), 8 g / 313 def snaps; 0.0 sacks, 6 QB hits, 3 TFL, 0 FF, 2 PD (2026). Style: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated LEDGEs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LEDGEs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "discipline: penalties 2025/2026 1/1; PFF edge 2026 overall 81.5 on 314 snaps (181 pass-rush, 123 run-defense, 10 coverage)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "BSH": {
+      "tier": "ELITE",
+      "claim": "run defense: ESPN 2026 edge PRWR 25% (#7, 22/87); RSWR outside the published top 10; PFF edge 2025 overall 82.1 on 744 snaps (487 pass-rush, 242 run-defense, 15 coverage); PFF edge 2026 overall 81.5 on 314 snaps (181 pass-rush, 123 run-defense, 10 coverage); TFL in 16 g / 626 def snaps; 6.0 sacks, 20 QB hits, 11 TFL, 3 FF, 1 PD / 8 g / 313 def snaps; 0.0 sacks, 6 QB hits, 3 TFL, 0 FF, 2 PD",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ed/2026",
+        "https://www.pff.com/grades/nfl/ed/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 82,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+  "style_profile": "DeMarcus Lawrence: Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+  "style_evidence": [
+    "DeMarcus Lawrence (SEA) DeMarcus Lawrence 2026: PFF edge 2026 overall 81.5 on 314 snaps (181 pass-rush, 123 run-defense, 10 coverage); PFR 2026 12 pressures (6 hurries, 6 QB hits, 0.0 sacks) in 7 games, 14 tackles, 3 missed; 8 g / 313 def snaps; 0.0 sacks, 6 QB hits, 3 TFL, 0 FF, 2 PD; 1 accepted penalties; ESPN 2026 edge PRWR 25% (#7, 22/87); RSWR outside the published top 10",
+    "DeMarcus Lawrence 2025: PFF edge 2025 overall 82.1 on 744 snaps (487 pass-rush, 242 run-defense, 15 coverage); PFR 2025 39 pressures (19 hurries, 12 QB knockdowns, 6 sacks), 53 tackles, 6 missed; 16 g / 626 def snaps; 6.0 sacks, 20 QB hits, 11 TFL, 3 FF, 1 PD; 1 accepted penalties",
+    "DeMarcus Lawrence alignment: side snapshots 2025-26 left 496 / right 0 -> LEDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position LB; Madden card LEDG (reference only)",
+    "DeMarcus Lawrence injury reports: wk5 Out (Quadricep); wk7 Questionable (Knee); roster status ACT"
+  ],
+  "input_dossier": "LEDGE_REAUDIT_BG_06_A1",
+  "weaknesses": [
+    "sack finish",
+    "speed"
+  ],
+  "limitations": [
+    "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+  ],
+  "side_assignment": "LEDGE (side snapshots 2025-26 left 496 / right 0 -> LEDGE)",
+  "madden_reference": [
+    {
+      "player": "DeMarcus Lawrence",
+      "ovr": 87,
+      "madden_position": "LEDG",
+      "attributes": {
+        "SPD": 84,
+        "ACC": 82,
+        "AGI": 77,
+        "COD": 66,
+        "STR": 87,
+        "AWR": 92,
+        "PRC": 94,
+        "TAK": 86,
+        "POW": 85,
+        "BSH": 87,
+        "PMV": 78,
+        "FMV": 81,
+        "PUR": 88,
+        "INJ": 84,
+        "STA": 84,
+        "TGH": 95
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -5,
+      "delta_attributes": {
+        "SPD": -10,
+        "ACC": -4,
+        "AGI": -3,
+        "COD": 4,
+        "STR": 1,
+        "AWR": -2,
+        "PRC": -6,
+        "TAK": 0,
+        "POW": -1,
+        "BSH": 5,
+        "PMV": 10,
+        "FMV": -7,
+        "PUR": -16,
+        "INJ": -4,
+        "STA": -6,
+        "TGH": -9
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 5,
+    "attribute_gaps_10plus": {
+      "SPD": -10,
+      "PMV": 10,
+      "PUR": -16
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
