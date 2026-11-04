@@ -1,0 +1,37 @@
+{
+  "audit_id": "RG_REAUDIT_H2H_06_A1",
+  "task_id": "RG_REAUDIT_H2H_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Dominick Puni",
+    "Mike Onwenu"
+  ],
+  "pair_result": {
+    "winner": "Dominick Puni",
+    "loser": "Mike Onwenu",
+    "provisional_order_holds": true,
+    "reasoning": "Cut line. Puni: PFF 69.2 / 76.2, active, 24 games with no injury designation. Onwenu: 77.2 on 1,344 snaps in 2025 (the better 2025) but only 86 snaps in 2026 and now on reserve/IR. Current-season availability and production keep Puni in the top 10.",
+    "key_evidence_for_winner": [
+      "Dominick Puni (SF) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 226}; roster ACT",
+      "Dominick Puni 2026: PFF 76.2 (rank 13; 244 pass-block/175 run-block of 419 snaps); 7 g/419 snaps; penalties 1; injuries none",
+      "Dominick Puni 2025: PFF 69.2 (rank 26; 739 pass-block/496 run-block of 1235 snaps); 17 g/1120 snaps; penalties 4; injuries none"
+    ],
+    "key_evidence_for_loser": [
+      "Mike Onwenu (NE) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 184}; roster RES",
+      "Mike Onwenu 2026: PFF 73 (rank None; 52 pass-block/34 run-block of 86 snaps); no snaps; penalties 0; injuries none",
+      "Mike Onwenu 2025: PFF 77.2 (rank 8; 808 pass-block/536 run-block of 1344 snaps); no snaps; penalties 3; injuries ['wk4 Questionable (Shoulder)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
