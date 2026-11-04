@@ -1,0 +1,40 @@
+# RG_REAUDIT_H2H_05 — Mason McCormick vs Dominick Puni (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "RG_REAUDIT_H2H_05_A1",
+  "task_id": "RG_REAUDIT_H2H_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Mason McCormick",
+    "Dominick Puni"
+  ],
+  "pair_result": {
+    "winner": "Mason McCormick",
+    "loser": "Dominick Puni",
+    "provisional_order_holds": true,
+    "reasoning": "McCormick: PFF 72.8 on 1,088 snaps / 76.1 (#14), 3 penalties over two years, 25/25 games, RG/LG versatility. Puni: 69.2 on 1,235 / 76.2 (#13), 5 penalties (4 holdings). The 2026 grades are tied; McCormick's better 2025 and fewer penalties win.",
+    "key_evidence_for_winner": [
+      "Mason McCormick (PIT) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 136, 'LG': 90}; roster ACT",
+      "Mason McCormick 2026: PFF 76.1 (rank 14; 344 pass-block/189 run-block of 533 snaps); 8 g/533 snaps; penalties 2; injuries none",
+      "Mason McCormick 2025: PFF 72.8 (rank 17; 673 pass-block/415 run-block of 1088 snaps); 17 g/1031 snaps; penalties 1; injuries none"
+    ],
+    "key_evidence_for_loser": [
+      "Dominick Puni (SF) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 226}; roster ACT",
+      "Dominick Puni 2026: PFF 76.2 (rank 13; 244 pass-block/175 run-block of 419 snaps); 7 g/419 snaps; penalties 1; injuries none",
+      "Dominick Puni 2025: PFF 69.2 (rank 26; 739 pass-block/496 run-block of 1235 snaps); 17 g/1120 snaps; penalties 4; injuries none"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
