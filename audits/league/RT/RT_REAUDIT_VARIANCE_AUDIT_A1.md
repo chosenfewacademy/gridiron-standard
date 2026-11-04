@@ -1,0 +1,454 @@
+# RT_REAUDIT_VARIANCE_AUDIT (v1.1.2; authorized t46u)
+
+```json
+{
+  "audit_id": "RT_REAUDIT_VARIANCE_AUDIT_A1",
+  "task_id": "RT_REAUDIT_VARIANCE_AUDIT",
+  "task_type": "variance_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Darnell Wright",
+    "Colton McKivitz",
+    "Brian O'Neill",
+    "Abraham Lucas",
+    "Joe Alt",
+    "Warren McClendon Jr.",
+    "Luke Goedeke",
+    "Armand Membou",
+    "Spencer Brown",
+    "Jermaine Eluemunor",
+    "Zach Bako-Bewele",
+    "Taylor Moton",
+    "Mike McGlinchey"
+  ],
+  "variance_gaps": [
+    {
+      "player": "Brian O'Neill",
+      "attr": "INJ",
+      "madden": 91,
+      "ours": 80,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 81.6 (2025) / 67.1 (2026); pass/run-block snaps 2026 254/180",
+        "ESPN 2026: OT PBWR 93%, OT RBWR 81%",
+        "penalties 5 (2025) / 3 (2026); games 14 / 7; injuries {'2025': ['wk5 Out (Knee)', 'wk7 Questionable (Knee)', 'wk8 Questionable (Knee)', 'wk9 Questionable (Knee)', 'wk16 Questionable (Heel)', 'wk17 Questionable (Heel)'], '2026': ['wk2 Questionable (Knee)', 'wk5 Questionable (Knee)']}"
+      ],
+      "basis": "availability: injury reports and games missed"
+    },
+    {
+      "player": "Joe Alt",
+      "attr": "INJ",
+      "madden": 94,
+      "ours": 76,
+      "delta": -18,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 79 (2025) / 75.4 (2026); pass/run-block snaps 2026 169/109",
+        "ESPN 2026: OT PBWR 90%",
+        "penalties 1 (2025) / 6 (2026); games 6 / 5; injuries {'2025': ['wk5 Out (Ankle)', 'wk6 Out (Ankle)', 'wk7 Doubtful (Ankle)', 'wk8 Questionable (Ankle)'], '2026': ['wk5 Out (Neck)', 'wk6 Out (Neck)']}"
+      ],
+      "basis": "availability: injury reports and games missed"
+    },
+    {
+      "player": "Warren McClendon Jr.",
+      "attr": "STR",
+      "madden": 88,
+      "ours": 78,
+      "delta": -10,
+      "verdict": "ADJUST",
+      "key_stats": [
+        "PFF 78.7 (2025) / 69.7 (2026); pass/run-block snaps 2026 348/211",
+        "ESPN 2026: OT PBWR 90%, OT RBWR 83%",
+        "penalties 0 (2025) / 4 (2026); games None / None; injuries none"
+      ],
+      "basis": "anchor/power profile from PFF + ESPN",
+      "proposed_revision": {
+        "attr": "STR",
+        "from": 78,
+        "to": 82,
+        "why": "0 penalties and RBWR 83% (#2 OT) on 882 + 559 snaps: holds up at the point of attack, so 78 (-10) over-states the light-anchor concern; 82 keeps him a leverage, not power, blocker",
+        "task_id": "RT_REAUDIT_RATE_06",
+        "status": "PROPOSED_NOT_APPROVED"
+      }
+    },
+    {
+      "player": "Warren McClendon Jr.",
+      "attr": "AWR",
+      "madden": 72,
+      "ours": 82,
+      "delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 78.7 (2025) / 69.7 (2026); pass/run-block snaps 2026 348/211",
+        "ESPN 2026: OT PBWR 90%, OT RBWR 83%",
+        "penalties 0 (2025) / 4 (2026); games None / None; injuries none"
+      ],
+      "basis": "penalty count (discipline) and PFF overall"
+    },
+    {
+      "player": "Warren McClendon Jr.",
+      "attr": "STA",
+      "madden": 83,
+      "ours": 94,
+      "delta": 11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 78.7 (2025) / 69.7 (2026); pass/run-block snaps 2026 348/211",
+        "ESPN 2026: OT PBWR 90%, OT RBWR 83%",
+        "penalties 0 (2025) / 4 (2026); games None / None; injuries none"
+      ],
+      "basis": "snaps/games"
+    },
+    {
+      "player": "Warren McClendon Jr.",
+      "attr": "PBF",
+      "madden": 72,
+      "ours": 86,
+      "delta": 14,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 78.7 (2025) / 69.7 (2026); pass/run-block snaps 2026 348/211",
+        "ESPN 2026: OT PBWR 90%, OT RBWR 83%",
+        "penalties 0 (2025) / 4 (2026); games None / None; injuries none"
+      ],
+      "basis": "ESPN PBWR + PFF overall"
+    },
+    {
+      "player": "Warren McClendon Jr.",
+      "attr": "LBK",
+      "madden": 72,
+      "ours": 88,
+      "delta": 16,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 78.7 (2025) / 69.7 (2026); pass/run-block snaps 2026 348/211",
+        "ESPN 2026: OT PBWR 90%, OT RBWR 83%",
+        "penalties 0 (2025) / 4 (2026); games None / None; injuries none"
+      ],
+      "basis": "run share + RBWR"
+    },
+    {
+      "player": "Armand Membou",
+      "attr": "AWR",
+      "madden": 87,
+      "ours": 76,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 72.8 (2025) / 71 (2026); pass/run-block snaps 2026 292/201",
+        "ESPN 2026: outside ESPN OT top-20 PBWR / top-10 RBWR",
+        "penalties 8 (2025) / 1 (2026); games 17 / 8; injuries none"
+      ],
+      "basis": "penalty count (discipline) and PFF overall"
+    },
+    {
+      "player": "Armand Membou",
+      "attr": "PBF",
+      "madden": 86,
+      "ours": 74,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 72.8 (2025) / 71 (2026); pass/run-block snaps 2026 292/201",
+        "ESPN 2026: outside ESPN OT top-20 PBWR / top-10 RBWR",
+        "penalties 8 (2025) / 1 (2026); games 17 / 8; injuries none"
+      ],
+      "basis": "ESPN PBWR + PFF overall"
+    },
+    {
+      "player": "Spencer Brown",
+      "attr": "AGI",
+      "madden": 74,
+      "ours": 64,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 77 (2025) / 70.6 (2026); pass/run-block snaps 2026 199/141",
+        "ESPN 2026: OT PBWR 88%",
+        "penalties 4 (2025) / 1 (2026); games 14 / 6; injuries {'2025': ['wk4 Questionable (Calf)', 'wk5 Questionable (Calf)', 'wk13 Out (Shoulder)', 'wk14 Questionable (Shoulder)'], '2026': ['wk8 Questionable (Back)']}"
+      ],
+      "basis": "movement (no tracking data public); LOW confidence"
+    },
+    {
+      "player": "Spencer Brown",
+      "attr": "INJ",
+      "madden": 89,
+      "ours": 76,
+      "delta": -13,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 77 (2025) / 70.6 (2026); pass/run-block snaps 2026 199/141",
+        "ESPN 2026: OT PBWR 88%",
+        "penalties 4 (2025) / 1 (2026); games 14 / 6; injuries {'2025': ['wk4 Questionable (Calf)', 'wk5 Questionable (Calf)', 'wk13 Out (Shoulder)', 'wk14 Questionable (Shoulder)'], '2026': ['wk8 Questionable (Back)']}"
+      ],
+      "basis": "availability: injury reports and games missed"
+    },
+    {
+      "player": "Spencer Brown",
+      "attr": "RBK",
+      "madden": 88,
+      "ours": 76,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 77 (2025) / 70.6 (2026); pass/run-block snaps 2026 199/141",
+        "ESPN 2026: OT PBWR 88%",
+        "penalties 4 (2025) / 1 (2026); games 14 / 6; injuries {'2025': ['wk4 Questionable (Calf)', 'wk5 Questionable (Calf)', 'wk13 Out (Shoulder)', 'wk14 Questionable (Shoulder)'], '2026': ['wk8 Questionable (Back)']}"
+      ],
+      "basis": "PFF overall + ESPN RBWR + run share"
+    },
+    {
+      "player": "Spencer Brown",
+      "attr": "RBF",
+      "madden": 87,
+      "ours": 74,
+      "delta": -13,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 77 (2025) / 70.6 (2026); pass/run-block snaps 2026 199/141",
+        "ESPN 2026: OT PBWR 88%",
+        "penalties 4 (2025) / 1 (2026); games 14 / 6; injuries {'2025': ['wk4 Questionable (Calf)', 'wk5 Questionable (Calf)', 'wk13 Out (Shoulder)', 'wk14 Questionable (Shoulder)'], '2026': ['wk8 Questionable (Back)']}"
+      ],
+      "basis": "ESPN RBWR + run share"
+    },
+    {
+      "player": "Spencer Brown",
+      "attr": "LBK",
+      "madden": 89,
+      "ours": 78,
+      "delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 77 (2025) / 70.6 (2026); pass/run-block snaps 2026 199/141",
+        "ESPN 2026: OT PBWR 88%",
+        "penalties 4 (2025) / 1 (2026); games 14 / 6; injuries {'2025': ['wk4 Questionable (Calf)', 'wk5 Questionable (Calf)', 'wk13 Out (Shoulder)', 'wk14 Questionable (Shoulder)'], '2026': ['wk8 Questionable (Back)']}"
+      ],
+      "basis": "run share + RBWR"
+    },
+    {
+      "player": "Jermaine Eluemunor",
+      "attr": "AWR",
+      "madden": 85,
+      "ours": 70,
+      "delta": -15,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 63.9 (2025) / 72.1 (2026); pass/run-block snaps 2026 193/175",
+        "ESPN 2026: OT PBWR 91%",
+        "penalties 12 (2025) / 4 (2026); games 16 / 6; injuries {'2025': ['wk6 Questionable (Back)', 'wk9 Doubtful (Pectoral)', 'wk10 Questionable (Pectoral)'], '2026': ['wk6 Questionable (Calf)', 'wk7 Questionable (Calf)']}"
+      ],
+      "basis": "penalty count (discipline) and PFF overall"
+    },
+    {
+      "player": "Zach Bako-Bewele",
+      "attr": "OVR",
+      "madden": 87,
+      "ours": 75,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 83.5 (2025) / 59.4 (2026); pass/run-block snaps 2026 49/22",
+        "ESPN 2026: outside ESPN OT top-20 PBWR / top-10 RBWR",
+        "penalties 0 (2025) / 0 (2026); games 1 / 2; injuries {'2025': ['wk2 Questionable (Oblique)', 'wk3 Questionable (Oblique)', 'wk4 Out (Oblique)', 'wk6 Questionable (Oblique)', 'wk7 Questionable (Oblique)', 'wk10 Questionable (Back)', 'wk16 Questionable (Back)', 'wk17 Questionable (Back)', 'wk18 Questionable (Back)', 'wk19 Questionable (Back)'], '2026': ['wk1 Questionable (Knee)', 'wk2 Questionable (Knee)', 'wk3 Out (Knee)']}",
+        "approved H2H/tiebreak chain (6 head-to-heads + 6 tiebreaks) sets the order"
+      ],
+      "basis": "OVR follows the approved head-to-head chain"
+    },
+    {
+      "player": "Zach Bako-Bewele",
+      "attr": "INJ",
+      "madden": 92,
+      "ours": 70,
+      "delta": -22,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 83.5 (2025) / 59.4 (2026); pass/run-block snaps 2026 49/22",
+        "ESPN 2026: outside ESPN OT top-20 PBWR / top-10 RBWR",
+        "penalties 0 (2025) / 0 (2026); games 1 / 2; injuries {'2025': ['wk2 Questionable (Oblique)', 'wk3 Questionable (Oblique)', 'wk4 Out (Oblique)', 'wk6 Questionable (Oblique)', 'wk7 Questionable (Oblique)', 'wk10 Questionable (Back)', 'wk16 Questionable (Back)', 'wk17 Questionable (Back)', 'wk18 Questionable (Back)', 'wk19 Questionable (Back)'], '2026': ['wk1 Questionable (Knee)', 'wk2 Questionable (Knee)', 'wk3 Out (Knee)']}"
+      ],
+      "basis": "availability: injury reports and games missed"
+    },
+    {
+      "player": "Zach Bako-Bewele",
+      "attr": "STA",
+      "madden": 87,
+      "ours": 74,
+      "delta": -13,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 83.5 (2025) / 59.4 (2026); pass/run-block snaps 2026 49/22",
+        "ESPN 2026: outside ESPN OT top-20 PBWR / top-10 RBWR",
+        "penalties 0 (2025) / 0 (2026); games 1 / 2; injuries {'2025': ['wk2 Questionable (Oblique)', 'wk3 Questionable (Oblique)', 'wk4 Out (Oblique)', 'wk6 Questionable (Oblique)', 'wk7 Questionable (Oblique)', 'wk10 Questionable (Back)', 'wk16 Questionable (Back)', 'wk17 Questionable (Back)', 'wk18 Questionable (Back)', 'wk19 Questionable (Back)'], '2026': ['wk1 Questionable (Knee)', 'wk2 Questionable (Knee)', 'wk3 Out (Knee)']}"
+      ],
+      "basis": "snaps/games"
+    },
+    {
+      "player": "Zach Bako-Bewele",
+      "attr": "PBF",
+      "madden": 93,
+      "ours": 80,
+      "delta": -13,
+      "verdict": "ADJUST",
+      "key_stats": [
+        "PFF 83.5 (2025) / 59.4 (2026); pass/run-block snaps 2026 49/22",
+        "ESPN 2026: outside ESPN OT top-20 PBWR / top-10 RBWR",
+        "penalties 0 (2025) / 0 (2026); games 1 / 2; injuries {'2025': ['wk2 Questionable (Oblique)', 'wk3 Questionable (Oblique)', 'wk4 Out (Oblique)', 'wk6 Questionable (Oblique)', 'wk7 Questionable (Oblique)', 'wk10 Questionable (Back)', 'wk16 Questionable (Back)', 'wk17 Questionable (Back)', 'wk18 Questionable (Back)', 'wk19 Questionable (Back)'], '2026': ['wk1 Questionable (Knee)', 'wk2 Questionable (Knee)', 'wk3 Out (Knee)']}"
+      ],
+      "basis": "ESPN PBWR + PFF overall",
+      "proposed_revision": {
+        "attr": "PBF",
+        "from": 80,
+        "to": 86,
+        "why": "PFF 83.5 (#10 T) in 2025 on 604 snaps, mostly pass sets: PBF 80 under-rates a quick, technical pass protector; 86 keeps the injury discount in INJ/STA",
+        "task_id": "RT_REAUDIT_RATE_11",
+        "status": "PROPOSED_NOT_APPROVED"
+      }
+    },
+    {
+      "player": "Taylor Moton",
+      "attr": "OVR",
+      "madden": 84,
+      "ours": 74,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 80.8 (2025) / 68.1 (2026); pass/run-block snaps 2026 62/40",
+        "ESPN 2026: outside ESPN OT top-20 PBWR / top-10 RBWR",
+        "penalties 5 (2025) / 0 (2026); games 15 / 2; injuries {'2025': ['wk6 Out (Elbow)', 'wk7 Questionable (Elbow)', 'wk9 Questionable (Knee)'], '2026': ['wk6 Questionable (Lung)']}",
+        "approved H2H/tiebreak chain (6 head-to-heads + 6 tiebreaks) sets the order"
+      ],
+      "basis": "OVR follows the approved head-to-head chain"
+    },
+    {
+      "player": "Taylor Moton",
+      "attr": "AWR",
+      "madden": 96,
+      "ours": 86,
+      "delta": -10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 80.8 (2025) / 68.1 (2026); pass/run-block snaps 2026 62/40",
+        "ESPN 2026: outside ESPN OT top-20 PBWR / top-10 RBWR",
+        "penalties 5 (2025) / 0 (2026); games 15 / 2; injuries {'2025': ['wk6 Out (Elbow)', 'wk7 Questionable (Elbow)', 'wk9 Questionable (Knee)'], '2026': ['wk6 Questionable (Lung)']}"
+      ],
+      "basis": "penalty count (discipline) and PFF overall"
+    },
+    {
+      "player": "Taylor Moton",
+      "attr": "INJ",
+      "madden": 99,
+      "ours": 70,
+      "delta": -29,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 80.8 (2025) / 68.1 (2026); pass/run-block snaps 2026 62/40",
+        "ESPN 2026: outside ESPN OT top-20 PBWR / top-10 RBWR",
+        "penalties 5 (2025) / 0 (2026); games 15 / 2; injuries {'2025': ['wk6 Out (Elbow)', 'wk7 Questionable (Elbow)', 'wk9 Questionable (Knee)'], '2026': ['wk6 Questionable (Lung)']}"
+      ],
+      "basis": "availability: injury reports and games missed"
+    },
+    {
+      "player": "Taylor Moton",
+      "attr": "STA",
+      "madden": 96,
+      "ours": 82,
+      "delta": -14,
+      "verdict": "ADJUST",
+      "key_stats": [
+        "PFF 80.8 (2025) / 68.1 (2026); pass/run-block snaps 2026 62/40",
+        "ESPN 2026: outside ESPN OT top-20 PBWR / top-10 RBWR",
+        "penalties 5 (2025) / 0 (2026); games 15 / 2; injuries {'2025': ['wk6 Out (Elbow)', 'wk7 Questionable (Elbow)', 'wk9 Questionable (Knee)'], '2026': ['wk6 Questionable (Lung)']}"
+      ],
+      "basis": "snaps/games",
+      "proposed_revision": {
+        "attr": "STA",
+        "from": 82,
+        "to": 88,
+        "why": "968 snaps in 2025 (17 games) and 2,000+ snaps a year before that: STA 82 double-counts the 2026 reserve/IR stint that INJ 70 already prices in",
+        "task_id": "RT_REAUDIT_RATE_12",
+        "status": "PROPOSED_NOT_APPROVED"
+      }
+    },
+    {
+      "player": "Taylor Moton",
+      "attr": "RBF",
+      "madden": 88,
+      "ours": 76,
+      "delta": -12,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 80.8 (2025) / 68.1 (2026); pass/run-block snaps 2026 62/40",
+        "ESPN 2026: outside ESPN OT top-20 PBWR / top-10 RBWR",
+        "penalties 5 (2025) / 0 (2026); games 15 / 2; injuries {'2025': ['wk6 Out (Elbow)', 'wk7 Questionable (Elbow)', 'wk9 Questionable (Knee)'], '2026': ['wk6 Questionable (Lung)']}"
+      ],
+      "basis": "ESPN RBWR + run share"
+    },
+    {
+      "player": "Mike McGlinchey",
+      "attr": "AWR",
+      "madden": 96,
+      "ours": 80,
+      "delta": -16,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "PFF 78 (2025) / 62.4 (2026); pass/run-block snaps 2026 296/196",
+        "ESPN 2026: outside ESPN OT top-20 PBWR / top-10 RBWR",
+        "penalties 6 (2025) / 3 (2026); games 17 / 8; injuries {'2025': ['wk15 Questionable (Shoulder)']}"
+      ],
+      "basis": "penalty count (discipline) and PFF overall"
+    }
+  ],
+  "madden_used_as_evidence": false,
+  "madden_order_verified": false,
+  "variance_threshold": 10,
+  "metrics_used": [
+    "PFF T overall grades 2025-26",
+    "PFF pass-block/run-block snap counts (sub-grades, pressures and sacks allowed paywalled)",
+    "ESPN OT PBWR/RBWR 2026 (top-20/top-10 lists)",
+    "accepted penalties (nflverse pbp)",
+    "games/snaps",
+    "injury reports and roster status",
+    "depth-chart RT snapshots"
+  ],
+  "evidence_fixes_applied_before_audit": [],
+  "drafted_fixes_pending_review": [
+    {
+      "player": "Warren McClendon Jr.",
+      "attr": "STR",
+      "from": 78,
+      "to": 82,
+      "why": "0 penalties and RBWR 83% (#2 OT) on 882 + 559 snaps: holds up at the point of attack, so 78 (-10) over-states the light-anchor concern; 82 keeps him a leverage, not power, blocker",
+      "task_id": "RT_REAUDIT_RATE_06",
+      "status": "PROPOSED_NOT_APPROVED"
+    },
+    {
+      "player": "Zach Bako-Bewele",
+      "attr": "PBF",
+      "from": 80,
+      "to": 86,
+      "why": "PFF 83.5 (#10 T) in 2025 on 604 snaps, mostly pass sets: PBF 80 under-rates a quick, technical pass protector; 86 keeps the injury discount in INJ/STA",
+      "task_id": "RT_REAUDIT_RATE_11",
+      "status": "PROPOSED_NOT_APPROVED"
+    },
+    {
+      "player": "Taylor Moton",
+      "attr": "STA",
+      "from": 82,
+      "to": 88,
+      "why": "968 snaps in 2025 (17 games) and 2,000+ snaps a year before that: STA 82 double-counts the 2026 reserve/IR stint that INJ 70 already prices in",
+      "task_id": "RT_REAUDIT_RATE_12",
+      "status": "PROPOSED_NOT_APPROVED"
+    }
+  ],
+  "summary": "Every overall and attribute rating 10+ from Madden 27 audited (t46u): 25 gaps (21 below Madden, 4 above). 22 SUPPORTED on RT evidence; 3 ADJUST with drafted add-only revisions NOT approved or applied: Warren McClendon Jr. STR 78->82; Zach Bako-Bewele PBF 80->86; Taylor Moton STA 82->88. 2 OVR gaps: Zach Bako-Bewele -12, Taylor Moton -10. Overalls unchanged by the drafts. Madden is reference only.",
+  "major_flags": [
+    "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false
+}
+```
