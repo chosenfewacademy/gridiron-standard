@@ -1,0 +1,40 @@
+# SS_REAUDIT_H2H_03 — Derwin James vs Antoine Winfield Jr. (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "SS_REAUDIT_H2H_03_A1",
+  "task_id": "SS_REAUDIT_H2H_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Derwin James",
+    "Antoine Winfield Jr."
+  ],
+  "pair_result": {
+    "winner": "Derwin James",
+    "loser": "Antoine Winfield Jr.",
+    "provisional_order_holds": true,
+    "reasoning": "James' 2025 is the stronger full season: PFF 78.8 on 959 snaps (S rank 9), passer rating allowed 59.6 with 3 INT and 7 PD, plus 6 TFL. Winfield's 2025 was 74.4 on 1038 snaps with 580 yards allowed on 58 targets (rating 94). Both have missed 2026 time (James 193 snaps and now on reserve with a hamstring injury; Winfield 285 snaps, out wks 5-7 with a rib injury), and Winfield's 2026 grade is higher (75.0 vs 61.0), so the margin is narrow.",
+    "key_evidence_for_winner": [
+      "Derwin James (LAC) role snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1086 -> SS; roster RES (DB); injuries wk5 Out (Hamstring); wk6 Out (Hamstring); wk8 Out (Hamstring)",
+      "Derwin James 2026: Derwin James 2026: PFF S 2026 overall 61 on 193 snaps (S rank 46; 98 coverage / 88 run-def snaps); PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed; 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF; 0 accepted penalties; PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed",
+      "Derwin James 2025: Derwin James 2025: PFF S 2025 overall 78.8 on 959 snaps (S rank 9; 527 coverage / 356 run-def snaps); PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; 16 g / 893 def snaps; 49 solo + 44 ast tackles, 6 TFL, 3 INT, 7 PD, 1 FF; 3 accepted penalties; PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Antoine Winfield Jr. (TB) role snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS; roster ACT (DB); injuries wk5 Out (Rib); wk6 Out (Rib); wk7 Out (Rib)",
+      "Antoine Winfield Jr. 2026: Antoine Winfield Jr. 2026: PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF; 0 accepted penalties; PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed",
+      "Antoine Winfield Jr. 2025: Antoine Winfield Jr. 2025: PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF; 0 accepted penalties; PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
