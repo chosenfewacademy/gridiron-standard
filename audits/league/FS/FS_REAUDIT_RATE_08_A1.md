@@ -1,0 +1,405 @@
+# FS_REAUDIT_RATE_08 — Kevin Byard rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "FS_REAUDIT_RATE_08_A1",
+  "task_id": "FS_REAUDIT_RATE_08",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FS",
+  "player_id": "ext_00-0033132",
+  "players": [
+    "Kevin Byard"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 80,
+    "ACC": 80,
+    "AGI": 78,
+    "COD": 78,
+    "STR": 70,
+    "AWR": 86,
+    "PRC": 86,
+    "MCV": 70,
+    "ZCV": 84,
+    "PRS": 60,
+    "CTH": 84,
+    "JMP": 78,
+    "TAK": 84,
+    "POW": 76,
+    "PUR": 78,
+    "INJ": 88,
+    "STA": 92,
+    "TGH": 90
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "MCV": "MEDIUM",
+    "ZCV": "MEDIUM",
+    "PRS": "MEDIUM",
+    "CTH": "MEDIUM",
+    "JMP": "LOW",
+    "TAK": "MEDIUM",
+    "POW": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed; PFR 2026 (7 games) coverage 19 targets / 12 completions / 179 yds / 1 TD / 0 INT; 33 tackles, 3 missed; range from PD/tackles in 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF. Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed; PFR 2026 (7 games) coverage 19 targets / 12 completions / 179 yds / 1 TD / 0 INT; 33 tackles, 3 missed; range from PD/tackles in 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF. Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed; PFR 2026 (7 games) coverage 19 targets / 12 completions / 179 yds / 1 TD / 0 INT; 33 tackles, 3 missed; range from PD/tackles in 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF. Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed; PFR 2026 (7 games) coverage 19 targets / 12 completions / 179 yds / 1 TD / 0 INT; 33 tackles, 3 missed; range from PD/tackles in 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF. Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (press): PFF S 2025 overall 75.4 on 1219 snaps (S rank 14; 720 coverage / 487 run-def snaps); PFF S 2026 overall 55.2 on 480 snaps (S rank 71; 286 coverage / 182 run-def snaps); PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed. Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 0/4; PFF S 2026 overall 55.2 on 480 snaps (S rank 71; 286 coverage / 182 run-def snaps). Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed; PFR 2026 (7 games) coverage 19 targets / 12 completions / 179 yds / 1 TD / 0 INT; 33 tackles, 3 missed; PFF S 2025 overall 75.4 on 1219 snaps (S rank 14; 720 coverage / 487 run-def snaps); PFF S 2026 overall 55.2 on 480 snaps (S rank 71; 286 coverage / 182 run-def snaps). Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed; PFR 2026 (7 games) coverage 19 targets / 12 completions / 179 yds / 1 TD / 0 INT; 33 tackles, 3 missed; PFF S 2025 overall 75.4 on 1219 snaps (S rank 14; 720 coverage / 487 run-def snaps); PFF S 2026 overall 55.2 on 480 snaps (S rank 71; 286 coverage / 182 run-def snaps). Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed; PFR 2026 (7 games) coverage 19 targets / 12 completions / 179 yds / 1 TD / 0 INT; 33 tackles, 3 missed; PFF S 2025 overall 75.4 on 1219 snaps (S rank 14; 720 coverage / 487 run-def snaps); PFF S 2026 overall 55.2 on 480 snaps (S rank 71; 286 coverage / 182 run-def snaps). Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (press): PFF S 2025 overall 75.4 on 1219 snaps (S rank 14; 720 coverage / 487 run-def snaps); PFF S 2026 overall 55.2 on 480 snaps (S rank 71; 286 coverage / 182 run-def snaps); PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed. Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (ball skills): INT/PD: 17 g / 1071 def snaps; 58 solo + 32 ast tackles, 4 TFL, 7 INT, 8 PD, 0 FF (2025); 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF (2026). Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (ball skills): INT/PD: 17 g / 1071 def snaps; 58 solo + 32 ast tackles, 4 TFL, 7 INT, 8 PD, 0 FF (2025); 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF (2026). Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed; PFR 2026 (7 games) coverage 19 targets / 12 completions / 179 yds / 1 TD / 0 INT; 33 tackles, 3 missed. Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed; PFR 2026 (7 games) coverage 19 targets / 12 completions / 179 yds / 1 TD / 0 INT; 33 tackles, 3 missed. Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF S 2025 overall 75.4 on 1219 snaps (S rank 14; 720 coverage / 487 run-def snaps); PFF S 2026 overall 55.2 on 480 snaps (S rank 71; 286 coverage / 182 run-def snaps); TFL/tackles in 17 g / 1071 def snaps; 58 solo + 32 ast tackles, 4 TFL, 7 INT, 8 PD, 0 FF / 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF. Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Kevin Byard injury reports: wk7 Questionable (Chest); roster status ACT; 17 g / 1071 def snaps; 58 solo + 32 ast tackles, 4 TFL, 7 INT, 8 PD, 0 FF (2025), 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF (2026). Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 17 g / 1071 def snaps; 58 solo + 32 ast tackles, 4 TFL, 7 INT, 8 PD, 0 FF (2025), 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF (2026). Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 17 g / 1071 def snaps; 58 solo + 32 ast tackles, 4 TFL, 7 INT, 8 PD, 0 FF (2025), 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF (2026). Style: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+      "why_not_higher": "Evidence does not separate him from higher-rated FSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated FSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 1071 def snaps; 58 solo + 32 ast tackles, 4 TFL, 7 INT, 8 PD, 0 FF (2025), 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 1071 def snaps; 58 solo + 32 ast tackles, 4 TFL, 7 INT, 8 PD, 0 FF (2025), 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 77,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+  "style_profile": "Kevin Byard: Veteran ball-hawk: 7 INT in 2025 on 1,219 PFF snaps (75.4); durable but 55.2 in 2026 with 4 penalties.",
+  "style_evidence": [
+    "Kevin Byard (NE) Kevin Byard 2026: PFF S 2026 overall 55.2 on 480 snaps (S rank 71; 286 coverage / 182 run-def snaps); PFR 2026 (7 games) coverage 19 targets / 12 completions / 179 yds / 1 TD / 0 INT; 33 tackles, 3 missed; 8 g / 480 def snaps; 20 solo + 20 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF; 4 accepted penalties",
+    "Kevin Byard 2025: PFF S 2025 overall 75.4 on 1219 snaps (S rank 14; 720 coverage / 487 run-def snaps); PFR 2025 coverage 52 targets / 33 completions / 545 yds / 7 TD / passer rating 98.6 / 7 INT; 93 tackles, 7 missed; 17 g / 1071 def snaps; 58 solo + 32 ast tackles, 4 TFL, 7 INT, 8 PD, 0 FF; 0 accepted penalties",
+    "Kevin Byard role: snap-weighted 2025-26 depth-chart FS/SS shares FS 1551 / SS 0 -> FS (SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one o...); roster position DB; Madden card FS (reference only)",
+    "Kevin Byard injury reports: wk7 Questionable (Chest); roster status ACT"
+  ],
+  "input_dossier": "FS_REAUDIT_BG_08_A1",
+  "weaknesses": [
+    "2026 grade (55.2)",
+    "7 TD allowed in 2025"
+  ],
+  "limitations": [
+    "PFF coverage/run-defense/tackling sub-grades and box/slot/deep alignment splits are paywalled; no public tracking data for safety speed or range; substitutes: PFF S overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+  ],
+  "role_assignment": "FS (snap-weighted 2025-26 depth-chart FS/SS shares FS 1551 / SS 0 -> FS)",
+  "madden_reference": [
+    {
+      "player": "Kevin Byard",
+      "ovr": 85,
+      "madden_position": "FS",
+      "attributes": {
+        "SPD": 88,
+        "ACC": 86,
+        "AGI": 87,
+        "COD": 83,
+        "STR": 73,
+        "AWR": 91,
+        "PRC": 89,
+        "MCV": 70,
+        "ZCV": 79,
+        "PRS": 67,
+        "CTH": 82,
+        "JMP": 90,
+        "TAK": 80,
+        "POW": 79,
+        "PUR": 84,
+        "INJ": 97,
+        "STA": 96,
+        "TGH": 90
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -8,
+      "delta_attributes": {
+        "SPD": -8,
+        "ACC": -6,
+        "AGI": -9,
+        "COD": -5,
+        "STR": -3,
+        "AWR": -5,
+        "PRC": -3,
+        "MCV": 0,
+        "ZCV": 5,
+        "PRS": -7,
+        "CTH": 2,
+        "JMP": -12,
+        "TAK": 4,
+        "POW": -3,
+        "PUR": -6,
+        "INJ": -9,
+        "STA": -4,
+        "TGH": 0
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 8,
+    "attribute_gaps_10plus": {
+      "JMP": -12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
