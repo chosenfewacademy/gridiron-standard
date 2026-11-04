@@ -1,0 +1,40 @@
+# WILL_REAUDIT_TIEBREAK_04 — Alex Singleton vs Demario Davis (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "WILL_REAUDIT_TIEBREAK_04_A1",
+  "task_id": "WILL_REAUDIT_TIEBREAK_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Alex Singleton",
+    "Demario Davis"
+  ],
+  "pair_result": {
+    "winner": "Alex Singleton",
+    "loser": "Demario Davis",
+    "provisional_order_holds": true,
+    "reasoning": "Singleton's 2026 PFF 73.4 (#10) on 581 snaps with 98 tackles vs Davis' 50.6 (#64); Davis' 2025 (81.7, #5) was much better, but his 2026 drop decides it.",
+    "key_evidence_for_winner": [
+      "Alex Singleton (DEN) role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1610 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL; roster ACT (LB); injuries wk11 Out (Illness)",
+      "Alex Singleton 2026: Alex Singleton 2026: PFF LB 2026 overall 73.4 on 581 snaps (LB rank 10; 214 run-def / 324 coverage / 43 pass-rush snaps); PFR 2026 (7 games) coverage 35 targets / 24 completions / 215 yds / 0 INT; 86 tackles, 6 missed; 5 pressures on 22 blitzes; 8 g / 581 def snaps; 48 solo + 50 ast tackles, 5 TFL, 2.0 sacks, 0 INT, 2 PD, 0 FF; 2 accepted penalties; PFR 2026 (7 games) coverage 35 targets / 24 completions / 215 yds / 0 INT; 86 tackles, 6 missed; 5 pressures on 22 blitzes",
+      "Alex Singleton 2025: Alex Singleton 2025: PFF LB 2025 overall 72.2 on 1171 snaps (LB rank 25; 422 run-def / 654 coverage / 95 pass-rush snaps); PFR 2025 coverage 70 targets / 54 completions / 629 yds / passer rating 122.9 / 0 INT; 135 tackles, 12 missed; 11 pressures on 55 blitzes, 1 sacks; 16 g / 1029 def snaps; 52 solo + 81 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 4 PD, 1 FF; 0 accepted penalties; PFR 2025 coverage 70 targets / 54 completions / 629 yds / passer rating 122.9 / 0 INT; 135 tackles, 12 missed; 11 pressures on 55 blitzes, 1 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Demario Davis (NYJ) role snap-weighted 2025-26 depth-chart role shares MIKE 163 / WILL 1448 / SAM 0 / edge 0 (raw snapshots MIKE25 5, WILL25 216, WILL26 203, MIKE26 72) -> WILL; roster ACT (LB); injuries wk18 Questionable (Calf)",
+      "Demario Davis 2026: Demario Davis 2026: PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps); PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes; 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF; 1 accepted penalties; PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes",
+      "Demario Davis 2025: Demario Davis 2025: PFF LB 2025 overall 81.7 on 1079 snaps (LB rank 5; 492 run-def / 517 coverage / 70 pass-rush snaps); PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF; 2 accepted penalties; PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
