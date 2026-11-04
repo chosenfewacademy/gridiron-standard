@@ -7676,7 +7676,7 @@
         "position": "REDGE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/REDGE.reaudit.json",
       "baseline_file": null,
@@ -7722,7 +7722,8 @@
         "REDGE_REAUDIT_TIEBREAK_01",
         "REDGE_REAUDIT_TIEBREAK_02",
         "REDGE_REAUDIT_TIEBREAK_03",
-        "REDGE_REAUDIT_TIEBREAK_04"
+        "REDGE_REAUDIT_TIEBREAK_04",
+        "REDGE_REAUDIT_VARIANCE_AUDIT"
       ],
       "audit_ids": [
         "REDGE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -7766,7 +7767,7 @@
       ],
       "current_stage": "variance_audit",
       "current_task": "REDGE_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T04:37:52.460Z",
+      "updated_at": "2026-11-04T04:37:52.751Z",
       "last_result": {
         "task_id": "REDGE_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
@@ -7775,11 +7776,7 @@
           "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "REDGE_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "REDGE_REAUDIT_VARIANCE_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -8075,6 +8072,14 @@
           "audit_id": "REDGE_REAUDIT_TIEBREAK_04_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T04:36:45Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "REDGE_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "REDGE_REAUDIT_VARIANCE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T04:37:52Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
