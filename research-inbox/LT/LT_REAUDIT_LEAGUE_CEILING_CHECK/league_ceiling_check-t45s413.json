@@ -1,0 +1,212 @@
+{
+ "position": "LT",
+ "references": [
+  {
+   "name": "Dion Dawkins",
+   "team": "BUF",
+   "status": "ACT",
+   "snaps": 1424,
+   "pff": 74.3,
+   "value": 88,
+   "efficiency": 82,
+   "negative_rate": 9.83,
+   "availability": 0.88,
+   "side2026": {
+    "LT": 226
+   },
+   "side2025": {
+    "LT": 1
+   }
+  },
+  {
+   "name": "Paris Johnson Jr.",
+   "team": "ARI",
+   "status": "RES",
+   "snaps": 1084,
+   "pff": 76.9,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 8.3,
+   "availability": 0.64,
+   "side2026": {
+    "LT": 196
+   },
+   "side2025": {
+    "LT": 1
+   }
+  }
+ ],
+ "thresholds": {
+  "pff": 74.3,
+  "value": 88,
+  "efficiency": 82,
+  "negative_rate": 9.83,
+  "availability": 0.64
+ },
+ "flagged": [
+  {
+   "name": "Cole Van Lanen",
+   "team": "JAX",
+   "status": "ACT",
+   "snaps": 1034,
+   "pff": 78.7,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 4.84,
+   "availability": 0.76,
+   "side2026": {
+    "RT": 56,
+    "LT": 149
+   },
+   "side2025": {
+    "LT": 1
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 2.5
+  },
+  {
+   "name": "Ronnie Stanley",
+   "team": "BAL",
+   "status": "ACT",
+   "snaps": 1283,
+   "pff": 68.2,
+   "value": 88,
+   "efficiency": 80,
+   "negative_rate": 9.35,
+   "availability": 0.92,
+   "side2026": {
+    "LT": 226
+   },
+   "side2025": {
+    "LT": 1
+   },
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.2763307949821479
+  }
+ ],
+ "closest": [
+  {
+   "name": "Orlando Brown Jr.",
+   "team": null,
+   "status": null,
+   "snaps": 1560,
+   "pff": 66.8,
+   "value": null,
+   "efficiency": 85,
+   "negative_rate": 8.33,
+   "availability": 0.96,
+   "side2026": {
+    "LT": 226
+   },
+   "side2025": {
+    "LT": 1
+   },
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.5383695692160444
+  },
+  {
+   "name": "Jordan Morgan",
+   "team": "GB",
+   "status": "ACT",
+   "snaps": 1274,
+   "pff": null,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 5.49,
+   "availability": 0.88,
+   "side2026": {
+    "LT": 226
+   },
+   "side2025": {
+    "LT": 1
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": 2
+  },
+  {
+   "name": "Rasheed Walker",
+   "team": "CAR",
+   "status": "ACT",
+   "snaps": 1478,
+   "pff": null,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 8.8,
+   "availability": 0.92,
+   "side2026": {
+    "LT": 64
+   },
+   "side2025": {
+    "LT": 1
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.6732026143790848
+  },
+  {
+   "name": "Tyler Smith",
+   "team": "DAL",
+   "status": "ACT",
+   "snaps": 1389,
+   "pff": null,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 5.04,
+   "availability": 0.8,
+   "side2026": {
+    "LT": 53
+   },
+   "side2025": {
+    "LT": 1
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.666666666666667
+  },
+  {
+   "name": "Aireontae Ersery",
+   "team": "HOU",
+   "status": "ACT",
+   "snaps": 1540,
+   "pff": null,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 9.09,
+   "availability": 0.92,
+   "side2026": {
+    "LT": 226
+   },
+   "side2025": {
+    "LT": 1,
+    "RT": 1
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.4836601307189545
+  }
+ ],
+ "screened": 37,
+ "read_only": true,
+ "rating_changes": []
+}
