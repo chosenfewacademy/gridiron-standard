@@ -1,0 +1,40 @@
+# SAM_REAUDIT_TIEBREAK_02 — D'Marco Jackson vs Leo Chenal (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "SAM_REAUDIT_TIEBREAK_02_A1",
+  "task_id": "SAM_REAUDIT_TIEBREAK_02",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SAM",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "D'Marco Jackson",
+    "Leo Chenal"
+  ],
+  "pair_result": {
+    "winner": "D'Marco Jackson",
+    "loser": "Leo Chenal",
+    "provisional_order_holds": true,
+    "reasoning": "Jackson: PFF 76.4 (#14) in 2025 and 7 games / 217 snaps in 2026 with 1 INT vs Chenal's 75.3 (#18) in 2025 and 37.8 on 84 snaps before going RES; similar 2025 grades, Jackson is available.",
+    "key_evidence_for_winner": [
+      "D'Marco Jackson (CHI) role snap-weighted 2025-26 depth-chart role shares MIKE 31 / WILL 28 / SAM 419 / edge 0 (raw snapshots SAM25 171, MIKE25 26, WILL25 24, SAM26 274) -> SAM; roster ACT (LB); injuries wk3 Questionable (Hamstring); wk8 Questionable (Ankle)",
+      "D'Marco Jackson 2026: D'Marco Jackson 2026: PFF LB 2026 overall 56.8 on 217 snaps (LB rank 53; 87 run-def / 106 coverage / 24 pass-rush snaps); PFR 2026 (5 games) coverage 9 targets / 4 completions / 36 yds / 1 INT; 15 tackles, 2 missed; 0 pressures on 9 blitzes; 7 g / 217 def snaps; 7 solo + 14 ast tackles, 0 TFL, 0.0 sacks, 1 INT, 1 PD, 0 FF; 0 accepted penalties; PFR 2026 (5 games) coverage 9 targets / 4 completions / 36 yds / 1 INT; 15 tackles, 2 missed; 0 pressures on 9 blitzes",
+      "D'Marco Jackson 2025: D'Marco Jackson 2025: PFF LB 2025 overall 76.4 on 370 snaps (LB rank 14; 155 run-def / 184 coverage / 31 pass-rush snaps); PFR 2025 coverage 12 targets / 8 completions / 28 yds / passer rating 35.4 / 1 INT; 43 tackles, 0 missed; 2 pressures on 11 blitzes, 1 sacks; 11 g / 261 def snaps; 18 solo + 25 ast tackles, 2 TFL, 1.0 sacks, 1 INT, 3 PD, 0 FF; 2 accepted penalties; PFR 2025 coverage 12 targets / 8 completions / 28 yds / passer rating 35.4 / 1 INT; 43 tackles, 0 missed; 2 pressures on 11 blitzes, 1 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Leo Chenal (WAS) role snap-weighted 2025-26 depth-chart role shares MIKE 69 / WILL 21 / SAM 432 / edge 2 (raw snapshots MIKE25 3, EDGE25 1, SAM25 217, MIKE26 207, WILL26 68) -> SAM; roster RES (LB); injuries wk16 Out (Shoulder)",
+      "Leo Chenal 2026: Leo Chenal 2026: PFF LB 2026 overall 37.8 on 84 snaps (LB rank None; 34 run-def / 41 coverage / 9 pass-rush snaps); PFR 2026 (3 games) coverage 6 targets / 5 completions / 27 yds / 0 INT; 18 tackles, 2 missed; 0 pressures on 6 blitzes; 3 g / 84 def snaps; 9 solo + 9 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF; 0 accepted penalties; PFR 2026 (3 games) coverage 6 targets / 5 completions / 27 yds / 0 INT; 18 tackles, 2 missed; 0 pressures on 6 blitzes",
+      "Leo Chenal 2025: Leo Chenal 2025: PFF LB 2025 overall 75.3 on 440 snaps (LB rank 18; 202 run-def / 130 coverage / 108 pass-rush snaps); PFR 2025 coverage 14 targets / 11 completions / 93 yds / passer rating 88.4 / 1 INT; 58 tackles, 3 missed; 6 pressures on 32 blitzes, 2 sacks; 14 g / 440 def snaps; 25 solo + 33 ast tackles, 2 TFL, 2.0 sacks, 1 INT, 2 PD, 0 FF; 0 accepted penalties; PFR 2025 coverage 14 targets / 11 completions / 93 yds / passer rating 88.4 / 1 INT; 58 tackles, 3 missed; 6 pressures on 32 blitzes, 2 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
