@@ -3194,7 +3194,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.json",
@@ -3234,7 +3234,8 @@
         "TE_REAUDIT_RATE_12",
         "TE_REAUDIT_RATE_13",
         "TE_REAUDIT_RATE_14",
-        "TE_REAUDIT_RATE_15"
+        "TE_REAUDIT_RATE_15",
+        "TE_REAUDIT_H2H_01"
       ],
       "audit_ids": [
         "TE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -3274,18 +3275,14 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "TE_REAUDIT_H2H_01",
-      "updated_at": "2026-11-04T00:00:37.826Z",
+      "updated_at": "2026-11-04T00:13:28.708Z",
       "last_result": {
         "task_id": "TE_REAUDIT_H2H_01",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "TE_REAUDIT_H2H_01",
-        "audit_id": "TE_REAUDIT_H2H_01_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -3552,6 +3549,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-03T21:17:00Z",
           "note": "Automatic approval under commissioner approval t45s377 (run the dossiers and ratings automatically); adjustable in head-to-heads"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_H2H_01",
+          "audit_id": "TE_REAUDIT_H2H_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T00:13:28Z",
+          "note": "Commissioner approval t45s389 (approve all 6 TE head-to-heads, 10 tiebreaks and 9 rating changes)"
         }
       ]
     },
