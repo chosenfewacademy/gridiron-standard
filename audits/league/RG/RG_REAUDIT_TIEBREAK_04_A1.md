@@ -1,0 +1,40 @@
+# RG_REAUDIT_TIEBREAK_04 — Trey Smith vs Mason McCormick (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "RG_REAUDIT_TIEBREAK_04_A1",
+  "task_id": "RG_REAUDIT_TIEBREAK_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Trey Smith",
+    "Mason McCormick"
+  ],
+  "pair_result": {
+    "winner": "Trey Smith",
+    "loser": "Mason McCormick",
+    "provisional_order_holds": true,
+    "reasoning": "Smith: PFF 68.5 / 77.0 (#11). McCormick: 72.8 / 76.1 (#14). Smith's higher 2026 grade and run-game power edge McCormick's better 2025 and cleaner penalty record; a coin-flip call.",
+    "key_evidence_for_winner": [
+      "Trey Smith (KC) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 225}; roster ACT",
+      "Trey Smith 2026: PFF 77 (rank 11; 270 pass-block/173 run-block of 443 snaps); 7 g/444 snaps; penalties 4; injuries none",
+      "Trey Smith 2025: PFF 68.5 (rank 27; 459 pass-block/206 run-block of 665 snaps); 12 g/665 snaps; penalties 2; injuries ['wk8 Doubtful (Back)', 'wk9 Questionable (Back)', 'wk13 Out (Ankle)', 'wk14 Doubtful (Ankle)', 'wk15 Out (Ankle)', 'wk18 Out (Ankle)']"
+    ],
+    "key_evidence_for_loser": [
+      "Mason McCormick (PIT) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 136, 'LG': 90}; roster ACT",
+      "Mason McCormick 2026: PFF 76.1 (rank 14; 344 pass-block/189 run-block of 533 snaps); 8 g/533 snaps; penalties 2; injuries none",
+      "Mason McCormick 2025: PFF 72.8 (rank 17; 673 pass-block/415 run-block of 1088 snaps); 17 g/1031 snaps; penalties 1; injuries none"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
