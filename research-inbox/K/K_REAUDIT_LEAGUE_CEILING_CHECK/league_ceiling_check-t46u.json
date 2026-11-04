@@ -1,0 +1,76 @@
+{
+ "position": "K",
+ "references": [
+  {
+   "name": "Chris Boswell",
+   "team": "PIT",
+   "status": "ACT",
+   "snaps": 243,
+   "pff": 82.3,
+   "value": 0.64,
+   "efficiency": 81.8,
+   "negative_rate": 96.5,
+   "availability": 1
+  },
+  {
+   "name": "Eddy Pineiro",
+   "team": "SF",
+   "status": "ACT",
+   "snaps": 218,
+   "pff": 73.3,
+   "value": 0.87,
+   "efficiency": 89.5,
+   "negative_rate": 118.8,
+   "availability": 0.84
+  }
+ ],
+ "thresholds": {
+  "pff": 73.3,
+  "value": 0.64,
+  "efficiency": 81.8,
+  "negative_rate": 118.8,
+  "availability": 0.84
+ },
+ "flagged": [
+  {
+   "name": "Jake Bates",
+   "team": "DET",
+   "status": "ACT",
+   "snaps": 265,
+   "pff": 81.7,
+   "value": -0.02,
+   "efficiency": 83,
+   "negative_rate": 79.4,
+   "availability": 0.96,
+   "hits": [
+    "pff",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.030387728213814746
+  }
+ ],
+ "closest": [
+  {
+   "name": "Andy Borregales",
+   "team": "NE",
+   "status": "ACT",
+   "snaps": 255,
+   "pff": 65.6,
+   "value": -0.34,
+   "efficiency": 82.2,
+   "negative_rate": 90.9,
+   "availability": 1,
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.8036075036075032
+  }
+ ],
+ "screened": 51,
+ "read_only": true,
+ "rating_changes": []
+}
