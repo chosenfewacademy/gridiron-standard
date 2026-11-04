@@ -22301,7 +22301,7 @@
         "position": "CB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/CB.reaudit.json",
       "baseline_file": "data/baselines/CB.reaudit-20261104.json",
@@ -22311,7 +22311,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:34:37Z",
-      "updated_at": "2026-11-04T19:34:57.263Z",
+      "updated_at": "2026-11-04T19:35:02.106Z",
       "audit_ids": [
         "CB_REAUDIT_CANDIDATE_AUDIT_A1",
         "CB_REAUDIT_BG_01_A1",
@@ -22369,7 +22369,8 @@
         "CB_REAUDIT_TIEBREAK_20_A1",
         "CB_REAUDIT_TIEBREAK_21_A1",
         "CB_REAUDIT_RATE_07_A2",
-        "CB_REAUDIT_TIEBREAK_22_A1"
+        "CB_REAUDIT_TIEBREAK_22_A1",
+        "CB_REAUDIT_VARIANCE_AUDIT_A2"
       ],
       "completed_tasks": [
         "CB_REAUDIT_CANDIDATE_AUDIT",
@@ -23163,14 +23164,19 @@
           "note": "User-approved batch t56s532 (t56s540 engine: approved tiebreaks order tied players)"
         }
       ],
-      "current_stage": "carry_forward",
-      "current_task": null,
-      "awaiting": null,
+      "current_stage": "variance_audit",
+      "current_task": "CB_REAUDIT_VARIANCE_AUDIT",
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "CB_REAUDIT_VARIANCE_AUDIT",
+        "audit_id": "CB_REAUDIT_VARIANCE_AUDIT_A2"
+      },
       "last_result": {
-        "task_id": "CB_REAUDIT_TIEBREAK_22",
+        "task_id": "CB_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
+        "errors": [],
         "flags": [
-          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+          "COMMISSIONER_REVIEW: variance re-run after t56s532 card revisions (Mitchell card OVR 78->80; TB_22 Mitchell>Watson (supersedes TB_03))"
         ]
       }
     }
