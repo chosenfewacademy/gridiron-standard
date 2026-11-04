@@ -5600,7 +5600,7 @@
         "position": "C",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/C.reaudit.json",
       "baseline_file": null,
@@ -5652,7 +5652,8 @@
         "C_REAUDIT_VARIANCE_AUDIT",
         "C_REAUDIT_SCARCITY",
         "C_REAUDIT_TIEBREAK_07",
-        "C_REAUDIT_TIEBREAK_08"
+        "C_REAUDIT_TIEBREAK_08",
+        "C_REAUDIT_CROSS_AUDIT"
       ],
       "audit_ids": [
         "C_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -5707,18 +5708,14 @@
       ],
       "current_stage": "positional_cross_audit",
       "current_task": "C_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T03:35:15.881Z",
+      "updated_at": "2026-11-04T03:35:20.671Z",
       "last_result": {
         "task_id": "C_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "C_REAUDIT_CROSS_AUDIT",
-        "audit_id": "C_REAUDIT_CROSS_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -6108,6 +6105,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:34:59Z",
           "note": "Standing commissioner approval t46u/t50s441 (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "C_REAUDIT_CROSS_AUDIT",
+          "audit_id": "C_REAUDIT_CROSS_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:35:20Z",
+          "note": "Standing commissioner approval t46u/t50s441: cross-audit CONSISTENT"
         }
       ]
     }
