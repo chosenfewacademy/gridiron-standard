@@ -1,0 +1,240 @@
+{
+  "task_id": "K_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Will Reichard"
+      },
+      {
+        "rank": 2,
+        "player": "Brandon Aubrey"
+      },
+      {
+        "rank": 3,
+        "player": "Chase McLaughlin"
+      },
+      {
+        "rank": 4,
+        "player": "Ka'imi Fairbairn"
+      },
+      {
+        "rank": 5,
+        "player": "Evan McPherson"
+      },
+      {
+        "rank": 6,
+        "player": "Cam Little"
+      },
+      {
+        "rank": 7,
+        "player": "Cameron Dicker"
+      },
+      {
+        "rank": 8,
+        "player": "Spencer Shrader"
+      },
+      {
+        "rank": 9,
+        "player": "Joey Slye"
+      },
+      {
+        "rank": 10,
+        "player": "Jason Myers"
+      }
+    ],
+    "external_controls": [
+      "Tyler Loop",
+      "Tyler Bass",
+      "Chad Ryland",
+      "Matt Gay",
+      "Andre Szmyt",
+      "Chris Boswell",
+      "Jake Bates",
+      "Ryan Fitzgerald",
+      "Jason Sanders",
+      "Zane Gonzalez",
+      "Eddy Pineiro"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Will Reichard",
+      "aliases": [],
+      "player_id": "ext_00-0039404",
+      "flags": []
+    },
+    {
+      "player": "Brandon Aubrey",
+      "aliases": [],
+      "player_id": "ext_00-0037692",
+      "flags": []
+    },
+    {
+      "player": "Chase McLaughlin",
+      "aliases": [],
+      "player_id": "ext_00-0035358",
+      "flags": []
+    },
+    {
+      "player": "Ka'imi Fairbairn",
+      "aliases": [],
+      "player_id": "ext_00-0032726",
+      "flags": []
+    },
+    {
+      "player": "Evan McPherson",
+      "aliases": [],
+      "player_id": "ext_00-0036854",
+      "flags": []
+    },
+    {
+      "player": "Cam Little",
+      "aliases": [],
+      "player_id": "ext_00-0039409",
+      "flags": []
+    },
+    {
+      "player": "Cameron Dicker",
+      "aliases": [],
+      "player_id": "ext_00-0037224",
+      "flags": []
+    },
+    {
+      "player": "Spencer Shrader",
+      "aliases": [],
+      "player_id": "ext_00-0039576",
+      "flags": []
+    },
+    {
+      "player": "Joey Slye",
+      "aliases": [],
+      "player_id": "ext_00-0035192",
+      "flags": []
+    },
+    {
+      "player": "Jason Myers",
+      "aliases": [],
+      "player_id": "ext_00-0031492",
+      "flags": []
+    },
+    {
+      "player": "Tyler Loop",
+      "aliases": [],
+      "player_id": "ext_00-0040074",
+      "flags": []
+    },
+    {
+      "player": "Tyler Bass",
+      "aliases": [],
+      "player_id": "ext_00-0036162",
+      "flags": []
+    },
+    {
+      "player": "Chad Ryland",
+      "aliases": [],
+      "player_id": "ext_00-0038567",
+      "flags": []
+    },
+    {
+      "player": "Matt Gay",
+      "aliases": [],
+      "player_id": "ext_00-0035269",
+      "flags": []
+    },
+    {
+      "player": "Andre Szmyt",
+      "aliases": [],
+      "player_id": "ext_00-0038428",
+      "flags": []
+    },
+    {
+      "player": "Chris Boswell",
+      "aliases": [],
+      "player_id": "ext_00-0031136",
+      "flags": []
+    },
+    {
+      "player": "Jake Bates",
+      "aliases": [],
+      "player_id": "ext_00-0039172",
+      "flags": []
+    },
+    {
+      "player": "Ryan Fitzgerald",
+      "aliases": [],
+      "player_id": "ext_00-0040279",
+      "flags": []
+    },
+    {
+      "player": "Jason Sanders",
+      "aliases": [],
+      "player_id": "ext_00-0034794",
+      "flags": []
+    },
+    {
+      "player": "Zane Gonzalez",
+      "aliases": [],
+      "player_id": "ext_00-0033862",
+      "flags": [
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Eddy Pineiro",
+      "aliases": [],
+      "player_id": "ext_00-0034173",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    }
+  ],
+  "position": "K",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 19,
+    "group": "Special Teams",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall kicking grade",
+      "FG grade",
+      "kickoff grade"
+    ],
+    "position_stats": [
+      "FG made/att by distance",
+      "XP %",
+      "long",
+      "touchback %"
+    ],
+    "usage_snap_metrics": [
+      "attempts",
+      "kickoffs"
+    ],
+    "on_field_impact": [
+      "FG points over expected",
+      "kickoff EPA"
+    ],
+    "madden_attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR"
+    ],
+    "note": ""
+  }
+}

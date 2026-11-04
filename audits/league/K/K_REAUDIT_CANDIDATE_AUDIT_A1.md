@@ -1,0 +1,285 @@
+# K TOP10_REAUDIT — Stage 1 CANDIDATE AUDIT (v1.1.2), attempt 1
+
+Authorized by t46u (never-locked pathway). Madden 27 is reference only. madden_order_verified=false.
+
+```json
+{
+  "audit_id": "K_REAUDIT_CANDIDATE_AUDIT_A1",
+  "task_id": "K_REAUDIT_CANDIDATE_AUDIT",
+  "task_type": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "membership_confirmed": true,
+  "missing_top_players": [],
+  "side_rule": "KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflverse play-by-play (kickoff specialists included); matched by gsis id. Evidence: FG% by distance band (0-39/40-49/50-59/60+), longest FG, FG EPA (nflverse pbp), XP%, kickoff touchback %, return average and out-of-bounds, PFF K overall (2025-26). THIN DATA: no public kickoff hang time (NFL Next Gen Stats does not publish it); kickoff EPA in pbp is noise-dominated by coverage and was not used to rank. Madden position is reference only.",
+  "alignment": {
+    "Will Reichard": "placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K",
+    "Ka'imi Fairbairn": "placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K",
+    "Chase McLaughlin": "placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K",
+    "Evan McPherson": "placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K",
+    "Cam Little": "placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K",
+    "Brandon Aubrey": "placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K",
+    "Jason Myers": "placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K",
+    "Joey Slye": "placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K",
+    "Cameron Dicker": "placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K",
+    "Chris Boswell": "placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K",
+    "Eddy Pineiro": "placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K",
+    "Spencer Shrader": "placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K",
+    "Tyler Bass": "placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K"
+  },
+  "coverage_check": "League-wide screen of every K with 2025-26 regular-season work (64 players in nflverse pbp/rosters/snap counts), incl. free agents, inactive players and rookies. KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflverse play-by-play (kickoff specialists included); matched by gsis id. Evidence: FG% by distance band (0-39/40-49/50-59/60+), longest FG, FG EPA (nflverse pbp), XP%, kickoff touchback %, return average and out-of-bounds, PFF K overall (2025-26). THIN DATA: no public kickoff hang time (NFL Next Gen Stats does not publish it); kickoff EPA in pbp is noise-dominated by coverage and was not used to rank. Madden position is reference only.",
+  "contention_set": [
+    "Will Reichard",
+    "Ka'imi Fairbairn",
+    "Chase McLaughlin",
+    "Evan McPherson",
+    "Cam Little",
+    "Brandon Aubrey",
+    "Jason Myers",
+    "Joey Slye",
+    "Cameron Dicker",
+    "Chris Boswell",
+    "Eddy Pineiro",
+    "Spencer Shrader",
+    "Tyler Bass"
+  ],
+  "contention_basis": "Judgment, not formula: 10 proposed top-10 Ks plus three first-outs. Evidence: FG% by distance, long FGs, FG EPA, XP%, kickoff touchback %/return average, PFF K overall.",
+  "contender_reasons": {
+    "Will Reichard": "Will Reichard 2025: PFF K 2025 overall 93.8 (K rank 2); 2025 kickoffs 83, touchback 15 (18.1%), return avg 25.3, 1 out of bounds; 2 accepted penalties; 2025 FG 33/35 (94%): 0-39 15/15, 40-49 7/7, 50-59 10/12, 60+ 1/1; long 62; 0 blocked; FG EPA +24.1; XP 31/31 | Will Reichard 2026: PFF K 2026 overall 85.1 (K rank 3); 2026 kickoffs 35, touchback 2 (5.7%), return avg 25.1, 0 out of bounds; 0 accepted penalties; 2026 FG 18/20 (90%): 0-39 6/6, 40-49 6/6, 50-59 6/8, 60+ 0/0; long 56; 1 blocked; FG EPA +11.4; XP 10/10 | placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K | injuries: no injury designation 2025-26; roster ACT (MIN) - Complete, clutch placekicker: 51 of 55 FG over 2025-26 (16/20 from 50-59, 1/1 from 60+, long 62), perfect 41/41 on XPs and the best two-year FG EPA of the group (+24.1, +11.4); PFF 93.8 (K rank 2) then 85.1.",
+    "Ka'imi Fairbairn": "Ka'imi Fairbairn 2025: PFF K 2025 overall 90.8 (K rank 9); 2025 kickoffs 86, touchback 22 (25.6%), return avg 26.3, 0 out of bounds; 1 accepted penalties; 2025 FG 44/48 (92%): 0-39 19/19, 40-49 16/16, 50-59 9/13, 60+ 0/0; long 57; 1 blocked; FG EPA +20.8; XP 28/28 | Ka'imi Fairbairn 2026: PFF K 2026 overall 91 (K rank 1); 2026 kickoffs 37, touchback 7 (18.9%), return avg 27.8, 0 out of bounds; 0 accepted penalties; 2026 FG 15/16 (94%): 0-39 6/6, 40-49 3/3, 50-59 6/7, 60+ 0/0; long 58; 0 blocked; FG EPA +13.2; XP 16/16 | placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K | injuries: wk10 Out (Quadricep); wk11 Out (Quadricep); roster ACT (HOU) - Metronome: 59 of 64 FG with a perfect 44/44 on XPs and FG EPA +20.8 / +13.2; the most consistent PFF line in the league (90.8 / 91.0).",
+    "Chase McLaughlin": "Chase McLaughlin 2025: PFF K 2025 overall 92.9 (K rank 3); 2025 kickoffs 84, touchback 21 (25.0%), return avg 26.9, 0 out of bounds; 1 accepted penalties; 2025 FG 32/38 (84%): 0-39 15/17, 40-49 6/9, 50-59 10/11, 60+ 1/1; long 65; 3 blocked; FG EPA +5.2; XP 32/33 | Chase McLaughlin 2026: PFF K 2026 overall 90.4 (K rank 2); 2026 kickoffs 45, touchback 2 (4.4%), return avg 24.9, 0 out of bounds; 0 accepted penalties; 2026 FG 19/19 (100%): 0-39 8/8, 40-49 7/7, 50-59 4/4, 60+ 0/0; long 59; 0 blocked; FG EPA +17.9; XP 17/17 | placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K | injuries: no injury designation 2025-26; roster ACT (TB) - Big-leg accuracy kicker: long 65, 14 of 15 from 50-59 across 2025-26 and a perfect 19/19 so far in 2026 (FG EPA +17.9); PFF 92.9 / 90.4.",
+    "Evan McPherson": "Evan McPherson 2025: PFF K 2025 overall 90 (K rank 11); 2025 kickoffs 88, touchback 11 (12.5%), return avg 25.6, 0 out of bounds; 0 accepted penalties; 2025 FG 25/28 (89%): 0-39 10/10, 40-49 10/10, 50-59 4/6, 60+ 1/2; long 63; 0 blocked; FG EPA +16.4; XP 41/44 | Evan McPherson 2026: PFF K 2026 overall 84.3 (K rank 5); 2026 kickoffs 42, touchback 7 (16.7%), return avg 25.5, 0 out of bounds; 0 accepted penalties; 2026 FG 10/10 (100%): 0-39 5/5, 40-49 0/0, 50-59 5/5, 60+ 0/0; long 58; 0 blocked; FG EPA +11.8; XP 24/24 | placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K | injuries: no injury designation 2025-26; roster ACT (CIN) - Accurate deep threat: 35 of 38 FG (92%) with FG EPA +16.4 / +11.8 and a 63-yard long; PFF 90.0 / 84.3.",
+    "Cam Little": "Cam Little 2025: PFF K 2025 overall 92.3 (K rank 5); 2025 kickoffs 97, touchback 37 (38.1%), return avg 25.4, 2 out of bounds; 3 accepted penalties; 2025 FG 30/34 (88%): 0-39 14/14, 40-49 8/10, 50-59 6/8, 60+ 2/2; long 68; 0 blocked; FG EPA +12.0; XP 50/51 | Cam Little 2026: PFF K 2026 overall 82.2 (K rank 6); 2026 kickoffs 39, touchback 5 (12.8%), return avg 28.6, 0 out of bounds; 0 accepted penalties; 2026 FG 10/12 (83%): 0-39 3/3, 40-49 3/3, 50-59 3/4, 60+ 1/2; long 60; 0 blocked; FG EPA +8.6; XP 22/23 | placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K | injuries: no injury designation 2025-26; roster ACT (JAX) - Longest leg in football: 68-yard long, 3 of 4 from 60+ and a 38.1% kickoff touchback rate in 2025; PFF 92.3 (K rank 5) then 82.2.",
+    "Brandon Aubrey": "Brandon Aubrey 2025: PFF K 2025 overall 94 (K rank 1); 2025 kickoffs 101, touchback 17 (16.8%), return avg 24.1, 2 out of bounds; 4 accepted penalties; 2025 FG 36/42 (86%): 0-39 15/15, 40-49 10/10, 50-59 8/13, 60+ 3/4; long 64; 0 blocked; FG EPA +14.8; XP 47/48 | Brandon Aubrey 2026: PFF K 2026 overall 80 (K rank 7); 2026 kickoffs 48, touchback 8 (16.7%), return avg 17.2, 3 out of bounds; 4 accepted penalties; 2026 FG 15/19 (79%): 0-39 9/9, 40-49 3/3, 50-59 2/3, 60+ 1/4; long 60; 2 blocked; FG EPA +0.8; XP 20/21 | placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K | injuries: no injury designation 2025-26; roster ACT (DAL) - Elite leg, recent wobble: PFF 94.0 (K rank 1, 2025) with 4 of 8 from 60+ and a 64-yard long over 2025-26, but 2026 FG EPA just +0.8 with 2 blocked.",
+    "Jason Myers": "Jason Myers 2025: PFF K 2025 overall 90.8 (K rank 9); 2025 kickoffs 103, touchback 18 (17.5%), return avg 22.8, 1 out of bounds; 3 accepted penalties; 2025 FG 41/48 (85%): 0-39 19/21, 40-49 13/15, 50-59 9/11, 60+ 0/1; long 57; 1 blocked; FG EPA +12.0; XP 48/48 | Jason Myers 2026: PFF K 2026 overall 60.6 (K rank 22); 2026 kickoffs 39, touchback 8 (20.5%), return avg 27.1, 0 out of bounds; 2 accepted penalties; 2026 FG 14/15 (93%): 0-39 7/7, 40-49 4/5, 50-59 3/3, 60+ 0/0; long 57; 0 blocked; FG EPA +8.5; XP 16/17 | placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K | injuries: no injury designation 2025-26; roster ACT (SEA) - Volume and long-range reliability: 55 of 63 FG with 12/14 from 50-59 and FG EPA +12.0 / +8.5.",
+    "Joey Slye": "Joey Slye 2025: PFF K 2025 overall 84.3 (K rank 15); 2025 kickoffs 67, touchback 17 (25.4%), return avg 22.8, 4 out of bounds; 4 accepted penalties; 2025 FG 28/35 (80%): 0-39 12/12, 40-49 7/9, 50-59 9/12, 60+ 0/2; long 58; 1 blocked; FG EPA +16.0; XP 26/27 | Joey Slye 2026: PFF K 2026 overall 85 (K rank 4); 2026 kickoffs 36, touchback 8 (22.2%), return avg 19.0, 1 out of bounds; 3 accepted penalties; 2026 FG 12/13 (92%): 0-39 7/7, 40-49 4/4, 50-59 1/2, 60+ 0/0; long 56; 0 blocked; FG EPA +5.6; XP 12/12 | placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K | injuries: wk6 Out (Calf); roster ACT (TEN) - Power kicker with a touchback leg: 25.4% / 22.2% kickoff touchbacks, FG EPA +16.0 / +5.6, PFF 84.3 / 85.0.",
+    "Cameron Dicker": "Cameron Dicker 2025: PFF K 2025 overall 91 (K rank 8); 2025 kickoffs 90, touchback 16 (17.8%), return avg 26.6, 2 out of bounds; 3 accepted penalties; 2025 FG 38/41 (93%): 0-39 21/22, 40-49 12/13, 50-59 5/6, 60+ 0/0; long 59; 0 blocked; FG EPA +17.0; XP 34/35 | Cameron Dicker 2026: PFF K 2026 overall 62.3 (K rank 21); 2026 kickoffs 27, touchback 5 (18.5%), return avg 23.2, 0 out of bounds; 0 accepted penalties; 2026 FG 12/14 (86%): 0-39 8/8, 40-49 4/5, 50-59 0/1, 60+ 0/0; long 46; 0 blocked; FG EPA -1.3; XP 9/9 | placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K | injuries: no injury designation 2025-26; roster ACT (LAC) - Automatic inside 50: 29 of 30 from 0-39 and 50 of 55 overall; FG EPA +17.0 in 2025 (PFF 91.0) but -1.3 in 2026 (PFF 62.3).",
+    "Chris Boswell": "Chris Boswell 2025: PFF K 2025 overall 92.5 (K rank 4); 2025 kickoffs 88, touchback 7 (8.0%), return avg 23.6, 1 out of bounds; 3 accepted penalties; 2025 FG 27/32 (84%): 0-39 8/10, 40-49 10/11, 50-59 8/10, 60+ 1/1; long 60; 1 blocked; FG EPA +17.3; XP 42/43 | Chris Boswell 2026: PFF K 2026 overall 62.7 (K rank 20); 2026 kickoffs 41, touchback 7 (17.1%), return avg 27.6, 0 out of bounds; 0 accepted penalties; 2026 FG 18/23 (78%): 0-39 10/10, 40-49 4/6, 50-59 4/7, 60+ 0/0; long 58; 0 blocked; FG EPA -1.2; XP 16/16 | placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K | injuries: no injury designation 2025-26; roster ACT (PIT) - Proven long-range veteran: 12/17 from 50-59 with a 60-yard long and FG EPA +17.3 (PFF 92.5) in 2025, but -1.2 / PFF 62.7 in 2026.",
+    "Eddy Pineiro": "Eddy Pineiro 2025: PFF K 2025 overall 88.7 (K rank 12); 2025 kickoffs 79, touchback 16 (20.3%), return avg 25.5, 1 out of bounds; 1 accepted penalties; 2025 FG 28/29 (97%): 0-39 12/12, 40-49 10/10, 50-59 6/6, 60+ 0/1; long 59; 0 blocked; FG EPA +22.3; XP 34/38 | Eddy Pineiro 2026: PFF K 2026 overall 42.9 (K rank 31); 2026 kickoffs 38, touchback 7 (18.4%), return avg 26.9, 0 out of bounds; 0 accepted penalties; 2026 FG 6/9 (67%): 0-39 3/3, 40-49 1/1, 50-59 2/5, 60+ 0/0; long 57; 1 blocked; FG EPA -4.1; XP 21/25 | placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K | injuries: wk12 Out (Hamstring); wk13 Out (Hamstring); wk2 Questionable (Illness); roster ACT (SF) - Accurate in 2025: 34 of 38 over the two seasons with FG EPA +22.3 (PFF 88.7) in 2025; 2026 FG EPA -4.1 and PFF 42.9.",
+    "Spencer Shrader": "Spencer Shrader 2025: PFF K 2025 overall 72.8 (K rank 24); 2025 kickoffs 27, touchback 2 (7.4%), return avg 24.0, 0 out of bounds; 1 accepted penalties; 2025 FG 13/14 (93%): 0-39 10/10, 40-49 2/2, 50-59 1/2, 60+ 0/0; long 52; 0 blocked; FG EPA +2.5; XP 14/14 | Spencer Shrader 2026: PFF K 2026 overall 79.3 (K rank 8); 2026 kickoffs 18, touchback 3 (16.7%), return avg 28.5, 0 out of bounds; 0 accepted penalties; 2026 FG 19/21 (90%): 0-39 6/6, 40-49 7/8, 50-59 6/7, 60+ 0/0; long 58; 0 blocked; FG EPA +12.9; XP 14/15 | placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K | injuries: no injury designation 2025-26; roster ACT (IND) - Rising accuracy kicker: 32 of 35 FG and FG EPA +12.9 in 2026 (PFF 79.3).",
+    "Tyler Bass": "Tyler Bass 2025: no PFF K grade 2025; no 2025 kickoffs; 0 accepted penalties; no 2025 field-goal attempts | Tyler Bass 2026: PFF K 2026 overall 72.8 (K rank 15); 2026 kickoffs 49, touchback 3 (6.1%), return avg 25.7, 0 out of bounds; 1 accepted penalties; 2026 FG 16/16 (100%): 0-39 9/9, 40-49 5/5, 50-59 2/2, 60+ 0/0; long 56; 0 blocked; FG EPA +11.3; XP 21/23 | placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K | injuries: wk1 Out (Hip); roster ACT (BUF) - Perfect 2026: 16 of 16 FG (2/2 from 50-59, long 56), FG EPA +11.3, PFF 72.8; no 2025 regular-season kicks in nflverse pbp."
+  },
+  "proposed_order": [
+    "Will Reichard",
+    "Ka'imi Fairbairn",
+    "Chase McLaughlin",
+    "Evan McPherson",
+    "Cam Little",
+    "Brandon Aubrey",
+    "Jason Myers",
+    "Joey Slye",
+    "Cameron Dicker",
+    "Chris Boswell"
+  ],
+  "first_outs": [
+    "Eddy Pineiro",
+    "Spencer Shrader",
+    "Tyler Bass"
+  ],
+  "excluded": [
+    {
+      "player": "Wil Lutz",
+      "reason": "Below pool cutoff (composite 0.44; PFF 2026 grade 65.4; sources pff_2026#17, pff_2025#16, nflverse_stats_2026#18). Re-include on request."
+    },
+    {
+      "player": "Nick Folk",
+      "reason": "Below pool cutoff (composite 0.42; PFF 2026 grade 51.2; sources pff_2025#7). Re-include on request."
+    },
+    {
+      "player": "Cairo Santos",
+      "reason": "Below pool cutoff (composite 0.37; PFF 2026 grade 65.4; sources pff_2026#16, pff_2025#17). Re-include on request."
+    },
+    {
+      "player": "Dominic Zvada",
+      "reason": "Below pool cutoff (composite 0.12; PFF 2026 grade 53.0; sources nflverse_stats_2026#17). Re-include on request."
+    },
+    {
+      "player": "Charlie Smyth",
+      "reason": "Below pool cutoff (composite 0.06; PFF 2026 grade n/a; sources pff_2025#19). Re-include on request."
+    },
+    {
+      "player": "Daniel Carlson",
+      "reason": "Below pool cutoff (composite 0.03; PFF 2026 grade 57.7; sources pff_2025#20). Re-include on request."
+    },
+    {
+      "player": "Jake Bates",
+      "reason": "39 of 47 FG; FG EPA -2.7 / +2.2"
+    },
+    {
+      "player": "Andre Szmyt",
+      "reason": "40 of 45 FG but FG EPA only +4.6 / +4.5, long 56"
+    },
+    {
+      "player": "Ryan Fitzgerald",
+      "reason": "PFF 68.0 / 65.3; 5 of 8 from 50-59"
+    },
+    {
+      "player": "Harrison Butker",
+      "reason": "45 of 56 FG, 7 of 15 from 50-59; FG EPA -8.6 in 2026"
+    },
+    {
+      "player": "Zane Gonzalez",
+      "reason": "limited FG volume (25 attempts over two seasons); PFF 58.4 in 2026"
+    }
+  ],
+  "old_lock_comparison": {
+    "note": "No K lock exists (never locked; state PENDING). Compared against the approved candidate pool order (data/candidate-pools/K.json).",
+    "legacy_names": [
+      "Will Reichard",
+      "Brandon Aubrey",
+      "Chase McLaughlin",
+      "Ka'imi Fairbairn",
+      "Evan McPherson",
+      "Cam Little",
+      "Cameron Dicker",
+      "Spencer Shrader",
+      "Joey Slye",
+      "Jason Myers"
+    ],
+    "in_proposed_top10": [
+      "Will Reichard",
+      "Brandon Aubrey",
+      "Chase McLaughlin",
+      "Ka'imi Fairbairn",
+      "Evan McPherson",
+      "Cam Little",
+      "Cameron Dicker",
+      "Joey Slye",
+      "Jason Myers"
+    ],
+    "now_first_out": [
+      "Spencer Shrader"
+    ],
+    "out": []
+  },
+  "flags": {
+    "injured": [],
+    "free_agents": [],
+    "limited_sample": [
+      "Tyler Bass"
+    ],
+    "madden_side_differs": [],
+    "data_gaps": [
+      "no public kickoff hang time",
+      "PFF K sub-grades paywalled"
+    ]
+  },
+  "madden_reference": [
+    {
+      "player": "Will Reichard",
+      "ovr": 84,
+      "madden_position": "K",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Ka'imi Fairbairn",
+      "ovr": 81,
+      "madden_position": "K",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Chase McLaughlin",
+      "ovr": 81,
+      "madden_position": "K",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Evan McPherson",
+      "ovr": 82,
+      "madden_position": "K",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Cam Little",
+      "ovr": 80,
+      "madden_position": "K",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Brandon Aubrey",
+      "ovr": 86,
+      "madden_position": "K",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Jason Myers",
+      "ovr": 82,
+      "madden_position": "K",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Joey Slye",
+      "ovr": 75,
+      "madden_position": "K",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Cameron Dicker",
+      "ovr": 80,
+      "madden_position": "K",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Chris Boswell",
+      "ovr": 85,
+      "madden_position": "K",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Eddy Pineiro",
+      "ovr": 77,
+      "madden_position": "K",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Spencer Shrader",
+      "ovr": 84,
+      "madden_position": "K",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Tyler Bass",
+      "ovr": 74,
+      "madden_position": "K",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    }
+  ],
+  "madden_order_verified": false,
+  "early_inputs": [],
+  "external_controls": [],
+  "major_flags": [
+    "NO_PRIOR_LOCK",
+    "DATA_GAP: no public kickoff hang time"
+  ],
+  "locked_control_conflict": false
+}
+```
