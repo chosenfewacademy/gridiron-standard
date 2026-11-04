@@ -5066,7 +5066,7 @@
         "position": "LG",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "IN_PROGRESS",
       "pool_file": "data/candidate-pools/LG.reaudit.json",
       "baseline_file": null,
@@ -5081,18 +5081,23 @@
       ],
       "audit_ids": [
         "LG_REAUDIT_CANDIDATE_AUDIT_A1",
-        "LG_REAUDIT_BG_01_A1"
+        "LG_REAUDIT_BG_01_A1",
+        "LG_REAUDIT_BG_02_A1"
       ],
       "current_stage": "background_analysis",
-      "current_task": "LG_REAUDIT_BG_01",
-      "updated_at": "2026-11-04T03:17:28.363Z",
+      "current_task": "LG_REAUDIT_BG_02",
+      "updated_at": "2026-11-04T03:17:29.307Z",
       "last_result": {
-        "task_id": "LG_REAUDIT_BG_01",
+        "task_id": "LG_REAUDIT_BG_02",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "LG_REAUDIT_BG_02",
+        "audit_id": "LG_REAUDIT_BG_02_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
