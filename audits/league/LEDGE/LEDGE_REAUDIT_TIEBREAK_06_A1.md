@@ -1,0 +1,40 @@
+# LEDGE_REAUDIT_TIEBREAK_06 — Brian Burns vs Montez Sweat (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "LEDGE_REAUDIT_TIEBREAK_06_A1",
+  "task_id": "LEDGE_REAUDIT_TIEBREAK_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Brian Burns",
+    "Montez Sweat"
+  ],
+  "pair_result": {
+    "winner": "Brian Burns",
+    "loser": "Montez Sweat",
+    "provisional_order_holds": true,
+    "reasoning": "League-ceiling flag. M. Sweat PFF 72.4 / 61.2, 27 pressures and 10 sacks in 2025; Burns' 41 pressures and 16.5 sacks are clearly more.",
+    "key_evidence_for_winner": [
+      "Brian Burns (NYG) alignment side snapshots 2025-26 left 496 / right 0 -> LEDGE; roster RES (LB); injuries wk8 Questionable (Hip); wk3 Questionable (Ankle)",
+      "Brian Burns 2026: Brian Burns 2026: PFF edge 2026 overall 72.1 on 116 snaps (64 pass-rush, 35 run-defense, 17 coverage); PFR 2026 5 pressures (3 hurries, 2 QB hits, 0.0 sacks) in 3 games, 4 tackles, 1 missed; 3 g / 116 def snaps; 0.0 sacks, 2 QB hits, 0 TFL, 0 FF, 0 PD; 0 accepted penalties; PFR 2026 5 pressures (3 hurries, 2 QB hits, 0.0 sacks) in 3 games, 4 tackles, 1 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Brian Burns 2025: Brian Burns 2025: PFF edge 2025 overall 75.8 on 863 snaps (471 pass-rush, 313 run-defense, 79 coverage); PFR 2025 41 pressures (10 hurries, 14 QB knockdowns, 16.5 sacks), 67 tackles, 4 missed; 17 g / 862 def snaps; 16.5 sacks, 31 QB hits, 22 TFL, 3 FF, 7 PD; 1 accepted penalties; PFR 2025 41 pressures (10 hurries, 14 QB knockdowns, 16.5 sacks), 67 tackles, 4 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Montez Sweat (CHI) alignment side snapshots 2025-26 left 495 / right 0 -> LEDGE; roster ACT (DL); injuries no injury designation 2025-26",
+      "Montez Sweat 2026: Montez Sweat 2026: PFF edge 2026 overall 61.2 on 226 snaps (152 pass-rush, 71 run-defense, 3 coverage); PFR 2026 8 pressures (4 hurries, 2 QB hits, 2.0 sacks) in 4 games, 4 tackles, 0 missed; 6 g / 225 def snaps; 2.0 sacks, 4 QB hits, 2 TFL, 0 FF, 0 PD; 1 accepted penalties; PFR 2026 8 pressures (4 hurries, 2 QB hits, 2.0 sacks) in 4 games, 4 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Montez Sweat 2025: Montez Sweat 2025: PFF edge 2025 overall 72.4 on 900 snaps (547 pass-rush, 333 run-defense, 20 coverage); PFR 2025 27 pressures (10 hurries, 6 QB knockdowns, 10 sacks), 53 tackles, 4 missed; 17 g / 780 def snaps; 10.0 sacks, 18 QB hits, 13 TFL, 3 FF, 5 PD; 1 accepted penalties; PFR 2025 27 pressures (10 hurries, 6 QB knockdowns, 10 sacks), 53 tackles, 4 missed"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
