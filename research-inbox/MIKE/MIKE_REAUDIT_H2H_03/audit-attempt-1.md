@@ -1,0 +1,40 @@
+# MIKE_REAUDIT_H2H_03 — Nick Bolton vs Carson Schwesinger (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "MIKE_REAUDIT_H2H_03_A1",
+  "task_id": "MIKE_REAUDIT_H2H_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "MIKE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Nick Bolton",
+    "Carson Schwesinger"
+  ],
+  "pair_result": {
+    "winner": "Nick Bolton",
+    "loser": "Carson Schwesinger",
+    "provisional_order_holds": true,
+    "reasoning": "Bolton: PFF 78.9 / 69.4 vs Schwesinger 75.3 / 66.0 - Bolton ahead in both seasons on similar snaps with similar tackle volume (154 vs 156 in 2025); Schwesinger has more TFL (11 vs 10) and fewer missed tackles (10 vs 14), so narrow.",
+    "key_evidence_for_winner": [
+      "Nick Bolton (KC) role snap-weighted 2025-26 depth-chart role shares MIKE 1482 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE25 221, MIKE26 275) -> MIKE; roster ACT (LB); injuries wk17 Questionable (Illness)",
+      "Nick Bolton 2026: Nick Bolton 2026: PFF LB 2026 overall 69.4 on 472 snaps (LB rank 21; 179 run-def / 254 coverage / 39 pass-rush snaps); PFR 2026 (6 games) coverage 19 targets / 15 completions / 150 yds / 0 INT; 59 tackles, 6 missed; 1 pressures on 29 blitzes; 7 g / 471 def snaps; 33 solo + 34 ast tackles, 3 TFL, 0.0 sacks, 0 INT, 2 PD, 0 FF; 0 accepted penalties; PFR 2026 (6 games) coverage 19 targets / 15 completions / 150 yds / 0 INT; 59 tackles, 6 missed; 1 pressures on 29 blitzes",
+      "Nick Bolton 2025: Nick Bolton 2025: PFF LB 2025 overall 78.9 on 1011 snaps (LB rank 7; 409 run-def / 491 coverage / 111 pass-rush snaps); PFR 2025 coverage 85 targets / 67 completions / 592 yds / passer rating 106.5 / 1 INT; 154 tackles, 14 missed; 11 pressures on 91 blitzes, 1 sacks; 17 g / 1011 def snaps; 69 solo + 81 ast tackles, 10 TFL, 1.0 sacks, 1 INT, 6 PD, 1 FF; 1 accepted penalties; PFR 2025 coverage 85 targets / 67 completions / 592 yds / passer rating 106.5 / 1 INT; 154 tackles, 14 missed; 11 pressures on 91 blitzes, 1 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Carson Schwesinger (CLE) role snap-weighted 2025-26 depth-chart role shares MIKE 1472 / WILL 4 / SAM 0 / edge 0 (raw snapshots MIKE25 220, WILL25 1, MIKE26 275) -> MIKE; roster ACT (LB); injuries wk10 Questionable (Ankle); wk18 Out (Ankle); wk6 Questionable (Ankle)",
+      "Carson Schwesinger 2026: Carson Schwesinger 2026: PFF LB 2026 overall 66 on 519 snaps (LB rank 30; 213 run-def / 264 coverage / 42 pass-rush snaps); PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes; 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF; 0 accepted penalties; PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes",
+      "Carson Schwesinger 2025: Carson Schwesinger 2025: PFF LB 2025 overall 75.3 on 958 snaps (LB rank 18; 410 run-def / 475 coverage / 73 pass-rush snaps); PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks; 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
