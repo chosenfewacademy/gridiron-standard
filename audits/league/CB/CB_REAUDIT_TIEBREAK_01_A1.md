@@ -1,0 +1,40 @@
+# CB_REAUDIT_TIEBREAK_01 — Trent McDuffie vs Denzel Ward (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "CB_REAUDIT_TIEBREAK_01_A1",
+  "task_id": "CB_REAUDIT_TIEBREAK_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Trent McDuffie",
+    "Denzel Ward"
+  ],
+  "pair_result": {
+    "winner": "Trent McDuffie",
+    "loser": "Denzel Ward",
+    "provisional_order_holds": true,
+    "reasoning": "Their 2026 grades are level (PFF 89.8 vs 90.0); McDuffie's 2025 (75.6 on 688 snaps) is far ahead of Ward's 59.2 on 780, and Ward missed 8 tackles in 2025 vs McDuffie's 4.",
+    "key_evidence_for_winner": [
+      "Trent McDuffie (LA) role single CB list (no outside/slot split); roster position DB; roster ACT (DB); injuries wk15 Questionable (Knee); wk16 Out (Knee); wk6 Questionable (Groin); wk7 Questionable (Groin); wk8 Questionable (Groin)",
+      "Trent McDuffie 2026: Trent McDuffie 2026: PFF CB 2026 overall 89.8 on 362 snaps (CB rank 2; 200 coverage / 155 run-def snaps); PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed; 6 g / 363 def snaps; 18 solo + 7 ast tackles, 3 TFL, 2 INT, 8 PD, 0 FF; 3 accepted penalties; PFR 2026 (5 games) coverage 21 targets / 7 completions / 42 yds / 0 TD / 1 INT; 16 tackles, 1 missed",
+      "Trent McDuffie 2025: Trent McDuffie 2025: PFF CB 2025 overall 75.6 on 688 snaps (CB rank 13; 404 coverage / 257 run-def snaps); PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed; 13 g / 688 def snaps; 45 solo + 18 ast tackles, 2 TFL, 1 INT, 7 PD, 1 FF; 5 accepted penalties; PFR 2025 coverage 60 targets / 38 completions / 365 yds / 4 TD / passer rating 95.5 / 1 INT; 63 tackles, 4 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Denzel Ward (CLE) role single CB list (no outside/slot split); roster position DB; roster ACT (DB); injuries wk15 Out (Calf); wk16 Out (Calf); wk7 Questionable (Hand)",
+      "Denzel Ward 2026: Denzel Ward 2026: PFF CB 2026 overall 90 on 514 snaps (CB rank 1; 303 coverage / 210 run-def snaps); PFR 2026 (7 games) coverage 40 targets / 16 completions / 210 yds / 3 TD / 2 INT; 27 tackles, 4 missed; 8 g / 515 def snaps; 17 solo + 12 ast tackles, 0 TFL, 3 INT, 9 PD, 2 FF; 2 accepted penalties; PFR 2026 (7 games) coverage 40 targets / 16 completions / 210 yds / 3 TD / 2 INT; 27 tackles, 4 missed",
+      "Denzel Ward 2025: Denzel Ward 2025: PFF CB 2025 overall 59.2 on 780 snaps (CB rank 67; 452 coverage / 325 run-def snaps); PFR 2025 coverage 62 targets / 38 completions / 380 yds / 3 TD / passer rating 88.1 / 1 INT; 39 tackles, 8 missed; 15 g / 779 def snaps; 27 solo + 10 ast tackles, 2 TFL, 1 INT, 9 PD, 0 FF; 3 accepted penalties; PFR 2025 coverage 62 targets / 38 completions / 380 yds / 3 TD / passer rating 88.1 / 1 INT; 39 tackles, 8 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
