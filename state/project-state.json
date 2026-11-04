@@ -13526,7 +13526,7 @@
         "position": "P",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/P.reaudit.json",
       "baseline_file": null,
@@ -13543,18 +13543,23 @@
       "audit_ids": [
         "P_REAUDIT_CANDIDATE_AUDIT_A1",
         "P_REAUDIT_BG_01_A1",
-        "P_REAUDIT_BG_02_A1"
+        "P_REAUDIT_BG_02_A1",
+        "P_REAUDIT_BG_03_A1"
       ],
       "current_stage": "background_analysis",
-      "current_task": "P_REAUDIT_BG_02",
-      "updated_at": "2026-11-04T12:59:16.074Z",
+      "current_task": "P_REAUDIT_BG_03",
+      "updated_at": "2026-11-04T12:59:16.925Z",
       "last_result": {
-        "task_id": "P_REAUDIT_BG_02",
+        "task_id": "P_REAUDIT_BG_03",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "P_REAUDIT_BG_03",
+        "audit_id": "P_REAUDIT_BG_03_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",

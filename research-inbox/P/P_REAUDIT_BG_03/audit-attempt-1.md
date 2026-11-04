@@ -1,0 +1,162 @@
+# P_REAUDIT_BG_03 — Daniel Whelan background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "P_REAUDIT_BG_03_A1",
+  "task_id": "P_REAUDIT_BG_03",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "P",
+  "player_id": "ext_00-0037547",
+  "players": [
+    "Daniel Whelan"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Daniel Whelan",
+    "player_id": "ext_00-0037547",
+    "team": "GB",
+    "role_assignment": "P (punter (punt attempts in nflverse pbp); roster position P)",
+    "side_rule": "PUNTER ROLE CONVENTION (t46u): rated as P = any player with 2025-26 punt attempts in nflverse play-by-play; matched by gsis id. Evidence: gross and net average, inside-20 count/rate, touchbacks, fair catches, return yards allowed, blocks, punt EPA (nflverse pbp), PFF P overall (2025-26). THIN DATA: no public punt hang time (not in pbp, PFF free tables or Next Gen Stats); fair catches and return yards are the proxy. Madden position is reference only.",
+    "seasons": {
+      "2025": {
+        "punt": {
+          "n": 49,
+          "gross": 51.7,
+          "net": 43.9,
+          "i20": 18,
+          "i20_pct": 36.7,
+          "tb": 8,
+          "fc": 12,
+          "ret_yds": 222,
+          "returned": 21,
+          "blocked": 0,
+          "long": 72,
+          "epa": 4.2,
+          "epa_per": 0.086,
+          "games": 14
+        },
+        "pffp": {
+          "ovr": 88.2,
+          "snaps": null,
+          "rank": 3
+        }
+      },
+      "2026": {
+        "punt": {
+          "n": 32,
+          "gross": 48.9,
+          "net": 43.9,
+          "i20": 16,
+          "i20_pct": 50.0,
+          "tb": 3,
+          "fc": 8,
+          "ret_yds": 101,
+          "returned": 14,
+          "blocked": 0,
+          "long": 75,
+          "epa": 1.8,
+          "epa_per": 0.056,
+          "games": 8
+        },
+        "pffp": {
+          "ovr": 69.8,
+          "snaps": null,
+          "rank": 18
+        }
+      }
+    },
+    "injuries": null,
+    "summary_lines": [
+      "Daniel Whelan (GB) Daniel Whelan 2026: PFF P 2026 overall 69.8 (P rank 18); 2026 8 games punting; 0 accepted penalties",
+      "Daniel Whelan 2025: PFF P 2025 overall 88.2 (P rank 3); 2025 14 games punting; 0 accepted penalties",
+      "Daniel Whelan role: punter (punt attempts in nflverse pbp); roster position P (PUNTER ROLE CONVENTION (t46u): rated as P = any player with 2025-26 punt attempts in nflverse play-by-play; matched by g...); roster position P; Madden card P (reference only)",
+      "Daniel Whelan injury reports: no injury designation 2025-26; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "No public punt hang time; PFF P sub-grades paywalled; substitutes: net/gross, inside-20, touchbacks, fair catches and return yards (hang proxy), punt EPA (nflverse pbp), PFF P overall"
+    ],
+    "attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "thin_data": false,
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/p/2026",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/p/2025",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:16Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
