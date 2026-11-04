@@ -1,0 +1,116 @@
+{
+  "task_id": "WILL_REAUDIT_BG_08",
+  "type": "background_analysis",
+  "players": [
+    "Alex Singleton"
+  ],
+  "player_id": "ext_00-0031898",
+  "team": "DEN",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Zack Baun"
+      },
+      {
+        "rank": 2,
+        "player": "Roquan Smith"
+      },
+      {
+        "rank": 3,
+        "player": "Drue Tranquill"
+      },
+      {
+        "rank": 4,
+        "player": "Jordyn Brooks"
+      },
+      {
+        "rank": 5,
+        "player": "Blake Cashman"
+      },
+      {
+        "rank": 6,
+        "player": "Arvell Reese"
+      },
+      {
+        "rank": 7,
+        "player": "Foyesade Oluokun"
+      },
+      {
+        "rank": 8,
+        "player": "Alex Singleton"
+      },
+      {
+        "rank": 9,
+        "player": "Demario Davis"
+      },
+      {
+        "rank": 10,
+        "player": "Edgerrin Cooper"
+      }
+    ],
+    "external_controls": [
+      "Divine Deablo",
+      "Drake Thomas",
+      "Kaden Elliss"
+    ]
+  },
+  "position": "WILL",
+  "stage": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 14,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "run defense",
+      "coverage",
+      "pass rush",
+      "tackling",
+      "missed tackle %"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks",
+      "INT, PBU",
+      "missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by role (MIKE/WILL/SAM)",
+      "coverage snaps",
+      "blitz rate",
+      "box vs slot alignment"
+    ],
+    "on_field_impact": [
+      "run-stop %",
+      "yards per coverage snap allowed",
+      "passer rating allowed"
+    ],
+    "madden_attributes_informed": [
+      "TAK",
+      "HIT",
+      "PUR",
+      "PRC",
+      "BSH",
+      "MCV",
+      "ZCV",
+      "PMV",
+      "FMV",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Weak-side role."
+  }
+}
