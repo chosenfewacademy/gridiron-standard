@@ -1,0 +1,39 @@
+{
+  "audit_id": "REDGE_REAUDIT_TIEBREAK_10_A1",
+  "task_id": "REDGE_REAUDIT_TIEBREAK_10",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Laiatu Latu",
+    "Jacob Martin"
+  ],
+  "pair_result": {
+    "winner": "Laiatu Latu",
+    "loser": "Jacob Martin",
+    "provisional_order_holds": true,
+    "reasoning": "League-ceiling flag. Martin's pressure volume is real (39 over two seasons) but PFF 58.4 / 49.5 signals a pass-rush specialist liability against the run; Latu clearly ahead.",
+    "key_evidence_for_winner": [
+      "Laiatu Latu (IND) alignment side snapshots 2025-26 left 0 / right 496 -> REDGE; roster ACT (DL); injuries wk2 Questionable (Hamstring)",
+      "Laiatu Latu 2026: Laiatu Latu 2026: PFF edge 2026 overall 66.6 on 370 snaps (194 pass-rush, 145 run-defense, 31 coverage); PFR 2026 9 pressures (3 hurries, 4 QB hits, 1.0 sacks) in 7 games, 17 tackles, 0 missed; 8 g / 370 def snaps; 2.0 sacks, 8 QB hits, 1 TFL, 0 FF, 2 PD; 1 accepted penalties; PFR 2026 9 pressures (3 hurries, 4 QB hits, 1.0 sacks) in 7 games, 17 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Laiatu Latu 2025: Laiatu Latu 2025: PFF edge 2025 overall 84.1 on 755 snaps (437 pass-rush, 253 run-defense, 65 coverage); PFR 2025 26 pressures (7 hurries, 9 QB knockdowns, 8.5 sacks), 45 tackles, 8 missed; 16 g / 756 def snaps; 8.5 sacks, 20 QB hits, 12 TFL, 1 FF, 5 PD; 2 accepted penalties; PFR 2025 26 pressures (7 hurries, 9 QB knockdowns, 8.5 sacks), 45 tackles, 8 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Jacob Martin (TEN) alignment side snapshots 2025-26 left 5 / right 277 -> REDGE; roster ACT (DL); injuries no injury designation 2025-26",
+      "Jacob Martin 2026: Jacob Martin 2026: PFF edge 2026 overall 49.5 on 332 snaps (216 pass-rush, 107 run-defense, 9 coverage); PFR 2026 13 pressures (5 hurries, 4 QB hits, 3.5 sacks) in 6 games, 7 tackles, 2 missed; 8 g / 332 def snaps; 6.5 sacks, 14 QB hits, 7 TFL, 0 FF, 2 PD; 3 accepted penalties; PFR 2026 13 pressures (5 hurries, 4 QB hits, 3.5 sacks) in 6 games, 7 tackles, 2 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Jacob Martin 2025: Jacob Martin 2025: PFF edge 2025 overall 58.4 on 700 snaps (410 pass-rush, 269 run-defense, 21 coverage); PFR 2025 26 pressures (7 hurries, 12 QB knockdowns, 5.5 sacks), 39 tackles, 4 missed; 17 g / 700 def snaps; 5.5 sacks, 18 QB hits, 3 TFL, 1 FF, 1 PD; 2 accepted penalties; PFR 2025 26 pressures (7 hurries, 12 QB knockdowns, 5.5 sacks), 39 tackles, 4 missed"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
