@@ -1,0 +1,39 @@
+# TE_REAUDIT_TIEBREAK_22 — Mike Gesicki vs Tucker Kraft (v1.1.2 head-to-head tiebreak; authorized by t45s389)
+
+```json
+{
+  "audit_id": "TE_REAUDIT_TIEBREAK_22_A1",
+  "task_id": "TE_REAUDIT_TIEBREAK_22",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Mike Gesicki",
+    "Tucker Kraft"
+  ],
+  "pair_result": {
+    "winner": "Tucker Kraft",
+    "loser": "Mike Gesicki",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s389). Mike Gesicki: 2025 12 g, 43 tgt, 307 yds, 2 TD, EPA/tgt +0.102, PFF 70.8, YPRR 1.15, block share 0.17; 2026 6 g, 24 tgt, 241 yds, 6 TD, EPA/tgt +0.791, PFF 67.3, YPRR 1.35, block share 0.18. Tucker Kraft: 2025 8 g, 44 tgt, 489 yds, 6 TD, EPA/tgt +0.889, PFF 78.1, YPRR 2.2, block share 0.49; 2026 8 g, 49 tgt, 350 yds, 3 TD, EPA/tgt +0.442, PFF 64.5, YPRR 1.37, block share 0.41. Kraft's EPA/tgt (+.889 in 2025, +.442 in 2026), YAC/rec (10.8/5.3) and two-way usage (block share .49/.41) outweigh PFF 70.8/67.3, block share .17-.18 (no blocking value), 2026 6 TD on 24 targets is a small-sample spike. Tucker Kraft holds #10.",
+    "key_evidence_for_winner": [
+      "Tucker Kraft PFF TE overall grade 2026 64.5, 2025 78.1; 2026 PFF snaps {'off': '434', 'routes': '255', 'pblk': '40', 'rblk': '137'} (block share 0.41); 2025 PFF snaps {'off': '440', 'routes': '222', 'pblk': '33', 'rblk': '184'} (block share 0.49); age 26, 77 in 259 lb",
+      "Tucker Kraft (GB) 2026: 8 g 49 tgt 350 yds 3 TD, EPA/tgt 0.442, YPRR 1.37, TPRR 0.192, NGS sep 3.38, aDOT 5.7, deep 5 tgt catch 0.4 EPA/tgt 0.47, short catch 0.76, YAC/rec 5.3, RZ tgt 9, 3rd/4th conv 8/12, fum lost 0",
+      "Tucker Kraft (GB) 2025: 8 g 44 tgt 489 yds 6 TD, EPA/tgt 0.889, YPRR 2.2, TPRR 0.198, NGS sep None, aDOT 4.6, deep 2 tgt catch 0.5 EPA/tgt 0.22, short catch 0.71, YAC/rec 10.8, RZ tgt 12, 3rd/4th conv 11/15, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Mike Gesicki PFF TE overall grade 2026 67.3, 2025 70.8; 2026 PFF snaps {'off': '216', 'routes': '178', 'pblk': '2', 'rblk': '36'} (block share 0.18); 2025 PFF snaps {'off': '321', 'routes': '267', 'pblk': '1', 'rblk': '53'} (block share 0.17); age 31, 78 in 245 lb",
+      "Mike Gesicki (CIN) 2026: 6 g 24 tgt 241 yds 6 TD, EPA/tgt 0.791, YPRR 1.35, TPRR 0.135, NGS sep 2.86, aDOT 11.1, deep 3 tgt catch 0.67 EPA/tgt 2.08, short catch 0.75, YAC/rec 3.4, RZ tgt 5, 3rd/4th conv 6/7, fum lost 0",
+      "Mike Gesicki (CIN) 2025: 12 g 43 tgt 307 yds 2 TD, EPA/tgt 0.102, YPRR 1.15, TPRR 0.161, NGS sep None, aDOT 10.0, deep 4 tgt catch 0.5 EPA/tgt -0.71, short catch 0.7, YAC/rec 2.2, RZ tgt 8, 3rd/4th conv 9/15, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
