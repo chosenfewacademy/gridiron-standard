@@ -1,0 +1,255 @@
+{
+  "task_id": "MIKE_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Fred Warner"
+      },
+      {
+        "rank": 2,
+        "player": "Jack Campbell"
+      },
+      {
+        "rank": 3,
+        "player": "Devin Lloyd"
+      },
+      {
+        "rank": 4,
+        "player": "Ernest Jones"
+      },
+      {
+        "rank": 5,
+        "player": "Ventrell Miller"
+      },
+      {
+        "rank": 6,
+        "player": "Omar Speights"
+      },
+      {
+        "rank": 7,
+        "player": "Payton Wilson"
+      },
+      {
+        "rank": 8,
+        "player": "Nick Bolton"
+      },
+      {
+        "rank": 9,
+        "player": "Dre Greenlaw"
+      },
+      {
+        "rank": 10,
+        "player": "Anthony Hill Jr."
+      }
+    ],
+    "external_controls": [
+      "Trenton Simpson",
+      "Carson Schwesinger",
+      "Cedric Gray",
+      "Sonny Styles",
+      "Jamien Sherwood",
+      "T.J. Edwards"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Fred Warner",
+      "aliases": [],
+      "player_id": "ext_00-0034815",
+      "flags": [
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 782 / WILL 0 / SAM 0 -> MIKE)"
+      ]
+    },
+    {
+      "player": "Jack Campbell",
+      "aliases": [],
+      "player_id": "ext_00-0039018",
+      "flags": [
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)",
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 1583 / WILL 0 / SAM 0 -> MIKE)"
+      ]
+    },
+    {
+      "player": "Devin Lloyd",
+      "aliases": [],
+      "player_id": "ext_00-0037244",
+      "flags": [
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 690 / WILL 393 / SAM 0 -> MIKE)"
+      ]
+    },
+    {
+      "player": "Ernest Jones",
+      "aliases": [],
+      "player_id": "ext_00-0036994",
+      "flags": [
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 1407 / WILL 0 / SAM 0 -> MIKE)"
+      ]
+    },
+    {
+      "player": "Ventrell Miller",
+      "aliases": [],
+      "player_id": "ext_00-0038570",
+      "flags": [
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 509 / WILL 0 / SAM 26 -> MIKE)"
+      ]
+    },
+    {
+      "player": "Omar Speights",
+      "aliases": [],
+      "player_id": "ext_00-0039774",
+      "flags": [
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 905 / WILL 0 / SAM 0 -> MIKE)"
+      ]
+    },
+    {
+      "player": "Payton Wilson",
+      "aliases": [],
+      "player_id": "ext_00-0039741",
+      "flags": [
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 868 / WILL 303 / SAM 0 -> MIKE)"
+      ]
+    },
+    {
+      "player": "Nick Bolton",
+      "aliases": [],
+      "player_id": "ext_00-0036621",
+      "flags": [
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 1482 / WILL 0 / SAM 0 -> MIKE)"
+      ]
+    },
+    {
+      "player": "Dre Greenlaw",
+      "aliases": [],
+      "player_id": "ext_00-0034982",
+      "flags": [
+        "ROSTER_LABEL_OLB (two-way/position change; confirm bucket)",
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 321 / WILL 290 / SAM 0 -> MIKE)"
+      ]
+    },
+    {
+      "player": "Anthony Hill Jr.",
+      "aliases": [],
+      "player_id": "ext_00-0041479",
+      "flags": [
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)",
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 561 / WILL 0 / SAM 0 -> MIKE)"
+      ]
+    },
+    {
+      "player": "Trenton Simpson",
+      "aliases": [],
+      "player_id": "ext_00-0038504",
+      "flags": [
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 728 / WILL 0 / SAM 0 -> MIKE)"
+      ]
+    },
+    {
+      "player": "Carson Schwesinger",
+      "aliases": [],
+      "player_id": "ext_00-0040579",
+      "flags": [
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 1472 / WILL 4 / SAM 0 -> MIKE)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Cedric Gray",
+      "aliases": [],
+      "player_id": "ext_00-0039858",
+      "flags": [
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 755 / WILL 395 / SAM 0 -> MIKE)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Sonny Styles",
+      "aliases": [],
+      "player_id": "ext_00-0041028",
+      "flags": [
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 429 / WILL 0 / SAM 0 -> MIKE)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Jamien Sherwood",
+      "aliases": [],
+      "player_id": "ext_00-0036500",
+      "flags": [
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 1615 / WILL 6 / SAM 0 -> MIKE)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "T.J. Edwards",
+      "aliases": [],
+      "player_id": "ext_00-0035386",
+      "flags": [
+        "LB_ROLE_ASSIGNED MIKE (snap-weighted 2025-26 depth-chart role shares MIKE 857 / WILL 0 / SAM 0 -> MIKE)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    }
+  ],
+  "position": "MIKE",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 13,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "run defense",
+      "coverage",
+      "pass rush",
+      "tackling",
+      "missed tackle %"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks",
+      "INT, PBU",
+      "missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by role (MIKE/WILL/SAM)",
+      "coverage snaps",
+      "blitz rate",
+      "box vs slot alignment"
+    ],
+    "on_field_impact": [
+      "run-stop %",
+      "yards per coverage snap allowed",
+      "passer rating allowed"
+    ],
+    "madden_attributes_informed": [
+      "TAK",
+      "HIT",
+      "PUR",
+      "PRC",
+      "BSH",
+      "MCV",
+      "ZCV",
+      "PMV",
+      "FMV",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Middle/green-dot role; play-calling responsibility is context only."
+  }
+}
