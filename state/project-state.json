@@ -5161,18 +5161,18 @@
         "LG_REAUDIT_TIEBREAK_06_A1",
         "LG_REAUDIT_TIEBREAK_07_A1",
         "LG_REAUDIT_TIEBREAK_08_A1",
-        "LG_REAUDIT_VARIANCE_AUDIT_A1"
+        "LG_REAUDIT_VARIANCE_AUDIT_A1",
+        "LG_REAUDIT_RATE_05_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "LG_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T03:20:56.500Z",
+      "updated_at": "2026-11-04T03:20:56.795Z",
       "last_result": {
-        "task_id": "LG_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
-        "errors": [],
-        "flags": [
-          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "task_id": "LG_REAUDIT_RATE_05",
+        "status": "REVISION_APPROVED",
+        "audit_id": "LG_REAUDIT_RATE_05_A2",
+        "supersedes": "LG_REAUDIT_RATE_05_A1",
+        "flags": []
       },
       "awaiting": null,
       "approvals": [
@@ -5511,6 +5511,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:20:56Z",
           "note": "Standing commissioner approval t46u/t50s441: variance audit approved; the 4 drafted evidence-backed fixes are applied via reaudit:revise"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LG_REAUDIT_RATE_05",
+          "audit_id": "LG_REAUDIT_RATE_05_A2",
+          "supersedes": "LG_REAUDIT_RATE_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:20:56Z",
+          "note": "Standing commissioner approval t46u/t50s441: Approved variance fix (LG_REAUDIT_VARIANCE_AUDIT, t46u/t50s441): AGI 74->66 (no tracking data; LOW-confidence movement trait cannot carry +16). OVR un"
         }
       ]
     }
