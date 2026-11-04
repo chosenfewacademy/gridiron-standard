@@ -52,6 +52,7 @@ function sandbox(pos = "C") {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), "stage-"));
   for (const d of ["state", "data/baselines", "config", "data/players", "data/candidate-pools", `audits/league/${pos}`]) fs.mkdirSync(path.join(root, d), { recursive: true });
   for (const f of ["state/locks.json", "config/position-sequence.json", "config/position-metrics.json"]) fs.copyFileSync(f, path.join(root, f));
+  { const lp = path.join(root, "state/locks.json"); const lk = JSON.parse(fs.readFileSync(lp, "utf8")); if (lk.positions) delete lk.positions[pos]; fs.writeFileSync(lp, JSON.stringify(lk)); } // sandbox isolates the real lock for the fixture position (C locked 2026-11-04)
   fs.writeFileSync(path.join(root, "data/players/registry.json"), JSON.stringify({ players: [...TOP, "C Out", "C Ext"].map((n, i) => ({ player_id: `p${i}`, full_name: n })) }));
   fs.writeFileSync(path.join(root, `data/candidate-pools/${pos}.json`), JSON.stringify(goodPool(pos, "APPROVED")));
   const state = structuredClone(REAL_STATE);
