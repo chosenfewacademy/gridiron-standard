@@ -10262,7 +10262,7 @@
         "position": "WILL",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/WILL.reaudit.json",
       "baseline_file": null,
@@ -10354,19 +10354,23 @@
         "WILL_REAUDIT_TIEBREAK_05_A1",
         "WILL_REAUDIT_TIEBREAK_06_A1",
         "WILL_REAUDIT_VARIANCE_AUDIT_A1",
-        "WILL_REAUDIT_RATE_05_A2"
+        "WILL_REAUDIT_RATE_05_A2",
+        "WILL_REAUDIT_SCARCITY_A1"
       ],
-      "current_stage": "variance_audit",
-      "current_task": "WILL_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T11:51:45.346Z",
+      "current_stage": "scarcity_audit",
+      "current_task": "WILL_REAUDIT_SCARCITY",
+      "updated_at": "2026-11-04T11:51:55.013Z",
       "last_result": {
-        "task_id": "WILL_REAUDIT_RATE_05",
-        "status": "REVISION_APPROVED",
-        "audit_id": "WILL_REAUDIT_RATE_05_A2",
-        "supersedes": "WILL_REAUDIT_RATE_05_A1",
+        "task_id": "WILL_REAUDIT_SCARCITY",
+        "status": "VALIDATED",
+        "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "WILL_REAUDIT_SCARCITY",
+        "audit_id": "WILL_REAUDIT_SCARCITY_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
