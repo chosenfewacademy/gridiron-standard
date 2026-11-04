@@ -1,0 +1,39 @@
+{
+  "audit_id": "RG_REAUDIT_TIEBREAK_05_A1",
+  "task_id": "RG_REAUDIT_TIEBREAK_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Mike Onwenu",
+    "Kevin Dotson"
+  ],
+  "pair_result": {
+    "winner": "Mike Onwenu",
+    "loser": "Kevin Dotson",
+    "provisional_order_holds": true,
+    "reasoning": "Onwenu: PFF 77.2 on 1,344 snaps (2025) and 73.0 in limited 2026 snaps, now IR. Dotson: 87.3 (2025) but 60.8 (#41) in 2026 on 553 snaps. Dotson's current-season collapse puts him below Onwenu despite Onwenu's IR status.",
+    "key_evidence_for_winner": [
+      "Mike Onwenu (NE) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 184}; roster RES",
+      "Mike Onwenu 2026: PFF 73 (rank None; 52 pass-block/34 run-block of 86 snaps); no snaps; penalties 0; injuries none",
+      "Mike Onwenu 2025: PFF 77.2 (rank 8; 808 pass-block/536 run-block of 1344 snaps); no snaps; penalties 3; injuries ['wk4 Questionable (Shoulder)']"
+    ],
+    "key_evidence_for_loser": [
+      "Kevin Dotson (LA) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RG': 226}; roster ACT",
+      "Kevin Dotson 2026: PFF 60.8 (rank 41; 347 pass-block/206 run-block of 553 snaps); 8 g/553 snaps; penalties 3; injuries none",
+      "Kevin Dotson 2025: PFF 87.3 (rank 3; 608 pass-block/416 run-block of 1024 snaps); 15 g/886 snaps; penalties 3; injuries ['wk17 Out (Ankle)', 'wk18 Out (Ankle)', 'wk19 Out (Ankle)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
