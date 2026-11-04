@@ -1,0 +1,116 @@
+{
+  "task_id": "C_REAUDIT_RATE_06",
+  "type": "player_rating",
+  "players": [
+    "Erik McCoy"
+  ],
+  "player_id": "ext_00-0035242",
+  "team": "NO",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Creed Humphrey"
+      },
+      {
+        "rank": 2,
+        "player": "Zach Frazier"
+      },
+      {
+        "rank": 3,
+        "player": "Aaron Brewer"
+      },
+      {
+        "rank": 4,
+        "player": "Coleman Shelton"
+      },
+      {
+        "rank": 5,
+        "player": "Tyler Linderbaum"
+      },
+      {
+        "rank": 6,
+        "player": "Erik McCoy"
+      },
+      {
+        "rank": 7,
+        "player": "Luke Wattenberg"
+      },
+      {
+        "rank": 8,
+        "player": "Ryan Neuzil"
+      },
+      {
+        "rank": 9,
+        "player": "Juice Scruggs"
+      },
+      {
+        "rank": 10,
+        "player": "Jake Brendel"
+      }
+    ],
+    "external_controls": [
+      "Cooper Beebe",
+      "Connor McGovern",
+      "Tanor Bortolini"
+    ]
+  },
+  "madden_reference_policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+  "position": "C",
+  "stage": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 7,
+    "group": "Offense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "pass blocking",
+      "run blocking",
+      "zone/gap run-block grades",
+      "pressures allowed",
+      "sacks allowed",
+      "penalties"
+    ],
+    "position_stats": [
+      "games/snaps started at the exact bucket",
+      "penalties (holding, false start)"
+    ],
+    "usage_snap_metrics": [
+      "snaps by exact alignment (LT/LG/C/RG/RT)",
+      "pass-block vs run-block snap split",
+      "true pass sets"
+    ],
+    "on_field_impact": [
+      "pass-block win rate (ESPN)",
+      "run-block win rate (ESPN)",
+      "pressure rate allowed"
+    ],
+    "madden_attributes_informed": [
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK",
+      "STR",
+      "AWR",
+      "AGI",
+      "ACC"
+    ],
+    "note": "Center: snapping/line-call responsibilities are context only unless documented."
+  }
+}
