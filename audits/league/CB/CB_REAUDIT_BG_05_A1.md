@@ -1,0 +1,207 @@
+# CB_REAUDIT_BG_05 — Isaiah Rodgers background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "CB_REAUDIT_BG_05_A1",
+  "task_id": "CB_REAUDIT_BG_05",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "player_id": "ext_00-0036222",
+  "players": [
+    "Isaiah Rodgers"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Isaiah Rodgers",
+    "player_id": "ext_00-0036222",
+    "team": "MIN",
+    "role_assignment": "CB (single list)",
+    "side_rule": "CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/grades/nfl/cb) in the current 2026 season (2025 if no 2026 snaps); outside and slot corners compete in the same list; a player PFF grades at S in 2026 (e.g. Cooper DeJean) belongs to the safety list. Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "minnesota-vikings",
+        "ovr": 73.8,
+        "snaps": 963,
+        "rank": 20,
+        "rdef": 440,
+        "cov": 520
+      },
+      "2026": {
+        "team": "minnesota-vikings",
+        "ovr": 85.7,
+        "snaps": 376,
+        "rank": 3,
+        "rdef": 151,
+        "cov": 222
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "MIN",
+        "pos": "CB",
+        "g": "17",
+        "tgt": "85",
+        "cmp": "53",
+        "yds": "636",
+        "td": "2",
+        "rat": "88.2",
+        "int": "1",
+        "comb": "66",
+        "m_tkl": "10"
+      },
+      "2026": {
+        "def_targets": 23.0,
+        "def_completions_allowed": 8.0,
+        "def_yards_allowed": 128.0,
+        "def_ints": 1.0,
+        "def_receiving_td_allowed": 0.0,
+        "def_tackles_combined": 18.0,
+        "def_missed_tackles": 3.0,
+        "g": 6
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 963
+      },
+      "2026": {
+        "games": 7,
+        "defs": 376
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 46.0,
+        "def_tackle_assists": 19.0,
+        "def_tackles_for_loss": 4.0,
+        "def_fumbles_forced": 2.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 4.0,
+        "def_interceptions": 1.0
+      },
+      "2026": {
+        "def_tackles_solo": 9.0,
+        "def_tackle_assists": 13.0,
+        "def_tackles_for_loss": 0.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 4.0,
+        "def_interceptions": 1.0
+      }
+    },
+    "penalties": {
+      "2025": 0,
+      "2026": 0
+    },
+    "injuries": {},
+    "summary_lines": [
+      "Isaiah Rodgers (MIN) Isaiah Rodgers 2026: PFF CB 2026 overall 85.7 on 376 snaps (CB rank 3; 222 coverage / 151 run-def snaps); PFR 2026 (6 games) coverage 23 targets / 8 completions / 128 yds / 0 TD / 1 INT; 18 tackles, 3 missed; 7 g / 376 def snaps; 9 solo + 13 ast tackles, 0 TFL, 1 INT, 4 PD, 0 FF; 0 accepted penalties",
+      "Isaiah Rodgers 2025: PFF CB 2025 overall 73.8 on 963 snaps (CB rank 20; 520 coverage / 440 run-def snaps); PFR 2025 coverage 85 targets / 53 completions / 636 yds / 2 TD / passer rating 88.2 / 1 INT; 66 tackles, 10 missed; 17 g / 963 def snaps; 46 solo + 19 ast tackles, 4 TFL, 1 INT, 4 PD, 2 FF; 0 accepted penalties",
+      "Isaiah Rodgers role: single CB list (no outside/slot split); roster position DB (CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/g...); roster position DB; Madden card CB (reference only)",
+      "Isaiah Rodgers injury reports: no injury designation 2025-26; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF coverage/run-defense/tackling sub-grades and slot/outside splits are paywalled; no public tracking data for CB speed or separation; substitutes: PFF CB overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "CTH",
+      "JMP",
+      "TAK",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/cb/2026",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/cb/2025",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:13Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
