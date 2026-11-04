@@ -1,0 +1,40 @@
+# FB_REAUDIT_TIEBREAK_06 — Max Bredeson vs DJ Herman (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "FB_REAUDIT_TIEBREAK_06_A1",
+  "task_id": "FB_REAUDIT_TIEBREAK_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Max Bredeson",
+    "DJ Herman"
+  ],
+  "pair_result": {
+    "winner": "Max Bredeson",
+    "loser": "DJ Herman",
+    "provisional_order_holds": true,
+    "reasoning": "Bredeson 39.4 on 103 (68 run-block snaps); Herman 34.1 on 147 with 1 penalty. Higher grade per snap: Bredeson.",
+    "key_evidence_for_winner": [
+      "Max Bredeson (MIN) FB depth-chart snapshots 2026 {'rank1': 238}; roster ACT (RB)",
+      "Max Bredeson 2026: PFF FB 39.4 (rank 11; 68 run/lead-block, 19 pass-block, 16 routes, 0 carries of 103 snaps); 7 g/103 snaps; 0-0 rush, 0-0 rec, 0 TD; penalties 0; injuries none",
+      "Max Bredeson 2025: no PFF FB-alignment grade; no snaps; no touches; penalties 0; injuries none"
+    ],
+    "key_evidence_for_loser": [
+      "DJ Herman (MIA) FB depth-chart snapshots 2026 {'rank1': 111, 'rank2': 20}; roster ACT (RB)",
+      "DJ Herman 2026: PFF FB 34.1 (rank 12; 80 run/lead-block, 24 pass-block, 43 routes, 0 carries of 147 snaps); 7 g/147 snaps; 0-0 rush, 1-18 rec, 0 TD; penalties 1; injuries none",
+      "DJ Herman 2025: no PFF FB-alignment grade; no snaps; no touches; penalties 0; injuries none"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
