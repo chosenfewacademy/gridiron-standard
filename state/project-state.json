@@ -5066,7 +5066,7 @@
         "position": "LG",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "IN_PROGRESS",
       "pool_file": "data/candidate-pools/LG.reaudit.json",
       "baseline_file": null,
@@ -5118,7 +5118,8 @@
         "LG_REAUDIT_TIEBREAK_07",
         "LG_REAUDIT_TIEBREAK_08",
         "LG_REAUDIT_VARIANCE_AUDIT",
-        "LG_REAUDIT_SCARCITY"
+        "LG_REAUDIT_SCARCITY",
+        "LG_REAUDIT_TIEBREAK_09"
       ],
       "audit_ids": [
         "LG_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -5172,7 +5173,7 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "LG_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T03:22:17.054Z",
+      "updated_at": "2026-11-04T03:22:17.316Z",
       "last_result": {
         "task_id": "LG_REAUDIT_TIEBREAK_09",
         "status": "FLAGGED",
@@ -5180,17 +5181,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "LG_REAUDIT_TIEBREAK_09",
-        "audit_id": "LG_REAUDIT_TIEBREAK_09_A1",
-        "pending": [
-          {
-            "task_id": "LG_REAUDIT_TIEBREAK_09",
-            "audit_id": "LG_REAUDIT_TIEBREAK_09_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -5571,6 +5562,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:21:13Z",
           "note": "Standing commissioner approval t46u/t50s441: scarcity audit approved"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LG_REAUDIT_TIEBREAK_09",
+          "audit_id": "LG_REAUDIT_TIEBREAK_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:22:17Z",
+          "note": "Standing commissioner approval t46u/t50s441 (approve every stage on the same pathway)"
         }
       ]
     }
