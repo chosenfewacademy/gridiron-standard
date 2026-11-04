@@ -1,0 +1,182 @@
+# K_REAUDIT_RATE_08 — Joey Slye rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "K_REAUDIT_RATE_08_A1",
+  "task_id": "K_REAUDIT_RATE_08",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "player_id": "ext_00-0035192",
+  "players": [
+    "Joey Slye"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "KPW": 95,
+    "KAC": 84,
+    "AWR": 72,
+    "INJ": 89,
+    "STA": 89,
+    "TGH": 65
+  },
+  "trait_confidence": {
+    "KPW": "MEDIUM",
+    "KAC": "MEDIUM",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "KPW": {
+      "basis": "Judgment (leg): 2025 FG 28/35 (80%): 0-39 12/12, 40-49 7/9, 50-59 9/12, 60+ 0/2; long 58; 1 blocked; FG EPA +16.0; XP 26/27; 2025 kickoffs 67, touchback 17 (25.4%), return avg 22.8, 4 out of bounds; 2026 FG 12/13 (92%): 0-39 7/7, 40-49 4/4, 50-59 1/2, 60+ 0/0; long 56; 0 blocked; FG EPA +5.6; XP 12/12; 2026 kickoffs 36, touchback 8 (22.2%), return avg 19.0, 1 out of bounds. Style: Power kicker with a touchback leg: 25.4% / 22.2% kickoff touchbacks, FG EPA +16.0 / +5.6, PFF 84.3 / 85.0.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "KAC": {
+      "basis": "Judgment (accuracy): 2025 FG 28/35 (80%): 0-39 12/12, 40-49 7/9, 50-59 9/12, 60+ 0/2; long 58; 1 blocked; FG EPA +16.0; XP 26/27; 2026 FG 12/13 (92%): 0-39 7/7, 40-49 4/4, 50-59 1/2, 60+ 0/0; long 56; 0 blocked; FG EPA +5.6; XP 12/12. Style: Power kicker with a touchback leg: 25.4% / 22.2% kickoff touchbacks, FG EPA +16.0 / +5.6, PFF 84.3 / 85.0.",
+      "why_not_higher": "Listed weakness area: accuracy (40 of 48 FG, 0/2 from 60+), 50-59 (10/14)",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (decisions): PFF K 2025 overall 84.3 (K rank 15); 2025 FG 28/35 (80%): 0-39 12/12, 40-49 7/9, 50-59 9/12, 60+ 0/2; long 58; 1 blocked; FG EPA +16.0; XP 26/27; PFF K 2026 overall 85 (K rank 4); 2026 FG 12/13 (92%): 0-39 7/7, 40-49 4/4, 50-59 1/2, 60+ 0/0; long 56; 0 blocked; FG EPA +5.6; XP 12/12; penalties 4/3. Style: Power kicker with a touchback leg: 25.4% / 22.2% kickoff touchbacks, FG EPA +16.0 / +5.6, PFF 84.3 / 85.0.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Joey Slye injury reports: wk6 Out (Calf); roster status ACT; 2025 kickoffs 67, touchback 17 (25.4%), return avg 22.8, 4 out of bounds; 2026 kickoffs 36, touchback 8 (22.2%), return avg 19.0, 1 out of bounds. Style: Power kicker with a touchback leg: 25.4% / 22.2% kickoff touchbacks, FG EPA +16.0 / +5.6, PFF 84.3 / 85.0.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 2025 kickoffs 67, touchback 17 (25.4%), return avg 22.8, 4 out of bounds; 2026 kickoffs 36, touchback 8 (22.2%), return avg 19.0, 1 out of bounds. Style: Power kicker with a touchback leg: 25.4% / 22.2% kickoff touchbacks, FG EPA +16.0 / +5.6, PFF 84.3 / 85.0.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 2025 kickoffs 67, touchback 17 (25.4%), return avg 22.8, 4 out of bounds; 2026 kickoffs 36, touchback 8 (22.2%), return avg 19.0, 1 out of bounds. Style: Power kicker with a touchback leg: 25.4% / 22.2% kickoff touchbacks, FG EPA +16.0 / +5.6, PFF 84.3 / 85.0.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "KPW": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "leg: 2025 FG 28/35 (80%): 0-39 12/12, 40-49 7/9, 50-59 9/12, 60+ 0/2; long 58; 1 blocked; FG EPA +16.0; XP 26/27; 2025 kickoffs 67, touchback 17 (25.4%), return avg 22.8, 4 out of bounds; 2026 FG 12/13 (92%): 0-39 7/7, 40-49 4/4, 50-59 1/2, 60+ 0/0; long 56; 0 blocked; FG EPA +5.6; XP 12/12; 2026 kickoffs 36, touchback 8 (22.2%), return avg 19.0, 1 out of bounds",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 76,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Power kicker with a touchback leg: 25.4% / 22.2% kickoff touchbacks, FG EPA +16.0 / +5.6, PFF 84.3 / 85.0.",
+  "style_profile": "Joey Slye: Power kicker with a touchback leg: 25.4% / 22.2% kickoff touchbacks, FG EPA +16.0 / +5.6, PFF 84.3 / 85.0.",
+  "style_evidence": [
+    "Joey Slye (TEN) Joey Slye 2026: PFF K 2026 overall 85 (K rank 4); 2026 kickoffs 36, touchback 8 (22.2%), return avg 19.0, 1 out of bounds; 3 accepted penalties",
+    "Joey Slye 2025: PFF K 2025 overall 84.3 (K rank 15); 2025 kickoffs 67, touchback 17 (25.4%), return avg 22.8, 4 out of bounds; 4 accepted penalties",
+    "Joey Slye role: placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K (KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflve...); roster position K; Madden card K (reference only)",
+    "Joey Slye injury reports: wk6 Out (Calf); roster status ACT"
+  ],
+  "input_dossier": "K_REAUDIT_BG_08_A1",
+  "weaknesses": [
+    "accuracy (40 of 48 FG, 0/2 from 60+)",
+    "50-59 (10/14)"
+  ],
+  "limitations": [
+    "No public kickoff hang time; PFF K sub-grades paywalled; substitutes: FG% by distance band, longest FG, FG EPA, XP%, kickoff touchback %/return average (nflverse pbp), PFF K overall"
+  ],
+  "role_assignment": "K (placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K)",
+  "madden_reference": [
+    {
+      "player": "Joey Slye",
+      "ovr": 75,
+      "madden_position": "K",
+      "attributes": {
+        "KPW": 98,
+        "KAC": 83,
+        "AWR": 56,
+        "INJ": 87,
+        "STA": 85,
+        "TGH": 58
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 1,
+      "delta_attributes": {
+        "KPW": -3,
+        "KAC": 1,
+        "AWR": 16,
+        "INJ": 2,
+        "STA": 4,
+        "TGH": 7
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 1,
+    "attribute_gaps_10plus": {
+      "AWR": 16
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
