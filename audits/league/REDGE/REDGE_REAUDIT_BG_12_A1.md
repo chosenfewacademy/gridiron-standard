@@ -1,0 +1,220 @@
+# REDGE_REAUDIT_BG_12 — Khalil Mack background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "REDGE_REAUDIT_BG_12_A1",
+  "task_id": "REDGE_REAUDIT_BG_12",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "player_id": "ext_00-0031040",
+  "players": [
+    "Khalil Mack"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Khalil Mack",
+    "player_id": "ext_00-0031040",
+    "team": "LAC",
+    "side_assignment": {
+      "R25": 220,
+      "R26": 275,
+      "L": 0,
+      "R": 495,
+      "teams": [
+        "LAC"
+      ],
+      "assign": "REDGE"
+    },
+    "side_rule": "EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LEDGE = defense's left edge (aligned over the offense's right tackle); REDGE = defense's right edge (over the offense's left tackle), matching the repo note 'Right-side edge (offense's left)'. Side evidence = nflverse weekly depth charts 2025 + 2026 (ESPN-sourced): each team-day snapshot counts once; LDE (4-3 or 3-4) or 3-4 WLB (ESPN 3-4 layout slot 4, left of LILB) = left; RDE or 3-4 SLB (slot 7, right of RILB) = right; 4-3 WLB/SLB are off-ball LBs and not counted. The side with more snapshots across both seasons wins; a player appears in only one list. PFF alignment splits (left/right snap counts) are paywalled and NGS publishes no side split, so depth charts are the side source; Madden 27's LEDG/REDG card label is reference only and does not decide side.",
+    "pff": {
+      "2025": {
+        "team": "los-angeles-chargers",
+        "ovr": 79.3,
+        "snaps": 478,
+        "prsh": 296,
+        "rdef": 167,
+        "cov": 15,
+        "status": "A"
+      },
+      "2026": {
+        "team": "los-angeles-chargers",
+        "ovr": 74.2,
+        "snaps": 311,
+        "prsh": 167,
+        "rdef": 139,
+        "cov": 5,
+        "status": "A"
+      }
+    },
+    "pressures": {
+      "2025": {
+        "tm": "LAC",
+        "pos": "OLB",
+        "g": "12",
+        "prss": "23",
+        "hrry": "11",
+        "qbkd": "6",
+        "sk": "5.5",
+        "comb": "32",
+        "m_tkl": "4"
+      },
+      "2026": {
+        "def_pressures": 11.0,
+        "def_times_hurried": 5.0,
+        "def_times_hitqb": 3.0,
+        "def_sacks": 3.0,
+        "def_tackles_combined": 18.0,
+        "def_missed_tackles": 1.0,
+        "g": 5
+      }
+    },
+    "espn_win_rates": {
+      "prwr": null,
+      "rswr": null
+    },
+    "snaps": {
+      "2025": {
+        "games": 12,
+        "defs": 424
+      },
+      "2026": {
+        "games": 7,
+        "defs": 311
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 19.0,
+        "def_tackle_assists": 13.0,
+        "def_tackles_for_loss": 6.0,
+        "def_fumbles_forced": 4.0,
+        "def_sacks": 5.5,
+        "def_qb_hits": 11.0,
+        "def_pass_defended": 0.0
+      },
+      "2026": {
+        "def_tackles_solo": 11.0,
+        "def_tackle_assists": 10.0,
+        "def_tackles_for_loss": 5.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 3.0,
+        "def_qb_hits": 6.0,
+        "def_pass_defended": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 0,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk7 Questionable (Elbow)"
+      ]
+    },
+    "summary_lines": [
+      "Khalil Mack (LAC) Khalil Mack 2026: PFF edge 2026 overall 74.2 on 311 snaps (167 pass-rush, 139 run-defense, 5 coverage); PFR 2026 11 pressures (5 hurries, 3 QB hits, 3.0 sacks) in 5 games, 18 tackles, 1 missed; 7 g / 311 def snaps; 3.0 sacks, 6 QB hits, 5 TFL, 0 FF, 0 PD; 0 accepted penalties; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Khalil Mack 2025: PFF edge 2025 overall 79.3 on 478 snaps (296 pass-rush, 167 run-defense, 15 coverage); PFR 2025 23 pressures (11 hurries, 6 QB knockdowns, 5.5 sacks), 32 tackles, 4 missed; 12 g / 424 def snaps; 5.5 sacks, 11 QB hits, 6 TFL, 4 FF, 0 PD; 0 accepted penalties",
+      "Khalil Mack alignment: side snapshots 2025-26 left 0 / right 495 -> REDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position LB; Madden card REDG (reference only)",
+      "Khalil Mack injury reports: wk7 Questionable (Elbow); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PMV",
+      "FMV",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2026",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2025",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:42Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
