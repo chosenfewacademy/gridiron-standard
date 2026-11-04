@@ -1,0 +1,468 @@
+{
+  "audit_id": "WILL_REAUDIT_CANDIDATE_AUDIT_A1",
+  "task_id": "WILL_REAUDIT_CANDIDATE_AUDIT",
+  "task_type": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "membership_confirmed": true,
+  "missing_top_players": [],
+  "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+  "alignment": {
+    "Zack Baun": {
+      "mike_share": 0,
+      "will_share": 1506,
+      "sam_share": 0,
+      "bucket": "WILL"
+    },
+    "Roquan Smith": {
+      "mike_share": 0,
+      "will_share": 1438,
+      "sam_share": 0,
+      "bucket": "WILL"
+    },
+    "Drue Tranquill": {
+      "mike_share": 0,
+      "will_share": 1300,
+      "sam_share": 0,
+      "bucket": "WILL"
+    },
+    "Jordyn Brooks": {
+      "mike_share": 4,
+      "will_share": 1384,
+      "sam_share": 0,
+      "bucket": "WILL"
+    },
+    "Blake Cashman": {
+      "mike_share": 406,
+      "will_share": 794,
+      "sam_share": 0,
+      "bucket": "WILL"
+    },
+    "Arvell Reese": {
+      "mike_share": 0,
+      "will_share": 438,
+      "sam_share": 0,
+      "bucket": "WILL"
+    },
+    "Foyesade Oluokun": {
+      "mike_share": 0,
+      "will_share": 1422,
+      "sam_share": 0,
+      "bucket": "WILL"
+    },
+    "Alex Singleton": {
+      "mike_share": 0,
+      "will_share": 1610,
+      "sam_share": 0,
+      "bucket": "WILL"
+    },
+    "Demario Davis": {
+      "mike_share": 163,
+      "will_share": 1448,
+      "sam_share": 0,
+      "bucket": "WILL"
+    },
+    "Edgerrin Cooper": {
+      "mike_share": 123,
+      "will_share": 1150,
+      "sam_share": 0,
+      "bucket": "WILL"
+    },
+    "Divine Deablo": {
+      "mike_share": 441,
+      "will_share": 657,
+      "sam_share": 0,
+      "bucket": "WILL"
+    },
+    "Drake Thomas": {
+      "mike_share": 0,
+      "will_share": 1003,
+      "sam_share": 97,
+      "bucket": "WILL"
+    },
+    "Kaden Elliss": {
+      "mike_share": 524,
+      "will_share": 848,
+      "sam_share": 0,
+      "bucket": "WILL"
+    }
+  },
+  "coverage_check": "League-wide screen of every off-ball linebacker: all PFF LB grades 2025 (187) and 2026 (149) (pff.com/grades/nfl/lb), PFR coverage/tackling/pressure lines (2025 season, 2026 weekly), nflverse depth charts 2025/2026 for MIKE/WILL/SAM role, snaps, stats, penalties, injuries; reserve/IR (Cooper, Chenal, Speed, White, Franklin), inactive (Deablo, J. Campbell), free agents (Wagner, L. David, L. Wilson) and rookies included. LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only. PAYWALLED GAPS: PFF run-defense/coverage/tackling sub-grades and alignment splits; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage targets/yards/passer rating allowed, tackles/missed tackles, pressures/blitzes, TFL/INT/PD",
+  "contention_set": [
+    "Zack Baun",
+    "Roquan Smith",
+    "Drue Tranquill",
+    "Jordyn Brooks",
+    "Blake Cashman",
+    "Arvell Reese",
+    "Foyesade Oluokun",
+    "Alex Singleton",
+    "Demario Davis",
+    "Edgerrin Cooper",
+    "Divine Deablo",
+    "Drake Thomas",
+    "Kaden Elliss"
+  ],
+  "contention_basis": "Judgment, not formula: 10 proposed top-10 WILLs plus three first-outs. Evidence: PFF LB overall (sub-grades paywalled), PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, availability, primary role share.",
+  "contender_reasons": {
+    "Zack Baun": "Zack Baun 2025: PFF LB 2025 overall 80.6 on 1098 snaps (LB rank 6; 425 run-def / 589 coverage / 84 pass-rush snaps); PFR 2025 coverage 59 targets / 38 completions / 248 yds / passer rating 64.8 / 2 INT; 123 tackles, 14 missed; 7 pressures on 49 blitzes, 3.5 sacks; 16 g / 1038 def snaps; 63 solo + 59 ast tackles, 7 TFL, 3.5 sacks, 2 INT, 7 PD, 1 FF; 1 accepted penalties | Zack Baun 2026: PFF LB 2026 overall 79.7 on 468 snaps (LB rank 6; 207 run-def / 215 coverage / 46 pass-rush snaps); PFR 2026 (6 games) coverage 26 targets / 15 completions / 131 yds / 0 INT; 51 tackles, 7 missed; 6 pressures on 23 blitzes; 7 g / 468 def snaps; 25 solo + 30 ast tackles, 5 TFL, 0.0 sacks, 0 INT, 5 PD, 0 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1506 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL | injuries: wk4 Out (Concussion); roster ACT (PHI) - The clear #1 WILL: PFF 80.6 / 79.7 on 1,566 snaps, 12 TFL and 12 PD across 2025-26, 3.5 sacks; complete off-ball weapon in coverage, blitz and run fits.",
+    "Roquan Smith": "Roquan Smith 2025: PFF LB 2025 overall 74.2 on 953 snaps (LB rank 22; 319 run-def / 548 coverage / 86 pass-rush snaps); PFR 2025 coverage 67 targets / 47 completions / 400 yds / passer rating 95.4 / 0 INT; 130 tackles, 11 missed; 7 pressures on 56 blitzes, 0 sacks; 15 g / 953 def snaps; 74 solo + 54 ast tackles, 5 TFL, 0.0 sacks, 0 INT, 3 PD, 0 FF; 2 accepted penalties | Roquan Smith 2026: PFF LB 2026 overall 72.5 on 484 snaps (LB rank 13; 180 run-def / 267 coverage / 37 pass-rush snaps); PFR 2026 (7 games) coverage 26 targets / 14 completions / 166 yds / 1 INT; 55 tackles, 2 missed; 4 pressures on 22 blitzes; 8 g / 485 def snaps; 30 solo + 36 ast tackles, 1 TFL, 2.0 sacks, 1 INT, 3 PD, 2 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1438 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL | injuries: wk5 Out (Hamstring); wk6 Out (Hamstring); roster ACT (BAL) - Sideline-to-sideline WILL: PFF 74.2 / 72.5 on 1,437 snaps, 130 tackles (2025), 2 sacks and an INT in 2026; elite pursuit, coverage now good not great.",
+    "Drue Tranquill": "Drue Tranquill 2025: PFF LB 2025 overall 76.6 on 884 snaps (LB rank 13; 386 run-def / 387 coverage / 111 pass-rush snaps); PFR 2025 coverage 36 targets / 33 completions / 369 yds / passer rating 127.9 / 0 INT; 103 tackles, 2 missed; 5 pressures on 85 blitzes, 2 sacks; 17 g / 883 def snaps; 52 solo + 48 ast tackles, 10 TFL, 2.0 sacks, 0 INT, 1 PD, 1 FF; 0 accepted penalties | Drue Tranquill 2026: PFF LB 2026 overall 71.2 on 418 snaps (LB rank 17; 178 run-def / 184 coverage / 56 pass-rush snaps); PFR 2026 (6 games) coverage 16 targets / 7 completions / 81 yds / 0 INT; 48 tackles, 1 missed; 4 pressures on 36 blitzes; 7 g / 417 def snaps; 25 solo + 27 ast tackles, 5 TFL, 0.0 sacks, 0 INT, 2 PD, 0 FF; 1 accepted penalties | snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1300 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL | injuries: no injury designation 2025-26; roster ACT (KC) - Sure tackler and processor: 2 missed tackles on 103 tackles (2025), 10 + 5 TFL, PFF 76.6 / 71.2; coverage is the hole (127.9 rating allowed).",
+    "Jordyn Brooks": "Jordyn Brooks 2025: PFF LB 2025 overall 77.9 on 985 snaps (LB rank 11; 415 run-def / 487 coverage / 83 pass-rush snaps); PFR 2025 coverage 86 targets / 66 completions / 665 yds / passer rating 109.9 / 0 INT; 183 tackles, 10 missed; 7 pressures on 33 blitzes, 3.5 sacks; 17 g / 984 def snaps; 96 solo + 84 ast tackles, 13 TFL, 3.5 sacks, 0 INT, 3 PD, 1 FF; 3 accepted penalties | Jordyn Brooks 2026: PFF LB 2026 overall 67.3 on 405 snaps (LB rank 26; 184 run-def / 192 coverage / 29 pass-rush snaps); PFR 2026 (6 games) coverage 24 targets / 18 completions / 161 yds / 0 INT; 52 tackles, 0 missed; 1 pressures on 15 blitzes; 7 g / 405 def snaps; 28 solo + 35 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart role shares MIKE 4 / WILL 1384 / SAM 0 / edge 0 (raw snapshots WILL25 220, MIKE25 1, WILL26 275) -> WILL | injuries: wk16 Questionable (Foot); wk18 Questionable (Hamstring); roster ACT (MIA) - Run-and-chase WILL: 183 tackles and 13 TFL (2025, PFF 77.9), 0 missed tackles in 2026 (67.3); limited in man coverage.",
+    "Blake Cashman": "Blake Cashman 2025: PFF LB 2025 overall 63.5 on 789 snaps (LB rank 40; 375 run-def / 295 coverage / 119 pass-rush snaps); PFR 2025 coverage 35 targets / 26 completions / 304 yds / passer rating 109.7 / 0 INT; 144 tackles, 8 missed; 7 pressures on 58 blitzes, 2 sacks; 13 g / 790 def snaps; 60 solo + 83 ast tackles, 4 TFL, 2.0 sacks, 0 INT, 2 PD, 1 FF; 0 accepted penalties | Blake Cashman 2026: PFF LB 2026 overall 85.4 on 410 snaps (LB rank 2; 171 run-def / 154 coverage / 85 pass-rush snaps); PFR 2026 (6 games) coverage 19 targets / 13 completions / 120 yds / 0 INT; 54 tackles, 1 missed; 13 pressures on 42 blitzes; 7 g / 410 def snaps; 33 solo + 29 ast tackles, 7 TFL, 4.5 sacks, 0 INT, 5 PD, 0 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart role shares MIKE 406 / WILL 794 / SAM 0 / edge 0 (raw snapshots WILL25 220, MIKE25 1, MIKE26 270, WILL26 5) -> WILL | injuries: wk7 Questionable (Hamstring); roster ACT (MIN) - Blitz-and-cover WILL: PFF 85.4 on 410 snaps (2026) with 4.5 sacks and 7 TFL after 63.5 in 2025; one 2025 hamstring designation.",
+    "Arvell Reese": "Arvell Reese 2025: no PFF LB grade 2025; no PFR 2025 line; no snaps; no stats; 0 accepted penalties | Arvell Reese 2026: PFF LB 2026 overall 77 on 438 snaps (LB rank 8; 176 run-def / 186 coverage / 76 pass-rush snaps); PFR 2026 (7 games) coverage 26 targets / 22 completions / 106 yds / 1 INT; 56 tackles, 3 missed; 5 pressures on 40 blitzes; 7 g / 438 def snaps; 38 solo + 17 ast tackles, 5 TFL, 1.5 sacks, 1 INT, 4 PD, 0 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 438 / SAM 0 / edge 0 (raw snapshots WILL26 240) -> WILL | injuries: no injury designation 2025-26; roster ACT (NYG) - Rookie power WILL: PFF 77.0 on 438 snaps (2026), 5 TFL, 1.5 sacks, 4 PD; big and explosive, coverage still developing.",
+    "Foyesade Oluokun": "Foyesade Oluokun 2025: PFF LB 2025 overall 74.4 on 1100 snaps (LB rank 21; 354 run-def / 625 coverage / 121 pass-rush snaps); PFR 2025 coverage 78 targets / 64 completions / 566 yds / passer rating 91.6 / 1 INT; 143 tackles, 18 missed; 5 pressures on 72 blitzes, 1 sacks; 17 g / 1036 def snaps; 68 solo + 74 ast tackles, 5 TFL, 1.0 sacks, 1 INT, 11 PD, 2 FF; 1 accepted penalties | Foyesade Oluokun 2026: PFF LB 2026 overall 70.6 on 386 snaps (LB rank 18; 124 run-def / 217 coverage / 45 pass-rush snaps); PFR 2026 (6 games) coverage 29 targets / 22 completions / 195 yds / 2 INT; 42 tackles, 5 missed; 4 pressures on 22 blitzes; 7 g / 386 def snaps; 29 solo + 20 ast tackles, 3 TFL, 1.0 sacks, 2 INT, 2 PD, 1 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1422 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL | injuries: no injury designation 2025-26; roster ACT (JAX) - Volume tackler with ball production: 143 tackles, 11 PD (2025), 2 INT in 2026, PFF 74.4 / 70.6; 18 missed tackles in 2025.",
+    "Alex Singleton": "Alex Singleton 2025: PFF LB 2025 overall 72.2 on 1171 snaps (LB rank 25; 422 run-def / 654 coverage / 95 pass-rush snaps); PFR 2025 coverage 70 targets / 54 completions / 629 yds / passer rating 122.9 / 0 INT; 135 tackles, 12 missed; 11 pressures on 55 blitzes, 1 sacks; 16 g / 1029 def snaps; 52 solo + 81 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 4 PD, 1 FF; 0 accepted penalties | Alex Singleton 2026: PFF LB 2026 overall 73.4 on 581 snaps (LB rank 10; 214 run-def / 324 coverage / 43 pass-rush snaps); PFR 2026 (7 games) coverage 35 targets / 24 completions / 215 yds / 0 INT; 86 tackles, 6 missed; 5 pressures on 22 blitzes; 8 g / 581 def snaps; 48 solo + 50 ast tackles, 5 TFL, 2.0 sacks, 0 INT, 2 PD, 0 FF; 2 accepted penalties | snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1610 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL | injuries: wk11 Out (Illness); roster ACT (DEN) - Iron-man tackler: 1,752 snaps (most of any off-ball LB), 135 + 86 tackles, PFF 72.2 / 73.4; played through 2025 surgery - durability is his calling card, coverage is not (122.9 rating).",
+    "Demario Davis": "Demario Davis 2025: PFF LB 2025 overall 81.7 on 1079 snaps (LB rank 5; 492 run-def / 517 coverage / 70 pass-rush snaps); PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF; 2 accepted penalties | Demario Davis 2026: PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps); PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes; 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF; 1 accepted penalties | snap-weighted 2025-26 depth-chart role shares MIKE 163 / WILL 1448 / SAM 0 / edge 0 (raw snapshots MIKE25 5, WILL25 216, WILL26 203, MIKE26 72) -> WILL | injuries: wk18 Questionable (Calf); roster ACT (NYJ) - Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+    "Edgerrin Cooper": "Edgerrin Cooper 2025: PFF LB 2025 overall 75.8 on 1089 snaps (LB rank 17; 445 run-def / 574 coverage / 70 pass-rush snaps); PFR 2025 coverage 69 targets / 54 completions / 332 yds / passer rating 96.4 / 0 INT; 118 tackles, 13 missed; 5 pressures on 40 blitzes, 0.5 sacks; 16 g / 1046 def snaps; 61 solo + 55 ast tackles, 4 TFL, 0.5 sacks, 0 INT, 4 PD, 2 FF; 0 accepted penalties | Edgerrin Cooper 2026: PFF LB 2026 overall 60.1 on 227 snaps (LB rank 47; 99 run-def / 101 coverage / 27 pass-rush snaps); PFR 2026 (4 games) coverage 15 targets / 10 completions / 136 yds / 1 INT; 30 tackles, 2 missed; 3 pressures on 15 blitzes; 4 g / 227 def snaps; 15 solo + 12 ast tackles, 6 TFL, 3.0 sacks, 1 INT, 1 PD, 0 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart role shares MIKE 123 / WILL 1150 / SAM 0 / edge 0 (raw snapshots WILL25 195, MIKE25 26, WILL26 275) -> WILL | injuries: wk4 Questionable (Shoulder); roster RES (GB) - Fast blitzing WILL: PFF 75.8 on 1,089 snaps (2025), 3 sacks / 6 TFL in 2026 (60.1) before reserve/IR.",
+    "Divine Deablo": "Divine Deablo 2025: PFF LB 2025 overall 77.8 on 750 snaps (LB rank 12; 270 run-def / 430 coverage / 50 pass-rush snaps); PFR 2025 coverage 33 targets / 24 completions / 212 yds / passer rating 89.5 / 0 INT; 73 tackles, 5 missed; 4 pressures on 22 blitzes, 1 sacks; 13 g / 750 def snaps; 36 solo + 35 ast tackles, 5 TFL, 1.0 sacks, 0 INT, 7 PD, 0 FF; 1 accepted penalties | Divine Deablo 2026: PFF LB 2026 overall 60.9 on 349 snaps (LB rank 45; 104 run-def / 226 coverage / 19 pass-rush snaps); PFR 2026 (6 games) coverage 18 targets / 16 completions / 186 yds / 0 INT; 30 tackles, 1 missed; 2 pressures on 13 blitzes; 6 g / 348 def snaps; 14 solo + 15 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart role shares MIKE 441 / WILL 657 / SAM 0 / edge 0 (raw snapshots WILL25 129, MIKE25 92, MIKE26 102, WILL26 173) -> WILL | injuries: wk8 Out (Forearm); wk5 Questionable (Hamstring); wk7 Out (Forearm); wk8 Questionable (Forearm); roster INA (ATL) - Long rangy hitter: PFF 77.8 (2025) with 7 PD, 60.9 in 2026; inactive status.",
+    "Drake Thomas": "Drake Thomas 2025: PFF LB 2025 overall 72.9 on 871 snaps (LB rank 23; 315 run-def / 476 coverage / 80 pass-rush snaps); PFR 2025 coverage 59 targets / 41 completions / 409 yds / passer rating 81.8 / 1 INT; 96 tackles, 13 missed; 7 pressures on 41 blitzes, 3.5 sacks; 17 g / 764 def snaps; 45 solo + 49 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 8 PD, 0 FF; 1 accepted penalties | Drake Thomas 2026: PFF LB 2026 overall 59.9 on 336 snaps (LB rank 48; 143 run-def / 173 coverage / 20 pass-rush snaps); PFR 2026 (5 games) coverage 17 targets / 10 completions / 83 yds / 1 INT; 35 tackles, 4 missed; 4 pressures on 7 blitzes; 6 g / 336 def snaps; 20 solo + 15 ast tackles, 4 TFL, 1.0 sacks, 1 INT, 1 PD, 1 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1003 / SAM 97 / edge 0 (raw snapshots WILL25 193, SAM25 28, WILL26 275) -> WILL | injuries: wk6 Out (Ankle); wk7 Out (Ankle); roster ACT (SEA) - Active run-and-hit WILL: 10 TFL / 3.5 sacks / 8 PD (2025, PFF 72.9), 59.9 in 2026; 13 missed tackles.",
+    "Kaden Elliss": "Kaden Elliss 2025: PFF LB 2025 overall 67.8 on 1102 snaps (LB rank 31; 432 run-def / 496 coverage / 174 pass-rush snaps); PFR 2025 coverage 67 targets / 44 completions / 361 yds / passer rating 92.9 / 1 INT; 107 tackles, 7 missed; 18 pressures on 98 blitzes, 3.5 sacks; 17 g / 1103 def snaps; 57 solo + 48 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 6 PD, 1 FF; 0 accepted penalties | Kaden Elliss 2026: PFF LB 2026 overall 72.2 on 269 snaps (LB rank 14; 109 run-def / 125 coverage / 35 pass-rush snaps); PFR 2026 (4 games) coverage 18 targets / 13 completions / 158 yds / 0 INT; 30 tackles, 1 missed; 6 pressures on 17 blitzes; 4 g / 269 def snaps; 14 solo + 15 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart role shares MIKE 524 / WILL 848 / SAM 0 / edge 0 (raw snapshots WILL25 116, MIKE25 105, WILL26 275) -> WILL | injuries: wk4 Out (Calf); wk5 Out (Calf); wk6 Out (Calf); roster ACT (NO) - Blitz specialist WILL: 18 PFR pressures (2025, most of these WILLs), 10 TFL, PFF 67.8 / 72.2; coverage limited."
+  },
+  "proposed_order": [
+    "Zack Baun",
+    "Roquan Smith",
+    "Drue Tranquill",
+    "Jordyn Brooks",
+    "Blake Cashman",
+    "Arvell Reese",
+    "Foyesade Oluokun",
+    "Alex Singleton",
+    "Demario Davis",
+    "Edgerrin Cooper"
+  ],
+  "first_outs": [
+    "Divine Deablo",
+    "Drake Thomas",
+    "Kaden Elliss"
+  ],
+  "excluded": [
+    {
+      "player": "Fred Warner",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 782 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list."
+    },
+    {
+      "player": "Jack Campbell",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 1583 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list."
+    },
+    {
+      "player": "Devin Lloyd",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 690 / WILL 393 / SAM 0 -> MIKE); appears only in the MIKE list."
+    },
+    {
+      "player": "Ernest Jones",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 1407 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list."
+    },
+    {
+      "player": "Quincy Williams",
+      "reason": "Assigned to SAM by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 0 / SAM 1285 -> SAM); appears only in the SAM list."
+    },
+    {
+      "player": "Ventrell Miller",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 509 / WILL 0 / SAM 26 -> MIKE); appears only in the MIKE list."
+    },
+    {
+      "player": "Omar Speights",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 905 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list."
+    },
+    {
+      "player": "Payton Wilson",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 868 / WILL 303 / SAM 0 -> MIKE); appears only in the MIKE list."
+    },
+    {
+      "player": "Nick Bolton",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 1482 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list."
+    },
+    {
+      "player": "Dre Greenlaw",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 321 / WILL 290 / SAM 0 -> MIKE); appears only in the MIKE list."
+    },
+    {
+      "player": "Anthony Hill Jr.",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 561 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list."
+    },
+    {
+      "player": "Trenton Simpson",
+      "reason": "Assigned to MIKE by primary 2025-26 role (snap-weighted 2025-26 depth-chart role shares MIKE 728 / WILL 0 / SAM 0 -> MIKE); appears only in the MIKE list."
+    },
+    {
+      "player": "Jamien Sherwood",
+      "reason": "Below pool cutoff (composite 0.55; PFF 2026 grade 66.6; sources nflverse_snaps_2026#8, nflverse_stats_2026#8). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 1615 / WILL 6 / SAM 0 -> MIKE; belongs to the MIKE list."
+    },
+    {
+      "player": "Devin Bush",
+      "reason": "Below pool cutoff (composite 0.51; PFF 2026 grade 61.4; sources pff_2025#4). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 432 / SAM 851 -> SAM; belongs to the SAM list."
+    },
+    {
+      "player": "Isaiah McDuffie",
+      "reason": "Below pool cutoff (composite 0.50; PFF 2026 grade 72.9; sources pff_2026#11). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 252 / WILL 31 / SAM 482 -> SAM; belongs to the SAM list."
+    },
+    {
+      "player": "Carson Schwesinger",
+      "reason": "Below pool cutoff (composite 0.46; PFF 2026 grade 66.0; sources pff_2025#19, nflverse_snaps_2026#6, nflverse_stats_2026#14). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 1472 / WILL 4 / SAM 0 -> MIKE; belongs to the MIKE list."
+    },
+    {
+      "player": "Cedric Gray",
+      "reason": "Below pool cutoff (composite 0.42; PFF 2026 grade n/a; sources pff_2025#7). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 755 / WILL 395 / SAM 0 -> MIKE; belongs to the MIKE list."
+    },
+    {
+      "player": "Jeremiah Trotter Jr.",
+      "reason": "Below pool cutoff (composite 0.40; PFF 2026 grade 72.7; sources pff_2026#13). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 284 / WILL 0 / SAM 0 -> MIKE; belongs to the MIKE list."
+    },
+    {
+      "player": "Tyrice Knight",
+      "reason": "Below pool cutoff (composite 0.36; PFF 2026 grade n/a; sources pff_2025#9). Re-include on request."
+    },
+    {
+      "player": "Josiah Trotter",
+      "reason": "Below pool cutoff (composite 0.36; PFF 2026 grade 66.6; sources nflverse_stats_2026#9). Re-include on request."
+    },
+    {
+      "player": "Christian Elliss",
+      "reason": "Below pool cutoff (composite 0.31; PFF 2026 grade 71.8; sources pff_2026#15, nflverse_snaps_2026#20). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 512 / WILL 474 / SAM 0 -> MIKE; belongs to the MIKE list."
+    },
+    {
+      "player": "Bobby Okereke",
+      "reason": "Below pool cutoff (composite 0.30; PFF 2026 grade 64.1; sources nflverse_snaps_2026#16, nflverse_stats_2026#13). Re-include on request."
+    },
+    {
+      "player": "Quay Walker",
+      "reason": "Below pool cutoff (composite 0.29; PFF 2026 grade n/a; sources nflverse_snaps_2026#3, nflverse_stats_2026#19). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 1328 / WILL 106 / SAM 0 -> MIKE; belongs to the MIKE list."
+    },
+    {
+      "player": "Jacob Rodriguez",
+      "reason": "Below pool cutoff (composite 0.27; PFF 2026 grade n/a; sources nflverse_stats_2026#12). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 236 / WILL 194 / SAM 0 -> MIKE; belongs to the MIKE list."
+    },
+    {
+      "player": "D'Marco Jackson",
+      "reason": "Below pool cutoff (composite 0.21; PFF 2026 grade n/a; sources pff_2025#14). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 31 / WILL 28 / SAM 419 -> SAM; belongs to the SAM list."
+    },
+    {
+      "player": "Jihaad Campbell",
+      "reason": "Below pool cutoff (composite 0.18; PFF 2026 grade n/a; sources pff_2025#15). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 805 / WILL 93 / SAM 0 -> MIKE; belongs to the MIKE list."
+    },
+    {
+      "player": "Kendal Daniels",
+      "reason": "Below pool cutoff (composite 0.18; PFF 2026 grade 66.6; sources nflverse_stats_2026#15). Re-include on request."
+    },
+    {
+      "player": "Sonny Styles",
+      "reason": "Below pool cutoff (composite 0.15; PFF 2026 grade 69.8; sources pff_2026#18). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 429 / WILL 0 / SAM 0 -> MIKE; belongs to the MIKE list."
+    },
+    {
+      "player": "Patrick Queen",
+      "reason": "Below pool cutoff (composite 0.12; PFF 2026 grade 62.2; sources nflverse_snaps_2026#11). Re-include on request."
+    },
+    {
+      "player": "Jake Hansen",
+      "reason": "Below pool cutoff (composite 0.10; PFF 2026 grade 69.2; sources pff_2026#19). Re-include on request."
+    },
+    {
+      "player": "Azeez Al-Shaair",
+      "reason": "Below pool cutoff (composite 0.09; PFF 2026 grade n/a; sources pff_2025#18). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 1286 / WILL 0 / SAM 0 -> MIKE; belongs to the MIKE list."
+    },
+    {
+      "player": "Akeem Davis-Gaither",
+      "reason": "Below pool cutoff (composite 0.09; PFF 2026 grade 62.7; sources nflverse_stats_2026#18). Re-include on request."
+    },
+    {
+      "player": "Alex Anzalone",
+      "reason": "Below pool cutoff (composite 0.07; PFF 2026 grade n/a; sources nflverse_snaps_2026#15). Re-include on request."
+    },
+    {
+      "player": "Mack Wilson",
+      "reason": "Below pool cutoff (composite 0.05; PFF 2026 grade n/a; sources nflverse_snaps_2026#17). Re-include on request."
+    },
+    {
+      "player": "Justin Strnad",
+      "reason": "Below pool cutoff (composite 0.04; PFF 2026 grade 62.4; sources nflverse_snaps_2026#18). Re-include on request. Role: snap-weighted 2025-26 depth-chart role shares MIKE 920 / WILL 125 / SAM 0 -> MIKE; belongs to the MIKE list."
+    },
+    {
+      "player": "Robert Spillane",
+      "reason": "Below pool cutoff (composite 0.03; PFF 2026 grade 60.9; sources nflverse_snaps_2026#19). Re-include on request."
+    },
+    {
+      "player": "Nakobe Dean",
+      "reason": "PFF 62.4 / 71.6 on 993 snaps - below the contention set"
+    },
+    {
+      "player": "Nate Landman",
+      "reason": "PFF 68.6 / 59.6 on 1,622 snaps"
+    }
+  ],
+  "old_lock_comparison": {
+    "note": "No WILL lock exists (never locked; state PENDING). Compared against the approved shared MIKE/WILL/SAM candidate pool order.",
+    "legacy_names": [
+      "Blake Cashman",
+      "Alex Singleton",
+      "Zack Baun",
+      "Arvell Reese",
+      "Jordyn Brooks",
+      "Nakobe Dean",
+      "Drue Tranquill",
+      "Demario Davis",
+      "Roquan Smith",
+      "Foyesade Oluokun"
+    ],
+    "in_proposed_top10": [
+      "Blake Cashman",
+      "Alex Singleton",
+      "Zack Baun",
+      "Arvell Reese",
+      "Jordyn Brooks",
+      "Drue Tranquill",
+      "Demario Davis",
+      "Roquan Smith",
+      "Foyesade Oluokun"
+    ],
+    "now_first_out": [],
+    "out": [
+      "Nakobe Dean"
+    ]
+  },
+  "flags": {
+    "injured": [
+      "Edgerrin Cooper (RES)",
+      "Divine Deablo (INA)"
+    ],
+    "free_agents": [],
+    "limited_sample": [],
+    "hybrid_role": [
+      "Blake Cashman MIKE 406/WILL 794/SAM 0",
+      "Divine Deablo MIKE 441/WILL 657/SAM 0",
+      "Kaden Elliss MIKE 524/WILL 848/SAM 0"
+    ],
+    "madden_side_differs": [
+      "Roquan Smith (Madden card MIKE)",
+      "Blake Cashman (Madden card MIKE)",
+      "Foyesade Oluokun (Madden card MIKE)",
+      "Alex Singleton (Madden card MIKE)",
+      "Demario Davis (Madden card MIKE)",
+      "Divine Deablo (Madden card MIKE)"
+    ],
+    "data_gaps": [
+      "PFF run-defense/coverage/tackling sub-grades paywalled",
+      "PFF alignment splits paywalled",
+      "no ESPN LB win-rate table"
+    ]
+  },
+  "madden_reference": [
+    {
+      "player": "Zack Baun",
+      "ovr": 93,
+      "madden_position": "WILL",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Roquan Smith",
+      "ovr": 93,
+      "madden_position": "MIKE",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Drue Tranquill",
+      "ovr": 89,
+      "madden_position": "WILL",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Jordyn Brooks",
+      "ovr": 88,
+      "madden_position": "WILL",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Blake Cashman",
+      "ovr": 88,
+      "madden_position": "MIKE",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Arvell Reese",
+      "ovr": 82,
+      "madden_position": "WILL",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Foyesade Oluokun",
+      "ovr": 87,
+      "madden_position": "MIKE",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Alex Singleton",
+      "ovr": 87,
+      "madden_position": "MIKE",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Demario Davis",
+      "ovr": 90,
+      "madden_position": "MIKE",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Edgerrin Cooper",
+      "ovr": 80,
+      "madden_position": "WILL",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Divine Deablo",
+      "ovr": 81,
+      "madden_position": "MIKE",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Drake Thomas",
+      "ovr": 76,
+      "madden_position": "WILL",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Kaden Elliss",
+      "ovr": 83,
+      "madden_position": "WILL",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    }
+  ],
+  "madden_order_verified": false,
+  "early_inputs": [],
+  "external_controls": [],
+  "major_flags": [
+    "NO_PRIOR_LOCK",
+    "DATA_GAP: PFF sub-grades and side splits paywalled",
+    "LB_ROLE_FROM_DEPTH_CHARTS"
+  ],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

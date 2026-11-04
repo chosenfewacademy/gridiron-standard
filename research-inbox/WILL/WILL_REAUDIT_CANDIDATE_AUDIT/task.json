@@ -1,0 +1,236 @@
+{
+  "task_id": "WILL_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Blake Cashman"
+      },
+      {
+        "rank": 2,
+        "player": "Alex Singleton"
+      },
+      {
+        "rank": 3,
+        "player": "Zack Baun"
+      },
+      {
+        "rank": 4,
+        "player": "Arvell Reese"
+      },
+      {
+        "rank": 5,
+        "player": "Jordyn Brooks"
+      },
+      {
+        "rank": 6,
+        "player": "Nakobe Dean"
+      },
+      {
+        "rank": 7,
+        "player": "Drue Tranquill"
+      },
+      {
+        "rank": 8,
+        "player": "Demario Davis"
+      },
+      {
+        "rank": 9,
+        "player": "Roquan Smith"
+      },
+      {
+        "rank": 10,
+        "player": "Foyesade Oluokun"
+      }
+    ],
+    "external_controls": [
+      "Edgerrin Cooper",
+      "Divine Deablo",
+      "Drake Thomas",
+      "Kaden Elliss"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Blake Cashman",
+      "aliases": [],
+      "player_id": "ext_00-0035276",
+      "flags": [
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 406 / WILL 794 / SAM 0 -> WILL)"
+      ]
+    },
+    {
+      "player": "Alex Singleton",
+      "aliases": [],
+      "player_id": "ext_00-0031898",
+      "flags": [
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1610 / SAM 0 -> WILL)"
+      ]
+    },
+    {
+      "player": "Zack Baun",
+      "aliases": [],
+      "player_id": "ext_00-0036418",
+      "flags": [
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1506 / SAM 0 -> WILL)"
+      ]
+    },
+    {
+      "player": "Arvell Reese",
+      "aliases": [],
+      "player_id": "ext_00-0041509",
+      "flags": [
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 438 / SAM 0 -> WILL)"
+      ]
+    },
+    {
+      "player": "Jordyn Brooks",
+      "aliases": [],
+      "player_id": "ext_00-0036409",
+      "flags": [
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 4 / WILL 1384 / SAM 0 -> WILL)"
+      ]
+    },
+    {
+      "player": "Nakobe Dean",
+      "aliases": [],
+      "player_id": "ext_00-0037615",
+      "flags": [
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 394 / WILL 542 / SAM 0 -> WILL)"
+      ]
+    },
+    {
+      "player": "Drue Tranquill",
+      "aliases": [],
+      "player_id": "ext_00-0035262",
+      "flags": [
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1300 / SAM 0 -> WILL)"
+      ]
+    },
+    {
+      "player": "Demario Davis",
+      "aliases": [],
+      "player_id": "ext_00-0029607",
+      "flags": [
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)",
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 163 / WILL 1448 / SAM 0 -> WILL)"
+      ]
+    },
+    {
+      "player": "Roquan Smith",
+      "aliases": [],
+      "player_id": "ext_00-0034874",
+      "flags": [
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1438 / SAM 0 -> WILL)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Foyesade Oluokun",
+      "aliases": [],
+      "player_id": "ext_00-0034413",
+      "flags": [
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1422 / SAM 0 -> WILL)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Edgerrin Cooper",
+      "aliases": [],
+      "player_id": "ext_00-0039850",
+      "flags": [
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 123 / WILL 1150 / SAM 0 -> WILL)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Divine Deablo",
+      "aliases": [],
+      "player_id": "ext_00-0036990",
+      "flags": [
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 441 / WILL 657 / SAM 0 -> WILL)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Drake Thomas",
+      "aliases": [],
+      "player_id": "ext_00-0038922",
+      "flags": [
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1003 / SAM 97 -> WILL)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Kaden Elliss",
+      "aliases": [],
+      "player_id": "ext_00-0035316",
+      "flags": [
+        "LB_ROLE_ASSIGNED WILL (snap-weighted 2025-26 depth-chart role shares MIKE 524 / WILL 848 / SAM 0 -> WILL)",
+        "ADDED_BY_ROLE_SCREEN (t46u contender screen)"
+      ]
+    }
+  ],
+  "position": "WILL",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 14,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "run defense",
+      "coverage",
+      "pass rush",
+      "tackling",
+      "missed tackle %"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks",
+      "INT, PBU",
+      "missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by role (MIKE/WILL/SAM)",
+      "coverage snaps",
+      "blitz rate",
+      "box vs slot alignment"
+    ],
+    "on_field_impact": [
+      "run-stop %",
+      "yards per coverage snap allowed",
+      "passer rating allowed"
+    ],
+    "madden_attributes_informed": [
+      "TAK",
+      "HIT",
+      "PUR",
+      "PRC",
+      "BSH",
+      "MCV",
+      "ZCV",
+      "PMV",
+      "FMV",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Weak-side role."
+  }
+}
