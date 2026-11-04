@@ -210,6 +210,16 @@
       "locked_at": "2026-11-04T12:27:07Z",
       "lock_audit_id": "FS_REAUDIT_LOCK_20261104",
       "history": []
+    },
+    "SS": {
+      "status": "LOCKED",
+      "mutation_permission": "TOP10_REAUDIT_ONLY",
+      "first_lock": true,
+      "baseline_file": "data/baselines/SS.reaudit-20261104.json",
+      "version": "reaudit-20261104",
+      "locked_at": "2026-11-04T12:35:09Z",
+      "lock_audit_id": "SS_REAUDIT_LOCK_20261104",
+      "history": []
     }
   }
 }

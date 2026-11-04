@@ -12428,7 +12428,7 @@
         "position": "SS",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/SS.reaudit.json",
       "baseline_file": null,
@@ -12556,11 +12556,12 @@
         "SS_REAUDIT_TIEBREAK_20_A1",
         "SS_REAUDIT_TIEBREAK_21_A1",
         "SS_REAUDIT_TIEBREAK_22_A1",
-        "SS_REAUDIT_CROSS_AUDIT_A1"
+        "SS_REAUDIT_CROSS_AUDIT_A1",
+        "SS_REAUDIT_LOCK_20261104"
       ],
-      "current_stage": "positional_cross_audit",
+      "current_stage": "lock",
       "current_task": "SS_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T12:35:09.731Z",
+      "updated_at": "2026-11-04T12:35:09Z",
       "last_result": {
         "task_id": "SS_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
