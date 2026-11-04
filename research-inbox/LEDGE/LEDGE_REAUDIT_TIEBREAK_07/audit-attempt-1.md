@@ -1,0 +1,40 @@
+# LEDGE_REAUDIT_TIEBREAK_07 — Brian Burns vs Odafe Oweh (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "LEDGE_REAUDIT_TIEBREAK_07_A1",
+  "task_id": "LEDGE_REAUDIT_TIEBREAK_07",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Brian Burns",
+    "Odafe Oweh"
+  ],
+  "pair_result": {
+    "winner": "Brian Burns",
+    "loser": "Odafe Oweh",
+    "provisional_order_holds": true,
+    "reasoning": "League-ceiling flag. Oweh PFF 75.5 / 60.6, 7.5 sacks in 2025 on 538 snaps; Burns ahead on volume and finishing.",
+    "key_evidence_for_winner": [
+      "Brian Burns (NYG) alignment side snapshots 2025-26 left 496 / right 0 -> LEDGE; roster RES (LB); injuries wk8 Questionable (Hip); wk3 Questionable (Ankle)",
+      "Brian Burns 2026: Brian Burns 2026: PFF edge 2026 overall 72.1 on 116 snaps (64 pass-rush, 35 run-defense, 17 coverage); PFR 2026 5 pressures (3 hurries, 2 QB hits, 0.0 sacks) in 3 games, 4 tackles, 1 missed; 3 g / 116 def snaps; 0.0 sacks, 2 QB hits, 0 TFL, 0 FF, 0 PD; 0 accepted penalties; PFR 2026 5 pressures (3 hurries, 2 QB hits, 0.0 sacks) in 3 games, 4 tackles, 1 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Brian Burns 2025: Brian Burns 2025: PFF edge 2025 overall 75.8 on 863 snaps (471 pass-rush, 313 run-defense, 79 coverage); PFR 2025 41 pressures (10 hurries, 14 QB knockdowns, 16.5 sacks), 67 tackles, 4 missed; 17 g / 862 def snaps; 16.5 sacks, 31 QB hits, 22 TFL, 3 FF, 7 PD; 1 accepted penalties; PFR 2025 41 pressures (10 hurries, 14 QB knockdowns, 16.5 sacks), 67 tackles, 4 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Odafe Oweh (WAS) alignment side snapshots 2025-26 left 342 / right 153 -> LEDGE; roster ACT (LB); injuries wk5 Questionable (Eye)",
+      "Odafe Oweh 2026: Odafe Oweh 2026: PFF edge 2026 overall 60.6 on 300 snaps (183 pass-rush, 101 run-defense, 16 coverage); PFR 2026 9 pressures (4 hurries, 2 QB hits, 3.0 sacks) in 6 games, 14 tackles, 0 missed; 7 g / 300 def snaps; 4.0 sacks, 7 QB hits, 5 TFL, 1 FF, 0 PD; 1 accepted penalties; PFR 2026 9 pressures (4 hurries, 2 QB hits, 3.0 sacks) in 6 games, 14 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Odafe Oweh 2025: Odafe Oweh 2025: PFF edge 2025 overall 75.5 on 538 snaps (369 pass-rush, 141 run-defense, 28 coverage); PFR 2025 24 pressures (6 hurries, 10 QB knockdowns, 7.5 sacks), 38 tackles, 1 missed; 17 g / 510 def snaps; 7.5 sacks, 18 QB hits, 9 TFL, 0 FF, 0 PD; 1 accepted penalties; PFR 2025 24 pressures (6 hurries, 10 QB knockdowns, 7.5 sacks), 38 tackles, 1 missed"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
