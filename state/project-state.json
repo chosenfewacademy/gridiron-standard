@@ -3400,15 +3400,17 @@
         "TE_REAUDIT_TIEBREAK_50_A1",
         "TE_REAUDIT_TIEBREAK_51_A1",
         "TE_REAUDIT_BG_16_A1",
-        "TE_REAUDIT_RATE_16_A1"
+        "TE_REAUDIT_RATE_16_A1",
+        "TE_REAUDIT_RATE_16_A2"
       ],
       "current_stage": "player_rating",
       "current_task": "TE_REAUDIT_RATE_16",
-      "updated_at": "2026-11-04T00:20:11.845Z",
+      "updated_at": "2026-11-04T00:20:43.527Z",
       "last_result": {
         "task_id": "TE_REAUDIT_RATE_16",
-        "status": "FLAGGED",
-        "errors": [],
+        "status": "REVISION_APPROVED",
+        "audit_id": "TE_REAUDIT_RATE_16_A2",
+        "supersedes": "TE_REAUDIT_RATE_16_A1",
         "flags": [
           "STYLE_PROFILE_TOO_SIMILAR:Tucker Kraft(corr 0.729, mad 2.8)"
         ]
@@ -4249,6 +4251,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T00:20:11Z",
           "note": "Commissioner approval t45s389 (league ceiling winner: fully rate and test); style flag vs Kraft resolved by revision A2"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_16",
+          "audit_id": "TE_REAUDIT_RATE_16_A2",
+          "supersedes": "TE_REAUDIT_RATE_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T00:20:43Z",
+          "note": "Revision under t45s389: Brenton Strange re-judged for a distinct style (A1 too similar to Kraft)"
         }
       ]
     },
