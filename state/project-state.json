@@ -5600,7 +5600,7 @@
         "position": "C",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/C.reaudit.json",
       "baseline_file": null,
@@ -5613,23 +5613,23 @@
         "C_REAUDIT_CANDIDATE_AUDIT"
       ],
       "audit_ids": [
-        "C_REAUDIT_CANDIDATE_AUDIT_A1"
+        "C_REAUDIT_CANDIDATE_AUDIT_A1",
+        "C_REAUDIT_BG_01_A1"
       ],
-      "current_stage": "candidate_audit",
-      "current_task": "C_REAUDIT_CANDIDATE_AUDIT",
-      "updated_at": "2026-11-04T03:31:07.664Z",
+      "current_stage": "background_analysis",
+      "current_task": "C_REAUDIT_BG_01",
+      "updated_at": "2026-11-04T03:32:14.334Z",
       "last_result": {
-        "task_id": "C_REAUDIT_CANDIDATE_AUDIT",
+        "task_id": "C_REAUDIT_BG_01",
         "status": "FLAGGED",
         "errors": [],
-        "flags": [
-          "POOL_POSITION_MISMATCH: Olaivavega Ioane is guard-side",
-          "NO_PRIOR_LOCK",
-          "DATA_GAP: PFF sub-grades paywalled",
-          "MADDEN_GAP_10PLUS: Bortolini 84, Neuzil 85 (Madden reference only)"
-        ]
+        "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "C_REAUDIT_BG_01",
+        "audit_id": "C_REAUDIT_BG_01_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
