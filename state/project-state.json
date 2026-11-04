@@ -6618,7 +6618,7 @@
         "position": "RT",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/RT.reaudit.json",
       "baseline_file": null,
@@ -6657,18 +6657,23 @@
         "RT_REAUDIT_BG_10_A1",
         "RT_REAUDIT_BG_11_A1",
         "RT_REAUDIT_BG_12_A1",
-        "RT_REAUDIT_BG_13_A1"
+        "RT_REAUDIT_BG_13_A1",
+        "RT_REAUDIT_RATE_01_A1"
       ],
-      "current_stage": "background_analysis",
-      "current_task": "RT_REAUDIT_BG_13",
-      "updated_at": "2026-11-04T04:02:48.279Z",
+      "current_stage": "player_rating",
+      "current_task": "RT_REAUDIT_RATE_01",
+      "updated_at": "2026-11-04T04:02:49.067Z",
       "last_result": {
-        "task_id": "RT_REAUDIT_BG_13",
+        "task_id": "RT_REAUDIT_RATE_01",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "RT_REAUDIT_RATE_01",
+        "audit_id": "RT_REAUDIT_RATE_01_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",

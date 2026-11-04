@@ -1,0 +1,453 @@
+# RT_REAUDIT_RATE_01 — Darnell Wright rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "RT_REAUDIT_RATE_01_A1",
+  "task_id": "RT_REAUDIT_RATE_01",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "player_id": "ext_00-0038932",
+  "players": [
+    "Darnell Wright"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 94,
+    "SPD": 72,
+    "ACC": 74,
+    "AGI": 56,
+    "COD": 52,
+    "AWR": 90,
+    "INJ": 92,
+    "STA": 94,
+    "TGH": 92,
+    "PBK": 92,
+    "PBP": 94,
+    "PBF": 86,
+    "RBK": 90,
+    "RBP": 94,
+    "RBF": 86,
+    "IBL": 94,
+    "LBK": 84
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Darnell Wright (CHI) 2026: PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); 8 g / 599 off snaps; 3 accepted penalties {'False Start': 2, 'Offensive Holding': 1}; depth-chart side {'RT': 225}; Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); pass/run snap mix PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); pass/run snap mix PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); pass/run snap mix PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); pass/run snap mix PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 3 accepted penalties {'False Start': 2, 'Offensive Holding': 1}, 2025 12 accepted penalties {'Offensive Holding': 5, 'False Start': 4, 'Chop Block': 1, 'Ineligible Downfield Pass': 1}; PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Darnell Wright injury reports: {'2025': ['wk4 Out (Elbow)', 'wk17 Questionable (Illness)']}; roster status ACT; snaps 16 g / 1074 off snaps (2025), 8 g / 599 off snaps (2026). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 16 g / 1074 off snaps (2025), 8 g / 599 off snaps (2026). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 16 g / 1074 off snaps (2025), 8 g / 599 off snaps (2026). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6). Style: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "ELITE",
+      "claim": "power: Darnell Wright (CHI) 2026: PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); 8 g / 599 off snaps; 3 accepted penalties {'False Start': 2, 'Offensive Holding': 1}; depth-chart side {'RT': 225}; Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "discipline: penalties 2026 3 accepted penalties {'False Start': 2, 'Offensive Holding': 1}, 2025 12 accepted penalties {'Offensive Holding': 5, 'False Start': 4, 'Chop Block': 1, 'Ineligible Downfield Pass': 1}; PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Darnell Wright injury reports: {'2025': ['wk4 Out (Elbow)', 'wk17 Questionable (Illness)']}; roster status ACT; snaps 16 g / 1074 off snaps (2025), 8 g / 599 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 16 g / 1074 off snaps (2025), 8 g / 599 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 16 g / 1074 off snaps (2025), 8 g / 599 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "tier": "ELITE",
+      "claim": "pass pro: Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "tier": "ELITE",
+      "claim": "pass pro: Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "tier": "ELITE",
+      "claim": "run block: Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "tier": "ELITE",
+      "claim": "run block: Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "tier": "ELITE",
+      "claim": "run block: Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20); PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 89,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+  "style_profile": "Darnell Wright: Power-anchor right tackle and the best RT on two-year evidence: PFF 80.3 on 1,233 snaps (2025, All-Pro) then 82.8 on 600 (2026, top RT grade), ESPN OT PBWR 90%; heavy hands and a firm anchor, wins with strength rather than range.",
+  "style_evidence": [
+    "Darnell Wright (CHI) 2026: PFF 2026 82.8 (rank 4, 600 snaps: 335 pass-block / 265 run-block, pass share 0.56); 8 g / 599 off snaps; 3 accepted penalties {'False Start': 2, 'Offensive Holding': 1}; depth-chart side {'RT': 225}",
+    "Darnell Wright 2025: PFF 2025 80.3 (rank 15, 1233 snaps: 740 pass-block / 493 run-block, pass share 0.6); 16 g / 1074 off snaps; 12 accepted penalties {'Offensive Holding': 5, 'False Start': 4, 'Chop Block': 1, 'Ineligible Downfield Pass': 1}; side {'RT': 219}",
+    "Darnell Wright ESPN pass/run block win rate 2026 through Week 8: OT PBWR 90% (top 20)",
+    "Darnell Wright injury reports: {'2025': ['wk4 Out (Elbow)', 'wk17 Questionable (Illness)']}; roster status ACT"
+  ],
+  "input_dossier": "RT_REAUDIT_BG_01_A1",
+  "weaknesses": [
+    "penalties (12 in 2025)",
+    "lateral range"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Darnell Wright",
+      "ovr": 91,
+      "attributes": {
+        "STR": 96,
+        "SPD": 72,
+        "ACC": 75,
+        "AGI": 56,
+        "COD": 51,
+        "AWR": 93,
+        "INJ": 93,
+        "STA": 92,
+        "TGH": 90,
+        "PBK": 90,
+        "PBP": 91,
+        "PBF": 88,
+        "RBK": 92,
+        "RBP": 91,
+        "RBF": 94,
+        "IBL": 94,
+        "LBK": 86
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -2,
+      "delta_attributes": {
+        "STR": -2,
+        "SPD": 0,
+        "ACC": -1,
+        "AGI": 0,
+        "COD": 1,
+        "AWR": -3,
+        "INJ": -1,
+        "STA": 2,
+        "TGH": 2,
+        "PBK": 2,
+        "PBP": 3,
+        "PBF": -2,
+        "RBK": -2,
+        "RBP": 3,
+        "RBF": -8,
+        "IBL": 0,
+        "LBK": -2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RT, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 2,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
