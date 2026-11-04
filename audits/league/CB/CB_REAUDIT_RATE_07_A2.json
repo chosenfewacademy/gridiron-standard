@@ -1,0 +1,496 @@
+{
+  "audit_id": "CB_REAUDIT_RATE_07_A2",
+  "task_id": "CB_REAUDIT_RATE_07",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "player_id": "ext_00-0039888",
+  "players": [
+    "Quinyon Mitchell"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 95,
+    "ACC": 92,
+    "AGI": 86,
+    "COD": 86,
+    "STR": 67,
+    "AWR": 83,
+    "PRC": 84,
+    "MCV": 88,
+    "ZCV": 81,
+    "PRS": 84,
+    "CTH": 60,
+    "JMP": 86,
+    "TAK": 80,
+    "PUR": 82,
+    "INJ": 92,
+    "STA": 92,
+    "TGH": 85
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "MCV": "MEDIUM",
+    "ZCV": "MEDIUM",
+    "PRS": "MEDIUM",
+    "CTH": "MEDIUM",
+    "JMP": "LOW",
+    "TAK": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment: (movement) 2024 NFL Combine 40-yard dash 4.33 (among the fastest CBs in his class); in-season range and recovery speed on deep targets consistent with it. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26.",
+      "why_not_higher": "95+ reserved for verified sub-4.3 game-speed outliers",
+      "why_not_lower": "Combine 4.33 plus no observed speed loss through 2026",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 88 targets / 39 completions / 453 yds / 1 TD / passer rating 64.3 / 0 INT; 45 tackles, 3 missed; PFR 2026 (7 games) coverage 44 targets / 24 completions / 249 yds / 1 TD / 1 INT; 35 tackles, 1 missed; range from PD/tackles in 8 g / 506 def snaps; 30 solo + 8 ast tackles, 2 TFL, 1 INT, 8 PD, 0 FF. Style: Fast press corner: PFF 80.3 on 1,045 snaps (2025), 17 PD and a 64.3 passer rating allowed, but 0 INT and 6 penalties; 2026 fell to 67.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 88 targets / 39 completions / 453 yds / 1 TD / passer rating 64.3 / 0 INT; 45 tackles, 3 missed; PFR 2026 (7 games) coverage 44 targets / 24 completions / 249 yds / 1 TD / 1 INT; 35 tackles, 1 missed; range from PD/tackles in 8 g / 506 def snaps; 30 solo + 8 ast tackles, 2 TFL, 1 INT, 8 PD, 0 FF. Style: Fast press corner: PFF 80.3 on 1,045 snaps (2025), 17 PD and a 64.3 passer rating allowed, but 0 INT and 6 penalties; 2026 fell to 67.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 88 targets / 39 completions / 453 yds / 1 TD / passer rating 64.3 / 0 INT; 45 tackles, 3 missed; PFR 2026 (7 games) coverage 44 targets / 24 completions / 249 yds / 1 TD / 1 INT; 35 tackles, 1 missed; range from PD/tackles in 8 g / 506 def snaps; 30 solo + 8 ast tackles, 2 TFL, 1 INT, 8 PD, 0 FF. Style: Fast press corner: PFF 80.3 on 1,045 snaps (2025), 17 PD and a 64.3 passer rating allowed, but 0 INT and 6 penalties; 2026 fell to 67.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment: (press) jams and run-support reps (398 run-def snaps 2025, 226 in 2026) without being displaced; 186 lb frame. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26. Revised 64->67 (t56s532).",
+      "why_not_higher": "Not a physical bully; wins with speed and mirroring",
+      "why_not_lower": "Holds up in press and run support across 1,500+ snaps",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment: (discipline) penalties fell from 6 (2025) to 1 (2026); assignment-sound in a top-6 PFF 2025 coverage season. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26. Revised 78->83 (t56s532).",
+      "why_not_higher": "2026 PFF #28 dip",
+      "why_not_lower": "Top-6 2025 grade and penalty discipline improved",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment: (coverage) 44.3% completion allowed and 64.3 rating on 88 targets in 2025; 17 PD shows route anticipation. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26. Revised 80->84 (t56s532).",
+      "why_not_higher": "Only 1 INT across 24 games limits play-recognition upside",
+      "why_not_lower": "Elite 2025 completion/rating allowed",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 88 targets / 39 completions / 453 yds / 1 TD / passer rating 64.3 / 0 INT; 45 tackles, 3 missed; PFR 2026 (7 games) coverage 44 targets / 24 completions / 249 yds / 1 TD / 1 INT; 35 tackles, 1 missed; PFF CB 2025 overall 80.3 on 1045 snaps (CB rank 6; 647 coverage / 398 run-def snaps); PFF CB 2026 overall 67.9 on 506 snaps (CB rank 28; 279 coverage / 226 run-def snaps). Style: Fast press corner: PFF 80.3 on 1,045 snaps (2025), 17 PD and a 64.3 passer rating allowed, but 0 INT and 6 penalties; 2026 fell to 67.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment: (coverage) zone usage in Philadelphia's mixed scheme with the 2025 64.3 rating allowed; ZCV raised to reflect two-season coverage weighting rather than man-only profile. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26. Revised 74->81 (t56s532).",
+      "why_not_higher": "Primarily a press-man corner; MCV remains his top coverage trait",
+      "why_not_lower": "Allowed 5.1 yds/target in 2025",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment: (press) press-man corner profile; trimmed from 88 to keep the card's coverage traits balanced with the 2026 dip (PFF 67.9). Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26. Revised 88->84 (t56s532).",
+      "why_not_higher": "2026 PFF #28 and 1 TD allowed in 44 targets",
+      "why_not_lower": "Fast press corner with elite 2025 results",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment: (ball skills) 0 INT (2025), 1 INT (2026) on 132 targets; 25 PD. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26. Revised 56->60 (t56s532).",
+      "why_not_higher": "Only 1 career-window INT",
+      "why_not_lower": "1 INT in 2026 shows hands improving",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment: (ball skills) 17 PD (2025) and 8 PD (2026) at the catch point. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26. Revised 84->86 (t56s532).",
+      "why_not_higher": "Contested-catch production is PD not INT",
+      "why_not_lower": "25 PD over 24 games",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment: (tackling) 45 tackles / 3 missed (2025), 35 / 1 missed (2026); slight trim to separate from run-first CBs. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26. Revised 82->80 (t56s532).",
+      "why_not_higher": "Not a box tackler",
+      "why_not_lower": "4 missed tackles on 84 attempts",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF CB 2025 overall 80.3 on 1045 snaps (CB rank 6; 647 coverage / 398 run-def snaps); PFF CB 2026 overall 67.9 on 506 snaps (CB rank 28; 279 coverage / 226 run-def snaps); TFL/tackles in 16 g / 986 def snaps; 35 solo + 10 ast tackles, 0 TFL, 0 INT, 17 PD, 0 FF / 8 g / 506 def snaps; 30 solo + 8 ast tackles, 2 TFL, 1 INT, 8 PD, 0 FF. Style: Fast press corner: PFF 80.3 on 1,045 snaps (2025), 17 PD and a 64.3 passer rating allowed, but 0 INT and 6 penalties; 2026 fell to 67.9.",
+      "why_not_higher": "Evidence does not separate him from higher-rated CBs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated CBs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment: (availability) no injury designation 2025-26; roster status ACT; 24 games, 1,492 def snaps. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26. Revised 88->92 (t56s532).",
+      "why_not_higher": "Young; 95+ reserved for longer iron-man records",
+      "why_not_lower": "No missed games or designations over two seasons",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment: (usage) 986 def snaps in 16 g (2025) and 506 in 8 g (2026), near-every-snap usage. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26. Revised 90->92 (t56s532).",
+      "why_not_higher": "Not a special-teams contributor",
+      "why_not_lower": "Every-down corner both seasons",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment: (usage) plays through contact in press and run support with no designation in 24 games. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26. Revised 84->85 (t56s532).",
+      "why_not_higher": "No specific play-through-injury evidence",
+      "why_not_lower": "Full availability and run-support load",
+      "sources": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "SPD": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "Judgment: (movement) 2024 NFL Combine 40-yard dash 4.33 (among the fastest CBs in his class); in-season range and recovery speed on deep targets consistent with it. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury desi",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "tier": "ELITE",
+      "claim": "movement: PFR 2025 coverage 88 targets / 39 completions / 453 yds / 1 TD / passer rating 64.3 / 0 INT; 45 tackles, 3 missed; PFR 2026 (7 games) coverage 44 targets / 24 completions / 249 yds / 1 TD / 1 INT; 35 tackles, 1 missed; range from PD/tackles in 8 g / 506 def snaps; 30 solo + 8 ast tackles, 2 TFL, 1 INT, 8 PD, 0 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "Judgment: (usage) 986 def snaps in 16 g (2025) and 506 in 8 g (2026), near-every-snap usage. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26. Revised 90->92 (t56s532).",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "claim": "Judgment: (availability) no injury designation 2025-26; roster status ACT; 24 games, 1,492 def snaps. Quinyon Mitchell: PFF CB 2025 80.3 (#6) on 1,045 snaps, 88 tgt / 39 comp / 453 yds / 64.3 rating allowed, 17 PD, 0 INT, 6 pen; 2026 (8 g, 506 snaps) PFF 67.9 (#28), 44 tgt / 24 comp / 249 yds / 1 INT / 8 PD, 1 pen; 24 g, no injury designation 2025-26. Revised 88->92 (t56s532).",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/cb/2026",
+        "https://www.pff.com/grades/nfl/cb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ],
+      "tier": "ELITE"
+    }
+  },
+  "proposed_ovr": 80,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Fast press corner: PFF 80.3 on 1,045 snaps (2025), 17 PD and a 64.3 passer rating allowed, but 0 INT and 6 penalties; 2026 fell to 67.9. Revision A2 (t56s532): Quinyon Mitchell OVR 78->80 (user-approved card t56s545): STR 64->67, AWR 78->83, PRC 80->84, ZCV 74->81, PRS 88->84, CTH 56->60, JMP 84->86, TAK 82->80, INJ 88->92, STA 90->92, TGH 84->85; SPD 95 kept with combine note (4.33 40 at the 2024 NFL Combine). Two-season weighting of a top-6 2025 PFF season with the 8-game 2026 dip; expected #6 pending the honest Watson tiebreak.",
+  "style_profile": "Quinyon Mitchell: Fast press corner: PFF 80.3 on 1,045 snaps (2025), 17 PD and a 64.3 passer rating allowed, but 0 INT and 6 penalties; 2026 fell to 67.9.",
+  "style_evidence": [
+    "Quinyon Mitchell (PHI) Quinyon Mitchell 2026: PFF CB 2026 overall 67.9 on 506 snaps (CB rank 28; 279 coverage / 226 run-def snaps); PFR 2026 (7 games) coverage 44 targets / 24 completions / 249 yds / 1 TD / 1 INT; 35 tackles, 1 missed; 8 g / 506 def snaps; 30 solo + 8 ast tackles, 2 TFL, 1 INT, 8 PD, 0 FF; 1 accepted penalties",
+    "Quinyon Mitchell 2025: PFF CB 2025 overall 80.3 on 1045 snaps (CB rank 6; 647 coverage / 398 run-def snaps); PFR 2025 coverage 88 targets / 39 completions / 453 yds / 1 TD / passer rating 64.3 / 0 INT; 45 tackles, 3 missed; 16 g / 986 def snaps; 35 solo + 10 ast tackles, 0 TFL, 0 INT, 17 PD, 0 FF; 6 accepted penalties",
+    "Quinyon Mitchell role: single CB list (no outside/slot split); roster position DB (CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/g...); roster position DB; Madden card CB (reference only)",
+    "Quinyon Mitchell injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "CB_REAUDIT_BG_07_A1",
+  "weaknesses": [
+    "2026 grade (67.9)",
+    "ball skills (0 INT in 2025)"
+  ],
+  "limitations": [
+    "PFF coverage/run-defense/tackling sub-grades and slot/outside splits are paywalled; no public tracking data for CB speed or separation; substitutes: PFF CB overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+  ],
+  "role_assignment": "CB (single CB list (no outside/slot split); roster position DB)",
+  "madden_reference": [
+    {
+      "player": "Quinyon Mitchell",
+      "ovr": 90,
+      "madden_position": "CB",
+      "attributes": {
+        "SPD": 94,
+        "ACC": 94,
+        "AGI": 90,
+        "COD": 89,
+        "STR": 66,
+        "AWR": 91,
+        "PRC": 90,
+        "MCV": 88,
+        "ZCV": 90,
+        "PRS": 80,
+        "CTH": 78,
+        "JMP": 90,
+        "TAK": 69,
+        "PUR": 75,
+        "INJ": 92,
+        "STA": 92,
+        "TGH": 87
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -10,
+      "delta_attributes": {
+        "SPD": 1,
+        "ACC": -2,
+        "AGI": -4,
+        "COD": -3,
+        "STR": 1,
+        "AWR": -8,
+        "PRC": -6,
+        "MCV": 0,
+        "ZCV": -9,
+        "PRS": 4,
+        "CTH": -18,
+        "JMP": -4,
+        "TAK": 11,
+        "PUR": 7,
+        "INJ": 0,
+        "STA": 0,
+        "TGH": -2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 10,
+    "attribute_gaps_10plus": {
+      "CTH": -18,
+      "TAK": 11
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t56s532",
+  "revision": 2,
+  "supersedes": "CB_REAUDIT_RATE_07_A1",
+  "style_similarity": [
+    {
+      "player": "Devon Witherspoon",
+      "audit_id": "CB_REAUDIT_RATE_01_A1",
+      "corr": 0.766,
+      "mad": 5.1,
+      "too_similar": false
+    },
+    {
+      "player": "Trent McDuffie",
+      "audit_id": "CB_REAUDIT_RATE_02_A1",
+      "corr": 0.804,
+      "mad": 5,
+      "too_similar": false
+    },
+    {
+      "player": "Denzel Ward",
+      "audit_id": "CB_REAUDIT_RATE_03_A2",
+      "corr": 0.609,
+      "mad": 6.1,
+      "too_similar": false
+    },
+    {
+      "player": "Jamel Dean",
+      "audit_id": "CB_REAUDIT_RATE_04_A1",
+      "corr": 0.662,
+      "mad": 4.4,
+      "too_similar": false
+    },
+    {
+      "player": "Isaiah Rodgers",
+      "audit_id": "CB_REAUDIT_RATE_05_A1",
+      "corr": 0.788,
+      "mad": 4.8,
+      "too_similar": false
+    },
+    {
+      "player": "Jaylen Watson",
+      "audit_id": "CB_REAUDIT_RATE_06_A1",
+      "corr": 0.666,
+      "mad": 5.9,
+      "too_similar": false
+    },
+    {
+      "player": "Mike Jackson",
+      "audit_id": "CB_REAUDIT_RATE_08_A1",
+      "corr": 0.157,
+      "mad": 8.1,
+      "too_similar": false
+    },
+    {
+      "player": "Ja'Quan McMillian",
+      "audit_id": "CB_REAUDIT_RATE_09_A1",
+      "corr": 0.677,
+      "mad": 7.2,
+      "too_similar": false
+    },
+    {
+      "player": "Jacob Parrish",
+      "audit_id": "CB_REAUDIT_RATE_10_A1",
+      "corr": 0.717,
+      "mad": 6.1,
+      "too_similar": false
+    },
+    {
+      "player": "James Pierre",
+      "audit_id": "CB_REAUDIT_RATE_11_A1",
+      "corr": 0.617,
+      "mad": 7.2,
+      "too_similar": false
+    },
+    {
+      "player": "DJ Turner II",
+      "audit_id": "CB_REAUDIT_RATE_12_A1",
+      "corr": 0.828,
+      "mad": 8.2,
+      "too_similar": false
+    },
+    {
+      "player": "Josh Wallace",
+      "audit_id": "CB_REAUDIT_RATE_13_A1",
+      "corr": 0.729,
+      "mad": 7.5,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}

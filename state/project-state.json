@@ -22311,7 +22311,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:34:37Z",
-      "updated_at": "2026-11-04T19:34:37Z",
+      "updated_at": "2026-11-04T19:34:38.358Z",
       "audit_ids": [
         "CB_REAUDIT_CANDIDATE_AUDIT_A1",
         "CB_REAUDIT_BG_01_A1",
@@ -22367,7 +22367,8 @@
         "CB_REAUDIT_TIEBREAK_18_A1",
         "CB_REAUDIT_TIEBREAK_19_A1",
         "CB_REAUDIT_TIEBREAK_20_A1",
-        "CB_REAUDIT_TIEBREAK_21_A1"
+        "CB_REAUDIT_TIEBREAK_21_A1",
+        "CB_REAUDIT_RATE_07_A2"
       ],
       "completed_tasks": [
         "CB_REAUDIT_CANDIDATE_AUDIT",
@@ -23141,21 +23142,26 @@
             "approved_by": "PhiXCrypto",
             "approved_at": "2026-11-04T12:11:30Z"
           }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_07",
+          "audit_id": "CB_REAUDIT_RATE_07_A2",
+          "supersedes": "CB_REAUDIT_RATE_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:38Z",
+          "note": "User-approved card t56s532: Quinyon Mitchell OVR 78->80 (user-approved card t56s545): STR 64->67, AWR 78->83, PRC 80->84, ZCV 74->81, PRS 88->84, CTH 56->60, JMP 84->86, TAK 82->80, INJ 88->92, STA 90->92, TG"
         }
       ],
       "current_stage": "carry_forward",
       "current_task": null,
       "awaiting": null,
       "last_result": {
-        "status": "CARRIED_FORWARD",
-        "carried_from": "CB_REAUDIT_LOCK_20261104",
-        "carried": 55,
-        "rerun": [
-          "CB_REAUDIT_VARIANCE_AUDIT",
-          "CB_REAUDIT_SCARCITY",
-          "CB_REAUDIT_CROSS_AUDIT",
-          "CB_REAUDIT_LOCK"
-        ]
+        "task_id": "CB_REAUDIT_RATE_07",
+        "status": "REVISION_APPROVED",
+        "audit_id": "CB_REAUDIT_RATE_07_A2",
+        "supersedes": "CB_REAUDIT_RATE_07_A1",
+        "flags": []
       }
     }
   ]
