@@ -1,0 +1,424 @@
+{
+  "audit_id": "LT_REAUDIT_RATE_12_A1",
+  "task_id": "LT_REAUDIT_RATE_12",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "player_id": "paris_johnson_jr",
+  "players": [
+    "Paris Johnson Jr."
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "ratings": {
+    "STR": 88,
+    "SPD": 72,
+    "ACC": 76,
+    "AGI": 70,
+    "COD": 66,
+    "AWR": 78,
+    "INJ": 64,
+    "STA": 86,
+    "TGH": 84,
+    "PBK": 80,
+    "PBP": 82,
+    "PBF": 78,
+    "RBK": 74,
+    "RBP": 76,
+    "RBF": 72,
+    "IBL": 74,
+    "LBK": 72
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "LOW",
+    "INJ": "LOW",
+    "STA": "LOW",
+    "TGH": "LOW",
+    "PBK": "LOW",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "LOW",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "LOW",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Paris Johnson Jr. (ARI) 2026: PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63); no snaps recorded; 3 accepted penalties {'Face Mask': 1, 'False Start': 1, 'Offensive Holding': 1}; depth-chart side {'LT': 196}; Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists. Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 3 accepted penalties {'Face Mask': 1, 'False Start': 1, 'Offensive Holding': 1}, 2025 6 accepted penalties {'Offensive Holding': 3, 'False Start': 2, 'Ineligible Downfield Pass': 1}; PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Paris Johnson Jr. injury reports: {'2025': ['wk3 Questionable (Knee)', 'wk4 Questionable (Knee)', 'wk15 Out (Knee)', 'wk16 Out (Knee)', 'wk17 Out (Knee)']}; roster status RES; snaps no snaps recorded (2025), no snaps recorded (2026). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Listed weakness area: availability, run blocking",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps no snaps recorded (2025), no snaps recorded (2026). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps no snaps recorded (2025), no snaps recorded (2026). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63); PFF 2025 76.6 (rank 23, 807 snaps: 565 pass-block / 242 run-block, pass share 0.7). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63); PFF 2025 76.6 (rank 23, 807 snaps: 565 pass-block / 242 run-block, pass share 0.7). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63); PFF 2025 76.6 (rank 23, 807 snaps: 565 pass-block / 242 run-block, pass share 0.7). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63); PFF 2025 76.6 (rank 23, 807 snaps: 565 pass-block / 242 run-block, pass share 0.7). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Listed weakness area: availability, run blocking",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63); PFF 2025 76.6 (rank 23, 807 snaps: 565 pass-block / 242 run-block, pass share 0.7). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Listed weakness area: availability, run blocking",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63); PFF 2025 76.6 (rank 23, 807 snaps: 565 pass-block / 242 run-block, pass share 0.7). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Listed weakness area: availability, run blocking",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63); PFF 2025 76.6 (rank 23, 807 snaps: 565 pass-block / 242 run-block, pass share 0.7). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Listed weakness area: availability, run blocking",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63); PFF 2025 76.6 (rank 23, 807 snaps: 565 pass-block / 242 run-block, pass share 0.7). Style: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+      "why_not_higher": "Listed weakness area: availability, run blocking",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 75,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+  "style_profile": "Paris Johnson Jr.: Long, strong pass-heavy LT: PFF 76.6/77.6 with a 70% pass-block share in 2025; developing technique, knee injuries and 2026 IR.",
+  "style_evidence": [
+    "Paris Johnson Jr. (ARI) 2026: PFF 2026 77.6 (rank 11, 277 snaps: 174 pass-block / 103 run-block, pass share 0.63); no snaps recorded; 3 accepted penalties {'Face Mask': 1, 'False Start': 1, 'Offensive Holding': 1}; depth-chart side {'LT': 196}",
+    "Paris Johnson Jr. 2025: PFF 2025 76.6 (rank 23, 807 snaps: 565 pass-block / 242 run-block, pass share 0.7); no snaps recorded; 6 accepted penalties {'Offensive Holding': 3, 'False Start': 2, 'Ineligible Downfield Pass': 1}; side {'LT': 1}",
+    "Paris Johnson Jr. ESPN pass/run block win rate 2026 through Week 7: not in ESPN OT top-20 PBWR / top-10 RBWR lists",
+    "Paris Johnson Jr. injury reports: {'2025': ['wk3 Questionable (Knee)', 'wk4 Questionable (Knee)', 'wk15 Out (Knee)', 'wk16 Out (Knee)', 'wk17 Out (Knee)']}; roster status RES"
+  ],
+  "input_dossier": "LT_REAUDIT_BG_12_A1",
+  "weaknesses": [
+    "availability",
+    "run blocking"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports",
+    "limited/absent 2026 sample"
+  ],
+  "madden_reference": [
+    {
+      "player": "Paris Johnson Jr.",
+      "ovr": 86,
+      "attributes": {
+        "STR": 89,
+        "SPD": 73,
+        "ACC": 80,
+        "AGI": 75,
+        "COD": 58,
+        "AWR": 86,
+        "INJ": 93,
+        "STA": 87,
+        "TGH": 87,
+        "PBK": 90,
+        "PBP": 89,
+        "PBF": 87,
+        "RBK": 85,
+        "RBP": 82,
+        "RBF": 86,
+        "IBL": 90,
+        "LBK": 88
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -11,
+      "delta_attributes": {
+        "STR": -1,
+        "SPD": -1,
+        "ACC": -4,
+        "AGI": -5,
+        "COD": 8,
+        "AWR": -8,
+        "INJ": -29,
+        "STA": -1,
+        "TGH": -3,
+        "PBK": -10,
+        "PBP": -7,
+        "PBF": -9,
+        "RBK": -11,
+        "RBP": -6,
+        "RBF": -14,
+        "IBL": -16,
+        "LBK": -16
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 OT, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 11,
+    "attribute_gaps_10plus": {
+      "INJ": -29,
+      "PBK": -10,
+      "RBK": -11,
+      "RBF": -14,
+      "IBL": -16,
+      "LBK": -16
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t45s401",
+  "style_similarity": [
+    {
+      "player": "Penei Sewell",
+      "audit_id": "LT_REAUDIT_RATE_01_A1",
+      "corr": 0.51,
+      "mad": 12.2,
+      "too_similar": false
+    },
+    {
+      "player": "Trent Williams",
+      "audit_id": "LT_REAUDIT_RATE_02_A1",
+      "corr": 0.524,
+      "mad": 11.1,
+      "too_similar": false
+    },
+    {
+      "player": "Jordan Mailata",
+      "audit_id": "LT_REAUDIT_RATE_03_A1",
+      "corr": 0.597,
+      "mad": 10.8,
+      "too_similar": false
+    },
+    {
+      "player": "Garett Bolles",
+      "audit_id": "LT_REAUDIT_RATE_04_A1",
+      "corr": 0.27,
+      "mad": 8.8,
+      "too_similar": false
+    },
+    {
+      "player": "Tristan Wirfs",
+      "audit_id": "LT_REAUDIT_RATE_05_A1",
+      "corr": 0.75,
+      "mad": 9.1,
+      "too_similar": false
+    },
+    {
+      "player": "Andrew Thomas",
+      "audit_id": "LT_REAUDIT_RATE_06_A1",
+      "corr": 0.724,
+      "mad": 5,
+      "too_similar": false
+    },
+    {
+      "player": "Alaric Jackson",
+      "audit_id": "LT_REAUDIT_RATE_07_A1",
+      "corr": 0.493,
+      "mad": 7.8,
+      "too_similar": false
+    },
+    {
+      "player": "Bernhard Raimann",
+      "audit_id": "LT_REAUDIT_RATE_08_A1",
+      "corr": 0.022,
+      "mad": 7.7,
+      "too_similar": false
+    },
+    {
+      "player": "Charles Cross",
+      "audit_id": "LT_REAUDIT_RATE_09_A1",
+      "corr": 0.89,
+      "mad": 4.1,
+      "too_similar": false
+    },
+    {
+      "player": "Dion Dawkins",
+      "audit_id": "LT_REAUDIT_RATE_10_A1",
+      "corr": 0.451,
+      "mad": 8.1,
+      "too_similar": false
+    },
+    {
+      "player": "Laremy Tunsil",
+      "audit_id": "LT_REAUDIT_RATE_11_A1",
+      "corr": 0.775,
+      "mad": 4.6,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
