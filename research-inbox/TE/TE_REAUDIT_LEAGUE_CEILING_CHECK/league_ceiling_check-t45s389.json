@@ -1,0 +1,511 @@
+{
+ "position": "TE",
+ "references": [
+  {
+   "name": "Tucker Kraft",
+   "teams": [
+    "GB"
+   ],
+   "snaps": 874,
+   "snaps_2026": 433,
+   "targets": 93,
+   "pff": 71.3,
+   "value": 0.653,
+   "efficiency": 1.76,
+   "negative_rate": 40.86,
+   "availability": 0.64
+  },
+  {
+   "name": "Isaiah Likely",
+   "teams": [
+    "BAL",
+    "NYG"
+   ],
+   "snaps": 370,
+   "snaps_2026": 370,
+   "targets": 100,
+   "pff": 77.3,
+   "value": 0.197,
+   "efficiency": 1.59,
+   "negative_rate": 47,
+   "availability": 0.792
+  }
+ ],
+ "thresholds": {
+  "pff": 71.3,
+  "value": 0.197,
+  "efficiency": 1.59,
+  "negative_rate": 47,
+  "availability": 0.64
+ },
+ "flagged": [
+  {
+   "name": "Austin Hooper",
+   "teams": [
+    "NE"
+   ],
+   "snaps": 754,
+   "snaps_2026": 126,
+   "targets": 26,
+   "pff": 65.3,
+   "value": 0.646,
+   "efficiency": 1.04,
+   "negative_rate": 26.923,
+   "availability": 0.765,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.192982456140351
+  },
+  {
+   "name": "Tyler Higbee",
+   "teams": [
+    "LA"
+   ],
+   "snaps": 769,
+   "snaps_2026": 345,
+   "targets": 70,
+   "pff": 65.3,
+   "value": 0.222,
+   "efficiency": 1.26,
+   "negative_rate": 40,
+   "availability": 0.68,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.6231940144478856
+  },
+  {
+   "name": "Dalton Schultz",
+   "teams": [
+    "HOU"
+   ],
+   "snaps": 1157,
+   "snaps_2026": 264,
+   "targets": 150,
+   "pff": 71.6,
+   "value": 0.31,
+   "efficiency": 1.42,
+   "negative_rate": 44,
+   "availability": 1,
+   "hits": [
+    "pff",
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.7864063660780598
+  },
+  {
+   "name": "Mike Gesicki",
+   "teams": [
+    "CIN"
+   ],
+   "snaps": 538,
+   "snaps_2026": 217,
+   "targets": 67,
+   "pff": 69.4,
+   "value": 0.349,
+   "efficiency": 1.23,
+   "negative_rate": 38.806,
+   "availability": 0.75,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.37729618163054723
+  },
+  {
+   "name": "Josh Oliver",
+   "teams": [
+    "MIN"
+   ],
+   "snaps": 497,
+   "snaps_2026": 97,
+   "targets": 20,
+   "pff": 70.7,
+   "value": 0.527,
+   "efficiency": 1.24,
+   "negative_rate": 40,
+   "availability": 0.706,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.0009287925696604971
+  },
+  {
+   "name": "Dawson Knox",
+   "teams": [
+    "BUF"
+   ],
+   "snaps": 1059,
+   "snaps_2026": 326,
+   "targets": 50,
+   "pff": 67.7,
+   "value": 0.35,
+   "efficiency": 1.11,
+   "negative_rate": 36,
+   "availability": 0.941,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.0880030959752323
+  },
+  {
+   "name": "Juwan Johnson",
+   "teams": [
+    "NO"
+   ],
+   "snaps": 1169,
+   "snaps_2026": 319,
+   "targets": 139,
+   "pff": 67.3,
+   "value": 0.307,
+   "efficiency": 1.47,
+   "negative_rate": 46.763,
+   "availability": 1,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.09272160089820325
+  },
+  {
+   "name": "Colby Parkinson",
+   "teams": [
+    "LA"
+   ],
+   "snaps": 1045,
+   "snaps_2026": 267,
+   "targets": 75,
+   "pff": 72.7,
+   "value": 0.161,
+   "efficiency": 1.2,
+   "negative_rate": 38.667,
+   "availability": 0.8,
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.13973168214654352
+  },
+  {
+   "name": "Adam Trautman",
+   "teams": [
+    "DEN"
+   ],
+   "snaps": 251,
+   "snaps_2026": 251,
+   "targets": 23,
+   "pff": null,
+   "value": 0.469,
+   "efficiency": null,
+   "negative_rate": 34.783,
+   "availability": 0.765,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 2.4188596491228065
+  },
+  {
+   "name": "Pat Freiermuth",
+   "teams": [
+    "PIT"
+   ],
+   "snaps": 910,
+   "snaps_2026": 349,
+   "targets": 89,
+   "pff": 67,
+   "value": 0.352,
+   "efficiency": 1.15,
+   "negative_rate": 44.944,
+   "availability": 0.92,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.6301362598871219
+  },
+  {
+   "name": "Jake Tonges",
+   "teams": [
+    "SF"
+   ],
+   "snaps": 478,
+   "snaps_2026": 8,
+   "targets": 46,
+   "pff": 77.9,
+   "value": 0.309,
+   "efficiency": 1.01,
+   "negative_rate": 39.13,
+   "availability": 0.588,
+   "hits": [
+    "pff",
+    "value",
+    "negative_rate"
+   ],
+   "score": -1.0964912280701757
+  },
+  {
+   "name": "Charlie Kolar",
+   "teams": [
+    "BAL",
+    "LAC"
+   ],
+   "snaps": 608,
+   "snaps_2026": 206,
+   "targets": 32,
+   "pff": 73,
+   "value": -0.315,
+   "efficiency": 1.21,
+   "negative_rate": 46.875,
+   "availability": 0.75,
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -2.3307252851423454
+  },
+  {
+   "name": "Daniel Bellinger",
+   "teams": [
+    "NYG",
+    "TEN"
+   ],
+   "snaps": 762,
+   "snaps_2026": 206,
+   "targets": 41,
+   "pff": 62.5,
+   "value": 0.468,
+   "efficiency": 1.28,
+   "negative_rate": 43.902,
+   "availability": 0.84,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.1913375722310193
+  },
+  {
+   "name": "Brenton Strange",
+   "teams": [
+    "JAX"
+   ],
+   "snaps": 969,
+   "snaps_2026": 329,
+   "targets": 95,
+   "pff": 71.6,
+   "value": 0.479,
+   "efficiency": 1.63,
+   "negative_rate": 40,
+   "availability": 0.792,
+   "hits": [
+    "pff",
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 2.903715170278636
+  },
+  {
+   "name": "Davis Allen",
+   "teams": [
+    "LA"
+   ],
+   "snaps": 938,
+   "snaps_2026": 273,
+   "targets": 49,
+   "pff": 61,
+   "value": 0.253,
+   "efficiency": 0.89,
+   "negative_rate": 42.857,
+   "availability": 0.92,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -2.9191039487970736
+  },
+  {
+   "name": "AJ Barner",
+   "teams": [
+    "SEA"
+   ],
+   "snaps": 1466,
+   "snaps_2026": 409,
+   "targets": 97,
+   "pff": 70.4,
+   "value": 0.209,
+   "efficiency": 0.99,
+   "negative_rate": 42.268,
+   "availability": 1,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.3530001714383668
+  },
+  {
+   "name": "Jackson Hawes",
+   "teams": [
+    "BUF"
+   ],
+   "snaps": 720,
+   "snaps_2026": 186,
+   "targets": 19,
+   "pff": 83.2,
+   "value": 0.781,
+   "efficiency": 1.68,
+   "negative_rate": 26.316,
+   "availability": 0.765,
+   "hits": [
+    "pff",
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 4.351780185758513
+  },
+  {
+   "name": "Eli Raridon",
+   "teams": [
+    "NE"
+   ],
+   "snaps": 259,
+   "snaps_2026": 259,
+   "targets": 20,
+   "pff": 65.3,
+   "value": 0.229,
+   "efficiency": 1.63,
+   "negative_rate": 45,
+   "availability": 0.875,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.6312024552663502
+  }
+ ],
+ "closest": [
+  {
+   "name": "Greg Dulcich",
+   "teams": [
+    "MIA"
+   ],
+   "snaps": 286,
+   "snaps_2026": 286,
+   "targets": 63,
+   "pff": 66.6,
+   "value": 0.487,
+   "efficiency": 1.55,
+   "negative_rate": 39.683,
+   "availability": 0.625,
+   "hits": [
+    "value",
+    "negative_rate"
+   ],
+   "score": 0.518653250773993
+  },
+  {
+   "name": "Oronde Gadsden II",
+   "teams": [
+    "LAC"
+   ],
+   "snaps": 873,
+   "snaps_2026": 219,
+   "targets": 95,
+   "pff": 64.1,
+   "value": 0.082,
+   "efficiency": 1.5,
+   "negative_rate": 44.211,
+   "availability": 0.917,
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.5273702194747272
+  },
+  {
+   "name": "Noah Gray",
+   "teams": [
+    "KC"
+   ],
+   "snaps": 257,
+   "snaps_2026": 256,
+   "targets": 54,
+   "pff": 65.5,
+   "value": 0.064,
+   "efficiency": 1.63,
+   "negative_rate": 53.704,
+   "availability": 0.875,
+   "hits": [
+    "efficiency",
+    "availability"
+   ],
+   "score": -1.1148958932107051
+  },
+  {
+   "name": "Brevyn Spann-Ford",
+   "teams": [
+    "DAL"
+   ],
+   "snaps": 250,
+   "snaps_2026": 250,
+   "targets": 18,
+   "pff": 65.5,
+   "value": 0.186,
+   "efficiency": 1.21,
+   "negative_rate": 38.889,
+   "availability": 1,
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.2260835913312707
+  },
+  {
+   "name": "Mitchell Evans",
+   "teams": [
+    "CAR"
+   ],
+   "snaps": 649,
+   "snaps_2026": 226,
+   "targets": 25,
+   "pff": 66.3,
+   "value": 0.128,
+   "efficiency": 1.13,
+   "negative_rate": 32,
+   "availability": 0.824,
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.6905314757481964
+  }
+ ],
+ "screened": 61,
+ "read_only": true,
+ "rating_changes": []
+}

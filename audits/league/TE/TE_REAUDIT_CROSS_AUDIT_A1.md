@@ -1,0 +1,848 @@
+# TE_REAUDIT_CROSS_AUDIT (v1.1.2; authorized t45s389)
+
+```json
+{
+  "audit_id": "TE_REAUDIT_CROSS_AUDIT_A1",
+  "task_id": "TE_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Brock Bowers",
+    "George Kittle",
+    "Dalton Kincaid",
+    "Trey McBride",
+    "Sam LaPorta",
+    "T.J. Hockenson",
+    "Darnell Washington",
+    "Travis Kelce",
+    "Hunter Henry",
+    "Tucker Kraft"
+  ],
+  "cross_audit_result": "CONSISTENT: all 57 approved head-to-head/tiebreak verdicts agree with the final rating order; Strange and Likely tie at 78 in TIEBREAK_42 order; style rule passes for all 120 pairs of 16 rated TEs (0 too similar); league ceiling flags 0 after resolution (18 raw, all tested); Strange's 9 10+ Madden gaps: 6 supported, 3 drafted ADJUST (not approved); Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Brock Bowers",
+      "ovr": 93,
+      "audit_id": "TE_REAUDIT_RATE_01_A1"
+    },
+    {
+      "rank": 2,
+      "player": "George Kittle",
+      "ovr": 90,
+      "audit_id": "TE_REAUDIT_RATE_02_A1"
+    },
+    {
+      "rank": 3,
+      "player": "Dalton Kincaid",
+      "ovr": 88,
+      "audit_id": "TE_REAUDIT_RATE_04_A3"
+    },
+    {
+      "rank": 4,
+      "player": "Trey McBride",
+      "ovr": 87,
+      "audit_id": "TE_REAUDIT_RATE_03_A3"
+    },
+    {
+      "rank": 5,
+      "player": "Sam LaPorta",
+      "ovr": 85,
+      "audit_id": "TE_REAUDIT_RATE_05_A1"
+    },
+    {
+      "rank": 6,
+      "player": "T.J. Hockenson",
+      "ovr": 84,
+      "audit_id": "TE_REAUDIT_RATE_06_A1"
+    },
+    {
+      "rank": 7,
+      "player": "Darnell Washington",
+      "ovr": 82,
+      "audit_id": "TE_REAUDIT_RATE_07_A1"
+    },
+    {
+      "rank": 8,
+      "player": "Travis Kelce",
+      "ovr": 81,
+      "audit_id": "TE_REAUDIT_RATE_08_A2"
+    },
+    {
+      "rank": 9,
+      "player": "Hunter Henry",
+      "ovr": 80,
+      "audit_id": "TE_REAUDIT_RATE_09_A1"
+    },
+    {
+      "rank": 10,
+      "player": "Tucker Kraft",
+      "ovr": 79,
+      "audit_id": "TE_REAUDIT_RATE_11_A2"
+    },
+    {
+      "rank": 11,
+      "player": "Brenton Strange",
+      "ovr": 78,
+      "audit_id": "TE_REAUDIT_RATE_16_A2"
+    },
+    {
+      "rank": 12,
+      "player": "Isaiah Likely",
+      "ovr": 78,
+      "audit_id": "TE_REAUDIT_RATE_10_A2"
+    },
+    {
+      "rank": 13,
+      "player": "Dallas Goedert",
+      "ovr": 77,
+      "audit_id": "TE_REAUDIT_RATE_14_A2"
+    },
+    {
+      "rank": 14,
+      "player": "Colston Loveland",
+      "ovr": 76,
+      "audit_id": "TE_REAUDIT_RATE_12_A2"
+    },
+    {
+      "rank": 15,
+      "player": "Michael Mayer",
+      "ovr": 75,
+      "audit_id": "TE_REAUDIT_RATE_13_A2"
+    },
+    {
+      "rank": 16,
+      "player": "Kyle Pitts",
+      "ovr": 74,
+      "audit_id": "TE_REAUDIT_RATE_15_A2"
+    }
+  ],
+  "pair_consistency": [
+    {
+      "audit_id": "TE_REAUDIT_H2H_01_A1",
+      "winner": "Brock Bowers",
+      "loser": "George Kittle",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_H2H_02_A1",
+      "winner": "Dalton Kincaid",
+      "loser": "Trey McBride",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_H2H_03_A1",
+      "winner": "Sam LaPorta",
+      "loser": "T.J. Hockenson",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_H2H_04_A1",
+      "winner": "Darnell Washington",
+      "loser": "Travis Kelce",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_H2H_05_A1",
+      "winner": "Hunter Henry",
+      "loser": "Tucker Kraft",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_H2H_06_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Isaiah Likely",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_01_A1",
+      "winner": "George Kittle",
+      "loser": "Dalton Kincaid",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_02_A1",
+      "winner": "Trey McBride",
+      "loser": "Sam LaPorta",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_03_A1",
+      "winner": "T.J. Hockenson",
+      "loser": "Darnell Washington",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_04_A1",
+      "winner": "Travis Kelce",
+      "loser": "Hunter Henry",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_05_A1",
+      "winner": "Hunter Henry",
+      "loser": "Tucker Kraft",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_06_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Dallas Goedert",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_07_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Dallas Goedert",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_08_A1",
+      "winner": "Dallas Goedert",
+      "loser": "Colston Loveland",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_09_A1",
+      "winner": "Colston Loveland",
+      "loser": "Michael Mayer",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_10_A1",
+      "winner": "Michael Mayer",
+      "loser": "Kyle Pitts",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_11_A1",
+      "winner": "Dalton Kincaid",
+      "loser": "Trey McBride",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_12_A1",
+      "winner": "Sam LaPorta",
+      "loser": "T.J. Hockenson",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_13_A1",
+      "winner": "Darnell Washington",
+      "loser": "Travis Kelce",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_14_A1",
+      "winner": "Hunter Henry",
+      "loser": "Isaiah Likely",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_15_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Isaiah Likely",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_16_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Austin Hooper",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_17_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Austin Hooper",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_18_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Tyler Higbee",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_19_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Tyler Higbee",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_20_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Dalton Schultz",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_21_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Dalton Schultz",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_22_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Mike Gesicki",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_23_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Mike Gesicki",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_24_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Josh Oliver",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_25_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Josh Oliver",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_26_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Dawson Knox",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_27_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Dawson Knox",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_28_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Juwan Johnson",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_29_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Juwan Johnson",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_30_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Colby Parkinson",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_31_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Colby Parkinson",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_32_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Adam Trautman",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_33_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Adam Trautman",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_34_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Pat Freiermuth",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_35_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Pat Freiermuth",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_36_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Jake Tonges",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_37_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Jake Tonges",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_38_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Charlie Kolar",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_39_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Charlie Kolar",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_40_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Daniel Bellinger",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_41_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Daniel Bellinger",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_42_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Brenton Strange",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_43_A1",
+      "winner": "Brenton Strange",
+      "loser": "Isaiah Likely",
+      "consistent": true
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_44_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Davis Allen",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_45_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Davis Allen",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_46_A1",
+      "winner": "Tucker Kraft",
+      "loser": "AJ Barner",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_47_A1",
+      "winner": "Isaiah Likely",
+      "loser": "AJ Barner",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_48_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Jackson Hawes",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_49_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Jackson Hawes",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_50_A1",
+      "winner": "Tucker Kraft",
+      "loser": "Eli Raridon",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "TE_REAUDIT_TIEBREAK_51_A1",
+      "winner": "Isaiah Likely",
+      "loser": "Eli Raridon",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    }
+  ],
+  "style_rule": {
+    "pairs_checked": 120,
+    "too_similar": 0,
+    "highest_corr": [
+      0.939,
+      6.0,
+      "Brock Bowers",
+      "Dalton Kincaid"
+    ]
+  },
+  "scarcity_note": "TE_REAUDIT_SCARCITY_A1 PASS stands: Strange adds no 90+ traits.",
+  "new_player_variance_gaps": [
+    {
+      "player": "Brenton Strange",
+      "attr": "COD",
+      "ours": 81,
+      "madden_delta": 12,
+      "verdict": "ADJUST",
+      "proposed_revision": {
+        "COD": 76
+      },
+      "key_stats": [
+        "YAC/rec 5.4 (2025) / 4.9 (2026): mid-pack separation after catch; same basis as the drafted Loveland COD fix"
+      ],
+      "status": "DRAFTED_NOT_APPROVED"
+    },
+    {
+      "player": "Brenton Strange",
+      "attr": "SRR",
+      "ours": 82,
+      "madden_delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "aDOT 6.9/7.9, catch rate .77/.80, EPA/tgt +.523/+.405 on a short/intermediate tree"
+      ]
+    },
+    {
+      "player": "Brenton Strange",
+      "attr": "MRR",
+      "ours": 82,
+      "madden_delta": 18,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "YPRR 1.95 (2026), EPA/tgt +.523/+.405, PFF 76.1 receiving-led 2025"
+      ]
+    },
+    {
+      "player": "Brenton Strange",
+      "attr": "DRR",
+      "ours": 70,
+      "madden_delta": 12,
+      "verdict": "ADJUST",
+      "proposed_revision": {
+        "DRR": 64
+      },
+      "key_stats": [
+        "aDOT under 8 in both seasons; little deep usage, same basis as the drafted LaPorta/Pitts DRR fixes"
+      ],
+      "status": "DRAFTED_NOT_APPROVED"
+    },
+    {
+      "player": "Brenton Strange",
+      "attr": "JMP",
+      "ours": 72,
+      "madden_delta": -12,
+      "verdict": "ADJUST",
+      "proposed_revision": {
+        "JMP": 78
+      },
+      "key_stats": [
+        "No evidence of a poor catch radius; A2 lowered JMP for style separation only, so restore toward Madden"
+      ],
+      "status": "DRAFTED_NOT_APPROVED"
+    },
+    {
+      "player": "Brenton Strange",
+      "attr": "BTK",
+      "ours": 78,
+      "madden_delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "YAC/rec 5.4/4.9, above the TE median"
+      ]
+    },
+    {
+      "player": "Brenton Strange",
+      "attr": "RBK",
+      "ours": 79,
+      "madden_delta": 11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "block share .43 (2025) / .48 (2026), used as an in-line run blocker"
+      ]
+    },
+    {
+      "player": "Brenton Strange",
+      "attr": "PBK",
+      "ours": 74,
+      "madden_delta": 10,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "regular pass-pro usage within block share .43/.48"
+      ]
+    },
+    {
+      "player": "Brenton Strange",
+      "attr": "INJ",
+      "ours": 78,
+      "madden_delta": -11,
+      "verdict": "SUPPORTED",
+      "key_stats": [
+        "12 of 17 games in 2025; 7 of 8 in 2026"
+      ]
+    }
+  ],
+  "commissioner_fix_approvals": "None. Variance fixes from TE_REAUDIT_VARIANCE_AUDIT (LaPorta DRR 74, Likely COD 80, Goedert IBL 75, Loveland COD 76, Pitts DRR 72 / INJ 88) and Strange COD 76 / DRR 64 / JMP 78 are DRAFTED, not approved or applied; awaiting commissioner.",
+  "league_ceiling_check": {
+    "source": "research-inbox/TE/TE_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-t45s389.json",
+    "references": [
+      {
+        "player": "Tucker Kraft",
+        "ovr": 79
+      },
+      {
+        "player": "Isaiah Likely",
+        "ovr": 78
+      }
+    ],
+    "thresholds": {
+      "pff": 71.3,
+      "value": 0.197,
+      "efficiency": 1.59,
+      "negative_rate": 47,
+      "availability": 0.64
+    },
+    "raw_flags_before_resolution": [
+      "Austin Hooper",
+      "Tyler Higbee",
+      "Dalton Schultz",
+      "Mike Gesicki",
+      "Josh Oliver",
+      "Dawson Knox",
+      "Juwan Johnson",
+      "Colby Parkinson",
+      "Adam Trautman",
+      "Pat Freiermuth",
+      "Jake Tonges",
+      "Charlie Kolar",
+      "Daniel Bellinger",
+      "Brenton Strange",
+      "Davis Allen",
+      "AJ Barner",
+      "Jackson Hawes",
+      "Eli Raridon"
+    ],
+    "resolution": "Check (t45s389, refs #10 Kraft 79 / first-out Likely 78) flagged 18 (IR and free agents included). Every flagged TE was tested vs Kraft and vs Likely (TE_REAUDIT_TIEBREAK_16-51, approved under t45s389): all 18 lost to Kraft; 17 lost to Likely; Brenton Strange beat Likely (TIEBREAK_42, NARROW) and lost to Kraft (TIEBREAK_41). Strange was added via TE_POOL_AMEND_01, fully rated (BG_16, RATE_16_A2 78, style-unique) and orders ahead of Likely at 78 per TIEBREAK_42. Rerun after the amendment flags the same 18, all previously tested, so all are commissioner-resolved.",
+    "flagged": [],
+    "closest": [
+      {
+        "name": "Greg Dulcich",
+        "snaps": 286,
+        "pff": 66.6,
+        "value": 0.487,
+        "efficiency": 1.55,
+        "negative_rate": 39.683,
+        "availability": 0.625,
+        "hits": [
+          "value",
+          "negative_rate"
+        ]
+      },
+      {
+        "name": "Oronde Gadsden II",
+        "snaps": 873,
+        "pff": 64.1,
+        "value": 0.082,
+        "efficiency": 1.5,
+        "negative_rate": 44.211,
+        "availability": 0.917,
+        "hits": [
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Noah Gray",
+        "snaps": 257,
+        "pff": 65.5,
+        "value": 0.064,
+        "efficiency": 1.63,
+        "negative_rate": 53.704,
+        "availability": 0.875,
+        "hits": [
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Brevyn Spann-Ford",
+        "snaps": 250,
+        "pff": 65.5,
+        "value": 0.186,
+        "efficiency": 1.21,
+        "negative_rate": 38.889,
+        "availability": 1,
+        "hits": [
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Mitchell Evans",
+        "snaps": 649,
+        "pff": 66.3,
+        "value": 0.128,
+        "efficiency": 1.13,
+        "negative_rate": 32,
+        "availability": 0.824,
+        "hits": [
+          "negative_rate",
+          "availability"
+        ]
+      }
+    ],
+    "screened": 61,
+    "rating_changes": []
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Brock Bowers",
+      "ours": 93,
+      "madden": 95,
+      "delta": -2,
+      "old_baseline": null
+    },
+    {
+      "player": "George Kittle",
+      "ours": 90,
+      "madden": 97,
+      "delta": -7,
+      "old_baseline": null
+    },
+    {
+      "player": "Dalton Kincaid",
+      "ours": 88,
+      "madden": 83,
+      "delta": 5,
+      "old_baseline": null
+    },
+    {
+      "player": "Trey McBride",
+      "ours": 87,
+      "madden": 99,
+      "delta": -12,
+      "old_baseline": null
+    },
+    {
+      "player": "Sam LaPorta",
+      "ours": 85,
+      "madden": 90,
+      "delta": -5,
+      "old_baseline": null
+    },
+    {
+      "player": "T.J. Hockenson",
+      "ours": 84,
+      "madden": 83,
+      "delta": 1,
+      "old_baseline": null
+    },
+    {
+      "player": "Darnell Washington",
+      "ours": 82,
+      "madden": 77,
+      "delta": 5,
+      "old_baseline": null
+    },
+    {
+      "player": "Travis Kelce",
+      "ours": 81,
+      "madden": 93,
+      "delta": -12,
+      "old_baseline": null
+    },
+    {
+      "player": "Hunter Henry",
+      "ours": 80,
+      "madden": 86,
+      "delta": -6,
+      "old_baseline": null
+    },
+    {
+      "player": "Tucker Kraft",
+      "ours": 79,
+      "madden": 85,
+      "delta": -6,
+      "old_baseline": null
+    },
+    {
+      "player": "Brenton Strange",
+      "ours": 78,
+      "madden": 79,
+      "delta": -1,
+      "old_baseline": null
+    },
+    {
+      "player": "Isaiah Likely",
+      "ours": 78,
+      "madden": 82,
+      "delta": -4,
+      "old_baseline": null
+    },
+    {
+      "player": "Dallas Goedert",
+      "ours": 77,
+      "madden": 89,
+      "delta": -12,
+      "old_baseline": null
+    },
+    {
+      "player": "Colston Loveland",
+      "ours": 76,
+      "madden": 82,
+      "delta": -6,
+      "old_baseline": null
+    },
+    {
+      "player": "Michael Mayer",
+      "ours": 75,
+      "madden": 80,
+      "delta": -5,
+      "old_baseline": null
+    },
+    {
+      "player": "Kyle Pitts",
+      "ours": 74,
+      "madden": 81,
+      "delta": -7,
+      "old_baseline": null
+    }
+  ],
+  "madden_order_verified": false,
+  "madden_used_as_evidence": false,
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
