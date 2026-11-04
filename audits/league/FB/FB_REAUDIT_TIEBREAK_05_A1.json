@@ -1,0 +1,39 @@
+{
+  "audit_id": "FB_REAUDIT_TIEBREAK_05_A1",
+  "task_id": "FB_REAUDIT_TIEBREAK_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Brady Russell",
+    "Max Bredeson"
+  ],
+  "pair_result": {
+    "winner": "Brady Russell",
+    "loser": "Max Bredeson",
+    "provisional_order_holds": true,
+    "reasoning": "Russell 45.1 on 113 (2026) with 3-40 receiving and a 2025 sample; Bredeson 39.4 on 103 with no touches. Russell narrowly.",
+    "key_evidence_for_winner": [
+      "Brady Russell (SEA) FB depth-chart snapshots 2026 {'rank1': 131, 'rank2': 143}; roster ACT (RB)",
+      "Brady Russell 2026: PFF FB 45.1 (rank 10; 81 run/lead-block, 9 pass-block, 23 routes, 0 carries of 113 snaps); 8 g/113 snaps; 0-0 rush, 3-40 rec, 0 TD; penalties 1; injuries none",
+      "Brady Russell 2025: PFF FB 40.7 (rank None; 53 run/lead-block, 8 pass-block, 5 routes, 0 carries of 66 snaps); 12 g/58 snaps; 0-0 rush, 0-0 rec, 0 TD; penalties 1; injuries none"
+    ],
+    "key_evidence_for_loser": [
+      "Max Bredeson (MIN) FB depth-chart snapshots 2026 {'rank1': 238}; roster ACT (RB)",
+      "Max Bredeson 2026: PFF FB 39.4 (rank 11; 68 run/lead-block, 19 pass-block, 16 routes, 0 carries of 103 snaps); 7 g/103 snaps; 0-0 rush, 0-0 rec, 0 TD; penalties 0; injuries none",
+      "Max Bredeson 2025: no PFF FB-alignment grade; no snaps; no touches; penalties 0; injuries none"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
