@@ -18770,7 +18770,7 @@
         "position": "WR",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/WR.reaudit.json",
       "baseline_file": "data/baselines/WR.reaudit-20261103.json",
@@ -18780,7 +18780,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:05:19Z",
-      "updated_at": "2026-11-04T19:06:04.605Z",
+      "updated_at": "2026-11-04T19:06:10.291Z",
       "audit_ids": [
         "WR_REAUDIT_CANDIDATE_AUDIT_A1",
         "WR_REAUDIT_BG_01_A1",
@@ -18916,7 +18916,8 @@
         "WR_REAUDIT_TIEBREAK_79_A1",
         "WR_REAUDIT_RATE_12_A2",
         "WR_REAUDIT_TIEBREAK_80_A1",
-        "WR_REAUDIT_TIEBREAK_81_A1"
+        "WR_REAUDIT_TIEBREAK_81_A1",
+        "WR_REAUDIT_VARIANCE_AUDIT_A2"
       ],
       "completed_tasks": [
         "WR_REAUDIT_CANDIDATE_AUDIT",
@@ -20797,14 +20798,19 @@
           "note": "User-approved batch t56s532 (t56s540 engine: approved tiebreaks order tied players)"
         }
       ],
-      "current_stage": "carry_forward",
-      "current_task": null,
-      "awaiting": null,
+      "current_stage": "variance_audit",
+      "current_task": "WR_REAUDIT_VARIANCE_AUDIT",
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "WR_REAUDIT_VARIANCE_AUDIT",
+        "audit_id": "WR_REAUDIT_VARIANCE_AUDIT_A2"
+      },
       "last_result": {
-        "task_id": "WR_REAUDIT_TIEBREAK_81",
+        "task_id": "WR_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
+        "errors": [],
         "flags": [
-          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+          "COMMISSIONER_REVIEW: variance re-run after t56s532 card revisions (Justin Jefferson)"
         ]
       }
     }
