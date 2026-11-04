@@ -346,3 +346,67 @@ Key stats:
 
 Style check: PASS (max corr Dameon Pierce 0.927, min MAD Dameon Pierce 6.7); ceiling check PASS
 
+
+## Revision A2 — Saquon Barkley OVR 76 (Madden 99, Δ -23) — approved t52s464 / t52s470 (audit t52u)
+
+Changes: OVR 75→76, INJ 66→78, STA 80→86, COD 84→86, JKM 84→86; BTK stays 82 (t52s470). Supersedes the 75 card above and Barkley's t50s449 approval entry only.
+
+BTK held at 82 (proposed 84 dropped per t52s470): missed tackles forced rose to 0.19/carry in 2025 (from 0.17) but yards after contact fell 3.2 -> 2.7 and stuff rate was 24.2%, so tackle-breaking stays level with Taylor/McCaffrey 82, below Walker 94 / Jacobs 88; also resolves style-check flag vs Walker
+
+| Attr | Ours | Madden | Δ |
+|---|---|---|---|
+| OVR | 76 | 99 | -23 |
+| SPD | 89 | 95 | -6 |
+| ACC | 88 | 94 | -6 |
+| AGI | 86 | 95 | -9 |
+| COD | 86 | 94 | -8 |
+| STR | 82 | 81 | +1 |
+| AWR | 84 | 99 | -15 |
+| CAR | 88 | 97 | -9 |
+| BCV | 80 | 87 | -7 |
+| BTK | 82 | 90 | -8 |
+| TRK | 80 | 84 | -4 |
+| SFA | 82 | 88 | -6 |
+| SPM | 80 | 95 | -15 |
+| JKM | 86 | 96 | -10 |
+| CTH | 72 | 74 | -2 |
+| CIT | 56 | 62 | -6 |
+| SRR | 70 | 75 | -5 |
+| MRR | 60 | 67 | -7 |
+| DRR | 54 | 65 | -11 |
+| RLS | 58 | 69 | -11 |
+| JMP | 88 | 96 | -8 |
+| INJ | 78 | 91 | -13 |
+| STA | 86 | 94 | -8 |
+| TGH | 86 | 90 | -4 |
+
+Variance evidence (neighbor comparison):
+- Barkley 2024: 801 snaps, 348 car, 5.78 ypc, EPA +.107, succ 45%, stuff 17.0%, RYOE +1.61, 10+ 13.2%, 20+ 17, SY 8/15, 43 tgt/33 rec, FL 1, PFF rush 85.6
+- Barkley 2025: 773 snaps, 281 car, 4.06 ypc, EPA -.086, succ 38%, stuff 24.2%, RYOE +0.24, 10+ 10.0%, 20+ 4, SY 5/6, 51/37, FL 1, PFF 67.9 (43rd); YCO 2.7 (3.2 in 2024), MTF/att 0.19 (0.17 in 2024)
+- Barkley 2026: 6 g, 123 snaps, 56 car, 4.89 ypc, EPA +.018, succ 39%, stuff 19.6%, RYOE +1.01, 20+ 2, 10/7, FL 0, PFF 71.6; healthy games 30 car 165 yds 5.5 ypc
+- Kyren Williams (80) 2025/2026: RYOE +0.55/+0.53, EPA +.019/+.002, stuff 12.4%/8.9%, PFF 85.2/81.0, 380 snaps 2026
+- Bhayshul Tuten (79) 2026: RYOE +0.15, EPA -.003, stuff 17.3%, PFF 91.9, 241 snaps
+- Jonathan Taylor (78) 2025/2026: RYOE +0.60/+0.02, EPA +.058/-.059, stuff 15.1%/19.6%, PFF 78.1/62.8, 412 snaps 2026
+- Chuba Hubbard (77) 2025/2026: RYOE -0.22/+0.76, EPA -.116/+.058, stuff 12.6%/12.6%, PFF 69.9/84.1, 394 snaps 2026
+- Derrick Henry (76) 2025/2026: RYOE +1.05/+0.11, EPA +.030/-.113, stuff 15.3%/19.5%, SY 15/24 / 2/9, PFF 80.4/74.8, 283 snaps 2026
+- Eagles context: PFF team run-block grade 84.1 (2024) -> 75.9 (2025), offense EPA/play .085 -> .025 (PFF); 2026 Lane Johnson retired and Cam Jurgens traded after Week 4, Hurts out (NFL.com). Blocking explains ~half of 2025 decline; RYOE (blocking-adjusted) and YCO declines are his own
+
+Variance (10+):
+- OVR: -23 vs Madden 99: 2025 PFF 67.9 (43rd), RYOE/att +0.24, stuff 24.2%, success 38% = weakest full season among neighbors; 2026 per-play (RYOE +1.01, EPA +.018) beats Henry (+0.11, -.113) and Taylor (+0.02, -.059) but on 123 snaps; tie with Henry 76, below Hubbard 77 / Taylor 78 ceiling - SUPPORTED
+- AWR: -15 vs Madden 99: success 38% (2025) / 39% (2026), lowest among Kyren/Tuten/Taylor/Hubbard/Henry; Taylor and Henry AWR 88; 99 is reputation - SUPPORTED
+- SPM: -15 vs Madden 95: spin is not a defining move in his public profile and no public metric supports a 95; elusiveness is credited through JKM/BTK (missed tackles forced 0.19/carry in 2025, up from 0.17) - SUPPORTED
+- JKM: -10 vs Madden 96: missed tackles forced rose to 0.19/carry in 2025 from 0.17 (PFF public), so elusiveness is intact; 86 sits above Taylor 76 and near Kyren/Warren 80, below Bijan 94 / Gibbs 90; 96 is 2024 reputation - SUPPORTED
+- DRR: -11 vs Madden 65: targets are screens/checkdowns (51 tgt 2025, 8.0 YAC/rec), receiving EPA +12.2 (2024) -> -5.0 (2025) - SUPPORTED
+- RLS: -11 vs Madden 69: same receiving profile as DRR; release vs press rarely tested - SUPPORTED
+- INJ: -13 vs Madden 91: missed 0 games 2024-25 (NFL.com); 2026: stinger 9/20 (0 missed), grade-1 hamstring 10/4 (missed Wk 5-6), back/tailbone bruise 10/26 (played); age 29 - remaining -13 SUPPORTED by 2026 soft-tissue run
+
+Style check rerun (PHI RB room vs 15 approved RBs + room):
+- Tank Bigsby: PASS (max corr Kenneth Walker III 0.941, min MAD Braelon Allen 6.1)
+- Dameon Pierce: PASS (max corr Braelon Allen 0.945, min MAD Braelon Allen 6.4)
+- Will Shipley: PASS (max corr Bhayshul Tuten 0.943, min MAD Elijah Mitchell 4.3)
+- Jaydon Blue: PASS (max corr Jahmyr Gibbs 0.887, min MAD Tony Pollard 5.6)
+- Carson Steele: PASS (max corr Dameon Pierce 0.927, min MAD Dameon Pierce 6.7)
+- Elijah Mitchell: PASS (max corr Bhayshul Tuten 0.91, min MAD Will Shipley 4.3)
+- Saquon Barkley: PASS (max corr Kenneth Walker III 0.947, min MAD Jonathan Taylor 3.7)
+
+madden_order_verified=false

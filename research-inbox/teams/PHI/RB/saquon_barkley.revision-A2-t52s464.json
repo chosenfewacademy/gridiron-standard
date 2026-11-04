@@ -1,0 +1,449 @@
+{
+  "record_type": "team_room_rating_revision",
+  "revision": "A2",
+  "supersedes_record": "research-inbox/teams/PHI/RB/saquon_barkley.json",
+  "supersedes_sha256": "21027715eb937603547e7a68673b908fdd82f3576e72dadab9b85c0a1016be69",
+  "team": "PHI",
+  "position": "RB",
+  "player": "Saquon Barkley",
+  "player_id": "saquon_barkley",
+  "roster_status": "Active (#26; stinger, hamstring and back injuries in 2026, missed 2 games; played Week 8 vs WAS)",
+  "authorized_by": "t52s464; t52s470",
+  "audit_requested_by": "t52u",
+  "rated_at": "2026-11-03T22:20:00-05:00",
+  "methodology_version": "1.1.0",
+  "audit_order": "1.1.2",
+  "status": "APPROVED",
+  "overall": 76,
+  "ratings": {
+    "SPD": 89,
+    "ACC": 88,
+    "AGI": 86,
+    "COD": 86,
+    "STR": 82,
+    "AWR": 84,
+    "CAR": 88,
+    "BCV": 80,
+    "BTK": 82,
+    "TRK": 80,
+    "SFA": 82,
+    "SPM": 80,
+    "JKM": 86,
+    "CTH": 72,
+    "CIT": 56,
+    "SRR": 70,
+    "MRR": 60,
+    "DRR": 54,
+    "RLS": 58,
+    "JMP": 88,
+    "INJ": 78,
+    "STA": 86,
+    "TGH": 86
+  },
+  "changes": {
+    "OVR": [
+      75,
+      76
+    ],
+    "INJ": [
+      66,
+      78
+    ],
+    "STA": [
+      80,
+      86
+    ],
+    "COD": [
+      84,
+      86
+    ],
+    "JKM": [
+      84,
+      86
+    ]
+  },
+  "confidence": "MEDIUM",
+  "style_profile": "Aging big-play feature back: hurdle/jump-cut creator with power and long speed still there in flashes, but 2025 efficiency fell off (stuff 24%) and a 2026 injury run keeps him off the field",
+  "key_stats": [
+    "2024 PHI: 348 car, 2011 yds, 5.78 ypc, 13 TD, EPA/rush +.107, success 45%, 17 runs of 20+, 3rd/4th-and-<=2 8/15 (nflverse pbp)",
+    "2025 PHI: 281 car, 1142 yds, 4.06 ypc, 7 TD, EPA/rush -.086, success 38%, stuff 24.2%, 10+ rate 10%, 4 runs of 20+, SY 5/6; 37/51 rec 273 yds, 8.0 YAC/rec, rec EPA -5.0; 1 fumble lost; 773 off snaps",
+    "2026 (6 g, 123 off snaps): 56 car, 274 yds, 4.89 ypc, 2 TD, EPA/rush +.018, success 39%, stuff 19.6%, RYOE/att +1.01, 2 runs of 20+; 7/10 rec 41 yds; 0 fumbles lost",
+    "PFF HB 2026 71.6 (repo RB_REAUDIT_BG_01); league ceiling screen snap-weighted PFF 68.5, availability .88, not flagged above Taylor (RB_REAUDIT_LEAGUE_CEILING_CHECK)",
+    "Injuries 2026: stinger, hamstring (missed 2 games), back locked up after 10 snaps vs DAL (NBC Sports Philadelphia); age 29"
+  ],
+  "top10_calibration": {
+    "baseline": "data/baselines/RB.reaudit-20261103.json",
+    "madden_order_verified": false,
+    "calibrated_against": [
+      "Jonathan Taylor",
+      "Chuba Hubbard",
+      "Derrick Henry",
+      "Kyren Williams",
+      "Bhayshul Tuten"
+    ],
+    "placement": "Ties external control Derrick Henry 76; below first-out Hubbard 77 and #10 Taylor 78 ceiling"
+  },
+  "madden27_reference": {
+    "policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+    "source": "https://www.ea.com/games/madden-nfl/ratings",
+    "retrieved_at": "2026-11-03T22:20:00-05:00",
+    "available": true,
+    "table": [
+      {
+        "attribute": "OVR",
+        "ours": 76,
+        "madden": 99,
+        "delta": -23
+      },
+      {
+        "attribute": "SPD",
+        "ours": 89,
+        "madden": 95,
+        "delta": -6
+      },
+      {
+        "attribute": "ACC",
+        "ours": 88,
+        "madden": 94,
+        "delta": -6
+      },
+      {
+        "attribute": "AGI",
+        "ours": 86,
+        "madden": 95,
+        "delta": -9
+      },
+      {
+        "attribute": "COD",
+        "ours": 86,
+        "madden": 94,
+        "delta": -8
+      },
+      {
+        "attribute": "STR",
+        "ours": 82,
+        "madden": 81,
+        "delta": 1
+      },
+      {
+        "attribute": "AWR",
+        "ours": 84,
+        "madden": 99,
+        "delta": -15
+      },
+      {
+        "attribute": "CAR",
+        "ours": 88,
+        "madden": 97,
+        "delta": -9
+      },
+      {
+        "attribute": "BCV",
+        "ours": 80,
+        "madden": 87,
+        "delta": -7
+      },
+      {
+        "attribute": "BTK",
+        "ours": 82,
+        "madden": 90,
+        "delta": -8
+      },
+      {
+        "attribute": "TRK",
+        "ours": 80,
+        "madden": 84,
+        "delta": -4
+      },
+      {
+        "attribute": "SFA",
+        "ours": 82,
+        "madden": 88,
+        "delta": -6
+      },
+      {
+        "attribute": "SPM",
+        "ours": 80,
+        "madden": 95,
+        "delta": -15
+      },
+      {
+        "attribute": "JKM",
+        "ours": 86,
+        "madden": 96,
+        "delta": -10
+      },
+      {
+        "attribute": "CTH",
+        "ours": 72,
+        "madden": 74,
+        "delta": -2
+      },
+      {
+        "attribute": "CIT",
+        "ours": 56,
+        "madden": 62,
+        "delta": -6
+      },
+      {
+        "attribute": "SRR",
+        "ours": 70,
+        "madden": 75,
+        "delta": -5
+      },
+      {
+        "attribute": "MRR",
+        "ours": 60,
+        "madden": 67,
+        "delta": -7
+      },
+      {
+        "attribute": "DRR",
+        "ours": 54,
+        "madden": 65,
+        "delta": -11
+      },
+      {
+        "attribute": "RLS",
+        "ours": 58,
+        "madden": 69,
+        "delta": -11
+      },
+      {
+        "attribute": "JMP",
+        "ours": 88,
+        "madden": 96,
+        "delta": -8
+      },
+      {
+        "attribute": "INJ",
+        "ours": 78,
+        "madden": 91,
+        "delta": -13
+      },
+      {
+        "attribute": "STA",
+        "ours": 86,
+        "madden": 94,
+        "delta": -8
+      },
+      {
+        "attribute": "TGH",
+        "ours": 86,
+        "madden": 90,
+        "delta": -4
+      }
+    ]
+  },
+  "variance_audit": {
+    "threshold": 10,
+    "audit": "Independent skeptical variance audit (t52u): verdict PARTLY JUSTIFIED; INJ/STA too low, COD/JKM/BTK slightly low",
+    "neighbor_comparison": {
+      "source": "nflverse pbp/NGS/snap counts 2024-26 REG; PFF public grades",
+      "rows": [
+        "Barkley 2024: 801 snaps, 348 car, 5.78 ypc, EPA +.107, succ 45%, stuff 17.0%, RYOE +1.61, 10+ 13.2%, 20+ 17, SY 8/15, 43 tgt/33 rec, FL 1, PFF rush 85.6",
+        "Barkley 2025: 773 snaps, 281 car, 4.06 ypc, EPA -.086, succ 38%, stuff 24.2%, RYOE +0.24, 10+ 10.0%, 20+ 4, SY 5/6, 51/37, FL 1, PFF 67.9 (43rd); YCO 2.7 (3.2 in 2024), MTF/att 0.19 (0.17 in 2024)",
+        "Barkley 2026: 6 g, 123 snaps, 56 car, 4.89 ypc, EPA +.018, succ 39%, stuff 19.6%, RYOE +1.01, 20+ 2, 10/7, FL 0, PFF 71.6; healthy games 30 car 165 yds 5.5 ypc",
+        "Kyren Williams (80) 2025/2026: RYOE +0.55/+0.53, EPA +.019/+.002, stuff 12.4%/8.9%, PFF 85.2/81.0, 380 snaps 2026",
+        "Bhayshul Tuten (79) 2026: RYOE +0.15, EPA -.003, stuff 17.3%, PFF 91.9, 241 snaps",
+        "Jonathan Taylor (78) 2025/2026: RYOE +0.60/+0.02, EPA +.058/-.059, stuff 15.1%/19.6%, PFF 78.1/62.8, 412 snaps 2026",
+        "Chuba Hubbard (77) 2025/2026: RYOE -0.22/+0.76, EPA -.116/+.058, stuff 12.6%/12.6%, PFF 69.9/84.1, 394 snaps 2026",
+        "Derrick Henry (76) 2025/2026: RYOE +1.05/+0.11, EPA +.030/-.113, stuff 15.3%/19.5%, SY 15/24 / 2/9, PFF 80.4/74.8, 283 snaps 2026",
+        "Eagles context: PFF team run-block grade 84.1 (2024) -> 75.9 (2025), offense EPA/play .085 -> .025 (PFF); 2026 Lane Johnson retired and Cam Jurgens traded after Week 4, Hurts out (NFL.com). Blocking explains ~half of 2025 decline; RYOE (blocking-adjusted) and YCO declines are his own"
+      ]
+    },
+    "gaps": [
+      {
+        "attribute": "OVR",
+        "ours": 76,
+        "madden": 99,
+        "delta": -23,
+        "verdict": "SUPPORTED",
+        "explanation": "-23 vs Madden 99: 2025 PFF 67.9 (43rd), RYOE/att +0.24, stuff 24.2%, success 38% = weakest full season among neighbors; 2026 per-play (RYOE +1.01, EPA +.018) beats Henry (+0.11, -.113) and Taylor (+0.02, -.059) but on 123 snaps; tie with Henry 76, below Hubbard 77 / Taylor 78 ceiling - SUPPORTED"
+      },
+      {
+        "attribute": "AWR",
+        "ours": 84,
+        "madden": 99,
+        "delta": -15,
+        "verdict": "SUPPORTED",
+        "explanation": "-15 vs Madden 99: success 38% (2025) / 39% (2026), lowest among Kyren/Tuten/Taylor/Hubbard/Henry; Taylor and Henry AWR 88; 99 is reputation - SUPPORTED"
+      },
+      {
+        "attribute": "SPM",
+        "ours": 80,
+        "madden": 95,
+        "delta": -15,
+        "verdict": "SUPPORTED",
+        "explanation": "-15 vs Madden 95: spin is not a defining move in his public profile and no public metric supports a 95; elusiveness is credited through JKM/BTK (missed tackles forced 0.19/carry in 2025, up from 0.17) - SUPPORTED"
+      },
+      {
+        "attribute": "JKM",
+        "ours": 86,
+        "madden": 96,
+        "delta": -10,
+        "verdict": "SUPPORTED",
+        "explanation": "-10 vs Madden 96: missed tackles forced rose to 0.19/carry in 2025 from 0.17 (PFF public), so elusiveness is intact; 86 sits above Taylor 76 and near Kyren/Warren 80, below Bijan 94 / Gibbs 90; 96 is 2024 reputation - SUPPORTED"
+      },
+      {
+        "attribute": "DRR",
+        "ours": 54,
+        "madden": 65,
+        "delta": -11,
+        "verdict": "SUPPORTED",
+        "explanation": "-11 vs Madden 65: targets are screens/checkdowns (51 tgt 2025, 8.0 YAC/rec), receiving EPA +12.2 (2024) -> -5.0 (2025) - SUPPORTED"
+      },
+      {
+        "attribute": "RLS",
+        "ours": 58,
+        "madden": 69,
+        "delta": -11,
+        "verdict": "SUPPORTED",
+        "explanation": "-11 vs Madden 69: same receiving profile as DRR; release vs press rarely tested - SUPPORTED"
+      },
+      {
+        "attribute": "INJ",
+        "ours": 78,
+        "madden": 91,
+        "delta": -13,
+        "verdict": "SUPPORTED",
+        "explanation": "-13 vs Madden 91: missed 0 games 2024-25 (NFL.com); 2026: stinger 9/20 (0 missed), grade-1 hamstring 10/4 (missed Wk 5-6), back/tailbone bruise 10/26 (played); age 29 - remaining -13 SUPPORTED by 2026 soft-tissue run"
+      }
+    ]
+  },
+  "style_similarity_check": {
+    "rule": "corr>=0.95 or mad<=3 flags STYLE_PROFILE_TOO_SIMILAR",
+    "compared_against": "15 approved RB re-audit ratings + PHI RB room",
+    "max_corr": [
+      "Kenneth Walker III",
+      0.947,
+      5.7
+    ],
+    "min_mad": [
+      "Jonathan Taylor",
+      0.916,
+      3.7
+    ],
+    "flags": [],
+    "result": "PASS",
+    "phi_room_recheck": {
+      "Tank Bigsby": {
+        "max_corr": [
+          "Kenneth Walker III",
+          0.941,
+          7.3
+        ],
+        "min_mad": [
+          "Braelon Allen",
+          0.924,
+          6.1
+        ],
+        "result": "PASS"
+      },
+      "Dameon Pierce": {
+        "max_corr": [
+          "Braelon Allen",
+          0.945,
+          6.4
+        ],
+        "min_mad": [
+          "Braelon Allen",
+          0.945,
+          6.4
+        ],
+        "result": "PASS"
+      },
+      "Will Shipley": {
+        "max_corr": [
+          "Bhayshul Tuten",
+          0.943,
+          5.3
+        ],
+        "min_mad": [
+          "Elijah Mitchell",
+          0.895,
+          4.3
+        ],
+        "result": "PASS"
+      },
+      "Jaydon Blue": {
+        "max_corr": [
+          "Jahmyr Gibbs",
+          0.887,
+          8.7
+        ],
+        "min_mad": [
+          "Tony Pollard",
+          0.759,
+          5.6
+        ],
+        "result": "PASS"
+      },
+      "Carson Steele": {
+        "max_corr": [
+          "Dameon Pierce",
+          0.927,
+          6.7
+        ],
+        "min_mad": [
+          "Dameon Pierce",
+          0.927,
+          6.7
+        ],
+        "result": "PASS"
+      },
+      "Elijah Mitchell": {
+        "max_corr": [
+          "Bhayshul Tuten",
+          0.91,
+          5.1
+        ],
+        "min_mad": [
+          "Will Shipley",
+          0.895,
+          4.3
+        ],
+        "result": "PASS"
+      },
+      "Saquon Barkley": {
+        "max_corr": [
+          "Kenneth Walker III",
+          0.947,
+          5.7
+        ],
+        "min_mad": [
+          "Jonathan Taylor",
+          0.916,
+          3.7
+        ],
+        "result": "PASS"
+      }
+    },
+    "history": "A2 draft with BTK 84 FAILED (corr 0.952 vs Kenneth Walker III); BTK 82 per t52s470"
+  },
+  "ceiling_check": {
+    "locked_top10_floor": "Jonathan Taylor 78 (RB.reaudit-20261103 LOCKED)",
+    "result": "PASS",
+    "overall": 76
+  },
+  "sources": [
+    "https://www.philadelphiaeagles.com/team/players-roster/",
+    "https://www.philadelphiaeagles.com/news/eagles-sign-rb-jaydon-blue-to-the-active-roster-add-three-to-the-practice-squad-dameon-pierce",
+    "https://www.nbcsportsphiladelphia.com/nfl/philadelphia-eagles/dameon-pierce-saquon-barkley-tank-bigsby-injured-reserve/762463/",
+    "https://sports.yahoo.com/articles/eagles-running-back-crisis-deepens-005001624.html",
+    "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2024.csv.gz",
+    "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+    "https://www.pff.com/grades/nfl/hb/2026",
+    "https://www.ea.com/games/madden-nfl/ratings",
+    "https://www.pff.com/news/fantasy-football-early-round-landmines-from-2025-drafts",
+    "https://www.pff.com/grades/nfl/hb/2025",
+    "https://www.nfl.com/news/eagles-rb-saquon-barkley-hamstring-active-for-monday-night-game-vs-cowboys",
+    "https://www.nfl.com/news/eagles-saquon-barkley-says-he-will-play-on-mnf-vs-bears-after-last-week-s-stinger",
+    "https://www.draftsharks.com/fantasy/injury-history/saquon-barkley/9994",
+    "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz"
+  ],
+  "btk_note": "BTK held at 82 (proposed 84 dropped per t52s470): missed tackles forced rose to 0.19/carry in 2025 (from 0.17) but yards after contact fell 3.2 -> 2.7 and stuff rate was 24.2%, so tackle-breaking stays level with Taylor/McCaffrey 82, below Walker 94 / Jacobs 88; also resolves style-check flag vs Walker"
+}

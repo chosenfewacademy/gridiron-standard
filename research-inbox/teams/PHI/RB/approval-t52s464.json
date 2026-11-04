@@ -1,0 +1,28 @@
+{
+  "record": "Commissioner approval of PHI RB Saquon Barkley revision A2 (add-only record)",
+  "record_type": "team_room_approval",
+  "team": "PHI",
+  "position": "RB",
+  "approved_by": "PhiXCrypto",
+  "approved_at": "2026-11-03T22:18:00-05:00",
+  "authorization": [
+    "t52s464 (10:18 PM ET Nov 3 2026): Move Barkley to 76 with the durability, stamina, change of direction, juke and tackle-breaking fixes",
+    "t52s470 (10:20 PM ET Nov 3 2026): Keep Barkley's BTK at 82 with the other four fixes at 76"
+  ],
+  "supersedes": {
+    "record": "research-inbox/teams/PHI/RB/approval-t50s449.json",
+    "scope": "Saquon Barkley entry only; all other PHI RB and QB approvals unchanged"
+  },
+  "players": [
+    {
+      "player": "Saquon Barkley",
+      "player_id": "saquon_barkley",
+      "overall": 76,
+      "record_file": "research-inbox/teams/PHI/RB/saquon_barkley.revision-A2-t52s464.json",
+      "record_sha256": "368b30b9d6a3ca4e3d93ccd44ac107037a1fe91f29a257a542555aa82d1ed187",
+      "decision": "APPROVED_AS_REVISED"
+    }
+  ],
+  "madden_order_verified": false,
+  "style_check_fix": "Approved draft with BTK 84 failed unique-style check (corr 0.952 vs Kenneth Walker III >= 0.95); BTK kept at 82 -> max corr ['Kenneth Walker III', 0.947, 5.7], PASS"
+}
