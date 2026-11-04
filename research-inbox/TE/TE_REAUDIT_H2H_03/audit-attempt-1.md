@@ -1,4 +1,4 @@
-# TE_REAUDIT_H2H_03 — Sam LaPorta vs T.J. Hockenson (v1.1.2 head-to-head; authorized by t45s383)
+# TE_REAUDIT_H2H_03 — Sam LaPorta vs T.J. Hockenson (v1.1.2 head-to-head; authorized by t45s389)
 
 ```json
 {
