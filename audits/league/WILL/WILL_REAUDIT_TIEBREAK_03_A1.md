@@ -1,0 +1,40 @@
+# WILL_REAUDIT_TIEBREAK_03 — Arvell Reese vs Foyesade Oluokun (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "WILL_REAUDIT_TIEBREAK_03_A1",
+  "task_id": "WILL_REAUDIT_TIEBREAK_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Arvell Reese",
+    "Foyesade Oluokun"
+  ],
+  "pair_result": {
+    "winner": "Arvell Reese",
+    "loser": "Foyesade Oluokun",
+    "provisional_order_holds": true,
+    "reasoning": "Reese's 2026 PFF 77.0 (#8) with 5 TFL, 1.5 sacks and 1 INT vs Oluokun's 70.6 (#18); Oluokun's 2025 (74.4 on 1,100) is the larger sample, but the rookie grades higher now.",
+    "key_evidence_for_winner": [
+      "Arvell Reese (NYG) role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 438 / SAM 0 / edge 0 (raw snapshots WILL26 240) -> WILL; roster ACT (LB); injuries no injury designation 2025-26",
+      "Arvell Reese 2026: Arvell Reese 2026: PFF LB 2026 overall 77 on 438 snaps (LB rank 8; 176 run-def / 186 coverage / 76 pass-rush snaps); PFR 2026 (7 games) coverage 26 targets / 22 completions / 106 yds / 1 INT; 56 tackles, 3 missed; 5 pressures on 40 blitzes; 7 g / 438 def snaps; 38 solo + 17 ast tackles, 5 TFL, 1.5 sacks, 1 INT, 4 PD, 0 FF; 0 accepted penalties; PFR 2026 (7 games) coverage 26 targets / 22 completions / 106 yds / 1 INT; 56 tackles, 3 missed; 5 pressures on 40 blitzes",
+      "Arvell Reese 2025: Arvell Reese 2025: no PFF LB grade 2025; no PFR 2025 line; no snaps; no stats; 0 accepted penalties; no PFR 2025 line"
+    ],
+    "key_evidence_for_loser": [
+      "Foyesade Oluokun (JAX) role snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1422 / SAM 0 / edge 0 (raw snapshots WILL25 221, WILL26 275) -> WILL; roster ACT (LB); injuries no injury designation 2025-26",
+      "Foyesade Oluokun 2026: Foyesade Oluokun 2026: PFF LB 2026 overall 70.6 on 386 snaps (LB rank 18; 124 run-def / 217 coverage / 45 pass-rush snaps); PFR 2026 (6 games) coverage 29 targets / 22 completions / 195 yds / 2 INT; 42 tackles, 5 missed; 4 pressures on 22 blitzes; 7 g / 386 def snaps; 29 solo + 20 ast tackles, 3 TFL, 1.0 sacks, 2 INT, 2 PD, 1 FF; 0 accepted penalties; PFR 2026 (6 games) coverage 29 targets / 22 completions / 195 yds / 2 INT; 42 tackles, 5 missed; 4 pressures on 22 blitzes",
+      "Foyesade Oluokun 2025: Foyesade Oluokun 2025: PFF LB 2025 overall 74.4 on 1100 snaps (LB rank 21; 354 run-def / 625 coverage / 121 pass-rush snaps); PFR 2025 coverage 78 targets / 64 completions / 566 yds / passer rating 91.6 / 1 INT; 143 tackles, 18 missed; 5 pressures on 72 blitzes, 1 sacks; 17 g / 1036 def snaps; 68 solo + 74 ast tackles, 5 TFL, 1.0 sacks, 1 INT, 11 PD, 2 FF; 1 accepted penalties; PFR 2025 coverage 78 targets / 64 completions / 566 yds / passer rating 91.6 / 1 INT; 143 tackles, 18 missed; 5 pressures on 72 blitzes, 1 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
