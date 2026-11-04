@@ -7676,7 +7676,7 @@
         "position": "REDGE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/REDGE.reaudit.json",
       "baseline_file": null,
@@ -7723,7 +7723,8 @@
         "REDGE_REAUDIT_TIEBREAK_02",
         "REDGE_REAUDIT_TIEBREAK_03",
         "REDGE_REAUDIT_TIEBREAK_04",
-        "REDGE_REAUDIT_VARIANCE_AUDIT"
+        "REDGE_REAUDIT_VARIANCE_AUDIT",
+        "REDGE_REAUDIT_SCARCITY"
       ],
       "audit_ids": [
         "REDGE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -7770,18 +7771,14 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "REDGE_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T04:38:28.138Z",
+      "updated_at": "2026-11-04T04:38:34.421Z",
       "last_result": {
         "task_id": "REDGE_REAUDIT_SCARCITY",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "REDGE_REAUDIT_SCARCITY",
-        "audit_id": "REDGE_REAUDIT_SCARCITY_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -8104,6 +8101,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T04:38:08Z",
           "note": "Standing commissioner approval t46u: Approved variance fix (REDGE_REAUDIT_VARIANCE_AUDIT, t46u): TAK 76->80 (0 missed tackles in 2026, 3 in 2025 on 38 tackles). OVR unchanged."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "REDGE_REAUDIT_SCARCITY",
+          "audit_id": "REDGE_REAUDIT_SCARCITY_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T04:38:34Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
     }
