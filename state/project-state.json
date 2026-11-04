@@ -20847,7 +20847,7 @@
         "position": "K",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/K.reaudit.json",
       "baseline_file": "data/baselines/K.reaudit-20261104.json",
@@ -20857,7 +20857,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:08:24Z",
-      "updated_at": "2026-11-04T19:08:26.507Z",
+      "updated_at": "2026-11-04T19:08:26.869Z",
       "audit_ids": [
         "K_REAUDIT_CANDIDATE_AUDIT_A1",
         "K_REAUDIT_BG_01_A1",
@@ -20944,7 +20944,8 @@
         "K_REAUDIT_TIEBREAK_05",
         "K_REAUDIT_TIEBREAK_06",
         "K_REAUDIT_TIEBREAK_07",
-        "K_REAUDIT_TIEBREAK_08"
+        "K_REAUDIT_TIEBREAK_08",
+        "K_REAUDIT_TIEBREAK_09"
       ],
       "approvals": [
         {
@@ -21488,21 +21489,19 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T19:08:25Z",
           "note": "User-approved batch t56s532 (t56s540 engine: approved tiebreaks order tied players)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "K_REAUDIT_TIEBREAK_09",
+          "audit_id": "K_REAUDIT_TIEBREAK_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:08:26Z",
+          "note": "User-approved batch t56s532 (t56s540 engine: approved tiebreaks order tied players)"
         }
       ],
       "current_stage": "carry_forward",
       "current_task": null,
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "K_REAUDIT_TIEBREAK_09",
-        "audit_id": "K_REAUDIT_TIEBREAK_09_A1",
-        "pending": [
-          {
-            "task_id": "K_REAUDIT_TIEBREAK_09",
-            "audit_id": "K_REAUDIT_TIEBREAK_09_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "last_result": {
         "task_id": "K_REAUDIT_TIEBREAK_09",
         "status": "FLAGGED",
