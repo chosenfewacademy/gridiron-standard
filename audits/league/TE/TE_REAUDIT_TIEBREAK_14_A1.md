@@ -1,0 +1,39 @@
+# TE_REAUDIT_TIEBREAK_14 — Hunter Henry vs Isaiah Likely (v1.1.2 head-to-head tiebreak; authorized by t45s389)
+
+```json
+{
+  "audit_id": "TE_REAUDIT_TIEBREAK_14_A1",
+  "task_id": "TE_REAUDIT_TIEBREAK_14",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Hunter Henry",
+    "Isaiah Likely"
+  ],
+  "pair_result": {
+    "winner": "Hunter Henry",
+    "loser": "Isaiah Likely",
+    "provisional_order_holds": true,
+    "reasoning": "Henry leads 2026 EPA/tgt (+.554 vs +.223), YPRR (1.68 vs 1.59), YAC (6.3 vs 2.9), block share (.44 vs .33; 152 vs 121 block snaps) and 2025 (768 yds, 7 TD, PFF 72.5, EPA/tgt +.433 vs 307 yds, +.150). Likely leads 2026 PFF (77.3 vs 75.2), volume (64 vs 34 tgt) and TD (5 vs 2). Order holds.",
+    "key_evidence_for_winner": [
+      "Hunter Henry PFF TE overall grade 2026 75.2, 2025 72.5; 2026 PFF snaps {'off': '346', 'routes': '194', 'pblk': '35', 'rblk': '117'} (block share 0.44); 2025 PFF snaps {'off': '1066', 'routes': '601', 'pblk': '67', 'rblk': '398'} (block share 0.44); age 31, 77 in 250 lb",
+      "Hunter Henry (NE) 2026: 8 g 34 tgt 326 yds 2 TD, EPA/tgt 0.554, YPRR 1.68, TPRR 0.175, NGS sep 4.35, aDOT 6.0, deep 1 tgt catch 0.0 EPA/tgt -4.12, short catch 0.91, YAC/rec 6.3, RZ tgt 5, 3rd/4th conv 5/8, fum lost 0",
+      "Hunter Henry (NE) 2025: 17 g 87 tgt 768 yds 7 TD, EPA/tgt 0.433, YPRR 1.28, TPRR 0.145, NGS sep 2.99, aDOT 8.2, deep 8 tgt catch 0.38 EPA/tgt -0.17, short catch 0.7, YAC/rec 5.6, RZ tgt 22, 3rd/4th conv 14/27, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Isaiah Likely PFF TE overall grade 2026 77.3, 2025 None; 2026 PFF snaps {'off': '370', 'routes': '249', 'pblk': '4', 'rblk': '117'} (block share 0.33); 2025 PFF snaps None (block share None); age 26, 76 in 241 lb",
+      "Isaiah Likely (NYG) 2026: 7 g 64 tgt 395 yds 5 TD, EPA/tgt 0.223, YPRR 1.59, TPRR 0.257, NGS sep 2.73, aDOT 8.0, deep 6 tgt catch 0.33 EPA/tgt 0.73, short catch 0.72, YAC/rec 2.9, RZ tgt 10, 3rd/4th conv 10/18, fum lost 0",
+      "Isaiah Likely (BAL) 2025: 12 g 36 tgt 307 yds 1 TD, EPA/tgt 0.15, YPRR None, TPRR None, NGS sep None, aDOT 8.0, deep 3 tgt catch 0.67 EPA/tgt 0.86, short catch 0.83, YAC/rec 4.3, RZ tgt 6, 3rd/4th conv 5/12, fum lost 1"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
