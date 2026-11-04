@@ -469,6 +469,27 @@
       "citations": [
         "nflverse_snaps_2026#2"
       ]
+    },
+    {
+      "player": "Kolton Miller",
+      "player_id": "kolton_miller",
+      "team": "LV",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 ACT/A01"
+      },
+      "flags": [
+        "COMMISSIONER_REINCLUDED",
+        "FIRST_OUT",
+        "LOCKED_MEMBER_OUT"
+      ],
+      "reasoning": "Re-included by commissioner (t45s395 review, t45s401) as a first-out: locked LT #10; ESPN PBWR 92% (#5 OT, through Week 7), 0 penalties 2025-26; PFF 2026 69.8; 2025 only 4 games (ankle).",
+      "citations": [
+        "nflverse_snaps_2026#5"
+      ],
+      "added_by_amendment": "LT_POOL_AMEND_01"
     }
   ],
   "exclusions": [
@@ -798,5 +819,20 @@
   },
   "approved_by": "PhiXCrypto (commissioner)",
   "approved_at": "2026-11-02T04:29:56.761Z",
-  "approved_from": "data/candidate-pools/LT.reaudit.proposed.json"
+  "approved_from": "data/candidate-pools/LT.reaudit.proposed.json",
+  "amendments": [
+    {
+      "amendment_id": "LT_POOL_AMEND_01",
+      "type": "ADD_ONLY_CONTENTION_ADDITION",
+      "players": [
+        "Kolton Miller"
+      ],
+      "contention_additions": [
+        "Kolton Miller"
+      ],
+      "approved_by": "PhiXCrypto",
+      "approved_at": "2026-11-04T01:54:21Z",
+      "note": "Authorized by t45s401 (8:53 PM ET Nov 3): add old LT lock #10 Kolton Miller as a first-out (BELOW_CUTOFF exclusion kept as history); rate fully."
+    }
+  ]
 }
