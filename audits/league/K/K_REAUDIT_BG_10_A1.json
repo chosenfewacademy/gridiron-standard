@@ -1,0 +1,202 @@
+{
+  "audit_id": "K_REAUDIT_BG_10_A1",
+  "task_id": "K_REAUDIT_BG_10",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "player_id": "ext_00-0031136",
+  "players": [
+    "Chris Boswell"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Chris Boswell",
+    "player_id": "ext_00-0031136",
+    "team": "PIT",
+    "role_assignment": "K (placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K)",
+    "side_rule": "KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflverse play-by-play (kickoff specialists included); matched by gsis id. Evidence: FG% by distance band (0-39/40-49/50-59/60+), longest FG, FG EPA (nflverse pbp), XP%, kickoff touchback %, return average and out-of-bounds, PFF K overall (2025-26). THIN DATA: no public kickoff hang time (NFL Next Gen Stats does not publish it); kickoff EPA in pbp is noise-dominated by coverage and was not used to rank. Madden position is reference only.",
+    "seasons": {
+      "2025": {
+        "fg": {
+          "0-39": [
+            8,
+            10
+          ],
+          "40-49": [
+            10,
+            11
+          ],
+          "50-59": [
+            8,
+            10
+          ],
+          "60+": [
+            1,
+            1
+          ],
+          "fgm": 27,
+          "fga": 32,
+          "long": 60,
+          "blocked": 1,
+          "fg_epa": 17.3,
+          "games": 13
+        },
+        "xp": [
+          42,
+          43
+        ],
+        "xp_epa": 1.8,
+        "ko": {
+          "n": 88,
+          "tb": 7,
+          "tb_pct": 8,
+          "ret_avg": 23.6,
+          "oob": 1,
+          "epa": -10.9,
+          "games": 17
+        },
+        "pen": 3,
+        "pffk": {
+          "ovr": 92.5,
+          "snaps": null,
+          "rank": 4
+        }
+      },
+      "2026": {
+        "fg": {
+          "0-39": [
+            10,
+            10
+          ],
+          "40-49": [
+            4,
+            6
+          ],
+          "50-59": [
+            4,
+            7
+          ],
+          "60+": [
+            0,
+            0
+          ],
+          "fgm": 18,
+          "fga": 23,
+          "long": 58,
+          "blocked": 0,
+          "fg_epa": -1.2,
+          "games": 8
+        },
+        "xp": [
+          16,
+          16
+        ],
+        "xp_epa": 1.1,
+        "ko": {
+          "n": 41,
+          "tb": 7,
+          "tb_pct": 17.1,
+          "ret_avg": 27.6,
+          "oob": 0,
+          "epa": -11.9,
+          "games": 8
+        },
+        "pffk": {
+          "ovr": 62.7,
+          "snaps": null,
+          "rank": 20
+        }
+      }
+    },
+    "injuries": null,
+    "summary_lines": [
+      "Chris Boswell (PIT) Chris Boswell 2026: PFF K 2026 overall 62.7 (K rank 20); 2026 kickoffs 41, touchback 7 (17.1%), return avg 27.6, 0 out of bounds; 0 accepted penalties",
+      "Chris Boswell 2025: PFF K 2025 overall 92.5 (K rank 4); 2025 kickoffs 88, touchback 7 (8.0%), return avg 23.6, 1 out of bounds; 3 accepted penalties",
+      "Chris Boswell role: placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K (KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflve...); roster position K; Madden card K (reference only)",
+      "Chris Boswell injury reports: no injury designation 2025-26; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "No public kickoff hang time; PFF K sub-grades paywalled; substitutes: FG% by distance band, longest FG, FG EPA, XP%, kickoff touchback %/return average (nflverse pbp), PFF K overall"
+    ],
+    "attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "thin_data": false,
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/k/2026",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/k/2025",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:39Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
