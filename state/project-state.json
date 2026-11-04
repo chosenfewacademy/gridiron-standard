@@ -6124,7 +6124,7 @@
         "position": "RG",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/RG.reaudit.json",
       "baseline_file": null,
@@ -6173,7 +6173,8 @@
         "RG_REAUDIT_TIEBREAK_04",
         "RG_REAUDIT_TIEBREAK_05",
         "RG_REAUDIT_TIEBREAK_06",
-        "RG_REAUDIT_VARIANCE_AUDIT"
+        "RG_REAUDIT_VARIANCE_AUDIT",
+        "RG_REAUDIT_SCARCITY"
       ],
       "audit_ids": [
         "RG_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -6222,18 +6223,14 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "RG_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T03:50:33.929Z",
+      "updated_at": "2026-11-04T03:50:42.982Z",
       "last_result": {
         "task_id": "RG_REAUDIT_SCARCITY",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "RG_REAUDIT_SCARCITY",
-        "audit_id": "RG_REAUDIT_SCARCITY_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -6572,6 +6569,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:50:22Z",
           "note": "Standing commissioner approval t46u: Approved variance fix (RG_REAUDIT_VARIANCE_AUDIT, t46u): AWR 78->82 (6 penalties over two seasons, same as Dotson). OVR unchanged."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RG_REAUDIT_SCARCITY",
+          "audit_id": "RG_REAUDIT_SCARCITY_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:50:42Z",
+          "note": "Standing commissioner approval t46u: scarcity PASS"
         }
       ]
     }
