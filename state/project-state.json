@@ -20847,7 +20847,7 @@
         "position": "K",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/K.reaudit.json",
       "baseline_file": "data/baselines/K.reaudit-20261104.json",
@@ -20857,7 +20857,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:08:24Z",
-      "updated_at": "2026-11-04T19:08:24Z",
+      "updated_at": "2026-11-04T19:08:25.474Z",
       "audit_ids": [
         "K_REAUDIT_CANDIDATE_AUDIT_A1",
         "K_REAUDIT_BG_01_A1",
@@ -20899,7 +20899,8 @@
         "K_REAUDIT_TIEBREAK_05_A1",
         "K_REAUDIT_TIEBREAK_06_A1",
         "K_REAUDIT_RATE_02_A2",
-        "K_REAUDIT_TIEBREAK_07_A1"
+        "K_REAUDIT_TIEBREAK_07_A1",
+        "K_REAUDIT_TIEBREAK_08_A1"
       ],
       "completed_tasks": [
         "K_REAUDIT_CANDIDATE_AUDIT",
@@ -21481,16 +21482,22 @@
       ],
       "current_stage": "carry_forward",
       "current_task": null,
-      "awaiting": null,
+      "awaiting": {
+        "reason": "TIEBREAK_REVIEW",
+        "task_id": "K_REAUDIT_TIEBREAK_08",
+        "audit_id": "K_REAUDIT_TIEBREAK_08_A1",
+        "pending": [
+          {
+            "task_id": "K_REAUDIT_TIEBREAK_08",
+            "audit_id": "K_REAUDIT_TIEBREAK_08_A1"
+          }
+        ]
+      },
       "last_result": {
-        "status": "CARRIED_FORWARD",
-        "carried_from": "K_REAUDIT_LOCK_20261104",
-        "carried": 41,
-        "rerun": [
-          "K_REAUDIT_VARIANCE_AUDIT",
-          "K_REAUDIT_SCARCITY",
-          "K_REAUDIT_CROSS_AUDIT",
-          "K_REAUDIT_LOCK"
+        "task_id": "K_REAUDIT_TIEBREAK_08",
+        "status": "FLAGGED",
+        "flags": [
+          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       }
     }
