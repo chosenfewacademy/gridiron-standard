@@ -1,0 +1,78 @@
+{
+ "supplement_to": "research-inbox/DT/DT_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-t46u.json",
+ "authorized_by": "t46u",
+ "add_only": true,
+ "player": "Byron Young",
+ "player_id": "00-0038978",
+ "pfr_id": "YounBy00",
+ "team": "PHI",
+ "separation": "Stats separated by ID from LA edge Byron Young (00-0039137 / YounBy01): nflverse snap counts by pfr_player_id, stats_player by player_id, pbp penalties by penalty_player_id, PFR 2025 season row tm=PHI pos=DT, PFR 2026 weekly rows by pfr_player_id (none for YounBy00), PFF DI table (philadelphia-eagles).",
+ "inputs": {
+  "pff2025": {
+   "ovr": 49.5,
+   "snaps": 350
+  },
+  "pff2026": {
+   "ovr": 56.0,
+   "snaps": 151
+  },
+  "defensive_snaps": {
+   "y2025": 338,
+   "y2026": 151
+  },
+  "games": {
+   "y2025": 17,
+   "y2026": 8
+  },
+  "pressures": {
+   "y2025": 6,
+   "y2026": 0
+  },
+  "missed_tackles": {
+   "y2025": 1,
+   "y2026": 0
+  },
+  "accepted_penalties": {
+   "y2025": 1,
+   "y2026": 0
+  },
+  "sacks": {
+   "y2025": 2.5,
+   "y2026": 0
+  }
+ },
+ "row": {
+  "name": "Byron Young (PHI, 00-0038978)",
+  "team": "PHI",
+  "status": "ACT",
+  "snaps": 489,
+  "pff": 51.5,
+  "value": 0.24,
+  "efficiency": 1.2,
+  "negative_rate": 4.1,
+  "availability": 1.0,
+  "side": null
+ },
+ "references": [
+  "Alim McNeill",
+  "Jalen Redmond"
+ ],
+ "thresholds": {
+  "pff": 63.9,
+  "value": 0.62,
+  "efficiency": 1.3,
+  "negative_rate": 5.4,
+  "availability": 0.68
+ },
+ "hits": [
+  "availability",
+  "negative_rate"
+ ],
+ "flagged": false,
+ "result": "NOT FLAGGED: hits only negative_rate and availability (2 of 5, no production metric); below McNeill/Redmond refs on PFF (51.5 vs 63.9), value (0.24 vs 0.62) and efficiency (1.2 vs 1.3). No tiebreak needed; lock unchanged.",
+ "rerun": {
+  "screened": 250,
+  "flagged_total": 45
+ },
+ "rating_changes": []
+}
