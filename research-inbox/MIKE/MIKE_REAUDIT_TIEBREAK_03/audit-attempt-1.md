@@ -1,0 +1,40 @@
+# MIKE_REAUDIT_TIEBREAK_03 — Carson Schwesinger vs Trenton Simpson (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "MIKE_REAUDIT_TIEBREAK_03_A1",
+  "task_id": "MIKE_REAUDIT_TIEBREAK_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "MIKE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Carson Schwesinger",
+    "Trenton Simpson"
+  ],
+  "pair_result": {
+    "winner": "Carson Schwesinger",
+    "loser": "Trenton Simpson",
+    "provisional_order_holds": true,
+    "reasoning": "Schwesinger's 1,477 PFF snaps at 75.3 / 66.0 with 14 TFL and 3.5 sacks vs Simpson's 727 at 70.7 / 78.1; Simpson's 2026 is better, but Schwesinger's every-down volume and 2025 grade hold up.",
+    "key_evidence_for_winner": [
+      "Carson Schwesinger (CLE) role snap-weighted 2025-26 depth-chart role shares MIKE 1472 / WILL 4 / SAM 0 / edge 0 (raw snapshots MIKE25 220, WILL25 1, MIKE26 275) -> MIKE; roster ACT (LB); injuries wk10 Questionable (Ankle); wk18 Out (Ankle); wk6 Questionable (Ankle)",
+      "Carson Schwesinger 2026: Carson Schwesinger 2026: PFF LB 2026 overall 66 on 519 snaps (LB rank 30; 213 run-def / 264 coverage / 42 pass-rush snaps); PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes; 8 g / 520 def snaps; 28 solo + 44 ast tackles, 3 TFL, 1.0 sacks, 0 INT, 1 PD, 2 FF; 0 accepted penalties; PFR 2026 (7 games) coverage 22 targets / 14 completions / 207 yds / 0 INT; 64 tackles, 3 missed; 3 pressures on 18 blitzes",
+      "Carson Schwesinger 2025: Carson Schwesinger 2025: PFF LB 2025 overall 75.3 on 958 snaps (LB rank 18; 410 run-def / 475 coverage / 73 pass-rush snaps); PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks; 16 g / 956 def snaps; 58 solo + 89 ast tackles, 11 TFL, 2.5 sacks, 2 INT, 3 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 49 targets / 37 completions / 339 yds / passer rating 104 / 2 INT; 156 tackles, 10 missed; 9 pressures on 56 blitzes, 2.5 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Trenton Simpson (BAL) role snap-weighted 2025-26 depth-chart role shares MIKE 728 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE25 221, MIKE26 275) -> MIKE; roster ACT (LB); injuries no injury designation 2025-26",
+      "Trenton Simpson 2026: Trenton Simpson 2026: PFF LB 2026 overall 78.1 on 321 snaps (LB rank 7; 159 run-def / 122 coverage / 40 pass-rush snaps); PFR 2026 (7 games) coverage 19 targets / 13 completions / 71 yds / 1 INT; 47 tackles, 1 missed; 2 pressures on 9 blitzes; 8 g / 321 def snaps; 26 solo + 24 ast tackles, 6 TFL, 1.0 sacks, 1 INT, 1 PD, 0 FF; 3 accepted penalties; PFR 2026 (7 games) coverage 19 targets / 13 completions / 71 yds / 1 INT; 47 tackles, 1 missed; 2 pressures on 9 blitzes",
+      "Trenton Simpson 2025: Trenton Simpson 2025: PFF LB 2025 overall 70.7 on 406 snaps (LB rank 27; 158 run-def / 200 coverage / 48 pass-rush snaps); PFR 2025 coverage 27 targets / 20 completions / 136 yds / passer rating 84.8 / 0 INT; 66 tackles, 3 missed; 6 pressures on 16 blitzes, 2.5 sacks; 16 g / 407 def snaps; 32 solo + 32 ast tackles, 4 TFL, 2.5 sacks, 0 INT, 1 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 27 targets / 20 completions / 136 yds / passer rating 84.8 / 0 INT; 66 tackles, 3 missed; 6 pressures on 16 blitzes, 2.5 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
