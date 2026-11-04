@@ -11904,7 +11904,7 @@
         "position": "FS",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/FS.reaudit.json",
       "baseline_file": null,
@@ -11953,7 +11953,8 @@
         "FS_REAUDIT_TIEBREAK_04",
         "FS_REAUDIT_TIEBREAK_05",
         "FS_REAUDIT_TIEBREAK_06",
-        "FS_REAUDIT_VARIANCE_AUDIT"
+        "FS_REAUDIT_VARIANCE_AUDIT",
+        "FS_REAUDIT_SCARCITY"
       ],
       "audit_ids": [
         "FS_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -12002,18 +12003,14 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "FS_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T12:26:22.322Z",
+      "updated_at": "2026-11-04T12:26:22.588Z",
       "last_result": {
         "task_id": "FS_REAUDIT_SCARCITY",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "FS_REAUDIT_SCARCITY",
-        "audit_id": "FS_REAUDIT_SCARCITY_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -12352,6 +12349,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T12:26:16Z",
           "note": "Standing commissioner approval t46u: Approved variance fix (FS_REAUDIT_VARIANCE_AUDIT, t46u): AGI 92->86 (movement trait, LOW confidence, no public tracking data; 2026 coverage results su"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "FS_REAUDIT_SCARCITY",
+          "audit_id": "FS_REAUDIT_SCARCITY_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T12:26:22Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
     }
