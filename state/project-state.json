@@ -14446,6 +14446,23 @@
           "note": "Standing commissioner approval t46u: LS positional cross-audit approved"
         }
       ]
+    },
+    {
+      "type": "TOP10_REAUDIT",
+      "position": "QB",
+      "task": {
+        "position": "QB",
+        "stage": "top10_reaudit"
+      },
+      "status": "QUEUED_NOT_STARTED",
+      "position_state_at_trigger": "LOCKED",
+      "pool_file": "data/candidate-pools/QB.reaudit.json",
+      "baseline_file": "data/baselines/QB.reaudit-20261102.json",
+      "supersedes_lock_audit_id": "QB_REAUDIT_LOCK_20261102",
+      "requested_by": "PhiXCrypto",
+      "requested_at": "2026-11-04T14:08:02.420Z",
+      "trigger": "COMMISSIONER_EXPLICIT",
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
     }
   ]
 }
