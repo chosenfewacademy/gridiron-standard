@@ -5066,7 +5066,7 @@
         "position": "LG",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "IN_PROGRESS",
       "pool_file": "data/candidate-pools/LG.reaudit.json",
       "baseline_file": null,
@@ -5116,7 +5116,8 @@
         "LG_REAUDIT_TIEBREAK_05",
         "LG_REAUDIT_TIEBREAK_06",
         "LG_REAUDIT_TIEBREAK_07",
-        "LG_REAUDIT_TIEBREAK_08"
+        "LG_REAUDIT_TIEBREAK_08",
+        "LG_REAUDIT_VARIANCE_AUDIT"
       ],
       "audit_ids": [
         "LG_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -5164,7 +5165,7 @@
       ],
       "current_stage": "variance_audit",
       "current_task": "LG_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T03:20:37.205Z",
+      "updated_at": "2026-11-04T03:20:56.500Z",
       "last_result": {
         "task_id": "LG_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
@@ -5173,11 +5174,7 @@
           "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LG_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "LG_REAUDIT_VARIANCE_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -5506,6 +5503,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:19:45Z",
           "note": "Standing commissioner approval t46u/t50s441 (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LG_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "LG_REAUDIT_VARIANCE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:20:56Z",
+          "note": "Standing commissioner approval t46u/t50s441: variance audit approved; the 4 drafted evidence-backed fixes are applied via reaudit:revise"
         }
       ]
     }
