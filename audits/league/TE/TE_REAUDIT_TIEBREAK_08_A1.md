@@ -1,0 +1,39 @@
+# TE_REAUDIT_TIEBREAK_08 — Dallas Goedert vs Colston Loveland (v1.1.2 head-to-head tiebreak; authorized by t45s383)
+
+```json
+{
+  "audit_id": "TE_REAUDIT_TIEBREAK_08_A1",
+  "task_id": "TE_REAUDIT_TIEBREAK_08",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Dallas Goedert",
+    "Colston Loveland"
+  ],
+  "pair_result": {
+    "winner": "Dallas Goedert",
+    "loser": "Colston Loveland",
+    "provisional_order_holds": true,
+    "reasoning": "77 tie after drafted revision. Goedert leads 2026 PFF (74.9 vs 65.8), EPA/tgt (+.263 vs -.041), YPRR (1.58 vs 0.93) and 2025 TD (11 vs 6). Loveland leads 2025 (PFF 84.0 vs 66.7, 713 vs 591 yds, EPA/tgt +.572 vs +.441), blocking (block share .49 vs .39 in 2026) and age (22 vs 31). Goedert narrowly on current play; proposed Loveland 76.",
+    "key_evidence_for_winner": [
+      "Dallas Goedert PFF TE overall grade 2026 74.9, 2025 66.7; 2026 PFF snaps {'off': '269', 'routes': '163', 'pblk': '16', 'rblk': '89'} (block share 0.39); 2025 PFF snaps {'off': '853', 'routes': '494', 'pblk': '21', 'rblk': '337'} (block share 0.42); age 31, 77 in 256 lb",
+      "Dallas Goedert (PHI) 2026: 6 g 35 tgt 258 yds 2 TD, EPA/tgt 0.263, YPRR 1.58, TPRR 0.215, NGS sep 2.97, aDOT 5.7, deep 0 tgt catch None EPA/tgt None, short catch 0.71, YAC/rec 3.6, RZ tgt 3, 3rd/4th conv 6/11, fum lost 0",
+      "Dallas Goedert (PHI) 2025: 15 g 82 tgt 591 yds 11 TD, EPA/tgt 0.441, YPRR 1.2, TPRR 0.166, NGS sep 3.31, aDOT 7.1, deep 6 tgt catch 0.67 EPA/tgt 1.14, short catch 0.81, YAC/rec 3.9, RZ tgt 15, 3rd/4th conv 5/16, fum lost 0"
+    ],
+    "key_evidence_for_loser": [
+      "Colston Loveland PFF TE overall grade 2026 65.8, 2025 84.0; 2026 PFF snaps {'off': '519', 'routes': '263', 'pblk': '33', 'rblk': '223'} (block share 0.49); 2025 PFF snaps {'off': '818', 'routes': '484', 'pblk': '29', 'rblk': '304'} (block share 0.41); age 22, 78 in 241 lb",
+      "Colston Loveland (CHI) 2026: 7 g 42 tgt 244 yds 2 TD, EPA/tgt -0.041, YPRR 0.93, TPRR 0.16, NGS sep 3.0, aDOT 6.9, deep 2 tgt catch 0.5 EPA/tgt 0.53, short catch 0.76, YAC/rec 4.1, RZ tgt 10, 3rd/4th conv 4/12, fum lost 0",
+      "Colston Loveland (CHI) 2025: 16 g 83 tgt 713 yds 6 TD, EPA/tgt 0.572, YPRR 1.47, TPRR 0.171, NGS sep 3.67, aDOT 9.1, deep 9 tgt catch 0.44 EPA/tgt 1.25, short catch 0.79, YAC/rec 4.3, RZ tgt 15, 3rd/4th conv 15/26, fum lost 0"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
