@@ -1,0 +1,157 @@
+{
+  "audit_id": "P_REAUDIT_BG_10_A1",
+  "task_id": "P_REAUDIT_BG_10",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "P",
+  "player_id": "ext_00-0036313",
+  "players": [
+    "Braden Mann"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Braden Mann",
+    "player_id": "ext_00-0036313",
+    "team": "PHI",
+    "role_assignment": "P (punter (punt attempts in nflverse pbp); roster position P)",
+    "side_rule": "PUNTER ROLE CONVENTION (t46u): rated as P = any player with 2025-26 punt attempts in nflverse play-by-play; matched by gsis id. Evidence: gross and net average, inside-20 count/rate, touchbacks, fair catches, return yards allowed, blocks, punt EPA (nflverse pbp), PFF P overall (2025-26). THIN DATA: no public punt hang time (not in pbp, PFF free tables or Next Gen Stats); fair catches and return yards are the proxy. Madden position is reference only.",
+    "seasons": {
+      "2025": {
+        "punt": {
+          "n": 72,
+          "gross": 49.9,
+          "net": 42.8,
+          "i20": 20,
+          "i20_pct": 27.8,
+          "tb": 8,
+          "fc": 11,
+          "ret_yds": 350,
+          "returned": 34,
+          "blocked": 0,
+          "long": 70,
+          "epa": -4.1,
+          "epa_per": -0.057,
+          "games": 17
+        },
+        "pffp": {
+          "ovr": 80.9,
+          "snaps": null,
+          "rank": 7
+        }
+      },
+      "2026": {
+        "punt": {
+          "n": 41,
+          "gross": 47.4,
+          "net": 41.5,
+          "i20": 20,
+          "i20_pct": 48.8,
+          "tb": 2,
+          "fc": 4,
+          "ret_yds": 202,
+          "returned": 20,
+          "blocked": 0,
+          "long": 65,
+          "epa": 3,
+          "epa_per": 0.074,
+          "games": 8
+        },
+        "pffp": {
+          "ovr": 73.4,
+          "snaps": null,
+          "rank": 14
+        }
+      }
+    },
+    "injuries": null,
+    "summary_lines": [
+      "Braden Mann (PHI) Braden Mann 2026: PFF P 2026 overall 73.4 (P rank 14); 2026 8 games punting; 0 accepted penalties",
+      "Braden Mann 2025: PFF P 2025 overall 80.9 (P rank 7); 2025 17 games punting; 0 accepted penalties",
+      "Braden Mann role: punter (punt attempts in nflverse pbp); roster position P (PUNTER ROLE CONVENTION (t46u): rated as P = any player with 2025-26 punt attempts in nflverse play-by-play; matched by g...); roster position P; Madden card P (reference only)",
+      "Braden Mann injury reports: no injury designation 2025-26; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "No public punt hang time; PFF P sub-grades paywalled; substitutes: net/gross, inside-20, touchbacks, fair catches and return yards (hang proxy), punt EPA (nflverse pbp), PFF P overall"
+    ],
+    "attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "thin_data": false,
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/p/2026",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/p/2025",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:56:24Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
