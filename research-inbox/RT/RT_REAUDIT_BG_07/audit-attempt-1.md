@@ -1,0 +1,162 @@
+# RT_REAUDIT_BG_07 — Luke Goedeke background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "RT_REAUDIT_BG_07_A1",
+  "task_id": "RT_REAUDIT_BG_07",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "player_id": "ext_00-0037835",
+  "players": [
+    "Luke Goedeke"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Luke Goedeke",
+    "player_id": "ext_00-0037835",
+    "team": "TB",
+    "pff": {
+      "2025": {
+        "rank": 25,
+        "pff": 75.7,
+        "team": "tampa-bay-buccaneers",
+        "off": 676,
+        "pblk": 416,
+        "rblk": 260,
+        "age": 27.9,
+        "qual": true,
+        "roster": "A"
+      },
+      "2026": {
+        "rank": 16,
+        "pff": 75.3,
+        "team": "tampa-bay-buccaneers",
+        "off": 459,
+        "pblk": 266,
+        "rblk": 193,
+        "age": 27.9,
+        "qual": true,
+        "roster": "A"
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 11,
+        "off": 675
+      },
+      "2026": {
+        "games": 7,
+        "off": 460
+      }
+    },
+    "penalties": {
+      "2025": {
+        "total": 6,
+        "types": {
+          "False Start": 4,
+          "Offensive Holding": 2
+        }
+      },
+      "2026": {
+        "total": 5,
+        "types": {
+          "False Start": 3,
+          "Offensive Holding": 2
+        }
+      }
+    },
+    "depth_chart_side": {
+      "2025": {
+        "RT": 168
+      },
+      "2026": {
+        "RT": 224
+      }
+    },
+    "espn_win_rates": "OT PBWR 88% (top 20)",
+    "injuries": {
+      "2025": [
+        "wk2 Questionable (Foot)",
+        "wk10 Questionable (Foot)"
+      ],
+      "2026": [
+        "wk7 Out (Calf)",
+        "wk8 Questionable (Calf)"
+      ]
+    },
+    "summary_lines": [
+      "Luke Goedeke (TB) 2026: PFF 2026 75.3 (rank 16, 459 snaps: 266 pass-block / 193 run-block, pass share 0.58); 7 g / 460 off snaps; 5 accepted penalties {'False Start': 3, 'Offensive Holding': 2}; depth-chart side {'RT': 224}",
+      "Luke Goedeke 2025: PFF 2025 75.7 (rank 25, 676 snaps: 416 pass-block / 260 run-block, pass share 0.62); 11 g / 675 off snaps; 6 accepted penalties {'False Start': 4, 'Offensive Holding': 2}; side {'RT': 168}",
+      "Luke Goedeke ESPN pass/run block win rate 2026 through Week 8: OT PBWR 88% (top 20)",
+      "Luke Goedeke injury reports: {'2025': ['wk2 Questionable (Foot)', 'wk10 Questionable (Foot)'], '2026': ['wk7 Out (Calf)', 'wk8 Questionable (Calf)']}; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "STR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH",
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2026",
+        "retrieved_at": "2026-11-04T03:59:41Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2025",
+        "retrieved_at": "2026-11-04T03:59:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T03:59:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T03:59:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T03:59:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T03:59:41Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T03:59:41Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:59:41Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
