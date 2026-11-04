@@ -1,0 +1,225 @@
+# MIKE_REAUDIT_BG_05 — Nick Bolton background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "MIKE_REAUDIT_BG_05_A1",
+  "task_id": "MIKE_REAUDIT_BG_05",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "MIKE",
+  "player_id": "ext_00-0036621",
+  "players": [
+    "Nick Bolton"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Nick Bolton",
+    "player_id": "ext_00-0036621",
+    "team": "KC",
+    "role_assignment": {
+      "MIKE25": 221,
+      "MIKE26": 275,
+      "MIKE": 1482.0,
+      "WILL": 0.0,
+      "SAM": 0.0,
+      "EDGE": 0.0,
+      "assign": "MIKE"
+    },
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "kansas-city-chiefs",
+        "ovr": 78.9,
+        "snaps": 1011,
+        "rank": 7,
+        "rdef": 409,
+        "prsh": 111,
+        "cov": 491
+      },
+      "2026": {
+        "team": "kansas-city-chiefs",
+        "ovr": 69.4,
+        "snaps": 472,
+        "rank": 21,
+        "rdef": 179,
+        "prsh": 39,
+        "cov": 254
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "KC",
+        "pos": "LB",
+        "g": "17",
+        "tgt": "85",
+        "cmp": "67",
+        "yds": "592",
+        "rat": "106.5",
+        "int": "1",
+        "bltz": "91",
+        "prss": "11",
+        "sk": "1",
+        "comb": "154",
+        "m_tkl": "14"
+      },
+      "2026": {
+        "def_targets": 19.0,
+        "def_completions_allowed": 15.0,
+        "def_yards_allowed": 150.0,
+        "def_ints": 0.0,
+        "def_times_blitzed": 29.0,
+        "def_pressures": 1.0,
+        "def_sacks": 0.0,
+        "def_tackles_combined": 59.0,
+        "def_missed_tackles": 6.0,
+        "g": 6
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 1011
+      },
+      "2026": {
+        "games": 7,
+        "defs": 471
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 69.0,
+        "def_tackle_assists": 81.0,
+        "def_tackles_for_loss": 10.0,
+        "def_fumbles_forced": 1.0,
+        "def_sacks": 1.0,
+        "def_qb_hits": 7.0,
+        "def_pass_defended": 6.0,
+        "def_interceptions": 1.0
+      },
+      "2026": {
+        "def_tackles_solo": 33.0,
+        "def_tackle_assists": 34.0,
+        "def_tackles_for_loss": 3.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 1.0,
+        "def_pass_defended": 2.0,
+        "def_interceptions": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 1,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk17 Questionable (Illness)"
+      ]
+    },
+    "summary_lines": [
+      "Nick Bolton (KC) Nick Bolton 2026: PFF LB 2026 overall 69.4 on 472 snaps (LB rank 21; 179 run-def / 254 coverage / 39 pass-rush snaps); PFR 2026 (6 games) coverage 19 targets / 15 completions / 150 yds / 0 INT; 59 tackles, 6 missed; 1 pressures on 29 blitzes; 7 g / 471 def snaps; 33 solo + 34 ast tackles, 3 TFL, 0.0 sacks, 0 INT, 2 PD, 0 FF; 0 accepted penalties",
+      "Nick Bolton 2025: PFF LB 2025 overall 78.9 on 1011 snaps (LB rank 7; 409 run-def / 491 coverage / 111 pass-rush snaps); PFR 2025 coverage 85 targets / 67 completions / 592 yds / passer rating 106.5 / 1 INT; 154 tackles, 14 missed; 11 pressures on 91 blitzes, 1 sacks; 17 g / 1011 def snaps; 69 solo + 81 ast tackles, 10 TFL, 1.0 sacks, 1 INT, 6 PD, 1 FF; 1 accepted penalties",
+      "Nick Bolton role: snap-weighted 2025-26 depth-chart role shares MIKE 1482 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE25 221, MIKE26 275) -> MIKE (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card MIKE (reference only)",
+      "Nick Bolton injury reports: wk17 Questionable (Illness); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PUR",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2026",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2025",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:38:35Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
