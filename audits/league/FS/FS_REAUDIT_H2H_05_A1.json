@@ -1,0 +1,37 @@
+{
+  "audit_id": "FS_REAUDIT_H2H_05_A1",
+  "task_id": "FS_REAUDIT_H2H_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FS",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Bryan Cook",
+    "Thomas Harper"
+  ],
+  "pair_result": {
+    "winner": "Bryan Cook",
+    "loser": "Thomas Harper",
+    "provisional_order_holds": true,
+    "reasoning": "Cook's 2025 (PFF 83.3 on 857 snaps, S rank 4; 85 tackles, 4 missed) is a full season vs Harper's 78.0 on 482. Cook's 44.7 in 2026 and 128.5 passer rating allowed in 2025 keep it narrow; Harper is on reserve after 87 snaps (55.2).",
+    "key_evidence_for_winner": [
+      "Bryan Cook (CIN) role snap-weighted 2025-26 depth-chart FS/SS shares FS 1218 / SS 0 -> FS; roster ACT (DB); injuries wk4 Questionable (Ankle); wk5 Questionable (Ankle)",
+      "Bryan Cook 2026: Bryan Cook 2026: PFF S 2026 overall 44.7 on 361 snaps (S rank 92; 235 coverage / 118 run-def snaps); PFR 2026 (5 games) coverage 9 targets / 4 completions / 89 yds / 0 TD / 0 INT; 26 tackles, 4 missed; 6 g / 361 def snaps; 21 solo + 10 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF; 1 accepted penalties; PFR 2026 (5 games) coverage 9 targets / 4 completions / 89 yds / 0 TD / 0 INT; 26 tackles, 4 missed",
+      "Bryan Cook 2025: Bryan Cook 2025: PFF S 2025 overall 83.3 on 857 snaps (S rank 4; 501 coverage / 355 run-def snaps); PFR 2025 coverage 53 targets / 37 completions / 468 yds / 5 TD / passer rating 128.5 / 0 INT; 85 tackles, 4 missed; 17 g / 857 def snaps; 49 solo + 35 ast tackles, 1 TFL, 0 INT, 6 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 53 targets / 37 completions / 468 yds / 5 TD / passer rating 128.5 / 0 INT; 85 tackles, 4 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Thomas Harper (DET) role snap-weighted 2025-26 depth-chart FS/SS shares FS 348 / SS 222 -> FS; roster RES (DB); injuries wk15 Out (Concussion); wk18 Out (Concussion); wk3 Out (Ankle)",
+      "Thomas Harper 2026: Thomas Harper 2026: PFF S 2026 overall 55.2 on 87 snaps (S rank None; 61 coverage / 22 run-def snaps); PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed; 2 g / 87 def snaps; 5 solo + 0 ast tackles, 0 TFL, 0 INT, 2 PD, 0 FF; 0 accepted penalties; PFR 2026 (2 games) coverage 8 targets / 5 completions / 128 yds / 1 TD / 0 INT; 5 tackles, 0 missed",
+      "Thomas Harper 2025: Thomas Harper 2025: PFF S 2025 overall 78 on 482 snaps (S rank 11; 285 coverage / 195 run-def snaps); PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed; 10 g / 483 def snaps; 26 solo + 11 ast tackles, 1 TFL, 1 INT, 5 PD, 1 FF; 0 accepted penalties; PFR 2025 coverage 18 targets / 11 completions / 194 yds / 2 TD / passer rating 111.8 / 1 INT; 37 tackles, 5 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
