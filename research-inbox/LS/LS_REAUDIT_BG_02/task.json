@@ -1,0 +1,102 @@
+{
+  "task_id": "LS_REAUDIT_BG_02",
+  "type": "background_analysis",
+  "players": [
+    "Thomas Hennessy"
+  ],
+  "player_id": "ext_00-0033260",
+  "team": "NYJ",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Ross Matiscik"
+      },
+      {
+        "rank": 2,
+        "player": "Thomas Hennessy"
+      },
+      {
+        "rank": 3,
+        "player": "Chris Stoll"
+      },
+      {
+        "rank": 4,
+        "player": "William Wagner"
+      },
+      {
+        "rank": 5,
+        "player": "Austin Brinkman"
+      },
+      {
+        "rank": 6,
+        "player": "Andrew DePaola"
+      },
+      {
+        "rank": 7,
+        "player": "Luke Rhodes"
+      },
+      {
+        "rank": 8,
+        "player": "Christian Kuntz"
+      },
+      {
+        "rank": 9,
+        "player": "Trent Sieg"
+      },
+      {
+        "rank": 10,
+        "player": "Nick Moore"
+      }
+    ],
+    "external_controls": [
+      "Joe Cardona",
+      "Mitchell Fraboni",
+      "Rex Sunahara"
+    ]
+  },
+  "position": "LS",
+  "stage": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 22,
+    "group": "Special Teams",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "PFF long snapper grade (weekly special teams reports)"
+    ],
+    "position_stats": [
+      "punt/FG/XP snaps",
+      "bad or inaccurate snaps",
+      "coverage tackles"
+    ],
+    "usage_snap_metrics": [
+      "special-teams snaps (nflverse st_snaps)",
+      "games, seasons as starter"
+    ],
+    "on_field_impact": [
+      "unit points on snaps delivered (FG/XP/punt; credits whole unit)",
+      "blocked kicks/punts on his snaps"
+    ],
+    "madden_attributes_informed": [
+      "AWR",
+      "STR",
+      "RBK",
+      "PBK",
+      "SPD",
+      "TAK"
+    ],
+    "note": "v1.1 addendum bucket (docs/amendments/v1.1-addendum-fb-ls.md). Inputs only; NOT in config/position-sequence.json or state until the commissioner enacts the addendum."
+  }
+}

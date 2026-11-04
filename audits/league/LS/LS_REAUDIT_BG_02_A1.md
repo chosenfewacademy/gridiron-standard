@@ -1,0 +1,177 @@
+# LS_REAUDIT_BG_02 — Thomas Hennessy background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "LS_REAUDIT_BG_02_A1",
+  "task_id": "LS_REAUDIT_BG_02",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LS",
+  "player_id": "ext_00-0033260",
+  "players": [
+    "Thomas Hennessy"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Thomas Hennessy",
+    "player_id": "ext_00-0033260",
+    "team": "NYJ",
+    "role_assignment": "LS (long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS)",
+    "side_rule": "LONG SNAPPER ROLE CONVENTION (t46u): rated as LS = nflverse roster position LS with 2025-26 special-teams snaps; matched by name/gsis id. THIN DATA, documented: PFF publishes no public LS grade (pff.com/grades/nfl/ls renders no table) and the FootballKickingStats reported-snap-error table is script-loaded; substitutes: aborted/bad snaps parsed from nflverse pbp descriptions on every FG/XP/punt snap, kicks/punts blocked on his snaps, FG make rate on his snaps, FootballKickingStats long-snapper unit points (credits the whole unit), coverage tackles on punts/kickoffs (pbp), accepted penalties, availability. Madden position is reference only.",
+    "seasons": {
+      "2025": {
+        "snaps": {
+          "games": 17,
+          "st": 126.0
+        },
+        "ls": {
+          "fg": 29,
+          "xp": 22,
+          "punt": 71,
+          "bad": 1,
+          "bad_desc": [
+            "wk14 NYJ: (1:07) (Punt formation) 27-M.Moore FUMBLES (Aborted) at NYJ 24, recovered by NYJ-32-I.Davis at NYJ 24. 32-I.Davis pushed ob at NYJ 44 for 20 yards (18-N.Westbro"
+          ],
+          "blocked": 0,
+          "fg_made": 28,
+          "other": 6
+        },
+        "st_tkl": 2,
+        "fks": {
+          "rank": 1,
+          "unit_pts": 27.5,
+          "snaps": 122,
+          "fg": "28-29",
+          "st_tkl": 2
+        }
+      },
+      "2026": {
+        "snaps": {
+          "games": 8,
+          "st": 65.0
+        },
+        "ls": {
+          "fg": 19,
+          "xp": 14,
+          "punt": 31,
+          "bad": 0,
+          "bad_desc": [],
+          "blocked": 0,
+          "fg_made": 17,
+          "other": 1
+        },
+        "st_tkl": 1,
+        "fks": {
+          "rank": 24,
+          "unit_pts": -3.7,
+          "snaps": 64,
+          "fg": "17-19",
+          "st_tkl": 1
+        }
+      }
+    },
+    "injuries": null,
+    "summary_lines": [
+      "Thomas Hennessy (NYJ) Thomas Hennessy 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 65 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points -3.7 (rank 24); 0 accepted penalties",
+      "Thomas Hennessy 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 126 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points 27.5 (rank 1); 0 accepted penalties",
+      "Thomas Hennessy role: long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS (LONG SNAPPER ROLE CONVENTION (t46u): rated as LS = nflverse roster position LS with 2025-26 special-teams snaps; matched...); roster position LS; Madden card LS (reference only)",
+      "Thomas Hennessy injury reports: no injury designation 2025-26; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "THIN DATA: no public PFF long-snapper grade and no public snap-accuracy charting; substitutes: aborted/bad snaps parsed from nflverse pbp text, blocks on his snaps, FG make rate on his snaps, FootballKickingStats unit points (whole-unit credit), coverage tackles, penalties, availability"
+    ],
+    "attributes_informed": [
+      "AWR",
+      "STR",
+      "RBK",
+      "PBK",
+      "SPD",
+      "TAK",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "thin_data": true,
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/ls/2026",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/ls/2025",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T13:03:04Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
