@@ -11290,7 +11290,7 @@
         "position": "CB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/CB.reaudit.json",
       "baseline_file": null,
@@ -11382,19 +11382,23 @@
         "CB_REAUDIT_TIEBREAK_05_A1",
         "CB_REAUDIT_TIEBREAK_06_A1",
         "CB_REAUDIT_VARIANCE_AUDIT_A1",
-        "CB_REAUDIT_RATE_03_A2"
+        "CB_REAUDIT_RATE_03_A2",
+        "CB_REAUDIT_SCARCITY_A1"
       ],
-      "current_stage": "variance_audit",
-      "current_task": "CB_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T12:10:19.730Z",
+      "current_stage": "scarcity_audit",
+      "current_task": "CB_REAUDIT_SCARCITY",
+      "updated_at": "2026-11-04T12:10:41.430Z",
       "last_result": {
-        "task_id": "CB_REAUDIT_RATE_03",
-        "status": "REVISION_APPROVED",
-        "audit_id": "CB_REAUDIT_RATE_03_A2",
-        "supersedes": "CB_REAUDIT_RATE_03_A1",
+        "task_id": "CB_REAUDIT_SCARCITY",
+        "status": "VALIDATED",
+        "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "CB_REAUDIT_SCARCITY",
+        "audit_id": "CB_REAUDIT_SCARCITY_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
