@@ -1,0 +1,791 @@
+{
+  "audit_id": "SS_REAUDIT_CROSS_AUDIT_A1",
+  "task_id": "SS_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Kyle Hamilton",
+    "Evan Williams",
+    "Jessie Bates",
+    "Brian Branch",
+    "Derwin James",
+    "Antoine Winfield Jr.",
+    "Kamren Curl",
+    "Talanoa Hufanga",
+    "Tony Jefferson",
+    "Jaylinn Hawkins"
+  ],
+  "cross_audit_result": "CONSISTENT: all 28 approved head-to-head/tiebreak verdicts agree with the final rating order; style rule passes for all 78 pairs of 13 rated SSs (0 too similar); league ceiling 16 raw flags, all resolved by approved tiebreaks (Jaylinn Hawkins holds #10); variance audit 35 10+ gaps: 34 supported, 1 fixed via approved reaudit:revise (Christian Roland-Wallace TAK 88->82); Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Kyle Hamilton",
+      "ovr": 94,
+      "audit_id": "SS_REAUDIT_RATE_01_A1"
+    },
+    {
+      "rank": 2,
+      "player": "Evan Williams",
+      "ovr": 88,
+      "audit_id": "SS_REAUDIT_RATE_02_A1"
+    },
+    {
+      "rank": 3,
+      "player": "Jessie Bates",
+      "ovr": 87,
+      "audit_id": "SS_REAUDIT_RATE_03_A1"
+    },
+    {
+      "rank": 4,
+      "player": "Brian Branch",
+      "ovr": 85,
+      "audit_id": "SS_REAUDIT_RATE_04_A1"
+    },
+    {
+      "rank": 5,
+      "player": "Derwin James",
+      "ovr": 84,
+      "audit_id": "SS_REAUDIT_RATE_05_A1"
+    },
+    {
+      "rank": 6,
+      "player": "Antoine Winfield Jr.",
+      "ovr": 82,
+      "audit_id": "SS_REAUDIT_RATE_06_A1"
+    },
+    {
+      "rank": 7,
+      "player": "Kamren Curl",
+      "ovr": 80,
+      "audit_id": "SS_REAUDIT_RATE_07_A1"
+    },
+    {
+      "rank": 8,
+      "player": "Talanoa Hufanga",
+      "ovr": 79,
+      "audit_id": "SS_REAUDIT_RATE_08_A1"
+    },
+    {
+      "rank": 9,
+      "player": "Tony Jefferson",
+      "ovr": 77,
+      "audit_id": "SS_REAUDIT_RATE_09_A1"
+    },
+    {
+      "rank": 10,
+      "player": "Jaylinn Hawkins",
+      "ovr": 76,
+      "audit_id": "SS_REAUDIT_RATE_10_A1"
+    },
+    {
+      "rank": 11,
+      "player": "Christian Roland-Wallace",
+      "ovr": 75,
+      "audit_id": "SS_REAUDIT_RATE_11_A2"
+    },
+    {
+      "rank": 12,
+      "player": "Coby Bryant",
+      "ovr": 74,
+      "audit_id": "SS_REAUDIT_RATE_12_A1"
+    },
+    {
+      "rank": 13,
+      "player": "Cooper DeJean",
+      "ovr": 73,
+      "audit_id": "SS_REAUDIT_RATE_13_A1"
+    }
+  ],
+  "pair_consistency": [
+    {
+      "audit_id": "SS_REAUDIT_H2H_01_A1",
+      "winner": "Kyle Hamilton",
+      "loser": "Evan Williams",
+      "consistent": true
+    },
+    {
+      "audit_id": "SS_REAUDIT_H2H_02_A1",
+      "winner": "Jessie Bates",
+      "loser": "Brian Branch",
+      "consistent": true
+    },
+    {
+      "audit_id": "SS_REAUDIT_H2H_03_A1",
+      "winner": "Derwin James",
+      "loser": "Antoine Winfield Jr.",
+      "consistent": true
+    },
+    {
+      "audit_id": "SS_REAUDIT_H2H_04_A1",
+      "winner": "Kamren Curl",
+      "loser": "Talanoa Hufanga",
+      "consistent": true
+    },
+    {
+      "audit_id": "SS_REAUDIT_H2H_05_A1",
+      "winner": "Tony Jefferson",
+      "loser": "Jaylinn Hawkins",
+      "consistent": true
+    },
+    {
+      "audit_id": "SS_REAUDIT_H2H_06_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Christian Roland-Wallace",
+      "consistent": true
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_01_A1",
+      "winner": "Evan Williams",
+      "loser": "Jessie Bates",
+      "consistent": true
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_02_A1",
+      "winner": "Brian Branch",
+      "loser": "Derwin James",
+      "consistent": true
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_03_A1",
+      "winner": "Antoine Winfield Jr.",
+      "loser": "Kamren Curl",
+      "consistent": true
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_04_A1",
+      "winner": "Talanoa Hufanga",
+      "loser": "Tony Jefferson",
+      "consistent": true
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_05_A1",
+      "winner": "Christian Roland-Wallace",
+      "loser": "Coby Bryant",
+      "consistent": true
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_06_A1",
+      "winner": "Coby Bryant",
+      "loser": "Cooper DeJean",
+      "consistent": true
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_07_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Avonte Maddox",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_08_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Ty Okada",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_09_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Calen Bullock",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_10_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Grant Delpit",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_11_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Javon Bullard",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_12_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Jaquan Brisker",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_13_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Tony Adams",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_14_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Ji'Ayir Brown",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_15_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Dane Belton",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_16_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Eric Murray",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_17_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Dadrion Taylor-Demerson",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_18_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Josh Metellus",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_19_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Kyle Dugger",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_20_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Reed Blankenship",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_21_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Dillon Thieneman",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "SS_REAUDIT_TIEBREAK_22_A1",
+      "winner": "Jaylinn Hawkins",
+      "loser": "Michael Carter II",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    }
+  ],
+  "style_rule": {
+    "pairs_checked": 78,
+    "too_similar": 0,
+    "highest_corr": [
+      0.822,
+      5.1,
+      "Kyle Hamilton",
+      "Evan Williams"
+    ],
+    "lowest_mad": [
+      0.797,
+      3.3,
+      "Evan Williams",
+      "Antoine Winfield Jr."
+    ]
+  },
+  "scarcity_note": "SS_REAUDIT_SCARCITY_A1 PASS (25 traits 90+, none at 95+; Kyle Hamilton 94 is the lone overall 90+). Narrative text grep-verified before the stage ran.",
+  "eligibility_rule": "SS-eligible = PFF S grade in 2025 or 2026 and primary 2025-26 alignment SS (nflverse depth-chart FS/SS slot share weighted by defensive snaps; ties to FS; no slot -> roster depth_chart_position). Each safety is in one list only.",
+  "side_convention": "SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one of FS or SS by primary 2025-26 alignment = nflverse weekly depth-chart FS/SS slot counts per season weighted by that season's defensive snaps; larger share wins (ties to FS). No FS/SS depth-chart slot -> nflverse roster depth_chart_position. Matched by gsis/PFR id. Each player appears in one list only; Madden position is reference only. Cooper DeJean (2026 FS 103 / SS 108 slot-weeks, CB in 2025) -> SS.",
+  "commissioner_fix_approvals": "Approved and applied under t46u: Christian Roland-Wallace TAK 88->82 (overall unchanged).",
+  "league_ceiling_check": {
+    "source": "research-inbox/SS/SS_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-t46u.json",
+    "references": [
+      "Jaylinn Hawkins",
+      "Christian Roland-Wallace"
+    ],
+    "thresholds": {
+      "pff": 70.3,
+      "value": 0.35,
+      "efficiency": 18.2,
+      "negative_rate": 10.4,
+      "availability": 0.68
+    },
+    "scope": "Every strong safety league-wide (PFF S grade in 2025 or 2026, sample 250+ snaps, assigned SS by the t46u depth-chart alignment rule), incl. reserve/IR, inactive and free agents; the 13 audited SSs excluded. Metrics: snap-weighted PFF S grade (pff), INT + PD per game (value), share of targets not completed, PFR 2025 season + 2026 weekly (efficiency), missed tackles + accepted penalties per 1,000 nflverse defensive snaps (negative rate), games share (games/25).",
+    "raw_flags_before_resolution": [
+      {
+        "name": "Avonte Maddox",
+        "team": "DET",
+        "status": "RES",
+        "snaps": 454,
+        "pff": 69.2,
+        "value": 0.58,
+        "efficiency": 38.7,
+        "negative_rate": 6.6,
+        "availability": 0.48,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate"
+        ]
+      },
+      {
+        "name": "Ty Okada",
+        "team": "SEA",
+        "status": "ACT",
+        "snaps": 980,
+        "pff": 68.4,
+        "value": 0.43,
+        "efficiency": 32,
+        "negative_rate": 5.1,
+        "availability": 0.84,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Calen Bullock",
+        "team": "HOU",
+        "status": "ACT",
+        "snaps": 1447,
+        "pff": 66.1,
+        "value": 0.79,
+        "efficiency": 46.2,
+        "negative_rate": 8.3,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Grant Delpit",
+        "team": "CLE",
+        "status": "ACT",
+        "snaps": 1474,
+        "pff": 58,
+        "value": 0.4,
+        "efficiency": 38.1,
+        "negative_rate": 6.8,
+        "availability": 1,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Javon Bullard",
+        "team": "GB",
+        "status": "ACT",
+        "snaps": 1135,
+        "pff": 65.2,
+        "value": 0.4,
+        "efficiency": 30.9,
+        "negative_rate": 15,
+        "availability": 1,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Jaquan Brisker",
+        "team": "PIT",
+        "status": "ACT",
+        "snaps": 1579,
+        "pff": 63.3,
+        "value": 0.52,
+        "efficiency": 37.5,
+        "negative_rate": 11.4,
+        "availability": 1,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Tony Adams",
+        "team": "TEN",
+        "status": "ACT",
+        "snaps": 667,
+        "pff": 62.3,
+        "value": 0.35,
+        "efficiency": 52.9,
+        "negative_rate": 16.5,
+        "availability": 0.68,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Ji'Ayir Brown",
+        "team": "SF",
+        "status": "ACT",
+        "snaps": 1257,
+        "pff": 66.2,
+        "value": 0.42,
+        "efficiency": 34.8,
+        "negative_rate": 8,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Dane Belton",
+        "team": "NYJ",
+        "status": "ACT",
+        "snaps": 1236,
+        "pff": 65.6,
+        "value": 0.4,
+        "efficiency": 36.5,
+        "negative_rate": 6.5,
+        "availability": 1,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Eric Murray",
+        "team": "JAX",
+        "status": "ACT",
+        "snaps": 855,
+        "pff": 62.4,
+        "value": 0.41,
+        "efficiency": 32.4,
+        "negative_rate": 11.7,
+        "availability": 0.68,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Dadrion Taylor-Demerson",
+        "team": "ARI",
+        "status": "ACT",
+        "snaps": 550,
+        "pff": 57.8,
+        "value": 0.5,
+        "efficiency": 36.7,
+        "negative_rate": 9.1,
+        "availability": 0.64,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate"
+        ]
+      },
+      {
+        "name": "Josh Metellus",
+        "team": "MIN",
+        "status": "ACT",
+        "snaps": 1294,
+        "pff": 51.6,
+        "value": 0.57,
+        "efficiency": 41.1,
+        "negative_rate": 9.3,
+        "availability": 0.84,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Kyle Dugger",
+        "team": "CIN",
+        "status": "INA",
+        "snaps": 784,
+        "pff": 50,
+        "value": 0.47,
+        "efficiency": 45,
+        "negative_rate": 8.9,
+        "availability": 0.68,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Reed Blankenship",
+        "team": "HOU",
+        "status": "INA",
+        "snaps": 1348,
+        "pff": 42.1,
+        "value": 0.41,
+        "efficiency": 29.6,
+        "negative_rate": 9.6,
+        "availability": 0.88,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Dillon Thieneman",
+        "team": "CHI",
+        "status": "ACT",
+        "snaps": 426,
+        "pff": 59.9,
+        "value": 0.75,
+        "efficiency": 47.8,
+        "negative_rate": 4.7,
+        "availability": 0.32,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate"
+        ]
+      },
+      {
+        "name": "Michael Carter II",
+        "team": "PHI",
+        "status": "ACT",
+        "snaps": 383,
+        "pff": 70.7,
+        "value": 0.26,
+        "efficiency": 42.3,
+        "negative_rate": 18.3,
+        "availability": 0.76,
+        "hits": [
+          "pff",
+          "efficiency",
+          "availability"
+        ]
+      }
+    ],
+    "resolution": "Check (refs #10 Jaylinn Hawkins 76 / first-out Christian Roland-Wallace 75) screened 76 non-pool SSs and raw-flagged 16: Avonte Maddox, Ty Okada, Calen Bullock, Grant Delpit, Javon Bullard, Jaquan Brisker, Tony Adams, Ji'Ayir Brown, Dane Belton, Eric Murray, Dadrion Taylor-Demerson, Josh Metellus, Kyle Dugger, Reed Blankenship, Dillon Thieneman, Michael Carter II. All resolved by approved tiebreaks SS_REAUDIT_TIEBREAK_07..22 (Jaylinn Hawkins holds #10). Low reference bars (Roland-Wallace's 345-snap sample, 18.2% of targets not completed) drive the raw flags; no pool or rating change.",
+    "flagged": [],
+    "resolved_by_tiebreak": [
+      "SS_REAUDIT_TIEBREAK_07_A1",
+      "SS_REAUDIT_TIEBREAK_08_A1",
+      "SS_REAUDIT_TIEBREAK_09_A1",
+      "SS_REAUDIT_TIEBREAK_10_A1",
+      "SS_REAUDIT_TIEBREAK_11_A1",
+      "SS_REAUDIT_TIEBREAK_12_A1",
+      "SS_REAUDIT_TIEBREAK_13_A1",
+      "SS_REAUDIT_TIEBREAK_14_A1",
+      "SS_REAUDIT_TIEBREAK_15_A1",
+      "SS_REAUDIT_TIEBREAK_16_A1",
+      "SS_REAUDIT_TIEBREAK_17_A1",
+      "SS_REAUDIT_TIEBREAK_18_A1",
+      "SS_REAUDIT_TIEBREAK_19_A1",
+      "SS_REAUDIT_TIEBREAK_20_A1",
+      "SS_REAUDIT_TIEBREAK_21_A1",
+      "SS_REAUDIT_TIEBREAK_22_A1"
+    ],
+    "closest": [
+      {
+        "name": "Jalen Thompson",
+        "team": "DAL",
+        "status": "RES",
+        "snaps": 1147,
+        "pff": 65.9,
+        "value": 0.33,
+        "efficiency": 36.9,
+        "negative_rate": 7,
+        "availability": 0.72,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Tre'von Moehrig",
+        "team": "CAR",
+        "status": "ACT",
+        "snaps": 1448,
+        "pff": 62.9,
+        "value": 0.13,
+        "efficiency": 27.8,
+        "negative_rate": 6.9,
+        "availability": 0.92,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Malachi Moore",
+        "team": "NYJ",
+        "status": "ACT",
+        "snaps": 958,
+        "pff": 58.9,
+        "value": 0.16,
+        "efficiency": 37,
+        "negative_rate": 10.4,
+        "availability": 0.76,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Jason Pinnock",
+        "team": "NYG",
+        "status": "ACT",
+        "snaps": 661,
+        "pff": 55.5,
+        "value": 0.1,
+        "efficiency": 29,
+        "negative_rate": 7.6,
+        "availability": 0.8,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Nick Cross",
+        "team": "WAS",
+        "status": "ACT",
+        "snaps": 1344,
+        "pff": 59.7,
+        "value": 0.29,
+        "efficiency": 33.3,
+        "negative_rate": 12.6,
+        "availability": 0.84,
+        "hits": [
+          "efficiency",
+          "availability"
+        ]
+      }
+    ],
+    "screened": 76,
+    "rating_changes": []
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Kyle Hamilton",
+      "ours": 94,
+      "madden": 94,
+      "madden_position": "SS",
+      "delta": 0
+    },
+    {
+      "player": "Evan Williams",
+      "ours": 88,
+      "madden": 83,
+      "madden_position": "FS",
+      "delta": 5
+    },
+    {
+      "player": "Jessie Bates",
+      "ours": 87,
+      "madden": 95,
+      "madden_position": "FS",
+      "delta": -8
+    },
+    {
+      "player": "Brian Branch",
+      "ours": 85,
+      "madden": 91,
+      "madden_position": "SS",
+      "delta": -6
+    },
+    {
+      "player": "Derwin James",
+      "ours": 84,
+      "madden": 93,
+      "madden_position": "SS",
+      "delta": -9
+    },
+    {
+      "player": "Antoine Winfield Jr.",
+      "ours": 82,
+      "madden": 93,
+      "madden_position": "FS",
+      "delta": -11
+    },
+    {
+      "player": "Kamren Curl",
+      "ours": 80,
+      "madden": 83,
+      "madden_position": "SS",
+      "delta": -3
+    },
+    {
+      "player": "Talanoa Hufanga",
+      "ours": 79,
+      "madden": 89,
+      "madden_position": "SS",
+      "delta": -10
+    },
+    {
+      "player": "Tony Jefferson",
+      "ours": 77,
+      "madden": 82,
+      "madden_position": "SS",
+      "delta": -5
+    },
+    {
+      "player": "Jaylinn Hawkins",
+      "ours": 76,
+      "madden": 77,
+      "madden_position": "FS",
+      "delta": -1
+    },
+    {
+      "player": "Christian Roland-Wallace",
+      "ours": 75,
+      "madden": 67,
+      "madden_position": "FS",
+      "delta": 8
+    },
+    {
+      "player": "Coby Bryant",
+      "ours": 74,
+      "madden": 77,
+      "madden_position": "FS",
+      "delta": -3
+    },
+    {
+      "player": "Cooper DeJean",
+      "ours": 73,
+      "madden": 84,
+      "madden_position": "CB",
+      "delta": -11
+    }
+  ],
+  "madden_order_verified": false,
+  "madden_used_as_evidence": false,
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

@@ -12428,7 +12428,7 @@
         "position": "SS",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/SS.reaudit.json",
       "baseline_file": null,
@@ -12554,19 +12554,23 @@
         "SS_REAUDIT_TIEBREAK_19_A1",
         "SS_REAUDIT_TIEBREAK_20_A1",
         "SS_REAUDIT_TIEBREAK_21_A1",
-        "SS_REAUDIT_TIEBREAK_22_A1"
+        "SS_REAUDIT_TIEBREAK_22_A1",
+        "SS_REAUDIT_CROSS_AUDIT_A1"
       ],
-      "current_stage": "scarcity_audit",
-      "current_task": "SS_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T12:34:47.008Z",
+      "current_stage": "positional_cross_audit",
+      "current_task": "SS_REAUDIT_CROSS_AUDIT",
+      "updated_at": "2026-11-04T12:35:03.928Z",
       "last_result": {
-        "task_id": "SS_REAUDIT_TIEBREAK_22",
+        "task_id": "SS_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
-        "flags": [
-          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "errors": [],
+        "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "SS_REAUDIT_CROSS_AUDIT",
+        "audit_id": "SS_REAUDIT_CROSS_AUDIT_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",

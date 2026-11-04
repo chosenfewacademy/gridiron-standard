@@ -1,0 +1,405 @@
+{
+ "position": "SS",
+ "references": [
+  {
+   "name": "Jaylinn Hawkins",
+   "team": "BAL",
+   "status": "INA",
+   "snaps": 1153,
+   "pff": 70.3,
+   "value": 0.48,
+   "efficiency": 39.6,
+   "negative_rate": 10.4,
+   "availability": 0.84
+  },
+  {
+   "name": "Christian Roland-Wallace",
+   "team": "KC",
+   "status": "ACT",
+   "snaps": 345,
+   "pff": 77.4,
+   "value": 0.35,
+   "efficiency": 18.2,
+   "negative_rate": 5.8,
+   "availability": 0.68
+  }
+ ],
+ "thresholds": {
+  "pff": 70.3,
+  "value": 0.35,
+  "efficiency": 18.2,
+  "negative_rate": 10.4,
+  "availability": 0.68
+ },
+ "flagged": [
+  {
+   "name": "Avonte Maddox",
+   "team": "DET",
+   "status": "RES",
+   "snaps": 454,
+   "pff": 69.2,
+   "value": 0.58,
+   "efficiency": 38.7,
+   "negative_rate": 6.6,
+   "availability": 0.48,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": 1.379101304290595
+  },
+  {
+   "name": "Ty Okada",
+   "team": "SEA",
+   "status": "ACT",
+   "snaps": 980,
+   "pff": 68.4,
+   "value": 0.43,
+   "efficiency": 32,
+   "negative_rate": 5.1,
+   "availability": 0.84,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 2.992638794665912
+  },
+  {
+   "name": "Calen Bullock",
+   "team": "HOU",
+   "status": "ACT",
+   "snaps": 1447,
+   "pff": 66.1,
+   "value": 0.79,
+   "efficiency": 46.2,
+   "negative_rate": 8.3,
+   "availability": 0.96,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 2.864972443355787
+  },
+  {
+   "name": "Grant Delpit",
+   "team": "CLE",
+   "status": "ACT",
+   "snaps": 1474,
+   "pff": 58,
+   "value": 0.4,
+   "efficiency": 38.1,
+   "negative_rate": 6.8,
+   "availability": 1,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.364736256126453
+  },
+  {
+   "name": "Javon Bullard",
+   "team": "GB",
+   "status": "ACT",
+   "snaps": 1135,
+   "pff": 65.2,
+   "value": 0.4,
+   "efficiency": 30.9,
+   "negative_rate": 15,
+   "availability": 1,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": 0.2597634693856907
+  },
+  {
+   "name": "Jaquan Brisker",
+   "team": "PIT",
+   "status": "ACT",
+   "snaps": 1579,
+   "pff": 63.3,
+   "value": 0.52,
+   "efficiency": 37.5,
+   "negative_rate": 11.4,
+   "availability": 1,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": 1.6985623615729333
+  },
+  {
+   "name": "Tony Adams",
+   "team": "TEN",
+   "status": "ACT",
+   "snaps": 667,
+   "pff": 62.3,
+   "value": 0.35,
+   "efficiency": 52.9,
+   "negative_rate": 16.5,
+   "availability": 0.68,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -1.4528475199020192
+  },
+  {
+   "name": "Ji'Ayir Brown",
+   "team": "SF",
+   "status": "ACT",
+   "snaps": 1257,
+   "pff": 66.2,
+   "value": 0.42,
+   "efficiency": 34.8,
+   "negative_rate": 8,
+   "availability": 0.96,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 2.2584368147433675
+  },
+  {
+   "name": "Dane Belton",
+   "team": "NYJ",
+   "status": "ACT",
+   "snaps": 1236,
+   "pff": 65.6,
+   "value": 0.4,
+   "efficiency": 36.5,
+   "negative_rate": 6.5,
+   "availability": 1,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 2.425609827501879
+  },
+  {
+   "name": "Eric Murray",
+   "team": "JAX",
+   "status": "ACT",
+   "snaps": 855,
+   "pff": 62.4,
+   "value": 0.41,
+   "efficiency": 32.4,
+   "negative_rate": 11.7,
+   "availability": 0.68,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -0.2701948885825802
+  },
+  {
+   "name": "Dadrion Taylor-Demerson",
+   "team": "ARI",
+   "status": "ACT",
+   "snaps": 550,
+   "pff": 57.8,
+   "value": 0.5,
+   "efficiency": 36.7,
+   "negative_rate": 9.1,
+   "availability": 0.64,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": 0.13653129667889696
+  },
+  {
+   "name": "Josh Metellus",
+   "team": "MIN",
+   "status": "ACT",
+   "snaps": 1294,
+   "pff": 51.6,
+   "value": 0.57,
+   "efficiency": 41.1,
+   "negative_rate": 9.3,
+   "availability": 0.84,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.6053276178812041
+  },
+  {
+   "name": "Kyle Dugger",
+   "team": "CIN",
+   "status": "INA",
+   "snaps": 784,
+   "pff": 50,
+   "value": 0.47,
+   "efficiency": 45,
+   "negative_rate": 8.9,
+   "availability": 0.68,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.609991049978799
+  },
+  {
+   "name": "Reed Blankenship",
+   "team": "HOU",
+   "status": "INA",
+   "snaps": 1348,
+   "pff": 42.1,
+   "value": 0.41,
+   "efficiency": 29.6,
+   "negative_rate": 9.6,
+   "availability": 0.88,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.8318382146094454
+  },
+  {
+   "name": "Dillon Thieneman",
+   "team": "CHI",
+   "status": "ACT",
+   "snaps": 426,
+   "pff": 59.9,
+   "value": 0.75,
+   "efficiency": 47.8,
+   "negative_rate": 4.7,
+   "availability": 0.32,
+   "hits": [
+    "value",
+    "efficiency",
+    "negative_rate"
+   ],
+   "score": -0.7147887323943656
+  },
+  {
+   "name": "Michael Carter II",
+   "team": "PHI",
+   "status": "ACT",
+   "snaps": 383,
+   "pff": 70.7,
+   "value": 0.26,
+   "efficiency": 42.3,
+   "negative_rate": 18.3,
+   "availability": 0.76,
+   "hits": [
+    "pff",
+    "efficiency",
+    "availability"
+   ],
+   "score": -0.8533609684865033
+  }
+ ],
+ "closest": [
+  {
+   "name": "Jalen Thompson",
+   "team": "DAL",
+   "status": "RES",
+   "snaps": 1147,
+   "pff": 65.9,
+   "value": 0.33,
+   "efficiency": 36.9,
+   "negative_rate": 7,
+   "availability": 0.72,
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.0893977467782363
+  },
+  {
+   "name": "Tre'von Moehrig",
+   "team": "CAR",
+   "status": "ACT",
+   "snaps": 1448,
+   "pff": 62.9,
+   "value": 0.13,
+   "efficiency": 27.8,
+   "negative_rate": 6.9,
+   "availability": 0.92,
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -0.5250935173759386
+  },
+  {
+   "name": "Malachi Moore",
+   "team": "NYJ",
+   "status": "ACT",
+   "snaps": 958,
+   "pff": 58.9,
+   "value": 0.16,
+   "efficiency": 37,
+   "negative_rate": 10.4,
+   "availability": 0.76,
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -1.6886675914581644
+  },
+  {
+   "name": "Jason Pinnock",
+   "team": "NYG",
+   "status": "ACT",
+   "snaps": 661,
+   "pff": 55.5,
+   "value": 0.1,
+   "efficiency": 29,
+   "negative_rate": 7.6,
+   "availability": 0.8,
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -2.1442154159602667
+  },
+  {
+   "name": "Nick Cross",
+   "team": "WAS",
+   "status": "ACT",
+   "snaps": 1344,
+   "pff": 59.7,
+   "value": 0.29,
+   "efficiency": 33.3,
+   "negative_rate": 12.6,
+   "availability": 0.84,
+   "hits": [
+    "efficiency",
+    "availability"
+   ],
+   "score": -0.7271496009470355
+  }
+ ],
+ "screened": 76,
+ "read_only": true,
+ "rating_changes": []
+}
