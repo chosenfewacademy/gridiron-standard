@@ -1,0 +1,128 @@
+{
+  "type": "pair_audit",
+  "task_id": "SS_REAUDIT_TIEBREAK_20",
+  "players": [
+    "Jaylinn Hawkins",
+    "Reed Blankenship"
+  ],
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Kyle Hamilton",
+        "overall": 94
+      },
+      {
+        "rank": 2,
+        "player": "Evan Williams",
+        "overall": 88
+      },
+      {
+        "rank": 3,
+        "player": "Jessie Bates",
+        "overall": 87
+      },
+      {
+        "rank": 4,
+        "player": "Brian Branch",
+        "overall": 85
+      },
+      {
+        "rank": 5,
+        "player": "Derwin James",
+        "overall": 84
+      },
+      {
+        "rank": 6,
+        "player": "Antoine Winfield Jr.",
+        "overall": 82
+      },
+      {
+        "rank": 7,
+        "player": "Kamren Curl",
+        "overall": 80
+      },
+      {
+        "rank": 8,
+        "player": "Talanoa Hufanga",
+        "overall": 79
+      },
+      {
+        "rank": 9,
+        "player": "Tony Jefferson",
+        "overall": 77
+      },
+      {
+        "rank": 10,
+        "player": "Jaylinn Hawkins",
+        "overall": 76
+      }
+    ],
+    "external_controls": [
+      "Christian Roland-Wallace",
+      "Coby Bryant",
+      "Cooper DeJean"
+    ]
+  },
+  "position": "SS",
+  "stage": "pair_audits",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 18,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "coverage",
+      "run defense",
+      "tackling",
+      "grade vs man/zone",
+      "forced incompletion rate"
+    ],
+    "position_stats": [
+      "INT, PBU",
+      "targets, receptions allowed, yards allowed, TD allowed",
+      "tackles, missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (outside/slot/box/deep)",
+      "man vs zone snap share",
+      "coverage snaps"
+    ],
+    "on_field_impact": [
+      "passer rating allowed",
+      "yards per coverage snap",
+      "EPA allowed per target"
+    ],
+    "madden_attributes_informed": [
+      "MCV",
+      "ZCV",
+      "PRS",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "PRC",
+      "TAK",
+      "HIT",
+      "PUR",
+      "CTH",
+      "JMP",
+      "AWR"
+    ],
+    "note": "Box/slot/deep split documented."
+  },
+  "tiebreak": true,
+  "note": "Add-only tiebreak for an untested adjacent tie/close call (authorized by t46u)."
+}
