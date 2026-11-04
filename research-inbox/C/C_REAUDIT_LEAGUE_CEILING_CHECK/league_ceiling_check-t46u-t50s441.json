@@ -1,0 +1,158 @@
+{
+ "position": "C",
+ "references": [
+  {
+   "name": "Jake Brendel",
+   "team": "SF",
+   "status": "ACT",
+   "snaps": 1367,
+   "pff": 70.9,
+   "value": 93,
+   "efficiency": null,
+   "negative_rate": 2.19,
+   "availability": 0.88,
+   "side2026": {
+    "C": 226
+   },
+   "side2025": {
+    "C": 1
+   }
+  },
+  {
+   "name": "Cooper Beebe",
+   "team": "DAL",
+   "status": "ACT",
+   "snaps": 1312,
+   "pff": 68.3,
+   "value": 92,
+   "efficiency": null,
+   "negative_rate": 0.76,
+   "availability": 0.76,
+   "side2026": {
+    "C": 226
+   },
+   "side2025": {
+    "C": 1
+   }
+  }
+ ],
+ "thresholds": {
+  "pff": 68.3,
+  "value": 92,
+  "negative_rate": 2.19,
+  "availability": 0.76
+ },
+ "flagged": [],
+ "closest": [
+  {
+   "name": "Jared Wilson",
+   "team": "NE",
+   "status": "ACT",
+   "snaps": 1295,
+   "pff": 68.1,
+   "value": 94,
+   "efficiency": null,
+   "negative_rate": 2.32,
+   "availability": 0.84,
+   "side2026": {
+    "C": 226
+   },
+   "side2025": {
+    "C": 1
+   },
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": 1.4988344988344977
+  },
+  {
+   "name": "Hjalte Froholdt",
+   "team": "ARI",
+   "status": "ACT",
+   "snaps": 1706,
+   "pff": 69,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 3.52,
+   "availability": 1,
+   "side2026": {
+    "C": 225
+   },
+   "side2025": {
+    "C": 1
+   },
+   "hits": [
+    "pff",
+    "availability"
+   ],
+   "score": 0.3391608391608394
+  },
+  {
+   "name": "Tyler Biadasz",
+   "team": "LAC",
+   "status": "RES",
+   "snaps": 954,
+   "pff": 70.8,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 2.1,
+   "availability": 0.64,
+   "side2026": {
+    "C": 154
+   },
+   "side2025": {
+    "C": 1
+   },
+   "hits": [
+    "pff",
+    "negative_rate"
+   ],
+   "score": 0.02447552447552126
+  },
+  {
+   "name": "Garrett Bradbury",
+   "team": "CHI",
+   "status": "ACT",
+   "snaps": 1664,
+   "pff": 60.5,
+   "value": 92,
+   "efficiency": null,
+   "negative_rate": 3,
+   "availability": 1,
+   "side2026": {
+    "C": 225
+   },
+   "side2025": {
+    "C": 1
+   },
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": -2.566433566433555
+  },
+  {
+   "name": "Drew Dalman",
+   "team": null,
+   "status": null,
+   "snaps": 1154,
+   "pff": 72.6,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": null,
+   "availability": 0.68,
+   "side2026": {},
+   "side2025": {
+    "C": 1
+   },
+   "hits": [
+    "pff"
+   ],
+   "score": 0.3333333333333336
+  }
+ ],
+ "screened": 35,
+ "read_only": true,
+ "rating_changes": []
+}

@@ -5600,7 +5600,7 @@
         "position": "C",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/C.reaudit.json",
       "baseline_file": null,
@@ -5702,19 +5702,23 @@
         "C_REAUDIT_RATE_13_A2",
         "C_REAUDIT_SCARCITY_A1",
         "C_REAUDIT_TIEBREAK_07_A1",
-        "C_REAUDIT_TIEBREAK_08_A1"
+        "C_REAUDIT_TIEBREAK_08_A1",
+        "C_REAUDIT_CROSS_AUDIT_A1"
       ],
-      "current_stage": "scarcity_audit",
-      "current_task": "C_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T03:34:59.230Z",
+      "current_stage": "positional_cross_audit",
+      "current_task": "C_REAUDIT_CROSS_AUDIT",
+      "updated_at": "2026-11-04T03:35:15.881Z",
       "last_result": {
-        "task_id": "C_REAUDIT_TIEBREAK_08",
+        "task_id": "C_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
-        "flags": [
-          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "errors": [],
+        "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "C_REAUDIT_CROSS_AUDIT",
+        "audit_id": "C_REAUDIT_CROSS_AUDIT_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
