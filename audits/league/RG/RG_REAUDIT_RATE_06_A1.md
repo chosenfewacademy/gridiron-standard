@@ -1,0 +1,367 @@
+# RG_REAUDIT_RATE_06 — Joe Tippmann rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "RG_REAUDIT_RATE_06_A1",
+  "task_id": "RG_REAUDIT_RATE_06",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "player_id": "ext_00-0039145",
+  "players": [
+    "Joe Tippmann"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 88,
+    "SPD": 76,
+    "ACC": 82,
+    "AGI": 66,
+    "COD": 60,
+    "AWR": 72,
+    "INJ": 88,
+    "STA": 92,
+    "TGH": 88,
+    "PBK": 82,
+    "PBP": 82,
+    "PBF": 80,
+    "RBK": 84,
+    "RBP": 82,
+    "RBF": 86,
+    "IBL": 84,
+    "LBK": 90
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Joe Tippmann (NYJ) 2026: PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59); 8 g / 494 off snaps; 3 accepted penalties {'False Start': 2, 'Offensive Holding': 1}; depth-chart side {'RG': 226}; Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists. Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 3 accepted penalties {'False Start': 2, 'Offensive Holding': 1}, 2025 7 accepted penalties {'False Start': 5, 'Unnecessary Roughness': 1, 'Offensive Holding': 1}; PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Joe Tippmann injury reports: {'2025': ['wk18 Questionable (Hip)']}; roster status ACT; snaps 17 g / 1047 off snaps (2025), 8 g / 494 off snaps (2026). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 17 g / 1047 off snaps (2025), 8 g / 494 off snaps (2026). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 17 g / 1047 off snaps (2025), 8 g / 494 off snaps (2026). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59); PFF 2025 66 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59); PFF 2025 66 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59); PFF 2025 66 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59); PFF 2025 66 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59); PFF 2025 66 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59); PFF 2025 66 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59); PFF 2025 66 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59); PFF 2025 66 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 17 g / 1047 off snaps (2025), 8 g / 494 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "tier": "ELITE",
+      "claim": "run block: Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59); PFF 2025 66 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/g/2026",
+        "https://www.pff.com/grades/nfl/g/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 80,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+  "style_profile": "Joe Tippmann: Athletic converted center: PFF 66.0 at C/RG in 2025 then 82.4 (#7 G) in 2026; quick out of his stance and good on pulls and climbs, but 10 penalties in two seasons including 7 false starts.",
+  "style_evidence": [
+    "Joe Tippmann (NYJ) 2026: PFF 2026 82.4 (rank 7, 494 snaps: 293 pass-block / 201 run-block, pass share 0.59); 8 g / 494 off snaps; 3 accepted penalties {'False Start': 2, 'Offensive Holding': 1}; depth-chart side {'RG': 226}",
+    "Joe Tippmann 2025: PFF 2025 66 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61); 17 g / 1047 off snaps; 7 accepted penalties {'False Start': 5, 'Unnecessary Roughness': 1, 'Offensive Holding': 1}; side {'RG': 164, 'C': 44}",
+    "Joe Tippmann ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+    "Joe Tippmann injury reports: {'2025': ['wk18 Questionable (Hip)']}; roster status ACT"
+  ],
+  "input_dossier": "RG_REAUDIT_BG_06_A1",
+  "weaknesses": [
+    "penalties (7 false starts)",
+    "2025 grade 66.0"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Joe Tippmann",
+      "ovr": 83,
+      "attributes": {
+        "STR": 89,
+        "SPD": 73,
+        "ACC": 81,
+        "AGI": 65,
+        "COD": 57,
+        "AWR": 83,
+        "INJ": 87,
+        "STA": 88,
+        "TGH": 90,
+        "PBK": 79,
+        "PBP": 81,
+        "PBF": 77,
+        "RBK": 86,
+        "RBP": 85,
+        "RBF": 87,
+        "IBL": 88,
+        "LBK": 90
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -3,
+      "delta_attributes": {
+        "STR": -1,
+        "SPD": 3,
+        "ACC": 1,
+        "AGI": 1,
+        "COD": 3,
+        "AWR": -11,
+        "INJ": 1,
+        "STA": 4,
+        "TGH": -2,
+        "PBK": 3,
+        "PBP": 1,
+        "PBF": 3,
+        "RBK": -2,
+        "RBP": -3,
+        "RBF": -1,
+        "IBL": -4,
+        "LBK": 0
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RG, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 3,
+    "attribute_gaps_10plus": {
+      "AWR": -11
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
