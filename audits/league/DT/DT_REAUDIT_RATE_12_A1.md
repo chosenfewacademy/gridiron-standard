@@ -1,0 +1,359 @@
+# DT_REAUDIT_RATE_12 — Travis Jones rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "DT_REAUDIT_RATE_12_A1",
+  "task_id": "DT_REAUDIT_RATE_12",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "player_id": "ext_00-0037756",
+  "players": [
+    "Travis Jones"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 70,
+    "ACC": 74,
+    "AGI": 64,
+    "COD": 56,
+    "STR": 92,
+    "AWR": 74,
+    "PRC": 76,
+    "TAK": 76,
+    "POW": 86,
+    "BSH": 84,
+    "PMV": 82,
+    "FMV": 60,
+    "PUR": 70,
+    "INJ": 86,
+    "STA": 78,
+    "TGH": 84
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PMV": "MEDIUM",
+    "FMV": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 12 pressures (3 hurries, 3 QB knockdowns, 5 sacks), 47 tackles, 2 missed; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 5 tackles, 3 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 12 pressures (3 hurries, 3 QB knockdowns, 5 sacks), 47 tackles, 2 missed; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 5 tackles, 3 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 12 pressures (3 hurries, 3 QB knockdowns, 5 sacks), 47 tackles, 2 missed; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 5 tackles, 3 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 12 pressures (3 hurries, 3 QB knockdowns, 5 sacks), 47 tackles, 2 missed; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 5 tackles, 3 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF DI 2026 overall 69.2 on 294 snaps (DI rank 25); ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 1/0; PFF DI 2026 overall 69.2 on 294 snaps (DI rank 25). Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFF DI 2025 overall 80.1 on 743 snaps (DI rank 7); PFF DI 2026 overall 69.2 on 294 snaps (DI rank 25); TFL in 16 g / 743 def snaps; 5.0 sacks, 9 QB hits, 9 TFL, 1 FF, 2 PD / 8 g / 295 def snaps; 0.0 sacks, 2 QB hits, 5 TFL, 1 FF, 1 PD. Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 12 pressures (3 hurries, 3 QB knockdowns, 5 sacks), 47 tackles, 2 missed; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 5 tackles, 3 missed. Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 12 pressures (3 hurries, 3 QB knockdowns, 5 sacks), 47 tackles, 2 missed; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 5 tackles, 3 missed. Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFF DI 2025 overall 80.1 on 743 snaps (DI rank 7); PFF DI 2026 overall 69.2 on 294 snaps (DI rank 25); TFL in 16 g / 743 def snaps; 5.0 sacks, 9 QB hits, 9 TFL, 1 FF, 2 PD / 8 g / 295 def snaps; 0.0 sacks, 2 QB hits, 5 TFL, 1 FF, 1 PD. Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFR 2025 12 pressures (3 hurries, 3 QB knockdowns, 5 sacks), 47 tackles, 2 missed; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 5 tackles, 3 missed. Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Listed weakness area: pass rush (2 pressures in 2026), agility",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "FMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFR 2025 12 pressures (3 hurries, 3 QB knockdowns, 5 sacks), 47 tackles, 2 missed; PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 5 tackles, 3 missed. Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Listed weakness area: pass rush (2 pressures in 2026), agility",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFF DI 2025 overall 80.1 on 743 snaps (DI rank 7); PFF DI 2026 overall 69.2 on 294 snaps (DI rank 25); TFL in 16 g / 743 def snaps; 5.0 sacks, 9 QB hits, 9 TFL, 1 FF, 2 PD / 8 g / 295 def snaps; 0.0 sacks, 2 QB hits, 5 TFL, 1 FF, 1 PD. Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Travis Jones injury reports: wk4 Questionable (Knee); roster status ACT; 16 g / 743 def snaps; 5.0 sacks, 9 QB hits, 9 TFL, 1 FF, 2 PD (2025), 8 g / 295 def snaps; 0.0 sacks, 2 QB hits, 5 TFL, 1 FF, 1 PD (2026). Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 16 g / 743 def snaps; 5.0 sacks, 9 QB hits, 9 TFL, 1 FF, 2 PD (2025), 8 g / 295 def snaps; 0.0 sacks, 2 QB hits, 5 TFL, 1 FF, 1 PD (2026). Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 16 g / 743 def snaps; 5.0 sacks, 9 QB hits, 9 TFL, 1 FF, 2 PD (2025), 8 g / 295 def snaps; 0.0 sacks, 2 QB hits, 5 TFL, 1 FF, 1 PD (2026). Style: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "ELITE",
+      "claim": "power: PFF DI 2026 overall 69.2 on 294 snaps (DI rank 25); ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 77,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+  "style_profile": "Travis Jones: Power nose: PFF 80.1 (2025) / 69.2, 9 + 5 TFL, 5 sacks in 2025; strong at the point, 2 pressures in 2026 - first-out.",
+  "style_evidence": [
+    "Travis Jones (BAL) Travis Jones 2026: PFF DI 2026 overall 69.2 on 294 snaps (DI rank 25); PFR 2026 2 pressures (0 hurries, 2 QB hits, 0.0 sacks) in 3 games, 5 tackles, 3 missed; 8 g / 295 def snaps; 0.0 sacks, 2 QB hits, 5 TFL, 1 FF, 1 PD; 0 accepted penalties; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+    "Travis Jones 2025: PFF DI 2025 overall 80.1 on 743 snaps (DI rank 7); PFR 2025 12 pressures (3 hurries, 3 QB knockdowns, 5 sacks), 47 tackles, 2 missed; 16 g / 743 def snaps; 5.0 sacks, 9 QB hits, 9 TFL, 1 FF, 2 PD; 1 accepted penalties",
+    "Travis Jones alignment: depth-chart interior snapshots 2025-26: 338 at DT/NT, 158 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket (DT BUCKET (t46u): interior defensive linemen graded by PFF as DI (pff.com/grades/nfl/di), aligned at DT/NT or 3-4 DE (in...); roster position DL; Madden card DT (reference only)",
+    "Travis Jones injury reports: wk4 Questionable (Knee); roster status ACT"
+  ],
+  "input_dossier": "DT_REAUDIT_BG_12_A1",
+  "weaknesses": [
+    "pass rush (2 pressures in 2026)",
+    "agility"
+  ],
+  "limitations": [
+    "PFF pass-rush and run-defense sub-grades and alignment splits are paywalled; substitutes: PFF DI overall + snap counts, ESPN DT PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+  ],
+  "side_assignment": "DT (depth-chart interior snapshots 2025-26: 338 at DT/NT, 158 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket)",
+  "madden_reference": [
+    {
+      "player": "Travis Jones",
+      "ovr": 79,
+      "madden_position": "DT",
+      "attributes": {
+        "SPD": 74,
+        "ACC": 71,
+        "AGI": 70,
+        "COD": 59,
+        "STR": 95,
+        "AWR": 74,
+        "PRC": 73,
+        "TAK": 86,
+        "POW": 81,
+        "BSH": 82,
+        "PMV": 77,
+        "FMV": 64,
+        "PUR": 78,
+        "INJ": 90,
+        "STA": 80,
+        "TGH": 89
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -2,
+      "delta_attributes": {
+        "SPD": -4,
+        "ACC": 3,
+        "AGI": -6,
+        "COD": -3,
+        "STR": -3,
+        "AWR": 0,
+        "PRC": 3,
+        "TAK": -10,
+        "POW": 5,
+        "BSH": 2,
+        "PMV": 5,
+        "FMV": -4,
+        "PUR": -8,
+        "INJ": -4,
+        "STA": -2,
+        "TGH": -5
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 2,
+    "attribute_gaps_10plus": {
+      "TAK": -10
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
