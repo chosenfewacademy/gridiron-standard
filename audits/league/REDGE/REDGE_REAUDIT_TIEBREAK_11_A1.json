@@ -1,0 +1,39 @@
+{
+  "audit_id": "REDGE_REAUDIT_TIEBREAK_11_A1",
+  "task_id": "REDGE_REAUDIT_TIEBREAK_11",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Laiatu Latu",
+    "Bradley Chubb"
+  ],
+  "pair_result": {
+    "winner": "Laiatu Latu",
+    "loser": "Bradley Chubb",
+    "provisional_order_holds": true,
+    "reasoning": "League-ceiling flag. Chubb PFF 54.6 / 56.5 with 13 missed tackles over two seasons; 10 sacks total. Latu clearly ahead.",
+    "key_evidence_for_winner": [
+      "Laiatu Latu (IND) alignment side snapshots 2025-26 left 0 / right 496 -> REDGE; roster ACT (DL); injuries wk2 Questionable (Hamstring)",
+      "Laiatu Latu 2026: Laiatu Latu 2026: PFF edge 2026 overall 66.6 on 370 snaps (194 pass-rush, 145 run-defense, 31 coverage); PFR 2026 9 pressures (3 hurries, 4 QB hits, 1.0 sacks) in 7 games, 17 tackles, 0 missed; 8 g / 370 def snaps; 2.0 sacks, 8 QB hits, 1 TFL, 0 FF, 2 PD; 1 accepted penalties; PFR 2026 9 pressures (3 hurries, 4 QB hits, 1.0 sacks) in 7 games, 17 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Laiatu Latu 2025: Laiatu Latu 2025: PFF edge 2025 overall 84.1 on 755 snaps (437 pass-rush, 253 run-defense, 65 coverage); PFR 2025 26 pressures (7 hurries, 9 QB knockdowns, 8.5 sacks), 45 tackles, 8 missed; 16 g / 756 def snaps; 8.5 sacks, 20 QB hits, 12 TFL, 1 FF, 5 PD; 2 accepted penalties; PFR 2025 26 pressures (7 hurries, 9 QB knockdowns, 8.5 sacks), 45 tackles, 8 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Bradley Chubb (BUF) alignment side snapshots 2025-26 left 0 / right 473 -> REDGE; roster ACT (LB); injuries wk9 Questionable (Shoulder); wk11 Questionable (Foot)",
+      "Bradley Chubb 2026: Bradley Chubb 2026: PFF edge 2026 overall 56.5 on 343 snaps (190 pass-rush, 115 run-defense, 38 coverage); PFR 2026 10 pressures (4 hurries, 4 QB hits, 1.5 sacks) in 5 games, 17 tackles, 4 missed; 7 g / 343 def snaps; 1.5 sacks, 8 QB hits, 2 TFL, 0 FF, 0 PD; 1 accepted penalties; PFR 2026 10 pressures (4 hurries, 4 QB hits, 1.5 sacks) in 5 games, 17 tackles, 4 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Bradley Chubb 2025: Bradley Chubb 2025: PFF edge 2025 overall 54.6 on 766 snaps (393 pass-rush, 308 run-defense, 65 coverage); PFR 2025 22 pressures (3 hurries, 10 QB knockdowns, 8.5 sacks), 47 tackles, 9 missed; 17 g / 766 def snaps; 8.5 sacks, 20 QB hits, 8 TFL, 2 FF, 0 PD; 3 accepted penalties; PFR 2025 22 pressures (3 hurries, 10 QB knockdowns, 8.5 sacks), 47 tackles, 9 missed"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
