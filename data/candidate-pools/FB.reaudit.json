@@ -1,0 +1,572 @@
+{
+  "position": "FB",
+  "status": "APPROVED",
+  "generated_at": "2026-11-03T23:25:00-05:00",
+  "generator": "copy of approved data/candidate-pools/FB.json plus the FB eligibility screen exclusions (t46u)",
+  "note": "Re-audit pool for never-locked FB: the approved FB.json pool (17 players), unchanged in membership. FB ELIGIBILITY RULE (league-wide screen, t46u): a player is FB-eligible if, in 2025 or 2026, he (a) received a PFF FB-alignment grade (pff.com/grades/nfl/fb), or (b) appears at pos_abb FB on any nflverse weekly depth chart, or (c) carries nflverse roster depth_chart_position FB. TE/H-backs used as fullbacks enter through (a)/(b) (e.g. Connor Heyward, Jack Westover, Ben Sims, Chris Myarick, Patrick Gurd); eligible players are judged on FB-alignment usage and lead-block evidence only. The screen found no eligible contender outside the pool; screened non-pool players are listed as exclusions. PROPOSED for commissioner approval. Composite is a triage order, not a rating.",
+  "candidates": [
+    {
+      "player": "Kyle Juszczyk",
+      "player_id": "ext_00-0029892",
+      "team": "SF",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 2.86,
+      "reasoning": "180 offensive snaps in 6 games (2026, SF); 510 offensive snaps in 17 games (2025, SF); 2026 stat score 19.6 (scrimmage yds/10 + 6*TD); 2025 All-Pro selection",
+      "citations": [
+        "nflverse_snaps_2026#2",
+        "nflverse_snaps_2025#1",
+        "nflverse_stats_2026#1",
+        "allpro_2025#1"
+      ]
+    },
+    {
+      "player": "Patrick Ricard",
+      "player_id": "ext_00-0033376",
+      "team": "NYG",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 2.392,
+      "reasoning": "182 offensive snaps in 7 games (2026, NYG); 274 offensive snaps in 11 games (2025, BAL); 2025 All-Pro selection",
+      "citations": [
+        "nflverse_snaps_2026#1",
+        "nflverse_snaps_2025#4",
+        "allpro_2025#2"
+      ]
+    },
+    {
+      "player": "Alec Ingold",
+      "player_id": "ext_00-0035125",
+      "team": "LAC",
+      "status": "IR",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 RES/R01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 1.8,
+      "reasoning": "118 offensive snaps in 5 games (2026, LAC); 362 offensive snaps in 17 games (2025, MIA); 2026 stat score 3.5 (scrimmage yds/10 + 6*TD)",
+      "citations": [
+        "nflverse_snaps_2026#5",
+        "nflverse_snaps_2025#2",
+        "nflverse_stats_2026#2"
+      ]
+    },
+    {
+      "player": "Adam Prentice",
+      "player_id": "ext_00-0036727",
+      "team": "DEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 1.408,
+      "reasoning": "46 offensive snaps in 7 games (2026, DEN); 211 offensive snaps in 17 games (2025, DEN); 2026 stat score 1.5 (scrimmage yds/10 + 6*TD)",
+      "citations": [
+        "nflverse_snaps_2026#11",
+        "nflverse_snaps_2025#7",
+        "nflverse_stats_2026#4"
+      ]
+    },
+    {
+      "player": "Connor Heyward",
+      "player_id": "ext_00-0037304",
+      "team": "LV",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 1.248,
+      "reasoning": "122 offensive snaps in 7 games (2026, LV); 2026 stat score 2.0 (scrimmage yds/10 + 6*TD)",
+      "citations": [
+        "nflverse_snaps_2026#4",
+        "nflverse_stats_2026#3"
+      ]
+    },
+    {
+      "player": "Brady Russell",
+      "player_id": "ext_00-0038488",
+      "team": "SEA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 1.136,
+      "reasoning": "103 offensive snaps in 7 games (2026, SEA); 58 offensive snaps in 17 games (2025, SEA)",
+      "citations": [
+        "nflverse_snaps_2026#6",
+        "nflverse_snaps_2025#12"
+      ]
+    },
+    {
+      "player": "Reggie Gilliam",
+      "player_id": "ext_00-0036187",
+      "team": "NE",
+      "status": "IR",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 RES/R01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 1.12,
+      "reasoning": "58 offensive snaps in 4 games (2026, NE); 235 offensive snaps in 17 games (2025, BUF)",
+      "citations": [
+        "nflverse_snaps_2026#10",
+        "nflverse_snaps_2025#6"
+      ]
+    },
+    {
+      "player": "Scott Matlock",
+      "player_id": "ext_00-0038614",
+      "team": "LAC",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 1.112,
+      "reasoning": "28 offensive snaps in 2 games (2026, LAC); 334 offensive snaps in 16 games (2025, LAC)",
+      "citations": [
+        "nflverse_snaps_2026#12",
+        "nflverse_snaps_2025#3"
+      ]
+    },
+    {
+      "player": "Michael Burton",
+      "player_id": "ext_00-0031595",
+      "team": "CLE",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 1.016,
+      "reasoning": "62 offensive snaps in 7 games (2026, CLE); 2026 stat score 0.2 (scrimmage yds/10 + 6*TD)",
+      "citations": [
+        "nflverse_snaps_2026#9",
+        "nflverse_stats_2026#5"
+      ]
+    },
+    {
+      "player": "DJ Herman",
+      "player_id": "ext_00-0041436",
+      "team": "MIA",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 0.92,
+      "reasoning": "127 offensive snaps in 6 games (2026, MIA)",
+      "citations": [
+        "nflverse_snaps_2026#3"
+      ]
+    },
+    {
+      "player": "Andrew Beck",
+      "player_id": "ext_00-0034959",
+      "team": "NYJ",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 0.864,
+      "reasoning": "24 offensive snaps in 7 games (2026, NYJ); 110 offensive snaps in 17 games (2025, NYJ)",
+      "citations": [
+        "nflverse_snaps_2026#14",
+        "nflverse_snaps_2025#10"
+      ]
+    },
+    {
+      "player": "Max Bredeson",
+      "player_id": "ext_00-0041081",
+      "team": "MIN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 0.76,
+      "reasoning": "96 offensive snaps in 6 games (2026, MIN)",
+      "citations": [
+        "nflverse_snaps_2026#7"
+      ]
+    },
+    {
+      "player": "Ben VanSumeren",
+      "player_id": "ext_00-0038489",
+      "team": "KC",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 0.752,
+      "reasoning": "4 offensive snaps in 5 games (2026, KC); 0 offensive snaps in 1 games (2025, PHI)",
+      "citations": [
+        "nflverse_snaps_2026#15",
+        "nflverse_snaps_2025#13"
+      ]
+    },
+    {
+      "player": "Hunter Luepke",
+      "player_id": "ext_00-0038738",
+      "team": "DAL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 0.72,
+      "reasoning": "78 offensive snaps in 7 games (2026, DAL)",
+      "citations": [
+        "nflverse_snaps_2026#8"
+      ]
+    },
+    {
+      "player": "Riley Nowakowski",
+      "player_id": "ext_00-0041398",
+      "team": "PIT",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 0.52,
+      "reasoning": "25 offensive snaps in 7 games (2026, PIT)",
+      "citations": [
+        "nflverse_snaps_2026#13"
+      ]
+    },
+    {
+      "player": "Jack Westover",
+      "player_id": "ext_00-0039305",
+      "team": "WAS",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 DEV/P06"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)",
+        "PRACTICE_SQUAD (roster_2026 DEV)",
+        "ROSTER_LABEL_TE/TE (used at FB per snap file; confirm bucket)"
+      ],
+      "composite": 0.504,
+      "reasoning": "237 offensive snaps in 17 games (2025, NE)",
+      "citations": [
+        "nflverse_snaps_2025#5"
+      ]
+    },
+    {
+      "player": "Robbie Ouzts",
+      "player_id": "ext_00-0040649",
+      "team": "SEA",
+      "status": "IR",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 RES/R01"
+      },
+      "flags": [
+        "NO_PFF_POSITION_TABLE (PFF publishes no public FB/LS season grade table; quality evidence must come from research)"
+      ],
+      "composite": 0.432,
+      "reasoning": "203 offensive snaps in 12 games (2025, SEA)",
+      "citations": [
+        "nflverse_snaps_2025#8"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "player": "C.J. Ham",
+      "player_id": null,
+      "reason": "retired (nflverse roster_2026 status RET); PFF FB 61.5 on 184 snaps (2025) - not on a 2026 roster",
+      "code": "RETIRED"
+    },
+    {
+      "player": "Jakob Johnson",
+      "player_id": null,
+      "reason": "no 2026 roster; PFF FB 60.9 on 86 snaps (2025, HOU)",
+      "code": "FREE_AGENT"
+    },
+    {
+      "player": "British Brooks",
+      "player_id": null,
+      "reason": "HOU running back on reserve; PFF FB 78.2 on only 73 snaps (2025, mostly RB carries), no 2026 snaps, no FB depth-chart slot",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Lucas Scott",
+      "player_id": null,
+      "reason": "BAL practice squad FB (depth-chart FB1 162 snapshots 2026) with no regular-season offensive snaps in 2025-26",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Brock Lampe",
+      "player_id": null,
+      "reason": "BUF practice squad FB (depth-chart FB2/FB3); no regular-season snaps 2025-26",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Ben Sims",
+      "player_id": null,
+      "reason": "TE/H-back (SEA practice squad), FB1 20 snapshots 2026; 84 offensive snaps 2025, no 2026 snaps",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Chris Myarick",
+      "player_id": null,
+      "reason": "TE/H-back (LV practice squad), FB2 22 snapshots 2025; 8 offensive snaps 2026",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Patrick Gurd",
+      "player_id": null,
+      "reason": "TE/H-back (LV practice squad), FB2 17 snapshots 2026; no snaps",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Carson Steele",
+      "player_id": null,
+      "reason": "RB released (CUT); FB1 ~22 snapshots per season, 3 offensive snaps 2026",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Jackson Acker",
+      "player_id": null,
+      "reason": "RB released (CUT); FB2 100 snapshots 2026, no snaps",
+      "code": "BELOW_CUTOFF"
+    }
+  ],
+  "free_agents": [
+    {
+      "player": "C.J. Ham",
+      "player_id": null,
+      "status": "RETIRED",
+      "last_team": "MIN",
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) status RET/R02.",
+      "reason_listed": "composite 0.41; sources nflverse_snaps_2025#9; 184 offensive snaps in 11 games (2025, MIN)"
+    },
+    {
+      "player": "Jakob Johnson",
+      "player_id": "ext_00-0035726",
+      "status": "FREE_AGENT",
+      "last_team": "HOU",
+      "status_as_of": "2026-11-01",
+      "source_url": "https://www.rotowire.com/football/player/jakob-johnson-13931",
+      "note": "HOU contract expired after 2025 (Spotrac: 2026 UFA, spotrac.com/nfl/player/_/id/29024); listed as an unattached free agent fullback in 2026.",
+      "reason_listed": "composite 0.36; sources nflverse_snaps_2025#11; 86 offensive snaps in 7 games (2025, HOU)"
+    }
+  ],
+  "injured": [
+    {
+      "player": "Alec Ingold",
+      "player_id": "ext_00-0035125",
+      "team": "LAC",
+      "status": "IR",
+      "in_pool": true,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 1.80, sources nflverse_snaps_2026#5, nflverse_snaps_2025#2, nflverse_stats_2026#2"
+    },
+    {
+      "player": "Reggie Gilliam",
+      "player_id": "ext_00-0036187",
+      "team": "NE",
+      "status": "IR",
+      "in_pool": true,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 1.12, sources nflverse_snaps_2026#10, nflverse_snaps_2025#6"
+    },
+    {
+      "player": "Robbie Ouzts",
+      "player_id": "ext_00-0040649",
+      "team": "SEA",
+      "status": "IR",
+      "in_pool": true,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.43, sources nflverse_snaps_2025#8"
+    }
+  ],
+  "coverage_sources": [
+    {
+      "id": "nflverse_snaps_2026",
+      "name": "nflverse 2026 offensive snaps, snap-file label FB (weeks 1-8)",
+      "publisher": "nflverse",
+      "kind": "usage",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Patrick Ricard",
+        "Kyle Juszczyk",
+        "DJ Herman",
+        "Connor Heyward",
+        "Alec Ingold",
+        "Brady Russell",
+        "Max Bredeson",
+        "Hunter Luepke",
+        "Michael Burton",
+        "Reggie Gilliam",
+        "Adam Prentice",
+        "Scott Matlock",
+        "Riley Nowakowski",
+        "Andrew Beck",
+        "Ben VanSumeren"
+      ]
+    },
+    {
+      "id": "nflverse_snaps_2025",
+      "name": "nflverse 2025 offensive snaps, snap-file label FB",
+      "publisher": "nflverse",
+      "kind": "usage",
+      "season": 2025,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Kyle Juszczyk",
+        "Alec Ingold",
+        "Scott Matlock",
+        "Patrick Ricard",
+        "Jack Westover",
+        "Reggie Gilliam",
+        "Adam Prentice",
+        "Robbie Ouzts",
+        "C.J. Ham",
+        "Andrew Beck",
+        "Jakob Johnson",
+        "Brady Russell",
+        "Ben VanSumeren"
+      ]
+    },
+    {
+      "id": "nflverse_stats_2026",
+      "name": "nflverse 2026 regular-season stats: scrimmage yds/10 + 6*TD",
+      "publisher": "nflverse",
+      "kind": "stats",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Kyle Juszczyk",
+        "Alec Ingold",
+        "Connor Heyward",
+        "Adam Prentice",
+        "Michael Burton"
+      ]
+    },
+    {
+      "id": "allpro_2025",
+      "name": "2025 All-Pro (AP, PFWA, TSN)",
+      "publisher": "AP/PFWA/TSN via Wikipedia",
+      "kind": "honors",
+      "season": 2025,
+      "url": "https://en.wikipedia.org/wiki/2025_All-Pro_Team",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Kyle Juszczyk",
+        "Patrick Ricard"
+      ]
+    }
+  ],
+  "reaudit": {
+    "target_position_state": "PENDING",
+    "requires_trigger": "TOP10_REAUDIT",
+    "never_locked": true,
+    "note": "Proposed re-audit pool only, for a never-locked PENDING position (no locks entry, no baseline). Comparison set is the approved candidate pool. Does not modify baselines, locks or audit history; needs the commissioner TOP10_REAUDIT trigger.",
+    "compared_against": "approved candidate pool data/candidate-pools/FB.json (FB never locked; no provisional list)",
+    "compared_list": [
+      "Kyle Juszczyk",
+      "Patrick Ricard",
+      "Alec Ingold",
+      "Adam Prentice",
+      "Connor Heyward",
+      "Brady Russell",
+      "Reggie Gilliam",
+      "Scott Matlock",
+      "Michael Burton",
+      "DJ Herman"
+    ],
+    "flags": [
+      "NO_MADDEN_ENTRY_ORDER (config/madden-entry-order.json has no FB key; protected, unchanged)"
+    ]
+  },
+  "approved_by": "PhiXCrypto",
+  "approved_at": "2026-11-04T04:13:49.129Z",
+  "approved_from": "data/candidate-pools/FB.reaudit.proposed.json"
+}
