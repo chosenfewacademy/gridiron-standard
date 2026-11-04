@@ -1,0 +1,153 @@
+{
+  "audit_id": "LT_REAUDIT_BG_01_A1",
+  "task_id": "LT_REAUDIT_BG_01",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "player_id": "penei_sewell",
+  "players": [
+    "Penei Sewell"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Penei Sewell",
+    "player_id": "penei_sewell",
+    "team": "DET",
+    "pff": {
+      "2025": {
+        "rank": 1,
+        "pff": 95.1,
+        "team": "DET",
+        "off": 998,
+        "pblk": 601,
+        "rblk": 397,
+        "age": "26.0"
+      },
+      "2026": {
+        "rank": 1,
+        "pff": 91.1,
+        "team": "DET",
+        "off": 481,
+        "pblk": 278,
+        "rblk": 202,
+        "age": "26.0"
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 16,
+        "off": 997
+      },
+      "2026": {
+        "games": 7,
+        "off": 481
+      }
+    },
+    "penalties": {
+      "2025": {
+        "total": 2,
+        "types": {
+          "False Start": 1,
+          "Offensive Holding": 1
+        }
+      },
+      "2026": {
+        "total": 6,
+        "types": {
+          "False Start": 4,
+          "Offensive Holding": 2
+        }
+      }
+    },
+    "depth_chart_side": {
+      "2025": {
+        "RT": 1
+      },
+      "2026": {
+        "LT": 193,
+        "RT": 33
+      }
+    },
+    "espn_win_rates": "PBWR 90%, RBWR 82% (#5 OT)",
+    "injuries": {
+      "2025": [
+        "wk11 Questionable (Ankle)",
+        "wk12 Questionable (Ankle)",
+        "wk13 Questionable (Ankle)",
+        "wk14 Questionable (Shoulder)",
+        "wk18 Out (Ankle)"
+      ]
+    },
+    "summary_lines": [
+      "Penei Sewell (DET) 2026: PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); 7 g / 481 off snaps; 6 accepted penalties {'False Start': 4, 'Offensive Holding': 2}; depth-chart side {'LT': 193, 'RT': 33}",
+      "Penei Sewell 2025: PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6); 16 g / 997 off snaps; 2 accepted penalties {'False Start': 1, 'Offensive Holding': 1}; side {'RT': 1}",
+      "Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT)",
+      "Penei Sewell injury reports: {'2025': ['wk11 Questionable (Ankle)', 'wk12 Questionable (Ankle)', 'wk13 Questionable (Ankle)', 'wk14 Questionable (Shoulder)', 'wk18 Out (Ankle)']}; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "STR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH",
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2026",
+        "retrieved_at": "2026-11-04T01:53:50Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2025",
+        "retrieved_at": "2026-11-04T01:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T01:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T01:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T01:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T01:53:50Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T01:53:50Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T01:53:50Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

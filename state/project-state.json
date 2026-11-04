@@ -4341,7 +4341,7 @@
         "position": "LT",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/LT.reaudit.json",
       "baseline_file": "data/baselines/LT.json",
@@ -4354,25 +4354,23 @@
         "LT_REAUDIT_CANDIDATE_AUDIT"
       ],
       "audit_ids": [
-        "LT_REAUDIT_CANDIDATE_AUDIT_A1"
+        "LT_REAUDIT_CANDIDATE_AUDIT_A1",
+        "LT_REAUDIT_BG_01_A1"
       ],
-      "current_stage": "candidate_audit",
-      "current_task": "LT_REAUDIT_CANDIDATE_AUDIT",
-      "updated_at": "2026-11-04T01:54:21.827Z",
+      "current_stage": "background_analysis",
+      "current_task": "LT_REAUDIT_BG_01",
+      "updated_at": "2026-11-04T01:56:51.220Z",
       "last_result": {
-        "task_id": "LT_REAUDIT_CANDIDATE_AUDIT",
+        "task_id": "LT_REAUDIT_BG_01",
         "status": "FLAGGED",
         "errors": [],
-        "flags": [
-          "LOCKED_MEMBERS_OUT: Kolton Miller (#10, outside pool), Laremy Tunsil (#7, first-out, reserve)",
-          "NEW_CONTENDERS: Charles Cross, Dion Dawkins",
-          "SIDE_CHANGE: Penei Sewell RT->LT",
-          "DATA_GAP: PFF sub-grades and pressures/sacks allowed paywalled; ESPN win rates and penalties used",
-          "MADDEN_GAP_10PLUS: Kolton Miller (93, excluded); Madden reference only",
-          "LOCKED_CONTROL_CONFLICT"
-        ]
+        "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "LT_REAUDIT_BG_01",
+        "audit_id": "LT_REAUDIT_BG_01_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
