@@ -3194,7 +3194,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.json",
@@ -3398,18 +3398,25 @@
         "TE_REAUDIT_TIEBREAK_49_A1",
         "TE_REAUDIT_TIEBREAK_50_A1",
         "TE_REAUDIT_TIEBREAK_51_A1",
-        "TE_REAUDIT_BG_16_A1"
+        "TE_REAUDIT_BG_16_A1",
+        "TE_REAUDIT_RATE_16_A1"
       ],
-      "current_stage": "background_analysis",
-      "current_task": "TE_REAUDIT_BG_16",
-      "updated_at": "2026-11-04T00:19:55.173Z",
+      "current_stage": "player_rating",
+      "current_task": "TE_REAUDIT_RATE_16",
+      "updated_at": "2026-11-04T00:19:56.300Z",
       "last_result": {
-        "task_id": "TE_REAUDIT_BG_16",
+        "task_id": "TE_REAUDIT_RATE_16",
         "status": "FLAGGED",
         "errors": [],
-        "flags": []
+        "flags": [
+          "STYLE_PROFILE_TOO_SIMILAR:Tucker Kraft(corr 0.729, mad 2.8)"
+        ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "TE_REAUDIT_RATE_16",
+        "audit_id": "TE_REAUDIT_RATE_16_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
