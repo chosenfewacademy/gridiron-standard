@@ -1,0 +1,40 @@
+# MIKE_REAUDIT_TIEBREAK_11 — Omar Speights vs Christian Elliss (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "MIKE_REAUDIT_TIEBREAK_11_A1",
+  "task_id": "MIKE_REAUDIT_TIEBREAK_11",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "MIKE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Omar Speights",
+    "Christian Elliss"
+  ],
+  "pair_result": {
+    "winner": "Omar Speights",
+    "loser": "Christian Elliss",
+    "provisional_order_holds": true,
+    "reasoning": "Speights holds #10 on current form: PFF 79.9 on 231 snaps in 2026 (#4 LB) with 4 TFL / 2.0 sacks and 2 missed tackles (PFR, 7 games), vs Christian Elliss's PFF 69.4 on 481 snaps in 2026. Christian Elliss's ceiling hits (value, efficiency, negative_rate, availability) come from the two-year screen (snap-weighted PFF 66.3, 0.5 impact plays/game, 93.5% tackle success) where Speights' 2025 (PFF 67.1, 0 TFL) sets a low reference bar.",
+    "key_evidence_for_winner": [
+      "Omar Speights (LA) role snap-weighted 2025-26 depth-chart role shares MIKE 905 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE25 221, MIKE26 275) -> MIKE; roster ACT (LB); injuries wk6 Doubtful (Ankle); wk18 Questionable (Ankle)",
+      "Omar Speights 2026: Omar Speights 2026: PFF LB 2026 overall 79.9 on 231 snaps (LB rank 4; 114 run-def / 92 coverage / 25 pass-rush snaps); PFR 2026 (7 games) coverage 13 targets / 9 completions / 79 yds / 0 INT; 32 tackles, 2 missed; 4 pressures on 13 blitzes; 8 g / 232 def snaps; 22 solo + 15 ast tackles, 4 TFL, 2.0 sacks, 0 INT, 2 PD, 1 FF; 1 accepted penalties; PFR 2026 (7 games) coverage 13 targets / 9 completions / 79 yds / 0 INT; 32 tackles, 2 missed; 4 pressures on 13 blitzes",
+      "Omar Speights 2025: Omar Speights 2025: PFF LB 2025 overall 67.1 on 826 snaps (LB rank 34; 384 run-def / 413 coverage / 29 pass-rush snaps); PFR 2025 coverage 44 targets / 28 completions / 214 yds / passer rating 75.4 / 0 INT; 85 tackles, 3 missed; 1 pressures on 9 blitzes, 0 sacks; 16 g / 673 def snaps; 43 solo + 40 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 44 targets / 28 completions / 214 yds / passer rating 75.4 / 0 INT; 85 tackles, 3 missed; 1 pressures on 9 blitzes, 0 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Christian Elliss (NE) role snap-weighted 2025-26 depth-chart role shares MIKE 512 / WILL 474 / SAM 0 / edge 0 (raw snapshots MIKE25 220, WILL25 1, WILL26 270, MIKE26 5) -> MIKE; roster ACT (LB); injuries wk10 Questionable (Hip); wk11 Out (Hip); wk6 Questionable (Chest); wk7 Questionable (Chest); wk8 Questionable (Chest)",
+      "Christian Elliss 2026: Christian Elliss 2026: PFF LB 2026 overall 69.4 on 481 snaps (LB rank 21; 183 run-def / 234 coverage / 64 pass-rush snaps); PFR 2026 (7 games) coverage 31 targets / 23 completions / 234 yds / 0 INT; 51 tackles, 2 missed; 6 pressures on 42 blitzes; 8 g / 481 def snaps; 30 solo + 28 ast tackles, 4 TFL, 1.5 sacks, 0 INT, 1 PD, 1 FF; 1 accepted penalties; PFR 2026 (7 games) coverage 31 targets / 23 completions / 234 yds / 0 INT; 51 tackles, 2 missed; 6 pressures on 42 blitzes",
+      "Christian Elliss 2025: Christian Elliss 2025: PFF LB 2025 overall 64.1 on 657 snaps (LB rank 39; 229 run-def / 347 coverage / 81 pass-rush snaps); PFR 2025 coverage 31 targets / 26 completions / 212 yds / passer rating 105.9 / 0 INT; 94 tackles, 8 missed; 4 pressures on 32 blitzes, 0 sacks; 15 g / 506 def snaps; 37 solo + 55 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 3 PD, 1 FF; 1 accepted penalties; PFR 2025 coverage 31 targets / 26 completions / 212 yds / passer rating 105.9 / 0 INT; 94 tackles, 8 missed; 4 pressures on 32 blitzes, 0 sacks"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
