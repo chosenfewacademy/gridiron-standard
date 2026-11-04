@@ -5600,7 +5600,7 @@
         "position": "C",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/C.reaudit.json",
       "baseline_file": null,
@@ -5650,7 +5650,8 @@
         "C_REAUDIT_TIEBREAK_05",
         "C_REAUDIT_TIEBREAK_06",
         "C_REAUDIT_VARIANCE_AUDIT",
-        "C_REAUDIT_SCARCITY"
+        "C_REAUDIT_SCARCITY",
+        "C_REAUDIT_TIEBREAK_07"
       ],
       "audit_ids": [
         "C_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -5703,7 +5704,7 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "C_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T03:34:58.141Z",
+      "updated_at": "2026-11-04T03:34:58.406Z",
       "last_result": {
         "task_id": "C_REAUDIT_TIEBREAK_07",
         "status": "FLAGGED",
@@ -5711,17 +5712,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "C_REAUDIT_TIEBREAK_07",
-        "audit_id": "C_REAUDIT_TIEBREAK_07_A1",
-        "pending": [
-          {
-            "task_id": "C_REAUDIT_TIEBREAK_07",
-            "audit_id": "C_REAUDIT_TIEBREAK_07_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -6095,6 +6086,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T03:34:40Z",
           "note": "Standing commissioner approval t46u/t50s441: scarcity PASS"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "C_REAUDIT_TIEBREAK_07",
+          "audit_id": "C_REAUDIT_TIEBREAK_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T03:34:58Z",
+          "note": "Standing commissioner approval t46u/t50s441 (approve every stage on the same pathway)"
         }
       ]
     }
