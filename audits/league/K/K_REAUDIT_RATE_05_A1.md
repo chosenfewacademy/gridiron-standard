@@ -1,0 +1,182 @@
+# K_REAUDIT_RATE_05 — Cam Little rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "K_REAUDIT_RATE_05_A1",
+  "task_id": "K_REAUDIT_RATE_05",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "player_id": "ext_00-0039409",
+  "players": [
+    "Cam Little"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "KPW": 98,
+    "KAC": 84,
+    "AWR": 76,
+    "INJ": 84,
+    "STA": 84,
+    "TGH": 73
+  },
+  "trait_confidence": {
+    "KPW": "MEDIUM",
+    "KAC": "MEDIUM",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "KPW": {
+      "basis": "Judgment (leg): 2025 FG 30/34 (88%): 0-39 14/14, 40-49 8/10, 50-59 6/8, 60+ 2/2; long 68; 0 blocked; FG EPA +12.0; XP 50/51; 2025 kickoffs 97, touchback 37 (38.1%), return avg 25.4, 2 out of bounds; 2026 FG 10/12 (83%): 0-39 3/3, 40-49 3/3, 50-59 3/4, 60+ 1/2; long 60; 0 blocked; FG EPA +8.6; XP 22/23; 2026 kickoffs 39, touchback 5 (12.8%), return avg 28.6, 0 out of bounds. Style: Longest leg in football: 68-yard long, 3 of 4 from 60+ and a 38.1% kickoff touchback rate in 2025; PFF 92.3 (K rank 5) then 82.2.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "KAC": {
+      "basis": "Judgment (accuracy): 2025 FG 30/34 (88%): 0-39 14/14, 40-49 8/10, 50-59 6/8, 60+ 2/2; long 68; 0 blocked; FG EPA +12.0; XP 50/51; 2026 FG 10/12 (83%): 0-39 3/3, 40-49 3/3, 50-59 3/4, 60+ 1/2; long 60; 0 blocked; FG EPA +8.6; XP 22/23. Style: Longest leg in football: 68-yard long, 3 of 4 from 60+ and a 38.1% kickoff touchback rate in 2025; PFF 92.3 (K rank 5) then 82.2.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (decisions): PFF K 2025 overall 92.3 (K rank 5); 2025 FG 30/34 (88%): 0-39 14/14, 40-49 8/10, 50-59 6/8, 60+ 2/2; long 68; 0 blocked; FG EPA +12.0; XP 50/51; PFF K 2026 overall 82.2 (K rank 6); 2026 FG 10/12 (83%): 0-39 3/3, 40-49 3/3, 50-59 3/4, 60+ 1/2; long 60; 0 blocked; FG EPA +8.6; XP 22/23; penalties 3/0. Style: Longest leg in football: 68-yard long, 3 of 4 from 60+ and a 38.1% kickoff touchback rate in 2025; PFF 92.3 (K rank 5) then 82.2.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Cam Little injury reports: no injury designation 2025-26; roster status ACT; 2025 kickoffs 97, touchback 37 (38.1%), return avg 25.4, 2 out of bounds; 2026 kickoffs 39, touchback 5 (12.8%), return avg 28.6, 0 out of bounds. Style: Longest leg in football: 68-yard long, 3 of 4 from 60+ and a 38.1% kickoff touchback rate in 2025; PFF 92.3 (K rank 5) then 82.2.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 2025 kickoffs 97, touchback 37 (38.1%), return avg 25.4, 2 out of bounds; 2026 kickoffs 39, touchback 5 (12.8%), return avg 28.6, 0 out of bounds. Style: Longest leg in football: 68-yard long, 3 of 4 from 60+ and a 38.1% kickoff touchback rate in 2025; PFF 92.3 (K rank 5) then 82.2.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 2025 kickoffs 97, touchback 37 (38.1%), return avg 25.4, 2 out of bounds; 2026 kickoffs 39, touchback 5 (12.8%), return avg 28.6, 0 out of bounds. Style: Longest leg in football: 68-yard long, 3 of 4 from 60+ and a 38.1% kickoff touchback rate in 2025; PFF 92.3 (K rank 5) then 82.2.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "KPW": {
+      "tier": "EXTRAORDINARY",
+      "claim": "leg: 2025 FG 30/34 (88%): 0-39 14/14, 40-49 8/10, 50-59 6/8, 60+ 2/2; long 68; 0 blocked; FG EPA +12.0; XP 50/51; 2025 kickoffs 97, touchback 37 (38.1%), return avg 25.4, 2 out of bounds; 2026 FG 10/12 (83%): 0-39 3/3, 40-49 3/3, 50-59 3/4, 60+ 1/2; long 60; 0 blocked; FG EPA +8.6; XP 22/23; 2026 kickoffs 39, touchback 5 (12.8%), return avg 28.6, 0 out of bounds",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 82,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Longest leg in football: 68-yard long, 3 of 4 from 60+ and a 38.1% kickoff touchback rate in 2025; PFF 92.3 (K rank 5) then 82.2.",
+  "style_profile": "Cam Little: Longest leg in football: 68-yard long, 3 of 4 from 60+ and a 38.1% kickoff touchback rate in 2025; PFF 92.3 (K rank 5) then 82.2.",
+  "style_evidence": [
+    "Cam Little (JAX) Cam Little 2026: PFF K 2026 overall 82.2 (K rank 6); 2026 kickoffs 39, touchback 5 (12.8%), return avg 28.6, 0 out of bounds; 0 accepted penalties",
+    "Cam Little 2025: PFF K 2025 overall 92.3 (K rank 5); 2025 kickoffs 97, touchback 37 (38.1%), return avg 25.4, 2 out of bounds; 3 accepted penalties",
+    "Cam Little role: placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K (KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflve...); roster position K; Madden card K (reference only)",
+    "Cam Little injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "K_REAUDIT_BG_05_A1",
+  "weaknesses": [
+    "40-59 accuracy (20 of 25)",
+    "2026 kickoff touchbacks (12.8%)"
+  ],
+  "limitations": [
+    "No public kickoff hang time; PFF K sub-grades paywalled; substitutes: FG% by distance band, longest FG, FG EPA, XP%, kickoff touchback %/return average (nflverse pbp), PFF K overall"
+  ],
+  "role_assignment": "K (placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K)",
+  "madden_reference": [
+    {
+      "player": "Cam Little",
+      "ovr": 80,
+      "madden_position": "K",
+      "attributes": {
+        "KPW": 99,
+        "KAC": 92,
+        "AWR": 61,
+        "INJ": 90,
+        "STA": 83,
+        "TGH": 75
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 2,
+      "delta_attributes": {
+        "KPW": -1,
+        "KAC": -8,
+        "AWR": 15,
+        "INJ": -6,
+        "STA": 1,
+        "TGH": -2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 2,
+    "attribute_gaps_10plus": {
+      "AWR": 15
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
