@@ -1,0 +1,14 @@
+{
+  "audit_id": "LS_REAUDIT_LOCK_20261104",
+  "task_id": "LS_REAUDIT_LOCK",
+  "task_type": "lock",
+  "audit_type": "TOP10_REAUDIT",
+  "position": "LS",
+  "status": "APPROVED",
+  "confirmation": "REAUDIT_REPLACE_BASELINE_LS",
+  "approved_by": "PhiXCrypto",
+  "created_at": "2026-11-04T13:08:02Z",
+  "new_baseline_file": "data/baselines/LS.reaudit-20261104.json",
+  "previous_baseline_file": null,
+  "first_lock": true
+}

@@ -240,6 +240,16 @@
       "locked_at": "2026-11-04T13:01:44Z",
       "lock_audit_id": "P_REAUDIT_LOCK_20261104",
       "history": []
+    },
+    "LS": {
+      "status": "LOCKED",
+      "mutation_permission": "TOP10_REAUDIT_ONLY",
+      "first_lock": true,
+      "baseline_file": "data/baselines/LS.reaudit-20261104.json",
+      "version": "reaudit-20261104",
+      "locked_at": "2026-11-04T13:08:02Z",
+      "lock_audit_id": "LS_REAUDIT_LOCK_20261104",
+      "history": []
     }
   }
 }

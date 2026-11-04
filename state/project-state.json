@@ -13990,7 +13990,7 @@
         "position": "LS",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LS.reaudit.json",
       "baseline_file": null,
@@ -14086,11 +14086,12 @@
         "LS_REAUDIT_VARIANCE_AUDIT_A1",
         "LS_REAUDIT_RATE_06_A2",
         "LS_REAUDIT_SCARCITY_A1",
-        "LS_REAUDIT_CROSS_AUDIT_A1"
+        "LS_REAUDIT_CROSS_AUDIT_A1",
+        "LS_REAUDIT_LOCK_20261104"
       ],
-      "current_stage": "positional_cross_audit",
+      "current_stage": "lock",
       "current_task": "LS_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T13:08:02.085Z",
+      "updated_at": "2026-11-04T13:08:02Z",
       "last_result": {
         "task_id": "LS_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",

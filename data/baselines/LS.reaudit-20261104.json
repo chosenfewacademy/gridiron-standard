@@ -1,0 +1,131 @@
+{
+  "position": "LS",
+  "version": "reaudit-20261104",
+  "architecture_version": "1.1.3",
+  "status": "LOCKED",
+  "top_10": [
+    {
+      "rank": 1,
+      "player": "Ross Matiscik",
+      "ovr": 78
+    },
+    {
+      "rank": 2,
+      "player": "Thomas Hennessy",
+      "ovr": 76
+    },
+    {
+      "rank": 3,
+      "player": "Chris Stoll",
+      "ovr": 74
+    },
+    {
+      "rank": 4,
+      "player": "William Wagner",
+      "ovr": 73
+    },
+    {
+      "rank": 5,
+      "player": "Austin Brinkman",
+      "ovr": 72
+    },
+    {
+      "rank": 6,
+      "player": "Andrew DePaola",
+      "ovr": 71
+    },
+    {
+      "rank": 7,
+      "player": "Luke Rhodes",
+      "ovr": 70
+    },
+    {
+      "rank": 8,
+      "player": "Christian Kuntz",
+      "ovr": 69
+    },
+    {
+      "rank": 9,
+      "player": "Trent Sieg",
+      "ovr": 68
+    },
+    {
+      "rank": 10,
+      "player": "Nick Moore",
+      "ovr": 67
+    }
+  ],
+  "last_in": {
+    "player": "Nick Moore",
+    "ovr": 67
+  },
+  "first_out": {
+    "player": "Joe Cardona",
+    "ovr": 66
+  },
+  "external_controls": [
+    {
+      "player": "Joe Cardona",
+      "ovr": 66
+    },
+    {
+      "player": "Mitchell Fraboni",
+      "ovr": 65
+    },
+    {
+      "player": "Rex Sunahara",
+      "ovr": 64
+    }
+  ],
+  "supersedes": null,
+  "first_lock": true,
+  "control_source": "APPROVED_CANDIDATE_POOL",
+  "stage_audit_ids": [
+    "LS_REAUDIT_CANDIDATE_AUDIT_A1",
+    "LS_REAUDIT_BG_01_A1",
+    "LS_REAUDIT_BG_02_A1",
+    "LS_REAUDIT_BG_03_A1",
+    "LS_REAUDIT_BG_04_A1",
+    "LS_REAUDIT_BG_05_A1",
+    "LS_REAUDIT_BG_06_A1",
+    "LS_REAUDIT_BG_07_A1",
+    "LS_REAUDIT_BG_08_A1",
+    "LS_REAUDIT_BG_09_A1",
+    "LS_REAUDIT_BG_10_A1",
+    "LS_REAUDIT_BG_11_A1",
+    "LS_REAUDIT_BG_12_A1",
+    "LS_REAUDIT_BG_13_A1",
+    "LS_REAUDIT_RATE_01_A1",
+    "LS_REAUDIT_RATE_02_A1",
+    "LS_REAUDIT_RATE_03_A1",
+    "LS_REAUDIT_RATE_04_A1",
+    "LS_REAUDIT_RATE_05_A1",
+    "LS_REAUDIT_RATE_06_A1",
+    "LS_REAUDIT_RATE_07_A1",
+    "LS_REAUDIT_RATE_08_A1",
+    "LS_REAUDIT_RATE_09_A1",
+    "LS_REAUDIT_RATE_10_A1",
+    "LS_REAUDIT_RATE_11_A1",
+    "LS_REAUDIT_RATE_12_A1",
+    "LS_REAUDIT_RATE_13_A1",
+    "LS_REAUDIT_H2H_01_A1",
+    "LS_REAUDIT_H2H_02_A1",
+    "LS_REAUDIT_H2H_03_A1",
+    "LS_REAUDIT_H2H_04_A1",
+    "LS_REAUDIT_H2H_05_A1",
+    "LS_REAUDIT_H2H_06_A1",
+    "LS_REAUDIT_TIEBREAK_01_A1",
+    "LS_REAUDIT_TIEBREAK_02_A1",
+    "LS_REAUDIT_TIEBREAK_03_A1",
+    "LS_REAUDIT_TIEBREAK_04_A1",
+    "LS_REAUDIT_TIEBREAK_05_A1",
+    "LS_REAUDIT_TIEBREAK_06_A1",
+    "LS_REAUDIT_VARIANCE_AUDIT_A1",
+    "LS_REAUDIT_RATE_06_A2",
+    "LS_REAUDIT_SCARCITY_A1",
+    "LS_REAUDIT_CROSS_AUDIT_A1"
+  ],
+  "madden_order_verified": false,
+  "locked_by": "PhiXCrypto",
+  "locked_at": "2026-11-04T13:08:02Z"
+}
