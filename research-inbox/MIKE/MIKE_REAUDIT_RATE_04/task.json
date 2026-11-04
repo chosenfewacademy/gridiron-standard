@@ -1,0 +1,117 @@
+{
+  "task_id": "MIKE_REAUDIT_RATE_04",
+  "type": "player_rating",
+  "players": [
+    "Ventrell Miller"
+  ],
+  "player_id": "ext_00-0038570",
+  "team": "JAX",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Fred Warner"
+      },
+      {
+        "rank": 2,
+        "player": "Jack Campbell"
+      },
+      {
+        "rank": 3,
+        "player": "Devin Lloyd"
+      },
+      {
+        "rank": 4,
+        "player": "Ventrell Miller"
+      },
+      {
+        "rank": 5,
+        "player": "Nick Bolton"
+      },
+      {
+        "rank": 6,
+        "player": "Carson Schwesinger"
+      },
+      {
+        "rank": 7,
+        "player": "Trenton Simpson"
+      },
+      {
+        "rank": 8,
+        "player": "Cedric Gray"
+      },
+      {
+        "rank": 9,
+        "player": "Dre Greenlaw"
+      },
+      {
+        "rank": 10,
+        "player": "Omar Speights"
+      }
+    ],
+    "external_controls": [
+      "Sonny Styles",
+      "Jamien Sherwood",
+      "T.J. Edwards"
+    ]
+  },
+  "madden_reference_policy": "REFERENCE_ONLY_NEVER_EVIDENCE_NEVER_FORMULA_INPUT",
+  "position": "MIKE",
+  "stage": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 13,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "run defense",
+      "coverage",
+      "pass rush",
+      "tackling",
+      "missed tackle %"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks",
+      "INT, PBU",
+      "missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by role (MIKE/WILL/SAM)",
+      "coverage snaps",
+      "blitz rate",
+      "box vs slot alignment"
+    ],
+    "on_field_impact": [
+      "run-stop %",
+      "yards per coverage snap allowed",
+      "passer rating allowed"
+    ],
+    "madden_attributes_informed": [
+      "TAK",
+      "HIT",
+      "PUR",
+      "PRC",
+      "BSH",
+      "MCV",
+      "ZCV",
+      "PMV",
+      "FMV",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Middle/green-dot role; play-calling responsibility is context only."
+  }
+}
