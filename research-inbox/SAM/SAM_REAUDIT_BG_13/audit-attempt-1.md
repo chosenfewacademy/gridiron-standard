@@ -1,0 +1,225 @@
+# SAM_REAUDIT_BG_13 — Devin White background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "SAM_REAUDIT_BG_13_A1",
+  "task_id": "SAM_REAUDIT_BG_13",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SAM",
+  "player_id": "ext_00-0035707",
+  "players": [
+    "Devin White"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Devin White",
+    "player_id": "ext_00-0035707",
+    "team": "DET",
+    "role_assignment": {
+      "MIKE25": 1,
+      "SAM25": 215,
+      "WILL25": 1,
+      "SAM26": 93,
+      "MIKE26": 48,
+      "MIKE": 28.0,
+      "WILL": 5.2,
+      "SAM": 1151.9,
+      "EDGE": 0.0,
+      "assign": "SAM"
+    },
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "las-vegas-raiders",
+        "ovr": 40.7,
+        "snaps": 1118,
+        "rank": 82,
+        "rdef": 488,
+        "prsh": 76,
+        "cov": 554
+      },
+      "2026": {
+        "team": "detroit-lions",
+        "ovr": 47.3,
+        "snaps": 67,
+        "rank": null,
+        "rdef": 23,
+        "prsh": 6,
+        "cov": 38
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "LV",
+        "pos": "LB",
+        "g": "17",
+        "tgt": "91",
+        "cmp": "70",
+        "yds": "475",
+        "rat": "94.3",
+        "int": "1",
+        "bltz": "60",
+        "prss": "9",
+        "sk": "2.5",
+        "comb": "174",
+        "m_tkl": "19"
+      },
+      "2026": {
+        "def_targets": 6.0,
+        "def_completions_allowed": 4.0,
+        "def_yards_allowed": 53.0,
+        "def_ints": 0.0,
+        "def_times_blitzed": 6.0,
+        "def_pressures": 0.0,
+        "def_sacks": 0.0,
+        "def_tackles_combined": 10.0,
+        "def_missed_tackles": 0.0,
+        "g": 3
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 1118
+      },
+      "2026": {
+        "games": 3,
+        "defs": 67
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 90.0,
+        "def_tackle_assists": 79.0,
+        "def_tackles_for_loss": 11.0,
+        "def_fumbles_forced": 1.0,
+        "def_sacks": 2.5,
+        "def_qb_hits": 7.0,
+        "def_pass_defended": 3.0,
+        "def_interceptions": 1.0
+      },
+      "2026": {
+        "def_tackles_solo": 4.0,
+        "def_tackle_assists": 6.0,
+        "def_tackles_for_loss": 0.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 0.0,
+        "def_interceptions": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 4,
+      "2026": 1
+    },
+    "injuries": {},
+    "summary_lines": [
+      "Devin White (DET) Devin White 2026: PFF LB 2026 overall 47.3 on 67 snaps (LB rank None; 23 run-def / 38 coverage / 6 pass-rush snaps); PFR 2026 (3 games) coverage 6 targets / 4 completions / 53 yds / 0 INT; 10 tackles, 0 missed; 0 pressures on 6 blitzes; 3 g / 67 def snaps; 4 solo + 6 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF; 1 accepted penalties",
+      "Devin White 2025: PFF LB 2025 overall 40.7 on 1118 snaps (LB rank 82; 488 run-def / 554 coverage / 76 pass-rush snaps); PFR 2025 coverage 91 targets / 70 completions / 475 yds / passer rating 94.3 / 1 INT; 174 tackles, 19 missed; 9 pressures on 60 blitzes, 2.5 sacks; 17 g / 1118 def snaps; 90 solo + 79 ast tackles, 11 TFL, 2.5 sacks, 1 INT, 3 PD, 1 FF; 4 accepted penalties",
+      "Devin White role: snap-weighted 2025-26 depth-chart role shares MIKE 28 / WILL 5 / SAM 1152 / edge 0 (raw snapshots MIKE25 1, SAM25 215, WILL25 1, SAM26 93, MIKE26 48) -> SAM (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card WILL (reference only)",
+      "Devin White injury reports: no injury designation 2025-26; roster status RES"
+    ],
+    "availability": {
+      "roster_status": "RES"
+    },
+    "limitations": [
+      "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports",
+      "limited 2026 sample (reserve/IR/PUP)"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PUR",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2026",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2025",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:01Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
