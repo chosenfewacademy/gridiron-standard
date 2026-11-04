@@ -15881,7 +15881,7 @@
         "position": "RB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/RB.reaudit.json",
       "baseline_file": "data/baselines/RB.reaudit-20261103.json",
@@ -15891,7 +15891,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T14:14:53Z",
-      "updated_at": "2026-11-04T14:15:12.485Z",
+      "updated_at": "2026-11-04T14:15:20.621Z",
       "audit_ids": [
         "RB_REAUDIT_CANDIDATE_AUDIT_A1",
         "RB_REAUDIT_BG_01_A1",
@@ -15968,7 +15968,8 @@
         "RB_REAUDIT_TIEBREAK_22_A1",
         "RB_REAUDIT_RATE_09_A3",
         "RB_REAUDIT_RATE_10_A3",
-        "RB_REAUDIT_RATE_09_A4"
+        "RB_REAUDIT_RATE_09_A4",
+        "RB_REAUDIT_VARIANCE_AUDIT_A2"
       ],
       "completed_tasks": [
         "RB_REAUDIT_CANDIDATE_AUDIT",
@@ -17023,15 +17024,20 @@
           "note": "User-approved card t56s532: Note fix to A3 (values unchanged): injury context is the 2024 season shortened to 4 games, not '2023-24'. Christian McCaffrey INJ 72->82, STA 84->90, OVR 83->84 (stays #5 behind Ja"
         }
       ],
-      "current_stage": "carry_forward",
-      "current_task": null,
-      "awaiting": null,
+      "current_stage": "variance_audit",
+      "current_task": "RB_REAUDIT_VARIANCE_AUDIT",
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "RB_REAUDIT_VARIANCE_AUDIT",
+        "audit_id": "RB_REAUDIT_VARIANCE_AUDIT_A2"
+      },
       "last_result": {
-        "task_id": "RB_REAUDIT_RATE_09",
-        "status": "REVISION_APPROVED",
-        "audit_id": "RB_REAUDIT_RATE_09_A4",
-        "supersedes": "RB_REAUDIT_RATE_09_A3",
-        "flags": []
+        "task_id": "RB_REAUDIT_VARIANCE_AUDIT",
+        "status": "FLAGGED",
+        "errors": [],
+        "flags": [
+          "COMMISSIONER_REVIEW: variance re-run after t56s532 card revisions (Christian McCaffrey, Kyren Williams)"
+        ]
       }
     }
   ]
