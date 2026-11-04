@@ -3194,7 +3194,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.json",
@@ -3266,7 +3266,8 @@
         "TE_REAUDIT_TIEBREAK_21",
         "TE_REAUDIT_TIEBREAK_22",
         "TE_REAUDIT_TIEBREAK_23",
-        "TE_REAUDIT_TIEBREAK_24"
+        "TE_REAUDIT_TIEBREAK_24",
+        "TE_REAUDIT_TIEBREAK_25"
       ],
       "audit_ids": [
         "TE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -3347,7 +3348,7 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "TE_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T00:18:35.468Z",
+      "updated_at": "2026-11-04T00:18:35.716Z",
       "last_result": {
         "task_id": "TE_REAUDIT_TIEBREAK_25",
         "status": "FLAGGED",
@@ -3355,17 +3356,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "TE_REAUDIT_TIEBREAK_25",
-        "audit_id": "TE_REAUDIT_TIEBREAK_25_A1",
-        "pending": [
-          {
-            "task_id": "TE_REAUDIT_TIEBREAK_25",
-            "audit_id": "TE_REAUDIT_TIEBREAK_25_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -3968,6 +3959,14 @@
           "audit_id": "TE_REAUDIT_TIEBREAK_24_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T00:18:34Z",
+          "note": "Commissioner approval t45s389 (league ceiling check: tiebreaks for every TE flagged vs #10 Kraft and first-out Likely)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_25",
+          "audit_id": "TE_REAUDIT_TIEBREAK_25_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T00:18:35Z",
           "note": "Commissioner approval t45s389 (league ceiling check: tiebreaks for every TE flagged vs #10 Kraft and first-out Likely)"
         }
       ]
