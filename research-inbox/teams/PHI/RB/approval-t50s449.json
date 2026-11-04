@@ -1,0 +1,87 @@
+{
+  "record": "Commissioner approval of PHI RB team room (add-only record)",
+  "record_type": "team_room_approval",
+  "team": "PHI",
+  "position": "RB",
+  "approved_by": "PhiXCrypto",
+  "approved_at": "2026-11-03T22:14:00-05:00",
+  "authorization": "t50s449 (10:14 PM ET Nov 3 2026): Approve the Eagles RB room as rated, and the Eagles QB room too",
+  "rating_authorization": "t48u",
+  "rated_commit": "98bca3a",
+  "status": "APPROVED",
+  "players": [
+    {
+      "player": "Carson Steele",
+      "player_id": "carson_steele",
+      "roster_status": "Reserve/Injured (waived/injured, reverted to IR after injury vs CAR)",
+      "overall": 56,
+      "record_file": "research-inbox/teams/PHI/RB/carson_steele.json",
+      "record_sha256": "ef6d6eaceb0275ffe6cc150b8b2a3e7e75288e0bc1c4e0e9454257326023674a",
+      "rated_status_in_record": "PROPOSED_UNLOCKED",
+      "decision": "APPROVED_AS_RATED"
+    },
+    {
+      "player": "Dameon Pierce",
+      "player_id": "dameon_pierce",
+      "roster_status": "Reserve/Injured (placed 2026-10-28; injured vs DAL)",
+      "overall": 64,
+      "record_file": "research-inbox/teams/PHI/RB/dameon_pierce.json",
+      "record_sha256": "30f91acb4caa0e4dabe57dea39a6cff6965f3e303a7c652833b9228d02bda932",
+      "rated_status_in_record": "PROPOSED_UNLOCKED",
+      "decision": "APPROVED_AS_RATED"
+    },
+    {
+      "player": "Elijah Mitchell",
+      "player_id": "elijah_mitchell",
+      "roster_status": "Practice squad (elevated for Week 8 vs WAS)",
+      "overall": 63,
+      "record_file": "research-inbox/teams/PHI/RB/elijah_mitchell.json",
+      "record_sha256": "63d18af25c86008e2f34519df30398bd63ca0b16aa7b8d34d08c52ea6f6b7ed0",
+      "rated_status_in_record": "PROPOSED_UNLOCKED",
+      "decision": "APPROVED_AS_RATED"
+    },
+    {
+      "player": "Jaydon Blue",
+      "player_id": "jaydon_blue",
+      "roster_status": "Active (#30; re-signed from PS 2026-10-28)",
+      "overall": 62,
+      "record_file": "research-inbox/teams/PHI/RB/jaydon_blue.json",
+      "record_sha256": "c29f65cd9e7429e7aed280cf00677752d20a3238e03b9d7c37ca2c970b95d209",
+      "rated_status_in_record": "PROPOSED_UNLOCKED",
+      "decision": "APPROVED_AS_RATED"
+    },
+    {
+      "player": "Saquon Barkley",
+      "player_id": "saquon_barkley",
+      "roster_status": "Active (#26; stinger, hamstring and back injuries in 2026, missed 2 games; played Week 8 vs WAS)",
+      "overall": 75,
+      "record_file": "research-inbox/teams/PHI/RB/saquon_barkley.json",
+      "record_sha256": "21027715eb937603547e7a68673b908fdd82f3576e72dadab9b85c0a1016be69",
+      "rated_status_in_record": "PROPOSED_UNLOCKED",
+      "decision": "APPROVED_AS_RATED"
+    },
+    {
+      "player": "Tank Bigsby",
+      "player_id": "tank_bigsby",
+      "roster_status": "Reserve/Injured (injured Week 4 vs LAR)",
+      "overall": 68,
+      "record_file": "research-inbox/teams/PHI/RB/tank_bigsby.json",
+      "record_sha256": "8303f925f31a5f8917ba8f070cc1009fd955548860096d236fab0d6b01ae044c",
+      "rated_status_in_record": "PROPOSED_UNLOCKED",
+      "decision": "APPROVED_AS_RATED"
+    },
+    {
+      "player": "Will Shipley",
+      "player_id": "will_shipley",
+      "roster_status": "Reserve/Injured (foot, placed Week 6)",
+      "overall": 61,
+      "record_file": "research-inbox/teams/PHI/RB/will_shipley.json",
+      "record_sha256": "62307efd1700cdb54e7c674fe92a5c6c81e3d706522c5e882114f4974dcb1c50",
+      "rated_status_in_record": "PROPOSED_UNLOCKED",
+      "decision": "APPROVED_AS_RATED"
+    }
+  ],
+  "anchor_baseline": "data/baselines/RB.reaudit-20261103.json",
+  "madden_order_verified": false,
+  "note": "Add-only: player rating records are unchanged (their status field still reads PROPOSED_UNLOCKED as written); this record supersedes that status for the listed players. No locked baselines, v1.0 text or league audits modified. Repo team-room-lock (createTeamRoomSnapshot) requires league-audit approved cards per player, which these team records are not, so it was not used."
+}

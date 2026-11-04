@@ -1,0 +1,57 @@
+{
+  "record": "Commissioner approval of PHI QB team room (add-only record)",
+  "record_type": "team_room_approval",
+  "team": "PHI",
+  "position": "QB",
+  "approved_by": "PhiXCrypto",
+  "approved_at": "2026-11-03T22:14:00-05:00",
+  "authorization": "t50s449 (10:14 PM ET Nov 3 2026): Approve the Eagles RB room as rated, and the Eagles QB room too",
+  "rating_authorization": "t38u",
+  "rated_commit": "002ec83",
+  "status": "APPROVED",
+  "players": [
+    {
+      "player": "Cole Payton",
+      "player_id": "cole_payton",
+      "roster_status": "Active, rookie (2026 R5 #178), QB3",
+      "overall": 60,
+      "record_file": "research-inbox/teams/PHI/QB/cole_payton.json",
+      "record_sha256": "07147084d12c9de14847e7121c0b0ffc5591cdbfca40c979dbafd87a10b7e0ab",
+      "rated_status_in_record": "PROPOSED_UNLOCKED",
+      "decision": "APPROVED_AS_RATED"
+    },
+    {
+      "player": "Jalen Hurts",
+      "player_id": "jalen_hurts",
+      "roster_status": "Reserve/Injured (placed 2026-10-17; pulmonary emboli, expected out for season)",
+      "overall": 78,
+      "record_file": "research-inbox/teams/PHI/QB/jalen_hurts.json",
+      "record_sha256": "31ae50d8c4851393838268ead51046e1da70f5650f2e0d4ddbdb7cf8a0e47816",
+      "rated_status_in_record": "PROPOSED_UNLOCKED",
+      "decision": "APPROVED_AS_RATED"
+    },
+    {
+      "player": "Joe Milton III",
+      "player_id": "joe_milton_iii",
+      "roster_status": "Active, QB2/QB3",
+      "overall": 64,
+      "record_file": "research-inbox/teams/PHI/QB/joe_milton_iii.json",
+      "record_sha256": "3448020daf45d2a9bdeb644ac294507e8140b025e6d941000c63fbd21241dc59",
+      "rated_status_in_record": "PROPOSED_UNLOCKED",
+      "decision": "APPROVED_AS_RATED"
+    },
+    {
+      "player": "Tanner McKee",
+      "player_id": "tanner_mckee",
+      "roster_status": "Active, starting QB since Week 6",
+      "overall": 66,
+      "record_file": "research-inbox/teams/PHI/QB/tanner_mckee.json",
+      "record_sha256": "160343e79fe2bdf3e68336ad0531594401bcd9671253816f09a88c3181fc8391",
+      "rated_status_in_record": "PROPOSED_UNLOCKED",
+      "decision": "APPROVED_AS_RATED"
+    }
+  ],
+  "anchor_baseline": "data/baselines/QB.reaudit-20261102.json (QB_REAUDIT_LOCK_20261102)",
+  "madden_order_verified": false,
+  "note": "Add-only: player rating records are unchanged (their status field still reads PROPOSED_UNLOCKED as written); this record supersedes that status for the listed players. No locked baselines, v1.0 text or league audits modified. Repo team-room-lock (createTeamRoomSnapshot) requires league-audit approved cards per player, which these team records are not, so it was not used."
+}
