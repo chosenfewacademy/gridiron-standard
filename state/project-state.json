@@ -4341,7 +4341,7 @@
         "position": "LT",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/LT.reaudit.json",
       "baseline_file": "data/baselines/LT.json",
@@ -4383,7 +4383,8 @@
         "LT_REAUDIT_H2H_01",
         "LT_REAUDIT_TIEBREAK_15",
         "LT_REAUDIT_TIEBREAK_16",
-        "LT_REAUDIT_TIEBREAK_17"
+        "LT_REAUDIT_TIEBREAK_17",
+        "LT_REAUDIT_TIEBREAK_18"
       ],
       "audit_ids": [
         "LT_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -4423,7 +4424,7 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "LT_REAUDIT_H2H_01",
-      "updated_at": "2026-11-04T02:52:09.235Z",
+      "updated_at": "2026-11-04T02:52:09.488Z",
       "last_result": {
         "task_id": "LT_REAUDIT_TIEBREAK_18",
         "status": "FLAGGED",
@@ -4431,17 +4432,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "LT_REAUDIT_TIEBREAK_18",
-        "audit_id": "LT_REAUDIT_TIEBREAK_18_A1",
-        "pending": [
-          {
-            "task_id": "LT_REAUDIT_TIEBREAK_18",
-            "audit_id": "LT_REAUDIT_TIEBREAK_18_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -4705,6 +4696,14 @@
           "audit_id": "LT_REAUDIT_TIEBREAK_17_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T02:52:08Z",
+          "note": "Commissioner approval t45s413 (approve all 20 LT head-to-heads and tiebreaks and the 4 rating changes)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LT_REAUDIT_TIEBREAK_18",
+          "audit_id": "LT_REAUDIT_TIEBREAK_18_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T02:52:09Z",
           "note": "Commissioner approval t45s413 (approve all 20 LT head-to-heads and tiebreaks and the 4 rating changes)"
         }
       ]
