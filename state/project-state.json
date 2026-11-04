@@ -4341,7 +4341,7 @@
         "position": "LT",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/LT.reaudit.json",
       "baseline_file": "data/baselines/LT.json",
@@ -4350,13 +4350,15 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T01:30:41.232Z",
-      "completed_tasks": [],
+      "completed_tasks": [
+        "LT_REAUDIT_CANDIDATE_AUDIT"
+      ],
       "audit_ids": [
         "LT_REAUDIT_CANDIDATE_AUDIT_A1"
       ],
       "current_stage": "candidate_audit",
       "current_task": "LT_REAUDIT_CANDIDATE_AUDIT",
-      "updated_at": "2026-11-04T01:30:41.245Z",
+      "updated_at": "2026-11-04T01:54:21.827Z",
       "last_result": {
         "task_id": "LT_REAUDIT_CANDIDATE_AUDIT",
         "status": "FLAGGED",
@@ -4370,11 +4372,17 @@
           "LOCKED_CONTROL_CONFLICT"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LT_REAUDIT_CANDIDATE_AUDIT",
-        "audit_id": "LT_REAUDIT_CANDIDATE_AUDIT_A1"
-      }
+      "awaiting": null,
+      "approvals": [
+        {
+          "decision": "APPROVED",
+          "task_id": "LT_REAUDIT_CANDIDATE_AUDIT",
+          "audit_id": "LT_REAUDIT_CANDIDATE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T01:54:21Z",
+          "note": "Commissioner approval t45s401 (approve LT candidate list; Kolton Miller added as first-out via LT_POOL_AMEND_01)"
+        }
+      ]
     },
     {
       "type": "TOP10_REAUDIT",
