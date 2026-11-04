@@ -3194,7 +3194,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.json",
@@ -3295,7 +3295,8 @@
         "TE_REAUDIT_TIEBREAK_50",
         "TE_REAUDIT_TIEBREAK_51",
         "TE_REAUDIT_BG_16",
-        "TE_REAUDIT_RATE_16"
+        "TE_REAUDIT_RATE_16",
+        "TE_REAUDIT_CROSS_AUDIT"
       ],
       "audit_ids": [
         "TE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -3406,18 +3407,14 @@
       ],
       "current_stage": "positional_cross_audit",
       "current_task": "TE_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T00:22:18.524Z",
+      "updated_at": "2026-11-04T00:22:23.304Z",
       "last_result": {
         "task_id": "TE_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "TE_REAUDIT_CROSS_AUDIT",
-        "audit_id": "TE_REAUDIT_CROSS_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -4262,6 +4259,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T00:20:43Z",
           "note": "Revision under t45s389: Brenton Strange re-judged for a distinct style (A1 too similar to Kraft)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_CROSS_AUDIT",
+          "audit_id": "TE_REAUDIT_CROSS_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T00:22:23Z",
+          "note": "Commissioner approval t45s389 (cross-audit; variance fixes remain drafted, not approved)"
         }
       ]
     },
