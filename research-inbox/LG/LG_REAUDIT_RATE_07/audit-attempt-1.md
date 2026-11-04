@@ -1,0 +1,368 @@
+# LG_REAUDIT_RATE_07 — Christian Mahogany rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u/t50s441)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "LG_REAUDIT_RATE_07_A1",
+  "task_id": "LG_REAUDIT_RATE_07",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "player_id": "ext_00-0039408",
+  "players": [
+    "Christian Mahogany"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 91,
+    "SPD": 62,
+    "ACC": 71,
+    "AGI": 58,
+    "COD": 60,
+    "AWR": 74,
+    "INJ": 76,
+    "STA": 80,
+    "TGH": 92,
+    "PBK": 76,
+    "PBP": 83,
+    "PBF": 68,
+    "RBK": 82,
+    "RBP": 89,
+    "RBF": 72,
+    "IBL": 87,
+    "LBK": 78
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Christian Mahogany (DET) 2026: PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56); 6 g / 353 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'LG': 224}; Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists. Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 1 accepted penalties {'False Start': 1}, 2025 2 accepted penalties {'Face Mask': 1, 'False Start': 1}; PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Christian Mahogany injury reports: {'2025': ['wk15 Out (Fibula)', 'wk16 Questionable (Fibula)', 'wk17 Questionable (Fibula)', 'wk18 Questionable (Illness)'], '2026': ['wk2 Out (Hip)']}; roster status ACT; snaps 11 g / 699 off snaps (2025), 6 g / 353 off snaps (2026). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Listed weakness area: pass-pro finesse, awareness, availability",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 11 g / 699 off snaps (2025), 6 g / 353 off snaps (2026). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 11 g / 699 off snaps (2025), 6 g / 353 off snaps (2026). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56); PFF 2025 59.1 (rank 47, 699 snaps: 407 pass-block / 292 run-block, pass share 0.58). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56); PFF 2025 59.1 (rank 47, 699 snaps: 407 pass-block / 292 run-block, pass share 0.58). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56); PFF 2025 59.1 (rank 47, 699 snaps: 407 pass-block / 292 run-block, pass share 0.58). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56); PFF 2025 59.1 (rank 47, 699 snaps: 407 pass-block / 292 run-block, pass share 0.58). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56); PFF 2025 59.1 (rank 47, 699 snaps: 407 pass-block / 292 run-block, pass share 0.58). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56); PFF 2025 59.1 (rank 47, 699 snaps: 407 pass-block / 292 run-block, pass share 0.58). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56); PFF 2025 59.1 (rank 47, 699 snaps: 407 pass-block / 292 run-block, pass share 0.58). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56); PFF 2025 59.1 (rank 47, 699 snaps: 407 pass-block / 292 run-block, pass share 0.58). Style: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+      "why_not_higher": "Evidence does not separate him from higher-rated guards in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated guards in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "ELITE",
+      "claim": "power: Christian Mahogany (DET) 2026: PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56); 6 g / 353 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'LG': 224}; Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 11 g / 699 off snaps (2025), 6 g / 353 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 77,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+  "style_profile": "Christian Mahogany: Compact power puncher: PFF 79.6 (#10) in 2026 after 59.1 in 2025; wins with strength and leverage, finesse and awareness still developing; five injury reports 2025-26.",
+  "style_evidence": [
+    "Christian Mahogany (DET) 2026: PFF 2026 79.6 (rank 10, 353 snaps: 197 pass-block / 156 run-block, pass share 0.56); 6 g / 353 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'LG': 224}",
+    "Christian Mahogany 2025: PFF 2025 59.1 (rank 47, 699 snaps: 407 pass-block / 292 run-block, pass share 0.58); 11 g / 699 off snaps; 2 accepted penalties {'Face Mask': 1, 'False Start': 1}; side {'LG': 1}",
+    "Christian Mahogany ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+    "Christian Mahogany injury reports: {'2025': ['wk15 Out (Fibula)', 'wk16 Questionable (Fibula)', 'wk17 Questionable (Fibula)', 'wk18 Questionable (Illness)'], '2026': ['wk2 Out (Hip)']}; roster status ACT"
+  ],
+  "input_dossier": "LG_REAUDIT_BG_07_A1",
+  "weaknesses": [
+    "pass-pro finesse",
+    "awareness",
+    "availability"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Christian Mahogany",
+      "ovr": 74,
+      "attributes": {
+        "STR": 89,
+        "SPD": 68,
+        "ACC": 76,
+        "AGI": 60,
+        "COD": 63,
+        "AWR": 65,
+        "INJ": 87,
+        "STA": 85,
+        "TGH": 93,
+        "PBK": 78,
+        "PBP": 79,
+        "PBF": 77,
+        "RBK": 79,
+        "RBP": 80,
+        "RBF": 79,
+        "IBL": 85,
+        "LBK": 82
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 3,
+      "delta_attributes": {
+        "STR": 2,
+        "SPD": -6,
+        "ACC": -5,
+        "AGI": -2,
+        "COD": -3,
+        "AWR": 9,
+        "INJ": -11,
+        "STA": -5,
+        "TGH": -1,
+        "PBK": -2,
+        "PBP": 4,
+        "PBF": -9,
+        "RBK": 3,
+        "RBP": 9,
+        "RBF": -7,
+        "IBL": 2,
+        "LBK": -4
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 G, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 3,
+    "attribute_gaps_10plus": {
+      "INJ": -11
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u/t50s441"
+}
+```
