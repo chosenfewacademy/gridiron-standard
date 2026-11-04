@@ -1,0 +1,40 @@
+# REDGE_REAUDIT_TIEBREAK_03 — Nik Bonitto vs Chase Young (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "REDGE_REAUDIT_TIEBREAK_03_A1",
+  "task_id": "REDGE_REAUDIT_TIEBREAK_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Nik Bonitto",
+    "Chase Young"
+  ],
+  "pair_result": {
+    "winner": "Nik Bonitto",
+    "loser": "Chase Young",
+    "provisional_order_holds": true,
+    "reasoning": "Bonitto: 2026 PFF 84.3 / PRWR #6 and 14 sacks in 2025 on 760 snaps; Young: 81.3 / PRWR #18, 7 sacks in 2026 but 12 g in 2025. Bonitto's volume and win rate hold. Order holds.",
+    "key_evidence_for_winner": [
+      "Nik Bonitto (DEN) alignment side snapshots 2025-26 left 1 / right 494 -> REDGE; roster ACT (LB); injuries no injury designation 2025-26",
+      "Nik Bonitto 2026: Nik Bonitto 2026: PFF edge 2026 overall 84.3 on 347 snaps (202 pass-rush, 114 run-defense, 31 coverage); PFR 2026 12 pressures (3 hurries, 5 QB hits, 3.5 sacks) in 7 games, 16 tackles, 1 missed; 8 g / 347 def snaps; 3.5 sacks, 10 QB hits, 4 TFL, 1 FF, 0 PD; 1 accepted penalties; PFR 2026 12 pressures (3 hurries, 5 QB hits, 3.5 sacks) in 7 games, 16 tackles, 1 missed; ESPN 2026 edge PRWR 26% (#6, 31/117); RSWR outside the published top 10",
+      "Nik Bonitto 2025: Nik Bonitto 2025: PFF edge 2025 overall 78.9 on 760 snaps (460 pass-rush, 227 run-defense, 73 coverage); PFR 2025 39 pressures (12 hurries, 10 QB knockdowns, 14 sacks), 46 tackles, 4 missed; 17 g / 684 def snaps; 14.0 sacks, 28 QB hits, 14 TFL, 2 FF, 1 PD; 8 accepted penalties; PFR 2025 39 pressures (12 hurries, 10 QB knockdowns, 14 sacks), 46 tackles, 4 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Chase Young (NO) alignment side snapshots 2025-26 left 0 / right 495 -> REDGE; roster ACT (LB); injuries wk3 Out (Calf); wk4 Out (Calf); wk5 Out (Calf); wk2 Questionable (Calf)",
+      "Chase Young 2026: Chase Young 2026: PFF edge 2026 overall 81.3 on 340 snaps (197 pass-rush, 128 run-defense, 15 coverage); PFR 2026 14 pressures (3 hurries, 2 QB hits, 7.0 sacks) in 6 games, 10 tackles, 0 missed; 7 g / 340 def snaps; 7.0 sacks, 11 QB hits, 4 TFL, 1 FF, 3 PD; 1 accepted penalties; PFR 2026 14 pressures (3 hurries, 2 QB hits, 7.0 sacks) in 6 games, 10 tackles, 0 missed; ESPN 2026 edge PRWR 24% (#18, 25/106); RSWR outside the published top 10",
+      "Chase Young 2025: Chase Young 2025: PFF edge 2025 overall 78 on 542 snaps (285 pass-rush, 224 run-defense, 33 coverage); PFR 2025 30 pressures (15 hurries, 3 QB knockdowns, 10 sacks), 38 tackles, 3 missed; 12 g / 544 def snaps; 10.0 sacks, 15 QB hits, 11 TFL, 2 FF, 4 PD; 2 accepted penalties; PFR 2025 30 pressures (15 hurries, 3 QB knockdowns, 10 sacks), 38 tackles, 3 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
