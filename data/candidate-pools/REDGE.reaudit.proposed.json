@@ -1,0 +1,744 @@
+{
+  "position": "REDGE",
+  "status": "PROPOSED",
+  "generated_at": "2026-11-03T23:29:57-05:00",
+  "generator": "copy of approved data/candidate-pools/REDGE.json split by the t46u edge side convention",
+  "note": "Re-audit pool for never-locked REDGE. EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LEDGE = defense's left edge (aligned over the offense's right tackle); REDGE = defense's right edge (over the offense's left tackle), matching the repo note 'Right-side edge (offense's left)'. Side evidence = nflverse weekly depth charts 2025 + 2026 (ESPN-sourced): each team-day snapshot counts once; LDE (4-3 or 3-4) or 3-4 WLB (ESPN 3-4 layout slot 4, left of LILB) = left; RDE or 3-4 SLB (slot 7, right of RILB) = right; 4-3 WLB/SLB are off-ball LBs and not counted. The side with more snapshots across both seasons wins; a player appears in only one list. PFF alignment splits (left/right snap counts) are paywalled and NGS publishes no side split, so depth charts are the side source; Madden 27's LEDG/REDG card label is reference only and does not decide side. Players from the shared LEDGE/REDGE pool whose majority side is the other side are excluded as OTHER_POSITION; side-screen contenders added. PROPOSED for commissioner approval. Composite is a triage order, not a rating.",
+  "candidates": [
+    {
+      "player": "Danielle Hunter",
+      "player_id": "ext_00-0031565",
+      "team": "HOU",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 59 / right 437 (L25 59, L26 0, R25 162, R26 275) -> REDGE)"
+      ],
+      "composite": 1.787,
+      "reasoning": "PFF 2026 overall 80.5 (#12); PFF 2025 overall 89.9 (#5); 2025 All-Pro selection; 360 snaps in 7 games (2026); 2026 stat score 9.2 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#12",
+        "pff_2025#5",
+        "allpro_2025#5",
+        "nflverse_snaps_2026#10"
+      ]
+    },
+    {
+      "player": "Nik Bonitto",
+      "player_id": "ext_00-0037249",
+      "team": "DEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 1 / right 494 (L25 1, L26 0, R25 220, R26 274) -> REDGE)"
+      ],
+      "composite": 1.52,
+      "reasoning": "PFF 2026 overall 85.3 (#5); PFF 2025 overall 78.9 (#18); 2025 All-Pro selection; 306 snaps in 7 games (2026); 2026 stat score 9.5 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#5",
+        "pff_2025#18",
+        "allpro_2025#7"
+      ]
+    },
+    {
+      "player": "Myles Garrett",
+      "player_id": "ext_00-0033868",
+      "team": "LA",
+      "status": "IR",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 RES/R01"
+      },
+      "flags": [
+        "INJURED_RESERVE",
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 126 / right 370 (L25 126, L26 0, R25 95, R26 275) -> REDGE)"
+      ],
+      "composite": 1.47,
+      "reasoning": "PFF 2025 overall 92.7 (#2); 2025 All-Pro selection; 40 snaps in 1 games (2026)",
+      "citations": [
+        "pff_2025#2",
+        "allpro_2025#1"
+      ]
+    },
+    {
+      "player": "Micah Parsons",
+      "player_id": "ext_00-0036932",
+      "team": "GB",
+      "status": "PUP",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 RES/R04"
+      },
+      "flags": [
+        "INJURED_RESERVE",
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 0 / right 496 (L25 0, L26 0, R25 221, R26 275) -> REDGE)"
+      ],
+      "composite": 1.395,
+      "reasoning": "PFF 2025 overall 91.9 (#3); 2025 All-Pro selection",
+      "citations": [
+        "pff_2025#3",
+        "allpro_2025#2"
+      ]
+    },
+    {
+      "player": "Abdul Carter",
+      "player_id": "ext_00-0040677",
+      "team": "NYG",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 225 / right 271 (L25 220, L26 5, R25 1, R26 270) -> REDGE)"
+      ],
+      "composite": 1.113,
+      "reasoning": "PFF 2026 overall 90.3 (#3); PFF 2025 overall 74.7 (#28); 388 snaps in 7 games (2026); 2026 stat score 6.0 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#3",
+        "nflverse_snaps_2026#4"
+      ]
+    },
+    {
+      "player": "Chase Young",
+      "player_id": "ext_00-0036321",
+      "team": "NO",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 0 / right 495 (L25 0, L26 0, R25 221, R26 274) -> REDGE)"
+      ],
+      "composite": 1.002,
+      "reasoning": "PFF 2026 overall 81.3 (#10); PFF 2025 overall 78.0 (#20); 340 snaps in 7 games (2026); 2026 stat score 13.5 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#10",
+        "pff_2025#20",
+        "nflverse_snaps_2026#16",
+        "nflverse_stats_2026#9"
+      ]
+    },
+    {
+      "player": "Josh Hines-Allen",
+      "player_id": "ext_00-0035642",
+      "team": "JAX",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 221 / right 275 (L25 221, L26 0, R25 0, R26 275) -> REDGE)"
+      ],
+      "composite": 0.7,
+      "reasoning": "PFF 2026 overall 79.8 (#15); PFF 2025 overall 87.4 (#6); 303 snaps in 6 games (2026); 2026 stat score 7.5 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#16",
+        "pff_2025#6"
+      ]
+    },
+    {
+      "player": "Al-Quadin Muhammad",
+      "player_id": "ext_00-0033964",
+      "team": "TB",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 161 / right 332 (L25 51, L26 110, R25 168, R26 164) -> REDGE)"
+      ],
+      "composite": 0.65,
+      "reasoning": "PFF 2026 overall 81.9 (#8); PFF 2025 overall 74.5 (#30); 183 snaps in 7 games (2026); 2026 stat score 4.5 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2026#8"
+      ]
+    },
+    {
+      "player": "Dallas Turner",
+      "player_id": "ext_00-0039924",
+      "team": "MIN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 92 / right 404 (L25 87, L26 5, R25 134, R26 270) -> REDGE)"
+      ],
+      "composite": 0.54,
+      "reasoning": "PFF 2026 overall 72.4 (#33); 298 snaps in 6 games (2026); 2026 stat score 16.8 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "nflverse_stats_2026#3"
+      ]
+    },
+    {
+      "player": "Jacob Martin",
+      "player_id": "ext_00-0034163",
+      "team": "TEN",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 5 / right 277 (L25 1, L26 4, R25 6, R26 271) -> REDGE)"
+      ],
+      "composite": 0.45,
+      "reasoning": "285 snaps in 7 games (2026); 2026 stat score 15.2 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "nflverse_stats_2026#6"
+      ]
+    },
+    {
+      "player": "Nick Herbig",
+      "player_id": "ext_00-0038577",
+      "team": "PIT",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-01T22:52:12-05:00",
+        "note": "nflverse roster_2026 week 8 ACT/A01"
+      },
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 138 / right 358 (L25 1, L26 137, R25 220, R26 138) -> REDGE)"
+      ],
+      "composite": 0.42,
+      "reasoning": "PFF 2026 overall 66.8 (#49); PFF 2025 overall 87.4 (#6); 236 snaps in 7 games (2026); 2026 stat score 7.2 (sacks + 0.5*QB hits + 0.25*TFL)",
+      "citations": [
+        "pff_2025#7"
+      ]
+    },
+    {
+      "player": "Alex Highsmith",
+      "player_id": "ext_00-0036333",
+      "team": "PIT",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T23:29:57-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 0 / right 496 (L25 0, L26 0, R25 221, R26 275) -> REDGE)",
+        "ADDED_BY_SIDE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a REDGE contender by the t46u side screen: PFF edge 2025 82.2 on 685 snaps, 2026 75.1 on 333; PFR pressures 2025 23; ESPN PRWR None / RSWR None",
+      "citations": [
+        "pff_ed_2025",
+        "pff_ed_2026",
+        "pfr_advstats_def",
+        "espn_winrates_49742016",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "Laiatu Latu",
+      "player_id": "ext_00-0039340",
+      "team": "IND",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T23:29:57-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 0 / right 496 (L25 0, L26 0, R25 221, R26 275) -> REDGE)",
+        "ADDED_BY_SIDE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a REDGE contender by the t46u side screen: PFF edge 2025 84.1 on 755 snaps, 2026 66.6 on 370; PFR pressures 2025 26; ESPN PRWR None / RSWR None",
+      "citations": [
+        "pff_ed_2025",
+        "pff_ed_2026",
+        "pfr_advstats_def",
+        "espn_winrates_49742016",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "Khalil Mack",
+      "player_id": "ext_00-0031040",
+      "team": "LAC",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T23:29:57-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 0 / right 495 (L25 0, L26 0, R25 220, R26 275) -> REDGE)",
+        "ADDED_BY_SIDE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a REDGE contender by the t46u side screen: PFF edge 2025 79.3 on 478 snaps, 2026 74.2 on 311; PFR pressures 2025 23; ESPN PRWR None / RSWR None",
+      "citations": [
+        "pff_ed_2025",
+        "pff_ed_2026",
+        "pfr_advstats_def",
+        "espn_winrates_49742016",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    },
+    {
+      "player": "Trey Hendrickson",
+      "player_id": "ext_00-0033935",
+      "team": "BAL",
+      "status": "ACTIVE",
+      "status_source": {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-03T23:29:57-05:00",
+        "note": "nflverse roster_2026"
+      },
+      "flags": [
+        "EDGE_SIDE_ASSIGNED REDGE (depth-chart side snapshots 2025-26: left 0 / right 495 (L25 0, L26 0, R25 220, R26 275) -> REDGE)",
+        "ADDED_BY_SIDE_SCREEN (t46u contender screen)"
+      ],
+      "composite": null,
+      "reasoning": "Added as a REDGE contender by the t46u side screen: PFF edge 2025 82.8 on 285 snaps, 2026 67.5 on 240; PFR pressures 2025 12; ESPN PRWR 27 / RSWR None",
+      "citations": [
+        "pff_ed_2025",
+        "pff_ed_2026",
+        "pfr_advstats_def",
+        "espn_winrates_49742016",
+        "nflverse_depth_charts_2025_2026"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "player": "Will Anderson Jr.",
+      "player_id": "ext_00-0039108",
+      "reason": "Assigned to LEDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 437 / right 59 (L25 162, L26 275, R25 59, R26 0) -> LEDGE); appears only in the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Aidan Hutchinson",
+      "player_id": "ext_00-0037236",
+      "reason": "Assigned to LEDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 496 / right 0 (L25 221, L26 275, R25 0, R26 0) -> LEDGE); appears only in the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Greg Rousseau",
+      "player_id": "ext_00-0036914",
+      "reason": "Assigned to LEDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 488 / right 8 (L25 213, L26 275, R25 8, R26 0) -> LEDGE); appears only in the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Maxx Crosby",
+      "player_id": "ext_00-0034973",
+      "reason": "Assigned to LEDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 496 / right 0 (L25 221, L26 275, R25 0, R26 0) -> LEDGE); appears only in the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "T.J. Watt",
+      "player_id": "ext_00-0033886",
+      "reason": "Assigned to LEDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 496 / right 0 (L25 221, L26 275, R25 0, R26 0) -> LEDGE); appears only in the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Boye Mafe",
+      "player_id": "ext_00-0038133",
+      "reason": "Assigned to LEDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 311 / right 167 (L25 36, L26 275, R25 167, R26 0) -> LEDGE); appears only in the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Brian Burns",
+      "player_id": "ext_00-0035713",
+      "reason": "Assigned to LEDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 496 / right 0 (L25 221, L26 275, R25 0, R26 0) -> LEDGE); appears only in the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Byron Young",
+      "player_id": "ext_00-0038978",
+      "reason": "Assigned to LEDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 991 / right 1 (L25 441, L26 550, R25 1, R26 0) -> LEDGE); appears only in the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "DeMarcus Lawrence",
+      "player_id": "ext_00-0031411",
+      "reason": "Assigned to LEDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 496 / right 0 (L25 221, L26 275, R25 0, R26 0) -> LEDGE); appears only in the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "George Karlaftis",
+      "player_id": "ext_00-0037192",
+      "reason": "Assigned to LEDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 496 / right 0 (L25 221, L26 275, R25 0, R26 0) -> LEDGE); appears only in the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Gabe Jacas",
+      "player_id": "ext_00-0041569",
+      "reason": "Assigned to LEDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 127 / right 112 (L25 0, L26 127, R25 0, R26 112) -> LEDGE); appears only in the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "David Bailey",
+      "player_id": "ext_00-0041026",
+      "reason": "Assigned to LEDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 240 / right 0 (L25 0, L26 240, R25 0, R26 0) -> LEDGE); appears only in the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Zach Allen",
+      "player_id": "ext_00-0035248",
+      "reason": "PFF grades this player as interior DL (not edge) in 2025/2026; belongs to DT.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Elijah Ponder",
+      "player_id": "ext_00-0040574",
+      "reason": "Below pool cutoff (composite 0.40; PFF 2026 grade 76.9; sources pff_2026#20, nflverse_snaps_2026#19, nflverse_stats_2026#10). Re-include on request. Side: depth-chart side snapshots 2025-26: left 329 / right 167 (L25 88, L26 241, R25 133, R26 34) -> LEDGE; belongs to the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Zaven Collins",
+      "player_id": "ext_00-0036933",
+      "reason": "Below pool cutoff (composite 0.40; PFF 2026 grade 80.5; sources pff_2026#13). Re-include on request. Side: depth-chart side snapshots 2025-26: left 1 / right 0 (L25 1, L26 0, R25 0, R26 0) -> LEDGE; belongs to the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Andrew Van Ginkel",
+      "player_id": "ext_00-0035272",
+      "reason": "Below pool cutoff (composite 0.39; PFF 2026 grade n/a; sources nflverse_stats_2026#8). Re-include on request. Side: depth-chart side snapshots 2025-26: left 270 / right 226 (L25 0, L26 270, R25 221, R26 5) -> LEDGE; belongs to the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Lukas Van Ness",
+      "player_id": "ext_00-0039112",
+      "reason": "Below pool cutoff (composite 0.36; PFF 2026 grade 69.9; sources nflverse_snaps_2026#9, nflverse_stats_2026#14). Re-include on request. Side: depth-chart side snapshots 2025-26: left 332 / right 164 (L25 104, L26 228, R25 117, R26 47) -> LEDGE; belongs to the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "David Walker",
+      "player_id": "ext_00-0040158",
+      "reason": "Below pool cutoff (composite 0.35; PFF 2026 grade 80.3; sources pff_2026#14). Re-include on request. Side: depth-chart side snapshots 2025-26: left 392 / right 103 (L25 221, L26 171, R25 0, R26 103) -> LEDGE; belongs to the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Quincy Williams",
+      "player_id": "ext_00-0035680",
+      "reason": "Below pool cutoff (composite 0.25; PFF 2026 grade n/a; sources nflverse_snaps_2026#1). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Jared Verse",
+      "player_id": "ext_00-0039852",
+      "reason": "Below pool cutoff (composite 0.21; PFF 2026 grade n/a; sources pff_2025#14). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Kyle Van Noy",
+      "player_id": "ext_00-0031360",
+      "reason": "Below pool cutoff (composite 0.20; PFF 2026 grade 78.4; sources pff_2026#17). Re-include on request. Side: depth-chart side snapshots 2025-26: left 201 / right 97 (L25 120, L26 81, R25 97, R26 0) -> LEDGE; belongs to the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Derrick Barnes",
+      "player_id": "ext_00-0036964",
+      "reason": "Below pool cutoff (composite 0.20; PFF 2026 grade n/a; sources nflverse_snaps_2026#5). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Blake Cashman",
+      "player_id": "ext_00-0035276",
+      "reason": "Below pool cutoff (composite 0.18; PFF 2026 grade n/a; sources nflverse_stats_2026#15). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Drue Tranquill",
+      "player_id": "ext_00-0035262",
+      "reason": "Below pool cutoff (composite 0.12; PFF 2026 grade n/a; sources nflverse_snaps_2026#11). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Jadeveon Clowney",
+      "player_id": "ext_00-0031364",
+      "reason": "Below pool cutoff (composite 0.12; PFF 2026 grade n/a; sources pff_2025#17). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Cameron Thomas",
+      "player_id": "ext_00-0037815",
+      "reason": "Below pool cutoff (composite 0.10; PFF 2026 grade 77.4; sources pff_2026#19). Re-include on request. Side: depth-chart side snapshots 2025-26: left 495 / right 1 (L25 220, L26 275, R25 1, R26 0) -> LEDGE; belongs to the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Jordyn Brooks",
+      "player_id": "ext_00-0036409",
+      "reason": "Below pool cutoff (composite 0.10; PFF 2026 grade n/a; sources nflverse_snaps_2026#13). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Carl Granderson",
+      "player_id": "ext_00-0035402",
+      "reason": "Below pool cutoff (composite 0.09; PFF 2026 grade 75.6; sources nflverse_stats_2026#18). Re-include on request. Side: depth-chart side snapshots 2025-26: left 495 / right 0 (L25 221, L26 274, R25 0, R26 0) -> LEDGE; belongs to the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Chop Robinson",
+      "player_id": "ext_00-0039911",
+      "reason": "Below pool cutoff (composite 0.06; PFF 2026 grade n/a; sources nflverse_stats_2026#19). Re-include on request. Side: depth-chart side snapshots 2025-26: left 496 / right 0 (L25 221, L26 275, R25 0, R26 0) -> LEDGE; belongs to the LEDGE list.",
+      "code": "OTHER_POSITION"
+    },
+    {
+      "player": "Kayvon Thibodeaux",
+      "player_id": "ext_00-0037611",
+      "reason": "Below pool cutoff (composite 0.04; PFF 2026 grade n/a; sources nflverse_snaps_2026#18). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "DJ Wonnum",
+      "player_id": "ext_00-0036335",
+      "reason": "Below pool cutoff (composite 0.03; PFF 2026 grade n/a; sources nflverse_stats_2026#20). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    },
+    {
+      "player": "Donovan Ezeiruaku",
+      "player_id": "ext_00-0040725",
+      "reason": "Below pool cutoff (composite 0.01; PFF 2026 grade n/a; sources nflverse_snaps_2026#20). Re-include on request.",
+      "code": "BELOW_CUTOFF"
+    }
+  ],
+  "free_agents": [],
+  "injured": [
+    {
+      "player": "Myles Garrett",
+      "player_id": "ext_00-0033868",
+      "team": "LA",
+      "status": "IR",
+      "in_pool": true,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; see also https://www.therams.com/team/transactions/; composite 1.47, sources pff_2025#2, allpro_2025#1"
+    },
+    {
+      "player": "Micah Parsons",
+      "player_id": "ext_00-0036932",
+      "team": "GB",
+      "status": "PUP",
+      "in_pool": true,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R04; composite 1.40, sources pff_2025#3, allpro_2025#2"
+    },
+    {
+      "player": "Brian Burns",
+      "player_id": "ext_00-0035713",
+      "team": "NYG",
+      "status": "IR",
+      "in_pool": false,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.68, sources allpro_2025#6"
+    },
+    {
+      "player": "Alex Wright",
+      "player_id": "ext_00-0037251",
+      "team": "CLE",
+      "status": "IR",
+      "in_pool": false,
+      "status_as_of": "2026-11-01",
+      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "note": "nflverse roster_2026 (week 8) RES/R01; composite 0.06, sources pff_2025#19"
+    }
+  ],
+  "coverage_sources": [
+    {
+      "id": "pff_2026",
+      "name": "PFF 2026 season overall grades (ed)",
+      "publisher": "PFF",
+      "kind": "grades",
+      "season": 2026,
+      "url": "https://www.pff.com/grades/nfl/ed/2026",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Aidan Hutchinson",
+        "Will Anderson Jr.",
+        "Abdul Carter",
+        "Boye Mafe",
+        "Nik Bonitto",
+        "Greg Rousseau",
+        "Maxx Crosby",
+        "Al-Quadin Muhammad",
+        "T.J. Watt",
+        "Chase Young",
+        "Gabe Jacas",
+        "Danielle Hunter",
+        "Zaven Collins",
+        "David Walker",
+        "DeMarcus Lawrence",
+        "Josh Hines-Allen",
+        "Kyle Van Noy",
+        "George Karlaftis",
+        "Cameron Thomas",
+        "Elijah Ponder"
+      ]
+    },
+    {
+      "id": "pff_2025",
+      "name": "PFF 2025 season overall grades (ed)",
+      "publisher": "PFF",
+      "kind": "grades",
+      "season": 2025,
+      "url": "https://www.pff.com/grades/nfl/ed/2025",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Will Anderson Jr.",
+        "Myles Garrett",
+        "Micah Parsons",
+        "Aidan Hutchinson",
+        "Danielle Hunter",
+        "Josh Hines-Allen",
+        "Nick Herbig",
+        "Greg Rousseau",
+        "Laiatu Latu",
+        "Byron Young",
+        "Trey Hendrickson",
+        "Alex Highsmith",
+        "DeMarcus Lawrence",
+        "Jared Verse",
+        "Maxx Crosby",
+        "Khalil Mack",
+        "Jadeveon Clowney",
+        "Nik Bonitto",
+        "Alex Wright",
+        "Chase Young"
+      ]
+    },
+    {
+      "id": "allpro_2025",
+      "name": "2025 All-Pro (AP, PFWA, TSN)",
+      "publisher": "AP/PFWA/TSN via Wikipedia",
+      "kind": "honors",
+      "season": 2025,
+      "url": "https://en.wikipedia.org/wiki/2025_All-Pro_Team",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Myles Garrett",
+        "Micah Parsons",
+        "Will Anderson Jr.",
+        "Aidan Hutchinson",
+        "Danielle Hunter",
+        "Brian Burns",
+        "Nik Bonitto"
+      ]
+    },
+    {
+      "id": "nflverse_snaps_2026",
+      "name": "nflverse 2026 total snaps, roster depth ['DE', 'OLB'] (weeks 1-8)",
+      "publisher": "nflverse",
+      "kind": "usage",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Quincy Williams",
+        "Maxx Crosby",
+        "Aidan Hutchinson",
+        "Abdul Carter",
+        "Derrick Barnes",
+        "David Bailey",
+        "Byron Young",
+        "Will Anderson Jr.",
+        "Lukas Van Ness",
+        "Danielle Hunter",
+        "Drue Tranquill",
+        "George Karlaftis",
+        "Jordyn Brooks",
+        "Greg Rousseau",
+        "Zach Allen",
+        "Chase Young",
+        "Laiatu Latu",
+        "Kayvon Thibodeaux",
+        "Elijah Ponder",
+        "Donovan Ezeiruaku"
+      ]
+    },
+    {
+      "id": "nflverse_stats_2026",
+      "name": "nflverse 2026 regular-season stats: sacks + 0.5*QB hits + 0.25*TFL",
+      "publisher": "nflverse",
+      "kind": "stats",
+      "season": 2026,
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+      "retrieved_at": "2026-11-01T22:52:12-05:00",
+      "top": [
+        "Greg Rousseau",
+        "Will Anderson Jr.",
+        "Dallas Turner",
+        "T.J. Watt",
+        "Zach Allen",
+        "Jacob Martin",
+        "Aidan Hutchinson",
+        "Andrew Van Ginkel",
+        "Chase Young",
+        "Elijah Ponder",
+        "Maxx Crosby",
+        "David Bailey",
+        "George Karlaftis",
+        "Lukas Van Ness",
+        "Blake Cashman",
+        "Boye Mafe",
+        "Byron Young",
+        "Carl Granderson",
+        "Chop Robinson",
+        "DJ Wonnum"
+      ]
+    }
+  ],
+  "reaudit": {
+    "target_position_state": "PENDING",
+    "requires_trigger": "TOP10_REAUDIT",
+    "never_locked": true,
+    "note": "Proposed re-audit pool only, for a never-locked PENDING position. Does not modify baselines, locks or audit history; needs the commissioner TOP10_REAUDIT trigger.",
+    "compared_against": "approved candidate pool data/candidate-pools/REDGE.json (shared LEDGE/REDGE pool; never locked)",
+    "compared_list": [
+      "Will Anderson Jr.",
+      "Aidan Hutchinson",
+      "Greg Rousseau",
+      "Danielle Hunter",
+      "Nik Bonitto",
+      "Myles Garrett",
+      "Maxx Crosby",
+      "Micah Parsons",
+      "Abdul Carter",
+      "T.J. Watt"
+    ],
+    "side_rule": "EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LEDGE = defense's left edge (aligned over the offense's right tackle); REDGE = defense's right edge (over the offense's left tackle), matching the repo note 'Right-side edge (offense's left)'. Side evidence = nflverse weekly depth charts 2025 + 2026 (ESPN-sourced): each team-day snapshot counts once; LDE (4-3 or 3-4) or 3-4 WLB (ESPN 3-4 layout slot 4, left of LILB) = left; RDE or 3-4 SLB (slot 7, right of RILB) = right; 4-3 WLB/SLB are off-ball LBs and not counted. The side with more snapshots across both seasons wins; a player appears in only one list. PFF alignment splits (left/right snap counts) are paywalled and NGS publishes no side split, so depth charts are the side source; Madden 27's LEDG/REDG card label is reference only and does not decide side.",
+    "flags": [
+      "EDGE_SIDE_FROM_DEPTH_CHARTS (PFF left/right alignment splits paywalled; NGS no side split)",
+      "PFF_PASS_RUSH_RUN_DEF_SUBGRADES_PAYWALLED (free table gives overall + pass-rush/run-defense snap counts)"
+    ]
+  }
+}
