@@ -1,0 +1,460 @@
+{
+  "audit_id": "LT_REAUDIT_RATE_01_A1",
+  "task_id": "LT_REAUDIT_RATE_01",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "player_id": "penei_sewell",
+  "players": [
+    "Penei Sewell"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 95,
+    "SPD": 70,
+    "ACC": 76,
+    "AGI": 66,
+    "COD": 64,
+    "AWR": 92,
+    "INJ": 88,
+    "STA": 92,
+    "TGH": 94,
+    "PBK": 91,
+    "PBP": 94,
+    "PBF": 86,
+    "RBK": 97,
+    "RBP": 97,
+    "RBF": 92,
+    "IBL": 96,
+    "LBK": 93
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Penei Sewell (DET) 2026: PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); 7 g / 481 off snaps; 6 accepted penalties {'False Start': 4, 'Offensive Holding': 2}; depth-chart side {'LT': 193, 'RT': 33}; Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); pass/run snap mix PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); pass/run snap mix PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); pass/run snap mix PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); pass/run snap mix PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 6 accepted penalties {'False Start': 4, 'Offensive Holding': 2}, 2025 2 accepted penalties {'False Start': 1, 'Offensive Holding': 1}; PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Penei Sewell injury reports: {'2025': ['wk11 Questionable (Ankle)', 'wk12 Questionable (Ankle)', 'wk13 Questionable (Ankle)', 'wk14 Questionable (Shoulder)', 'wk18 Out (Ankle)']}; roster status ACT; snaps 16 g / 997 off snaps (2025), 7 g / 481 off snaps (2026). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 16 g / 997 off snaps (2025), 7 g / 481 off snaps (2026). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 16 g / 997 off snaps (2025), 7 g / 481 off snaps (2026). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6). Style: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+      "why_not_higher": "Evidence does not separate him from higher-rated tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "power: Penei Sewell (DET) 2026: PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); 7 g / 481 off snaps; 6 accepted penalties {'False Start': 4, 'Offensive Holding': 2}; depth-chart side {'LT': 193, 'RT': 33}; Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "discipline: penalties 2026 6 accepted penalties {'False Start': 4, 'Offensive Holding': 2}, 2025 2 accepted penalties {'False Start': 1, 'Offensive Holding': 1}; PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 16 g / 997 off snaps (2025), 7 g / 481 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 16 g / 997 off snaps (2025), 7 g / 481 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "tier": "ELITE",
+      "claim": "pass pro: Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "tier": "ELITE",
+      "claim": "pass pro: Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "tier": "EXTRAORDINARY",
+      "claim": "run block: Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "tier": "EXTRAORDINARY",
+      "claim": "run block: Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "tier": "ELITE",
+      "claim": "run block: Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "tier": "LEAGUE_DEFINING",
+      "claim": "run block: Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "tier": "ELITE",
+      "claim": "run block: Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT); PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 95,
+  "ovr_tier": "LEAGUE_DEFINING",
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish. OVR 95+: LEAGUE_DEFINING on 2025-26 evidence.",
+  "style_profile": "Penei Sewell: Power mauler with elite pass sets: PFF #1 in 2025 (95.1) and 2026 (91.1), ESPN RBWR 82% and PBWR 90%; the best run-game finisher at the position, now flipped to LT; 2026 false starts (4) the only blemish.",
+  "style_evidence": [
+    "Penei Sewell (DET) 2026: PFF 2026 91.1 (rank 1, 481 snaps: 278 pass-block / 202 run-block, pass share 0.58); 7 g / 481 off snaps; 6 accepted penalties {'False Start': 4, 'Offensive Holding': 2}; depth-chart side {'LT': 193, 'RT': 33}",
+    "Penei Sewell 2025: PFF 2025 95.1 (rank 1, 998 snaps: 601 pass-block / 397 run-block, pass share 0.6); 16 g / 997 off snaps; 2 accepted penalties {'False Start': 1, 'Offensive Holding': 1}; side {'RT': 1}",
+    "Penei Sewell ESPN pass/run block win rate 2026 through Week 7: PBWR 90%, RBWR 82% (#5 OT)",
+    "Penei Sewell injury reports: {'2025': ['wk11 Questionable (Ankle)', 'wk12 Questionable (Ankle)', 'wk13 Questionable (Ankle)', 'wk14 Questionable (Shoulder)', 'wk18 Out (Ankle)']}; roster status ACT"
+  ],
+  "input_dossier": "LT_REAUDIT_BG_01_A1",
+  "weaknesses": [
+    "false starts in 2026",
+    "change of direction"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Penei Sewell",
+      "ovr": 98,
+      "attributes": {
+        "STR": 97,
+        "SPD": 73,
+        "ACC": 73,
+        "AGI": 59,
+        "COD": 58,
+        "AWR": 98,
+        "INJ": 94,
+        "STA": 95,
+        "TGH": 91,
+        "PBK": 90,
+        "PBP": 94,
+        "PBF": 86,
+        "RBK": 99,
+        "RBP": 99,
+        "RBF": 99,
+        "IBL": 96,
+        "LBK": 97
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -3,
+      "delta_attributes": {
+        "STR": -2,
+        "SPD": -3,
+        "ACC": 3,
+        "AGI": 7,
+        "COD": 6,
+        "AWR": -6,
+        "INJ": -6,
+        "STA": -3,
+        "TGH": 3,
+        "PBK": 1,
+        "PBP": 0,
+        "PBF": 0,
+        "RBK": -2,
+        "RBP": -2,
+        "RBF": -7,
+        "IBL": 0,
+        "LBK": -4
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 OT, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 3,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t45s401",
+  "style_similarity": [],
+  "status": "FLAGGED"
+}
