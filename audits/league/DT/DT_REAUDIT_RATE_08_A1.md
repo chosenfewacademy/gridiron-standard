@@ -1,0 +1,420 @@
+# DT_REAUDIT_RATE_08 — Derrick Brown rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "DT_REAUDIT_RATE_08_A1",
+  "task_id": "DT_REAUDIT_RATE_08",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "player_id": "ext_00-0036220",
+  "players": [
+    "Derrick Brown"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 70,
+    "ACC": 76,
+    "AGI": 70,
+    "COD": 60,
+    "STR": 94,
+    "AWR": 82,
+    "PRC": 84,
+    "TAK": 90,
+    "POW": 84,
+    "BSH": 90,
+    "PMV": 78,
+    "FMV": 66,
+    "PUR": 84,
+    "INJ": 90,
+    "STA": 92,
+    "TGH": 90
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PMV": "MEDIUM",
+    "FMV": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF DI 2026 overall 76.5 on 333 snaps (DI rank 11); ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 3/2; PFF DI 2026 overall 76.5 on 333 snaps (DI rank 11). Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFF DI 2025 overall 72.9 on 881 snaps (DI rank 17); PFF DI 2026 overall 76.5 on 333 snaps (DI rank 11); TFL in 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD / 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD. Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed. Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed. Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFF DI 2025 overall 72.9 on 881 snaps (DI rank 17); PFF DI 2026 overall 76.5 on 333 snaps (DI rank 11); TFL in 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD / 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD. Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed. Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Listed weakness area: pass rush, finesse",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "FMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed. Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Listed weakness area: pass rush, finesse",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFF DI 2025 overall 72.9 on 881 snaps (DI rank 17); PFF DI 2026 overall 76.5 on 333 snaps (DI rank 11); TFL in 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD / 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD. Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Derrick Brown injury reports: no injury designation 2025-26; roster status ACT; 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD (2025), 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD (2026). Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD (2025), 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD (2026). Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD (2025), 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD (2026). Style: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "ELITE",
+      "claim": "power: PFF DI 2026 overall 76.5 on 333 snaps (DI rank 11); ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TAK": {
+      "tier": "ELITE",
+      "claim": "tackling: PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "BSH": {
+      "tier": "ELITE",
+      "claim": "run defense: ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFF DI 2025 overall 72.9 on 881 snaps (DI rank 17); PFF DI 2026 overall 76.5 on 333 snaps (DI rank 11); TFL in 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD / 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Derrick Brown injury reports: no injury designation 2025-26; roster status ACT; 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD (2025), 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD (2025), 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD (2025), 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 81,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+  "style_profile": "Derrick Brown: Run-stopping workhorse: 73 tackles (2025, most of these DTs), PFF 72.9 / 76.5, every game; strength and tackling, modest pass rush (15 + 5 pressures, 0 sacks in 2026).",
+  "style_evidence": [
+    "Derrick Brown (CAR) Derrick Brown 2026: PFF DI 2026 overall 76.5 on 333 snaps (DI rank 11); PFR 2026 5 pressures (1 hurries, 4 QB hits, 0.0 sacks) in 4 games, 15 tackles, 1 missed; 7 g / 333 def snaps; 0.0 sacks, 3 QB hits, 1 TFL, 0 FF, 5 PD; 2 accepted penalties; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+    "Derrick Brown 2025: PFF DI 2025 overall 72.9 on 881 snaps (DI rank 17); PFR 2025 15 pressures (4 hurries, 5 QB knockdowns, 5 sacks), 73 tackles, 3 missed; 17 g / 808 def snaps; 5.0 sacks, 11 QB hits, 5 TFL, 1 FF, 7 PD; 3 accepted penalties",
+    "Derrick Brown alignment: depth-chart interior snapshots 2025-26: 0 at DT/NT, 495 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket (DT BUCKET (t46u): interior defensive linemen graded by PFF as DI (pff.com/grades/nfl/di), aligned at DT/NT or 3-4 DE (in...); roster position DL; Madden card DT (reference only)",
+    "Derrick Brown injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "DT_REAUDIT_BG_08_A1",
+  "weaknesses": [
+    "pass rush",
+    "finesse"
+  ],
+  "limitations": [
+    "PFF pass-rush and run-defense sub-grades and alignment splits are paywalled; substitutes: PFF DI overall + snap counts, ESPN DT PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+  ],
+  "side_assignment": "DT (depth-chart interior snapshots 2025-26: 0 at DT/NT, 495 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket)",
+  "madden_reference": [
+    {
+      "player": "Derrick Brown",
+      "ovr": 96,
+      "madden_position": "DT",
+      "attributes": {
+        "SPD": 75,
+        "ACC": 76,
+        "AGI": 70,
+        "COD": 58,
+        "STR": 98,
+        "AWR": 97,
+        "PRC": 95,
+        "TAK": 96,
+        "POW": 84,
+        "BSH": 95,
+        "PMV": 86,
+        "FMV": 68,
+        "PUR": 86,
+        "INJ": 95,
+        "STA": 88,
+        "TGH": 95
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -15,
+      "delta_attributes": {
+        "SPD": -5,
+        "ACC": 0,
+        "AGI": 0,
+        "COD": 2,
+        "STR": -4,
+        "AWR": -15,
+        "PRC": -11,
+        "TAK": -6,
+        "POW": 0,
+        "BSH": -5,
+        "PMV": -8,
+        "FMV": -2,
+        "PUR": -2,
+        "INJ": -5,
+        "STA": 4,
+        "TGH": -5
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 15,
+    "attribute_gaps_10plus": {
+      "AWR": -15,
+      "PRC": -11
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
