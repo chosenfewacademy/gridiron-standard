@@ -10262,7 +10262,7 @@
         "position": "WILL",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/WILL.reaudit.json",
       "baseline_file": null,
@@ -10312,7 +10312,8 @@
         "WILL_REAUDIT_TIEBREAK_05",
         "WILL_REAUDIT_TIEBREAK_06",
         "WILL_REAUDIT_VARIANCE_AUDIT",
-        "WILL_REAUDIT_SCARCITY"
+        "WILL_REAUDIT_SCARCITY",
+        "WILL_REAUDIT_TIEBREAK_07"
       ],
       "audit_ids": [
         "WILL_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -10361,7 +10362,7 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "WILL_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T11:52:11.633Z",
+      "updated_at": "2026-11-04T11:52:11.868Z",
       "last_result": {
         "task_id": "WILL_REAUDIT_TIEBREAK_07",
         "status": "FLAGGED",
@@ -10369,17 +10370,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "WILL_REAUDIT_TIEBREAK_07",
-        "audit_id": "WILL_REAUDIT_TIEBREAK_07_A1",
-        "pending": [
-          {
-            "task_id": "WILL_REAUDIT_TIEBREAK_07",
-            "audit_id": "WILL_REAUDIT_TIEBREAK_07_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -10716,6 +10707,14 @@
           "audit_id": "WILL_REAUDIT_SCARCITY_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:51:55Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WILL_REAUDIT_TIEBREAK_07",
+          "audit_id": "WILL_REAUDIT_TIEBREAK_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:52:11Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
