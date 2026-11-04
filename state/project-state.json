@@ -17073,7 +17073,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.reaudit-20261104.json",
@@ -17083,7 +17083,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T14:17:31Z",
-      "updated_at": "2026-11-04T19:00:55.111Z",
+      "updated_at": "2026-11-04T19:00:55.465Z",
       "audit_ids": [
         "TE_REAUDIT_CANDIDATE_AUDIT_A1",
         "TE_REAUDIT_BG_01_A1",
@@ -17290,7 +17290,8 @@
         "TE_REAUDIT_BG_16",
         "TE_REAUDIT_RATE_16",
         "TE_REAUDIT_VARIANCE_AUDIT",
-        "TE_REAUDIT_SCARCITY"
+        "TE_REAUDIT_SCARCITY",
+        "TE_REAUDIT_CROSS_AUDIT"
       ],
       "approvals": [
         {
@@ -18739,15 +18740,19 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T14:17:38Z",
           "note": "User-approved batch t56s532: re-run TE_REAUDIT_SCARCITY after the approved card revisions"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_CROSS_AUDIT",
+          "audit_id": "TE_REAUDIT_CROSS_AUDIT_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:00:55Z",
+          "note": "User-approved batch t56s532: re-run TE_REAUDIT_CROSS_AUDIT after the approved card revisions"
         }
       ],
       "current_stage": "positional_cross_audit",
       "current_task": "TE_REAUDIT_CROSS_AUDIT",
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "TE_REAUDIT_CROSS_AUDIT",
-        "audit_id": "TE_REAUDIT_CROSS_AUDIT_A2"
-      },
+      "awaiting": null,
       "last_result": {
         "task_id": "TE_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",
