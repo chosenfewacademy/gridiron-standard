@@ -170,6 +170,16 @@
       "locked_at": "2026-11-04T11:49:12Z",
       "lock_audit_id": "MIKE_REAUDIT_LOCK_20261104",
       "history": []
+    },
+    "WILL": {
+      "status": "LOCKED",
+      "mutation_permission": "TOP10_REAUDIT_ONLY",
+      "first_lock": true,
+      "baseline_file": "data/baselines/WILL.reaudit-20261104.json",
+      "version": "reaudit-20261104",
+      "locked_at": "2026-11-04T11:55:40Z",
+      "lock_audit_id": "WILL_REAUDIT_LOCK_20261104",
+      "history": []
     }
   }
 }
