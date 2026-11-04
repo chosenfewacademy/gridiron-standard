@@ -1,0 +1,45 @@
+# LT_REAUDIT_TIEBREAK_11 — Will Campbell vs Laremy Tunsil (v1.1.2 head-to-head tiebreak; authorized by t45s407)
+
+```json
+{
+  "audit_id": "LT_REAUDIT_TIEBREAK_11_A1",
+  "task_id": "LT_REAUDIT_TIEBREAK_11",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Will Campbell",
+    "Laremy Tunsil"
+  ],
+  "pair_result": {
+    "winner": "Will Campbell",
+    "loser": "Laremy Tunsil",
+    "provisional_order_holds": true,
+    "reasoning": "Campbell leads 2026 play (8 g/475 snaps, PFF 76.8, RBWR 81%) vs Tunsil none (reserve). Tunsil leads 2025 PFF (84.7 vs 66.7) ; 2025 penalties level (5 each). Campbell on availability.",
+    "key_evidence_for_winner": [
+      "Will Campbell (NE) ESPN 2026 win rates (thru Wk 7): RBWR 81%; depth-chart side 2026 {'LT': 178}; roster ACT",
+      "Will Campbell 2026: PFF 76.8 (rank 12; 274 pass-block/200 run-block of 474 snaps); 8 g/475 snaps; penalties 5; injuries ['wk6 Questionable (Knee)']",
+      "Will Campbell 2025: PFF 66.7 (rank 42; 636 pass-block/410 run-block of 1046 snaps); 13 g/783 snaps; penalties 5; injuries ['wk1 Questionable (Ankle)']"
+    ],
+    "key_evidence_for_loser": [
+      "Laremy Tunsil (WAS) ESPN 2026 win rates (thru Wk 7): not in ESPN OT top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'LT': 139}; roster RES",
+      "Laremy Tunsil 2026: no PFF top-50 grade; no snaps; penalties 0; injuries none",
+      "Laremy Tunsil 2025: PFF 84.7 (rank 7; 491 pass-block/311 run-block of 802 snaps); 14 g/802 snaps; penalties 5; injuries ['wk9 Questionable (Hamstring)', 'wk16 Out (Oblique)', 'wk17 Out (Oblique)', 'wk18 Out (Oblique)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": {
+      "Laremy Tunsil": {
+        "from": 78,
+        "to": 72
+      }
+    },
+    "adjustment_status": "PROPOSED_NOT_APPROVED"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
