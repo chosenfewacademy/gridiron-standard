@@ -1,0 +1,395 @@
+{
+  "audit_id": "C_REAUDIT_RATE_07_A1",
+  "task_id": "C_REAUDIT_RATE_07",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "C",
+  "player_id": "ext_00-0037278",
+  "players": [
+    "Luke Wattenberg"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 82,
+    "SPD": 72,
+    "ACC": 76,
+    "AGI": 76,
+    "COD": 66,
+    "AWR": 76,
+    "INJ": 82,
+    "STA": 90,
+    "TGH": 87,
+    "PBK": 82,
+    "PBP": 80,
+    "PBF": 81,
+    "RBK": 80,
+    "RBP": 77,
+    "RBF": 82,
+    "IBL": 78,
+    "LBK": 82
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Luke Wattenberg (DEN) 2026: PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); 8 g / 490 off snaps; 2 accepted penalties {'False Start': 2}; depth-chart side {'C': 225}; Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists. Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Listed weakness area: penalties (false starts), power",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 2 accepted penalties {'False Start': 2}, 2025 5 accepted penalties {'Offensive Holding': 2, 'False Start': 2, 'Ineligible Downfield Pass': 1}; PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Luke Wattenberg injury reports: {'2025': ['wk17 Out (Shoulder)', 'wk21 Questionable (Shoulder)']}; roster status ACT; snaps 15 g / 1005 off snaps (2025), 8 g / 490 off snaps (2026). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 15 g / 1005 off snaps (2025), 8 g / 490 off snaps (2026). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 15 g / 1005 off snaps (2025), 8 g / 490 off snaps (2026). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 69.7 (rank 13, 1064 snaps: 678 pass-block / 386 run-block, pass share 0.64). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 69.7 (rank 13, 1064 snaps: 678 pass-block / 386 run-block, pass share 0.64). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 69.7 (rank 13, 1064 snaps: 678 pass-block / 386 run-block, pass share 0.64). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 69.7 (rank 13, 1064 snaps: 678 pass-block / 386 run-block, pass share 0.64). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 69.7 (rank 13, 1064 snaps: 678 pass-block / 386 run-block, pass share 0.64). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 69.7 (rank 13, 1064 snaps: 678 pass-block / 386 run-block, pass share 0.64). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 69.7 (rank 13, 1064 snaps: 678 pass-block / 386 run-block, pass share 0.64). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists; PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); PFF 2025 69.7 (rank 13, 1064 snaps: 678 pass-block / 386 run-block, pass share 0.64). Style: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 15 g / 1005 off snaps (2025), 8 g / 490 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 78,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+  "style_profile": "Luke Wattenberg: Mobile, scrappy all-rounder: PFF 69.7 then 72.8 (#4 C in 2026), 1,064 snaps in 2025; 7 penalties in two seasons (4 false starts) and a 2025 shoulder.",
+  "style_evidence": [
+    "Luke Wattenberg (DEN) 2026: PFF 2026 72.8 (rank 4, 492 snaps: 296 pass-block / 196 run-block, pass share 0.6); 8 g / 490 off snaps; 2 accepted penalties {'False Start': 2}; depth-chart side {'C': 225}",
+    "Luke Wattenberg 2025: PFF 2025 69.7 (rank 13, 1064 snaps: 678 pass-block / 386 run-block, pass share 0.64); 15 g / 1005 off snaps; 5 accepted penalties {'Offensive Holding': 2, 'False Start': 2, 'Ineligible Downfield Pass': 1}; side {'C': 1}",
+    "Luke Wattenberg ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+    "Luke Wattenberg injury reports: {'2025': ['wk17 Out (Shoulder)', 'wk21 Questionable (Shoulder)']}; roster status ACT"
+  ],
+  "input_dossier": "C_REAUDIT_BG_07_A1",
+  "weaknesses": [
+    "penalties (false starts)",
+    "power"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Luke Wattenberg",
+      "ovr": 77,
+      "attributes": {
+        "STR": 79,
+        "SPD": 65,
+        "ACC": 77,
+        "AGI": 68,
+        "COD": 61,
+        "AWR": 79,
+        "INJ": 91,
+        "STA": 90,
+        "TGH": 69,
+        "PBK": 83,
+        "PBP": 79,
+        "PBF": 85,
+        "RBK": 78,
+        "RBP": 75,
+        "RBF": 80,
+        "IBL": 80,
+        "LBK": 83
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 1,
+      "delta_attributes": {
+        "STR": 3,
+        "SPD": 7,
+        "ACC": -1,
+        "AGI": 8,
+        "COD": 5,
+        "AWR": -3,
+        "INJ": -9,
+        "STA": 0,
+        "TGH": 18,
+        "PBK": -1,
+        "PBP": 1,
+        "PBF": -4,
+        "RBK": 2,
+        "RBP": 2,
+        "RBF": 2,
+        "IBL": -2,
+        "LBK": -1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 C, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 1,
+    "attribute_gaps_10plus": {
+      "TGH": 18
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u/t50s441",
+  "style_similarity": [
+    {
+      "player": "Creed Humphrey",
+      "audit_id": "C_REAUDIT_RATE_01_A1",
+      "corr": 0.797,
+      "mad": 8.5,
+      "too_similar": false
+    },
+    {
+      "player": "Zach Frazier",
+      "audit_id": "C_REAUDIT_RATE_02_A1",
+      "corr": 0.759,
+      "mad": 8.1,
+      "too_similar": false
+    },
+    {
+      "player": "Aaron Brewer",
+      "audit_id": "C_REAUDIT_RATE_03_A1",
+      "corr": 0.844,
+      "mad": 3.9,
+      "too_similar": false
+    },
+    {
+      "player": "Coleman Shelton",
+      "audit_id": "C_REAUDIT_RATE_04_A1",
+      "corr": 0.815,
+      "mad": 5.6,
+      "too_similar": false
+    },
+    {
+      "player": "Tyler Linderbaum",
+      "audit_id": "C_REAUDIT_RATE_05_A1",
+      "corr": 0.709,
+      "mad": 4.9,
+      "too_similar": false
+    },
+    {
+      "player": "Erik McCoy",
+      "audit_id": "C_REAUDIT_RATE_06_A1",
+      "corr": 0.647,
+      "mad": 5.8,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
