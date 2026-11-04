@@ -1,0 +1,40 @@
+# REDGE_REAUDIT_H2H_02 — Danielle Hunter vs Abdul Carter (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "REDGE_REAUDIT_H2H_02_A1",
+  "task_id": "REDGE_REAUDIT_H2H_02",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Danielle Hunter",
+    "Abdul Carter"
+  ],
+  "pair_result": {
+    "winner": "Danielle Hunter",
+    "loser": "Abdul Carter",
+    "provisional_order_holds": true,
+    "reasoning": "Hunter's 2025 PFF 89.9 / 15 sacks and solid 2026 (80.5, 17 pressures) outweigh Carter's 2026 jump (PFF 90.3, ESPN PRWR 35% #2) because Carter's 2025 was 74.7 with 4 sacks; two-year body of work favors Hunter, Carter closing fast. Order holds.",
+    "key_evidence_for_winner": [
+      "Danielle Hunter (HOU) alignment side snapshots 2025-26 left 59 / right 437 -> REDGE; roster ACT (DL); injuries no injury designation 2025-26",
+      "Danielle Hunter 2026: Danielle Hunter 2026: PFF edge 2026 overall 80.5 on 358 snaps (228 pass-rush, 127 run-defense, 3 coverage); PFR 2026 17 pressures (8 hurries, 4 QB hits, 4.0 sacks) in 7 games, 17 tackles, 1 missed; 7 g / 360 def snaps; 4.0 sacks, 9 QB hits, 3 TFL, 1 FF, 4 PD; 0 accepted penalties; PFR 2026 17 pressures (8 hurries, 4 QB hits, 4.0 sacks) in 7 games, 17 tackles, 1 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10",
+      "Danielle Hunter 2025: Danielle Hunter 2025: PFF edge 2025 overall 89.9 on 819 snaps (563 pass-rush, 253 run-defense, 3 coverage); PFR 2025 34 pressures (9 hurries, 9 QB knockdowns, 15 sacks), 54 tackles, 4 missed; 17 g / 728 def snaps; 15.0 sacks, 22 QB hits, 15 TFL, 3 FF, 3 PD; 1 accepted penalties; PFR 2025 34 pressures (9 hurries, 9 QB knockdowns, 15 sacks), 54 tackles, 4 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Abdul Carter (NYG) alignment side snapshots 2025-26 left 225 / right 271 -> REDGE; roster ACT (LB); injuries wk7 Questionable (Hamstring); wk6 Questionable (Calf)",
+      "Abdul Carter 2026: Abdul Carter 2026: PFF edge 2026 overall 90.3 on 388 snaps (232 pass-rush, 149 run-defense, 7 coverage); PFR 2026 10 pressures (3 hurries, 5 QB hits, 2.0 sacks) in 6 games, 18 tackles, 1 missed; 7 g / 388 def snaps; 2.0 sacks, 7 QB hits, 2 TFL, 1 FF, 0 PD; 1 accepted penalties; PFR 2026 10 pressures (3 hurries, 5 QB hits, 2.0 sacks) in 6 games, 18 tackles, 1 missed; ESPN 2026 edge PRWR 35% (#2, 38/109); RSWR outside the published top 10",
+      "Abdul Carter 2025: Abdul Carter 2025: PFF edge 2025 overall 74.7 on 844 snaps (507 pass-rush, 303 run-defense, 34 coverage); PFR 2025 34 pressures (12 hurries, 17 QB knockdowns, 4 sacks), 43 tackles, 2 missed; 17 g / 843 def snaps; 4.0 sacks, 23 QB hits, 7 TFL, 2 FF, 0 PD; 5 accepted penalties; PFR 2025 34 pressures (12 hurries, 17 QB knockdowns, 4 sacks), 43 tackles, 2 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
