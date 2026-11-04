@@ -1,0 +1,291 @@
+{
+  "audit_id": "LT_REAUDIT_CANDIDATE_AUDIT_A1",
+  "task_id": "LT_REAUDIT_CANDIDATE_AUDIT",
+  "task_type": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "membership_confirmed": true,
+  "missing_top_players": [],
+  "coverage_check": "League-wide screen of every tackle in the PFF 2025/2026 top-50 tackle grades and every team's depth-chart LT starter (nflverse depth_charts 2025/2026), including reserve/IR and free agents (no free-agent LT met the screen). Side resolved from nflverse depth charts (LT vs RT starter snapshots), not Madden. Every 2026 LT starter with PFF 74+ is in the contention set or listed in excluded. PAYWALLED GAPS: PFF pass-block/run-block sub-grades, pressures and sacks allowed, and true-pass-set data are PFF+ only (blank on public pages); substitutes: ESPN pass-block and run-block win rate (public top-20 OT lists only, through Week 7), PFF overall grade with PFF pass-block/run-block snap counts, nflverse play-by-play penalties by player (holding, false start), nflverse snap counts and injury reports. Unmatched join: Paris Johnson Jr. snap counts (nflverse name) - PFF snaps used.",
+  "contention_set": [
+    "Penei Sewell",
+    "Trent Williams",
+    "Jordan Mailata",
+    "Garett Bolles",
+    "Tristan Wirfs",
+    "Andrew Thomas",
+    "Alaric Jackson",
+    "Bernhard Raimann",
+    "Charles Cross",
+    "Dion Dawkins",
+    "Laremy Tunsil",
+    "Paris Johnson Jr.",
+    "Will Campbell"
+  ],
+  "contention_basis": "Candidate audit only per commissioner t45s395: 10 proposed top-10 LTs plus 3 first-outs (Tunsil, Paris Johnson Jr., Campbell). Judgment, not formula. LT evidence: PFF overall grade (2025 full season + 2026 through Week 8), PFF pass/run-block snaps, ESPN PBWR/RBWR where published, penalties, snaps at LT, availability.",
+  "contender_reasons": {
+    "Penei Sewell": "Locked #2 (at RT in 2025); moved to LT in 2026 (193 of 226 depth snapshots at LT). PFF 95.1 (#1 2025) / 91.1 (#1 2026); ESPN PBWR 90% and RBWR 82% (#5 OT); 2/6 penalties (4 false starts in 2026)",
+    "Trent Williams": "Locked #4; PFF 91.1/86.2 (#2 2026); ESPN PBWR 92% (#2 OT); 16 g in 2025; 4/4 penalties; age 38",
+    "Jordan Mailata": "Locked #5; PFF 87.7/84.6 (#3 2026); ESPN PBWR 90%, RBWR 80% (#10 OT); 16 g + 8 g, no injury reports; 6/4 penalties",
+    "Garett Bolles": "Locked #3; PFF 90.3 (2025 All-Pro) / 81.1; 17 g + 8 g; 6/5 penalties; age 34, hip questionable Week 8; not in ESPN OT top 20 PBWR",
+    "Tristan Wirfs": "Locked #1; PFF 92.7 (#2 2025) / 78.8 (2026 dip); ESPN PBWR 92% (#6 OT); 12 g in 2025 (toe); 4/3 penalties",
+    "Andrew Thomas": "Locked #6; PFF 90.3 (2025, 802 snaps, 13 g) / 74.8 in 2026; fewest penalties in group (2/1); 2025 hamstring, 2026 groin (Q); trend test",
+    "Alaric Jackson": "Locked #9; PFF 84.2 (1,265 snaps) / 75.4; 16 g + 7 g; 3/4 penalties; not in ESPN OT top 20",
+    "Bernhard Raimann": "Locked #8; PFF 82.0/76.5; ESPN RBWR 81% (#7 OT); 16 g + 8 g; penalties down 7 to 1",
+    "Charles Cross": "External control (83); PFF 77.6/78.1 (stable); 0 penalties in 2026; 14 g in 2025; ankle out Week 8 - new top-10 contender",
+    "Dion Dawkins": "External control (82-83); PFF 71.7 (2025) / 80.3 (2026, #6 OT); ESPN PBWR 88%, RBWR 82% (#4 OT); 10 penalties in 2025 (7 false starts), 4 in 2026; age 32 - rebound test",
+    "Laremy Tunsil": "Locked #7; PFF 84.7 in 2025 (14 g); on reserve in 2026 with no 2026 snaps - first-out (availability)",
+    "Paris Johnson Jr.": "External control (81-82); PFF 76.6/77.6; on reserve (IR) in 2026 after 277 PFF snaps - first-out",
+    "Will Campbell": "PFF 66.7 (rookie 2025) / 76.8 (2026); ESPN RBWR 81% (#8 OT); 5/5 penalties; age 22 - first-out, rising"
+  },
+  "excluded": [
+    {
+      "player": "Kolton Miller",
+      "reason": "Locked #10; NOT in the approved pool (BELOW_CUTOFF). 2026 PFF 69.8 but ESPN PBWR 92% (#5 OT, 202/220), 0 penalties in 2025-26; 2025 only 4 g (ankle). Strongest first-out case outside the pool; re-inclusion needs a commissioner pool amendment."
+    },
+    {
+      "player": "Rashawn Slater",
+      "reason": "On reserve; 2026 PFF 73.7 on 251 snaps in 4 g; no 2025 season. Not in the approved pool."
+    },
+    {
+      "player": "Spencer Fano",
+      "reason": "Rookie LT (CLE), PFF 74.1 on 515 snaps; not in the approved pool."
+    },
+    {
+      "player": "Christian Darrisaw",
+      "reason": "PFF 65.8/66.5; 10 g in 2025, concussion in 2026; not in pool."
+    },
+    {
+      "player": "Jake Matthews",
+      "reason": "PFF 69.8 (2025), outside PFF top 50 in 2026; not in pool."
+    },
+    {
+      "player": "Darnell Wright",
+      "reason": "RT (225/225 depth snapshots at RT); PFF 80.3/82.8 - wrong side for LT bucket"
+    },
+    {
+      "player": "Colton McKivitz",
+      "reason": "RT (226/226); PFF 84.2/80.0, PBWR 92% - wrong side"
+    },
+    {
+      "player": "Lane Johnson",
+      "reason": "RT (197/197), currently inactive; PFF 77.4/79.8 - wrong side"
+    },
+    {
+      "player": "Abraham Lucas",
+      "reason": "RT (224/224); PFF 81.0/70.2 - wrong side"
+    },
+    {
+      "player": "Brian O'Neill",
+      "reason": "RT (226/226); PFF 81.6/67.1, PBWR 93% - wrong side"
+    },
+    {
+      "player": "Luke Goedeke",
+      "reason": "RT (224/224); PFF 75.7/75.3 - wrong side"
+    },
+    {
+      "player": "Joe Alt",
+      "reason": "RT (223 of 225); PFF 75.4 (2026); neck - wrong side"
+    },
+    {
+      "player": "Zach Bako-Bewele",
+      "reason": "RT (50/50) and on reserve (knee); PFF 83.5 in 2025 - wrong side"
+    },
+    {
+      "player": "Jordan Morgan",
+      "reason": "LT (GB) but outside PFF top 50 both seasons; Madden 72"
+    },
+    {
+      "player": "Rasheed Walker",
+      "reason": "LT 64 snapshots (CAR); outside PFF top 50 both seasons; 7/6 penalties"
+    }
+  ],
+  "flags": {
+    "injured": [
+      "Laremy Tunsil (reserve, no 2026 snaps)",
+      "Paris Johnson Jr. (IR)",
+      "Charles Cross (ankle, out Week 8)",
+      "Garett Bolles (hip, questionable Week 8)",
+      "Andrew Thomas (groin, questionable Week 6)",
+      "Rashawn Slater (reserve)"
+    ],
+    "free_agents": [],
+    "limited_sample": [
+      "Paris Johnson Jr.: 277 PFF snaps 2026",
+      "Tristan Wirfs: 12 g 2025",
+      "Andrew Thomas: 13 g 2025"
+    ],
+    "side_change": [
+      "Penei Sewell: RT in 2025, LT in 2026 (Decker retired); 2025 grade earned at RT"
+    ],
+    "locked_members_outside_contention": [
+      "Kolton Miller (#10, not in approved pool)"
+    ],
+    "locked_members_first_out": [
+      "Laremy Tunsil (#7)"
+    ],
+    "sharp_decline": [
+      "Tristan Wirfs (PFF 92.7 to 78.8)",
+      "Andrew Thomas (90.3 to 74.8)",
+      "Garett Bolles (90.3 to 81.1)",
+      "Alaric Jackson (84.2 to 75.4)"
+    ],
+    "data_gaps": [
+      "PFF PBLK/RBLK sub-grades paywalled (PFF+)",
+      "pressures/sacks allowed paywalled (PFF+)",
+      "ESPN PBWR/RBWR public only for top 20 / top 10 OTs",
+      "PFF public tables only list top 50 tackles"
+    ]
+  },
+  "madden_reference": [
+    {
+      "player": "Penei Sewell",
+      "ovr": 98,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Trent Williams",
+      "ovr": 97,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Jordan Mailata",
+      "ovr": 90,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Garett Bolles",
+      "ovr": 96,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Tristan Wirfs",
+      "ovr": 94,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Andrew Thomas",
+      "ovr": 95,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Alaric Jackson",
+      "ovr": 85,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Bernhard Raimann",
+      "ovr": 86,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Charles Cross",
+      "ovr": 85,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Dion Dawkins",
+      "ovr": 89,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Laremy Tunsil",
+      "ovr": 94,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Will Campbell",
+      "ovr": 81,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Paris Johnson Jr.",
+      "ovr": 86,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Kolton Miller",
+      "ovr": 93,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Spencer Fano",
+      "ovr": 81,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Rashawn Slater",
+      "ovr": 92,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Zach Bako-Bewele",
+      "ovr": 87,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Jordan Morgan",
+      "ovr": 72,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Rasheed Walker",
+      "ovr": 82,
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    }
+  ],
+  "madden_order_verified": false,
+  "early_inputs": [],
+  "external_controls": [],
+  "major_flags": [
+    "LOCKED_MEMBERS_OUT: Kolton Miller (#10, outside pool), Laremy Tunsil (#7, first-out, reserve)",
+    "NEW_CONTENDERS: Charles Cross, Dion Dawkins",
+    "SIDE_CHANGE: Penei Sewell RT->LT",
+    "DATA_GAP: PFF sub-grades and pressures/sacks allowed paywalled; ESPN win rates and penalties used",
+    "MADDEN_GAP_10PLUS: Kolton Miller (93, excluded); Madden reference only",
+    "LOCKED_CONTROL_CONFLICT"
+  ],
+  "locked_control_conflict": true,
+  "status": "FLAGGED"
+}

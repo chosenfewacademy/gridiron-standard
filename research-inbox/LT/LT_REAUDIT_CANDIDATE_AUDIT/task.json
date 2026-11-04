@@ -1,0 +1,326 @@
+{
+  "task_id": "LT_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Tristan Wirfs"
+      },
+      {
+        "rank": 2,
+        "player": "Penei Sewell"
+      },
+      {
+        "rank": 3,
+        "player": "Garett Bolles"
+      },
+      {
+        "rank": 4,
+        "player": "Trent Williams"
+      },
+      {
+        "rank": 5,
+        "player": "Jordan Mailata"
+      },
+      {
+        "rank": 6,
+        "player": "Andrew Thomas"
+      },
+      {
+        "rank": 7,
+        "player": "Laremy Tunsil"
+      },
+      {
+        "rank": 8,
+        "player": "Bernhard Raimann"
+      },
+      {
+        "rank": 9,
+        "player": "Alaric Jackson"
+      },
+      {
+        "rank": 10,
+        "player": "Kolton Miller"
+      }
+    ],
+    "external_controls": [
+      {
+        "player": "Rashawn Slater",
+        "ovr": 84
+      },
+      {
+        "player": "Charles Cross",
+        "ovr": 83
+      },
+      {
+        "player": "Christian Darrisaw",
+        "ovr": "82-83"
+      },
+      {
+        "player": "Dion Dawkins",
+        "ovr": "82-83"
+      },
+      {
+        "player": "Jake Matthews",
+        "ovr": "81-82"
+      },
+      {
+        "player": "Paris Johnson Jr.",
+        "ovr": "81-82"
+      }
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Penei Sewell",
+      "aliases": [],
+      "player_id": "penei_sewell",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Trent Williams",
+      "aliases": [],
+      "player_id": "trent_williams",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Garett Bolles",
+      "aliases": [],
+      "player_id": "garett_bolles",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Jordan Mailata",
+      "aliases": [],
+      "player_id": "jordan_mailata",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Tristan Wirfs",
+      "aliases": [],
+      "player_id": "tristan_wirfs",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Colton McKivitz",
+      "aliases": [],
+      "player_id": "ext_00-0036256",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Darnell Wright",
+      "aliases": [],
+      "player_id": "ext_00-0038932",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Bernhard Raimann",
+      "aliases": [],
+      "player_id": "bernhard_raimann",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Andrew Thomas",
+      "aliases": [],
+      "player_id": "andrew_thomas",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Alaric Jackson",
+      "aliases": [],
+      "player_id": "alaric_jackson",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Dion Dawkins",
+      "aliases": [],
+      "player_id": "dion_dawkins",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Charles Cross",
+      "aliases": [],
+      "player_id": "charles_cross",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Lane Johnson",
+      "aliases": [],
+      "player_id": "ext_00-0030561",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Paris Johnson Jr.",
+      "aliases": [],
+      "player_id": "paris_johnson_jr",
+      "flags": [
+        "INJURED_RESERVE",
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Laremy Tunsil",
+      "aliases": [],
+      "player_id": "laremy_tunsil",
+      "flags": [
+        "INJURED_RESERVE",
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Abraham Lucas",
+      "aliases": [],
+      "player_id": "ext_00-0037812",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Will Campbell",
+      "aliases": [],
+      "player_id": "ext_00-0040699",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Zach Bako-Bewele",
+      "aliases": [],
+      "player_id": "ext_00-0037817",
+      "flags": [
+        "INJURED_RESERVE",
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Joe Alt",
+      "aliases": [],
+      "player_id": "ext_00-0039897",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Brian O'Neill",
+      "aliases": [],
+      "player_id": "ext_00-0034158",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Luke Goedeke",
+      "aliases": [],
+      "player_id": "ext_00-0037835",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)"
+      ]
+    },
+    {
+      "player": "Jordan Morgan",
+      "aliases": [],
+      "player_id": "ext_00-0039904",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)",
+        "ROSTER_LABEL_G (two-way/position change; confirm bucket)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Rasheed Walker",
+      "aliases": [],
+      "player_id": "ext_00-0037196",
+      "flags": [
+        "SIDE_UNVERIFIED (nflverse labels G/T only; re-audit pool)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    }
+  ],
+  "position": "LT",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 5,
+    "group": "Offense",
+    "current_status": "LOCKED",
+    "pff_cited_inputs": [
+      "overall",
+      "pass blocking",
+      "run blocking",
+      "zone/gap run-block grades",
+      "pressures allowed",
+      "sacks allowed",
+      "penalties"
+    ],
+    "position_stats": [
+      "games/snaps started at the exact bucket",
+      "penalties (holding, false start)"
+    ],
+    "usage_snap_metrics": [
+      "snaps by exact alignment (LT/LG/C/RG/RT)",
+      "pass-block vs run-block snap split",
+      "true pass sets"
+    ],
+    "on_field_impact": [
+      "pass-block win rate (ESPN)",
+      "run-block win rate (ESPN)",
+      "pressure rate allowed"
+    ],
+    "madden_attributes_informed": [
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK",
+      "STR",
+      "AWR",
+      "AGI",
+      "ACC"
+    ],
+    "note": "Exact-side bucket: only snaps at this alignment count as primary evidence; snaps elsewhere are context."
+  }
+}
