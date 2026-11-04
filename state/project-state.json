@@ -20839,6 +20839,23 @@
           "COMMISSIONER_REVIEW: positional cross-audit re-run (t56s532)"
         ]
       }
+    },
+    {
+      "type": "TOP10_REAUDIT",
+      "position": "K",
+      "task": {
+        "position": "K",
+        "stage": "top10_reaudit"
+      },
+      "status": "QUEUED_NOT_STARTED",
+      "position_state_at_trigger": "PENDING",
+      "pool_file": "data/candidate-pools/K.reaudit.json",
+      "baseline_file": "data/baselines/K.reaudit-20261104.json",
+      "supersedes_lock_audit_id": "K_REAUDIT_LOCK_20261104",
+      "requested_by": "PhiXCrypto",
+      "requested_at": "2026-11-04T19:08:24.161Z",
+      "trigger": "COMMISSIONER_EXPLICIT",
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
     }
   ]
 }
