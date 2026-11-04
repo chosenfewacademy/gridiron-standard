@@ -1,0 +1,183 @@
+# FB_REAUDIT_BG_03 — Hunter Luepke background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "FB_REAUDIT_BG_03_A1",
+  "task_id": "FB_REAUDIT_BG_03",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "player_id": "ext_00-0038738",
+  "players": [
+    "Hunter Luepke"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Hunter Luepke",
+    "player_id": "ext_00-0038738",
+    "team": "DAL",
+    "eligibility": "Hunter Luepke usage (FB eligibility rule: PFF FB alignment / depth-chart FB / roster FB): roster position RB, depth-chart position FB",
+    "pff": {
+      "2025": {
+        "rank": 5,
+        "pff": 60.5,
+        "team": "dallas-cowboys",
+        "off": 252,
+        "run": 16,
+        "recv": 92,
+        "rblk": 106,
+        "pblk": 38,
+        "age": 26.6,
+        "wt": 238
+      },
+      "2026": {
+        "rank": 5,
+        "pff": 54.5,
+        "team": "dallas-cowboys",
+        "off": 95,
+        "run": 4,
+        "recv": 36,
+        "rblk": 27,
+        "pblk": 28,
+        "age": 26.6,
+        "wt": 238
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "off": 251,
+        "st": 240
+      },
+      "2026": {
+        "games": 8,
+        "off": 95,
+        "st": 130
+      }
+    },
+    "touches": {
+      "2025": {
+        "carries": 16.0,
+        "rushing_yards": 71.0,
+        "rushing_tds": 0.0,
+        "receptions": 13.0,
+        "targets": 15.0,
+        "receiving_yards": 109.0,
+        "receiving_tds": 1.0,
+        "rushing_fumbles_lost": 0.0,
+        "receiving_fumbles_lost": 0.0
+      },
+      "2026": {
+        "carries": 4.0,
+        "rushing_yards": 16.0,
+        "rushing_tds": 0.0,
+        "receptions": 4.0,
+        "targets": 4.0,
+        "receiving_yards": 11.0,
+        "receiving_tds": 0.0,
+        "rushing_fumbles_lost": 0.0,
+        "receiving_fumbles_lost": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 1,
+      "2026": 0
+    },
+    "fb_depth_chart": {
+      "2025": {
+        "rank1": 221
+      },
+      "2026": {
+        "rank1": 275
+      }
+    },
+    "injuries": {
+      "2025": [
+        "wk16 Questionable (Concussion)"
+      ]
+    },
+    "summary_lines": [
+      "Hunter Luepke (DAL) 2026: PFF FB 2026 54.5 (rank 5, 95 snaps: 27 run/lead-block, 28 pass-block, 36 routes, 4 carries; block share 0.58); 8 g / 95 off snaps; 4-16 rushing, 4/4 tgt for 11 yds, 0 TD; 0 penalties; FB depth-chart snapshots {'rank1': 275}",
+      "Hunter Luepke 2025: PFF FB 2025 60.5 (rank 5, 252 snaps: 106 run/lead-block, 38 pass-block, 92 routes, 16 carries; block share 0.57); 17 g / 251 off snaps; 16-71 rushing, 13/15 tgt for 109 yds, 1 TD; 1 penalties; FB depth-chart snapshots {'rank1': 221}",
+      "Hunter Luepke usage (FB eligibility rule: PFF FB alignment / depth-chart FB / roster FB): roster position RB, depth-chart position FB",
+      "Hunter Luepke injury reports: {'2025': ['wk16 Questionable (Concussion)']}; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF FB run/pass-block sub-grades, lead-block win data and 21/22-personnel share are paywalled or unpublished; substitutes: PFF FB overall + run-block/pass-block/route/carry snap counts, nflverse snaps, rushing/receiving, penalties, FB depth-chart role, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CAR",
+      "BCV",
+      "TRK",
+      "BTK",
+      "SFA",
+      "CTH",
+      "CIT",
+      "SRR",
+      "RBK",
+      "RBP",
+      "RBF",
+      "PBK",
+      "IBL",
+      "LBK",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/fb/2026",
+        "retrieved_at": "2026-11-04T04:14:31Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/fb/2025",
+        "retrieved_at": "2026-11-04T04:14:31Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:31Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:31Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T04:14:31Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T04:14:31Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:31Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:31Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:31Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
