@@ -1,0 +1,154 @@
+# LG_REAUDIT_BG_09 — Matthew Bergeron background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u/t50s441.
+
+```json
+{
+  "audit_id": "LG_REAUDIT_BG_09_A1",
+  "task_id": "LG_REAUDIT_BG_09",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LG",
+  "player_id": "ext_00-0039048",
+  "players": [
+    "Matthew Bergeron"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Matthew Bergeron",
+    "player_id": "ext_00-0039048",
+    "team": "ATL",
+    "pff": {
+      "2025": {
+        "rank": 20,
+        "pff": 70.8,
+        "team": "ATL",
+        "off": 912,
+        "pblk": 519,
+        "rblk": 393,
+        "age": "26.6"
+      },
+      "2026": {
+        "rank": 19,
+        "pff": 71.9,
+        "team": "ATL",
+        "off": 496,
+        "pblk": 268,
+        "rblk": 228,
+        "age": "26.6"
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 15,
+        "off": 912
+      },
+      "2026": {
+        "games": 8,
+        "off": 497
+      }
+    },
+    "penalties": {
+      "2025": {
+        "total": 2,
+        "types": {
+          "Ineligible Downfield Pass": 1,
+          "Offensive Holding": 1
+        }
+      },
+      "2026": {
+        "total": 1,
+        "types": {
+          "Offensive Holding": 1
+        }
+      }
+    },
+    "depth_chart_side": {
+      "2025": {
+        "LG": 1
+      },
+      "2026": {
+        "LG": 226
+      }
+    },
+    "espn_win_rates": "not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+    "injuries": {
+      "2025": [
+        "wk10 Out (Ankle)",
+        "wk11 Out (Ankle)",
+        "wk12 Questionable (Ankle)"
+      ]
+    },
+    "summary_lines": [
+      "Matthew Bergeron (ATL) 2026: PFF 2026 71.9 (rank 19, 496 snaps: 268 pass-block / 228 run-block, pass share 0.54); 8 g / 497 off snaps; 1 accepted penalties {'Offensive Holding': 1}; depth-chart side {'LG': 226}",
+      "Matthew Bergeron 2025: PFF 2025 70.8 (rank 20, 912 snaps: 519 pass-block / 393 run-block, pass share 0.57); 15 g / 912 off snaps; 2 accepted penalties {'Ineligible Downfield Pass': 1, 'Offensive Holding': 1}; side {'LG': 1}",
+      "Matthew Bergeron ESPN pass/run block win rate 2026 through Week 7: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+      "Matthew Bergeron injury reports: {'2025': ['wk10 Out (Ankle)', 'wk11 Out (Ankle)', 'wk12 Questionable (Ankle)']}; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "STR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH",
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2026",
+        "retrieved_at": "2026-11-04T03:14:37Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/t/2025",
+        "retrieved_at": "2026-11-04T03:14:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T03:14:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T03:14:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T03:14:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T03:14:37Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T03:14:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:14:37Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
