@@ -1,0 +1,240 @@
+{
+  "task_id": "LEDGE_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Will Anderson Jr."
+      },
+      {
+        "rank": 2,
+        "player": "Aidan Hutchinson"
+      },
+      {
+        "rank": 3,
+        "player": "Greg Rousseau"
+      },
+      {
+        "rank": 4,
+        "player": "Maxx Crosby"
+      },
+      {
+        "rank": 5,
+        "player": "T.J. Watt"
+      },
+      {
+        "rank": 6,
+        "player": "Boye Mafe"
+      },
+      {
+        "rank": 7,
+        "player": "Brian Burns"
+      },
+      {
+        "rank": 8,
+        "player": "Byron Young"
+      },
+      {
+        "rank": 9,
+        "player": "DeMarcus Lawrence"
+      },
+      {
+        "rank": 10,
+        "player": "George Karlaftis"
+      }
+    ],
+    "external_controls": [
+      "Gabe Jacas",
+      "David Bailey",
+      "Tuli Tuipulotu",
+      "Cameron Thomas"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Will Anderson Jr.",
+      "aliases": [],
+      "player_id": "ext_00-0039108",
+      "flags": [
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 437 / right 59 (L25 162, L26 275, R25 59, R26 0) -> LEDGE)"
+      ]
+    },
+    {
+      "player": "Aidan Hutchinson",
+      "aliases": [],
+      "player_id": "ext_00-0037236",
+      "flags": [
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 496 / right 0 (L25 221, L26 275, R25 0, R26 0) -> LEDGE)"
+      ]
+    },
+    {
+      "player": "Greg Rousseau",
+      "aliases": [],
+      "player_id": "ext_00-0036914",
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 488 / right 8 (L25 213, L26 275, R25 8, R26 0) -> LEDGE)"
+      ]
+    },
+    {
+      "player": "Maxx Crosby",
+      "aliases": [],
+      "player_id": "ext_00-0034973",
+      "flags": [
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 496 / right 0 (L25 221, L26 275, R25 0, R26 0) -> LEDGE)"
+      ]
+    },
+    {
+      "player": "T.J. Watt",
+      "aliases": [],
+      "player_id": "ext_00-0033886",
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 496 / right 0 (L25 221, L26 275, R25 0, R26 0) -> LEDGE)"
+      ]
+    },
+    {
+      "player": "Boye Mafe",
+      "aliases": [],
+      "player_id": "ext_00-0038133",
+      "flags": [
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 311 / right 167 (L25 36, L26 275, R25 167, R26 0) -> LEDGE)"
+      ]
+    },
+    {
+      "player": "Brian Burns",
+      "aliases": [],
+      "player_id": "ext_00-0035713",
+      "flags": [
+        "INJURED_RESERVE",
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)",
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 496 / right 0 (L25 221, L26 275, R25 0, R26 0) -> LEDGE)"
+      ]
+    },
+    {
+      "player": "Byron Young",
+      "aliases": [],
+      "player_id": "ext_00-0038978",
+      "flags": [
+        "ROSTER_LABEL_DT (two-way/position change; confirm bucket)",
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 991 / right 1 (L25 441, L26 550, R25 1, R26 0) -> LEDGE)"
+      ]
+    },
+    {
+      "player": "DeMarcus Lawrence",
+      "aliases": [],
+      "player_id": "ext_00-0031411",
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 496 / right 0 (L25 221, L26 275, R25 0, R26 0) -> LEDGE)"
+      ]
+    },
+    {
+      "player": "George Karlaftis",
+      "aliases": [],
+      "player_id": "ext_00-0037192",
+      "flags": [
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 496 / right 0 (L25 221, L26 275, R25 0, R26 0) -> LEDGE)"
+      ]
+    },
+    {
+      "player": "Gabe Jacas",
+      "aliases": [],
+      "player_id": "ext_00-0041569",
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 127 / right 112 (L25 0, L26 127, R25 0, R26 112) -> LEDGE)"
+      ]
+    },
+    {
+      "player": "David Bailey",
+      "aliases": [],
+      "player_id": "ext_00-0041026",
+      "flags": [
+        "OLB_LABEL (confirm edge vs off-ball)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)",
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 240 / right 0 (L25 0, L26 240, R25 0, R26 0) -> LEDGE)"
+      ]
+    },
+    {
+      "player": "Tuli Tuipulotu",
+      "aliases": [],
+      "player_id": "ext_00-0039111",
+      "flags": [
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 494 / right 0 (L25 220, L26 274, R25 0, R26 0) -> LEDGE)",
+        "ADDED_BY_SIDE_SCREEN (t46u contender screen)"
+      ]
+    },
+    {
+      "player": "Cameron Thomas",
+      "aliases": [],
+      "player_id": "ext_00-0037815",
+      "flags": [
+        "EDGE_SIDE_ASSIGNED LEDGE (depth-chart side snapshots 2025-26: left 495 / right 1 (L25 220, L26 275, R25 1, R26 0) -> LEDGE)",
+        "ADDED_BY_SIDE_SCREEN (t46u contender screen)"
+      ]
+    }
+  ],
+  "position": "LEDGE",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 11,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "pass rush",
+      "run defense",
+      "tackling",
+      "pass-rush win rate",
+      "pressures",
+      "total pressures, sacks, hits, hurries"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks, QB hits",
+      "forced fumbles",
+      "batted passes"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (edge side / interior technique)",
+      "pass-rush snaps vs run snaps"
+    ],
+    "on_field_impact": [
+      "pass-rush win rate (ESPN)",
+      "run-stop win rate (ESPN)",
+      "pressure rate",
+      "run-stop %"
+    ],
+    "madden_attributes_informed": [
+      "PMV",
+      "FMV",
+      "BSH",
+      "PUR",
+      "PRC",
+      "TAK",
+      "POW",
+      "STR",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Left-side edge: only left-edge alignment snaps are primary."
+  }
+}

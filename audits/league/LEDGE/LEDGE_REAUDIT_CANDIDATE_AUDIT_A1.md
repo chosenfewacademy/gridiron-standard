@@ -1,0 +1,451 @@
+# LEDGE TOP10_REAUDIT — Stage 1 CANDIDATE AUDIT (v1.1.2), attempt 1
+
+Authorized by t46u (never-locked pathway). Madden 27 is reference only. madden_order_verified=false.
+
+```json
+{
+  "audit_id": "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1",
+  "task_id": "LEDGE_REAUDIT_CANDIDATE_AUDIT",
+  "task_type": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "membership_confirmed": true,
+  "missing_top_players": [],
+  "side_rule": "EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LEDGE = defense's left edge (aligned over the offense's right tackle); REDGE = defense's right edge (over the offense's left tackle), matching the repo note 'Right-side edge (offense's left)'. Side evidence = nflverse weekly depth charts 2025 + 2026 (ESPN-sourced): each team-day snapshot counts once; LDE (4-3 or 3-4) or 3-4 WLB (ESPN 3-4 layout slot 4, left of LILB) = left; RDE or 3-4 SLB (slot 7, right of RILB) = right; 4-3 WLB/SLB are off-ball LBs and not counted. The side with more snapshots across both seasons wins; a player appears in only one list. PFF alignment splits (left/right snap counts) are paywalled and NGS publishes no side split, so depth charts are the side source; Madden 27's LEDG/REDG card label is reference only and does not decide side.",
+  "side_assignment": {
+    "Aidan Hutchinson": {
+      "left": 496,
+      "right": 0,
+      "assign": "LEDGE"
+    },
+    "Will Anderson Jr.": {
+      "left": 437,
+      "right": 59,
+      "assign": "LEDGE"
+    },
+    "Greg Rousseau": {
+      "left": 488,
+      "right": 8,
+      "assign": "LEDGE"
+    },
+    "Maxx Crosby": {
+      "left": 496,
+      "right": 0,
+      "assign": "LEDGE"
+    },
+    "T.J. Watt": {
+      "left": 496,
+      "right": 0,
+      "assign": "LEDGE"
+    },
+    "DeMarcus Lawrence": {
+      "left": 496,
+      "right": 0,
+      "assign": "LEDGE"
+    },
+    "Byron Young": {
+      "left": 991,
+      "right": 1,
+      "assign": "LEDGE"
+    },
+    "George Karlaftis": {
+      "left": 496,
+      "right": 0,
+      "assign": "LEDGE"
+    },
+    "Boye Mafe": {
+      "left": 311,
+      "right": 167,
+      "assign": "LEDGE"
+    },
+    "Brian Burns": {
+      "left": 496,
+      "right": 0,
+      "assign": "LEDGE"
+    },
+    "Tuli Tuipulotu": {
+      "left": 494,
+      "right": 0,
+      "assign": "LEDGE"
+    },
+    "Cameron Thomas": {
+      "left": 495,
+      "right": 1,
+      "assign": "LEDGE"
+    },
+    "Gabe Jacas": {
+      "left": 127,
+      "right": 112,
+      "assign": "LEDGE"
+    }
+  },
+  "coverage_check": "League-wide screen of every edge: all PFF edge grades 2025 and 2026 (pff.com/grades/nfl/ed; 177 graded in 2026), ESPN edge PRWR/RSWR leaderboards (2026), PFR pressure lines (2025 season, 2026 weekly), nflverse depth charts 2025/2026 for side, snaps, stats, penalties, injuries; reserve/IR/PUP (Garrett, Parsons, Burns, Wright, Landry), inactive and rookies included. EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LEDGE = defense's left edge (aligned over the offense's right tackle); REDGE = defense's right edge (over the offense's left tackle), matching the repo note 'Right-side edge (offense's left)'. Side evidence = nflverse weekly depth charts 2025 + 2026 (ESPN-sourced): each team-day snapshot counts once; LDE (4-3 or 3-4) or 3-4 WLB (ESPN 3-4 layout slot 4, left of LILB) = left; RDE or 3-4 SLB (slot 7, right of RILB) = right; 4-3 WLB/SLB are off-ball LBs and not counted. The side with more snapshots across both seasons wins; a player appears in only one list. PFF alignment splits (left/right snap counts) are paywalled and NGS publishes no side split, so depth charts are the side source; Madden 27's LEDG/REDG card label is reference only and does not decide side. PAYWALLED GAPS: PFF pass-rush and run-defense sub-grades and PFF left/right alignment splits; substitutes: PFF overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR, PFR pressures, sacks/QB hits/TFL.",
+  "contention_set": [
+    "Aidan Hutchinson",
+    "Will Anderson Jr.",
+    "Greg Rousseau",
+    "Maxx Crosby",
+    "T.J. Watt",
+    "DeMarcus Lawrence",
+    "Byron Young",
+    "George Karlaftis",
+    "Boye Mafe",
+    "Brian Burns",
+    "Tuli Tuipulotu",
+    "Cameron Thomas",
+    "Gabe Jacas"
+  ],
+  "contention_basis": "Judgment, not formula: 10 proposed top-10 LEDGEs plus three first-outs. Evidence: ESPN pass-rush win rate and run-stop win rate, PFR pressures (hurries/knockdowns/sacks), PFF edge overall (pass-rush/run-defense sub-grades paywalled; pass-rush and run-defense snap counts used), sacks/QB hits/TFL, penalties, availability.",
+  "contender_reasons": {
+    "Aidan Hutchinson": "Aidan Hutchinson 2025: PFF edge 2025 overall 91.7 on 1005 snaps (622 pass-rush, 374 run-defense, 9 coverage); PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed; 17 g / 1005 def snaps; 14.5 sacks, 35 QB hits, 14 TFL, 4 FF, 3 PD; 5 accepted penalties | Aidan Hutchinson 2026: PFF edge 2026 overall 91.7 on 446 snaps (306 pass-rush, 130 run-defense, 10 coverage); PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed; 7 g / 446 def snaps; 5.0 sacks, 17 QB hits, 5 TFL, 1 FF, 1 PD; 0 accepted penalties | ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10 | side snapshots 2025-26 left 496 / right 0 -> LEDGE | injuries: no injury designation 2025-26; roster ACT (DET) - The workhorse #1 LEDGE: PFF 91.7 in both seasons on 1,005 + 446 snaps (most of any edge), 14.5 sacks, 50 pressures (2025) and 22 pressures in 6 games (2026); relentless finesse/counter rusher who never comes off the field.",
+    "Will Anderson Jr.": "Will Anderson Jr. 2025: PFF edge 2025 overall 93.4 on 779 snaps (529 pass-rush, 248 run-defense, 2 coverage); PFR 2025 36 pressures (15 hurries, 8 QB knockdowns, 12 sacks), 54 tackles, 3 missed; 17 g / 694 def snaps; 12.0 sacks, 23 QB hits, 20 TFL, 3 FF, 3 PD; 6 accepted penalties | Will Anderson Jr. 2026: PFF edge 2026 overall 90.8 on 365 snaps (234 pass-rush, 130 run-defense, 1 coverage); PFR 2026 18 pressures (2 hurries, 7 QB hits, 7.5 sacks) in 6 games, 28 tackles, 0 missed; 7 g / 367 def snaps; 7.5 sacks, 15 QB hits, 10 TFL, 1 FF, 1 PD; 1 accepted penalties | ESPN 2026 edge PRWR outside the published top 20; RSWR 30% (#10, 32/108) | side snapshots 2025-26 left 437 / right 59 -> LEDGE | injuries: no injury designation 2025-26; roster ACT (HOU) - Power-speed complete edge: PFF 93.4 (2025, #1 edge) and 90.8, 7.5 sacks in 2026, ESPN RSWR 30% (#10) - the best run defender among the stars; a hair behind Hutchinson on volume.",
+    "Greg Rousseau": "Greg Rousseau 2025: PFF edge 2025 overall 86.3 on 729 snaps (428 pass-rush, 266 run-defense, 35 coverage); PFR 2025 29 pressures (7 hurries, 13 QB knockdowns, 7 sacks), 46 tackles, 2 missed; 16 g / 629 def snaps; 7.0 sacks, 23 QB hits, 6 TFL, 1 FF, 2 PD; 1 accepted penalties | Greg Rousseau 2026: PFF edge 2026 overall 86.5 on 374 snaps (245 pass-rush, 121 run-defense, 8 coverage); PFR 2026 25 pressures (8 hurries, 11 QB hits, 6.0 sacks) in 6 games, 21 tackles, 1 missed; 7 g / 374 def snaps; 7.0 sacks, 22 QB hits, 9 TFL, 3 FF, 7 PD; 1 accepted penalties | ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10 | side snapshots 2025-26 left 488 / right 8 -> LEDGE | injuries: no injury designation 2025-26; roster ACT (BUF) - Long power rusher: PFF 86.3 / 86.5, 7 sacks and 25 pressures through 2026 already (22 QB hits), sound run anchor; converts power more than bend.",
+    "Maxx Crosby": "Maxx Crosby 2025: PFF edge 2025 overall 79.7 on 935 snaps (515 pass-rush, 410 run-defense, 10 coverage); PFR 2025 29 pressures (8 hurries, 11 QB knockdowns, 10 sacks), 73 tackles, 9 missed; 15 g / 935 def snaps; 10.0 sacks, 20 QB hits, 28 TFL, 2 FF, 6 PD; 7 accepted penalties | Maxx Crosby 2026: PFF edge 2026 overall 85.5 on 471 snaps (277 pass-rush, 193 run-defense, 1 coverage); PFR 2026 25 pressures (11 hurries, 11 QB hits, 2.0 sacks) in 7 games, 18 tackles, 2 missed; 8 g / 473 def snaps; 3.0 sacks, 18 QB hits, 4 TFL, 1 FF, 1 PD; 1 accepted penalties | ESPN 2026 edge PRWR 24% (#15, 40/167); RSWR outside the published top 10 | side snapshots 2025-26 left 496 / right 0 -> LEDGE | injuries: wk14 Questionable (Knee); wk17 Out (Knee); roster ACT (LV) - Motor and run-defense force: 28 TFL (2025), PFF 79.7 -> 85.5, PRWR 24%, 25 pressures in 2026; never off the field, wins by effort, hands and pursuit rather than speed.",
+    "T.J. Watt": "T.J. Watt 2025: PFF edge 2025 overall 74.2 on 863 snaps (490 pass-rush, 325 run-defense, 48 coverage); PFR 2025 27 pressures (9 hurries, 10 QB knockdowns, 7 sacks), 55 tackles, 5 missed; 14 g / 812 def snaps; 7.0 sacks, 19 QB hits, 10 TFL, 3 FF, 8 PD; 5 accepted penalties | T.J. Watt 2026: PFF edge 2026 overall 81.9 on 337 snaps (221 pass-rush, 105 run-defense, 11 coverage); PFR 2026 12 pressures (3 hurries, 3 QB hits, 5.5 sacks) in 6 games, 17 tackles, 1 missed; 8 g / 337 def snaps; 7.5 sacks, 12 QB hits, 9 TFL, 1 FF, 3 PD; 1 accepted penalties | ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10 | side snapshots 2025-26 left 496 / right 0 -> LEDGE | injuries: wk15 Out (Lung); wk16 Out (Lung); wk17 Out (Lung); roster ACT (PIT) - Veteran instinct rusher: 7.5 sacks in 2026, PFF 74.2 -> 81.9; elite awareness, strip and timing, age 32 and a step slower.",
+    "DeMarcus Lawrence": "DeMarcus Lawrence 2025: PFF edge 2025 overall 82.1 on 744 snaps (487 pass-rush, 242 run-defense, 15 coverage); PFR 2025 39 pressures (19 hurries, 12 QB knockdowns, 6 sacks), 53 tackles, 6 missed; 16 g / 626 def snaps; 6.0 sacks, 20 QB hits, 11 TFL, 3 FF, 1 PD; 1 accepted penalties | DeMarcus Lawrence 2026: PFF edge 2026 overall 81.5 on 314 snaps (181 pass-rush, 123 run-defense, 10 coverage); PFR 2026 12 pressures (6 hurries, 6 QB hits, 0.0 sacks) in 7 games, 14 tackles, 3 missed; 8 g / 313 def snaps; 0.0 sacks, 6 QB hits, 3 TFL, 0 FF, 2 PD; 1 accepted penalties | ESPN 2026 edge PRWR 25% (#7, 22/87); RSWR outside the published top 10 | side snapshots 2025-26 left 496 / right 0 -> LEDGE | injuries: wk5 Out (Quadricep); wk7 Questionable (Knee); roster ACT (SEA) - Power and stack-shed: PFF 82.1 / 81.5, PRWR 25% (#7), 39 pressures (2025); best block-shedder in the LEDGE group, sack finish lacking (0 in 2026).",
+    "Byron Young": "Byron Young 2025: PFF edge 2025 overall 83.7 on 981 snaps (476 pass-rush, 357 run-defense, 148 coverage); PFR 2025 40 pressures (10 hurries, 17 QB knockdowns, 12 sacks), 82 tackles, 3 missed; 17 g / 854 def snaps; 12.0 sacks, 29 QB hits, 12 TFL, 1 FF, 0 PD; 1 accepted penalties | Byron Young 2026: PFF edge 2026 overall 69.4 on 415 snaps (222 pass-rush, 158 run-defense, 35 coverage); PFR 2026 18 pressures (9 hurries, 4 QB hits, 4.5 sacks) in 6 games, 30 tackles, 3 missed; 8 g / 416 def snaps; 4.5 sacks, 10 QB hits, 5 TFL, 1 FF, 0 PD; 1 accepted penalties | ESPN 2026 edge PRWR 25% (#9, 25/99); RSWR outside the published top 10 | side snapshots 2025-26 left 991 / right 1 -> LEDGE | injuries: wk21 Questionable (Knee); roster ACT (LA) - Speed-and-durability rusher: 12 sacks and 40 pressures (2025), PRWR 25% (#9), every game both years; light at the point, PFF dipped to 69.4 in 2026.",
+    "George Karlaftis": "George Karlaftis 2025: PFF edge 2025 overall 76.2 on 762 snaps (462 pass-rush, 286 run-defense, 14 coverage); PFR 2025 31 pressures (9 hurries, 15 QB knockdowns, 6 sacks), 48 tackles, 3 missed; 16 g / 762 def snaps; 6.0 sacks, 23 QB hits, 10 TFL, 0 FF, 2 PD; 3 accepted penalties | George Karlaftis 2026: PFF edge 2026 overall 79.2 on 394 snaps (250 pass-rush, 136 run-defense, 8 coverage); no PFR 2026 pressure line; 7 g / 393 def snaps; 2.0 sacks, 16 QB hits, 6 TFL, 1 FF, 8 PD; 2 accepted penalties | ESPN 2026 edge PRWR 23% (#20, 29/127); RSWR outside the published top 10 | side snapshots 2025-26 left 496 / right 0 -> LEDGE | injuries: wk17 Questionable (Illness); wk18 Questionable (Not injury related - resting player); roster ACT (KC) - Power end: PFF 76.2 / 79.2, 16 QB hits through 2026, PRWR 23% (#20); bull rush and motor, limited bend.",
+    "Boye Mafe": "Boye Mafe 2025: PFF edge 2025 overall 70.3 on 630 snaps (383 pass-rush, 203 run-defense, 44 coverage); PFR 2025 17 pressures (12 hurries, 3 QB knockdowns, 2 sacks), 31 tackles, 2 missed; 17 g / 561 def snaps; 2.0 sacks, 4 QB hits, 4 TFL, 1 FF, 5 PD; 2 accepted penalties | Boye Mafe 2026: PFF edge 2026 overall 85.7 on 353 snaps (212 pass-rush, 113 run-defense, 28 coverage); PFR 2026 10 pressures (4 hurries, 1 QB hits, 4.5 sacks) in 5 games, 14 tackles, 2 missed; 7 g / 353 def snaps; 5.5 sacks, 8 QB hits, 7 TFL, 2 FF, 1 PD; 2 accepted penalties | ESPN 2026 edge PRWR 25% (#10, 31/123); RSWR outside the published top 10 | side snapshots 2025-26 left 311 / right 167 -> LEDGE | injuries: wk4 Questionable (Toe); roster ACT (CIN) - 2026 breakout: PFF 70.3 -> 85.7 (#5 edge) at CIN, PRWR 25%, 5.5 sacks; athletic but one-year signal (2 sacks in 2025).",
+    "Brian Burns": "Brian Burns 2025: PFF edge 2025 overall 75.8 on 863 snaps (471 pass-rush, 313 run-defense, 79 coverage); PFR 2025 41 pressures (10 hurries, 14 QB knockdowns, 16.5 sacks), 67 tackles, 4 missed; 17 g / 862 def snaps; 16.5 sacks, 31 QB hits, 22 TFL, 3 FF, 7 PD; 1 accepted penalties | Brian Burns 2026: PFF edge 2026 overall 72.1 on 116 snaps (64 pass-rush, 35 run-defense, 17 coverage); PFR 2026 5 pressures (3 hurries, 2 QB hits, 0.0 sacks) in 3 games, 4 tackles, 1 missed; 3 g / 116 def snaps; 0.0 sacks, 2 QB hits, 0 TFL, 0 FF, 0 PD; 0 accepted penalties | ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10 | side snapshots 2025-26 left 496 / right 0 -> LEDGE | injuries: wk8 Questionable (Hip); wk3 Questionable (Ankle); roster RES (NYG) - Bend specialist: 16.5 sacks and 41 pressures (2025, PFF 75.8), on reserve/IR after 116 snaps in 2026; speed and bend, light anchor.",
+    "Tuli Tuipulotu": "Tuli Tuipulotu 2025: PFF edge 2025 overall 67.3 on 791 snaps (446 pass-rush, 294 run-defense, 51 coverage); PFR 2025 32 pressures (9 hurries, 10 QB knockdowns, 13 sacks), 49 tackles, 3 missed; 16 g / 733 def snaps; 13.0 sacks, 23 QB hits, 20 TFL, 2 FF, 3 PD; 0 accepted penalties | Tuli Tuipulotu 2026: PFF edge 2026 overall 73.3 on 365 snaps (160 pass-rush, 172 run-defense, 33 coverage); PFR 2026 9 pressures (1 hurries, 5 QB hits, 2.0 sacks) in 6 games, 26 tackles, 2 missed; 7 g / 365 def snaps; 3.0 sacks, 8 QB hits, 3 TFL, 2 FF, 3 PD; 1 accepted penalties | ESPN 2026 edge PRWR outside the published top 20; RSWR 35% (#1, 44/124) | side snapshots 2025-26 left 494 / right 0 -> LEDGE | injuries: wk1 Questionable (Hip); roster ACT (LAC) - Run-stop leader: ESPN RSWR 35% (#1 edge), 13 sacks + 20 TFL (2025), PFF 67.3 -> 73.3; tackles and contains, pass-rush moves average - first-out.",
+    "Cameron Thomas": "Cameron Thomas 2025: PFF edge 2025 overall 67.6 on 310 snaps (155 pass-rush, 148 run-defense, 7 coverage); PFR 2025 11 pressures (4 hurries, 3 QB knockdowns, 2.5 sacks), 28 tackles, 0 missed; 17 g / 310 def snaps; 2.5 sacks, 7 QB hits, 1 TFL, 0 FF, 0 PD; 3 accepted penalties | Cameron Thomas 2026: PFF edge 2026 overall 77.3 on 347 snaps (183 pass-rush, 151 run-defense, 13 coverage); PFR 2026 13 pressures (3 hurries, 7 QB hits, 2.0 sacks) in 7 games, 17 tackles, 0 missed; 8 g / 347 def snaps; 2.0 sacks, 11 QB hits, 1 TFL, 1 FF, 1 PD; 0 accepted penalties | ESPN 2026 edge PRWR outside the published top 20; RSWR 30% (#8, 40/134) | side snapshots 2025-26 left 495 / right 1 -> LEDGE | injuries: no injury designation 2025-26; roster ACT (ATL) - Run-stopping strongside end: RSWR 30% (#8), PFF 67.6 -> 77.3; anchors and sheds, 2 sacks - first-out.",
+    "Gabe Jacas": "Gabe Jacas 2025: no PFF edge grade 2025; no PFR 2025 pressure line; no snaps; no stats; 0 accepted penalties | Gabe Jacas 2026: PFF edge 2026 overall 80 on 267 snaps (160 pass-rush, 103 run-defense, 4 coverage); PFR 2026 6 pressures (1 hurries, 3 QB hits, 1.5 sacks) in 6 games, 17 tackles, 3 missed; 8 g / 267 def snaps; 3.0 sacks, 8 QB hits, 4 TFL, 0 FF, 1 PD; 4 accepted penalties | ESPN 2026 edge PRWR outside the published top 20; RSWR outside the published top 10 | side snapshots 2025-26 left 127 / right 112 -> LEDGE | injuries: no injury designation 2025-26; roster ACT (NE) - Rookie power rusher: PFF 80.0 on 267 snaps (2026), 3 sacks; bull rush and hands, 4 penalties, no 2025 sample - first-out."
+  },
+  "proposed_order": [
+    "Aidan Hutchinson",
+    "Will Anderson Jr.",
+    "Greg Rousseau",
+    "Maxx Crosby",
+    "T.J. Watt",
+    "DeMarcus Lawrence",
+    "Byron Young",
+    "George Karlaftis",
+    "Boye Mafe",
+    "Brian Burns"
+  ],
+  "first_outs": [
+    "Tuli Tuipulotu",
+    "Cameron Thomas",
+    "Gabe Jacas"
+  ],
+  "excluded": [
+    {
+      "player": "Danielle Hunter",
+      "reason": "Assigned to REDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 59 / right 437 (L25 59, L26 0, R25 162, R26 275) -> REDGE); appears only in the REDGE list."
+    },
+    {
+      "player": "Nik Bonitto",
+      "reason": "Assigned to REDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 1 / right 494 (L25 1, L26 0, R25 220, R26 274) -> REDGE); appears only in the REDGE list."
+    },
+    {
+      "player": "Myles Garrett",
+      "reason": "Assigned to REDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 126 / right 370 (L25 126, L26 0, R25 95, R26 275) -> REDGE); appears only in the REDGE list."
+    },
+    {
+      "player": "Micah Parsons",
+      "reason": "Assigned to REDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 0 / right 496 (L25 0, L26 0, R25 221, R26 275) -> REDGE); appears only in the REDGE list."
+    },
+    {
+      "player": "Abdul Carter",
+      "reason": "Assigned to REDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 225 / right 271 (L25 220, L26 5, R25 1, R26 270) -> REDGE); appears only in the REDGE list."
+    },
+    {
+      "player": "Chase Young",
+      "reason": "Assigned to REDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 0 / right 495 (L25 0, L26 0, R25 221, R26 274) -> REDGE); appears only in the REDGE list."
+    },
+    {
+      "player": "Josh Hines-Allen",
+      "reason": "Assigned to REDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 221 / right 275 (L25 221, L26 0, R25 0, R26 275) -> REDGE); appears only in the REDGE list."
+    },
+    {
+      "player": "Al-Quadin Muhammad",
+      "reason": "Assigned to REDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 161 / right 332 (L25 51, L26 110, R25 168, R26 164) -> REDGE); appears only in the REDGE list."
+    },
+    {
+      "player": "Dallas Turner",
+      "reason": "Assigned to REDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 92 / right 404 (L25 87, L26 5, R25 134, R26 270) -> REDGE); appears only in the REDGE list."
+    },
+    {
+      "player": "Jacob Martin",
+      "reason": "Assigned to REDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 5 / right 277 (L25 1, L26 4, R25 6, R26 271) -> REDGE); appears only in the REDGE list."
+    },
+    {
+      "player": "Nick Herbig",
+      "reason": "Assigned to REDGE by majority 2025-26 alignment (depth-chart side snapshots 2025-26: left 138 / right 358 (L25 1, L26 137, R25 220, R26 138) -> REDGE); appears only in the REDGE list."
+    },
+    {
+      "player": "Zach Allen",
+      "reason": "PFF grades this player as interior DL (not edge) in 2025/2026; belongs to DT."
+    },
+    {
+      "player": "Laiatu Latu",
+      "reason": "Below pool cutoff (composite 0.41; PFF 2026 grade n/a; sources pff_2025#9, nflverse_snaps_2026#17). Re-include on request. Side: depth-chart side snapshots 2025-26: left 0 / right 496 (L25 0, L26 0, R25 221, R26 275) -> REDGE; belongs to the REDGE list."
+    },
+    {
+      "player": "Elijah Ponder",
+      "reason": "Below pool cutoff (composite 0.40; PFF 2026 grade 76.9; sources pff_2026#20, nflverse_snaps_2026#19, nflverse_stats_2026#10). Re-include on request."
+    },
+    {
+      "player": "Zaven Collins",
+      "reason": "Below pool cutoff (composite 0.40; PFF 2026 grade 80.5; sources pff_2026#13). Re-include on request."
+    },
+    {
+      "player": "Andrew Van Ginkel",
+      "reason": "Below pool cutoff (composite 0.39; PFF 2026 grade n/a; sources nflverse_stats_2026#8). Re-include on request."
+    },
+    {
+      "player": "Lukas Van Ness",
+      "reason": "Below pool cutoff (composite 0.36; PFF 2026 grade 69.9; sources nflverse_snaps_2026#9, nflverse_stats_2026#14). Re-include on request."
+    },
+    {
+      "player": "David Walker",
+      "reason": "Below pool cutoff (composite 0.35; PFF 2026 grade 80.3; sources pff_2026#14). Re-include on request."
+    },
+    {
+      "player": "Trey Hendrickson",
+      "reason": "Below pool cutoff (composite 0.30; PFF 2026 grade n/a; sources pff_2025#11). Re-include on request. Side: depth-chart side snapshots 2025-26: left 0 / right 495 (L25 0, L26 0, R25 220, R26 275) -> REDGE; belongs to the REDGE list."
+    },
+    {
+      "player": "Alex Highsmith",
+      "reason": "Below pool cutoff (composite 0.27; PFF 2026 grade 73.9; sources pff_2025#12). Re-include on request. Side: depth-chart side snapshots 2025-26: left 0 / right 496 (L25 0, L26 0, R25 221, R26 275) -> REDGE; belongs to the REDGE list."
+    },
+    {
+      "player": "Quincy Williams",
+      "reason": "Below pool cutoff (composite 0.25; PFF 2026 grade n/a; sources nflverse_snaps_2026#1). Re-include on request."
+    },
+    {
+      "player": "Jared Verse",
+      "reason": "Below pool cutoff (composite 0.21; PFF 2026 grade n/a; sources pff_2025#14). Re-include on request. Side: depth-chart side snapshots 2025-26: left 0 / right 496 (L25 0, L26 0, R25 221, R26 275) -> REDGE; belongs to the REDGE list."
+    },
+    {
+      "player": "Kyle Van Noy",
+      "reason": "Below pool cutoff (composite 0.20; PFF 2026 grade 78.4; sources pff_2026#17). Re-include on request."
+    },
+    {
+      "player": "Derrick Barnes",
+      "reason": "Below pool cutoff (composite 0.20; PFF 2026 grade n/a; sources nflverse_snaps_2026#5). Re-include on request."
+    },
+    {
+      "player": "Blake Cashman",
+      "reason": "Below pool cutoff (composite 0.18; PFF 2026 grade n/a; sources nflverse_stats_2026#15). Re-include on request."
+    },
+    {
+      "player": "Khalil Mack",
+      "reason": "Below pool cutoff (composite 0.15; PFF 2026 grade 74.7; sources pff_2025#16). Re-include on request. Side: depth-chart side snapshots 2025-26: left 0 / right 495 (L25 0, L26 0, R25 220, R26 275) -> REDGE; belongs to the REDGE list."
+    },
+    {
+      "player": "Drue Tranquill",
+      "reason": "Below pool cutoff (composite 0.12; PFF 2026 grade n/a; sources nflverse_snaps_2026#11). Re-include on request."
+    },
+    {
+      "player": "Jadeveon Clowney",
+      "reason": "Below pool cutoff (composite 0.12; PFF 2026 grade n/a; sources pff_2025#17). Re-include on request. Side: depth-chart side snapshots 2025-26: left 45 / right 270 (L25 45, L26 0, R25 130, R26 140) -> REDGE; belongs to the REDGE list."
+    },
+    {
+      "player": "Jordyn Brooks",
+      "reason": "Below pool cutoff (composite 0.10; PFF 2026 grade n/a; sources nflverse_snaps_2026#13). Re-include on request."
+    },
+    {
+      "player": "Carl Granderson",
+      "reason": "Below pool cutoff (composite 0.09; PFF 2026 grade 75.6; sources nflverse_stats_2026#18). Re-include on request."
+    },
+    {
+      "player": "Chop Robinson",
+      "reason": "Below pool cutoff (composite 0.06; PFF 2026 grade n/a; sources nflverse_stats_2026#19). Re-include on request."
+    },
+    {
+      "player": "Kayvon Thibodeaux",
+      "reason": "Below pool cutoff (composite 0.04; PFF 2026 grade n/a; sources nflverse_snaps_2026#18). Re-include on request. Side: depth-chart side snapshots 2025-26: left 72 / right 424 (L25 0, L26 72, R25 221, R26 203) -> REDGE; belongs to the REDGE list."
+    },
+    {
+      "player": "DJ Wonnum",
+      "reason": "Below pool cutoff (composite 0.03; PFF 2026 grade n/a; sources nflverse_stats_2026#20). Re-include on request. Side: depth-chart side snapshots 2025-26: left 0 / right 246 (L25 0, L26 0, R25 0, R26 246) -> REDGE; belongs to the REDGE list."
+    },
+    {
+      "player": "Donovan Ezeiruaku",
+      "reason": "Below pool cutoff (composite 0.01; PFF 2026 grade n/a; sources nflverse_snaps_2026#20). Re-include on request. Side: depth-chart side snapshots 2025-26: left 161 / right 335 (L25 161, L26 0, R25 60, R26 275) -> REDGE; belongs to the REDGE list."
+    },
+    {
+      "player": "Nick Bosa",
+      "reason": "PFF 85.8 on 119 (2025) / 89.7 on 76 (2026): elite per-snap but 195 snaps over two seasons - below the 250-snap sample floor"
+    },
+    {
+      "player": "Alex Wright",
+      "reason": "PFF 78.6 on 470 (2025), reserve/IR, no 2026 snaps"
+    },
+    {
+      "player": "Harold Landry III",
+      "reason": "PFF 71.1 on 727 (2025), reserve/PUP, no 2026 snaps"
+    }
+  ],
+  "old_lock_comparison": {
+    "note": "No LEDGE lock exists (never locked; state PENDING). Compared against the approved shared LEDGE/REDGE candidate pool order.",
+    "legacy_names": [
+      "Will Anderson Jr.",
+      "Aidan Hutchinson",
+      "Greg Rousseau",
+      "Maxx Crosby",
+      "T.J. Watt",
+      "Boye Mafe",
+      "Brian Burns",
+      "Byron Young",
+      "DeMarcus Lawrence",
+      "George Karlaftis"
+    ],
+    "in_proposed_top10": [
+      "Will Anderson Jr.",
+      "Aidan Hutchinson",
+      "Greg Rousseau",
+      "Maxx Crosby",
+      "T.J. Watt",
+      "Boye Mafe",
+      "Brian Burns",
+      "Byron Young",
+      "DeMarcus Lawrence",
+      "George Karlaftis"
+    ],
+    "now_first_out": [],
+    "out": []
+  },
+  "flags": {
+    "injured": [
+      "Brian Burns (RES)"
+    ],
+    "free_agents": [],
+    "limited_sample": [
+      "Brian Burns"
+    ],
+    "side_close_calls": [
+      "Gabe Jacas L127/R112"
+    ],
+    "madden_side_differs": [
+      "Boye Mafe (Madden card REDG)",
+      "Brian Burns (Madden card REDG)",
+      "Cameron Thomas (Madden card REDG)"
+    ],
+    "data_gaps": [
+      "PFF pass-rush/run-defense sub-grades paywalled",
+      "PFF left/right alignment splits paywalled; NGS no side split",
+      "ESPN PRWR list published to top 20, RSWR to top 10"
+    ]
+  },
+  "madden_reference": [
+    {
+      "player": "Aidan Hutchinson",
+      "ovr": 94,
+      "madden_position": "LEDG",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Will Anderson Jr.",
+      "ovr": 95,
+      "madden_position": "LEDG",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Greg Rousseau",
+      "ovr": 90,
+      "madden_position": "LEDG",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Maxx Crosby",
+      "ovr": 97,
+      "madden_position": "LEDG",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "T.J. Watt",
+      "ovr": 96,
+      "madden_position": "LEDG",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "DeMarcus Lawrence",
+      "ovr": 87,
+      "madden_position": "LEDG",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Byron Young",
+      "ovr": 85,
+      "madden_position": "LEDG",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "George Karlaftis",
+      "ovr": 83,
+      "madden_position": "LEDG",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Boye Mafe",
+      "ovr": 80,
+      "madden_position": "REDG",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Brian Burns",
+      "ovr": 89,
+      "madden_position": "REDG",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Tuli Tuipulotu",
+      "ovr": 79,
+      "madden_position": "LEDG",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Cameron Thomas",
+      "ovr": 74,
+      "madden_position": "REDG",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Gabe Jacas",
+      "ovr": 77,
+      "madden_position": "LEDG",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    }
+  ],
+  "madden_order_verified": false,
+  "early_inputs": [],
+  "external_controls": [],
+  "major_flags": [
+    "NO_PRIOR_LOCK",
+    "DATA_GAP: PFF sub-grades and side splits paywalled",
+    "EDGE_SIDE_FROM_DEPTH_CHARTS"
+  ],
+  "locked_control_conflict": false
+}
+```

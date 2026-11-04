@@ -8200,14 +8200,37 @@
         "position": "LEDGE",
         "stage": "top10_reaudit"
       },
-      "status": "QUEUED_NOT_STARTED",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LEDGE.reaudit.json",
       "baseline_file": null,
       "requested_by": "PhiXCrypto",
       "requested_at": "2026-11-04T11:06:12.439Z",
       "trigger": "COMMISSIONER_EXPLICIT",
-      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
+      "started_at": "2026-11-04T11:06:16.769Z",
+      "completed_tasks": [],
+      "audit_ids": [
+        "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1"
+      ],
+      "current_stage": "candidate_audit",
+      "current_task": "LEDGE_REAUDIT_CANDIDATE_AUDIT",
+      "updated_at": "2026-11-04T11:06:16.788Z",
+      "last_result": {
+        "task_id": "LEDGE_REAUDIT_CANDIDATE_AUDIT",
+        "status": "FLAGGED",
+        "errors": [],
+        "flags": [
+          "NO_PRIOR_LOCK",
+          "DATA_GAP: PFF sub-grades and side splits paywalled",
+          "EDGE_SIDE_FROM_DEPTH_CHARTS"
+        ]
+      },
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "LEDGE_REAUDIT_CANDIDATE_AUDIT",
+        "audit_id": "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1"
+      }
     }
   ]
 }
