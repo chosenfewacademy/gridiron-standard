@@ -18770,7 +18770,7 @@
         "position": "WR",
         "stage": "top10_reaudit"
       },
-      "status": "QUEUED_NOT_STARTED",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/WR.reaudit.json",
       "baseline_file": "data/baselines/WR.reaudit-20261103.json",
@@ -18778,7 +18778,2009 @@
       "requested_by": "PhiXCrypto",
       "requested_at": "2026-11-04T19:05:19.408Z",
       "trigger": "COMMISSIONER_EXPLICIT",
-      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
+      "started_at": "2026-11-04T19:05:19Z",
+      "updated_at": "2026-11-04T19:05:19Z",
+      "audit_ids": [
+        "WR_REAUDIT_CANDIDATE_AUDIT_A1",
+        "WR_REAUDIT_BG_01_A1",
+        "WR_REAUDIT_BG_02_A1",
+        "WR_REAUDIT_BG_03_A1",
+        "WR_REAUDIT_BG_04_A1",
+        "WR_REAUDIT_BG_05_A1",
+        "WR_REAUDIT_BG_06_A1",
+        "WR_REAUDIT_BG_07_A1",
+        "WR_REAUDIT_BG_08_A1",
+        "WR_REAUDIT_BG_09_A1",
+        "WR_REAUDIT_BG_10_A1",
+        "WR_REAUDIT_BG_11_A1",
+        "WR_REAUDIT_BG_12_A1",
+        "WR_REAUDIT_BG_13_A1",
+        "WR_REAUDIT_BG_14_A1",
+        "WR_REAUDIT_BG_15_A1",
+        "WR_REAUDIT_RATE_01_A1",
+        "WR_REAUDIT_RATE_02_A1",
+        "WR_REAUDIT_RATE_03_A1",
+        "WR_REAUDIT_RATE_04_A1",
+        "WR_REAUDIT_RATE_05_A1",
+        "WR_REAUDIT_RATE_06_A1",
+        "WR_REAUDIT_RATE_07_A1",
+        "WR_REAUDIT_RATE_08_A1",
+        "WR_REAUDIT_RATE_09_A1",
+        "WR_REAUDIT_RATE_10_A1",
+        "WR_REAUDIT_RATE_11_A1",
+        "WR_REAUDIT_RATE_12_A1",
+        "WR_REAUDIT_RATE_13_A1",
+        "WR_REAUDIT_RATE_14_A1",
+        "WR_REAUDIT_RATE_15_A1",
+        "WR_REAUDIT_H2H_01_A1",
+        "WR_REAUDIT_H2H_02_A1",
+        "WR_REAUDIT_H2H_03_A1",
+        "WR_REAUDIT_H2H_04_A1",
+        "WR_REAUDIT_H2H_05_A1",
+        "WR_REAUDIT_H2H_06_A1",
+        "WR_REAUDIT_TIEBREAK_07_A1",
+        "WR_REAUDIT_TIEBREAK_08_A1",
+        "WR_REAUDIT_TIEBREAK_09_A1",
+        "WR_REAUDIT_TIEBREAK_10_A1",
+        "WR_REAUDIT_TIEBREAK_11_A1",
+        "WR_REAUDIT_TIEBREAK_12_A1",
+        "WR_REAUDIT_TIEBREAK_01_A1",
+        "WR_REAUDIT_TIEBREAK_02_A1",
+        "WR_REAUDIT_TIEBREAK_03_A1",
+        "WR_REAUDIT_TIEBREAK_05_A1",
+        "WR_REAUDIT_TIEBREAK_06_A1",
+        "WR_REAUDIT_RATE_05_A2",
+        "WR_REAUDIT_RATE_04_A2",
+        "WR_REAUDIT_RATE_06_A2",
+        "WR_REAUDIT_RATE_08_A2",
+        "WR_REAUDIT_RATE_09_A2",
+        "WR_REAUDIT_RATE_11_A2",
+        "WR_REAUDIT_RATE_15_A2",
+        "WR_REAUDIT_RATE_13_A2",
+        "WR_REAUDIT_RATE_03_A2",
+        "WR_REAUDIT_RATE_01_A2",
+        "WR_REAUDIT_RATE_08_A3",
+        "WR_REAUDIT_RATE_05_A3",
+        "WR_REAUDIT_RATE_02_A2",
+        "WR_REAUDIT_TIEBREAK_13_A1",
+        "WR_REAUDIT_TIEBREAK_14_A1",
+        "WR_REAUDIT_TIEBREAK_15_A1",
+        "WR_REAUDIT_TIEBREAK_16_A1",
+        "WR_REAUDIT_TIEBREAK_17_A1",
+        "WR_REAUDIT_TIEBREAK_18_A1",
+        "WR_REAUDIT_TIEBREAK_19_A1",
+        "WR_REAUDIT_TIEBREAK_20_A1",
+        "WR_REAUDIT_TIEBREAK_21_A1",
+        "WR_REAUDIT_TIEBREAK_22_A1",
+        "WR_REAUDIT_TIEBREAK_23_A1",
+        "WR_REAUDIT_TIEBREAK_24_A1",
+        "WR_REAUDIT_TIEBREAK_25_A1",
+        "WR_REAUDIT_TIEBREAK_26_A1",
+        "WR_REAUDIT_TIEBREAK_27_A1",
+        "WR_REAUDIT_TIEBREAK_28_A1",
+        "WR_REAUDIT_TIEBREAK_29_A1",
+        "WR_REAUDIT_TIEBREAK_30_A1",
+        "WR_REAUDIT_TIEBREAK_31_A1",
+        "WR_REAUDIT_TIEBREAK_32_A1",
+        "WR_REAUDIT_TIEBREAK_33_A1",
+        "WR_REAUDIT_TIEBREAK_34_A1",
+        "WR_REAUDIT_TIEBREAK_35_A1",
+        "WR_REAUDIT_TIEBREAK_36_A1",
+        "WR_REAUDIT_TIEBREAK_37_A1",
+        "WR_REAUDIT_TIEBREAK_38_A1",
+        "WR_REAUDIT_TIEBREAK_39_A1",
+        "WR_REAUDIT_TIEBREAK_40_A1",
+        "WR_REAUDIT_TIEBREAK_41_A1",
+        "WR_REAUDIT_TIEBREAK_42_A1",
+        "WR_REAUDIT_TIEBREAK_43_A1",
+        "WR_REAUDIT_TIEBREAK_44_A1",
+        "WR_REAUDIT_TIEBREAK_45_A1",
+        "WR_REAUDIT_TIEBREAK_46_A1",
+        "WR_REAUDIT_TIEBREAK_47_A1",
+        "WR_REAUDIT_TIEBREAK_48_A1",
+        "WR_REAUDIT_TIEBREAK_49_A1",
+        "WR_REAUDIT_TIEBREAK_50_A1",
+        "WR_REAUDIT_TIEBREAK_51_A1",
+        "WR_REAUDIT_TIEBREAK_52_A1",
+        "WR_REAUDIT_TIEBREAK_53_A1",
+        "WR_REAUDIT_TIEBREAK_54_A1",
+        "WR_REAUDIT_TIEBREAK_55_A1",
+        "WR_REAUDIT_BG_16_A1",
+        "WR_REAUDIT_BG_17_A1",
+        "WR_REAUDIT_RATE_16_A1",
+        "WR_REAUDIT_RATE_17_A1",
+        "WR_REAUDIT_TIEBREAK_56_A1",
+        "WR_REAUDIT_TIEBREAK_57_A1",
+        "WR_REAUDIT_TIEBREAK_58_A1",
+        "WR_REAUDIT_TIEBREAK_59_A1",
+        "WR_REAUDIT_TIEBREAK_60_A1",
+        "WR_REAUDIT_TIEBREAK_61_A1",
+        "WR_REAUDIT_TIEBREAK_62_A1",
+        "WR_REAUDIT_TIEBREAK_63_A1",
+        "WR_REAUDIT_TIEBREAK_64_A1",
+        "WR_REAUDIT_TIEBREAK_65_A1",
+        "WR_REAUDIT_TIEBREAK_66_A1",
+        "WR_REAUDIT_TIEBREAK_67_A1",
+        "WR_REAUDIT_TIEBREAK_68_A1",
+        "WR_REAUDIT_TIEBREAK_69_A1",
+        "WR_REAUDIT_TIEBREAK_70_A1",
+        "WR_REAUDIT_TIEBREAK_71_A1",
+        "WR_REAUDIT_TIEBREAK_72_A1",
+        "WR_REAUDIT_TIEBREAK_73_A1",
+        "WR_REAUDIT_TIEBREAK_74_A1",
+        "WR_REAUDIT_TIEBREAK_75_A1",
+        "WR_REAUDIT_TIEBREAK_76_A1",
+        "WR_REAUDIT_TIEBREAK_77_A1",
+        "WR_REAUDIT_TIEBREAK_78_A1",
+        "WR_REAUDIT_TIEBREAK_79_A1"
+      ],
+      "completed_tasks": [
+        "WR_REAUDIT_CANDIDATE_AUDIT",
+        "WR_REAUDIT_BG_01",
+        "WR_REAUDIT_BG_02",
+        "WR_REAUDIT_BG_03",
+        "WR_REAUDIT_BG_04",
+        "WR_REAUDIT_BG_05",
+        "WR_REAUDIT_BG_06",
+        "WR_REAUDIT_BG_07",
+        "WR_REAUDIT_BG_08",
+        "WR_REAUDIT_BG_09",
+        "WR_REAUDIT_BG_10",
+        "WR_REAUDIT_BG_11",
+        "WR_REAUDIT_BG_12",
+        "WR_REAUDIT_BG_13",
+        "WR_REAUDIT_BG_14",
+        "WR_REAUDIT_BG_15",
+        "WR_REAUDIT_RATE_01",
+        "WR_REAUDIT_RATE_02",
+        "WR_REAUDIT_RATE_03",
+        "WR_REAUDIT_RATE_04",
+        "WR_REAUDIT_RATE_05",
+        "WR_REAUDIT_RATE_06",
+        "WR_REAUDIT_RATE_07",
+        "WR_REAUDIT_RATE_08",
+        "WR_REAUDIT_RATE_09",
+        "WR_REAUDIT_RATE_10",
+        "WR_REAUDIT_RATE_11",
+        "WR_REAUDIT_RATE_12",
+        "WR_REAUDIT_RATE_13",
+        "WR_REAUDIT_RATE_14",
+        "WR_REAUDIT_RATE_15",
+        "WR_REAUDIT_H2H_01",
+        "WR_REAUDIT_H2H_02",
+        "WR_REAUDIT_H2H_03",
+        "WR_REAUDIT_H2H_04",
+        "WR_REAUDIT_H2H_05",
+        "WR_REAUDIT_H2H_06",
+        "WR_REAUDIT_TIEBREAK_07",
+        "WR_REAUDIT_TIEBREAK_08",
+        "WR_REAUDIT_TIEBREAK_09",
+        "WR_REAUDIT_TIEBREAK_10",
+        "WR_REAUDIT_TIEBREAK_11",
+        "WR_REAUDIT_TIEBREAK_12",
+        "WR_REAUDIT_TIEBREAK_01",
+        "WR_REAUDIT_TIEBREAK_02",
+        "WR_REAUDIT_TIEBREAK_03",
+        "WR_REAUDIT_TIEBREAK_05",
+        "WR_REAUDIT_TIEBREAK_06",
+        "WR_REAUDIT_TIEBREAK_13",
+        "WR_REAUDIT_TIEBREAK_14",
+        "WR_REAUDIT_TIEBREAK_15",
+        "WR_REAUDIT_TIEBREAK_16",
+        "WR_REAUDIT_TIEBREAK_17",
+        "WR_REAUDIT_TIEBREAK_18",
+        "WR_REAUDIT_TIEBREAK_19",
+        "WR_REAUDIT_TIEBREAK_20",
+        "WR_REAUDIT_TIEBREAK_21",
+        "WR_REAUDIT_TIEBREAK_22",
+        "WR_REAUDIT_TIEBREAK_23",
+        "WR_REAUDIT_TIEBREAK_24",
+        "WR_REAUDIT_TIEBREAK_25",
+        "WR_REAUDIT_TIEBREAK_26",
+        "WR_REAUDIT_TIEBREAK_27",
+        "WR_REAUDIT_TIEBREAK_28",
+        "WR_REAUDIT_TIEBREAK_29",
+        "WR_REAUDIT_TIEBREAK_30",
+        "WR_REAUDIT_TIEBREAK_31",
+        "WR_REAUDIT_TIEBREAK_32",
+        "WR_REAUDIT_TIEBREAK_33",
+        "WR_REAUDIT_TIEBREAK_34",
+        "WR_REAUDIT_TIEBREAK_35",
+        "WR_REAUDIT_TIEBREAK_36",
+        "WR_REAUDIT_TIEBREAK_37",
+        "WR_REAUDIT_TIEBREAK_38",
+        "WR_REAUDIT_TIEBREAK_39",
+        "WR_REAUDIT_TIEBREAK_40",
+        "WR_REAUDIT_TIEBREAK_41",
+        "WR_REAUDIT_TIEBREAK_42",
+        "WR_REAUDIT_TIEBREAK_43",
+        "WR_REAUDIT_TIEBREAK_44",
+        "WR_REAUDIT_TIEBREAK_45",
+        "WR_REAUDIT_TIEBREAK_46",
+        "WR_REAUDIT_TIEBREAK_47",
+        "WR_REAUDIT_TIEBREAK_48",
+        "WR_REAUDIT_TIEBREAK_49",
+        "WR_REAUDIT_TIEBREAK_50",
+        "WR_REAUDIT_TIEBREAK_51",
+        "WR_REAUDIT_TIEBREAK_52",
+        "WR_REAUDIT_TIEBREAK_53",
+        "WR_REAUDIT_TIEBREAK_54",
+        "WR_REAUDIT_TIEBREAK_55",
+        "WR_REAUDIT_BG_16",
+        "WR_REAUDIT_BG_17",
+        "WR_REAUDIT_RATE_16",
+        "WR_REAUDIT_RATE_17",
+        "WR_REAUDIT_TIEBREAK_56",
+        "WR_REAUDIT_TIEBREAK_57",
+        "WR_REAUDIT_TIEBREAK_58",
+        "WR_REAUDIT_TIEBREAK_59",
+        "WR_REAUDIT_TIEBREAK_60",
+        "WR_REAUDIT_TIEBREAK_61",
+        "WR_REAUDIT_TIEBREAK_62",
+        "WR_REAUDIT_TIEBREAK_63",
+        "WR_REAUDIT_TIEBREAK_64",
+        "WR_REAUDIT_TIEBREAK_65",
+        "WR_REAUDIT_TIEBREAK_66",
+        "WR_REAUDIT_TIEBREAK_67",
+        "WR_REAUDIT_TIEBREAK_68",
+        "WR_REAUDIT_TIEBREAK_69",
+        "WR_REAUDIT_TIEBREAK_70",
+        "WR_REAUDIT_TIEBREAK_71",
+        "WR_REAUDIT_TIEBREAK_72",
+        "WR_REAUDIT_TIEBREAK_73",
+        "WR_REAUDIT_TIEBREAK_74",
+        "WR_REAUDIT_TIEBREAK_75",
+        "WR_REAUDIT_TIEBREAK_76",
+        "WR_REAUDIT_TIEBREAK_77",
+        "WR_REAUDIT_TIEBREAK_78",
+        "WR_REAUDIT_TIEBREAK_79"
+      ],
+      "approvals": [
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_CANDIDATE_AUDIT",
+          "audit_id": "WR_REAUDIT_CANDIDATE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:51:51Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_01",
+          "audit_id": "WR_REAUDIT_BG_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:31Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_02",
+          "audit_id": "WR_REAUDIT_BG_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:32Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_03",
+          "audit_id": "WR_REAUDIT_BG_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:33Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_04",
+          "audit_id": "WR_REAUDIT_BG_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:34Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_05",
+          "audit_id": "WR_REAUDIT_BG_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:36Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_06",
+          "audit_id": "WR_REAUDIT_BG_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:37Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_07",
+          "audit_id": "WR_REAUDIT_BG_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:38Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_08",
+          "audit_id": "WR_REAUDIT_BG_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:39Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_09",
+          "audit_id": "WR_REAUDIT_BG_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:40Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_10",
+          "audit_id": "WR_REAUDIT_BG_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:41Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_11",
+          "audit_id": "WR_REAUDIT_BG_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:42Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_12",
+          "audit_id": "WR_REAUDIT_BG_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:43Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_13",
+          "audit_id": "WR_REAUDIT_BG_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:44Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_14",
+          "audit_id": "WR_REAUDIT_BG_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:46Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_15",
+          "audit_id": "WR_REAUDIT_BG_15_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:47Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_01",
+          "audit_id": "WR_REAUDIT_RATE_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:48Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_02",
+          "audit_id": "WR_REAUDIT_RATE_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:49Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_03",
+          "audit_id": "WR_REAUDIT_RATE_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:50Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_04",
+          "audit_id": "WR_REAUDIT_RATE_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:51Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_05",
+          "audit_id": "WR_REAUDIT_RATE_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:52Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_06",
+          "audit_id": "WR_REAUDIT_RATE_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:53Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_07",
+          "audit_id": "WR_REAUDIT_RATE_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:54Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_08",
+          "audit_id": "WR_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:56Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_09",
+          "audit_id": "WR_REAUDIT_RATE_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:57Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_10",
+          "audit_id": "WR_REAUDIT_RATE_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:58Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_11",
+          "audit_id": "WR_REAUDIT_RATE_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:54:59Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_12",
+          "audit_id": "WR_REAUDIT_RATE_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:55:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_13",
+          "audit_id": "WR_REAUDIT_RATE_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:55:01Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_14",
+          "audit_id": "WR_REAUDIT_RATE_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:55:02Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_15",
+          "audit_id": "WR_REAUDIT_RATE_15_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T14:55:03Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_H2H_01",
+          "audit_id": "WR_REAUDIT_H2H_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:15:47Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_H2H_02",
+          "audit_id": "WR_REAUDIT_H2H_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:16:56Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_H2H_03",
+          "audit_id": "WR_REAUDIT_H2H_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:16:57Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_H2H_04",
+          "audit_id": "WR_REAUDIT_H2H_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:16:58Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_H2H_05",
+          "audit_id": "WR_REAUDIT_H2H_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_H2H_06",
+          "audit_id": "WR_REAUDIT_H2H_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:01Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_07",
+          "audit_id": "WR_REAUDIT_TIEBREAK_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:20Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_08",
+          "audit_id": "WR_REAUDIT_TIEBREAK_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:21Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_09",
+          "audit_id": "WR_REAUDIT_TIEBREAK_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:21Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_10",
+          "audit_id": "WR_REAUDIT_TIEBREAK_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:22Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_11",
+          "audit_id": "WR_REAUDIT_TIEBREAK_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:22Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_12",
+          "audit_id": "WR_REAUDIT_TIEBREAK_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:23Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_01",
+          "audit_id": "WR_REAUDIT_TIEBREAK_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:23Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_02",
+          "audit_id": "WR_REAUDIT_TIEBREAK_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:24Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_03",
+          "audit_id": "WR_REAUDIT_TIEBREAK_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:24Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_05",
+          "audit_id": "WR_REAUDIT_TIEBREAK_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:25Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_06",
+          "audit_id": "WR_REAUDIT_TIEBREAK_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:25Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_05",
+          "audit_id": "WR_REAUDIT_RATE_05_A2",
+          "supersedes": "WR_REAUDIT_RATE_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:49Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_04",
+          "audit_id": "WR_REAUDIT_RATE_04_A2",
+          "supersedes": "WR_REAUDIT_RATE_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:49Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_06",
+          "audit_id": "WR_REAUDIT_RATE_06_A2",
+          "supersedes": "WR_REAUDIT_RATE_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:50Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_08",
+          "audit_id": "WR_REAUDIT_RATE_08_A2",
+          "supersedes": "WR_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:50Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_09",
+          "audit_id": "WR_REAUDIT_RATE_09_A2",
+          "supersedes": "WR_REAUDIT_RATE_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:50Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_11",
+          "audit_id": "WR_REAUDIT_RATE_11_A2",
+          "supersedes": "WR_REAUDIT_RATE_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:51Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_15",
+          "audit_id": "WR_REAUDIT_RATE_15_A2",
+          "supersedes": "WR_REAUDIT_RATE_15_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:51Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_13",
+          "audit_id": "WR_REAUDIT_RATE_13_A2",
+          "supersedes": "WR_REAUDIT_RATE_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:17:51Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_03",
+          "audit_id": "WR_REAUDIT_RATE_03_A2",
+          "supersedes": "WR_REAUDIT_RATE_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:19:11Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_01",
+          "audit_id": "WR_REAUDIT_RATE_01_A2",
+          "supersedes": "WR_REAUDIT_RATE_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:19:11Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_08",
+          "audit_id": "WR_REAUDIT_RATE_08_A3",
+          "supersedes": "WR_REAUDIT_RATE_08_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:19:11Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_05",
+          "audit_id": "WR_REAUDIT_RATE_05_A3",
+          "supersedes": "WR_REAUDIT_RATE_05_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:19:11Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_02",
+          "audit_id": "WR_REAUDIT_RATE_02_A2",
+          "supersedes": "WR_REAUDIT_RATE_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:19:12Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_13",
+          "audit_id": "WR_REAUDIT_TIEBREAK_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:40:47Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_14",
+          "audit_id": "WR_REAUDIT_TIEBREAK_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:40:48Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_15",
+          "audit_id": "WR_REAUDIT_TIEBREAK_15_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:40:57Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_16",
+          "audit_id": "WR_REAUDIT_TIEBREAK_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:40:57Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_17",
+          "audit_id": "WR_REAUDIT_TIEBREAK_17_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:40:58Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_18",
+          "audit_id": "WR_REAUDIT_TIEBREAK_18_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:40:58Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_19",
+          "audit_id": "WR_REAUDIT_TIEBREAK_19_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:40:59Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_20",
+          "audit_id": "WR_REAUDIT_TIEBREAK_20_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:40:59Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_21",
+          "audit_id": "WR_REAUDIT_TIEBREAK_21_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_22",
+          "audit_id": "WR_REAUDIT_TIEBREAK_22_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_23",
+          "audit_id": "WR_REAUDIT_TIEBREAK_23_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:01Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_24",
+          "audit_id": "WR_REAUDIT_TIEBREAK_24_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:01Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_25",
+          "audit_id": "WR_REAUDIT_TIEBREAK_25_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:02Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_26",
+          "audit_id": "WR_REAUDIT_TIEBREAK_26_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:02Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_27",
+          "audit_id": "WR_REAUDIT_TIEBREAK_27_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:03Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_28",
+          "audit_id": "WR_REAUDIT_TIEBREAK_28_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:03Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_29",
+          "audit_id": "WR_REAUDIT_TIEBREAK_29_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:04Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_30",
+          "audit_id": "WR_REAUDIT_TIEBREAK_30_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:04Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_31",
+          "audit_id": "WR_REAUDIT_TIEBREAK_31_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:05Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_32",
+          "audit_id": "WR_REAUDIT_TIEBREAK_32_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:05Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_33",
+          "audit_id": "WR_REAUDIT_TIEBREAK_33_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:06Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_34",
+          "audit_id": "WR_REAUDIT_TIEBREAK_34_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:06Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_35",
+          "audit_id": "WR_REAUDIT_TIEBREAK_35_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:07Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_36",
+          "audit_id": "WR_REAUDIT_TIEBREAK_36_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:07Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_37",
+          "audit_id": "WR_REAUDIT_TIEBREAK_37_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:08Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_38",
+          "audit_id": "WR_REAUDIT_TIEBREAK_38_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:08Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_39",
+          "audit_id": "WR_REAUDIT_TIEBREAK_39_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:09Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_40",
+          "audit_id": "WR_REAUDIT_TIEBREAK_40_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:09Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_41",
+          "audit_id": "WR_REAUDIT_TIEBREAK_41_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:10Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_42",
+          "audit_id": "WR_REAUDIT_TIEBREAK_42_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:10Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_43",
+          "audit_id": "WR_REAUDIT_TIEBREAK_43_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:11Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_44",
+          "audit_id": "WR_REAUDIT_TIEBREAK_44_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:11Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_45",
+          "audit_id": "WR_REAUDIT_TIEBREAK_45_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:12Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_46",
+          "audit_id": "WR_REAUDIT_TIEBREAK_46_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:13Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_47",
+          "audit_id": "WR_REAUDIT_TIEBREAK_47_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:13Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_48",
+          "audit_id": "WR_REAUDIT_TIEBREAK_48_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:14Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_49",
+          "audit_id": "WR_REAUDIT_TIEBREAK_49_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:14Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_50",
+          "audit_id": "WR_REAUDIT_TIEBREAK_50_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:15Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_51",
+          "audit_id": "WR_REAUDIT_TIEBREAK_51_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:15Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_52",
+          "audit_id": "WR_REAUDIT_TIEBREAK_52_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:16Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_53",
+          "audit_id": "WR_REAUDIT_TIEBREAK_53_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:16Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_54",
+          "audit_id": "WR_REAUDIT_TIEBREAK_54_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:17Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_55",
+          "audit_id": "WR_REAUDIT_TIEBREAK_55_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:41:50Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_16",
+          "audit_id": "WR_REAUDIT_BG_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:42:12Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_BG_17",
+          "audit_id": "WR_REAUDIT_BG_17_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:42:13Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_16",
+          "audit_id": "WR_REAUDIT_RATE_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:42:14Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_RATE_17",
+          "audit_id": "WR_REAUDIT_RATE_17_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:42:15Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_56",
+          "audit_id": "WR_REAUDIT_TIEBREAK_56_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:36Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_57",
+          "audit_id": "WR_REAUDIT_TIEBREAK_57_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:36Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_58",
+          "audit_id": "WR_REAUDIT_TIEBREAK_58_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:37Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_59",
+          "audit_id": "WR_REAUDIT_TIEBREAK_59_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:37Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_60",
+          "audit_id": "WR_REAUDIT_TIEBREAK_60_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:38Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_61",
+          "audit_id": "WR_REAUDIT_TIEBREAK_61_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:38Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_62",
+          "audit_id": "WR_REAUDIT_TIEBREAK_62_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:39Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_63",
+          "audit_id": "WR_REAUDIT_TIEBREAK_63_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:39Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_64",
+          "audit_id": "WR_REAUDIT_TIEBREAK_64_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:40Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_65",
+          "audit_id": "WR_REAUDIT_TIEBREAK_65_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:40Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_66",
+          "audit_id": "WR_REAUDIT_TIEBREAK_66_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:41Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_67",
+          "audit_id": "WR_REAUDIT_TIEBREAK_67_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:41Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_68",
+          "audit_id": "WR_REAUDIT_TIEBREAK_68_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:42Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_69",
+          "audit_id": "WR_REAUDIT_TIEBREAK_69_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:42Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_70",
+          "audit_id": "WR_REAUDIT_TIEBREAK_70_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:43Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_71",
+          "audit_id": "WR_REAUDIT_TIEBREAK_71_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:43Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_72",
+          "audit_id": "WR_REAUDIT_TIEBREAK_72_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:44Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_73",
+          "audit_id": "WR_REAUDIT_TIEBREAK_73_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:45Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_74",
+          "audit_id": "WR_REAUDIT_TIEBREAK_74_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:45Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_75",
+          "audit_id": "WR_REAUDIT_TIEBREAK_75_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:46Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_76",
+          "audit_id": "WR_REAUDIT_TIEBREAK_76_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:46Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_77",
+          "audit_id": "WR_REAUDIT_TIEBREAK_77_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:47Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_78",
+          "audit_id": "WR_REAUDIT_TIEBREAK_78_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:47Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WR_REAUDIT_TIEBREAK_79",
+          "audit_id": "WR_REAUDIT_TIEBREAK_79_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:05:19Z",
+          "note": "t56s532: carry forward approved WR player stages from WR_REAUDIT_LOCK_20261103",
+          "carried_from": "WR_REAUDIT_LOCK_20261103",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-03T15:46:48Z"
+          }
+        }
+      ],
+      "current_stage": "carry_forward",
+      "current_task": null,
+      "awaiting": null,
+      "last_result": {
+        "status": "CARRIED_FORWARD",
+        "carried_from": "WR_REAUDIT_LOCK_20261103",
+        "carried": 132,
+        "rerun": [
+          "WR_REAUDIT_VARIANCE_AUDIT",
+          "WR_REAUDIT_SCARCITY",
+          "WR_REAUDIT_CROSS_AUDIT",
+          "WR_REAUDIT_LOCK"
+        ]
+      }
     }
   ]
 }
