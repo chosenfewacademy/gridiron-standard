@@ -1,0 +1,37 @@
+{
+  "audit_id": "LEDGE_REAUDIT_H2H_01_A1",
+  "task_id": "LEDGE_REAUDIT_H2H_01",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Aidan Hutchinson",
+    "Will Anderson Jr."
+  ],
+  "pair_result": {
+    "winner": "Aidan Hutchinson",
+    "loser": "Will Anderson Jr.",
+    "provisional_order_holds": true,
+    "reasoning": "Hutchinson: PFF 91.7 in both seasons on the largest workload (1,005 snaps in 2025, 446 in 2026), 50 + 22 pressures, 14.5 + 5 sacks, 0 missed tackles in 2026. Anderson's grades are equal or higher (93.4 / 90.8) with 20 TFL and RSWR #10, but on ~25% fewer snaps and fewer pressures. Volume plus sustained elite grade keeps Hutchinson #1. Order holds.",
+    "key_evidence_for_winner": [
+      "Aidan Hutchinson (DET) alignment side snapshots 2025-26 left 496 / right 0 -> LEDGE; roster ACT (DL); injuries no injury designation 2025-26",
+      "Aidan Hutchinson 2026: Aidan Hutchinson 2026: PFF edge 2026 overall 91.7 on 446 snaps (306 pass-rush, 130 run-defense, 10 coverage); PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed; 7 g / 446 def snaps; 5.0 sacks, 17 QB hits, 5 TFL, 1 FF, 1 PD; 0 accepted penalties; PFR 2026 22 pressures (6 hurries, 10 QB hits, 5.0 sacks) in 6 games, 17 tackles, 0 missed; ESPN 2026 edge PRWR 23% (#19, 40/172); RSWR outside the published top 10",
+      "Aidan Hutchinson 2025: Aidan Hutchinson 2025: PFF edge 2025 overall 91.7 on 1005 snaps (622 pass-rush, 374 run-defense, 9 coverage); PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed; 17 g / 1005 def snaps; 14.5 sacks, 35 QB hits, 14 TFL, 4 FF, 3 PD; 5 accepted penalties; PFR 2025 50 pressures (15 hurries, 20 QB knockdowns, 14.5 sacks), 54 tackles, 6 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Will Anderson Jr. (HOU) alignment side snapshots 2025-26 left 437 / right 59 -> LEDGE; roster ACT (DL); injuries no injury designation 2025-26",
+      "Will Anderson Jr. 2026: Will Anderson Jr. 2026: PFF edge 2026 overall 90.8 on 365 snaps (234 pass-rush, 130 run-defense, 1 coverage); PFR 2026 18 pressures (2 hurries, 7 QB hits, 7.5 sacks) in 6 games, 28 tackles, 0 missed; 7 g / 367 def snaps; 7.5 sacks, 15 QB hits, 10 TFL, 1 FF, 1 PD; 1 accepted penalties; PFR 2026 18 pressures (2 hurries, 7 QB hits, 7.5 sacks) in 6 games, 28 tackles, 0 missed; ESPN 2026 edge PRWR outside the published top 20; RSWR 30% (#10, 32/108)",
+      "Will Anderson Jr. 2025: Will Anderson Jr. 2025: PFF edge 2025 overall 93.4 on 779 snaps (529 pass-rush, 248 run-defense, 2 coverage); PFR 2025 36 pressures (15 hurries, 8 QB knockdowns, 12 sacks), 54 tackles, 3 missed; 17 g / 694 def snaps; 12.0 sacks, 23 QB hits, 20 TFL, 3 FF, 3 PD; 6 accepted penalties; PFR 2025 36 pressures (15 hurries, 8 QB knockdowns, 12 sacks), 54 tackles, 3 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
