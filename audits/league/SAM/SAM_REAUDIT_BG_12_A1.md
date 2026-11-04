@@ -1,0 +1,231 @@
+# SAM_REAUDIT_BG_12 — Jack Sanborn background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "SAM_REAUDIT_BG_12_A1",
+  "task_id": "SAM_REAUDIT_BG_12",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SAM",
+  "player_id": "ext_00-0037109",
+  "players": [
+    "Jack Sanborn"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Jack Sanborn",
+    "player_id": "ext_00-0037109",
+    "team": "CHI",
+    "role_assignment": {
+      "MIKE25": 112,
+      "SAM25": 105,
+      "SAM26": 273,
+      "MIKE": 118.7,
+      "WILL": 0.0,
+      "SAM": 120.3,
+      "EDGE": 0.0,
+      "assign": "SAM"
+    },
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "dallas-cowboys",
+        "ovr": 56,
+        "snaps": 229,
+        "rank": null,
+        "rdef": 106,
+        "prsh": 2,
+        "cov": 121
+      },
+      "2026": {
+        "team": "chicago-bears",
+        "ovr": 81.1,
+        "snaps": 9,
+        "rank": null,
+        "rdef": 0,
+        "prsh": 4,
+        "cov": 5
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "DAL",
+        "pos": "MLB",
+        "g": "6",
+        "tgt": "18",
+        "cmp": "16",
+        "yds": "193",
+        "rat": "111.3",
+        "int": "0",
+        "bltz": "1",
+        "prss": "0",
+        "sk": "0",
+        "comb": "34",
+        "m_tkl": "6"
+      },
+      "2026": {
+        "def_targets": 1.0,
+        "def_completions_allowed": 1.0,
+        "def_yards_allowed": 5.0,
+        "def_ints": 0.0,
+        "def_times_blitzed": 5.0,
+        "def_pressures": 0.0,
+        "def_sacks": 0.0,
+        "def_tackles_combined": 2.0,
+        "def_missed_tackles": 0.0,
+        "g": 1
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 5,
+        "defs": 230
+      },
+      "2026": {
+        "games": 1,
+        "defs": 9
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 15.0,
+        "def_tackle_assists": 18.0,
+        "def_tackles_for_loss": 1.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 1.0,
+        "def_interceptions": 0.0
+      },
+      "2026": {
+        "def_tackles_solo": 3.0,
+        "def_tackle_assists": 1.0,
+        "def_tackles_for_loss": 0.0,
+        "def_fumbles_forced": 0.0,
+        "def_sacks": 0.0,
+        "def_qb_hits": 0.0,
+        "def_pass_defended": 0.0,
+        "def_interceptions": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 0,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk6 Out (Concussion)",
+        "wk9 Out (Groin)"
+      ],
+      "2026": [
+        "wk7 Out (Concussion)"
+      ]
+    },
+    "summary_lines": [
+      "Jack Sanborn (CHI) Jack Sanborn 2026: PFF LB 2026 overall 81.1 on 9 snaps (LB rank None; 0 run-def / 5 coverage / 4 pass-rush snaps); PFR 2026 (1 games) coverage 1 targets / 1 completions / 5 yds / 0 INT; 2 tackles, 0 missed; 0 pressures on 5 blitzes; 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF; 0 accepted penalties",
+      "Jack Sanborn 2025: PFF LB 2025 overall 56 on 229 snaps (LB rank None; 106 run-def / 121 coverage / 2 pass-rush snaps); PFR 2025 coverage 18 targets / 16 completions / 193 yds / passer rating 111.3 / 0 INT; 34 tackles, 6 missed; 0 pressures on 1 blitzes, 0 sacks; 5 g / 230 def snaps; 15 solo + 18 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties",
+      "Jack Sanborn role: snap-weighted 2025-26 depth-chart role shares MIKE 119 / WILL 0 / SAM 120 / edge 0 (raw snapshots MIKE25 112, SAM25 105, SAM26 273) -> SAM (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card MIKE (reference only)",
+      "Jack Sanborn injury reports: wk6 Out (Concussion); wk9 Out (Groin); wk7 Out (Concussion); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports",
+      "limited 2026 sample (reserve/IR/PUP)"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PUR",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2026",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2025",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:54:00Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
