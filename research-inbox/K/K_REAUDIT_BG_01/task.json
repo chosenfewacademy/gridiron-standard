@@ -1,0 +1,102 @@
+{
+  "task_id": "K_REAUDIT_BG_01",
+  "type": "background_analysis",
+  "players": [
+    "Will Reichard"
+  ],
+  "player_id": "ext_00-0039404",
+  "team": "MIN",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Will Reichard"
+      },
+      {
+        "rank": 2,
+        "player": "Ka'imi Fairbairn"
+      },
+      {
+        "rank": 3,
+        "player": "Chase McLaughlin"
+      },
+      {
+        "rank": 4,
+        "player": "Evan McPherson"
+      },
+      {
+        "rank": 5,
+        "player": "Cam Little"
+      },
+      {
+        "rank": 6,
+        "player": "Brandon Aubrey"
+      },
+      {
+        "rank": 7,
+        "player": "Jason Myers"
+      },
+      {
+        "rank": 8,
+        "player": "Joey Slye"
+      },
+      {
+        "rank": 9,
+        "player": "Cameron Dicker"
+      },
+      {
+        "rank": 10,
+        "player": "Chris Boswell"
+      }
+    ],
+    "external_controls": [
+      "Eddy Pineiro",
+      "Spencer Shrader",
+      "Tyler Bass"
+    ]
+  },
+  "position": "K",
+  "stage": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 19,
+    "group": "Special Teams",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall kicking grade",
+      "FG grade",
+      "kickoff grade"
+    ],
+    "position_stats": [
+      "FG made/att by distance",
+      "XP %",
+      "long",
+      "touchback %"
+    ],
+    "usage_snap_metrics": [
+      "attempts",
+      "kickoffs"
+    ],
+    "on_field_impact": [
+      "FG points over expected",
+      "kickoff EPA"
+    ],
+    "madden_attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR"
+    ],
+    "note": ""
+  }
+}
