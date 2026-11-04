@@ -4341,7 +4341,7 @@
         "position": "LT",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/LT.reaudit.json",
       "baseline_file": "data/baselines/LT.json",
@@ -4405,7 +4405,8 @@
         "LT_REAUDIT_H2H_04",
         "LT_REAUDIT_H2H_05",
         "LT_REAUDIT_H2H_06",
-        "LT_REAUDIT_VARIANCE_AUDIT"
+        "LT_REAUDIT_VARIANCE_AUDIT",
+        "LT_REAUDIT_SCARCITY"
       ],
       "audit_ids": [
         "LT_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -4471,18 +4472,14 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "LT_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T02:54:18.364Z",
+      "updated_at": "2026-11-04T02:54:23.807Z",
       "last_result": {
         "task_id": "LT_REAUDIT_SCARCITY",
         "status": "VALIDATED",
         "errors": [],
         "flags": []
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LT_REAUDIT_SCARCITY",
-        "audit_id": "LT_REAUDIT_SCARCITY_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -4959,6 +4956,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T02:54:04Z",
           "note": "Commissioner t45s413: run the variance audit and draft fixes only. Audit record recorded so the pipeline can continue; the 6 drafted attribute fixes remain PROPOSED_NOT_APPROVED and are NOT applied."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LT_REAUDIT_SCARCITY",
+          "audit_id": "LT_REAUDIT_SCARCITY_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T02:54:23Z",
+          "note": "Commissioner approval t45s413 (run scarcity audit)"
         }
       ]
     },
