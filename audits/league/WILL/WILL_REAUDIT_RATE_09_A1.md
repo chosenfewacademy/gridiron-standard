@@ -1,0 +1,412 @@
+# WILL_REAUDIT_RATE_09 — Demario Davis rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "WILL_REAUDIT_RATE_09_A1",
+  "task_id": "WILL_REAUDIT_RATE_09",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "player_id": "ext_00-0029607",
+  "players": [
+    "Demario Davis"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 80,
+    "ACC": 80,
+    "AGI": 70,
+    "COD": 70,
+    "STR": 84,
+    "AWR": 90,
+    "PRC": 90,
+    "TAK": 84,
+    "POW": 86,
+    "BSH": 80,
+    "PUR": 84,
+    "MCV": 66,
+    "ZCV": 74,
+    "PRS": 50,
+    "INJ": 92,
+    "STA": 88,
+    "TGH": 90
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PUR": "MEDIUM",
+    "MCV": "MEDIUM",
+    "ZCV": "MEDIUM",
+    "PRS": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes; range from tackles/PD in 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF. Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes; range from tackles/PD in 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF. Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes; range from tackles/PD in 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF. Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes; range from tackles/PD in 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF. Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps); TFL/sacks in 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF / 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF. Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 2/1; PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps). Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 81.7 on 1079 snaps (LB rank 5; 492 run-def / 517 coverage / 70 pass-rush snaps); PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps); TFL in 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF / 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF. Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes. Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes. Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 81.7 on 1079 snaps (LB rank 5; 492 run-def / 517 coverage / 70 pass-rush snaps); PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps); TFL in 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF / 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF. Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 81.7 on 1079 snaps (LB rank 5; 492 run-def / 517 coverage / 70 pass-rush snaps); PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps); TFL in 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF / 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF. Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes; PFF LB 2025 overall 81.7 on 1079 snaps (LB rank 5; 492 run-def / 517 coverage / 70 pass-rush snaps); PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps). Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes; PFF LB 2025 overall 81.7 on 1079 snaps (LB rank 5; 492 run-def / 517 coverage / 70 pass-rush snaps); PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps). Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (pass rush): blitz/pressure lines: PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes; sacks in 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF / 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF. Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Demario Davis injury reports: wk18 Questionable (Calf); roster status ACT; 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF (2025), 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF (2026). Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF (2025), 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF (2026). Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF (2025), 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF (2026). Style: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+      "why_not_higher": "Evidence does not separate him from higher-rated WILLs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated WILLs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "discipline: penalties 2025/2026 2/1; PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "tier": "ELITE",
+      "claim": "run defense: PFF LB 2025 overall 81.7 on 1079 snaps (LB rank 5; 492 run-def / 517 coverage / 70 pass-rush snaps); PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps); TFL in 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF / 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Demario Davis injury reports: wk18 Questionable (Calf); roster status ACT; 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF (2025), 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF (2025), 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 79,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+  "style_profile": "Demario Davis: Age-37 field general: PFF 81.7 on 1,079 snaps (2025) before a drop to 50.6 at NYJ in 2026; strong run defender and communicator, speed fading.",
+  "style_evidence": [
+    "Demario Davis (NYJ) Demario Davis 2026: PFF LB 2026 overall 50.6 on 530 snaps (LB rank 64; 236 run-def / 232 coverage / 62 pass-rush snaps); PFR 2026 (7 games) coverage 28 targets / 19 completions / 179 yds / 0 INT; 46 tackles, 5 missed; 5 pressures on 32 blitzes; 8 g / 530 def snaps; 28 solo + 24 ast tackles, 3 TFL, 2.0 sacks, 0 INT, 4 PD, 0 FF; 1 accepted penalties",
+    "Demario Davis 2025: PFF LB 2025 overall 81.7 on 1079 snaps (LB rank 5; 492 run-def / 517 coverage / 70 pass-rush snaps); PFR 2025 coverage 41 targets / 32 completions / 265 yds / passer rating 109.9 / 0 INT; 143 tackles, 14 missed; 5 pressures on 26 blitzes, 0.5 sacks; 17 g / 1081 def snaps; 61 solo + 79 ast tackles, 6 TFL, 0.5 sacks, 0 INT, 3 PD, 2 FF; 2 accepted penalties",
+    "Demario Davis role: snap-weighted 2025-26 depth-chart role shares MIKE 163 / WILL 1448 / SAM 0 / edge 0 (raw snapshots MIKE25 5, WILL25 216, WILL26 203, MIKE26 72) -> WILL (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card MIKE (reference only)",
+    "Demario Davis injury reports: wk18 Questionable (Calf); roster status ACT"
+  ],
+  "input_dossier": "WILL_REAUDIT_BG_09_A1",
+  "weaknesses": [
+    "2026 grade drop (50.6)",
+    "speed / age"
+  ],
+  "limitations": [
+    "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+  ],
+  "role_assignment": "WILL (snap-weighted 2025-26 depth-chart role shares MIKE 163 / WILL 1448 / SAM 0 / edge 0 (raw snapshots MIKE25 5, WILL25 216, WILL26 203, MIKE26 72) -> WILL)",
+  "madden_reference": [
+    {
+      "player": "Demario Davis",
+      "ovr": 90,
+      "madden_position": "MIKE",
+      "attributes": {
+        "SPD": 88,
+        "ACC": 86,
+        "AGI": 77,
+        "COD": 71,
+        "STR": 85,
+        "AWR": 95,
+        "PRC": 94,
+        "TAK": 90,
+        "POW": 91,
+        "BSH": 77,
+        "PUR": 93,
+        "MCV": 70,
+        "ZCV": 78,
+        "PRS": 40,
+        "INJ": 98,
+        "STA": 94,
+        "TGH": 93
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -11,
+      "delta_attributes": {
+        "SPD": -8,
+        "ACC": -6,
+        "AGI": -7,
+        "COD": -1,
+        "STR": -1,
+        "AWR": -5,
+        "PRC": -4,
+        "TAK": -6,
+        "POW": -5,
+        "BSH": 3,
+        "PUR": -9,
+        "MCV": -4,
+        "ZCV": -4,
+        "PRS": 10,
+        "INJ": -6,
+        "STA": -6,
+        "TGH": -3
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 11,
+    "attribute_gaps_10plus": {
+      "PRS": 10
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
