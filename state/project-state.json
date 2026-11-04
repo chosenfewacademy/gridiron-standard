@@ -3306,16 +3306,17 @@
         "TE_REAUDIT_RATE_03_A3",
         "TE_REAUDIT_RATE_08_A2",
         "TE_REAUDIT_RATE_11_A2",
-        "TE_REAUDIT_RATE_10_A2"
+        "TE_REAUDIT_RATE_10_A2",
+        "TE_REAUDIT_RATE_14_A2"
       ],
       "current_stage": "pair_audits",
       "current_task": "TE_REAUDIT_H2H_01",
-      "updated_at": "2026-11-04T00:14:16.874Z",
+      "updated_at": "2026-11-04T00:14:17.167Z",
       "last_result": {
-        "task_id": "TE_REAUDIT_RATE_10",
+        "task_id": "TE_REAUDIT_RATE_14",
         "status": "REVISION_APPROVED",
-        "audit_id": "TE_REAUDIT_RATE_10_A2",
-        "supersedes": "TE_REAUDIT_RATE_10_A1",
+        "audit_id": "TE_REAUDIT_RATE_14_A2",
+        "supersedes": "TE_REAUDIT_RATE_14_A1",
         "flags": []
       },
       "awaiting": null,
@@ -3758,6 +3759,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T00:14:16Z",
           "note": "Commissioner approval t45s389: H2H_06 loses to Kraft (EPA/tgt +.150/+.223, YAC 2.9); TIEBREAK_07 beats Goedert"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_14",
+          "audit_id": "TE_REAUDIT_RATE_14_A2",
+          "supersedes": "TE_REAUDIT_RATE_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T00:14:16Z",
+          "note": "Commissioner approval t45s389: TIEBREAK_07 loses to Likely (6 g, 35 tgt in 2026, age 31); TIEBREAK_08 beats Loveland"
         }
       ]
     },
