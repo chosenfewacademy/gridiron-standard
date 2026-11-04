@@ -1,0 +1,39 @@
+# TE_REAUDIT_TIEBREAK_17 — Austin Hooper vs Isaiah Likely (v1.1.2 head-to-head tiebreak; authorized by t45s389)
+
+```json
+{
+  "audit_id": "TE_REAUDIT_TIEBREAK_17_A1",
+  "task_id": "TE_REAUDIT_TIEBREAK_17",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "TE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Austin Hooper",
+    "Isaiah Likely"
+  ],
+  "pair_result": {
+    "winner": "Isaiah Likely",
+    "loser": "Austin Hooper",
+    "provisional_order_holds": false,
+    "reasoning": "League ceiling flag (t45s389). Austin Hooper: 2025 13 g, 26 tgt, 263 yds, 2 TD, EPA/tgt +0.646, PFF 65.3, YPRR 1.04, block share 0.6; 2026 6 g, 11 tgt, 76 yds, 1 TD, EPA/tgt +0.756, PFF outside PFF qualifiers, YPRR n/a, block share n/a. Isaiah Likely: 2025 12 g, 36 tgt, 307 yds, 1 TD, EPA/tgt +0.150, PFF outside PFF qualifiers, YPRR n/a, block share n/a; 2026 7 g, 64 tgt, 395 yds, 5 TD, EPA/tgt +0.223, PFF 77.3, YPRR 1.59, block share 0.33. Likely's 2026 (64 tgt, 395 yds, 5 TD, PFF 77.3, YPRR 1.59) outweighs age 32, 37 targets over two seasons; EPA/tgt is a low-volume rate and PFF 65.3. Isaiah Likely holds first-out.",
+    "key_evidence_for_winner": [
+      "Isaiah Likely PFF TE overall grade 2026 77.3, 2025 None; 2026 PFF snaps {'off': '370', 'routes': '249', 'pblk': '4', 'rblk': '117'} (block share 0.33); 2025 PFF snaps None (block share None); age 26, 76 in 241 lb",
+      "Isaiah Likely (NYG) 2026: 7 g 64 tgt 395 yds 5 TD, EPA/tgt 0.223, YPRR 1.59, TPRR 0.257, NGS sep 2.73, aDOT 8.0, deep 6 tgt catch 0.33 EPA/tgt 0.73, short catch 0.72, YAC/rec 2.9, RZ tgt 10, 3rd/4th conv 10/18, fum lost 0",
+      "Isaiah Likely (BAL) 2025: 12 g 36 tgt 307 yds 1 TD, EPA/tgt 0.15, YPRR None, TPRR None, NGS sep None, aDOT 8.0, deep 3 tgt catch 0.67 EPA/tgt 0.86, short catch 0.83, YAC/rec 4.3, RZ tgt 6, 3rd/4th conv 5/12, fum lost 1"
+    ],
+    "key_evidence_for_loser": [
+      "Austin Hooper PFF TE overall grade 2026 None, 2025 65.3; 2026 PFF snaps None (block share None); 2025 PFF snaps {'off': '628', 'routes': '254', 'pblk': '38', 'rblk': '336'} (block share 0.6); age 32, 76 in 254 lb",
+      "Austin Hooper (ATL) 2026: 6 g 11 tgt 76 yds 1 TD, EPA/tgt 0.756, YPRR None, TPRR None, NGS sep None, aDOT 3.7, deep 0 tgt catch None EPA/tgt None, short catch 0.82, YAC/rec 4.8, RZ tgt 1, 3rd/4th conv 2/4, fum lost 0",
+      "Austin Hooper (NE) 2025: 13 g 26 tgt 263 yds 2 TD, EPA/tgt 0.646, YPRR 1.04, TPRR 0.102, NGS sep None, aDOT 9.0, deep 3 tgt catch 1.0 EPA/tgt 1.98, short catch 0.93, YAC/rec 4.1, RZ tgt 5, 3rd/4th conv 1/2, fum lost 0"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
