@@ -1,0 +1,362 @@
+# SAM_REAUDIT_RATE_12 — Jack Sanborn rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "SAM_REAUDIT_RATE_12_A1",
+  "task_id": "SAM_REAUDIT_RATE_12",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SAM",
+  "player_id": "ext_00-0037109",
+  "players": [
+    "Jack Sanborn"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "ratings": {
+    "SPD": 74,
+    "ACC": 78,
+    "AGI": 74,
+    "COD": 68,
+    "STR": 66,
+    "AWR": 78,
+    "PRC": 78,
+    "TAK": 76,
+    "POW": 74,
+    "BSH": 70,
+    "PUR": 78,
+    "MCV": 52,
+    "ZCV": 70,
+    "PRS": 36,
+    "INJ": 84,
+    "STA": 80,
+    "TGH": 86
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "LOW",
+    "PRC": "LOW",
+    "TAK": "LOW",
+    "POW": "LOW",
+    "BSH": "LOW",
+    "PUR": "LOW",
+    "MCV": "LOW",
+    "ZCV": "LOW",
+    "PRS": "LOW",
+    "INJ": "LOW",
+    "STA": "LOW",
+    "TGH": "LOW"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 18 targets / 16 completions / 193 yds / passer rating 111.3 / 0 INT; 34 tackles, 6 missed; 0 pressures on 1 blitzes, 0 sacks; PFR 2026 (1 games) coverage 1 targets / 1 completions / 5 yds / 0 INT; 2 tackles, 0 missed; 0 pressures on 5 blitzes; range from tackles/PD in 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 18 targets / 16 completions / 193 yds / passer rating 111.3 / 0 INT; 34 tackles, 6 missed; 0 pressures on 1 blitzes, 0 sacks; PFR 2026 (1 games) coverage 1 targets / 1 completions / 5 yds / 0 INT; 2 tackles, 0 missed; 0 pressures on 5 blitzes; range from tackles/PD in 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 18 targets / 16 completions / 193 yds / passer rating 111.3 / 0 INT; 34 tackles, 6 missed; 0 pressures on 1 blitzes, 0 sacks; PFR 2026 (1 games) coverage 1 targets / 1 completions / 5 yds / 0 INT; 2 tackles, 0 missed; 0 pressures on 5 blitzes; range from tackles/PD in 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 18 targets / 16 completions / 193 yds / passer rating 111.3 / 0 INT; 34 tackles, 6 missed; 0 pressures on 1 blitzes, 0 sacks; PFR 2026 (1 games) coverage 1 targets / 1 completions / 5 yds / 0 INT; 2 tackles, 0 missed; 0 pressures on 5 blitzes; range from tackles/PD in 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF LB 2026 overall 81.1 on 9 snaps (LB rank None; 0 run-def / 5 coverage / 4 pass-rush snaps); TFL/sacks in 5 g / 230 def snaps; 15 solo + 18 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF / 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 0/0; PFF LB 2026 overall 81.1 on 9 snaps (LB rank None; 0 run-def / 5 coverage / 4 pass-rush snaps). Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 56 on 229 snaps (LB rank None; 106 run-def / 121 coverage / 2 pass-rush snaps); PFF LB 2026 overall 81.1 on 9 snaps (LB rank None; 0 run-def / 5 coverage / 4 pass-rush snaps); TFL in 5 g / 230 def snaps; 15 solo + 18 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF / 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 18 targets / 16 completions / 193 yds / passer rating 111.3 / 0 INT; 34 tackles, 6 missed; 0 pressures on 1 blitzes, 0 sacks; PFR 2026 (1 games) coverage 1 targets / 1 completions / 5 yds / 0 INT; 2 tackles, 0 missed; 0 pressures on 5 blitzes. Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 18 targets / 16 completions / 193 yds / passer rating 111.3 / 0 INT; 34 tackles, 6 missed; 0 pressures on 1 blitzes, 0 sacks; PFR 2026 (1 games) coverage 1 targets / 1 completions / 5 yds / 0 INT; 2 tackles, 0 missed; 0 pressures on 5 blitzes. Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 56 on 229 snaps (LB rank None; 106 run-def / 121 coverage / 2 pass-rush snaps); PFF LB 2026 overall 81.1 on 9 snaps (LB rank None; 0 run-def / 5 coverage / 4 pass-rush snaps); TFL in 5 g / 230 def snaps; 15 solo + 18 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF / 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF LB 2025 overall 56 on 229 snaps (LB rank None; 106 run-def / 121 coverage / 2 pass-rush snaps); PFF LB 2026 overall 81.1 on 9 snaps (LB rank None; 0 run-def / 5 coverage / 4 pass-rush snaps); TFL in 5 g / 230 def snaps; 15 solo + 18 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF / 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 18 targets / 16 completions / 193 yds / passer rating 111.3 / 0 INT; 34 tackles, 6 missed; 0 pressures on 1 blitzes, 0 sacks; PFR 2026 (1 games) coverage 1 targets / 1 completions / 5 yds / 0 INT; 2 tackles, 0 missed; 0 pressures on 5 blitzes; PFF LB 2025 overall 56 on 229 snaps (LB rank None; 106 run-def / 121 coverage / 2 pass-rush snaps); PFF LB 2026 overall 81.1 on 9 snaps (LB rank None; 0 run-def / 5 coverage / 4 pass-rush snaps). Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 18 targets / 16 completions / 193 yds / passer rating 111.3 / 0 INT; 34 tackles, 6 missed; 0 pressures on 1 blitzes, 0 sacks; PFR 2026 (1 games) coverage 1 targets / 1 completions / 5 yds / 0 INT; 2 tackles, 0 missed; 0 pressures on 5 blitzes; PFF LB 2025 overall 56 on 229 snaps (LB rank None; 106 run-def / 121 coverage / 2 pass-rush snaps); PFF LB 2026 overall 81.1 on 9 snaps (LB rank None; 0 run-def / 5 coverage / 4 pass-rush snaps). Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (pass rush): blitz/pressure lines: PFR 2025 coverage 18 targets / 16 completions / 193 yds / passer rating 111.3 / 0 INT; 34 tackles, 6 missed; 0 pressures on 1 blitzes, 0 sacks; PFR 2026 (1 games) coverage 1 targets / 1 completions / 5 yds / 0 INT; 2 tackles, 0 missed; 0 pressures on 5 blitzes; sacks in 5 g / 230 def snaps; 15 solo + 18 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF / 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF. Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Jack Sanborn injury reports: wk6 Out (Concussion); wk9 Out (Groin); wk7 Out (Concussion); roster status ACT; 5 g / 230 def snaps; 15 solo + 18 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF (2025), 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF (2026). Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 5 g / 230 def snaps; 15 solo + 18 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF (2025), 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF (2026). Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 5 g / 230 def snaps; 15 solo + 18 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF (2025), 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF (2026). Style: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+      "why_not_higher": "Evidence does not separate him from higher-rated SAMs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SAMs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/lb/2026",
+        "https://www.pff.com/grades/nfl/lb/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 69,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+  "style_profile": "Jack Sanborn: Instinctive backup: PFF 56.0 on 229 snaps (2025); 6 missed tackles.",
+  "style_evidence": [
+    "Jack Sanborn (CHI) Jack Sanborn 2026: PFF LB 2026 overall 81.1 on 9 snaps (LB rank None; 0 run-def / 5 coverage / 4 pass-rush snaps); PFR 2026 (1 games) coverage 1 targets / 1 completions / 5 yds / 0 INT; 2 tackles, 0 missed; 0 pressures on 5 blitzes; 1 g / 9 def snaps; 3 solo + 1 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF; 0 accepted penalties",
+    "Jack Sanborn 2025: PFF LB 2025 overall 56 on 229 snaps (LB rank None; 106 run-def / 121 coverage / 2 pass-rush snaps); PFR 2025 coverage 18 targets / 16 completions / 193 yds / passer rating 111.3 / 0 INT; 34 tackles, 6 missed; 0 pressures on 1 blitzes, 0 sacks; 5 g / 230 def snaps; 15 solo + 18 ast tackles, 1 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties",
+    "Jack Sanborn role: snap-weighted 2025-26 depth-chart role shares MIKE 119 / WILL 0 / SAM 120 / edge 0 (raw snapshots MIKE25 112, SAM25 105, SAM26 273) -> SAM (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card MIKE (reference only)",
+    "Jack Sanborn injury reports: wk6 Out (Concussion); wk9 Out (Groin); wk7 Out (Concussion); roster status ACT"
+  ],
+  "input_dossier": "SAM_REAUDIT_BG_12_A1",
+  "weaknesses": [
+    "speed",
+    "sample"
+  ],
+  "limitations": [
+    "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports",
+    "limited 2026 sample (reserve/IR/PUP)"
+  ],
+  "role_assignment": "SAM (snap-weighted 2025-26 depth-chart role shares MIKE 119 / WILL 0 / SAM 120 / edge 0 (raw snapshots MIKE25 112, SAM25 105, SAM26 273) -> SAM)",
+  "madden_reference": [
+    {
+      "player": "Jack Sanborn",
+      "ovr": 71,
+      "madden_position": "MIKE",
+      "attributes": {
+        "SPD": 80,
+        "ACC": 87,
+        "AGI": 78,
+        "COD": 70,
+        "STR": 72,
+        "AWR": 78,
+        "PRC": 77,
+        "TAK": 78,
+        "POW": 83,
+        "BSH": 72,
+        "PUR": 85,
+        "MCV": 53,
+        "ZCV": 62,
+        "PRS": 37,
+        "INJ": 89,
+        "STA": 85,
+        "TGH": 90
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -2,
+      "delta_attributes": {
+        "SPD": -6,
+        "ACC": -9,
+        "AGI": -4,
+        "COD": -2,
+        "STR": -6,
+        "AWR": 0,
+        "PRC": 1,
+        "TAK": -2,
+        "POW": -9,
+        "BSH": -2,
+        "PUR": -7,
+        "MCV": -1,
+        "ZCV": 8,
+        "PRS": -1,
+        "INJ": -5,
+        "STA": -5,
+        "TGH": -4
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 2,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
