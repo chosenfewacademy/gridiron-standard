@@ -1,0 +1,243 @@
+{
+  "audit_id": "P_REAUDIT_RATE_10_A1",
+  "task_id": "P_REAUDIT_RATE_10",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "P",
+  "player_id": "ext_00-0036313",
+  "players": [
+    "Braden Mann"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "KPW": 92,
+    "KAC": 81,
+    "AWR": 76,
+    "INJ": 85,
+    "STA": 89,
+    "TGH": 69
+  },
+  "trait_confidence": {
+    "KPW": "MEDIUM",
+    "KAC": "MEDIUM",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "KPW": {
+      "basis": "Judgment (leg): 2025 72 punts, gross 49.9, net 42.8, inside-20 20 (27.8%), 8 TB, 11 fair catches, 34 returned for 350 yds, 0 blocked, long 70; punt EPA -4.1 (-0.057/punt); 2025 17 games punting; 2026 41 punts, gross 47.4, net 41.5, inside-20 20 (48.8%), 2 TB, 4 fair catches, 20 returned for 202 yds, 0 blocked, long 65; punt EPA +3.0 (+0.074/punt); 2026 8 games punting. Style: Big gross, mixed results: gross 49.9 / 47.4, 48.8% inside-20 in 2026, PFF 80.9 / 73.4; punt EPA -4.1 / +3.0.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ps on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ps in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/p/2026",
+        "https://www.pff.com/grades/nfl/p/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "KAC": {
+      "basis": "Judgment (accuracy): 2025 72 punts, gross 49.9, net 42.8, inside-20 20 (27.8%), 8 TB, 11 fair catches, 34 returned for 350 yds, 0 blocked, long 70; punt EPA -4.1 (-0.057/punt); 2026 41 punts, gross 47.4, net 41.5, inside-20 20 (48.8%), 2 TB, 4 fair catches, 20 returned for 202 yds, 0 blocked, long 65; punt EPA +3.0 (+0.074/punt). Style: Big gross, mixed results: gross 49.9 / 47.4, 48.8% inside-20 in 2026, PFF 80.9 / 73.4; punt EPA -4.1 / +3.0.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ps on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ps in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/p/2026",
+        "https://www.pff.com/grades/nfl/p/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (decisions): PFF P 2025 overall 80.9 (P rank 7); 2025 72 punts, gross 49.9, net 42.8, inside-20 20 (27.8%), 8 TB, 11 fair catches, 34 returned for 350 yds, 0 blocked, long 70; punt EPA -4.1 (-0.057/punt); PFF P 2026 overall 73.4 (P rank 14); 2026 41 punts, gross 47.4, net 41.5, inside-20 20 (48.8%), 2 TB, 4 fair catches, 20 returned for 202 yds, 0 blocked, long 65; punt EPA +3.0 (+0.074/punt); penalties 0/0. Style: Big gross, mixed results: gross 49.9 / 47.4, 48.8% inside-20 in 2026, PFF 80.9 / 73.4; punt EPA -4.1 / +3.0.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ps on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ps in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/p/2026",
+        "https://www.pff.com/grades/nfl/p/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Braden Mann injury reports: no injury designation 2025-26; roster status ACT; 2025 17 games punting; 2026 8 games punting. Style: Big gross, mixed results: gross 49.9 / 47.4, 48.8% inside-20 in 2026, PFF 80.9 / 73.4; punt EPA -4.1 / +3.0.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ps on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ps in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/p/2026",
+        "https://www.pff.com/grades/nfl/p/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 2025 17 games punting; 2026 8 games punting. Style: Big gross, mixed results: gross 49.9 / 47.4, 48.8% inside-20 in 2026, PFF 80.9 / 73.4; punt EPA -4.1 / +3.0.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ps on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ps in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/p/2026",
+        "https://www.pff.com/grades/nfl/p/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 2025 17 games punting; 2026 8 games punting. Style: Big gross, mixed results: gross 49.9 / 47.4, 48.8% inside-20 in 2026, PFF 80.9 / 73.4; punt EPA -4.1 / +3.0.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ps on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ps in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/p/2026",
+        "https://www.pff.com/grades/nfl/p/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "KPW": {
+      "tier": "ELITE",
+      "claim": "leg: 2025 72 punts, gross 49.9, net 42.8, inside-20 20 (27.8%), 8 TB, 11 fair catches, 34 returned for 350 yds, 0 blocked, long 70; punt EPA -4.1 (-0.057/punt); 2025 17 games punting; 2026 41 punts, gross 47.4, net 41.5, inside-20 20 (48.8%), 2 TB, 4 fair catches, 20 returned for 202 yds, 0 blocked, long 65; punt EPA +3.0 (+0.074/punt); 2026 8 games punting",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/p/2026",
+        "https://www.pff.com/grades/nfl/p/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 74,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Big gross, mixed results: gross 49.9 / 47.4, 48.8% inside-20 in 2026, PFF 80.9 / 73.4; punt EPA -4.1 / +3.0.",
+  "style_profile": "Braden Mann: Big gross, mixed results: gross 49.9 / 47.4, 48.8% inside-20 in 2026, PFF 80.9 / 73.4; punt EPA -4.1 / +3.0.",
+  "style_evidence": [
+    "Braden Mann (PHI) Braden Mann 2026: PFF P 2026 overall 73.4 (P rank 14); 2026 8 games punting; 0 accepted penalties",
+    "Braden Mann 2025: PFF P 2025 overall 80.9 (P rank 7); 2025 17 games punting; 0 accepted penalties",
+    "Braden Mann role: punter (punt attempts in nflverse pbp); roster position P (PUNTER ROLE CONVENTION (t46u): rated as P = any player with 2025-26 punt attempts in nflverse play-by-play; matched by g...); roster position P; Madden card P (reference only)",
+    "Braden Mann injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "P_REAUDIT_BG_10_A1",
+  "weaknesses": [
+    "2025 inside-20 (27.8%)",
+    "return yards (350 in 2025)"
+  ],
+  "limitations": [
+    "No public punt hang time; PFF P sub-grades paywalled; substitutes: net/gross, inside-20, touchbacks, fair catches and return yards (hang proxy), punt EPA (nflverse pbp), PFF P overall"
+  ],
+  "role_assignment": "P (punter (punt attempts in nflverse pbp); roster position P)",
+  "madden_reference": [
+    {
+      "player": "Braden Mann",
+      "ovr": 79,
+      "madden_position": "P",
+      "attributes": {
+        "KPW": 93,
+        "KAC": 85,
+        "AWR": 66,
+        "INJ": 86,
+        "STA": 87,
+        "TGH": 83
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -5,
+      "delta_attributes": {
+        "KPW": -1,
+        "KAC": -4,
+        "AWR": 10,
+        "INJ": -1,
+        "STA": 2,
+        "TGH": -14
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 5,
+    "attribute_gaps_10plus": {
+      "AWR": 10,
+      "TGH": -14
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u",
+  "style_similarity": [
+    {
+      "player": "Michael Dickson",
+      "audit_id": "P_REAUDIT_RATE_01_A1",
+      "corr": 0.528,
+      "mad": 7.5,
+      "too_similar": false
+    },
+    {
+      "player": "Jordan Stout",
+      "audit_id": "P_REAUDIT_RATE_02_A1",
+      "corr": 0.713,
+      "mad": 4.2,
+      "too_similar": false
+    },
+    {
+      "player": "Daniel Whelan",
+      "audit_id": "P_REAUDIT_RATE_03_A1",
+      "corr": 0.714,
+      "mad": 4.7,
+      "too_similar": false
+    },
+    {
+      "player": "Logan Cooke",
+      "audit_id": "P_REAUDIT_RATE_04_A1",
+      "corr": 0.724,
+      "mad": 4.7,
+      "too_similar": false
+    },
+    {
+      "player": "Tress Way",
+      "audit_id": "P_REAUDIT_RATE_05_A1",
+      "corr": 0.311,
+      "mad": 9.3,
+      "too_similar": false
+    },
+    {
+      "player": "Jack Fox",
+      "audit_id": "P_REAUDIT_RATE_06_A1",
+      "corr": 0.85,
+      "mad": 4.5,
+      "too_similar": false
+    },
+    {
+      "player": "Austin McNamara",
+      "audit_id": "P_REAUDIT_RATE_07_A1",
+      "corr": 0.85,
+      "mad": 4.3,
+      "too_similar": false
+    },
+    {
+      "player": "Corliss Waitman",
+      "audit_id": "P_REAUDIT_RATE_08_A1",
+      "corr": 0.031,
+      "mad": 7.2,
+      "too_similar": false
+    },
+    {
+      "player": "J.K. Scott",
+      "audit_id": "P_REAUDIT_RATE_09_A1",
+      "corr": 0.825,
+      "mad": 3.8,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
