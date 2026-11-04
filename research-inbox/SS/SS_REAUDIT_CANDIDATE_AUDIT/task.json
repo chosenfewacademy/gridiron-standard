@@ -1,0 +1,261 @@
+{
+  "task_id": "SS_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Jessie Bates"
+      },
+      {
+        "rank": 2,
+        "player": "Kyle Hamilton"
+      },
+      {
+        "rank": 3,
+        "player": "Evan Williams"
+      },
+      {
+        "rank": 4,
+        "player": "Amani Hooker"
+      },
+      {
+        "rank": 5,
+        "player": "Talanoa Hufanga"
+      },
+      {
+        "rank": 6,
+        "player": "Derwin James"
+      },
+      {
+        "rank": 7,
+        "player": "Zakee Wheatley"
+      },
+      {
+        "rank": 8,
+        "player": "Christian Roland-Wallace"
+      },
+      {
+        "rank": 9,
+        "player": "Jordan Battle"
+      },
+      {
+        "rank": 10,
+        "player": "Marques Sigle"
+      }
+    ],
+    "external_controls": [
+      "Brian Branch",
+      "Antoine Winfield Jr.",
+      "Kamren Curl",
+      "Tony Jefferson",
+      "Jaylinn Hawkins",
+      "Coby Bryant",
+      "Cooper DeJean"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Jessie Bates",
+      "aliases": [],
+      "player_id": "ext_00-0034675",
+      "flags": [
+        "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Kyle Hamilton",
+      "aliases": [],
+      "player_id": "ext_00-0038038",
+      "flags": [
+        "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Evan Williams",
+      "aliases": [],
+      "player_id": "ext_00-0039813",
+      "flags": [
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Amani Hooker",
+      "aliases": [],
+      "player_id": "ext_00-0035632",
+      "flags": [
+        "SAFETY_ROLE_HINT_FS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Talanoa Hufanga",
+      "aliases": [],
+      "player_id": "ext_00-0036564",
+      "flags": [
+        "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Derwin James",
+      "aliases": [],
+      "player_id": "ext_00-0034790",
+      "flags": [
+        "INJURED_RESERVE",
+        "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Zakee Wheatley",
+      "aliases": [],
+      "player_id": "ext_00-0041076",
+      "flags": [
+        "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Christian Roland-Wallace",
+      "aliases": [],
+      "player_id": "ext_00-0039324",
+      "flags": [
+        "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Jordan Battle",
+      "aliases": [],
+      "player_id": "ext_00-0038560",
+      "flags": [
+        "SAFETY_ROLE_HINT_SS (shared FS/SS pool)",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "Marques Sigle",
+      "aliases": [],
+      "player_id": "ext_00-0040185",
+      "flags": [
+        "ROSTER_STATUS_INA",
+        "SAFETY_ROLE_HINT_SS (shared FS/SS pool)"
+      ]
+    },
+    {
+      "player": "Brian Branch",
+      "aliases": [],
+      "player_id": "ext_00-0039141",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    },
+    {
+      "player": "Antoine Winfield Jr.",
+      "aliases": [],
+      "player_id": "ext_00-0036411",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    },
+    {
+      "player": "Kamren Curl",
+      "aliases": [],
+      "player_id": "ext_00-0036349",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    },
+    {
+      "player": "Tony Jefferson",
+      "aliases": [],
+      "player_id": "ext_00-0030294",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    },
+    {
+      "player": "Jaylinn Hawkins",
+      "aliases": [],
+      "player_id": "ext_00-0036302",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    },
+    {
+      "player": "Coby Bryant",
+      "aliases": [],
+      "player_id": "ext_00-0038136",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)",
+        "INJURED_RESERVE"
+      ]
+    },
+    {
+      "player": "Cooper DeJean",
+      "aliases": [],
+      "player_id": "ext_00-0039841",
+      "flags": [
+        "ADDED_BY_CONTENDER_SCREEN (t46u)"
+      ]
+    }
+  ],
+  "position": "SS",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 18,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "coverage",
+      "run defense",
+      "tackling",
+      "grade vs man/zone",
+      "forced incompletion rate"
+    ],
+    "position_stats": [
+      "INT, PBU",
+      "targets, receptions allowed, yards allowed, TD allowed",
+      "tackles, missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (outside/slot/box/deep)",
+      "man vs zone snap share",
+      "coverage snaps"
+    ],
+    "on_field_impact": [
+      "passer rating allowed",
+      "yards per coverage snap",
+      "EPA allowed per target"
+    ],
+    "madden_attributes_informed": [
+      "MCV",
+      "ZCV",
+      "PRS",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "PRC",
+      "TAK",
+      "HIT",
+      "PUR",
+      "CTH",
+      "JMP",
+      "AWR"
+    ],
+    "note": "Box/slot/deep split documented."
+  }
+}

@@ -1,0 +1,454 @@
+# SS TOP10_REAUDIT — Stage 1 CANDIDATE AUDIT (v1.1.2), attempt 1
+
+Authorized by t46u (never-locked pathway; FS/SS split by depth-chart alignment). Madden 27 is reference only. madden_order_verified=false.
+
+```json
+{
+  "audit_id": "SS_REAUDIT_CANDIDATE_AUDIT_A1",
+  "task_id": "SS_REAUDIT_CANDIDATE_AUDIT",
+  "task_type": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "membership_confirmed": true,
+  "missing_top_players": [],
+  "side_rule": "SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one of FS or SS by primary 2025-26 alignment = nflverse weekly depth-chart FS/SS slot counts per season weighted by that season's defensive snaps; larger share wins (ties to FS). No FS/SS depth-chart slot -> nflverse roster depth_chart_position. Matched by gsis/PFR id. Each player appears in one list only; Madden position is reference only. Cooper DeJean (2026 FS 103 / SS 108 slot-weeks, CB in 2025) -> SS.",
+  "alignment": {
+    "Kyle Hamilton": "snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1506 -> SS",
+    "Evan Williams": "snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1464 -> SS",
+    "Jessie Bates": "snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1624 -> SS",
+    "Brian Branch": "snap-weighted 2025-26 depth-chart FS/SS shares FS 3 / SS 812 -> SS",
+    "Derwin James": "snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1086 -> SS",
+    "Antoine Winfield Jr.": "snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS",
+    "Kamren Curl": "snap-weighted 2025-26 depth-chart FS/SS shares FS 312 / SS 1279 -> SS",
+    "Talanoa Hufanga": "snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1404 -> SS",
+    "Tony Jefferson": "snap-weighted 2025-26 depth-chart FS/SS shares FS 197 / SS 590 -> SS",
+    "Jaylinn Hawkins": "snap-weighted 2025-26 depth-chart FS/SS shares FS 176 / SS 977 -> SS",
+    "Christian Roland-Wallace": "snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 0 -> SS (roster depth_chart_position SS)",
+    "Coby Bryant": "snap-weighted 2025-26 depth-chart FS/SS shares FS 19 / SS 959 -> SS",
+    "Cooper DeJean": "snap-weighted 2025-26 depth-chart FS/SS shares FS 270 / SS 284 -> SS"
+  },
+  "coverage_check": "League-wide screen of every safety: all PFF S grades 2025 (179) and 2026 (162) (pff.com/grades/nfl/s), PFR coverage lines (2025 season, 2026 weekly), nflverse snaps, stats, penalties, injuries, rosters, depth charts; reserve/IR (Derwin James, Thomas Harper, Coby Bryant, Avonte Maddox, Jalen Thompson), inactive (Jalen Pitre, Antonio Johnson, Jevon Holland, Talanoa Hufanga, Jaylinn Hawkins), free agents (Jordan Poyer, Quandre Diggs) and rookies included. SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one of FS or SS by primary 2025-26 alignment = nflverse weekly depth-chart FS/SS slot counts per season weighted by that season's defensive snaps; larger share wins (ties to FS). No FS/SS depth-chart slot -> nflverse roster depth_chart_position. Matched by gsis/PFR id. Each player appears in one list only; Madden position is reference only. Cooper DeJean (2026 FS 103 / SS 108 slot-weeks, CB in 2025) -> SS. PAYWALLED GAPS: PFF coverage/run-defense/tackling sub-grades and box/slot/deep alignment splits; substitutes: PFF S overall + coverage/run-def snap counts, PFR targets/completions/yards/TD/passer rating allowed, INT/PD, tackles/missed tackles, penalties",
+  "contention_set": [
+    "Kyle Hamilton",
+    "Evan Williams",
+    "Jessie Bates",
+    "Brian Branch",
+    "Derwin James",
+    "Antoine Winfield Jr.",
+    "Kamren Curl",
+    "Talanoa Hufanga",
+    "Tony Jefferson",
+    "Jaylinn Hawkins",
+    "Christian Roland-Wallace",
+    "Coby Bryant",
+    "Cooper DeJean"
+  ],
+  "contention_basis": "Judgment, not formula: 10 proposed top-10 SSs plus three first-outs. Evidence: PFF S overall (sub-grades paywalled), PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, availability.",
+  "contender_reasons": {
+    "Kyle Hamilton": "Kyle Hamilton 2025: PFF S 2025 overall 86.3 on 1003 snaps (S rank 2; 590 coverage / 344 run-def snaps); PFR 2025 coverage 57 targets / 35 completions / 301 yds / 4 TD / passer rating 98.6 / 0 INT; 105 tackles, 9 missed; 16 g / 1003 def snaps; 59 solo + 46 ast tackles, 7 TFL, 0 INT, 9 PD, 2 FF; 4 accepted penalties | Kyle Hamilton 2026: PFF S 2026 overall 77.3 on 502 snaps (S rank 11; 263 coverage / 189 run-def snaps); PFR 2026 (7 games) coverage 28 targets / 19 completions / 208 yds / 1 TD / 1 INT; 50 tackles, 5 missed; 8 g / 503 def snaps; 38 solo + 17 ast tackles, 8 TFL, 1 INT, 4 PD, 1 FF; 3 accepted penalties | snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1506 -> SS | injuries: wk5 Questionable (Groin); wk16 Questionable (Ankle); roster ACT (BAL) - The #1 safety: PFF 86.3 on 1,003 snaps (S rank 2, 2025) and 77.3 on 502 (2026); box/slot/deep weapon with 7 TFL (2025) and 8 TFL in 2026, 9 PD in 2025.",
+    "Evan Williams": "Evan Williams 2025: PFF S 2025 overall 70.2 on 979 snaps (S rank 27; 600 coverage / 368 run-def snaps); PFR 2025 coverage 44 targets / 31 completions / 420 yds / 3 TD / passer rating 94.9 / 3 INT; 100 tackles, 6 missed; 16 g / 903 def snaps; 46 solo + 52 ast tackles, 4 TFL, 3 INT, 5 PD, 0 FF; 4 accepted penalties | Evan Williams 2026: PFF S 2026 overall 90.6 on 560 snaps (S rank 1; 322 coverage / 212 run-def snaps); PFR 2026 (7 games) coverage 34 targets / 17 completions / 182 yds / 2 TD / 2 INT; 64 tackles, 3 missed; 8 g / 561 def snaps; 43 solo + 27 ast tackles, 2 TFL, 2 INT, 6 PD, 0 FF; 2 accepted penalties | snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1464 -> SS | injuries: wk16 Questionable (Knee); wk17 Questionable (Knee); roster ACT (GB) - Ascending strong safety: PFF 90.6 on 560 snaps (S rank 1, 2026) allowing 17 of 34 targets with 2 INT; 100 tackles, 6 missed in 2025.",
+    "Jessie Bates": "Jessie Bates 2025: PFF S 2025 overall 64.5 on 1091 snaps (S rank 47; 656 coverage / 424 run-def snaps); PFR 2025 coverage 48 targets / 27 completions / 345 yds / 3 TD / passer rating 73.7 / 3 INT; 98 tackles, 8 missed; 17 g / 1092 def snaps; 56 solo + 41 ast tackles, 1 TFL, 3 INT, 6 PD, 1 FF; 1 accepted penalties | Jessie Bates 2026: PFF S 2026 overall 84.1 on 532 snaps (S rank 4; 320 coverage / 206 run-def snaps); PFR 2026 (7 games) coverage 26 targets / 16 completions / 215 yds / 5 TD / 1 INT; 39 tackles, 1 missed; 8 g / 532 def snaps; 24 solo + 21 ast tackles, 0 TFL, 1 INT, 4 PD, 3 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1624 -> SS | injuries: wk9 Questionable (Knee); roster ACT (ATL) - Rangy SS-listed playmaker: PFF 84.1 (S rank 4, 2026) with 3 FF and 1 missed tackle; 64.5 on 1,091 snaps in 2025.",
+    "Brian Branch": "Brian Branch 2025: PFF S 2025 overall 77.8 on 746 snaps (S rank 12; 436 coverage / 292 run-def snaps); PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; 12 g / 747 def snaps; 46 solo + 27 ast tackles, 5 TFL, 0 INT, 9 PD, 1 FF; 7 accepted penalties | Brian Branch 2026: PFF S 2026 overall 82.2 on 68 snaps (S rank None; 45 coverage / 20 run-def snaps); PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart FS/SS shares FS 3 / SS 812 -> SS | injuries: wk6 Questionable (Ankle); wk14 Questionable (Toe); wk15 Out (Achilles); wk5 Out (Achilles); wk7 Questionable (Achilles); roster ACT (DET) - Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+    "Derwin James": "Derwin James 2025: PFF S 2025 overall 78.8 on 959 snaps (S rank 9; 527 coverage / 356 run-def snaps); PFR 2025 coverage 54 targets / 33 completions / 305 yds / 1 TD / passer rating 59.6 / 3 INT; 94 tackles, 8 missed; 16 g / 893 def snaps; 49 solo + 44 ast tackles, 6 TFL, 3 INT, 7 PD, 1 FF; 3 accepted penalties | Derwin James 2026: PFF S 2026 overall 61 on 193 snaps (S rank 46; 98 coverage / 88 run-def snaps); PFR 2026 (3 games) coverage 11 targets / 7 completions / 43 yds / 1 TD / 0 INT; 21 tackles, 3 missed; 3 g / 193 def snaps; 12 solo + 9 ast tackles, 0 TFL, 0 INT, 1 PD, 0 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1086 -> SS | injuries: wk5 Out (Hamstring); wk6 Out (Hamstring); wk8 Out (Hamstring); roster RES (LAC) - Do-everything strong safety on reserve: PFF 78.8 on 959 snaps (2025) with 3 INT, 6 TFL and a 59.6 passer rating allowed; 61.0 on 193 in 2026 (hamstring).",
+    "Antoine Winfield Jr.": "Antoine Winfield Jr. 2025: PFF S 2025 overall 74.4 on 1038 snaps (S rank 17; 620 coverage / 353 run-def snaps); PFR 2025 coverage 58 targets / 33 completions / 580 yds / 3 TD / passer rating 94 / 2 INT; 93 tackles, 4 missed; 17 g / 1038 def snaps; 53 solo + 40 ast tackles, 4 TFL, 2 INT, 8 PD, 1 FF; 0 accepted penalties | Antoine Winfield Jr. 2026: PFF S 2026 overall 75 on 285 snaps (S rank 16; 161 coverage / 114 run-def snaps); PFR 2026 (4 games) coverage 7 targets / 4 completions / 70 yds / 0 TD / 0 INT; 24 tackles, 1 missed; 5 g / 285 def snaps; 20 solo + 11 ast tackles, 0 TFL, 0 INT, 0 PD, 1 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart FS/SS shares FS 299 / SS 1024 -> SS | injuries: wk5 Out (Rib); wk6 Out (Rib); wk7 Out (Rib); roster ACT (TB) - Instinctive strong safety: PFF 74.4 on 1,038 snaps (2025) and 75.0 on 285 (2026); 93 tackles with 4 missed in 2025.",
+    "Kamren Curl": "Kamren Curl 2025: PFF S 2025 overall 78.3 on 1324 snaps (S rank 10; 804 coverage / 487 run-def snaps); PFR 2025 coverage 64 targets / 47 completions / 522 yds / 1 TD / passer rating 89.5 / 2 INT; 122 tackles, 7 missed; 17 g / 1112 def snaps; 75 solo + 43 ast tackles, 2 TFL, 2 INT, 5 PD, 1 FF; 1 accepted penalties | Kamren Curl 2026: PFF S 2026 overall 55.9 on 478 snaps (S rank 70; 271 coverage / 188 run-def snaps); PFR 2026 (7 games) coverage 16 targets / 12 completions / 124 yds / 1 TD / 0 INT; 34 tackles, 7 missed; 8 g / 479 def snaps; 22 solo + 15 ast tackles, 3 TFL, 0 INT, 2 PD, 0 FF; 0 accepted penalties | snap-weighted 2025-26 depth-chart FS/SS shares FS 312 / SS 1279 -> SS | injuries: wk6 Questionable (Ankle); roster ACT (LA) - High-volume tackler: 122 tackles, 7 missed and PFF 78.3 on 1,324 snaps in 2025; fell to 55.9 in 2026.",
+    "Talanoa Hufanga": "Talanoa Hufanga 2025: PFF S 2025 overall 70.9 on 1225 snaps (S rank 22; 758 coverage / 429 run-def snaps); PFR 2025 coverage 58 targets / 35 completions / 470 yds / 3 TD / passer rating 103.4 / 0 INT; 106 tackles, 10 missed; 17 g / 1083 def snaps; 67 solo + 39 ast tackles, 6 TFL, 0 INT, 11 PD, 1 FF; 4 accepted penalties | Talanoa Hufanga 2026: PFF S 2026 overall 70.5 on 322 snaps (S rank 23; 171 coverage / 137 run-def snaps); PFR 2026 (5 games) coverage 15 targets / 6 completions / 73 yds / 0 TD / 2 INT; 23 tackles, 6 missed; 5 g / 321 def snaps; 12 solo + 10 ast tackles, 3 TFL, 2 INT, 3 PD, 1 FF; 1 accepted penalties | snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 1404 -> SS | injuries: wk6 Out (Ankle); wk7 Out (Ankle); wk8 Out (Ankle); roster INA (DEN) - Physical box safety: 106 tackles and 11 PD in 2025 (PFF 70.9 on 1,225 snaps); 70.5 with 2 INT in 2026 before an ankle injury.",
+    "Tony Jefferson": "Tony Jefferson 2025: PFF S 2025 overall 70.8 on 533 snaps (S rank 24; 346 coverage / 175 run-def snaps); PFR 2025 coverage 22 targets / 16 completions / 207 yds / 0 TD / passer rating 62.3 / 4 INT; 57 tackles, 7 missed; 13 g / 490 def snaps; 36 solo + 20 ast tackles, 1 TFL, 4 INT, 7 PD, 0 FF; 1 accepted penalties | Tony Jefferson 2026: PFF S 2026 overall 70.6 on 297 snaps (S rank 22; 135 coverage / 152 run-def snaps); PFR 2026 (6 games) coverage 13 targets / 9 completions / 91 yds / 1 TD / 0 INT; 24 tackles, 1 missed; 7 g / 297 def snaps; 16 solo + 15 ast tackles, 1 TFL, 0 INT, 2 PD, 0 FF; 1 accepted penalties | snap-weighted 2025-26 depth-chart FS/SS shares FS 197 / SS 590 -> SS | injuries: wk9 Out (Hamstring); roster ACT (LAC) - Veteran rotation safety: 4 INT and a 62.3 passer rating allowed in 2025; PFF 70.8 / 70.6.",
+    "Jaylinn Hawkins": "Jaylinn Hawkins 2025: PFF S 2025 overall 74.9 on 1102 snaps (S rank 15; 659 coverage / 408 run-def snaps); PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed; 15 g / 838 def snaps; 44 solo + 26 ast tackles, 3 TFL, 4 INT, 6 PD, 1 FF; 3 accepted penalties | Jaylinn Hawkins 2026: PFF S 2026 overall 54.1 on 314 snaps (S rank 75; 211 coverage / 100 run-def snaps); PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed; 6 g / 315 def snaps; 17 solo + 13 ast tackles, 0 TFL, 0 INT, 0 PD, 0 FF; 1 accepted penalties | snap-weighted 2025-26 depth-chart FS/SS shares FS 176 / SS 977 -> SS | injuries: wk6 Out (Hamstring); wk7 Questionable (Hamstring); wk7 Out (Knee); wk8 Out (Knee); roster INA (BAL) - Coverage strong safety: PFF 74.9 on 1,102 snaps (2025) with 4 INT and a 71.2 passer rating allowed; 54.1 in 2026 before knee/hamstring.",
+    "Christian Roland-Wallace": "Christian Roland-Wallace 2025: PFF S 2025 overall 78.8 on 190 snaps (S rank None; 125 coverage / 60 run-def snaps); PFR 2025 coverage 13 targets / 10 completions / 124 yds / 1 TD / passer rating 99.5 / 1 INT; 34 tackles, 0 missed; 10 g / 190 def snaps; 19 solo + 15 ast tackles, 0 TFL, 1 INT, 3 PD, 0 FF; 1 accepted penalties | Christian Roland-Wallace 2026: PFF S 2026 overall 75.6 on 155 snaps (S rank 14; 120 coverage / 28 run-def snaps); PFR 2026 (6 games) coverage 9 targets / 8 completions / 61 yds / 0 TD / 0 INT; 13 tackles, 0 missed; 7 g / 155 def snaps; 12 solo + 6 ast tackles, 2 TFL, 0 INT, 2 PD, 0 FF; 1 accepted penalties | snap-weighted 2025-26 depth-chart FS/SS shares FS 0 / SS 0 -> SS (roster depth_chart_position SS) | injuries: wk13 Out (Back); wk14 Out (Back); roster ACT (KC) - Sub-package defender: PFF 78.8 on 190 snaps (2025) and 75.6 on 155 (2026); 0 missed tackles across 47 tackles.",
+    "Coby Bryant": "Coby Bryant 2025: PFF S 2025 overall 70.2 on 1163 snaps (S rank 27; 768 coverage / 388 run-def snaps); PFR 2025 coverage 39 targets / 23 completions / 316 yds / 1 TD / passer rating 54 / 4 INT; 66 tackles, 18 missed; 15 g / 977 def snaps; 37 solo + 27 ast tackles, 4 TFL, 4 INT, 7 PD, 1 FF; 0 accepted penalties | Coby Bryant 2026: no PFF S grade 2026; no PFR 2026 line; no snaps; no stats; 0 accepted penalties | snap-weighted 2025-26 depth-chart FS/SS shares FS 19 / SS 959 -> SS | injuries: wk17 Out (Knee); wk18 Doubtful (Knee); roster RES (CHI) - Coverage safety on reserve: PFF 70.2 on 1,163 snaps (2025), 4 INT and a 54.0 passer rating allowed, but 18 missed tackles; no 2026 snaps.",
+    "Cooper DeJean": "Cooper DeJean 2025: no PFF S grade 2025; PFR 2025 coverage 81 targets / 49 completions / 586 yds / 1 TD / passer rating 76.5 / 2 INT; 93 tackles, 6 missed; 16 g / 1037 def snaps; 63 solo + 29 ast tackles, 4 TFL, 2 INT, 16 PD, 1 FF; 2 accepted penalties | Cooper DeJean 2026: PFF S 2026 overall 54.6 on 554 snaps (S rank 73; 300 coverage / 237 run-def snaps); PFR 2026 (7 games) coverage 37 targets / 22 completions / 237 yds / 4 TD / 1 INT; 46 tackles, 7 missed; 8 g / 554 def snaps; 25 solo + 22 ast tackles, 4 TFL, 1 INT, 5 PD, 0 FF; 4 accepted penalties | snap-weighted 2025-26 depth-chart FS/SS shares FS 270 / SS 284 -> SS | injuries: no injury designation 2025-26; roster ACT (PHI) - Converted corner now at safety: 2025 CB season with 16 PD and 93 tackles; 2026 PFF S 54.6 on 554 snaps with 4 TD allowed and 7 missed tackles."
+  },
+  "proposed_order": [
+    "Kyle Hamilton",
+    "Evan Williams",
+    "Jessie Bates",
+    "Brian Branch",
+    "Derwin James",
+    "Antoine Winfield Jr.",
+    "Kamren Curl",
+    "Talanoa Hufanga",
+    "Tony Jefferson",
+    "Jaylinn Hawkins"
+  ],
+  "first_outs": [
+    "Christian Roland-Wallace",
+    "Coby Bryant",
+    "Cooper DeJean"
+  ],
+  "excluded": [
+    {
+      "player": "Xavier McKinney",
+      "reason": "Primary 2025-26 alignment is FS (FS 1606 / SS 0 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Julian Love",
+      "reason": "Primary 2025-26 alignment is FS (FS 885 / SS 0 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Jevon Holland",
+      "reason": "Primary 2025-26 alignment is FS (FS 1213 / SS 0 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Quentin Lake",
+      "reason": "Primary 2025-26 alignment is FS (FS 634 / SS 0 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Kevin Byard",
+      "reason": "Primary 2025-26 alignment is FS (FS 1551 / SS 0 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Emmanuel McNeil-Warren",
+      "reason": "Primary 2025-26 alignment is FS (FS 121 / SS 92 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Jalen Pitre",
+      "reason": "Primary 2025-26 alignment is FS (FS 751 / SS 0 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Minkah Fitzpatrick",
+      "reason": "Primary 2025-26 alignment is FS (FS 1208 / SS 0 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Brandon Jones",
+      "reason": "Primary 2025-26 alignment is FS (FS 1402 / SS 0 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Malik Mustapha",
+      "reason": "Primary 2025-26 alignment is FS (FS 846 / SS 98 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Antonio Johnson",
+      "reason": "Primary 2025-26 alignment is FS (FS 873 / SS 110 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Robert Spears-Jennings",
+      "reason": "Primary 2025-26 alignment is FS (FS 132 / SS 51 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Bryan Cook",
+      "reason": "Primary 2025-26 alignment is FS (FS 1218 / SS 0 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Julian Blackmon",
+      "reason": "Primary 2025-26 alignment is FS (FS 540 / SS 0 snap-weighted depth-chart slot share); under the t46u safety role convention he is rated in the FS list only."
+    },
+    {
+      "player": "Tykee Smith",
+      "reason": "Below pool cutoff (composite 0.40; PFF 2026 grade 77.8; sources pff_2026#13). Re-include on request."
+    },
+    {
+      "player": "Genesis Smith",
+      "reason": "Below pool cutoff (composite 0.36; PFF 2026 grade n/a; sources nflverse_stats_2026#9). Re-include on request."
+    },
+    {
+      "player": "Keisean Nixon",
+      "reason": "Below pool cutoff (composite 0.33; PFF 2026 grade n/a; sources nflverse_stats_2026#10). Re-include on request."
+    },
+    {
+      "player": "Kamren Kinchens",
+      "reason": "Below pool cutoff (composite 0.24; PFF 2026 grade n/a; sources pff_2025#13). Re-include on request."
+    },
+    {
+      "player": "Michael Taaffe",
+      "reason": "Below pool cutoff (composite 0.24; PFF 2026 grade n/a; sources nflverse_stats_2026#13). Re-include on request."
+    },
+    {
+      "player": "Xavier Watts",
+      "reason": "Below pool cutoff (composite 0.23; PFF 2026 grade n/a; sources pff_2025#20, nflverse_snaps_2026#5). Re-include on request."
+    },
+    {
+      "player": "Andrew Mukuba",
+      "reason": "Below pool cutoff (composite 0.21; PFF 2026 grade n/a; sources nflverse_snaps_2026#4). Re-include on request."
+    },
+    {
+      "player": "Dillon Thieneman",
+      "reason": "Below pool cutoff (composite 0.21; PFF 2026 grade 61.5; sources nflverse_stats_2026#14). Re-include on request."
+    },
+    {
+      "player": "Harrison Smith",
+      "reason": "Below pool cutoff (composite 0.18; PFF 2026 grade n/a; sources nflverse_stats_2026#15). Re-include on request."
+    },
+    {
+      "player": "Jeremy Chinn",
+      "reason": "Below pool cutoff (composite 0.17; PFF 2026 grade n/a; sources nflverse_snaps_2026#7). Re-include on request."
+    },
+    {
+      "player": "Jeremy Reaves",
+      "reason": "Below pool cutoff (composite 0.15; PFF 2026 grade 73.2; sources pff_2026#18). Re-include on request."
+    },
+    {
+      "player": "Chuck Clark",
+      "reason": "Below pool cutoff (composite 0.15; PFF 2026 grade 66.9; sources pff_2025#16). Re-include on request."
+    },
+    {
+      "player": "Dane Belton",
+      "reason": "Below pool cutoff (composite 0.15; PFF 2026 grade 68.2; sources nflverse_snaps_2026#9). Re-include on request."
+    },
+    {
+      "player": "Budda Baker",
+      "reason": "Below pool cutoff (composite 0.15; PFF 2026 grade n/a; sources nflverse_stats_2026#16). Re-include on request."
+    },
+    {
+      "player": "Tre'von Moehrig",
+      "reason": "Below pool cutoff (composite 0.14; PFF 2026 grade 63.7; sources nflverse_snaps_2026#10). Re-include on request."
+    },
+    {
+      "player": "Calen Bullock",
+      "reason": "Below pool cutoff (composite 0.13; PFF 2026 grade n/a; sources nflverse_snaps_2026#13, nflverse_stats_2026#20). Re-include on request."
+    },
+    {
+      "player": "Ronnie Hickman Jr.",
+      "reason": "Below pool cutoff (composite 0.12; PFF 2026 grade n/a; sources nflverse_snaps_2026#11). Re-include on request."
+    },
+    {
+      "player": "Ji'Ayir Brown",
+      "reason": "Below pool cutoff (composite 0.11; PFF 2026 grade 70.8; sources nflverse_snaps_2026#12). Re-include on request."
+    },
+    {
+      "player": "Jason Pinnock",
+      "reason": "Below pool cutoff (composite 0.10; PFF 2026 grade 72.8; sources pff_2026#19). Re-include on request."
+    },
+    {
+      "player": "Nick Emmanwori",
+      "reason": "Below pool cutoff (composite 0.09; PFF 2026 grade n/a; sources pff_2025#18). Re-include on request."
+    },
+    {
+      "player": "Grant Delpit",
+      "reason": "Below pool cutoff (composite 0.09; PFF 2026 grade n/a; sources nflverse_stats_2026#18). Re-include on request."
+    },
+    {
+      "player": "Caleb Downs",
+      "reason": "Below pool cutoff (composite 0.07; PFF 2026 grade 63.8; sources nflverse_snaps_2026#15). Re-include on request."
+    },
+    {
+      "player": "Justin Reid",
+      "reason": "Below pool cutoff (composite 0.06; PFF 2026 grade n/a; sources nflverse_snaps_2026#16). Re-include on request."
+    },
+    {
+      "player": "Craig Woodson",
+      "reason": "Below pool cutoff (composite 0.06; PFF 2026 grade n/a; sources pff_2025#19). Re-include on request."
+    },
+    {
+      "player": "Jaquan Brisker",
+      "reason": "Below pool cutoff (composite 0.05; PFF 2026 grade 60.1; sources nflverse_snaps_2026#17). Re-include on request."
+    },
+    {
+      "player": "Malaki Starks",
+      "reason": "Below pool cutoff (composite 0.04; PFF 2026 grade 60.8; sources nflverse_snaps_2026#18). Re-include on request."
+    },
+    {
+      "player": "Camryn Bynum",
+      "reason": "Below pool cutoff (composite 0.03; PFF 2026 grade n/a; sources nflverse_snaps_2026#19). Re-include on request."
+    },
+    {
+      "player": "Cole Bishop",
+      "reason": "Below pool cutoff (composite 0.01; PFF 2026 grade n/a; sources nflverse_snaps_2026#20). Re-include on request."
+    },
+    {
+      "player": "Ty Okada",
+      "reason": "PFF 72.0 (2025) / 56.8 on 239 (2026); hamstring"
+    },
+    {
+      "player": "R.J. Mickens",
+      "reason": "PFF 70.9 on 353 / 68.3 on 141 - limited sample"
+    },
+    {
+      "player": "Avonte Maddox",
+      "reason": "reserve; PFF 79.1 on 342 (2025) then 38.9 on 112 (2026)"
+    },
+    {
+      "player": "Jordan Poyer",
+      "reason": "free agent (unrostered 2026); PFF 68.6 on 451 (2025)"
+    },
+    {
+      "player": "Quandre Diggs",
+      "reason": "free agent (unrostered 2026); PFF 66.1 on 328 (2025), 148.4 passer rating allowed"
+    },
+    {
+      "player": "Theo Jackson",
+      "reason": "PFF 68.4 / 61.5"
+    },
+    {
+      "player": "Jalen Thompson",
+      "reason": "reserve; PFF 69.1 / 47.1"
+    }
+  ],
+  "old_lock_comparison": {
+    "note": "No SS lock exists (never locked; state PENDING). Compared against the approved shared safety candidate pool order (data/candidate-pools/SS.json).",
+    "legacy_names": [
+      "Jessie Bates",
+      "Kyle Hamilton",
+      "Evan Williams",
+      "Amani Hooker",
+      "Talanoa Hufanga",
+      "Derwin James",
+      "Zakee Wheatley",
+      "Christian Roland-Wallace",
+      "Jordan Battle",
+      "Marques Sigle"
+    ],
+    "in_proposed_top10": [
+      "Jessie Bates",
+      "Kyle Hamilton",
+      "Evan Williams",
+      "Talanoa Hufanga",
+      "Derwin James"
+    ],
+    "now_first_out": [
+      "Christian Roland-Wallace"
+    ],
+    "out": [
+      "Amani Hooker",
+      "Zakee Wheatley",
+      "Jordan Battle",
+      "Marques Sigle"
+    ]
+  },
+  "flags": {
+    "injured": [
+      "Derwin James (RES)",
+      "Talanoa Hufanga (INA)",
+      "Jaylinn Hawkins (INA)",
+      "Coby Bryant (RES)"
+    ],
+    "free_agents": [],
+    "limited_sample": [
+      "Brian Branch",
+      "Coby Bryant"
+    ],
+    "madden_side_differs": [
+      "Evan Williams (Madden card FS)",
+      "Jessie Bates (Madden card FS)",
+      "Antoine Winfield Jr. (Madden card FS)",
+      "Jaylinn Hawkins (Madden card FS)",
+      "Christian Roland-Wallace (Madden card FS)",
+      "Coby Bryant (Madden card FS)",
+      "Cooper DeJean (Madden card CB)"
+    ],
+    "data_gaps": [
+      "PFF coverage/run-defense/tackling sub-grades paywalled",
+      "PFF box/slot/deep alignment splits paywalled",
+      "no public safety tracking (range) data"
+    ]
+  },
+  "madden_reference": [
+    {
+      "player": "Kyle Hamilton",
+      "ovr": 94,
+      "madden_position": "SS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Evan Williams",
+      "ovr": 83,
+      "madden_position": "FS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Jessie Bates",
+      "ovr": 95,
+      "madden_position": "FS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Brian Branch",
+      "ovr": 91,
+      "madden_position": "SS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Derwin James",
+      "ovr": 93,
+      "madden_position": "SS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Antoine Winfield Jr.",
+      "ovr": 93,
+      "madden_position": "FS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Kamren Curl",
+      "ovr": 83,
+      "madden_position": "SS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Talanoa Hufanga",
+      "ovr": 89,
+      "madden_position": "SS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Tony Jefferson",
+      "ovr": 82,
+      "madden_position": "SS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Jaylinn Hawkins",
+      "ovr": 77,
+      "madden_position": "FS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Christian Roland-Wallace",
+      "ovr": 67,
+      "madden_position": "FS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Coby Bryant",
+      "ovr": 77,
+      "madden_position": "FS",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    },
+    {
+      "player": "Cooper DeJean",
+      "ovr": 84,
+      "madden_position": "CB",
+      "reference_only": true,
+      "used_as_evidence": false,
+      "source": "https://www.ea.com/games/madden-nfl/ratings"
+    }
+  ],
+  "madden_order_verified": false,
+  "early_inputs": [],
+  "external_controls": [],
+  "major_flags": [
+    "NO_PRIOR_LOCK",
+    "DATA_GAP: PFF sub-grades and alignment splits paywalled",
+    "FS_SS_SPLIT_BY_DEPTH_CHART"
+  ],
+  "locked_control_conflict": false
+}
+```
