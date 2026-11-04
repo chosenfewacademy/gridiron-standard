@@ -56,4 +56,4 @@ CONSISTENT: all 57 approved head-to-head/tiebreak verdicts agree with the final 
 
 ## Lock
 
-`reaudit:lock -- TE --dry-run` only: would write data/baselines/TE.reaudit-20261104.json as TE_REAUDIT_LOCK_20261104. Not locked.
+Locked (t45s395) as TE_REAUDIT_LOCK_20261104 -> data/baselines/TE.reaudit-20261104.json after the 9 variance fixes were approved (LaPorta also SRR 88 / AGI 88 for style separation from Hockenson).
