@@ -1,0 +1,358 @@
+{
+  "audit_id": "DT_REAUDIT_SCARCITY_A1",
+  "task_id": "DT_REAUDIT_SCARCITY",
+  "task_type": "scarcity_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jeffery Simmons",
+    "Cameron Heyward",
+    "Quinnen Williams",
+    "Zach Allen",
+    "Dexter Lawrence",
+    "Leonard Williams",
+    "Kobie Turner",
+    "Derrick Brown",
+    "Poona Ford",
+    "Alim McNeill"
+  ],
+  "scarcity": {
+    "rules": "config/scarcity-rules.json (90+ elite, 95+ rare league-defining, 97+ extraordinary, 99 historic)",
+    "traits_90_plus": [
+      {
+        "player": "Jeffery Simmons",
+        "attr": "STR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 6
+      },
+      {
+        "player": "Jeffery Simmons",
+        "attr": "AWR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Jeffery Simmons",
+        "attr": "PRC",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Jeffery Simmons",
+        "attr": "BSH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Jeffery Simmons",
+        "attr": "PMV",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Jeffery Simmons",
+        "attr": "FMV",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Jeffery Simmons",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Cameron Heyward",
+        "attr": "STR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 6
+      },
+      {
+        "player": "Cameron Heyward",
+        "attr": "AWR",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Cameron Heyward",
+        "attr": "PRC",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Cameron Heyward",
+        "attr": "TAK",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Cameron Heyward",
+        "attr": "BSH",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Cameron Heyward",
+        "attr": "STA",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Cameron Heyward",
+        "attr": "TGH",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Quinnen Williams",
+        "attr": "BSH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Zach Allen",
+        "attr": "PUR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Zach Allen",
+        "attr": "INJ",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Zach Allen",
+        "attr": "STA",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Zach Allen",
+        "attr": "TGH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Dexter Lawrence",
+        "attr": "STR",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 6
+      },
+      {
+        "player": "Dexter Lawrence",
+        "attr": "BSH",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Dexter Lawrence",
+        "attr": "PMV",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Leonard Williams",
+        "attr": "INJ",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Leonard Williams",
+        "attr": "STA",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Leonard Williams",
+        "attr": "TGH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Derrick Brown",
+        "attr": "STR",
+        "v": 94,
+        "tier": "ELITE",
+        "conf": "LOW",
+        "urls": 6
+      },
+      {
+        "player": "Derrick Brown",
+        "attr": "TAK",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Derrick Brown",
+        "attr": "BSH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Derrick Brown",
+        "attr": "INJ",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Derrick Brown",
+        "attr": "STA",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      },
+      {
+        "player": "Derrick Brown",
+        "attr": "TGH",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 6
+      }
+    ],
+    "count_90_plus": 31,
+    "count_95_plus": 0,
+    "count_97_plus": 0,
+    "count_99": 0,
+    "traits_95_plus": [],
+    "max_trait": "Cameron Heyward AWR 94 (ELITE)",
+    "all_90_plus_have_tiered_sourced_evidence": true,
+    "league_defining_basis": {},
+    "overall_90_plus": [
+      "Jeffery Simmons 93"
+    ],
+    "overall_spread": "93 to 79 across top 10; star tier Simmons 93 alone, then Heyward 88 - a 5-point gap #1 to #2 (Simmons is the only DT with 30+ PFR pressures, 10+ sacks and an 88+ PFF DI grade in 2025, plus an ESPN-ranked PRWR in 2026). No trait at 95+: no DT holds a league-defining single trait on 2025-26 evidence.",
+    "style_rule": {
+      "pairs_checked": 78,
+      "too_similar": 0,
+      "highest_corr": [
+        0.927,
+        4.12,
+        "Cameron Heyward",
+        "Leonard Williams"
+      ],
+      "min_mad": 3.25
+    },
+    "effective_ratings": {
+      "Jeffery Simmons": [
+        "DT_REAUDIT_RATE_01_A1",
+        93
+      ],
+      "Cameron Heyward": [
+        "DT_REAUDIT_RATE_02_A1",
+        88
+      ],
+      "Quinnen Williams": [
+        "DT_REAUDIT_RATE_03_A1",
+        87
+      ],
+      "Zach Allen": [
+        "DT_REAUDIT_RATE_04_A1",
+        86
+      ],
+      "Dexter Lawrence": [
+        "DT_REAUDIT_RATE_05_A1",
+        85
+      ],
+      "Leonard Williams": [
+        "DT_REAUDIT_RATE_06_A1",
+        84
+      ],
+      "Kobie Turner": [
+        "DT_REAUDIT_RATE_07_A1",
+        82
+      ],
+      "Derrick Brown": [
+        "DT_REAUDIT_RATE_08_A2",
+        81
+      ],
+      "Poona Ford": [
+        "DT_REAUDIT_RATE_09_A1",
+        80
+      ],
+      "Alim McNeill": [
+        "DT_REAUDIT_RATE_10_A2",
+        79
+      ],
+      "Jalen Redmond": [
+        "DT_REAUDIT_RATE_11_A1",
+        78
+      ],
+      "Travis Jones": [
+        "DT_REAUDIT_RATE_12_A1",
+        77
+      ],
+      "DJ Reader": [
+        "DT_REAUDIT_RATE_13_A1",
+        76
+      ]
+    },
+    "note_for_commissioner": "0 trait(s) at 95+ (; no 97+), each tiered and sourced.",
+    "result": "PASS: 0 95+ traits, all tiered (LEAGUE_DEFINING/EXTRAORDINARY) with sources; 31 90+ traits all tiered; overalls 90+: Jeffery Simmons 93; style rule 78 pairs, 0 too similar"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}

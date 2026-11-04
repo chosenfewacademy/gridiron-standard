@@ -8694,7 +8694,7 @@
         "position": "DT",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/DT.reaudit.json",
       "baseline_file": null,
@@ -8787,19 +8787,23 @@
         "DT_REAUDIT_TIEBREAK_06_A1",
         "DT_REAUDIT_VARIANCE_AUDIT_A1",
         "DT_REAUDIT_RATE_08_A2",
-        "DT_REAUDIT_RATE_10_A2"
+        "DT_REAUDIT_RATE_10_A2",
+        "DT_REAUDIT_SCARCITY_A1"
       ],
-      "current_stage": "variance_audit",
-      "current_task": "DT_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T11:24:47.513Z",
+      "current_stage": "scarcity_audit",
+      "current_task": "DT_REAUDIT_SCARCITY",
+      "updated_at": "2026-11-04T11:25:00.205Z",
       "last_result": {
-        "task_id": "DT_REAUDIT_RATE_10",
-        "status": "REVISION_APPROVED",
-        "audit_id": "DT_REAUDIT_RATE_10_A2",
-        "supersedes": "DT_REAUDIT_RATE_10_A1",
+        "task_id": "DT_REAUDIT_SCARCITY",
+        "status": "VALIDATED",
+        "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "DT_REAUDIT_SCARCITY",
+        "audit_id": "DT_REAUDIT_SCARCITY_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
