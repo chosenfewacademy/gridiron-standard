@@ -7676,7 +7676,7 @@
         "position": "REDGE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/REDGE.reaudit.json",
       "baseline_file": null,
@@ -7765,19 +7765,23 @@
         "REDGE_REAUDIT_TIEBREAK_04_A1",
         "REDGE_REAUDIT_VARIANCE_AUDIT_A1",
         "REDGE_REAUDIT_RATE_02_A2",
-        "REDGE_REAUDIT_RATE_07_A2"
+        "REDGE_REAUDIT_RATE_07_A2",
+        "REDGE_REAUDIT_SCARCITY_A1"
       ],
-      "current_stage": "variance_audit",
-      "current_task": "REDGE_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T04:38:08.514Z",
+      "current_stage": "scarcity_audit",
+      "current_task": "REDGE_REAUDIT_SCARCITY",
+      "updated_at": "2026-11-04T04:38:28.138Z",
       "last_result": {
-        "task_id": "REDGE_REAUDIT_RATE_07",
-        "status": "REVISION_APPROVED",
-        "audit_id": "REDGE_REAUDIT_RATE_07_A2",
-        "supersedes": "REDGE_REAUDIT_RATE_07_A1",
+        "task_id": "REDGE_REAUDIT_SCARCITY",
+        "status": "VALIDATED",
+        "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "REDGE_REAUDIT_SCARCITY",
+        "audit_id": "REDGE_REAUDIT_SCARCITY_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
