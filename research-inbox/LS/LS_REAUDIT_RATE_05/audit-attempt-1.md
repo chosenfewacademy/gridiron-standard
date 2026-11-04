@@ -1,0 +1,250 @@
+# LS_REAUDIT_RATE_05 — Austin Brinkman rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "LS_REAUDIT_RATE_05_A1",
+  "task_id": "LS_REAUDIT_RATE_05",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LS",
+  "player_id": "ext_00-0040409",
+  "players": [
+    "Austin Brinkman"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "AWR": 82,
+    "STR": 71,
+    "RBK": 54,
+    "PBK": 46,
+    "SPD": 66,
+    "TAK": 48,
+    "INJ": 90,
+    "STA": 78,
+    "TGH": 74
+  },
+  "trait_confidence": {
+    "AWR": "MEDIUM",
+    "STR": "LOW",
+    "RBK": "LOW",
+    "PBK": "LOW",
+    "SPD": "LOW",
+    "TAK": "LOW",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "AWR": {
+      "basis": "Judgment (snapping): 2025 snaps on 52 FG attempts (48 made), 30 XP, 72 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps; 2025 17 g / 155 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 11.5 (rank 7); 2026 snaps on 16 FG attempts (15 made), 16 XP, 29 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps; 2026 7 g / 63 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 4.5 (rank 9). Style: Accurate FG unit: 48 of 52 FG on his snaps in 2025, unit points 11.5 / 4.5, 0 aborted snaps.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (protection): 2025 snaps on 52 FG attempts (48 made), 30 XP, 72 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps; 2026 snaps on 16 FG attempts (15 made), 16 XP, 29 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps (blocks on his snaps are the only public protection proxy). Style: Accurate FG unit: 48 of 52 FG on his snaps in 2025, unit points 11.5 / 4.5, 0 aborted snaps.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (protection): 2025 snaps on 52 FG attempts (48 made), 30 XP, 72 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps; 2026 snaps on 16 FG attempts (15 made), 16 XP, 29 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps (blocks on his snaps are the only public protection proxy). Style: Accurate FG unit: 48 of 52 FG on his snaps in 2025, unit points 11.5 / 4.5, 0 aborted snaps.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (protection): 2025 snaps on 52 FG attempts (48 made), 30 XP, 72 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps; 2026 snaps on 16 FG attempts (15 made), 16 XP, 29 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps (blocks on his snaps are the only public protection proxy). Style: Accurate FG unit: 48 of 52 FG on his snaps in 2025, unit points 11.5 / 4.5, 0 aborted snaps.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (coverage): 2025 17 g / 155 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 11.5 (rank 7); 2026 7 g / 63 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 4.5 (rank 9). Style: Accurate FG unit: 48 of 52 FG on his snaps in 2025, unit points 11.5 / 4.5, 0 aborted snaps.",
+      "why_not_higher": "Listed weakness area: 1 block on his snaps in 2025, coverage (1 tackle)",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (coverage): 2025 17 g / 155 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 11.5 (rank 7); 2026 7 g / 63 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 4.5 (rank 9). Style: Accurate FG unit: 48 of 52 FG on his snaps in 2025, unit points 11.5 / 4.5, 0 aborted snaps.",
+      "why_not_higher": "Listed weakness area: 1 block on his snaps in 2025, coverage (1 tackle)",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Austin Brinkman injury reports: no injury designation 2025-26; roster status ACT; 2025 17 g / 155 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 11.5 (rank 7); 2026 7 g / 63 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 4.5 (rank 9). Style: Accurate FG unit: 48 of 52 FG on his snaps in 2025, unit points 11.5 / 4.5, 0 aborted snaps.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 2025 17 g / 155 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 11.5 (rank 7); 2026 7 g / 63 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 4.5 (rank 9). Style: Accurate FG unit: 48 of 52 FG on his snaps in 2025, unit points 11.5 / 4.5, 0 aborted snaps.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 2025 17 g / 155 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 11.5 (rank 7); 2026 7 g / 63 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 4.5 (rank 9). Style: Accurate FG unit: 48 of 52 FG on his snaps in 2025, unit points 11.5 / 4.5, 0 aborted snaps.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Austin Brinkman injury reports: no injury designation 2025-26; roster status ACT; 2025 17 g / 155 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 11.5 (rank 7); 2026 7 g / 63 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 4.5 (rank 9)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    }
+  },
+  "proposed_ovr": 72,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Accurate FG unit: 48 of 52 FG on his snaps in 2025, unit points 11.5 / 4.5, 0 aborted snaps.",
+  "style_profile": "Austin Brinkman: Accurate FG unit: 48 of 52 FG on his snaps in 2025, unit points 11.5 / 4.5, 0 aborted snaps.",
+  "style_evidence": [
+    "Austin Brinkman (HOU) Austin Brinkman 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 7 g / 63 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 4.5 (rank 9); 0 accepted penalties",
+    "Austin Brinkman 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 155 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 11.5 (rank 7); 0 accepted penalties",
+    "Austin Brinkman role: long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS (LONG SNAPPER ROLE CONVENTION (t46u): rated as LS = nflverse roster position LS with 2025-26 special-teams snaps; matched...); roster position LS; Madden card LS (reference only)",
+    "Austin Brinkman injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "LS_REAUDIT_BG_05_A1",
+  "weaknesses": [
+    "1 block on his snaps in 2025",
+    "coverage (1 tackle)"
+  ],
+  "limitations": [
+    "THIN DATA: no public PFF long-snapper grade and no public snap-accuracy charting; substitutes: aborted/bad snaps parsed from nflverse pbp text, blocks on his snaps, FG make rate on his snaps, FootballKickingStats unit points (whole-unit credit), coverage tackles, penalties, availability"
+  ],
+  "role_assignment": "LS (long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS)",
+  "madden_reference": [
+    {
+      "player": "Austin Brinkman",
+      "ovr": 65,
+      "madden_position": "LS",
+      "attributes": {
+        "AWR": 50,
+        "STR": 65,
+        "RBK": 49,
+        "PBK": 53,
+        "SPD": 70,
+        "TAK": 54,
+        "INJ": 89,
+        "STA": 75,
+        "TGH": 80
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 7,
+      "delta_attributes": {
+        "AWR": 32,
+        "STR": 6,
+        "RBK": 5,
+        "PBK": -7,
+        "SPD": -4,
+        "TAK": -6,
+        "INJ": 1,
+        "STA": 3,
+        "TGH": -6
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 7,
+    "attribute_gaps_10plus": {
+      "AWR": 32
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
