@@ -1,0 +1,177 @@
+{
+  "position": "DT",
+  "version": "reaudit-20261104",
+  "architecture_version": "1.1.3",
+  "status": "LOCKED",
+  "top_10": [
+    {
+      "rank": 1,
+      "player": "Jeffery Simmons",
+      "ovr": 93
+    },
+    {
+      "rank": 2,
+      "player": "Cameron Heyward",
+      "ovr": 88
+    },
+    {
+      "rank": 3,
+      "player": "Quinnen Williams",
+      "ovr": 87
+    },
+    {
+      "rank": 4,
+      "player": "Zach Allen",
+      "ovr": 86
+    },
+    {
+      "rank": 5,
+      "player": "Dexter Lawrence",
+      "ovr": 85
+    },
+    {
+      "rank": 6,
+      "player": "Leonard Williams",
+      "ovr": 84
+    },
+    {
+      "rank": 7,
+      "player": "Kobie Turner",
+      "ovr": 82
+    },
+    {
+      "rank": 8,
+      "player": "Derrick Brown",
+      "ovr": 81
+    },
+    {
+      "rank": 9,
+      "player": "Poona Ford",
+      "ovr": 80
+    },
+    {
+      "rank": 10,
+      "player": "Alim McNeill",
+      "ovr": 79
+    }
+  ],
+  "last_in": {
+    "player": "Alim McNeill",
+    "ovr": 79
+  },
+  "first_out": {
+    "player": "Jalen Redmond",
+    "ovr": 78
+  },
+  "external_controls": [
+    {
+      "player": "Jalen Redmond",
+      "ovr": 78
+    },
+    {
+      "player": "Travis Jones",
+      "ovr": 77
+    },
+    {
+      "player": "DJ Reader",
+      "ovr": 76
+    }
+  ],
+  "supersedes": null,
+  "first_lock": true,
+  "control_source": "APPROVED_CANDIDATE_POOL",
+  "stage_audit_ids": [
+    "DT_REAUDIT_CANDIDATE_AUDIT_A1",
+    "DT_REAUDIT_BG_01_A1",
+    "DT_REAUDIT_BG_02_A1",
+    "DT_REAUDIT_BG_03_A1",
+    "DT_REAUDIT_BG_04_A1",
+    "DT_REAUDIT_BG_05_A1",
+    "DT_REAUDIT_BG_06_A1",
+    "DT_REAUDIT_BG_07_A1",
+    "DT_REAUDIT_BG_08_A1",
+    "DT_REAUDIT_BG_09_A1",
+    "DT_REAUDIT_BG_10_A1",
+    "DT_REAUDIT_BG_11_A1",
+    "DT_REAUDIT_BG_12_A1",
+    "DT_REAUDIT_BG_13_A1",
+    "DT_REAUDIT_RATE_01_A1",
+    "DT_REAUDIT_RATE_02_A1",
+    "DT_REAUDIT_RATE_03_A1",
+    "DT_REAUDIT_RATE_04_A1",
+    "DT_REAUDIT_RATE_05_A1",
+    "DT_REAUDIT_RATE_06_A1",
+    "DT_REAUDIT_RATE_07_A1",
+    "DT_REAUDIT_RATE_08_A1",
+    "DT_REAUDIT_RATE_09_A1",
+    "DT_REAUDIT_RATE_10_A1",
+    "DT_REAUDIT_RATE_11_A1",
+    "DT_REAUDIT_RATE_12_A1",
+    "DT_REAUDIT_RATE_13_A1",
+    "DT_REAUDIT_H2H_01_A1",
+    "DT_REAUDIT_H2H_02_A1",
+    "DT_REAUDIT_H2H_03_A1",
+    "DT_REAUDIT_H2H_04_A1",
+    "DT_REAUDIT_H2H_05_A1",
+    "DT_REAUDIT_H2H_06_A1",
+    "DT_REAUDIT_TIEBREAK_01_A1",
+    "DT_REAUDIT_TIEBREAK_02_A1",
+    "DT_REAUDIT_TIEBREAK_03_A1",
+    "DT_REAUDIT_TIEBREAK_04_A1",
+    "DT_REAUDIT_TIEBREAK_05_A1",
+    "DT_REAUDIT_TIEBREAK_06_A1",
+    "DT_REAUDIT_VARIANCE_AUDIT_A1",
+    "DT_REAUDIT_RATE_08_A2",
+    "DT_REAUDIT_RATE_10_A2",
+    "DT_REAUDIT_SCARCITY_A1",
+    "DT_REAUDIT_TIEBREAK_07_A1",
+    "DT_REAUDIT_TIEBREAK_08_A1",
+    "DT_REAUDIT_TIEBREAK_09_A1",
+    "DT_REAUDIT_TIEBREAK_10_A1",
+    "DT_REAUDIT_TIEBREAK_11_A1",
+    "DT_REAUDIT_TIEBREAK_12_A1",
+    "DT_REAUDIT_TIEBREAK_13_A1",
+    "DT_REAUDIT_TIEBREAK_14_A1",
+    "DT_REAUDIT_TIEBREAK_15_A1",
+    "DT_REAUDIT_TIEBREAK_16_A1",
+    "DT_REAUDIT_TIEBREAK_17_A1",
+    "DT_REAUDIT_TIEBREAK_18_A1",
+    "DT_REAUDIT_TIEBREAK_19_A1",
+    "DT_REAUDIT_TIEBREAK_20_A1",
+    "DT_REAUDIT_TIEBREAK_21_A1",
+    "DT_REAUDIT_TIEBREAK_22_A1",
+    "DT_REAUDIT_TIEBREAK_23_A1",
+    "DT_REAUDIT_TIEBREAK_24_A1",
+    "DT_REAUDIT_TIEBREAK_25_A1",
+    "DT_REAUDIT_TIEBREAK_26_A1",
+    "DT_REAUDIT_TIEBREAK_27_A1",
+    "DT_REAUDIT_TIEBREAK_28_A1",
+    "DT_REAUDIT_TIEBREAK_29_A1",
+    "DT_REAUDIT_TIEBREAK_30_A1",
+    "DT_REAUDIT_TIEBREAK_31_A1",
+    "DT_REAUDIT_TIEBREAK_32_A1",
+    "DT_REAUDIT_TIEBREAK_33_A1",
+    "DT_REAUDIT_TIEBREAK_34_A1",
+    "DT_REAUDIT_TIEBREAK_35_A1",
+    "DT_REAUDIT_TIEBREAK_36_A1",
+    "DT_REAUDIT_TIEBREAK_37_A1",
+    "DT_REAUDIT_TIEBREAK_38_A1",
+    "DT_REAUDIT_TIEBREAK_39_A1",
+    "DT_REAUDIT_TIEBREAK_40_A1",
+    "DT_REAUDIT_TIEBREAK_41_A1",
+    "DT_REAUDIT_TIEBREAK_42_A1",
+    "DT_REAUDIT_TIEBREAK_43_A1",
+    "DT_REAUDIT_TIEBREAK_44_A1",
+    "DT_REAUDIT_TIEBREAK_45_A1",
+    "DT_REAUDIT_TIEBREAK_46_A1",
+    "DT_REAUDIT_TIEBREAK_47_A1",
+    "DT_REAUDIT_TIEBREAK_48_A1",
+    "DT_REAUDIT_TIEBREAK_49_A1",
+    "DT_REAUDIT_TIEBREAK_50_A1",
+    "DT_REAUDIT_TIEBREAK_51_A1",
+    "DT_REAUDIT_CROSS_AUDIT_A1"
+  ],
+  "madden_order_verified": false,
+  "locked_by": "PhiXCrypto",
+  "locked_at": "2026-11-04T11:29:29Z"
+}
