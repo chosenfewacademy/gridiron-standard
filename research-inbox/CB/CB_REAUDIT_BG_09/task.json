@@ -1,0 +1,117 @@
+{
+  "task_id": "CB_REAUDIT_BG_09",
+  "type": "background_analysis",
+  "players": [
+    "Ja'Quan McMillian"
+  ],
+  "player_id": "ext_00-0037384",
+  "team": "DEN",
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Devon Witherspoon"
+      },
+      {
+        "rank": 2,
+        "player": "Trent McDuffie"
+      },
+      {
+        "rank": 3,
+        "player": "Denzel Ward"
+      },
+      {
+        "rank": 4,
+        "player": "Jamel Dean"
+      },
+      {
+        "rank": 5,
+        "player": "Isaiah Rodgers"
+      },
+      {
+        "rank": 6,
+        "player": "Jaylen Watson"
+      },
+      {
+        "rank": 7,
+        "player": "Quinyon Mitchell"
+      },
+      {
+        "rank": 8,
+        "player": "Mike Jackson"
+      },
+      {
+        "rank": 9,
+        "player": "Ja'Quan McMillian"
+      },
+      {
+        "rank": 10,
+        "player": "Jacob Parrish"
+      }
+    ],
+    "external_controls": [
+      "James Pierre",
+      "DJ Turner II",
+      "Josh Wallace"
+    ]
+  },
+  "position": "CB",
+  "stage": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 16,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "coverage",
+      "run defense",
+      "tackling",
+      "grade vs man/zone",
+      "forced incompletion rate"
+    ],
+    "position_stats": [
+      "INT, PBU",
+      "targets, receptions allowed, yards allowed, TD allowed",
+      "tackles, missed tackles"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (outside/slot/box/deep)",
+      "man vs zone snap share",
+      "coverage snaps"
+    ],
+    "on_field_impact": [
+      "passer rating allowed",
+      "yards per coverage snap",
+      "EPA allowed per target"
+    ],
+    "madden_attributes_informed": [
+      "MCV",
+      "ZCV",
+      "PRS",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "PRC",
+      "TAK",
+      "HIT",
+      "PUR",
+      "CTH",
+      "JMP",
+      "AWR"
+    ],
+    "note": "Outside vs slot alignment documented; slot-heavy players flagged."
+  }
+}

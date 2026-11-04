@@ -1,0 +1,202 @@
+{
+  "audit_id": "CB_REAUDIT_BG_09_A1",
+  "task_id": "CB_REAUDIT_BG_09",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "CB",
+  "player_id": "ext_00-0037384",
+  "players": [
+    "Ja'Quan McMillian"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Ja'Quan McMillian",
+    "player_id": "ext_00-0037384",
+    "team": "DEN",
+    "role_assignment": "CB (single list)",
+    "side_rule": "CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/grades/nfl/cb) in the current 2026 season (2025 if no 2026 snaps); outside and slot corners compete in the same list; a player PFF grades at S in 2026 (e.g. Cooper DeJean) belongs to the safety list. Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "denver-broncos",
+        "ovr": 80.8,
+        "snaps": 826,
+        "rank": 4,
+        "rdef": 198,
+        "cov": 588
+      },
+      "2026": {
+        "team": "denver-broncos",
+        "ovr": 66.8,
+        "snaps": 372,
+        "rank": 33,
+        "rdef": 97,
+        "cov": 263
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "DEN",
+        "pos": "CB",
+        "g": "17",
+        "tgt": "79",
+        "cmp": "47",
+        "yds": "467",
+        "td": "2",
+        "rat": "74.2",
+        "int": "2",
+        "comb": "56",
+        "m_tkl": "5"
+      },
+      "2026": {
+        "def_targets": 33,
+        "def_completions_allowed": 17,
+        "def_yards_allowed": 250,
+        "def_ints": 1,
+        "def_receiving_td_allowed": 0,
+        "def_tackles_combined": 21,
+        "def_missed_tackles": 6,
+        "g": 7
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 742
+      },
+      "2026": {
+        "games": 8,
+        "defs": 372
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 40,
+        "def_tackle_assists": 16,
+        "def_tackles_for_loss": 5,
+        "def_fumbles_forced": 2,
+        "def_sacks": 4,
+        "def_qb_hits": 4,
+        "def_pass_defended": 9,
+        "def_interceptions": 2
+      },
+      "2026": {
+        "def_tackles_solo": 18,
+        "def_tackle_assists": 7,
+        "def_tackles_for_loss": 2,
+        "def_fumbles_forced": 0,
+        "def_sacks": 2,
+        "def_qb_hits": 3,
+        "def_pass_defended": 7,
+        "def_interceptions": 1
+      }
+    },
+    "penalties": {
+      "2025": 2,
+      "2026": 0
+    },
+    "injuries": {},
+    "summary_lines": [
+      "Ja'Quan McMillian (DEN) Ja'Quan McMillian 2026: PFF CB 2026 overall 66.8 on 372 snaps (CB rank 33; 263 coverage / 97 run-def snaps); PFR 2026 (7 games) coverage 33 targets / 17 completions / 250 yds / 0 TD / 1 INT; 21 tackles, 6 missed; 8 g / 372 def snaps; 18 solo + 7 ast tackles, 2 TFL, 1 INT, 7 PD, 0 FF; 0 accepted penalties",
+      "Ja'Quan McMillian 2025: PFF CB 2025 overall 80.8 on 826 snaps (CB rank 4; 588 coverage / 198 run-def snaps); PFR 2025 coverage 79 targets / 47 completions / 467 yds / 2 TD / passer rating 74.2 / 2 INT; 56 tackles, 5 missed; 17 g / 742 def snaps; 40 solo + 16 ast tackles, 5 TFL, 2 INT, 9 PD, 2 FF; 2 accepted penalties",
+      "Ja'Quan McMillian role: single CB list (no outside/slot split); roster position DB (CB BUCKET (t46u): one cornerback list, no outside/slot or left/right split. CB-eligible = graded by PFF as CB (pff.com/g...); roster position DB; Madden card CB (reference only)",
+      "Ja'Quan McMillian injury reports: no injury designation 2025-26; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF coverage/run-defense/tackling sub-grades and slot/outside splits are paywalled; no public tracking data for CB speed or separation; substitutes: PFF CB overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "CTH",
+      "JMP",
+      "TAK",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/cb/2026",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/cb/2025",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:05:17Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
