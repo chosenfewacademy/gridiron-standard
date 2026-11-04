@@ -1,0 +1,40 @@
+# LT_REAUDIT_H2H_04 — Alaric Jackson vs Bernhard Raimann (v1.1.2 head-to-head; authorized by t45s407)
+
+```json
+{
+  "audit_id": "LT_REAUDIT_H2H_04_A1",
+  "task_id": "LT_REAUDIT_H2H_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Alaric Jackson",
+    "Bernhard Raimann"
+  ],
+  "pair_result": {
+    "winner": "Alaric Jackson",
+    "loser": "Bernhard Raimann",
+    "provisional_order_holds": true,
+    "reasoning": "Jackson leads 2025 PFF (84.2 vs 82.0) on the heaviest workload in the group (1,265 snaps, 513 run-block) and 2025 discipline (3 vs 7 penalties). Raimann leads 2026 PFF (76.5 vs 75.4), ESPN RBWR (81% #7 vs unlisted) and 2026 discipline (1 vs 4). Jackson narrowly on two-year body of work. Order holds.",
+    "key_evidence_for_winner": [
+      "Alaric Jackson (LA) ESPN 2026 win rates (thru Wk 7): not in ESPN OT top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'LT': 221}; roster ACT",
+      "Alaric Jackson 2026: PFF 75.4 (rank 14; 310 pass-block/188 run-block of 498 snaps); 7 g/498 snaps; penalties 4; injuries none",
+      "Alaric Jackson 2025: PFF 84.2 (rank 8; 752 pass-block/513 run-block of 1265 snaps); 16 g/1051 snaps; penalties 3; injuries ['wk17 Questionable (Knee)', 'wk18 Questionable (Knee)']"
+    ],
+    "key_evidence_for_loser": [
+      "Bernhard Raimann (IND) ESPN 2026 win rates (thru Wk 7): RBWR 81%; depth-chart side 2026 {'LT': 225}; roster ACT",
+      "Bernhard Raimann 2026: PFF 76.5 (rank 13; 309 pass-block/208 run-block of 517 snaps); 8 g/517 snaps; penalties 1; injuries none",
+      "Bernhard Raimann 2025: PFF 82.0 (rank 11; 590 pass-block/395 run-block of 986 snaps); 16 g/985 snaps; penalties 7; injuries ['wk16 Out (Elbow)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
