@@ -1,0 +1,40 @@
+# C_REAUDIT_H2H_06 — Jake Brendel vs Cooper Beebe (v1.1.2 head-to-head; authorized by t46u/t50s441)
+
+```json
+{
+  "audit_id": "C_REAUDIT_H2H_06_A1",
+  "task_id": "C_REAUDIT_H2H_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "C",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Jake Brendel",
+    "Cooper Beebe"
+  ],
+  "pair_result": {
+    "winner": "Jake Brendel",
+    "loser": "Cooper Beebe",
+    "provisional_order_holds": true,
+    "reasoning": "Cut line. Brendel: PFF 71.4/69.5, PBWR 93%, 0 penalties in 2026, 15 games in 2025. Beebe: 67.8/69.1, PBWR 92%, 11 games in 2025. Brendel's better 2025 decides it; Beebe's youth does not.",
+    "key_evidence_for_winner": [
+      "Jake Brendel (SF) ESPN 2026 win rates (thru Wk 8): IOL PBWR 93%; depth-chart side 2026 {'C': 226}; roster ACT",
+      "Jake Brendel 2026: PFF 69.5 (rank 6; 244 pass-block/173 run-block of 417 snaps); 7 g/417 snaps; penalties 0; injuries none",
+      "Jake Brendel 2025: PFF 71.4 (rank 8; 652 pass-block/414 run-block of 1066 snaps); 15 g/950 snaps; penalties 3; injuries ['wk8 Out (Hamstring)', 'wk9 Out (Hamstring)']"
+    ],
+    "key_evidence_for_loser": [
+      "Cooper Beebe (DAL) ESPN 2026 win rates (thru Wk 8): IOL PBWR 92%; depth-chart side 2026 {'C': 226}; roster ACT",
+      "Cooper Beebe 2026: PFF 69.1 (rank 8; 357 pass-block/188 run-block of 545 snaps); 8 g/545 snaps; penalties 0; injuries none",
+      "Cooper Beebe 2025: PFF 67.8 (rank 16; 484 pass-block/283 run-block of 767 snaps); 11 g/767 snaps; penalties 1; injuries ['wk8 Questionable (Ankle)', 'wk9 Questionable (Ankle)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
