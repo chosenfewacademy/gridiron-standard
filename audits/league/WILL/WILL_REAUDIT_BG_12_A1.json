@@ -1,0 +1,222 @@
+{
+  "audit_id": "WILL_REAUDIT_BG_12_A1",
+  "task_id": "WILL_REAUDIT_BG_12",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "player_id": "ext_00-0038922",
+  "players": [
+    "Drake Thomas"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Drake Thomas",
+    "player_id": "ext_00-0038922",
+    "team": "SEA",
+    "role_assignment": {
+      "WILL25": 193,
+      "SAM25": 28,
+      "WILL26": 275,
+      "MIKE": 0,
+      "WILL": 1003.2,
+      "SAM": 96.8,
+      "EDGE": 0,
+      "assign": "WILL"
+    },
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "seattle-seahawks",
+        "ovr": 72.9,
+        "snaps": 871,
+        "rank": 23,
+        "rdef": 315,
+        "prsh": 80,
+        "cov": 476
+      },
+      "2026": {
+        "team": "seattle-seahawks",
+        "ovr": 59.9,
+        "snaps": 336,
+        "rank": 48,
+        "rdef": 143,
+        "prsh": 20,
+        "cov": 173
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "SEA",
+        "pos": "LB",
+        "g": "17",
+        "tgt": "59",
+        "cmp": "41",
+        "yds": "409",
+        "rat": "81.8",
+        "int": "1",
+        "bltz": "41",
+        "prss": "7",
+        "sk": "3.5",
+        "comb": "96",
+        "m_tkl": "13"
+      },
+      "2026": {
+        "def_targets": 17,
+        "def_completions_allowed": 10,
+        "def_yards_allowed": 83,
+        "def_ints": 1,
+        "def_times_blitzed": 7,
+        "def_pressures": 4,
+        "def_sacks": 1,
+        "def_tackles_combined": 35,
+        "def_missed_tackles": 4,
+        "g": 5
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 764
+      },
+      "2026": {
+        "games": 6,
+        "defs": 336
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 45,
+        "def_tackle_assists": 49,
+        "def_tackles_for_loss": 10,
+        "def_fumbles_forced": 0,
+        "def_sacks": 3.5,
+        "def_qb_hits": 6,
+        "def_pass_defended": 8,
+        "def_interceptions": 1
+      },
+      "2026": {
+        "def_tackles_solo": 20,
+        "def_tackle_assists": 15,
+        "def_tackles_for_loss": 4,
+        "def_fumbles_forced": 1,
+        "def_sacks": 1,
+        "def_qb_hits": 2,
+        "def_pass_defended": 1,
+        "def_interceptions": 1
+      }
+    },
+    "penalties": {
+      "2025": 1,
+      "2026": 0
+    },
+    "injuries": {
+      "2026": [
+        "wk6 Out (Ankle)",
+        "wk7 Out (Ankle)"
+      ]
+    },
+    "summary_lines": [
+      "Drake Thomas (SEA) Drake Thomas 2026: PFF LB 2026 overall 59.9 on 336 snaps (LB rank 48; 143 run-def / 173 coverage / 20 pass-rush snaps); PFR 2026 (5 games) coverage 17 targets / 10 completions / 83 yds / 1 INT; 35 tackles, 4 missed; 4 pressures on 7 blitzes; 6 g / 336 def snaps; 20 solo + 15 ast tackles, 4 TFL, 1.0 sacks, 1 INT, 1 PD, 1 FF; 0 accepted penalties",
+      "Drake Thomas 2025: PFF LB 2025 overall 72.9 on 871 snaps (LB rank 23; 315 run-def / 476 coverage / 80 pass-rush snaps); PFR 2025 coverage 59 targets / 41 completions / 409 yds / passer rating 81.8 / 1 INT; 96 tackles, 13 missed; 7 pressures on 41 blitzes, 3.5 sacks; 17 g / 764 def snaps; 45 solo + 49 ast tackles, 10 TFL, 3.5 sacks, 1 INT, 8 PD, 0 FF; 1 accepted penalties",
+      "Drake Thomas role: snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 1003 / SAM 97 / edge 0 (raw snapshots WILL25 193, SAM25 28, WILL26 275) -> WILL (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card WILL (reference only)",
+      "Drake Thomas injury reports: wk6 Out (Ankle); wk7 Out (Ankle); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PUR",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2026",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2025",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:39Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
