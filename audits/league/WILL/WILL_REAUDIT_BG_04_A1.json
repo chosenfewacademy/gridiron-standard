@@ -1,0 +1,222 @@
+{
+  "audit_id": "WILL_REAUDIT_BG_04_A1",
+  "task_id": "WILL_REAUDIT_BG_04",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "WILL",
+  "player_id": "ext_00-0036409",
+  "players": [
+    "Jordyn Brooks"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Jordyn Brooks",
+    "player_id": "ext_00-0036409",
+    "team": "MIA",
+    "role_assignment": {
+      "WILL25": 220,
+      "MIKE25": 1,
+      "WILL26": 275,
+      "MIKE": 4.5,
+      "WILL": 1384.5,
+      "SAM": 0,
+      "EDGE": 0,
+      "assign": "WILL"
+    },
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "miami-dolphins",
+        "ovr": 77.9,
+        "snaps": 985,
+        "rank": 11,
+        "rdef": 415,
+        "prsh": 83,
+        "cov": 487
+      },
+      "2026": {
+        "team": "miami-dolphins",
+        "ovr": 67.3,
+        "snaps": 405,
+        "rank": 26,
+        "rdef": 184,
+        "prsh": 29,
+        "cov": 192
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "MIA",
+        "pos": "LB",
+        "g": "17",
+        "tgt": "86",
+        "cmp": "66",
+        "yds": "665",
+        "rat": "109.9",
+        "int": "0",
+        "bltz": "33",
+        "prss": "7",
+        "sk": "3.5",
+        "comb": "183",
+        "m_tkl": "10"
+      },
+      "2026": {
+        "def_targets": 24,
+        "def_completions_allowed": 18,
+        "def_yards_allowed": 161,
+        "def_ints": 0,
+        "def_times_blitzed": 15,
+        "def_pressures": 1,
+        "def_sacks": 0,
+        "def_tackles_combined": 52,
+        "def_missed_tackles": 0,
+        "g": 6
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 984
+      },
+      "2026": {
+        "games": 7,
+        "defs": 405
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 96,
+        "def_tackle_assists": 84,
+        "def_tackles_for_loss": 13,
+        "def_fumbles_forced": 1,
+        "def_sacks": 3.5,
+        "def_qb_hits": 4,
+        "def_pass_defended": 3,
+        "def_interceptions": 0
+      },
+      "2026": {
+        "def_tackles_solo": 28,
+        "def_tackle_assists": 35,
+        "def_tackles_for_loss": 2,
+        "def_fumbles_forced": 0,
+        "def_sacks": 0,
+        "def_qb_hits": 1,
+        "def_pass_defended": 1,
+        "def_interceptions": 0
+      }
+    },
+    "penalties": {
+      "2025": 3,
+      "2026": 0
+    },
+    "injuries": {
+      "2025": [
+        "wk16 Questionable (Foot)",
+        "wk18 Questionable (Hamstring)"
+      ]
+    },
+    "summary_lines": [
+      "Jordyn Brooks (MIA) Jordyn Brooks 2026: PFF LB 2026 overall 67.3 on 405 snaps (LB rank 26; 184 run-def / 192 coverage / 29 pass-rush snaps); PFR 2026 (6 games) coverage 24 targets / 18 completions / 161 yds / 0 INT; 52 tackles, 0 missed; 1 pressures on 15 blitzes; 7 g / 405 def snaps; 28 solo + 35 ast tackles, 2 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 0 accepted penalties",
+      "Jordyn Brooks 2025: PFF LB 2025 overall 77.9 on 985 snaps (LB rank 11; 415 run-def / 487 coverage / 83 pass-rush snaps); PFR 2025 coverage 86 targets / 66 completions / 665 yds / passer rating 109.9 / 0 INT; 183 tackles, 10 missed; 7 pressures on 33 blitzes, 3.5 sacks; 17 g / 984 def snaps; 96 solo + 84 ast tackles, 13 TFL, 3.5 sacks, 0 INT, 3 PD, 1 FF; 3 accepted penalties",
+      "Jordyn Brooks role: snap-weighted 2025-26 depth-chart role shares MIKE 4 / WILL 1384 / SAM 0 / edge 0 (raw snapshots WILL25 220, MIKE25 1, WILL26 275) -> WILL (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card WILL (reference only)",
+      "Jordyn Brooks injury reports: wk16 Questionable (Foot); wk18 Questionable (Hamstring); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PUR",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2026",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2025",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:47:30Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
