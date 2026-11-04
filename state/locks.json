@@ -180,6 +180,16 @@
       "locked_at": "2026-11-04T11:55:40Z",
       "lock_audit_id": "WILL_REAUDIT_LOCK_20261104",
       "history": []
+    },
+    "SAM": {
+      "status": "LOCKED",
+      "mutation_permission": "TOP10_REAUDIT_ONLY",
+      "first_lock": true,
+      "baseline_file": "data/baselines/SAM.reaudit-20261104.json",
+      "version": "reaudit-20261104",
+      "locked_at": "2026-11-04T12:01:16Z",
+      "lock_audit_id": "SAM_REAUDIT_LOCK_20261104",
+      "history": []
     }
   }
 }
