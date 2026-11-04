@@ -1,0 +1,40 @@
+# RT_REAUDIT_H2H_03 — Joe Alt vs Warren McClendon Jr. (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "RT_REAUDIT_H2H_03_A1",
+  "task_id": "RT_REAUDIT_H2H_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Joe Alt",
+    "Warren McClendon Jr."
+  ],
+  "pair_result": {
+    "winner": "Joe Alt",
+    "loser": "Warren McClendon Jr.",
+    "provisional_order_holds": true,
+    "reasoning": "Alt's PFF grades (79.0 / 75.4) beat McClendon's (78.7 / 69.7) in both seasons and he matches McClendon's PBWR (90%); McClendon has RBWR 83% and better availability, but Alt's per-snap play and technique edge hold. Order holds.",
+    "key_evidence_for_winner": [
+      "Joe Alt (LAC) ESPN 2026 win rates (thru Wk 8): OT PBWR 90%; depth-chart side 2026 {'RT': 223, 'LT': 2}; roster ACT",
+      "Joe Alt 2026: PFF 75.4 (rank 14; 169 pass-block/109 run-block of 278 snaps); 5 g/279 snaps; penalties 6; injuries ['wk5 Out (Neck)', 'wk6 Out (Neck)']",
+      "Joe Alt 2025: PFF 79 (rank None; 194 pass-block/118 run-block of 312 snaps); 6 g/313 snaps; penalties 1; injuries ['wk5 Out (Ankle)', 'wk6 Out (Ankle)', 'wk7 Doubtful (Ankle)', 'wk8 Questionable (Ankle)']"
+    ],
+    "key_evidence_for_loser": [
+      "Warren McClendon Jr. (LA) ESPN 2026 win rates (thru Wk 8): OT PBWR 90%, OT RBWR 83%; depth-chart side 2026 {'RT': 226}; roster ACT",
+      "Warren McClendon Jr. 2026: PFF 69.7 (rank 30; 348 pass-block/211 run-block of 559 snaps); no snaps; penalties 4; injuries none",
+      "Warren McClendon Jr. 2025: PFF 78.7 (rank 16; 542 pass-block/340 run-block of 882 snaps); no snaps; penalties 0; injuries none"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
