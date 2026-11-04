@@ -90,6 +90,16 @@
       "locked_at": "2026-11-04T03:24:04Z",
       "lock_audit_id": "LG_REAUDIT_LOCK_20261104",
       "history": []
+    },
+    "C": {
+      "status": "LOCKED",
+      "mutation_permission": "TOP10_REAUDIT_ONLY",
+      "first_lock": true,
+      "baseline_file": "data/baselines/C.reaudit-20261104.json",
+      "version": "reaudit-20261104",
+      "locked_at": "2026-11-04T03:35:24Z",
+      "lock_audit_id": "C_REAUDIT_LOCK_20261104",
+      "history": []
     }
   }
 }
