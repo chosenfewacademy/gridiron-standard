@@ -1,0 +1,40 @@
+# LT_REAUDIT_TIEBREAK_18 — Charles Cross vs Dion Dawkins (v1.1.2 head-to-head tiebreak; authorized by t45s407)
+
+```json
+{
+  "audit_id": "LT_REAUDIT_TIEBREAK_18_A1",
+  "task_id": "LT_REAUDIT_TIEBREAK_18",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Charles Cross",
+    "Dion Dawkins"
+  ],
+  "pair_result": {
+    "winner": "Charles Cross",
+    "loser": "Dion Dawkins",
+    "provisional_order_holds": true,
+    "reasoning": "Cross leads 2025 PFF (77.6 vs 71.7), two-year PFF average (77.9 vs 76.0), discipline (5/0 vs 10/4 penalties; Dawkins 7 false starts in 2025) and age (26 vs 32). Dawkins leads 2026 PFF (80.3 vs 78.1), ESPN PBWR 88% and RBWR 82% (#4 OT; Cross unlisted) and 2026 availability (Cross out Week 8, ankle). Cross narrowly. Order holds.",
+    "key_evidence_for_winner": [
+      "Charles Cross (SEA) ESPN 2026 win rates (thru Wk 7): not in ESPN OT top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'LT': 222}; roster ACT",
+      "Charles Cross 2026: PFF 78.1 (rank 10; 261 pass-block/191 run-block of 452 snaps); 7 g/452 snaps; penalties 0; injuries ['wk8 Out (Ankle)']",
+      "Charles Cross 2025: PFF 77.6 (rank 19; 548 pass-block/448 run-block of 996 snaps); 14 g/822 snaps; penalties 5; injuries ['wk16 Out (Hamstring)', 'wk17 Out (Hamstring)', 'wk18 Out (Hamstring)']"
+    ],
+    "key_evidence_for_loser": [
+      "Dion Dawkins (BUF) ESPN 2026 win rates (thru Wk 7): PBWR 88%, RBWR 82%; depth-chart side 2026 {'LT': 226}; roster ACT",
+      "Dion Dawkins 2026: PFF 80.3 (rank 6; 265 pass-block/200 run-block of 465 snaps); 7 g/467 snaps; penalties 4; injuries none",
+      "Dion Dawkins 2025: PFF 71.7 (rank 32; 649 pass-block/449 run-block of 1098 snaps); 15 g/957 snaps; penalties 10; injuries ['wk13 Out (Concussion)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
