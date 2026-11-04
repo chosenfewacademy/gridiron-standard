@@ -8200,7 +8200,7 @@
         "position": "LEDGE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LEDGE.reaudit.json",
       "baseline_file": null,
@@ -8283,19 +8283,30 @@
         "LEDGE_REAUDIT_H2H_06_A1",
         "LEDGE_REAUDIT_TIEBREAK_01_A1",
         "LEDGE_REAUDIT_TIEBREAK_02_A1",
-        "LEDGE_REAUDIT_TIEBREAK_03_A1"
+        "LEDGE_REAUDIT_TIEBREAK_03_A1",
+        "LEDGE_REAUDIT_TIEBREAK_04_A1"
       ],
       "current_stage": "pair_audits",
       "current_task": "LEDGE_REAUDIT_H2H_06",
-      "updated_at": "2026-11-04T11:09:06.057Z",
+      "updated_at": "2026-11-04T11:09:06.586Z",
       "last_result": {
-        "task_id": "LEDGE_REAUDIT_TIEBREAK_03",
+        "task_id": "LEDGE_REAUDIT_TIEBREAK_04",
         "status": "FLAGGED",
         "flags": [
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "TIEBREAK_REVIEW",
+        "task_id": "LEDGE_REAUDIT_TIEBREAK_04",
+        "audit_id": "LEDGE_REAUDIT_TIEBREAK_04_A1",
+        "pending": [
+          {
+            "task_id": "LEDGE_REAUDIT_TIEBREAK_04",
+            "audit_id": "LEDGE_REAUDIT_TIEBREAK_04_A1"
+          }
+        ]
+      },
       "approvals": [
         {
           "decision": "APPROVED",
