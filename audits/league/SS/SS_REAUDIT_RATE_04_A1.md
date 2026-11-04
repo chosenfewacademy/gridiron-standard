@@ -1,0 +1,409 @@
+# SS_REAUDIT_RATE_04 — Brian Branch rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "SS_REAUDIT_RATE_04_A1",
+  "task_id": "SS_REAUDIT_RATE_04",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "player_id": "ext_00-0039141",
+  "players": [
+    "Brian Branch"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "ratings": {
+    "SPD": 86,
+    "ACC": 88,
+    "AGI": 92,
+    "COD": 92,
+    "STR": 70,
+    "AWR": 84,
+    "PRC": 84,
+    "MCV": 88,
+    "ZCV": 82,
+    "PRS": 86,
+    "CTH": 72,
+    "JMP": 78,
+    "TAK": 86,
+    "POW": 80,
+    "PUR": 86,
+    "INJ": 66,
+    "STA": 82,
+    "TGH": 84
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "LOW",
+    "PRC": "LOW",
+    "MCV": "LOW",
+    "ZCV": "LOW",
+    "PRS": "LOW",
+    "CTH": "LOW",
+    "JMP": "LOW",
+    "TAK": "LOW",
+    "POW": "LOW",
+    "PUR": "LOW",
+    "INJ": "LOW",
+    "STA": "LOW",
+    "TGH": "LOW"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; range from PD/tackles in 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF. Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; range from PD/tackles in 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF. Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; range from PD/tackles in 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF. Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; range from PD/tackles in 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF. Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (press): PFF S 2025 overall 77.8 on 746 snaps (S rank 12; 436 coverage / 292 run-def snaps); PFF S 2026 overall 82.2 on 68 snaps (S rank None; 45 coverage / 20 run-def snaps); PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed. Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 7/0; PFF S 2026 overall 82.2 on 68 snaps (S rank None; 45 coverage / 20 run-def snaps). Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; PFF S 2025 overall 77.8 on 746 snaps (S rank 12; 436 coverage / 292 run-def snaps); PFF S 2026 overall 82.2 on 68 snaps (S rank None; 45 coverage / 20 run-def snaps). Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "MCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; PFF S 2025 overall 77.8 on 746 snaps (S rank 12; 436 coverage / 292 run-def snaps); PFF S 2026 overall 82.2 on 68 snaps (S rank None; 45 coverage / 20 run-def snaps). Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "ZCV": {
+      "basis": "Judgment (coverage): PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; PFF S 2025 overall 77.8 on 746 snaps (S rank 12; 436 coverage / 292 run-def snaps); PFF S 2026 overall 82.2 on 68 snaps (S rank None; 45 coverage / 20 run-def snaps). Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PRS": {
+      "basis": "Judgment (press): PFF S 2025 overall 77.8 on 746 snaps (S rank 12; 436 coverage / 292 run-def snaps); PFF S 2026 overall 82.2 on 68 snaps (S rank None; 45 coverage / 20 run-def snaps); PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed. Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "CTH": {
+      "basis": "Judgment (ball skills): INT/PD: 12 g / 747 def snaps; 46 solo + 27 ast tackles, 5 TFL, 0 INT, 9 PD, 1 FF (2025); 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF (2026). Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "JMP": {
+      "basis": "Judgment (ball skills): INT/PD: 12 g / 747 def snaps; 46 solo + 27 ast tackles, 5 TFL, 0 INT, 9 PD, 1 FF (2025); 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF (2026). Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed. Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed. Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): PFF S 2025 overall 77.8 on 746 snaps (S rank 12; 436 coverage / 292 run-def snaps); PFF S 2026 overall 82.2 on 68 snaps (S rank None; 45 coverage / 20 run-def snaps); TFL/tackles in 12 g / 747 def snaps; 46 solo + 27 ast tackles, 5 TFL, 0 INT, 9 PD, 1 FF / 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF. Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Brian Branch injury reports: wk6 Questionable (Ankle); wk14 Questionable (Toe); wk15 Out (Achilles); wk5 Out (Achilles); wk7 Questionable (Achilles); roster status ACT; 12 g / 747 def snaps; 46 solo + 27 ast tackles, 5 TFL, 0 INT, 9 PD, 1 FF (2025), 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF (2026). Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Listed weakness area: availability (Achilles), penalties (7 in 2025)",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 12 g / 747 def snaps; 46 solo + 27 ast tackles, 5 TFL, 0 INT, 9 PD, 1 FF (2025), 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF (2026). Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 12 g / 747 def snaps; 46 solo + 27 ast tackles, 5 TFL, 0 INT, 9 PD, 1 FF (2025), 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF (2026). Style: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+      "why_not_higher": "Evidence does not separate him from higher-rated SSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated SSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "AGI": {
+      "tier": "ELITE",
+      "claim": "movement: PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; range from PD/tackles in 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    },
+    "COD": {
+      "tier": "ELITE",
+      "claim": "movement: PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; range from PD/tackles in 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/s/2026",
+        "https://www.pff.com/grades/nfl/s/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 85,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+  "style_profile": "Brian Branch: Slot/box strong safety: PFF 77.8 on 746 snaps (2025), 75 tackles with only 3 missed, 9 PD; Achilles cost most of 2026 (68 snaps, 82.2).",
+  "style_evidence": [
+    "Brian Branch (DET) Brian Branch 2026: PFF S 2026 overall 82.2 on 68 snaps (S rank None; 45 coverage / 20 run-def snaps); PFR 2026 (1 games) coverage 1 targets / 0 completions / 0 yds / 0 TD / 1 INT; 4 tackles, 0 missed; 2 g / 68 def snaps; 3 solo + 4 ast tackles, 0 TFL, 1 INT, 1 PD, 0 FF; 0 accepted penalties",
+    "Brian Branch 2025: PFF S 2025 overall 77.8 on 746 snaps (S rank 12; 436 coverage / 292 run-def snaps); PFR 2025 coverage 40 targets / 21 completions / 292 yds / 2 TD / passer rating 92.9 / 0 INT; 75 tackles, 3 missed; 12 g / 747 def snaps; 46 solo + 27 ast tackles, 5 TFL, 0 INT, 9 PD, 1 FF; 7 accepted penalties",
+    "Brian Branch role: snap-weighted 2025-26 depth-chart FS/SS shares FS 3 / SS 812 -> SS (SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one o...); roster position DB; Madden card SS (reference only)",
+    "Brian Branch injury reports: wk6 Questionable (Ankle); wk14 Questionable (Toe); wk15 Out (Achilles); wk5 Out (Achilles); wk7 Questionable (Achilles); roster status ACT"
+  ],
+  "input_dossier": "SS_REAUDIT_BG_04_A1",
+  "weaknesses": [
+    "availability (Achilles)",
+    "penalties (7 in 2025)"
+  ],
+  "limitations": [
+    "PFF coverage/run-defense/tackling sub-grades and box/slot/deep alignment splits are paywalled; no public tracking data for safety speed or range; substitutes: PFF S overall + coverage/run-def snap counts, PFR coverage allowed, INT/PD, tackles vs missed tackles, penalties, injury reports",
+    "limited 2026 sample (reserve/IR/PUP)"
+  ],
+  "role_assignment": "SS (snap-weighted 2025-26 depth-chart FS/SS shares FS 3 / SS 812 -> SS)",
+  "madden_reference": [
+    {
+      "player": "Brian Branch",
+      "ovr": 91,
+      "madden_position": "SS",
+      "attributes": {
+        "SPD": 88,
+        "ACC": 92,
+        "AGI": 85,
+        "COD": 83,
+        "STR": 60,
+        "AWR": 90,
+        "PRC": 91,
+        "MCV": 86,
+        "ZCV": 87,
+        "PRS": 74,
+        "CTH": 77,
+        "JMP": 89,
+        "TAK": 78,
+        "POW": 89,
+        "PUR": 95,
+        "INJ": 92,
+        "STA": 91,
+        "TGH": 91
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -6,
+      "delta_attributes": {
+        "SPD": -2,
+        "ACC": -4,
+        "AGI": 7,
+        "COD": 9,
+        "STR": 10,
+        "AWR": -6,
+        "PRC": -7,
+        "MCV": 2,
+        "ZCV": -5,
+        "PRS": 12,
+        "CTH": -5,
+        "JMP": -11,
+        "TAK": 8,
+        "POW": -9,
+        "PUR": -9,
+        "INJ": -26,
+        "STA": -9,
+        "TGH": -7
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 6,
+    "attribute_gaps_10plus": {
+      "STR": 10,
+      "PRS": 12,
+      "JMP": -11,
+      "INJ": -26
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
