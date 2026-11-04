@@ -1,0 +1,216 @@
+{
+  "audit_id": "REDGE_REAUDIT_BG_05_A1",
+  "task_id": "REDGE_REAUDIT_BG_05",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "player_id": "ext_00-0035642",
+  "players": [
+    "Josh Hines-Allen"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Josh Hines-Allen",
+    "player_id": "ext_00-0035642",
+    "team": "JAX",
+    "side_assignment": {
+      "L25": 221,
+      "R26": 275,
+      "L": 221,
+      "R": 275,
+      "teams": [
+        "JAX"
+      ],
+      "assign": "REDGE"
+    },
+    "side_rule": "EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LEDGE = defense's left edge (aligned over the offense's right tackle); REDGE = defense's right edge (over the offense's left tackle), matching the repo note 'Right-side edge (offense's left)'. Side evidence = nflverse weekly depth charts 2025 + 2026 (ESPN-sourced): each team-day snapshot counts once; LDE (4-3 or 3-4) or 3-4 WLB (ESPN 3-4 layout slot 4, left of LILB) = left; RDE or 3-4 SLB (slot 7, right of RILB) = right; 4-3 WLB/SLB are off-ball LBs and not counted. The side with more snapshots across both seasons wins; a player appears in only one list. PFF alignment splits (left/right snap counts) are paywalled and NGS publishes no side split, so depth charts are the side source; Madden 27's LEDG/REDG card label is reference only and does not decide side.",
+    "pff": {
+      "2025": {
+        "team": "jacksonville-jaguars",
+        "ovr": 87.4,
+        "snaps": 903,
+        "prsh": 591,
+        "rdef": 271,
+        "cov": 41,
+        "status": "A"
+      },
+      "2026": {
+        "team": "jacksonville-jaguars",
+        "ovr": 79.4,
+        "snaps": 332,
+        "prsh": 211,
+        "rdef": 96,
+        "cov": 25,
+        "status": "A"
+      }
+    },
+    "pressures": {
+      "2025": {
+        "tm": "JAX",
+        "pos": "DE",
+        "g": "17",
+        "prss": "46",
+        "hrry": "20",
+        "qbkd": "17",
+        "sk": "8",
+        "comb": "49",
+        "m_tkl": "9"
+      },
+      "2026": {
+        "def_pressures": 12,
+        "def_times_hurried": 4,
+        "def_times_hitqb": 6,
+        "def_sacks": 1.5,
+        "def_tackles_combined": 17,
+        "def_missed_tackles": 2,
+        "g": 5
+      }
+    },
+    "espn_win_rates": {
+      "prwr": {
+        "rank": 16,
+        "wins": 27,
+        "plays": 113,
+        "rate": 24
+      },
+      "rswr": null
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 845
+      },
+      "2026": {
+        "games": 7,
+        "defs": 332
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 26,
+        "def_tackle_assists": 21,
+        "def_tackles_for_loss": 12,
+        "def_fumbles_forced": 0,
+        "def_sacks": 8,
+        "def_qb_hits": 28,
+        "def_pass_defended": 3
+      },
+      "2026": {
+        "def_tackles_solo": 14,
+        "def_tackle_assists": 11,
+        "def_tackles_for_loss": 4,
+        "def_fumbles_forced": 1,
+        "def_sacks": 2,
+        "def_qb_hits": 9,
+        "def_pass_defended": 1
+      }
+    },
+    "penalties": {
+      "2025": 4,
+      "2026": 0
+    },
+    "injuries": {},
+    "summary_lines": [
+      "Josh Hines-Allen (JAX) Josh Hines-Allen 2026: PFF edge 2026 overall 79.4 on 332 snaps (211 pass-rush, 96 run-defense, 25 coverage); PFR 2026 12 pressures (4 hurries, 6 QB hits, 1.5 sacks) in 5 games, 17 tackles, 2 missed; 7 g / 332 def snaps; 2.0 sacks, 9 QB hits, 4 TFL, 1 FF, 1 PD; 0 accepted penalties; ESPN 2026 edge PRWR 24% (#16, 27/113); RSWR outside the published top 10",
+      "Josh Hines-Allen 2025: PFF edge 2025 overall 87.4 on 903 snaps (591 pass-rush, 271 run-defense, 41 coverage); PFR 2025 46 pressures (20 hurries, 17 QB knockdowns, 8 sacks), 49 tackles, 9 missed; 17 g / 845 def snaps; 8.0 sacks, 28 QB hits, 12 TFL, 0 FF, 3 PD; 4 accepted penalties",
+      "Josh Hines-Allen alignment: side snapshots 2025-26 left 221 / right 275 -> REDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position DL; Madden card REDG (reference only)",
+      "Josh Hines-Allen injury reports: no injury designation 2025-26; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PMV",
+      "FMV",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2026",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2025",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T04:31:34Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

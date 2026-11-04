@@ -7676,7 +7676,7 @@
         "position": "REDGE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/REDGE.reaudit.json",
       "baseline_file": null,
@@ -7697,18 +7697,23 @@
         "REDGE_REAUDIT_BG_01_A1",
         "REDGE_REAUDIT_BG_02_A1",
         "REDGE_REAUDIT_BG_03_A1",
-        "REDGE_REAUDIT_BG_04_A1"
+        "REDGE_REAUDIT_BG_04_A1",
+        "REDGE_REAUDIT_BG_05_A1"
       ],
       "current_stage": "background_analysis",
-      "current_task": "REDGE_REAUDIT_BG_04",
-      "updated_at": "2026-11-04T04:34:33.623Z",
+      "current_task": "REDGE_REAUDIT_BG_05",
+      "updated_at": "2026-11-04T04:34:34.490Z",
       "last_result": {
-        "task_id": "REDGE_REAUDIT_BG_04",
+        "task_id": "REDGE_REAUDIT_BG_05",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "REDGE_REAUDIT_BG_05",
+        "audit_id": "REDGE_REAUDIT_BG_05_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
