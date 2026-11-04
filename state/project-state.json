@@ -3405,16 +3405,17 @@
         "TE_REAUDIT_RATE_16_A2",
         "TE_REAUDIT_CROSS_AUDIT_A1",
         "TE_REAUDIT_RATE_05_A2",
-        "TE_REAUDIT_RATE_10_A3"
+        "TE_REAUDIT_RATE_10_A3",
+        "TE_REAUDIT_RATE_14_A3"
       ],
       "current_stage": "positional_cross_audit",
       "current_task": "TE_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T01:26:18.070Z",
+      "updated_at": "2026-11-04T01:26:18.359Z",
       "last_result": {
-        "task_id": "TE_REAUDIT_RATE_10",
+        "task_id": "TE_REAUDIT_RATE_14",
         "status": "REVISION_APPROVED",
-        "audit_id": "TE_REAUDIT_RATE_10_A3",
-        "supersedes": "TE_REAUDIT_RATE_10_A2",
+        "audit_id": "TE_REAUDIT_RATE_14_A3",
+        "supersedes": "TE_REAUDIT_RATE_14_A2",
         "flags": []
       },
       "awaiting": null,
@@ -4288,6 +4289,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T01:26:17Z",
           "note": "Commissioner approval t45s395: Approved variance fix (TE_REAUDIT_VARIANCE_AUDIT, t45s395): COD 87->80, YAC/rec 2.9 (2026) / 4.3 (2025) is last in the group."
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_14",
+          "audit_id": "TE_REAUDIT_RATE_14_A3",
+          "supersedes": "TE_REAUDIT_RATE_14_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T01:26:18Z",
+          "note": "Commissioner approval t45s395: Approved variance fix (TE_REAUDIT_VARIANCE_AUDIT, t45s395): IBL 82->75, block share .39/.42 and 89 run-block snaps in 2026 rank 10th."
         }
       ]
     },
