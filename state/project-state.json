@@ -7676,7 +7676,7 @@
         "position": "REDGE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/REDGE.reaudit.json",
       "baseline_file": null,
@@ -7724,7 +7724,8 @@
         "REDGE_REAUDIT_TIEBREAK_03",
         "REDGE_REAUDIT_TIEBREAK_04",
         "REDGE_REAUDIT_VARIANCE_AUDIT",
-        "REDGE_REAUDIT_SCARCITY"
+        "REDGE_REAUDIT_SCARCITY",
+        "REDGE_REAUDIT_TIEBREAK_05"
       ],
       "audit_ids": [
         "REDGE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -7772,7 +7773,7 @@
       ],
       "current_stage": "scarcity_audit",
       "current_task": "REDGE_REAUDIT_SCARCITY",
-      "updated_at": "2026-11-04T04:39:18.991Z",
+      "updated_at": "2026-11-04T04:39:19.234Z",
       "last_result": {
         "task_id": "REDGE_REAUDIT_TIEBREAK_05",
         "status": "FLAGGED",
@@ -7780,17 +7781,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "REDGE_REAUDIT_TIEBREAK_05",
-        "audit_id": "REDGE_REAUDIT_TIEBREAK_05_A1",
-        "pending": [
-          {
-            "task_id": "REDGE_REAUDIT_TIEBREAK_05",
-            "audit_id": "REDGE_REAUDIT_TIEBREAK_05_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -8120,6 +8111,14 @@
           "audit_id": "REDGE_REAUDIT_SCARCITY_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T04:38:34Z",
+          "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "REDGE_REAUDIT_TIEBREAK_05",
+          "audit_id": "REDGE_REAUDIT_TIEBREAK_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T04:39:19Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
         }
       ]
