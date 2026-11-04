@@ -1,0 +1,39 @@
+{
+  "audit_id": "RT_REAUDIT_TIEBREAK_06_A1",
+  "task_id": "RT_REAUDIT_TIEBREAK_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Taylor Moton",
+    "Mike McGlinchey"
+  ],
+  "pair_result": {
+    "winner": "Taylor Moton",
+    "loser": "Mike McGlinchey",
+    "provisional_order_holds": true,
+    "reasoning": "McGlinchey is healthy, but his 2026 PFF fell to 62.4 with 9 penalties in two seasons; Moton's 80.8 (2025) and 68.1 on his 2026 snaps rate higher.",
+    "key_evidence_for_winner": [
+      "Taylor Moton (CAR) ESPN 2026 win rates (thru Wk 8): not in ESPN OT top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RT': 168}; roster RES",
+      "Taylor Moton 2026: PFF 68.1 (rank None; 62 pass-block/40 run-block of 102 snaps); 2 g/102 snaps; penalties 0; injuries ['wk6 Questionable (Lung)']",
+      "Taylor Moton 2025: PFF 80.8 (rank 14; 605 pass-block/363 run-block of 968 snaps); 15 g/901 snaps; penalties 5; injuries ['wk6 Out (Elbow)', 'wk7 Questionable (Elbow)', 'wk9 Questionable (Knee)']"
+    ],
+    "key_evidence_for_loser": [
+      "Mike McGlinchey (DEN) ESPN 2026 win rates (thru Wk 8): not in ESPN OT top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'RT': 225}; roster ACT",
+      "Mike McGlinchey 2026: PFF 62.4 (rank 47; 296 pass-block/196 run-block of 492 snaps); 8 g/490 snaps; penalties 3; injuries none",
+      "Mike McGlinchey 2025: PFF 78 (rank 18; 805 pass-block/454 run-block of 1259 snaps); 17 g/1127 snaps; penalties 6; injuries ['wk15 Questionable (Shoulder)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
