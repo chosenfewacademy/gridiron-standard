@@ -1,0 +1,40 @@
+# LT_REAUDIT_TIEBREAK_07 — Dion Dawkins vs Will Campbell (v1.1.2 head-to-head tiebreak; authorized by t45s407)
+
+```json
+{
+  "audit_id": "LT_REAUDIT_TIEBREAK_07_A1",
+  "task_id": "LT_REAUDIT_TIEBREAK_07",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Dion Dawkins",
+    "Will Campbell"
+  ],
+  "pair_result": {
+    "winner": "Dion Dawkins",
+    "loser": "Will Campbell",
+    "provisional_order_holds": true,
+    "reasoning": "#10 vs first-out. Dawkins leads PFF both years (71.7/80.3 vs 66.7/76.8) and ESPN PBWR (88% vs unlisted); RBWR level (82% vs 81%). Campbell leads 2026 penalties (5 vs 4 is even) and age (23 vs 32). Order holds.",
+    "key_evidence_for_winner": [
+      "Dion Dawkins (BUF) ESPN 2026 win rates (thru Wk 7): PBWR 88%, RBWR 82%; depth-chart side 2026 {'LT': 226}; roster ACT",
+      "Dion Dawkins 2026: PFF 80.3 (rank 6; 265 pass-block/200 run-block of 465 snaps); 7 g/467 snaps; penalties 4; injuries none",
+      "Dion Dawkins 2025: PFF 71.7 (rank 32; 649 pass-block/449 run-block of 1098 snaps); 15 g/957 snaps; penalties 10; injuries ['wk13 Out (Concussion)']"
+    ],
+    "key_evidence_for_loser": [
+      "Will Campbell (NE) ESPN 2026 win rates (thru Wk 7): RBWR 81%; depth-chart side 2026 {'LT': 178}; roster ACT",
+      "Will Campbell 2026: PFF 76.8 (rank 12; 274 pass-block/200 run-block of 474 snaps); 8 g/475 snaps; penalties 5; injuries ['wk6 Questionable (Knee)']",
+      "Will Campbell 2025: PFF 66.7 (rank 42; 636 pass-block/410 run-block of 1046 snaps); 13 g/783 snaps; penalties 5; injuries ['wk1 Questionable (Ankle)']"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```

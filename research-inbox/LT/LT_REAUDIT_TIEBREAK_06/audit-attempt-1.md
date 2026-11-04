@@ -1,0 +1,40 @@
+# LT_REAUDIT_TIEBREAK_06 — Dion Dawkins vs Paris Johnson Jr. (v1.1.2 head-to-head tiebreak; authorized by t45s407)
+
+```json
+{
+  "audit_id": "LT_REAUDIT_TIEBREAK_06_A1",
+  "task_id": "LT_REAUDIT_TIEBREAK_06",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Dion Dawkins",
+    "Paris Johnson Jr."
+  ],
+  "pair_result": {
+    "winner": "Dion Dawkins",
+    "loser": "Paris Johnson Jr.",
+    "provisional_order_holds": true,
+    "reasoning": "#10 vs first-out. Dawkins leads 2026 PFF (80.3 vs 77.6), ESPN PBWR/RBWR (88%/82% vs unlisted), availability (Johnson on IR after 277 snaps; 2025 knee absences) and snaps. Johnson leads 2025 PFF (76.6 vs 71.7), discipline (6/3 vs 10/4) and age (25 vs 32). Order holds.",
+    "key_evidence_for_winner": [
+      "Dion Dawkins (BUF) ESPN 2026 win rates (thru Wk 7): PBWR 88%, RBWR 82%; depth-chart side 2026 {'LT': 226}; roster ACT",
+      "Dion Dawkins 2026: PFF 80.3 (rank 6; 265 pass-block/200 run-block of 465 snaps); 7 g/467 snaps; penalties 4; injuries none",
+      "Dion Dawkins 2025: PFF 71.7 (rank 32; 649 pass-block/449 run-block of 1098 snaps); 15 g/957 snaps; penalties 10; injuries ['wk13 Out (Concussion)']"
+    ],
+    "key_evidence_for_loser": [
+      "Paris Johnson Jr. (ARI) ESPN 2026 win rates (thru Wk 7): not in ESPN OT top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'LT': 196}; roster RES",
+      "Paris Johnson Jr. 2026: PFF 77.6 (rank 11; 174 pass-block/103 run-block of 277 snaps); no snaps; penalties 3; injuries none",
+      "Paris Johnson Jr. 2025: PFF 76.6 (rank 23; 565 pass-block/242 run-block of 807 snaps); no snaps; penalties 6; injuries ['wk3 Questionable (Knee)', 'wk4 Questionable (Knee)', 'wk15 Out (Knee)', 'wk16 Out (Knee)', 'wk17 Out (Knee)']"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```

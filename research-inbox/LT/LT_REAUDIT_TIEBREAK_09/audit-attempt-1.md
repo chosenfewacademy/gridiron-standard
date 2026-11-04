@@ -1,0 +1,45 @@
+# LT_REAUDIT_TIEBREAK_09 — Will Campbell vs Kolton Miller (v1.1.2 head-to-head tiebreak; authorized by t45s407)
+
+```json
+{
+  "audit_id": "LT_REAUDIT_TIEBREAK_09_A1",
+  "task_id": "LT_REAUDIT_TIEBREAK_09",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Will Campbell",
+    "Kolton Miller"
+  ],
+  "pair_result": {
+    "winner": "Will Campbell",
+    "loser": "Kolton Miller",
+    "provisional_order_holds": true,
+    "reasoning": "74 tie. Campbell leads 2026 PFF (76.8 vs 69.8), ESPN RBWR (81% #8 vs unlisted), 2025 availability (13 g vs 4) and age (23 vs 31). Miller leads ESPN PBWR (92% vs unlisted) and penalties (0/0 vs 5/5). Campbell narrowly; proposed Miller 73.",
+    "key_evidence_for_winner": [
+      "Will Campbell (NE) ESPN 2026 win rates (thru Wk 7): RBWR 81%; depth-chart side 2026 {'LT': 178}; roster ACT",
+      "Will Campbell 2026: PFF 76.8 (rank 12; 274 pass-block/200 run-block of 474 snaps); 8 g/475 snaps; penalties 5; injuries ['wk6 Questionable (Knee)']",
+      "Will Campbell 2025: PFF 66.7 (rank 42; 636 pass-block/410 run-block of 1046 snaps); 13 g/783 snaps; penalties 5; injuries ['wk1 Questionable (Ankle)']"
+    ],
+    "key_evidence_for_loser": [
+      "Kolton Miller (LV) ESPN 2026 win rates (thru Wk 7): PBWR 92%; depth-chart side 2026 {'LT': 226}; roster ACT",
+      "Kolton Miller 2026: PFF 69.8 (rank 29; 338 pass-block/204 run-block of 542 snaps); 8 g/542 snaps; penalties 0; injuries none",
+      "Kolton Miller 2025: no PFF top-50 grade; 4 g/250 snaps; penalties 0; injuries ['wk15 Out (Ankle)', 'wk16 Out (Ankle)', 'wk17 Out (Ankle)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": {
+      "Kolton Miller": {
+        "from": 74,
+        "to": 73
+      }
+    },
+    "adjustment_status": "PROPOSED_NOT_APPROVED"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```

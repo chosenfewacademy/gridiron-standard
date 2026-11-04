@@ -1,0 +1,40 @@
+# LT_REAUDIT_H2H_03 — Tristan Wirfs vs Andrew Thomas (v1.1.2 head-to-head; authorized by t45s407)
+
+```json
+{
+  "audit_id": "LT_REAUDIT_H2H_03_A1",
+  "task_id": "LT_REAUDIT_H2H_03",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LT",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Tristan Wirfs",
+    "Andrew Thomas"
+  ],
+  "pair_result": {
+    "winner": "Tristan Wirfs",
+    "loser": "Andrew Thomas",
+    "provisional_order_holds": true,
+    "reasoning": "Wirfs leads PFF both years (92.7/78.8 vs 90.3/74.8), ESPN PBWR (92% #6 vs unlisted) and availability (12 g + 8 g vs 13 g + 7 g with foot/hamstring/groin). Thomas leads discipline (2/1 vs 4/3 penalties). Order holds.",
+    "key_evidence_for_winner": [
+      "Tristan Wirfs (TB) ESPN 2026 win rates (thru Wk 7): PBWR 92%; depth-chart side 2026 {'LT': 225}; roster ACT",
+      "Tristan Wirfs 2026: PFF 78.8 (rank 9; 279 pass-block/234 run-block of 513 snaps); 8 g/514 snaps; penalties 3; injuries none",
+      "Tristan Wirfs 2025: PFF 92.7 (rank 2; 474 pass-block/303 run-block of 778 snaps); 12 g/777 snaps; penalties 4; injuries ['wk1 Out (Knee)', 'wk2 Out (Knee)', 'wk3 Out (Knee)', 'wk4 Questionable (Knee)', 'wk14 Questionable (Oblique)', 'wk17 Out (Toe)']"
+    ],
+    "key_evidence_for_loser": [
+      "Andrew Thomas (NYG) ESPN 2026 win rates (thru Wk 7): not in ESPN OT top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'LT': 226}; roster ACT",
+      "Andrew Thomas 2026: PFF 74.8 (rank 17; 266 pass-block/199 run-block of 465 snaps); 7 g/465 snaps; penalties 1; injuries ['wk6 Questionable (Groin)']",
+      "Andrew Thomas 2025: PFF 90.3 (rank 4; 449 pass-block/353 run-block of 802 snaps); 13 g/802 snaps; penalties 2; injuries ['wk1 Doubtful (Foot)', 'wk2 Doubtful (Foot)', 'wk3 Questionable (Foot)', 'wk17 Out (Hamstring)']"
+    ],
+    "margin": "MODERATE",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
