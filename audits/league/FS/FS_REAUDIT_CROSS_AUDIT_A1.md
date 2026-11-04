@@ -1,0 +1,520 @@
+# FS_REAUDIT_CROSS_AUDIT (v1.1.2; authorized t46u)
+
+```json
+{
+  "audit_id": "FS_REAUDIT_CROSS_AUDIT_A1",
+  "task_id": "FS_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FS",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Jalen Pitre",
+    "Minkah Fitzpatrick",
+    "Antonio Johnson",
+    "Julian Love",
+    "Xavier McKinney",
+    "Quentin Lake",
+    "Tykee Smith",
+    "Kevin Byard",
+    "Bryan Cook",
+    "Thomas Harper"
+  ],
+  "cross_audit_result": "CONSISTENT: all 17 approved head-to-head/tiebreak verdicts agree with the final rating order; style rule passes for all 78 pairs of 13 rated FSs (0 too similar); league ceiling 5 raw flags, all resolved by approved tiebreaks (Thomas Harper holds #10); variance audit 38 10+ gaps: 36 supported, 2 fixed via approved reaudit:revise (Jalen Pitre TAK 84->80, Quentin Lake AGI 92->86); Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Jalen Pitre",
+      "ovr": 88,
+      "audit_id": "FS_REAUDIT_RATE_01_A2"
+    },
+    {
+      "rank": 2,
+      "player": "Minkah Fitzpatrick",
+      "ovr": 86,
+      "audit_id": "FS_REAUDIT_RATE_02_A1"
+    },
+    {
+      "rank": 3,
+      "player": "Antonio Johnson",
+      "ovr": 84,
+      "audit_id": "FS_REAUDIT_RATE_03_A1"
+    },
+    {
+      "rank": 4,
+      "player": "Julian Love",
+      "ovr": 83,
+      "audit_id": "FS_REAUDIT_RATE_04_A1"
+    },
+    {
+      "rank": 5,
+      "player": "Xavier McKinney",
+      "ovr": 82,
+      "audit_id": "FS_REAUDIT_RATE_05_A1"
+    },
+    {
+      "rank": 6,
+      "player": "Quentin Lake",
+      "ovr": 80,
+      "audit_id": "FS_REAUDIT_RATE_06_A2"
+    },
+    {
+      "rank": 7,
+      "player": "Tykee Smith",
+      "ovr": 78,
+      "audit_id": "FS_REAUDIT_RATE_07_A1"
+    },
+    {
+      "rank": 8,
+      "player": "Kevin Byard",
+      "ovr": 77,
+      "audit_id": "FS_REAUDIT_RATE_08_A1"
+    },
+    {
+      "rank": 9,
+      "player": "Bryan Cook",
+      "ovr": 76,
+      "audit_id": "FS_REAUDIT_RATE_09_A1"
+    },
+    {
+      "rank": 10,
+      "player": "Thomas Harper",
+      "ovr": 75,
+      "audit_id": "FS_REAUDIT_RATE_10_A1"
+    },
+    {
+      "rank": 11,
+      "player": "Chuck Clark",
+      "ovr": 74,
+      "audit_id": "FS_REAUDIT_RATE_11_A1"
+    },
+    {
+      "rank": 12,
+      "player": "Jevon Holland",
+      "ovr": 73,
+      "audit_id": "FS_REAUDIT_RATE_12_A1"
+    },
+    {
+      "rank": 13,
+      "player": "Kamren Kinchens",
+      "ovr": 72,
+      "audit_id": "FS_REAUDIT_RATE_13_A1"
+    }
+  ],
+  "pair_consistency": [
+    {
+      "audit_id": "FS_REAUDIT_H2H_01_A1",
+      "winner": "Jalen Pitre",
+      "loser": "Minkah Fitzpatrick",
+      "consistent": true
+    },
+    {
+      "audit_id": "FS_REAUDIT_H2H_02_A1",
+      "winner": "Antonio Johnson",
+      "loser": "Julian Love",
+      "consistent": true
+    },
+    {
+      "audit_id": "FS_REAUDIT_H2H_03_A1",
+      "winner": "Xavier McKinney",
+      "loser": "Quentin Lake",
+      "consistent": true
+    },
+    {
+      "audit_id": "FS_REAUDIT_H2H_04_A1",
+      "winner": "Tykee Smith",
+      "loser": "Kevin Byard",
+      "consistent": true
+    },
+    {
+      "audit_id": "FS_REAUDIT_H2H_05_A1",
+      "winner": "Bryan Cook",
+      "loser": "Thomas Harper",
+      "consistent": true
+    },
+    {
+      "audit_id": "FS_REAUDIT_H2H_06_A1",
+      "winner": "Thomas Harper",
+      "loser": "Chuck Clark",
+      "consistent": true
+    },
+    {
+      "audit_id": "FS_REAUDIT_TIEBREAK_01_A1",
+      "winner": "Minkah Fitzpatrick",
+      "loser": "Antonio Johnson",
+      "consistent": true
+    },
+    {
+      "audit_id": "FS_REAUDIT_TIEBREAK_02_A1",
+      "winner": "Julian Love",
+      "loser": "Xavier McKinney",
+      "consistent": true
+    },
+    {
+      "audit_id": "FS_REAUDIT_TIEBREAK_03_A1",
+      "winner": "Quentin Lake",
+      "loser": "Tykee Smith",
+      "consistent": true
+    },
+    {
+      "audit_id": "FS_REAUDIT_TIEBREAK_04_A1",
+      "winner": "Kevin Byard",
+      "loser": "Bryan Cook",
+      "consistent": true
+    },
+    {
+      "audit_id": "FS_REAUDIT_TIEBREAK_05_A1",
+      "winner": "Chuck Clark",
+      "loser": "Jevon Holland",
+      "consistent": true
+    },
+    {
+      "audit_id": "FS_REAUDIT_TIEBREAK_06_A1",
+      "winner": "Jevon Holland",
+      "loser": "Kamren Kinchens",
+      "consistent": true
+    },
+    {
+      "audit_id": "FS_REAUDIT_TIEBREAK_07_A1",
+      "winner": "Thomas Harper",
+      "loser": "Camryn Bynum",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "FS_REAUDIT_TIEBREAK_08_A1",
+      "winner": "Thomas Harper",
+      "loser": "Alohi Gilman",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "FS_REAUDIT_TIEBREAK_09_A1",
+      "winner": "Thomas Harper",
+      "loser": "Brandon Jones",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "FS_REAUDIT_TIEBREAK_10_A1",
+      "winner": "Thomas Harper",
+      "loser": "Malik Mustapha",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    },
+    {
+      "audit_id": "FS_REAUDIT_TIEBREAK_11_A1",
+      "winner": "Thomas Harper",
+      "loser": "Andrew Wingard",
+      "consistent": true,
+      "note": "loser outside the rated pool (ceiling-flag tiebreak)"
+    }
+  ],
+  "style_rule": {
+    "pairs_checked": 78,
+    "too_similar": 0,
+    "highest_corr": [
+      0.928,
+      3.2,
+      "Xavier McKinney",
+      "Kevin Byard"
+    ],
+    "lowest_mad": [
+      0.928,
+      3.2,
+      "Xavier McKinney",
+      "Kevin Byard"
+    ]
+  },
+  "scarcity_note": "FS_REAUDIT_SCARCITY_A1 PASS (14 traits 90+, none at 95+; no overall 90+). Narrative text grep-verified before the stage ran.",
+  "eligibility_rule": "FS-eligible = PFF S grade in 2025 or 2026 and primary 2025-26 alignment FS (nflverse depth-chart FS/SS slot share weighted by defensive snaps; ties to FS; no slot -> roster depth_chart_position). Each safety is in one list only.",
+  "side_convention": "SAFETY ROLE CONVENTION (t46u): every PFF-graded safety (pff.com/grades/nfl/s, 2025 or 2026) is assigned to exactly one of FS or SS by primary 2025-26 alignment = nflverse weekly depth-chart FS/SS slot counts per season weighted by that season's defensive snaps; larger share wins (ties to FS). No FS/SS depth-chart slot -> nflverse roster depth_chart_position. Matched by gsis/PFR id. Each player appears in one list only; Madden position is reference only. Cooper DeJean (2026 FS 103 / SS 108 slot-weeks, CB in 2025) -> SS.",
+  "commissioner_fix_approvals": "Approved and applied under t46u: Jalen Pitre TAK 84->80, Quentin Lake AGI 92->86 (overalls unchanged).",
+  "league_ceiling_check": {
+    "source": "research-inbox/FS/FS_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-t46u.json",
+    "references": [
+      "Thomas Harper",
+      "Chuck Clark"
+    ],
+    "thresholds": {
+      "pff": 71.8,
+      "value": 0.32,
+      "efficiency": 38.5,
+      "negative_rate": 8.8,
+      "availability": 0.48
+    },
+    "scope": "Every free safety league-wide (PFF S grade in 2025 or 2026, sample 250+ snaps, assigned FS by the t46u depth-chart alignment rule), incl. reserve/IR, inactive and free agents; the 13 audited FSs excluded. Metrics: snap-weighted PFF S grade (pff), INT + PD per game (value), share of targets not completed, PFR 2025 season + 2026 weekly (efficiency), missed tackles + accepted penalties per 1,000 nflverse defensive snaps (negative rate), games share (games/25).",
+    "raw_flags_before_resolution": [
+      {
+        "name": "Camryn Bynum",
+        "team": "IND",
+        "status": "ACT",
+        "snaps": 1585,
+        "pff": 65.2,
+        "value": 0.6,
+        "efficiency": 31,
+        "negative_rate": 5,
+        "availability": 1,
+        "hits": [
+          "value",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Alohi Gilman",
+        "team": "KC",
+        "status": "ACT",
+        "snaps": 1409,
+        "pff": 65.6,
+        "value": 0.42,
+        "efficiency": 40.3,
+        "negative_rate": 12.8,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Brandon Jones",
+        "team": "DEN",
+        "status": "ACT",
+        "snaps": 1402,
+        "pff": 66.5,
+        "value": 0.68,
+        "efficiency": 40.8,
+        "negative_rate": 18.5,
+        "availability": 0.88,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Malik Mustapha",
+        "team": "SF",
+        "status": "ACT",
+        "snaps": 944,
+        "pff": 66.3,
+        "value": 0.37,
+        "efficiency": 46,
+        "negative_rate": 11.7,
+        "availability": 0.76,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Andrew Wingard",
+        "team": "ARI",
+        "status": "ACT",
+        "snaps": 1217,
+        "pff": 60.8,
+        "value": 0.57,
+        "efficiency": 46.5,
+        "negative_rate": 11.5,
+        "availability": 0.84,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      }
+    ],
+    "resolution": "Check (refs #10 Thomas Harper 75 / first-out Chuck Clark 74) screened 101 non-pool FSs and raw-flagged 5: Camryn Bynum, Alohi Gilman, Brandon Jones, Malik Mustapha, Andrew Wingard. All resolved by approved tiebreaks FS_REAUDIT_TIEBREAK_07..11 (Thomas Harper holds #10). The low value/availability bars come from Harper's reserve-shortened sample (12 games, 569 PFF snaps).",
+    "flagged": [],
+    "resolved_by_tiebreak": [
+      "FS_REAUDIT_TIEBREAK_07_A1",
+      "FS_REAUDIT_TIEBREAK_08_A1",
+      "FS_REAUDIT_TIEBREAK_09_A1",
+      "FS_REAUDIT_TIEBREAK_10_A1",
+      "FS_REAUDIT_TIEBREAK_11_A1"
+    ],
+    "closest": [
+      {
+        "name": "Craig Woodson",
+        "team": "NE",
+        "status": "ACT",
+        "snaps": 1351,
+        "pff": 68.3,
+        "value": 0.29,
+        "efficiency": 38.8,
+        "negative_rate": 5.9,
+        "availability": 0.96,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Rodney Thomas II",
+        "team": "SEA",
+        "status": "ACT",
+        "snaps": 415,
+        "pff": 67.7,
+        "value": 0.13,
+        "efficiency": 45.5,
+        "negative_rate": 4.8,
+        "availability": 0.92,
+        "hits": [
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Julian Blackmon",
+        "team": "NO",
+        "status": "ACT",
+        "snaps": 540,
+        "pff": 57.3,
+        "value": 0.62,
+        "efficiency": 42.9,
+        "negative_rate": 9.3,
+        "availability": 0.32,
+        "hits": [
+          "value",
+          "efficiency"
+        ]
+      },
+      {
+        "name": "Elijah Molden",
+        "team": "LAC",
+        "status": "ACT",
+        "snaps": 770,
+        "pff": 57.5,
+        "value": 0.12,
+        "efficiency": 39.4,
+        "negative_rate": 10.4,
+        "availability": 0.68,
+        "hits": [
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Xavier Watts",
+        "team": "ATL",
+        "status": "ACT",
+        "snaps": 1637,
+        "pff": 67.1,
+        "value": 0.76,
+        "efficiency": 34.1,
+        "negative_rate": 9.8,
+        "availability": 1,
+        "hits": [
+          "value",
+          "availability"
+        ]
+      }
+    ],
+    "screened": 101,
+    "rating_changes": []
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Jalen Pitre",
+      "ours": 88,
+      "madden": 86,
+      "madden_position": "CB",
+      "delta": 2
+    },
+    {
+      "player": "Minkah Fitzpatrick",
+      "ours": 86,
+      "madden": 90,
+      "madden_position": "SS",
+      "delta": -4
+    },
+    {
+      "player": "Antonio Johnson",
+      "ours": 84,
+      "madden": 81,
+      "madden_position": "SS",
+      "delta": 3
+    },
+    {
+      "player": "Julian Love",
+      "ours": 83,
+      "madden": 86,
+      "madden_position": "FS",
+      "delta": -3
+    },
+    {
+      "player": "Xavier McKinney",
+      "ours": 82,
+      "madden": 92,
+      "madden_position": "SS",
+      "delta": -10
+    },
+    {
+      "player": "Quentin Lake",
+      "ours": 80,
+      "madden": 84,
+      "madden_position": "SS",
+      "delta": -4
+    },
+    {
+      "player": "Tykee Smith",
+      "ours": 78,
+      "madden": 79,
+      "madden_position": "SS",
+      "delta": -1
+    },
+    {
+      "player": "Kevin Byard",
+      "ours": 77,
+      "madden": 85,
+      "madden_position": "FS",
+      "delta": -8
+    },
+    {
+      "player": "Bryan Cook",
+      "ours": 76,
+      "madden": 80,
+      "madden_position": "FS",
+      "delta": -4
+    },
+    {
+      "player": "Thomas Harper",
+      "ours": 75,
+      "madden": 70,
+      "madden_position": "FS",
+      "delta": 5
+    },
+    {
+      "player": "Chuck Clark",
+      "ours": 74,
+      "madden": 78,
+      "madden_position": "FS",
+      "delta": -4
+    },
+    {
+      "player": "Jevon Holland",
+      "ours": 73,
+      "madden": 85,
+      "madden_position": "FS",
+      "delta": -12
+    },
+    {
+      "player": "Kamren Kinchens",
+      "ours": 72,
+      "madden": 79,
+      "madden_position": "FS",
+      "delta": -7
+    }
+  ],
+  "madden_order_verified": false,
+  "madden_used_as_evidence": false,
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```

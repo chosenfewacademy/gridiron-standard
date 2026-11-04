@@ -1,0 +1,208 @@
+{
+ "position": "FS",
+ "references": [
+  {
+   "name": "Thomas Harper",
+   "team": "DET",
+   "status": "RES",
+   "snaps": 570,
+   "pff": 74.5,
+   "value": 0.67,
+   "efficiency": 38.5,
+   "negative_rate": 8.8,
+   "availability": 0.48
+  },
+  {
+   "name": "Chuck Clark",
+   "team": "DET",
+   "status": "ACT",
+   "snaps": 863,
+   "pff": 71.8,
+   "value": 0.32,
+   "efficiency": 38.6,
+   "negative_rate": 7,
+   "availability": 0.76
+  }
+ ],
+ "thresholds": {
+  "pff": 71.8,
+  "value": 0.32,
+  "efficiency": 38.5,
+  "negative_rate": 8.8,
+  "availability": 0.48
+ },
+ "flagged": [
+  {
+   "name": "Camryn Bynum",
+   "team": "IND",
+   "status": "ACT",
+   "snaps": 1585,
+   "pff": 65.2,
+   "value": 0.6,
+   "efficiency": 31,
+   "negative_rate": 5,
+   "availability": 1,
+   "hits": [
+    "value",
+    "negative_rate",
+    "availability"
+   ],
+   "score": -2.6444444444444404
+  },
+  {
+   "name": "Alohi Gilman",
+   "team": "KC",
+   "status": "ACT",
+   "snaps": 1409,
+   "pff": 65.6,
+   "value": 0.42,
+   "efficiency": 40.3,
+   "negative_rate": 12.8,
+   "availability": 0.96,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -2.232804232804231
+  },
+  {
+   "name": "Brandon Jones",
+   "team": "DEN",
+   "status": "ACT",
+   "snaps": 1402,
+   "pff": 66.5,
+   "value": 0.68,
+   "efficiency": 40.8,
+   "negative_rate": 18.5,
+   "availability": 0.88,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -1.9629629629629601
+  },
+  {
+   "name": "Malik Mustapha",
+   "team": "SF",
+   "status": "ACT",
+   "snaps": 944,
+   "pff": 66.3,
+   "value": 0.37,
+   "efficiency": 46,
+   "negative_rate": 11.7,
+   "availability": 0.76,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -1.505291005291002
+  },
+  {
+   "name": "Andrew Wingard",
+   "team": "ARI",
+   "status": "ACT",
+   "snaps": 1217,
+   "pff": 60.8,
+   "value": 0.57,
+   "efficiency": 46.5,
+   "negative_rate": 11.5,
+   "availability": 0.84,
+   "hits": [
+    "value",
+    "efficiency",
+    "availability"
+   ],
+   "score": -1.7857142857142851
+  }
+ ],
+ "closest": [
+  {
+   "name": "Craig Woodson",
+   "team": "NE",
+   "status": "ACT",
+   "snaps": 1351,
+   "pff": 68.3,
+   "value": 0.29,
+   "efficiency": 38.8,
+   "negative_rate": 5.9,
+   "availability": 0.96,
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.6179894179894192
+  },
+  {
+   "name": "Rodney Thomas II",
+   "team": "SEA",
+   "status": "ACT",
+   "snaps": 415,
+   "pff": 67.7,
+   "value": 0.13,
+   "efficiency": 45.5,
+   "negative_rate": 4.8,
+   "availability": 0.92,
+   "hits": [
+    "efficiency",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.9386243386243422
+  },
+  {
+   "name": "Julian Blackmon",
+   "team": "NO",
+   "status": "ACT",
+   "snaps": 540,
+   "pff": 57.3,
+   "value": 0.62,
+   "efficiency": 42.9,
+   "negative_rate": 9.3,
+   "availability": 0.32,
+   "hits": [
+    "value",
+    "efficiency"
+   ],
+   "score": -1.992063492063492
+  },
+  {
+   "name": "Elijah Molden",
+   "team": "LAC",
+   "status": "ACT",
+   "snaps": 770,
+   "pff": 57.5,
+   "value": 0.12,
+   "efficiency": 39.4,
+   "negative_rate": 10.4,
+   "availability": 0.68,
+   "hits": [
+    "efficiency",
+    "availability"
+   ],
+   "score": -2.746031746031745
+  },
+  {
+   "name": "Xavier Watts",
+   "team": "ATL",
+   "status": "ACT",
+   "snaps": 1637,
+   "pff": 67.1,
+   "value": 0.76,
+   "efficiency": 34.1,
+   "negative_rate": 9.8,
+   "availability": 1,
+   "hits": [
+    "value",
+    "availability"
+   ],
+   "score": -3.296296296296296
+  }
+ ],
+ "screened": 101,
+ "read_only": true,
+ "rating_changes": []
+}
