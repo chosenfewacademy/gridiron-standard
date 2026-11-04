@@ -1,0 +1,117 @@
+{
+  "transport": "GROK_BOT_FILE_TRANSPORT",
+  "author": "grok-bot",
+  "task_id": "TE_REAUDIT_TIEBREAK_15",
+  "position": "TE",
+  "researched_at": "2026-11-03T15:58:34Z",
+  "queries": [
+    {
+      "query": "NFL.com 2026 schedule week 9",
+      "executed_at": "2026-11-04T00:10:30Z",
+      "purpose": "CALENDAR"
+    },
+    {
+      "query": "PFF NFL TE grades 2026",
+      "executed_at": "2026-11-04T00:10:30Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "PFF NFL TE grades 2025",
+      "executed_at": "2026-11-04T00:10:30Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "PFF tight end run blocking grade 2026 (sub-grades paywalled)",
+      "executed_at": "2026-11-04T00:10:30Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "nflverse pbp 2025/2026 + NGS receiving + roster 2026",
+      "executed_at": "2026-11-04T00:10:30Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "ESPN NFL injuries TE Nov 2026",
+      "executed_at": "2026-11-04T00:10:30Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "Madden 27 TE ratings (reference only)",
+      "executed_at": "2026-11-04T00:10:30Z",
+      "purpose": "EVIDENCE"
+    },
+    {
+      "query": "Isaiah Likely vs Tucker Kraft: PFF TE 2025-26 overall + block share, nflverse pbp deep/short/red-zone/3rd-down splits, NGS receiving",
+      "executed_at": "2026-11-04T00:10:30Z",
+      "purpose": "EVIDENCE"
+    }
+  ],
+  "retrievals": [
+    {
+      "url": "https://www.pff.com/grades/nfl/te/2026",
+      "retrieved_at": "2026-11-04T00:10:30Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://www.pff.com/grades/nfl/te/2025",
+      "retrieved_at": "2026-11-04T00:10:30Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+      "retrieved_at": "2026-11-04T00:10:30Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+      "retrieved_at": "2026-11-04T00:10:30Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
+      "retrieved_at": "2026-11-04T00:10:30Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "retrieved_at": "2026-11-04T00:10:30Z",
+      "method": "DETERMINISTIC_HELPER"
+    },
+    {
+      "url": "http://www.espn.com/nfl/injuries",
+      "retrieved_at": "2026-11-04T00:10:30Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://www.nfl.com/schedules/2026/reg9/",
+      "retrieved_at": "2026-11-04T00:10:30Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://media.nfl.com/news-and-releases/2026-nfl-regular-season-to-kick-off-wednesday--sept--9-in-seattl",
+      "retrieved_at": "2026-11-04T00:10:30Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://www.nfl.com/news/nfl-make-your-plan-to-watch-the-2026-nfl-preseason",
+      "retrieved_at": "2026-11-04T00:10:30Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://operations.nfl.com/calendar-events/nfl-important-dates",
+      "retrieved_at": "2026-11-04T00:10:30Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://www.ea.com/games/madden-nfl/ratings",
+      "retrieved_at": "2026-11-04T00:10:30Z",
+      "method": "WEB_FETCH"
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+      "retrieved_at": "2026-11-04T00:10:30Z",
+      "method": "DETERMINISTIC_HELPER"
+    }
+  ],
+  "attestation": "All listed queries and retrievals were performed live for this task; no EA ratings used as evidence."
+}
