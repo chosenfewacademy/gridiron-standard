@@ -10353,18 +10353,18 @@
         "WILL_REAUDIT_TIEBREAK_04_A1",
         "WILL_REAUDIT_TIEBREAK_05_A1",
         "WILL_REAUDIT_TIEBREAK_06_A1",
-        "WILL_REAUDIT_VARIANCE_AUDIT_A1"
+        "WILL_REAUDIT_VARIANCE_AUDIT_A1",
+        "WILL_REAUDIT_RATE_05_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "WILL_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T11:51:45.054Z",
+      "updated_at": "2026-11-04T11:51:45.346Z",
       "last_result": {
-        "task_id": "WILL_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
-        "errors": [],
-        "flags": [
-          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "task_id": "WILL_REAUDIT_RATE_05",
+        "status": "REVISION_APPROVED",
+        "audit_id": "WILL_REAUDIT_RATE_05_A2",
+        "supersedes": "WILL_REAUDIT_RATE_05_A1",
+        "flags": []
       },
       "awaiting": null,
       "approvals": [
@@ -10687,6 +10687,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:51:44Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "WILL_REAUDIT_RATE_05",
+          "audit_id": "WILL_REAUDIT_RATE_05_A2",
+          "supersedes": "WILL_REAUDIT_RATE_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:51:45Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (WILL_REAUDIT_VARIANCE_AUDIT, t46u): PRS 68->72 (13 pressures on 42 blitzes, 4.5 sacks in 2026). OVR unchanged."
         }
       ]
     }
