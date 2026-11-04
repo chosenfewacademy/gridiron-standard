@@ -9618,7 +9618,7 @@
         "position": "MIKE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/MIKE.reaudit.json",
       "baseline_file": null,
@@ -9710,19 +9710,23 @@
         "MIKE_REAUDIT_TIEBREAK_05_A1",
         "MIKE_REAUDIT_TIEBREAK_06_A1",
         "MIKE_REAUDIT_VARIANCE_AUDIT_A1",
-        "MIKE_REAUDIT_RATE_03_A2"
+        "MIKE_REAUDIT_RATE_03_A2",
+        "MIKE_REAUDIT_SCARCITY_A1"
       ],
-      "current_stage": "variance_audit",
-      "current_task": "MIKE_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T11:43:41.041Z",
+      "current_stage": "scarcity_audit",
+      "current_task": "MIKE_REAUDIT_SCARCITY",
+      "updated_at": "2026-11-04T11:43:49.621Z",
       "last_result": {
-        "task_id": "MIKE_REAUDIT_RATE_03",
-        "status": "REVISION_APPROVED",
-        "audit_id": "MIKE_REAUDIT_RATE_03_A2",
-        "supersedes": "MIKE_REAUDIT_RATE_03_A1",
+        "task_id": "MIKE_REAUDIT_SCARCITY",
+        "status": "VALIDATED",
+        "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "MIKE_REAUDIT_SCARCITY",
+        "audit_id": "MIKE_REAUDIT_SCARCITY_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
