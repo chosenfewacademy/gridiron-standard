@@ -1,0 +1,212 @@
+# K_REAUDIT_BG_02 — Ka'imi Fairbairn background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "K_REAUDIT_BG_02_A1",
+  "task_id": "K_REAUDIT_BG_02",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "player_id": "ext_00-0032726",
+  "players": [
+    "Ka'imi Fairbairn"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Ka'imi Fairbairn",
+    "player_id": "ext_00-0032726",
+    "team": "HOU",
+    "role_assignment": "K (placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K)",
+    "side_rule": "KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflverse play-by-play (kickoff specialists included); matched by gsis id. Evidence: FG% by distance band (0-39/40-49/50-59/60+), longest FG, FG EPA (nflverse pbp), XP%, kickoff touchback %, return average and out-of-bounds, PFF K overall (2025-26). THIN DATA: no public kickoff hang time (NFL Next Gen Stats does not publish it); kickoff EPA in pbp is noise-dominated by coverage and was not used to rank. Madden position is reference only.",
+    "seasons": {
+      "2025": {
+        "fg": {
+          "0-39": [
+            19,
+            19
+          ],
+          "40-49": [
+            16,
+            16
+          ],
+          "50-59": [
+            9,
+            13
+          ],
+          "60+": [
+            0,
+            0
+          ],
+          "fgm": 44,
+          "fga": 48,
+          "long": 57,
+          "blocked": 1,
+          "fg_epa": 20.8,
+          "games": 15
+        },
+        "xp": [
+          28,
+          28
+        ],
+        "xp_epa": 1.9,
+        "ko": {
+          "n": 86,
+          "tb": 22,
+          "tb_pct": 25.6,
+          "ret_avg": 26.3,
+          "oob": 0,
+          "epa": -14.4,
+          "games": 15
+        },
+        "pen": 1,
+        "pffk": {
+          "ovr": 90.8,
+          "snaps": null,
+          "rank": 9
+        }
+      },
+      "2026": {
+        "fg": {
+          "0-39": [
+            6,
+            6
+          ],
+          "40-49": [
+            3,
+            3
+          ],
+          "50-59": [
+            6,
+            7
+          ],
+          "60+": [
+            0,
+            0
+          ],
+          "fgm": 15,
+          "fga": 16,
+          "long": 58,
+          "blocked": 0,
+          "fg_epa": 13.2,
+          "games": 7
+        },
+        "xp": [
+          16,
+          16
+        ],
+        "xp_epa": 1.0,
+        "ko": {
+          "n": 37,
+          "tb": 7,
+          "tb_pct": 18.9,
+          "ret_avg": 27.8,
+          "oob": 0,
+          "epa": -13.2,
+          "games": 7
+        },
+        "pffk": {
+          "ovr": 91,
+          "snaps": null,
+          "rank": 1
+        }
+      }
+    },
+    "injuries": {
+      "2025": [
+        "wk10 Out (Quadricep)",
+        "wk11 Out (Quadricep)"
+      ]
+    },
+    "summary_lines": [
+      "Ka'imi Fairbairn (HOU) Ka'imi Fairbairn 2026: PFF K 2026 overall 91 (K rank 1); 2026 kickoffs 37, touchback 7 (18.9%), return avg 27.8, 0 out of bounds; 0 accepted penalties",
+      "Ka'imi Fairbairn 2025: PFF K 2025 overall 90.8 (K rank 9); 2025 kickoffs 86, touchback 22 (25.6%), return avg 26.3, 0 out of bounds; 1 accepted penalties",
+      "Ka'imi Fairbairn role: placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K (KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflve...); roster position K; Madden card K (reference only)",
+      "Ka'imi Fairbairn injury reports: wk10 Out (Quadricep); wk11 Out (Quadricep); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "No public kickoff hang time; PFF K sub-grades paywalled; substitutes: FG% by distance band, longest FG, FG EPA, XP%, kickoff touchback %/return average (nflverse pbp), PFF K overall"
+    ],
+    "attributes_informed": [
+      "KPW",
+      "KAC",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "thin_data": false,
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/k/2026",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/k/2025",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T12:49:29Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
