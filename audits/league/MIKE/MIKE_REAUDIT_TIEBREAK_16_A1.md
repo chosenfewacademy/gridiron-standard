@@ -1,0 +1,40 @@
+# MIKE_REAUDIT_TIEBREAK_16 — Omar Speights vs Tyrel Dodson (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "MIKE_REAUDIT_TIEBREAK_16_A1",
+  "task_id": "MIKE_REAUDIT_TIEBREAK_16",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "MIKE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Omar Speights",
+    "Tyrel Dodson"
+  ],
+  "pair_result": {
+    "winner": "Omar Speights",
+    "loser": "Tyrel Dodson",
+    "provisional_order_holds": true,
+    "reasoning": "Speights holds #10 on current form: PFF 79.9 on 231 snaps in 2026 (#4 LB) with 4 TFL / 2.0 sacks and 2 missed tackles (PFR, 7 games), vs Tyrel Dodson's PFF 79.2 on 50 snaps in 2026. Tyrel Dodson's ceiling hits (value, efficiency, availability) come from the two-year screen (snap-weighted PFF 56.5, 1.11 impact plays/game, 91.8% tackle success) where Speights' 2025 (PFF 67.1, 0 TFL) sets a low reference bar.",
+    "key_evidence_for_winner": [
+      "Omar Speights (LA) role snap-weighted 2025-26 depth-chart role shares MIKE 905 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE25 221, MIKE26 275) -> MIKE; roster ACT (LB); injuries wk6 Doubtful (Ankle); wk18 Questionable (Ankle)",
+      "Omar Speights 2026: Omar Speights 2026: PFF LB 2026 overall 79.9 on 231 snaps (LB rank 4; 114 run-def / 92 coverage / 25 pass-rush snaps); PFR 2026 (7 games) coverage 13 targets / 9 completions / 79 yds / 0 INT; 32 tackles, 2 missed; 4 pressures on 13 blitzes; 8 g / 232 def snaps; 22 solo + 15 ast tackles, 4 TFL, 2.0 sacks, 0 INT, 2 PD, 1 FF; 1 accepted penalties; PFR 2026 (7 games) coverage 13 targets / 9 completions / 79 yds / 0 INT; 32 tackles, 2 missed; 4 pressures on 13 blitzes",
+      "Omar Speights 2025: Omar Speights 2025: PFF LB 2025 overall 67.1 on 826 snaps (LB rank 34; 384 run-def / 413 coverage / 29 pass-rush snaps); PFR 2025 coverage 44 targets / 28 completions / 214 yds / passer rating 75.4 / 0 INT; 85 tackles, 3 missed; 1 pressures on 9 blitzes, 0 sacks; 16 g / 673 def snaps; 43 solo + 40 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 1 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 44 targets / 28 completions / 214 yds / passer rating 75.4 / 0 INT; 85 tackles, 3 missed; 1 pressures on 9 blitzes, 0 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Tyrel Dodson (CAR) role snap-weighted 2025-26 depth-chart role shares MIKE 938 / WILL 23 / SAM 0 / edge 0 (raw snapshots MIKE25 220, WILL25 1, WILL26 97, MIKE26 163) -> MIKE; roster ACT (LB); injuries wk6 Out (Concussion); wk7 Questionable (Concussion); wk17 Questionable (Chest)",
+      "Tyrel Dodson 2026: Tyrel Dodson 2026: PFF LB 2026 overall 79.2 on 50 snaps (LB rank None; 34 run-def / 15 coverage / 1 pass-rush snaps); PFR 2026 (1 games) coverage 3 targets / 3 completions / 15 yds / 0 INT; 6 tackles, 0 missed; 0 pressures on 1 blitzes; 2 g / 51 def snaps; 2 solo + 8 ast tackles, 0 TFL, 0.0 sacks, 0 INT, 0 PD, 0 FF; 1 accepted penalties; PFR 2026 (1 games) coverage 3 targets / 3 completions / 15 yds / 0 INT; 6 tackles, 0 missed; 0 pressures on 1 blitzes",
+      "Tyrel Dodson 2025: Tyrel Dodson 2025: PFF LB 2025 overall 55.3 on 910 snaps (LB rank 60; 379 run-def / 467 coverage / 64 pass-rush snaps); PFR 2025 coverage 64 targets / 53 completions / 533 yds / passer rating 115.7 / 1 INT; 129 tackles, 12 missed; 10 pressures on 21 blitzes, 5 sacks; 16 g / 910 def snaps; 70 solo + 57 ast tackles, 10 TFL, 5.0 sacks, 1 INT, 3 PD, 1 FF; 2 accepted penalties; PFR 2025 coverage 64 targets / 53 completions / 533 yds / passer rating 115.7 / 1 INT; 129 tackles, 12 missed; 10 pressures on 21 blitzes, 5 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
