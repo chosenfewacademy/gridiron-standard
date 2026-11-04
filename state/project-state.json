@@ -7283,18 +7283,18 @@
         "FB_REAUDIT_TIEBREAK_04_A1",
         "FB_REAUDIT_TIEBREAK_05_A1",
         "FB_REAUDIT_TIEBREAK_06_A1",
-        "FB_REAUDIT_VARIANCE_AUDIT_A1"
+        "FB_REAUDIT_VARIANCE_AUDIT_A1",
+        "FB_REAUDIT_RATE_04_A2"
       ],
       "current_stage": "variance_audit",
       "current_task": "FB_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T04:20:09.459Z",
+      "updated_at": "2026-11-04T04:20:09.788Z",
       "last_result": {
-        "task_id": "FB_REAUDIT_VARIANCE_AUDIT",
-        "status": "FLAGGED",
-        "errors": [],
-        "flags": [
-          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "task_id": "FB_REAUDIT_RATE_04",
+        "status": "REVISION_APPROVED",
+        "audit_id": "FB_REAUDIT_RATE_04_A2",
+        "supersedes": "FB_REAUDIT_RATE_04_A1",
+        "flags": []
       },
       "awaiting": null,
       "approvals": [
@@ -7617,6 +7617,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T04:20:09Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "FB_REAUDIT_RATE_04",
+          "audit_id": "FB_REAUDIT_RATE_04_A2",
+          "supersedes": "FB_REAUDIT_RATE_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T04:20:09Z",
+          "note": "Standing commissioner approval t46u: Approved variance fix (FB_REAUDIT_VARIANCE_AUDIT, t46u): SRR 78->74 (3-21 / 2-22 receiving on 34 FB routes in 2026; TE background over-credited). OVR "
         }
       ]
     }
