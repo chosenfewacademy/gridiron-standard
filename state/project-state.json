@@ -10262,7 +10262,7 @@
         "position": "WILL",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/WILL.reaudit.json",
       "baseline_file": null,
@@ -10311,18 +10311,23 @@
         "WILL_REAUDIT_RATE_02_A1",
         "WILL_REAUDIT_RATE_03_A1",
         "WILL_REAUDIT_RATE_04_A1",
-        "WILL_REAUDIT_RATE_05_A1"
+        "WILL_REAUDIT_RATE_05_A1",
+        "WILL_REAUDIT_RATE_06_A1"
       ],
       "current_stage": "player_rating",
-      "current_task": "WILL_REAUDIT_RATE_05",
-      "updated_at": "2026-11-04T11:50:47.024Z",
+      "current_task": "WILL_REAUDIT_RATE_06",
+      "updated_at": "2026-11-04T11:50:47.878Z",
       "last_result": {
-        "task_id": "WILL_REAUDIT_RATE_05",
+        "task_id": "WILL_REAUDIT_RATE_06",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "WILL_REAUDIT_RATE_06",
+        "audit_id": "WILL_REAUDIT_RATE_06_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
