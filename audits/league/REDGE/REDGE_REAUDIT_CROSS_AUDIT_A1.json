@@ -1,0 +1,443 @@
+{
+  "audit_id": "REDGE_REAUDIT_CROSS_AUDIT_A1",
+  "task_id": "REDGE_REAUDIT_CROSS_AUDIT",
+  "task_type": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "REDGE",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Myles Garrett",
+    "Micah Parsons",
+    "Danielle Hunter",
+    "Abdul Carter",
+    "Josh Hines-Allen",
+    "Nik Bonitto",
+    "Chase Young",
+    "Alex Highsmith",
+    "Nick Herbig",
+    "Laiatu Latu"
+  ],
+  "cross_audit_result": "CONSISTENT: all 0 approved head-to-head/tiebreak verdicts agree with the final rating order; style rule passes for all 78 pairs of 13 rated REDGEs (0 too similar); league ceiling 7 raw flags, all resolved by approved tiebreaks (Latu holds #10); variance audit 49 10+ gaps: 47 supported, 2 fixed via approved reaudit:revise; Madden reference only.",
+  "final_order": [
+    {
+      "rank": 1,
+      "player": "Myles Garrett",
+      "ovr": 95,
+      "audit_id": "REDGE_REAUDIT_RATE_01_A1"
+    },
+    {
+      "rank": 2,
+      "player": "Micah Parsons",
+      "ovr": 91,
+      "audit_id": "REDGE_REAUDIT_RATE_02_A2"
+    },
+    {
+      "rank": 3,
+      "player": "Danielle Hunter",
+      "ovr": 87,
+      "audit_id": "REDGE_REAUDIT_RATE_03_A1"
+    },
+    {
+      "rank": 4,
+      "player": "Abdul Carter",
+      "ovr": 86,
+      "audit_id": "REDGE_REAUDIT_RATE_04_A1"
+    },
+    {
+      "rank": 5,
+      "player": "Josh Hines-Allen",
+      "ovr": 85,
+      "audit_id": "REDGE_REAUDIT_RATE_05_A1"
+    },
+    {
+      "rank": 6,
+      "player": "Nik Bonitto",
+      "ovr": 84,
+      "audit_id": "REDGE_REAUDIT_RATE_06_A1"
+    },
+    {
+      "rank": 7,
+      "player": "Chase Young",
+      "ovr": 82,
+      "audit_id": "REDGE_REAUDIT_RATE_07_A2"
+    },
+    {
+      "rank": 8,
+      "player": "Alex Highsmith",
+      "ovr": 80,
+      "audit_id": "REDGE_REAUDIT_RATE_08_A1"
+    },
+    {
+      "rank": 9,
+      "player": "Nick Herbig",
+      "ovr": 79,
+      "audit_id": "REDGE_REAUDIT_RATE_09_A1"
+    },
+    {
+      "rank": 10,
+      "player": "Laiatu Latu",
+      "ovr": 78,
+      "audit_id": "REDGE_REAUDIT_RATE_10_A1"
+    },
+    {
+      "rank": 11,
+      "player": "Al-Quadin Muhammad",
+      "ovr": 76,
+      "audit_id": "REDGE_REAUDIT_RATE_11_A1"
+    },
+    {
+      "rank": 12,
+      "player": "Khalil Mack",
+      "ovr": 75,
+      "audit_id": "REDGE_REAUDIT_RATE_12_A1"
+    },
+    {
+      "rank": 13,
+      "player": "Trey Hendrickson",
+      "ovr": 74,
+      "audit_id": "REDGE_REAUDIT_RATE_13_A1"
+    }
+  ],
+  "pair_consistency": [],
+  "style_rule": {
+    "pairs_checked": 78,
+    "too_similar": 0,
+    "highest_corr": [
+      0.91,
+      3.6,
+      "Abdul Carter",
+      "Nik Bonitto"
+    ],
+    "lowest_mad": [
+      0.91,
+      3.6,
+      "Abdul Carter",
+      "Nik Bonitto"
+    ]
+  },
+  "scarcity_note": "REDGE_REAUDIT_SCARCITY_A1 PASS (19 traits 90+, 1 at 95+: Garrett FMV 96 LEAGUE_DEFINING; no 97+; overall 90+: Garrett 95, Parsons 91). Narrative text grep-verified before the stage ran.",
+  "eligibility_rule": "Edge-eligible = PFF edge grade (2025/2026); side assigned by majority 2025-26 depth-chart snapshots (see side_convention); a player appears in only one of LEDGE/REDGE.",
+  "side_convention": "EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LEDGE = defense's left edge (aligned over the offense's right tackle); REDGE = defense's right edge (over the offense's left tackle), matching the repo note 'Right-side edge (offense's left)'. Side evidence = nflverse weekly depth charts 2025 + 2026 (ESPN-sourced): each team-day snapshot counts once; LDE (4-3 or 3-4) or 3-4 WLB (ESPN 3-4 layout slot 4, left of LILB) = left; RDE or 3-4 SLB (slot 7, right of RILB) = right; 4-3 WLB/SLB are off-ball LBs and not counted. The side with more snapshots across both seasons wins; a player appears in only one list. PFF alignment splits (left/right snap counts) are paywalled and NGS publishes no side split, so depth charts are the side source; Madden 27's LEDG/REDG card label is reference only and does not decide side.",
+  "commissioner_fix_approvals": "Approved and applied under t46u: Parsons STR 74->78, Chase Young TAK 76->80 (overalls unchanged).",
+  "league_ceiling_check": {
+    "source": "research-inbox/REDGE/REDGE_REAUDIT_LEAGUE_CEILING_CHECK/league_ceiling_check-t46u.json",
+    "references": [
+      "Laiatu Latu",
+      "Al-Quadin Muhammad"
+    ],
+    "thresholds": {
+      "pff": 76.5,
+      "value": 1.28,
+      "efficiency": 5.5,
+      "negative_rate": 9.8,
+      "availability": 0.96
+    },
+    "scope": "Every edge-eligible player league-wide (PFF edge grade in 2025 or 2026) whose majority 2025-26 depth-chart side is the defense's right (REDGE), incl. reserve/IR, inactive, practice squad and free agents; the 13 audited REDGEs excluded as in-pool. Metrics: snap-weighted PFF edge grade, PFR pressures per game (value), pressures per 100 PFF pass-rush snaps (efficiency), missed tackles + accepted penalties per 1,000 snaps (negative rate), games share.",
+    "raw_flags_before_resolution": [
+      {
+        "name": "Jaelan Phillips",
+        "team": "CAR",
+        "status": "INA",
+        "snaps": 1045,
+        "pff": 73.1,
+        "value": 2.05,
+        "efficiency": 8.1,
+        "negative_rate": 7.7,
+        "availability": 0.88,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate"
+        ]
+      },
+      {
+        "name": "Donovan Ezeiruaku",
+        "team": "DAL",
+        "status": "ACT",
+        "snaps": 971,
+        "pff": 69.8,
+        "value": 1.48,
+        "efficiency": 7,
+        "negative_rate": 9.3,
+        "availability": 1,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Jalyx Hunt",
+        "team": "PHI",
+        "status": "ACT",
+        "snaps": 981,
+        "pff": 65.6,
+        "value": 1.5,
+        "efficiency": 7.1,
+        "negative_rate": 9.2,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Dallas Turner",
+        "team": "MIN",
+        "status": "ACT",
+        "snaps": 1045,
+        "pff": 68,
+        "value": 2.04,
+        "efficiency": 10.2,
+        "negative_rate": 14.4,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Arden Key",
+        "team": "IND",
+        "status": "RES",
+        "snaps": 620,
+        "pff": 63.1,
+        "value": 1.38,
+        "efficiency": 5.7,
+        "negative_rate": 9.7,
+        "availability": 0.64,
+        "hits": [
+          "value",
+          "efficiency",
+          "negative_rate"
+        ]
+      },
+      {
+        "name": "Jacob Martin",
+        "team": "TEN",
+        "status": "ACT",
+        "snaps": 1032,
+        "pff": 55.5,
+        "value": 1.56,
+        "efficiency": 6.2,
+        "negative_rate": 10.7,
+        "availability": 1,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      },
+      {
+        "name": "Bradley Chubb",
+        "team": "BUF",
+        "status": "ACT",
+        "snaps": 1109,
+        "pff": 55.2,
+        "value": 1.33,
+        "efficiency": 5.5,
+        "negative_rate": 15.3,
+        "availability": 0.96,
+        "hits": [
+          "value",
+          "efficiency",
+          "availability"
+        ]
+      }
+    ],
+    "resolution": "Check (refs #10 Latu 78 / first-out Muhammad 76) screened 102 non-pool right-side edges and raw-flagged 7: Dallas Turner, Jaelan Phillips, Donovan Ezeiruaku, Jalyx Hunt, Arden Key, Jacob Martin, Bradley Chubb (all on pressure-volume/availability metrics; none meets the 76.5 PFF threshold). Each was resolved by an approved add-only tiebreak against Latu (REDGE_REAUDIT_TIEBREAK_05..11), all won by Latu; Turner (2026 PFF 73.0, 25 pressures, PRWR #11) was the closest, NARROW. Latu 78 stands as the ceiling; no pool amendment or rating change.",
+    "flagged": [],
+    "resolved_by_tiebreak": [
+      "REDGE_REAUDIT_TIEBREAK_05_A1",
+      "REDGE_REAUDIT_TIEBREAK_06_A1",
+      "REDGE_REAUDIT_TIEBREAK_07_A1",
+      "REDGE_REAUDIT_TIEBREAK_08_A1",
+      "REDGE_REAUDIT_TIEBREAK_09_A1",
+      "REDGE_REAUDIT_TIEBREAK_10_A1",
+      "REDGE_REAUDIT_TIEBREAK_11_A1"
+    ],
+    "closest": [
+      {
+        "name": "Jared Verse",
+        "team": "CLE",
+        "status": "ACT",
+        "snaps": 1199,
+        "pff": 75.2,
+        "value": 1.6,
+        "efficiency": 4.8,
+        "negative_rate": 10,
+        "availability": 1,
+        "hits": [
+          "value",
+          "availability"
+        ]
+      },
+      {
+        "name": "Joey Bosa",
+        "team": "buffalo-bills",
+        "status": null,
+        "snaps": 562,
+        "pff": 74.6,
+        "value": 1.6,
+        "efficiency": 6,
+        "negative_rate": 10.7,
+        "availability": 0.6,
+        "hits": [
+          "value",
+          "efficiency"
+        ]
+      },
+      {
+        "name": "Mike Green",
+        "team": "BAL",
+        "status": "ACT",
+        "snaps": 968,
+        "pff": 53,
+        "value": 1.08,
+        "efficiency": 4.9,
+        "negative_rate": 6.2,
+        "availability": 1,
+        "hits": [
+          "negative_rate",
+          "availability"
+        ]
+      },
+      {
+        "name": "Uchenna Nwosu",
+        "team": "SEA",
+        "status": "ACT",
+        "snaps": 805,
+        "pff": 59.3,
+        "value": 1.35,
+        "efficiency": 5.6,
+        "negative_rate": 9.9,
+        "availability": 0.92,
+        "hits": [
+          "value",
+          "efficiency"
+        ]
+      },
+      {
+        "name": "Malcolm Koonce",
+        "team": "LV",
+        "status": "ACT",
+        "snaps": 741,
+        "pff": 60.6,
+        "value": 0.96,
+        "efficiency": 4.9,
+        "negative_rate": 6.7,
+        "availability": 1,
+        "hits": [
+          "negative_rate",
+          "availability"
+        ]
+      }
+    ],
+    "screened": 102,
+    "rating_changes": []
+  },
+  "madden_side_by_side": [
+    {
+      "player": "Myles Garrett",
+      "ours": 95,
+      "madden": 99,
+      "madden_position": "REDG",
+      "delta": -4
+    },
+    {
+      "player": "Micah Parsons",
+      "ours": 91,
+      "madden": 98,
+      "madden_position": "REDG",
+      "delta": -7
+    },
+    {
+      "player": "Danielle Hunter",
+      "ours": 87,
+      "madden": 92,
+      "madden_position": "REDG",
+      "delta": -5
+    },
+    {
+      "player": "Abdul Carter",
+      "ours": 86,
+      "madden": 84,
+      "madden_position": "LEDG",
+      "delta": 2
+    },
+    {
+      "player": "Josh Hines-Allen",
+      "ours": 85,
+      "madden": 89,
+      "madden_position": "REDG",
+      "delta": -4
+    },
+    {
+      "player": "Nik Bonitto",
+      "ours": 84,
+      "madden": 91,
+      "madden_position": "REDG",
+      "delta": -7
+    },
+    {
+      "player": "Chase Young",
+      "ours": 82,
+      "madden": 88,
+      "madden_position": "LEDG",
+      "delta": -6
+    },
+    {
+      "player": "Alex Highsmith",
+      "ours": 80,
+      "madden": 87,
+      "madden_position": "REDG",
+      "delta": -7
+    },
+    {
+      "player": "Nick Herbig",
+      "ours": 79,
+      "madden": 78,
+      "madden_position": "REDG",
+      "delta": 1
+    },
+    {
+      "player": "Laiatu Latu",
+      "ours": 78,
+      "madden": 80,
+      "madden_position": "LEDG",
+      "delta": -2
+    },
+    {
+      "player": "Al-Quadin Muhammad",
+      "ours": 76,
+      "madden": 76,
+      "madden_position": "LEDG",
+      "delta": 0
+    },
+    {
+      "player": "Khalil Mack",
+      "ours": 75,
+      "madden": 86,
+      "madden_position": "REDG",
+      "delta": -11
+    },
+    {
+      "player": "Trey Hendrickson",
+      "ours": 74,
+      "madden": 88,
+      "madden_position": "REDG",
+      "delta": -14
+    }
+  ],
+  "madden_order_verified": false,
+  "madden_used_as_evidence": false,
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}

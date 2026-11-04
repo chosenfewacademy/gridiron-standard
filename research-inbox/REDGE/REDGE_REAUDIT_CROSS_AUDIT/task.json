@@ -1,0 +1,178 @@
+{
+  "task_id": "REDGE_REAUDIT_CROSS_AUDIT",
+  "type": "positional_cross_audit",
+  "players": [
+    "Myles Garrett",
+    "Micah Parsons",
+    "Danielle Hunter",
+    "Abdul Carter",
+    "Josh Hines-Allen",
+    "Nik Bonitto",
+    "Chase Young",
+    "Alex Highsmith",
+    "Nick Herbig",
+    "Laiatu Latu"
+  ],
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Myles Garrett",
+        "overall": 95
+      },
+      {
+        "rank": 2,
+        "player": "Micah Parsons",
+        "overall": 91
+      },
+      {
+        "rank": 3,
+        "player": "Danielle Hunter",
+        "overall": 87
+      },
+      {
+        "rank": 4,
+        "player": "Abdul Carter",
+        "overall": 86
+      },
+      {
+        "rank": 5,
+        "player": "Josh Hines-Allen",
+        "overall": 85
+      },
+      {
+        "rank": 6,
+        "player": "Nik Bonitto",
+        "overall": 84
+      },
+      {
+        "rank": 7,
+        "player": "Chase Young",
+        "overall": 82
+      },
+      {
+        "rank": 8,
+        "player": "Alex Highsmith",
+        "overall": 80
+      },
+      {
+        "rank": 9,
+        "player": "Nick Herbig",
+        "overall": 79
+      },
+      {
+        "rank": 10,
+        "player": "Laiatu Latu",
+        "overall": 78
+      }
+    ],
+    "external_controls": [
+      "Al-Quadin Muhammad",
+      "Khalil Mack",
+      "Trey Hendrickson"
+    ]
+  },
+  "league_ceiling_check_required": true,
+  "ceiling_references": [
+    {
+      "player": "Laiatu Latu",
+      "ovr": 78
+    },
+    {
+      "player": "Al-Quadin Muhammad",
+      "ovr": 76
+    }
+  ],
+  "ceiling_config": {
+    "min_hits": 3,
+    "min_sample": 250,
+    "sample_key": "snaps",
+    "metrics": [
+      {
+        "key": "pff",
+        "label": "PFF overall grade (snap-weighted 2025-26)",
+        "better": "higher",
+        "production": true
+      },
+      {
+        "key": "value",
+        "label": "position value metric (EPA/WAR-type, see variance domains)",
+        "better": "higher",
+        "production": true
+      },
+      {
+        "key": "efficiency",
+        "label": "primary position efficiency metric",
+        "better": "higher"
+      },
+      {
+        "key": "negative_rate",
+        "label": "negative-play rate (penalties/pressures allowed/missed tackles as applicable)",
+        "better": "lower"
+      },
+      {
+        "key": "availability",
+        "label": "games played share",
+        "better": "higher"
+      }
+    ],
+    "scope": "Every rostered or free-agent player at the position outside the audited pool with meaningful 2025-26 snaps (starters, recent starters, notable backups, rookies)."
+  },
+  "position": "REDGE",
+  "stage": "positional_cross_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 10,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "pass rush",
+      "run defense",
+      "tackling",
+      "pass-rush win rate",
+      "pressures",
+      "total pressures, sacks, hits, hurries"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks, QB hits",
+      "forced fumbles",
+      "batted passes"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (edge side / interior technique)",
+      "pass-rush snaps vs run snaps"
+    ],
+    "on_field_impact": [
+      "pass-rush win rate (ESPN)",
+      "run-stop win rate (ESPN)",
+      "pressure rate",
+      "run-stop %"
+    ],
+    "madden_attributes_informed": [
+      "PMV",
+      "FMV",
+      "BSH",
+      "PUR",
+      "PRC",
+      "TAK",
+      "POW",
+      "STR",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Right-side edge (offense's left): only right-edge alignment snaps are primary."
+  }
+}
