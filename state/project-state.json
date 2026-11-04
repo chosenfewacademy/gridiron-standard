@@ -3303,16 +3303,17 @@
         "TE_REAUDIT_TIEBREAK_09_A1",
         "TE_REAUDIT_TIEBREAK_10_A1",
         "TE_REAUDIT_RATE_04_A3",
-        "TE_REAUDIT_RATE_03_A3"
+        "TE_REAUDIT_RATE_03_A3",
+        "TE_REAUDIT_RATE_08_A2"
       ],
       "current_stage": "pair_audits",
       "current_task": "TE_REAUDIT_H2H_01",
-      "updated_at": "2026-11-04T00:14:15.986Z",
+      "updated_at": "2026-11-04T00:14:16.282Z",
       "last_result": {
-        "task_id": "TE_REAUDIT_RATE_03",
+        "task_id": "TE_REAUDIT_RATE_08",
         "status": "REVISION_APPROVED",
-        "audit_id": "TE_REAUDIT_RATE_03_A3",
-        "supersedes": "TE_REAUDIT_RATE_03_A2",
+        "audit_id": "TE_REAUDIT_RATE_08_A2",
+        "supersedes": "TE_REAUDIT_RATE_08_A1",
         "flags": []
       },
       "awaiting": null,
@@ -3728,6 +3729,15 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T00:14:15Z",
           "note": "Commissioner approval t45s389: H2H_02 loses to Kincaid (EPA/tgt +.428/+.293, YPRR 1.68/1.53); TIEBREAK_02 beats LaPorta on volume"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_RATE_08",
+          "audit_id": "TE_REAUDIT_RATE_08_A2",
+          "supersedes": "TE_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T00:14:16Z",
+          "note": "Commissioner approval t45s389: H2H_04 loses 82 tie to Washington (block share .37 vs .58, PFF 75.0 vs 80.3); TIEBREAK_04 edges Henry"
         }
       ]
     },
