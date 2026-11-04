@@ -8200,7 +8200,7 @@
         "position": "LEDGE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LEDGE.reaudit.json",
       "baseline_file": null,
@@ -8246,7 +8246,8 @@
         "LEDGE_REAUDIT_TIEBREAK_01",
         "LEDGE_REAUDIT_TIEBREAK_02",
         "LEDGE_REAUDIT_TIEBREAK_03",
-        "LEDGE_REAUDIT_TIEBREAK_04"
+        "LEDGE_REAUDIT_TIEBREAK_04",
+        "LEDGE_REAUDIT_VARIANCE_AUDIT"
       ],
       "audit_ids": [
         "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -8290,7 +8291,7 @@
       ],
       "current_stage": "variance_audit",
       "current_task": "LEDGE_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T11:09:52.261Z",
+      "updated_at": "2026-11-04T11:09:52.529Z",
       "last_result": {
         "task_id": "LEDGE_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
@@ -8299,11 +8300,7 @@
           "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LEDGE_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "LEDGE_REAUDIT_VARIANCE_AUDIT_A1"
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -8600,6 +8597,14 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T11:09:06Z",
           "note": "Standing commissioner approval t46u (approve every stage on the same pathway)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "LEDGE_REAUDIT_VARIANCE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:09:52Z",
+          "note": "Standing commissioner approval t46u / t54s495 (approve every stage on the same pathway)"
         }
       ]
     }
