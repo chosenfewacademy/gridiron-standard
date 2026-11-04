@@ -4341,7 +4341,7 @@
         "position": "LT",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/LT.reaudit.json",
       "baseline_file": "data/baselines/LT.json",
@@ -4464,18 +4464,25 @@
         "LT_REAUDIT_H2H_03_A1",
         "LT_REAUDIT_H2H_04_A1",
         "LT_REAUDIT_H2H_05_A1",
-        "LT_REAUDIT_H2H_06_A1"
+        "LT_REAUDIT_H2H_06_A1",
+        "LT_REAUDIT_VARIANCE_AUDIT_A1"
       ],
-      "current_stage": "pair_audits",
-      "current_task": "LT_REAUDIT_H2H_06",
-      "updated_at": "2026-11-04T02:53:03.123Z",
+      "current_stage": "variance_audit",
+      "current_task": "LT_REAUDIT_VARIANCE_AUDIT",
+      "updated_at": "2026-11-04T02:53:50.788Z",
       "last_result": {
-        "task_id": "LT_REAUDIT_H2H_06",
-        "status": "VALIDATED",
+        "task_id": "LT_REAUDIT_VARIANCE_AUDIT",
+        "status": "FLAGGED",
         "errors": [],
-        "flags": []
+        "flags": [
+          "VARIANCE_FIXES_DRAFTED_PENDING_COMMISSIONER_REVIEW"
+        ]
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "LT_REAUDIT_VARIANCE_AUDIT",
+        "audit_id": "LT_REAUDIT_VARIANCE_AUDIT_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
