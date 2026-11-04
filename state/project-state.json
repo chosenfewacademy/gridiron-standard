@@ -21579,7 +21579,7 @@
         "position": "LEDGE",
         "stage": "top10_reaudit"
       },
-      "status": "QUEUED_NOT_STARTED",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LEDGE.reaudit.json",
       "baseline_file": "data/baselines/LEDGE.reaudit-20261104.json",
@@ -21587,7 +21587,674 @@
       "requested_by": "PhiXCrypto",
       "requested_at": "2026-11-04T19:32:25.132Z",
       "trigger": "COMMISSIONER_EXPLICIT",
-      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
+      "started_at": "2026-11-04T19:32:25Z",
+      "updated_at": "2026-11-04T19:32:25Z",
+      "audit_ids": [
+        "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1",
+        "LEDGE_REAUDIT_BG_01_A1",
+        "LEDGE_REAUDIT_BG_02_A1",
+        "LEDGE_REAUDIT_BG_03_A1",
+        "LEDGE_REAUDIT_BG_04_A1",
+        "LEDGE_REAUDIT_BG_05_A1",
+        "LEDGE_REAUDIT_BG_06_A1",
+        "LEDGE_REAUDIT_BG_07_A1",
+        "LEDGE_REAUDIT_BG_08_A1",
+        "LEDGE_REAUDIT_BG_09_A1",
+        "LEDGE_REAUDIT_BG_10_A1",
+        "LEDGE_REAUDIT_BG_11_A1",
+        "LEDGE_REAUDIT_BG_12_A1",
+        "LEDGE_REAUDIT_BG_13_A1",
+        "LEDGE_REAUDIT_RATE_01_A1",
+        "LEDGE_REAUDIT_RATE_02_A1",
+        "LEDGE_REAUDIT_RATE_03_A1",
+        "LEDGE_REAUDIT_RATE_04_A1",
+        "LEDGE_REAUDIT_RATE_05_A1",
+        "LEDGE_REAUDIT_RATE_06_A1",
+        "LEDGE_REAUDIT_RATE_07_A1",
+        "LEDGE_REAUDIT_RATE_08_A1",
+        "LEDGE_REAUDIT_RATE_09_A1",
+        "LEDGE_REAUDIT_RATE_10_A1",
+        "LEDGE_REAUDIT_RATE_11_A1",
+        "LEDGE_REAUDIT_RATE_12_A1",
+        "LEDGE_REAUDIT_RATE_13_A1",
+        "LEDGE_REAUDIT_H2H_01_A1",
+        "LEDGE_REAUDIT_H2H_02_A1",
+        "LEDGE_REAUDIT_H2H_03_A1",
+        "LEDGE_REAUDIT_H2H_04_A1",
+        "LEDGE_REAUDIT_H2H_05_A1",
+        "LEDGE_REAUDIT_H2H_06_A1",
+        "LEDGE_REAUDIT_TIEBREAK_01_A1",
+        "LEDGE_REAUDIT_TIEBREAK_02_A1",
+        "LEDGE_REAUDIT_TIEBREAK_03_A1",
+        "LEDGE_REAUDIT_TIEBREAK_04_A1",
+        "LEDGE_REAUDIT_RATE_02_A2",
+        "LEDGE_REAUDIT_RATE_07_A2",
+        "LEDGE_REAUDIT_TIEBREAK_05_A1",
+        "LEDGE_REAUDIT_TIEBREAK_06_A1",
+        "LEDGE_REAUDIT_TIEBREAK_07_A1",
+        "LEDGE_REAUDIT_TIEBREAK_08_A1"
+      ],
+      "completed_tasks": [
+        "LEDGE_REAUDIT_CANDIDATE_AUDIT",
+        "LEDGE_REAUDIT_BG_01",
+        "LEDGE_REAUDIT_BG_02",
+        "LEDGE_REAUDIT_BG_03",
+        "LEDGE_REAUDIT_BG_04",
+        "LEDGE_REAUDIT_BG_05",
+        "LEDGE_REAUDIT_BG_06",
+        "LEDGE_REAUDIT_BG_07",
+        "LEDGE_REAUDIT_BG_08",
+        "LEDGE_REAUDIT_BG_09",
+        "LEDGE_REAUDIT_BG_10",
+        "LEDGE_REAUDIT_BG_11",
+        "LEDGE_REAUDIT_BG_12",
+        "LEDGE_REAUDIT_BG_13",
+        "LEDGE_REAUDIT_RATE_01",
+        "LEDGE_REAUDIT_RATE_02",
+        "LEDGE_REAUDIT_RATE_03",
+        "LEDGE_REAUDIT_RATE_04",
+        "LEDGE_REAUDIT_RATE_05",
+        "LEDGE_REAUDIT_RATE_06",
+        "LEDGE_REAUDIT_RATE_07",
+        "LEDGE_REAUDIT_RATE_08",
+        "LEDGE_REAUDIT_RATE_09",
+        "LEDGE_REAUDIT_RATE_10",
+        "LEDGE_REAUDIT_RATE_11",
+        "LEDGE_REAUDIT_RATE_12",
+        "LEDGE_REAUDIT_RATE_13",
+        "LEDGE_REAUDIT_H2H_01",
+        "LEDGE_REAUDIT_H2H_02",
+        "LEDGE_REAUDIT_H2H_03",
+        "LEDGE_REAUDIT_H2H_04",
+        "LEDGE_REAUDIT_H2H_05",
+        "LEDGE_REAUDIT_H2H_06",
+        "LEDGE_REAUDIT_TIEBREAK_01",
+        "LEDGE_REAUDIT_TIEBREAK_02",
+        "LEDGE_REAUDIT_TIEBREAK_03",
+        "LEDGE_REAUDIT_TIEBREAK_04",
+        "LEDGE_REAUDIT_TIEBREAK_05",
+        "LEDGE_REAUDIT_TIEBREAK_06",
+        "LEDGE_REAUDIT_TIEBREAK_07",
+        "LEDGE_REAUDIT_TIEBREAK_08"
+      ],
+      "approvals": [
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_CANDIDATE_AUDIT",
+          "audit_id": "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:23Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_01",
+          "audit_id": "LEDGE_REAUDIT_BG_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:25Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_02",
+          "audit_id": "LEDGE_REAUDIT_BG_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:26Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_03",
+          "audit_id": "LEDGE_REAUDIT_BG_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:27Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_04",
+          "audit_id": "LEDGE_REAUDIT_BG_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:28Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_05",
+          "audit_id": "LEDGE_REAUDIT_BG_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:29Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_06",
+          "audit_id": "LEDGE_REAUDIT_BG_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:31Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_07",
+          "audit_id": "LEDGE_REAUDIT_BG_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:32Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_08",
+          "audit_id": "LEDGE_REAUDIT_BG_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:33Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_09",
+          "audit_id": "LEDGE_REAUDIT_BG_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:34Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_10",
+          "audit_id": "LEDGE_REAUDIT_BG_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:35Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_11",
+          "audit_id": "LEDGE_REAUDIT_BG_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:36Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_12",
+          "audit_id": "LEDGE_REAUDIT_BG_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:38Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_BG_13",
+          "audit_id": "LEDGE_REAUDIT_BG_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:39Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_01",
+          "audit_id": "LEDGE_REAUDIT_RATE_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:40Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_02",
+          "audit_id": "LEDGE_REAUDIT_RATE_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:41Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_03",
+          "audit_id": "LEDGE_REAUDIT_RATE_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:42Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_04",
+          "audit_id": "LEDGE_REAUDIT_RATE_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:43Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_05",
+          "audit_id": "LEDGE_REAUDIT_RATE_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:44Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_06",
+          "audit_id": "LEDGE_REAUDIT_RATE_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:46Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_07",
+          "audit_id": "LEDGE_REAUDIT_RATE_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:47Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_08",
+          "audit_id": "LEDGE_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:48Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_09",
+          "audit_id": "LEDGE_REAUDIT_RATE_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:49Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_10",
+          "audit_id": "LEDGE_REAUDIT_RATE_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:50Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_11",
+          "audit_id": "LEDGE_REAUDIT_RATE_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:52Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_12",
+          "audit_id": "LEDGE_REAUDIT_RATE_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:53Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_13",
+          "audit_id": "LEDGE_REAUDIT_RATE_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:06:54Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_H2H_01",
+          "audit_id": "LEDGE_REAUDIT_H2H_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:08:57Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_H2H_02",
+          "audit_id": "LEDGE_REAUDIT_H2H_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:08:58Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_H2H_03",
+          "audit_id": "LEDGE_REAUDIT_H2H_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:08:59Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_H2H_04",
+          "audit_id": "LEDGE_REAUDIT_H2H_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:09:00Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_H2H_05",
+          "audit_id": "LEDGE_REAUDIT_H2H_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:09:01Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_H2H_06",
+          "audit_id": "LEDGE_REAUDIT_H2H_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:09:03Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_TIEBREAK_01",
+          "audit_id": "LEDGE_REAUDIT_TIEBREAK_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:09:04Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_TIEBREAK_02",
+          "audit_id": "LEDGE_REAUDIT_TIEBREAK_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:09:05Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_TIEBREAK_03",
+          "audit_id": "LEDGE_REAUDIT_TIEBREAK_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:09:05Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_TIEBREAK_04",
+          "audit_id": "LEDGE_REAUDIT_TIEBREAK_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:09:06Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_02",
+          "audit_id": "LEDGE_REAUDIT_RATE_02_A2",
+          "supersedes": "LEDGE_REAUDIT_RATE_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:09:52Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_RATE_07",
+          "audit_id": "LEDGE_REAUDIT_RATE_07_A2",
+          "supersedes": "LEDGE_REAUDIT_RATE_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:09:52Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_TIEBREAK_05",
+          "audit_id": "LEDGE_REAUDIT_TIEBREAK_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:11:24Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_TIEBREAK_06",
+          "audit_id": "LEDGE_REAUDIT_TIEBREAK_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:11:25Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_TIEBREAK_07",
+          "audit_id": "LEDGE_REAUDIT_TIEBREAK_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:11:26Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_TIEBREAK_08",
+          "audit_id": "LEDGE_REAUDIT_TIEBREAK_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:32:25Z",
+          "note": "t56s532: carry forward approved LEDGE player stages from LEDGE_REAUDIT_LOCK_20261104",
+          "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T11:11:26Z"
+          }
+        }
+      ],
+      "current_stage": "carry_forward",
+      "current_task": null,
+      "awaiting": null,
+      "last_result": {
+        "status": "CARRIED_FORWARD",
+        "carried_from": "LEDGE_REAUDIT_LOCK_20261104",
+        "carried": 43,
+        "rerun": [
+          "LEDGE_REAUDIT_VARIANCE_AUDIT",
+          "LEDGE_REAUDIT_SCARCITY",
+          "LEDGE_REAUDIT_CROSS_AUDIT",
+          "LEDGE_REAUDIT_LOCK"
+        ]
+      }
     }
   ]
 }
