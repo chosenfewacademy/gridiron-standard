@@ -1,0 +1,180 @@
+# FB_REAUDIT_BG_09 — Andrew Beck background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "FB_REAUDIT_BG_09_A1",
+  "task_id": "FB_REAUDIT_BG_09",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "player_id": "ext_00-0034959",
+  "players": [
+    "Andrew Beck"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "dossier": {
+    "player": "Andrew Beck",
+    "player_id": "ext_00-0034959",
+    "team": "NYJ",
+    "eligibility": "Andrew Beck usage (FB eligibility rule: PFF FB alignment / depth-chart FB / roster FB): roster position RB, depth-chart position FB",
+    "pff": {
+      "2025": {
+        "rank": null,
+        "pff": 66.1,
+        "team": "new-york-jets",
+        "off": 112,
+        "run": 1,
+        "recv": 30,
+        "rblk": 75,
+        "pblk": 6,
+        "age": 30.4,
+        "wt": 255
+      },
+      "2026": {
+        "rank": null,
+        "pff": 50.5,
+        "team": "new-york-jets",
+        "off": 24,
+        "run": 1,
+        "recv": 5,
+        "rblk": 16,
+        "pblk": 2,
+        "age": 30.4,
+        "wt": 255
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "off": 110,
+        "st": 319
+      },
+      "2026": {
+        "games": 6,
+        "off": 24,
+        "st": 146
+      }
+    },
+    "touches": {
+      "2025": {
+        "carries": 1.0,
+        "rushing_yards": 5.0,
+        "rushing_tds": 0.0,
+        "receptions": 6.0,
+        "targets": 9.0,
+        "receiving_yards": 45.0,
+        "receiving_tds": 2.0,
+        "rushing_fumbles_lost": 0.0,
+        "receiving_fumbles_lost": 0.0
+      },
+      "2026": {
+        "carries": 1.0,
+        "rushing_yards": -1.0,
+        "rushing_tds": 0.0,
+        "receptions": 0.0,
+        "targets": 0.0,
+        "receiving_yards": 0.0,
+        "receiving_tds": 0.0,
+        "rushing_fumbles_lost": 0.0,
+        "receiving_fumbles_lost": 0.0
+      }
+    },
+    "penalties": {
+      "2025": 0,
+      "2026": 0
+    },
+    "fb_depth_chart": {
+      "2025": {
+        "rank1": 221
+      },
+      "2026": {
+        "rank1": 182
+      }
+    },
+    "injuries": {},
+    "summary_lines": [
+      "Andrew Beck (NYJ) 2026: PFF FB 2026 50.5 (rank None, 24 snaps: 16 run/lead-block, 2 pass-block, 5 routes, 1 carries; block share 0.75); 6 g / 24 off snaps; 1--1 rushing, 0/0 tgt for 0 yds, 0 TD; 0 penalties; FB depth-chart snapshots {'rank1': 182}",
+      "Andrew Beck 2025: PFF FB 2025 66.1 (rank None, 112 snaps: 75 run/lead-block, 6 pass-block, 30 routes, 1 carries; block share 0.72); 17 g / 110 off snaps; 1-5 rushing, 6/9 tgt for 45 yds, 2 TD; 0 penalties; FB depth-chart snapshots {'rank1': 221}",
+      "Andrew Beck usage (FB eligibility rule: PFF FB alignment / depth-chart FB / roster FB): roster position RB, depth-chart position FB",
+      "Andrew Beck injury reports: none; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF FB run/pass-block sub-grades, lead-block win data and 21/22-personnel share are paywalled or unpublished; substitutes: PFF FB overall + run-block/pass-block/route/carry snap counts, nflverse snaps, rushing/receiving, penalties, FB depth-chart role, injury reports",
+      "limited 2026 sample"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "CAR",
+      "BCV",
+      "TRK",
+      "BTK",
+      "SFA",
+      "CTH",
+      "CIT",
+      "SRR",
+      "RBK",
+      "RBP",
+      "RBF",
+      "PBK",
+      "IBL",
+      "LBK",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/fb/2026",
+        "retrieved_at": "2026-11-04T04:14:37Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/fb/2025",
+        "retrieved_at": "2026-11-04T04:14:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T04:14:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T04:14:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:37Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T04:14:37Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
