@@ -1,0 +1,147 @@
+{
+  "audit_id": "RG_REAUDIT_BG_09_A1",
+  "task_id": "RG_REAUDIT_BG_09",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RG",
+  "player_id": "ext_00-0039358",
+  "players": [
+    "Mason McCormick"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Mason McCormick",
+    "player_id": "ext_00-0039358",
+    "team": "PIT",
+    "pff": {
+      "2025": {
+        "rank": 17,
+        "pff": 72.8,
+        "team": "pittsburgh-steelers",
+        "off": 1088,
+        "pblk": 673,
+        "rblk": 415,
+        "age": 26.4,
+        "qual": true,
+        "roster": "A"
+      },
+      "2026": {
+        "rank": 14,
+        "pff": 76.1,
+        "team": "pittsburgh-steelers",
+        "off": 533,
+        "pblk": 344,
+        "rblk": 189,
+        "age": 26.4,
+        "qual": true,
+        "roster": "A"
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "off": 1031
+      },
+      "2026": {
+        "games": 8,
+        "off": 533
+      }
+    },
+    "penalties": {
+      "2025": {
+        "total": 1,
+        "types": {
+          "False Start": 1
+        }
+      },
+      "2026": {
+        "total": 2,
+        "types": {
+          "Unnecessary Roughness": 2
+        }
+      }
+    },
+    "depth_chart_side": {
+      "2025": {
+        "RG": 219
+      },
+      "2026": {
+        "RG": 136,
+        "LG": 90
+      }
+    },
+    "espn_win_rates": "not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+    "injuries": {},
+    "summary_lines": [
+      "Mason McCormick (PIT) 2026: PFF 2026 76.1 (rank 14, 533 snaps: 344 pass-block / 189 run-block, pass share 0.65); 8 g / 533 off snaps; 2 accepted penalties {'Unnecessary Roughness': 2}; depth-chart side {'RG': 136, 'LG': 90}",
+      "Mason McCormick 2025: PFF 2025 72.8 (rank 17, 1088 snaps: 673 pass-block / 415 run-block, pass share 0.62); 17 g / 1031 off snaps; 1 accepted penalties {'False Start': 1}; side {'RG': 219}",
+      "Mason McCormick ESPN pass/run block win rate 2026 through Week 8: not in ESPN IOL top-20 PBWR / top-10 RBWR lists",
+      "Mason McCormick injury reports: none; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "STR",
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "AWR",
+      "INJ",
+      "STA",
+      "TGH",
+      "PBK",
+      "PBP",
+      "PBF",
+      "RBK",
+      "RBP",
+      "RBF",
+      "IBL",
+      "LBK"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/g/2026",
+        "retrieved_at": "2026-11-04T03:44:59Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/g/2025",
+        "retrieved_at": "2026-11-04T03:44:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T03:44:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T03:44:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T03:44:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T03:44:59Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T03:44:59Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T03:44:59Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
