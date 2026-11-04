@@ -1,0 +1,40 @@
+# SS_REAUDIT_TIEBREAK_09 — Jaylinn Hawkins vs Calen Bullock (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "SS_REAUDIT_TIEBREAK_09_A1",
+  "task_id": "SS_REAUDIT_TIEBREAK_09",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SS",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Jaylinn Hawkins",
+    "Calen Bullock"
+  ],
+  "pair_result": {
+    "winner": "Jaylinn Hawkins",
+    "loser": "Calen Bullock",
+    "provisional_order_holds": true,
+    "reasoning": "Hawkins holds #10 on graded play: PFF 74.9 on 1102 snaps in 2025 (S rank 15) with 4 INT and a 71.2 passer rating allowed, and 54.1 on 314 in 2026, vs Calen Bullock's 69.4 on 1105 snaps in 2025 (S rank 31) and 58.1 on 453 snaps in 2026 (S rank 61). Bullock's ball production (4 INT and 10 PD in 2025) drives his value hit, but he graded below Hawkins in 2025 and fell to 58.1 in 2026. Calen Bullock's screen hits (value, efficiency, negative_rate, availability) come from low reference bars: Christian Roland-Wallace's 345-snap sample (8 of 9 targets completed in 2026) sets the efficiency bar.",
+    "key_evidence_for_winner": [
+      "Jaylinn Hawkins (BAL) role snap-weighted 2025-26 depth-chart FS/SS shares FS 176 / SS 977 -> SS; roster INA (DB); injuries wk6 Out (Hamstring); wk7 Questionable (Hamstring); wk7 Out (Knee); wk8 Out (Knee)",
+      "Jaylinn Hawkins 2026: Jaylinn Hawkins 2026: PFF S 2026 overall 54.1 on 314 snaps (S rank 75; 211 coverage / 100 run-def snaps); PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed; 6 g / 315 def snaps; 17 solo + 13 ast tackles, 0 TFL, 0 INT, 0 PD, 0 FF; 1 accepted penalties; PFR 2026 (6 games) coverage 18 targets / 12 completions / 213 yds / 1 TD / 0 INT; 30 tackles, 1 missed",
+      "Jaylinn Hawkins 2025: Jaylinn Hawkins 2025: PFF S 2025 overall 74.9 on 1102 snaps (S rank 15; 659 coverage / 408 run-def snaps); PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed; 15 g / 838 def snaps; 44 solo + 26 ast tackles, 3 TFL, 4 INT, 6 PD, 1 FF; 3 accepted penalties; PFR 2025 coverage 35 targets / 20 completions / 273 yds / 3 TD / passer rating 71.2 / 4 INT; 71 tackles, 7 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Calen Bullock (HOU) role snap-weighted 2025-26 depth-chart FS/SS shares FS 455 / SS 992 -> SS; roster ACT (DB); injuries no injury designation 2025-26",
+      "Calen Bullock 2026: Calen Bullock 2026: PFF S 2026 overall 58.1 on 453 snaps (S rank 61; 285 coverage / 168 run-def snaps); PFR 2026 (7 games) coverage 32 targets / 19 completions / 289 yds / 0 TD / 1 INT; 30 tackles, 5 missed; 7 g / 455 def snaps; 20 solo + 10 ast tackles, 1 TFL, 1 INT, 4 PD, 0 FF; 0 accepted penalties; PFR 2026 (7 games) coverage 32 targets / 19 completions / 289 yds / 0 TD / 1 INT; 30 tackles, 5 missed",
+      "Calen Bullock 2025: Calen Bullock 2025: PFF S 2025 overall 69.4 on 1105 snaps (S rank 31; 717 coverage / 388 run-def snaps); PFR 2025 coverage 61 targets / 31 completions / 492 yds / 4 TD / passer rating 72.6 / 4 INT; 64 tackles, 6 missed; 17 g / 992 def snaps; 43 solo + 20 ast tackles, 0 TFL, 4 INT, 10 PD, 1 FF; 1 accepted penalties; PFR 2025 coverage 61 targets / 31 completions / 492 yds / 4 TD / passer rating 72.6 / 4 INT; 64 tackles, 6 missed"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
