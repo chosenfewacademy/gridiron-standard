@@ -1,0 +1,119 @@
+{
+  "task_id": "LS_REAUDIT_SCARCITY",
+  "type": "scarcity_audit",
+  "players": [
+    "Ross Matiscik",
+    "Thomas Hennessy",
+    "Chris Stoll",
+    "William Wagner",
+    "Austin Brinkman",
+    "Andrew DePaola",
+    "Luke Rhodes",
+    "Christian Kuntz",
+    "Trent Sieg",
+    "Nick Moore"
+  ],
+  "baseline_controls": {
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Ross Matiscik",
+        "overall": 78
+      },
+      {
+        "rank": 2,
+        "player": "Thomas Hennessy",
+        "overall": 76
+      },
+      {
+        "rank": 3,
+        "player": "Chris Stoll",
+        "overall": 74
+      },
+      {
+        "rank": 4,
+        "player": "William Wagner",
+        "overall": 73
+      },
+      {
+        "rank": 5,
+        "player": "Austin Brinkman",
+        "overall": 72
+      },
+      {
+        "rank": 6,
+        "player": "Andrew DePaola",
+        "overall": 71
+      },
+      {
+        "rank": 7,
+        "player": "Luke Rhodes",
+        "overall": 70
+      },
+      {
+        "rank": 8,
+        "player": "Christian Kuntz",
+        "overall": 69
+      },
+      {
+        "rank": 9,
+        "player": "Trent Sieg",
+        "overall": 68
+      },
+      {
+        "rank": 10,
+        "player": "Nick Moore",
+        "overall": 67
+      }
+    ],
+    "external_controls": [
+      "Joe Cardona",
+      "Mitchell Fraboni",
+      "Rex Sunahara"
+    ]
+  },
+  "position": "LS",
+  "stage": "scarcity_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 22,
+    "group": "Special Teams",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "PFF long snapper grade (weekly special teams reports)"
+    ],
+    "position_stats": [
+      "punt/FG/XP snaps",
+      "bad or inaccurate snaps",
+      "coverage tackles"
+    ],
+    "usage_snap_metrics": [
+      "special-teams snaps (nflverse st_snaps)",
+      "games, seasons as starter"
+    ],
+    "on_field_impact": [
+      "unit points on snaps delivered (FG/XP/punt; credits whole unit)",
+      "blocked kicks/punts on his snaps"
+    ],
+    "madden_attributes_informed": [
+      "AWR",
+      "STR",
+      "RBK",
+      "PBK",
+      "SPD",
+      "TAK"
+    ],
+    "note": "v1.1 addendum bucket (docs/amendments/v1.1-addendum-fb-ls.md). Inputs only; NOT in config/position-sequence.json or state until the commissioner enacts the addendum."
+  }
+}
