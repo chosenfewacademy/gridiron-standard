@@ -8200,7 +8200,7 @@
         "position": "LEDGE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/LEDGE.reaudit.json",
       "baseline_file": null,
@@ -8209,13 +8209,15 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T11:06:16.769Z",
-      "completed_tasks": [],
+      "completed_tasks": [
+        "LEDGE_REAUDIT_CANDIDATE_AUDIT"
+      ],
       "audit_ids": [
         "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1"
       ],
       "current_stage": "candidate_audit",
       "current_task": "LEDGE_REAUDIT_CANDIDATE_AUDIT",
-      "updated_at": "2026-11-04T11:06:16.788Z",
+      "updated_at": "2026-11-04T11:06:24.102Z",
       "last_result": {
         "task_id": "LEDGE_REAUDIT_CANDIDATE_AUDIT",
         "status": "FLAGGED",
@@ -8226,11 +8228,17 @@
           "EDGE_SIDE_FROM_DEPTH_CHARTS"
         ]
       },
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "LEDGE_REAUDIT_CANDIDATE_AUDIT",
-        "audit_id": "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1"
-      }
+      "awaiting": null,
+      "approvals": [
+        {
+          "decision": "APPROVED",
+          "task_id": "LEDGE_REAUDIT_CANDIDATE_AUDIT",
+          "audit_id": "LEDGE_REAUDIT_CANDIDATE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T11:06:23Z",
+          "note": "Standing commissioner approval t46u / t54s495 (approve every stage on the same pathway)"
+        }
+      ]
     }
   ]
 }
