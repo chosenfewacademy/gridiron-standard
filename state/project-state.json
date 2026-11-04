@@ -7192,14 +7192,38 @@
         "position": "FB",
         "stage": "top10_reaudit"
       },
-      "status": "QUEUED_NOT_STARTED",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/FB.reaudit.json",
       "baseline_file": null,
       "requested_by": "PhiXCrypto",
       "requested_at": "2026-11-04T04:13:53.553Z",
       "trigger": "COMMISSIONER_EXPLICIT",
-      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
+      "started_at": "2026-11-04T04:16:25.664Z",
+      "completed_tasks": [],
+      "audit_ids": [
+        "FB_REAUDIT_CANDIDATE_AUDIT_A1"
+      ],
+      "current_stage": "candidate_audit",
+      "current_task": "FB_REAUDIT_CANDIDATE_AUDIT",
+      "updated_at": "2026-11-04T04:16:25.682Z",
+      "last_result": {
+        "task_id": "FB_REAUDIT_CANDIDATE_AUDIT",
+        "status": "FLAGGED",
+        "errors": [],
+        "flags": [
+          "NO_PRIOR_LOCK",
+          "DATA_GAP: PFF sub-grades paywalled",
+          "NO_MADDEN_ENTRY_ORDER_FB",
+          "MADDEN_GAP_10PLUS: Gilliam 83 (Madden reference only)"
+        ]
+      },
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "FB_REAUDIT_CANDIDATE_AUDIT",
+        "audit_id": "FB_REAUDIT_CANDIDATE_AUDIT_A1"
+      }
     }
   ]
 }
