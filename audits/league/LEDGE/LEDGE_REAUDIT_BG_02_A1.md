@@ -1,0 +1,222 @@
+# LEDGE_REAUDIT_BG_02 — Will Anderson Jr. background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "LEDGE_REAUDIT_BG_02_A1",
+  "task_id": "LEDGE_REAUDIT_BG_02",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LEDGE",
+  "player_id": "ext_00-0039108",
+  "players": [
+    "Will Anderson Jr."
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Will Anderson Jr.",
+    "player_id": "ext_00-0039108",
+    "team": "HOU",
+    "side_assignment": {
+      "R25": 59,
+      "L25": 162,
+      "L26": 275,
+      "L": 437,
+      "R": 59,
+      "teams": [
+        "HOU"
+      ],
+      "assign": "LEDGE"
+    },
+    "side_rule": "EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LEDGE = defense's left edge (aligned over the offense's right tackle); REDGE = defense's right edge (over the offense's left tackle), matching the repo note 'Right-side edge (offense's left)'. Side evidence = nflverse weekly depth charts 2025 + 2026 (ESPN-sourced): each team-day snapshot counts once; LDE (4-3 or 3-4) or 3-4 WLB (ESPN 3-4 layout slot 4, left of LILB) = left; RDE or 3-4 SLB (slot 7, right of RILB) = right; 4-3 WLB/SLB are off-ball LBs and not counted. The side with more snapshots across both seasons wins; a player appears in only one list. PFF alignment splits (left/right snap counts) are paywalled and NGS publishes no side split, so depth charts are the side source; Madden 27's LEDG/REDG card label is reference only and does not decide side.",
+    "pff": {
+      "2025": {
+        "team": "houston-texans",
+        "ovr": 93.4,
+        "snaps": 779,
+        "prsh": 529,
+        "rdef": 248,
+        "cov": 2,
+        "status": "A"
+      },
+      "2026": {
+        "team": "houston-texans",
+        "ovr": 90.8,
+        "snaps": 365,
+        "prsh": 234,
+        "rdef": 130,
+        "cov": 1,
+        "status": "A"
+      }
+    },
+    "pressures": {
+      "2025": {
+        "tm": "HOU",
+        "pos": "DE",
+        "g": "17",
+        "prss": "36",
+        "hrry": "15",
+        "qbkd": "8",
+        "sk": "12",
+        "comb": "54",
+        "m_tkl": "3"
+      },
+      "2026": {
+        "def_pressures": 18.0,
+        "def_times_hurried": 2.0,
+        "def_times_hitqb": 7.0,
+        "def_sacks": 7.5,
+        "def_tackles_combined": 28.0,
+        "def_missed_tackles": 0.0,
+        "g": 6
+      }
+    },
+    "espn_win_rates": {
+      "prwr": null,
+      "rswr": {
+        "rank": 10,
+        "wins": 32,
+        "plays": 108,
+        "rate": 30
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 17,
+        "defs": 694
+      },
+      "2026": {
+        "games": 7,
+        "defs": 367
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 31.0,
+        "def_tackle_assists": 19.0,
+        "def_tackles_for_loss": 20.0,
+        "def_fumbles_forced": 3.0,
+        "def_sacks": 12.0,
+        "def_qb_hits": 23.0,
+        "def_pass_defended": 3.0
+      },
+      "2026": {
+        "def_tackles_solo": 16.0,
+        "def_tackle_assists": 15.0,
+        "def_tackles_for_loss": 10.0,
+        "def_fumbles_forced": 1.0,
+        "def_sacks": 7.5,
+        "def_qb_hits": 15.0,
+        "def_pass_defended": 1.0
+      }
+    },
+    "penalties": {
+      "2025": 6,
+      "2026": 1
+    },
+    "injuries": {},
+    "summary_lines": [
+      "Will Anderson Jr. (HOU) Will Anderson Jr. 2026: PFF edge 2026 overall 90.8 on 365 snaps (234 pass-rush, 130 run-defense, 1 coverage); PFR 2026 18 pressures (2 hurries, 7 QB hits, 7.5 sacks) in 6 games, 28 tackles, 0 missed; 7 g / 367 def snaps; 7.5 sacks, 15 QB hits, 10 TFL, 1 FF, 1 PD; 1 accepted penalties; ESPN 2026 edge PRWR outside the published top 20; RSWR 30% (#10, 32/108)",
+      "Will Anderson Jr. 2025: PFF edge 2025 overall 93.4 on 779 snaps (529 pass-rush, 248 run-defense, 2 coverage); PFR 2025 36 pressures (15 hurries, 8 QB knockdowns, 12 sacks), 54 tackles, 3 missed; 17 g / 694 def snaps; 12.0 sacks, 23 QB hits, 20 TFL, 3 FF, 3 PD; 6 accepted penalties",
+      "Will Anderson Jr. alignment: side snapshots 2025-26 left 437 / right 59 -> LEDGE (EDGE SIDE CONVENTION (t46u): every edge is assigned to exactly one of LEDGE/REDGE by his majority 2025-26 alignment. LED...); roster position DL; Madden card LEDG (reference only)",
+      "Will Anderson Jr. injury reports: no injury designation 2025-26; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF pass-rush and run-defense sub-grades and left/right alignment splits are paywalled; substitutes: PFF edge overall + pass-rush/run-defense snap counts, ESPN PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PMV",
+      "FMV",
+      "PUR",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2026",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/ed/2025",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://www.espn.com/nfl/story/_/id/49742016",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:03:25Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
