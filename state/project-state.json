@@ -22301,7 +22301,7 @@
         "position": "CB",
         "stage": "top10_reaudit"
       },
-      "status": "QUEUED_NOT_STARTED",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/CB.reaudit.json",
       "baseline_file": "data/baselines/CB.reaudit-20261104.json",
@@ -22309,7 +22309,854 @@
       "requested_by": "PhiXCrypto",
       "requested_at": "2026-11-04T19:34:37.692Z",
       "trigger": "COMMISSIONER_EXPLICIT",
-      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved."
+      "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
+      "started_at": "2026-11-04T19:34:37Z",
+      "updated_at": "2026-11-04T19:34:37Z",
+      "audit_ids": [
+        "CB_REAUDIT_CANDIDATE_AUDIT_A1",
+        "CB_REAUDIT_BG_01_A1",
+        "CB_REAUDIT_BG_02_A1",
+        "CB_REAUDIT_BG_03_A1",
+        "CB_REAUDIT_BG_04_A1",
+        "CB_REAUDIT_BG_05_A1",
+        "CB_REAUDIT_BG_06_A1",
+        "CB_REAUDIT_BG_07_A1",
+        "CB_REAUDIT_BG_08_A1",
+        "CB_REAUDIT_BG_09_A1",
+        "CB_REAUDIT_BG_10_A1",
+        "CB_REAUDIT_BG_11_A1",
+        "CB_REAUDIT_BG_12_A1",
+        "CB_REAUDIT_BG_13_A1",
+        "CB_REAUDIT_RATE_01_A1",
+        "CB_REAUDIT_RATE_02_A1",
+        "CB_REAUDIT_RATE_03_A1",
+        "CB_REAUDIT_RATE_04_A1",
+        "CB_REAUDIT_RATE_05_A1",
+        "CB_REAUDIT_RATE_06_A1",
+        "CB_REAUDIT_RATE_07_A1",
+        "CB_REAUDIT_RATE_08_A1",
+        "CB_REAUDIT_RATE_09_A1",
+        "CB_REAUDIT_RATE_10_A1",
+        "CB_REAUDIT_RATE_11_A1",
+        "CB_REAUDIT_RATE_12_A1",
+        "CB_REAUDIT_RATE_13_A1",
+        "CB_REAUDIT_H2H_01_A1",
+        "CB_REAUDIT_H2H_02_A1",
+        "CB_REAUDIT_H2H_03_A1",
+        "CB_REAUDIT_H2H_04_A1",
+        "CB_REAUDIT_H2H_05_A1",
+        "CB_REAUDIT_H2H_06_A1",
+        "CB_REAUDIT_TIEBREAK_01_A1",
+        "CB_REAUDIT_TIEBREAK_02_A1",
+        "CB_REAUDIT_TIEBREAK_03_A1",
+        "CB_REAUDIT_TIEBREAK_04_A1",
+        "CB_REAUDIT_TIEBREAK_05_A1",
+        "CB_REAUDIT_TIEBREAK_06_A1",
+        "CB_REAUDIT_RATE_03_A2",
+        "CB_REAUDIT_TIEBREAK_07_A1",
+        "CB_REAUDIT_TIEBREAK_08_A1",
+        "CB_REAUDIT_TIEBREAK_09_A1",
+        "CB_REAUDIT_TIEBREAK_10_A1",
+        "CB_REAUDIT_TIEBREAK_11_A1",
+        "CB_REAUDIT_TIEBREAK_12_A1",
+        "CB_REAUDIT_TIEBREAK_13_A1",
+        "CB_REAUDIT_TIEBREAK_14_A1",
+        "CB_REAUDIT_TIEBREAK_15_A1",
+        "CB_REAUDIT_TIEBREAK_16_A1",
+        "CB_REAUDIT_TIEBREAK_17_A1",
+        "CB_REAUDIT_TIEBREAK_18_A1",
+        "CB_REAUDIT_TIEBREAK_19_A1",
+        "CB_REAUDIT_TIEBREAK_20_A1",
+        "CB_REAUDIT_TIEBREAK_21_A1"
+      ],
+      "completed_tasks": [
+        "CB_REAUDIT_CANDIDATE_AUDIT",
+        "CB_REAUDIT_BG_01",
+        "CB_REAUDIT_BG_02",
+        "CB_REAUDIT_BG_03",
+        "CB_REAUDIT_BG_04",
+        "CB_REAUDIT_BG_05",
+        "CB_REAUDIT_BG_06",
+        "CB_REAUDIT_BG_07",
+        "CB_REAUDIT_BG_08",
+        "CB_REAUDIT_BG_09",
+        "CB_REAUDIT_BG_10",
+        "CB_REAUDIT_BG_11",
+        "CB_REAUDIT_BG_12",
+        "CB_REAUDIT_BG_13",
+        "CB_REAUDIT_RATE_01",
+        "CB_REAUDIT_RATE_02",
+        "CB_REAUDIT_RATE_03",
+        "CB_REAUDIT_RATE_04",
+        "CB_REAUDIT_RATE_05",
+        "CB_REAUDIT_RATE_06",
+        "CB_REAUDIT_RATE_07",
+        "CB_REAUDIT_RATE_08",
+        "CB_REAUDIT_RATE_09",
+        "CB_REAUDIT_RATE_10",
+        "CB_REAUDIT_RATE_11",
+        "CB_REAUDIT_RATE_12",
+        "CB_REAUDIT_RATE_13",
+        "CB_REAUDIT_H2H_01",
+        "CB_REAUDIT_H2H_02",
+        "CB_REAUDIT_H2H_03",
+        "CB_REAUDIT_H2H_04",
+        "CB_REAUDIT_H2H_05",
+        "CB_REAUDIT_H2H_06",
+        "CB_REAUDIT_TIEBREAK_01",
+        "CB_REAUDIT_TIEBREAK_02",
+        "CB_REAUDIT_TIEBREAK_03",
+        "CB_REAUDIT_TIEBREAK_04",
+        "CB_REAUDIT_TIEBREAK_05",
+        "CB_REAUDIT_TIEBREAK_06",
+        "CB_REAUDIT_TIEBREAK_07",
+        "CB_REAUDIT_TIEBREAK_08",
+        "CB_REAUDIT_TIEBREAK_09",
+        "CB_REAUDIT_TIEBREAK_10",
+        "CB_REAUDIT_TIEBREAK_11",
+        "CB_REAUDIT_TIEBREAK_12",
+        "CB_REAUDIT_TIEBREAK_13",
+        "CB_REAUDIT_TIEBREAK_14",
+        "CB_REAUDIT_TIEBREAK_15",
+        "CB_REAUDIT_TIEBREAK_16",
+        "CB_REAUDIT_TIEBREAK_17",
+        "CB_REAUDIT_TIEBREAK_18",
+        "CB_REAUDIT_TIEBREAK_19",
+        "CB_REAUDIT_TIEBREAK_20",
+        "CB_REAUDIT_TIEBREAK_21"
+      ],
+      "approvals": [
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_CANDIDATE_AUDIT",
+          "audit_id": "CB_REAUDIT_CANDIDATE_AUDIT_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:08Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_01",
+          "audit_id": "CB_REAUDIT_BG_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:09Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_02",
+          "audit_id": "CB_REAUDIT_BG_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:10Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_03",
+          "audit_id": "CB_REAUDIT_BG_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:11Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_04",
+          "audit_id": "CB_REAUDIT_BG_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:12Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_05",
+          "audit_id": "CB_REAUDIT_BG_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:13Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_06",
+          "audit_id": "CB_REAUDIT_BG_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:14Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_07",
+          "audit_id": "CB_REAUDIT_BG_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:16Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_08",
+          "audit_id": "CB_REAUDIT_BG_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:17Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_09",
+          "audit_id": "CB_REAUDIT_BG_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:18Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_10",
+          "audit_id": "CB_REAUDIT_BG_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:19Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_11",
+          "audit_id": "CB_REAUDIT_BG_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:20Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_12",
+          "audit_id": "CB_REAUDIT_BG_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:21Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_BG_13",
+          "audit_id": "CB_REAUDIT_BG_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:22Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_01",
+          "audit_id": "CB_REAUDIT_RATE_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:24Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_02",
+          "audit_id": "CB_REAUDIT_RATE_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:25Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_03",
+          "audit_id": "CB_REAUDIT_RATE_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:26Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_04",
+          "audit_id": "CB_REAUDIT_RATE_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:27Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_05",
+          "audit_id": "CB_REAUDIT_RATE_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:28Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_06",
+          "audit_id": "CB_REAUDIT_RATE_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:29Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_07",
+          "audit_id": "CB_REAUDIT_RATE_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:30Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_08",
+          "audit_id": "CB_REAUDIT_RATE_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:32Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_09",
+          "audit_id": "CB_REAUDIT_RATE_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:33Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_10",
+          "audit_id": "CB_REAUDIT_RATE_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:34Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_11",
+          "audit_id": "CB_REAUDIT_RATE_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:35Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_12",
+          "audit_id": "CB_REAUDIT_RATE_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:36Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_13",
+          "audit_id": "CB_REAUDIT_RATE_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:08:37Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_H2H_01",
+          "audit_id": "CB_REAUDIT_H2H_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:09:06Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_H2H_02",
+          "audit_id": "CB_REAUDIT_H2H_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:09:07Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_H2H_03",
+          "audit_id": "CB_REAUDIT_H2H_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:09:08Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_H2H_04",
+          "audit_id": "CB_REAUDIT_H2H_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:09:09Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_H2H_05",
+          "audit_id": "CB_REAUDIT_H2H_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:09:10Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_H2H_06",
+          "audit_id": "CB_REAUDIT_H2H_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:09:11Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_01",
+          "audit_id": "CB_REAUDIT_TIEBREAK_01_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:09:40Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_02",
+          "audit_id": "CB_REAUDIT_TIEBREAK_02_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:09:41Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_03",
+          "audit_id": "CB_REAUDIT_TIEBREAK_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:09:41Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_04",
+          "audit_id": "CB_REAUDIT_TIEBREAK_04_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:09:42Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_05",
+          "audit_id": "CB_REAUDIT_TIEBREAK_05_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:09:43Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_06",
+          "audit_id": "CB_REAUDIT_TIEBREAK_06_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:09:44Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_RATE_03",
+          "audit_id": "CB_REAUDIT_RATE_03_A2",
+          "supersedes": "CB_REAUDIT_RATE_03_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:10:19Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_07",
+          "audit_id": "CB_REAUDIT_TIEBREAK_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:20Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_08",
+          "audit_id": "CB_REAUDIT_TIEBREAK_08_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:21Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_09",
+          "audit_id": "CB_REAUDIT_TIEBREAK_09_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:21Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_10",
+          "audit_id": "CB_REAUDIT_TIEBREAK_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:22Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_11",
+          "audit_id": "CB_REAUDIT_TIEBREAK_11_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:23Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_12",
+          "audit_id": "CB_REAUDIT_TIEBREAK_12_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:24Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_13",
+          "audit_id": "CB_REAUDIT_TIEBREAK_13_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:24Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_14",
+          "audit_id": "CB_REAUDIT_TIEBREAK_14_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:25Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_15",
+          "audit_id": "CB_REAUDIT_TIEBREAK_15_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:26Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_16",
+          "audit_id": "CB_REAUDIT_TIEBREAK_16_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:27Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_17",
+          "audit_id": "CB_REAUDIT_TIEBREAK_17_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:27Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_18",
+          "audit_id": "CB_REAUDIT_TIEBREAK_18_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:28Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_19",
+          "audit_id": "CB_REAUDIT_TIEBREAK_19_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:29Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_20",
+          "audit_id": "CB_REAUDIT_TIEBREAK_20_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:30Z"
+          }
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "CB_REAUDIT_TIEBREAK_21",
+          "audit_id": "CB_REAUDIT_TIEBREAK_21_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:34:37Z",
+          "note": "t56s532: carry forward approved CB player stages from CB_REAUDIT_LOCK_20261104",
+          "carried_from": "CB_REAUDIT_LOCK_20261104",
+          "original_approval": {
+            "approved_by": "PhiXCrypto",
+            "approved_at": "2026-11-04T12:11:30Z"
+          }
+        }
+      ],
+      "current_stage": "carry_forward",
+      "current_task": null,
+      "awaiting": null,
+      "last_result": {
+        "status": "CARRIED_FORWARD",
+        "carried_from": "CB_REAUDIT_LOCK_20261104",
+        "carried": 55,
+        "rerun": [
+          "CB_REAUDIT_VARIANCE_AUDIT",
+          "CB_REAUDIT_SCARCITY",
+          "CB_REAUDIT_CROSS_AUDIT",
+          "CB_REAUDIT_LOCK"
+        ]
+      }
     }
   ]
 }
