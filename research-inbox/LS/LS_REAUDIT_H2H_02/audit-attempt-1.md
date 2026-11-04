@@ -1,0 +1,40 @@
+# LS_REAUDIT_H2H_02 — Chris Stoll vs William Wagner (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "LS_REAUDIT_H2H_02_A1",
+  "task_id": "LS_REAUDIT_H2H_02",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LS",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Chris Stoll",
+    "William Wagner"
+  ],
+  "pair_result": {
+    "winner": "Chris Stoll",
+    "loser": "William Wagner",
+    "provisional_order_holds": true,
+    "reasoning": "Thin data. Both have 0 aborted snaps and 1 block on their snaps (2025). Chris Stoll's units score 4.1 and 15.5 (rank 1 in 2026) on FootballKickingStats with 55 of 63 FGs made; William Wagner's 14.7/4.1 with 35 of 38 made. Stoll's 2026 unit lead and larger FG load edge it.",
+    "key_evidence_for_winner": [
+      "Chris Stoll (SEA) role long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS; roster ACT (LS); injuries no injury designation 2025-26",
+      "Chris Stoll 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 68 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 15.5 (rank 1); 0 accepted penalties; 2026 snaps on 15 FG attempts (14 made), 17 XP, 27 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps",
+      "Chris Stoll 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 150 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 4.1 (rank 14); 0 accepted penalties; 2025 snaps on 48 FG attempts (41 made), 48 XP, 52 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps"
+    ],
+    "key_evidence_for_loser": [
+      "William Wagner (CIN) role long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS; roster ACT (LS); injuries no injury designation 2025-26",
+      "William Wagner 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 7 g / 56 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 4.1 (rank 11); 0 accepted penalties; 2026 snaps on 10 FG attempts (10 made), 24 XP, 22 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps",
+      "William Wagner 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 138 ST snaps; 2 coverage tackles (pbp); FootballKickingStats unit points 14.7 (rank 5); 0 accepted penalties; 2025 snaps on 28 FG attempts (25 made), 44 XP, 65 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
