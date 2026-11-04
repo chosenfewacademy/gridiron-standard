@@ -1,0 +1,373 @@
+{
+ "position": "RT",
+ "references": [
+  {
+   "name": "Jermaine Eluemunor",
+   "team": "NYG",
+   "status": "ACT",
+   "snaps": 1456,
+   "pff": 66,
+   "value": 91,
+   "efficiency": null,
+   "negative_rate": 10.99,
+   "availability": 0.88,
+   "side2026": {
+    "RT": 226
+   },
+   "side2025": {
+    "RT": 219
+   }
+  },
+  {
+   "name": "Zach Bako-Bewele",
+   "team": "GB",
+   "status": "RES",
+   "snaps": 134,
+   "pff": 81,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 0,
+   "availability": 0.12,
+   "side2026": {
+    "RT": 50
+   },
+   "side2025": {}
+  }
+ ],
+ "thresholds": {
+  "pff": 66,
+  "value": 91,
+  "negative_rate": 10.99,
+  "availability": 0.12
+ },
+ "flagged": [
+  {
+   "name": "Amarius Mims",
+   "team": "CIN",
+   "status": "ACT",
+   "snaps": 1491,
+   "pff": 67.6,
+   "value": 90,
+   "efficiency": null,
+   "negative_rate": 3.35,
+   "availability": 0.96,
+   "side2026": {
+    "RT": 226
+   },
+   "side2025": {
+    "RT": 219
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.6919539908074936
+  },
+  {
+   "name": "Morgan Moses",
+   "team": "NE",
+   "status": "ACT",
+   "snaps": 1472,
+   "pff": 72.4,
+   "value": 87,
+   "efficiency": null,
+   "negative_rate": 8.15,
+   "availability": 1,
+   "side2026": {
+    "RT": 226
+   },
+   "side2025": {
+    "RT": 219
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.245522969599403
+  },
+  {
+   "name": "Lane Johnson",
+   "team": "PHI",
+   "status": "INA",
+   "snaps": 631,
+   "pff": 78.1,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 6.34,
+   "availability": 0.52,
+   "side2026": {
+    "RT": 197
+   },
+   "side2025": {
+    "RT": 219
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.7560943760675571
+  },
+  {
+   "name": "Troy Fautanu",
+   "team": "PIT",
+   "status": "ACT",
+   "snaps": 1563,
+   "pff": 67,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 2.56,
+   "availability": 1,
+   "side2026": {
+    "RT": 136,
+    "LT": 90
+   },
+   "side2025": {
+    "RT": 219
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.8337276311798605
+  },
+  {
+   "name": "Cole Van Lanen",
+   "team": "JAX",
+   "status": "ACT",
+   "snaps": 1034,
+   "pff": 71.6,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 4.84,
+   "availability": 0.76,
+   "side2026": {
+    "LT": 149,
+    "RT": 56
+   },
+   "side2025": {
+    "LT": 79
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.7750382325239848
+  },
+  {
+   "name": "Roger Rosengarten",
+   "team": "BAL",
+   "status": "ACT",
+   "snaps": 1517,
+   "pff": 69.9,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 4.61,
+   "availability": 1,
+   "side2026": {
+    "RT": 226
+   },
+   "side2025": {
+    "RT": 219
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.8405277525022752
+  },
+  {
+   "name": "Dylan Cook",
+   "team": "PIT",
+   "status": "ACT",
+   "snaps": 425,
+   "pff": 77.1,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 4.71,
+   "availability": 0.28,
+   "side2026": {
+    "RT": 53
+   },
+   "side2025": {
+    "LT": 50
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.5219548872180446
+  },
+  {
+   "name": "Jalen Travis",
+   "team": "IND",
+   "status": "ACT",
+   "snaps": 843,
+   "pff": 69.3,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 2.37,
+   "availability": 0.8,
+   "side2026": {
+    "RT": 225
+   },
+   "side2025": {
+    "RT": 58
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.8990862506584931
+  },
+  {
+   "name": "Anton Harrison",
+   "team": "JAX",
+   "status": "RES",
+   "snaps": 1254,
+   "pff": 72.3,
+   "value": null,
+   "efficiency": 83,
+   "negative_rate": 7.18,
+   "availability": 0.8,
+   "side2026": {
+    "RT": 141,
+    "LT": 56
+   },
+   "side2025": {
+    "RT": 219
+   },
+   "hits": [
+    "pff",
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.6614156410133614
+  }
+ ],
+ "closest": [
+  {
+   "name": "Jaylon Moore",
+   "team": "KC",
+   "status": "ACT",
+   "snaps": 785,
+   "pff": 62.7,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 2.55,
+   "availability": 0.76,
+   "side2026": {
+    "RT": 154
+   },
+   "side2025": {
+    "RT": 62,
+    "LT": 10
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.3900761457784592
+  },
+  {
+   "name": "Terence Steele",
+   "team": "DAL",
+   "status": "ACT",
+   "snaps": 1706,
+   "pff": 60.8,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 2.93,
+   "availability": 1,
+   "side2026": {
+    "RT": 225
+   },
+   "side2025": {
+    "RT": 219
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.3867273278738246
+  },
+  {
+   "name": "Taliese Fuaga",
+   "team": "NO",
+   "status": "ACT",
+   "snaps": 1294,
+   "pff": 61.6,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 5.41,
+   "availability": 0.8,
+   "side2026": {
+    "RT": 225
+   },
+   "side2025": {
+    "RT": 219
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.109137812684578
+  },
+  {
+   "name": "Tytus Howard",
+   "team": "CLE",
+   "status": "ACT",
+   "snaps": 1475,
+   "pff": 62.9,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 8.14,
+   "availability": 0.96,
+   "side2026": {
+    "RT": 226
+   },
+   "side2025": {
+    "RT": 102,
+    "LG": 71,
+    "RG": 27
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": 1.0526599939338792
+  },
+  {
+   "name": "Elijah Wilkinson",
+   "team": "ARI",
+   "status": "ACT",
+   "snaps": 1681,
+   "pff": 60.7,
+   "value": null,
+   "efficiency": null,
+   "negative_rate": 7.73,
+   "availability": 1,
+   "side2026": {
+    "RT": 225
+   },
+   "side2025": {
+    "RT": 160
+   },
+   "hits": [
+    "negative_rate",
+    "availability"
+   ],
+   "score": 0.9432999696693966
+  }
+ ],
+ "screened": 38,
+ "read_only": true,
+ "rating_changes": []
+}
