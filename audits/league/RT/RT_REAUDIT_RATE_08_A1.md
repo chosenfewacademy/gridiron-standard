@@ -1,0 +1,379 @@
+# RT_REAUDIT_RATE_08 — Armand Membou rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "RT_REAUDIT_RATE_08_A1",
+  "task_id": "RT_REAUDIT_RATE_08",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "RT",
+  "player_id": "ext_00-0040123",
+  "players": [
+    "Armand Membou"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 88,
+    "SPD": 76,
+    "ACC": 76,
+    "AGI": 72,
+    "COD": 62,
+    "AWR": 76,
+    "INJ": 92,
+    "STA": 94,
+    "TGH": 88,
+    "PBK": 78,
+    "PBP": 84,
+    "PBF": 74,
+    "RBK": 82,
+    "RBP": 86,
+    "RBF": 78,
+    "IBL": 90,
+    "LBK": 84
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Armand Membou (NYJ) 2026: PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59); 8 g / 493 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'RT': 226}; Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists. Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; pass/run snap mix PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 1 accepted penalties {'False Start': 1}, 2025 8 accepted penalties {'False Start': 6, 'Ineligible Downfield Pass': 1, 'Offensive Holding': 1}; PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Armand Membou injury reports: none; roster status ACT; snaps 17 g / 1047 off snaps (2025), 8 g / 493 off snaps (2026). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 17 g / 1047 off snaps (2025), 8 g / 493 off snaps (2026). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 17 g / 1047 off snaps (2025), 8 g / 493 off snaps (2026). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59); PFF 2025 72.8 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59); PFF 2025 72.8 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59); PFF 2025 72.8 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59); PFF 2025 72.8 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59); PFF 2025 72.8 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59); PFF 2025 72.8 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59); PFF 2025 72.8 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59); PFF 2025 72.8 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61). Style: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+      "why_not_higher": "Evidence does not separate him from higher-rated right tackles in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated right tackles in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Armand Membou injury reports: none; roster status ACT; snaps 17 g / 1047 off snaps (2025), 8 g / 493 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 17 g / 1047 off snaps (2025), 8 g / 493 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "tier": "ELITE",
+      "claim": "run block: Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists; PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59); PFF 2025 72.8 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/t/2026",
+        "https://www.pff.com/grades/nfl/t/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 78,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+  "style_profile": "Armand Membou: Athletic young power tackle: PFF 72.8 on 1,045 snaps as a 2025 rookie and 71.0 in 2026, 25 games, 1 penalty in 2026; strong and explosive in the run game, pass-pro technique still developing.",
+  "style_evidence": [
+    "Armand Membou (NYJ) 2026: PFF 2026 71 (rank 24, 493 snaps: 292 pass-block / 201 run-block, pass share 0.59); 8 g / 493 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'RT': 226}",
+    "Armand Membou 2025: PFF 2025 72.8 (rank 30, 1045 snaps: 639 pass-block / 406 run-block, pass share 0.61); 17 g / 1047 off snaps; 8 accepted penalties {'False Start': 6, 'Ineligible Downfield Pass': 1, 'Offensive Holding': 1}; side {'RT': 219}",
+    "Armand Membou ESPN pass/run block win rate 2026 through Week 8: not in ESPN OT top-20 PBWR / top-10 RBWR lists",
+    "Armand Membou injury reports: none; roster status ACT"
+  ],
+  "input_dossier": "RT_REAUDIT_BG_08_A1",
+  "weaknesses": [
+    "pass-pro finesse",
+    "awareness"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Armand Membou",
+      "ovr": 83,
+      "attributes": {
+        "STR": 91,
+        "SPD": 74,
+        "ACC": 76,
+        "AGI": 72,
+        "COD": 61,
+        "AWR": 87,
+        "INJ": 91,
+        "STA": 89,
+        "TGH": 90,
+        "PBK": 84,
+        "PBP": 83,
+        "PBF": 86,
+        "RBK": 83,
+        "RBP": 84,
+        "RBF": 85,
+        "IBL": 93,
+        "LBK": 86
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -5,
+      "delta_attributes": {
+        "STR": -3,
+        "SPD": 2,
+        "ACC": 0,
+        "AGI": 0,
+        "COD": 1,
+        "AWR": -11,
+        "INJ": 1,
+        "STA": 5,
+        "TGH": -2,
+        "PBK": -6,
+        "PBP": 1,
+        "PBF": -12,
+        "RBK": -1,
+        "RBP": 2,
+        "RBF": -7,
+        "IBL": -3,
+        "LBK": -2
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 RT, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 5,
+    "attribute_gaps_10plus": {
+      "AWR": -11,
+      "PBF": -12
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
