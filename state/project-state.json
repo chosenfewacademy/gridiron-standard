@@ -18770,7 +18770,7 @@
         "position": "WR",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/WR.reaudit.json",
       "baseline_file": "data/baselines/WR.reaudit-20261103.json",
@@ -18780,7 +18780,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:05:19Z",
-      "updated_at": "2026-11-04T19:05:20.153Z",
+      "updated_at": "2026-11-04T19:06:03.266Z",
       "audit_ids": [
         "WR_REAUDIT_CANDIDATE_AUDIT_A1",
         "WR_REAUDIT_BG_01_A1",
@@ -18914,7 +18914,8 @@
         "WR_REAUDIT_TIEBREAK_77_A1",
         "WR_REAUDIT_TIEBREAK_78_A1",
         "WR_REAUDIT_TIEBREAK_79_A1",
-        "WR_REAUDIT_RATE_12_A2"
+        "WR_REAUDIT_RATE_12_A2",
+        "WR_REAUDIT_TIEBREAK_80_A1"
       ],
       "completed_tasks": [
         "WR_REAUDIT_CANDIDATE_AUDIT",
@@ -20779,13 +20780,23 @@
       ],
       "current_stage": "carry_forward",
       "current_task": null,
-      "awaiting": null,
+      "awaiting": {
+        "reason": "TIEBREAK_REVIEW",
+        "task_id": "WR_REAUDIT_TIEBREAK_80",
+        "audit_id": "WR_REAUDIT_TIEBREAK_80_A1",
+        "pending": [
+          {
+            "task_id": "WR_REAUDIT_TIEBREAK_80",
+            "audit_id": "WR_REAUDIT_TIEBREAK_80_A1"
+          }
+        ]
+      },
       "last_result": {
-        "task_id": "WR_REAUDIT_RATE_12",
-        "status": "REVISION_APPROVED",
-        "audit_id": "WR_REAUDIT_RATE_12_A2",
-        "supersedes": "WR_REAUDIT_RATE_12_A1",
-        "flags": []
+        "task_id": "WR_REAUDIT_TIEBREAK_80",
+        "status": "FLAGGED",
+        "flags": [
+          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+        ]
       }
     }
   ]
