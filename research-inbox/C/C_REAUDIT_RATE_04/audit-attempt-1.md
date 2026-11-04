@@ -1,0 +1,378 @@
+# C_REAUDIT_RATE_04 — Coleman Shelton rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u/t50s441)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "C_REAUDIT_RATE_04_A1",
+  "task_id": "C_REAUDIT_RATE_04",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "C",
+  "player_id": "ext_00-0034114",
+  "players": [
+    "Coleman Shelton"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "STR": 86,
+    "SPD": 66,
+    "ACC": 72,
+    "AGI": 64,
+    "COD": 60,
+    "AWR": 88,
+    "INJ": 90,
+    "STA": 97,
+    "TGH": 90,
+    "PBK": 80,
+    "PBP": 82,
+    "PBF": 78,
+    "RBK": 87,
+    "RBP": 86,
+    "RBF": 86,
+    "IBL": 85,
+    "LBK": 82
+  },
+  "trait_confidence": {
+    "STR": "LOW",
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM",
+    "PBK": "MEDIUM",
+    "PBP": "LOW",
+    "PBF": "LOW",
+    "RBK": "MEDIUM",
+    "RBP": "LOW",
+    "RBF": "LOW",
+    "IBL": "MEDIUM",
+    "LBK": "LOW"
+  },
+  "trait_notes": {
+    "STR": {
+      "basis": "Judgment (power): Coleman Shelton (LA) 2026: PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62); 8 g / 559 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'C': 226}; Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (movement): Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10); pass/run snap mix PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10); pass/run snap mix PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10); pass/run snap mix PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10); pass/run snap mix PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2026 1 accepted penalties {'False Start': 1}, 2025 3 accepted penalties {'Offensive Holding': 2, 'False Start': 1}; PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Coleman Shelton injury reports: {'2026': ['wk8 Questionable (Hip)']}; roster status ACT; snaps 17 g / 1120 off snaps (2025), 8 g / 559 off snaps (2026). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): snaps 17 g / 1120 off snaps (2025), 8 g / 559 off snaps (2026). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Listed weakness area: pass-pro finesse, age 31",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): snaps 17 g / 1120 off snaps (2025), 8 g / 559 off snaps (2026). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Listed weakness area: pass-pro finesse, age 31",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (pass pro): Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10); PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62); PFF 2025 70.9 (rank 9, 1334 snaps: 797 pass-block / 537 run-block, pass share 0.6). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBP": {
+      "basis": "Judgment (pass pro): Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10); PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62); PFF 2025 70.9 (rank 9, 1334 snaps: 797 pass-block / 537 run-block, pass share 0.6). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "PBF": {
+      "basis": "Judgment (pass pro): Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10); PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62); PFF 2025 70.9 (rank 9, 1334 snaps: 797 pass-block / 537 run-block, pass share 0.6). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (run block): Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10); PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62); PFF 2025 70.9 (rank 9, 1334 snaps: 797 pass-block / 537 run-block, pass share 0.6). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBP": {
+      "basis": "Judgment (run block): Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10); PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62); PFF 2025 70.9 (rank 9, 1334 snaps: 797 pass-block / 537 run-block, pass share 0.6). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "RBF": {
+      "basis": "Judgment (run block): Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10); PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62); PFF 2025 70.9 (rank 9, 1334 snaps: 797 pass-block / 537 run-block, pass share 0.6). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "IBL": {
+      "basis": "Judgment (run block): Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10); PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62); PFF 2025 70.9 (rank 9, 1334 snaps: 797 pass-block / 537 run-block, pass share 0.6). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "LBK": {
+      "basis": "Judgment (run block): Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10); PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62); PFF 2025 70.9 (rank 9, 1334 snaps: 797 pass-block / 537 run-block, pass share 0.6). Style: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+      "why_not_higher": "Evidence does not separate him from higher-rated centers in this group on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated centers in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "INJ": {
+      "tier": "ELITE",
+      "claim": "availability: Coleman Shelton injury reports: {'2026': ['wk8 Questionable (Hip)']}; roster status ACT; snaps 17 g / 1120 off snaps (2025), 8 g / 559 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "EXTRAORDINARY",
+      "claim": "usage: snaps 17 g / 1120 off snaps (2025), 8 g / 559 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: snaps 17 g / 1120 off snaps (2025), 8 g / 559 off snaps (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/c/2026",
+        "https://www.pff.com/grades/nfl/c/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 82,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+  "style_profile": "Coleman Shelton: Iron-man run-game anchor: 1,334 PFF snaps in 2025 (most of any C) and 25/25 games, PFF 76.9 (#2 C) in 2026, ESPN IOL RBWR 77%; steady rather than spectacular in pass pro.",
+  "style_evidence": [
+    "Coleman Shelton (LA) 2026: PFF 2026 76.9 (rank 2, 559 snaps: 348 pass-block / 211 run-block, pass share 0.62); 8 g / 559 off snaps; 1 accepted penalties {'False Start': 1}; depth-chart side {'C': 226}",
+    "Coleman Shelton 2025: PFF 2025 70.9 (rank 9, 1334 snaps: 797 pass-block / 537 run-block, pass share 0.6); 17 g / 1120 off snaps; 3 accepted penalties {'Offensive Holding': 2, 'False Start': 1}; side {'C': 1}",
+    "Coleman Shelton ESPN pass/run block win rate 2026 through Week 8: IOL RBWR 77% (top 10)",
+    "Coleman Shelton injury reports: {'2026': ['wk8 Questionable (Hip)']}; roster status ACT"
+  ],
+  "input_dossier": "C_REAUDIT_BG_04_A1",
+  "weaknesses": [
+    "pass-pro finesse",
+    "age 31"
+  ],
+  "limitations": [
+    "PFF pass-block/run-block sub-grades, pressures and sacks allowed are paywalled (PFF+); substitutes: PFF overall grade + pass/run-block snap split, ESPN PBWR/RBWR (top-20/top-10 lists only), accepted penalties from nflverse pbp, snaps, depth-chart side, injury reports"
+  ],
+  "madden_reference": [
+    {
+      "player": "Coleman Shelton",
+      "ovr": 79,
+      "attributes": {
+        "STR": 83,
+        "SPD": 72,
+        "ACC": 69,
+        "AGI": 63,
+        "COD": 56,
+        "AWR": 88,
+        "INJ": 88,
+        "STA": 91,
+        "TGH": 84,
+        "PBK": 74,
+        "PBP": 72,
+        "PBF": 76,
+        "RBK": 88,
+        "RBP": 87,
+        "RBF": 88,
+        "IBL": 84,
+        "LBK": 83
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": 3,
+      "delta_attributes": {
+        "STR": 3,
+        "SPD": -6,
+        "ACC": 3,
+        "AGI": 1,
+        "COD": 4,
+        "AWR": 0,
+        "INJ": 2,
+        "STA": 6,
+        "TGH": 6,
+        "PBK": 6,
+        "PBP": 10,
+        "PBF": 2,
+        "RBK": -1,
+        "RBP": -1,
+        "RBF": -2,
+        "IBL": 1,
+        "LBK": -1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27 C, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 3,
+    "attribute_gaps_10plus": {
+      "PBP": 10
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u/t50s441"
+}
+```
