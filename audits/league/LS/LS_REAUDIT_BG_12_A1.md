@@ -1,0 +1,177 @@
+# LS_REAUDIT_BG_12 — Mitchell Fraboni background dossier (v1.1.2 stage 2)
+
+Run under commissioner approval t46u.
+
+```json
+{
+  "audit_id": "LS_REAUDIT_BG_12_A1",
+  "task_id": "LS_REAUDIT_BG_12",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LS",
+  "player_id": "ext_00-0036943",
+  "players": [
+    "Mitchell Fraboni"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Mitchell Fraboni",
+    "player_id": "ext_00-0036943",
+    "team": "DEN",
+    "role_assignment": "LS (long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS)",
+    "side_rule": "LONG SNAPPER ROLE CONVENTION (t46u): rated as LS = nflverse roster position LS with 2025-26 special-teams snaps; matched by name/gsis id. THIN DATA, documented: PFF publishes no public LS grade (pff.com/grades/nfl/ls renders no table) and the FootballKickingStats reported-snap-error table is script-loaded; substitutes: aborted/bad snaps parsed from nflverse pbp descriptions on every FG/XP/punt snap, kicks/punts blocked on his snaps, FG make rate on his snaps, FootballKickingStats long-snapper unit points (credits the whole unit), coverage tackles on punts/kickoffs (pbp), accepted penalties, availability. Madden position is reference only.",
+    "seasons": {
+      "2025": {
+        "snaps": {
+          "games": 17,
+          "st": 146.0
+        },
+        "ls": {
+          "fg": 32,
+          "xp": 39,
+          "punt": 75,
+          "bad": 0,
+          "bad_desc": [],
+          "blocked": 1,
+          "fg_made": 28,
+          "other": 3
+        },
+        "st_tkl": 4,
+        "pen": 2,
+        "fks": {
+          "rank": 19,
+          "unit_pts": 0.2,
+          "snaps": 146,
+          "fg": "28-32",
+          "st_tkl": 4
+        }
+      },
+      "2026": {
+        "snaps": {
+          "games": 8,
+          "st": 73.0
+        },
+        "ls": {
+          "fg": 17,
+          "xp": 14,
+          "punt": 41,
+          "bad": 0,
+          "bad_desc": [],
+          "blocked": 0,
+          "fg_made": 14,
+          "other": 5
+        },
+        "st_tkl": 1,
+        "pen": 1,
+        "fks": {
+          "rank": 14,
+          "unit_pts": 1.4,
+          "snaps": 72,
+          "fg": "14-17",
+          "st_tkl": 1
+        }
+      }
+    },
+    "injuries": null,
+    "summary_lines": [
+      "Mitchell Fraboni (DEN) Mitchell Fraboni 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 73 ST snaps; 1 coverage tackles (pbp); FootballKickingStats unit points 1.4 (rank 14); 1 accepted penalties",
+      "Mitchell Fraboni 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 146 ST snaps; 4 coverage tackles (pbp); FootballKickingStats unit points 0.2 (rank 19); 2 accepted penalties",
+      "Mitchell Fraboni role: long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS (LONG SNAPPER ROLE CONVENTION (t46u): rated as LS = nflverse roster position LS with 2025-26 special-teams snaps; matched...); roster position LS; Madden card LS (reference only)",
+      "Mitchell Fraboni injury reports: no injury designation 2025-26; roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "THIN DATA: no public PFF long-snapper grade and no public snap-accuracy charting; substitutes: aborted/bad snaps parsed from nflverse pbp text, blocks on his snaps, FG make rate on his snaps, FootballKickingStats unit points (whole-unit credit), coverage tackles, penalties, availability"
+    ],
+    "attributes_informed": [
+      "AWR",
+      "STR",
+      "RBK",
+      "PBK",
+      "SPD",
+      "TAK",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "thin_data": true,
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/ls/2026",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/ls/2025",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T13:03:15Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false
+}
+```
