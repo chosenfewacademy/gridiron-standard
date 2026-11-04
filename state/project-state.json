@@ -15881,7 +15881,7 @@
         "position": "RB",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/RB.reaudit.json",
       "baseline_file": "data/baselines/RB.reaudit-20261103.json",
@@ -15891,7 +15891,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T14:14:53Z",
-      "updated_at": "2026-11-04T14:15:20.621Z",
+      "updated_at": "2026-11-04T14:15:20.907Z",
       "audit_ids": [
         "RB_REAUDIT_CANDIDATE_AUDIT_A1",
         "RB_REAUDIT_BG_01_A1",
@@ -16030,7 +16030,8 @@
         "RB_REAUDIT_TIEBREAK_19",
         "RB_REAUDIT_TIEBREAK_20",
         "RB_REAUDIT_TIEBREAK_21",
-        "RB_REAUDIT_TIEBREAK_22"
+        "RB_REAUDIT_TIEBREAK_22",
+        "RB_REAUDIT_VARIANCE_AUDIT"
       ],
       "approvals": [
         {
@@ -17022,15 +17023,19 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T14:15:12Z",
           "note": "User-approved card t56s532: Note fix to A3 (values unchanged): injury context is the 2024 season shortened to 4 games, not '2023-24'. Christian McCaffrey INJ 72->82, STA 84->90, OVR 83->84 (stays #5 behind Ja"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "RB_REAUDIT_VARIANCE_AUDIT",
+          "audit_id": "RB_REAUDIT_VARIANCE_AUDIT_A2",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T14:15:20Z",
+          "note": "User-approved batch t56s532: re-run RB_REAUDIT_VARIANCE_AUDIT after the approved card revisions"
         }
       ],
       "current_stage": "variance_audit",
       "current_task": "RB_REAUDIT_VARIANCE_AUDIT",
-      "awaiting": {
-        "reason": "REVIEW_MAJOR",
-        "task_id": "RB_REAUDIT_VARIANCE_AUDIT",
-        "audit_id": "RB_REAUDIT_VARIANCE_AUDIT_A2"
-      },
+      "awaiting": null,
       "last_result": {
         "task_id": "RB_REAUDIT_VARIANCE_AUDIT",
         "status": "FLAGGED",
