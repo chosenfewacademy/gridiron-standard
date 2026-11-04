@@ -1,0 +1,429 @@
+# DT_REAUDIT_RATE_02 — Cameron Heyward rating (v1.1.2 stage 3, per-attribute judgment; authorized by t46u)
+
+No formula; Madden 27 reference only (side-by-side delta).
+
+```json
+{
+  "audit_id": "DT_REAUDIT_RATE_02_A1",
+  "task_id": "DT_REAUDIT_RATE_02",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "player_id": "ext_00-0027969",
+  "players": [
+    "Cameron Heyward"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "SPD": 68,
+    "ACC": 72,
+    "AGI": 66,
+    "COD": 58,
+    "STR": 90,
+    "AWR": 94,
+    "PRC": 94,
+    "TAK": 90,
+    "POW": 88,
+    "BSH": 92,
+    "PMV": 86,
+    "FMV": 74,
+    "PUR": 82,
+    "INJ": 88,
+    "STA": 92,
+    "TGH": 94
+  },
+  "trait_confidence": {
+    "SPD": "LOW",
+    "ACC": "LOW",
+    "AGI": "LOW",
+    "COD": "LOW",
+    "STR": "LOW",
+    "AWR": "MEDIUM",
+    "PRC": "MEDIUM",
+    "TAK": "MEDIUM",
+    "POW": "LOW",
+    "BSH": "MEDIUM",
+    "PMV": "MEDIUM",
+    "FMV": "MEDIUM",
+    "PUR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "SPD": {
+      "basis": "Judgment (movement): PFR 2025 12 pressures (5 hurries, 3 QB knockdowns, 3.5 sacks), 78 tackles, 3 missed; PFR 2026 8 pressures (2 hurries, 5 QB hits, 1.0 sacks) in 6 games, 19 tackles, 1 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "ACC": {
+      "basis": "Judgment (movement): PFR 2025 12 pressures (5 hurries, 3 QB knockdowns, 3.5 sacks), 78 tackles, 3 missed; PFR 2026 8 pressures (2 hurries, 5 QB hits, 1.0 sacks) in 6 games, 19 tackles, 1 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AGI": {
+      "basis": "Judgment (movement): PFR 2025 12 pressures (5 hurries, 3 QB knockdowns, 3.5 sacks), 78 tackles, 3 missed; PFR 2026 8 pressures (2 hurries, 5 QB hits, 1.0 sacks) in 6 games, 19 tackles, 1 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "COD": {
+      "basis": "Judgment (movement): PFR 2025 12 pressures (5 hurries, 3 QB knockdowns, 3.5 sacks), 78 tackles, 3 missed; PFR 2026 8 pressures (2 hurries, 5 QB hits, 1.0 sacks) in 6 games, 19 tackles, 1 missed; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (power): PFF DI 2026 overall 79.2 on 319 snaps (DI rank 5); ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10. Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (discipline): penalties 2025/2026 4/0; PFF DI 2026 overall 79.2 on 319 snaps (DI rank 5). Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PRC": {
+      "basis": "Judgment (run defense): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFF DI 2025 overall 90.4 on 873 snaps (DI rank 1); PFF DI 2026 overall 79.2 on 319 snaps (DI rank 5); TFL in 17 g / 823 def snaps; 3.5 sacks, 9 QB hits, 9 TFL, 1 FF, 6 PD / 8 g / 318 def snaps; 2.5 sacks, 8 QB hits, 3 TFL, 1 FF, 6 PD. Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (tackling): PFR 2025 12 pressures (5 hurries, 3 QB knockdowns, 3.5 sacks), 78 tackles, 3 missed; PFR 2026 8 pressures (2 hurries, 5 QB hits, 1.0 sacks) in 6 games, 19 tackles, 1 missed. Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "POW": {
+      "basis": "Judgment (tackling): PFR 2025 12 pressures (5 hurries, 3 QB knockdowns, 3.5 sacks), 78 tackles, 3 missed; PFR 2026 8 pressures (2 hurries, 5 QB hits, 1.0 sacks) in 6 games, 19 tackles, 1 missed. Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "BSH": {
+      "basis": "Judgment (run defense): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFF DI 2025 overall 90.4 on 873 snaps (DI rank 1); PFF DI 2026 overall 79.2 on 319 snaps (DI rank 5); TFL in 17 g / 823 def snaps; 3.5 sacks, 9 QB hits, 9 TFL, 1 FF, 6 PD / 8 g / 318 def snaps; 2.5 sacks, 8 QB hits, 3 TFL, 1 FF, 6 PD. Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFR 2025 12 pressures (5 hurries, 3 QB knockdowns, 3.5 sacks), 78 tackles, 3 missed; PFR 2026 8 pressures (2 hurries, 5 QB hits, 1.0 sacks) in 6 games, 19 tackles, 1 missed. Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "FMV": {
+      "basis": "Judgment (pass rush): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFR 2025 12 pressures (5 hurries, 3 QB knockdowns, 3.5 sacks), 78 tackles, 3 missed; PFR 2026 8 pressures (2 hurries, 5 QB hits, 1.0 sacks) in 6 games, 19 tackles, 1 missed. Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PUR": {
+      "basis": "Judgment (run defense): ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFF DI 2025 overall 90.4 on 873 snaps (DI rank 1); PFF DI 2026 overall 79.2 on 319 snaps (DI rank 5); TFL in 17 g / 823 def snaps; 3.5 sacks, 9 QB hits, 9 TFL, 1 FF, 6 PD / 8 g / 318 def snaps; 2.5 sacks, 8 QB hits, 3 TFL, 1 FF, 6 PD. Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Cameron Heyward injury reports: wk12 Questionable (Not injury related - resting player); roster status ACT; 17 g / 823 def snaps; 3.5 sacks, 9 QB hits, 9 TFL, 1 FF, 6 PD (2025), 8 g / 318 def snaps; 2.5 sacks, 8 QB hits, 3 TFL, 1 FF, 6 PD (2026). Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Evidence does not separate him from higher-rated DTs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 17 g / 823 def snaps; 3.5 sacks, 9 QB hits, 9 TFL, 1 FF, 6 PD (2025), 8 g / 318 def snaps; 2.5 sacks, 8 QB hits, 3 TFL, 1 FF, 6 PD (2026). Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Listed weakness area: age / speed, pass-rush finish (3.5 sacks in 2025)",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 17 g / 823 def snaps; 3.5 sacks, 9 QB hits, 9 TFL, 1 FF, 6 PD (2025), 8 g / 318 def snaps; 2.5 sacks, 8 QB hits, 3 TFL, 1 FF, 6 PD (2026). Style: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+      "why_not_higher": "Listed weakness area: age / speed, pass-rush finish (3.5 sacks in 2025)",
+      "why_not_lower": "Evidence keeps him above lower-rated DTs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "STR": {
+      "tier": "ELITE",
+      "claim": "power: PFF DI 2026 overall 79.2 on 319 snaps (DI rank 5); ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "AWR": {
+      "tier": "ELITE",
+      "claim": "discipline: penalties 2025/2026 4/0; PFF DI 2026 overall 79.2 on 319 snaps (DI rank 5)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "PRC": {
+      "tier": "ELITE",
+      "claim": "run defense: ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFF DI 2025 overall 90.4 on 873 snaps (DI rank 1); PFF DI 2026 overall 79.2 on 319 snaps (DI rank 5); TFL in 17 g / 823 def snaps; 3.5 sacks, 9 QB hits, 9 TFL, 1 FF, 6 PD / 8 g / 318 def snaps; 2.5 sacks, 8 QB hits, 3 TFL, 1 FF, 6 PD",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TAK": {
+      "tier": "ELITE",
+      "claim": "tackling: PFR 2025 12 pressures (5 hurries, 3 QB knockdowns, 3.5 sacks), 78 tackles, 3 missed; PFR 2026 8 pressures (2 hurries, 5 QB hits, 1.0 sacks) in 6 games, 19 tackles, 1 missed",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "BSH": {
+      "tier": "ELITE",
+      "claim": "run defense: ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10; PFF DI 2025 overall 90.4 on 873 snaps (DI rank 1); PFF DI 2026 overall 79.2 on 319 snaps (DI rank 5); TFL in 17 g / 823 def snaps; 3.5 sacks, 9 QB hits, 9 TFL, 1 FF, 6 PD / 8 g / 318 def snaps; 2.5 sacks, 8 QB hits, 3 TFL, 1 FF, 6 PD",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "STA": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 823 def snaps; 3.5 sacks, 9 QB hits, 9 TFL, 1 FF, 6 PD (2025), 8 g / 318 def snaps; 2.5 sacks, 8 QB hits, 3 TFL, 1 FF, 6 PD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    },
+    "TGH": {
+      "tier": "ELITE",
+      "claim": "usage: 17 g / 823 def snaps; 3.5 sacks, 9 QB hits, 9 TFL, 1 FF, 6 PD (2025), 8 g / 318 def snaps; 2.5 sacks, 8 QB hits, 3 TFL, 1 FF, 6 PD (2026)",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/di/2026",
+        "https://www.pff.com/grades/nfl/di/2025",
+        "https://www.espn.com/nfl/story/_/id/49742016",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 88,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+  "style_profile": "Cameron Heyward: Age-37 technician: PFF 90.4 on 873 snaps (2025, #1 DI) and 79.2 in 2026, every game both years; elite hands, block shedding and recognition, but only 12 + 8 PFR pressures and 3.5 sacks - grade outruns his rush production.",
+  "style_evidence": [
+    "Cameron Heyward (PIT) Cameron Heyward 2026: PFF DI 2026 overall 79.2 on 319 snaps (DI rank 5); PFR 2026 8 pressures (2 hurries, 5 QB hits, 1.0 sacks) in 6 games, 19 tackles, 1 missed; 8 g / 318 def snaps; 2.5 sacks, 8 QB hits, 3 TFL, 1 FF, 6 PD; 0 accepted penalties; ESPN 2026 DT PRWR outside the published top 20; RSWR outside the published top 10",
+    "Cameron Heyward 2025: PFF DI 2025 overall 90.4 on 873 snaps (DI rank 1); PFR 2025 12 pressures (5 hurries, 3 QB knockdowns, 3.5 sacks), 78 tackles, 3 missed; 17 g / 823 def snaps; 3.5 sacks, 9 QB hits, 9 TFL, 1 FF, 6 PD; 4 accepted penalties",
+    "Cameron Heyward alignment: depth-chart interior snapshots 2025-26: 0 at DT/NT, 496 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket (DT BUCKET (t46u): interior defensive linemen graded by PFF as DI (pff.com/grades/nfl/di), aligned at DT/NT or 3-4 DE (in...); roster position DL; Madden card DT (reference only)",
+    "Cameron Heyward injury reports: wk12 Questionable (Not injury related - resting player); roster status ACT"
+  ],
+  "input_dossier": "DT_REAUDIT_BG_02_A1",
+  "weaknesses": [
+    "age / speed",
+    "pass-rush finish (3.5 sacks in 2025)"
+  ],
+  "limitations": [
+    "PFF pass-rush and run-defense sub-grades and alignment splits are paywalled; substitutes: PFF DI overall + snap counts, ESPN DT PRWR/RSWR (published top 20 / top 10 only), PFR pressures, sacks/QB hits/TFL, penalties, depth-chart side, injury reports"
+  ],
+  "side_assignment": "DT (depth-chart interior snapshots 2025-26: 0 at DT/NT, 496 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket)",
+  "madden_reference": [
+    {
+      "player": "Cameron Heyward",
+      "ovr": 95,
+      "madden_position": "DT",
+      "attributes": {
+        "SPD": 75,
+        "ACC": 73,
+        "AGI": 67,
+        "COD": 58,
+        "STR": 94,
+        "AWR": 96,
+        "PRC": 97,
+        "TAK": 95,
+        "POW": 92,
+        "BSH": 96,
+        "PMV": 87,
+        "FMV": 74,
+        "PUR": 89,
+        "INJ": 92,
+        "STA": 94,
+        "TGH": 95
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -7,
+      "delta_attributes": {
+        "SPD": -7,
+        "ACC": -1,
+        "AGI": -1,
+        "COD": 0,
+        "STR": -4,
+        "AWR": -2,
+        "PRC": -3,
+        "TAK": -5,
+        "POW": -4,
+        "BSH": -4,
+        "PMV": -1,
+        "FMV": 0,
+        "PUR": -7,
+        "INJ": -4,
+        "STA": -2,
+        "TGH": -1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 7,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "NO_10PLUS_GAP"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u"
+}
+```
