@@ -56,6 +56,7 @@ function sandbox(pos = "C") {
   fs.writeFileSync(path.join(root, `data/candidate-pools/${pos}.json`), JSON.stringify(goodPool(pos, "APPROVED")));
   const state = structuredClone(REAL_STATE);
   state.positions.LG = "LOCKED"; state.positions[pos] = "IN_PROGRESS";
+  state.pending_reaudit_queue = (state.pending_reaudit_queue ?? []).filter((q: any) => q.position !== pos); // sandbox isolates the real queue (addendum 2026-11-04b)
   state.current_position = pos; state.current_stage = "provisional_top_10"; state.completed_tasks = [];
   const save = () => fs.writeFileSync(path.join(root, "state/project-state.json"), JSON.stringify(state));
   save();
@@ -151,7 +152,7 @@ export function runCoverageGateTests(test: (n: string, f: () => void) => void) {
     approvePool("QB.reaudit.proposed.json", "comm", dir);
     assert.throws(() => requireApprovedPool("QB", dir), "approved re-audit pool is not the active pool");
     assert.equal(requireApprovedReauditPool("QB", dir).status, "APPROVED");
-    assert.throws(() => triggerTop10Reaudit("C", "comm", dir), /PENDING/);
+    assert.throws(() => triggerTop10Reaudit("C", "comm", dir), /no approved re-audit pool/); // addendum 2026-11-04b: never-locked PENDING reaches the pool gate
     const it = triggerTop10Reaudit("QB", "comm", dir);
     assert.equal(it.status, "QUEUED_NOT_STARTED");
     const st = JSON.parse(fs.readFileSync(path.join(dir, "state/project-state.json"), "utf8"));

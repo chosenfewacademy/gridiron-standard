@@ -11,6 +11,7 @@ import { effectiveRatings } from "../src/rating-revision.js";
 import { TIEBREAK_TASK } from "../src/tiebreak.js";
 import { buildLock, applyLock } from "../src/reaudit-lock.js";
 import { ORDER_V112, varianceMetrics } from "../src/stage-engine.js";
+import { triggerTop10Reaudit } from "../src/top10-reaudit.js";
 
 const J = (o: any) => JSON.stringify(o, null, 2);
 const NOW = "2026-11-02T13:30:00-05:00";
@@ -263,6 +264,14 @@ export async function runReauditTests(sync: (n: string, f: () => void) => void) 
     assert.equal(locksChangeAllowed(JSON.stringify(locks0), JSON.stringify({ ...L1, positions: { ...L1.positions, N: { ...L1.positions.N, history: [{ baseline_file: "fake" }] } } })).ok, false, "no fabricated history");
     assert.equal(locksChangeAllowed(JSON.stringify(locks0), JSON.stringify({ ...L1, positions: { ...L1.positions, Z: { ...locks0.positions.Z, status: "X" } } })).ok, false, "existing entry may not change alongside");
     assert.equal(lockBaselineAddAllowed("A", b.file, JSON.stringify({ ...nb, first_lock: undefined }), JSON.stringify(L1)), false);
+  });
+  test("addendum 2026-11-04b (t46u/t50s441): TOP10_REAUDIT trigger admits a never-locked PENDING position, not a locked or unknown one", () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "trig-")); fs.mkdirSync(path.join(root, "state")); fs.mkdirSync(path.join(root, "data/candidate-pools"), { recursive: true });
+    fs.writeFileSync(path.join(root, "state/project-state.json"), JSON.stringify({ positions: { N: "PENDING", Z: "PENDING" }, pending_reaudit_queue: [] }));
+    fs.writeFileSync(path.join(root, "state/locks.json"), JSON.stringify({ positions: { Z: { status: "LOCKED" } } }));
+    assert.throws(() => triggerTop10Reaudit("N", "PhiXCrypto", root), /COVERAGE_GATE_BLOCKED/, "never-locked PENDING passes the state check, still needs an approved re-audit pool");
+    assert.throws(() => triggerTop10Reaudit("Z", "PhiXCrypto", root), /TOP10_REAUDIT applies to/, "PENDING with a locks entry is refused");
+    assert.throws(() => triggerTop10Reaudit("Q", "PhiXCrypto", root), /not a position/);
   });
   test("guard sixth exception (t33s4): lock outputs only; variance_audit is position-wide", () => {
     assert.ok(isPositionWideTask({ type: "variance_audit" } as any));

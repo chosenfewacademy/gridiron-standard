@@ -10,7 +10,11 @@ export function triggerTop10Reaudit(pos: string, by: string, root = process.cwd(
   const state = JSON.parse(fs.readFileSync(path.join(root, "state/project-state.json"), "utf8"));
   const posState = state.positions?.[pos];
   if (!posState) throw new Error(`${pos} is not a position in state`);
-  if (posState !== "LOCKED" && posState !== "IN_PROGRESS") throw new Error(`${pos} is ${posState}; TOP10_REAUDIT applies to LOCKED or IN_PROGRESS positions`);
+  // Addendum 2026-11-04b (t46u/t50s441): a PENDING position that was never locked (no state/locks.json entry) may also be
+  // taken through the TOP10_REAUDIT pathway against its approved candidate pool, ending in a first lock (addendum 2026-11-04).
+  const locksFile = path.join(root, "state/locks.json");
+  const neverLocked = posState === "PENDING" && !(fs.existsSync(locksFile) && JSON.parse(fs.readFileSync(locksFile, "utf8")).positions?.[pos]);
+  if (posState !== "LOCKED" && posState !== "IN_PROGRESS" && !neverLocked) throw new Error(`${pos} is ${posState}; TOP10_REAUDIT applies to LOCKED, IN_PROGRESS or never-locked PENDING positions`);
   const dup = (state.pending_reaudit_queue ?? []).find((q: any) => q.type === "TOP10_REAUDIT" && q.position === pos && q.status !== "COMPLETED");
   if (dup) throw new Error(`${pos} already has a queued TOP10_REAUDIT (${dup.requested_at})`);
   requireApprovedReauditPool(pos, root);
