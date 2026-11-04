@@ -1,0 +1,40 @@
+# DT_REAUDIT_TIEBREAK_30 — Alim McNeill vs Arik Armstead (v1.1.2 head-to-head tiebreak; authorized by t46u)
+
+```json
+{
+  "audit_id": "DT_REAUDIT_TIEBREAK_30_A1",
+  "task_id": "DT_REAUDIT_TIEBREAK_30",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "DT",
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "players": [
+    "Alim McNeill",
+    "Arik Armstead"
+  ],
+  "pair_result": {
+    "winner": "Alim McNeill",
+    "loser": "Arik Armstead",
+    "provisional_order_holds": true,
+    "reasoning": "McNeill holds #10 on current form: PFF 79.0 on 403 snaps and ESPN PRWR 27% (#1 DT) with 11 pressures / 4.5 sacks through 2026, vs Arik Armstead's PFF 49.7 on 295 snaps in 2026 (3 PFR pressures). Arik Armstead's ceiling hits (value, efficiency, availability) come from the two-year screen (snap-weighted PFF 59, 0.83 pressures/game, PFF 2025 63.1, 16 2025 pressures) where McNeill's ACL-hit 2025 (52.2, 10 games) sets a low reference bar; Arik Armstead ESPN PRWR 17 / RSWR - vs McNeill's #1 PRWR.",
+    "key_evidence_for_winner": [
+      "Alim McNeill (DET) alignment depth-chart interior snapshots 2025-26: 496 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; roster ACT (DL); injuries wk7 Questionable (Knee); wk17 Questionable (Abdomen); wk18 Out (Abdomen)",
+      "Alim McNeill 2026: Alim McNeill 2026: PFF DI 2026 overall 79 on 403 snaps (DI rank 7); PFR 2026 11 pressures (3 hurries, 4 QB hits, 3.5 sacks) in 6 games, 12 tackles, 0 missed; 7 g / 403 def snaps; 4.5 sacks, 9 QB hits, 5 TFL, 0 FF, 1 PD; 0 accepted penalties; PFR 2026 11 pressures (3 hurries, 4 QB hits, 3.5 sacks) in 6 games, 12 tackles, 0 missed; ESPN 2026 DT PRWR 27% (#1, 44/166, 85% snaps at DT); RSWR outside the published top 10",
+      "Alim McNeill 2025: Alim McNeill 2025: PFF DI 2025 overall 52.2 on 523 snaps (DI rank 89); PFR 2025 7 pressures (4 hurries, 2 QB knockdowns, 1 sacks), 14 tackles, 3 missed; 10 g / 524 def snaps; 1.0 sacks, 3 QB hits, 2 TFL, 1 FF, 1 PD; 2 accepted penalties; PFR 2025 7 pressures (4 hurries, 2 QB knockdowns, 1 sacks), 14 tackles, 3 missed"
+    ],
+    "key_evidence_for_loser": [
+      "Arik Armstead (JAX) alignment depth-chart interior snapshots 2025-26: 496 at DT/NT, 0 at DE (3-4 DE = interior 4i/5-tech) -> DT bucket; roster ACT (DL); injuries wk13 Questionable (Hand); wk14 Questionable (Hand)",
+      "Arik Armstead 2026: Arik Armstead 2026: PFF DI 2026 overall 49.7 on 295 snaps (DI rank 101); PFR 2026 3 pressures (2 hurries, 0 QB hits, 1.0 sacks) in 2 games, 4 tackles, 1 missed; 7 g / 295 def snaps; 1.5 sacks, 3 QB hits, 2 TFL, 0 FF, 1 PD; 1 accepted penalties; PFR 2026 3 pressures (2 hurries, 0 QB hits, 1.0 sacks) in 2 games, 4 tackles, 1 missed; ESPN 2026 DT PRWR 17% (#18, 20/119, 82% snaps at DT); RSWR outside the published top 10",
+      "Arik Armstead 2025: Arik Armstead 2025: PFF DI 2025 overall 63.1 on 662 snaps (DI rank 47); PFR 2025 16 pressures (7 hurries, 3 QB knockdowns, 5.5 sacks), 28 tackles, 3 missed; 16 g / 619 def snaps; 5.5 sacks, 8 QB hits, 7 TFL, 1 FF, 0 PD; 0 accepted penalties; PFR 2025 16 pressures (7 hurries, 3 QB knockdowns, 5.5 sacks), 28 tackles, 3 missed"
+    ],
+    "margin": "CLEAR",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
