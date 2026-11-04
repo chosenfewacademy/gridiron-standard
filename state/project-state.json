@@ -9618,7 +9618,7 @@
         "position": "MIKE",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/MIKE.reaudit.json",
       "baseline_file": null,
@@ -9750,11 +9750,12 @@
         "MIKE_REAUDIT_TIEBREAK_22_A1",
         "MIKE_REAUDIT_TIEBREAK_23_A1",
         "MIKE_REAUDIT_TIEBREAK_24_A1",
-        "MIKE_REAUDIT_CROSS_AUDIT_A1"
+        "MIKE_REAUDIT_CROSS_AUDIT_A1",
+        "MIKE_REAUDIT_LOCK_20261104"
       ],
-      "current_stage": "positional_cross_audit",
+      "current_stage": "lock",
       "current_task": "MIKE_REAUDIT_CROSS_AUDIT",
-      "updated_at": "2026-11-04T11:45:14.334Z",
+      "updated_at": "2026-11-04T11:49:12Z",
       "last_result": {
         "task_id": "MIKE_REAUDIT_CROSS_AUDIT",
         "status": "FLAGGED",

@@ -1,0 +1,14 @@
+{
+  "audit_id": "MIKE_REAUDIT_LOCK_20261104",
+  "task_id": "MIKE_REAUDIT_LOCK",
+  "task_type": "lock",
+  "audit_type": "TOP10_REAUDIT",
+  "position": "MIKE",
+  "status": "APPROVED",
+  "confirmation": "REAUDIT_REPLACE_BASELINE_MIKE",
+  "approved_by": "PhiXCrypto",
+  "created_at": "2026-11-04T11:49:12Z",
+  "new_baseline_file": "data/baselines/MIKE.reaudit-20261104.json",
+  "previous_baseline_file": null,
+  "first_lock": true
+}
