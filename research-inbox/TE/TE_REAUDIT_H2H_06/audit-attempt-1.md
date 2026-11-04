@@ -1,4 +1,4 @@
-# TE_REAUDIT_H2H_06 — Isaiah Likely vs Tucker Kraft (v1.1.2 head-to-head; authorized by t45s383)
+# TE_REAUDIT_H2H_06 — Tucker Kraft vs Isaiah Likely (v1.1.2 head-to-head; authorized by t45s389)
 
 ```json
 {
@@ -11,13 +11,13 @@
   "methodology_version": "1.1.0",
   "confidence": "LOW",
   "players": [
-    "Isaiah Likely",
-    "Tucker Kraft"
+    "Tucker Kraft",
+    "Isaiah Likely"
   ],
   "pair_result": {
     "winner": "Tucker Kraft",
     "loser": "Isaiah Likely",
-    "provisional_order_holds": false,
+    "provisional_order_holds": true,
     "reasoning": "Cut line #10 vs best first-out (Kraft; Kraft/Goedert 78 tie resolved by TIEBREAK_06). Kraft leads EPA/tgt both years (+.889/+.442 vs +.150/+.223), YAC (10.8/5.3 vs 4.3/2.9), 2025 YPRR (2.20) and blocking (block share .49/.41 vs .33). Likely leads 2026 PFF (77.3 vs 64.5), YPRR (1.59 vs 1.37) and volume (64 vs 49 tgt). Order flips; proposed Kraft 79, Likely 78.",
     "key_evidence_for_winner": [
       "Tucker Kraft PFF TE overall grade 2026 64.5, 2025 78.1; 2026 PFF snaps {'off': '434', 'routes': '255', 'pblk': '40', 'rblk': '137'} (block share 0.41); 2025 PFF snaps {'off': '440', 'routes': '222', 'pblk': '33', 'rblk': '184'} (block share 0.49); age 26, 77 in 259 lb",
