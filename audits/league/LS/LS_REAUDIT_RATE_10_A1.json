@@ -1,0 +1,296 @@
+{
+  "audit_id": "LS_REAUDIT_RATE_10_A1",
+  "task_id": "LS_REAUDIT_RATE_10",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "LS",
+  "player_id": "ext_00-0035408",
+  "players": [
+    "Nick Moore"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "AWR": 72,
+    "STR": 68,
+    "RBK": 53,
+    "PBK": 53,
+    "SPD": 80,
+    "TAK": 66,
+    "INJ": 88,
+    "STA": 83,
+    "TGH": 82
+  },
+  "trait_confidence": {
+    "AWR": "MEDIUM",
+    "STR": "LOW",
+    "RBK": "LOW",
+    "PBK": "LOW",
+    "SPD": "LOW",
+    "TAK": "LOW",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "AWR": {
+      "basis": "Judgment (snapping): 2025 snaps on 34 FG attempts (30 made), 46 XP, 53 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps; 2025 17 g / 134 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 8.3 (rank 11); 2026 snaps on 17 FG attempts (13 made), 18 XP, 34 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps; 2026 8 g / 69 ST snaps; 3 coverage tackles (pbp); FootballKickingStats unit points -3.5 (rank 23). Style: Coverage snapper: 3 coverage tackles in 2026, 0 aborted snaps, unit points 8.3 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "STR": {
+      "basis": "Judgment (protection): 2025 snaps on 34 FG attempts (30 made), 46 XP, 53 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps; 2026 snaps on 17 FG attempts (13 made), 18 XP, 34 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps (blocks on his snaps are the only public protection proxy). Style: Coverage snapper: 3 coverage tackles in 2026, 0 aborted snaps, unit points 8.3 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "RBK": {
+      "basis": "Judgment (protection): 2025 snaps on 34 FG attempts (30 made), 46 XP, 53 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps; 2026 snaps on 17 FG attempts (13 made), 18 XP, 34 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps (blocks on his snaps are the only public protection proxy). Style: Coverage snapper: 3 coverage tackles in 2026, 0 aborted snaps, unit points 8.3 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "PBK": {
+      "basis": "Judgment (protection): 2025 snaps on 34 FG attempts (30 made), 46 XP, 53 punts; 0 aborted/bad snaps in pbp; 0 kicks/punts blocked on his snaps; 2026 snaps on 17 FG attempts (13 made), 18 XP, 34 punts; 0 aborted/bad snaps in pbp; 1 kicks/punts blocked on his snaps (blocks on his snaps are the only public protection proxy). Style: Coverage snapper: 3 coverage tackles in 2026, 0 aborted snaps, unit points 8.3 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "SPD": {
+      "basis": "Judgment (coverage): 2025 17 g / 134 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 8.3 (rank 11); 2026 8 g / 69 ST snaps; 3 coverage tackles (pbp); FootballKickingStats unit points -3.5 (rank 23). Style: Coverage snapper: 3 coverage tackles in 2026, 0 aborted snaps, unit points 8.3 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "TAK": {
+      "basis": "Judgment (coverage): 2025 17 g / 134 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 8.3 (rank 11); 2026 8 g / 69 ST snaps; 3 coverage tackles (pbp); FootballKickingStats unit points -3.5 (rank 23). Style: Coverage snapper: 3 coverage tackles in 2026, 0 aborted snaps, unit points 8.3 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Nick Moore injury reports: no injury designation 2025-26; roster status ACT; 2025 17 g / 134 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 8.3 (rank 11); 2026 8 g / 69 ST snaps; 3 coverage tackles (pbp); FootballKickingStats unit points -3.5 (rank 23). Style: Coverage snapper: 3 coverage tackles in 2026, 0 aborted snaps, unit points 8.3 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 2025 17 g / 134 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 8.3 (rank 11); 2026 8 g / 69 ST snaps; 3 coverage tackles (pbp); FootballKickingStats unit points -3.5 (rank 23). Style: Coverage snapper: 3 coverage tackles in 2026, 0 aborted snaps, unit points 8.3 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 2025 17 g / 134 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 8.3 (rank 11); 2026 8 g / 69 ST snaps; 3 coverage tackles (pbp); FootballKickingStats unit points -3.5 (rank 23). Style: Coverage snapper: 3 coverage tackles in 2026, 0 aborted snaps, unit points 8.3 in 2025.",
+      "why_not_higher": "Evidence does not separate him from higher-rated LSs on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated LSs in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/ls/2026",
+        "https://www.pff.com/grades/nfl/ls/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2025",
+        "https://www.footballkickingstats.com/nfl-long-snapper-unit-points/2026"
+      ]
+    }
+  },
+  "high_trait_evidence": {},
+  "proposed_ovr": 67,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Coverage snapper: 3 coverage tackles in 2026, 0 aborted snaps, unit points 8.3 in 2025.",
+  "style_profile": "Nick Moore: Coverage snapper: 3 coverage tackles in 2026, 0 aborted snaps, unit points 8.3 in 2025.",
+  "style_evidence": [
+    "Nick Moore (BAL) Nick Moore 2026: no public PFF long-snapper grade 2026 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2026 8 g / 69 ST snaps; 3 coverage tackles (pbp); FootballKickingStats unit points -3.5 (rank 23); 0 accepted penalties",
+    "Nick Moore 2025: no public PFF long-snapper grade 2025 (pff.com/grades/nfl/ls renders no table; THIN DATA); 2025 17 g / 134 ST snaps; 0 coverage tackles (pbp); FootballKickingStats unit points 8.3 (rank 11); 0 accepted penalties",
+    "Nick Moore role: long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS (LONG SNAPPER ROLE CONVENTION (t46u): rated as LS = nflverse roster position LS with 2025-26 special-teams snaps; matched...); roster position LS; Madden card LS (reference only)",
+    "Nick Moore injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "LS_REAUDIT_BG_10_A1",
+  "weaknesses": [
+    "2026 unit points -3.5",
+    "1 block on his snaps in 2026"
+  ],
+  "limitations": [
+    "THIN DATA: no public PFF long-snapper grade and no public snap-accuracy charting; substitutes: aborted/bad snaps parsed from nflverse pbp text, blocks on his snaps, FG make rate on his snaps, FootballKickingStats unit points (whole-unit credit), coverage tackles, penalties, availability"
+  ],
+  "role_assignment": "LS (long snapper (nflverse roster LS; snaps from snap counts and pbp); roster position LS)",
+  "madden_reference": [
+    {
+      "player": "Nick Moore",
+      "ovr": 70,
+      "madden_position": "LS",
+      "attributes": {
+        "AWR": 64,
+        "STR": 70,
+        "RBK": 51,
+        "PBK": 54,
+        "SPD": 70,
+        "TAK": 57,
+        "INJ": 88,
+        "STA": 82,
+        "TGH": 83
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -3,
+      "delta_attributes": {
+        "AWR": 8,
+        "STR": -2,
+        "RBK": 2,
+        "PBK": -1,
+        "SPD": 10,
+        "TAK": 9,
+        "INJ": 0,
+        "STA": 1,
+        "TGH": -1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 3,
+    "attribute_gaps_10plus": {
+      "SPD": 10
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u",
+  "style_similarity": [
+    {
+      "player": "Ross Matiscik",
+      "audit_id": "LS_REAUDIT_RATE_01_A1",
+      "corr": 0.828,
+      "mad": 5.6,
+      "too_similar": false
+    },
+    {
+      "player": "Thomas Hennessy",
+      "audit_id": "LS_REAUDIT_RATE_02_A1",
+      "corr": 0.737,
+      "mad": 8,
+      "too_similar": false
+    },
+    {
+      "player": "Chris Stoll",
+      "audit_id": "LS_REAUDIT_RATE_03_A1",
+      "corr": 0.847,
+      "mad": 6.3,
+      "too_similar": false
+    },
+    {
+      "player": "William Wagner",
+      "audit_id": "LS_REAUDIT_RATE_04_A1",
+      "corr": 0.922,
+      "mad": 4.8,
+      "too_similar": false
+    },
+    {
+      "player": "Austin Brinkman",
+      "audit_id": "LS_REAUDIT_RATE_05_A1",
+      "corr": 0.819,
+      "mad": 7.6,
+      "too_similar": false
+    },
+    {
+      "player": "Andrew DePaola",
+      "audit_id": "LS_REAUDIT_RATE_06_A1",
+      "corr": 0.49,
+      "mad": 10.2,
+      "too_similar": false
+    },
+    {
+      "player": "Luke Rhodes",
+      "audit_id": "LS_REAUDIT_RATE_07_A1",
+      "corr": 0.689,
+      "mad": 8.3,
+      "too_similar": false
+    },
+    {
+      "player": "Christian Kuntz",
+      "audit_id": "LS_REAUDIT_RATE_08_A1",
+      "corr": 0.874,
+      "mad": 4.3,
+      "too_similar": false
+    },
+    {
+      "player": "Trent Sieg",
+      "audit_id": "LS_REAUDIT_RATE_09_A1",
+      "corr": 0.907,
+      "mad": 5.1,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
