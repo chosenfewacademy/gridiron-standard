@@ -22301,7 +22301,7 @@
         "position": "CB",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/CB.reaudit.json",
       "baseline_file": "data/baselines/CB.reaudit-20261104.json",
@@ -22311,7 +22311,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:34:37Z",
-      "updated_at": "2026-11-04T19:34:38.358Z",
+      "updated_at": "2026-11-04T19:34:56.984Z",
       "audit_ids": [
         "CB_REAUDIT_CANDIDATE_AUDIT_A1",
         "CB_REAUDIT_BG_01_A1",
@@ -22368,7 +22368,8 @@
         "CB_REAUDIT_TIEBREAK_19_A1",
         "CB_REAUDIT_TIEBREAK_20_A1",
         "CB_REAUDIT_TIEBREAK_21_A1",
-        "CB_REAUDIT_RATE_07_A2"
+        "CB_REAUDIT_RATE_07_A2",
+        "CB_REAUDIT_TIEBREAK_22_A1"
       ],
       "completed_tasks": [
         "CB_REAUDIT_CANDIDATE_AUDIT",
@@ -23155,13 +23156,23 @@
       ],
       "current_stage": "carry_forward",
       "current_task": null,
-      "awaiting": null,
+      "awaiting": {
+        "reason": "TIEBREAK_REVIEW",
+        "task_id": "CB_REAUDIT_TIEBREAK_22",
+        "audit_id": "CB_REAUDIT_TIEBREAK_22_A1",
+        "pending": [
+          {
+            "task_id": "CB_REAUDIT_TIEBREAK_22",
+            "audit_id": "CB_REAUDIT_TIEBREAK_22_A1"
+          }
+        ]
+      },
       "last_result": {
-        "task_id": "CB_REAUDIT_RATE_07",
-        "status": "REVISION_APPROVED",
-        "audit_id": "CB_REAUDIT_RATE_07_A2",
-        "supersedes": "CB_REAUDIT_RATE_07_A1",
-        "flags": []
+        "task_id": "CB_REAUDIT_TIEBREAK_22",
+        "status": "FLAGGED",
+        "flags": [
+          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+        ]
       }
     }
   ]
