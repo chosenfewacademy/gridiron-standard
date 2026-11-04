@@ -3194,7 +3194,7 @@
         "position": "TE",
         "stage": "top10_reaudit"
       },
-      "status": "AWAITING_REVIEW_MAJOR",
+      "status": "IN_PROGRESS",
       "position_state_at_trigger": "LOCKED",
       "pool_file": "data/candidate-pools/TE.reaudit.json",
       "baseline_file": "data/baselines/TE.json",
@@ -3247,7 +3247,8 @@
         "TE_REAUDIT_TIEBREAK_04",
         "TE_REAUDIT_TIEBREAK_05",
         "TE_REAUDIT_TIEBREAK_06",
-        "TE_REAUDIT_TIEBREAK_07"
+        "TE_REAUDIT_TIEBREAK_07",
+        "TE_REAUDIT_TIEBREAK_08"
       ],
       "audit_ids": [
         "TE_REAUDIT_CANDIDATE_AUDIT_A1",
@@ -3300,7 +3301,7 @@
       ],
       "current_stage": "pair_audits",
       "current_task": "TE_REAUDIT_H2H_01",
-      "updated_at": "2026-11-04T00:13:34.883Z",
+      "updated_at": "2026-11-04T00:13:35.117Z",
       "last_result": {
         "task_id": "TE_REAUDIT_TIEBREAK_08",
         "status": "FLAGGED",
@@ -3308,17 +3309,7 @@
           "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
         ]
       },
-      "awaiting": {
-        "reason": "TIEBREAK_REVIEW",
-        "task_id": "TE_REAUDIT_TIEBREAK_08",
-        "audit_id": "TE_REAUDIT_TIEBREAK_08_A1",
-        "pending": [
-          {
-            "task_id": "TE_REAUDIT_TIEBREAK_08",
-            "audit_id": "TE_REAUDIT_TIEBREAK_08_A1"
-          }
-        ]
-      },
+      "awaiting": null,
       "approvals": [
         {
           "decision": "APPROVED",
@@ -3686,6 +3677,14 @@
           "decision": "APPROVED",
           "task_id": "TE_REAUDIT_TIEBREAK_07",
           "audit_id": "TE_REAUDIT_TIEBREAK_07_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T00:13:34Z",
+          "note": "Commissioner approval t45s389 (approve all 6 TE head-to-heads, 10 tiebreaks and 9 rating changes)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "TE_REAUDIT_TIEBREAK_08",
+          "audit_id": "TE_REAUDIT_TIEBREAK_08_A1",
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T00:13:34Z",
           "note": "Commissioner approval t45s389 (approve all 6 TE head-to-heads, 10 tiebreaks and 9 rating changes)"
