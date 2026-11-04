@@ -1,0 +1,223 @@
+{
+  "audit_id": "SAM_REAUDIT_BG_03_A1",
+  "task_id": "SAM_REAUDIT_BG_03",
+  "task_type": "background_analysis",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "SAM",
+  "player_id": "ext_00-0035680",
+  "players": [
+    "Quincy Williams"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "HIGH",
+  "dossier": {
+    "player": "Quincy Williams",
+    "player_id": "ext_00-0035680",
+    "team": "CLE",
+    "role_assignment": {
+      "SAM25": 221,
+      "SAM26": 275,
+      "MIKE": 0,
+      "WILL": 0,
+      "SAM": 1285,
+      "EDGE": 0,
+      "assign": "SAM"
+    },
+    "side_rule": "LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 role = snap-weighted share of nflverse depth-chart snapshots: Base 4-3 MLB -> MIKE, WLB -> WILL, SLB -> SAM; Base 3-4 RILB (strong-side inside LB) -> MIKE, LILB (weak-side inside LB) -> WILL; 3-4 WLB/SLB are edge rushers (LEDGE/REDGE lists). Each season's slot shares are weighted by that season's nflverse defensive snaps; largest share wins (tie -> MIKE, then WILL). Players are matched by gsis/PFR id, not name. Each player appears in one list only.",
+    "pff": {
+      "2025": {
+        "team": "new-york-jets",
+        "ovr": 45.6,
+        "snaps": 783,
+        "rank": 77,
+        "rdef": 347,
+        "prsh": 54,
+        "cov": 382
+      },
+      "2026": {
+        "team": "cleveland-browns",
+        "ovr": 79.9,
+        "snaps": 500,
+        "rank": 4,
+        "rdef": 210,
+        "prsh": 38,
+        "cov": 252
+      }
+    },
+    "pfr": {
+      "2025": {
+        "tm": "NYJ",
+        "pos": "LB",
+        "g": "13",
+        "tgt": "48",
+        "cmp": "35",
+        "yds": "373",
+        "rat": "129.9",
+        "int": "0",
+        "bltz": "36",
+        "prss": "5",
+        "sk": "3.5",
+        "comb": "83",
+        "m_tkl": "15"
+      },
+      "2026": {
+        "def_targets": 29,
+        "def_completions_allowed": 21,
+        "def_yards_allowed": 107,
+        "def_ints": 0,
+        "def_times_blitzed": 17,
+        "def_pressures": 6,
+        "def_sacks": 1,
+        "def_tackles_combined": 50,
+        "def_missed_tackles": 4,
+        "g": 7
+      }
+    },
+    "snaps": {
+      "2025": {
+        "games": 13,
+        "defs": 784
+      },
+      "2026": {
+        "games": 8,
+        "defs": 501
+      }
+    },
+    "stats": {
+      "2025": {
+        "def_tackles_solo": 43,
+        "def_tackle_assists": 38,
+        "def_tackles_for_loss": 8,
+        "def_fumbles_forced": 0,
+        "def_sacks": 3.5,
+        "def_qb_hits": 5,
+        "def_pass_defended": 7,
+        "def_interceptions": 0
+      },
+      "2026": {
+        "def_tackles_solo": 29,
+        "def_tackle_assists": 23,
+        "def_tackles_for_loss": 6,
+        "def_fumbles_forced": 4,
+        "def_sacks": 1,
+        "def_qb_hits": 3,
+        "def_pass_defended": 3,
+        "def_interceptions": 0
+      }
+    },
+    "penalties": {
+      "2025": 2,
+      "2026": 1
+    },
+    "injuries": {
+      "2025": [
+        "wk8 Questionable (Shoulder)"
+      ],
+      "2026": [
+        "wk7 Questionable (Neck)"
+      ]
+    },
+    "summary_lines": [
+      "Quincy Williams (CLE) Quincy Williams 2026: PFF LB 2026 overall 79.9 on 500 snaps (LB rank 4; 210 run-def / 252 coverage / 38 pass-rush snaps); PFR 2026 (7 games) coverage 29 targets / 21 completions / 107 yds / 0 INT; 50 tackles, 4 missed; 6 pressures on 17 blitzes; 8 g / 501 def snaps; 29 solo + 23 ast tackles, 6 TFL, 1.0 sacks, 0 INT, 3 PD, 4 FF; 1 accepted penalties",
+      "Quincy Williams 2025: PFF LB 2025 overall 45.6 on 783 snaps (LB rank 77; 347 run-def / 382 coverage / 54 pass-rush snaps); PFR 2025 coverage 48 targets / 35 completions / 373 yds / passer rating 129.9 / 0 INT; 83 tackles, 15 missed; 5 pressures on 36 blitzes, 3.5 sacks; 13 g / 784 def snaps; 43 solo + 38 ast tackles, 8 TFL, 3.5 sacks, 0 INT, 7 PD, 0 FF; 2 accepted penalties",
+      "Quincy Williams role: snap-weighted 2025-26 depth-chart role shares MIKE 0 / WILL 0 / SAM 1285 / edge 0 (raw snapshots SAM25 221, SAM26 275) -> SAM (LB ROLE CONVENTION (t46u): every off-ball linebacker is assigned to exactly one of MIKE/WILL/SAM by his primary 2025-26 ...); roster position LB; Madden card WILL (reference only)",
+      "Quincy Williams injury reports: wk8 Questionable (Shoulder); wk7 Questionable (Neck); roster status ACT"
+    ],
+    "availability": {
+      "roster_status": "ACT"
+    },
+    "limitations": [
+      "PFF run-defense/coverage/tackling sub-grades and alignment splits are paywalled; no public tracking data for LB speed; substitutes: PFF LB overall + run/coverage/pass-rush snap counts, PFR coverage allowed, tackles vs missed tackles, blitz pressures, TFL/INT/PD, penalties, depth-chart role, injury reports"
+    ],
+    "attributes_informed": [
+      "SPD",
+      "ACC",
+      "AGI",
+      "COD",
+      "STR",
+      "AWR",
+      "PRC",
+      "TAK",
+      "POW",
+      "BSH",
+      "PUR",
+      "MCV",
+      "ZCV",
+      "PRS",
+      "INJ",
+      "STA",
+      "TGH"
+    ],
+    "provenance": [
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2026",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://www.pff.com/grades/nfl/lb/2025",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_season_def.csv",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pfr_advstats/advstats_week_def_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2025.csv",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      },
+      {
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
+        "retrieved_at": "2026-11-04T11:53:51Z"
+      }
+    ],
+    "not_evidence": "No EA/Madden rating used; no rating proposed at this stage."
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "status": "FLAGGED"
+}
