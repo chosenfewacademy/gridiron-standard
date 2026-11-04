@@ -1,0 +1,40 @@
+# C_REAUDIT_H2H_04 — Luke Wattenberg vs Ryan Neuzil (v1.1.2 head-to-head; authorized by t46u/t50s441)
+
+```json
+{
+  "audit_id": "C_REAUDIT_H2H_04_A1",
+  "task_id": "C_REAUDIT_H2H_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "C",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Luke Wattenberg",
+    "Ryan Neuzil"
+  ],
+  "pair_result": {
+    "winner": "Luke Wattenberg",
+    "loser": "Ryan Neuzil",
+    "provisional_order_holds": true,
+    "reasoning": "Neuzil's 2025 (77.4) beats Wattenberg's (69.7), but Wattenberg is clearly better in 2026 (72.8, #4 C vs 65.3, #15) and the trend favors him; Neuzil's pass pro is the weaker half (268 of 496 snaps). Narrow on current form.",
+    "key_evidence_for_winner": [
+      "Luke Wattenberg (DEN) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'C': 225}; roster ACT",
+      "Luke Wattenberg 2026: PFF 72.8 (rank 4; 296 pass-block/196 run-block of 492 snaps); 8 g/490 snaps; penalties 2; injuries none",
+      "Luke Wattenberg 2025: PFF 69.7 (rank 13; 678 pass-block/386 run-block of 1064 snaps); 15 g/1005 snaps; penalties 5; injuries ['wk17 Out (Shoulder)', 'wk21 Questionable (Shoulder)']"
+    ],
+    "key_evidence_for_loser": [
+      "Ryan Neuzil (ATL) ESPN 2026 win rates (thru Wk 8): not in ESPN IOL top-20 PBWR/top-10 RBWR; depth-chart side 2026 {'C': 226}; roster ACT",
+      "Ryan Neuzil 2026: PFF 65.3 (rank 15; 268 pass-block/228 run-block of 496 snaps); 8 g/497 snaps; penalties 1; injuries none",
+      "Ryan Neuzil 2025: PFF 77.4 (rank 5; 627 pass-block/469 run-block of 1096 snaps); 17 g/1096 snaps; penalties 3; injuries none"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
