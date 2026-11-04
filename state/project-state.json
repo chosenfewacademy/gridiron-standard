@@ -6618,7 +6618,7 @@
         "position": "RT",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/RT.reaudit.json",
       "baseline_file": null,
@@ -6712,19 +6712,23 @@
         "RT_REAUDIT_VARIANCE_AUDIT_A1",
         "RT_REAUDIT_RATE_06_A2",
         "RT_REAUDIT_RATE_11_A2",
-        "RT_REAUDIT_RATE_12_A2"
+        "RT_REAUDIT_RATE_12_A2",
+        "RT_REAUDIT_SCARCITY_A1"
       ],
-      "current_stage": "variance_audit",
-      "current_task": "RT_REAUDIT_VARIANCE_AUDIT",
-      "updated_at": "2026-11-04T04:04:51.649Z",
+      "current_stage": "scarcity_audit",
+      "current_task": "RT_REAUDIT_SCARCITY",
+      "updated_at": "2026-11-04T04:05:05.116Z",
       "last_result": {
-        "task_id": "RT_REAUDIT_RATE_12",
-        "status": "REVISION_APPROVED",
-        "audit_id": "RT_REAUDIT_RATE_12_A2",
-        "supersedes": "RT_REAUDIT_RATE_12_A1",
+        "task_id": "RT_REAUDIT_SCARCITY",
+        "status": "VALIDATED",
+        "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "RT_REAUDIT_SCARCITY",
+        "audit_id": "RT_REAUDIT_SCARCITY_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
