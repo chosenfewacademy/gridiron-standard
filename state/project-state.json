@@ -10816,7 +10816,7 @@
         "position": "SAM",
         "stage": "top10_reaudit"
       },
-      "status": "IN_PROGRESS",
+      "status": "AWAITING_REVIEW_MAJOR",
       "position_state_at_trigger": "PENDING",
       "pool_file": "data/candidate-pools/SAM.reaudit.json",
       "baseline_file": null,
@@ -10865,18 +10865,23 @@
         "SAM_REAUDIT_RATE_02_A1",
         "SAM_REAUDIT_RATE_03_A1",
         "SAM_REAUDIT_RATE_04_A1",
-        "SAM_REAUDIT_RATE_05_A1"
+        "SAM_REAUDIT_RATE_05_A1",
+        "SAM_REAUDIT_RATE_06_A1"
       ],
       "current_stage": "player_rating",
-      "current_task": "SAM_REAUDIT_RATE_05",
-      "updated_at": "2026-11-04T11:57:07.762Z",
+      "current_task": "SAM_REAUDIT_RATE_06",
+      "updated_at": "2026-11-04T11:57:08.611Z",
       "last_result": {
-        "task_id": "SAM_REAUDIT_RATE_05",
+        "task_id": "SAM_REAUDIT_RATE_06",
         "status": "FLAGGED",
         "errors": [],
         "flags": []
       },
-      "awaiting": null,
+      "awaiting": {
+        "reason": "REVIEW_MAJOR",
+        "task_id": "SAM_REAUDIT_RATE_06",
+        "audit_id": "SAM_REAUDIT_RATE_06_A1"
+      },
       "approvals": [
         {
           "decision": "APPROVED",
