@@ -1,0 +1,37 @@
+{
+  "audit_id": "FB_REAUDIT_H2H_05_A1",
+  "task_id": "FB_REAUDIT_H2H_05",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "FB",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Andrew Beck",
+    "Scott Matlock"
+  ],
+  "pair_result": {
+    "winner": "Andrew Beck",
+    "loser": "Scott Matlock",
+    "provisional_order_holds": true,
+    "reasoning": "Beck graded 66.1 (2025) with a red-zone receiving role (6-45-2), Matlock 50.5 on 347 snaps then 45.9; Matlock is the stronger point-of-attack and pass-pro blocker (Madden still lists him DT), Beck the more complete FB. Beck narrowly; small 2026 sample noted.",
+    "key_evidence_for_winner": [
+      "Andrew Beck (NYJ) FB depth-chart snapshots 2026 {'rank1': 182}; roster ACT (RB)",
+      "Andrew Beck 2026: PFF FB 50.5 (rank None; 16 run/lead-block, 2 pass-block, 5 routes, 1 carries of 24 snaps); 6 g/24 snaps; 1--1 rush, 0-0 rec, 0 TD; penalties 0; injuries none",
+      "Andrew Beck 2025: PFF FB 66.1 (rank None; 75 run/lead-block, 6 pass-block, 30 routes, 1 carries of 112 snaps); 17 g/110 snaps; 1-5 rush, 6-45 rec, 2 TD; penalties 0; injuries none"
+    ],
+    "key_evidence_for_loser": [
+      "Scott Matlock (LAC) FB depth-chart snapshots 2026 {'rank1': 35, 'rank2': 239}; roster ACT (RB)",
+      "Scott Matlock 2026: PFF FB 45.9 (rank 9; 28 run/lead-block, 14 pass-block, 8 routes, 0 carries of 50 snaps); 3 g/50 snaps; 0-0 rush, 0-0 rec, 0 TD; penalties 1; injuries ['wk5 Questionable (Foot)']",
+      "Scott Matlock 2025: PFF FB 50.5 (rank 6; 237 run/lead-block, 68 pass-block, 42 routes, 0 carries of 347 snaps); 16 g/334 snaps; 0-0 rush, 4-12 rec, 1 TD; penalties 0; injuries ['wk6 Questionable (Ankle)', 'wk11 Questionable (Chest)']"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "VALIDATED"
+}
