@@ -1,0 +1,282 @@
+{
+  "task_id": "DT_REAUDIT_CANDIDATE_AUDIT",
+  "type": "candidate_audit",
+  "audit_order": "1.1.2",
+  "baseline_controls": {
+    "control_source": "APPROVED_CANDIDATE_POOL",
+    "never_locked": true,
+    "top_10": [
+      {
+        "rank": 1,
+        "player": "Jeffery Simmons"
+      },
+      {
+        "rank": 2,
+        "player": "Zach Allen"
+      },
+      {
+        "rank": 3,
+        "player": "Cameron Heyward"
+      },
+      {
+        "rank": 4,
+        "player": "Quinnen Williams"
+      },
+      {
+        "rank": 5,
+        "player": "Leonard Williams"
+      },
+      {
+        "rank": 6,
+        "player": "Dexter Lawrence"
+      },
+      {
+        "rank": 7,
+        "player": "Alim McNeill"
+      },
+      {
+        "rank": 8,
+        "player": "DJ Reader"
+      },
+      {
+        "rank": 9,
+        "player": "Deone Walker"
+      },
+      {
+        "rank": 10,
+        "player": "A'Shawn Robinson"
+      }
+    ],
+    "external_controls": [
+      "Derrick Brown",
+      "Jalen Redmond",
+      "B.J. Hill",
+      "Jacob Martin",
+      "T'Vondre Sweat",
+      "Poona Ford",
+      "DeForest Buckner",
+      "Adetomiwa Adebawore",
+      "Kobie Turner",
+      "Tommy Togiai",
+      "Travis Jones",
+      "Maliek Collins",
+      "Keeanu Benton"
+    ]
+  },
+  "candidate_pool": [
+    {
+      "player": "Jeffery Simmons",
+      "aliases": [],
+      "player_id": "ext_00-0035643",
+      "flags": []
+    },
+    {
+      "player": "Zach Allen",
+      "aliases": [],
+      "player_id": "ext_00-0035248",
+      "flags": [
+        "ROSTER_LABEL_DE (two-way/position change; confirm bucket)",
+        "DE_LABEL_INTERIOR_ROLE_UNVERIFIED"
+      ]
+    },
+    {
+      "player": "Cameron Heyward",
+      "aliases": [],
+      "player_id": "ext_00-0027969",
+      "flags": []
+    },
+    {
+      "player": "Quinnen Williams",
+      "aliases": [],
+      "player_id": "ext_00-0035718",
+      "flags": []
+    },
+    {
+      "player": "Leonard Williams",
+      "aliases": [],
+      "player_id": "ext_00-0031933",
+      "flags": []
+    },
+    {
+      "player": "Dexter Lawrence",
+      "aliases": [],
+      "player_id": "ext_00-0035683",
+      "flags": []
+    },
+    {
+      "player": "Alim McNeill",
+      "aliases": [],
+      "player_id": "ext_00-0036624",
+      "flags": []
+    },
+    {
+      "player": "DJ Reader",
+      "aliases": [],
+      "player_id": "ext_00-0032424",
+      "flags": []
+    },
+    {
+      "player": "Deone Walker",
+      "aliases": [],
+      "player_id": "ext_00-0040710",
+      "flags": []
+    },
+    {
+      "player": "A'Shawn Robinson",
+      "aliases": [],
+      "player_id": "ext_00-0032889",
+      "flags": [
+        "ROSTER_LABEL_DE (two-way/position change; confirm bucket)",
+        "DE_LABEL_INTERIOR_ROLE_UNVERIFIED"
+      ]
+    },
+    {
+      "player": "Derrick Brown",
+      "aliases": [],
+      "player_id": "ext_00-0036220",
+      "flags": []
+    },
+    {
+      "player": "Jalen Redmond",
+      "aliases": [],
+      "player_id": "ext_00-0038778",
+      "flags": [
+        "ROSTER_LABEL_DE (two-way/position change; confirm bucket)",
+        "DE_LABEL_INTERIOR_ROLE_UNVERIFIED"
+      ]
+    },
+    {
+      "player": "B.J. Hill",
+      "aliases": [],
+      "player_id": "ext_00-0034800",
+      "flags": []
+    },
+    {
+      "player": "Jacob Martin",
+      "aliases": [],
+      "player_id": "ext_00-0034163",
+      "flags": [
+        "ROSTER_LABEL_DE (two-way/position change; confirm bucket)",
+        "DE_LABEL_INTERIOR_ROLE_UNVERIFIED",
+        "NO_QUALIFYING_PFF_2026_GRADE (low snaps / injury?)"
+      ]
+    },
+    {
+      "player": "T'Vondre Sweat",
+      "aliases": [],
+      "player_id": "ext_00-0039886",
+      "flags": [
+        "INJURED_RESERVE"
+      ]
+    },
+    {
+      "player": "Poona Ford",
+      "aliases": [],
+      "player_id": "ext_00-0034234",
+      "flags": [
+        "INJURED_RESERVE"
+      ]
+    },
+    {
+      "player": "DeForest Buckner",
+      "aliases": [],
+      "player_id": "ext_00-0032378",
+      "flags": []
+    },
+    {
+      "player": "Adetomiwa Adebawore",
+      "aliases": [],
+      "player_id": "ext_00-0039031",
+      "flags": []
+    },
+    {
+      "player": "Kobie Turner",
+      "aliases": [],
+      "player_id": "ext_00-0039138",
+      "flags": [
+        "INJURED_RESERVE"
+      ]
+    },
+    {
+      "player": "Tommy Togiai",
+      "aliases": [],
+      "player_id": "ext_00-0036883",
+      "flags": []
+    },
+    {
+      "player": "Travis Jones",
+      "aliases": [],
+      "player_id": "ext_00-0037756",
+      "flags": []
+    },
+    {
+      "player": "Maliek Collins",
+      "aliases": [],
+      "player_id": "ext_00-0033131",
+      "flags": []
+    },
+    {
+      "player": "Keeanu Benton",
+      "aliases": [],
+      "player_id": "ext_00-0039110",
+      "flags": []
+    }
+  ],
+  "position": "DT",
+  "stage": "candidate_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "reaudit": true,
+  "position_inputs": {
+    "methodology": "1.0.0",
+    "common_inputs": {
+      "usage": "games, starts, offensive/defensive/special-teams snaps and snap share (nflverse snap_counts)",
+      "context": [
+        "injury/availability",
+        "age/career trajectory",
+        "team/scheme context",
+        "multi-year trend"
+      ]
+    },
+    "order": 12,
+    "group": "Defense",
+    "current_status": "PENDING",
+    "pff_cited_inputs": [
+      "overall",
+      "pass rush",
+      "run defense",
+      "tackling",
+      "pass-rush win rate",
+      "pressures",
+      "total pressures, sacks, hits, hurries"
+    ],
+    "position_stats": [
+      "tackles, TFL, sacks, QB hits",
+      "forced fumbles",
+      "batted passes"
+    ],
+    "usage_snap_metrics": [
+      "snaps by alignment (edge side / interior technique)",
+      "pass-rush snaps vs run snaps"
+    ],
+    "on_field_impact": [
+      "pass-rush win rate (ESPN)",
+      "run-stop win rate (ESPN)",
+      "pressure rate",
+      "run-stop %"
+    ],
+    "madden_attributes_informed": [
+      "PMV",
+      "FMV",
+      "BSH",
+      "PUR",
+      "PRC",
+      "TAK",
+      "POW",
+      "STR",
+      "SPD",
+      "ACC",
+      "AWR"
+    ],
+    "note": "Interior (0-4i technique) snaps are primary."
+  }
+}
