@@ -1,0 +1,183 @@
+# K_REAUDIT_RATE_10 revision A2 — Chris Boswell 76 (authorized t56s532)
+
+Chris Boswell INJ 83->89, STA 79->84, KAC 82->86, OVR 74->76 (passes Dicker 75, ties Slye 76; tiebreak decides #8/#9). Durability markdown withdrawn: no injury designation 2025-26 and he kicked in all 17 2025 games and all 8 2026 games; KAC weighs 2025 (PFF 92.5, #4) with the 8-game 2026 dip. TGH 51->68 (AWR unchanged at 88): the prior card failed STYLE_PROFILE_TOO_SIMILAR vs Jason Myers (corr 0.975, MAD 4.2). 68 is the smallest TGH that clears every K (corr vs Myers 0.939, MAD 3.3); TGH carries zero weight in both KP OVR archetypes so OVR 76 is unaffected, whereas the AWR-only fix needed AWR 93 (2nd-highest K AWR, not supported by his 2026 dip and OVR-weighted). 51 was a group-low outlier (next lowest 61) with no injury or availability evidence behind it; 68 sits mid-group (Fairbairn 67, Dicker 70).
+
+```json
+{
+  "audit_id": "K_REAUDIT_RATE_10_A2",
+  "task_id": "K_REAUDIT_RATE_10",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "player_id": "ext_00-0031136",
+  "players": [
+    "Chris Boswell"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "KPW": 94,
+    "KAC": 86,
+    "AWR": 88,
+    "INJ": 89,
+    "STA": 84,
+    "TGH": 68
+  },
+  "trait_confidence": {
+    "KPW": "MEDIUM",
+    "KAC": "MEDIUM",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "KPW": {
+      "basis": "Judgment (leg): 2025 FG 27/32 (84%): 0-39 8/10, 40-49 10/11, 50-59 8/10, 60+ 1/1; long 60; 1 blocked; FG EPA +17.3; XP 42/43; 2025 kickoffs 88, touchback 7 (8.0%), return avg 23.6, 1 out of bounds; 2026 FG 18/23 (78%): 0-39 10/10, 40-49 4/6, 50-59 4/7, 60+ 0/0; long 58; 0 blocked; FG EPA -1.2; XP 16/16; 2026 kickoffs 41, touchback 7 (17.1%), return avg 27.6, 0 out of bounds. Style: Proven long-range veteran: 12/17 from 50-59 with a 60-yard long and FG EPA +17.3 (PFF 92.5) in 2025, but -1.2 / PFF 62.7 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "KAC": {
+      "basis": "Judgment (accuracy): 2025 FG 27/32 (84%), 50-59 8/10, 60+ 1/1, FG EPA +17.3, PFF 92.5 (#4 of 35); 2026 FG 18/23 (78%), 40-49 4/6, 50-59 4/7, FG EPA -1.2, PFF 62.7 (#20 of 31); XP 42/43 and 16/16. Two-year weighting rather than the 8-game 2026 dip alone Revised 82->86 (t56s532).",
+      "why_not_higher": "2026 accuracy dip (78%, FG EPA -1.2, PFF #20)",
+      "why_not_lower": "2025 top-4 PFF grade and 12/17 from 50-59 across 2025-26",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (decisions): PFF K 2025 overall 92.5 (K rank 4); 2025 FG 27/32 (84%): 0-39 8/10, 40-49 10/11, 50-59 8/10, 60+ 1/1; long 60; 1 blocked; FG EPA +17.3; XP 42/43; PFF K 2026 overall 62.7 (K rank 20); 2026 FG 18/23 (78%): 0-39 10/10, 40-49 4/6, 50-59 4/7, 60+ 0/0; long 58; 0 blocked; FG EPA -1.2; XP 16/16; penalties 3/0. Style: Proven long-range veteran: 12/17 from 50-59 with a 60-yard long and FG EPA +17.3 (PFF 92.5) in 2025, but -1.2 / PFF 62.7 in 2026.",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): no injury designation 2025-26; roster status ACT; kicked in all 17 2025 games and all 8 2026 games (nflverse snap counts: 165 and 82 ST snaps); the earlier 83 was a durability markdown with no injury history Revised 83->89 (t56s532).",
+      "why_not_higher": "Age and kicker-specialist workload; 90+ is for multi-season iron men with no age risk",
+      "why_not_lower": "No missed games or injury designations across 25 straight team games",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): every game in 2025 (17) and 2026 (8); 88 kickoffs in 2025 and 41 in 2026 plus all FG/XP duties; no workload limitation reported Revised 79->84 (t56s532).",
+      "why_not_higher": "Kickoff touchback rate 8.0% (2025) shows leg-strength load is managed",
+      "why_not_lower": "Full kicking load every game for two seasons",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (availability/usage): played every team game 2025 (17) and 2026 (8) with no injury designation; 88 kickoffs in 2025 and 41 in 2026 with no workload restriction. The prior 51 was a group-low outlier (next lowest K 61) unsupported by any injury or toughness evidence; raised to 68 (mid-group) also to clear STYLE_PROFILE_TOO_SIMILAR vs Jason Myers (corr 0.975 -> 0.939). TGH has zero weight in KP OVR archetypes, so OVR 76 is unchanged. Revised 51->68 (t56s532).",
+      "why_not_higher": "No tackle/contact or play-through-injury evidence that would put him with McLaughlin 84 / Pineiro 83",
+      "why_not_lower": "No missed games or designations in 25 straight team games; below-61 would make him the group outlier without evidence",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "KPW": {
+      "tier": "ELITE",
+      "claim": "leg: 2025 FG 27/32 (84%): 0-39 8/10, 40-49 10/11, 50-59 8/10, 60+ 1/1; long 60; 1 blocked; FG EPA +17.3; XP 42/43; 2025 kickoffs 88, touchback 7 (8.0%), return avg 23.6, 1 out of bounds; 2026 FG 18/23 (78%): 0-39 10/10, 40-49 4/6, 50-59 4/7, 60+ 0/0; long 58; 0 blocked; FG EPA -1.2; XP 16/16; 2026 kickoffs 41, touchback 7 (17.1%), return avg 27.6, 0 out of bounds",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 76,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Proven long-range veteran: 12/17 from 50-59 with a 60-yard long and FG EPA +17.3 (PFF 92.5) in 2025, but -1.2 / PFF 62.7 in 2026. Revision A2 (t56s532): Chris Boswell INJ 83->89, STA 79->84, KAC 82->86, OVR 74->76 (passes Dicker 75, ties Slye 76; tiebreak decides #8/#9). Durability markdown withdrawn: no injury designation 2025-26 and he kicked in all 17 2025 games and all 8 2026 games; KAC weighs 2025 (PFF 92.5, #4) with the 8-game 2026 dip. TGH 51->68 (AWR unchanged at 88): the prior card failed STYLE_PROFILE_TOO_SIMILAR vs Jason Myers (corr 0.975, MAD 4.2). 68 is the smallest TGH that clears every K (corr vs Myers 0.939, MAD 3.3); TGH carries zero weight in both KP OVR archetypes so OVR 76 is unaffected, whereas the AWR-only fix needed AWR 93 (2nd-highest K AWR, not supported by his 2026 dip and OVR-weighted). 51 was a group-low outlier (next lowest 61) with no injury or availability evidence behind it; 68 sits mid-group (Fairbairn 67, Dicker 70).",
+  "style_profile": "Chris Boswell: Proven long-range veteran: 12/17 from 50-59 with a 60-yard long and FG EPA +17.3 (PFF 92.5) in 2025, but -1.2 / PFF 62.7 in 2026.",
+  "style_evidence": [
+    "Chris Boswell (PIT) Chris Boswell 2026: PFF K 2026 overall 62.7 (K rank 20); 2026 kickoffs 41, touchback 7 (17.1%), return avg 27.6, 0 out of bounds; 0 accepted penalties",
+    "Chris Boswell 2025: PFF K 2025 overall 92.5 (K rank 4); 2025 kickoffs 88, touchback 7 (8.0%), return avg 23.6, 1 out of bounds; 3 accepted penalties",
+    "Chris Boswell role: placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K (KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflve...); roster position K; Madden card K (reference only)",
+    "Chris Boswell injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "K_REAUDIT_BG_10_A1",
+  "weaknesses": [
+    "2026 form (FG EPA -1.2)",
+    "kickoff touchbacks (8.0% in 2025)"
+  ],
+  "limitations": [
+    "No public kickoff hang time; PFF K sub-grades paywalled; substitutes: FG% by distance band, longest FG, FG EPA, XP%, kickoff touchback %/return average (nflverse pbp), PFF K overall"
+  ],
+  "role_assignment": "K (placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K)",
+  "madden_reference": [
+    {
+      "player": "Chris Boswell",
+      "ovr": 85,
+      "madden_position": "K",
+      "attributes": {
+        "KPW": 96,
+        "KAC": 94,
+        "AWR": 73,
+        "INJ": 89,
+        "STA": 84,
+        "TGH": 49
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -9,
+      "delta_attributes": {
+        "KPW": -2,
+        "KAC": -8,
+        "AWR": 15,
+        "INJ": 0,
+        "STA": 0,
+        "TGH": 19
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 9,
+    "attribute_gaps_10plus": {
+      "AWR": 15,
+      "TGH": 19
+    },
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t56s532"
+}
+```

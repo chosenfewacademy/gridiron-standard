@@ -20857,7 +20857,7 @@
       "trigger": "COMMISSIONER_EXPLICIT",
       "note": "Queued only. No audit or research has started. The locked baseline/lock pointer stay unchanged until a completed TOP10_REAUDIT is approved.",
       "started_at": "2026-11-04T19:08:24Z",
-      "updated_at": "2026-11-04T19:08:26.869Z",
+      "updated_at": "2026-11-04T19:29:56.487Z",
       "audit_ids": [
         "K_REAUDIT_CANDIDATE_AUDIT_A1",
         "K_REAUDIT_BG_01_A1",
@@ -20901,7 +20901,8 @@
         "K_REAUDIT_RATE_02_A2",
         "K_REAUDIT_TIEBREAK_07_A1",
         "K_REAUDIT_TIEBREAK_08_A1",
-        "K_REAUDIT_TIEBREAK_09_A1"
+        "K_REAUDIT_TIEBREAK_09_A1",
+        "K_REAUDIT_RATE_10_A2"
       ],
       "completed_tasks": [
         "K_REAUDIT_CANDIDATE_AUDIT",
@@ -21497,17 +21498,26 @@
           "approved_by": "PhiXCrypto",
           "approved_at": "2026-11-04T19:08:26Z",
           "note": "User-approved batch t56s532 (t56s540 engine: approved tiebreaks order tied players)"
+        },
+        {
+          "decision": "APPROVED",
+          "task_id": "K_REAUDIT_RATE_10",
+          "audit_id": "K_REAUDIT_RATE_10_A2",
+          "supersedes": "K_REAUDIT_RATE_10_A1",
+          "approved_by": "PhiXCrypto",
+          "approved_at": "2026-11-04T19:29:56Z",
+          "note": "User-approved card t56s532: Chris Boswell INJ 83->89, STA 79->84, KAC 82->86, OVR 74->76 (passes Dicker 75, ties Slye 76; tiebreak decides #8/#9). Durability markdown withdrawn: no injury designation 2025-26 "
         }
       ],
       "current_stage": "carry_forward",
       "current_task": null,
       "awaiting": null,
       "last_result": {
-        "task_id": "K_REAUDIT_TIEBREAK_09",
-        "status": "FLAGGED",
-        "flags": [
-          "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
-        ]
+        "task_id": "K_REAUDIT_RATE_10",
+        "status": "REVISION_APPROVED",
+        "audit_id": "K_REAUDIT_RATE_10_A2",
+        "supersedes": "K_REAUDIT_RATE_10_A1",
+        "flags": []
       }
     }
   ]
