@@ -1,0 +1,254 @@
+{
+  "audit_id": "K_REAUDIT_RATE_12_A1",
+  "task_id": "K_REAUDIT_RATE_12",
+  "task_type": "player_rating",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "player_id": "ext_00-0039576",
+  "players": [
+    "Spencer Shrader"
+  ],
+  "methodology_version": "1.1.0",
+  "confidence": "MEDIUM",
+  "ratings": {
+    "KPW": 92,
+    "KAC": 87,
+    "AWR": 72,
+    "INJ": 81,
+    "STA": 73,
+    "TGH": 64
+  },
+  "trait_confidence": {
+    "KPW": "MEDIUM",
+    "KAC": "MEDIUM",
+    "AWR": "MEDIUM",
+    "INJ": "MEDIUM",
+    "STA": "MEDIUM",
+    "TGH": "MEDIUM"
+  },
+  "trait_notes": {
+    "KPW": {
+      "basis": "Judgment (leg): 2025 FG 13/14 (93%): 0-39 10/10, 40-49 2/2, 50-59 1/2, 60+ 0/0; long 52; 0 blocked; FG EPA +2.5; XP 14/14; 2025 kickoffs 27, touchback 2 (7.4%), return avg 24.0, 0 out of bounds; 2026 FG 19/21 (90%): 0-39 6/6, 40-49 7/8, 50-59 6/7, 60+ 0/0; long 58; 0 blocked; FG EPA +12.9; XP 14/15; 2026 kickoffs 18, touchback 3 (16.7%), return avg 28.5, 0 out of bounds. Style: Rising accuracy kicker: 32 of 35 FG and FG EPA +12.9 in 2026 (PFF 79.3).",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "KAC": {
+      "basis": "Judgment (accuracy): 2025 FG 13/14 (93%): 0-39 10/10, 40-49 2/2, 50-59 1/2, 60+ 0/0; long 52; 0 blocked; FG EPA +2.5; XP 14/14; 2026 FG 19/21 (90%): 0-39 6/6, 40-49 7/8, 50-59 6/7, 60+ 0/0; long 58; 0 blocked; FG EPA +12.9; XP 14/15. Style: Rising accuracy kicker: 32 of 35 FG and FG EPA +12.9 in 2026 (PFF 79.3).",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "AWR": {
+      "basis": "Judgment (decisions): PFF K 2025 overall 72.8 (K rank 24); 2025 FG 13/14 (93%): 0-39 10/10, 40-49 2/2, 50-59 1/2, 60+ 0/0; long 52; 0 blocked; FG EPA +2.5; XP 14/14; PFF K 2026 overall 79.3 (K rank 8); 2026 FG 19/21 (90%): 0-39 6/6, 40-49 7/8, 50-59 6/7, 60+ 0/0; long 58; 0 blocked; FG EPA +12.9; XP 14/15; penalties 1/0. Style: Rising accuracy kicker: 32 of 35 FG and FG EPA +12.9 in 2026 (PFF 79.3).",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "INJ": {
+      "basis": "Judgment (availability): Spencer Shrader injury reports: no injury designation 2025-26; roster status ACT; 2025 kickoffs 27, touchback 2 (7.4%), return avg 24.0, 0 out of bounds; 2026 kickoffs 18, touchback 3 (16.7%), return avg 28.5, 0 out of bounds. Style: Rising accuracy kicker: 32 of 35 FG and FG EPA +12.9 in 2026 (PFF 79.3).",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "STA": {
+      "basis": "Judgment (usage): 2025 kickoffs 27, touchback 2 (7.4%), return avg 24.0, 0 out of bounds; 2026 kickoffs 18, touchback 3 (16.7%), return avg 28.5, 0 out of bounds. Style: Rising accuracy kicker: 32 of 35 FG and FG EPA +12.9 in 2026 (PFF 79.3).",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    },
+    "TGH": {
+      "basis": "Judgment (usage): 2025 kickoffs 27, touchback 2 (7.4%), return avg 24.0, 0 out of bounds; 2026 kickoffs 18, touchback 3 (16.7%), return avg 28.5, 0 out of bounds. Style: Rising accuracy kicker: 32 of 35 FG and FG EPA +12.9 in 2026 (PFF 79.3).",
+      "why_not_higher": "Evidence does not separate him from higher-rated Ks on this trait",
+      "why_not_lower": "Evidence keeps him above lower-rated Ks in this group on this trait",
+      "sources": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "high_trait_evidence": {
+    "KPW": {
+      "tier": "ELITE",
+      "claim": "leg: 2025 FG 13/14 (93%): 0-39 10/10, 40-49 2/2, 50-59 1/2, 60+ 0/0; long 52; 0 blocked; FG EPA +2.5; XP 14/14; 2025 kickoffs 27, touchback 2 (7.4%), return avg 24.0, 0 out of bounds; 2026 FG 19/21 (90%): 0-39 6/6, 40-49 7/8, 50-59 6/7, 60+ 0/0; long 58; 0 blocked; FG EPA +12.9; XP 14/15; 2026 kickoffs 18, touchback 3 (16.7%), return avg 28.5, 0 out of bounds",
+      "source_urls": [
+        "https://www.pff.com/grades/nfl/k/2026",
+        "https://www.pff.com/grades/nfl/k/2025",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv"
+      ]
+    }
+  },
+  "proposed_ovr": 71,
+  "ovr_tier": null,
+  "proposed_ovr_basis": "Judgment, attribute by attribute (no formula, no percentile); stricter than Madden, with a wide stratification gap so true stars stand out. Rising accuracy kicker: 32 of 35 FG and FG EPA +12.9 in 2026 (PFF 79.3).",
+  "style_profile": "Spencer Shrader: Rising accuracy kicker: 32 of 35 FG and FG EPA +12.9 in 2026 (PFF 79.3).",
+  "style_evidence": [
+    "Spencer Shrader (IND) Spencer Shrader 2026: PFF K 2026 overall 79.3 (K rank 8); 2026 kickoffs 18, touchback 3 (16.7%), return avg 28.5, 0 out of bounds; 0 accepted penalties",
+    "Spencer Shrader 2025: PFF K 2025 overall 72.8 (K rank 24); 2025 kickoffs 27, touchback 2 (7.4%), return avg 24.0, 0 out of bounds; 1 accepted penalties",
+    "Spencer Shrader role: placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K (KICKER ROLE CONVENTION (t46u): rated as K = any player with 2025-26 field-goal, extra-point or kickoff attempts in nflve...); roster position K; Madden card K (reference only)",
+    "Spencer Shrader injury reports: no injury designation 2025-26; roster status ACT"
+  ],
+  "input_dossier": "K_REAUDIT_BG_12_A1",
+  "weaknesses": [
+    "kickoff touchbacks (7.4% in 2025)",
+    "small two-year volume (35 FGA)"
+  ],
+  "limitations": [
+    "No public kickoff hang time; PFF K sub-grades paywalled; substitutes: FG% by distance band, longest FG, FG EPA, XP%, kickoff touchback %/return average (nflverse pbp), PFF K overall"
+  ],
+  "role_assignment": "K (placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K)",
+  "madden_reference": [
+    {
+      "player": "Spencer Shrader",
+      "ovr": 84,
+      "madden_position": "K",
+      "attributes": {
+        "KPW": 97,
+        "KAC": 93,
+        "AWR": 70,
+        "INJ": 85,
+        "STA": 78,
+        "TGH": 63
+      },
+      "reference_only": true,
+      "used_as_evidence": false,
+      "delta_ovr": -13,
+      "delta_attributes": {
+        "KPW": -5,
+        "KAC": -6,
+        "AWR": 2,
+        "INJ": -4,
+        "STA": -5,
+        "TGH": 1
+      },
+      "source": "https://www.ea.com/games/madden-nfl/ratings (Madden 27, retrieved 2026-11-03 ET)"
+    }
+  ],
+  "madden_order_verified": false,
+  "variance_check": {
+    "ovr_gap": 13,
+    "attribute_gaps_10plus": {},
+    "threshold": 10,
+    "result": "FLAG_FOR_VARIANCE_AUDIT"
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "judgment_rating": true,
+  "authorized_by": "t46u",
+  "style_similarity": [
+    {
+      "player": "Will Reichard",
+      "audit_id": "K_REAUDIT_RATE_01_A1",
+      "corr": 0.89,
+      "mad": 9.8,
+      "too_similar": false
+    },
+    {
+      "player": "Ka'imi Fairbairn",
+      "audit_id": "K_REAUDIT_RATE_02_A1",
+      "corr": 0.676,
+      "mad": 7.2,
+      "too_similar": false
+    },
+    {
+      "player": "Chase McLaughlin",
+      "audit_id": "K_REAUDIT_RATE_03_A1",
+      "corr": 0.845,
+      "mad": 8.2,
+      "too_similar": false
+    },
+    {
+      "player": "Evan McPherson",
+      "audit_id": "K_REAUDIT_RATE_04_A1",
+      "corr": 0.901,
+      "mad": 5.8,
+      "too_similar": false
+    },
+    {
+      "player": "Cam Little",
+      "audit_id": "K_REAUDIT_RATE_05_A1",
+      "corr": 0.882,
+      "mad": 6,
+      "too_similar": false
+    },
+    {
+      "player": "Brandon Aubrey",
+      "audit_id": "K_REAUDIT_RATE_06_A1",
+      "corr": 0.748,
+      "mad": 6,
+      "too_similar": false
+    },
+    {
+      "player": "Jason Myers",
+      "audit_id": "K_REAUDIT_RATE_07_A1",
+      "corr": 0.781,
+      "mad": 6.7,
+      "too_similar": false
+    },
+    {
+      "player": "Joey Slye",
+      "audit_id": "K_REAUDIT_RATE_08_A1",
+      "corr": 0.808,
+      "mad": 5.2,
+      "too_similar": false
+    },
+    {
+      "player": "Cameron Dicker",
+      "audit_id": "K_REAUDIT_RATE_09_A1",
+      "corr": 0.89,
+      "mad": 5.7,
+      "too_similar": false
+    },
+    {
+      "player": "Chris Boswell",
+      "audit_id": "K_REAUDIT_RATE_10_A1",
+      "corr": 0.754,
+      "mad": 7.3,
+      "too_similar": false
+    },
+    {
+      "player": "Eddy Pineiro",
+      "audit_id": "K_REAUDIT_RATE_11_A1",
+      "corr": 0.549,
+      "mad": 5.5,
+      "too_similar": false
+    }
+  ],
+  "status": "FLAGGED"
+}
