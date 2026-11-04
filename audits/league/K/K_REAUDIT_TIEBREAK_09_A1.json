@@ -1,0 +1,39 @@
+{
+  "audit_id": "K_REAUDIT_TIEBREAK_09_A1",
+  "task_id": "K_REAUDIT_TIEBREAK_09",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "K",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Chris Boswell",
+    "Cameron Dicker"
+  ],
+  "pair_result": {
+    "winner": "Chris Boswell",
+    "loser": "Cameron Dicker",
+    "provisional_order_holds": true,
+    "reasoning": "Re-test of K_REAUDIT_H2H_05 (Dicker over Boswell, NARROW) after the user-approved t56s532 Boswell card (OVR 76 vs Dicker 75). Chris Boswell: 2025 FG 27/32, 50-59 8/10, 60+ 1/1, long 60, FG EPA +17.3, PFF 92.5 (#4); 2026 FG 18/23, 50-59 4/7, long 58, FG EPA -1.2, PFF 62.7 (#20). Cameron Dicker: 2025 FG 38/41, 50-59 5/6, long 59, FG EPA +17.0, PFF 91.0 (#8); 2026 FG 12/14, 50-59 0/1, long 46, FG EPA -1.3, PFF 62.3 (#21). Near-identical shape (both elite 2025, both dipped in 2026); Boswell edges PFF and FG EPA in both seasons and has far more long-range proof (12/17 from 50-59 plus 1/1 from 60+ vs 5/7). Dicker leads raw FG% (93/86 vs 84/78). Boswell narrowly; this supersedes H2H_05 for the pair (later approval).",
+    "key_evidence_for_winner": [
+      "Chris Boswell (PIT) role placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K; roster ACT (K); injuries no injury designation 2025-26",
+      "Chris Boswell 2026: PFF K 2026 overall 62.7 (K rank 20); 2026 kickoffs 41, touchback 7 (17.1%), return avg 27.6, 0 out of bounds; 0 accepted penalties; 2026 FG 18/23 (78%): 0-39 10/10, 40-49 4/6, 50-59 4/7, 60+ 0/0; long 58; 0 blocked; FG EPA -1.2; XP 16/16",
+      "Chris Boswell 2025: PFF K 2025 overall 92.5 (K rank 4); 2025 kickoffs 88, touchback 7 (8.0%), return avg 23.6, 1 out of bounds; 3 accepted penalties; 2025 FG 27/32 (84%): 0-39 8/10, 40-49 10/11, 50-59 8/10, 60+ 1/1; long 60; 1 blocked; FG EPA +17.3; XP 42/43"
+    ],
+    "key_evidence_for_loser": [
+      "Cameron Dicker (LAC) role placekicker (FG/XP/kickoff attempts in nflverse pbp); roster position K; roster ACT (K); injuries no injury designation 2025-26",
+      "Cameron Dicker 2026: PFF K 2026 overall 62.3 (K rank 21); 2026 kickoffs 27, touchback 5 (18.5%), return avg 23.2, 0 out of bounds; 0 accepted penalties; 2026 FG 12/14 (86%): 0-39 8/8, 40-49 4/5, 50-59 0/1, 60+ 0/0; long 46; 0 blocked; FG EPA -1.3; XP 9/9",
+      "Cameron Dicker 2025: PFF K 2025 overall 91 (K rank 8); 2025 kickoffs 90, touchback 16 (17.8%), return avg 26.6, 2 out of bounds; 3 accepted penalties; 2025 FG 38/41 (93%): 0-39 21/22, 40-49 12/13, 50-59 5/6, 60+ 0/0; long 59; 0 blocked; FG EPA +17.0; XP 34/35"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [
+    "TIEBREAK_PENDING_COMMISSIONER_REVIEW"
+  ],
+  "locked_control_conflict": false,
+  "madden_order_verified": false,
+  "status": "FLAGGED"
+}
