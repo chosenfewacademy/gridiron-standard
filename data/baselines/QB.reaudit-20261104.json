@@ -1,0 +1,449 @@
+{
+  "architecture_version": "1.1.3",
+  "methodology_version": "1.0.0",
+  "status": "LOCKED",
+  "mutation_policy": "IMMUTABLE_UNLESS_EXPLICIT_CURRENT_DATA_TOP10_REAUDIT",
+  "historical_cards_policy": "Do not fabricate missing historical full-card attributes.",
+  "position": "QB",
+  "version": "reaudit-20261104",
+  "top_10": [
+    {
+      "rank": 1,
+      "player": "Joe Burrow",
+      "ovr": 90
+    },
+    {
+      "rank": 2,
+      "player": "Josh Allen",
+      "ovr": 89
+    },
+    {
+      "rank": 3,
+      "player": "Drake Maye",
+      "ovr": 87
+    },
+    {
+      "rank": 4,
+      "player": "Brock Purdy",
+      "ovr": 86
+    },
+    {
+      "rank": 5,
+      "player": "Jared Goff",
+      "ovr": 85
+    },
+    {
+      "rank": 6,
+      "player": "Dak Prescott",
+      "ovr": 84
+    },
+    {
+      "rank": 7,
+      "player": "Jordan Love",
+      "ovr": 83
+    },
+    {
+      "rank": 8,
+      "player": "Matthew Stafford",
+      "ovr": 83
+    },
+    {
+      "rank": 9,
+      "player": "Lamar Jackson",
+      "ovr": 82
+    },
+    {
+      "rank": 10,
+      "player": "Trevor Lawrence",
+      "ovr": 82
+    }
+  ],
+  "last_in": {
+    "player": "Trevor Lawrence",
+    "ovr": 82
+  },
+  "first_out": {
+    "player": "Patrick Mahomes",
+    "ovr": 81
+  },
+  "external_controls": [
+    {
+      "player": "Patrick Mahomes",
+      "ovr": 81
+    },
+    {
+      "player": "Caleb Williams",
+      "ovr": 81
+    },
+    {
+      "player": "C.J. Stroud",
+      "ovr": 80
+    },
+    {
+      "player": "Geno Smith",
+      "ovr": 78
+    },
+    {
+      "player": "Kirk Cousins",
+      "ovr": 78
+    },
+    {
+      "player": "Sam Darnold",
+      "ovr": 78
+    },
+    {
+      "player": "Mac Jones",
+      "ovr": 77
+    },
+    {
+      "player": "Jayden Daniels",
+      "ovr": 77
+    },
+    {
+      "player": "Justin Herbert",
+      "ovr": 75
+    }
+  ],
+  "scarcity": {
+    "rules": "config/scarcity-rules.json (90+ elite, 95+ rare, 97+ extraordinary, 99 historic)",
+    "traits_90_plus": [
+      {
+        "player": "Joe Burrow",
+        "attr": "AWR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Joe Burrow",
+        "attr": "SAC",
+        "v": 93,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Joe Burrow",
+        "attr": "MAC",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Josh Allen",
+        "attr": "STR",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Josh Allen",
+        "attr": "INJ",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 7
+      },
+      {
+        "player": "Josh Allen",
+        "attr": "STA",
+        "v": 92,
+        "tier": "ELITE",
+        "conf": "MEDIUM",
+        "urls": 7
+      },
+      {
+        "player": "Drake Maye",
+        "attr": "SAC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Jared Goff",
+        "attr": "PAC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 2
+      },
+      {
+        "player": "Dak Prescott",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Matthew Stafford",
+        "attr": "STA",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Lamar Jackson",
+        "attr": "SPD",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Lamar Jackson",
+        "attr": "ACC",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Lamar Jackson",
+        "attr": "AGI",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Jayden Daniels",
+        "attr": "SPD",
+        "v": 90,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      },
+      {
+        "player": "Jayden Daniels",
+        "attr": "ACC",
+        "v": 91,
+        "tier": "ELITE",
+        "conf": "HIGH",
+        "urls": 3
+      }
+    ],
+    "count_90_plus": 15,
+    "count_95_plus": 0,
+    "count_97_plus": 0,
+    "count_99": 0,
+    "max_trait": "Joe Burrow SAC 93 (ELITE)",
+    "all_90_plus_have_elite_sourced_high_confidence": true,
+    "overall_90_plus": [
+      "Joe Burrow 90"
+    ],
+    "overall_spread": "90 to 75 across 19 rated QBs (top 10: 90 to 82)",
+    "style_rule": {
+      "pairs_checked": 171,
+      "too_similar": 0,
+      "highest_corr": [
+        "Matthew Stafford",
+        "Kirk Cousins",
+        0.945,
+        3.9,
+        false
+      ],
+      "lowest_mad": [
+        "Dak Prescott",
+        "Jordan Love",
+        0.84,
+        3.2,
+        false
+      ]
+    },
+    "effective_ratings": {
+      "Joe Burrow": [
+        "QB_REAUDIT_RATE_01_A2",
+        90
+      ],
+      "Josh Allen": [
+        "QB_REAUDIT_RATE_05_A4",
+        89
+      ],
+      "Drake Maye": [
+        "QB_REAUDIT_RATE_07_A3",
+        87
+      ],
+      "Brock Purdy": [
+        "QB_REAUDIT_RATE_04_A2",
+        86
+      ],
+      "Jared Goff": [
+        "QB_REAUDIT_RATE_06_A2",
+        85
+      ],
+      "Dak Prescott": [
+        "QB_REAUDIT_RATE_03_A3",
+        84
+      ],
+      "Jordan Love": [
+        "QB_REAUDIT_RATE_11_A4",
+        83
+      ],
+      "Matthew Stafford": [
+        "QB_REAUDIT_RATE_13_A3",
+        83
+      ],
+      "Lamar Jackson": [
+        "QB_REAUDIT_RATE_02_A6",
+        82
+      ],
+      "Trevor Lawrence": [
+        "QB_REAUDIT_RATE_12_A2",
+        82
+      ],
+      "Patrick Mahomes": [
+        "QB_REAUDIT_RATE_10_A4",
+        81
+      ],
+      "Caleb Williams": [
+        "QB_REAUDIT_RATE_15_A3",
+        81
+      ],
+      "C.J. Stroud": [
+        "QB_REAUDIT_RATE_09_A2",
+        80
+      ],
+      "Geno Smith": [
+        "QB_REAUDIT_RATE_08_A2",
+        78
+      ],
+      "Kirk Cousins": [
+        "QB_REAUDIT_RATE_14_A3",
+        78
+      ],
+      "Sam Darnold": [
+        "QB_REAUDIT_RATE_17_A2",
+        78
+      ],
+      "Mac Jones": [
+        "QB_REAUDIT_RATE_18_A1",
+        77
+      ],
+      "Jayden Daniels": [
+        "QB_REAUDIT_RATE_19_A1",
+        77
+      ],
+      "Justin Herbert": [
+        "QB_REAUDIT_RATE_16_A2",
+        75
+      ]
+    },
+    "result": "PASS (superseding run R2, t56s532): 15 traits at 90+ all tiered and sourced; 0 at 95+; overalls 90+: Joe Burrow 90; style rule 171 pairs, 0 too similar.",
+    "pending_unapplied_proposals": [
+      "QB_REAUDIT_RATE_07 A3 draft: Maye 86->87 (TIEBREAK_06)",
+      "QB_REAUDIT_RATE_03 A3 draft: Prescott 85->84 (TIEBREAK_07)",
+      "Neither touches a 90+ trait or a 90+ overall; scarcity result is unaffected either way."
+    ],
+    "note_for_commissioner": "Re-run after the t56s532 cards (Josh Allen). PASS (superseding run R2, t56s532): 15 traits at 90+ all tiered and sourced; 0 at 95+; overalls 90+: Joe Burrow 90; style rule 171 pairs, 0 too similar."
+  },
+  "full_cards_import_status": "NOT_YET_IMPORTED",
+  "supersedes": {
+    "baseline_file": "data/baselines/QB.reaudit-20261102.json",
+    "version": "reaudit-20261102"
+  },
+  "stage_audit_ids": [
+    "QB_REAUDIT_PROVISIONAL_TOP10_A1",
+    "QB_REAUDIT_PAIR_01_A1",
+    "QB_REAUDIT_PAIR_02_A1",
+    "QB_REAUDIT_CANDIDATE_AUDIT_A1",
+    "QB_REAUDIT_BG_01_A1",
+    "QB_REAUDIT_BG_02_A1",
+    "QB_REAUDIT_BG_03_A1",
+    "QB_REAUDIT_BG_04_A1",
+    "QB_REAUDIT_BG_05_A1",
+    "QB_REAUDIT_BG_06_A1",
+    "QB_REAUDIT_BG_07_A1",
+    "QB_REAUDIT_BG_08_A1",
+    "QB_REAUDIT_BG_09_A1",
+    "QB_REAUDIT_BG_10_A1",
+    "QB_REAUDIT_BG_11_A1",
+    "QB_REAUDIT_BG_12_A1",
+    "QB_REAUDIT_BG_13_A1",
+    "QB_REAUDIT_BG_14_A1",
+    "QB_REAUDIT_BG_15_A1",
+    "QB_REAUDIT_BG_16_A1",
+    "QB_REAUDIT_BG_17_A1",
+    "QB_REAUDIT_RATE_01_A1",
+    "QB_REAUDIT_RATE_02_A1",
+    "QB_REAUDIT_RATE_03_A1",
+    "QB_REAUDIT_RATE_04_A1",
+    "QB_REAUDIT_RATE_05_A1",
+    "QB_REAUDIT_RATE_06_A1",
+    "QB_REAUDIT_RATE_07_A1",
+    "QB_REAUDIT_RATE_08_A1",
+    "QB_REAUDIT_RATE_09_A1",
+    "QB_REAUDIT_RATE_10_A1",
+    "QB_REAUDIT_RATE_11_A1",
+    "QB_REAUDIT_RATE_12_A1",
+    "QB_REAUDIT_RATE_13_A1",
+    "QB_REAUDIT_RATE_14_A1",
+    "QB_REAUDIT_RATE_15_A1",
+    "QB_REAUDIT_RATE_16_A1",
+    "QB_REAUDIT_RATE_17_A1",
+    "QB_REAUDIT_RATE_06_A2",
+    "QB_REAUDIT_RATE_07_A2",
+    "QB_REAUDIT_RATE_08_A2",
+    "QB_REAUDIT_RATE_09_A2",
+    "QB_REAUDIT_RATE_10_A2",
+    "QB_REAUDIT_RATE_11_A2",
+    "QB_REAUDIT_RATE_12_A2",
+    "QB_REAUDIT_RATE_13_A2",
+    "QB_REAUDIT_RATE_14_A2",
+    "QB_REAUDIT_RATE_15_A2",
+    "QB_REAUDIT_RATE_16_A2",
+    "QB_REAUDIT_RATE_17_A2",
+    "QB_REAUDIT_H2H_01_A1",
+    "QB_REAUDIT_H2H_02_A1",
+    "QB_REAUDIT_H2H_03_A1",
+    "QB_REAUDIT_H2H_04_A1",
+    "QB_REAUDIT_H2H_05_A1",
+    "QB_REAUDIT_H2H_06_A1",
+    "QB_REAUDIT_RATE_02_A2",
+    "QB_REAUDIT_RATE_10_A3",
+    "QB_REAUDIT_RATE_13_A3",
+    "QB_REAUDIT_TIEBREAK_01_A1",
+    "QB_REAUDIT_TIEBREAK_02_A1",
+    "QB_REAUDIT_RATE_02_A3",
+    "QB_REAUDIT_TIEBREAK_03_A1",
+    "QB_REAUDIT_TIEBREAK_04_A1",
+    "QB_REAUDIT_RATE_02_A4",
+    "QB_REAUDIT_RATE_04_A2",
+    "QB_REAUDIT_RATE_05_A2",
+    "QB_REAUDIT_RATE_10_A4",
+    "QB_REAUDIT_RATE_11_A4",
+    "QB_REAUDIT_RATE_14_A3",
+    "QB_REAUDIT_RATE_15_A3",
+    "QB_REAUDIT_RATE_03_A2",
+    "QB_REAUDIT_RATE_01_A2",
+    "QB_REAUDIT_RATE_02_A5",
+    "QB_REAUDIT_TIEBREAK_05_A1",
+    "QB_REAUDIT_RATE_02_A6",
+    "QB_REAUDIT_RATE_05_A3",
+    "QB_REAUDIT_TIEBREAK_06_A1",
+    "QB_REAUDIT_TIEBREAK_07_A1",
+    "QB_REAUDIT_TIEBREAK_08_A1",
+    "QB_REAUDIT_RATE_07_A3",
+    "QB_REAUDIT_RATE_03_A3",
+    "QB_REAUDIT_BG_18_A1",
+    "QB_REAUDIT_BG_19_A1",
+    "QB_REAUDIT_RATE_18_A1",
+    "QB_REAUDIT_RATE_19_A1",
+    "QB_REAUDIT_TIEBREAK_09_A1",
+    "QB_REAUDIT_TIEBREAK_10_A1",
+    "QB_REAUDIT_TIEBREAK_11_A1",
+    "QB_REAUDIT_TIEBREAK_12_A1",
+    "QB_REAUDIT_RATE_05_A4",
+    "QB_REAUDIT_VARIANCE_AUDIT_A2",
+    "QB_REAUDIT_SCARCITY_A2",
+    "QB_REAUDIT_CROSS_AUDIT_A2"
+  ],
+  "madden_order_verified": false,
+  "locked_by": "PhiXCrypto",
+  "locked_at": "2026-11-04T14:13:04Z"
+}

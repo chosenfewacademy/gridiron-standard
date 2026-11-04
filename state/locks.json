@@ -3,17 +3,23 @@
   "positions": {
     "QB": {
       "status": "LOCKED",
-      "baseline_file": "data/baselines/QB.reaudit-20261102.json",
+      "baseline_file": "data/baselines/QB.reaudit-20261104.json",
       "mutation_permission": "TOP10_REAUDIT_ONLY",
-      "version": "reaudit-20261102",
-      "locked_at": "2026-11-02T21:35:00-05:00",
-      "lock_audit_id": "QB_REAUDIT_LOCK_20261102",
+      "version": "reaudit-20261104",
+      "locked_at": "2026-11-04T14:13:04Z",
+      "lock_audit_id": "QB_REAUDIT_LOCK_20261104",
       "history": [
         {
           "baseline_file": "data/baselines/QB.json",
           "version": "bootstrap-2026-08-30",
           "superseded_at": "2026-11-02T21:35:00-05:00",
           "superseded_by": "QB_REAUDIT_LOCK_20261102"
+        },
+        {
+          "baseline_file": "data/baselines/QB.reaudit-20261102.json",
+          "version": "reaudit-20261102",
+          "superseded_at": "2026-11-04T14:13:04Z",
+          "superseded_by": "QB_REAUDIT_LOCK_20261104"
         }
       ]
     },
