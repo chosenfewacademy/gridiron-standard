@@ -1,0 +1,40 @@
+# MIKE_REAUDIT_H2H_04 — Trenton Simpson vs Cedric Gray (v1.1.2 head-to-head; authorized by t46u)
+
+```json
+{
+  "audit_id": "MIKE_REAUDIT_H2H_04_A1",
+  "task_id": "MIKE_REAUDIT_H2H_04",
+  "task_type": "pair_audit",
+  "audit_type": "TOP10_REAUDIT",
+  "audit_order": "1.1.2",
+  "position": "MIKE",
+  "methodology_version": "1.1.0",
+  "confidence": "LOW",
+  "players": [
+    "Trenton Simpson",
+    "Cedric Gray"
+  ],
+  "pair_result": {
+    "winner": "Trenton Simpson",
+    "loser": "Cedric Gray",
+    "provisional_order_holds": true,
+    "reasoning": "Simpson on 2026 form: PFF 78.1 with 6 TFL / 1 INT vs Gray's 57.1 on 228 snaps; Gray's 2025 (78.9 on 921, 164 tackles) was better than Simpson's 70.7, but current form and the 10 TFL / 3.5 sacks across 2025-26 tip it.",
+    "key_evidence_for_winner": [
+      "Trenton Simpson (BAL) role snap-weighted 2025-26 depth-chart role shares MIKE 728 / WILL 0 / SAM 0 / edge 0 (raw snapshots MIKE25 221, MIKE26 275) -> MIKE; roster ACT (LB); injuries no injury designation 2025-26",
+      "Trenton Simpson 2026: Trenton Simpson 2026: PFF LB 2026 overall 78.1 on 321 snaps (LB rank 7; 159 run-def / 122 coverage / 40 pass-rush snaps); PFR 2026 (7 games) coverage 19 targets / 13 completions / 71 yds / 1 INT; 47 tackles, 1 missed; 2 pressures on 9 blitzes; 8 g / 321 def snaps; 26 solo + 24 ast tackles, 6 TFL, 1.0 sacks, 1 INT, 1 PD, 0 FF; 3 accepted penalties; PFR 2026 (7 games) coverage 19 targets / 13 completions / 71 yds / 1 INT; 47 tackles, 1 missed; 2 pressures on 9 blitzes",
+      "Trenton Simpson 2025: Trenton Simpson 2025: PFF LB 2025 overall 70.7 on 406 snaps (LB rank 27; 158 run-def / 200 coverage / 48 pass-rush snaps); PFR 2025 coverage 27 targets / 20 completions / 136 yds / passer rating 84.8 / 0 INT; 66 tackles, 3 missed; 6 pressures on 16 blitzes, 2.5 sacks; 16 g / 407 def snaps; 32 solo + 32 ast tackles, 4 TFL, 2.5 sacks, 0 INT, 1 PD, 0 FF; 1 accepted penalties; PFR 2025 coverage 27 targets / 20 completions / 136 yds / passer rating 84.8 / 0 INT; 66 tackles, 3 missed; 6 pressures on 16 blitzes, 2.5 sacks"
+    ],
+    "key_evidence_for_loser": [
+      "Cedric Gray (TEN) role snap-weighted 2025-26 depth-chart role shares MIKE 755 / WILL 395 / SAM 0 / edge 0 (raw snapshots WILL25 40, MIKE25 181, WILL26 275) -> MIKE; roster ACT (LB); injuries wk16 Out (Concussion); wk1 Out (Concussion); wk2 Questionable (Concussion)",
+      "Cedric Gray 2026: Cedric Gray 2026: PFF LB 2026 overall 57.1 on 228 snaps (LB rank 52; 127 run-def / 96 coverage / 5 pass-rush snaps); PFR 2026 (6 games) coverage 12 targets / 9 completions / 53 yds / 0 INT; 34 tackles, 1 missed; 1 pressures on 1 blitzes; 7 g / 228 def snaps; 16 solo + 19 ast tackles, 2 TFL, 0.5 sacks, 0 INT, 0 PD, 0 FF; 2 accepted penalties; PFR 2026 (6 games) coverage 12 targets / 9 completions / 53 yds / 0 INT; 34 tackles, 1 missed; 1 pressures on 1 blitzes",
+      "Cedric Gray 2025: Cedric Gray 2025: PFF LB 2025 overall 78.9 on 921 snaps (LB rank 7; 389 run-def / 472 coverage / 60 pass-rush snaps); PFR 2025 coverage 59 targets / 48 completions / 424 yds / passer rating 102.3 / 0 INT; 164 tackles, 7 missed; 7 pressures on 34 blitzes, 1 sacks; 16 g / 922 def snaps; 94 solo + 67 ast tackles, 7 TFL, 1.0 sacks, 0 INT, 4 PD, 0 FF; 5 accepted penalties; PFR 2025 coverage 59 targets / 48 completions / 424 yds / passer rating 102.3 / 0 INT; 164 tackles, 7 missed; 7 pressures on 34 blitzes, 1 sacks"
+    ],
+    "margin": "NARROW",
+    "proposed_rating_adjustment": null,
+    "adjustment_status": null
+  },
+  "major_flags": [],
+  "locked_control_conflict": false,
+  "madden_order_verified": false
+}
+```
