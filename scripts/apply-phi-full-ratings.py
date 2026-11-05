@@ -759,7 +759,7 @@ def main() -> None:
                 "gap": gap,
                 "flag": flag,
                 "best_archetype": row["best_archetype"],
-                "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits.",
+                "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met.",
             })
     from collections import Counter
     flag_counts = dict(Counter(row["flag"] for row in audit_rows))
@@ -795,7 +795,9 @@ def main() -> None:
         "calculator": {
             "source": "config/madden-ovr-weights.estimated.json",
             "verified": False,
-            "policy": "Pre-check only. Gaps are conflicts between a judgment overall and an estimated, unverified formula. Attributes were not shifted to force a match.",
+            "madden_order_verified": False,
+            "in_game_requirement_met": False,
+            "policy": "config/madden-ovr-weights.estimated.json is an unverified pre-check. It cannot validate an in-game Madden 27 overall. Traits were not forced.",
             "flag_counts": flag_counts,
             "gaps": gaps,
         },

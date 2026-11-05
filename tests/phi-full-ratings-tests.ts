@@ -135,6 +135,16 @@ export function runPhiFullRatingsTests(test: (name: string, fn: () => void) => v
     const hurts = db.prepare("SELECT ovr, position FROM rating_cards WHERE player_name='Jalen Hurts'").get() as { ovr: number; position: string };
     assert.equal(hurts.ovr, 78);
     assert.equal(hurts.position, "QB");
+    assert.equal(audit.input_database.kind, "pre_pr4_attached_sqlite");
+    assert.equal(audit.input_database.not_current_page, true);
+    assert.equal(audit.cap_changed, false);
+    assert.equal(audit.contracts_changed, false);
+    assert.equal(audit.team_overalls_changed, false);
+    assert.equal(audit.ovr_validation.in_game_requirement_met, false);
+    assert.equal(audit.calculator.in_game_requirement_met, false);
+    assert.equal(audit.official_page_cap_not_applied.cap_space, 9172575);
+    assert.equal(audit.official_page_cap_not_applied.committed, 218826666);
+    assert.equal(audit.official_page_cap_not_applied.players_counted, 60);
     const cap = db.prepare(
       "SELECT cap_space, committed, dead_money, players_counted FROM team_cap_ledger WHERE team_abbr='PHI' AND season=2026 AND accounting_rule='in_season'"
     ).get() as { cap_space: number; committed: number; dead_money: number; players_counted: number };
@@ -142,12 +152,48 @@ export function runPhiFullRatingsTests(test: (name: string, fn: () => void) => v
     assert.equal(cap.committed, 198527666);
     assert.equal(cap.dead_money, 0);
     assert.equal(cap.players_counted, 59);
+    const depth = db.prepare(
+      "SELECT pos_abb, pos_rank, player_name FROM depth_chart WHERE team_abbr='PHI'"
+    ).all() as { pos_abb: string; pos_rank: number; player_name: string }[];
+    const expectedDepth = [
+      ["QB", 1, "Joe Milton III"], ["QB", 2, "Tanner McKee"], ["QB", 3, "Cole Payton"],
+      ["RB", 1, "Saquon Barkley"], ["RB", 2, "Jaydon Blue"], ["RB", 3, "Will Shipley"],
+      ["WR", 1, "DeVonta Smith"], ["WR", 2, "Dontayvion Wicks"], ["WR", 3, "Makai Lemon"], ["WR", 4, "Darius Cooper"],
+      ["TE", 1, "Dallas Goedert"], ["TE", 2, "Eli Stowers"], ["TE", 3, "Johnny Mundt"], ["TE", 4, "Grant Calcaterra"],
+      ["LT", 1, "Jordan Mailata"], ["LT", 2, "Fred Johnson"], ["LT", 3, "Markel Bell"],
+      ["LG", 1, "Landon Dickerson"], ["LG", 2, "Willie Lampkin"],
+      ["C", 1, "Drew Kendall"], ["C", 2, "Jake Majors"],
+      ["RG", 1, "Tyler Steen"], ["RG", 2, "Fred Johnson"], ["RG", 3, "Micah Morris"],
+      ["RT", 1, "Markel Bell"], ["RT", 2, "Fred Johnson"],
+      ["LEDGE", 1, "Nolan Smith Jr."], ["LEDGE", 2, "Arnold Ebiketie"],
+      ["REDGE", 1, "Jonathan Greenard"], ["REDGE", 2, "Jalyx Hunt"], ["REDGE", 3, "A.J. Epenesa"],
+      ["DT", 1, "Jalen Carter"], ["DT", 2, "Jordan Davis"], ["DT", 3, "Moro Ojomo"], ["DT", 4, "Byron Young"],
+      ["MIKE", 1, "Jihaad Campbell"], ["MIKE", 2, "Jeremiah Trotter Jr."],
+      ["WILL", 1, "Zack Baun"], ["WILL", 2, "Smael Mondon Jr."],
+      ["CB", 1, "Quinyon Mitchell"], ["CB", 2, "Riq Woolen"], ["CB", 3, "Kenny Moore II"], ["CB", 4, "Jonathan Jones"],
+      ["FS", 1, "Andrew Mukuba"],
+      ["SS", 1, "Cooper DeJean"], ["SS", 2, "Marcus Epps"],
+      ["K", 1, "Jake Elliott"], ["P", 1, "Braden Mann"], ["LS", 1, "Rocco Underwood"]
+    ];
+    assert.equal(depth.length, 49);
+    assert.deepEqual(
+      depth.map(row => [row.pos_abb, row.pos_rank, row.player_name]).sort(),
+      expectedDepth.map(row => [row[0], row[1], row[2]]).sort()
+    );
+    for (const name of ["Kelee Ringo", "Mac McWilliams", "Michael Carter II", "Ty Robinson", "Hollywood Brown", "Elijah Moore", "Britain Covey", "Lane Johnson"]) {
+      const slot = db.prepare("SELECT COUNT(*) AS n FROM depth_chart WHERE team_abbr='PHI' AND player_name=?").get(name) as { n: number };
+      assert.equal(slot.n, 0, name);
+    }
+    for (const [name, ovr] of [["Kelee Ringo", 68], ["Ty Robinson", 64], ["Elijah Moore", 68], ["Britain Covey", 62]] as const) {
+      const card = db.prepare("SELECT ovr FROM rating_cards WHERE player_name=?").get(name) as { ovr: number };
+      assert.equal(card.ovr, ovr);
+    }
+    const otherDepth = db.prepare("SELECT COUNT(*) AS n FROM depth_chart WHERE team_abbr!='PHI'").get() as { n: number };
+    assert.equal(otherDepth.n, 2253);
     const milton = db.prepare(
       "SELECT pos_rank FROM depth_chart WHERE team_abbr='PHI' AND pos_abb='QB' AND player_name='Joe Milton III'"
     ).get() as { pos_rank: number };
     assert.equal(milton.pos_rank, 1);
-    const lane = db.prepare("SELECT COUNT(*) AS n FROM depth_chart WHERE team_abbr='PHI' AND player_name='Lane Johnson'").get() as { n: number };
-    assert.equal(lane.n, 0);
     const nolan = db.prepare("SELECT aliases_json FROM players WHERE player_id='ext_00-0039013'").get() as { aliases_json: string };
     assert.ok(JSON.parse(nolan.aliases_json).includes("Nolan Smith Jr."));
     db.close();

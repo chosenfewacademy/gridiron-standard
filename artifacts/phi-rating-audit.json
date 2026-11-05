@@ -28,7 +28,7 @@
  "calculator": {
   "source": "config/madden-ovr-weights.estimated.json",
   "verified": false,
-  "policy": "Pre-check only. Gaps are conflicts between a judgment overall and an estimated, unverified formula. Attributes were not shifted to force a match.",
+  "policy": "config/madden-ovr-weights.estimated.json is an unverified pre-check (docs/addendum-2026-11-03-madden-ovr-validation.md). It is not evidence that a Gridiron Standard card reproduces its overall in Madden 27. In-game logs in data/ingame-validation are the ground truth and have no entries. Traits were not forced.",
   "gaps": [
    {
     "player": "Joe Milton III",
@@ -38,7 +38,7 @@
     "gap": -11,
     "flag": "MAJOR_GAP",
     "best_archetype": "QB_StrongArm",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Tanner McKee",
@@ -48,7 +48,7 @@
     "gap": -9,
     "flag": "MAJOR_GAP",
     "best_archetype": "QB_StrongArm",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Cole Payton",
@@ -58,7 +58,7 @@
     "gap": -6,
     "flag": "MAJOR_GAP",
     "best_archetype": "QB_Scrambler",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Saquon Barkley",
@@ -68,7 +68,7 @@
     "gap": 2,
     "flag": "MINOR_GAP",
     "best_archetype": "HB_ElusiveBack",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Jaydon Blue",
@@ -78,7 +78,7 @@
     "gap": -2,
     "flag": "MINOR_GAP",
     "best_archetype": "HB_ReceivingBack",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Will Shipley",
@@ -88,7 +88,7 @@
     "gap": -2,
     "flag": "MINOR_GAP",
     "best_archetype": "HB_ElusiveBack",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "DeVonta Smith",
@@ -98,7 +98,7 @@
     "gap": 7,
     "flag": "MAJOR_GAP",
     "best_archetype": "WR_RouteRunner",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Makai Lemon",
@@ -108,7 +108,7 @@
     "gap": -3,
     "flag": "MINOR_GAP",
     "best_archetype": "WR_DeepThreat",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Darius Cooper",
@@ -118,7 +118,7 @@
     "gap": -7,
     "flag": "MAJOR_GAP",
     "best_archetype": "WR_Slot",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Dallas Goedert",
@@ -128,7 +128,7 @@
     "gap": 21,
     "flag": "MAJOR_GAP",
     "best_archetype": "TE_Blocking",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Eli Stowers",
@@ -138,7 +138,7 @@
     "gap": 4,
     "flag": "MAJOR_GAP",
     "best_archetype": "TE_VerticalThreat",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Johnny Mundt",
@@ -148,7 +148,7 @@
     "gap": 21,
     "flag": "MAJOR_GAP",
     "best_archetype": "TE_Blocking",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Grant Calcaterra",
@@ -158,7 +158,7 @@
     "gap": 4,
     "flag": "MAJOR_GAP",
     "best_archetype": "TE_Blocking",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Jordan Mailata",
@@ -168,7 +168,7 @@
     "gap": 2,
     "flag": "MINOR_GAP",
     "best_archetype": "OT_Power",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Markel Bell",
@@ -178,7 +178,7 @@
     "gap": -3,
     "flag": "MINOR_GAP",
     "best_archetype": "OT_Power",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Landon Dickerson",
@@ -188,7 +188,7 @@
     "gap": 7,
     "flag": "MAJOR_GAP",
     "best_archetype": "G_Power",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Willie Lampkin",
@@ -198,7 +198,7 @@
     "gap": -6,
     "flag": "MAJOR_GAP",
     "best_archetype": "G_Agile",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Drew Kendall",
@@ -208,7 +208,7 @@
     "gap": -4,
     "flag": "MAJOR_GAP",
     "best_archetype": "C_Power",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Jake Majors",
@@ -218,7 +218,7 @@
     "gap": -9,
     "flag": "MAJOR_GAP",
     "best_archetype": "C_Power",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Tyler Steen",
@@ -228,7 +228,7 @@
     "gap": 3,
     "flag": "MINOR_GAP",
     "best_archetype": "G_Power",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Micah Morris",
@@ -238,7 +238,7 @@
     "gap": -3,
     "flag": "MINOR_GAP",
     "best_archetype": "G_Power",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Nolan Smith Jr.",
@@ -248,7 +248,7 @@
     "gap": 7,
     "flag": "MAJOR_GAP",
     "best_archetype": "OLB_SpeedRusher",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Arnold Ebiketie",
@@ -258,7 +258,7 @@
     "gap": 7,
     "flag": "MAJOR_GAP",
     "best_archetype": "OLB_SpeedRusher",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Jonathan Greenard",
@@ -268,7 +268,7 @@
     "gap": 2,
     "flag": "MINOR_GAP",
     "best_archetype": "OLB_PowerRusher",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Jalyx Hunt",
@@ -278,7 +278,7 @@
     "gap": 5,
     "flag": "MAJOR_GAP",
     "best_archetype": "OLB_SpeedRusher",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Jalen Carter",
@@ -288,7 +288,7 @@
     "gap": 2,
     "flag": "MINOR_GAP",
     "best_archetype": "DT_PowerRusher",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Jordan Davis",
@@ -298,7 +298,7 @@
     "gap": 6,
     "flag": "MAJOR_GAP",
     "best_archetype": "DT_RunStopper",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Jihaad Campbell",
@@ -308,7 +308,7 @@
     "gap": 2,
     "flag": "MINOR_GAP",
     "best_archetype": "MLB_PassCoverage",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Smael Mondon Jr.",
@@ -318,7 +318,7 @@
     "gap": 3,
     "flag": "MINOR_GAP",
     "best_archetype": "OLB_SpeedRusher",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Quinyon Mitchell",
@@ -328,7 +328,7 @@
     "gap": 8,
     "flag": "MAJOR_GAP",
     "best_archetype": "CB_Slot",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Kenny Moore II",
@@ -338,7 +338,7 @@
     "gap": 7,
     "flag": "MAJOR_GAP",
     "best_archetype": "CB_Slot",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Jonathan Jones",
@@ -348,7 +348,7 @@
     "gap": 5,
     "flag": "MAJOR_GAP",
     "best_archetype": "CB_Slot",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Andrew Mukuba",
@@ -358,7 +358,7 @@
     "gap": 2,
     "flag": "MINOR_GAP",
     "best_archetype": "S_Zone",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Cooper DeJean",
@@ -368,7 +368,7 @@
     "gap": 9,
     "flag": "MAJOR_GAP",
     "best_archetype": "S_Hybrid",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Jake Elliott",
@@ -378,7 +378,7 @@
     "gap": 10,
     "flag": "MAJOR_GAP",
     "best_archetype": "KP_Accurate",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Braden Mann",
@@ -388,7 +388,7 @@
     "gap": 7,
     "flag": "MAJOR_GAP",
     "best_archetype": "KP_Power",
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    },
    {
     "player": "Rocco Underwood",
@@ -398,7 +398,7 @@
     "gap": null,
     "flag": "NO_ESTIMATE",
     "best_archetype": null,
-    "resolution": "Stated overall and evidence attributes kept. Estimated Madden weights are a pre-check only and were not used to retune traits."
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
    }
   ],
   "flag_counts": {
@@ -406,7 +406,9 @@
    "MINOR_GAP": 13,
    "OK": 9,
    "NO_ESTIMATE": 1
-  }
+  },
+  "madden_order_verified": false,
+  "in_game_requirement_met": false
  },
  "rows": [
   {
@@ -1430,12 +1432,153 @@
   }
  ],
  "sqlite_depth_names_outside_researched_46": [
-  "Britain Covey",
-  "Elijah Moore",
-  "Hollywood Brown",
   "Kelee Ringo",
   "Mac McWilliams",
   "Michael Carter II",
-  "Ty Robinson"
- ]
+  "Ty Robinson",
+  "Hollywood Brown",
+  "Elijah Moore",
+  "Britain Covey"
+ ],
+ "ovr_validation": {
+  "in_game_requirement_met": false,
+  "weights_verified": false,
+  "madden_order_verified": false,
+  "ingame_log_entries": "empty for every position scaffold; madden_order_verified remains false",
+  "locked_card_examples": [
+   {
+    "player": "Dallas Goedert",
+    "position": "TE",
+    "stated": 77,
+    "estimated": 98,
+    "note": "Locked card, not edited. TE_Blocking uses blocking fallbacks the addendum calls least reliable."
+   },
+   {
+    "player": "DeVonta Smith",
+    "position": "WR",
+    "stated": 77,
+    "estimated": 84,
+    "note": "Locked card, not edited."
+   },
+   {
+    "player": "Cooper DeJean",
+    "position": "SS",
+    "stated": 73,
+    "estimated": 82,
+    "note": "Locked SS card, not edited. Defensive weights are not backtested on Madden 27."
+   },
+   {
+    "player": "Quinyon Mitchell",
+    "position": "CB",
+    "stated": 80,
+    "estimated": 88,
+    "note": "Locked card, not edited."
+   },
+   {
+    "player": "Braden Mann",
+    "position": "P",
+    "stated": 74,
+    "estimated": 81,
+    "note": "Locked card, not edited."
+   },
+   {
+    "player": "Jordan Mailata",
+    "position": "LT",
+    "stated": 88,
+    "estimated": 90,
+    "note": "Locked card, not edited."
+   }
+  ],
+  "finding": "The estimated calculator is the wrong instrument for the Madden 27 reproduction requirement. QB/RB weights were backtested on EA reference cards, not on these Gridiron Standard builds. Defense, tight end, and kicker tables are explicitly low-confidence or fallback-substituted, and the same weights miss locked approved cards by wide margins. Empty in-game logs mean no recalibration has been done. Locked cards and stated overalls were not altered, and no trait was shifted to chase the estimate."
+ },
+ "input_database": {
+  "kind": "pre_pr4_attached_sqlite",
+  "not_current_page": true,
+  "depth_snapshot_dt": "2026-11-05T15:23:13Z",
+  "attached_file_timestamp": "2026-11-05 15:27",
+  "note": "The attached gridiron.sqlite is earlier than PR4 and is not the current official Page. No cap or contract row was written by this work, and nothing here says the Page cap should revert to this ledger."
+ },
+ "cap_changed": false,
+ "contracts_changed": false,
+ "team_overalls_changed": false,
+ "attached_phi_cap_ledger": {
+  "season": 2026,
+  "accounting_rule": "in_season",
+  "cap_space": 29471575,
+  "committed": 198527666,
+  "dead_money": 0,
+  "players_counted": 59,
+  "meaning": "Figures already in the attached pre-PR4 database. Preserved, not asserted as the current Page."
+ },
+ "official_page_cap_not_applied": {
+  "source": "Current official Canvas, previously verified and user-approved t97/t98. Not present in this database.",
+  "lane_johnson_2026_cap": 20299000,
+  "committed": 218826666,
+  "cap_space": 9172575,
+  "players_counted": 60,
+  "action": "Not written. This PR does not assert that Page should revert."
+ },
+ "depth_reconciliation": {
+  "page_source": "depth-data-fixed.json PHI, the user-approved Page chart",
+  "page_unique_players": 46,
+  "page_slot_rows": 49,
+  "sqlite_before": {
+   "rows": 56,
+   "unique_names": 53
+  },
+  "sqlite_after": {
+   "rows": 49,
+   "unique_names": 46
+  },
+  "match": "PHI depth_chart pos_abb, pos_rank, and player_name now equal that chart, including Fred Johnson at LT/RG/RT and Markel Bell at LT and RT.",
+  "removed_from_phi_depth_only": [
+   {
+    "player": "Kelee Ringo",
+    "old_slot": "CB5",
+    "card_kept": "PHI_AUDIT:CB:ext_00-0039140 OVR 68",
+    "why": "Older nflverse PHI depth row. Approved Page CB chart ends at Jonathan Jones."
+   },
+   {
+    "player": "Mac McWilliams",
+    "old_slot": "CB6",
+    "card_kept": "PHI_AUDIT:CB:ext_00-0040071 OVR 64",
+    "why": "Older nflverse PHI depth row. Not on the approved Page CB chart."
+   },
+   {
+    "player": "Michael Carter II",
+    "old_slot": "CB7",
+    "card_kept": "PHI_AUDIT:CB:ext_00-0036501 OVR 66",
+    "why": "Older nflverse PHI depth row. Not on the approved Page CB chart."
+   },
+   {
+    "player": "Ty Robinson",
+    "old_slot": "DT5",
+    "card_kept": "PHI_AUDIT:DT:ext_00-0040662 OVR 64",
+    "why": "Older DT5 row. Approved Page DT chart ends at Byron Young, the Eagles DT, at DT4."
+   },
+   {
+    "player": "Hollywood Brown",
+    "old_slot": "WR5",
+    "card_kept": "PHI_AUDIT:WR:hollywood_brown OVR 71; depth row had used gsis 00-0035662 (Marquise Brown). Neither name is on the Page WR chart.",
+    "why": "Older WR row replaced by the Page chart of Smith, Wicks, Lemon, and Cooper."
+   },
+   {
+    "player": "Elijah Moore",
+    "old_slot": "WR6",
+    "card_kept": "PHI_AUDIT:WR:elijah_moore OVR 68",
+    "why": "Older WR row. Not on the approved Page WR chart."
+   },
+   {
+    "player": "Britain Covey",
+    "old_slot": "WR7",
+    "card_kept": "PHI_AUDIT:WR:britain_covey OVR 62",
+    "why": "Older WR row. Not on the approved Page WR chart."
+   }
+  ],
+  "players_or_cards_deleted": false,
+  "new_cards_for_off_chart_players": false,
+  "other_teams_depth_unchanged": true,
+  "lane_johnson": "Not on the Page depth chart. RT1 remains Markel Bell. His later Page cap number was not written into this database."
+ },
+ "coverage_note": "46 unique Page-chart players, 49 slot rows, full applicable categories. The previous 53-name SQLite chart included 7 older PHI rows that are no longer on the approved chart."
 }
