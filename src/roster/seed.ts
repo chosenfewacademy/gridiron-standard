@@ -9,6 +9,7 @@ import {
   type LockEntry,
   type SeedWarning
 } from "./baselines.js";
+import { importContractSnapshot } from "./contracts.js";
 import { clearDerived, DEFAULT_SEASON, type DatabaseSync } from "./db.js";
 import { mapRosterStatus } from "./membership.js";
 import { nameSlug, normalizeName } from "./names.js";
@@ -41,6 +42,8 @@ export interface SeedResult {
   rating_cards: number;
   attribute_rows: number;
   positions: number;
+  contracts: number;
+  contract_years: number;
   warnings: SeedWarning[];
   baselines: SeedBaselineSummary[];
 }
@@ -548,6 +551,9 @@ export function seedRoster(db: DatabaseSync, options: SeedOptions = {}): SeedRes
       });
     }
 
+    const imported = importContractSnapshot(db, { root, season });
+    warnings.push(...imported.warnings);
+
     const info = db.prepare(`
       INSERT INTO seed_runs(seeded_at, season, player_count, card_count, warning_count)
       VALUES (?, ?, ?, ?, ?)
@@ -572,6 +578,8 @@ export function seedRoster(db: DatabaseSync, options: SeedOptions = {}): SeedRes
     rating_cards: cardCount,
     attribute_rows: attributeCount,
     positions: baselines.length,
+    contracts: Number((db.prepare("SELECT COUNT(*) AS n FROM contracts").get() as { n: number }).n),
+    contract_years: Number((db.prepare("SELECT COUNT(*) AS n FROM contract_years").get() as { n: number }).n),
     warnings,
     baselines
   };

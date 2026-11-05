@@ -1,8 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
+import { defaultAccountingRule, findPlayerContracts, importContractSnapshot, loadCapSheet } from "./contracts.js";
 import { defaultDbPath, migrate, openRosterDb, resetDbFile } from "./db.js";
-import { loadAttributes, queryRoster, rosterStatus, type RosterQuery, type RosterRow } from "./query.js";
+import { latestSeason, loadAttributes, queryRoster, rosterStatus, type RosterQuery, type RosterRow } from "./query.js";
 import { seedRoster } from "./seed.js";
 
 interface Flags {
@@ -44,9 +45,12 @@ function usage(): string {
   return [
     "Gridiron roster database (derived; locks stay authoritative)",
     "",
-    "  npm run roster:seed   [-- --db path] [--season 2026] [--root .]",
-    "  npm run roster:status [-- --db path] [--json]",
-    "  npm run roster:query  [-- --team PHI --position WR]",
+    "  npm run roster:seed     [-- --db path] [--season 2026] [--root .]",
+    "  npm run roster:import   [-- --db path] [--root .]",
+    "  npm run roster:status   [-- --db path] [--json]",
+    "  npm run roster:cap      [-- --team PHI] [--season 2026] [--rule in_season|top51] [--json]",
+    "  npm run roster:contract [-- --player \"Jalen Hurts\"] [--json]",
+    "  npm run roster:query    [-- --team PHI --position WR]",
     "                        [-- --position WR --top10] [--attrs] [--json]",
     "                        [-- --min-ovr 90] [--name Smith] [--status active|IR|PS|FA|other|on-roster|all]",
     "",
@@ -68,6 +72,9 @@ function printStatus(status: ReturnType<typeof rosterStatus>, asJson: boolean): 
   console.log(`schema ${status.schema_version}  season ${status.season}  seeded ${status.seeded_at}`);
   console.log(`teams ${status.teams}  players ${status.players}  memberships ${status.memberships}`);
   console.log(`rating_cards ${status.rating_cards}  attributes ${status.attribute_rows}  positions ${status.positions}`);
+  const capText = status.league_cap == null ? "no league cap loaded" : money(status.league_cap);
+  console.log(`contracts ${status.contracts}  contract_years ${status.contract_years}  teams_with_contracts ${status.teams_with_contracts}`);
+  console.log(`cap_seasons ${status.cap_seasons}  league_cap ${capText}  rule ${status.accounting_rule ?? "-"}`);
   console.log(`warnings ${status.warnings}  top10_without_team ${status.top10_without_team}`);
   if (Object.keys(status.warning_counts).length) {
     console.log(Object.entries(status.warning_counts).map(([code, n]) => `${code}=${n}`).join("  "));
@@ -142,6 +149,7 @@ export function main(argv: string[]): number {
       console.log(`seeded ${file}`);
       console.log(`season ${result.season}  teams ${result.teams}  players ${result.players}  memberships ${result.memberships}`);
       console.log(`rating_cards ${result.rating_cards}  attributes ${result.attribute_rows}  positions ${result.positions}  warnings ${result.warnings.length}`);
+      console.log(`contracts ${result.contracts}  contract_years ${result.contract_years}`);
       return 0;
     } finally {
       db.close();
@@ -153,6 +161,19 @@ export function main(argv: string[]): number {
   }
   const db = openRosterDb(file);
   try {
+    migrate(db);
+    if (command === "import") {
+      db.exec("BEGIN IMMEDIATE");
+      try {
+        const result = importContractSnapshot(db, { root });
+        db.exec("COMMIT");
+        console.log(`imported contracts ${result.contracts}  years ${result.contractYears}  cap_seasons ${result.capSeasons}  warnings ${result.warnings.length}`);
+        return 0;
+      } catch (error) {
+        db.exec("ROLLBACK");
+        throw error;
+      }
+    }
     if (command === "status") {
       printStatus(rosterStatus(db), flags.json === true);
       return 0;
@@ -191,10 +212,79 @@ export function main(argv: string[]): number {
       printRows(rows, flags.json === true);
       return 0;
     }
+    if (command === "cap") {
+      const team = flagString(flags, "team");
+      if (!team) throw new Error("--team is required\n" + usage());
+      const seasonFlag = flagString(flags, "season");
+      const season = seasonFlag ? Number(seasonFlag) : latestSeason(db);
+      const requested = flagString(flags, "rule");
+      if (requested && requested !== "in_season" && requested !== "top51") {
+        throw new Error("--rule must be in_season or top51");
+      }
+      const rule = requested === "top51" || requested === "in_season"
+        ? requested
+        : defaultAccountingRule(db, season);
+      const sheet = loadCapSheet(db, team, season, rule);
+      if (flags.json === true) {
+        console.log(JSON.stringify({ team: team.toUpperCase(), season, ...sheet }, null, 2));
+        return 0;
+      }
+      console.log(`${team.toUpperCase()} ${season}  ${sheet.rule}`);
+      console.log(`league cap ${money(sheet.leagueCap)}  carryover ${money(sheet.carryover)}  adjustments ${money(sheet.adjustments)}`);
+      console.log(`committed ${money(sheet.committed)}  dead ${money(sheet.deadMoney)}  cap space ${money(sheet.capSpace)}`);
+      console.log("Counted");
+      for (const line of sheet.counted) console.log(`  ${line.playerName}  ${money(line.amount)}  ${line.reason}`);
+      if (!sheet.counted.length) console.log("  none");
+      if (sheet.dead.length) {
+        console.log("Dead money");
+        for (const line of sheet.dead) console.log(`  ${line.playerName}  ${money(line.amount)}  ${line.reason}`);
+      }
+      if (sheet.excluded.length) {
+        console.log("Excluded");
+        for (const line of sheet.excluded) console.log(`  ${line.playerName}  ${money(line.amount)}  ${line.reason}`);
+      }
+      return 0;
+    }
+    if (command === "contract") {
+      const player = flagString(flags, "player");
+      if (!player) throw new Error("--player is required\n" + usage());
+      const seasonFlag = flagString(flags, "season");
+      const season = seasonFlag ? Number(seasonFlag) : latestSeason(db);
+      const deals = findPlayerContracts(db, player, season);
+      if (!deals.length) {
+        console.log(`no imported contract for ${player}`);
+        return 0;
+      }
+      if (flags.json === true) {
+        console.log(JSON.stringify(deals, null, 2));
+        return 0;
+      }
+      for (const deal of deals) {
+        console.log(`${deal.player_name}  ${deal.team_abbr}  ${deal.position ?? "-"}  OVR ${deal.ovr ?? "-"}  age ${deal.age ?? "-"}`);
+        console.log(`id ${deal.contract_id}  signed ${deal.signing_year}  years ${deal.years ?? "-"}  total ${money(deal.total_value)}  AAV ${money(deal.aav)}`);
+        console.log(`guarantees signing ${money(deal.guarantee_signing)}  roster ${money(deal.guarantee_roster)}  injury ${money(deal.guarantee_injury)}  other ${money(deal.guarantee_other)}  full ${money(deal.fully_guaranteed)}`);
+        if (deal.source_name || deal.source_url) console.log(`source ${deal.source_name ?? ""} ${deal.source_url ?? ""}`.trim());
+        for (const year of deal.seasons) {
+          const marks = [
+            year.void_year ? "void" : "",
+            year.team_option ? "team-option" : "",
+            year.player_option ? "player-option" : ""
+          ].filter(Boolean).join(" ");
+          console.log(`  ${year.season}  cap ${money(year.cap_hit)}  dead ${money(year.dead_money)}  base ${money(year.base_salary)} ${marks}`.trim());
+        }
+      }
+      return 0;
+    }
     throw new Error(`Unknown command ${command}\n${usage()}`);
   } finally {
     db.close();
   }
+}
+
+function money(value: number | null | undefined): string {
+  if (value === null || value === undefined) return "-";
+  const sign = value < 0 ? "-" : "";
+  return `${sign}$${Math.abs(value).toLocaleString("en-US")}`;
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) {

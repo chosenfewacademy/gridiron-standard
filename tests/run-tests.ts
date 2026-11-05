@@ -16,6 +16,7 @@ import { runRosterRefreshTests, runStageEngineTests, runCoverageGateTests } from
 import { runReauditTests } from "./reaudit-tests.js";
 import { runMaddenOvrTests } from "./madden-ovr-tests.js";
 import { runRosterDbTests } from "./roster-db-tests.js";
+import { runRosterCapTests } from "./roster-cap-tests.js";
 import { runWeeklyUpdateTests } from "./weekly-update-tests.js";
 import { runStrictnessTests, runPositionArchitectureTests } from "./strictness-tests.js";
 
@@ -122,3 +123,4 @@ await runResumableEvidenceTests();
 await runOpenAIResponsesTransportTests();
 await runMaddenOvrTests();
 runRosterDbTests(test);
+runRosterCapTests(test);
