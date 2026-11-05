@@ -183,6 +183,34 @@ export function handleRosterRequest(
         teams_with_contracts: status.teams_with_contracts
       });
     }
+    if (pathname === "/api/depth") {
+      const team = canonicalTeam(query.get("team"));
+      if (!team) return json(400, { error: "team is required" });
+      const table = db.prepare(
+        "SELECT 1 AS ok FROM sqlite_master WHERE type = 'table' AND name = 'depth_chart'"
+      ).get() as { ok: number } | undefined;
+      if (!table) return json(200, []);
+      const slots = db.prepare(`
+        SELECT
+          d.pos_abb AS position,
+          d.pos_rank AS rank,
+          d.player_name AS player_name,
+          d.player_id AS player_id,
+          c.ovr AS ovr,
+          c.position AS card_position
+        FROM depth_chart d
+        LEFT JOIN rating_cards c ON c.card_id = (
+          SELECT card_id FROM rating_cards
+          WHERE player_id = d.player_id
+            AND (position = d.pos_abb OR player_name = d.player_name)
+          ORDER BY CASE WHEN position = d.pos_abb THEN 0 ELSE 1 END
+          LIMIT 1
+        )
+        WHERE d.team_abbr = ?
+        ORDER BY d.pos_abb, d.pos_rank
+      `).all(team);
+      return json(200, slots);
+    }
     if (pathname === "/api/roster") {
       const team = query.get("team");
       if (!team) return json(400, { error: "team is required" });

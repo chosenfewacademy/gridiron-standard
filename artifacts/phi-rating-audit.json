@@ -1,0 +1,1584 @@
+{
+ "rating_standard": "Gridiron Standard",
+ "not_ea_official": true,
+ "coverage": 46,
+ "unique_players": 46,
+ "fb_on_phi_depth": false,
+ "ls_player": "Rocco Underwood",
+ "byron_young": {
+  "phi_card": "PHI_AUDIT:DT:nfl_00-0038978",
+  "phi_gsis": "00-0038978",
+  "rams_card_unchanged": "LEDGE:LEDGE_REAUDIT_RATE_07_A2",
+  "rams_gsis": "00-0039137"
+ },
+ "nolan_smith_alias": {
+  "card_player_name": "Nolan Smith Jr.",
+  "roster_full_name": "Nolan Smith"
+ },
+ "starter_qb": "Joe Milton III",
+ "cooper_dejean": {
+  "position": "SS",
+  "overall": 73,
+  "unchanged": true
+ },
+ "lane_johnson_on_depth": false,
+ "rt1": "Markel Bell",
+ "phi_cap_unchanged": true,
+ "style_flags": [],
+ "calculator": {
+  "source": "config/madden-ovr-weights.estimated.json",
+  "verified": false,
+  "policy": "config/madden-ovr-weights.estimated.json is an unverified pre-check (docs/addendum-2026-11-03-madden-ovr-validation.md). It is not evidence that a Gridiron Standard card reproduces its overall in Madden 27. In-game logs in data/ingame-validation are the ground truth and have no entries. Traits were not forced.",
+  "gaps": [
+   {
+    "player": "Joe Milton III",
+    "position": "QB",
+    "overall": 64,
+    "estimated_ovr": 53,
+    "gap": -11,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "QB_StrongArm",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Tanner McKee",
+    "position": "QB",
+    "overall": 66,
+    "estimated_ovr": 57,
+    "gap": -9,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "QB_StrongArm",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Cole Payton",
+    "position": "QB",
+    "overall": 60,
+    "estimated_ovr": 54,
+    "gap": -6,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "QB_Scrambler",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Saquon Barkley",
+    "position": "RB",
+    "overall": 76,
+    "estimated_ovr": 78,
+    "gap": 2,
+    "flag": "MINOR_GAP",
+    "best_archetype": "HB_ElusiveBack",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Jaydon Blue",
+    "position": "RB",
+    "overall": 62,
+    "estimated_ovr": 60,
+    "gap": -2,
+    "flag": "MINOR_GAP",
+    "best_archetype": "HB_ReceivingBack",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Will Shipley",
+    "position": "RB",
+    "overall": 61,
+    "estimated_ovr": 59,
+    "gap": -2,
+    "flag": "MINOR_GAP",
+    "best_archetype": "HB_ElusiveBack",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "DeVonta Smith",
+    "position": "WR",
+    "overall": 77,
+    "estimated_ovr": 84,
+    "gap": 7,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "WR_RouteRunner",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Makai Lemon",
+    "position": "WR",
+    "overall": 70,
+    "estimated_ovr": 67,
+    "gap": -3,
+    "flag": "MINOR_GAP",
+    "best_archetype": "WR_DeepThreat",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Darius Cooper",
+    "position": "WR",
+    "overall": 64,
+    "estimated_ovr": 57,
+    "gap": -7,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "WR_Slot",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Dallas Goedert",
+    "position": "TE",
+    "overall": 77,
+    "estimated_ovr": 98,
+    "gap": 21,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "TE_Blocking",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Eli Stowers",
+    "position": "TE",
+    "overall": 64,
+    "estimated_ovr": 68,
+    "gap": 4,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "TE_VerticalThreat",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Johnny Mundt",
+    "position": "TE",
+    "overall": 62,
+    "estimated_ovr": 83,
+    "gap": 21,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "TE_Blocking",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Grant Calcaterra",
+    "position": "TE",
+    "overall": 60,
+    "estimated_ovr": 64,
+    "gap": 4,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "TE_Blocking",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Jordan Mailata",
+    "position": "LT",
+    "overall": 88,
+    "estimated_ovr": 90,
+    "gap": 2,
+    "flag": "MINOR_GAP",
+    "best_archetype": "OT_Power",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Markel Bell",
+    "position": "RT",
+    "overall": 66,
+    "estimated_ovr": 63,
+    "gap": -3,
+    "flag": "MINOR_GAP",
+    "best_archetype": "OT_Power",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Landon Dickerson",
+    "position": "LG",
+    "overall": 71,
+    "estimated_ovr": 78,
+    "gap": 7,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "G_Power",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Willie Lampkin",
+    "position": "LG",
+    "overall": 62,
+    "estimated_ovr": 56,
+    "gap": -6,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "G_Agile",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Drew Kendall",
+    "position": "C",
+    "overall": 68,
+    "estimated_ovr": 64,
+    "gap": -4,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "C_Power",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Jake Majors",
+    "position": "C",
+    "overall": 58,
+    "estimated_ovr": 49,
+    "gap": -9,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "C_Power",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Tyler Steen",
+    "position": "RG",
+    "overall": 70,
+    "estimated_ovr": 73,
+    "gap": 3,
+    "flag": "MINOR_GAP",
+    "best_archetype": "G_Power",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Micah Morris",
+    "position": "RG",
+    "overall": 55,
+    "estimated_ovr": 52,
+    "gap": -3,
+    "flag": "MINOR_GAP",
+    "best_archetype": "G_Power",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Nolan Smith Jr.",
+    "position": "LEDGE",
+    "overall": 74,
+    "estimated_ovr": 81,
+    "gap": 7,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "OLB_SpeedRusher",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Arnold Ebiketie",
+    "position": "LEDGE",
+    "overall": 68,
+    "estimated_ovr": 75,
+    "gap": 7,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "OLB_SpeedRusher",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Jonathan Greenard",
+    "position": "REDGE",
+    "overall": 74,
+    "estimated_ovr": 76,
+    "gap": 2,
+    "flag": "MINOR_GAP",
+    "best_archetype": "OLB_PowerRusher",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Jalyx Hunt",
+    "position": "REDGE",
+    "overall": 67,
+    "estimated_ovr": 72,
+    "gap": 5,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "OLB_SpeedRusher",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Jalen Carter",
+    "position": "DT",
+    "overall": 76,
+    "estimated_ovr": 78,
+    "gap": 2,
+    "flag": "MINOR_GAP",
+    "best_archetype": "DT_PowerRusher",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Jordan Davis",
+    "position": "DT",
+    "overall": 73,
+    "estimated_ovr": 79,
+    "gap": 6,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "DT_RunStopper",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Jihaad Campbell",
+    "position": "MIKE",
+    "overall": 72,
+    "estimated_ovr": 74,
+    "gap": 2,
+    "flag": "MINOR_GAP",
+    "best_archetype": "MLB_PassCoverage",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Smael Mondon Jr.",
+    "position": "WILL",
+    "overall": 64,
+    "estimated_ovr": 67,
+    "gap": 3,
+    "flag": "MINOR_GAP",
+    "best_archetype": "OLB_SpeedRusher",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Quinyon Mitchell",
+    "position": "CB",
+    "overall": 80,
+    "estimated_ovr": 88,
+    "gap": 8,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "CB_Slot",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Kenny Moore II",
+    "position": "CB",
+    "overall": 72,
+    "estimated_ovr": 79,
+    "gap": 7,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "CB_Slot",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Jonathan Jones",
+    "position": "CB",
+    "overall": 70,
+    "estimated_ovr": 75,
+    "gap": 5,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "CB_Slot",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Andrew Mukuba",
+    "position": "FS",
+    "overall": 70,
+    "estimated_ovr": 72,
+    "gap": 2,
+    "flag": "MINOR_GAP",
+    "best_archetype": "S_Zone",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Cooper DeJean",
+    "position": "SS",
+    "overall": 73,
+    "estimated_ovr": 82,
+    "gap": 9,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "S_Hybrid",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Jake Elliott",
+    "position": "K",
+    "overall": 73,
+    "estimated_ovr": 83,
+    "gap": 10,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "KP_Accurate",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Braden Mann",
+    "position": "P",
+    "overall": 74,
+    "estimated_ovr": 81,
+    "gap": 7,
+    "flag": "MAJOR_GAP",
+    "best_archetype": "KP_Power",
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   },
+   {
+    "player": "Rocco Underwood",
+    "position": "LS",
+    "overall": 64,
+    "estimated_ovr": null,
+    "gap": null,
+    "flag": "NO_ESTIMATE",
+    "best_archetype": null,
+    "resolution": "The unverified estimated formula cannot validate the in-game Madden 27 overall. The stated overall and the attributes were not changed to force a match. This gap does not mean the Madden 27 reproduction requirement has been met."
+   }
+  ],
+  "flag_counts": {
+   "MAJOR_GAP": 23,
+   "MINOR_GAP": 13,
+   "OK": 9,
+   "NO_ESTIMATE": 1
+  },
+  "madden_order_verified": false,
+  "in_game_requirement_met": false
+ },
+ "rows": [
+  {
+   "player": "Joe Milton III",
+   "team": "PHI",
+   "position": "QB",
+   "overall": 64,
+   "card_id": "PHI_AUDIT:QB:ext_00-0039398",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Cannon-arm developmental starter: throw power is the carried trait, 2025 accuracy and turnovers are not, and the frame can run some.",
+   "basis": "Preserved AWR 62, THP 92, SAC 64. 2025 DAL 15/24, 183 yards, 1 TD, 2 INT, 50 rush yards, PFF 52.7; 2024 NE 22/29, 241 yards, 1 TD, 0 INT. 6-5, 235. Missing traits sit with the low accuracy anchor, not the earlier team-room SAC 74 / THP 97. SPD 82 is the prior team-room band for a 4.6-range athlete, which this card did not override.",
+   "estimated_ovr": 53,
+   "best_archetype": "QB_StrongArm",
+   "gap": -11,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "AWR",
+    "SAC",
+    "THP"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Tanner McKee",
+   "team": "PHI",
+   "position": "QB",
+   "overall": 66,
+   "card_id": "PHI_AUDIT:QB:tanner_mckee",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Tall rhythm backup: timing and ball protection ahead of escape, and the card's accuracy sits below the earlier team-room figure.",
+   "basis": "Preserved AWR 68, THP 84, SAC 72 (the current card is stricter than research-inbox/teams/PHI/QB/tanner_mckee.json SAC 80). 2024 PHI 30/45, 4 TD, 0 INT; 2025 PHI 24/43, 1 TD, 1 INT, PFF 61.2. Team-room 2026 note: pressured EPA -1.14 and a 1.3% turnover-worthy rate, so BSK stays poor and TUP does not. 6-6, 230. No new 90.",
+   "estimated_ovr": 57,
+   "best_archetype": "QB_StrongArm",
+   "gap": -9,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "AWR",
+    "SAC",
+    "THP"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Cole Payton",
+   "team": "PHI",
+   "position": "QB",
+   "overall": 60,
+   "card_id": "PHI_AUDIT:QB:cole_payton",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Rookie dual-threat with no NFL snaps: college production is context, not an NFL grade, and the run traits lead the passing traits.",
+   "basis": "Rookie shrink. Preserved AWR 58 and THP 80. College PFF 95.9 is an FCS grade and is not copied onto any trait. Repo team-room file cites 2025 NDSU 161/224, 16 TD/4 INT, 136 carries for 777 yards, and a 4.56 forty at 232 pounds, plus a high college sack rate. Athleticism follows that file; accuracy stays under the preserved arm and awareness.",
+   "estimated_ovr": 54,
+   "best_archetype": "QB_Scrambler",
+   "gap": -6,
+   "calculator_missing": [
+    "BCV"
+   ],
+   "preserved_attributes": [
+    "AWR",
+    "THP"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Saquon Barkley",
+   "team": "PHI",
+   "position": "RB",
+   "overall": 76,
+   "card_id": "PHI_AUDIT:RB:saquon_barkley",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Feature back whose speed, burst, and ball security are still on the card, with receiving and availability as the lesser traits.",
+   "basis": "Preserved SPD 89, ACC 88, CAR 88, BCV 80, INJ 66. Missing traits taken from the approved team-room revision research-inbox/teams/PHI/RB/saquon_barkley.revision-A2-t52s464.json, which matches those anchors. That revision set INJ 78; the current card still stores 66, so 66 stays. 2023-25 packet: 2005 yards in 2024, 1140 and PFF 67.9 in 2025. No new 90.",
+   "estimated_ovr": 78,
+   "best_archetype": "HB_ElusiveBack",
+   "gap": 2,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "ACC",
+    "BCV",
+    "CAR",
+    "INJ",
+    "SPD"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MINOR_GAP"
+  },
+  {
+   "player": "Jaydon Blue",
+   "team": "PHI",
+   "position": "RB",
+   "overall": 62,
+   "card_id": "PHI_AUDIT:RB:ext_00-0040586",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Undersized speed back: the carried 90 speed and acceleration are not matched by power or vision.",
+   "basis": "Preserved SPD 90 and ACC 90. The team-room file had 93/93; those were not copied. Other traits follow research-inbox/teams/PHI/RB/jaydon_blue.json (5-9, 200; 2025 DAL 38 carries, 3.39 yards per carry, stuff rate 39.5%, PFF 56.9). No additional 90.",
+   "estimated_ovr": 60,
+   "best_archetype": "HB_ReceivingBack",
+   "gap": -2,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "ACC",
+    "SPD"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MINOR_GAP"
+  },
+  {
+   "player": "Will Shipley",
+   "team": "PHI",
+   "position": "RB",
+   "overall": 61,
+   "card_id": "PHI_AUDIT:RB:will_shipley",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Change-of-pace and special-teams back: quick feet and check-down hands, not a power runner, with a reserve injury tag.",
+   "basis": "Preserved SPD 88 and CTH 72. The team-room file had SPD 84 and CTH 70; the current card is higher and wins. ACC set level with the preserved speed. Other traits follow research-inbox/teams/PHI/RB/will_shipley.json. Packet: 2024 30 carries, 82 yards; 2025 14 carries, 49 yards; PFF 54.9. Roster status RES.",
+   "estimated_ovr": 59,
+   "best_archetype": "HB_ElusiveBack",
+   "gap": -2,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "CTH",
+    "SPD"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MINOR_GAP"
+  },
+  {
+   "player": "DeVonta Smith",
+   "team": "PHI",
+   "position": "WR",
+   "overall": 77,
+   "card_id": "WR:WR_REAUDIT_RATE_13_A2",
+   "action": "UNCHANGED_LOCKED_OR_COMPLETE",
+   "rating_standard": "Gridiron Standard",
+   "estimated_ovr": 84,
+   "best_archetype": "WR_RouteRunner",
+   "gap": 7,
+   "note": "Complete card left unchanged. Gridiron Standard audit, not an EA rating.",
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Dontayvion Wicks",
+   "team": "PHI",
+   "position": "WR",
+   "overall": 72,
+   "card_id": "PHI_AUDIT:WR:dontayvion_wicks",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Contested and jump-ball receiver whose catch traits lead his route traits, on a modest target volume.",
+   "basis": "Preserved SPD 86, CTH 84, CIT 86, JMP 88. Packet: 2023 GB 39/581/4, 2024 39/415/5, 2025 30/332/2, PFF 70.2. 6-1, 208. CIT already above CTH, so the profile stays contested rather than separator. No new 90.",
+   "estimated_ovr": 72,
+   "best_archetype": "WR_DeepThreat",
+   "gap": 0,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "CIT",
+    "CTH",
+    "JMP",
+    "SPD"
+   ],
+   "removed_not_applicable": [],
+   "flag": "OK"
+  },
+  {
+   "player": "Makai Lemon",
+   "team": "PHI",
+   "position": "WR",
+   "overall": 70,
+   "card_id": "PHI_AUDIT:WR:makai_lemon",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Rookie separator with no NFL snaps: burst and agility lead, play strength and awareness do not, and the college grade is not an NFL trait.",
+   "basis": "Rookie shrink. Preserved SPD 88, ACC 90, AGI 88, CTH 78. College PFF 90.8 is not copied. 5-11, 192. Routes sit under the athletic traits. ACC 90 was already on the card and is not a new elite trait from the college grade.",
+   "estimated_ovr": 67,
+   "best_archetype": "WR_DeepThreat",
+   "gap": -3,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "ACC",
+    "AGI",
+    "CTH",
+    "SPD"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MINOR_GAP"
+  },
+  {
+   "player": "Darius Cooper",
+   "team": "PHI",
+   "position": "WR",
+   "overall": 64,
+   "card_id": "PHI_AUDIT:WR:darius_cooper",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Low-volume depth receiver: enough speed to be on the card, without a route or contested-catch specialty yet.",
+   "basis": "Preserved SPD 86 and CTH 74. Packet: 2025 PHI 6 games, 9 catches, 92 yards, PFF 61.0. 5-11, 210, one NFL season. Traits cluster with that volume. No 90.",
+   "estimated_ovr": 57,
+   "best_archetype": "WR_Slot",
+   "gap": -7,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "CTH",
+    "SPD"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Dallas Goedert",
+   "team": "PHI",
+   "position": "TE",
+   "overall": 77,
+   "card_id": "TE:TE_REAUDIT_RATE_14_A3",
+   "action": "UNCHANGED_LOCKED_OR_COMPLETE",
+   "rating_standard": "Gridiron Standard",
+   "estimated_ovr": 98,
+   "best_archetype": "TE_Blocking",
+   "gap": 21,
+   "note": "Complete card left unchanged. Gridiron Standard audit, not an EA rating.",
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Eli Stowers",
+   "team": "PHI",
+   "position": "TE",
+   "overall": 64,
+   "card_id": "PHI_AUDIT:TE:eli_stowers",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Rookie receiving tight end: speed and hands lead, blocking is unproven, and the college grade is not an NFL grade.",
+   "basis": "Rookie shrink. Preserved SPD 84 and CTH 76. College PFF 81.6 is not copied. No NFL regular-season line. 6-4, 239. Blocking traits stay below the receiving traits.",
+   "estimated_ovr": 68,
+   "best_archetype": "TE_VerticalThreat",
+   "gap": 4,
+   "calculator_missing": [
+    "BCV",
+    "SFA"
+   ],
+   "preserved_attributes": [
+    "CTH",
+    "SPD"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Johnny Mundt",
+   "team": "PHI",
+   "position": "TE",
+   "overall": 62,
+   "card_id": "PHI_AUDIT:TE:johnny_mundt",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Veteran inline tight end: run blocking and strength are the card, receiving volume is not.",
+   "basis": "Preserved STR 78, CTH 70, RBK 78. Packet: 2023 MIN 17/172/1, 2024 19/142/2, 2025 JAX 9/111/0, PFF 59.6. 6-4, 245, 9 years. Routes and speed stay under the blocking traits.",
+   "estimated_ovr": 83,
+   "best_archetype": "TE_Blocking",
+   "gap": 21,
+   "calculator_missing": [
+    "SFA"
+   ],
+   "preserved_attributes": [
+    "CTH",
+    "RBK",
+    "STR"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Grant Calcaterra",
+   "team": "PHI",
+   "position": "TE",
+   "overall": 60,
+   "card_id": "PHI_AUDIT:TE:grant_calcaterra",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Depth receiving tight end: ordinary hands, light blocking, and a low 2025 grade on a small target count.",
+   "basis": "Preserved CTH 72. Packet: 2024 24/298/1, 2025 9 games, 9/76/1, PFF 50.5. 6-4, 240. Blocking stays under the catch trait. INJ 70 reflects 3 games in 2023 and 9 in 2025, not a named diagnosis.",
+   "estimated_ovr": 64,
+   "best_archetype": "TE_Blocking",
+   "gap": 4,
+   "calculator_missing": [
+    "SFA"
+   ],
+   "preserved_attributes": [
+    "CTH"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Jordan Mailata",
+   "team": "PHI",
+   "position": "LT",
+   "overall": 88,
+   "card_id": "LT:LT_REAUDIT_RATE_03_A2",
+   "action": "UNCHANGED_LOCKED_OR_COMPLETE",
+   "rating_standard": "Gridiron Standard",
+   "estimated_ovr": 90,
+   "best_archetype": "OT_Power",
+   "gap": 2,
+   "note": "Complete card left unchanged. Gridiron Standard audit, not an EA rating.",
+   "flag": "MINOR_GAP"
+  },
+  {
+   "player": "Fred Johnson",
+   "team": "PHI",
+   "position": "LT",
+   "overall": 68,
+   "card_id": "PHI_AUDIT:LT:fred_johnson",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Veteran swing tackle: size and experience ahead of feet, pass protection a shade over run blocking. Also listed at RG and RT on the depth chart; this is the one LT card.",
+   "basis": "Preserved STR 84, PBK 74, RBK 72. Packet: 2025 PFF 58.9, 626 offensive snaps; 2024 481; 2023 35. 6-7, 326, 7 years, 17 games in each of 2023-25. Splits stay next to the preserved blocking grades. No 90.",
+   "estimated_ovr": 68,
+   "best_archetype": "OT_Power",
+   "gap": 0,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "PBK",
+    "RBK",
+    "STR"
+   ],
+   "removed_not_applicable": [],
+   "flag": "OK"
+  },
+  {
+   "player": "Markel Bell",
+   "team": "PHI",
+   "position": "RT",
+   "overall": 66,
+   "card_id": "PHI_AUDIT:RT:ext_00-0041554",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Rookie right tackle with no NFL snaps: mass and a slight run lean, not feet or recognition. College grade is not an NFL grade. Also the third left tackle on the depth chart.",
+   "basis": "Rookie shrink. Preserved STR 84, PBK 70, RBK 72. College PFF 70.3 is not copied. No NFL snaps. 6-9, 346. Anchor traits sit above the foot traits. No 90.",
+   "estimated_ovr": 63,
+   "best_archetype": "OT_Power",
+   "gap": -3,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "PBK",
+    "RBK",
+    "STR"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MINOR_GAP"
+  },
+  {
+   "player": "Landon Dickerson",
+   "team": "PHI",
+   "position": "LG",
+   "overall": 71,
+   "card_id": "PHI_AUDIT:LG:ext_00-0037002",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Power run guard: the carried strength and run-block grades lead the pass-protection grades.",
+   "basis": "Preserved STR 92, AWR 78, PBK 76, RBK 84. Packet: PFF 67.8; offensive snaps 1046, 996, then 836. 6-6, 332. Run splits stay above pass splits. STR 92 was already on the card. No new 90. INJ 78 is the snap trend, not a named injury.",
+   "estimated_ovr": 78,
+   "best_archetype": "G_Power",
+   "gap": 7,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "AWR",
+    "PBK",
+    "RBK",
+    "STR"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Willie Lampkin",
+   "team": "PHI",
+   "position": "LG",
+   "overall": 62,
+   "card_id": "PHI_AUDIT:LG:ext_00-0040631",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "LOW",
+   "style_profile": "Gridiron Standard. Undersized depth guard: preserved agility and a modest pass-block grade, with no public grade and no NFL stat line. Anchor stays under the feet.",
+   "basis": "Preserved AGI 78 and PBK 68. No PFF grade and no 2023-25 stat line. 5-11, 290. Other traits are a role band around overall 62, with feet above anchor. LOW sample. No 90.",
+   "estimated_ovr": 56,
+   "best_archetype": "G_Agile",
+   "gap": -6,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "AGI",
+    "PBK"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Drew Kendall",
+   "team": "PHI",
+   "position": "C",
+   "overall": 68,
+   "card_id": "PHI_AUDIT:C:ext_00-0040587",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Small-sample center: preserved awareness and a slight pass-protection lean, on 89 offensive snaps.",
+   "basis": "Preserved AWR 74, PBK 72, RBK 70. Packet: 2025 7 games, 89 offensive snaps, PFF 61.8. 6-4, 308. Pass splits stay next to PBK 72 and run splits next to RBK 70. STR 80 is a size band, not a measured bench. No 90.",
+   "estimated_ovr": 64,
+   "best_archetype": "C_Power",
+   "gap": -4,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "AWR",
+    "PBK",
+    "RBK"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Jake Majors",
+   "team": "PHI",
+   "position": "C",
+   "overall": 58,
+   "card_id": "PHI_AUDIT:C:ext_00-0040422",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "LOW",
+   "style_profile": "Gridiron Standard. Deep backup center with no public grade and no NFL stat line. The preserved pass-block grade is ordinary, and the rest sits under Drew Kendall.",
+   "basis": "Preserved PBK 64. No PFF grade and no 2023-25 stat line. 6-3, 306. Other traits are a role band around overall 58, at or under that pass-block grade and under Kendall. LOW sample. No 90.",
+   "estimated_ovr": 49,
+   "best_archetype": "C_Power",
+   "gap": -9,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "PBK"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Tyler Steen",
+   "team": "PHI",
+   "position": "RG",
+   "overall": 70,
+   "card_id": "PHI_AUDIT:RG:ext_00-0039001",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Full-time right guard whose 2025 snap count and grade lead the interior backups, without an elite trait.",
+   "basis": "Preserved STR 86, AWR 74, PBK 76, RBK 78. Packet: 2025 PFF 73.3 and 1009 offensive snaps after 316 and 71 in the prior two years. 6-6, 321. 17 games in 2024 and 2025. Splits stay next to the preserved grades. No 90.",
+   "estimated_ovr": 73,
+   "best_archetype": "G_Power",
+   "gap": 3,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "AWR",
+    "PBK",
+    "RBK",
+    "STR"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MINOR_GAP"
+  },
+  {
+   "player": "Micah Morris",
+   "team": "PHI",
+   "position": "RG",
+   "overall": 55,
+   "card_id": "PHI_AUDIT:RG:ext_00-0040897",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Rookie heavy guard with no NFL snaps: mass over feet, and the college grade is not an NFL blocking grade.",
+   "basis": "Rookie shrink. Preserved STR 80 only. College PFF 73.1 is not copied onto a blocking grade. PBK 60 and RBK 62 are new role bands under that strength, not prior card values. 6-5, 334. Feet well below the anchor. No 90.",
+   "estimated_ovr": 52,
+   "best_archetype": "G_Power",
+   "gap": -3,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "STR"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MINOR_GAP"
+  },
+  {
+   "player": "Nolan Smith Jr.",
+   "team": "PHI",
+   "position": "LEDGE",
+   "overall": 74,
+   "card_id": "PHI_AUDIT:LEDGE:ext_00-0039013",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Speed rusher: the carried burst and finesse lead, power and block-shed do not. Card name Nolan Smith is the same player.",
+   "basis": "Preserved SPD 90, ACC 92, PMV 74, FMV 82. Packet under Nolan Smith Jr.: 2024 6.5 sacks, 2025 12 games, 31 tackles, 3 sacks, 11 quarterback hits, PFF 70.4. 6-2, 235. Power traits stay under the finesse traits. No new 90. Alias of Nolan Smith.",
+   "estimated_ovr": 81,
+   "best_archetype": "OLB_SpeedRusher",
+   "gap": 7,
+   "calculator_missing": [
+    "MCV",
+    "ZCV"
+   ],
+   "preserved_attributes": [
+    "ACC",
+    "FMV",
+    "PMV",
+    "SPD"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Arnold Ebiketie",
+   "team": "PHI",
+   "position": "LEDGE",
+   "overall": 68,
+   "card_id": "PHI_AUDIT:LEDGE:ext_00-0038116",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Assignment edge whose grade held up better than his 2025 sack count. Not a power end and not Nolan Smith's athlete.",
+   "basis": "Preserved SPD 86 and FMV 76. Packet: 6 sacks in 2023, 6 in 2024, 2 sacks and 6 quarterback hits in 2025, PFF 74.9. 6-3, 256. Recognition and tackling sit above the sack line. No 90.",
+   "estimated_ovr": 75,
+   "best_archetype": "OLB_SpeedRusher",
+   "gap": 7,
+   "calculator_missing": [
+    "MCV",
+    "ZCV"
+   ],
+   "preserved_attributes": [
+    "FMV",
+    "SPD"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Jonathan Greenard",
+   "team": "PHI",
+   "position": "REDGE",
+   "overall": 74,
+   "card_id": "PHI_AUDIT:REDGE:ext_00-0036224",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Veteran power-and-technique edge: the preserved pass-rush grades lead, speed does not, and 2025 was a sack drop from the prior two years.",
+   "basis": "Preserved STR 84, AWR 78, PMV 82, FMV 80. Packet: 12.5 sacks in 2023, 12 in 2024, 2025 12 games, 3 sacks, 10 tackles for loss, 12 quarterback hits, PFF 74.3. 6-3, 263. No new 90. INJ 74 is the 12-game 2025, not a named injury.",
+   "estimated_ovr": 76,
+   "best_archetype": "OLB_PowerRusher",
+   "gap": 2,
+   "calculator_missing": [
+    "MCV",
+    "ZCV"
+   ],
+   "preserved_attributes": [
+    "AWR",
+    "FMV",
+    "PMV",
+    "STR"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MINOR_GAP"
+  },
+  {
+   "player": "Jalyx Hunt",
+   "team": "PHI",
+   "position": "REDGE",
+   "overall": 67,
+   "card_id": "PHI_AUDIT:REDGE:ext_00-0039740",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Developing speed edge: 2025 pressure volume above the grade, power and recognition behind the pursuit.",
+   "basis": "Preserved SPD 86 and FMV 74. Packet: 2025 17 games, 51 tackles, 6.5 sacks, 9 tackles for loss, 24 quarterback hits, PFF 67.3. 6-3, 252. Pursuit above power. No 90.",
+   "estimated_ovr": 72,
+   "best_archetype": "OLB_SpeedRusher",
+   "gap": 5,
+   "calculator_missing": [
+    "MCV",
+    "ZCV"
+   ],
+   "preserved_attributes": [
+    "FMV",
+    "SPD"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "A.J. Epenesa",
+   "team": "PHI",
+   "position": "REDGE",
+   "overall": 70,
+   "card_id": "PHI_AUDIT:REDGE:ext_00-0036192",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Heavy power end: strength and the preserved power move lead, finesse and speed do not.",
+   "basis": "Preserved STR 86 and PMV 78. Packet: 6.5 and 6 sacks in 2023-24, 2025 2.5 sacks, 2 tackles for loss, 9 quarterback hits, PFF 58.9. 6-6, 280. Finesse stays under the power traits. No 90.",
+   "estimated_ovr": 70,
+   "best_archetype": "OLB_PowerRusher",
+   "gap": 0,
+   "calculator_missing": [
+    "MCV",
+    "ZCV"
+   ],
+   "preserved_attributes": [
+    "PMV",
+    "STR"
+   ],
+   "removed_not_applicable": [],
+   "flag": "OK"
+  },
+  {
+   "player": "Jalen Carter",
+   "team": "PHI",
+   "position": "DT",
+   "overall": 76,
+   "card_id": "PHI_AUDIT:DT:ext_00-0038386",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Explosive interior penetrator: preserved power move, strength, and acceleration lead a down 2025 grade. Not a nose.",
+   "basis": "Preserved ACC 84, STR 90, AWR 78, PMV 86. Packet: 6 sacks as a rookie, 4.5 in 2024, 2025 12 games, 3 sacks, 5 tackles for loss, PFF 55.1. 6-3, 314. The down grade is why recognition and injury stay under the preserved pass-rush traits. STR 90 and PMV 86 were already on the card. No new 90.",
+   "estimated_ovr": 78,
+   "best_archetype": "DT_PowerRusher",
+   "gap": 2,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "ACC",
+    "AWR",
+    "PMV",
+    "STR"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MINOR_GAP"
+  },
+  {
+   "player": "Jordan Davis",
+   "team": "PHI",
+   "position": "DT",
+   "overall": 73,
+   "card_id": "PHI_AUDIT:DT:ext_00-0037073",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Nose: preserved strength and block-shed lead, speed and finesse do not. The 2025 tackle count is the on-field evidence for the run traits.",
+   "basis": "Preserved STR 96, BSH 88, PMV 72. Packet: 2025 17 games, 70 tackles, 4.5 sacks, 9 tackles for loss, PFF 73.9, after lighter 2023-24 tackle counts. 6-6, 336. STR 96 was already on the card. No new 95 or 90. FMV stays well under PMV.",
+   "estimated_ovr": 79,
+   "best_archetype": "DT_RunStopper",
+   "gap": 6,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "BSH",
+    "PMV",
+    "STR"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Moro Ojomo",
+   "team": "PHI",
+   "position": "DT",
+   "overall": 70,
+   "card_id": "PHI_AUDIT:DT:ext_00-0038412",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Interior rusher coming off a 6-sack season: power move leads finesse, and the build is lighter than Jordan Davis.",
+   "basis": "Preserved STR 84 and PMV 78. Packet: 2025 17 games, 38 tackles, 6 sacks, 6 tackles for loss, 12 quarterback hits, PFF 70.6, after little 2023-24 production. 6-3, 292. No 90.",
+   "estimated_ovr": 70,
+   "best_archetype": "DT_PowerRusher",
+   "gap": 0,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "PMV",
+    "STR"
+   ],
+   "removed_not_applicable": [],
+   "flag": "OK"
+  },
+  {
+   "player": "Byron Young",
+   "team": "PHI",
+   "position": "DT",
+   "overall": 61,
+   "card_id": "PHI_AUDIT:DT:nfl_00-0038978",
+   "action": "INSERTED",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "LOW",
+   "style_profile": "Gridiron Standard. Eagles defensive tackle, Alabama, not the Rams edge. Rotational interior with a poor 2025 grade and a modest sack total.",
+   "basis": "New card. There was no PHI DT overall on the depth chart. Judgment overall 61, below Moro Ojomo 70. Packet: 2025 PHI 14 games, 35 tackles, 2.5 sacks, 3 tackles for loss, 4 quarterback hits, PFF 49.5; 2023 LV 3 games, 4 tackles. Repo supplement byron-young-phi-supplement-t46u.json separates gsis 00-0038978 / YounBy00 from the Rams edge 00-0039137. Registry biographical match for this id is 6-3, 292. STR 84 matches that size band and Ojomo's preserved strength, while the rush traits stay lower. No 90. The LEDGE 81 card was not edited.",
+   "estimated_ovr": 61,
+   "best_archetype": "DT_RunStopper",
+   "gap": 0,
+   "calculator_missing": [],
+   "preserved_attributes": [],
+   "removed_not_applicable": [],
+   "flag": "OK"
+  },
+  {
+   "player": "Jihaad Campbell",
+   "team": "PHI",
+   "position": "MIKE",
+   "overall": 72,
+   "card_id": "PHI_AUDIT:MIKE:ext_00-0040708",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Athletic first-year mike: speed and zone tackling lead, pass rush does not.",
+   "basis": "Preserved SPD 88, ACC 88, TAK 78, ZCV 74. Packet: 2025 16 games, 78 tackles, 0 sacks, 2 tackles for loss, 1 INT, 3 passes defensed, PFF 76.2. 6-3, 235. PRS stays low because the sack line is empty. No new 90.",
+   "estimated_ovr": 74,
+   "best_archetype": "MLB_PassCoverage",
+   "gap": 2,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "ACC",
+    "SPD",
+    "TAK",
+    "ZCV"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MINOR_GAP"
+  },
+  {
+   "player": "Jeremiah Trotter Jr.",
+   "team": "PHI",
+   "position": "MIKE",
+   "overall": 68,
+   "card_id": "PHI_AUDIT:MIKE:ext_00-0039826",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Low-snap thumper: tackling and strength lead athleticism. The 2025 grade is not treated as an 82-overall trait because the counting stats are small.",
+   "basis": "Preserved STR 78 and TAK 80. Packet: 2025 13 games, 31 tackles, 0 sacks, 1 tackle for loss, 0 INT, PFF 82.1; 2024 25 tackles. 6-0, 225. Awareness stays under the grade because the tackle count is a limited sample. No 90.",
+   "estimated_ovr": 69,
+   "best_archetype": "MLB_FieldGeneral",
+   "gap": 1,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "STR",
+    "TAK"
+   ],
+   "removed_not_applicable": [],
+   "flag": "OK"
+  },
+  {
+   "player": "Zack Baun",
+   "team": "PHI",
+   "position": "WILL",
+   "overall": 90,
+   "card_id": "WILL:WILL_REAUDIT_RATE_01_A1",
+   "action": "UNCHANGED_LOCKED_OR_COMPLETE",
+   "rating_standard": "Gridiron Standard",
+   "estimated_ovr": 91,
+   "best_archetype": "OLB_PassCoverage",
+   "gap": 1,
+   "note": "Complete card left unchanged. Gridiron Standard audit, not an EA rating.",
+   "flag": "OK"
+  },
+  {
+   "player": "Smael Mondon Jr.",
+   "team": "PHI",
+   "position": "WILL",
+   "overall": 64,
+   "card_id": "PHI_AUDIT:WILL:ext_00-0040013",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Athletic will linebacker whose 2025 grade and production are far below the preserved speed.",
+   "basis": "Preserved SPD 86 and TAK 74. Packet: 2025 8 games, 11 tackles, no sacks, tackles for loss, interceptions, or passes defensed, PFF 34.0. 6-2, 225. Skill traits stay near that grade. No new 90.",
+   "estimated_ovr": 67,
+   "best_archetype": "OLB_SpeedRusher",
+   "gap": 3,
+   "calculator_missing": [
+    "FMV",
+    "PMV"
+   ],
+   "preserved_attributes": [
+    "SPD",
+    "TAK"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MINOR_GAP"
+  },
+  {
+   "player": "Quinyon Mitchell",
+   "team": "PHI",
+   "position": "CB",
+   "overall": 80,
+   "card_id": "CB:CB_REAUDIT_RATE_07_A2",
+   "action": "UNCHANGED_LOCKED_OR_COMPLETE",
+   "rating_standard": "Gridiron Standard",
+   "estimated_ovr": 88,
+   "best_archetype": "CB_Slot",
+   "gap": 8,
+   "note": "Complete card left unchanged. Gridiron Standard audit, not an EA rating.",
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Riq Woolen",
+   "team": "PHI",
+   "position": "CB",
+   "overall": 74,
+   "card_id": "PHI_AUDIT:CB:ext_00-0037079",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Long speed corner: preserved speed and jump lead a down 2025 grade. Agility is not the same trait as that speed. Alias Tariq Woolen.",
+   "basis": "Preserved SPD 92, MCV 78, PRS 76, JMP 90. Packet: 2023-25 interceptions 2, 3, 1 and passes defensed 11, 14, 12; 2025 PFF 59.8. 6-4, 210. ACC stays under 90 because there is no separate acceleration cite. No new 90.",
+   "estimated_ovr": 73,
+   "best_archetype": "CB_MantoMan",
+   "gap": -1,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "JMP",
+    "MCV",
+    "PRS",
+    "SPD"
+   ],
+   "removed_not_applicable": [],
+   "flag": "OK"
+  },
+  {
+   "player": "Kenny Moore II",
+   "team": "PHI",
+   "position": "CB",
+   "overall": 72,
+   "card_id": "PHI_AUDIT:CB:ext_00-0033393",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Veteran slot: preserved agility and zone lead, long speed and press do not, and the tackle line is part of the job.",
+   "basis": "Preserved AGI 86, COD 86, MCV 78, ZCV 80. Packet: 2025 55 tackles, 1.5 sacks, 3 tackles for loss, 1 INT, 6 passes defensed, PFF 66.7, after higher tackle counts in 2023-24. 5-9, 190, 9 years. No 90.",
+   "estimated_ovr": 79,
+   "best_archetype": "CB_Slot",
+   "gap": 7,
+   "calculator_missing": [
+    "BSH"
+   ],
+   "preserved_attributes": [
+    "AGI",
+    "COD",
+    "MCV",
+    "ZCV"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Jonathan Jones",
+   "team": "PHI",
+   "position": "CB",
+   "overall": 70,
+   "card_id": "PHI_AUDIT:CB:ext_00-0032580",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Veteran outside corner: preserved speed and awareness sit above a poor 2025 grade and ordinary ball production.",
+   "basis": "Preserved SPD 88, AWR 84, MCV 76. Packet: 2025 11 games, 41 tackles, 1 sack, 0 INT, 5 passes defensed, PFF 50.9. 5-10, 190, 10 years. Zone and hands stay under the preserved man and awareness grades. No 90.",
+   "estimated_ovr": 75,
+   "best_archetype": "CB_Slot",
+   "gap": 5,
+   "calculator_missing": [
+    "BSH"
+   ],
+   "preserved_attributes": [
+    "AWR",
+    "MCV",
+    "SPD"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Andrew Mukuba",
+   "team": "PHI",
+   "position": "FS",
+   "overall": 70,
+   "card_id": "PHI_AUDIT:FS:ext_00-0040749",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. First-year free safety: preserved speed and a real interception count, with the grade and play strength still modest.",
+   "basis": "Preserved SPD 88, ACC 88, ZCV 76, TAK 74. Packet: 2025 11 games, 43 tackles, 0.5 sacks, 2 tackles for loss, 2 INT, 3 passes defensed, PFF 57.6. 5-11, 186. Ball skills sit above the grade and below an elite trait. No 90.",
+   "estimated_ovr": 72,
+   "best_archetype": "S_Zone",
+   "gap": 2,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "ACC",
+    "SPD",
+    "TAK",
+    "ZCV"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MINOR_GAP"
+  },
+  {
+   "player": "Cooper DeJean",
+   "team": "PHI",
+   "position": "SS",
+   "overall": 73,
+   "card_id": "SS:SS_REAUDIT_RATE_13_A1",
+   "action": "UNCHANGED_LOCKED_OR_COMPLETE",
+   "rating_standard": "Gridiron Standard",
+   "estimated_ovr": 82,
+   "best_archetype": "S_Hybrid",
+   "gap": 9,
+   "note": "Complete card left unchanged. Gridiron Standard audit, not an EA rating.",
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Marcus Epps",
+   "team": "PHI",
+   "position": "SS",
+   "overall": 71,
+   "card_id": "PHI_AUDIT:SS:ext_00-0034993",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Veteran box safety: preserved awareness, zone, and tackling lead speed and man coverage. The 2025 grade is a down year on limited games.",
+   "basis": "Preserved AWR 82, ZCV 76, TAK 80. Packet: 2024 3 games, 2025 9 games, 21 tackles, 0 INT, PFF 51.8. 6-0, 198, 7 years. New traits do not pretend the down year is an athlete prime. No 90.",
+   "estimated_ovr": 72,
+   "best_archetype": "S_Zone",
+   "gap": 1,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "AWR",
+    "TAK",
+    "ZCV"
+   ],
+   "removed_not_applicable": [],
+   "flag": "OK"
+  },
+  {
+   "player": "Jake Elliott",
+   "team": "PHI",
+   "position": "K",
+   "overall": 73,
+   "card_id": "PHI_AUDIT:K:ext_00-0033787",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "PROPOSED",
+   "style_profile": "Gridiron Standard. Veteran kicker: preserved accuracy and power stay, including through a down 2025 field-goal year. Availability is ordinary for a kicker who played every week, not a new 90.",
+   "basis": "Preserved KPW 84, KAC 88, AWR 80. Packet: 2023 30/32, long 61; 2024 28/36, long 50; 2025 20/27, long 58, XP 41/42, PFF 57.4. 17 games each year. The accuracy trait was already on the card and was not cut to chase the estimated kicker formula. No new 90.",
+   "estimated_ovr": 83,
+   "best_archetype": "KP_Accurate",
+   "gap": 10,
+   "calculator_missing": [],
+   "preserved_attributes": [
+    "AWR",
+    "KAC",
+    "KPW"
+   ],
+   "removed_not_applicable": [],
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Braden Mann",
+   "team": "PHI",
+   "position": "P",
+   "overall": 74,
+   "card_id": "P:P_REAUDIT_RATE_10_A1",
+   "action": "UNCHANGED_LOCKED_OR_COMPLETE",
+   "rating_standard": "Gridiron Standard",
+   "estimated_ovr": 81,
+   "best_archetype": "KP_Power",
+   "gap": 7,
+   "note": "Complete card left unchanged. Gridiron Standard audit, not an EA rating.",
+   "flag": "MAJOR_GAP"
+  },
+  {
+   "player": "Rocco Underwood",
+   "team": "PHI",
+   "position": "LS",
+   "overall": 64,
+   "card_id": "PHI_AUDIT:LS:ext_00-0040925",
+   "action": "FILLED_MISSING",
+   "rating_standard": "Gridiron Standard",
+   "confidence": "LOW",
+   "style_profile": "Gridiron Standard. Rookie long snapper with no public grade and no NFL stat line. Applicable traits are the long-snapper set, not receiver traits.",
+   "basis": "Preserved AWR 70. Applicable LS traits from config/position-metrics.json: AWR, STR, RBK, PBK, SPD, TAK. The prior partial card also had CTH 68, which is not a long-snapper input and is removed from the card; the value is recorded here so it is not lost. No PFF grade and no 2023-25 stat line. 6-3, 231. Other traits are a role band around overall 64. LOW sample. No published LS overall archetype, so the calculator has nothing to check.",
+   "estimated_ovr": null,
+   "best_archetype": null,
+   "gap": null,
+   "calculator_missing": [
+    "NO_ARCHETYPE"
+   ],
+   "preserved_attributes": [
+    "AWR"
+   ],
+   "removed_not_applicable": [
+    "CTH"
+   ],
+   "flag": "NO_ESTIMATE"
+  }
+ ],
+ "sqlite_depth_names_outside_researched_46": [
+  "Kelee Ringo",
+  "Mac McWilliams",
+  "Michael Carter II",
+  "Ty Robinson",
+  "Hollywood Brown",
+  "Elijah Moore",
+  "Britain Covey"
+ ],
+ "ovr_validation": {
+  "in_game_requirement_met": false,
+  "weights_verified": false,
+  "madden_order_verified": false,
+  "ingame_log_entries": "empty for every position scaffold; madden_order_verified remains false",
+  "locked_card_examples": [
+   {
+    "player": "Dallas Goedert",
+    "position": "TE",
+    "stated": 77,
+    "estimated": 98,
+    "note": "Locked card, not edited. TE_Blocking uses blocking fallbacks the addendum calls least reliable."
+   },
+   {
+    "player": "DeVonta Smith",
+    "position": "WR",
+    "stated": 77,
+    "estimated": 84,
+    "note": "Locked card, not edited."
+   },
+   {
+    "player": "Cooper DeJean",
+    "position": "SS",
+    "stated": 73,
+    "estimated": 82,
+    "note": "Locked SS card, not edited. Defensive weights are not backtested on Madden 27."
+   },
+   {
+    "player": "Quinyon Mitchell",
+    "position": "CB",
+    "stated": 80,
+    "estimated": 88,
+    "note": "Locked card, not edited."
+   },
+   {
+    "player": "Braden Mann",
+    "position": "P",
+    "stated": 74,
+    "estimated": 81,
+    "note": "Locked card, not edited."
+   },
+   {
+    "player": "Jordan Mailata",
+    "position": "LT",
+    "stated": 88,
+    "estimated": 90,
+    "note": "Locked card, not edited."
+   }
+  ],
+  "finding": "The estimated calculator is the wrong instrument for the Madden 27 reproduction requirement. QB/RB weights were backtested on EA reference cards, not on these Gridiron Standard builds. Defense, tight end, and kicker tables are explicitly low-confidence or fallback-substituted, and the same weights miss locked approved cards by wide margins. Empty in-game logs mean no recalibration has been done. Locked cards and stated overalls were not altered, and no trait was shifted to chase the estimate."
+ },
+ "input_database": {
+  "kind": "pre_pr4_attached_sqlite",
+  "not_current_page": true,
+  "depth_snapshot_dt": "2026-11-05T15:23:13Z",
+  "attached_file_timestamp": "2026-11-05 15:27",
+  "note": "The attached gridiron.sqlite is earlier than PR4 and is not the current official Page. No cap or contract row was written by this work, and nothing here says the Page cap should revert to this ledger."
+ },
+ "cap_changed": false,
+ "contracts_changed": false,
+ "team_overalls_changed": false,
+ "attached_phi_cap_ledger": {
+  "season": 2026,
+  "accounting_rule": "in_season",
+  "cap_space": 29471575,
+  "committed": 198527666,
+  "dead_money": 0,
+  "players_counted": 59,
+  "meaning": "Figures already in the attached pre-PR4 database. Preserved, not asserted as the current Page."
+ },
+ "official_page_cap_not_applied": {
+  "source": "Current official Canvas, previously verified and user-approved t97/t98. Not present in this database.",
+  "lane_johnson_2026_cap": 20299000,
+  "committed": 218826666,
+  "cap_space": 9172575,
+  "players_counted": 60,
+  "action": "Not written. This PR does not assert that Page should revert."
+ },
+ "depth_reconciliation": {
+  "page_source": "depth-data-fixed.json PHI, the user-approved Page chart",
+  "page_unique_players": 46,
+  "page_slot_rows": 49,
+  "sqlite_before": {
+   "rows": 56,
+   "unique_names": 53
+  },
+  "sqlite_after": {
+   "rows": 49,
+   "unique_names": 46
+  },
+  "match": "PHI depth_chart pos_abb, pos_rank, and player_name now equal that chart, including Fred Johnson at LT/RG/RT and Markel Bell at LT and RT.",
+  "removed_from_phi_depth_only": [
+   {
+    "player": "Kelee Ringo",
+    "old_slot": "CB5",
+    "card_kept": "PHI_AUDIT:CB:ext_00-0039140 OVR 68",
+    "why": "Older nflverse PHI depth row. Approved Page CB chart ends at Jonathan Jones."
+   },
+   {
+    "player": "Mac McWilliams",
+    "old_slot": "CB6",
+    "card_kept": "PHI_AUDIT:CB:ext_00-0040071 OVR 64",
+    "why": "Older nflverse PHI depth row. Not on the approved Page CB chart."
+   },
+   {
+    "player": "Michael Carter II",
+    "old_slot": "CB7",
+    "card_kept": "PHI_AUDIT:CB:ext_00-0036501 OVR 66",
+    "why": "Older nflverse PHI depth row. Not on the approved Page CB chart."
+   },
+   {
+    "player": "Ty Robinson",
+    "old_slot": "DT5",
+    "card_kept": "PHI_AUDIT:DT:ext_00-0040662 OVR 64",
+    "why": "Older DT5 row. Approved Page DT chart ends at Byron Young, the Eagles DT, at DT4."
+   },
+   {
+    "player": "Hollywood Brown",
+    "old_slot": "WR5",
+    "card_kept": "PHI_AUDIT:WR:hollywood_brown OVR 71; depth row had used gsis 00-0035662 (Marquise Brown). Neither name is on the Page WR chart.",
+    "why": "Older WR row replaced by the Page chart of Smith, Wicks, Lemon, and Cooper."
+   },
+   {
+    "player": "Elijah Moore",
+    "old_slot": "WR6",
+    "card_kept": "PHI_AUDIT:WR:elijah_moore OVR 68",
+    "why": "Older WR row. Not on the approved Page WR chart."
+   },
+   {
+    "player": "Britain Covey",
+    "old_slot": "WR7",
+    "card_kept": "PHI_AUDIT:WR:britain_covey OVR 62",
+    "why": "Older WR row. Not on the approved Page WR chart."
+   }
+  ],
+  "players_or_cards_deleted": false,
+  "new_cards_for_off_chart_players": false,
+  "other_teams_depth_unchanged": true,
+  "lane_johnson": "Not on the Page depth chart. RT1 remains Markel Bell. His later Page cap number was not written into this database."
+ },
+ "coverage_note": "46 unique Page-chart players, 49 slot rows, full applicable categories. The previous 53-name SQLite chart included 7 older PHI rows that are no longer on the approved chart."
+}
