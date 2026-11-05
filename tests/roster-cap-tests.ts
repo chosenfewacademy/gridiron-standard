@@ -63,6 +63,35 @@ export function runRosterCapTests(test: T): void {
     assert.equal(sheet.capSpace, 735);
   });
 
+  test("a roster retirement still counts when the year is flagged cap-active", () => {
+    const retired = buildCapSheet({
+      leagueCap: 301200000,
+      adjustments: -73200759,
+      rule: "in_season",
+      charges: [
+        charge("Lane Johnson", 20299000, "other", { capActiveWhileRosterRetired: true, deadMoney: 20299000 }),
+        charge("Other Retiree", 100, "other"),
+        charge("Released", 50, "FA", { capActiveWhileRosterRetired: true, deadMoney: 40 }),
+        charge("Moved", 70, "off_roster", { capActiveWhileRosterRetired: true })
+      ]
+    });
+    assert.equal(retired.committed, 20299000);
+    assert.equal(retired.deadMoney, 40);
+    assert.equal(retired.counted[0]?.reason, "cap_active_while_roster_retired");
+    assert.equal(retired.capSpace, 301200000 - 73200759 - 20299000 - 40);
+    assert.deepEqual(
+      retired.excluded.map(line => line.playerName).sort(),
+      ["Moved", "Other Retiree"]
+    );
+    const active = buildCapSheet({
+      leagueCap: 100,
+      rule: "in_season",
+      charges: [charge("Lane Johnson", 20, "active", { capActiveWhileRosterRetired: true })]
+    });
+    assert.equal(active.committed, 20);
+    assert.equal(active.counted[0]?.reason, "cap_active_while_roster_retired");
+  });
+
   test("off-roster charge without dead money is not invented", () => {
     const sheet = buildCapSheet({
       leagueCap: 500,
@@ -218,7 +247,103 @@ export function runRosterCapTests(test: T): void {
       year.cap_hit
     );
     assert.equal(year.cap_hit, 31971800);
-    const files = fs.readdirSync("data/roster/contracts").filter(name => name.endsWith(".json"));
-    assert.deepEqual(files, ["phi-jalen-hurts-2023.json"]);
+    const files = fs.readdirSync("data/roster/contracts").filter(name => name.endsWith(".json")).sort();
+    assert.deepEqual(files, ["phi-2026-otc-team-sheet.json", "phi-jalen-hurts-2023.json"]);
+  });
+
+  test("PHI 2026 cap counts Lane Johnson and matches the Over The Cap space", () => {
+    const sheet = JSON.parse(fs.readFileSync("data/roster/contracts/phi-2026-otc-team-sheet.json", "utf8"));
+    const hurts = JSON.parse(fs.readFileSync("data/roster/contracts/phi-jalen-hurts-2023.json", "utf8"));
+    const registry = JSON.parse(fs.readFileSync("data/players/registry.json", "utf8"));
+    const ids = new Set(registry.players.map((player: { player_id: string }) => player.player_id));
+    const johnson = sheet.contracts.find((deal: { player_name: string }) => deal.player_name === "Lane Johnson");
+    const year = johnson.seasons.find((row: { season: number }) => row.season === 2026);
+    assert.equal(johnson.player_id, "ext_00-0030561");
+    assert.equal(year.cap_hit, 20299000);
+    assert.equal(year.cap_active_while_roster_retired, true);
+    assert.equal(
+      year.base_salary + year.signing_bonus_proration + year.option_bonus_proration
+        + year.roster_bonus + year.workout_bonus + year.other_bonus,
+      year.cap_hit
+    );
+    const next = johnson.seasons.find((row: { season: number }) => row.season === 2027);
+    assert.equal(
+      next.base_salary + next.signing_bonus_proration + next.option_bonus_proration,
+      next.cap_hit
+    );
+    assert.equal(next.cap_active_while_roster_retired, undefined);
+    const brown = sheet.contracts.filter((deal: { player_name: string; player_id: string }) =>
+      /brown/i.test(deal.player_name) || deal.player_id === "hollywood_brown");
+    assert.equal(brown.length, 1);
+    assert.equal(brown[0].player_id, "hollywood_brown");
+    for (const deal of sheet.contracts) assert.ok(ids.has(deal.player_id), deal.player_id);
+    let committed = hurts.contracts[0].seasons.find((row: { season: number }) => row.season === 2026).cap_hit;
+    for (const deal of sheet.contracts) {
+      for (const row of deal.seasons) if (row.season === 2026) committed += row.cap_hit;
+    }
+    assert.equal(committed, 218826666);
+    assert.equal(sheet.adjustments[0].adjustments, -73200759);
+    assert.equal(sheet.adjustments[0].carryover, 0);
+    const league = 301200000;
+    assert.equal(league + sheet.adjustments[0].adjustments - committed, 9172575);
+    assert.equal(198527666 + 20299000, committed);
+    assert.equal(29471575 - 20299000, 9172575);
+    const dead = 82776143;
+    const practice = 4176251;
+    const bennett = 1145000;
+    const room = 14896635;
+    assert.equal(room - dead - practice - bennett, sheet.adjustments[0].adjustments);
+    assert.equal(committed + dead + practice + bennett, 306924060);
+    assert.equal(league + room - (committed + dead + practice + bennett), 9172575);
+  });
+
+  test("import keeps a retired player's flagged cap hit on the active sheet", () => {
+    const root = fs.mkdtempSync(path.join(os.tmpdir(), "roster-cap-retired-"));
+    const contractsDir = path.join(root, "contracts");
+    fs.mkdirSync(contractsDir);
+    const capFile = path.join(root, "league-cap.json");
+    fs.writeFileSync(capFile, JSON.stringify({
+      seasons: [{ season: 2026, league_cap: 301200000, accounting_rule: "in_season", source_name: "fixture", source_url: "fixture://cap" }]
+    }));
+    fs.writeFileSync(path.join(contractsDir, "phi.json"), JSON.stringify({
+      source_name: "fixture",
+      contracts: [{
+        contract_id: "phi-lane",
+        player_id: "lane",
+        team: "PHI",
+        signing_year: 2025,
+        seasons: [{
+          season: 2026,
+          cap_hit: 20299000,
+          cap_active_while_roster_retired: true
+        }]
+      }],
+      adjustments: [{ team: "PHI", season: 2026, carryover: 0, adjustments: -73200759 }]
+    }));
+    const db = openRosterDb(":memory:");
+    try {
+      migrate(db);
+      db.prepare(`
+        INSERT INTO teams(abbr, name, city, nickname, conference, division)
+        VALUES ('PHI', 'Philadelphia Eagles', 'Philadelphia', 'Eagles', 'NFC', 'East')
+      `).run();
+      db.prepare("INSERT INTO players(player_id, full_name, team_abbr) VALUES ('lane', 'Lane Johnson', 'PHI')").run();
+      db.prepare(`
+        INSERT INTO roster_membership(player_id, team_abbr, season, status, raw_roster_status, source)
+        VALUES ('lane', 'PHI', 2026, 'other', 'RET', 'fixture')
+      `).run();
+      importContractSnapshot(db, { root, contractsDir, capFile });
+      const sheet = loadCapSheet(db, "PHI", 2026, "in_season");
+      assert.equal(sheet.committed, 20299000);
+      assert.equal(sheet.deadMoney, 0);
+      assert.equal(sheet.capSpace, 301200000 - 73200759 - 20299000);
+      assert.equal(sheet.counted[0]?.reason, "cap_active_while_roster_retired");
+      const stored = db.prepare(
+        "SELECT cap_active_while_roster_retired AS flag FROM contract_years WHERE contract_id = 'phi-lane'"
+      ).get() as { flag: number };
+      assert.equal(stored.flag, 1);
+    } finally {
+      db.close();
+    }
   });
 }

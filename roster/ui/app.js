@@ -208,7 +208,12 @@ async function showPlayer(id) {
       table.append(head);
       for (const year of deal.seasons) {
         const tr = document.createElement("tr");
-        const flags = [year.void_year ? "void" : "", year.team_option ? "team option" : "", year.player_option ? "player option" : ""].filter(Boolean).join(", ");
+        const flags = [
+          year.void_year ? "void" : "",
+          year.team_option ? "team option" : "",
+          year.player_option ? "player option" : "",
+          year.cap_active_while_roster_retired ? "cap-active while roster-retired" : ""
+        ].filter(Boolean).join(", ");
         for (const value of [year.season, money(year.cap_hit), money(year.dead_money), money(year.base_salary), flags || "—"]) {
           tr.append(el("td", "", String(value)));
         }

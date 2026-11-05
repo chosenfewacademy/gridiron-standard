@@ -32848,6 +32848,18 @@
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
     },
     {
+      "player_id": "jaydon_blue",
+      "full_name": "Jaydon Blue",
+      "aliases": [],
+      "team": "PHI",
+      "position": "RB",
+      "historical_positions": [
+        "RB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
       "player_id": "ext_00-0040744",
       "full_name": "Jaylahn Tuimoloau",
       "aliases": [
@@ -34679,6 +34691,18 @@
       "role_resolution_reason": "Generic offensive-line designation does not identify exact LT/LG/C/RG/RT bucket."
     },
     {
+      "player_id": "joe_milton_iii",
+      "full_name": "Joe Milton III",
+      "aliases": [],
+      "team": "PHI",
+      "position": "QB",
+      "historical_positions": [
+        "QB"
+      ],
+      "current_audit_id": null,
+      "audit_history": []
+    },
+    {
       "player_id": "ext_00-0032391",
       "full_name": "Joe Thuney",
       "aliases": [
@@ -35253,6 +35277,21 @@
       "depth_chart_position": "OLB",
       "requires_role_resolution": true,
       "role_resolution_reason": "Must resolve exact REDGE/LEDGE/MIKE/WILL/SAM role from current usage and depth-chart evidence."
+    },
+    {
+      "player_id": "ext_00-0039236",
+      "full_name": "Johnny Wilson",
+      "aliases": [],
+      "team": "PHI",
+      "position": null,
+      "historical_positions": [],
+      "current_audit_id": null,
+      "audit_history": [],
+      "external_ids": {
+        "gsis": "00-0039236"
+      },
+      "roster_context_history": [],
+      "roster_status": "RES"
     },
     {
       "player_id": "ext_00-0038571",

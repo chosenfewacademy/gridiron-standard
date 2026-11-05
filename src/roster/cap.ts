@@ -14,6 +14,12 @@ export interface CapPlayerCharge {
    * null means this season has no roster row; the charge is treated as active.
    */
   membershipStatus: string | null;
+  /**
+   * Count capHit as an active charge when membership is "other" (registry RET and the
+   * other codes in that bucket). Does not override FA, PS, or a player on another club.
+   * Does not turn the charge into dead money.
+   */
+  capActiveWhileRosterRetired?: boolean;
 }
 
 export interface CapLine {
@@ -56,9 +62,11 @@ function byCapThenName(a: CapPlayerCharge, b: CapPlayerCharge): number {
 /**
  * Club cap sheet.
  * cap space = league cap + carryover + adjustments - committed roster charges - dead money.
- * In-season counts every active and IR charge. Top-51 keeps the largest charges and every
- * player tied with the last one, so an equal cap number is not dropped. Void years always
- * count as dead money at their cap hit. Practice squad charges never count.
+ * In-season counts every active and IR charge. A year flagged cap-active while roster-retired
+ * still counts when membership is "other", so a retirement that has not been processed as
+ * dead money is not dropped. Top-51 keeps the largest charges and every player tied with the
+ * last one, so an equal cap number is not dropped. Void years always count as dead money at
+ * their cap hit. Practice squad charges never count.
  * Bonus columns are not re-added; cap_hit and dead_money are the imported charges.
  */
 export function buildCapSheet(input: CapSheetInput): CapSheet {
@@ -90,7 +98,8 @@ export function buildCapSheet(input: CapSheetInput): CapSheet {
       });
       continue;
     }
-    if (status === "FA" || status === "other" || status === "off_roster") {
+    const capActiveDespiteRetirement = charge.capActiveWhileRosterRetired === true && status === "other";
+    if (!capActiveDespiteRetirement && (status === "FA" || status === "other" || status === "off_roster")) {
       if (charge.deadMoney !== null) {
         dead.push({
           playerId: charge.playerId,
@@ -133,7 +142,9 @@ export function buildCapSheet(input: CapSheetInput): CapSheet {
       playerId: charge.playerId,
       playerName: charge.playerName,
       amount: charge.capHit,
-      reason: input.rule === "top51" ? "top_51" : "roster"
+      reason: charge.capActiveWhileRosterRetired
+        ? "cap_active_while_roster_retired"
+        : input.rule === "top51" ? "top_51" : "roster"
     });
   }
 
