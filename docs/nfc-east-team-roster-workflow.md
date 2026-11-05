@@ -102,7 +102,9 @@ If the next club has a starter at FB or SAM, stop before the team overall. The P
 
 ### 6. Team overall
 
-Use current starters on the remapped depth. Weighted average, then round to the nearest integer. No curve. Special teams are excluded: K, P, and LS have ratings and depth slots, and they do not enter the weights. The commissioner asked for that exclusion on PHI and was given an overall built from offense and defense only.
+Use current starters on the remapped depth. Each side is a weighted average. Round that side to the nearest integer for display. No curve. Special teams are excluded: K, P, and LS have ratings and depth slots, and they do not enter the weights. The commissioner asked for that exclusion on PHI and was given an overall built from offense and defense only.
+
+The single team overall is the rounded average of the unrounded side ratings. It is not the average of the displayed integers. Publish both calculations in the team note.
 
 Offense weights (sum 100): QB 30, RB 6, WR 9 / 7 / 5, TE 7 / 2, LT 8, LG 6, C 7, RG 6, RT 7.
 
@@ -116,7 +118,11 @@ PHI current-starter inputs and products:
 | Offense if Hurts (78) were the starter | 74.98 | 75 |
 | Defense, DeJean SS 73 at SS | 75.57 | 76 |
 
-The published current-starter team overall is 73, described as the average of offense 71 and defense 76, with special teams left out. The healthy-Hurts 75 is a note. It is not the current offense. See the caveats for the 73 versus 73.5 arithmetic.
+Displayed offense is 71 and displayed defense is 76. Those two integers average to 73.5. That average is not the team overall.
+
+Unrounded offense is 70.78 and unrounded defense is 75.57. Their average is (70.78 + 75.57) / 2 = 73.175, which rounds to 73. The single overall **73** is that rounded average of the unrounded side ratings. Special teams stay out of both sides and out of the overall.
+
+The healthy-Hurts offense, 74.98 displayed as 75, is a note. It is not the current offense.
 
 Starter slots that entered the PHI weights:
 
@@ -254,7 +260,11 @@ The earlier roster-versus-top-10 canvas (2026-11-05, about 19:02 UTC, before the
 
 ### Team overall
 
-Offense 71 (70.78). Defense 76 (75.57). Overall 73 from those rounded sides. Special teams left out. Healthy-Hurts offense would be 75 (74.98) and is not the current figure.
+Displayed rounded sides: offense 71, defense 76. (71 + 76) / 2 = 73.5. That is the average of the displayed integers, and it is not the team overall.
+
+Unrounded sides: offense 70.78, defense 75.57. (70.78 + 75.57) / 2 = 73.175, which rounds to 73. The single overall 73 is based on those unrounded side ratings. Special teams are excluded from both sides and from the overall.
+
+Healthy-Hurts offense would be 74.98, displayed as 75. That note is not the current offense.
 
 ### Contracts and cap
 
@@ -277,7 +287,13 @@ Johnson's 2026 hit is base 1,300,000 + signing proration 9,910,000 + option pror
 
 Markel Bell stays the active right tackle with his own 2026 cap hit of 1,338,361.
 
-Contract count the page states: 60 PHI contracts after Johnson is included, and 73 season rows. The files on the branch are 59 contracts and 69 season rows in `phi-2026-otc-team-sheet.json`, plus the Hurts file's 1 contract and 5 season rows (2023–2027). That is 60 contracts and 74 season rows. See the caveats.
+Verified source-file count, Johnson branch plus the Hurts file already on `main`:
+
+- `data/roster/contracts/phi-2026-otc-team-sheet.json`: 59 contracts, 69 season rows.
+- `data/roster/contracts/phi-jalen-hurts-2023.json`: 1 contract, 5 season rows (2023–2027).
+- Together: **60 contracts and 74 season rows.**
+
+The official Page currently says 73 season rows. That Page figure is stale. It is not a verified count of these files. The contract count of 60 matches the files and the Page.
 
 ### PHI checklist
 
@@ -287,7 +303,7 @@ Contract count the page states: 60 PHI contracts after Johnson is included, and 
 - [x] League-scale placement and within-team stratification recorded (canvas; the markdown it names is not in git).
 - [x] DeJean deep CB audit: challenger OUT. Official rating used on the roster is SS 73. Depth is SS1 only.
 - [x] Depth remapped to Madden groups. PHI 3-4 map written down. FB and SAM empty.
-- [x] Team overall from weighted current starters: offense 71, defense 76, overall 73. Special teams excluded.
+- [x] Team overall from weighted current starters. Displayed offense 71 and defense 76. Single overall 73 from the unrounded sides (70.78 and 75.57 average to 73.175). Special teams excluded. The displayed 71 and 76 average to 73.5 and are not the overall.
 - [x] Cap note written for Johnson as cap-active while roster-retired. Pull request #4 is open, not merged.
 - [ ] Registry, `current.json`, and `audits/teams/PHI/` updated to match the Nov 5 depth and the SS card. Not done in git.
 - [ ] `team:audit` can load locked reaudit baselines. Pull request #3 is open, not merged.
@@ -300,8 +316,8 @@ These are the places a later pass will overclaim if it treats every PHI sentence
 2. **Pull requests #3 and #4 are open.** Do not describe the Johnson cap sheet or the baseline loader as merged.
 3. **Team audit files the canvases name are missing.** The SS 73 rating is in the league audit. The Nov 5 "official lock" paths and the player `current.json` paths are not in the repo. The registry still has DeJean at CB with no current audit id.
 4. **CB 77 is not official.** It is the failed challenger on the DeJean canvas. The depth chart and the defensive overall use SS 73.
-5. **Overall 73 versus the average of 71 and 76.** The commissioner was told the team overall is 73, the average of the rounded sides, with special teams left out. The average of 71 and 76 is 73.5. The average of the unrounded sides is (70.78 + 75.57) / 2 = 73.175, which rounds to 73. The official page prints offense 71 and defense 76 and does not print the integer 73. The next club should publish the unrounded sides, the rounded sides, and the overall rule in the same note.
-6. **Season rows: page says 73, files sum to 74.** 69 on the OTC team sheet plus 5 on the Hurts file. The contract count of 60 (59 + Hurts) matches. Do not cite 73 as a count of those JSON season arrays until the imported database is what gets counted.
+5. **Team overall uses the unrounded sides.** Displayed 71 and 76 average to 73.5. Unrounded 70.78 and 75.57 average to 73.175, which rounds to 73. The single overall 73 is the second calculation. Special teams stay out. The official page prints 71 and 76 and does not print 73.
+6. **Season rows: the Page's 73 is stale.** The verified source-file count is 74 (69 on the OTC team sheet plus 5 on the Hurts file). Contract count 60 matches the files and the Page. Do not cite 73 as verified.
 7. **Starter labels in the QB room are older than the depth chart.** `research-inbox/teams/PHI/QB/roster.json` (`as_of` 2026-11-02) and `approval-t50s449.json` list McKee as the starter and Milton as QB2/QB3. The Nov 5 depth lists Milton, McKee, Payton. Overalls match across those files and the official page.
 8. **Barkley's README line is stale.** `research-inbox/teams/PHI/RB/README.md` still says overall 75. The approved revision is 76, and 76 is what the team overall uses.
 9. **Will Shipley is IR in the rating files and RB3 on the official depth string.** `will_shipley.json` says Reserve/Injured (foot, Week 6), overall 61. The official page's ratings blob also marks him IR, while its depth string lists him third at running back, and the page says IR players are omitted. He is not the RB starter, so the team overall still uses Barkley. The next edit of the depth chart should pick one status.
@@ -311,6 +327,28 @@ These are the places a later pass will overclaim if it treats every PHI sentence
 13. **The rebuilt sqlite with 88 new PHI cards is not in git.** Page counts (3,073 players, 390 rating cards, 95 Eagles ratings imported) describe that database. Seeding `main` will not reproduce them.
 14. **Option-bonus repayment for Lane Johnson is unresolved** and is intentionally not in the 20,299,000 hit. OTC's live 2026 number was still 20,299,000 when the sheet was fetched.
 15. **`team:audit` on `main` cannot see locked reaudit baselines** until pull request #3 merges. The PHI pass worked around that by reading `state/locks.json`.
+
+## Reconciliation before the next team
+
+Completed official PHI results are the figures in the sections above. Unresolved items below are sync and cleanup. They do not reopen the locks, and they do not change a rating. Dallas, the Giants, and Washington stay unstarted until this list is either fixed in a later change or explicitly carried as known drift.
+
+### Completed official results
+
+- Playing depth uses current starters. Joe Milton III is QB1. Hurts is on injured reserve and off the depth chart. Lane Johnson is retired for depth. Markel Bell is RT. Dalton is off PHI. A.J. Brown was traded to New England.
+- Displayed offense 71 (unrounded 70.78) and displayed defense 76 (unrounded 75.57). Special teams excluded. Single overall 73, from (70.78 + 75.57) / 2 = 73.175. The displayed integers average to 73.5 and are not that overall.
+- Cooper DeJean's official roster rating is SS 73, depth SS1. The CB 77 challenger is OUT. The git card is `audits/league/SS/SS_REAUDIT_RATE_13_A1`. Locked Top 10 baselines were not edited.
+- Cap, once pull request #4 is the source: league cap 301,200,000, adjustment −73,200,759, committed 218,826,666, space 9,172,575. Johnson's 20,299,000 is an active 2026 hit (`cap_active_while_roster_retired`). Option-bonus repayment is not booked.
+- Contracts: 60. Season rows: 74 in the source files. The Page's 73 is stale.
+
+### Unresolved sync and cleanup
+
+- **DeJean registry and current pointer.** `data/players/registry.json` still has `ext_00-0039841` at CB, `depth_chart_position` CB, `current_audit_id` null. `data/players/ext_00-0039841/current.json` and `data/teams/PHI/players/ext_00-0039841/current.json` are not in git. The canvases' `audits/teams/PHI/PHI_SS_DEJEAN_OFFICIAL_LOCK_20261105_A1` path is not in git.
+- **PHI local database is not in git.** The official Page describes a rebuilt `data/roster/gridiron.sqlite` (88 new PHI cards and the other Page counts, including the stale "73 season rows" line). That file is gitignored. A seed of `main` does not restore it. The verified season-row count remains 74 in the contract files. `audits/teams/PHI/` files named by the canvases (`PHI_ROSTER_VS_TOP10_2026-11-05`, `PHI_CB_DEJEAN_DEEP_AUDIT_2026-11-05`, `PHI_DEPTH_MADDEN_REMAP_20261105_A1`, `PHI_TEAM_OVR_2026-11-05`) are absent.
+- **Will Shipley.** Rating file and the Page ratings blob: injured reserve, overall 61 (`research-inbox/teams/PHI/RB/will_shipley.json`). Official depth string: RB3. He is not the RB starter, so the team overall still uses Barkley.
+- **Byron Young (PHI DT).** On the official depth chart with no overall. The earlier roster-versus-top-10 canvas proposed 66 and marked the locked LAR LEDGE card (81) a wrong join. No PHI DT rating for him is in git.
+- **Registry membership is stale** in `data/players/registry.json`: Andy Dalton's team is still PHI; A.J. Brown's team is null; Lane Johnson's `roster_status` is still `ACT` (position unresolved generic OL); Jalen Hurts has no injured-reserve status. Joe Milton III and Jaydon Blue are missing on `main` (stubs only, with no ratings, on open pull request #4).
+- **Barkley README is stale.** `research-inbox/teams/PHI/RB/README.md` still says overall 75. The approved revision is 76 (`approval-t52s464.json`, `saquon_barkley.revision-A2-t52s464.json`). The depth chart and the team overall use 76.
+- **Old QB room still names McKee the starter.** `research-inbox/teams/PHI/QB/roster.json` (as of 2026-11-02) and `approval-t50s449.json` list Tanner McKee as the starter and Joe Milton III as QB2/QB3. The Nov 5 depth chart names Milton the starter. Approved overalls (Milton 64, McKee 66, Payton 60, Hurts 78) were not changed by that swap.
 
 ## Per-team checklist
 
