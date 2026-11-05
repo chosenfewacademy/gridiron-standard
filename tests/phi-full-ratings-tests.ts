@@ -1,8 +1,13 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { DatabaseSync } from "node:sqlite";
 import { estimateOvr, loadWeights } from "../src/madden-ovr-check.js";
+import { exclusivePlayerProfile } from "../src/roster/phi-canonical.js";
+import { migrate, openRosterDb } from "../src/roster/db.js";
+import { seedRoster } from "../src/roster/seed.js";
+import { handleRosterRequest } from "../src/roster/ui-server.js";
 
 type Row = { player: string; team: string; position: string; overall: number; attributes: Record<string, number> };
 
@@ -196,6 +201,74 @@ export function runPhiFullRatingsTests(test: (name: string, fn: () => void) => v
     assert.equal(milton.pos_rank, 1);
     const nolan = db.prepare("SELECT aliases_json FROM players WHERE player_id='ext_00-0039013'").get() as { aliases_json: string };
     assert.ok(JSON.parse(nolan.aliases_json).includes("Nolan Smith Jr."));
+    const depthApi = JSON.parse(handleRosterRequest(db, "GET", "/api/depth", new URLSearchParams("team=PHI")).body) as {
+      player_name: string; position: string; rank: number; ovr: number | null;
+    }[];
+    assert.equal(depthApi.length, 49);
+    assert.equal(depthApi.find(slot => slot.position === "QB" && slot.rank === 1)?.player_name, "Joe Milton III");
+    assert.equal(depthApi.find(slot => slot.position === "RT" && slot.rank === 1)?.player_name, "Markel Bell");
+    assert.equal(depthApi.find(slot => slot.player_name === "Cooper DeJean")?.ovr, 73);
+    assert.equal(depthApi.find(slot => slot.player_name === "Byron Young")?.ovr, 61);
+    const page = handleRosterRequest(db, "GET", "/app.js", new URLSearchParams()).body;
+    assert.match(page, /profile-open/);
+    assert.match(page, /team-cap/);
+    assert.match(page, /team-depth/);
+    assert.match(page, /team-ratings/);
+    assert.deepEqual(exclusivePlayerProfile("#/team/PHI/player/ext_00-0039398"), { id: "ext_00-0039398", team: "PHI" });
+    assert.equal(exclusivePlayerProfile("#/team/PHI"), null);
     db.close();
+  });
+
+  test("seed reloads the canonical PHI ratings and does not invent Lane Johnson's cap hit", () => {
+    const dbFile = path.join(os.tmpdir(), `phi-canonical-${process.pid}.sqlite`);
+    const db = openRosterDb(dbFile);
+    try {
+      migrate(db);
+      seedRoster(db, { root: process.cwd(), season: 2026 });
+      const milton = db.prepare(
+        "SELECT ovr, attributes_json FROM rating_cards WHERE player_name='Joe Milton III' AND position='QB'"
+      ).get() as { ovr: number; attributes_json: string };
+      const canonical = JSON.parse(fs.readFileSync(path.resolve("artifacts/phi-full-ratings.json"), "utf8")) as Row[];
+      const expected = canonical.find(row => row.player === "Joe Milton III")!;
+      assert.equal(milton.ovr, 64);
+      assert.deepEqual(JSON.parse(milton.attributes_json), expected.attributes);
+      const dejean = db.prepare("SELECT position, ovr FROM rating_cards WHERE player_name='Cooper DeJean'").get() as { position: string; ovr: number };
+      assert.equal(dejean.position, "SS");
+      assert.equal(dejean.ovr, 73);
+      const byron = db.prepare(
+        "SELECT player_id, position, ovr FROM rating_cards WHERE player_name='Byron Young' AND position='DT'"
+      ).get() as { player_id: string; position: string; ovr: number };
+      assert.equal(byron.player_id, "nfl_00-0038978");
+      assert.equal(byron.ovr, 61);
+      const edge = db.prepare(
+        "SELECT ovr FROM rating_cards WHERE card_id='LEDGE:LEDGE_REAUDIT_RATE_07_A2'"
+      ).get() as { ovr: number } | undefined;
+      if (edge) assert.equal(edge.ovr, 81);
+      const depth = db.prepare(
+        "SELECT COUNT(*) AS rows, COUNT(DISTINCT player_name) AS names FROM depth_chart WHERE team_abbr='PHI'"
+      ).get() as { rows: number; names: number };
+      assert.equal(depth.rows, 49);
+      assert.equal(depth.names, 46);
+      const bell = db.prepare(
+        "SELECT pos_rank FROM depth_chart WHERE team_abbr='PHI' AND pos_abb='RT' AND player_name='Markel Bell'"
+      ).get() as { pos_rank: number };
+      assert.equal(bell.pos_rank, 1);
+      const hurts = db.prepare(`
+        SELECT cy.cap_hit FROM contract_years cy
+        JOIN contracts c ON c.contract_id = cy.contract_id
+        WHERE c.player_id = 'jalen_hurts' AND cy.season = 2026
+      `).get() as { cap_hit: number };
+      assert.equal(hurts.cap_hit, 31971800);
+      const lane = db.prepare(
+        "SELECT COUNT(*) AS n FROM contracts c JOIN players p ON p.player_id = c.player_id WHERE p.full_name = 'Lane Johnson'"
+      ).get() as { n: number };
+      assert.equal(lane.n, 0);
+    } finally {
+      db.close();
+      for (const suffix of ["", "-wal", "-shm"]) {
+        const file = dbFile + suffix;
+        if (fs.existsSync(file)) fs.unlinkSync(file);
+      }
+    }
   });
 }

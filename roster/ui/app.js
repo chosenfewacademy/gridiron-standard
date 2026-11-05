@@ -76,7 +76,22 @@ function chips(activeTeam, activePosition) {
   return row;
 }
 
-function playerTable(rows, ranked) {
+function openPlayer(id, team) {
+  if (!id) return;
+  location.hash = team
+    ? `#/team/${encodeURIComponent(team)}/player/${encodeURIComponent(id)}`
+    : `#/player/${encodeURIComponent(id)}`;
+}
+
+function exclusiveProfile(parts) {
+  if (parts[0] === "player" && parts[1]) return { id: decodeURIComponent(parts[1]), team: null };
+  if (parts[0] === "team" && parts[2] === "player" && parts[3]) {
+    return { id: decodeURIComponent(parts[3]), team: parts[1] };
+  }
+  return null;
+}
+
+function playerTable(rows, ranked, team) {
   const table = document.createElement("table");
   const head = document.createElement("tr");
   for (const label of ranked ? ["Rk", "Player", "Team", "Pos", "OVR", "Madden", "Delta"] : ["Player", "Team", "Pos", "OVR", "Madden", "Delta", "Status"]) {
@@ -86,9 +101,7 @@ function playerTable(rows, ranked) {
   for (const row of rows) {
     const tr = document.createElement("tr");
     tr.className = "clickable";
-    tr.addEventListener("click", () => {
-      if (row.player_id) location.hash = `#/player/${encodeURIComponent(row.player_id)}`;
-    });
+    tr.addEventListener("click", () => openPlayer(row.player_id, team));
     const cells = ranked
       ? [row.baseline_rank, row.full_name, row.team_abbr, row.position, row.ovr, row.madden_ovr]
       : [row.full_name, row.team_abbr, row.position, row.ovr, row.madden_ovr];
@@ -132,9 +145,61 @@ async function showTeam(abbr, position) {
   main.append(el("h1", "", team ? team.name : abbr));
   main.append(el("p", "sub", position ? `${position} room` : "Active, injured reserve, and practice squad"));
   main.append(chips(abbr, position || null));
+  const capSection = el("section");
+  capSection.id = "team-cap";
+  capSection.append(el("h2", "", "Salary cap"));
+  try {
+    const sheet = await api(`/api/cap?team=${encodeURIComponent(abbr)}`);
+    capSection.append(el("p", "sub", `${sheet.season} · imported contracts only`));
+    const box = el("div", "cap-box");
+    for (const [label, value] of [
+      ["Committed", money(sheet.committed)],
+      ["Dead money", money(sheet.deadMoney)],
+      ["Cap space", money(sheet.capSpace)]
+    ]) {
+      const cell = el("div");
+      cell.append(el("span", "", label));
+      cell.append(el("strong", "", value));
+      box.append(cell);
+    }
+    capSection.append(box);
+  } catch (error) {
+    capSection.append(el("p", "note", error.message || "No cap sheet."));
+  }
+  main.append(capSection);
+
+  const depthSection = el("section");
+  depthSection.id = "team-depth";
+  depthSection.append(el("h2", "", "Depth chart"));
+  const slots = await api(`/api/depth?team=${encodeURIComponent(abbr)}`);
+  if (!slots.length) depthSection.append(el("p", "note", "No depth chart for this club."));
+  else {
+    let group = null;
+    let box = null;
+    for (const slot of slots) {
+      if (slot.position !== group) {
+        group = slot.position;
+        box = el("div", "depth-group");
+        box.append(el("h3", "", group));
+        depthSection.append(box);
+      }
+      const button = el("button", "depth-slot");
+      button.type = "button";
+      button.append(el("strong", "", `${slot.rank}. ${slot.player_name}`));
+      button.append(el("span", "", slot.ovr == null ? "—" : `OVR ${slot.ovr}`));
+      button.addEventListener("click", () => openPlayer(slot.player_id, abbr));
+      box.append(button);
+    }
+  }
+  main.append(depthSection);
+
+  const ratings = el("section");
+  ratings.id = "team-ratings";
+  ratings.append(el("h2", "", "Player ratings"));
   const rows = await api(`/api/roster?team=${encodeURIComponent(abbr)}${position ? `&position=${encodeURIComponent(position)}` : ""}`);
-  if (!rows.length) main.append(el("p", "note", "No players in this room."));
-  else main.append(playerTable(rows, false));
+  if (!rows.length) ratings.append(el("p", "note", "No players in this room."));
+  else ratings.append(playerTable(rows, false, abbr));
+  main.append(ratings);
 }
 
 async function showTop(position) {
@@ -165,9 +230,12 @@ function attributeTable(rows) {
   return table;
 }
 
-async function showPlayer(id) {
+async function showPlayer(id, team) {
   const player = await api(`/api/player?id=${encodeURIComponent(id)}`);
   clear(main);
+  const close = el("a", "close-profile", "Close profile");
+  close.href = team ? teamLink(team) : "#/";
+  main.append(close);
   const hero = el("div", "hero");
   const title = el("div");
   title.append(el("h1", "", player.full_name));
@@ -187,11 +255,6 @@ async function showPlayer(id) {
   madden.append(line);
   hero.append(madden);
   main.append(hero);
-  if (player.team_abbr) {
-    const back = el("a", "", `Back to ${player.team_abbr}`);
-    back.href = teamLink(player.team_abbr, player.position_bucket || undefined);
-    main.append(back);
-  }
   main.append(el("h2", "", "Attributes"));
   if (!player.attributes?.length) main.append(el("p", "note", "No Gridiron rating card is linked to this player."));
   else main.append(attributeTable(player.attributes));
@@ -234,7 +297,7 @@ function capLines(lines) {
   for (const line of lines) {
     const tr = document.createElement("tr");
     tr.className = "clickable";
-    tr.addEventListener("click", () => { location.hash = `#/player/${encodeURIComponent(line.playerId)}`; });
+    tr.addEventListener("click", () => openPlayer(line.playerId, abbr));
     tr.append(el("td", "", line.playerName));
     tr.append(el("td", "", money(line.amount)));
     tr.append(el("td", "", line.reason));
@@ -258,10 +321,12 @@ async function render() {
   const [path, search] = raw.split("?");
   const parts = path.split("/").filter(Boolean);
   const params = new URLSearchParams(search || "");
+  const profile = exclusiveProfile(parts);
+  document.body.classList.toggle("profile-open", Boolean(profile));
   try {
-    if (parts[0] === "team" && parts[1]) await showTeam(parts[1], parts[2]);
+    if (profile) await showPlayer(profile.id, profile.team);
+    else if (parts[0] === "team" && parts[1]) await showTeam(parts[1], parts[2]);
     else if (parts[0] === "top" && parts[1]) await showTop(parts[1]);
-    else if (parts[0] === "player" && parts[1]) await showPlayer(decodeURIComponent(parts[1]));
     else if (parts[0] === "cap" && parts[1]) await showCap(parts[1], params.get("rule"));
     else if (parts[0] === "search") await showSearch(decodeURIComponent(parts.slice(1).join("/")));
     else await showHome();

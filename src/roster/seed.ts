@@ -13,6 +13,7 @@ import { importContractSnapshot } from "./contracts.js";
 import { clearDerived, DEFAULT_SEASON, type DatabaseSync } from "./db.js";
 import { mapRosterStatus } from "./membership.js";
 import { nameSlug, normalizeName } from "./names.js";
+import { restorePhiCanonical } from "./phi-canonical.js";
 import { canonicalTeam, NFL_TEAMS } from "./teams.js";
 
 export interface SeedOptions {
@@ -283,6 +284,7 @@ export function seedRoster(db: DatabaseSync, options: SeedOptions = {}): SeedRes
   const baselines: SeedBaselineSummary[] = [];
   let cardCount = 0;
   let attributeCount = 0;
+  let playerCount = 0;
 
   const insertTeam = db.prepare(`
     INSERT INTO teams(
@@ -553,11 +555,14 @@ export function seedRoster(db: DatabaseSync, options: SeedOptions = {}): SeedRes
 
     const imported = importContractSnapshot(db, { root, season });
     warnings.push(...imported.warnings);
+    const restored = restorePhiCanonical(db, root, season);
+    playerCount = players.length + restored.inserted_players;
+    cardCount += restored.inserted_cards;
 
     const info = db.prepare(`
       INSERT INTO seed_runs(seeded_at, season, player_count, card_count, warning_count)
       VALUES (?, ?, ?, ?, ?)
-    `).run(seededAt, season, players.length, cardCount, warnings.length);
+    `).run(seededAt, season, playerCount, cardCount, warnings.length);
     const seedId = Number(info.lastInsertRowid);
     const insertWarning = db.prepare(
       "INSERT INTO seed_warnings(seed_id, code, detail) VALUES (?, ?, ?)"
@@ -573,8 +578,8 @@ export function seedRoster(db: DatabaseSync, options: SeedOptions = {}): SeedRes
     season,
     seeded_at: seededAt,
     teams: NFL_TEAMS.length,
-    players: players.length,
-    memberships: players.length,
+    players: playerCount,
+    memberships: playerCount,
     rating_cards: cardCount,
     attribute_rows: attributeCount,
     positions: baselines.length,
