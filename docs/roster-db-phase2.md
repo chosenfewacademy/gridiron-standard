@@ -4,7 +4,7 @@ Phase 2 adds deals and cap sheets on top of the Phase 1 roster database. It is s
 
 Dollars are integer USD. A cap hit is whatever the import file says. The sheet does not rebuild a cap number from base salary and bonus columns, because public sources sometimes disagree on workout bonuses and rounding.
 
-The league is not given invented contracts. A fresh seed loads only the files in `data/roster/contracts/`. Today that directory has one sourced deal (Jalen Hurts). Every other player has no contract until a file is added.
+The league is not given invented contracts. A fresh seed loads only the files in `data/roster/contracts/`. Checked-in deals are Jalen Hurts and the Philadelphia 2026 Over The Cap team sheet. Every other player has no contract until a file is added. The PHI sheet's accounting, including Lane Johnson's active 2026 charge, is written up in `docs/PHI_CONTRACTS_CAP_2026-11-05.md`.
 
 ## League cap
 
@@ -23,6 +23,7 @@ These are the rules the cap sheet implements. They are not a full CBA engine.
 - Practice-squad statuses (`PS`) never count against the club cap. The practice-squad pool itself is not modeled.
 - A void year counts as dead money equal to its cap hit.
 - A player who is `FA`, `other`, or on a different club than the contract uses the year's `dead_money` when that field is present. If it is absent, the charge is excluded and does not become a guessed dead-money number.
+- A season may set `cap_active_while_roster_retired`. That year still counts as an active cap hit when membership is `other` (registry `RET` and the other codes in that bucket). The flag does not change the roster row, and it does not override `FA`, practice squad, or a contract whose player is on another club. It also does not convert the hit into dead money. Lane Johnson's 2026 year uses it: Over The Cap keeps $20,299,000 on the Eagles' active roster while he is retired for playing purposes until a post-June 1 designation.
 - When this database has no roster row for the cap season, the player is treated as active. Seeded membership is the current roster season (2026), so a 2023 cap sheet is only as good as the imported year row.
 - Cap space = league cap + carryover + adjustments − committed − dead money. Carryover and adjustments default to 0. Incentives, LTBE/NLTBE, and post-June-1 splits are not calculated. Put the already-resolved charge in `cap_hit` or `dead_money`.
 - Team-option and player-option flags are stored and shown. Option-bonus proration is a separate column and does not set those flags.

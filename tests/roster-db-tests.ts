@@ -301,9 +301,9 @@ export function runRosterDbTests(test: T): void {
         positions: Record<string, { baseline_file: string; status: string }>;
       };
       const status = rosterStatus(db);
-      assert.equal(status.schema_version, 2);
+      assert.equal(status.schema_version, 3);
       assert.equal(status.league_cap, 301200000);
-      assert.equal(status.contracts, 1);
+      assert.equal(status.contracts, 60);
       assert.equal(status.warning_counts.NEWER_BASELINE_NOT_LOCKED, undefined);
       for (const [position, entry] of Object.entries(locks.positions)) {
         const row = status.baselines.find(baseline => baseline.position === position);
@@ -367,6 +367,20 @@ export function runRosterDbTests(test: T): void {
         WHERE c.player_id = 'jalen_hurts' AND cy.season = 2026
       `).get() as { cap_hit: number };
       assert.equal(hurts.cap_hit, 31971800);
+      const johnson = db.prepare(`
+        SELECT cy.cap_hit, cy.cap_active_while_roster_retired AS flag
+        FROM contract_years cy
+        JOIN contracts c ON c.contract_id = cy.contract_id
+        WHERE c.player_id = 'ext_00-0030561' AND cy.season = 2026
+      `).get() as { cap_hit: number; flag: number };
+      assert.equal(johnson.cap_hit, 20299000);
+      assert.equal(johnson.flag, 1);
+      const phiCap = db.prepare(`
+        SELECT committed, cap_space FROM team_cap_ledger
+        WHERE team_abbr = 'PHI' AND season = 2026 AND accounting_rule = 'in_season'
+      `).get() as { committed: number; cap_space: number };
+      assert.equal(phiCap.committed, 218826666);
+      assert.equal(phiCap.cap_space, 9172575);
       assert.equal(count(db, "trades"), 0);
       assert.equal(count(db, "draft_prospects"), 0);
     } finally {

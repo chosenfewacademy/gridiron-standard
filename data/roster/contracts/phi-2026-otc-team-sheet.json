@@ -1,0 +1,1333 @@
+{
+ "source_name": "Over The Cap",
+ "source_url": "https://overthecap.com/salary-cap/philadelphia-eagles",
+ "source_note": "PHI 2026 active + reserve import, fetched 2026-11-05 America/New_York. Hurts stays in phi-jalen-hurts-2023.json. Lane Johnson's 2026 year is an active cap charge (cap_active_while_roster_retired), not omitted for the retirement announcement. Hollywood Brown and Marquise Brown are one player; the deal is on hollywood_brown only.",
+ "contracts": [
+  {
+   "contract_id": "phi-andre-sam-2026",
+   "player_id": "ext_00-0039267",
+   "player_name": "Andre' Sam",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 2125000,
+   "aav": 1062500,
+   "source_url": "https://overthecap.com/player/andre-sam/11878/",
+   "source_note": "Over The Cap. Contract row: SFA, signed 2026, 2 yrs, total $2,125,000, APY $1,062,500, guarantees $0 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 540,000 from OTC PHI team sheet (Reserve/IR section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 540000
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-dameon-pierce-2026",
+   "player_id": "dameon_pierce",
+   "player_name": "Dameon Pierce",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 1215000,
+   "aav": 1215000,
+   "source_url": "https://overthecap.com/player/dameon-pierce/10152/",
+   "source_note": "Over The Cap. Contract row: SFA, signed 2026, 1 yrs, total $1,215,000, APY $1,215,000, guarantees $0 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 524,444 from OTC PHI team sheet (Reserve/IR section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 524444
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-johnny-wilson-2024",
+   "player_id": "ext_00-0039236",
+   "player_name": "Johnny Wilson",
+   "team": "PHI",
+   "signing_year": 2024,
+   "total_value": 4217008,
+   "aav": 1054252,
+   "source_url": "https://overthecap.com/player/johnny-wilson/11793/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2024, 4 yrs, total $4,217,008, APY $1,054,252, guarantees $197,008 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 589,252 from OTC PHI team sheet (Reserve/IR section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 589252
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-tank-bigsby-2023",
+   "player_id": "tank_bigsby",
+   "player_name": "Tank Bigsby",
+   "team": "PHI",
+   "signing_year": 2023,
+   "total_value": 5392918,
+   "aav": 1348230,
+   "source_url": "https://overthecap.com/player/tank-bigsby/10912/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2023, 4 yrs, total $5,392,918, APY $1,348,230, guarantees $922,120 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,485,399 from OTC PHI team sheet (Reserve/IR section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1485399
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-tucker-large-2026",
+   "player_id": "ext_00-0040929",
+   "player_name": "Tucker Large",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 3100000,
+   "aav": 1033333,
+   "source_url": "https://overthecap.com/player/tucker-large/13662/",
+   "source_note": "Over The Cap. Contract row: UDFA, signed 2026, 3 yrs, total $3,100,000, APY $1,033,333, guarantees $80,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 515,000 from OTC PHI team sheet (Reserve (other list) section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 515000
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-will-shipley-2024",
+   "player_id": "will_shipley",
+   "player_name": "Will Shipley",
+   "team": "PHI",
+   "signing_year": 2024,
+   "total_value": 4736964,
+   "aav": 1184241,
+   "source_url": "https://overthecap.com/player/will-shipley/11735/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2024, 4 yrs, total $4,736,964, APY $1,184,241, guarantees $716,964 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,254,241 from OTC PHI team sheet (Reserve/IR section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1254241
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-a-j-epenesa-2026",
+   "player_id": "ext_00-0036192",
+   "player_name": "A.J. Epenesa",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 1402500,
+   "aav": 1402500,
+   "source_url": "https://overthecap.com/player/a-j-epenesa/8794/",
+   "source_note": "Over The Cap. Contract row: SFA, signed 2026, 1 yrs, total $1,402,500, APY $1,402,500, guarantees $687,500 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,262,500 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1262500
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-andrew-mukuba-2025",
+   "player_id": "ext_00-0040749",
+   "player_name": "Andrew Mukuba",
+   "team": "PHI",
+   "signing_year": 2025,
+   "total_value": 7160538,
+   "aav": 1790135,
+   "source_url": "https://overthecap.com/player/andrew-mukuba/12424/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2025, 4 yrs, total $7,160,538, APY $1,790,135, guarantees $4,196,063 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,627,395 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1627395,
+     "base_salary": 1165479,
+     "signing_bonus_proration": 461916,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-arnold-ebiketie-2026",
+   "player_id": "ext_00-0038116",
+   "player_name": "Arnold Ebiketie",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 4300000,
+   "aav": 4300000,
+   "source_url": "https://overthecap.com/player/arnold-ebiketie/10083/",
+   "source_note": "Over The Cap. Contract row: UFA, signed 2026, 1 yrs, total $4,300,000, APY $4,300,000, guarantees $4,300,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,900,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1900000,
+     "base_salary": 1300000,
+     "signing_bonus_proration": 600000,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-braden-mann-2026",
+   "player_id": "ext_00-0036313",
+   "player_name": "Braden Mann",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 14000000,
+   "aav": 3500000,
+   "source_url": "https://overthecap.com/player/braden-mann/8931/",
+   "source_note": "Over The Cap. Contract row: UFA, signed 2026, 4 yrs, total $14,000,000, APY $3,500,000, guarantees $7,000,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,672,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1672000,
+     "base_salary": 1215000,
+     "signing_bonus_proration": 457000,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-britain-covey-2026",
+   "player_id": "britain_covey",
+   "player_name": "Britain Covey",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 1215000,
+   "aav": 1215000,
+   "source_url": "https://overthecap.com/player/britain-covey/10651/",
+   "source_note": "Over The Cap. Contract row: SFA, signed 2026, 1 yrs, total $1,215,000, APY $1,215,000, guarantees $0 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,015,278 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1015278
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-cole-payton-2026",
+   "player_id": "cole_payton",
+   "player_name": "Cole Payton",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 4759476,
+   "aav": 1189869,
+   "source_url": "https://overthecap.com/player/cole-payton/13322/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2026, 4 yrs, total $4,759,476, APY $1,189,869, guarantees $379,476 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 979,869 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 979869,
+     "base_salary": 885000,
+     "signing_bonus_proration": 94869,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-cooper-dejean-2024",
+   "player_id": "ext_00-0039841",
+   "player_name": "Cooper DeJean",
+   "team": "PHI",
+   "signing_year": 2024,
+   "total_value": 9283622,
+   "aav": 2320906,
+   "source_url": "https://overthecap.com/player/cooper-dejean/11648/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2024, 4 yrs, total $9,283,622, APY $2,320,906, guarantees $7,469,987 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 2,531,897 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 2531897,
+     "base_salary": 1638966,
+     "signing_bonus_proration": 892931,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-dallas-goedert-2026",
+   "player_id": "dallas_goedert",
+   "player_name": "Dallas Goedert",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 7000000,
+   "aav": 7000000,
+   "source_url": "https://overthecap.com/player/dallas-goedert/6934/",
+   "source_note": "Over The Cap. Contract row: Other, signed 2026, 1 yrs, total $7,000,000, APY $7,000,000, guarantees $7,000,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 10,230,880 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 10230880
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-darius-cooper-2025",
+   "player_id": "darius_cooper",
+   "player_name": "Darius Cooper",
+   "team": "PHI",
+   "signing_year": 2025,
+   "total_value": 2980000,
+   "aav": 993333,
+   "source_url": "https://overthecap.com/player/darius-cooper/12984/",
+   "source_note": "Over The Cap. Contract row: UDFA, signed 2025, 3 yrs, total $2,980,000, APY $993,333, guarantees $90,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,010,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1010000,
+     "base_salary": 1005000,
+     "signing_bonus_proration": 5000,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-dontayvion-wicks-2026",
+   "player_id": "dontayvion_wicks",
+   "player_name": "Dontayvion Wicks",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 10250000,
+   "aav": 10250000,
+   "source_url": "https://overthecap.com/player/dontayvion-wicks/10983/",
+   "source_note": "Over The Cap. Contract row: Extension, signed 2026, 1 yrs, total $10,250,000, APY $10,250,000, guarantees $9,000,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 2,316,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 2316000,
+     "base_salary": 1145000,
+     "signing_bonus_proration": 1171000,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-drew-kendall-2025",
+   "player_id": "ext_00-0040587",
+   "player_name": "Drew Kendall",
+   "team": "PHI",
+   "signing_year": 2025,
+   "total_value": 4555076,
+   "aav": 1138769,
+   "source_url": "https://overthecap.com/player/drew-kendall/12528/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2025, 4 yrs, total $4,555,076, APY $1,138,769, guarantees $355,076 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,093,769 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1093769,
+     "base_salary": 1005000,
+     "signing_bonus_proration": 88769,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-eli-stowers-2026",
+   "player_id": "eli_stowers",
+   "player_name": "Eli Stowers",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 8892964,
+   "aav": 2223241,
+   "source_url": "https://overthecap.com/player/eli-stowers/13198/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2026, 4 yrs, total $8,892,964, APY $2,223,241, guarantees $7,277,752 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,616,902 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1616902,
+     "base_salary": 885000,
+     "signing_bonus_proration": 731902,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-elijah-moore-2026",
+   "player_id": "elijah_moore",
+   "player_name": "Elijah Moore",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 1315000,
+   "aav": 1315000,
+   "source_url": "https://overthecap.com/player/elijah-moore/9498/",
+   "source_note": "Over The Cap. Contract row: SFA, signed 2026, 1 yrs, total $1,315,000, APY $1,315,000, guarantees $0 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,175,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1175000
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-fred-johnson-2026",
+   "player_id": "fred_johnson",
+   "player_name": "Fred Johnson",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 2100000,
+   "aav": 2100000,
+   "source_url": "https://overthecap.com/player/fred-johnson/8092/",
+   "source_note": "Over The Cap. Contract row: UFA, signed 2026, 1 yrs, total $2,100,000, APY $2,100,000, guarantees $800,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,460,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1460000,
+     "base_salary": 1300000,
+     "signing_bonus_proration": 160000,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-grant-calcaterra-2026",
+   "player_id": "grant_calcaterra",
+   "player_name": "Grant Calcaterra",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 2000000,
+   "aav": 2000000,
+   "source_url": "https://overthecap.com/player/grant-calcaterra/10243/",
+   "source_note": "Over The Cap. Contract row: UFA, signed 2026, 1 yrs, total $2,000,000, APY $2,000,000, guarantees $700,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,402,500 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1402500
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-jake-elliott-2026",
+   "player_id": "ext_00-0033787",
+   "player_name": "Jake Elliott",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 17000000,
+   "aav": 5666667,
+   "source_url": "https://overthecap.com/player/jake-elliott/5739/",
+   "source_note": "Over The Cap. Contract row: Other, signed 2026, 3 yrs, total $17,000,000, APY $5,666,667, guarantees $5,000,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 4,653,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 4653000
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-jake-majors-2026",
+   "player_id": "ext_00-0040422",
+   "player_name": "Jake Majors",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 885000,
+   "aav": 885000,
+   "source_url": "https://overthecap.com/player/jake-majors/12787/",
+   "source_note": "Over The Cap. Contract row: SFA, signed 2026, 1 yrs, total $885,000, APY $885,000, guarantees $0 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 688,333 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 688333
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-jalen-carter-2026",
+   "player_id": "ext_00-0038386",
+   "player_name": "Jalen Carter",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 152000000,
+   "aav": 38000000,
+   "source_url": "https://overthecap.com/player/jalen-carter/10833/",
+   "source_note": "Over The Cap. Contract row: Extension, signed 2026, 4 yrs, total $152,000,000, APY $38,000,000, guarantees $40,850,570 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 9,209,761 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 9209761,
+     "base_salary": 1145000,
+     "signing_bonus_proration": 7814761,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 250000,
+     "other_bonus": 0
+    },
+    {
+     "season": 2028,
+     "cap_hit": 15641114,
+     "base_salary": 1305000,
+     "signing_bonus_proration": 4600000,
+     "option_bonus_proration": 8476114,
+     "roster_bonus": 510000,
+     "workout_bonus": 750000
+    },
+    {
+     "season": 2029,
+     "cap_hit": 22364114,
+     "base_salary": 1350000,
+     "signing_bonus_proration": 4600000,
+     "option_bonus_proration": 15154114,
+     "roster_bonus": 510000,
+     "workout_bonus": 750000
+    },
+    {
+     "season": 2030,
+     "cap_hit": 29546114,
+     "base_salary": 1480000,
+     "signing_bonus_proration": 4600000,
+     "option_bonus_proration": 22206114,
+     "roster_bonus": 510000,
+     "workout_bonus": 750000
+    },
+    {
+     "season": 2031,
+     "cap_hit": 31998114,
+     "base_salary": 1480000,
+     "signing_bonus_proration": 0,
+     "option_bonus_proration": 29258114,
+     "roster_bonus": 510000,
+     "workout_bonus": 750000
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-jalyx-hunt-2024",
+   "player_id": "ext_00-0039740",
+   "player_name": "Jalyx Hunt",
+   "team": "PHI",
+   "signing_year": 2024,
+   "total_value": 5633034,
+   "aav": 1408259,
+   "source_url": "https://overthecap.com/player/jalyx-hunt/11702/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2024, 4 yrs, total $5,633,034, APY $1,408,259, guarantees $916,752 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,536,282 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1536282,
+     "base_salary": 1257094,
+     "signing_bonus_proration": 229188,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 50000,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-jaydon-blue-2026",
+   "player_id": "jaydon_blue",
+   "player_name": "Jaydon Blue",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 1005000,
+   "aav": 1005000,
+   "source_url": "https://overthecap.com/player/jaydon-blue/12509/",
+   "source_note": "Over The Cap. Contract row: SFA, signed 2026, 1 yrs, total $1,005,000, APY $1,005,000, guarantees $0 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 614,167 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 614167
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-jeremiah-trotter-jr-2024",
+   "player_id": "ext_00-0039826",
+   "player_name": "Jeremiah Trotter Jr.",
+   "team": "PHI",
+   "signing_year": 2024,
+   "total_value": 4348468,
+   "aav": 1087117,
+   "source_url": "https://overthecap.com/player/jeremiah-trotter-jr/11763/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2024, 4 yrs, total $4,348,468, APY $1,087,117, guarantees $328,468 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,157,117 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1157117,
+     "base_salary": 1075000,
+     "signing_bonus_proration": 82117,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-jihaad-campbell-2025",
+   "player_id": "ext_00-0040708",
+   "player_name": "Jihaad Campbell",
+   "team": "PHI",
+   "signing_year": 2025,
+   "total_value": 14903574,
+   "aav": 3725894,
+   "source_url": "https://overthecap.com/player/jihaad-campbell/12391/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2025, 4 yrs, total $14,903,574, APY $3,725,894, guarantees $14,903,574 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 3,387,176 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 3387176,
+     "base_salary": 1005000,
+     "signing_bonus_proration": 1869741,
+     "option_bonus_proration": 0,
+     "roster_bonus": 512435,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-joe-milton-iii-2026",
+   "player_id": "joe_milton_iii",
+   "player_name": "Joe Milton III",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 1075000,
+   "aav": 1075000,
+   "source_url": "https://overthecap.com/player/joe-milton-iii/11801/",
+   "source_note": "Over The Cap. Contract row: SFA, signed 2026, 1 yrs, total $1,075,000, APY $1,075,000, guarantees $0 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 776,389 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 776389
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-johnny-mundt-2026",
+   "player_id": "johnny_mundt",
+   "player_name": "Johnny Mundt",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 1500000,
+   "aav": 1500000,
+   "source_url": "https://overthecap.com/player/johnny-mundt/5857/",
+   "source_note": "Over The Cap. Contract row: SFA, signed 2026, 1 yrs, total $1,500,000, APY $1,500,000, guarantees $750,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,340,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1340000,
+     "base_salary": 1300000,
+     "signing_bonus_proration": 40000,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-jonathan-greenard-2026",
+   "player_id": "ext_00-0036224",
+   "player_name": "Jonathan Greenard",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 60000000,
+   "aav": 30000000,
+   "source_url": "https://overthecap.com/player/jonathan-greenard/8830/",
+   "source_note": "Over The Cap. Contract row: Extension, signed 2026, 2 yrs, total $60,000,000, APY $30,000,000, guarantees $50,000,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 6,278,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 6278000
+    },
+    {
+     "season": 2028,
+     "cap_hit": 15796000,
+     "base_salary": 1390000,
+     "signing_bonus_proration": 4703000,
+     "option_bonus_proration": 8953000,
+     "roster_bonus": 510000,
+     "workout_bonus": 240000
+    },
+    {
+     "season": 2029,
+     "cap_hit": 20204000,
+     "base_salary": 1435000,
+     "signing_bonus_proration": 4703000,
+     "option_bonus_proration": 13316000,
+     "roster_bonus": 510000,
+     "workout_bonus": 240000
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-jonathan-jones-2026",
+   "player_id": "ext_00-0032580",
+   "player_name": "Jonathan Jones",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 2000000,
+   "aav": 2000000,
+   "source_url": "https://overthecap.com/player/jonathan-jones/5225/",
+   "source_note": "Over The Cap. Contract row: UFA, signed 2026, 1 yrs, total $2,000,000, APY $2,000,000, guarantees $2,000,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,440,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1440000
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-jordan-davis-2026",
+   "player_id": "ext_00-0037073",
+   "player_name": "Jordan Davis",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 78000000,
+   "aav": 26000000,
+   "source_url": "https://overthecap.com/player/jordan-davis/10058/",
+   "source_note": "Over The Cap. Contract row: Extension, signed 2026, 3 yrs, total $78,000,000, APY $26,000,000, guarantees $38,938,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 5,072,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 5072000,
+     "base_salary": 1215000,
+     "signing_bonus_proration": 3857000,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-jordan-mailata-2024",
+   "player_id": "jordan_mailata",
+   "player_name": "Jordan Mailata",
+   "team": "PHI",
+   "signing_year": 2024,
+   "total_value": 66000000,
+   "aav": 22000000,
+   "source_url": "https://overthecap.com/player/jordan-mailata/7118/",
+   "source_note": "Over The Cap. Contract row: Extension, signed 2024, 3 yrs, total $66,000,000, APY $22,000,000, guarantees $41,000,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 15,855,233 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 15855233,
+     "base_salary": 1300000,
+     "signing_bonus_proration": 8174233,
+     "option_bonus_proration": 5881000,
+     "roster_bonus": 0,
+     "workout_bonus": 500000,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-kelee-ringo-2023",
+   "player_id": "ext_00-0039140",
+   "player_name": "Kelee Ringo",
+   "team": "PHI",
+   "signing_year": 2023,
+   "total_value": 4660928,
+   "aav": 1165232,
+   "source_url": "https://overthecap.com/player/kelee-ringo/10929/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2023, 4 yrs, total $4,660,928, APY $1,165,232, guarantees $820,928 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,350,232 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1350232,
+     "base_salary": 1145000,
+     "signing_bonus_proration": 205232,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-kenny-moore-ii-2026",
+   "player_id": "ext_00-0033393",
+   "player_name": "Kenny Moore II",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 1300000,
+   "aav": 1300000,
+   "source_url": "https://overthecap.com/player/kenny-moore/6132/",
+   "source_note": "Over The Cap. Contract row: SFA, signed 2026, 1 yrs, total $1,300,000, APY $1,300,000, guarantees $0 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,583,333 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1583333
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-landon-dickerson-2024",
+   "player_id": "ext_00-0037002",
+   "player_name": "Landon Dickerson",
+   "team": "PHI",
+   "signing_year": 2024,
+   "total_value": 84000000,
+   "aav": 21000000,
+   "source_url": "https://overthecap.com/player/landon-dickerson/9501/",
+   "source_note": "Over The Cap. Contract row: Extension, signed 2024, 4 yrs, total $84,000,000, APY $21,000,000, guarantees $28,890,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 10,275,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 10275000,
+     "base_salary": 1215000,
+     "signing_bonus_proration": 4019000,
+     "option_bonus_proration": 4891000,
+     "roster_bonus": 0,
+     "workout_bonus": 150000,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-mac-mcwilliams-2025",
+   "player_id": "ext_00-0040071",
+   "player_name": "Mac McWilliams",
+   "team": "PHI",
+   "signing_year": 2025,
+   "total_value": 4644120,
+   "aav": 1161030,
+   "source_url": "https://overthecap.com/player/mac-mcwilliams/12505/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2025, 4 yrs, total $4,644,120, APY $1,161,030, guarantees $444,120 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,116,030 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1116030,
+     "base_salary": 1005000,
+     "signing_bonus_proration": 111030,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-makai-lemon-2026",
+   "player_id": "makai_lemon",
+   "player_name": "Makai Lemon",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 20810386,
+   "aav": 5202597,
+   "source_url": "https://overthecap.com/player/makai-lemon/13164/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2026, 4 yrs, total $20,810,386, APY $5,202,597, guarantees $20,810,386 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 3,783,706 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 3783706,
+     "base_salary": 885000,
+     "signing_bonus_proration": 2898706,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-marcus-epps-2026",
+   "player_id": "ext_00-0034993",
+   "player_name": "Marcus Epps",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 1550000,
+   "aav": 1550000,
+   "source_url": "https://overthecap.com/player/marcus-epps/7982/",
+   "source_note": "Over The Cap. Contract row: UFA, signed 2026, 1 yrs, total $1,550,000, APY $1,550,000, guarantees $125,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,450,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1450000,
+     "base_salary": 1300000,
+     "signing_bonus_proration": 25000,
+     "option_bonus_proration": 0,
+     "roster_bonus": 125000,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-markel-bell-2026",
+   "player_id": "ext_00-0041554",
+   "player_name": "Markel Bell",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 7360984,
+   "aav": 1840246,
+   "source_url": "https://overthecap.com/player/markel-bell/13212/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2026, 4 yrs, total $7,360,984, APY $1,840,246, guarantees $1,813,444 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,338,361 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1338361,
+     "base_salary": 885000,
+     "signing_bonus_proration": 453361,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-marquise-brown-2026",
+   "player_id": "hollywood_brown",
+   "player_name": "Hollywood Brown",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 5000000,
+   "aav": 5000000,
+   "source_url": "https://overthecap.com/player/marquise-brown/7816/",
+   "source_note": "Over The Cap. Contract row: UFA, signed 2026, 1 yrs, total $5,000,000, APY $5,000,000, guarantees $5,000,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 2,040,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. Registry row is Hollywood Brown (hollywood_brown). OTC lists the same player as Marquise Brown. One contract.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 2040000,
+     "base_salary": 1300000,
+     "signing_bonus_proration": 740000,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-micah-morris-2026",
+   "player_id": "ext_00-0040897",
+   "player_name": "Micah Morris",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 4635764,
+   "aav": 1158941,
+   "source_url": "https://overthecap.com/player/micah-morris/13351/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2026, 4 yrs, total $4,635,764, APY $1,158,941, guarantees $255,764 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 948,941 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 948941,
+     "base_salary": 885000,
+     "signing_bonus_proration": 63941,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-michael-carter-ii-2026",
+   "player_id": "ext_00-0036501",
+   "player_name": "Michael Carter II",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 2750000,
+   "aav": 2750000,
+   "source_url": "https://overthecap.com/player/michael-carter-ii/9618/",
+   "source_note": "Over The Cap. Contract row: Other, signed 2026, 1 yrs, total $2,750,000, APY $2,750,000, guarantees $1,450,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,420,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1420000
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-moro-ojomo-2023",
+   "player_id": "ext_00-0038412",
+   "player_name": "Moro Ojomo",
+   "team": "PHI",
+   "signing_year": 2023,
+   "total_value": 3917784,
+   "aav": 979446,
+   "source_url": "https://overthecap.com/player/moro-ojomo/11073/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2023, 4 yrs, total $3,917,784, APY $979,446, guarantees $77,784 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 3,693,446 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 3693446,
+     "base_salary": 3674000,
+     "signing_bonus_proration": 19446,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-nolan-smith-2023",
+   "player_id": "ext_00-0039013",
+   "player_name": "Nolan Smith",
+   "team": "PHI",
+   "signing_year": 2023,
+   "total_value": 11992416,
+   "aav": 2998104,
+   "source_url": "https://overthecap.com/player/nolan-smith/10854/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2023, 4 yrs, total $11,992,416, APY $2,998,104, guarantees $11,992,416 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 2,823,505 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 2823505,
+     "base_salary": 1145000,
+     "signing_bonus_proration": 1678505,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-quinyon-mitchell-2024",
+   "player_id": "ext_00-0039888",
+   "player_name": "Quinyon Mitchell",
+   "team": "PHI",
+   "signing_year": 2024,
+   "total_value": 14818096,
+   "aav": 3704524,
+   "source_url": "https://overthecap.com/player/quinyon-mitchell/11630/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2024, 4 yrs, total $14,818,096, APY $3,704,524, guarantees $14,818,096 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 4,041,299 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 4041299,
+     "base_salary": 1075000,
+     "signing_bonus_proration": 1899199,
+     "option_bonus_proration": 0,
+     "roster_bonus": 1067100,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-riq-woolen-2026",
+   "player_id": "ext_00-0037079",
+   "player_name": "Riq Woolen",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 12000000,
+   "aav": 12000000,
+   "source_url": "https://overthecap.com/player/tariq-woolen/10198/",
+   "source_note": "Over The Cap. Contract row: UFA, signed 2026, 1 yrs, total $12,000,000, APY $12,000,000, guarantees $12,000,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 3,408,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 3408000
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-rocco-underwood-2026",
+   "player_id": "ext_00-0040925",
+   "player_name": "Rocco Underwood",
+   "team": "PHI",
+   "signing_year": 2026,
+   "total_value": 3120000,
+   "aav": 1040000,
+   "source_url": "https://overthecap.com/player/rocco-underwood/13661/",
+   "source_note": "Over The Cap. Contract row: UDFA, signed 2026, 3 yrs, total $3,120,000, APY $1,040,000, guarantees $20,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 891,666 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 891666,
+     "base_salary": 885000,
+     "signing_bonus_proration": 6666,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-saquon-barkley-2025",
+   "player_id": "saquon_barkley",
+   "player_name": "Saquon Barkley",
+   "team": "PHI",
+   "signing_year": 2025,
+   "total_value": 41200000,
+   "aav": 20600000,
+   "source_url": "https://overthecap.com/player/saquon-barkley/6887/",
+   "source_note": "Over The Cap. Contract row: Extension, signed 2025, 2 yrs, total $41,200,000, APY $20,600,000, guarantees $36,000,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 9,881,100 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 9881100
+    },
+    {
+     "season": 2027,
+     "cap_hit": 13057100,
+     "base_salary": 1345000,
+     "signing_bonus_proration": 2475000,
+     "option_bonus_proration": 8987000,
+     "roster_bonus": 100,
+     "workout_bonus": 250000
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-smael-mondon-jr-2025",
+   "player_id": "ext_00-0040013",
+   "player_name": "Smael Mondon Jr.",
+   "team": "PHI",
+   "signing_year": 2025,
+   "total_value": 4595460,
+   "aav": 1148865,
+   "source_url": "https://overthecap.com/player/smael-mondon-jr/12521/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2025, 4 yrs, total $4,595,460, APY $1,148,865, guarantees $395,460 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,103,865 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1103865,
+     "base_salary": 1005000,
+     "signing_bonus_proration": 98865,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-tanner-mckee-2023",
+   "player_id": "tanner_mckee",
+   "player_name": "Tanner McKee",
+   "team": "PHI",
+   "signing_year": 2023,
+   "total_value": 4026520,
+   "aav": 1006630,
+   "source_url": "https://overthecap.com/player/tanner-mckee/11012/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2023, 4 yrs, total $4,026,520, APY $1,006,630, guarantees $186,520 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,191,630 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1191630,
+     "base_salary": 1145000,
+     "signing_bonus_proration": 46630,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-ty-robinson-2025",
+   "player_id": "ext_00-0040662",
+   "player_name": "Ty Robinson",
+   "team": "PHI",
+   "signing_year": 2025,
+   "total_value": 5235668,
+   "aav": 1308917,
+   "source_url": "https://overthecap.com/player/ty-robinson/12471/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2025, 4 yrs, total $5,235,668, APY $1,308,917, guarantees $1,035,668 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,263,917 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1263917,
+     "base_salary": 1005000,
+     "signing_bonus_proration": 258917,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-tyler-steen-2023",
+   "player_id": "ext_00-0039001",
+   "player_name": "Tyler Steen",
+   "team": "PHI",
+   "signing_year": 2023,
+   "total_value": 5750440,
+   "aav": 1437610,
+   "source_url": "https://overthecap.com/player/tyler-steen/10889/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2023, 4 yrs, total $5,750,440, APY $1,437,610, guarantees $1,182,136 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 3,969,534 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 3969534,
+     "base_salary": 3624000,
+     "signing_bonus_proration": 295534,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 50000,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-willie-lampkin-2025",
+   "player_id": "ext_00-0040631",
+   "player_name": "Willie Lampkin",
+   "team": "PHI",
+   "signing_year": 2025,
+   "total_value": 2995000,
+   "aav": 998333,
+   "source_url": "https://overthecap.com/player/willie-lampkin/12775/",
+   "source_note": "Over The Cap. Contract row: UDFA, signed 2025, 3 yrs, total $2,995,000, APY $998,333, guarantees $30,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 885,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 885000,
+     "base_salary": 885000,
+     "signing_bonus_proration": 0,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-zack-baun-2025",
+   "player_id": "ext_00-0036418",
+   "player_name": "Zack Baun",
+   "team": "PHI",
+   "signing_year": 2025,
+   "total_value": 51000000,
+   "aav": 17000000,
+   "source_url": "https://overthecap.com/player/zack-baun/8814/",
+   "source_note": "Over The Cap. Contract row: UFA, signed 2025, 3 yrs, total $51,000,000, APY $17,000,000, guarantees $34,000,000 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 7,638,000 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial. 2026 component columns omitted: they do not add to the OTC cap number (in-season/partial-season proration).",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 7638000
+    },
+    {
+     "season": 2027,
+     "cap_hit": 11899000,
+     "base_salary": 1345000,
+     "signing_bonus_proration": 3216000,
+     "option_bonus_proration": 6088000,
+     "roster_bonus": 1000000,
+     "workout_bonus": 250000
+    },
+    {
+     "season": 2028,
+     "cap_hit": 10694000,
+     "base_salary": 1390000,
+     "signing_bonus_proration": 3216000,
+     "option_bonus_proration": 6088000,
+     "roster_bonus": 0,
+     "workout_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-devonta-smith-2024",
+   "player_id": "devonta_smith",
+   "player_name": "DeVonta Smith",
+   "team": "PHI",
+   "signing_year": 2024,
+   "total_value": 75000000,
+   "aav": 25000000,
+   "source_url": "https://overthecap.com/player/devonta-smith/9474/",
+   "source_note": "Over The Cap. Contract row: Extension, signed 2024, 3 yrs, total $75,000,000, APY $25,000,000, guarantees $33,997,554 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 10,726,510 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 10726510,
+     "base_salary": 1215000,
+     "signing_bonus_proration": 4070310,
+     "option_bonus_proration": 4691200,
+     "roster_bonus": 510000,
+     "workout_bonus": 240000,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-byron-young-2023",
+   "player_id": "ext_00-0038978",
+   "player_name": "Byron Young",
+   "team": "PHI",
+   "signing_year": 2023,
+   "total_value": 5668710,
+   "aav": 1417178,
+   "source_url": "https://overthecap.com/player/byron-young/10894/",
+   "source_note": "Over The Cap. Contract row: Drafted, signed 2023, 4 yrs, total $5,668,710, APY $1,417,178, guarantees $1,122,696 (OTC total guarantee, unsplit, so guarantee columns left blank). 2026 cap hit 1,523,007 from OTC PHI team sheet (active section). Later seasons only where base+prorations+roster+workout equal the cap number; void years and non-adding rows omitted; years field left blank because seasons are partial.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 1523007,
+     "base_salary": 1523007,
+     "signing_bonus_proration": 0,
+     "option_bonus_proration": 0,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  },
+  {
+   "contract_id": "phi-lane-johnson-2025",
+   "player_id": "ext_00-0030561",
+   "player_name": "Lane Johnson",
+   "team": "PHI",
+   "signing_year": 2025,
+   "total_value": 25000000,
+   "aav": 25000000,
+   "source_url": "https://overthecap.com/player/lane-johnson/2185",
+   "source_note": "Over The Cap. Contract history row: Extension, signed 2025, 1 yr, total $25,000,000, APY $25,000,000, guarantees $25,000,000 (OTC total on that row, unsplit, so guarantee columns left blank). OTC contract notes also say the one-year extension plus two remaining years on the prior deal is $65,000,000, with $40,000,000 now guaranteed of which $25,000,000 is fully guaranteed at signing; those larger totals are not stored as total_value. 2026 cap hit $20,299,000 is on the OTC PHI active roster: base $1,300,000 + signing proration $9,910,000 + option proration $9,089,000. cap_active_while_roster_retired is set on 2026 only, so membership other/RET still counts this hit as an active charge and does not turn it into dead money. Johnson announced his retirement in October 2026; OTC still lists the 2026 hit as active, and the Eagles are keeping him on the roster for cap purposes until about June 2, 2027 (Over The Cap retirement analysis; NBC Sports / ProFootballTalk). This flag does not change roster membership or the depth chart. 2027 is the OTC contract line whose components add to $21,090,000 and is not a processed dead-money figure. Void years omitted. Years left blank because the imported seasons are partial. No option-bonus repayment is applied: OTC's published 2026 cap number is still $20,299,000. OTC and NBC describe a $21,700,000 2026 option whose unpaid portion and repayment amount are not final.",
+   "seasons": [
+    {
+     "season": 2026,
+     "cap_hit": 20299000,
+     "base_salary": 1300000,
+     "signing_bonus_proration": 9910000,
+     "option_bonus_proration": 9089000,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0,
+     "cap_active_while_roster_retired": true
+    },
+    {
+     "season": 2027,
+     "cap_hit": 21090000,
+     "base_salary": 1345000,
+     "signing_bonus_proration": 7525000,
+     "option_bonus_proration": 12220000,
+     "roster_bonus": 0,
+     "workout_bonus": 0,
+     "other_bonus": 0
+    }
+   ]
+  }
+ ],
+ "adjustments": [
+  {
+   "team": "PHI",
+   "season": 2026,
+   "carryover": 0,
+   "adjustments": -73200759,
+   "note": "Net of Over The Cap PHI 2026 lines not attached to a DB roster contract (fetched 2026-11-05): +$14,896,635 cap room above the $301,200,000 league cap (OTC Total Cap Liabilities $306,924,060 + Team Cap Space $9,172,575 = $316,096,635; carryover/other split not published on the page, so kept as one number), -$82,776,143 dead money (OTC dead-money table total), -$4,176,251 practice squad (OTC PS table total), -$1,145,000 Jakorian Bennett (OTC Reserve/IR cap hit; no contract row in this file, so the hit is carried here once. Registry roster_status is RES — do not also add a contract or this hit would be counted twice). Lane Johnson $20,299,000 is a roster contract with cap_active_while_roster_retired on 2026, not part of this adjustment. With him counted, PHI in-season space is $9,172,575, matching OTC."
+  }
+ ]
+}

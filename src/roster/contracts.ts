@@ -43,6 +43,7 @@ export interface ContractYearRow {
   team_option: number;
   player_option: number;
   void_year: number;
+  cap_active_while_roster_retired: number;
 }
 
 export interface PlayerContract {
@@ -210,7 +211,11 @@ function parseContract(
       guarantee_other: dollars(year.guarantee_other, `${contractId} ${season} guarantee_other`, false),
       team_option: teamOption,
       player_option: playerOption,
-      void_year: flag(year.void_year, `${contractId} ${season} void_year`)
+      void_year: flag(year.void_year, `${contractId} ${season} void_year`),
+      cap_active_while_roster_retired: flag(
+        year.cap_active_while_roster_retired,
+        `${contractId} ${season} cap_active_while_roster_retired`
+      )
     });
   }
   const term = dollars(row.years, `${contractId} years`, false);
@@ -295,8 +300,8 @@ export function importContractSnapshot(db: DatabaseSync, options: ImportOptions)
       contract_id, season, cap_hit, dead_money, base_salary, signing_bonus_proration,
       option_bonus_proration, roster_bonus, workout_bonus, other_bonus,
       guarantee_signing, guarantee_roster, guarantee_injury, guarantee_other,
-      team_option, player_option, void_year
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      team_option, player_option, void_year, cap_active_while_roster_retired
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const insertAdjustment = db.prepare(`
     INSERT INTO team_cap_adjustments(team_abbr, season, carryover, adjustments, note)
@@ -357,7 +362,8 @@ export function importContractSnapshot(db: DatabaseSync, options: ImportOptions)
           year.guarantee_other,
           year.team_option,
           year.player_option,
-          year.void_year
+          year.void_year,
+          year.cap_active_while_roster_retired
         );
         contractYears++;
       }
@@ -409,6 +415,7 @@ export function loadCapSheet(
       cy.cap_hit,
       cy.dead_money,
       cy.void_year,
+      cy.cap_active_while_roster_retired,
       m.status AS membership_status,
       m.team_abbr AS membership_team
     FROM contract_years cy
@@ -423,6 +430,7 @@ export function loadCapSheet(
     cap_hit: number;
     dead_money: number | null;
     void_year: number;
+    cap_active_while_roster_retired: number;
     membership_status: string | null;
     membership_team: string | null;
   }[];
@@ -436,7 +444,8 @@ export function loadCapSheet(
       capHit: row.cap_hit,
       deadMoney: row.dead_money,
       voidYear: row.void_year === 1,
-      membershipStatus: status
+      membershipStatus: status,
+      capActiveWhileRosterRetired: row.cap_active_while_roster_retired === 1
     };
   });
 
@@ -540,7 +549,7 @@ function loadContract(db: DatabaseSync, contractId: string, season: number): Pla
   const seasons = db.prepare(`
     SELECT season, cap_hit, dead_money, base_salary, signing_bonus_proration, option_bonus_proration,
       roster_bonus, workout_bonus, other_bonus, guarantee_signing, guarantee_roster, guarantee_injury,
-      guarantee_other, team_option, player_option, void_year
+      guarantee_other, team_option, player_option, void_year, cap_active_while_roster_retired
     FROM contract_years
     WHERE contract_id = ?
     ORDER BY season
