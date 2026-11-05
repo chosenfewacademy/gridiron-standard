@@ -15,6 +15,7 @@ import { runGrokBotTransportTests } from "./grok-bot-transport-tests.js";
 import { runRosterRefreshTests, runStageEngineTests, runCoverageGateTests } from "./stage-tests.js";
 import { runReauditTests } from "./reaudit-tests.js";
 import { runMaddenOvrTests } from "./madden-ovr-tests.js";
+import { runRosterDbTests } from "./roster-db-tests.js";
 import { runWeeklyUpdateTests } from "./weekly-update-tests.js";
 import { runStrictnessTests, runPositionArchitectureTests } from "./strictness-tests.js";
 
@@ -120,3 +121,4 @@ await runResearchPhaseTests();
 await runResumableEvidenceTests();
 await runOpenAIResponsesTransportTests();
 await runMaddenOvrTests();
+runRosterDbTests(test);

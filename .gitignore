@@ -5,3 +5,9 @@ dist/
 .DS_Store
 .gridiron-runtime/
 research-inbox/_cache/
+
+# Derived roster database. Rebuild with npm run roster:seed.
+data/roster/*.sqlite
+data/roster/*.sqlite-wal
+data/roster/*.sqlite-shm
+data/roster/*.db
