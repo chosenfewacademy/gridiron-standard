@@ -1,0 +1,12 @@
+{
+  "seasons": [
+    {
+      "season": 2026,
+      "league_cap": 301200000,
+      "accounting_rule": "in_season",
+      "source_name": "NFL.com",
+      "source_url": "https://www.nfl.com/news/nfl-announces-2026-salary-cap-set-at-301-2-million-per-team",
+      "note": "The NFL announced a 2026 salary cap of $301.2 million per club, $22 million above the 2025 cap of $279.2 million (NFL.com). Default accounting is in_season: the 2026 league year began 2026-03-11 and the regular season began 2026-09-09 (Spotrac CBA calendar). Top-51 is the offseason rule and is available with --rule top51. This file is the league limit only. It is not a team cap sheet and it does not imply any player contract."
+    }
+  ]
+}

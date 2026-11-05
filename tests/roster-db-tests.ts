@@ -301,7 +301,9 @@ export function runRosterDbTests(test: T): void {
         positions: Record<string, { baseline_file: string; status: string }>;
       };
       const status = rosterStatus(db);
-      assert.equal(status.schema_version, 1);
+      assert.equal(status.schema_version, 2);
+      assert.equal(status.league_cap, 301200000);
+      assert.equal(status.contracts, 1);
       assert.equal(status.warning_counts.NEWER_BASELINE_NOT_LOCKED, undefined);
       for (const [position, entry] of Object.entries(locks.positions)) {
         const row = status.baselines.find(baseline => baseline.position === position);
@@ -359,7 +361,12 @@ export function runRosterDbTests(test: T): void {
       assert.equal(wirfs[0]?.ovr, listed.ovr);
       assert.notEqual(wirfs[0]?.ovr, tackle.full_cards["Tristan Wirfs"].ovr);
 
-      assert.equal(count(db, "contracts"), 0);
+      const hurts = db.prepare(`
+        SELECT cy.cap_hit FROM contract_years cy
+        JOIN contracts c ON c.contract_id = cy.contract_id
+        WHERE c.player_id = 'jalen_hurts' AND cy.season = 2026
+      `).get() as { cap_hit: number };
+      assert.equal(hurts.cap_hit, 31971800);
       assert.equal(count(db, "trades"), 0);
       assert.equal(count(db, "draft_prospects"), 0);
     } finally {

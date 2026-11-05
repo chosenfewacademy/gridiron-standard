@@ -70,11 +70,11 @@ A card links to `players.player_id` when the audit id, the name slug, or a uniqu
 
 `roster/migrations/001_phase1.sql` is migration 1. `src/roster/db.ts` records it in `schema_migrations` and skips it once applied. Statements use `IF NOT EXISTS`, so a partially applied file can be retried. `roster:seed` normally deletes the sqlite file first, so a clone always gets a clean migration 1.
 
-Phase 2–5 tables are created empty. Nothing writes them yet.
+Phase 2 replaced the contract and cap stubs. See `docs/roster-db-phase2.md` and `docs/roster-ui.md`. Free agency, the draft, and team-building tables are still empty.
 
-| Later phase | Empty tables | Not in Phase 1 |
+| Later phase | Tables | Not in Phase 1 |
 | --- | --- | --- |
-| 2. Contracts and salary cap | `contracts`, `salary_cap`, `team_cap_ledger` | Years, AAV, guarantees, cap hits, dead money |
+| 2. Contracts and salary cap | `contracts`, `contract_years`, `salary_cap`, `team_cap_ledger` | Implemented in Phase 2. Phase 1 only created empty shells. |
 | 3. Free agency | `free_agent_market` (the `FA` flag already exists) | Bidding, visits, offer sheets |
 | 4. Draft class builders | `draft_classes`, `draft_prospects` | Class generation, pick ownership |
 | 5. Trades and team building | `trades`, `trade_assets`, `team_build_profiles` | Fairness / value rater, rebuild vs contender, buy-low / sell-high |

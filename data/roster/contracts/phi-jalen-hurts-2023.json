@@ -1,0 +1,55 @@
+{
+  "source_name": "Over The Cap",
+  "source_url": "https://overthecap.com/player/jalen-hurts/8793",
+  "source_note": "One sourced deal, not a league import. Headline figures that Over The Cap and Spotrac both publish: 5 years, $255,000,000 total, $51,000,000 average. Fully guaranteed $110,000,000 is the Over The Cap figure; Spotrac publishes a larger guaranteed total ($179,399,000) under a different split, so guarantee components are left blank. Year rows are the 2023-2027 Over The Cap lines whose base salary, signing proration, and option proration add up to the listed cap hit. The 2028 line is omitted because those components do not add up to the cap number on the same page. Void years are omitted rather than reconstructed. Spotrac's 2026 cap hit is $31,981,320 because it adds a $9,520 workout bonus that is not in the Over The Cap cap number imported here ($31,971,800). Option-bonus prorations are not team-option or player-option years.",
+  "contracts": [
+    {
+      "contract_id": "phi-jalen-hurts-2023",
+      "player_id": "jalen_hurts",
+      "player_name": "Jalen Hurts",
+      "team": "PHI",
+      "signing_year": 2023,
+      "years": 5,
+      "total_value": 255000000,
+      "aav": 51000000,
+      "fully_guaranteed": 110000000,
+      "seasons": [
+        {
+          "season": 2023,
+          "cap_hit": 6154286,
+          "base_salary": 1010000,
+          "signing_bonus_proration": 5144286,
+          "option_bonus_proration": 0
+        },
+        {
+          "season": 2024,
+          "cap_hit": 13558800,
+          "base_salary": 1125000,
+          "signing_bonus_proration": 4658800,
+          "option_bonus_proration": 7775000
+        },
+        {
+          "season": 2025,
+          "cap_hit": 21869800,
+          "base_salary": 1170000,
+          "signing_bonus_proration": 4658800,
+          "option_bonus_proration": 16041000
+        },
+        {
+          "season": 2026,
+          "cap_hit": 31971800,
+          "base_salary": 1215000,
+          "signing_bonus_proration": 4658800,
+          "option_bonus_proration": 26098000
+        },
+        {
+          "season": 2027,
+          "cap_hit": 42132800,
+          "base_salary": 1345000,
+          "signing_bonus_proration": 4658800,
+          "option_bonus_proration": 36129000
+        }
+      ]
+    }
+  ]
+}

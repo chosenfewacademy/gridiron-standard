@@ -1,3 +1,4 @@
+import { capSummary } from "./contracts.js";
 import type { DatabaseSync } from "./db.js";
 import { DEFAULT_SEASON } from "./db.js";
 import type { MembershipStatus } from "./membership.js";
@@ -74,6 +75,12 @@ export interface RosterStatus {
   warnings: number;
   warning_counts: Record<string, number>;
   top10_without_team: number;
+  contracts: number;
+  contract_years: number;
+  cap_seasons: number;
+  league_cap: number | null;
+  accounting_rule: string | null;
+  teams_with_contracts: number;
   baselines: BaselineStatusRow[];
 }
 
@@ -108,6 +115,7 @@ export function rosterStatus(db: DatabaseSync): RosterStatus {
   `).all() as { code: string; n: number }[];
   const warningCounts: Record<string, number> = {};
   for (const row of warningRows) warningCounts[row.code] = Number(row.n);
+  const cap = capSummary(db, typeof run?.season === "number" ? run.season : null);
   const baselines = db.prepare(`
     SELECT
       b.position,
@@ -140,6 +148,12 @@ export function rosterStatus(db: DatabaseSync): RosterStatus {
       LEFT JOIN players p ON p.player_id = c.player_id
       WHERE c.pool_role = 'TOP10' AND (c.player_id IS NULL OR p.team_abbr IS NULL)
     `),
+    contracts: cap.contracts,
+    contract_years: cap.contract_years,
+    cap_seasons: cap.cap_seasons,
+    league_cap: cap.league_cap,
+    accounting_rule: cap.accounting_rule,
+    teams_with_contracts: cap.teams_with_contracts,
     baselines
   };
 }
