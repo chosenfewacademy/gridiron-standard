@@ -1,0 +1,5061 @@
+{
+  "generated_at": "2026-11-05 20:45 ET (America/New_York)",
+  "document_type": "ANALYST_FINAL_PROPOSAL_AND_AUDIT",
+  "not_a_baseline_lock": true,
+  "not_a_page_update": true,
+  "replaces_locked_files": false,
+  "draft_sources": [
+    "/workspace/top10-final-proposed-rankings.md",
+    "/workspace/top10-final-proposed-rankings.json",
+    "/workspace/top10-blended-comparison-packet.json"
+  ],
+  "research_sources": [
+    "/workspace/top10-offense-front-research.json",
+    "/workspace/top10-offense-front-research.md",
+    "/workspace/top10-coverage-specialists-research.json",
+    "/workspace/top10-coverage-specialists-research.md",
+    "/workspace/top10-rerank-audit.json",
+    "/workspace/gridiron-standard/docs/*-reaudit-final.md"
+  ],
+  "policy": {
+    "ratings_mean": "real player performance, characteristics, and playing styles — NOT healthy-availability rankings",
+    "current_form_primary_when": "adequate 2026 sample exists",
+    "prior_elite_remains_evidence": true,
+    "availability_flag_visible": true,
+    "do_not_erase_for_missing_snaps": true,
+    "ratings_drive_probabilities_not_outcomes": true,
+    "seasonal_weights": "declared comparison convention only — NOT calibrated 65/35 formula",
+    "pff_is_not_the_rank": true,
+    "ea_is_not_ours": true,
+    "engine_may_stay_strict": true,
+    "analyst_publishes_full_order_with_uncertainty": true,
+    "low_stays_low": true
+  },
+  "coverage": {
+    "boards_with_explicit_top10_and_first_out": 22,
+    "boards_engine_complete": 1,
+    "boards_analyst_full_order_published": 22,
+    "boards_provisional_thin": [
+      "FB",
+      "LS",
+      "SAM (bottom half)"
+    ],
+    "offense_front_cross_checked": [
+      "QB",
+      "RB",
+      "WR",
+      "TE",
+      "LT",
+      "LG",
+      "C",
+      "RG",
+      "RT",
+      "LEDGE",
+      "REDGE",
+      "DT",
+      "FB"
+    ],
+    "coverage_specialists_context_only": [
+      "MIKE",
+      "WILL",
+      "SAM",
+      "CB",
+      "FS",
+      "SS",
+      "K",
+      "P",
+      "LS"
+    ],
+    "critical_players_restored_or_flagged": [
+      "Myles Garrett",
+      "Micah Parsons",
+      "De'Von Achane",
+      "Brian Burns",
+      "Fred Warner",
+      "Derwin James",
+      "Brian Branch"
+    ]
+  },
+  "material_corrections_from_prior_draft": [
+    {
+      "position": "REDGE",
+      "correction": "Restored Myles Garrett #1 and Micah Parsons #2 with AVAILABILITY_FLAG; removed Mack/Muhammad availability-substitutions; FO = Al-Quadin Muhammad"
+    },
+    {
+      "position": "RB",
+      "correction": "Restored De'Von Achane #7 with AVAILABILITY_FLAG; removed Braelon Allen; Jonathan Taylor FO on current-form (adequate sample), not Achane erasure"
+    },
+    {
+      "position": "LEDGE",
+      "correction": "Restored Brian Burns #10 with AVAILABILITY_FLAG; Tuli Tuipulotu to FO"
+    },
+    {
+      "position": "SS",
+      "correction": "Derwin James and Brian Branch retained with injury/reserve flags (consistency with ability rule); DeJean lock untouched"
+    },
+    {
+      "position": "MIKE",
+      "correction": "Warner #1 kept (ability); Campbell demoted on adequate poor 2026 sample — form≠erasure"
+    },
+    {
+      "position": "methodology",
+      "correction": "65/35 labeled declared convention only; current_form/ability/availability audit fields added; LOW never silently → MEDIUM; analyst proposal vs engine split documented"
+    }
+  ],
+  "audit_summary": {
+    "formula_limitations": "No documented re-score OVR formula applied. Historical card OVRs shown as pending re-score only. Declared 2026-primary + 2025-context comparison convention is NOT a calibrated 65/35 rating formula and must not be cited as validated weights.",
+    "seasonal_evidence": "Current primary window = 2026 through Week 8. Completed 2025 is prior context. 2025-only research orders (coverage/specialists) cannot silently reorder; used only as context or alternate thin signals (e.g. LS FKS).",
+    "position_specific_traits": "Tiebreaks prefer positional criteria (QB: EPA/CPOE/pressure; RB: EPA/RYOE/receiving; WR: YPRR/EPA/separation; OL: PFF+ESPN win rates/penalties; EDGE: PRWR/pressures/sacks; LB: coverage+run; DB: coverage grade/INT/PD; K/P: FG/punt EPA/net). Style differences used when metrics split.",
+    "sample_availability_handling": "CRITICAL CORRECTION vs prior draft: ratings = real ability/characteristics/style, not healthy-availability ranks. Limited/zero 2026 snaps → AVAILABILITY_FLAG + retain sustained elite evidence (Garrett, Parsons, Achane, Burns, and similarly Derwin James/Branch). Adequate 2026 sample of decline → current form can move a player down while keeping them ranked (Campbell, Witherspoon, Q.Williams, Bush, Aubrey/Boswell). Distinguish fields: current_form vs ability_evidence vs availability.",
+    "style_differences": "Unique playing-style rule retained narratively; H2Hs note style when metrics split (e.g. Washington blocker vs Kelce router; Gibbs receiving vs Cook rushing).",
+    "pff_use": "PFF overall is an input facet, never the rank by itself. ESPN win rates, nflverse/PBP/NGS, PFR pressures used alongside. Invented PFF facets forbidden; paywalled facets not inferred.",
+    "scarcity": "No new scarcity pass in this deliverable; locked scarcity notes (e.g. Garrett FMV 96) retained as context. No new 95+ claims invented.",
+    "tie_handling": "Exact orders published. Former LOW adjacent links resolved with sourced positional tiebreaks where justifiable; uncertainty remains labeled LOW (never silently relabeled MEDIUM). Near-ties explicitly caveated.",
+    "no_ea_as_ours": "EA/Madden reference only; Page MADDEN variable contains existing Gridiron Standard full-card judgments, not EA values. Ours = Gridiron Standard judgments. No EA values adopted as ours.",
+    "engine_vs_analyst": "Engine publication rule can remain strict (reject LOW edges → board unpublished). This file is the separate human-readable analyst proposal with full order + uncertainty. Not a baseline lock, not a Page update.",
+    "what_is_validated": [
+      "Locked baselines untouched.",
+      "PHI/DAL cards untouched.",
+      "No Page updates.",
+      "No new OVRs.",
+      "Ability≠availability conceptual correction applied to REDGE/RB/LEDGE (and consistency on SS James/Branch, WILL Cooper).",
+      "LT still the only engine-complete board; analyst confidence MEDIUM vs independent bands."
+    ],
+    "what_is_not_validated": [
+      "65/35 seasonal weights as a fitted formula.",
+      "Any new overall rating number.",
+      "Coverage 2025-only orders as 2026 re-ranks.",
+      "FB lead-block facets (insufficient).",
+      "LS individual grades (none public).",
+      "LOW links upgraded to MEDIUM/high-confidence.",
+      "Engine-accepted publication of LOW-containing boards.",
+      "Invented stats or paywalled PFF facets."
+    ]
+  },
+  "total_boards": 22,
+  "boards": {
+    "QB": {
+      "position": "QB",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL — engine rejects LOW edges; analyst publishes full order+LOW caveats",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": "Three adjacent links remain LOW (Allen/Lamar, Lamar/Maye, Maye/Dak); order published with caveats, not silently upgraded.",
+      "old_top10": [
+        "Joe Burrow",
+        "Josh Allen",
+        "Drake Maye",
+        "Brock Purdy",
+        "Jared Goff",
+        "Dak Prescott",
+        "Jordan Love",
+        "Matthew Stafford",
+        "Lamar Jackson",
+        "Trevor Lawrence"
+      ],
+      "old_first_out": "Patrick Mahomes",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Joe Burrow",
+          "team_2026": "CIN",
+          "historical_ovr": 90,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Brock Purdy",
+          "team_2026": "SF",
+          "historical_ovr": 86,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Josh Allen",
+          "team_2026": "BUF",
+          "historical_ovr": 89,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Lamar Jackson",
+          "team_2026": "BAL",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "elite_per_play_small_sample",
+          "ability_evidence": "elite_dual_threat_sustained",
+          "availability": "limited_2026_games_5_of_8",
+          "flags": [
+            "AVAILABILITY_FLAG",
+            "SAMPLE_FLAG"
+          ]
+        },
+        {
+          "rank": 5,
+          "player": "Drake Maye",
+          "team_2026": "NE",
+          "historical_ovr": 87,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Dak Prescott",
+          "team_2026": "DAL",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Jared Goff",
+          "team_2026": "DET",
+          "historical_ovr": 85,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Trevor Lawrence",
+          "team_2026": "JAX",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "C.J. Stroud",
+          "team_2026": "HOU",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Jordan Love",
+          "team_2026": "GB",
+          "historical_ovr": 83,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Patrick Mahomes",
+        "team_2026": "KC",
+        "historical_ovr": 81,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [
+        "C.J. Stroud"
+      ],
+      "displaced_from_locked": [
+        "Matthew Stafford"
+      ],
+      "key_moves": [
+        {
+          "move": "C.J. Stroud in; Matthew Stafford out",
+          "reason": "2026 Stroud PFF/INT profile clears Love and Stafford; Stafford falls outside top10+FO on current blended evidence.",
+          "validated": "comparison_convention"
+        },
+        {
+          "move": "Dak Prescott over Jared Goff (reversal)",
+          "reason": "2025 Prescott PFF/EPA decides near-even 2026 split (declared 2026-primary + 2025-context convention, not calibrated 65/35 formula).",
+          "validated": "declared_convention_only"
+        },
+        {
+          "move": "Brock Purdy #2 over Josh Allen",
+          "reason": "2026 EPA/play, PFF, sack rate; Allen rush TD value retained as style trait.",
+          "validated": "2026_primary_signals"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Josh Allen > Lamar Jackson",
+          "uncertainty": "LOW",
+          "tiebreak": "Sample adequacy + 2025 sustained (Allen full 2026 slate / .291 EPA and 2025 PFF 90.6 vs Lamar 74.0) over Lamar per-play peak (.338 / 91.3 on 5 games). Not a claim Lamar ability declined.",
+          "sources": [
+            "QB_REAUDIT_BG_01",
+            "QB_REAUDIT_BG_02",
+            "offense-front:QB"
+          ]
+        },
+        {
+          "pair": "Lamar Jackson > Drake Maye",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 per-play quality (EPA/PFF) outweighs Maye full-sample; 2025 Maye EPA/dropback context retained as counter-evidence. Availability/sample for Lamar flagged.",
+          "sources": [
+            "QB_REAUDIT_BG_01",
+            "QB_REAUDIT_BG_02"
+          ]
+        },
+        {
+          "pair": "Drake Maye > Dak Prescott",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 EPA/play and CPOE favor Maye; Prescott PFF/sack-rate counter. Style: Maye creation vs Prescott efficiency/protection.",
+          "sources": [
+            "QB_REAUDIT_H2H_03",
+            "QB_REAUDIT_PAIR_03"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Lamar Jackson": {
+          "availability": "limited_2026_games_5_of_8",
+          "ability": "elite_dual_threat_sustained",
+          "current_form": "elite_per_play_small_sample"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": "Aligned with offense-front QB bands (Burrow alone; Allen; Purdy/Goff; Dak/Maye/Lamar) with exact order inside unresolved research bands.",
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/qb-reaudit-final.md (or sibling)"
+      }
+    },
+    "RB": {
+      "position": "RB",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL — analyst publishes; engine would still reject Achane ability-edge without 2026 primary",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": "Gibbs/Cook remains LOW; Achane slot is ability+flag not current-form validated.",
+      "old_top10": [
+        "Bijan Robinson",
+        "Kenneth Walker III",
+        "Jahmyr Gibbs",
+        "Jaylen Warren",
+        "Christian McCaffrey",
+        "James Cook",
+        "De'Von Achane",
+        "Kyren Williams",
+        "Bhayshul Tuten",
+        "Jonathan Taylor"
+      ],
+      "old_first_out": "Chuba Hubbard",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Jaylen Warren",
+          "team_2026": "PIT",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Kenneth Walker III",
+          "team_2026": "KC",
+          "historical_ovr": 90,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Bijan Robinson",
+          "team_2026": "ATL",
+          "historical_ovr": 92,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Jahmyr Gibbs",
+          "team_2026": "DET",
+          "historical_ovr": 89,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "James Cook",
+          "team_2026": "BUF",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Christian McCaffrey",
+          "team_2026": "SF",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "elite_efficiency_on_84_carries",
+          "ability_evidence": "elite_receiving_back_sustained",
+          "availability": "active_reduced_carry_share",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "De'Von Achane",
+          "team_2026": "MIA",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "insufficient_sample_not_zero_talent",
+          "ability_evidence": "elite_speed_receiving_RB_2025_PFF_88.9",
+          "availability": "RES_week9; 34_carries_W1-3_then_out; PFF_nonqualifier_96_snaps",
+          "flags": [
+            "AVAILABILITY_FLAG",
+            "SAMPLE_FLAG"
+          ]
+        },
+        {
+          "rank": 8,
+          "player": "Kyren Williams",
+          "team_2026": "LA",
+          "historical_ovr": 81,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Chuba Hubbard",
+          "team_2026": "CAR",
+          "historical_ovr": 77,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Bhayshul Tuten",
+          "team_2026": "JAX",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Jonathan Taylor",
+        "team_2026": "IND",
+        "historical_ovr": 78,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [
+        "Chuba Hubbard"
+      ],
+      "displaced_from_locked": [
+        "Jonathan Taylor"
+      ],
+      "key_moves": [
+        {
+          "move": "RESTORE De'Von Achane #7 with AVAILABILITY_FLAG (was displaced)",
+          "reason": "CRITICAL CORRECTION: prior draft erased Achane for limited 2026 snaps. Ratings = ability/style/performance characteristics; missing snaps ≠ decline. Flag RES/34 carries/nonqualifier.",
+          "validated": "conceptual_correction"
+        },
+        {
+          "move": "Chuba Hubbard #9 in; Braelon Allen out of top10; Jonathan Taylor first-out",
+          "reason": "Hubbard 2026 EPA/success/RYOE clears Kyren-adjacent cut line among healthy backs. Taylor has adequate 2026 sample (148 car, PFF 62.8, RYOE ~0) showing middling current form — demotion is current-form based, not availability erasure. Allen strong RYOE but role/receiving thinner than Hubbard at cut line.",
+          "validated": "2026_primary_among_adequate_samples"
+        },
+        {
+          "move": "Warren #1 over Walker/Bijan",
+          "reason": "2026 EPA/rush, success, RYOE, receiving; Walker volume/TD counter retained.",
+          "validated": "2026_primary_signals"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Jahmyr Gibbs > James Cook",
+          "uncertainty": "LOW",
+          "tiebreak": "Receiving volume/TDs + dual-threat style (Gibbs 8 TD, 276 rec yds) over Cook rush EPA/stuff-rate edge; 2025 also split. Style difference is the tiebreak, not a calibrated weight.",
+          "sources": [
+            "RB_REAUDIT_BG_01",
+            "RB_REAUDIT_BG_02",
+            "offense-front:RB"
+          ]
+        },
+        {
+          "pair": "De'Von Achane placement over Hubbard/Tuten",
+          "uncertainty": "LOW",
+          "tiebreak": "Sustained 2025 elite (PFF 88.9, explosive receiving/rush profile) + traits; 34-carry 2026 sample is AVAILABILITY/SAMPLE flag, not demonstrated ability decline. Hubbard/Tuten have healthier 2026 form but do not overwrite Achane ability.",
+          "sources": [
+            "offense-front:RB Achane HOLD",
+            "RB_REAUDIT baseline",
+            "PFF2025_HB"
+          ]
+        }
+      ],
+      "player_flags": {
+        "De'Von Achane": {
+          "availability": "RES_week9; 34_carries_W1-3_then_out; PFF_nonqualifier_96_snaps",
+          "ability": "elite_speed_receiving_RB_2025_PFF_88.9",
+          "current_form": "insufficient_sample_not_zero_talent"
+        },
+        "Christian McCaffrey": {
+          "availability": "active_reduced_carry_share",
+          "ability": "elite_receiving_back_sustained",
+          "current_form": "elite_efficiency_on_84_carries"
+        },
+        "Jonathan Taylor": {
+          "availability": "active_full_load",
+          "ability": "proven_workhorse",
+          "current_form": "below_tier_2026_efficiency_adequate_sample"
+        }
+      },
+      "material_correction_vs_prior_draft": "Restored Achane; removed Braelon Allen from top10; Taylor is FO (current-form), not Achane erasure.",
+      "cross_check": "Offense-front held Achane as HOLD/unresolved (not healthy demotion); Walker/Gibbs/Warren top current tier confirmed.",
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/rb-reaudit-final.md (or sibling)"
+      }
+    },
+    "WR": {
+      "position": "WR",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": "Lamb/Flowers, Flowers/Watson, Chase/St.Brown remain LOW.",
+      "old_top10": [
+        "Jaxon Smith-Njigba",
+        "Puka Nacua",
+        "Ja'Marr Chase",
+        "CeeDee Lamb",
+        "Tee Higgins",
+        "Drake London",
+        "Zay Flowers",
+        "Amon-Ra St. Brown",
+        "Justin Jefferson",
+        "Chris Olave"
+      ],
+      "old_first_out": "Christian Watson",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Jaxon Smith-Njigba",
+          "team_2026": "SEA",
+          "historical_ovr": 95,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Tee Higgins",
+          "team_2026": "CIN",
+          "historical_ovr": 87,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Puka Nacua",
+          "team_2026": "LA",
+          "historical_ovr": 93,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "good_but_behind_Higgins_2026",
+          "ability_evidence": "elite_YAC_separator_2025",
+          "availability": "6_games_noted",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "CeeDee Lamb",
+          "team_2026": "DAL",
+          "historical_ovr": 88,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Zay Flowers",
+          "team_2026": "BAL",
+          "historical_ovr": 85,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Christian Watson",
+          "team_2026": "GB",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Drake London",
+          "team_2026": "ATL",
+          "historical_ovr": 86,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Chris Olave",
+          "team_2026": "NO",
+          "historical_ovr": 83,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Ja'Marr Chase",
+          "team_2026": "CIN",
+          "historical_ovr": 90,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Amon-Ra St. Brown",
+          "team_2026": "DET",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Justin Jefferson",
+        "team_2026": "MIN",
+        "historical_ovr": 84,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [
+        "Christian Watson"
+      ],
+      "displaced_from_locked": [
+        "Justin Jefferson"
+      ],
+      "key_moves": [
+        {
+          "move": "Christian Watson in; Justin Jefferson first-out",
+          "reason": "Watson 2026 volume/TD/EPA clears London-adjacent band; Jefferson small 2026 sample (6g) with 2025 context not overturning St. Brown/FO cut — Jefferson ability flagged, not erased from consideration beyond FO.",
+          "validated": "2026_primary_with_sample_caveat"
+        },
+        {
+          "move": "Tee Higgins #2 over Puka/Chase",
+          "reason": "2026 YPRR/EPA/yards; Puka elite 2025 is context only under declared convention.",
+          "validated": "declared_convention"
+        },
+        {
+          "move": "Chase falls to #9",
+          "reason": "Clear 2026 gap vs Olave/London band on yards/YPRR; 2025 elite retained as ability evidence but current form primary with adequate sample.",
+          "validated": "2026_primary_adequate_sample"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "CeeDee Lamb > Zay Flowers",
+          "uncertainty": "LOW",
+          "tiebreak": "Scoring/volume (709/6 TD) over Flowers YPRR 3.00 / EPA edge; both styles valid (X/contested vs separator).",
+          "sources": [
+            "WR_REAUDIT_BG_01",
+            "WR_REAUDIT_BG_02"
+          ]
+        },
+        {
+          "pair": "Zay Flowers > Christian Watson",
+          "uncertainty": "LOW",
+          "tiebreak": "YPRR/YAC separation traits over Watson raw yards/TD/EPA; 2025 not decisive in saved records.",
+          "sources": [
+            "WR_REAUDIT_BG_01",
+            "WR_REAUDIT_BG_02"
+          ]
+        },
+        {
+          "pair": "Ja'Marr Chase > Amon-Ra St. Brown",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 EPA/tgt edge for Chase; St. Brown volume/YPRR counter; 2025 near-identical PFF — style (explosive vs possession) tiebreak.",
+          "sources": [
+            "WR_REAUDIT_BG_01",
+            "WR_REAUDIT_BG_02"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Justin Jefferson": {
+          "availability": "limited_2026_6g_41_tgt",
+          "ability": "proven_alpha_WR",
+          "current_form": "small_sample_efficiency_ok"
+        },
+        "Puka Nacua": {
+          "availability": "6_games_noted",
+          "ability": "elite_YAC_separator_2025",
+          "current_form": "good_but_behind_Higgins_2026"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": "Offense-front: JSN alone; Higgins/Lamb/Nacua band; Chase/London/Flowers/Olave band — exact ranks inside unresolved bands.",
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/wr-reaudit-final.md (or sibling)"
+      }
+    },
+    "TE": {
+      "position": "TE",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": null,
+      "old_top10": [
+        "Brock Bowers",
+        "George Kittle",
+        "Dalton Kincaid",
+        "Trey McBride",
+        "Sam LaPorta",
+        "T.J. Hockenson",
+        "Darnell Washington",
+        "Travis Kelce",
+        "Hunter Henry",
+        "Tucker Kraft"
+      ],
+      "old_first_out": "Brenton Strange",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Brock Bowers",
+          "team_2026": "LV",
+          "historical_ovr": 93,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "George Kittle",
+          "team_2026": "SF",
+          "historical_ovr": 90,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Dalton Kincaid",
+          "team_2026": "BUF",
+          "historical_ovr": 88,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Trey McBride",
+          "team_2026": "ARI",
+          "historical_ovr": 87,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Sam LaPorta",
+          "team_2026": "DET",
+          "historical_ovr": 85,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "T.J. Hockenson",
+          "team_2026": "MIN",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Darnell Washington",
+          "team_2026": "PIT",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "two_way_contributor",
+          "ability_evidence": "elite_inline_blocker",
+          "availability": "active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Travis Kelce",
+          "team_2026": "KC",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "still_productive_receiving",
+          "ability_evidence": "all_time_route_TE_aging",
+          "availability": "active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Hunter Henry",
+          "team_2026": "NE",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Tucker Kraft",
+          "team_2026": "GB",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Brenton Strange",
+        "team_2026": "JAX",
+        "historical_ovr": 78,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [],
+      "displaced_from_locked": [],
+      "key_moves": [
+        {
+          "move": "none vs locked top10",
+          "reason": "Order unchanged from locked baseline; LOW links resolved with style/role tiebreaks without reordering.",
+          "validated": "baseline_retained"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Trey McBride > Sam LaPorta",
+          "uncertainty": "LOW",
+          "tiebreak": "Volume/role (86 vs 44 tgt) as TE positional criterion over LaPorta EPA efficiency; both seasons split.",
+          "sources": [
+            "TE_REAUDIT_TIEBREAK_02"
+          ]
+        },
+        {
+          "pair": "Darnell Washington > Travis Kelce",
+          "uncertainty": "LOW",
+          "tiebreak": "Two-way blocking+PFF over Kelce receiving EPA/YPRR — style (inline blocker vs route TE); not a pure receiving rank.",
+          "sources": [
+            "TE_REAUDIT_H2H_04",
+            "TE_REAUDIT_TIEBREAK_13"
+          ]
+        },
+        {
+          "pair": "Travis Kelce > Hunter Henry",
+          "uncertainty": "LOW",
+          "tiebreak": "YPRR/volume route role over Henry EPA/PFF/blocking; near-even.",
+          "sources": [
+            "TE_REAUDIT_TIEBREAK_04"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Travis Kelce": {
+          "availability": "active",
+          "ability": "all_time_route_TE_aging",
+          "current_form": "still_productive_receiving"
+        },
+        "Darnell Washington": {
+          "availability": "active",
+          "ability": "elite_inline_blocker",
+          "current_form": "two_way_contributor"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": "Offense-front TE research available; no contradiction forcing reorder.",
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/te-reaudit-final.md (or sibling)"
+      }
+    },
+    "LT": {
+      "position": "LT",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "COMPLETE_EVIDENCE_SUPPORTED (engine) / MEDIUM analyst confidence vs independent research bands",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": "Engine-complete on repo records; independent offense-front leaves Wirfs/Bolles/Dawkins and #7-#12 as unresolved bands — treat as MEDIUM not high-confidence.",
+      "old_top10": [
+        "Penei Sewell",
+        "Trent Williams",
+        "Jordan Mailata",
+        "Tristan Wirfs",
+        "Garett Bolles",
+        "Andrew Thomas",
+        "Alaric Jackson",
+        "Bernhard Raimann",
+        "Charles Cross",
+        "Dion Dawkins"
+      ],
+      "old_first_out": "Paris Johnson Jr.",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Penei Sewell",
+          "team_2026": "DET",
+          "historical_ovr": 95,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Trent Williams",
+          "team_2026": "SF",
+          "historical_ovr": 91,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Jordan Mailata",
+          "team_2026": "PHI",
+          "historical_ovr": 88,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Tristan Wirfs",
+          "team_2026": "TB",
+          "historical_ovr": 86,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Garett Bolles",
+          "team_2026": "DEN",
+          "historical_ovr": 85,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Dion Dawkins",
+          "team_2026": "BUF",
+          "historical_ovr": 76,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Andrew Thomas",
+          "team_2026": "NYG",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Bernhard Raimann",
+          "team_2026": "IND",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Alaric Jackson",
+          "team_2026": "LA",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Charles Cross",
+          "team_2026": "SEA",
+          "historical_ovr": 77,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "competitive",
+          "ability_evidence": "solid_LT",
+          "availability": "Week8_ankle_absence_noted",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Will Campbell",
+        "team_2026": "NE",
+        "historical_ovr": 74,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [],
+      "displaced_from_locked": [],
+      "key_moves": [
+        {
+          "move": "Dion Dawkins over Andrew Thomas",
+          "reason": "2026 PFF + ESPN OT lists overturn historical Thomas>Dawkins.",
+          "validated": "2026_primary"
+        },
+        {
+          "move": "Raimann over Alaric Jackson (reversal)",
+          "reason": "2026 PFF/RBWR/penalties; reverses 2025-based prior H2H.",
+          "validated": "2026_primary"
+        },
+        {
+          "move": "Will Campbell FO over Paris Johnson Jr.",
+          "reason": "Campbell full role vs Johnson IR after 277 snaps — availability for FO cut only; not an ability claim on Johnson.",
+          "validated": "role_availability_cutline"
+        }
+      ],
+      "low_links_resolved_with_caveat": [],
+      "player_flags": {
+        "Paris Johnson Jr.": {
+          "availability": "IR_after_277_snaps",
+          "ability": "starting_LT_caliber",
+          "current_form": "insufficient_post_IR"
+        },
+        "Charles Cross": {
+          "availability": "Week8_ankle_absence_noted",
+          "ability": "solid_LT",
+          "current_form": "competitive"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": "Offense-front unresolved bands acknowledged; not forced to high confidence.",
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/lt-reaudit-final.md (or sibling)"
+      }
+    },
+    "LG": {
+      "position": "LG",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": null,
+      "old_top10": [
+        "Quenton Nelson",
+        "Damien Lewis",
+        "Joe Thuney",
+        "Steve Avila",
+        "Peter Skoronski",
+        "Dylan Parham",
+        "Christian Mahogany",
+        "Tyler Smith",
+        "Matthew Bergeron",
+        "Ezra Cleveland"
+      ],
+      "old_first_out": "Isaac Seumalo",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Quenton Nelson",
+          "team_2026": "SEA",
+          "historical_ovr": 93,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Damien Lewis",
+          "team_2026": "CAR",
+          "historical_ovr": 85,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "strong_when_playing",
+          "ability_evidence": "high_PFF_LG_2026_80.7",
+          "availability": "currently_inactive_flagged",
+          "flags": [
+            "AVAILABILITY_FLAG"
+          ]
+        },
+        {
+          "rank": 3,
+          "player": "Joe Thuney",
+          "team_2026": "CHI",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Steve Avila",
+          "team_2026": "LA",
+          "historical_ovr": 81,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Peter Skoronski",
+          "team_2026": "TEN",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Dylan Parham",
+          "team_2026": "NYJ",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "elite_small_sample",
+          "ability_evidence": "high_ceiling_2026_87.9",
+          "availability": "injury_reports_243_snaps",
+          "flags": [
+            "AVAILABILITY_FLAG",
+            "SAMPLE_FLAG"
+          ]
+        },
+        {
+          "rank": 7,
+          "player": "Christian Mahogany",
+          "team_2026": "DET",
+          "historical_ovr": 77,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Tyler Smith",
+          "team_2026": "DAL",
+          "historical_ovr": 76,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Matthew Bergeron",
+          "team_2026": "ATL",
+          "historical_ovr": 75,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Ezra Cleveland",
+          "team_2026": "JAX",
+          "historical_ovr": 74,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Isaac Seumalo",
+        "team_2026": "ARI",
+        "historical_ovr": 72,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [],
+      "displaced_from_locked": [],
+      "key_moves": [
+        {
+          "move": "Damien Lewis inactive flag retained at #2",
+          "reason": "Ability/2026 PFF 80.7 over Thuney; AVAILABILITY_FLAG currently inactive — not removed for inactivity.",
+          "validated": "ability_with_flag"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Peter Skoronski > Dylan Parham",
+          "uncertainty": "LOW",
+          "tiebreak": "Full-load sample adequacy (Skoronski) over Parham 87.9 on 243 snaps with injury reports; 2025 Skoronski 79.0 vs 63.5. Parham current_form elite but SAMPLE_FLAG — not erased, ranked #6.",
+          "sources": [
+            "LG_REAUDIT_H2H_03"
+          ]
+        },
+        {
+          "pair": "Matthew Bergeron > Ezra Cleveland",
+          "uncertainty": "LOW",
+          "tiebreak": "Hairline PFF both years; retain locked adjacency with explicit near-tie caveat (sourced as continuity, not new signal).",
+          "sources": [
+            "LG_REAUDIT_H2H_05"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Damien Lewis": {
+          "availability": "currently_inactive_flagged",
+          "ability": "high_PFF_LG_2026_80.7",
+          "current_form": "strong_when_playing"
+        },
+        "Dylan Parham": {
+          "availability": "injury_reports_243_snaps",
+          "ability": "high_ceiling_2026_87.9",
+          "current_form": "elite_small_sample"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": null,
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/lg-reaudit-final.md (or sibling)"
+      }
+    },
+    "C": {
+      "position": "C",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": null,
+      "old_top10": [
+        "Creed Humphrey",
+        "Zach Frazier",
+        "Aaron Brewer",
+        "Coleman Shelton",
+        "Tyler Linderbaum",
+        "Erik McCoy",
+        "Luke Wattenberg",
+        "Ryan Neuzil",
+        "Juice Scruggs",
+        "Jake Brendel"
+      ],
+      "old_first_out": "Cooper Beebe",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Creed Humphrey",
+          "team_2026": "KC",
+          "historical_ovr": 91,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "ESPN_PBWR_92_despite_PFF_dip",
+          "ability_evidence": "anchor_C",
+          "availability": "active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Zach Frazier",
+          "team_2026": "PIT",
+          "historical_ovr": 87,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Coleman Shelton",
+          "team_2026": "LA",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Juice Scruggs",
+          "team_2026": "DET",
+          "historical_ovr": 76,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Erik McCoy",
+          "team_2026": "NO",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Aaron Brewer",
+          "team_2026": "MIA",
+          "historical_ovr": 85,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "down_year_2026_69.4",
+          "ability_evidence": "2025_elite_87.3_context",
+          "availability": "active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Tyler Linderbaum",
+          "team_2026": "LV",
+          "historical_ovr": 81,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Luke Wattenberg",
+          "team_2026": "DEN",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Jake Brendel",
+          "team_2026": "SF",
+          "historical_ovr": 75,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Cooper Beebe",
+          "team_2026": "DAL",
+          "historical_ovr": 74,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Ryan Neuzil",
+        "team_2026": "ATL",
+        "historical_ovr": 77,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [
+        "Cooper Beebe"
+      ],
+      "displaced_from_locked": [
+        "Ryan Neuzil"
+      ],
+      "key_moves": [
+        {
+          "move": "Cooper Beebe in; Ryan Neuzil FO",
+          "reason": "2026 Beebe PFF+PBWR over Neuzil; Neuzil 2025 77.4 is context only under declared convention.",
+          "validated": "declared_convention"
+        },
+        {
+          "move": "Brewer falls behind McCoy",
+          "reason": "2026 gap; Brewer 87.3 2025 context does not overturn — adequate 2026 samples both.",
+          "validated": "2026_primary_adequate_sample"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Juice Scruggs > Erik McCoy",
+          "uncertainty": "LOW",
+          "tiebreak": "PFF 75.1 vs McCoy dual ESPN IOL lists/0 penalties; neither has full 2025 qualifier — role/discipline vs grade. Keep Scruggs on grade+prior path.",
+          "sources": [
+            "C_REAUDIT_BG_01",
+            "C_REAUDIT_BG_02"
+          ]
+        },
+        {
+          "pair": "Luke Wattenberg > Jake Brendel",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 PFF edge for Wattenberg; Brendel PBWR 93%/0 penalties counter; 2025 near-even.",
+          "sources": [
+            "C_REAUDIT_BG_01",
+            "C_REAUDIT_BG_02"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Aaron Brewer": {
+          "availability": "active",
+          "ability": "2025_elite_87.3_context",
+          "current_form": "down_year_2026_69.4"
+        },
+        "Creed Humphrey": {
+          "availability": "active",
+          "ability": "anchor_C",
+          "current_form": "ESPN_PBWR_92_despite_PFF_dip"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": null,
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/c-reaudit-final.md (or sibling)"
+      }
+    },
+    "RG": {
+      "position": "RG",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": null,
+      "old_top10": [
+        "Chris Lindstrom",
+        "Quinn Meinerz",
+        "Jonah Jackson",
+        "Tyler Booker",
+        "Dalton Risner",
+        "Joe Tippmann",
+        "Sam Cosmi",
+        "Trey Smith",
+        "Mason McCormick",
+        "Dominick Puni"
+      ],
+      "old_first_out": "Mike Onwenu",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Chris Lindstrom",
+          "team_2026": "ATL",
+          "historical_ovr": 92,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Quinn Meinerz",
+          "team_2026": "DEN",
+          "historical_ovr": 89,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Jonah Jackson",
+          "team_2026": "CHI",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Tyler Booker",
+          "team_2026": "DAL",
+          "historical_ovr": 83,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Dalton Risner",
+          "team_2026": "CIN",
+          "historical_ovr": 81,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Joe Tippmann",
+          "team_2026": "NYJ",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Sam Cosmi",
+          "team_2026": "WAS",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Mason McCormick",
+          "team_2026": "PIT",
+          "historical_ovr": 77,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Trey Smith",
+          "team_2026": "KC",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Dominick Puni",
+          "team_2026": "SF",
+          "historical_ovr": 76,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Mike Onwenu",
+        "team_2026": "NE",
+        "historical_ovr": 75,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [],
+      "displaced_from_locked": [],
+      "key_moves": [
+        {
+          "move": "McCormick over Trey Smith (reversal)",
+          "reason": "2025 McCormick + penalties decide 2026 coin-flip; declared convention.",
+          "validated": "declared_convention"
+        },
+        {
+          "move": "Onwenu FO",
+          "reason": "86 snaps then reserve/IR — FO cut on role/availability; ability not zeroed.",
+          "validated": "availability_cutline_not_ability"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Trey Smith > Dominick Puni",
+          "uncertainty": "LOW",
+          "tiebreak": "Near-even both seasons; fewer 2026 penalties / continuity for Smith; explicit near-tie.",
+          "sources": [
+            "RG_REAUDIT_BG_01",
+            "RG_REAUDIT_BG_02"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Mike Onwenu": {
+          "availability": "reserve_IR_after_86_snaps",
+          "ability": "proven_starting_G",
+          "current_form": "insufficient"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": null,
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/rg-reaudit-final.md (or sibling)"
+      }
+    },
+    "RT": {
+      "position": "RT",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": null,
+      "old_top10": [
+        "Darnell Wright",
+        "Colton McKivitz",
+        "Brian O'Neill",
+        "Abraham Lucas",
+        "Joe Alt",
+        "Warren McClendon Jr.",
+        "Luke Goedeke",
+        "Armand Membou",
+        "Spencer Brown",
+        "Jermaine Eluemunor"
+      ],
+      "old_first_out": "Zach Bako-Bewele",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Darnell Wright",
+          "team_2026": "CHI",
+          "historical_ovr": 89,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Colton McKivitz",
+          "team_2026": "SF",
+          "historical_ovr": 87,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Brian O'Neill",
+          "team_2026": "MIN",
+          "historical_ovr": 83,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Abraham Lucas",
+          "team_2026": "SEA",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Joe Alt",
+          "team_2026": "LAC",
+          "historical_ovr": 81,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "strong_per_snap_small_sample",
+          "ability_evidence": "high_ceiling_RT",
+          "availability": "injury_limited_278_snaps",
+          "flags": [
+            "AVAILABILITY_FLAG",
+            "SAMPLE_FLAG"
+          ]
+        },
+        {
+          "rank": 6,
+          "player": "Warren McClendon Jr.",
+          "team_2026": "LA",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Luke Goedeke",
+          "team_2026": "TB",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Armand Membou",
+          "team_2026": "NYJ",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Jermaine Eluemunor",
+          "team_2026": "NYG",
+          "historical_ovr": 76,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Spencer Brown",
+          "team_2026": "BUF",
+          "historical_ovr": 77,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "unavailable_late",
+          "ability_evidence": "starting_RT_caliber",
+          "availability": "inactive_back",
+          "flags": [
+            "AVAILABILITY_FLAG"
+          ]
+        }
+      ],
+      "first_out": {
+        "player": "Zach Bako-Bewele",
+        "team_2026": "GB",
+        "historical_ovr": 75,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [],
+      "displaced_from_locked": [],
+      "key_moves": [
+        {
+          "move": "Eluemunor over Spencer Brown (reversal)",
+          "reason": "2026 full-time starter + PBWR; Brown inactive (back).",
+          "validated": "2026_primary"
+        },
+        {
+          "move": "Joe Alt retained #5 despite limited snaps",
+          "reason": "Ability/traits + both-season PFF edge; SAMPLE_FLAG only vs Lucas.",
+          "validated": "ability_with_sample_flag"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Abraham Lucas > Joe Alt",
+          "uncertainty": "LOW",
+          "tiebreak": "Starter-load sample (527 snaps) over Alt per-snap quality on 278 injury-limited snaps; Alt ability/ceiling flagged, not erased — #5.",
+          "sources": [
+            "RT_REAUDIT_TIEBREAK_02"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Joe Alt": {
+          "availability": "injury_limited_278_snaps",
+          "ability": "high_ceiling_RT",
+          "current_form": "strong_per_snap_small_sample"
+        },
+        "Spencer Brown": {
+          "availability": "inactive_back",
+          "ability": "starting_RT_caliber",
+          "current_form": "unavailable_late"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": null,
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/rt-reaudit-final.md (or sibling)"
+      }
+    },
+    "REDGE": {
+      "position": "REDGE",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL — engine cannot rank Garrett/Parsons on 2026 primary; analyst ability proposal separate from engine publication rule",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": "Garrett/Parsons slots are sustained-ability + AVAILABILITY_FLAG, not 2026-form validated. Hunter/Carter and Herbig/Latu remain LOW among active fringe.",
+      "old_top10": [
+        "Myles Garrett",
+        "Micah Parsons",
+        "Danielle Hunter",
+        "Abdul Carter",
+        "Josh Hines-Allen",
+        "Nik Bonitto",
+        "Chase Young",
+        "Alex Highsmith",
+        "Nick Herbig",
+        "Laiatu Latu"
+      ],
+      "old_first_out": "Al-Quadin Muhammad",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Myles Garrett",
+          "team_2026": "LA",
+          "historical_ovr": 95,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "insufficient_sample_NOT_decline",
+          "ability_evidence": "league_defining_edge_2025_PFF_92.7_23_sacks_FMV_96",
+          "availability": "RES_week9; 40_snaps_1_game_2026; PFF_nonqualifier_64.7",
+          "flags": [
+            "AVAILABILITY_FLAG",
+            "SAMPLE_FLAG"
+          ]
+        },
+        {
+          "rank": 2,
+          "player": "Micah Parsons",
+          "team_2026": "GB",
+          "historical_ovr": 91,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "no_2026_sample_NOT_decline",
+          "ability_evidence": "elite_versatile_edge_2025_PFF_91.9_12.5_sacks",
+          "availability": "RES_week9; 0_2026_snaps",
+          "flags": [
+            "AVAILABILITY_FLAG",
+            "SAMPLE_FLAG"
+          ]
+        },
+        {
+          "rank": 3,
+          "player": "Danielle Hunter",
+          "team_2026": "HOU",
+          "historical_ovr": 87,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Abdul Carter",
+          "team_2026": "NYG",
+          "historical_ovr": 86,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "elite_2026_90.3_PRWR_35",
+          "ability_evidence": "ascending_every_down_rusher",
+          "availability": "active_388_snaps",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Josh Hines-Allen",
+          "team_2026": "JAX",
+          "historical_ovr": 85,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Nik Bonitto",
+          "team_2026": "DEN",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Chase Young",
+          "team_2026": "NO",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Alex Highsmith",
+          "team_2026": "PIT",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Nick Herbig",
+          "team_2026": "PIT",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Laiatu Latu",
+          "team_2026": "IND",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Al-Quadin Muhammad",
+        "team_2026": "TB",
+        "historical_ovr": 76,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [],
+      "displaced_from_locked": [],
+      "key_moves": [
+        {
+          "move": "RESTORE Myles Garrett #1 and Micah Parsons #2 with AVAILABILITY_FLAG (draft had erased both)",
+          "reason": "CRITICAL CORRECTION: ratings represent real player ability/style, not healthy-availability ranks. Garrett 2025 PFF 92.7 / 23 sacks / FMV 96 league-defining; Parsons 2025 PFF 91.9 / 12.5 sacks. 40 snaps (Garrett) and 0 snaps (Parsons) are flags, not demotions to unrankable.",
+          "validated": "conceptual_correction_plus_sustained_elite_evidence"
+        },
+        {
+          "move": "Remove Khalil Mack and Al-Quadin Muhammad from top10 (draft had inserted them in Garrett/Parsons slots)",
+          "reason": "Those insertions were availability-substitution artifacts. Muhammad returns to FO (locked cut line Latu>Muhammad). Mack remains outside on age/2026 form.",
+          "validated": "correction_to_draft"
+        },
+        {
+          "move": "Abdul Carter #4 (up vs locked) but behind Hunter",
+          "reason": "Elite 2026 current form; does not leap Hunter on one partial season vs Hunter sustained.",
+          "validated": "ability_plus_current_form_balanced"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Danielle Hunter > Abdul Carter",
+          "uncertainty": "LOW",
+          "tiebreak": "Prior approved H2H Hunter>Carter + Hunter 2025 89.9/15 sacks sustained; Carter elite 2026 (90.3, PRWR 35%) is current_form challenge, not yet ability overwrite. Style: veteran producer vs ascending every-down rusher.",
+          "sources": [
+            "REDGE lock H2H",
+            "offense-front:REDGE"
+          ]
+        },
+        {
+          "pair": "Josh Hines-Allen > Nik Bonitto",
+          "uncertainty": "LOW",
+          "tiebreak": "2025 Hines-Allen 87.4/46 pressures decides near-even 2026; Bonitto 2026 PRWR #6 current_form strong.",
+          "sources": [
+            "REDGE_REAUDIT_BG_01",
+            "REDGE_REAUDIT_BG_02"
+          ]
+        },
+        {
+          "pair": "Nick Herbig > Laiatu Latu",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 tied grades; 2025 Herbig 87.4 vs 84.1 narrow — retain with caveat.",
+          "sources": [
+            "REDGE_REAUDIT_H2H_05"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Myles Garrett": {
+          "availability": "RES_week9; 40_snaps_1_game_2026; PFF_nonqualifier_64.7",
+          "ability": "league_defining_edge_2025_PFF_92.7_23_sacks_FMV_96",
+          "current_form": "insufficient_sample_NOT_decline"
+        },
+        "Micah Parsons": {
+          "availability": "RES_week9; 0_2026_snaps",
+          "ability": "elite_versatile_edge_2025_PFF_91.9_12.5_sacks",
+          "current_form": "no_2026_sample_NOT_decline"
+        },
+        "Abdul Carter": {
+          "availability": "active_388_snaps",
+          "ability": "ascending_every_down_rusher",
+          "current_form": "elite_2026_90.3_PRWR_35"
+        },
+        "Al-Quadin Muhammad": {
+          "availability": "rotational_206_snaps",
+          "ability": "solid_rotational_edge",
+          "current_form": "PFF_81_on_limited_snaps"
+        }
+      },
+      "material_correction_vs_prior_draft": "Restored Garrett #1 and Parsons #2; removed Mack/Muhammad from top10; FO back to Muhammad.",
+      "cross_check": "Offense-front explicitly: Held Garrett/Parsons — \"Not a healthy-ability demotion\"; Carter/Bonitto are leading currently assessable tier only.",
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/redge-reaudit-final.md (or sibling)"
+      }
+    },
+    "LEDGE": {
+      "position": "LEDGE",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": null,
+      "old_top10": [
+        "Aidan Hutchinson",
+        "Will Anderson Jr.",
+        "Greg Rousseau",
+        "Maxx Crosby",
+        "T.J. Watt",
+        "DeMarcus Lawrence",
+        "Byron Young",
+        "George Karlaftis",
+        "Boye Mafe",
+        "Brian Burns"
+      ],
+      "old_first_out": "Tuli Tuipulotu",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Aidan Hutchinson",
+          "team_2026": "DET",
+          "historical_ovr": 94,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Will Anderson Jr.",
+          "team_2026": "HOU",
+          "historical_ovr": 93,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Greg Rousseau",
+          "team_2026": "BUF",
+          "historical_ovr": 87,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Maxx Crosby",
+          "team_2026": "LV",
+          "historical_ovr": 86,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "DeMarcus Lawrence",
+          "team_2026": "SEA",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "T.J. Watt",
+          "team_2026": "PIT",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "7.5_sacks_solid_not_peak",
+          "ability_evidence": "historically_elite_pass_rusher",
+          "availability": "active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Boye Mafe",
+          "team_2026": "CIN",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Byron Young",
+          "team_2026": "LA",
+          "historical_ovr": 81,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "George Karlaftis",
+          "team_2026": "KC",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Brian Burns",
+          "team_2026": "NYG",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "insufficient_NOT_decline",
+          "ability_evidence": "elite_2025_16.5_sacks_pass_rush",
+          "availability": "RES_after_116_snaps",
+          "flags": [
+            "AVAILABILITY_FLAG",
+            "SAMPLE_FLAG"
+          ]
+        }
+      ],
+      "first_out": {
+        "player": "Tuli Tuipulotu",
+        "team_2026": "LAC",
+        "historical_ovr": 77,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [],
+      "displaced_from_locked": [],
+      "key_moves": [
+        {
+          "move": "RESTORE Brian Burns #10 with AVAILABILITY_FLAG (draft displaced for Tuipulotu)",
+          "reason": "CRITICAL CORRECTION parallel to Garrett/Parsons: Burns 2025 16.5-sack elite year is ability evidence; 116 snaps then RES is flag, not erasure below healthy rotational players as if decline proven.",
+          "validated": "conceptual_correction"
+        },
+        {
+          "move": "DeMarcus Lawrence over T.J. Watt (reversal)",
+          "reason": "2025 Lawrence decides 2026 sack-vs-PRWR split; Watt sack production retained as style.",
+          "validated": "declared_convention"
+        },
+        {
+          "move": "Tuli Tuipulotu FO (was moved into top10 in draft)",
+          "reason": "Active RSWR #1 but behind Karlaftis workload; does not leap Burns on availability alone.",
+          "validated": "correction"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Aidan Hutchinson > Will Anderson Jr.",
+          "uncertainty": "LOW",
+          "tiebreak": "Volume/pressures/workload over Anderson equal-or-higher grades on fewer snaps; both elite — near-tie.",
+          "sources": [
+            "LEDGE_REAUDIT_H2H_01"
+          ]
+        },
+        {
+          "pair": "T.J. Watt > Boye Mafe",
+          "uncertainty": "LOW",
+          "tiebreak": "Sack/TFL production + sustained pass-rush identity over Mafe 2026 PFF/PRWR spike; 2025 both modest.",
+          "sources": [
+            "LEDGE_REAUDIT_BG_01",
+            "LEDGE_REAUDIT_BG_02"
+          ]
+        },
+        {
+          "pair": "Boye Mafe > Byron Young",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 PFF 85.7 / PRWR #10 over Young; Young 2025 83.7/12 sacks is context/ability evidence — Young retained #8.",
+          "sources": [
+            "LEDGE_REAUDIT_BG_01",
+            "LEDGE_REAUDIT_BG_02"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Brian Burns": {
+          "availability": "RES_after_116_snaps",
+          "ability": "elite_2025_16.5_sacks_pass_rush",
+          "current_form": "insufficient_NOT_decline"
+        },
+        "T.J. Watt": {
+          "availability": "active",
+          "ability": "historically_elite_pass_rusher",
+          "current_form": "7.5_sacks_solid_not_peak"
+        }
+      },
+      "material_correction_vs_prior_draft": "Restored Burns #10; Tuipulotu to FO.",
+      "cross_check": "Offense-front held Burns as insufficient primary / not healthy demotion.",
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/ledge-reaudit-final.md (or sibling)"
+      }
+    },
+    "DT": {
+      "position": "DT",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": null,
+      "old_top10": [
+        "Jeffery Simmons",
+        "Cameron Heyward",
+        "Quinnen Williams",
+        "Zach Allen",
+        "Dexter Lawrence",
+        "Leonard Williams",
+        "Kobie Turner",
+        "Derrick Brown",
+        "Poona Ford",
+        "Alim McNeill"
+      ],
+      "old_first_out": "Jalen Redmond",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Jeffery Simmons",
+          "team_2026": "CHI",
+          "historical_ovr": 93,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Dexter Lawrence",
+          "team_2026": "CIN",
+          "historical_ovr": 85,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Cameron Heyward",
+          "team_2026": "PIT",
+          "historical_ovr": 88,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Zach Allen",
+          "team_2026": "DEN",
+          "historical_ovr": 86,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Alim McNeill",
+          "team_2026": "DET",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Quinnen Williams",
+          "team_2026": "DAL",
+          "historical_ovr": 87,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "down_2026_67.2_adequate_sample",
+          "ability_evidence": "proven_elite_DT_2025_88.7",
+          "availability": "active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Leonard Williams",
+          "team_2026": "SEA",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Derrick Brown",
+          "team_2026": "CAR",
+          "historical_ovr": 81,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Jalen Redmond",
+          "team_2026": "MIN",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Kobie Turner",
+          "team_2026": "LA",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "66.8_then_out",
+          "ability_evidence": "proven_3tech",
+          "availability": "reserve_IR_after_232_snaps",
+          "flags": [
+            "AVAILABILITY_FLAG"
+          ]
+        }
+      ],
+      "first_out": {
+        "player": "Poona Ford",
+        "team_2026": "LA",
+        "historical_ovr": 80,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [
+        "Jalen Redmond"
+      ],
+      "displaced_from_locked": [
+        "Poona Ford"
+      ],
+      "key_moves": [
+        {
+          "move": "Dexter Lawrence #2 (up)",
+          "reason": "Elite 2026 86.8 #2 DI + dual ESPN lists.",
+          "validated": "2026_primary"
+        },
+        {
+          "move": "Alim McNeill over Quinnen Williams",
+          "reason": "2026 PRWR #1 / 79.0 vs Q.Williams 67.2; adequate samples.",
+          "validated": "2026_primary"
+        },
+        {
+          "move": "Jalen Redmond in; Poona Ford FO; Turner #10 with reserve flag",
+          "reason": "Redmond active over Turner/Ford reserve-IR — FO/availability cut among similarly graded; Turner retained in top10 on prior ability+more 2026 snaps than Ford.",
+          "validated": "mixed_form_and_availability_cutline"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Cameron Heyward > Zach Allen",
+          "uncertainty": "LOW",
+          "tiebreak": "Sustained 2025 elite grade (90.4) + veteran run-defense identity vs Allen pressure volume (50 in 2025 / 18 in 2026); styles differ (anchor vs penetrator).",
+          "sources": [
+            "DT_REAUDIT_BG_01",
+            "DT_REAUDIT_BG_02"
+          ]
+        },
+        {
+          "pair": "Derrick Brown > Jalen Redmond",
+          "uncertainty": "LOW",
+          "tiebreak": "Starter snaps/role over Redmond slight grade edge; 2025 near-identical.",
+          "sources": [
+            "DT_REAUDIT_BG_01",
+            "DT_REAUDIT_BG_02"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Kobie Turner": {
+          "availability": "reserve_IR_after_232_snaps",
+          "ability": "proven_3tech",
+          "current_form": "66.8_then_out"
+        },
+        "Poona Ford": {
+          "availability": "reserve_IR_151_snaps",
+          "ability": "rotational_NT",
+          "current_form": "insufficient"
+        },
+        "Quinnen Williams": {
+          "availability": "active",
+          "ability": "proven_elite_DT_2025_88.7",
+          "current_form": "down_2026_67.2_adequate_sample"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": null,
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/dt-reaudit-final.md (or sibling)"
+      }
+    },
+    "MIKE": {
+      "position": "MIKE",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "LOW",
+      "board_uncertainty_note": "Five adjacent LOW links in mid-board; Warner #1 retained on sustained elite ability despite Miller 2026 PFF spike. Coverage research was 2025-only — not used to reorder.",
+      "old_top10": [
+        "Fred Warner",
+        "Jack Campbell",
+        "Devin Lloyd",
+        "Ventrell Miller",
+        "Nick Bolton",
+        "Carson Schwesinger",
+        "Trenton Simpson",
+        "Cedric Gray",
+        "Dre Greenlaw",
+        "Omar Speights"
+      ],
+      "old_first_out": "Sonny Styles",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Fred Warner",
+          "team_2026": "SF",
+          "historical_ovr": 92,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "strong_counting_stats_PFF_81.3_vs_Miller_spike",
+          "ability_evidence": "elite_MIKE_coverage_run_support",
+          "availability": "active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Ventrell Miller",
+          "team_2026": "JAX",
+          "historical_ovr": 83,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Devin Lloyd",
+          "team_2026": "CAR",
+          "historical_ovr": 86,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Omar Speights",
+          "team_2026": "LA",
+          "historical_ovr": 77,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Trenton Simpson",
+          "team_2026": "BAL",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Dre Greenlaw",
+          "team_2026": "SF",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Nick Bolton",
+          "team_2026": "KC",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Carson Schwesinger",
+          "team_2026": "CLE",
+          "historical_ovr": 81,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Sonny Styles",
+          "team_2026": "WAS",
+          "historical_ovr": 76,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Jack Campbell",
+          "team_2026": "DET",
+          "historical_ovr": 87,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "clear_down_year_58.9_adequate_sample",
+          "ability_evidence": "2025_elite_90.3_context",
+          "availability": "active_full_load",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Cedric Gray",
+        "team_2026": null,
+        "historical_ovr": null,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [
+        "Sonny Styles"
+      ],
+      "displaced_from_locked": [
+        "Cedric Gray"
+      ],
+      "key_moves": [
+        {
+          "move": "KEEP Fred Warner #1 (not erased)",
+          "reason": "Sustained elite (2025 93.2) + 2026 production (71 tackles, 3 FF, coverage) over Miller 91.9 on 315 snaps; Miller current_form challenge acknowledged.",
+          "validated": "ability_plus_adequate_2026_contribution"
+        },
+        {
+          "move": "Jack Campbell #10 (was #2)",
+          "reason": "Adequate 2026 sample at 58.9 demonstrates current-form decline vs 90.3 2025 context — primary where sample exists; ability not zeroed (still top10).",
+          "validated": "2026_primary_adequate_sample"
+        },
+        {
+          "move": "Ventrell Miller #2 (reversal over Lloyd)",
+          "reason": "Clear 2026 grade gap on comparable snaps.",
+          "validated": "2026_primary"
+        },
+        {
+          "move": "Sonny Styles in; Cedric Gray FO",
+          "reason": "Styles full-load over Gray limited snaps/grade.",
+          "validated": "2026_primary"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Devin Lloyd > Omar Speights",
+          "uncertainty": "LOW",
+          "tiebreak": "2025 Lloyd 87.9 + INT production over Speights 2026 sack/TFL; Speights two-year snap volume counter.",
+          "sources": [
+            "MIKE_REAUDIT_BG_01",
+            "MIKE_REAUDIT_BG_02"
+          ]
+        },
+        {
+          "pair": "Omar Speights > Trenton Simpson",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 grade hairline; retain Speights on 2026 edge.",
+          "sources": [
+            "MIKE_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Trenton Simpson > Dre Greenlaw",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 grade; Greenlaw 2025 context/ability retained.",
+          "sources": [
+            "MIKE_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Dre Greenlaw > Nick Bolton",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 grade vs Bolton 2025 full-load 78.9 — availability/sample for Greenlaw noted.",
+          "sources": [
+            "MIKE_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Carson Schwesinger > Sonny Styles",
+          "uncertainty": "LOW",
+          "tiebreak": "2025 full-load Schwesinger over Styles rookie 2026 grade edge.",
+          "sources": [
+            "MIKE_REAUDIT_BG_01"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Fred Warner": {
+          "availability": "active",
+          "ability": "elite_MIKE_coverage_run_support",
+          "current_form": "strong_counting_stats_PFF_81.3_vs_Miller_spike"
+        },
+        "Jack Campbell": {
+          "availability": "active_full_load",
+          "ability": "2025_elite_90.3_context",
+          "current_form": "clear_down_year_58.9_adequate_sample"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": "Coverage 2025-only proposed Campbell #1 — REJECTED as prior_context reorder; Warner retained.",
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/mike-reaudit-final.md (or sibling)"
+      }
+    },
+    "WILL": {
+      "position": "WILL",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "LOW",
+      "board_uncertainty_note": null,
+      "old_top10": [
+        "Zack Baun",
+        "Roquan Smith",
+        "Drue Tranquill",
+        "Jordyn Brooks",
+        "Blake Cashman",
+        "Arvell Reese",
+        "Foyesade Oluokun",
+        "Alex Singleton",
+        "Demario Davis",
+        "Edgerrin Cooper"
+      ],
+      "old_first_out": "Divine Deablo",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Zack Baun",
+          "team_2026": "PHI",
+          "historical_ovr": 90,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Blake Cashman",
+          "team_2026": "MIN",
+          "historical_ovr": 83,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Arvell Reese",
+          "team_2026": "NYG",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Roquan Smith",
+          "team_2026": "BAL",
+          "historical_ovr": 86,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Alex Singleton",
+          "team_2026": "DEN",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Drue Tranquill",
+          "team_2026": "KC",
+          "historical_ovr": 85,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Foyesade Oluokun",
+          "team_2026": "JAX",
+          "historical_ovr": 81,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Jordyn Brooks",
+          "team_2026": "MIA",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Edgerrin Cooper",
+          "team_2026": "GB",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "elite_flash_then_out",
+          "ability_evidence": "ascending_playmaker",
+          "availability": "reserve_after_4_games",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Demario Davis",
+          "team_2026": "NYJ",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "poor_50.6_adequate_sample",
+          "ability_evidence": "veteran_MIKE_WILL",
+          "availability": "active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Divine Deablo",
+        "team_2026": null,
+        "historical_ovr": null,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [],
+      "displaced_from_locked": [],
+      "key_moves": [
+        {
+          "move": "Cashman/Reese surge over Roquan",
+          "reason": "2026 grades 85.4 / 77.0 vs Smith 72.5 on adequate samples.",
+          "validated": "2026_primary"
+        },
+        {
+          "move": "Edgerrin Cooper retained #9 with AVAIL FLAG over Davis",
+          "reason": "Limited elite flash ≠ erased; Davis adequate poor form sample.",
+          "validated": "ability_flash_plus_Davis_current_form"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Roquan Smith > Alex Singleton",
+          "uncertainty": "LOW",
+          "tiebreak": "Near-even both seasons; Smith coverage identity / prior elite sustained.",
+          "sources": [
+            "WILL_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Alex Singleton > Drue Tranquill",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 grade vs Tranquill 2025; split retained as LOW.",
+          "sources": [
+            "WILL_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Foyesade Oluokun > Jordyn Brooks",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 grade vs Brooks 2025 77.9; Brooks still #8 active clean tackling.",
+          "sources": [
+            "WILL_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Edgerrin Cooper > Demario Davis",
+          "uncertainty": "LOW",
+          "tiebreak": "Cooper quality (6 TFL/3 sacks in 4g) over Davis 50.6; Cooper AVAILABILITY_FLAG reserve — not erased.",
+          "sources": [
+            "WILL_REAUDIT_H2H_05"
+          ]
+        },
+        {
+          "pair": "Demario Davis > Divine Deablo",
+          "uncertainty": "LOW",
+          "tiebreak": "Davis active role over Deablo inactive despite grade; FO cut.",
+          "sources": [
+            "WILL_REAUDIT_BG_01"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Edgerrin Cooper": {
+          "availability": "reserve_after_4_games",
+          "ability": "ascending_playmaker",
+          "current_form": "elite_flash_then_out"
+        },
+        "Demario Davis": {
+          "availability": "active",
+          "ability": "veteran_MIKE_WILL",
+          "current_form": "poor_50.6_adequate_sample"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": null,
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/will-reaudit-final.md (or sibling)"
+      }
+    },
+    "SAM": {
+      "position": "SAM",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "LOW",
+      "board_uncertainty_note": "Bottom-5 heavily thin-sample; provisional order with explicit LOW on 5 links. Speed FO is prior-only (0 snaps).",
+      "old_top10": [
+        "Devin Bush",
+        "Isaiah McDuffie",
+        "Quincy Williams",
+        "D'Marco Jackson",
+        "Leo Chenal",
+        "Derrick Barnes",
+        "Dorian Williams",
+        "Dennis Gardeck",
+        "E.J. Speed",
+        "Malcolm Rodriguez"
+      ],
+      "old_first_out": "Noah Sewell",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Quincy Williams",
+          "team_2026": "CLE",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Devin Bush",
+          "team_2026": "CHI",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "down_62.8_adequate_sample",
+          "ability_evidence": "2025_elite_87.6",
+          "availability": "active_full",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Isaiah McDuffie",
+          "team_2026": "GB",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Derrick Barnes",
+          "team_2026": "DET",
+          "historical_ovr": 75,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Dorian Williams",
+          "team_2026": "BUF",
+          "historical_ovr": 74,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "D'Marco Jackson",
+          "team_2026": "CHI",
+          "historical_ovr": 77,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Malcolm Rodriguez",
+          "team_2026": "DET",
+          "historical_ovr": 71,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Dennis Gardeck",
+          "team_2026": "JAX",
+          "historical_ovr": 73,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Noah Sewell",
+          "team_2026": "CHI",
+          "historical_ovr": 70,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Leo Chenal",
+          "team_2026": "WAS",
+          "historical_ovr": 76,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "poor_tiny_sample",
+          "ability_evidence": "physical_SAM",
+          "availability": "reserve_after_84_snaps",
+          "flags": [
+            "SAMPLE_FLAG"
+          ]
+        }
+      ],
+      "first_out": {
+        "player": "E.J. Speed",
+        "team_2026": null,
+        "historical_ovr": null,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [
+        "Noah Sewell"
+      ],
+      "displaced_from_locked": [
+        "E.J. Speed"
+      ],
+      "key_moves": [
+        {
+          "move": "Quincy Williams #1 over Bush",
+          "reason": "2026 79.9 #4 LB / 500 snaps; Bush 87.6 2025 is context — adequate samples both.",
+          "validated": "2026_primary_adequate_sample"
+        },
+        {
+          "move": "Noah Sewell in; E.J. Speed FO",
+          "reason": "Speed zero 2026 snaps → FO with ability caveat; Sewell tiny sample provisional.",
+          "validated": "provisional_thin"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Derrick Barnes > Dorian Williams",
+          "uncertainty": "LOW",
+          "tiebreak": "Multi-year sack/production identity over 2026 grade dip.",
+          "sources": [
+            "SAM_REAUDIT_TIEBREAK_03"
+          ]
+        },
+        {
+          "pair": "Malcolm Rodriguez > Dennis Gardeck",
+          "uncertainty": "LOW",
+          "tiebreak": "Rodriguez 82.7/120 vs Gardeck no grade/178 — thin both ways.",
+          "sources": [
+            "SAM_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Dennis Gardeck > Noah Sewell",
+          "uncertainty": "LOW",
+          "tiebreak": "Snap volume role vs Sewell 75.8/89; thin.",
+          "sources": [
+            "SAM_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Noah Sewell > Leo Chenal",
+          "uncertainty": "LOW",
+          "tiebreak": "Sewell grade vs Chenal 37.8/84 then reserve; both tiny.",
+          "sources": [
+            "SAM_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Leo Chenal > E.J. Speed",
+          "uncertainty": "LOW",
+          "tiebreak": "Any 2026 snaps over Speed 0; Speed ability not zeroed — FO only.",
+          "sources": [
+            "SAM_REAUDIT_BG_01"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Devin Bush": {
+          "availability": "active_full",
+          "ability": "2025_elite_87.6",
+          "current_form": "down_62.8_adequate_sample"
+        },
+        "E.J. Speed": {
+          "availability": "RES_0_snaps",
+          "ability": "prior_SAM_contributor",
+          "current_form": "no_2026_sample"
+        },
+        "Leo Chenal": {
+          "availability": "reserve_after_84_snaps",
+          "ability": "physical_SAM",
+          "current_form": "poor_tiny_sample"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": null,
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/sam-reaudit-final.md (or sibling)"
+      }
+    },
+    "CB": {
+      "position": "CB",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "LOW",
+      "board_uncertainty_note": "Witherspoon fall is 2026-form with adequate sample (75.5 vs 2025 90.1); five LOW mid/lower links. Coverage 2025-only order not used to reorder.",
+      "old_top10": [
+        "Devon Witherspoon",
+        "Trent McDuffie",
+        "Denzel Ward",
+        "Jamel Dean",
+        "Isaiah Rodgers",
+        "Quinyon Mitchell",
+        "Jaylen Watson",
+        "Mike Jackson",
+        "Ja'Quan McMillian",
+        "Jacob Parrish"
+      ],
+      "old_first_out": "James Pierre",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Trent McDuffie",
+          "team_2026": "LA",
+          "historical_ovr": 89,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Denzel Ward",
+          "team_2026": "CLE",
+          "historical_ovr": 86,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Isaiah Rodgers",
+          "team_2026": "MIN",
+          "historical_ovr": 81,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Jamel Dean",
+          "team_2026": "PIT",
+          "historical_ovr": 83,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Jacob Parrish",
+          "team_2026": "TB",
+          "historical_ovr": 75,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Jaylen Watson",
+          "team_2026": "LA",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Devon Witherspoon",
+          "team_2026": "SEA",
+          "historical_ovr": 91,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "down_75.5_adequate_sample",
+          "ability_evidence": "2025_PFF_90.1_CB1",
+          "availability": "active_full",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Quinyon Mitchell",
+          "team_2026": "PHI",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Ja'Quan McMillian",
+          "team_2026": "DEN",
+          "historical_ovr": 76,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "James Pierre",
+          "team_2026": "MIN",
+          "historical_ovr": 74,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Mike Jackson",
+        "team_2026": null,
+        "historical_ovr": null,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [
+        "James Pierre"
+      ],
+      "displaced_from_locked": [
+        "Mike Jackson"
+      ],
+      "key_moves": [
+        {
+          "move": "Witherspoon falls to #7",
+          "reason": "Adequate 2026 sample decline vs 2025 elite — current form primary; ability keeps him firmly in top10.",
+          "validated": "2026_primary_adequate_sample"
+        },
+        {
+          "move": "McDuffie #1 over Ward",
+          "reason": "2026 level; 2025 McDuffie decides.",
+          "validated": "declared_convention"
+        },
+        {
+          "move": "James Pierre in; Mike Jackson FO",
+          "reason": "Pierre snaps/grade over Jackson reserve path.",
+          "validated": "2026_primary"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Isaiah Rodgers > Jamel Dean",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 grade; Dean 2025 80.6 context.",
+          "sources": [
+            "CB_REAUDIT_TIEBREAK_02"
+          ]
+        },
+        {
+          "pair": "Jacob Parrish > Jaylen Watson",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 PD/grade; Watson 2025 context.",
+          "sources": [
+            "CB_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Jaylen Watson > Devon Witherspoon",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 grade 80.7 vs 75.5; Witherspoon 2025 #1 CB ability retained — still #7 not erased.",
+          "sources": [
+            "CB_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Quinyon Mitchell > Ja'Quan McMillian",
+          "uncertainty": "LOW",
+          "tiebreak": "Near-even both seasons; retain Mitchell.",
+          "sources": [
+            "CB_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Ja'Quan McMillian > James Pierre",
+          "uncertainty": "LOW",
+          "tiebreak": "Starter snaps (372) over Pierre 75.9/173 quality; sample vs quality.",
+          "sources": [
+            "CB_REAUDIT_BG_01"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Devon Witherspoon": {
+          "availability": "active_full",
+          "ability": "2025_PFF_90.1_CB1",
+          "current_form": "down_75.5_adequate_sample"
+        },
+        "Mike Jackson": {
+          "availability": "reserve_after_149_snaps",
+          "ability": "starting_CB_caliber",
+          "current_form": "60.9_then_out"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": null,
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/cb-reaudit-final.md (or sibling)"
+      }
+    },
+    "FS": {
+      "position": "FS",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": null,
+      "old_top10": [
+        "Jalen Pitre",
+        "Minkah Fitzpatrick",
+        "Antonio Johnson",
+        "Julian Love",
+        "Xavier McKinney",
+        "Quentin Lake",
+        "Tykee Smith",
+        "Kevin Byard",
+        "Bryan Cook",
+        "Thomas Harper"
+      ],
+      "old_first_out": "Chuck Clark",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Jalen Pitre",
+          "team_2026": "HOU",
+          "historical_ovr": 88,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Quentin Lake",
+          "team_2026": "LA",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Tykee Smith",
+          "team_2026": "TB",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Minkah Fitzpatrick",
+          "team_2026": "NYJ",
+          "historical_ovr": 86,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Julian Love",
+          "team_2026": "SEA",
+          "historical_ovr": 83,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Xavier McKinney",
+          "team_2026": "GB",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Antonio Johnson",
+          "team_2026": "JAX",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "down_67.7_adequate_sample",
+          "ability_evidence": "2025_elite_86.8",
+          "availability": "active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Chuck Clark",
+          "team_2026": "DET",
+          "historical_ovr": 74,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Kevin Byard",
+          "team_2026": "NE",
+          "historical_ovr": 77,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Bryan Cook",
+          "team_2026": "CIN",
+          "historical_ovr": 76,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Thomas Harper",
+        "team_2026": null,
+        "historical_ovr": null,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [
+        "Chuck Clark"
+      ],
+      "displaced_from_locked": [
+        "Thomas Harper"
+      ],
+      "key_moves": [
+        {
+          "move": "Antonio Johnson falls to #7",
+          "reason": "2026 67.7 vs McKinney; 2025 86.8 context — adequate sample demotion of form not ability erasure.",
+          "validated": "2026_primary_adequate_sample"
+        },
+        {
+          "move": "Chuck Clark in; Thomas Harper FO",
+          "reason": "Clark full-time over Harper reserve.",
+          "validated": "2026_primary"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Jalen Pitre > Quentin Lake",
+          "uncertainty": "LOW",
+          "tiebreak": "2025 Pitre 83.6 decides 2026 Lake INT/PD spike; Lake current_form strong.",
+          "sources": [
+            "FS_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Tykee Smith > Minkah Fitzpatrick",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 grade; Fitzpatrick 2025 82.0 / sustained ability keeps him #4.",
+          "sources": [
+            "FS_REAUDIT_BG_01"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Antonio Johnson": {
+          "availability": "active",
+          "ability": "2025_elite_86.8",
+          "current_form": "down_67.7_adequate_sample"
+        },
+        "Thomas Harper": {
+          "availability": "reserve_after_87_snaps",
+          "ability": "developmental_S",
+          "current_form": "insufficient"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": null,
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/fs-reaudit-final.md (or sibling)"
+      }
+    },
+    "SS": {
+      "position": "SS",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "LOW",
+      "board_uncertainty_note": "Hamilton behind Bates on 2026 form with ability flag; Branch/James limited — retained on ability+flags not erased. DeJean SS 73 external control untouched.",
+      "old_top10": [
+        "Kyle Hamilton",
+        "Evan Williams",
+        "Jessie Bates",
+        "Brian Branch",
+        "Derwin James",
+        "Antoine Winfield Jr.",
+        "Kamren Curl",
+        "Talanoa Hufanga",
+        "Tony Jefferson",
+        "Jaylinn Hawkins"
+      ],
+      "old_first_out": "Christian Roland-Wallace",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Evan Williams",
+          "team_2026": "GB",
+          "historical_ovr": 88,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Jessie Bates",
+          "team_2026": "ATL",
+          "historical_ovr": 87,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Kyle Hamilton",
+          "team_2026": "BAL",
+          "historical_ovr": 94,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "good_not_peak_77.3",
+          "ability_evidence": "elite_versatile_SS_2025_86.3",
+          "availability": "active_502_snaps",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Antoine Winfield Jr.",
+          "team_2026": "TB",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Tony Jefferson",
+          "team_2026": "LAC",
+          "historical_ovr": 77,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Talanoa Hufanga",
+          "team_2026": "DEN",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "70.5_limited",
+          "ability_evidence": "starting_SS",
+          "availability": "inactive_after_322",
+          "flags": [
+            "AVAILABILITY_FLAG"
+          ]
+        },
+        {
+          "rank": 7,
+          "player": "Brian Branch",
+          "team_2026": "DET",
+          "historical_ovr": 85,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "pre_injury_82.2_then_out",
+          "ability_evidence": "ascending_playmaking_S",
+          "availability": "Achilles_68_snaps",
+          "flags": [
+            "AVAILABILITY_FLAG"
+          ]
+        },
+        {
+          "rank": 8,
+          "player": "Christian Roland-Wallace",
+          "team_2026": "KC",
+          "historical_ovr": 75,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Derwin James",
+          "team_2026": "LAC",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "61.0_then_reserve_NOT_erased",
+          "ability_evidence": "proven_elite_SS",
+          "availability": "RES_after_193_snaps",
+          "flags": [
+            "AVAILABILITY_FLAG"
+          ]
+        },
+        {
+          "rank": 10,
+          "player": "Kamren Curl",
+          "team_2026": "LA",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Jaylinn Hawkins",
+        "team_2026": null,
+        "historical_ovr": null,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [
+        "Christian Roland-Wallace"
+      ],
+      "displaced_from_locked": [
+        "Jaylinn Hawkins"
+      ],
+      "key_moves": [
+        {
+          "move": "Evan Williams #1",
+          "reason": "2026 90.6 #1 SS grade.",
+          "validated": "2026_primary"
+        },
+        {
+          "move": "KEEP Derwin James #9 with AVAIL FLAG (not erased for reserve)",
+          "reason": "Same conceptual rule as Garrett/Parsons; 2025 78.8 sustained; reserve/193 snaps flagged.",
+          "validated": "conceptual_correction_consistency"
+        },
+        {
+          "move": "KEEP Brian Branch #7 with injury flag",
+          "reason": "Achilles-limited 68 snaps; pre-injury ability retained in top10.",
+          "validated": "ability_with_injury_flag"
+        },
+        {
+          "move": "Christian Roland-Wallace in; Jaylinn Hawkins FO",
+          "reason": "Active over Hawkins inactive knee.",
+          "validated": "2026_primary"
+        },
+        {
+          "move": "Cooper DeJean not ranked at SS",
+          "reason": "SS 73 lock preserved as external control; cross-position CB/slot evidence cannot rank him at SS.",
+          "validated": "lock_preserved"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Jessie Bates > Kyle Hamilton",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 Bates 84.1 vs Hamilton 77.3; Hamilton 2025 86.3 ability keeps him #3 not FO.",
+          "sources": [
+            "SS_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Tony Jefferson > Talanoa Hufanga",
+          "uncertainty": "LOW",
+          "tiebreak": "Grades match; Hufanga inactive — Jefferson active role; Hufanga ability retained #6.",
+          "sources": [
+            "SS_REAUDIT_TIEBREAK_04"
+          ]
+        },
+        {
+          "pair": "Talanoa Hufanga > Brian Branch",
+          "uncertainty": "LOW",
+          "tiebreak": "Both limited (Hufanga inactive / Branch 68 snaps post-Achilles); Hufanga prior full-time over Branch tiny elite flash.",
+          "sources": [
+            "SS_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Brian Branch > Christian Roland-Wallace",
+          "uncertainty": "LOW",
+          "tiebreak": "Branch pre-injury ability/grade 82.2 vs Roland-Wallace volume; thin.",
+          "sources": [
+            "SS_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Derwin James > Kamren Curl",
+          "uncertainty": "LOW",
+          "tiebreak": "James sustained ability despite reserve/61.0; Curl active poor form 55.9/7 misses — James not erased below Curl.",
+          "sources": [
+            "SS_REAUDIT_BG_01"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Kyle Hamilton": {
+          "availability": "active_502_snaps",
+          "ability": "elite_versatile_SS_2025_86.3",
+          "current_form": "good_not_peak_77.3"
+        },
+        "Brian Branch": {
+          "availability": "Achilles_68_snaps",
+          "ability": "ascending_playmaking_S",
+          "current_form": "pre_injury_82.2_then_out"
+        },
+        "Derwin James": {
+          "availability": "RES_after_193_snaps",
+          "ability": "proven_elite_SS",
+          "current_form": "61.0_then_reserve_NOT_erased"
+        },
+        "Talanoa Hufanga": {
+          "availability": "inactive_after_322",
+          "ability": "starting_SS",
+          "current_form": "70.5_limited"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": null,
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/ss-reaudit-final.md (or sibling)"
+      }
+    },
+    "K": {
+      "position": "K",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": null,
+      "old_top10": [
+        "Will Reichard",
+        "Ka'imi Fairbairn",
+        "Chase McLaughlin",
+        "Evan McPherson",
+        "Cam Little",
+        "Brandon Aubrey",
+        "Jason Myers",
+        "Joey Slye",
+        "Chris Boswell",
+        "Cameron Dicker"
+      ],
+      "old_first_out": "Eddy Pineiro",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Chase McLaughlin",
+          "team_2026": "TB",
+          "historical_ovr": 86,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Will Reichard",
+          "team_2026": "MIN",
+          "historical_ovr": 91,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Ka'imi Fairbairn",
+          "team_2026": "HOU",
+          "historical_ovr": 88,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Evan McPherson",
+          "team_2026": "CIN",
+          "historical_ovr": 84,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Cam Little",
+          "team_2026": "JAX",
+          "historical_ovr": 82,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Jason Myers",
+          "team_2026": "SEA",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Joey Slye",
+          "team_2026": "TEN",
+          "historical_ovr": 76,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Brandon Aubrey",
+          "team_2026": "DAL",
+          "historical_ovr": 80,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "blocked_FGs_EPA_+0.8",
+          "ability_evidence": "range_specialist",
+          "availability": "active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Chris Boswell",
+          "team_2026": "PIT",
+          "historical_ovr": 76,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "FG_EPA_-1.2_PFF_62.7_adequate_sample",
+          "ability_evidence": "2025_elite_context",
+          "availability": "active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Cameron Dicker",
+          "team_2026": "LAC",
+          "historical_ovr": 75,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Eddy Pineiro",
+        "team_2026": null,
+        "historical_ovr": null,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [],
+      "displaced_from_locked": [],
+      "key_moves": [
+        {
+          "move": "McLaughlin #1 over Reichard",
+          "reason": "2026 perfect 19/19, FG EPA +17.9; Reichard 2025 +24.1 context.",
+          "validated": "2026_primary"
+        },
+        {
+          "move": "Aubrey/Boswell fall",
+          "reason": "2026 EPA collapse / blocked FGs; ability not erased (still top10).",
+          "validated": "2026_primary_adequate_sample"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Cam Little > Jason Myers",
+          "uncertainty": "LOW",
+          "tiebreak": "Tied both seasons (+8.6/+8.5; +12/+12); retain Little on locked adjacency / volume continuity.",
+          "sources": [
+            "K_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Brandon Aubrey > Chris Boswell",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 EPA +0.8 vs -1.2; Boswell 2025 +17.3 / PFF 92.5 is context — 2026 Boswell poor form adequate sample. NOT using 2025 to override 2026.",
+          "sources": [
+            "K_REAUDIT_BG_01",
+            "docs/k-reaudit-final.md"
+          ]
+        },
+        {
+          "pair": "Chris Boswell > Cameron Dicker",
+          "uncertainty": "LOW",
+          "tiebreak": "Near-identical both seasons; retain prior adjacency.",
+          "sources": [
+            "K_REAUDIT_TIEBREAK_11"
+          ]
+        },
+        {
+          "pair": "Cameron Dicker > Eddy Pineiro",
+          "uncertainty": "LOW",
+          "tiebreak": "Dicker in locked top10 with full 2026 workload; Pineiro FO continuity — thin saved pairwise vs Pineiro 2026.",
+          "sources": [
+            "K_REAUDIT_BG_01",
+            "K baseline"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Chris Boswell": {
+          "availability": "active",
+          "ability": "2025_elite_context",
+          "current_form": "FG_EPA_-1.2_PFF_62.7_adequate_sample"
+        },
+        "Brandon Aubrey": {
+          "availability": "active",
+          "ability": "range_specialist",
+          "current_form": "blocked_FGs_EPA_+0.8"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": "Coverage 2025-only had Boswell high — rejected where it conflicts with 2026 primary.",
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/k-reaudit-final.md (or sibling)"
+      }
+    },
+    "P": {
+      "position": "P",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL",
+      "uncertainty": "MEDIUM",
+      "board_uncertainty_note": null,
+      "old_top10": [
+        "Michael Dickson",
+        "Jordan Stout",
+        "Daniel Whelan",
+        "Logan Cooke",
+        "Tress Way",
+        "Jack Fox",
+        "Austin McNamara",
+        "Corliss Waitman",
+        "J.K. Scott",
+        "Braden Mann"
+      ],
+      "old_first_out": "Bryan Anger",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Michael Dickson",
+          "team_2026": "SEA",
+          "historical_ovr": 90,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Corliss Waitman",
+          "team_2026": "SF",
+          "historical_ovr": 76,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Jordan Stout",
+          "team_2026": "NYG",
+          "historical_ovr": 86,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Daniel Whelan",
+          "team_2026": "GB",
+          "historical_ovr": 85,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Logan Cooke",
+          "team_2026": "JAX",
+          "historical_ovr": 83,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Jack Fox",
+          "team_2026": "DET",
+          "historical_ovr": 79,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Tress Way",
+          "team_2026": "WAS",
+          "historical_ovr": 81,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Braden Mann",
+          "team_2026": "PHI",
+          "historical_ovr": 74,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "J.K. Scott",
+          "team_2026": "LAC",
+          "historical_ovr": 75,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Austin McNamara",
+          "team_2026": "NYJ",
+          "historical_ovr": 77,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Bryan Anger",
+        "team_2026": null,
+        "historical_ovr": null,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [],
+      "displaced_from_locked": [],
+      "key_moves": [
+        {
+          "move": "Waitman #2 surge",
+          "reason": "2026 net 44.1 / EPA +5.4.",
+          "validated": "2026_primary"
+        },
+        {
+          "move": "Fox over Way (reversal); Mann over Scott",
+          "reason": "2026 net/EPA edges.",
+          "validated": "2026_primary"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Jordan Stout > Daniel Whelan",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 near-even nets/EPA; 2025 split (Stout net, Whelan PFF) — retain Stout.",
+          "sources": [
+            "P_REAUDIT_TIEBREAK_01"
+          ]
+        },
+        {
+          "pair": "Logan Cooke > Jack Fox",
+          "uncertainty": "LOW",
+          "tiebreak": "Cooke EPA vs Fox net; 2025 Cooke EPA / Fox inside-20 — style (EPA vs directional).",
+          "sources": [
+            "P_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "J.K. Scott > Austin McNamara",
+          "uncertainty": "LOW",
+          "tiebreak": "2026 near-even; McNamara 2025 +6.8 context.",
+          "sources": [
+            "P_REAUDIT_BG_01"
+          ]
+        },
+        {
+          "pair": "Austin McNamara > Bryan Anger",
+          "uncertainty": "LOW",
+          "tiebreak": "McNamara full role; Anger 19-punt thin inside-20 spike — FO.",
+          "sources": [
+            "P_REAUDIT_BG_01"
+          ]
+        }
+      ],
+      "player_flags": {},
+      "material_correction_vs_prior_draft": null,
+      "cross_check": null,
+      "limitations": null,
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/p-reaudit-final.md (or sibling)"
+      }
+    },
+    "FB": {
+      "position": "FB",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "PARTIAL / PROVISIONAL_ANALYST",
+      "uncertainty": "LOW",
+      "board_uncertainty_note": "PROVISIONAL: offense-front found insufficient current lead-block facets for a final FB order. Multi-year role/performance order with explicit limitations. Not engine-complete.",
+      "old_top10": [
+        "Kyle Juszczyk",
+        "Patrick Ricard",
+        "Hunter Luepke",
+        "Connor Heyward",
+        "Adam Prentice",
+        "Michael Burton",
+        "Reggie Gilliam",
+        "Alec Ingold",
+        "Andrew Beck",
+        "Scott Matlock"
+      ],
+      "old_first_out": "Brady Russell",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Kyle Juszczyk",
+          "team_2026": "SF",
+          "historical_ovr": 90,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Patrick Ricard",
+          "team_2026": "NYG",
+          "historical_ovr": 85,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Connor Heyward",
+          "team_2026": "LV",
+          "historical_ovr": 77,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "Hunter Luepke",
+          "team_2026": "DAL",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Adam Prentice",
+          "team_2026": "DEN",
+          "historical_ovr": 75,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Michael Burton",
+          "team_2026": "CLE",
+          "historical_ovr": 74,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Reggie Gilliam",
+          "team_2026": "NE",
+          "historical_ovr": 73,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "insufficient",
+          "ability_evidence": "FB1_special_teams",
+          "availability": "IR_after_58_snaps",
+          "flags": [
+            "AVAILABILITY_FLAG",
+            "SAMPLE_FLAG"
+          ]
+        },
+        {
+          "rank": 8,
+          "player": "Alec Ingold",
+          "team_2026": "LAC",
+          "historical_ovr": 72,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": "118_FB_snaps_then_out",
+          "ability_evidence": "lead_blocker",
+          "availability": "reserve_IR",
+          "flags": [
+            "AVAILABILITY_FLAG"
+          ]
+        },
+        {
+          "rank": 9,
+          "player": "Andrew Beck",
+          "team_2026": "NYJ",
+          "historical_ovr": 70,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Scott Matlock",
+          "team_2026": "LAC",
+          "historical_ovr": 69,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Brady Russell",
+        "team_2026": "SEA",
+        "historical_ovr": 67,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [],
+      "displaced_from_locked": [],
+      "key_moves": [
+        {
+          "move": "Heyward over Luepke (reversal)",
+          "reason": "2026 FB snaps/grade 60.6/144 vs 54.5/95.",
+          "validated": "2026_primary_limited_facets"
+        },
+        {
+          "move": "Juszczyk #1 retained",
+          "reason": "Complete role + #1 FB grade 65.8.",
+          "validated": "2026_primary"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Reggie Gilliam > Alec Ingold",
+          "uncertainty": "LOW",
+          "tiebreak": "Both reserve/IR; grade vs usage split — provisional.",
+          "sources": [
+            "FB_REAUDIT_H2H_04"
+          ]
+        },
+        {
+          "pair": "Andrew Beck > Scott Matlock",
+          "uncertainty": "LOW",
+          "tiebreak": "Tiny samples; Beck prior FB1 path vs Matlock lead-block role — provisional.",
+          "sources": [
+            "FB_REAUDIT_H2H_05"
+          ]
+        }
+      ],
+      "player_flags": {
+        "Reggie Gilliam": {
+          "availability": "IR_after_58_snaps",
+          "ability": "FB1_special_teams",
+          "current_form": "insufficient"
+        },
+        "Alec Ingold": {
+          "availability": "reserve_IR",
+          "ability": "lead_blocker",
+          "current_form": "118_FB_snaps_then_out"
+        }
+      },
+      "material_correction_vs_prior_draft": null,
+      "cross_check": null,
+      "limitations": [
+        "No public lead-block win-rate facet package",
+        "PFF FB overall thin",
+        "Several IR/reserve"
+      ],
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/fb-reaudit-final.md (or sibling)"
+      }
+    },
+    "LS": {
+      "position": "LS",
+      "status": "ANALYST_PROPOSAL_FULL_ORDER",
+      "engine_publication_status": "EVIDENCE_GAP engine / PROVISIONAL_ANALYST published",
+      "uncertainty": "LOW",
+      "board_uncertainty_note": "PROVISIONAL: no public LS grade; FKS unit points credit whole unit; aborted-snap crumbs only. Every adjacent link LOW. Multi-year role continuity order with explicit limitations. Coverage 2025 FKS proposed Hennessy #1 — noted as alternate thin signal, not silently adopted as high-confidence.",
+      "old_top10": [
+        "Ross Matiscik",
+        "Thomas Hennessy",
+        "Chris Stoll",
+        "William Wagner",
+        "Austin Brinkman",
+        "Andrew DePaola",
+        "Luke Rhodes",
+        "Christian Kuntz",
+        "Trent Sieg",
+        "Nick Moore"
+      ],
+      "old_first_out": "Joe Cardona",
+      "proposed_top10": [
+        {
+          "rank": 1,
+          "player": "Ross Matiscik",
+          "team_2026": "JAX",
+          "historical_ovr": 78,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 2,
+          "player": "Thomas Hennessy",
+          "team_2026": "NYJ",
+          "historical_ovr": 76,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 3,
+          "player": "Chris Stoll",
+          "team_2026": "SEA",
+          "historical_ovr": 74,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 4,
+          "player": "William Wagner",
+          "team_2026": "CIN",
+          "historical_ovr": 73,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 5,
+          "player": "Austin Brinkman",
+          "team_2026": "HOU",
+          "historical_ovr": 72,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 6,
+          "player": "Andrew DePaola",
+          "team_2026": "MIN",
+          "historical_ovr": 71,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 7,
+          "player": "Luke Rhodes",
+          "team_2026": "IND",
+          "historical_ovr": 70,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 8,
+          "player": "Christian Kuntz",
+          "team_2026": "PIT",
+          "historical_ovr": 69,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 9,
+          "player": "Trent Sieg",
+          "team_2026": "DAL",
+          "historical_ovr": 68,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        },
+        {
+          "rank": 10,
+          "player": "Nick Moore",
+          "team_2026": "BAL",
+          "historical_ovr": 67,
+          "ovr_status": "OVR pending re-score — no new OVR proposed",
+          "current_form": null,
+          "ability_evidence": null,
+          "availability": "see_board_notes_or_active",
+          "flags": []
+        }
+      ],
+      "first_out": {
+        "player": "Joe Cardona",
+        "team_2026": null,
+        "historical_ovr": null,
+        "ovr_status": "OVR pending re-score — no new OVR proposed"
+      },
+      "moved_in_vs_locked": [],
+      "displaced_from_locked": [],
+      "key_moves": [
+        {
+          "move": "Retain locked LS order as provisional",
+          "reason": "No individual LS grade evidence to justify reorder; publishing continuity order with LOW on all links rather than leaving board unpublished.",
+          "validated": "provisional_role_continuity_only"
+        },
+        {
+          "move": "Note Hennessy FKS #1 alternate",
+          "reason": "Coverage research 2025 unit points — competing thin signal, not adopted as MEDIUM.",
+          "validated": "transparent_gap"
+        }
+      ],
+      "low_links_resolved_with_caveat": [
+        {
+          "pair": "Ross Matiscik > Thomas Hennessy",
+          "uncertainty": "LOW",
+          "tiebreak": "Locked-baseline continuity / multi-year starting LS role; no public individual LS grade to retie. Alternate 2025 FKS unit-points signal (Hennessy) recorded as unresolved competing thin order.",
+          "sources": [
+            "LS_REAUDIT_H2H_*",
+            "coverage-specialists:LS",
+            "FKS unit points"
+          ]
+        },
+        {
+          "pair": "Thomas Hennessy > Chris Stoll",
+          "uncertainty": "LOW",
+          "tiebreak": "Locked-baseline continuity / multi-year starting LS role; no public individual LS grade to retie. Alternate 2025 FKS unit-points signal (Hennessy) recorded as unresolved competing thin order.",
+          "sources": [
+            "LS_REAUDIT_H2H_*",
+            "coverage-specialists:LS",
+            "FKS unit points"
+          ]
+        },
+        {
+          "pair": "Chris Stoll > William Wagner",
+          "uncertainty": "LOW",
+          "tiebreak": "Locked-baseline continuity / multi-year starting LS role; no public individual LS grade to retie. Alternate 2025 FKS unit-points signal (Hennessy) recorded as unresolved competing thin order.",
+          "sources": [
+            "LS_REAUDIT_H2H_*",
+            "coverage-specialists:LS",
+            "FKS unit points"
+          ]
+        },
+        {
+          "pair": "William Wagner > Austin Brinkman",
+          "uncertainty": "LOW",
+          "tiebreak": "Locked-baseline continuity / multi-year starting LS role; no public individual LS grade to retie. Alternate 2025 FKS unit-points signal (Hennessy) recorded as unresolved competing thin order.",
+          "sources": [
+            "LS_REAUDIT_H2H_*",
+            "coverage-specialists:LS",
+            "FKS unit points"
+          ]
+        },
+        {
+          "pair": "Austin Brinkman > Andrew DePaola",
+          "uncertainty": "LOW",
+          "tiebreak": "Locked-baseline continuity / multi-year starting LS role; no public individual LS grade to retie. Alternate 2025 FKS unit-points signal (Hennessy) recorded as unresolved competing thin order.",
+          "sources": [
+            "LS_REAUDIT_H2H_*",
+            "coverage-specialists:LS",
+            "FKS unit points"
+          ]
+        },
+        {
+          "pair": "Andrew DePaola > Luke Rhodes",
+          "uncertainty": "LOW",
+          "tiebreak": "Locked-baseline continuity / multi-year starting LS role; no public individual LS grade to retie. Alternate 2025 FKS unit-points signal (Hennessy) recorded as unresolved competing thin order.",
+          "sources": [
+            "LS_REAUDIT_H2H_*",
+            "coverage-specialists:LS",
+            "FKS unit points"
+          ]
+        },
+        {
+          "pair": "Luke Rhodes > Christian Kuntz",
+          "uncertainty": "LOW",
+          "tiebreak": "Locked-baseline continuity / multi-year starting LS role; no public individual LS grade to retie. Alternate 2025 FKS unit-points signal (Hennessy) recorded as unresolved competing thin order.",
+          "sources": [
+            "LS_REAUDIT_H2H_*",
+            "coverage-specialists:LS",
+            "FKS unit points"
+          ]
+        },
+        {
+          "pair": "Christian Kuntz > Trent Sieg",
+          "uncertainty": "LOW",
+          "tiebreak": "Locked-baseline continuity / multi-year starting LS role; no public individual LS grade to retie. Alternate 2025 FKS unit-points signal (Hennessy) recorded as unresolved competing thin order.",
+          "sources": [
+            "LS_REAUDIT_H2H_*",
+            "coverage-specialists:LS",
+            "FKS unit points"
+          ]
+        },
+        {
+          "pair": "Trent Sieg > Nick Moore",
+          "uncertainty": "LOW",
+          "tiebreak": "Locked-baseline continuity / multi-year starting LS role; no public individual LS grade to retie. Alternate 2025 FKS unit-points signal (Hennessy) recorded as unresolved competing thin order.",
+          "sources": [
+            "LS_REAUDIT_H2H_*",
+            "coverage-specialists:LS",
+            "FKS unit points"
+          ]
+        },
+        {
+          "pair": "Nick Moore > Joe Cardona",
+          "uncertainty": "LOW",
+          "tiebreak": "Locked-baseline continuity / multi-year starting LS role; no public individual LS grade to retie. Alternate 2025 FKS unit-points signal (Hennessy) recorded as unresolved competing thin order.",
+          "sources": [
+            "LS_REAUDIT_H2H_*",
+            "coverage-specialists:LS",
+            "FKS unit points"
+          ]
+        }
+      ],
+      "player_flags": {},
+      "material_correction_vs_prior_draft": null,
+      "cross_check": null,
+      "limitations": [
+        "No public PFF LS grade",
+        "FKS points are unit-level",
+        "Aborted snaps rare/noisy"
+      ],
+      "comparison_convention": {
+        "label": "declared_2026_primary_plus_2025_context",
+        "not_a_calibrated_formula": true,
+        "do_not_describe_as_validated_65_35_weights": true,
+        "note": "Where narrative cites 2026-primary vs 2025-context, that is a declared comparison convention for reading evidence — not a fitted rating equation."
+      },
+      "ratings_drive_probabilities_not_outcomes": true,
+      "pff_used_as_rank": false,
+      "ea_madden_used_as_ours": false,
+      "new_ovr_proposed": false,
+      "baselines_locked_untouched": true,
+      "phi_dal_cards_untouched": true,
+      "page_updates": false,
+      "source_registry_pointers": {
+        "draft_packet": "/workspace/top10-final-proposed-rankings.json",
+        "blended_comparisons": "/workspace/top10-blended-comparison-packet.json",
+        "offense_front_research": "/workspace/top10-offense-front-research.json",
+        "coverage_specialists_research": "/workspace/top10-coverage-specialists-research.json",
+        "repo_docs": "/workspace/gridiron-standard/docs/ls-reaudit-final.md (or sibling)"
+      }
+    }
+  }
+}
