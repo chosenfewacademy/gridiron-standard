@@ -55,6 +55,7 @@
     "outcome:audit": "tsx src/rating-outcome-report.ts",
     "rubric:audit": "tsx src/top10-rerank.ts",
     "h2h:audit": "tsx src/h2h-audit.ts",
+    "proposal:audit": "tsx src/proposal-pack.ts",
     "ingame:scaffold": "tsx src/ingame-validation.ts"
   },
   "dependencies": {

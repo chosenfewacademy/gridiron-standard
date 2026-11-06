@@ -20,4 +20,4 @@ Jaylen Warren's editorial display in the RB rescore is 92. The correction record
 
 ## Completion
 
-No attached packet supplies a per-attribute source, band, and confidence for a 2026 rebuild. Historical attribute blobs in the offense-front research are left there. The queue in `data/reaudit-proposals/t115u-card-queue.json` has 242 players (220 top-10 slots and 22 first-outs), 0 complete profiles, and 0 derived overalls. The next pass can fill rated cells on this same schema without a second system.
+The earlier queue treated all 242 players as unrated. That file is superseded by `data/reaudit-proposals/t115u-proposal-pack.json` (see `docs/proposal-pack-integration.md`). The older head-to-head file still describes the first comparison packet, including an LT board whose ten links cleared that packet. The proposal pack does not carry that LT result forward: LT is an audited gap with two medium-or-better links, and a LOW link does not decide a board.
