@@ -13,6 +13,7 @@ import { importContractSnapshot } from "./contracts.js";
 import { clearDerived, DEFAULT_SEASON, type DatabaseSync } from "./db.js";
 import { mapRosterStatus } from "./membership.js";
 import { nameSlug, normalizeName } from "./names.js";
+import { restoreDalCanonical } from "./dal-canonical.js";
 import { restorePhiCanonical } from "./phi-canonical.js";
 import { canonicalTeam, NFL_TEAMS } from "./teams.js";
 
@@ -556,8 +557,9 @@ export function seedRoster(db: DatabaseSync, options: SeedOptions = {}): SeedRes
     const imported = importContractSnapshot(db, { root, season });
     warnings.push(...imported.warnings);
     const restored = restorePhiCanonical(db, root, season);
-    playerCount = players.length + restored.inserted_players;
-    cardCount += restored.inserted_cards;
+    const dallas = restoreDalCanonical(db, root, season);
+    playerCount = players.length + restored.inserted_players + dallas.inserted_players;
+    cardCount += restored.inserted_cards + dallas.inserted_cards;
 
     const info = db.prepare(`
       INSERT INTO seed_runs(seeded_at, season, player_count, card_count, warning_count)

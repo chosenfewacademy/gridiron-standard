@@ -193,8 +193,8 @@ export function runPhiFullRatingsTests(test: (name: string, fn: () => void) => v
       const card = db.prepare("SELECT ovr FROM rating_cards WHERE player_name=?").get(name) as { ovr: number };
       assert.equal(card.ovr, ovr);
     }
-    const otherDepth = db.prepare("SELECT COUNT(*) AS n FROM depth_chart WHERE team_abbr!='PHI'").get() as { n: number };
-    assert.equal(otherDepth.n, 2253);
+    const otherDepth = db.prepare("SELECT COUNT(*) AS n FROM depth_chart WHERE team_abbr!='PHI' AND team_abbr!='DAL'").get() as { n: number };
+    assert.equal(otherDepth.n, 2185);
     const milton = db.prepare(
       "SELECT pos_rank FROM depth_chart WHERE team_abbr='PHI' AND pos_abb='QB' AND player_name='Joe Milton III'"
     ).get() as { pos_rank: number };
