@@ -3,6 +3,7 @@
  "ordered_at": "2026-11-06",
  "explicit_current_data_reaudit": true,
  "replaces_locked_files": false,
+ "blend_window": "A comparison may declare 2026 through Week 8 as primary and completed 2025 as context, with both shares and a sourced rationale. 2025 alone cannot reorder. Shares are not a fitted league coefficient. This file has no such comparison.",
  "requested_slot_note": "The request said 210 slots. Every locked board in this tree has 10 players, which is 220 slots, plus first-outs and external challengers.",
  "positions_requested": 22,
  "top10_slots": 220,
@@ -31,7 +32,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/QB.reaudit-20261104.json",
    "locked_at": "2026-11-04T14:13:04Z",
@@ -68,7 +69,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/RB.reaudit-20261104.json",
    "locked_at": "2026-11-04T14:16:10Z",
@@ -101,7 +102,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/WR.reaudit-20261104.json",
    "locked_at": "2026-11-04T19:07:07Z",
@@ -136,7 +137,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/TE.reaudit-20261104b.json",
    "locked_at": "2026-11-04T19:01:47Z",
@@ -170,7 +171,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/LT.reaudit-20261104.json",
    "locked_at": "2026-11-04T03:02:08Z",
@@ -202,7 +203,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/LG.reaudit-20261104.json",
    "locked_at": "2026-11-04T03:24:04Z",
@@ -233,7 +234,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/C.reaudit-20261104.json",
    "locked_at": "2026-11-04T03:35:24Z",
@@ -264,7 +265,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/RG.reaudit-20261104.json",
    "locked_at": "2026-11-04T03:53:12Z",
@@ -295,7 +296,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/RT.reaudit-20261104.json",
    "locked_at": "2026-11-04T04:07:20Z",
@@ -326,7 +327,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/REDGE.reaudit-20261104.json",
    "locked_at": "2026-11-04T04:41:17Z",
@@ -357,7 +358,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/LEDGE.reaudit-20261104b.json",
    "locked_at": "2026-11-04T19:33:20Z",
@@ -388,7 +389,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/DT.reaudit-20261104.json",
    "locked_at": "2026-11-04T11:29:29Z",
@@ -419,7 +420,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/MIKE.reaudit-20261104.json",
    "locked_at": "2026-11-04T11:49:12Z",
@@ -450,7 +451,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/WILL.reaudit-20261104.json",
    "locked_at": "2026-11-04T11:55:40Z",
@@ -481,7 +482,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/SAM.reaudit-20261104.json",
    "locked_at": "2026-11-04T12:01:16Z",
@@ -512,7 +513,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/CB.reaudit-20261104b.json",
    "locked_at": "2026-11-04T19:35:50Z",
@@ -543,7 +544,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/FS.reaudit-20261104.json",
    "locked_at": "2026-11-04T12:27:07Z",
@@ -574,7 +575,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/SS.reaudit-20261104.json",
    "locked_at": "2026-11-04T12:35:09Z",
@@ -605,7 +606,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/K.reaudit-20261104b.json",
    "locked_at": "2026-11-04T19:31:14Z",
@@ -636,7 +637,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/P.reaudit-20261104.json",
    "locked_at": "2026-11-04T13:01:44Z",
@@ -667,7 +668,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/FB.reaudit-20261104.json",
    "locked_at": "2026-11-04T04:22:39Z",
@@ -698,7 +699,7 @@
    "supported_moves": [],
    "unverified": [],
    "gaps": [
-    "No sourced current-season comparison. The locked order is history and is not re-affirmed."
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
    ],
    "baseline_file": "data/baselines/LS.reaudit-20261104.json",
    "locked_at": "2026-11-04T13:08:02Z",

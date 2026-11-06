@@ -8,16 +8,16 @@
     {
       "id": "evidence_window",
       "status": "PARTIAL",
-      "source": "config/weekly-update.json",
-      "rule": "Weekly QB updates blend last-4-weeks, season-to-date, and prior-season evidence. A full positional re-audit has no league-wide numeric window; current season is primary by prose only.",
-      "gap": "The weekly window applies to QB only. Other positions have no encoded evidence window."
+      "source": "docs/season-phase-evidence.md",
+      "rule": "An established season keeps the current season primary and completed prior seasons as context. This re-audit accepts 2026 through Week 8 as primary plus completed 2025 as context when both shares and a sourced rationale are declared on the comparison. 2026 alone is also accepted. 2025 alone cannot reorder. Weekly QB weights are a different, QB-only blend and are not copied here.",
+      "gap": "The shares are declared per comparison. There is no fitted league-wide season coefficient, and the weekly QB weights are not that coefficient."
     },
     {
       "id": "recency_vs_multiyear",
-      "status": "PROSE",
-      "source": "config/evidence-policy.md",
-      "rule": "Current-season performance is primary. Earlier seasons are context for sustainability, injury, development, breakout, and decline. Prior context alone cannot reorder a top 10.",
-      "gap": "Rank records do not store the year split an analyst used."
+      "status": "PARTIAL",
+      "source": "docs/season-phase-evidence.md",
+      "rule": "Current-season performance is primary. Earlier seasons are context for sustainability, injury, development, breakout, and decline. A blend must give 2026 the larger declared share. Prior context alone cannot reorder a top 10.",
+      "gap": "Locked baseline ranks still do not store the year split. The split exists only on a comparison that declares it."
     },
     {
       "id": "sample_size_role",

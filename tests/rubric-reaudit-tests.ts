@@ -3,10 +3,19 @@ import { createHash } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { auditRubric } from "../src/rubric-audit.js";
-import { buildLeagueReaudit, comparisonErrors, loadLockedBoards, rerankBoard, type SourcedComparison } from "../src/top10-rerank.js";
+import { buildLeagueReaudit, comparisonErrors, loadLockedBoards, rerankBoard, type EvidenceWindow, type SourcedComparison } from "../src/top10-rerank.js";
 
 function hash(file: string): string {
   return createHash("sha256").update(fs.readFileSync(path.resolve(file))).digest("hex");
+}
+
+function blend(share2026 = 0.62, share2025 = 0.38): EvidenceWindow {
+  return {
+    role: "blended_established",
+    current: { season: 2026, through_week: 8, share: share2026 },
+    prior: { season: 2025, share: share2025, completed: true },
+    rationale: "2026 through Week 8 is the larger share; completed 2025 is context for sustainability only."
+  };
 }
 
 function comparison(over: Partial<SourcedComparison> = {}): SourcedComparison {
@@ -84,6 +93,40 @@ export function runRubricReauditTests(test: (name: string, fn: () => void) => vo
     assert.ok(comparisonErrors(comparison({ trait_tier: 99 })).includes("NINETY_NINE_NEEDS_GENERATIONAL_SUPPORT"));
     assert.deepEqual(comparisonErrors(comparison({ trait_tier: 99, scarcity_support: "Historic season, cited below." })), []);
     assert.ok(comparisonErrors(comparison({ sample: { snaps_or_plays: 12, role: "reserve", adequate: false } })).includes("SAMPLE_NOT_ADEQUATE"));
+    const blended = rows.map(row => comparison({ ...row, evidence_window: blend() }));
+    assert.equal(rerankBoard(board, blended).status, "EVIDENCE_SUPPORTED");
+    assert.deepEqual(rerankBoard(board, blended).proposed_order, names);
+  });
+
+  test("a declared 2026-through-week-8 blend can reorder, and 2025 alone cannot", () => {
+    assert.deepEqual(comparisonErrors(comparison({ evidence_window: blend() })), []);
+    assert.ok(comparisonErrors(comparison({ evidence_window: { season: 2025, role: "current_primary" } })).includes("PRIOR_CONTEXT_CANNOT_REORDER"));
+    assert.ok(comparisonErrors(comparison({ evidence_window: { ...blend(), rationale: "too short" } })).includes("BLEND_RATIONALE_REQUIRED"));
+    assert.ok(comparisonErrors(comparison({ evidence_window: blend(0.4, 0.6) })).includes("CURRENT_SEASON_NOT_PRIMARY"));
+    assert.ok(comparisonErrors(comparison({
+      evidence_window: { role: "blended_established", prior: { season: 2025, share: 1, completed: true }, rationale: "Completed 2025 is the whole window and current season is absent." }
+    })).includes("BLEND_REQUIRES_CURRENT_AND_PRIOR"));
+    const low = comparisonErrors(comparison({ evidence_window: blend(), uncertainty: "LOW", sources: [] }));
+    assert.ok(low.includes("LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"));
+    assert.ok(low.includes("SOURCE_REQUIRED"));
+  });
+
+  test("adjacent pairs count when they strictly order ten plus the first-out, and disjoint pairs stay unresolved", () => {
+    const names = Array.from({ length: 10 }, (_, i) => `P${i + 1}`);
+    const board = { position: "WR", baseline_file: "unused", locked_at: null, top_10: [...names].reverse(), first_out: "OUT", challengers: ["OUT"] };
+    const adjacent = names.slice(0, -1).map((name, i) => comparison({ position: "WR", better: name, worse: names[i + 1] }));
+    adjacent.push(comparison({ position: "WR", better: "P10", worse: "BETWEEN" }));
+    adjacent.push(comparison({ position: "WR", better: "BETWEEN", worse: "OUT" }));
+    const ranked = rerankBoard(board, adjacent);
+    assert.equal(ranked.status, "EVIDENCE_SUPPORTED");
+    assert.deepEqual(ranked.proposed_order, names);
+    const disjoint: SourcedComparison[] = [];
+    for (let i = 0; i < 10; i += 2) disjoint.push(comparison({ position: "WR", better: names[i], worse: names[i + 1] }));
+    disjoint.push(comparison({ position: "WR", better: "P10", worse: "OUT" }));
+    const broken = rerankBoard(board, disjoint);
+    assert.equal(broken.status, "EVIDENCE_CONFLICT");
+    assert.equal(broken.proposed_order, null);
+    assert.ok(broken.gaps.some(gap => gap.startsWith("Unresolved ties")));
   });
 
   test("league coverage is 22 boards and 220 historical slots, with no invented re-rank", () => {

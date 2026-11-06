@@ -17,13 +17,23 @@ export interface EvidenceSource {
   publisher: string;
 }
 
+export interface EvidenceWindow {
+  /** current_primary is 2026 alone. prior_context cannot reorder. blended_established is 2026 through Week 8 primary plus completed 2025 context. */
+  role: "current_primary" | "prior_context" | "blended_established";
+  season?: number;
+  current?: { season: number; through_week: number; share: number };
+  prior?: { season: number; share: number; completed?: boolean };
+  /** Required for a blend. Says why these shares still leave 2026 primary. Not an overall weight. */
+  rationale?: string;
+}
+
 export interface SourcedComparison {
   position: string;
   better: string;
   worse: string;
   claim: string;
   sources: EvidenceSource[];
-  evidence_window: { season: number; role: "current_primary" | "prior_context" };
+  evidence_window: EvidenceWindow;
   sample: { snaps_or_plays: number; role: string; adequate: boolean };
   uncertainty: "HIGH" | "MEDIUM" | "LOW";
   pff_used_as_rank?: boolean;
@@ -54,12 +64,35 @@ export interface BoardResult {
 
 const EA_HOST = /(^|\.)ea\.com$|maddenratings|madden-?ratings/i;
 
+/** Established-season blend. Shares are declared on the comparison. They are not a league coefficient and not an overall formula. */
+export function windowErrors(window: EvidenceWindow | undefined): string[] {
+  if (!window?.role) return ["EVIDENCE_WINDOW_REQUIRED"];
+  if (window.role === "prior_context") return ["PRIOR_CONTEXT_CANNOT_REORDER"];
+  if (window.role === "current_primary") {
+    return window.season === 2026 ? [] : ["PRIOR_CONTEXT_CANNOT_REORDER"];
+  }
+  if (window.role !== "blended_established") return ["EVIDENCE_WINDOW_REQUIRED"];
+  const errors: string[] = [];
+  const current = window.current;
+  const prior = window.prior;
+  if (!current || !prior) errors.push("BLEND_REQUIRES_CURRENT_AND_PRIOR");
+  else {
+    if (current.season !== 2026 || current.through_week !== 8) errors.push("BLEND_WINDOW_MUST_BE_2026_THROUGH_WEEK_8");
+    if (prior.season !== 2025 || prior.completed !== true) errors.push("BLEND_PRIOR_MUST_BE_COMPLETED_2025");
+    const sharesDeclared = Number.isFinite(current.share) && Number.isFinite(prior.share)
+      && current.share > 0 && prior.share > 0 && Math.abs(current.share + prior.share - 1) < 1e-9;
+    if (!sharesDeclared) errors.push("SEASON_SHARES_REQUIRED");
+    else if (current.share <= prior.share) errors.push("CURRENT_SEASON_NOT_PRIMARY");
+  }
+  if (!window.rationale || window.rationale.trim().length < 20) errors.push("BLEND_RATIONALE_REQUIRED");
+  return errors;
+}
+
 export function comparisonErrors(row: SourcedComparison): string[] {
   const errors: string[] = [];
   if (!row.better?.trim() || !row.worse?.trim() || row.better === row.worse) errors.push("PLAYERS_REQUIRED");
   if (!row.claim || row.claim.trim().length < 20) errors.push("CLAIM_TOO_THIN");
-  if (row.evidence_window?.role !== "current_primary") errors.push("PRIOR_CONTEXT_CANNOT_REORDER");
-  if (!Number.isInteger(row.evidence_window?.season)) errors.push("EVIDENCE_WINDOW_REQUIRED");
+  errors.push(...windowErrors(row.evidence_window));
   if (!row.sample?.role?.trim()) errors.push("ROLE_REQUIRED");
   if (row.sample?.adequate !== true) errors.push("SAMPLE_NOT_ADEQUATE");
   if (!Number.isInteger(row.sample?.snaps_or_plays) || (row.sample?.snaps_or_plays ?? 0) < 1) errors.push("SAMPLE_COUNT_REQUIRED");
@@ -81,28 +114,44 @@ export function comparisonErrors(row: SourcedComparison): string[] {
   return [...new Set(errors)];
 }
 
-function precedes(order: string[], edges: { better: string; worse: string }[]): string[] | null {
-  const nodes = [...order];
-  const incoming = new Map(nodes.map(name => [name, 0]));
-  const next = new Map(nodes.map(name => [name, [] as string[]]));
+interface OrderReading {
+  order: string[] | null;
+  unresolved: [string, string][];
+  cycle: boolean;
+}
+
+/** Strict order from reachability. Adjacent edges, a single chain, and redundant forward edges are the same relation. An unresolved pair is not broken by who was ready first. */
+export function strictOrder(nodes: string[], edges: { better: string; worse: string }[]): OrderReading {
+  const index = new Map(nodes.map((name, i) => [name, i]));
+  const n = nodes.length;
+  const reach = Array.from({ length: n }, () => Array(n).fill(false));
   for (const edge of edges) {
-    if (!incoming.has(edge.better) || !incoming.has(edge.worse)) return null;
-    next.get(edge.better)!.push(edge.worse);
-    incoming.set(edge.worse, incoming.get(edge.worse)! + 1);
+    const from = index.get(edge.better);
+    const to = index.get(edge.worse);
+    if (from === undefined || to === undefined || from === to) continue;
+    reach[from][to] = true;
   }
-  const ready = nodes.filter(name => incoming.get(name) === 0);
-  const sorted: string[] = [];
-  while (ready.length) {
-    if (ready.length > 1) return null;
-    const name = ready.shift()!;
-    sorted.push(name);
-    for (const child of next.get(name) ?? []) {
-      incoming.set(child, incoming.get(child)! - 1);
-      if (incoming.get(child) === 0) ready.push(child);
+  for (let mid = 0; mid < n; mid++) {
+    for (let from = 0; from < n; from++) {
+      if (!reach[from][mid]) continue;
+      for (let to = 0; to < n; to++) if (reach[mid][to]) reach[from][to] = true;
     }
   }
-  if (sorted.length !== nodes.length) return null;
-  return sorted;
+  let cycle = false;
+  const unresolved: [string, string][] = [];
+  for (let i = 0; i < n; i++) {
+    if (reach[i][i]) cycle = true;
+    for (let j = i + 1; j < n; j++) {
+      if (reach[i][j] && reach[j][i]) cycle = true;
+      else if (!reach[i][j] && !reach[j][i]) unresolved.push([nodes[i], nodes[j]]);
+    }
+  }
+  if (cycle || unresolved.length) return { order: null, unresolved, cycle };
+  const order = nodes
+    .map((name, i) => ({ name, beaten: reach[i].filter(Boolean).length }))
+    .sort((a, b) => b.beaten - a.beaten)
+    .map(row => row.name);
+  return { order, unresolved: [], cycle: false };
 }
 
 export function rerankBoard(board: LockedBoard, comparisons: SourcedComparison[]): BoardResult {
@@ -125,17 +174,23 @@ export function rerankBoard(board: LockedBoard, comparisons: SourcedComparison[]
     gaps: []
   };
   if (!supported.length) {
-    base.gaps.push("No sourced current-season comparison. The locked order is history and is not re-affirmed.");
+    base.gaps.push("No sourced current or blended comparison. The locked order is history and is not re-affirmed.");
     return base;
   }
   const names = [...new Set(supported.flatMap(edge => [edge.better, edge.worse]))];
-  const ordered = precedes(names, supported);
-  if (!ordered) {
-    return { ...base, status: "EVIDENCE_CONFLICT", gaps: ["Supported comparisons do not form one strict order. Locked rank was not used to break the tie or the cycle."] };
+  const reading = strictOrder(names, supported);
+  if (reading.cycle) {
+    return { ...base, status: "EVIDENCE_CONFLICT", gaps: ["Supported comparisons cycle. Locked rank was not used to break it."] };
   }
-  const tenthBeatsFirstOut = board.first_out !== null && ordered.indexOf(board.first_out) > 9
-    && supported.some(edge => edge.better === ordered[9] && edge.worse === board.first_out);
-  if (ordered.length >= 11 && tenthBeatsFirstOut) {
+  if (reading.unresolved.length) {
+    const sample = reading.unresolved.slice(0, 6).map(pair => pair.join(" / ")).join("; ");
+    return { ...base, status: "EVIDENCE_CONFLICT", gaps: [`Unresolved ties (${reading.unresolved.length}): ${sample}. Locked rank was not used.`] };
+  }
+  const ordered = reading.order ?? [];
+  if (board.first_out && !ordered.includes(board.first_out)) {
+    return { ...base, status: "PARTIAL", gaps: ["The sourced players are strictly ordered, but the first-out is not among them, so membership is incomplete. Remaining locked slots are not filled in."] };
+  }
+  if (ordered.length >= 11 && (!board.first_out || ordered.includes(board.first_out))) {
     return { ...base, status: "EVIDENCE_SUPPORTED", proposed_order: ordered.slice(0, 10), gaps: [] };
   }
   return {
@@ -184,6 +239,7 @@ export function buildLeagueReaudit(root = process.cwd(), comparisons: SourcedCom
     ordered_at: rubric.ordered_at,
     explicit_current_data_reaudit: true,
     replaces_locked_files: false,
+    blend_window: "A comparison may declare 2026 through Week 8 as primary and completed 2025 as context, with both shares and a sourced rationale. 2025 alone cannot reorder. Shares are not a fitted league coefficient. This file has no such comparison.",
     requested_slot_note: "The request said 210 slots. Every locked board in this tree has 10 players, which is 220 slots, plus first-outs and external challengers.",
     positions_requested: positions.length,
     top10_slots: positions.reduce((sum, board) => sum + board.historical_order.length, 0),
