@@ -1,0 +1,11 @@
+{
+ "status": "SUPERSEDED_BY_PROPOSAL_PACK",
+ "superseded_by": "data/reaudit-proposals/t115u-proposal-pack.json",
+ "accepted_as_full_card": false,
+ "accepted_as_lock": false,
+ "complete_uncalibrated_profiles": 200,
+ "partial": 42,
+ "queued": 0,
+ "unknown_cells": 105,
+ "note": "The all-unrated queue is closed. Profile medians are uncalibrated. Editorial display overalls are a separate field. Nothing here is an approved card or a baseline lock."
+}

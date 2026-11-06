@@ -54,9 +54,10 @@ export function estimateOvr(pos: string, a: Attrs, w = loadWeights()) {
 }
 
 /**
- * Style-preserving fix: shift every attribute the best archetype weighs by the same delta d (keeps the
- * mean-centred shape, i.e. style and within-player distribution), smallest |d| that reproduces the target.
- * Also lists the top-weighted attributes (largest OVR lever per point).
+ * Style-preserving proposal only. Do not write the shift onto a card.
+ * config/madden-ovr-weights.estimated.json is not a validated Madden 27 reproduction.
+ * Shifts every attribute the best archetype weighs by the same delta d (keeps the mean-centred
+ * shape), smallest |d| that reproduces the stated overall under this unverified estimate.
  */
 export function suggestFix(pos: string, a: Attrs, target: number, w = loadWeights()) {
   const est = estimateOvr(pos, a, w);

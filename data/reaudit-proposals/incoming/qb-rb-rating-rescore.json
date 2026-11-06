@@ -1,0 +1,773 @@
+{
+  "document_type": "QB_RB_RATING_RESCORE_AUDIT",
+  "generated_at_america_new_york": "2026-11-05T21:39:59-05:00",
+  "page_id_for_coordinator_update_only": "173c58a3-8502-41ae-a764-a298c3f3224a",
+  "not_a_baseline_lock": true,
+  "not_a_page_edit": true,
+  "baselines_locked_untouched": true,
+  "phi_dal_cards_untouched": true,
+  "no_pr_merge": true,
+  "ea_madden_reproduction_claimed": false,
+  "verified_positional_ovr_formula_claimed": false,
+  "invariant": {
+    "user_requirement": "Position #1 must have the highest overall; subsequent overalls should distribute downward with rank.",
+    "interpretation": "NON_INCREASING",
+    "ties": "Allowed only when sourced evidence supports a genuine inability to separate; none used in this proposal.",
+    "strict_monotonic_alternative": "Also satisfied here (all adjacent gaps >= 1)."
+  },
+  "scoring_methodology": {
+    "label": "EDITORIAL_EVIDENCE_INFORMED_ORDINAL_DISPLAY",
+    "validated_model": false,
+    "fitted_or_calibrated": false,
+    "why_not_validated": [
+      "docs/qb-calibration-limitations.md: no deterministic attribute-to-OVR calculator, coefficients, or fixtures found.",
+      "docs/positions/QB.md and RB.md: 'No OVR formula or attribute weighting is defined or encoded here'; OVR is an output of the attribute build.",
+      "AGENTS.md Rule 4: OVR is an output of the attribute build, not a target used to inflate unrelated traits.",
+      "RATE packages contain attribute judgments but do not emit independently calculated OVRs.",
+      "top10-rerank-final-review already marked historical OVRs as 'OVR pending re-score \u2014 no new OVR proposed'."
+    ],
+    "supported_inputs_used": [
+      "Blended pairwise comparisons (2026 primary through Week 8 + 2025 context; declared convention, not calibrated 65/35)",
+      "Offense-front research bands and player metrics (PFF overall as facet only, nflverse volume, NGS RYOE)",
+      "Existing RB style/attribute cards and H2H notes (reference for tier language, not re-derived attributes)",
+      "Ability vs availability policy (flags visible; missing snaps != talent wipe)",
+      "Historical locked peer scale tips (QB #1 was 90; RB #1 was 92) as soft display anchors only"
+    ],
+    "explicitly_not_done": [
+      "No new full attribute cards invented",
+      "No sorting purely by old historical OVR",
+      "PFF overall not used as sole rank",
+      "No claim of Madden EA formula reproduction",
+      "No writes to locked baselines or PHI/DAL cards"
+    ],
+    "how_display_ovr_assigned": [
+      "Establish / validate ordinal order from sourced pairwise edges + policy.",
+      "Anchor #1 display OVR near prior locked position tip (QB 90, RB 92) without inventing 99.",
+      "Assign non-increasing integers descending by rank.",
+      "Gap size reflects edge confidence / tier separation (typically 1 for MEDIUM adjacent; 2 where LOW link or clearer tier break).",
+      "Availability/sample flags remain separate fields and do not erase ability seats."
+    ]
+  },
+  "sources": [
+    "/workspace/top10-rerank-final-review.json",
+    "/workspace/top10-rerank-final-review.md",
+    "/workspace/top10-blended-comparison-packet.json",
+    "/workspace/top10-offense-front-research.json",
+    "/workspace/gridiron-standard/docs/qb-calibration-limitations.md",
+    "/workspace/gridiron-standard/docs/positions/QB.md",
+    "/workspace/gridiron-standard/docs/positions/RB.md",
+    "/workspace/gridiron-standard/docs/rb-reaudit-ratings.md",
+    "/workspace/gridiron-standard/docs/rb-h2h-drafts.md",
+    "/workspace/gridiron-standard/research-inbox/QB/QB_REAUDIT_PROVISIONAL_TOP10",
+    "/workspace/gridiron-standard/research-inbox/QB/QB_REAUDIT_CROSS_AUDIT",
+    "/workspace/gridiron-standard/research-inbox/RB/RB_REAUDIT_CROSS_AUDIT",
+    "/workspace/gridiron-standard/data/baselines/QB.reaudit-20261104.json",
+    "/workspace/gridiron-standard/data/baselines/RB.reaudit-20261104.json"
+  ],
+  "QB": {
+    "status": "ANALYST_PROPOSAL_EDITORIAL_RESCORE",
+    "uncertainty": "MEDIUM",
+    "order_decision": "KEEP_PRIOR_PROPOSED_ORDER",
+    "order_decision_rationale": "Blended pairwise chain supports Burrow>Purdy>Allen>Lamar>Maye>Dak>Goff>Lawrence>Stroud>Love>Mahomes. Offense-front had Allen alone in band 2 and Purdy/Goff unresolved in band 3-4; that band tension is retained as a caveat, but the MEDIUM Purdy>Allen edge (EPA/play, sack rate, INT) plus Allen rush value as style trait was already the published proposal and is not overturned here.",
+    "historical_locked_order_20261104": [
+      {
+        "rank": 1,
+        "player": "Joe Burrow",
+        "historical_ovr": 90
+      },
+      {
+        "rank": 2,
+        "player": "Josh Allen",
+        "historical_ovr": 89
+      },
+      {
+        "rank": 3,
+        "player": "Drake Maye",
+        "historical_ovr": 87
+      },
+      {
+        "rank": 4,
+        "player": "Brock Purdy",
+        "historical_ovr": 86
+      },
+      {
+        "rank": 5,
+        "player": "Jared Goff",
+        "historical_ovr": 85
+      },
+      {
+        "rank": 6,
+        "player": "Dak Prescott",
+        "historical_ovr": 84
+      },
+      {
+        "rank": 7,
+        "player": "Jordan Love",
+        "historical_ovr": 83
+      },
+      {
+        "rank": 8,
+        "player": "Matthew Stafford",
+        "historical_ovr": 83
+      },
+      {
+        "rank": 9,
+        "player": "Lamar Jackson",
+        "historical_ovr": 82
+      },
+      {
+        "rank": 10,
+        "player": "Trevor Lawrence",
+        "historical_ovr": 82
+      }
+    ],
+    "prior_proposed_order_with_historical_ovr": [
+      {
+        "rank": 1,
+        "player": "Joe Burrow",
+        "historical_ovr": 90
+      },
+      {
+        "rank": 2,
+        "player": "Brock Purdy",
+        "historical_ovr": 86
+      },
+      {
+        "rank": 3,
+        "player": "Josh Allen",
+        "historical_ovr": 89
+      },
+      {
+        "rank": 4,
+        "player": "Lamar Jackson",
+        "historical_ovr": 82
+      },
+      {
+        "rank": 5,
+        "player": "Drake Maye",
+        "historical_ovr": 87
+      },
+      {
+        "rank": 6,
+        "player": "Dak Prescott",
+        "historical_ovr": 84
+      },
+      {
+        "rank": 7,
+        "player": "Jared Goff",
+        "historical_ovr": 85
+      },
+      {
+        "rank": 8,
+        "player": "Trevor Lawrence",
+        "historical_ovr": 82
+      },
+      {
+        "rank": 9,
+        "player": "C.J. Stroud",
+        "historical_ovr": 80
+      },
+      {
+        "rank": 10,
+        "player": "Jordan Love",
+        "historical_ovr": 83
+      }
+    ],
+    "monotonicity_violation_before": "Historical OVRs were non-monotonic vs proposed ranks (e.g. Allen 89 > Purdy 86 while ranked below; Maye 87 > Lamar 82 while ranked below; Love 83 > Stroud 80 while ranked below).",
+    "proposed_top10": [
+      {
+        "rank": 1,
+        "player": "Joe Burrow",
+        "team_2026": "CIN",
+        "editorial_display_ovr": 90,
+        "historical_ovr": 90,
+        "delta_vs_historical": 0,
+        "flags": [],
+        "tier": "clear_1",
+        "style": "elite_pocket_accuracy_processor"
+      },
+      {
+        "rank": 2,
+        "player": "Brock Purdy",
+        "team_2026": "SF",
+        "editorial_display_ovr": 89,
+        "historical_ovr": 86,
+        "delta_vs_historical": 3,
+        "flags": [],
+        "tier": "efficiency_QB2",
+        "style": "high_EPA_low_sack_distributor"
+      },
+      {
+        "rank": 3,
+        "player": "Josh Allen",
+        "team_2026": "BUF",
+        "editorial_display_ovr": 88,
+        "historical_ovr": 89,
+        "delta_vs_historical": -1,
+        "flags": [],
+        "tier": "dual_threat_star",
+        "style": "rush_TD_creator_plus_passer"
+      },
+      {
+        "rank": 4,
+        "player": "Lamar Jackson",
+        "team_2026": "BAL",
+        "editorial_display_ovr": 87,
+        "historical_ovr": 82,
+        "delta_vs_historical": 5,
+        "flags": [
+          "AVAILABILITY_FLAG",
+          "SAMPLE_FLAG"
+        ],
+        "availability": "limited_2026_games_5_of_8",
+        "ability_evidence": "elite_dual_threat_sustained",
+        "current_form": "elite_per_play_small_sample",
+        "tier": "elite_per_play_small_sample",
+        "style": "dual_threat_EPA_leader_on_reduced_games"
+      },
+      {
+        "rank": 5,
+        "player": "Drake Maye",
+        "team_2026": "NE",
+        "editorial_display_ovr": 86,
+        "historical_ovr": 87,
+        "delta_vs_historical": -1,
+        "flags": [],
+        "tier": "ascending_starter_band",
+        "style": "CPOE_rush_hybrid"
+      },
+      {
+        "rank": 6,
+        "player": "Dak Prescott",
+        "team_2026": "DAL",
+        "editorial_display_ovr": 85,
+        "historical_ovr": 84,
+        "delta_vs_historical": 1,
+        "flags": [],
+        "tier": "ascending_starter_band",
+        "style": "high_volume_PFF_stable"
+      },
+      {
+        "rank": 7,
+        "player": "Jared Goff",
+        "team_2026": "DET",
+        "editorial_display_ovr": 84,
+        "historical_ovr": 85,
+        "delta_vs_historical": -1,
+        "flags": [],
+        "tier": "efficient_pocket",
+        "style": "low_INT_scheme_distributor"
+      },
+      {
+        "rank": 8,
+        "player": "Trevor Lawrence",
+        "team_2026": "JAX",
+        "editorial_display_ovr": 83,
+        "historical_ovr": 82,
+        "delta_vs_historical": 1,
+        "flags": [],
+        "tier": "production_with_grade_noise",
+        "style": "TD_volume_EPA_despite_low_PFF"
+      },
+      {
+        "rank": 9,
+        "player": "C.J. Stroud",
+        "team_2026": "HOU",
+        "editorial_display_ovr": 82,
+        "historical_ovr": 80,
+        "delta_vs_historical": 2,
+        "flags": [],
+        "tier": "cut_line_inside",
+        "style": "ball_security_rebound_2026"
+      },
+      {
+        "rank": 10,
+        "player": "Jordan Love",
+        "team_2026": "GB",
+        "editorial_display_ovr": 81,
+        "historical_ovr": 83,
+        "delta_vs_historical": -2,
+        "flags": [],
+        "tier": "cut_line_inside",
+        "style": "prior_elite_context_weaker_2026"
+      }
+    ],
+    "first_out": {
+      "player": "Patrick Mahomes",
+      "team_2026": "KC",
+      "editorial_display_ovr": 80,
+      "historical_ovr": 81,
+      "delta_vs_historical": -1
+    },
+    "display_scale": {
+      "max": 90,
+      "min_top10": 81,
+      "first_out": 80,
+      "gaps_adjacent": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "note": "Even 1-pt steps; #1 tip kept at historical Burrow 90 (not inflated to 99). Lamar +5 is ability restoration vs availability-depressed historical card, with flags retained."
+    },
+    "pairwise": [
+      {
+        "better": "Joe Burrow",
+        "worse": "Brock Purdy",
+        "confidence": "MEDIUM",
+        "edge": "clear_enough",
+        "rationale": "Burrow PFF 93.3 / CPOE +9.0 / 20 TD vs Purdy 86.1 / +4.3 / 15; Purdy leads EPA/play and sack rate but does not overturn."
+      },
+      {
+        "better": "Brock Purdy",
+        "worse": "Josh Allen",
+        "confidence": "MEDIUM",
+        "edge": "narrow",
+        "rationale": "Purdy EPA/play .31 vs .291, better sack/INT; Allen 9 rush TD / 270 rush yds retained as style. Offense-front band tension noted."
+      },
+      {
+        "better": "Josh Allen",
+        "worse": "Lamar Jackson",
+        "confidence": "LOW",
+        "edge": "sample_vs_quality",
+        "rationale": "Lamar leads EPA/play .338 and PFF 91.3 on 5 games; Allen fuller sample + 2025 PFF 90.6 vs 74.0. LOW stays LOW."
+      },
+      {
+        "better": "Lamar Jackson",
+        "worse": "Drake Maye",
+        "confidence": "LOW",
+        "edge": "per_play_vs_volume",
+        "rationale": "2026 per-play favors Lamar; 2025 EPA favored Maye. Availability flagged, ability retained."
+      },
+      {
+        "better": "Drake Maye",
+        "worse": "Dak Prescott",
+        "confidence": "LOW",
+        "edge": "split",
+        "rationale": "Maye EPA/CPOE vs Dak PFF/sack; split both seasons."
+      },
+      {
+        "better": "Dak Prescott",
+        "worse": "Jared Goff",
+        "confidence": "MEDIUM",
+        "edge": "prior_context_break",
+        "rationale": "2026 near-even; 2025 Prescott PFF/EPA decides under declared convention."
+      },
+      {
+        "better": "Jared Goff",
+        "worse": "Trevor Lawrence",
+        "confidence": "MEDIUM",
+        "edge": "prior_context_break",
+        "rationale": "2026 near-even (Lawrence EPA, Goff PFF/INT); 2025 Goff EPA decides."
+      },
+      {
+        "better": "Trevor Lawrence",
+        "worse": "C.J. Stroud",
+        "confidence": "MEDIUM",
+        "edge": "mixed_2026_prior_clears",
+        "rationale": "Lawrence EPA/TD volume; Stroud PFF/INT; 2025 Lawrence PFF decides."
+      },
+      {
+        "better": "C.J. Stroud",
+        "worse": "Jordan Love",
+        "confidence": "MEDIUM",
+        "edge": "clear_2026",
+        "rationale": "Stroud better 2026 PFF/CPOE/INT/EPA; Love 2025 elite is context only."
+      },
+      {
+        "better": "Jordan Love",
+        "worse": "Patrick Mahomes",
+        "confidence": "MEDIUM",
+        "edge": "prior_context_break",
+        "rationale": "2026 near-even; 2025 Love PFF/EPA decides."
+      }
+    ],
+    "attribute_consistency_note": "No new attribute ratings invented. Existing RATE attribute cards (e.g. Burrow AWR/SAC/MAC; Lamar SPD/ACC/RUN) remain the only sourced trait vectors. Editorial display OVRs are NOT claimed as outputs of those attribute builds.",
+    "limitations": [
+      "Three adjacent links remain LOW (Allen/Lamar, Lamar/Maye, Maye/Dak).",
+      "Offense-front unresolved bands conflict with exact Purdy>Allen and Dak/Maye/Lamar ordering.",
+      "Editorial OVRs are presentational / ordinal only."
+    ]
+  },
+  "RB": {
+    "status": "ANALYST_PROPOSAL_EDITORIAL_RESCORE",
+    "uncertainty": "MEDIUM",
+    "order_decision": "REVISE_MINOR_FROM_PRIOR_PROPOSED",
+    "order_decision_rationale": "Keep Warren>Walker>Bijan>Gibbs>Cook>CMC>Achane chain from final review + blended pairwise. One evidence-required swap: Hubbard over Kyren (blended pairwise MEDIUM: EPA/success/RYOE/fumbles). Achane remains #7 with AVAILABILITY_FLAG+SAMPLE_FLAG under ability-not-availability policy. Tuten remains #10 / Taylor first-out as published membership; Allen stays a strong outside control (pairwise Allen>Tuten, but final review explicitly displaced Allen).",
+    "historical_locked_order_20261104": [
+      {
+        "rank": 1,
+        "player": "Bijan Robinson",
+        "historical_ovr": 92
+      },
+      {
+        "rank": 2,
+        "player": "Kenneth Walker III",
+        "historical_ovr": 90
+      },
+      {
+        "rank": 3,
+        "player": "Jahmyr Gibbs",
+        "historical_ovr": 89
+      },
+      {
+        "rank": 4,
+        "player": "Jaylen Warren",
+        "historical_ovr": 84
+      },
+      {
+        "rank": 5,
+        "player": "Christian McCaffrey",
+        "historical_ovr": 84
+      },
+      {
+        "rank": 6,
+        "player": "James Cook",
+        "historical_ovr": 82
+      },
+      {
+        "rank": 7,
+        "player": "De'Von Achane",
+        "historical_ovr": 82
+      },
+      {
+        "rank": 8,
+        "player": "Kyren Williams",
+        "historical_ovr": 81
+      },
+      {
+        "rank": 9,
+        "player": "Bhayshul Tuten",
+        "historical_ovr": 79
+      },
+      {
+        "rank": 10,
+        "player": "Jonathan Taylor",
+        "historical_ovr": 78
+      }
+    ],
+    "prior_proposed_order_with_historical_ovr": [
+      {
+        "rank": 1,
+        "player": "Jaylen Warren",
+        "historical_ovr": 84
+      },
+      {
+        "rank": 2,
+        "player": "Kenneth Walker III",
+        "historical_ovr": 90
+      },
+      {
+        "rank": 3,
+        "player": "Bijan Robinson",
+        "historical_ovr": 92
+      },
+      {
+        "rank": 4,
+        "player": "Jahmyr Gibbs",
+        "historical_ovr": 89
+      },
+      {
+        "rank": 5,
+        "player": "James Cook",
+        "historical_ovr": 82
+      },
+      {
+        "rank": 6,
+        "player": "Christian McCaffrey",
+        "historical_ovr": 84
+      },
+      {
+        "rank": 7,
+        "player": "De'Von Achane",
+        "historical_ovr": 82
+      },
+      {
+        "rank": 8,
+        "player": "Kyren Williams",
+        "historical_ovr": 81
+      },
+      {
+        "rank": 9,
+        "player": "Chuba Hubbard",
+        "historical_ovr": 77
+      },
+      {
+        "rank": 10,
+        "player": "Bhayshul Tuten",
+        "historical_ovr": 79
+      }
+    ],
+    "monotonicity_violation_before": "Historical OVRs inverted vs proposed ranks (Bijan 92 and Walker 90 above Warren 84 while ranked below; Gibbs 89 above Cook/CMC seats; Tuten 79 above Hubbard 77 while ranked below).",
+    "proposed_top10": [
+      {
+        "rank": 1,
+        "player": "Jaylen Warren",
+        "team_2026": "PIT",
+        "editorial_display_ovr": 92,
+        "historical_ovr": 84,
+        "delta_vs_historical": 8,
+        "flags": [],
+        "tier": "current_efficiency_1",
+        "style": "contact_balance_screen_weapon_RYOE_leader",
+        "caveat": "Large editorial jump. Existing attribute card (SPD 86 / JKM 80 class) cannot honestly claim a validated 92 without attribute rebuild; display only."
+      },
+      {
+        "rank": 2,
+        "player": "Kenneth Walker III",
+        "team_2026": "KC",
+        "editorial_display_ovr": 90,
+        "historical_ovr": 90,
+        "delta_vs_historical": 0,
+        "flags": [],
+        "tier": "current_top_tier",
+        "style": "contact_balance_slasher_volume_TD"
+      },
+      {
+        "rank": 3,
+        "player": "Bijan Robinson",
+        "team_2026": "ATL",
+        "editorial_display_ovr": 89,
+        "historical_ovr": 92,
+        "delta_vs_historical": -3,
+        "flags": [],
+        "tier": "complete_three_down",
+        "style": "elusive_cutback_plus_route_value",
+        "caveat": "Still the most complete trait package in sourced cards; current-form EPA/rush negative moves rank, not a talent wipe."
+      },
+      {
+        "rank": 4,
+        "player": "Jahmyr Gibbs",
+        "team_2026": "DET",
+        "editorial_display_ovr": 88,
+        "historical_ovr": 89,
+        "delta_vs_historical": -1,
+        "flags": [],
+        "tier": "home_run_receiving",
+        "style": "speed_space_receiver_back"
+      },
+      {
+        "rank": 5,
+        "player": "James Cook",
+        "team_2026": "BUF",
+        "editorial_display_ovr": 86,
+        "historical_ovr": 82,
+        "delta_vs_historical": 4,
+        "flags": [],
+        "tier": "explosive_zone_slasher",
+        "style": "one_cut_speed_low_stuff"
+      },
+      {
+        "rank": 6,
+        "player": "Christian McCaffrey",
+        "team_2026": "SF",
+        "editorial_display_ovr": 85,
+        "historical_ovr": 84,
+        "delta_vs_historical": 1,
+        "flags": [],
+        "availability": "active_reduced_carry_share",
+        "ability_evidence": "elite_receiving_back_sustained",
+        "current_form": "elite_efficiency_on_84_carries",
+        "tier": "receiving_chess_piece",
+        "style": "route_first_vision_back"
+      },
+      {
+        "rank": 7,
+        "player": "De'Von Achane",
+        "team_2026": "MIA",
+        "editorial_display_ovr": 84,
+        "historical_ovr": 82,
+        "delta_vs_historical": 2,
+        "flags": [
+          "AVAILABILITY_FLAG",
+          "SAMPLE_FLAG"
+        ],
+        "availability": "RES_week9; 34_carries_W1-3_then_out; PFF_nonqualifier_96_snaps",
+        "ability_evidence": "elite_speed_receiving_RB_2025_PFF_88.9",
+        "current_form": "insufficient_sample_not_zero_talent",
+        "tier": "ability_retained_injured",
+        "style": "outside_zone_home_run_receiver"
+      },
+      {
+        "rank": 8,
+        "player": "Chuba Hubbard",
+        "team_2026": "CAR",
+        "editorial_display_ovr": 82,
+        "historical_ovr": 77,
+        "delta_vs_historical": 5,
+        "flags": [],
+        "tier": "durable_workhorse",
+        "style": "patient_pass_pro_volume_back",
+        "movement_vs_prior_proposed": "Moved above Kyren on blended pairwise (was #9)."
+      },
+      {
+        "rank": 9,
+        "player": "Kyren Williams",
+        "team_2026": "LA",
+        "editorial_display_ovr": 81,
+        "historical_ovr": 81,
+        "delta_vs_historical": 0,
+        "flags": [],
+        "tier": "vision_short_yardage",
+        "style": "high_volume_short_yardage_workhorse",
+        "movement_vs_prior_proposed": "Moved below Hubbard on blended pairwise (was #8)."
+      },
+      {
+        "rank": 10,
+        "player": "Bhayshul Tuten",
+        "team_2026": "JAX",
+        "editorial_display_ovr": 80,
+        "historical_ovr": 79,
+        "delta_vs_historical": 1,
+        "flags": [],
+        "tier": "explosive_sample_capped",
+        "style": "second_year_speed_back",
+        "caveat": "PFF 91.9 is not sole rank; RYOE +0.15 and role keep him at cut line. Allen (RYOE +1.22) remains contested outside control."
+      }
+    ],
+    "first_out": {
+      "player": "Jonathan Taylor",
+      "team_2026": "IND",
+      "editorial_display_ovr": 79,
+      "historical_ovr": 78,
+      "delta_vs_historical": 1,
+      "note": "Adequate 2026 sample of middling efficiency (PFF 62.8, RYOE ~0 on 148 car) \u2014 current-form demotion, not availability erasure."
+    },
+    "outside_controls_noted": [
+      {
+        "player": "Braelon Allen",
+        "note": "Pairwise over Tuten on RYOE/EPA/success; final review displaced from top10 for Hubbard membership \u2014 remains strongest immediate outside control."
+      },
+      {
+        "player": "Tony Pollard",
+        "note": "Blended first-out in an Achane-omitted board; behind Tuten on receiving EPA."
+      }
+    ],
+    "display_scale": {
+      "max": 92,
+      "min_top10": 80,
+      "first_out": 79,
+      "gaps_adjacent": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ],
+      "note": "#1 tip reuses prior locked Bijan tip (92) for whoever leads the audited order. Warren +8 and Bijan -3 are ordinal display moves, not validated attribute rebuilds. Gibbs-Cook gap 2 marks the LOW pairwise link."
+    },
+    "pairwise": [
+      {
+        "better": "Jaylen Warren",
+        "worse": "Kenneth Walker III",
+        "confidence": "MEDIUM",
+        "edge": "efficiency_over_volume",
+        "rationale": "Warren EPA/rush +.128, success 48%, RYOE 1.93, 294 rec yds vs Walker volume/TD counter."
+      },
+      {
+        "better": "Kenneth Walker III",
+        "worse": "Bijan Robinson",
+        "confidence": "MEDIUM",
+        "edge": "current_EPA_RYOE",
+        "rationale": "Walker EPA/rush +.075 vs -.025, RYOE 1.84 vs 1.21, short-yardage 11/17 vs 2/8; Bijan volume/receiving retained."
+      },
+      {
+        "better": "Bijan Robinson",
+        "worse": "Jahmyr Gibbs",
+        "confidence": "MEDIUM",
+        "edge": "prior_plus_stuff_RYOE",
+        "rationale": "Bijan RYOE/stuff/20+; Gibbs success/TD/receiving; 2025 Bijan receiving/RYOE decides."
+      },
+      {
+        "better": "Jahmyr Gibbs",
+        "worse": "James Cook",
+        "confidence": "LOW",
+        "edge": "split_styles",
+        "rationale": "Cook better EPA/stuff; Gibbs TD/receiving/fumbles; 2025 split. LOW stays LOW."
+      },
+      {
+        "better": "James Cook",
+        "worse": "Christian McCaffrey",
+        "confidence": "MEDIUM",
+        "edge": "volume_explosiveness_vs_efficiency",
+        "rationale": "CMC elite EPA/success on 84 car; Cook RYOE/explosiveness on 138 + 2025 RYOE decides."
+      },
+      {
+        "better": "Christian McCaffrey",
+        "worse": "De'Von Achane",
+        "confidence": "POLICY",
+        "edge": "ability_retention_seat",
+        "rationale": "Not a blended healthy H2H. Achane inserted by ability-not-availability with flags; CMC has adequate 2026 efficiency sample."
+      },
+      {
+        "better": "De'Von Achane",
+        "worse": "Chuba Hubbard",
+        "confidence": "POLICY",
+        "edge": "prior_elite_vs_current_workhorse",
+        "rationale": "Achane 2025 PFF 88.9 speed/receiving ability retained above Hubbard's solid current workhorse seat; not current-form validated."
+      },
+      {
+        "better": "Chuba Hubbard",
+        "worse": "Kyren Williams",
+        "confidence": "MEDIUM",
+        "edge": "clear_2026",
+        "rationale": "Hubbard EPA +.058 vs +.002, success 46% vs 42%, RYOE .76 vs .53, 0 vs 2 fumbles lost. Evidence-required swap vs prior proposed #8/#9."
+      },
+      {
+        "better": "Kyren Williams",
+        "worse": "Bhayshul Tuten",
+        "confidence": "MEDIUM",
+        "edge": "role_short_yardage",
+        "rationale": "Via prior board path (Kyren over Allen over Tuten / role+short-yardage+receiving). Tuten PFF not sole rank."
+      },
+      {
+        "better": "Bhayshul Tuten",
+        "worse": "Jonathan Taylor",
+        "confidence": "MEDIUM",
+        "edge": "current_form_cut",
+        "rationale": "Taylor adequate-sample decline (PFF 62.8, RYOE ~0); Tuten explosive but sample-capped stays last-in."
+      }
+    ],
+    "attribute_consistency_note": "Sourced RB attribute cards exist (Bijan JKM 94/COD 93/SPD 93; Warren CAR 92/ACC 90/BTK 88; Walker BTK 94; etc.). Editorial display OVRs intentionally do NOT invent new attribute vectors. A future attribute rebuild would be required before claiming validated GS OVRs \u2014 especially Warren 92 vs his current trait shape.",
+    "limitations": [
+      "Offense-front listed Walker/Gibbs/Warren as an unresolved top band (not a mechanical Warren alone #1).",
+      "Gibbs/Cook remains LOW.",
+      "Achane seat is ability+flag, not current-form validated.",
+      "Warren editorial 92 conflicts with existing attribute card shape until rebuild.",
+      "Allen vs Tuten cut-line remains contested."
+    ]
+  },
+  "self_verification": {
+    "qb_non_increasing": true,
+    "rb_non_increasing": true,
+    "qb_rank1_is_max": true,
+    "rb_rank1_is_max": true,
+    "qb_names_unique": true,
+    "rb_names_unique": true,
+    "no_baseline_writes": true,
+    "no_page_edit": true,
+    "label_is_editorial_not_validated": true
+  },
+  "user_facing_explanation": "Number one should sit at the top of the overalls, with the rest stepping down the board. There is still no validated Gridiron Standard OVR calculator (OVR is supposed to come from an attribute build), so these are editorial display overalls aligned to the audited orders \u2014 not new locked cards and not an EA formula. QB order stays Burrow, Purdy, Allen, Lamar (flagged), Maye, Dak, Goff, Lawrence, Stroud, Love. RB keeps Warren at number one on 2026 EPA/RYOE/receiving, with one evidence swap (Hubbard over Kyren); Achane stays in on ability with availability/sample flags. Historical card overalls are superseded only as display values pending a real attribute re-score.",
+  "coordinator_page_patch_instructions": {
+    "page_id": "173c58a3-8502-41ae-a764-a298c3f3224a",
+    "do_not_edit_from_this_executor": true,
+    "replace_qb_rb_sections_with": "proposed_top10 editorial_display_ovr values and pairwise/caveats from this document",
+    "required_labels_on_page": [
+      "EDITORIAL_EVIDENCE_INFORMED_ORDINAL_DISPLAY",
+      "NOT validated attribute-derived OVR",
+      "NOT EA Madden reproduction",
+      "baselines unchanged"
+    ]
+  }
+}

@@ -1,0 +1,2560 @@
+{
+ "order_id": "t115u",
+ "analyst_orders_are": "EDITORIAL_PROPOSAL_NOT_A_VALIDATED_BOARD",
+ "replaces_locked_files": false,
+ "phi_dal_cards_untouched": true,
+ "boards": 22,
+ "required_edges": 220,
+ "supporting_edges": 137,
+ "low_edges": 68,
+ "missing_edges": 12,
+ "contradicting_edges": 2,
+ "invalid_edges": 1,
+ "engine_supportable_boards": [
+  "LT"
+ ],
+ "positions": [
+  {
+   "position": "QB",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Joe Burrow",
+    "Brock Purdy",
+    "Josh Allen",
+    "Lamar Jackson",
+    "Drake Maye",
+    "Dak Prescott",
+    "Jared Goff",
+    "Trevor Lawrence",
+    "C.J. Stroud",
+    "Jordan Love"
+   ],
+   "first_out": "Patrick Mahomes",
+   "required": 10,
+   "supports": 7,
+   "low_recorded": 3,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Joe Burrow",
+     "lower": "Brock Purdy",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Brock Purdy",
+     "lower": "Josh Allen",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Josh Allen",
+     "lower": "Lamar Jackson",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Lamar Jackson",
+     "lower": "Drake Maye",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Drake Maye",
+     "lower": "Dak Prescott",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Dak Prescott",
+     "lower": "Jared Goff",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Jared Goff",
+     "lower": "Trevor Lawrence",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Trevor Lawrence",
+     "lower": "C.J. Stroud",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "C.J. Stroud",
+     "lower": "Jordan Love",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Jordan Love",
+     "lower": "Patrick Mahomes",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "RB",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Jaylen Warren",
+    "Kenneth Walker III",
+    "Bijan Robinson",
+    "Jahmyr Gibbs",
+    "James Cook",
+    "Christian McCaffrey",
+    "De'Von Achane",
+    "Kyren Williams",
+    "Chuba Hubbard",
+    "Bhayshul Tuten"
+   ],
+   "first_out": "Jonathan Taylor",
+   "required": 10,
+   "supports": 4,
+   "low_recorded": 1,
+   "missing": 4,
+   "contradicts": 1,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Jaylen Warren",
+     "lower": "Kenneth Walker III",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Kenneth Walker III",
+     "lower": "Bijan Robinson",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Bijan Robinson",
+     "lower": "Jahmyr Gibbs",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Jahmyr Gibbs",
+     "lower": "James Cook",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "James Cook",
+     "lower": "Christian McCaffrey",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Christian McCaffrey",
+     "lower": "De'Von Achane",
+     "kind": "adjacent",
+     "disposition": "MISSING",
+     "uncertainty": null,
+     "errors": [
+      "ADJACENT_COMPARISON_MISSING"
+     ]
+    },
+    {
+     "higher": "De'Von Achane",
+     "lower": "Kyren Williams",
+     "kind": "adjacent",
+     "disposition": "MISSING",
+     "uncertainty": null,
+     "errors": [
+      "ADJACENT_COMPARISON_MISSING"
+     ]
+    },
+    {
+     "higher": "Kyren Williams",
+     "lower": "Chuba Hubbard",
+     "kind": "adjacent",
+     "disposition": "CONTRADICTS",
+     "uncertainty": "MEDIUM",
+     "errors": [
+      "PACKET_ORDERS_THE_OTHER_WAY"
+     ]
+    },
+    {
+     "higher": "Chuba Hubbard",
+     "lower": "Bhayshul Tuten",
+     "kind": "adjacent",
+     "disposition": "MISSING",
+     "uncertainty": null,
+     "errors": [
+      "ADJACENT_COMPARISON_MISSING"
+     ]
+    },
+    {
+     "higher": "Bhayshul Tuten",
+     "lower": "Jonathan Taylor",
+     "kind": "cut_line",
+     "disposition": "MISSING",
+     "uncertainty": null,
+     "errors": [
+      "ADJACENT_COMPARISON_MISSING"
+     ]
+    }
+   ]
+  },
+  {
+   "position": "WR",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Jaxon Smith-Njigba",
+    "Tee Higgins",
+    "Puka Nacua",
+    "CeeDee Lamb",
+    "Zay Flowers",
+    "Christian Watson",
+    "Drake London",
+    "Chris Olave",
+    "Ja'Marr Chase",
+    "Amon-Ra St. Brown"
+   ],
+   "first_out": "Justin Jefferson",
+   "required": 10,
+   "supports": 7,
+   "low_recorded": 3,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Jaxon Smith-Njigba",
+     "lower": "Tee Higgins",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Tee Higgins",
+     "lower": "Puka Nacua",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Puka Nacua",
+     "lower": "CeeDee Lamb",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "CeeDee Lamb",
+     "lower": "Zay Flowers",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Zay Flowers",
+     "lower": "Christian Watson",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Christian Watson",
+     "lower": "Drake London",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Drake London",
+     "lower": "Chris Olave",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Chris Olave",
+     "lower": "Ja'Marr Chase",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Ja'Marr Chase",
+     "lower": "Amon-Ra St. Brown",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Amon-Ra St. Brown",
+     "lower": "Justin Jefferson",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "TE",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Brock Bowers",
+    "George Kittle",
+    "Dalton Kincaid",
+    "Trey McBride",
+    "Sam LaPorta",
+    "T.J. Hockenson",
+    "Darnell Washington",
+    "Travis Kelce",
+    "Hunter Henry",
+    "Tucker Kraft"
+   ],
+   "first_out": "Brenton Strange",
+   "required": 10,
+   "supports": 7,
+   "low_recorded": 3,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Brock Bowers",
+     "lower": "George Kittle",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "George Kittle",
+     "lower": "Dalton Kincaid",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Dalton Kincaid",
+     "lower": "Trey McBride",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Trey McBride",
+     "lower": "Sam LaPorta",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Sam LaPorta",
+     "lower": "T.J. Hockenson",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "T.J. Hockenson",
+     "lower": "Darnell Washington",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Darnell Washington",
+     "lower": "Travis Kelce",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Travis Kelce",
+     "lower": "Hunter Henry",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Hunter Henry",
+     "lower": "Tucker Kraft",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Tucker Kraft",
+     "lower": "Brenton Strange",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "LT",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Penei Sewell",
+    "Trent Williams",
+    "Jordan Mailata",
+    "Tristan Wirfs",
+    "Garett Bolles",
+    "Dion Dawkins",
+    "Andrew Thomas",
+    "Bernhard Raimann",
+    "Alaric Jackson",
+    "Charles Cross"
+   ],
+   "first_out": "Will Campbell",
+   "required": 10,
+   "supports": 10,
+   "low_recorded": 0,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": true,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Penei Sewell",
+     "lower": "Trent Williams",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Trent Williams",
+     "lower": "Jordan Mailata",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Jordan Mailata",
+     "lower": "Tristan Wirfs",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Tristan Wirfs",
+     "lower": "Garett Bolles",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Garett Bolles",
+     "lower": "Dion Dawkins",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Dion Dawkins",
+     "lower": "Andrew Thomas",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Andrew Thomas",
+     "lower": "Bernhard Raimann",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Bernhard Raimann",
+     "lower": "Alaric Jackson",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Alaric Jackson",
+     "lower": "Charles Cross",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Charles Cross",
+     "lower": "Will Campbell",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "LG",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Quenton Nelson",
+    "Damien Lewis",
+    "Joe Thuney",
+    "Steve Avila",
+    "Peter Skoronski",
+    "Dylan Parham",
+    "Christian Mahogany",
+    "Tyler Smith",
+    "Matthew Bergeron",
+    "Ezra Cleveland"
+   ],
+   "first_out": "Isaac Seumalo",
+   "required": 10,
+   "supports": 8,
+   "low_recorded": 2,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Quenton Nelson",
+     "lower": "Damien Lewis",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Damien Lewis",
+     "lower": "Joe Thuney",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Joe Thuney",
+     "lower": "Steve Avila",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Steve Avila",
+     "lower": "Peter Skoronski",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Peter Skoronski",
+     "lower": "Dylan Parham",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Dylan Parham",
+     "lower": "Christian Mahogany",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Christian Mahogany",
+     "lower": "Tyler Smith",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Tyler Smith",
+     "lower": "Matthew Bergeron",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Matthew Bergeron",
+     "lower": "Ezra Cleveland",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Ezra Cleveland",
+     "lower": "Isaac Seumalo",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "C",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Creed Humphrey",
+    "Zach Frazier",
+    "Coleman Shelton",
+    "Juice Scruggs",
+    "Erik McCoy",
+    "Aaron Brewer",
+    "Tyler Linderbaum",
+    "Luke Wattenberg",
+    "Jake Brendel",
+    "Cooper Beebe"
+   ],
+   "first_out": "Ryan Neuzil",
+   "required": 10,
+   "supports": 8,
+   "low_recorded": 2,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Creed Humphrey",
+     "lower": "Zach Frazier",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Zach Frazier",
+     "lower": "Coleman Shelton",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Coleman Shelton",
+     "lower": "Juice Scruggs",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Juice Scruggs",
+     "lower": "Erik McCoy",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Erik McCoy",
+     "lower": "Aaron Brewer",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Aaron Brewer",
+     "lower": "Tyler Linderbaum",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Tyler Linderbaum",
+     "lower": "Luke Wattenberg",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Luke Wattenberg",
+     "lower": "Jake Brendel",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Jake Brendel",
+     "lower": "Cooper Beebe",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Cooper Beebe",
+     "lower": "Ryan Neuzil",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "RG",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Chris Lindstrom",
+    "Quinn Meinerz",
+    "Jonah Jackson",
+    "Tyler Booker",
+    "Dalton Risner",
+    "Joe Tippmann",
+    "Sam Cosmi",
+    "Mason McCormick",
+    "Trey Smith",
+    "Dominick Puni"
+   ],
+   "first_out": "Mike Onwenu",
+   "required": 10,
+   "supports": 9,
+   "low_recorded": 1,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Chris Lindstrom",
+     "lower": "Quinn Meinerz",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Quinn Meinerz",
+     "lower": "Jonah Jackson",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Jonah Jackson",
+     "lower": "Tyler Booker",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Tyler Booker",
+     "lower": "Dalton Risner",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Dalton Risner",
+     "lower": "Joe Tippmann",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Joe Tippmann",
+     "lower": "Sam Cosmi",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Sam Cosmi",
+     "lower": "Mason McCormick",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Mason McCormick",
+     "lower": "Trey Smith",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Trey Smith",
+     "lower": "Dominick Puni",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Dominick Puni",
+     "lower": "Mike Onwenu",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "RT",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Darnell Wright",
+    "Colton McKivitz",
+    "Brian O'Neill",
+    "Abraham Lucas",
+    "Joe Alt",
+    "Warren McClendon Jr.",
+    "Luke Goedeke",
+    "Armand Membou",
+    "Jermaine Eluemunor",
+    "Spencer Brown"
+   ],
+   "first_out": "Zach Bako-Bewele",
+   "required": 10,
+   "supports": 9,
+   "low_recorded": 1,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Darnell Wright",
+     "lower": "Colton McKivitz",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Colton McKivitz",
+     "lower": "Brian O'Neill",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Brian O'Neill",
+     "lower": "Abraham Lucas",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Abraham Lucas",
+     "lower": "Joe Alt",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Joe Alt",
+     "lower": "Warren McClendon Jr.",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Warren McClendon Jr.",
+     "lower": "Luke Goedeke",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Luke Goedeke",
+     "lower": "Armand Membou",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Armand Membou",
+     "lower": "Jermaine Eluemunor",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Jermaine Eluemunor",
+     "lower": "Spencer Brown",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Spencer Brown",
+     "lower": "Zach Bako-Bewele",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "REDGE",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Myles Garrett",
+    "Micah Parsons",
+    "Danielle Hunter",
+    "Abdul Carter",
+    "Josh Hines-Allen",
+    "Nik Bonitto",
+    "Chase Young",
+    "Alex Highsmith",
+    "Nick Herbig",
+    "Laiatu Latu"
+   ],
+   "first_out": "Al-Quadin Muhammad",
+   "required": 10,
+   "supports": 2,
+   "low_recorded": 1,
+   "missing": 7,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Myles Garrett",
+     "lower": "Micah Parsons",
+     "kind": "adjacent",
+     "disposition": "MISSING",
+     "uncertainty": null,
+     "errors": [
+      "ADJACENT_COMPARISON_MISSING"
+     ]
+    },
+    {
+     "higher": "Micah Parsons",
+     "lower": "Danielle Hunter",
+     "kind": "adjacent",
+     "disposition": "MISSING",
+     "uncertainty": null,
+     "errors": [
+      "ADJACENT_COMPARISON_MISSING"
+     ]
+    },
+    {
+     "higher": "Danielle Hunter",
+     "lower": "Abdul Carter",
+     "kind": "adjacent",
+     "disposition": "MISSING",
+     "uncertainty": null,
+     "errors": [
+      "ADJACENT_COMPARISON_MISSING"
+     ]
+    },
+    {
+     "higher": "Abdul Carter",
+     "lower": "Josh Hines-Allen",
+     "kind": "adjacent",
+     "disposition": "MISSING",
+     "uncertainty": null,
+     "errors": [
+      "ADJACENT_COMPARISON_MISSING"
+     ]
+    },
+    {
+     "higher": "Josh Hines-Allen",
+     "lower": "Nik Bonitto",
+     "kind": "adjacent",
+     "disposition": "MISSING",
+     "uncertainty": null,
+     "errors": [
+      "ADJACENT_COMPARISON_MISSING"
+     ]
+    },
+    {
+     "higher": "Nik Bonitto",
+     "lower": "Chase Young",
+     "kind": "adjacent",
+     "disposition": "MISSING",
+     "uncertainty": null,
+     "errors": [
+      "ADJACENT_COMPARISON_MISSING"
+     ]
+    },
+    {
+     "higher": "Chase Young",
+     "lower": "Alex Highsmith",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Alex Highsmith",
+     "lower": "Nick Herbig",
+     "kind": "adjacent",
+     "disposition": "MISSING",
+     "uncertainty": null,
+     "errors": [
+      "ADJACENT_COMPARISON_MISSING"
+     ]
+    },
+    {
+     "higher": "Nick Herbig",
+     "lower": "Laiatu Latu",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Laiatu Latu",
+     "lower": "Al-Quadin Muhammad",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "LEDGE",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Aidan Hutchinson",
+    "Will Anderson Jr.",
+    "Greg Rousseau",
+    "Maxx Crosby",
+    "DeMarcus Lawrence",
+    "T.J. Watt",
+    "Boye Mafe",
+    "Byron Young",
+    "George Karlaftis",
+    "Brian Burns"
+   ],
+   "first_out": "Tuli Tuipulotu",
+   "required": 10,
+   "supports": 5,
+   "low_recorded": 3,
+   "missing": 1,
+   "contradicts": 1,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Aidan Hutchinson",
+     "lower": "Will Anderson Jr.",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Will Anderson Jr.",
+     "lower": "Greg Rousseau",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Greg Rousseau",
+     "lower": "Maxx Crosby",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Maxx Crosby",
+     "lower": "DeMarcus Lawrence",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "DeMarcus Lawrence",
+     "lower": "T.J. Watt",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "T.J. Watt",
+     "lower": "Boye Mafe",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Boye Mafe",
+     "lower": "Byron Young",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Byron Young",
+     "lower": "George Karlaftis",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "George Karlaftis",
+     "lower": "Brian Burns",
+     "kind": "adjacent",
+     "disposition": "MISSING",
+     "uncertainty": null,
+     "errors": [
+      "ADJACENT_COMPARISON_MISSING"
+     ]
+    },
+    {
+     "higher": "Brian Burns",
+     "lower": "Tuli Tuipulotu",
+     "kind": "cut_line",
+     "disposition": "CONTRADICTS",
+     "uncertainty": "MEDIUM",
+     "errors": [
+      "PACKET_ORDERS_THE_OTHER_WAY"
+     ]
+    }
+   ]
+  },
+  {
+   "position": "DT",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Jeffery Simmons",
+    "Dexter Lawrence",
+    "Cameron Heyward",
+    "Zach Allen",
+    "Alim McNeill",
+    "Quinnen Williams",
+    "Leonard Williams",
+    "Derrick Brown",
+    "Jalen Redmond",
+    "Kobie Turner"
+   ],
+   "first_out": "Poona Ford",
+   "required": 10,
+   "supports": 8,
+   "low_recorded": 2,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Jeffery Simmons",
+     "lower": "Dexter Lawrence",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Dexter Lawrence",
+     "lower": "Cameron Heyward",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Cameron Heyward",
+     "lower": "Zach Allen",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Zach Allen",
+     "lower": "Alim McNeill",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Alim McNeill",
+     "lower": "Quinnen Williams",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Quinnen Williams",
+     "lower": "Leonard Williams",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Leonard Williams",
+     "lower": "Derrick Brown",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Derrick Brown",
+     "lower": "Jalen Redmond",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Jalen Redmond",
+     "lower": "Kobie Turner",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Kobie Turner",
+     "lower": "Poona Ford",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "MIKE",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Fred Warner",
+    "Ventrell Miller",
+    "Devin Lloyd",
+    "Omar Speights",
+    "Trenton Simpson",
+    "Dre Greenlaw",
+    "Nick Bolton",
+    "Carson Schwesinger",
+    "Sonny Styles",
+    "Jack Campbell"
+   ],
+   "first_out": "Cedric Gray",
+   "required": 10,
+   "supports": 5,
+   "low_recorded": 5,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Fred Warner",
+     "lower": "Ventrell Miller",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Ventrell Miller",
+     "lower": "Devin Lloyd",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Devin Lloyd",
+     "lower": "Omar Speights",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Omar Speights",
+     "lower": "Trenton Simpson",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Trenton Simpson",
+     "lower": "Dre Greenlaw",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Dre Greenlaw",
+     "lower": "Nick Bolton",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Nick Bolton",
+     "lower": "Carson Schwesinger",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Carson Schwesinger",
+     "lower": "Sonny Styles",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Sonny Styles",
+     "lower": "Jack Campbell",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Jack Campbell",
+     "lower": "Cedric Gray",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "WILL",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Zack Baun",
+    "Blake Cashman",
+    "Arvell Reese",
+    "Roquan Smith",
+    "Alex Singleton",
+    "Drue Tranquill",
+    "Foyesade Oluokun",
+    "Jordyn Brooks",
+    "Edgerrin Cooper",
+    "Demario Davis"
+   ],
+   "first_out": "Divine Deablo",
+   "required": 10,
+   "supports": 5,
+   "low_recorded": 5,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Zack Baun",
+     "lower": "Blake Cashman",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Blake Cashman",
+     "lower": "Arvell Reese",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Arvell Reese",
+     "lower": "Roquan Smith",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Roquan Smith",
+     "lower": "Alex Singleton",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Alex Singleton",
+     "lower": "Drue Tranquill",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Drue Tranquill",
+     "lower": "Foyesade Oluokun",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Foyesade Oluokun",
+     "lower": "Jordyn Brooks",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Jordyn Brooks",
+     "lower": "Edgerrin Cooper",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Edgerrin Cooper",
+     "lower": "Demario Davis",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Demario Davis",
+     "lower": "Divine Deablo",
+     "kind": "cut_line",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    }
+   ]
+  },
+  {
+   "position": "SAM",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Quincy Williams",
+    "Devin Bush",
+    "Isaiah McDuffie",
+    "Derrick Barnes",
+    "Dorian Williams",
+    "D'Marco Jackson",
+    "Malcolm Rodriguez",
+    "Dennis Gardeck",
+    "Noah Sewell",
+    "Leo Chenal"
+   ],
+   "first_out": "E.J. Speed",
+   "required": 10,
+   "supports": 5,
+   "low_recorded": 4,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 1,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Quincy Williams",
+     "lower": "Devin Bush",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Devin Bush",
+     "lower": "Isaiah McDuffie",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Isaiah McDuffie",
+     "lower": "Derrick Barnes",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Derrick Barnes",
+     "lower": "Dorian Williams",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Dorian Williams",
+     "lower": "D'Marco Jackson",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "D'Marco Jackson",
+     "lower": "Malcolm Rodriguez",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Malcolm Rodriguez",
+     "lower": "Dennis Gardeck",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Dennis Gardeck",
+     "lower": "Noah Sewell",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Noah Sewell",
+     "lower": "Leo Chenal",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Leo Chenal",
+     "lower": "E.J. Speed",
+     "kind": "cut_line",
+     "disposition": "INVALID",
+     "uncertainty": "MEDIUM",
+     "errors": [
+      "SAMPLE_NOT_ADEQUATE"
+     ]
+    }
+   ]
+  },
+  {
+   "position": "CB",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Trent McDuffie",
+    "Denzel Ward",
+    "Isaiah Rodgers",
+    "Jamel Dean",
+    "Jacob Parrish",
+    "Jaylen Watson",
+    "Devon Witherspoon",
+    "Quinyon Mitchell",
+    "Ja'Quan McMillian",
+    "James Pierre"
+   ],
+   "first_out": "Mike Jackson",
+   "required": 10,
+   "supports": 5,
+   "low_recorded": 5,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Trent McDuffie",
+     "lower": "Denzel Ward",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Denzel Ward",
+     "lower": "Isaiah Rodgers",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Isaiah Rodgers",
+     "lower": "Jamel Dean",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Jamel Dean",
+     "lower": "Jacob Parrish",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Jacob Parrish",
+     "lower": "Jaylen Watson",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Jaylen Watson",
+     "lower": "Devon Witherspoon",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Devon Witherspoon",
+     "lower": "Quinyon Mitchell",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Quinyon Mitchell",
+     "lower": "Ja'Quan McMillian",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Ja'Quan McMillian",
+     "lower": "James Pierre",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "James Pierre",
+     "lower": "Mike Jackson",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "FS",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Jalen Pitre",
+    "Quentin Lake",
+    "Tykee Smith",
+    "Minkah Fitzpatrick",
+    "Julian Love",
+    "Xavier McKinney",
+    "Antonio Johnson",
+    "Chuck Clark",
+    "Kevin Byard",
+    "Bryan Cook"
+   ],
+   "first_out": "Thomas Harper",
+   "required": 10,
+   "supports": 8,
+   "low_recorded": 2,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Jalen Pitre",
+     "lower": "Quentin Lake",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Quentin Lake",
+     "lower": "Tykee Smith",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Tykee Smith",
+     "lower": "Minkah Fitzpatrick",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Minkah Fitzpatrick",
+     "lower": "Julian Love",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Julian Love",
+     "lower": "Xavier McKinney",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Xavier McKinney",
+     "lower": "Antonio Johnson",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Antonio Johnson",
+     "lower": "Chuck Clark",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Chuck Clark",
+     "lower": "Kevin Byard",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Kevin Byard",
+     "lower": "Bryan Cook",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Bryan Cook",
+     "lower": "Thomas Harper",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "SS",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Evan Williams",
+    "Jessie Bates",
+    "Kyle Hamilton",
+    "Antoine Winfield Jr.",
+    "Tony Jefferson",
+    "Talanoa Hufanga",
+    "Brian Branch",
+    "Christian Roland-Wallace",
+    "Derwin James",
+    "Kamren Curl"
+   ],
+   "first_out": "Jaylinn Hawkins",
+   "required": 10,
+   "supports": 5,
+   "low_recorded": 5,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Evan Williams",
+     "lower": "Jessie Bates",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Jessie Bates",
+     "lower": "Kyle Hamilton",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Kyle Hamilton",
+     "lower": "Antoine Winfield Jr.",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Antoine Winfield Jr.",
+     "lower": "Tony Jefferson",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Tony Jefferson",
+     "lower": "Talanoa Hufanga",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Talanoa Hufanga",
+     "lower": "Brian Branch",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Brian Branch",
+     "lower": "Christian Roland-Wallace",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Christian Roland-Wallace",
+     "lower": "Derwin James",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Derwin James",
+     "lower": "Kamren Curl",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Kamren Curl",
+     "lower": "Jaylinn Hawkins",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "K",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Chase McLaughlin",
+    "Will Reichard",
+    "Ka'imi Fairbairn",
+    "Evan McPherson",
+    "Cam Little",
+    "Jason Myers",
+    "Joey Slye",
+    "Brandon Aubrey",
+    "Chris Boswell",
+    "Cameron Dicker"
+   ],
+   "first_out": "Eddy Pineiro",
+   "required": 10,
+   "supports": 6,
+   "low_recorded": 4,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Chase McLaughlin",
+     "lower": "Will Reichard",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Will Reichard",
+     "lower": "Ka'imi Fairbairn",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Ka'imi Fairbairn",
+     "lower": "Evan McPherson",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Evan McPherson",
+     "lower": "Cam Little",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Cam Little",
+     "lower": "Jason Myers",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Jason Myers",
+     "lower": "Joey Slye",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Joey Slye",
+     "lower": "Brandon Aubrey",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Brandon Aubrey",
+     "lower": "Chris Boswell",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Chris Boswell",
+     "lower": "Cameron Dicker",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Cameron Dicker",
+     "lower": "Eddy Pineiro",
+     "kind": "cut_line",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    }
+   ]
+  },
+  {
+   "position": "P",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Michael Dickson",
+    "Corliss Waitman",
+    "Jordan Stout",
+    "Daniel Whelan",
+    "Logan Cooke",
+    "Jack Fox",
+    "Tress Way",
+    "Braden Mann",
+    "J.K. Scott",
+    "Austin McNamara"
+   ],
+   "first_out": "Bryan Anger",
+   "required": 10,
+   "supports": 6,
+   "low_recorded": 4,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Michael Dickson",
+     "lower": "Corliss Waitman",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Corliss Waitman",
+     "lower": "Jordan Stout",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Jordan Stout",
+     "lower": "Daniel Whelan",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Daniel Whelan",
+     "lower": "Logan Cooke",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Logan Cooke",
+     "lower": "Jack Fox",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Jack Fox",
+     "lower": "Tress Way",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Tress Way",
+     "lower": "Braden Mann",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Braden Mann",
+     "lower": "J.K. Scott",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "J.K. Scott",
+     "lower": "Austin McNamara",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Austin McNamara",
+     "lower": "Bryan Anger",
+     "kind": "cut_line",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    }
+   ]
+  },
+  {
+   "position": "FB",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Kyle Juszczyk",
+    "Patrick Ricard",
+    "Connor Heyward",
+    "Hunter Luepke",
+    "Adam Prentice",
+    "Michael Burton",
+    "Reggie Gilliam",
+    "Alec Ingold",
+    "Andrew Beck",
+    "Scott Matlock"
+   ],
+   "first_out": "Brady Russell",
+   "required": 10,
+   "supports": 8,
+   "low_recorded": 2,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Kyle Juszczyk",
+     "lower": "Patrick Ricard",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Patrick Ricard",
+     "lower": "Connor Heyward",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Connor Heyward",
+     "lower": "Hunter Luepke",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Hunter Luepke",
+     "lower": "Adam Prentice",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Adam Prentice",
+     "lower": "Michael Burton",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Michael Burton",
+     "lower": "Reggie Gilliam",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Reggie Gilliam",
+     "lower": "Alec Ingold",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Alec Ingold",
+     "lower": "Andrew Beck",
+     "kind": "adjacent",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    },
+    {
+     "higher": "Andrew Beck",
+     "lower": "Scott Matlock",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Scott Matlock",
+     "lower": "Brady Russell",
+     "kind": "cut_line",
+     "disposition": "SUPPORTS",
+     "uncertainty": "MEDIUM",
+     "errors": []
+    }
+   ]
+  },
+  {
+   "position": "LS",
+   "proposal_status": "ANALYST_PROPOSAL_FULL_ORDER",
+   "proposed_order": [
+    "Ross Matiscik",
+    "Thomas Hennessy",
+    "Chris Stoll",
+    "William Wagner",
+    "Austin Brinkman",
+    "Andrew DePaola",
+    "Luke Rhodes",
+    "Christian Kuntz",
+    "Trent Sieg",
+    "Nick Moore"
+   ],
+   "first_out": "Joe Cardona",
+   "required": 10,
+   "supports": 0,
+   "low_recorded": 10,
+   "missing": 0,
+   "contradicts": 0,
+   "invalid": 0,
+   "engine_supportable": false,
+   "analyst_proposal_only": true,
+   "accepted_as_validated_board": false,
+   "edges": [
+    {
+     "higher": "Ross Matiscik",
+     "lower": "Thomas Hennessy",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Thomas Hennessy",
+     "lower": "Chris Stoll",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Chris Stoll",
+     "lower": "William Wagner",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "William Wagner",
+     "lower": "Austin Brinkman",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Austin Brinkman",
+     "lower": "Andrew DePaola",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Andrew DePaola",
+     "lower": "Luke Rhodes",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Luke Rhodes",
+     "lower": "Christian Kuntz",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Christian Kuntz",
+     "lower": "Trent Sieg",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Trent Sieg",
+     "lower": "Nick Moore",
+     "kind": "adjacent",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    },
+    {
+     "higher": "Nick Moore",
+     "lower": "Joe Cardona",
+     "kind": "cut_line",
+     "disposition": "LOW_RECORDED",
+     "uncertainty": "LOW",
+     "errors": [
+      "LOW_CONFIDENCE_CANNOT_MOVE_A_RANK"
+     ]
+    }
+   ]
+  }
+ ]
+}

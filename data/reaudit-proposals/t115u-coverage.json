@@ -1,0 +1,714 @@
+{
+ "order_id": "t115u",
+ "ordered_at": "2026-11-06",
+ "explicit_current_data_reaudit": true,
+ "replaces_locked_files": false,
+ "blend_window": "A comparison may declare 2026 through Week 8 as primary and completed 2025 as context, with both shares and a sourced rationale. 2025 alone cannot reorder. Shares are not a fitted league coefficient. This file has no such comparison.",
+ "requested_slot_note": "The request said 210 slots. Every locked board in this tree has 10 players, which is 220 slots, plus first-outs and external challengers.",
+ "positions_requested": 22,
+ "top10_slots": 220,
+ "first_outs": 22,
+ "challengers": 82,
+ "evidence_supported_orders": 0,
+ "evidence_gaps": 22,
+ "positions": [
+  {
+   "position": "QB",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Joe Burrow",
+    "Josh Allen",
+    "Drake Maye",
+    "Brock Purdy",
+    "Jared Goff",
+    "Dak Prescott",
+    "Jordan Love",
+    "Matthew Stafford",
+    "Lamar Jackson",
+    "Trevor Lawrence"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/QB.reaudit-20261104.json",
+   "locked_at": "2026-11-04T14:13:04Z",
+   "first_out": "Patrick Mahomes",
+   "challengers": [
+    "Patrick Mahomes",
+    "Caleb Williams",
+    "C.J. Stroud",
+    "Geno Smith",
+    "Kirk Cousins",
+    "Sam Darnold",
+    "Mac Jones",
+    "Jayden Daniels",
+    "Justin Herbert"
+   ]
+  },
+  {
+   "position": "RB",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Bijan Robinson",
+    "Kenneth Walker III",
+    "Jahmyr Gibbs",
+    "Jaylen Warren",
+    "Christian McCaffrey",
+    "James Cook",
+    "De'Von Achane",
+    "Kyren Williams",
+    "Bhayshul Tuten",
+    "Jonathan Taylor"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/RB.reaudit-20261104.json",
+   "locked_at": "2026-11-04T14:16:10Z",
+   "first_out": "Chuba Hubbard",
+   "challengers": [
+    "Chuba Hubbard",
+    "Derrick Henry",
+    "Braelon Allen",
+    "Tony Pollard",
+    "Josh Jacobs"
+   ]
+  },
+  {
+   "position": "WR",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Jaxon Smith-Njigba",
+    "Puka Nacua",
+    "Ja'Marr Chase",
+    "CeeDee Lamb",
+    "Tee Higgins",
+    "Drake London",
+    "Zay Flowers",
+    "Amon-Ra St. Brown",
+    "Justin Jefferson",
+    "Chris Olave"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/WR.reaudit-20261104.json",
+   "locked_at": "2026-11-04T19:07:07Z",
+   "first_out": "Christian Watson",
+   "challengers": [
+    "Christian Watson",
+    "Parker Washington",
+    "George Pickens",
+    "Malik Nabers",
+    "Nico Collins",
+    "Mike Evans",
+    "DeVonta Smith"
+   ]
+  },
+  {
+   "position": "TE",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Brock Bowers",
+    "George Kittle",
+    "Dalton Kincaid",
+    "Trey McBride",
+    "Sam LaPorta",
+    "T.J. Hockenson",
+    "Darnell Washington",
+    "Travis Kelce",
+    "Hunter Henry",
+    "Tucker Kraft"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/TE.reaudit-20261104b.json",
+   "locked_at": "2026-11-04T19:01:47Z",
+   "first_out": "Brenton Strange",
+   "challengers": [
+    "Brenton Strange",
+    "Isaiah Likely",
+    "Dallas Goedert",
+    "Colston Loveland",
+    "Michael Mayer",
+    "Kyle Pitts"
+   ]
+  },
+  {
+   "position": "LT",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Penei Sewell",
+    "Trent Williams",
+    "Jordan Mailata",
+    "Tristan Wirfs",
+    "Garett Bolles",
+    "Andrew Thomas",
+    "Alaric Jackson",
+    "Bernhard Raimann",
+    "Charles Cross",
+    "Dion Dawkins"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/LT.reaudit-20261104.json",
+   "locked_at": "2026-11-04T03:02:08Z",
+   "first_out": "Paris Johnson Jr.",
+   "challengers": [
+    "Paris Johnson Jr.",
+    "Will Campbell",
+    "Kolton Miller",
+    "Laremy Tunsil"
+   ]
+  },
+  {
+   "position": "LG",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Quenton Nelson",
+    "Damien Lewis",
+    "Joe Thuney",
+    "Steve Avila",
+    "Peter Skoronski",
+    "Dylan Parham",
+    "Christian Mahogany",
+    "Tyler Smith",
+    "Matthew Bergeron",
+    "Ezra Cleveland"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/LG.reaudit-20261104.json",
+   "locked_at": "2026-11-04T03:24:04Z",
+   "first_out": "Isaac Seumalo",
+   "challengers": [
+    "Isaac Seumalo",
+    "David Edwards",
+    "Alijah Vera-Tucker"
+   ]
+  },
+  {
+   "position": "C",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Creed Humphrey",
+    "Zach Frazier",
+    "Aaron Brewer",
+    "Coleman Shelton",
+    "Tyler Linderbaum",
+    "Erik McCoy",
+    "Luke Wattenberg",
+    "Ryan Neuzil",
+    "Juice Scruggs",
+    "Jake Brendel"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/C.reaudit-20261104.json",
+   "locked_at": "2026-11-04T03:35:24Z",
+   "first_out": "Cooper Beebe",
+   "challengers": [
+    "Cooper Beebe",
+    "Connor McGovern",
+    "Tanor Bortolini"
+   ]
+  },
+  {
+   "position": "RG",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Chris Lindstrom",
+    "Quinn Meinerz",
+    "Jonah Jackson",
+    "Tyler Booker",
+    "Dalton Risner",
+    "Joe Tippmann",
+    "Sam Cosmi",
+    "Trey Smith",
+    "Mason McCormick",
+    "Dominick Puni"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/RG.reaudit-20261104.json",
+   "locked_at": "2026-11-04T03:53:12Z",
+   "first_out": "Mike Onwenu",
+   "challengers": [
+    "Mike Onwenu",
+    "Kevin Dotson",
+    "Ed Ingram"
+   ]
+  },
+  {
+   "position": "RT",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Darnell Wright",
+    "Colton McKivitz",
+    "Brian O'Neill",
+    "Abraham Lucas",
+    "Joe Alt",
+    "Warren McClendon Jr.",
+    "Luke Goedeke",
+    "Armand Membou",
+    "Spencer Brown",
+    "Jermaine Eluemunor"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/RT.reaudit-20261104.json",
+   "locked_at": "2026-11-04T04:07:20Z",
+   "first_out": "Zach Bako-Bewele",
+   "challengers": [
+    "Zach Bako-Bewele",
+    "Taylor Moton",
+    "Mike McGlinchey"
+   ]
+  },
+  {
+   "position": "REDGE",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Myles Garrett",
+    "Micah Parsons",
+    "Danielle Hunter",
+    "Abdul Carter",
+    "Josh Hines-Allen",
+    "Nik Bonitto",
+    "Chase Young",
+    "Alex Highsmith",
+    "Nick Herbig",
+    "Laiatu Latu"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/REDGE.reaudit-20261104.json",
+   "locked_at": "2026-11-04T04:41:17Z",
+   "first_out": "Al-Quadin Muhammad",
+   "challengers": [
+    "Al-Quadin Muhammad",
+    "Khalil Mack",
+    "Trey Hendrickson"
+   ]
+  },
+  {
+   "position": "LEDGE",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Aidan Hutchinson",
+    "Will Anderson Jr.",
+    "Greg Rousseau",
+    "Maxx Crosby",
+    "T.J. Watt",
+    "DeMarcus Lawrence",
+    "Byron Young",
+    "George Karlaftis",
+    "Boye Mafe",
+    "Brian Burns"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/LEDGE.reaudit-20261104b.json",
+   "locked_at": "2026-11-04T19:33:20Z",
+   "first_out": "Tuli Tuipulotu",
+   "challengers": [
+    "Tuli Tuipulotu",
+    "Cameron Thomas",
+    "Gabe Jacas"
+   ]
+  },
+  {
+   "position": "DT",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Jeffery Simmons",
+    "Cameron Heyward",
+    "Quinnen Williams",
+    "Zach Allen",
+    "Dexter Lawrence",
+    "Leonard Williams",
+    "Kobie Turner",
+    "Derrick Brown",
+    "Poona Ford",
+    "Alim McNeill"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/DT.reaudit-20261104.json",
+   "locked_at": "2026-11-04T11:29:29Z",
+   "first_out": "Jalen Redmond",
+   "challengers": [
+    "Jalen Redmond",
+    "Travis Jones",
+    "DJ Reader"
+   ]
+  },
+  {
+   "position": "MIKE",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Fred Warner",
+    "Jack Campbell",
+    "Devin Lloyd",
+    "Ventrell Miller",
+    "Nick Bolton",
+    "Carson Schwesinger",
+    "Trenton Simpson",
+    "Cedric Gray",
+    "Dre Greenlaw",
+    "Omar Speights"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/MIKE.reaudit-20261104.json",
+   "locked_at": "2026-11-04T11:49:12Z",
+   "first_out": "Sonny Styles",
+   "challengers": [
+    "Sonny Styles",
+    "Jamien Sherwood",
+    "T.J. Edwards"
+   ]
+  },
+  {
+   "position": "WILL",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Zack Baun",
+    "Roquan Smith",
+    "Drue Tranquill",
+    "Jordyn Brooks",
+    "Blake Cashman",
+    "Arvell Reese",
+    "Foyesade Oluokun",
+    "Alex Singleton",
+    "Demario Davis",
+    "Edgerrin Cooper"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/WILL.reaudit-20261104.json",
+   "locked_at": "2026-11-04T11:55:40Z",
+   "first_out": "Divine Deablo",
+   "challengers": [
+    "Divine Deablo",
+    "Drake Thomas",
+    "Kaden Elliss"
+   ]
+  },
+  {
+   "position": "SAM",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Devin Bush",
+    "Isaiah McDuffie",
+    "Quincy Williams",
+    "D'Marco Jackson",
+    "Leo Chenal",
+    "Derrick Barnes",
+    "Dorian Williams",
+    "Dennis Gardeck",
+    "E.J. Speed",
+    "Malcolm Rodriguez"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/SAM.reaudit-20261104.json",
+   "locked_at": "2026-11-04T12:01:16Z",
+   "first_out": "Noah Sewell",
+   "challengers": [
+    "Noah Sewell",
+    "Jack Sanborn",
+    "Devin White"
+   ]
+  },
+  {
+   "position": "CB",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Devon Witherspoon",
+    "Trent McDuffie",
+    "Denzel Ward",
+    "Jamel Dean",
+    "Isaiah Rodgers",
+    "Quinyon Mitchell",
+    "Jaylen Watson",
+    "Mike Jackson",
+    "Ja'Quan McMillian",
+    "Jacob Parrish"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/CB.reaudit-20261104b.json",
+   "locked_at": "2026-11-04T19:35:50Z",
+   "first_out": "James Pierre",
+   "challengers": [
+    "James Pierre",
+    "DJ Turner II",
+    "Josh Wallace"
+   ]
+  },
+  {
+   "position": "FS",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Jalen Pitre",
+    "Minkah Fitzpatrick",
+    "Antonio Johnson",
+    "Julian Love",
+    "Xavier McKinney",
+    "Quentin Lake",
+    "Tykee Smith",
+    "Kevin Byard",
+    "Bryan Cook",
+    "Thomas Harper"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/FS.reaudit-20261104.json",
+   "locked_at": "2026-11-04T12:27:07Z",
+   "first_out": "Chuck Clark",
+   "challengers": [
+    "Chuck Clark",
+    "Jevon Holland",
+    "Kamren Kinchens"
+   ]
+  },
+  {
+   "position": "SS",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Kyle Hamilton",
+    "Evan Williams",
+    "Jessie Bates",
+    "Brian Branch",
+    "Derwin James",
+    "Antoine Winfield Jr.",
+    "Kamren Curl",
+    "Talanoa Hufanga",
+    "Tony Jefferson",
+    "Jaylinn Hawkins"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/SS.reaudit-20261104.json",
+   "locked_at": "2026-11-04T12:35:09Z",
+   "first_out": "Christian Roland-Wallace",
+   "challengers": [
+    "Christian Roland-Wallace",
+    "Coby Bryant",
+    "Cooper DeJean"
+   ]
+  },
+  {
+   "position": "K",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Will Reichard",
+    "Ka'imi Fairbairn",
+    "Chase McLaughlin",
+    "Evan McPherson",
+    "Cam Little",
+    "Brandon Aubrey",
+    "Jason Myers",
+    "Joey Slye",
+    "Chris Boswell",
+    "Cameron Dicker"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/K.reaudit-20261104b.json",
+   "locked_at": "2026-11-04T19:31:14Z",
+   "first_out": "Eddy Pineiro",
+   "challengers": [
+    "Eddy Pineiro",
+    "Spencer Shrader",
+    "Tyler Bass"
+   ]
+  },
+  {
+   "position": "P",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Michael Dickson",
+    "Jordan Stout",
+    "Daniel Whelan",
+    "Logan Cooke",
+    "Tress Way",
+    "Jack Fox",
+    "Austin McNamara",
+    "Corliss Waitman",
+    "J.K. Scott",
+    "Braden Mann"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/P.reaudit-20261104.json",
+   "locked_at": "2026-11-04T13:01:44Z",
+   "first_out": "Bryan Anger",
+   "challengers": [
+    "Bryan Anger",
+    "Jeremy Crawshaw",
+    "Ryan Wright"
+   ]
+  },
+  {
+   "position": "FB",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Kyle Juszczyk",
+    "Patrick Ricard",
+    "Hunter Luepke",
+    "Connor Heyward",
+    "Adam Prentice",
+    "Michael Burton",
+    "Reggie Gilliam",
+    "Alec Ingold",
+    "Andrew Beck",
+    "Scott Matlock"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/FB.reaudit-20261104.json",
+   "locked_at": "2026-11-04T04:22:39Z",
+   "first_out": "Brady Russell",
+   "challengers": [
+    "Brady Russell",
+    "Max Bredeson",
+    "DJ Herman"
+   ]
+  },
+  {
+   "position": "LS",
+   "status": "EVIDENCE_GAP",
+   "historical_order": [
+    "Ross Matiscik",
+    "Thomas Hennessy",
+    "Chris Stoll",
+    "William Wagner",
+    "Austin Brinkman",
+    "Andrew DePaola",
+    "Luke Rhodes",
+    "Christian Kuntz",
+    "Trent Sieg",
+    "Nick Moore"
+   ],
+   "historical_order_is_current": false,
+   "proposed_order": null,
+   "supported_moves": [],
+   "unverified": [],
+   "gaps": [
+    "No sourced current or blended comparison. The locked order is history and is not re-affirmed."
+   ],
+   "baseline_file": "data/baselines/LS.reaudit-20261104.json",
+   "locked_at": "2026-11-04T13:08:02Z",
+   "first_out": "Joe Cardona",
+   "challengers": [
+    "Joe Cardona",
+    "Mitchell Fraboni",
+    "Rex Sunahara"
+   ]
+  }
+ ]
+}

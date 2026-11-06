@@ -1,0 +1,79 @@
+{
+  "id": "gridiron-rating-rubric",
+  "version": "t115u",
+  "ordered_at": "2026-11-06",
+  "explicit_current_data_reaudit": true,
+  "note": "Describes the rules a current-data top-10 re-audit must satisfy. It does not assign ratings, copy a locked order forward, or treat EA or PFF grades as Gridiron attributes.",
+  "factors": [
+    {
+      "id": "evidence_window",
+      "status": "PARTIAL",
+      "source": "docs/season-phase-evidence.md",
+      "rule": "An established season keeps the current season primary and completed prior seasons as context. This re-audit accepts 2026 through Week 8 as primary plus completed 2025 as context when both shares and a sourced rationale are declared on the comparison. 2026 alone is also accepted. 2025 alone cannot reorder. Weekly QB weights are a different, QB-only blend and are not copied here.",
+      "gap": "The shares are declared per comparison. There is no fitted league-wide season coefficient, and the weekly QB weights are not that coefficient."
+    },
+    {
+      "id": "recency_vs_multiyear",
+      "status": "PARTIAL",
+      "source": "docs/season-phase-evidence.md",
+      "rule": "Current-season performance is primary. Earlier seasons are context for sustainability, injury, development, breakout, and decline. A blend must give 2026 the larger declared share. Prior context alone cannot reorder a top 10.",
+      "gap": "Locked baseline ranks still do not store the year split. The split exists only on a comparison that declares it."
+    },
+    {
+      "id": "sample_size_role",
+      "status": "PARTIAL",
+      "source": "docs/stage-engine.md",
+      "rule": "Candidate audits flag injured, free-agent, and limited-sample players. A rank change in this re-audit needs an explicit role and a declared adequate sample. The rubric does not invent a snap minimum.",
+      "gap": "No position-wide snap or play minimum is encoded. Adequacy is a sourced declaration, not a formula."
+    },
+    {
+      "id": "position_weights",
+      "status": "MISSING",
+      "source": "config/position-metrics.json",
+      "rule": "Position metrics name the stats and the attributes those stats inform. They do not weight attributes into an overall. Estimated Madden weights are not Gridiron weights and are not a Madden 27 reproduction.",
+      "gap": "There is no reproducible Gridiron formula from traits to overall or from overall to rank."
+    },
+    {
+      "id": "style_traits",
+      "status": "ENCODED",
+      "source": "src/stage-engine.ts",
+      "rule": "A rating needs style_profile and style_evidence. Mean-centred correlation at or above 0.95, or mean absolute difference at or below 3, is too similar and must be reviewed.",
+      "gap": "The check compares attribute shape. It does not prove the shape came from the style evidence."
+    },
+    {
+      "id": "pff_limits",
+      "status": "ENCODED",
+      "source": "config/position-metrics.json",
+      "rule": "PFF grades are cited evidence only, with a facet, snaps when known, a URL, and a retrieval time. A grade is not an attribute and is not a rank. Missing facet grades stay missing.",
+      "gap": "Team-table overalls are coarse. Paywalled facets are often absent, so a grade cannot separate players who share an overall."
+    },
+    {
+      "id": "uncertainty",
+      "status": "PARTIAL",
+      "source": "AGENTS.md",
+      "rule": "LOW confidence cannot become current without explicit approval. This re-audit rejects a LOW-confidence comparison as support for a move.",
+      "gap": "Locked baseline ranks do not carry a confidence or an uncertainty range."
+    },
+    {
+      "id": "scarcity",
+      "status": "ENCODED",
+      "source": "config/scarcity-rules.json",
+      "rule": "90, 95, 97, and 99 require escalating exact-trait evidence. 99 is historic or generational only. A 99 cited in a comparison needs that support in writing plus a source.",
+      "gap": "Scarcity does not by itself order two players inside the same tier."
+    },
+    {
+      "id": "tiebreaks",
+      "status": "ENCODED",
+      "source": "src/tiebreak.ts",
+      "rule": "A tie needs its own sourced pair. Locked rank, name order, and Madden overall are not tiebreaks.",
+      "gap": "Without a sourced pair the tie stays unresolved. It is not silently kept in the old order."
+    },
+    {
+      "id": "ea_not_ours",
+      "status": "ENCODED",
+      "source": "config/weekly-update.json",
+      "rule": "EA and Madden ratings are controls only. A comparison that uses them as our rating, or that cites only an EA host, is not evidence.",
+      "gap": "Variance audits still display Madden next to ours. That display is not a rank input."
+    }
+  ]
+}
