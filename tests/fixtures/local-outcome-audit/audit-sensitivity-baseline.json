@@ -1,0 +1,107 @@
+{
+  "baseline": {
+    "label": "baseline",
+    "n": 800,
+    "wp": {
+      "PHI": 0.036,
+      "DAL": 0.963,
+      "TIE": 0.001
+    },
+    "avg_phi": 5.12,
+    "avg_dal": 23.05,
+    "bark_ypc": 4.049,
+    "milton_cmp": 0.468,
+    "milton_int_avg": 1.3,
+    "dak_cmp": 0.702
+  },
+  "milton_acc_+10": {
+    "label": "milton_acc_+10_attrs",
+    "n": 800,
+    "wp": {
+      "PHI": 0.059,
+      "DAL": 0.935,
+      "TIE": 0.006
+    },
+    "avg_phi": 6.34,
+    "avg_dal": 22.21,
+    "bark_ypc": 4.042,
+    "milton_cmp": 0.53,
+    "milton_int_avg": 1.17,
+    "dak_cmp": 0.703
+  },
+  "milton_thp_77": {
+    "label": "milton_thp_77",
+    "n": 800,
+    "wp": {
+      "PHI": 0.031,
+      "DAL": 0.968,
+      "TIE": 0.001
+    },
+    "avg_phi": 4.92,
+    "avg_dal": 23.09,
+    "bark_ypc": 4.061,
+    "milton_cmp": 0.47,
+    "milton_int_avg": 1.29,
+    "dak_cmp": 0.703
+  },
+  "barkley_contact_-15": {
+    "label": "barkley_contact_-15",
+    "n": 800,
+    "wp": {
+      "PHI": 0.03,
+      "DAL": 0.969,
+      "TIE": 0.001
+    },
+    "avg_phi": 5.04,
+    "avg_dal": 23.23,
+    "bark_ypc": 3.991,
+    "milton_cmp": 0.471,
+    "milton_int_avg": 1.32,
+    "dak_cmp": 0.702
+  },
+  "phi_right_ol_+12": {
+    "label": "phi_right_ol_+12_rebuild",
+    "n": 800,
+    "wp": {
+      "PHI": 0.033,
+      "DAL": 0.966,
+      "TIE": 0.001
+    },
+    "avg_phi": 5.52,
+    "avg_dal": 22.87,
+    "bark_ypc": 4.046,
+    "milton_cmp": 0.474,
+    "milton_int_avg": 1.27,
+    "dak_cmp": 0.701
+  },
+  "quinnen_disrupt_-20": {
+    "label": "quinnen_disrupt_-20",
+    "n": 800,
+    "wp": {
+      "PHI": 0.04,
+      "DAL": 0.959,
+      "TIE": 0.001
+    },
+    "avg_phi": 5.36,
+    "avg_dal": 22.98,
+    "bark_ypc": 4.134,
+    "milton_cmp": 0.471,
+    "milton_int_avg": 1.29,
+    "dak_cmp": 0.704
+  },
+  "dak_awr_-15": {
+    "label": "dak_awr_-15",
+    "n": 800,
+    "wp": {
+      "PHI": 0.061,
+      "DAL": 0.93,
+      "TIE": 0.009
+    },
+    "avg_phi": 5.62,
+    "avg_dal": 20.35,
+    "bark_ypc": 4.004,
+    "milton_cmp": 0.477,
+    "milton_int_avg": 1.3,
+    "dak_cmp": 0.668
+  }
+}

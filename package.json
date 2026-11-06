@@ -52,6 +52,7 @@
     "weekly:propose": "tsx src/weekly-update.ts propose",
     "weekly:validate": "tsx src/weekly-update.ts validate",
     "madden:ovr-check": "tsx src/madden-ovr-check.ts",
+    "outcome:audit": "tsx src/rating-outcome-report.ts",
     "ingame:scaffold": "tsx src/ingame-validation.ts"
   },
   "dependencies": {

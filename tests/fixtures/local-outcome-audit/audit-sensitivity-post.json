@@ -1,0 +1,114 @@
+{
+  "baseline": {
+    "label": "post_baseline",
+    "n": 800,
+    "wp": {
+      "PHI": 0.166,
+      "DAL": 0.826,
+      "TIE": 0.007
+    },
+    "avg_phi": 12.22,
+    "avg_dal": 23.8,
+    "bark_ypc": 5.63,
+    "bark_ypc_sd": 0.812,
+    "milton_cmp": 0.479,
+    "milton_int_avg": 0.79,
+    "dak_cmp": 0.697
+  },
+  "milton_acc_+10": {
+    "label": "post_milton_acc_+10",
+    "n": 800,
+    "wp": {
+      "PHI": 0.189,
+      "DAL": 0.801,
+      "TIE": 0.01
+    },
+    "avg_phi": 13.61,
+    "avg_dal": 23.54,
+    "bark_ypc": 5.6,
+    "bark_ypc_sd": 0.802,
+    "milton_cmp": 0.547,
+    "milton_int_avg": 0.79,
+    "dak_cmp": 0.697
+  },
+  "milton_thp_77": {
+    "label": "post_milton_thp_77",
+    "n": 800,
+    "wp": {
+      "PHI": 0.165,
+      "DAL": 0.831,
+      "TIE": 0.004
+    },
+    "avg_phi": 12.16,
+    "avg_dal": 23.93,
+    "bark_ypc": 5.626,
+    "bark_ypc_sd": 0.795,
+    "milton_cmp": 0.478,
+    "milton_int_avg": 0.78,
+    "dak_cmp": 0.701
+  },
+  "barkley_contact_-15": {
+    "label": "post_barkley_contact_-15",
+    "n": 800,
+    "wp": {
+      "PHI": 0.151,
+      "DAL": 0.84,
+      "TIE": 0.009
+    },
+    "avg_phi": 11.44,
+    "avg_dal": 24.22,
+    "bark_ypc": 5.412,
+    "bark_ypc_sd": 0.768,
+    "milton_cmp": 0.478,
+    "milton_int_avg": 0.75,
+    "dak_cmp": 0.7
+  },
+  "phi_right_ol_+12": {
+    "label": "post_phi_right_ol_+12",
+    "n": 800,
+    "wp": {
+      "PHI": 0.184,
+      "DAL": 0.807,
+      "TIE": 0.009
+    },
+    "avg_phi": 12.9,
+    "avg_dal": 23.45,
+    "bark_ypc": 5.715,
+    "bark_ypc_sd": 0.802,
+    "milton_cmp": 0.477,
+    "milton_int_avg": 0.83,
+    "dak_cmp": 0.697
+  },
+  "quinnen_disrupt_-20": {
+    "label": "post_quinnen_disrupt_-20",
+    "n": 800,
+    "wp": {
+      "PHI": 0.176,
+      "DAL": 0.81,
+      "TIE": 0.014
+    },
+    "avg_phi": 13.02,
+    "avg_dal": 23.57,
+    "bark_ypc": 5.801,
+    "bark_ypc_sd": 0.784,
+    "milton_cmp": 0.478,
+    "milton_int_avg": 0.81,
+    "dak_cmp": 0.699
+  },
+  "dak_awr_-15": {
+    "label": "post_dak_awr_-15",
+    "n": 800,
+    "wp": {
+      "PHI": 0.236,
+      "DAL": 0.752,
+      "TIE": 0.011
+    },
+    "avg_phi": 12.84,
+    "avg_dal": 20.58,
+    "bark_ypc": 5.644,
+    "bark_ypc_sd": 0.788,
+    "milton_cmp": 0.475,
+    "milton_int_avg": 0.8,
+    "dak_cmp": 0.644
+  }
+}
