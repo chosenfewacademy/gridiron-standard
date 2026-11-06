@@ -292,7 +292,9 @@ export function runRosterDbTests(test: T): void {
       const seeded = seedRoster(db, { root, season: 2026 });
       assert.deepEqual(watched.map(stamp), before, "seed must not write locks, baselines, registry, or AGENTS.md");
       const registry = JSON.parse(fs.readFileSync(path.join(root, "data/players/registry.json"), "utf8"));
-      assert.equal(seeded.players, registry.players.length + 3);
+      // PHI canonical adds Joe Milton, Jaydon Blue, and the Eagles Byron Young.
+      // Dallas canonical adds six depth players who are not in the registry.
+      assert.equal(seeded.players, registry.players.length + 9);
       assert.equal(seeded.teams, 32);
       assert.equal(seeded.positions, 22);
       assert.ok(seeded.rating_cards > 100);
